@@ -971,6 +971,7 @@ input.validate.bigsearch.autocomplete::placeholder {
     display: grid;
     opacity: 1;
     position: fixed;
+	z-index: 1;
 }
 
 .input-field label {
@@ -1431,7 +1432,7 @@ div#box_snap_install {
     min-height: 81%;
 }
 
-#content_aur_install, #content_flatpak_install, #content_snap_install { 
+#content_aur_install, #content_flatpak_install, #content_snap_install #content_appstream_install { 
     display: inline-block;
     flex-flow: wrap;
     align-items: center;
@@ -1440,13 +1441,6 @@ div#box_snap_install {
     margin-top: -30px;
 }
 
-#content_appstream_install { 
-    display: inline-block;
-    flex-flow: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
 
 div#title_aur_install {
     position: sticky;
@@ -1463,7 +1457,7 @@ div#title_appstream_install {
     float: right;
     padding-top: 0px;
     padding-right: 20px;
-    margin-bottom: 4px;
+    margin-bottom: -28px;
 }
 
 div#title_flatpak_install {
