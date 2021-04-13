@@ -1,0 +1,36 @@
+#!/bin/bash
+#
+# BigLinux Store 
+# www.biglinux.com.br
+# By Bruno Gonçalves
+# 11/01/2020
+# License: GPL v2 or greater
+
+source header.sh.htm
+
+
+#####################
+#Show category in first page
+#####################
+
+
+    echo '<div id=box_index_category>'
+    echo '<div id=box_info_index>'
+
+    echo '<div class=info_box>'
+    echo '<div class=category_title_index>'
+    echo $"Pacotes Snap Instalados clique no pacote para remover"
+    echo '</div>'
+
+if [ "$pkg_remove" = "y" ]; then
+    ACTION="remove_snap" PACKAGE_NAME="$pkg_name" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+fi
+    
+
+for i  in  $(snap list | cut -f1 -d" " | tail -n +2 ); do
+    echo "<a href=info_snap.sh.htm?pkg_name=$i&pkg_remove=y>$i</a><br>"
+done
+
+
+# Finish him
+echo '</div></body></html>'

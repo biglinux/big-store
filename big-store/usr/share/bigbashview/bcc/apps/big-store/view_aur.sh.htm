@@ -1,0 +1,53 @@
+#!/bin/bash
+#
+# BigLinux Store 
+# www.biglinux.com.br
+# By Bruno Gonçalves
+# 11/01/2020
+# License: GPL v2 or greater
+
+HOME_FOLDER="$HOME/.bigstore"
+TMP_FOLDER="/tmp/bigstore"
+
+if [ "$pkg_install" = "y" ]; then
+    ./run_pamac_installer --build $pkg_name
+    echo "" > ${TMP_FOLDER}/upgradeable.txt
+    pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
+fi
+
+if [ "$pkg_remove" = "y" ]; then
+    ./run_pamac_installer --remove $pkg_name $(LC_ALL=C timeout 10s pamac remove -od "$pkg_name" | grep "^  " | cut -f3 -d" ")
+    echo "" > ${TMP_FOLDER}/upgradeable.txt
+    pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
+fi
+
+source header.sh.htm
+
+LANG=C pacman -Qi $pkg_name > "${TMP_FOLDER}/pacman_pkg_cache.txt"
+# Run script with complementary content
+./view_aur.py "$pkg_name"
+
+echo "<script>runAvatarAur();</script>"
+
+        
+echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
+echo '<div id="files_in_package">
+<div id="preloader-align">
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>'
+echo '</div><div class="modal-footer"><a href="#!" class="modal-close waves-effect waves-green btn-flat">' $"Fechar" '</a></div></div>'
+  
+echo "<script>\$(document).ready(function(){
+    \$('.modal').modal();
+  });</script>"

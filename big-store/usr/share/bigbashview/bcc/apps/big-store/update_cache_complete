@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# BigLinux Store 
+# www.biglinux.com.br
+# By Bruno Gonçalves
+# 11/01/2020
+# License: GPL v2 or greater
+
+mkdir -p ~/.bigstore
+
+#./update_cache_autocomplete_apt
+#./update_cache_dpkg
+#./update_cache_appstream
+#./update_cache_apt
+#./update_cache_autocomplete_appstream
+if [ -e "/usr/lib/libpamac-flatpak.so" ]; then
+    ./update_cache_flatpak
+fi
+
+if [ -e "/usr/lib/libpamac-snap.so" ]; then
+    ./update_cache_snap
+fi

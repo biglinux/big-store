@@ -1,0 +1,9 @@
+bigbashview
+jq
+awk
+sed
+cut
+yay
+pamac
+rxvt-unicode
+xorg-xwininfo ( para o xtermset )

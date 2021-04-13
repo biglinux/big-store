@@ -1,0 +1,15 @@
+curl "https://aur.archlinux.org/rpc/?v=5&type=info&arg=google-chrome"
+
+
+
+jq -r '.results."clickindex:package"[]| .title + "|" + .snap_id + "|" + .media[0].url + "|" + .summary + "|" + .version + "|" + .package_name + "|"' aur.txt
+
+
+jq -r '.results' aur.txt | sed 's|.*page=||g;s|"||g' | grep [0-9]
+
+
+
+jq -r '.results[]| .ID, "|", .Name, "|", .PackageBaseID, "|", .PackageBase, "|", .Version, "|", .Description, "|"' aur.txt
+
+
+jq -r '.results[]| .ID, "|", .Name, "|", .PackageBaseID, "|", .PackageBase, "|", .Version, "|", .Description, "|", .URL, "|", .NumVotes, "|", .Popularity, "|", .OutOfDate, "|", .Maintainer, "|", .FirstSubmitted, "|", .LastModified, "|", .URLPath, "|", .Depends, "|", .MakeDepends, "|", .OptDepends, "|", .CheckDepends, "|", .Conflicts, "|", .Provides, "|", .Replaces, "|", .Groups, "|", .License, "|", .Keywords, "|"' aur.txt | tr '\n' ' '

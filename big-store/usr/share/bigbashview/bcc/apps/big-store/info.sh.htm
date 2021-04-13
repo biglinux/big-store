@@ -1,0 +1,96 @@
+#!/bin/bash
+#
+# BigLinux Store 
+# www.biglinux.com.br
+# By Bruno Gonçalves
+# 11/01/2020
+# License: GPL v2 or greater
+
+source header.sh.htm
+
+
+#####################
+#Show category in first page
+#####################
+
+
+
+    echo '<div id=box_index_category>'
+    echo '<div id=box_info_index>'
+
+    echo '<div class=info_box>'
+    echo '<div class=category_title_index>'
+        echo $"Sistema"
+        echo '</div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Instalado na partição:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $1}')" '</div></div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Tamanho da partição:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $2}')" '</div></div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Espaço utilizado:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $3}')" '</div></div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Espaço livre:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $4}')" '</div></div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Data de instlalação do sistema:" '</div><div class="gridRightInfo">' "$(ls -lct /etc | tail -1 | awk '{print $6, $7, $8}')" '</div></div>'
+    echo '</div>'
+
+
+    echo '<div class=info_box>'
+    echo '<div class=category_title_index>'
+    echo $"Pacotes nativos e AUR"
+    echo '</div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Instalados:"  '</div><div class="gridRightInfo">' $(pacman -Qq | wc -l) '</div></div>'
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Disponíveis:" '</div><div class="gridRightInfo">'  $(pacman -Sl | wc -l) '</div></div>'
+    echo '</div>'
+
+    echo '<div class=info_box>'
+    echo '<div class=category_title_index>'
+    echo $"Pacotes Flatpak"
+    echo '</div>'
+
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Instalados:" '</div><div class="gridRightInfo">'  $(flatpak list | wc -l) '</div></div>'
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Disponíveis:" '</div><div class="gridRightInfo">'  $(cat ~/.bigstore/flatpak.cache | wc -l) '</div></div>'
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Repositórios configurados:" '</div><div class="gridRightInfo">'  $(flatpak remotes | cut -f1) '</div></div>'
+    echo '</div>'
+
+    
+    echo '<div class=info_box>'
+    echo '<div class=category_title_index>'
+    echo $"Pacotes Snap"
+    echo '</div>'
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Instalados:" '</div><div class="gridRightInfo">'  "$(echo "$(snap list | wc -l) - 1" | bc)" '</a></div></div>'
+    echo '<div class="grid-container">'
+    echo '<div class="gridLeft">'
+    echo $"Disponíveis:" '</div><div class="gridRightInfo">'  "$(cat ~/.bigstore/snap.cache | wc -l)" '</div></div>'
+#echo '<div class="info_link"><a href="info_snap.sh.htm">' $"Clique aqui para ver a lista dos pacotes instalados." '</div>'
+    echo '</div>'
+    
+
+
+
+
+# Finish him
+echo '</div></body></html>'

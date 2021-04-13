@@ -1,0 +1,336 @@
+#!/bin/bash
+#
+# BigLinux Store 
+# www.biglinux.com.br
+# By Bruno Gonçalves
+# 11/01/2020
+# License: GPL v2 or greater
+
+# folders
+HOME_FOLDER="$HOME/.bigstore"
+TMP_FOLDER="/tmp/bigstore"
+
+ABOUT_APPSTREAM=$"
+Programas Nativos são melhor integrados ao sistema<br>
+e passam por mais testes antes de serem disponibilizados,<br>
+portanto é a melhor opção quando o programa que você<br>
+deseja está disponível em mais de um tipo de instalação.<br>"
+
+ABOUT_AUR=$"
+Programas Aur são facilitadores criados pelos próprios<br>
+usuários para instalar programas que não estão disponíveis<br>
+diretamente para o sistema, fazendo o download, conversão<br>
+e instalação de forma automática, portanto, ao instalar um<br>
+programa Aur, ele se torna um programa nativo. Geralmente<br>
+os programas instalados por esse método funcionam<br>
+corretamente, mas não passam pelos mesmos testes feitos<br>
+com os programas realmente nativos."
+
+ABOUT_FLATPAK=$"
+Programas Flatpak, são disponibilizados para todas as<br>
+distribuições Linux, geralmente são mantidos pelos próprios<br>
+criadores dos programas, porém, não possuem algumas<br>
+otimizações e integrações com o sistema, como ocorre com<br>
+os programas nativos, essa pode ser uma boa alternativa<br>
+para quem tem computadores que possuem boa capacidade<br>
+de processamento e armazenamento."
+
+ABOUT_SNAP=$"Programas Snap, assim como o Flatpak<br>
+disponibiliza programas para todas as distribuições Linux.<br>
+Tende a ser mais pesado e menos integrado ao sistema, mas<br>
+se o programa que você procura está disponível apenas neste<br>
+formato, utilize-o."
+
+#refrash installed packages
+#pacman -Qqe > ${TMP_FOLDER}/installed.txt
+
+#refrash installed packages AUR
+# pacman -Qm > ${TMP_FOLDER}/installedAur.txt
+
+# Load theme and essential files
+## portuguese
+# Carrega o tema e arquivos essenciais
+cat << EOF
+<meta charset="utf-8">
+    <script type="text/javascript" src="/usr/share/bigbashview/bcc/materialize/js/jquery.js"></script>
+    <script type="text/javascript" src="/usr/share/bigbashview/bcc/materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="/usr/share/bigbashview/bcc/js/big.js"></script>
+    <script type="text/javascript" src="js/autocomplete.js"></script>
+    <script type="text/javascript" src="js/bigstore.js"></script>
+    
+<link href="fontawesome/css/all.css" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" type="text/css" href="/usr/share/bigbashview/bcc/materialize/css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/appstream.css">
+    <title>Big-Store</title>
+<html>
+<body>
+
+EOF
+
+
+# Uncomment to debug in terminal
+## portuguese
+# Remova o comentário para fazer testes no terminal
+#search=a
+
+# Text of search input box
+## portuguese
+# Texto do campo de busca
+TYPE_SEARCH=$"Digite aqui o nome do programa!"
+
+# Loading
+echo '<div id=box_progress><div id=progress_loading>
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div></div>'
+
+
+# Show logo
+## portuguese
+# Exibe o logo
+
+
+# Save search query
+echo "$search" > "${TMP_FOLDER}/query.txt"
+
+# Header
+## portuguese
+# Cabeçalho
+
+echo "<div id=goleft><a href=\"javascript:history.back()\"><img id=goLeft src=img/left.png class=tooltipped data-position=right data-tooltip=\"<br>$langGoLeft<br><br>\"></a></div></div></div></div>"
+echo "<script>if (history.length > 1 && document.referrer) {\$('#goleft').css({'display':'block'});}</script>"
+
+echo "<div id=header>"
+echo '<div id=header_left><a href=index.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-home"></i></span><div class=icon_text_header>Início</div></div></a>
+        ' "<a class=clickpointer onclick=\"_run('pamac-manager --updates')\" "'><div class=icon_top><span class=header_font_icon><i class="fas fa-sync"></i></span><div class=icon_text_header>Atualizações</div></div></a>
+</div>'
+
+
+
+echo '<div id=search>'
+echo "<center><form action=\"index.sh.htm\" method=\"post\" id=\"formsearch\" onsubmit=\"disableBody();\">"
+
+# Search box
+## portuguese
+# Campo de busca
+cat << EOF
+    <div class="input-field search_input">
+    <input value="$search" placeholder="$TYPE_SEARCH" name="search" type="text" class="validate bigsearch autocomplete">
+    <input type="image" src="/usr/share/bigbashview/bcc/apps/big-store/img/search.png" border="0" alt="Procurar" />
+EOF
+echo '</label></div>'
+echo "</form>"
+
+
+
+#APPSTREAM
+if [ -e "${HOME_FOLDER}/hide_appstream" ]; then
+    appstream_checkbox=""
+    if [ "$appstream_change" = "y" ]; then
+        rm -f "${HOME_FOLDER}/hide_appstream"
+        appstream_checkbox="checked"
+    fi
+else
+    appstream_checkbox="checked"
+    if [ "$appstream_change" = "y" ]; then
+        echo "" > "${HOME_FOLDER}/hide_appstream"
+        appstream_checkbox=""
+    fi
+fi
+
+#AUR
+if [ -e "${HOME_FOLDER}/hide_aur" ]; then
+    aur_checkbox=""
+    if [ "$aur_change" = "y" ]; then
+        rm -f "${HOME_FOLDER}/hide_aur"
+        aur_checkbox="checked"
+    fi
+else
+    aur_checkbox="checked"
+    if [ "$aur_change" = "y" ]; then
+        echo "" > "${HOME_FOLDER}/hide_aur"
+        aur_checkbox=""
+    fi
+fi
+
+#FLATPAK
+if [ -e "/usr/lib/libpamac-flatpak.so" ]; then
+    if [ -e "${HOME_FOLDER}/hide_flatpak" ]; then
+        flatpak_checkbox=""
+        if [ "$flatpak_change" = "y" ]; then
+            rm -f "${HOME_FOLDER}/hide_flatpak"
+            flatpak_checkbox="checked"
+        fi
+    else
+        flatpak_checkbox="checked"
+        if [ "$flatpak_change" = "y" ]; then
+            echo "" > "${HOME_FOLDER}/hide_flatpak"
+            flatpak_checkbox=""
+        fi
+    fi
+else
+    DISABLE_FLATPAK="y"
+fi
+
+#SNAP
+if [ -e "/usr/lib/libpamac-snap.so" ]; then
+    if [ -e "${HOME_FOLDER}/hide_snap" ]; then
+        snap_checkbox=""
+        if [ "$snap_change" = "y" ]; then
+            rm -f "${HOME_FOLDER}/hide_snap"
+            snap_checkbox="checked"
+        fi
+    else
+        snap_checkbox="checked"
+        if [ "$snap_change" = "y" ]; then
+            echo "" > "${HOME_FOLDER}/hide_snap"
+            snap_checkbox=""
+        fi
+    fi
+else
+    DISABLE_SNAP="y"
+fi
+
+
+        echo '</div>'
+        
+        echo '<div id=header_right>
+        <a href=config.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-wrench"></i></span><div class=icon_text_header>Configurações</div></div></a>
+        <a href=info.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-info-circle"></i></span><div class=icon_text_header>Informações</div></div></a>'
+        echo "</div></div>"
+        
+        echo '<div id=count>'
+
+            echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?appstream_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_APPSTREAM\">"
+            echo '<div class="switch"><label><input type="checkbox"' "$appstream_checkbox "'><span class="lever"></span>Nativos <div id=appstream_number></div></label></div>'
+            echo '</div>'
+
+            echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?aur_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_AUR\">"
+            echo '<div class="switch"><label><input type="checkbox"' "$aur_checkbox "'><span class="lever"></span>Aur <div id=aur_icon_loading></div><div id=aur_number></div></label></div>'
+            echo '</div>'
+
+if [ "$DISABLE_FLATPAK" != "y" ]; then
+            echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?flatpak_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_FLATPAK\">"
+            echo '<div class="switch"><label><input type="checkbox"' "$flatpak_checkbox "'><span class="lever"></span>Flatpak <div id=flatpak_number></div></label></div>'
+            echo '</div>'
+fi
+
+if [ "$DISABLE_SNAP" != "y" ]; then
+            echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?snap_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_AUR\">"
+            echo '<div class="switch"><label><input type="checkbox"' "$snap_checkbox "'><span class="lever"></span>Snap <div id=snap_number></div></label></div>'
+            echo '</div>'
+fi
+
+            echo '</div></div>'
+
+
+# Verify if any word is searched
+## portuguese
+# Verifica que alguma palavra foi digitada na busca
+    if [ "${#search}" -ge "2" ]; then
+
+    echo '<div class="row center" id="flex">'
+
+
+    # Show results from search
+    ## portuguese
+    # Exibe o resultado das buscas
+
+
+        if [ "$appstream_checkbox" = "checked" ]; then
+                rm -f "${TMP_FOLDER}/appstream_number.html"
+                  echo '<div id=box_appstream>'
+                        echo '<div id=title_appstream>'
+                            echo "<div id=button_appstream class=\"tooltipped\" data-position=\"left\" data-tooltip=\"$ABOUT_APPSTREAM\">"
+                                echo $"Programas Nativos"
+                            echo '</div>'
+                        echo '</div>'
+                        echo '<div id=content_appstream>'
+
+                                # sync mode
+                                echo "" > ${TMP_FOLDER}/upgradeable.txt
+                                pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
+                                ./search_appstream_pamac.py "${search,,}"
+
+                                # async mode
+                                #rm -f ${TMP_FOLDER}/appstream.html
+                                 #./search_appstream_pamac.sh "$search" 
+                                #echo "<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html');</script>"
+                                echo "<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html');runAvatarAppstream();</script>"
+                        echo '</div>'
+                  echo '</div>'
+          fi
+
+
+        if [ "$aur_checkbox" = "checked" ]; then
+                  rm -f "${TMP_FOLDER}/aur_number.html"
+                    echo '<div id=box_aur>'
+                        echo '<div id=title_aur>'
+                            echo "<div id=button_aur class=\"tooltipped\" data-position=\"left\" data-tooltip=\"$ABOUT_AUR\">"
+                                echo $"Programas AUR"
+                            echo '</div>'
+                        echo '</div>'
+                  echo '<div id=content_aur>'
+                  rm -f ${TMP_FOLDER}/aur.html
+                #Loading icon
+                echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
+                # Search
+                  ./search_aur.sh "${search,,}"  > /dev/null 2>&1 &
+                  echo "<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>"
+                  echo "<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>"
+                        echo '</div>'
+                  echo '</div>'
+          fi
+          
+
+        if [ "$flatpak_checkbox" = "checked" ]; then
+                rm -f "${TMP_FOLDER}/flatpak_number.html"
+                  echo '<div id=box_flatpak>'
+                        echo '<div id=title_flatpak>'
+                            echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"left\" data-tooltip=\"$ABOUT_AUR\">"
+                                echo $"Programas Flatpak"
+                            echo '</div>'
+                        echo '</div>'
+            echo '<div id=content_flatpak>'
+            rm -f ${TMP_FOLDER}/flatpak.html
+            ./search_flatpak.sh "${search,,}"  > /dev/null 2>&1 &
+            echo "<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>"
+            echo "<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>"
+            #cat ${TMP_FOLDER}/flatpak.html | sort
+                        echo '</div>'
+                  echo '</div>'
+        fi
+
+
+        if [ "$snap_checkbox" = "checked" ]; then
+                rm -f "${TMP_FOLDER}/snap_number.html"
+                  echo '<div id=box_snap>'
+                        echo '<div id=title_snap>'
+                            echo "<div id=button_snap class=\"tooltipped\" data-position=\"left\" data-tooltip=\"$ABOUT_AUR\">"
+                                echo $"Programas Snap"
+                            echo '</div>'
+                        echo '</div>'
+            echo '<div id=content_snap>'
+            rm -f ${TMP_FOLDER}/snap.html
+            ./search_snap.sh "${search,,}"  > /dev/null 2>&1 &
+            echo "<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>"
+            echo "<script>fileReplaceDiv(true, '#snap_number', '${TMP_FOLDER}/snap_number.html');</script>"
+            #cat ${TMP_FOLDER}/snap.html | sort
+                        echo '</div>'
+                  echo '</div>'
+        fi
+
+fi
+
+
+

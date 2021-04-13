@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep "|$1|" ~/.bigstore/flatpak.cache | cut -f7 -d"|"
