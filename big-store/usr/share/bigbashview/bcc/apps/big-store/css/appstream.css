@@ -864,8 +864,8 @@ align-items: center;
 div#title {
     align-items: center;
     display: flex;
-	margin-left: 50px;
-	margin-right: 50px;
+    margin-left: 185px;
+    margin-right: 185px;
 }
 
 div#titleName {
@@ -1432,7 +1432,7 @@ div#box_snap_install {
     min-height: 81%;
 }
 
-#content_aur_install, #content_flatpak_install, #content_snap_install #content_appstream_install { 
+#content_aur_install, #content_flatpak_install, #content_snap_install, #content_appstream_install { 
     display: inline-block;
     flex-flow: wrap;
     align-items: center;
