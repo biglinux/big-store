@@ -31,7 +31,7 @@ for p in data['results']:
     else:
         print ('<div id=description>', p['Description'], '</div></div>')
     print ('<div class="row center">')
-    pkg_installed = subprocess.run(["pacman", "-Qs", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    pkg_installed = subprocess.run(["pacman", "-Q", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
     if pkg_installed.stdout:
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>')

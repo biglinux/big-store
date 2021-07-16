@@ -148,7 +148,7 @@ if [ "$category" = "browser" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
     LANG_PKG="firefox-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "brave firefox $LANG_PKG opera vivaldi chromium falkon palemoon-bin epiphany google-chrome"
+    APPSTREAM_CATEGORY "firefox $LANG_PKG opera vivaldi chromium falkon palemoon-bin epiphany brave-bin google-chrome"
     AUR_CATEGORY
 fi
 
@@ -221,7 +221,7 @@ fi
 if [ "$category" = "network" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "wireshark-qt ipscan gnome-nettool"
+    APPSTREAM_CATEGORY "wireshark-qt ipscan gnome-nettool mtr-gtk"
     #AUR_CATEGORY ""
 fi
 

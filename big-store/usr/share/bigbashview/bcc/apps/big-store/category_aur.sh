@@ -17,7 +17,7 @@ for i  in  $(LANG=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Description |
     TITLE="$(echo "$i" | cut -f1 -d"|")"
     VERSION="$(echo "$i"| cut -f2 -d"|")"
     DESCRIPTION="$(echo "$i" | cut -f3 -d"|")"
-    INSTALLED="$(pacman -Qsq $TITLE)"
+    INSTALLED="$(pacman -Q "$TITLE" 2> /dev/null)"
     echo "<a onclick=\"disableBody();\" href=\"view_aur.sh.htm?pkg_name=$TITLE\">" >> ${TMP_FOLDER}/aurbuild.html
     echo '<div class="col s12 m6 l3"' >> ${TMP_FOLDER}/aurbuild.html
     if [ "$INSTALLED" = "" ]; then

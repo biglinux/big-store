@@ -23,4 +23,6 @@ mkdir -p "$TMP_FOLDER"
 # Save dynamic screenshot resolution
 echo "$(xrandr | grep primary | sed 's|.*primary ||g;s|+.*||g;s|.*x||g') / 2" | bc > ${TMP_FOLDER}/screenshot-resolution.txt
 
+/usr/share/bigbashview/bcc/apps/big-store/update_cache_flatpak &
+
 bigbashview -w maximized index.sh.htm -i img/icon.png
