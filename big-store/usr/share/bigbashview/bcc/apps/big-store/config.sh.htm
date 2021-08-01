@@ -6,8 +6,17 @@
 # 11/01/2020
 # License: GPL v2 or greater
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+
+
 if [ "$pkg_install" != "" ]; then
     ./run_pamac_installer $pkg_name
+    if [ "$pkg_install" = "pamac-flatpak-plugin" ]; then
+        systemctl start snapd
+        systemctl enable snapd
+    fi
     echo "" > ${TMP_FOLDER}/upgradeable.txt
     pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
 fi
@@ -19,11 +28,19 @@ if [ "$pkg_remove" != "" ]; then
 fi
 
 if [ "$update_pacman" = "y" ]; then
-    ACTION="update_pacman" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="update_pacman" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 if [ "$update_mirror" = "y" ]; then
-    ACTION="update_mirror" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="update_mirror" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+fi
+
+if [ "$update_keys" = "y" ]; then
+    ACTION="update_keys" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+fi
+
+if [ "$force_upgrade" = "y" ]; then
+    ACTION="force_upgrade" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 # Loading
@@ -51,7 +68,7 @@ else
     echo '<a href=config.sh.htm?pkg_install=y&pkg_name=pamac-flatpak-plugin>' $"Suporte a Flatpak NÃO está ativo, clque aqui para ativar." '</a>'
 fi
 
-echo "<p>"
+echo "<br><br><br>"
 
 #SNAP
 if [ -e "/usr/lib/libpamac-snap.so" ]; then
@@ -60,13 +77,27 @@ else
     echo '<a href=config.sh.htm?pkg_install=y&pkg_name=pamac-snap-plugin>' $"Suporte a Snap NÃO está ativo, clque aqui para ativar." '</a>'
 fi
 
-echo "<p>"
+echo "<br><br><br>"
 echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_pacman=y">' $"Atualizar cache dos repositórios nativos." '</a>'
 
-echo "<p>"
+echo "<br><br><br>"
 echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_mirror=y">' $"Procurar o servidor de repositórios nativos mais rápido no momento." '</a>'
 
+echo '<br><br><br>'
 
+
+echo '<div class=category_title_index>'
+echo $"Utilize as opções a seguir com cautela:"
+echo '</div>'
+
+
+echo "<br><br><br>"
+echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_keys=y">' $"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou repositórios complementares será necessário adicionar as chaves desses repositórios novamente." '</a>'
+
+echo "<br><br><br>"
+echo '<a onclick="disableBodyConfig();" href="config.sh.htm?force_upgrade=y">' $"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na atualização forçada alguns programas podem ser removidos." '</a>'
+
+echo "<br><br><br>"
 
 # Finish him
 echo '</div></body></html>'

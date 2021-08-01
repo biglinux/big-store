@@ -6,6 +6,11 @@
 # 11/01/2020
 # License: GPL v2 or greater
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+
+
 source header.sh.htm
 
 
@@ -74,7 +79,9 @@ source header.sh.htm
     echo $"Repositórios configurados:" '</div><div class="gridRightInfo">'  $(flatpak remotes | cut -f1) '</div></div>'
     echo '</div>'
 
-    
+
+
+if [[ $(ps -e | grep snapd) ]] ; then
     echo '<div class=info_box>'
     echo '<div class=category_title_index>'
     echo $"Pacotes Snap"
@@ -87,7 +94,7 @@ source header.sh.htm
     echo $"Disponíveis:" '</div><div class="gridRightInfo">'  "$(cat ~/.bigstore/snap.cache | wc -l)" '</div></div>'
 #echo '<div class="info_link"><a href="info_snap.sh.htm">' $"Clique aqui para ver a lista dos pacotes instalados." '</div>'
     echo '</div>'
-    
+fi    
 
 
 

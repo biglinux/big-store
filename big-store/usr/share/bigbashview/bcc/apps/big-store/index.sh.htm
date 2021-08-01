@@ -6,6 +6,11 @@
 # 11/01/2020
 # License: GPL v2 or greater
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+
+
 source header.sh.htm
 
 
@@ -54,8 +59,8 @@ ICON_CATEGORY() {
     ICON_CATEGORY book fa-book $"Visualizadores de PDF, Epub, e-books e mais"
     ICON_CATEGORY pdf fa-file-pdf $"Editores de PDF"
     ICON_CATEGORY calendar fa-calendar-alt $"Agenda de tarefas e contatos"
-    ICON_CATEGORY calc fa-calculator $"Cálculos"
-    ICON_CATEGORY other fa-random $"Outros"
+#     ICON_CATEGORY calc fa-calculator $"Cálculos"
+#     ICON_CATEGORY other fa-random $"Outros"
 
     echo '</div></div></div>'
 
@@ -148,7 +153,7 @@ if [ "$category" = "browser" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
     LANG_PKG="firefox-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "firefox $LANG_PKG opera vivaldi chromium falkon palemoon-bin epiphany brave-bin google-chrome"
+    APPSTREAM_CATEGORY "firefox $LANG_PKG brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome"
     AUR_CATEGORY
 fi
 

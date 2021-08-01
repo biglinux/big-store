@@ -6,6 +6,9 @@
 # 11/01/2020
 # License: GPL v2 or greater
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
 
 # Read installed packages
 ## portuguese

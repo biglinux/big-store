@@ -6,6 +6,10 @@
 # 11/01/2020
 # License: GPL v2 or greater
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+
 TMP_FOLDER="/tmp/bigstore"
 COUNT=0
 rm -f ${TMP_FOLDER}/aurbuild.html

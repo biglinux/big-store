@@ -6,6 +6,9 @@
 # 11/01/2020
 # License: GPL v2 or greater
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
 
 # Folder to save list os packages
 ## portuguese
@@ -13,6 +16,7 @@
 FOLDER_TO_SAVE_FILES="$HOME/.bigstore/snap_list_files/snap_list"
 FILE_TO_SAVE_CACHE="$HOME/.bigstore/snap.cache"
 
+rm -R ~/.bigstore/snap_list_files/
 mkdir -p ~/.bigstore/snap_list_files/
 
 # Anotation with all parameters in API
