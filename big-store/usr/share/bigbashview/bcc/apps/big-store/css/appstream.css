@@ -1392,6 +1392,38 @@ i.fas.fa-file-image {
     color: greenyellow;
 }
 
+i.fas.fa-toolbox {
+    color: #ffe998;
+}
+
+i.fas.fa-cog {
+    color: chartreuse;
+}
+
+i.fas.fa-cogs {
+    color: deepskyblue;
+}
+
+i.fas.fa-code {
+    color: #ffeeac;
+}
+
+i.fas.fa-graduation-cap {
+    color: #c59fff;
+}
+
+i.fas.fa-user-secret {
+    color: #c59fff;
+}
+
+i.fas.fa-puzzle-piece {
+    color: #ffb8b8;
+}
+
+i.fas.fa-dice {
+    color: greenyellow;
+}
+
 #content_aur_bg { 
     display: grid;
     flex-flow: wrap;

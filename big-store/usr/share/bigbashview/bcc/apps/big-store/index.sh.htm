@@ -96,6 +96,29 @@ ICON_CATEGORY() {
     ICON_CATEGORY webcam fa-video $"Webcam, gravação de tela e transmissão de vídeo"
 
     echo '</div></div></div>'
+
+        echo '<div class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Jogos"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY gamemanager fa-gamepad $"Gerenciadores de jogos"
+    ICON_CATEGORY gameutility fa-toolbox $"Utilitários para jogos"
+    ICON_CATEGORY gameretroarch fa-cog $"Emulador Retroarch"
+    ICON_CATEGORY gameemulator fa-cogs $"Emuladores"
+    ICON_CATEGORY devgames fa-code $"Criadores de jogos"
+    ICON_CATEGORY gamearcade fa-tv $"Ação/Arcade"
+    ICON_CATEGORY gamecard fa-square $"Cartas"
+    ICON_CATEGORY gameeducational fa-graduation-cap $"Educacional"
+    ICON_CATEGORY gamestrategy fa-user-secret $"Estratégia"
+    ICON_CATEGORY gamepuzzle fa-puzzle-piece $"Puzzles"
+    ICON_CATEGORY gameboard fa-chess-board $"Tabuleiro"
+    ICON_CATEGORY gamerpg fa-dice $"RPG"
+    ICON_CATEGORY gameother fa-globe $"Outros"
+    
+    echo '</div></div></div>'
+
     
         echo '<div class=category_box>'
     echo '<div class=category_title_index>'
@@ -106,7 +129,6 @@ ICON_CATEGORY() {
     ICON_CATEGORY deveditor fa-file-code $"Editores de código e IDE"
     ICON_CATEGORY devbd fa-database $"Banco de dados"
     ICON_CATEGORY devwebserver fa-server $"Servidores WEB"
-    ICON_CATEGORY devgames fa-gamepad $"Criadores de jogos"
 
     echo '</div></div></div>'
 
@@ -259,7 +281,7 @@ if [ "$category" = "office" ]; then
     rm -f /tmp/bigstore/category_aur.txt
     LANG_PKG1="libreoffice-fresh-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
     LANG_PKG2="libreoffice-still-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "libreoffice-fresh $LANG_PKG1 libreoffice-still  $LANG_PKG2 freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office"
+    APPSTREAM_CATEGORY "libreoffice-fresh $LANG_PKG1 libreoffice-still  $LANG_PKG2 freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office wps-office-mui-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
     AUR_CATEGORY
 fi
 
@@ -458,6 +480,150 @@ if [ "$category" = "3d" ]; then
     AUR_CATEGORY
 
 fi
+
+
+#####################
+#Show retroarch category
+#####################
+if [ "$category" = "gameretroarch" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-beetle-pce libretro-beetle-pce-fast libretro-beetle-psx libretro-beetle-psx-hw libretro-beetle-supergrafx libretro-blastem libretro-bsnes libretro-bsnes-hd libretro-bsnes2014 libretro-citra libretro-core-info libretro-desmume libretro-dolphin libretro-duckstation libretro-flycast libretro-gambatte libretro-genesis-plus-gx libretro-kronos libretro-melonds libretro-mesen libretro-mesen-s libretro-mgba libretro-mupen64plus-next libretro-nestopia libretro-overlays libretro-parallel-n64 libretro-picodrive libretro-play libretro-ppsspp libretro-retrodream libretro-sameboy libretro-scummvm libretro-shaders-slang libretro-snes9x libretro-yabause"
+#    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show emulator category
+#####################
+if [ "$category" = "gameemulator" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "desmume dgen-sdl dolphin-emu dosbox dosemu fceux fs-uae fs-uae-launcher hatari higan mame mame-tools qmc2 maui-station mednafen mgba-qt mupen64plus pcsx2 ppsspp snes9x-gtk stella vbam-wx vice yabause-qt gens-gs zsnes cemu duckstation-qt-bin epsxe yuzu-mainline-bin rpcs3-bin ryujinx-ldn-bind citra-bin fightcade2 melonds nestopia flycast-git m64p openmsx"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show emulator category
+#####################
+if [ "$category" = "gamemanager" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "steam-manjaro steam-native lutris playonlinux gamehub-bin itch gnome-games"
+    AUR_CATEGORY
+
+fi
+
+#####################
+#Show gamearcade category
+#####################
+if [ "$category" = "gamearcade" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "minetest xonotic supertux supertuxkart abuse warzone2100 warsow frozen-bubble pingus armagetronad astromenace barrage knavalbattle kspaceduel blobby blobwars fltk-examples bomber chromium-bsu cuyo endless-sky extremetuxracer gnome-nibbles gnome-robots gnujump granatier hedgewars kapman kblackbox kbounce kbreakout kgoldrunner killbots klickety kobodeluxe kolf kolision ksnakeduel lbreakout2 ltis quadrapassel sauerbraten teeworlds uqm frogatto apricots"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gamecard category
+#####################
+if [ "$category" = "gamecard" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "kpat lskat aisleriot pysolfc "
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gamestrategy category
+#####################
+if [ "$category" = "gamestrategy" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "0ad wesnoth konquest freeciv glob2 klines ksirk lincity-ng openra widelands"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gamepuzzle category
+#####################
+if [ "$category" = "gamepuzzle" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "atomix puzzles kmines gnome-mines fillets-ng gnome-2048 hitori gnome-klotsky gnome-taquin gnome-tetravex kblocks kdiamond knetwalk lightsoff palapeli picmi zaz"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gameboard category
+#####################
+if [ "$category" = "gameboard" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "bovo five-or-more gnome-mahjongg iagno gnome-sudoku gnome-chess kajongg kfourinline four-in-a-row kigo kjumpingcube kmahjongg knights kshisen ksquares ksudoku pychess qgo kreversi swell-foop xboard"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gamerpg category
+#####################
+if [ "$category" = "gamerpg" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "freedroidrpg manaplus megaglest naev openmw scummvm springlobby"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gameother category
+#####################
+if [ "$category" = "gameother" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "kiriki openbve openrct2 openttd peformous simutrans tali"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show educational category
+#####################
+if [ "$category" = "gameeducational" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "atomix blinken gbrainy gcompris-qt ktuberling kanagram katomic khangman kubrick kturtle minuet cantor kalgebra kalzium kbruch kgeography kig kiten klettres ktouch kwordquiz parley solfege step"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show gameutility category
+#####################
+if [ "$category" = "gameutility" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "gamepad-tool-bin gamemode qt5-gamepad adriconf joyutils"
+    AUR_CATEGORY
+
+fi
+
 
 
 

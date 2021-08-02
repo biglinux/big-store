@@ -11,6 +11,12 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
 
+if [[ $(ps -aux | grep Big-Store | grep bigbashview) ]]; then
+
+    kdialog --passivepopup $"A Big-Store já está em uso."
+    exit
+fi
+
 cd /usr/share/bigbashview/bcc/apps/big-store/
 
 HOME_FOLDER="$HOME/.bigstore"
