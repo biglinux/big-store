@@ -120,11 +120,16 @@ def print_pkg_details (details):
     if details.get_installed_version():
         print ('<div class=gridLeft>', 'Versão instalada:', '</div>')
         print ('<div class=gridRight>', details.get_installed_version(), '</div>')
+    else:
+        print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')
+        print ('<div class=gridRight>', details.get_version(), '</div>')
+        
     print ('</div>')
     if update_version.stdout != '':
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')
         print ('<div class=gridRight>', update_version.stdout, '</div></div>')
+        
 
     print ('<div class=grid-container><div class=gridLeft>', 'Uso de armazenamento:', '</div><div class=gridRight id=Size>', str(round(details.get_installed_size() / (1024 * 1024), 1)), 'MB</div></div>')
 

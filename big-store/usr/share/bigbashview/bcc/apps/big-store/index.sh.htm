@@ -85,7 +85,7 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY audioplayer fa-headphones $"Repdodutores de áudio"
+    ICON_CATEGORY audioplayer fa-headphones $"Reprodutores de áudio"
     ICON_CATEGORY radio fa-broadcast-tower $"Rádio online"
     ICON_CATEGORY audioconvert fa-microphone $"Gravadores e conversores de áudio"
     ICON_CATEGORY audioeditor fa-music $"Editores de áudio"
@@ -196,7 +196,7 @@ fi
 if [ "$category" = "download" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "persepolis kget gwget uget steadyflow jdownloader2 xdman flareget"
+    APPSTREAM_CATEGORY "kget gwget uget steadyflow jdownloader2 clipgrab youtubedl-gui xdman flareget"
     AUR_CATEGORY
 fi
 
@@ -406,7 +406,7 @@ if [ "$category" = "videoeditor" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
     APPSTREAM_CATEGORY "handbrake ciano kdenlive shotcut pitivi openshot vidcutter flowblade lightworks avidemux-qt blender"
-    AUR_CATEGORY "qencoder mystiq davinci-resolve davinci-resolve-studio lightworks lives"
+    AUR_CATEGORY "losslesscut-bin qencoder mystiq davinci-resolve davinci-resolve-studio lightworks lives"
 fi
 
 #####################
@@ -476,7 +476,7 @@ fi
 if [ "$category" = "3d" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "blender wings3d sweethome3d freecad openscad librecad qcad godot gb-studio-bin meshroom-bin unity-editor unreal-engine makehuman-git brlcad"
+    APPSTREAM_CATEGORY "blender wings3d sweethome3d freecad openscad cura librecad qcad godot gb-studio-bin meshroom-bin unity-editor unreal-engine makehuman-git brlcad"
     AUR_CATEGORY
 
 fi

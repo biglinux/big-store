@@ -598,6 +598,14 @@ iwlwifi-7265-ucode
 jdk
 jdownloader2
 jre
+jre6
+jre7
+jre8
+jre9
+jre10
+jre11
+jre12
+jre14
 kazam
 kega-fusion
 komodo-edit
@@ -788,3 +796,4 @@ epsxe
 duckstation-qt-bin
 flycast-git
 itch
+losslesscut-bin
