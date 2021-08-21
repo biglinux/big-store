@@ -788,3 +788,5 @@ epsxe
 duckstation-qt-bin
 flycast-git
 itch
+davinci-resolve
+davinci-resolve-studio
