@@ -386,6 +386,7 @@ img#goLeft {
     position: absolute;
     margin-top: 20px;
     margin-left: 10px;
+    display: none;
 }
 
 ul.navbar-fixed.fixed.menu-bottom {
@@ -1423,6 +1424,16 @@ i.fas.fa-puzzle-piece {
 i.fas.fa-dice {
     color: greenyellow;
 }
+
+i.fab.fa-java {
+    color: #fff5ad;
+}
+
+i.fas.fa-box {
+    color: #b4850a;
+}
+
+
 
 #content_aur_bg { 
     display: grid;

@@ -110,9 +110,21 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 # Header
 ## portuguese
 # Cabeçalho
-
+#echo "<div id=goLeft><a href=\"javascript:window.location.replace(document.referrer);\"><img id=goLeft src=img/left.png></a></div></div></div></div>"
 echo "<div id=goleft><a href=\"javascript:history.back()\"><img id=goLeft src=img/left.png></a></div></div></div></div>"
-echo "<script>if (history.length > 1 && document.referrer) {\$('#goleft').css({'display':'block'});}</script>"
+echo "<script>
+    
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const pkg_install = urlParams.get('pkg_install');
+const pkg_remove = urlParams.get('pkg_remove');
+
+
+if (history.length > 1 && pkg_install == null && pkg_remove == null)
+    \$('img#goLeft').css({
+    'display': 'block'
+    });
+</script>"
 
 echo "<div id=header>"
 echo '<div id=header_left><a href=index.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-home"></i></span><div class=icon_text_header>Início</div></div></a>

@@ -20,7 +20,7 @@ source header.sh.htm
 if [ "$category" = "" ] && [ "${#search}" -le "2" ]; then
 
 ICON_CATEGORY() {
-    echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"fas $2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
+    echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"$2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
 }
 
 
@@ -37,14 +37,14 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
         
-    ICON_CATEGORY browser fa-globe $"Navegadores"
-    ICON_CATEGORY mail fa-envelope $"E-mail"
-    ICON_CATEGORY cloud fa-cloud-upload-alt $"Armazenamento nas nuvens"
-    ICON_CATEGORY download fa-file-download $"Download"
-    ICON_CATEGORY torrent fa-magnet $"Compartilhadores e Torrent"
-    ICON_CATEGORY messages fa-comments $"Mensageiros e Conferências"
-    ICON_CATEGORY remote fa-laptop-house $"Acesso Remoto, FTP, SSH, VNC, RDP..."
-    ICON_CATEGORY network fa-network-wired $"Ferramentas de rede"
+    ICON_CATEGORY browser "fas fa-globe" $"Navegadores"
+    ICON_CATEGORY mail "fas fa-envelope" $"E-mail"
+    ICON_CATEGORY cloud "fas fa-cloud-upload-alt" $"Armazenamento nas nuvens"
+    ICON_CATEGORY download "fas fa-file-download" $"Download"
+    ICON_CATEGORY torrent "fas fa-magnet" $"Compartilhadores e Torrent"
+    ICON_CATEGORY messages "fas fa-comments" $"Mensageiros e Conferências"
+    ICON_CATEGORY remote "fas fa-laptop-house" $"Acesso Remoto, FTP, SSH, VNC, RDP..."
+    ICON_CATEGORY network "fas fa-network-wired" $"Ferramentas de rede"
     
     echo '</div></div></div>'
 
@@ -55,12 +55,12 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY office fa-briefcase $"Suíte Office"
-    ICON_CATEGORY book fa-book $"Visualizadores de PDF, Epub, e-books e mais"
-    ICON_CATEGORY pdf fa-file-pdf $"Editores de PDF"
-    ICON_CATEGORY calendar fa-calendar-alt $"Agenda de tarefas e contatos"
-#     ICON_CATEGORY calc fa-calculator $"Cálculos"
-#     ICON_CATEGORY other fa-random $"Outros"
+    ICON_CATEGORY office "fas fa-briefcase" $"Suíte Office"
+    ICON_CATEGORY book "fas fa-book" $"Visualizadores de PDF, Epub, e-books e mais"
+    ICON_CATEGORY pdf "fas fa-file-pdf" $"Editores de PDF"
+    ICON_CATEGORY calendar "fas fa-calendar-alt" $"Agenda de tarefas e contatos"
+#     ICON_CATEGORY calc "fas fa-calculator" $"Cálculos"
+#     ICON_CATEGORY other "fas fa-random" $"Outros"
 
     echo '</div></div></div>'
 
@@ -71,11 +71,11 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY imageplayer fa-image $"Visualizadores de imagem"
-    ICON_CATEGORY imageeditor fa-paint-brush $"Editores de imagem e ferramentas de desenho"
-    ICON_CATEGORY screenshot fa-expand $"Captura de tela (Screenshot)"
-    ICON_CATEGORY imageconvert fa-file-image $"Converter, redimensionar ou compactar imagens"
-    ICON_CATEGORY 3d fa-cube $"Edição 3D e CAD"
+    ICON_CATEGORY imageplayer "fas fa-image" $"Visualizadores de imagem"
+    ICON_CATEGORY imageeditor "fas fa-paint-brush" $"Editores de imagem e ferramentas de desenho"
+    ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
+    ICON_CATEGORY imageconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
+    ICON_CATEGORY 3d "fas fa-cube" $"Edição 3D e CAD"
 
     echo '</div></div></div>'
     
@@ -85,15 +85,15 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY audioplayer fa-headphones $"Reprodutores de áudio"
-    ICON_CATEGORY radio fa-broadcast-tower $"Rádio online"
-    ICON_CATEGORY audioconvert fa-microphone $"Gravadores e conversores de áudio"
-    ICON_CATEGORY audioeditor fa-music $"Editores de áudio"
-    ICON_CATEGORY videoplayer fa-film $"Reprodutores de vídeo"
-    ICON_CATEGORY videostream fa-tv $"Vídeo online, IPTV, Youtube..."
-    ICON_CATEGORY videoeditor fa-photo-video $"Editores e compactadores de vídeo"
-    ICON_CATEGORY dvd fa-compact-disc $"Gravadores e copiadores de CD e DVD"
-    ICON_CATEGORY webcam fa-video $"Webcam, gravação de tela e transmissão de vídeo"
+    ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
+    ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
+    ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
+    ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio"
+    ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo"
+    ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..."
+    ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo"
+    ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD"
+    ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
 
     echo '</div></div></div>'
 
@@ -103,32 +103,45 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY gamemanager fa-gamepad $"Gerenciadores de jogos"
-    ICON_CATEGORY gameutility fa-toolbox $"Utilitários para jogos"
-    ICON_CATEGORY gameretroarch fa-cog $"Emulador Retroarch"
-    ICON_CATEGORY gameemulator fa-cogs $"Emuladores"
-    ICON_CATEGORY devgames fa-code $"Criadores de jogos"
-    ICON_CATEGORY gamearcade fa-tv $"Ação/Arcade"
-    ICON_CATEGORY gamecard fa-square $"Cartas"
-    ICON_CATEGORY gameeducational fa-graduation-cap $"Educacional"
-    ICON_CATEGORY gamestrategy fa-user-secret $"Estratégia"
-    ICON_CATEGORY gamepuzzle fa-puzzle-piece $"Puzzles"
-    ICON_CATEGORY gameboard fa-chess-board $"Tabuleiro"
-    ICON_CATEGORY gamerpg fa-dice $"RPG"
-    ICON_CATEGORY gameother fa-globe $"Outros"
+    ICON_CATEGORY gamemanager "fas fa-gamepad" $"Gerenciadores de jogos"
+    ICON_CATEGORY gameutility "fas fa-toolbox" $"Utilitários para jogos"
+    ICON_CATEGORY gameretroarch "fas fa-cog" $"Emulador Retroarch"
+    ICON_CATEGORY gameemulator "fas fa-cogs" $"Emuladores"
+    ICON_CATEGORY devgames "fas fa-code" $"Criadores de jogos"
+    ICON_CATEGORY gamearcade "fas fa-tv" $"Ação/Arcade"
+    ICON_CATEGORY gamecard "fas fa-square" $"Cartas"
+    ICON_CATEGORY gameeducational "fas fa-graduation-cap" $"Educacional"
+    ICON_CATEGORY gamestrategy "fas fa-user-secret" $"Estratégia"
+    ICON_CATEGORY gamepuzzle "fas fa-puzzle-piece" $"Puzzles"
+    ICON_CATEGORY gameboard "fas fa-chess-board" $"Tabuleiro"
+    ICON_CATEGORY gamerpg "fas fa-dice" $"RPG"
+    ICON_CATEGORY gameother "fas fa-globe" $"Outros"
     
     echo '</div></div></div>'
 
+
+        echo '<div class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Sistema"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY storage "fas fa-save" $"Armazenamento e partições"
+    ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
+    ICON_CATEGORY virtualization "fas fa-box" $"Virtualização"
+
+    echo '</div></div></div>'
     
+
         echo '<div class=category_box>'
     echo '<div class=category_title_index>'
         echo $"Desenvolvimento"
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY deveditor fa-file-code $"Editores de código e IDE"
-    ICON_CATEGORY devbd fa-database $"Banco de dados"
-    ICON_CATEGORY devwebserver fa-server $"Servidores WEB"
+    ICON_CATEGORY deveditor "fas fa-file-code" $"Editores de código e IDE"
+    ICON_CATEGORY devbd "fas fa-database" $"Banco de dados"
+    ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB"
 
     echo '</div></div></div>'
 
@@ -227,7 +240,7 @@ fi
 if [ "$category" = "remote" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "remmina vinagre tigervnc krdc krfb filezilla gftp putty tmate anydesk-bin teamviewer chrome-remote-desktop"
+    APPSTREAM_CATEGORY "remmina vinagre tigervnc krdc krfb filezilla putty tmate anydesk-bin teamviewer chrome-remote-desktop"
     AUR_CATEGORY
 fi
 
@@ -445,7 +458,7 @@ fi
 if [ "$category" = "webcam" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "obs-studio cheese kamoso simplescreenrecorder recordmydesktop vokoscreen peek v4l-utils"
+    APPSTREAM_CATEGORY "obs-studio cheese kamoso simplescreenrecorder vokoscreen peek v4l-utils"
     AUR_CATEGORY
 fi
 
@@ -625,6 +638,39 @@ if [ "$category" = "gameutility" ]; then
 fi
 
 
+#####################
+#Show javajar category
+#####################
+if [ "$category" = "javajar" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "jre-openjdk jre7-openjdk jre8-openjdk jre11-openjdk icedtea-web jre jre6 jre7 jre8 jre9 jre10 jre11 jre12 jre14"
+    AUR_CATEGORY
+
+fi
+
+
+#####################
+#Show storage category
+#####################
+if [ "$category" = "storage" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "gparted partitionmanager bleachbit gnome-dist-utility kdiskmark gsmartcontrol mintstick baobab filelight balena-etcher ventoy gnome-multi-writer"
+    AUR_CATEGORY
+
+fi
+
+#####################
+#Show virtualization category
+#####################
+if [ "$category" = "virtualization" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "virtualbox virtualbox-guest-utils virt-manager qemu qemu-guest-agent gnome-boxes"
+    AUR_CATEGORY
+
+fi
 
 
     #./category_appstream_pamac.py "libreoffice-fresh libreoffice-fresh-pt-br libreoffice-fresh-pt libreoffice-still libreoffice-still-pt-br libreoffice-still-pt freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra abiword gnumeric gnome-calculator kcalc gnucash kalgebra qalculate-gtk speedcrunch gnome-calendar korganizer pantheon-calendar kalarm kontact knotes kmymoney kresus moneymanagerex skrooge homebank calibre gnome-latex pdftricks pdfarranger pdfmixtool pdfmod pdfslicer gscan2pdf okular bookworm simple-scan gnome-documents xreader evince gimagereader-qt gimagereader-gtk kbibtex  tellico gnome-books minder notes-up ocrfeeder rednotebook retext scribus texworks atril xournalapp zathura"

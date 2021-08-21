@@ -51,7 +51,11 @@ function fileEnableDiv(i, div, file){
         500
     );
   }
-} 
+}
+
+if (sessionStorage.getItem("refresh") == "true") { 
+    window.location.reload()
+}
 
 // Avatar with colors from https://marcoslooten.com/blog/creating-avatars-with-colors-using-the-modulus/
 const colors = ['#d50000', '#9c27b0', '#3f51b5', '#00796b', '#8d6e63', '#b71c1c', '#880e4f', '#4a148c', '#3f51b5' ,'#2196f3' ,'#827717' ,'#ef6c00' ,'#e65100' ,'#546e7a' ,'#009688'];

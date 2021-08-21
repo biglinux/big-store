@@ -52,7 +52,7 @@ fi
 
 if [ "$ACTION" = "update_pacman" ]; then
     MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=8 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
-    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Sy
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Fyy
 fi
 
 if [ "$ACTION" = "update_mirror" ]; then
