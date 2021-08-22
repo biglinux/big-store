@@ -116,11 +116,15 @@ def print_pkg_details (details):
     print ('<div class="grid-container">')
     print ('<div class=gridLeft>', 'Pacote:', '</div>')
     print ('<div class=gridRight>', sys.argv[1], '</div></div>')
-    print ('<div class="grid-container">')
     if details.get_installed_version():
+        print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'Versão instalada:', '</div>')
         print ('<div class=gridRight>', details.get_installed_version(), '</div>')
-    print ('</div>')
+        print ('</div>')
+    else:
+        print ('<div class="grid-container">')
+        print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')
+        print ('<div class=gridRight>', details.get_version(), '</div></div>')
     if update_version.stdout != '':
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')

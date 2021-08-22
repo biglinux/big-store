@@ -13,10 +13,11 @@ export TEXTDOMAIN=big-store
 
 if [ "$pkg_install" != "" ]; then
     ./run_pamac_installer $pkg_name
-    if [ "$pkg_install" = "pamac-flatpak-plugin" ]; then
+    if [ "$pkg_name" = "libpamac-snap-plugin" ]; then
         systemctl start snapd
         systemctl enable snapd
     fi
+
     echo "" > ${TMP_FOLDER}/upgradeable.txt
     pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
 fi

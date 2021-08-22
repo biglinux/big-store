@@ -790,3 +790,9 @@ flycast-git
 itch
 davinci-resolve
 davinci-resolve-studio
+subsonic
+gerbera
+jellyfin-bin
+jellyfin-server-bin
+jellyfin-web-bin
+jellyamp-appimage

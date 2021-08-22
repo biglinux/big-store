@@ -127,6 +127,7 @@ ICON_CATEGORY() {
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
     ICON_CATEGORY storage "fas fa-save" $"Armazenamento e partições"
+    ICON_CATEGORY fonts "fas fa-font" $"Fontes (Tipografia)"
     ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
     ICON_CATEGORY virtualization "fas fa-box" $"Virtualização"
 
@@ -657,6 +658,17 @@ if [ "$category" = "storage" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
     APPSTREAM_CATEGORY "gparted partitionmanager bleachbit gnome-dist-utility kdiskmark gsmartcontrol mintstick baobab filelight balena-etcher ventoy gnome-multi-writer"
+    AUR_CATEGORY
+
+fi
+
+#####################
+#Show fonts category
+#####################
+if [ "$category" = "fonts" ]; then
+
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "font-manager ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-anonymous-pro ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-montserrat ttf-opensans ttf-roboto ttf-roboto-mono ttf-ms-fonts ttf-mac-fonts ttf-ms-win10-auto ttf-wps-fonts"
     AUR_CATEGORY
 
 fi
