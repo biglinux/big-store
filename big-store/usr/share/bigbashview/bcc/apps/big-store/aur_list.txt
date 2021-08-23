@@ -796,3 +796,4 @@ jellyfin-bin
 jellyfin-server-bin
 jellyfin-web-bin
 jellyamp-appimage
+steamlink
