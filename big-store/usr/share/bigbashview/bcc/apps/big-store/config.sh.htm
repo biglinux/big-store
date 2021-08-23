@@ -14,8 +14,8 @@ export TEXTDOMAIN=big-store
 if [ "$pkg_install" != "" ]; then
     ./run_pamac_installer $pkg_name
     if [ "$pkg_name" = "libpamac-snap-plugin" ]; then
-        pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY ./snap_enable.sh
-        kdialog --msgbox $"Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+        pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/share/bigbashview/bcc/apps/big-store/snap_enable.sh
+        kdialog --title $"Big-Store" --msgbox $"Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
     fi
 
     echo "" > ${TMP_FOLDER}/upgradeable.txt

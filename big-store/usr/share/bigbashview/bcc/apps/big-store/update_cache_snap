@@ -33,7 +33,7 @@ mkdir -p ~/.bigstore/snap_list_files/
 # Download first page with applications in snap site
 ## portuguese
 # Faz o download da página inicial
-curl "https://api.snapcraft.io/api/v1/snaps/search?confinement=strict,classic&fields=architecture,summary,description,package_name,snap_id,title,content,version,common_ids,binary_filesize,license,developer_name,media,&scope=wide:" > ${FOLDER_TO_SAVE_FILES}
+curl "https://api.snapcraft.io/api/v1/snaps/search?confinement=strict&fields=architecture,summary,description,package_name,snap_id,title,content,version,common_ids,binary_filesize,license,developer_name,media,&scope=wide:" > ${FOLDER_TO_SAVE_FILES}
 
 # Read total pages needed to download
 ## portuguese
