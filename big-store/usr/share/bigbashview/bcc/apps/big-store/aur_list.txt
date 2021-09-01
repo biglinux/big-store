@@ -797,3 +797,9 @@ jellyfin-server-bin
 jellyfin-web-bin
 jellyamp-appimage
 steamlink
+akira
+enve-git
+pinegrow
+reaper-bin
+radium-bin
+shutter-encoder
