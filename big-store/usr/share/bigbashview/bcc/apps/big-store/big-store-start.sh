@@ -28,7 +28,7 @@ if [[ $(find "$HOME/.bigstore/snap.cache" -mtime +1 -print) ]] || [ ! -e "$HOME/
 fi
 
 if [[ $(find "$HOME/.bigstore/flatpak.cache" -mtime +1 -print) ]] || [ ! -e "$HOME/.bigstore/flatpak.cache" ] ; then
-  ./update_cache_snap &
+  ./update_cache_flatpak &
 fi
 
 
