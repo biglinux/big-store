@@ -436,6 +436,8 @@ cnijfilter-mx880
 cnrdrvcups-lb-bin
 cnrdrvcups-sfp
 code-marketplace
+cudatext-gtk2-bin
+cudatext-qt5-bin
 cups-xerox
 cups-xerox-phaser-3600
 cups-xerox-phaser-6500
@@ -576,6 +578,7 @@ freetube-bin
 frostwire
 gb-studio-bin
 genymotion
+github-desktop-bin
 gitkraken
 gobi-firmware-mc8355
 goland
@@ -835,7 +838,7 @@ opengigabyte-driver-dkms
 magewell-pro-capture-dkms
 macbook12-spi-driver-dkms
 looking-glass-module-dkms-git
-liquidtux-dkms-git 
+liquidtux-dkms-git
 input-veikk-dkms
 input-veikk-dkms-git
 hid-asus-rog-dkms-git
