@@ -983,7 +983,13 @@ input[type=text] {
     text-align: center;
 }
     
+.input-field input[type=search] {
+    width: 526px;
+    display: inline;
+    padding-left:0;
 
+}
+    
 }
 
 #count a {
