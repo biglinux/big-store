@@ -8,13 +8,20 @@ import os
 import locale
 import sys
 
+# Import gettext module
+import gettext
+lang_translations = gettext.translation('big-store', localedir='./locale', fallback=True)
+lang_translations.install()
+# define _ shortcut for translations
+_ = lang_translations.gettext
+
 response = requests.get('https://aur.archlinux.org/rpc/', params={'v': '5', 'type': 'info', 'arg': sys.argv[1]})
 data = json.loads(response.text)
 for p in data['results']:
-    
+
     print ('<div id=box_aur_install><div id=title_aur_install>')
-    print ('<div id=button_aur class="tooltipped" data-position="left" data-tooltip="Informações sobre programas AUR">')
-    print ('Programas AUR')
+    print ('<div id=button_aur class="tooltipped" data-position="left" data-tooltip="'+_('Informações sobre programas AUR')+'">')
+    print (_('Programas AUR'))
     print ('</div></div><div id=content_aur_bg>')
     print ('<div id=titleBar>')
     print ('<div id=title>')
@@ -23,7 +30,7 @@ for p in data['results']:
     else:
         print ('<div class=icon_middle><div class=avatar_aur>' + sys.argv[1][0:3] + '</div></div>')
     print ('<div id=titleName>', p['Name'], '</div></div></div>')
-    
+
     if os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary'):
         print ('<div id=description>')
         print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
@@ -36,12 +43,12 @@ for p in data['results']:
     if pkg_installed.stdout:
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>')
         if pkg_installed_version.stdout.strip() != p['Version'].strip():
-            print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Atualizar', '</button>')
+            print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
         else:
             if 'Version' in p:
-                print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Reinstalar', '</button>')
+                print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Reinstalar'), '</button>')
     else:
-        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Instalar', '</button>')
+        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
     screenshot_store = 'description/' + sys.argv[1] + '/screenshot'
     description_file_store = os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc')
@@ -81,7 +88,7 @@ for p in data['results']:
     print ('<div class="grid-container">')
     print ('<div class=gridLeft>', 'Pacote:', '</div>')
     print ('<div class=gridRight>', sys.argv[1], '</div></div>')
-    
+
     if pkg_installed_version.stdout:
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'Versão instalada:', '</div>')
@@ -101,7 +108,7 @@ for p in data['results']:
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'PKGBUILD:', '</div>')
         print ('<div class="gridRight clickpointer" onclick="_run(', "'" + 'xdg-open', 'https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD%3Fh=' + p['Name'] + "'", ')">', 'https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=' + p['Name'], '</div></div>')
-        
+
     if 'URL' in p:
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'Site:', '</div>')
@@ -209,7 +216,7 @@ for p in data['results']:
         print ('</script>')
         print ('</div></div>')
 
-    
+
     #if 'ID' in p:
         #print(p['ID'])
     #if 'Name' in p:
@@ -258,4 +265,3 @@ for p in data['results']:
         #print (p['License'])
     #if 'Keywords' in p:
         #print (p['Keywords'])
-

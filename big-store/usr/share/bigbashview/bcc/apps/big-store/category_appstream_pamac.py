@@ -7,7 +7,15 @@ import subprocess
 import sys
 import os
 import locale
+gi.require_version('Pamac', '11')
 from gi.repository import Pamac
+
+# Import gettext module
+import gettext
+lang_translations = gettext.translation('big-store', localedir='./locale', fallback=True)
+lang_translations.install()
+# define _ shortcut for translations
+_ = lang_translations.gettext
 
 def print_pkg_details (details):
         print ('<a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name=' + details.get_name() + '">')
@@ -42,13 +50,13 @@ def print_pkg_details (details):
             print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
 
         if details.get_installed_version() == None:
-            print ('<div id=appstream_not_installed>Instalar</div></a></div></div>')        
+            print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div></div>')
         else:
             with open('/tmp/bigstore/upgradeable.txt') as f:
                 if '\n' + details.get_name() + '\n' in f.read():
-                    print ('<div id=appstream_upgradable>Atualizar</div></a></div></div>')
+                    print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div></div>')
                 else:
-                    print ('<div id=appstream_installed>Remover</div></a></div></div>')
+                    print ('<div id=appstream_installed>'+_('Remover')+'</div></a></div></div>')
 
 if __name__ == "__main__":
     config = Pamac.Config(conf_path="/etc/pamac.conf")
@@ -66,13 +74,13 @@ if __name__ == "__main__":
         #break
 
 
-    
+
     # To single package
     db.enable_appstream()
     for app_list in sys.argv[1].split():
         pkg = db.get_pkg(app_list)
         if pkg:
-            print_pkg_details (pkg)
+            print_pkg_details(pkg)
         else:
             with open('/tmp/bigstore/category_aur.txt', 'a') as f:
                 print(app_list, file=f)
@@ -87,6 +95,3 @@ if __name__ == "__main__":
     #if num > 0:
         #print ('<script>$(document).ready(function () {$("#box_appstream").show();});</script>')
     #print ('<script>document.getElementById("appstream_number").innerHTML = "', num, '"</script>')
-
-
-

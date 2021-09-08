@@ -8,8 +8,15 @@ import gi
 import subprocess
 import sys
 import datetime
+gi.require_version('Pamac', '11')
 from gi.repository import Pamac
 
+# Import gettext module
+import gettext
+lang_translations = gettext.translation('big-store', localedir='./locale', fallback=True)
+lang_translations.install()
+# define _ shortcut for translations
+_ = lang_translations.gettext
 
 
 def print_pkg_details (details):
@@ -18,8 +25,8 @@ def print_pkg_details (details):
     #print (" -Long Desc:", details.get_long_desc())
     #print (" -Icon:", details.get_icon())
     #print (" -Screenshots:", details.get_screenshots())
-    #print (" -Download Size:", details.get_download_size())    
-    #print (" -Installed Size:", details.get_installed_size())    
+    #print (" -Download Size:", details.get_download_size())
+    #print (" -Installed Size:", details.get_installed_size())
     #print (" -License:", details.get_license())
     #print (" -Id:", details.get_id())
     #print (" -Installed Version:", details.get_installed_version())
@@ -45,8 +52,8 @@ def print_pkg_details (details):
     #print (" -backups:", details.get_backups())
 
     print ('<div id=box_flatpak_install><div id=title_flatpak_install>')
-    print ('<div id=button_flatpak class="tooltipped" data-position="left" data-tooltip="Informações sobre programas nativos">')
-    print ('Programas Flatpak')
+    print ('<div id=button_flatpak class="tooltipped" data-position="left" data-tooltip="'+_('Informações sobre programas nativos')+'">')
+    print (_('Programas Flatpak'))
     print ('</div></div><div id=content_flatpak_install>')
     update_version = subprocess.run(["./pkg_flatpak_version", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     update_available = subprocess.run(["./pkg_flatpak_update", sys.argv[1]], stdout=subprocess.PIPE, text=True)
@@ -63,15 +70,15 @@ def print_pkg_details (details):
     print ('<div id=description>', details.get_desc(), '</div></div>')
     print ('<div class="row center">')
     if details.get_installed_version():
-        print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodyFlatpakRemove();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y&pkg_id=" +details.get_id() + "'" + '">', 'Remover', '</button>')
+        print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodyFlatpakRemove();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y&pkg_id=" +details.get_id() + "'" + '">', _('Remover'), '</button>')
 
         if details.get_launchable():
-            print ('<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run(', "'" + 'gtk-launch', details.get_launchable() + "'", ')">', 'Executar', '</button>')
+            print ('<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run(', "'" + 'gtk-launch', details.get_launchable() + "'", ')">', _('Executar'), '</button>')
 
         if update_available.stdout.replace("\n", "") != '':
-            print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" + details.get_id() + "'" + '">', 'Atualizar', '</button>')
+            print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" + details.get_id() + "'" + '">', _('Atualizar'), '</button>')
     else:
-        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" +details.get_id() + "'" + '">', 'Instalar', '</button>')
+        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" +details.get_id() + "'" + '">', _('Instalar'), '</button>')
 
     if details.get_long_desc() or details.get_screenshots():
         print ('<div id=descriptionbox>')
@@ -89,42 +96,42 @@ def print_pkg_details (details):
         print ('</div></div>')
 
     print ('<div class="grid-container">')
-    print ('<div class=gridLeft>', 'Pacote:', '</div>')
+    print ('<div class=gridLeft>', _('Pacote:'), '</div>')
     print ('<div class=gridRight>', sys.argv[1], '</div></div>')
 
     if update_version.stdout:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Versão disponível:', '</div>')
+        print ('<div class=gridLeft>', _('Versão disponível:'), '</div>')
         print ('<div class="gridRight">', update_version.stdout, '</div></div>')
 
-    print ('<div class="grid-container">')    
+    print ('<div class="grid-container">')
     if details.get_installed_version():
-        print ('<div class=gridLeft>', 'Versão instalada:', '</div>')
+        print ('<div class=gridLeft>', _('Versão instalada:'), '</div>')
         print ('<div class=gridRight>', details.get_installed_version(), '</div>')
     print ('</div>')
-    print ('<div class=grid-container><div class=gridLeft>', 'Uso de armazenamento:', '</div><div class=gridRight id=Size>', str(round(details.get_installed_size() / (1024 * 1024), 1)), 'MB</div></div>')
+    print ('<div class=grid-container><div class=gridLeft>', _('Uso de armazenamento:'), '</div><div class=gridRight id=Size>', str(round(details.get_installed_size() / (1024 * 1024), 1)), 'MB</div></div>')
 
     if details.get_download_size():
-        print ('<div class=grid-container><div class=gridLeft>', 'Tamanho do download:', '</div><div class=gridRight id=Size>', str(round(details.get_download_size() / (1024 * 1024), 1)), 'MB</div></div>')
+        print ('<div class=grid-container><div class=gridLeft>', _('Tamanho do download:'), '</div><div class=gridRight id=Size>', str(round(details.get_download_size() / (1024 * 1024), 1)), 'MB</div></div>')
 
     if details.get_url():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Site:', '</div>')
+        print ('<div class=gridLeft>', _('Site:'), '</div>')
         print ('<div class="gridRight clickpointer" onclick="_run(', "'" + 'xdg-open', details.get_url() + "'", ')">', details.get_url(), '</div></div>')
 
     if details.get_license():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Licença:', '</div>')
+        print ('<div class=gridLeft>', _('Licença:'), '</div>')
         print ('<div class="gridRight">', details.get_license(), '</div></div>')
 
     if details.get_repo():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Repositório:', '</div>')
+        print ('<div class=gridLeft>', _('Repositório:'), '</div>')
         print ('<div class="gridRight">', details.get_repo(), '</div></div>')
 
     if details.get_install_date():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Data de instalação:', '</div>')
+        print ('<div class=gridLeft>', _('Data de instalação:'), '</div>')
         print ('<div class="gridRight">')
         print (datetime.datetime.fromtimestamp(
             int(details.get_install_date())
@@ -134,9 +141,9 @@ def print_pkg_details (details):
 
     if details.get_installed_version():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Arquivos do pacote:', '</div>')
+        print ('<div class=gridLeft>', _('Arquivos do pacote:'), '</div>')
         print ('<div class="gridRight">')
-        print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles">', 'Clique aqui para ver os arquivos', '</a><script>')
+        print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles">', _('Clique aqui para ver os arquivos'), '</a><script>')
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_installed_flatpak " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
         print ('</script>')
         print ('</div></div>')

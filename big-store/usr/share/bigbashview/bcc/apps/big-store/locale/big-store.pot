@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-09-03 21:07-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: category_appstream_pamac.py:53 search_appstream_pamac.py:53
+#: view_appstream_pamac.py:93 view_appstream_pamac.py:214 view_aur.py:51
+#: view_flatpak_pamac.py:81
+msgid "Instalar"
+msgstr ""
+
+#: category_appstream_pamac.py:57 search_appstream_pamac.py:57
+#: view_appstream_pamac.py:88 view_aur.py:46 view_flatpak_pamac.py:79
+msgid "Atualizar"
+msgstr ""
+
+#: category_appstream_pamac.py:59 search_appstream_pamac.py:59
+#: view_appstream_pamac.py:81 view_appstream_pamac.py:217
+#: view_flatpak_pamac.py:73
+msgid "Remover"
+msgstr ""
+
+#: view_appstream_pamac.py:57 view_flatpak_pamac.py:55
+msgid "Informações sobre programas nativos"
+msgstr ""
+
+#: view_appstream_pamac.py:58
+msgid "Programas Nativos"
+msgstr ""
+
+#: view_appstream_pamac.py:84 view_flatpak_pamac.py:76
+msgid "Executar"
+msgstr ""
+
+#: view_appstream_pamac.py:91 view_aur.py:49
+msgid "Reinstalar"
+msgstr ""
+
+#: view_appstream_pamac.py:125 view_flatpak_pamac.py:99
+msgid "Pacote:"
+msgstr ""
+
+#: view_appstream_pamac.py:129 view_flatpak_pamac.py:109
+msgid "Versão instalada:"
+msgstr ""
+
+#: view_appstream_pamac.py:134 view_appstream_pamac.py:138
+msgid "Versão disponivel:"
+msgstr ""
+
+#: view_appstream_pamac.py:141 view_flatpak_pamac.py:112
+msgid "Uso de armazenamento:"
+msgstr ""
+
+#: view_appstream_pamac.py:144 view_flatpak_pamac.py:115
+msgid "Tamanho do download:"
+msgstr ""
+
+#: view_appstream_pamac.py:148 view_flatpak_pamac.py:119
+msgid "Site:"
+msgstr ""
+
+#: view_appstream_pamac.py:153 view_flatpak_pamac.py:124
+msgid "Licença:"
+msgstr ""
+
+#: view_appstream_pamac.py:158 view_flatpak_pamac.py:129
+msgid "Repositório:"
+msgstr ""
+
+#: view_appstream_pamac.py:163
+msgid "Empacotador:"
+msgstr ""
+
+#: view_appstream_pamac.py:168
+msgid "Data do empacotamento:"
+msgstr ""
+
+#: view_appstream_pamac.py:177 view_flatpak_pamac.py:134
+msgid "Data de instalação:"
+msgstr ""
+
+#: view_appstream_pamac.py:186
+msgid "Motivo da instalação:"
+msgstr ""
+
+#: view_appstream_pamac.py:191
+msgid "Grupos:"
+msgstr ""
+
+#: view_appstream_pamac.py:199
+msgid "Assinado:"
+msgstr ""
+
+#: view_appstream_pamac.py:204
+msgid "Complementos:"
+msgstr ""
+
+#: view_appstream_pamac.py:223
+msgid "Dependências:"
+msgstr ""
+
+#: view_appstream_pamac.py:231
+msgid "Remove:"
+msgstr ""
+
+#: view_appstream_pamac.py:239
+msgid "Substitui:"
+msgstr ""
+
+#: view_appstream_pamac.py:246 view_flatpak_pamac.py:144
+msgid "Arquivos do pacote:"
+msgstr ""
+
+#: view_appstream_pamac.py:249 view_flatpak_pamac.py:146
+msgid "Clique aqui para ver os arquivos"
+msgstr ""
+
+#: view_aur.py:23
+msgid "Informações sobre programas AUR"
+msgstr ""
+
+#: view_aur.py:24
+msgid "Programas AUR"
+msgstr ""
+
+#: view_flatpak_pamac.py:56
+msgid "Programas Flatpak"
+msgstr ""
+
+#: view_flatpak_pamac.py:104
+msgid "Versão disponível:"
+msgstr ""
+
