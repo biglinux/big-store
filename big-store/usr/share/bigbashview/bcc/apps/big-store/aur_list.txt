@@ -846,3 +846,4 @@ digimend-kernel-drivers-dkms-git
 digimend-kernel-drivers-dkms
 akvcam-dkms-git
 akvcam-dkms
+heroic-games-launcher-bin
