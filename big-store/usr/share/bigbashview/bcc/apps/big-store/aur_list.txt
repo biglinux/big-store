@@ -847,3 +847,6 @@ digimend-kernel-drivers-dkms
 akvcam-dkms-git
 akvcam-dkms
 heroic-games-launcher-bin
+parsec
+moonlight-qt
+rustdesk-bin
