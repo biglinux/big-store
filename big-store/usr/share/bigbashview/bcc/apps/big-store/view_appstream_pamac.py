@@ -11,6 +11,14 @@ import os
 import locale
 import datetime
 from gi.repository import Pamac
+from gi.repository import Pamac
+
+# Import gettext module
+import gettext
+lang_translations = gettext.translation('big-store', localedir='./locale', fallback=True)
+lang_translations.install()
+# define _ shortcut for translations
+_ = lang_translations.gettext
 
 
 
@@ -47,8 +55,8 @@ def print_pkg_details (details):
     #print (" -optionalfor:", details.get_optionalfor())
     #print (" -backups:", details.get_backups())
     print ('<div id=box_appstream_install><div id=title_appstream_install>')
-    print ('<div id=button_appstream class="tooltipped" data-position="left" data-tooltip="Informações sobre programas nativos">')
-    print ('Programas Nativos')
+    print ('<div id=button_appstream class="tooltipped" data-position="left" data-tooltip="'+_('Informações sobre programas nativos')+'">')
+    print (_('Programas Nativos'))
     print ('</div></div><div id=content_appstream_install>')
     update_version = subprocess.run(["pacman", "-Qu", sys.argv[1], '|', "awk","'{print $NF}'"], stdout=subprocess.PIPE, text=True)
     print ('<div id=titleBar>')
@@ -71,19 +79,19 @@ def print_pkg_details (details):
         print ('<div id=description>', details.get_desc(), '</div></div>')
     print ('<div class="row center">')
     if details.get_installed_version():
-        print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>')
+        print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', _('Remover'), '</button>')
 
         if details.get_launchable():
-            print ('<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run(', "'" + 'gtk-launch', details.get_launchable() + "'", ')">', 'Executar', '</button>')
+            print ('<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run(', "'" + 'gtk-launch', details.get_launchable() + "'", ')">', _('Executar'), '</button>')
 
         with open('/tmp/bigstore/upgradeable.txt') as f:
             if '\n' + details.get_name() + '\n' in f.read():
-                print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Atualizar', '</button>')
+                print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
             else:
                 if details.get_repo():
-                    print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Reinstalar', '</button>')
+                    print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Reinstalar'), '</button>')
     else:
-        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Instalar', '</button>')
+        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
     screenshot_store = 'description/' + details.get_name() + '/screenshot'
     if details.get_long_desc() or details.get_screenshots() or os.path.exists(screenshot_store) or os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
@@ -115,45 +123,45 @@ def print_pkg_details (details):
             print ('</div></div>')
 
     print ('<div class="grid-container">')
-    print ('<div class=gridLeft>', 'Pacote:', '</div>')
+    print ('<div class=gridLeft>', _('Pacote:'), '</div>')
     print ('<div class=gridRight>', sys.argv[1], '</div></div>')
     if details.get_installed_version():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Versão instalada:', '</div>')
+        print ('<div class=gridLeft>', _('Versão instalada:'), '</div>')
         print ('<div class=gridRight>', details.get_installed_version(), '</div>')
         print ('</div>')
     else:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')
+        print ('<div class=gridLeft>', _('Versão disponivel:'), '</div>')
         print ('<div class=gridRight>', details.get_version(), '</div></div>')
     if update_version.stdout != '':
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')
+        print ('<div class=gridLeft>', _('Versão disponivel:'), '</div>')
         print ('<div class=gridRight>', update_version.stdout, '</div></div>')
 
-    print ('<div class=grid-container><div class=gridLeft>', 'Uso de armazenamento:', '</div><div class=gridRight id=Size>', str(round(details.get_installed_size() / (1024 * 1024), 1)), 'MB</div></div>')
+    print ('<div class=grid-container><div class=gridLeft>', _('Uso de armazenamento:'), '</div><div class=gridRight id=Size>', str(round(details.get_installed_size() / (1024 * 1024), 1)), 'MB</div></div>')
 
     if details.get_download_size():
-        print ('<div class=grid-container><div class=gridLeft>', 'Tamanho do download:', '</div><div class=gridRight id=Size>', str(round(details.get_download_size() / (1024 * 1024), 1)), 'MB</div></div>')
+        print ('<div class=grid-container><div class=gridLeft>', _('Tamanho do download:'), '</div><div class=gridRight id=Size>', str(round(details.get_download_size() / (1024 * 1024), 1)), 'MB</div></div>')
 
     if details.get_url():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Site:', '</div>')
+        print ('<div class=gridLeft>', _('Site:'), '</div>')
         print ('<div class="gridRight clickpointer" onclick="_run(', "'" + 'xdg-open', details.get_url() + "'", ')">', details.get_url(), '</div></div>')
 
     if details.get_license():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Licença:', '</div>')
+        print ('<div class=gridLeft>', _('Licença:'), '</div>')
         print ('<div class="gridRight">', details.get_license(), '</div></div>')
 
     if details.get_repo():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Repositório:', '</div>')
+        print ('<div class=gridLeft>', _('Repositório:'), '</div>')
         print ('<div class="gridRight">', details.get_repo(), '</div></div>')
 
     if details.get_packager():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Empacotador:', '</div>')
+        print ('<div class=gridLeft>', _('Empacotador:'), '</div>')
         print ('<div class="gridRight">', details.get_packager(), '</div></div>')
 
     if details.get_build_date():
@@ -175,12 +183,12 @@ def print_pkg_details (details):
 
     if details.get_reason():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Motivo da instalação:', '</div>')
+        print ('<div class=gridLeft>', _('Motivo da instalação:'), '</div>')
         print ('<div class="gridRight">', details.get_reason(), '</div></div>')
 
     if details.get_groups():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Grupos:', '</div>')
+        print ('<div class=gridLeft>', _('Grupos:'), '</div>')
         print ('<div class="gridRight">')
         for group in details.get_groups():
             print (group + '<br>')
@@ -188,12 +196,12 @@ def print_pkg_details (details):
 
     if details.get_has_signature():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Assinado:', '</div>')
+        print ('<div class=gridLeft>', _('Assinado:'), '</div>')
         print ('<div class="gridRight">', details.get_has_signature(), '</div></div>')
 
     if details.get_optdepends():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Complementos:', '</div>')
+        print ('<div class=gridLeft>', _('Complementos:'), '</div>')
         print ('<div class="gridRight">')
         print ('<div class="optdepends_box">')
         for optdepends in details.get_optdepends():
@@ -203,16 +211,16 @@ def print_pkg_details (details):
             print ('<div id=optdepends_breakline>')
             if installed_dep.stdout == '':
                 print ('<div id=optdepends_install><a href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
-                print ('<div id=optdepends_install_button>' + 'Instalar', optdepends_name, '</div></a>' + optdepends_desc)
+                print ('<div id=optdepends_install_button>' + _('Instalar'), optdepends_name, '</div></a>' + optdepends_desc)
             else:
                 print ('<div id=optdepends_remove><a href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
-                print ('<div id=optdepends_remove_button>' + 'Remover', optdepends_name, '</div></a>' + optdepends_desc)
+                print ('<div id=optdepends_remove_button>' + _('Remover'), optdepends_name, '</div></a>' + optdepends_desc)
             print ('</div></div>')
         print ('</div></div></div>')
 
     if details.get_depends():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Dependências:', '</div>')
+        print ('<div class=gridLeft>', _('Dependências:'), '</div>')
         print ('<div class="gridRight">')
         for depends in details.get_depends():
             print (depends + '<br>')
@@ -220,7 +228,7 @@ def print_pkg_details (details):
 
     if details.get_conflicts():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Remove:', '</div>')
+        print ('<div class=gridLeft>', _('Remove:'), '</div>')
         print ('<div class="gridRight">')
         for conflicts in details.get_conflicts():
             print (conflicts + '<br>')
@@ -228,17 +236,17 @@ def print_pkg_details (details):
 
     if details.get_replaces():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Substitui:', '</div>')
+        print ('<div class=gridLeft>', _('Substitui:'), '</div>')
         print ('<div class="gridRight">')
         for replaces in details.get_replaces():
             print (replaces + '<br>')
         print ('</div></div>')
 
     print ('<div class="grid-container">')
-    print ('<div class=gridLeft>', 'Arquivos do pacote:', '</div>')
+    print ('<div class=gridLeft>', _('Arquivos do pacote:'), '</div>')
     print ('<div class="gridRight">')
 
-    print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles">', 'Clique aqui para ver os arquivos', '</a><script>')
+    print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles">', _('Clique aqui para ver os arquivos'), '</a><script>')
     if details.get_installed_version():
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_installed " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
     else:
@@ -267,4 +275,4 @@ if __name__ == "__main__":
     # To single package
     db.enable_appstream()
     pkg = db.get_pkg(sys.argv[1])
-    print_pkg_details(pkg)
+    print_pkg_details (pkg)
