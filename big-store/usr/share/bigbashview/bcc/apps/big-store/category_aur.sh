@@ -17,7 +17,7 @@ OIFS=$IFS
 IFS=$'\n'
 PKG="$@"
 
-for i  in  $(LANG=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Description | cut -f2-10 -d":" | awk '{if (NR%3) {ORS="";print "|"$0} else {ORS="\n";print "|"$0}}' | sed 's/^| //g;s/| /|/g'); do
+for i  in  $(LANGUAGE=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Description | cut -f2-10 -d":" | awk '{if (NR%3) {ORS="";print "|"$0} else {ORS="\n";print "|"$0}}' | sed 's/^| //g;s/| /|/g'); do
     TITLE="$(echo "$i" | cut -f1 -d"|")"
     VERSION="$(echo "$i"| cut -f2 -d"|")"
     DESCRIPTION="$(echo "$i" | cut -f3 -d"|")"

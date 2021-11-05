@@ -851,3 +851,4 @@ parsec
 moonlight-qt
 rustdesk-bin
 joplin-desktop
+microsoft-edge-stable-bin

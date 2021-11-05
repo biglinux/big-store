@@ -189,7 +189,7 @@ if [ "$category" = "browser" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
     LANG_PKG="firefox-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "firefox $LANG_PKG brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome"
+    APPSTREAM_CATEGORY "firefox $LANG_PKG brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
     AUR_CATEGORY
 fi
 
