@@ -972,7 +972,7 @@ input.validate.bigsearch.autocomplete::placeholder {
     display: grid;
     opacity: 1;
     position: fixed;
-	z-index: 1;
+	z-index: 100;
 }
 
 .input-field label {
