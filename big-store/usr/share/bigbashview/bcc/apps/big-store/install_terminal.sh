@@ -11,6 +11,11 @@
 OIFS=$IFS
 IFS=$'\n'
 
+if [ "$ACTION" = "reinstall_pamac" ]; then
+    MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=8 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
+    pamac reinstall $PACKAGE_NAME --no-confirm
+fi
+
 if [ "$ACTION" = "install_flatpak" ]; then
     MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=8 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
     flatpak install --or-update $REPOSITORY $PACKAGE_ID -y

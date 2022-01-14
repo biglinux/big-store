@@ -87,16 +87,16 @@ parallel_filter () {
     # Verify if package are installed
     if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
         if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
-            PKG_INSTALLED="Atualizar"
+            PKG_INSTALLED=$"Atualizar"
             DIV_FLATPAK_INSTALLED="flatpak_upgradable"
             PKG_ORDER="FlatpakP1"
         else
-            PKG_INSTALLED="Remover"
+            PKG_INSTALLED=$"Remover"
             DIV_FLATPAK_INSTALLED="flatpak_installed"
             PKG_ORDER="FlatpakP1"
         fi
     else
-        PKG_INSTALLED="Instalar"
+        PKG_INSTALLED=$"Instalar"
         DIV_FLATPAK_INSTALLED="flatpak_not_installed"
 
         if [ "$(echo "$PKG_NAME $PKG_ID" | grep -i -m1 "$PKG_NAME_CLEAN")" != "" ]
@@ -140,7 +140,7 @@ COUNT=0
 case "$(echo "$search" | wc -w)" in
 
     1)
-        for i  in  $(grep -i  -m 50 -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/flatpak.cache); do
+        for i  in  $(grep -i  -m 50 -e "$(echo "$search" | cut -f1 -d" " | sed 's|"||g')" ${HOME_FOLDER}/flatpak.cache); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
              if [ "$COUNT" = "50" ]; then
@@ -150,7 +150,7 @@ case "$(echo "$search" | wc -w)" in
     ;;
 
     2)
-        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/flatpak.cache | grep -i  -m 50 -e "$(echo "$search" | cut -f2 -d" ")"); do
+        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" " | sed 's|"||g')" ${HOME_FOLDER}/flatpak.cache | grep -i  -m 50 -e "$(echo "$search" | cut -f2 -d" ")"); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
              if [ "$COUNT" = "50" ]; then
@@ -160,7 +160,7 @@ case "$(echo "$search" | wc -w)" in
     ;;
 
     *)
-        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/flatpak.cache | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i  -m 50 -e "$(echo "$search" | cut -f3 -d" ")"); do
+        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" " | sed 's|"||g')" ${HOME_FOLDER}/flatpak.cache | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i  -m 50 -e "$(echo "$search" | cut -f3 -d" ")"); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
              if [ "$COUNT" = "50" ]; then

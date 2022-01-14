@@ -19,6 +19,13 @@ if [ "$pkg_install" = "y" ]; then
     pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
 fi
 
+if [ "$pkg_reinstall" = "y" ]; then
+    # Using terminal
+    ACTION="reinstall_pamac" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$pkg_name" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    echo "" > ${TMP_FOLDER}/upgradeable.txt
+    pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
+fi
+
 if [ "$pkg_remove" = "y" ]; then
     pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $(pwd)/run-pamac-remove $pkg_name
     echo "" > ${TMP_FOLDER}/upgradeable.txt

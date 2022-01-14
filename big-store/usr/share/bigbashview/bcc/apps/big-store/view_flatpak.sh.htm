@@ -16,6 +16,10 @@ TMP_FOLDER="/tmp/bigstore"
 REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
 PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
 
+if [ "$PACKAGE_ID" = "" ]; then
+    PACKAGE_ID="$pkg_name"
+fi
+
 if [ "$pkg_install" = "y" ]; then
     ACTION="install_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
@@ -45,8 +49,17 @@ echo '</div></div>'
 
 source header.sh.htm
 
+# Remove verification-fault file, if python don't create this file, is because python fault
+rm -f ~/.bigstore/flatpak-verification-fault
+
 # Run script with complementary content
 ./view_flatpak_pamac.py "$pkg_name"
+
+# If view_flatpak_pamac.py fault use shell
+if [ ! -e "$HOME/.bigstore/flatpak-verification-fault" ]; then
+    ./view_flatpak.sh "$pkg_name"
+fi
+
 #kdialog --msgbox "$pkg_name"
 echo "<script>runAvatarFlatpak();</script>"
         

@@ -87,9 +87,9 @@ def print_pkg_details (details):
         with open('/tmp/bigstore/upgradeable.txt') as f:
             if '\n' + details.get_name() + '\n' in f.read():
                 print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
-#            else:
-#                if details.get_repo():
-#                    print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Reinstalar'), '</button>')
+            else:
+                if details.get_repo():
+                    print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_reinstall=y'" + '">', _('Reinstalar'), '</button>')
     else:
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
