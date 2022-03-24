@@ -33,11 +33,11 @@ SNAP_SCREENSHOT() {
 
 
 if [ "$pkg_install" = "y" ]; then
-    ACTION="install_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="install_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 if [ "$pkg_remove" = "y" ]; then
-    ACTION="remove_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="remove_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 
@@ -73,7 +73,7 @@ SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
 
 
 echo '<div id=box_snap_install><div id=title_snap_install>'
-echo '<div id=button_snap class="tooltipped" data-position="left" data-tooltip="' $"Informações sobre programas SNAP" '">'
+echo '<div id=button_snap class="tooltipped" data-position="right" data-tooltip="' $"Informações sobre programas SNAP" '">'
 echo $"Programas SNAP"
 echo '</div></div><div id=content_snap_install>'
 echo '<div id=titleBar>'
@@ -224,3 +224,11 @@ echo '</div><div class="modal-footer"><a href="#!" class="modal-close waves-effe
 echo "<script>\$(document).ready(function(){
     \$('.modal').modal();
   });</script>"
+
+  # Finish him
+cat << EOF
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+EOF

@@ -1,5 +1,5 @@
 // Javascript to replace div content using file
-// Example to enable disabled div: \$('#pkgInstallBtn').attr('disabled', false);
+// Example to enable disabled div: $('#pkgInstallBtn').attr('disabled', false);
 
 function fileReplaceDiv(i, div, file){
   if(i == true){
@@ -147,28 +147,28 @@ function disableBodyConfig() {
     'display':'inline-flex'
   });
 }
-
+/*
 function disableBodySnapInstall() {
   $('#box_progress_snap_install').css({
-    'display':'inline-flex'
+    'display':'inline'
   });
 }
 
 function disableBodySnapRemove() {
   $('#box_progress_snap_remove').css({
-    'display':'inline-flex'
+    'display':'inline'
   });
 }
 
 function disableBodyFlatpakInstall() {
   $('#box_progress_flatpak_install').css({
-    'display':'inline-flex'
+    'display':'inline'
   });
 }
 
 function disableBodyFlatpakRemove() {
   $('#box_progress_flatpak_remove').css({
-    'display':'inline-flex'
+    'display':'inline'
   });
 }
 
@@ -178,5 +178,52 @@ function disableButtonFlatpakInstall() {
   $('#box_progress_flatpak_cancel').css({
     'display':'none'
   });
+}*/
+
+
+function disableBodySnapInstall() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
 }
 
+function disableBodySnapRemove() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
+}
+
+function disableBodyFlatpakInstall() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
+
+  $('#box_progress_flatpak_cancel').css({
+    'display':'inline'
+  });
+}
+
+function disableBodyFlatpakRemove() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
+}
+
+
+
+function disableButtonFlatpakInstall() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
+}
+
+function disableBodyConfigSimple() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
+}
+function disableBodyConfig() {
+  $('#box_progress_config').css({
+    'display':'inline'
+  });
+}

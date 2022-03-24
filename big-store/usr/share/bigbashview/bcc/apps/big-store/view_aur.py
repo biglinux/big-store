@@ -20,7 +20,7 @@ data = json.loads(response.text)
 for p in data['results']:
 
     print ('<div id=box_aur_install><div id=title_aur_install>')
-    print ('<div id=button_aur class="tooltipped" data-position="left" data-tooltip="'+_('Informações sobre programas AUR')+'">')
+    print ('<div id=button_aur class="tooltipped" data-position="right" data-tooltip="'+_('Informações sobre programas AUR')+'">')
     print (_('Programas AUR'))
     print ('</div></div><div id=content_aur_bg>')
     print ('<div id=titleBar>')

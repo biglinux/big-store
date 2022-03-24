@@ -100,4 +100,9 @@ fi
 
 
 # Finish him
-echo '</div></body></html>'
+cat << EOF
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+EOF

@@ -55,7 +55,7 @@ def print_pkg_details (details):
     #print (" -optionalfor:", details.get_optionalfor())
     #print (" -backups:", details.get_backups())
     print ('<div id=box_appstream_install><div id=title_appstream_install>')
-    print ('<div id=button_appstream class="tooltipped" data-position="left" data-tooltip="'+_('Informações sobre programas nativos')+'">')
+    print ('<div id=button_appstream class="tooltipped" data-position="right" data-tooltip="'+_('Informações sobre programas nativos')+'">')
     print (_('Programas Nativos'))
     print ('</div></div><div id=content_appstream_install>')
     update_version = subprocess.run(["pacman", "-Qu", sys.argv[1], '|', "awk","'{print $NF}'"], stdout=subprocess.PIPE, text=True)

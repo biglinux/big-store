@@ -21,7 +21,7 @@ fi
 
 if [ "$pkg_reinstall" = "y" ]; then
     # Using terminal
-    ACTION="reinstall_pamac" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$pkg_name" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="reinstall_pamac" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$pkg_name" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
     echo "" > ${TMP_FOLDER}/upgradeable.txt
     pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
 fi
@@ -65,3 +65,11 @@ echo '</div><div class="modal-footer"><a href="#!" class="modal-close waves-effe
 echo "<script>\$(document).ready(function(){
     \$('.modal').modal();
   });</script>"
+
+  # Finish him
+cat << EOF
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+EOF

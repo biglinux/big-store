@@ -28,7 +28,7 @@ source header.sh.htm
     echo '</div>'
 
 if [ "$pkg_remove" = "y" ]; then
-    ACTION="remove_snap" PACKAGE_NAME="$pkg_name" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="remove_snap" PACKAGE_NAME="$pkg_name" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
     
 
@@ -38,4 +38,9 @@ done
 
 
 # Finish him
-echo '</div></body></html>'
+cat << EOF
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+EOF

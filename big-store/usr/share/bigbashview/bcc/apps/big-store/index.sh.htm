@@ -25,12 +25,13 @@ ICON_CATEGORY() {
 
 
     echo '<div id=box_index_category>'
-    echo '<div id=box_info_index>'
-    echo $"Em nossa busca são verificadas mais de 20 mil opções de instalação, disponibilizando para você um acervo gigantesco de programas, drivers, temas e etc."
-    echo "<p>"
-    echo $"Com tantas opções, se você possui pouca experiência com Linux, recomendo que utilize as categorias a seguir, pois selecionamos apenas os melhores programas para executar as tarefas mais utilizadas pelos nossos usuários: "
-    echo '</div>'
+#     echo '<div id=box_info_index>'
+#     echo $"Em nossa busca são verificadas mais de 20 mil opções de instalação, disponibilizando para você um acervo gigantesco de programas, drivers, temas e etc."
+#     echo "<p>"
+#     echo $"Com tantas opções, se você possui pouca experiência com Linux, recomendo que utilize as categorias a seguir, pois selecionamos apenas os melhores programas para executar as tarefas mais utilizadas pelos nossos usuários: "
+#     echo '</div>'
 
+    echo '<a name=internet></a>'
     echo '<div class=category_box>'
     echo '<div class=category_title_index>'
         echo $"Internet"
@@ -48,7 +49,7 @@ ICON_CATEGORY() {
 
     echo '</div></div></div>'
 
-
+    echo '<a name=office></a>'
     echo '<div class=category_box>'
     echo '<div class=category_title_index>'
         echo $"Escritório"
@@ -64,7 +65,7 @@ ICON_CATEGORY() {
 
     echo '</div></div></div>'
 
-
+    echo '<a name=graphics></a>'
     echo '<div class=category_box>'
     echo '<div class=category_title_index>'
         echo $"Gráficos"
@@ -79,6 +80,7 @@ ICON_CATEGORY() {
 
     echo '</div></div></div>'
 
+        echo '<a name=multimedia></a>'
         echo '<div class=category_box>'
         echo '<div class=category_title_index>'
         echo $"Multimídia"
@@ -96,9 +98,10 @@ ICON_CATEGORY() {
     ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
 
     echo '</div></div></div>'
-
+    echo '<a name=games></a>'
         echo '<div class=category_box>'
     echo '<div class=category_title_index>'
+        
         echo $"Jogos"
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
@@ -119,7 +122,7 @@ ICON_CATEGORY() {
 
     echo '</div></div></div>'
 
-
+    echo '<a name=system></a>'
         echo '<div class=category_box>'
     echo '<div class=category_title_index>'
         echo $"Sistema"
@@ -133,7 +136,7 @@ ICON_CATEGORY() {
 
     echo '</div></div></div>'
 
-
+    echo '<a name=dev></a>'
         echo '<div class=category_box>'
     echo '<div class=category_title_index>'
         echo $"Desenvolvimento"
@@ -151,7 +154,7 @@ fi
 APPSTREAM_CATEGORY() {
     echo '<div id=box_appstream_category>'
     echo '<div id=title_appstream>'
-    echo "<div id=button_appstream class=\"tooltipped\" data-position=\"left\" data-tooltip=\"$ABOUT_APPSTREAM\">"
+    echo "<div id=button_appstream class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_APPSTREAM\">"
     echo $"Programas Nativos"
     echo '</div>'
     echo '</div>'
@@ -166,7 +169,7 @@ AUR_CATEGORY() {
     rm -f "${TMP_FOLDER}/aur_number.html"
     echo '<div id=box_aur>'
     echo '<div id=title_aur>'
-    echo "<div id=button_aur class=\"tooltipped\" data-position=\"left\" data-tooltip=\"$ABOUT_AUR\">"
+    echo "<div id=button_aur class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_AUR\">"
     echo $"Programas AUR"
     echo '</div>'
     echo '</div>'
@@ -690,4 +693,12 @@ fi
 
 
 # Finish him
-echo '</div></body></html>'
+cat << EOF
+  <div class="logo">
+    <img src="logo.png" class="logo-biglinux">
+  </div>
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+EOF

@@ -21,31 +21,28 @@ if [ "$PACKAGE_ID" = "" ]; then
 fi
 
 if [ "$pkg_install" = "y" ]; then
-    ACTION="install_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="install_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 if [ "$pkg_remove" = "y" ]; then
-    ACTION="remove_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb internalBorder 10 -borderColor rgb:cc/cc/cc -depth 32 -fg rgb:33/33/33 -bg rgb:cc/cc/cc -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+    ACTION="remove_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 # Loading
-echo '<div id=box_progress_flatpak_install>'
-echo '<div id=box_progress_flatpak_bar>'
-echo $"Instalando"
+# echo $"Instalando"
 echo "<div id=box_progress_flatpak_cancel><button class=\"btn btnSpace waves-effect waves-light grey darken-2\" type=\"submit\" name=\"action\" onclick=\"disableButtonFlatpakInstall();_run('killall flatpak')\">"
 echo $"Cancelar"
 echo '</button></div>'
-echo '</div></div>'
 
 
 # Loading
-echo '<div id=box_progress_flatpak_remove>'
-echo '<div id=box_progress_flatpak_bar>'
-echo $"Removendo"
+#echo '<div id=box_progress_flatpak_remove>'
+#echo '<div id=box_progress_flatpak_bar>'
+#echo $"Removendo"
 # echo "<div id=box_progress_flatpak_cancel><button class=\"btn btnSpace waves-effect waves-light grey darken-2\" type=\"submit\" name=\"action\" onclick=\"_run('killall flatpak')\">"
 # echo $"Cancelar"
 # echo '</button></div>'
-echo '</div></div>'
+#echo '</div></div>'
 
 source header.sh.htm
 
@@ -53,11 +50,11 @@ source header.sh.htm
 rm -f ~/.bigstore/flatpak-verification-fault
 
 # Run script with complementary content
-./view_flatpak_pamac.py "$pkg_name"
-
-# If view_flatpak_pamac.py fault use shell
-if [ ! -e "$HOME/.bigstore/flatpak-verification-fault" ]; then
-    ./view_flatpak.sh "$pkg_name"
+./view_flatpak_pamac.py "$pkg_name" > /tmp/flapak_pamac_temp.txt
+if [ -e "$HOME/.bigstore/flatpak-verification-fault" ]; then
+  cat /tmp/flapak_pamac_temp.txt
+else
+  ./view_flatpak.sh "$pkg_name"
 fi
 
 #kdialog --msgbox "$pkg_name"
@@ -84,3 +81,11 @@ echo '</div><div class="modal-footer"><a href="#!" class="modal-close waves-effe
 echo "<script>\$(document).ready(function(){
     \$('.modal').modal();
   });</script>"
+
+# Finish him
+cat << EOF
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+EOF

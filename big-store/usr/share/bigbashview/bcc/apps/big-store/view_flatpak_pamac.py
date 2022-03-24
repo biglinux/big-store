@@ -7,6 +7,7 @@
 import gi
 import subprocess
 import sys
+import locale
 import datetime
 gi.require_version('Pamac', '11')
 from gi.repository import Pamac
@@ -20,6 +21,9 @@ _ = lang_translations.gettext
 
 
 def print_pkg_details (details):
+    if  details.get_app_id() == None:
+        exit()
+    loc = '%d/%m/%Y' if locale.getlocale()[0] == 'pt_BR' else '%Y/%m/%d'
     #print (" -Name:", details.get_app_name())
     #print (" -Desc:", details.get_desc())
     #print (" -Long Desc:", details.get_long_desc())
@@ -52,7 +56,7 @@ def print_pkg_details (details):
     #print (" -backups:", details.get_backups())
 
     print ('<div id=box_flatpak_install><div id=title_flatpak_install>')
-    print ('<div id=button_flatpak class="tooltipped" data-position="left" data-tooltip="'+_('Informações sobre programas nativos')+'">')
+    print ('<div id=button_flatpak class="tooltipped" data-position="right" data-tooltip="'+_('Informações sobre programas nativos')+'">')
     print (_('Programas Flatpak'))
     print ('</div></div><div id=content_flatpak_install>')
     update_version = subprocess.run(["./pkg_flatpak_version", sys.argv[1]], stdout=subprocess.PIPE, text=True)
@@ -65,7 +69,7 @@ def print_pkg_details (details):
         print ('<div class=icon_middle><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
     else:
         print ('<img class="icon_view" src="', details.get_icon(), '">')
-
+    #print ('<div id=titleName>', sys.argv[1], '</div></div></div>')
     print ('<div id=titleName>', details.get_app_id().replace(".org", "").replace("org.", "").replace("com.", "").replace(".desktop", "").replace(".io", ""), '/', details.get_app_name(), '</div></div></div>')
     print ('<div id=description>', details.get_desc(), '</div></div>')
     print ('<div class="row center">')
@@ -131,14 +135,14 @@ def print_pkg_details (details):
 
     if details.get_install_date():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', _('Data de instalação:'), '</div>')
+        print ('<div class=gridLeft>', 'Data de instalação:', '</div>')
         print ('<div class="gridRight">')
         print (datetime.datetime.fromtimestamp(
-            int(details.get_install_date())
-        ).strftime('%Y/%m/%d'))
+            int(details.get_install_date().to_unix())
+        ).strftime(loc))
         print ('</div></div>')
 
-
+    subprocess.run(["./pkg_flatpak_verify"], stdout=subprocess.PIPE, text=True)
     if details.get_installed_version():
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', _('Arquivos do pacote:'), '</div>')
@@ -147,6 +151,8 @@ def print_pkg_details (details):
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_installed_flatpak " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
         print ('</script>')
         print ('</div></div>')
+
+
 
 if __name__ == "__main__":
     config = Pamac.Config(conf_path="/etc/pamac.conf")

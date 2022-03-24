@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Settings;
 Exec=big-store
-Icon=/usr/share/bigbashview/bcc/apps/big-store/img/icon.png
+Icon=/usr/share/bigbashview/bcc/apps/big-store/img/icon.svg
 Name=Big Store
 StartupNotify=true
 Terminal=false
