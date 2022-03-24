@@ -89,7 +89,7 @@ def print_pkg_details (details):
                 print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
             else:
                 if details.get_repo():
-                    print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_reinstall=y'" + '">', _('Reinstalar'), '</button>')
+                    print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBodyConfig();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_reinstall=y'" + '">', _('Reinstalar'), '</button>')
     else:
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
