@@ -60,7 +60,21 @@ cat << EOF
     <script type="text/javascript" src="js/autocomplete.js"></script>
     <script type="text/javascript" src="js/bigstore.js"></script>
     
-<link href="fontawesome/css/all.css" rel="stylesheet">
+<script type="text/javascript">
+if (document.addEventListener) {
+    window.addEventListener('pageshow', function (event) {
+        if (event.persisted || window.performance && 
+            window.performance.navigation.type == 2) 
+        {
+            disableBody();
+            location.reload();
+        }
+    },
+   false);
+}
+</script>    
+    
+    <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" type="text/css" href="/usr/share/bigbashview/bcc/apps/big-store/materialize/css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/appstream.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -149,7 +163,7 @@ echo '<div id=box_progress_config_simple></div>'
 # Get body tag with color light or not
 /usr/share/bigbashview/bcc/shell/getbgcolor.sh
 
-# Loading
+# Loading disableBody();
 echo '<div id=box_progress><div id=progress_loading>'
 echo '<div class="lds-ring"><div></div><div></div><div></div><div></div></div>'
 echo '</div></div>'
@@ -385,6 +399,12 @@ EOF
 
 cat << EOF
       <div class="main-header">
+        <div class="header-profile">
+            <a href="#" onclick="history.back()">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class=""></path></svg>
+            </a>
+        </div>
+          
         <div class="header-menu">
 EOF
 
