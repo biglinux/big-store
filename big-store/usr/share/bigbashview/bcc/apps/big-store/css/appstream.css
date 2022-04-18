@@ -627,7 +627,7 @@ div#deb_name {
 
 div#appstream_desc, div#flatpak_desc, div#snap_desc, div#aur_desc {
     color: #ffffff;
-    transition-duration: 0.5s;
+    /*transition-duration: 0.5s;*/
     /* background-color: rgb(0 165 81 / 0.25); */
     height: auto;
     /* border-radius: 5px; */
@@ -785,7 +785,7 @@ color: #424242;
 div#appstream_installed, div#flatpak_installed, div#snap_installed, div#aur_installed {
     height: 0px;
     visibility: hidden;
-    transition-duration: 0.3s;
+    /*transition-duration: 0.3s;*/
     margin-top: 0px;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -803,7 +803,7 @@ div#appstream_installed, div#flatpak_installed, div#snap_installed, div#aur_inst
 div#appstream_not_installed, div#flatpak_not_installed, div#snap_not_installed, div#aur_not_installed {
     height: 0px;
     visibility: hidden;
-    transition-duration: 0.3s;
+    /*transition-duration: 0.3s;*/
     margin-top: 0px;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -956,6 +956,7 @@ div#snap_package {
 
 .autocomplete-content {
     margin-top: -20px;
+    margin-left: 118px;
     display: grid;
     opacity: 1;
     position: fixed;

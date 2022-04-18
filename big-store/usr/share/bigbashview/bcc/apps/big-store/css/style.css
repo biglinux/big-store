@@ -170,6 +170,10 @@ input[type=radio] + label {
     --tit-tooltip: #1d2028;
 }
 
+label {
+    color: var(--text-a-color) !important;
+}
+
 .light-mode {
     --body-bg-color: #252d37;
     --theme-bg-color: rgb(255 255 255 / 31%);
@@ -323,8 +327,10 @@ body.light-mode .video-bg:before {
   }
 }
 .header-menu {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center; 
 }
 .header-menu a {
   padding: 20px 30px;
@@ -411,8 +417,11 @@ body.light-mode .video-bg:before {
 
 }
 .search-bar input {
-  border: 1px solid #ccc;
-  border-radius: 100px;
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 100px;*/
+  border-radius: 5px;
+  border-bottom: 0px !important;
+  box-shadow: 0 0 0 0 !important;
   line-height: 1;
   box-sizing: border-box;
   outline: none;
@@ -421,7 +430,7 @@ body.light-mode .video-bg:before {
   margin-left: 120px;
   border: none;
   background-color: var(--search-bg);
-  border-radius: 4px;
+  
   font-family: var(--body-font);
   font-size: 15px;
   font-weight: 500;
@@ -443,13 +452,13 @@ body.light-mode .video-bg:before {
 
 .header-profile {
   align-items: center;
-  padding: 0 16px 0 40px;
+  /*padding: 0 16px 0 40px;*/
   margin-left: auto;
   flex-shrink: 0;
 }
 .header-profile svg {
   width: 22px;
-  color: #f9fafb;
+  color: var(--text-a-color);
   flex-shrink: 0;
 }
 
@@ -496,7 +505,7 @@ body.light-mode .video-bg:before {
   max-width: 600px;
   margin: auto;
   transition: 0.4s;
-  box-shadow: 0 0 0 1px var(--border-color);
+  /*box-shadow: 0 0 0 1px var(--border-color);*/
   padding-left: 0;
 }
 .wide .menu-circle {
@@ -1139,12 +1148,12 @@ body.light-mode .video-bg:before {
 
 /* LOGO */
 .logo {
-  z-index: 2;
-  position: absolute;
-  top: 1.7%;
-  left: 20px;
-  width: 32px;
-  height: 32px;
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
 }
 
 .logo img {
@@ -1154,7 +1163,7 @@ body.light-mode .video-bg:before {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 30px;
+  width: 40px;
 }
 
 .logo a {
