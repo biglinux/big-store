@@ -680,13 +680,19 @@ img.img_loading {
 
 .progress {
     position: relative;
+    height: 20px !important;
+    width: 40px !important;   
+    margin: -20px 0px 0px 9px;
+    /*
     height: 14px;
     width: 25px !important;
+    margin: -17px 0px 0px 16px;
+    */
     display: block;
     width: 84%;
     background-color: #acece6;
     border-radius: 2px;
-    margin: -17px 0px 0px 16px;
+    
     overflow: hidden;
 }
 
