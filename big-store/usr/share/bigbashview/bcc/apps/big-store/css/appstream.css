@@ -724,11 +724,15 @@ hr {
 }
 
 .icon_text_vertical_align {
-    margin: 0;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    bottom: 50%;
+    /*margin: 0;
     margin-top: 1px;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%);*/
 }
 
 .icon_background {
@@ -1100,10 +1104,12 @@ div#total {
 
 
 .icon {
-    margin-top: 18px;
     text-align: center;
     margin-right: 8px;
-
+    margin: auto;    
+/*    margin-top: 18px;
+    text-align: center;
+    margin-right: 8px;*/
 }
 
 .icon_top {
@@ -1205,17 +1211,28 @@ div#dependsSeeMore {
  height: 48px;
 }
 
-
-
 .category_font_icon {
-    font-size: 22px;
+    font-size: 30px;
+    color: var(--text-a-color);
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;    
+/*    font-size: 22px;
     /*color: var(--text-a-color);*/
-    color: pink;
+/*    color: pink;
     padding: 1px;
     display: inline-flex;
-    border-radius: 12px;
+    border-radius: 12px;*/
+}
+i.fas.fa-dice-d20 {
+    color: #599cc5;    
 }
 i.fas.fa-save {
+    color: #599cc5;    
+}
+i.fas.fa-chart-pie {
     color: #599cc5;    
 }
 i.fas.fa-chess-board {
@@ -1224,11 +1241,14 @@ i.fas.fa-chess-board {
 i.fas.fa-square {
     color: #feffaf;
 }
+i.fas.fa-crown {
+    color: #e8c515;
+}
 i.fas.fa-gamepad {
-    color: #8ea3b1;
+    color: #4e7188;
 }
 i.fas.fa-broadcast-tower {
-    color: #ffff00;
+    color: #fda300;
 }
 i.fas.fa-cube {
     color: lightskyblue;
@@ -1246,7 +1266,7 @@ i.fas.fa-music {
     color: #f44fff;
     }
 i.fas.fa-globe {
-    color: #8c8c8c;
+    color: #a9a9a9;
     }
 
 i.fas.fa-envelope {
@@ -1271,11 +1291,11 @@ i.fas.fa-laptop-house {
     }
 
 i.fas.fa-network-wired {
-    color: #0d36cc;
+    color: #244290;
     }
 
 i.fas.fa-briefcase {
-    color: #ffc800;
+    color: #c17221;
     }
 
 i.fas.fa-file-pdf {
@@ -1311,7 +1331,7 @@ i.fas.fa-server {
     }
 
 i.fas.fa-headphones {
-    color: #ffe998;
+    color: #ff8989;
     }
 
 i.fas.fa-film {
@@ -1319,11 +1339,11 @@ i.fas.fa-film {
     }
 
 i.fas.fa-video {
-    color: #08ff5f;
+    color: #00ab54;
     }
 
 i.fas.fa-image {
-    color: #d4a600;
+    color: #0079b3;
     }
 
 i.fas.fa-tv {
@@ -1351,19 +1371,19 @@ i.fas.fa-file-image {
     }
 
 i.fas.fa-toolbox {
-    color: #e2c455;
+    color: #e86100;
     }
 
 i.fas.fa-cog {
-    color: chartreuse;
+    color: #5d5d5d;
     }
 
 i.fas.fa-cogs {
-    color: deepskyblue;
+    color: #318faf;
     }
 
 i.fas.fa-code {
-    color: #ffeeac;
+    color: #00ffff;
     }
 
 i.fas.fa-graduation-cap {
