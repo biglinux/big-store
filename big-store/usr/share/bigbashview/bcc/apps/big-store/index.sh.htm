@@ -1,10 +1,14 @@
 #!/bin/bash
-#
-# BigLinux Store
-# www.biglinux.com.br
-# By Bruno Gonçalves
-# 11/01/2020
-# License: GPL v2 or greater
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -112,13 +116,13 @@ ICON_CATEGORY() {
     ICON_CATEGORY gameemulator "fas fa-cogs" $"Emuladores"
     ICON_CATEGORY devgames "fas fa-code" $"Criadores de jogos"
     ICON_CATEGORY gamearcade "fas fa-tv" $"Ação/Arcade"
-    ICON_CATEGORY gamecard "fas fa-square" $"Cartas"
+    ICON_CATEGORY gamecard "fas fa-crown" $"Cartas"
     ICON_CATEGORY gameeducational "fas fa-graduation-cap" $"Educacional"
     ICON_CATEGORY gamestrategy "fas fa-user-secret" $"Estratégia"
     ICON_CATEGORY gamepuzzle "fas fa-puzzle-piece" $"Puzzles"
     ICON_CATEGORY gameboard "fas fa-chess-board" $"Tabuleiro"
-    ICON_CATEGORY gamerpg "fas fa-dice" $"RPG"
-    ICON_CATEGORY gameother "fas fa-globe" $"Outros"
+    ICON_CATEGORY gamerpg "fas fa-dice-d20" $"RPG"
+    ICON_CATEGORY gameother "fas fa-dice" $"Outros"
 
     echo '</div></div></div>'
 
@@ -129,7 +133,7 @@ ICON_CATEGORY() {
         echo '</div>'
         echo '<div class=category_index_list_center><div class=category_index_list>'
 
-    ICON_CATEGORY storage "fas fa-save" $"Armazenamento e partições"
+    ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições"
     ICON_CATEGORY fonts "fas fa-font" $"Fontes (Tipografia)"
     ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
     ICON_CATEGORY virtualization "fas fa-box" $"Virtualização"
