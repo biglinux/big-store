@@ -5,93 +5,469 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: big-store\n"
-"POT-Creation-Date: 2021-09-03 20:38-0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-22 00:10-0300\n"
 "PO-Revision-Date: 2021-09-03 21:16-0300\n"
+"Last-Translator: \n"
 "Language-Team: biglinux\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: Poedit 3.0\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en\n"
+
+msgid "A Big-Store já está em uso."
+msgstr ""
+
+msgid "Big-Store"
+msgstr ""
 
 #: category_appstream_pamac.py:53 search_appstream_pamac.py:53
-#: view_appstream_pamac.py:93 view_appstream_pamac.py:214 view_aur.py:51
-#: view_flatpak_pamac.py:81
+#: view_appstream_pamac.py:94 view_appstream_pamac.py:214 view_aur.py:51
+#: view_flatpak_pamac.py:85
 msgid "Instalar"
 msgstr "Install"
 
-#: category_appstream_pamac.py:57 search_appstream_pamac.py:57
-#: view_appstream_pamac.py:88 view_aur.py:46 view_flatpak_pamac.py:79
-msgid "Atualizar"
-msgstr ""
-
 #: category_appstream_pamac.py:59 search_appstream_pamac.py:59
-#: view_appstream_pamac.py:81 view_appstream_pamac.py:217
-#: view_flatpak_pamac.py:73
+#: view_appstream_pamac.py:82 view_appstream_pamac.py:217
+#: view_flatpak_pamac.py:77
 msgid "Remover"
 msgstr "Uninstall"
 
-#: view_appstream_pamac.py:57 view_flatpak_pamac.py:55
-msgid "Informações sobre programas nativos"
+msgid ""
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
 msgstr ""
 
-#: view_appstream_pamac.py:58
-msgid "Programas Nativos"
+msgid "Configurações"
 msgstr ""
 
-#: view_appstream_pamac.py:84 view_flatpak_pamac.py:76
+msgid "Desativar"
+msgstr ""
+
+msgid "Suporte a Flatpak ativo."
+msgstr ""
+
+msgid "Ativar"
+msgstr ""
+
+msgid "Suporte a Flatpak NÃO está ativo."
+msgstr ""
+
+msgid "Suporte a Snap ativo."
+msgstr ""
+
+msgid "Suporte a Snap NÃO está ativo."
+msgstr ""
+
+#: view_appstream_pamac.py:85 view_flatpak_pamac.py:80
 msgid "Executar"
 msgstr "Run"
 
-#: view_appstream_pamac.py:91 view_aur.py:49
-msgid "Reinstalar"
-msgstr "Reinstall"
+msgid "Atualizar cache dos repositórios nativos."
+msgstr ""
 
-#: view_appstream_pamac.py:125 view_flatpak_pamac.py:99
+msgid "Procurar o servidor de repositórios nativos mais rápido no momento."
+msgstr ""
+
+msgid "Utilize as opções a seguir com cautela:"
+msgstr ""
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+
+msgid ""
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+
+msgid "Aplicando - Aguarde"
+msgstr ""
+
+msgid "Procurar programa"
+msgstr ""
+
+#: view_appstream_pamac.py:59
+msgid "Programas Nativos"
+msgstr ""
+
+#: view_aur.py:24
+msgid "Programas AUR"
+msgstr ""
+
+#: view_flatpak_pamac.py:60
+msgid "Programas Flatpak"
+msgstr ""
+
+msgid "Programas Snap"
+msgstr ""
+
+msgid "Internet"
+msgstr ""
+
+msgid "Navegadores"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Armazenamento nas nuvens"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Compartilhadores e Torrent"
+msgstr ""
+
+msgid "Mensageiros e Conferências"
+msgstr ""
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr ""
+
+msgid "Ferramentas de rede"
+msgstr ""
+
+msgid "Escritório"
+msgstr ""
+
+msgid "Suíte Office"
+msgstr ""
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr ""
+
+msgid "Editores de PDF"
+msgstr ""
+
+msgid "Agenda de tarefas e contatos"
+msgstr ""
+
+msgid "Gráficos"
+msgstr ""
+
+msgid "Visualizadores de imagem"
+msgstr ""
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr ""
+
+msgid "Captura de tela (Screenshot)"
+msgstr ""
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr ""
+
+msgid "Edição 3D e CAD"
+msgstr ""
+
+msgid "Multimídia"
+msgstr ""
+
+msgid "Reprodutores de áudio"
+msgstr ""
+
+msgid "Rádio online"
+msgstr ""
+
+msgid "Gravadores e conversores de áudio"
+msgstr ""
+
+msgid "Editores de áudio"
+msgstr ""
+
+msgid "Reprodutores de vídeo"
+msgstr ""
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr ""
+
+msgid "Editores e compactadores de vídeo"
+msgstr ""
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr ""
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr ""
+
+msgid "Jogos"
+msgstr ""
+
+msgid "Gerenciadores de jogos"
+msgstr ""
+
+msgid "Utilitários para jogos"
+msgstr ""
+
+msgid "Emulador Retroarch"
+msgstr ""
+
+msgid "Emuladores"
+msgstr ""
+
+msgid "Criadores de jogos"
+msgstr ""
+
+msgid "Ação/Arcade"
+msgstr ""
+
+msgid "Cartas"
+msgstr ""
+
+msgid "Educacional"
+msgstr ""
+
+msgid "Estratégia"
+msgstr ""
+
+msgid "Puzzles"
+msgstr ""
+
+msgid "Tabuleiro"
+msgstr ""
+
+msgid "RPG"
+msgstr ""
+
+msgid "Outros"
+msgstr ""
+
+msgid "Sistema"
+msgstr ""
+
+msgid "Armazenamento e partições"
+msgstr ""
+
+msgid "Fontes (Tipografia)"
+msgstr ""
+
+msgid "Java JRE"
+msgstr ""
+
+msgid "Virtualização"
+msgstr ""
+
+msgid "Desenvolvimento"
+msgstr ""
+
+msgid "Editores de código e IDE"
+msgstr ""
+
+msgid "Banco de dados"
+msgstr ""
+
+msgid "Servidores WEB"
+msgstr ""
+
+msgid "Instalado na partição:"
+msgstr ""
+
+msgid "Tamanho da partição:"
+msgstr ""
+
+msgid "Espaço utilizado:"
+msgstr ""
+
+msgid "Espaço livre:"
+msgstr ""
+
+msgid "Data que o sistema foi instalado:"
+msgstr ""
+
+msgid "Pacotes nativos e AUR"
+msgstr ""
+
+#, fuzzy
+msgid "Instalados:"
+msgstr "Install"
+
+msgid "Disponíveis:"
+msgstr ""
+
+msgid "Pacotes Flatpak"
+msgstr ""
+
+msgid "Repositórios configurados:"
+msgstr ""
+
+msgid "Pacotes Snap"
+msgstr ""
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr ""
+
+msgid "Versão: "
+msgstr ""
+
+msgid "Pacote: "
+msgstr ""
+
+msgid "Não informada"
+msgstr ""
+
+#: category_appstream_pamac.py:57 search_appstream_pamac.py:57
+#: view_appstream_pamac.py:89 view_aur.py:46 view_flatpak_pamac.py:83
+msgid "Atualizar"
+msgstr ""
+
+msgid "Categorias"
+msgstr ""
+
+msgid "Versão instalada"
+msgstr ""
+
+msgid "Versão disponível"
+msgstr ""
+
+msgid "Versão"
+msgstr ""
+
+msgid "Fechar"
+msgstr ""
+
+msgid "Pacote .deb"
+msgstr ""
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+
+msgid "Mais informações"
+msgstr ""
+
+msgid "Voltar"
+msgstr ""
+
+msgid "Dependências a instalar"
+msgstr ""
+
+msgid "Ver mais"
+msgstr ""
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr ""
+
+msgid "Depende de "
+msgstr ""
+
+msgid "mas não vai ser instalado."
+msgstr ""
+
+msgid "mas não está disponível"
+msgstr ""
+
+#: view_appstream_pamac.py:58 view_flatpak_pamac.py:59
+msgid "Informações sobre programas nativos"
+msgstr ""
+
+#: view_appstream_pamac.py:126 view_flatpak_pamac.py:103
 msgid "Pacote:"
 msgstr ""
 
-#: view_appstream_pamac.py:129 view_flatpak_pamac.py:109
-msgid "Versão instalada:"
+#: view_flatpak_pamac.py:108
+msgid "Versão disponível:"
 msgstr ""
 
-#: view_appstream_pamac.py:134 view_appstream_pamac.py:138
-msgid "Versão disponivel:"
-msgstr ""
-
-#: view_appstream_pamac.py:141 view_flatpak_pamac.py:112
-msgid "Uso de armazenamento:"
-msgstr ""
-
-#: view_appstream_pamac.py:144 view_flatpak_pamac.py:115
-msgid "Tamanho do download:"
-msgstr ""
-
-#: view_appstream_pamac.py:148 view_flatpak_pamac.py:119
-msgid "Site:"
-msgstr ""
-
-#: view_appstream_pamac.py:153 view_flatpak_pamac.py:124
-msgid "Licença:"
-msgstr ""
-
-#: view_appstream_pamac.py:158 view_flatpak_pamac.py:129
+#: view_appstream_pamac.py:159 view_flatpak_pamac.py:133
 msgid "Repositório:"
 msgstr ""
 
-#: view_appstream_pamac.py:163
+msgid "Cancelar"
+msgstr ""
+
+#, fuzzy
+msgid "Instalando"
+msgstr "Install"
+
+#, fuzzy
+msgid "Removendo"
+msgstr "Uninstall"
+
+msgid "Informações sobre programas SNAP"
+msgstr ""
+
+msgid "Programas SNAP"
+msgstr ""
+
+#: view_appstream_pamac.py:135 view_appstream_pamac.py:139
+msgid "Versão disponivel:"
+msgstr ""
+
+#: view_appstream_pamac.py:154 view_flatpak_pamac.py:128
+msgid "Licença:"
+msgstr ""
+
+msgid "AUR"
+msgstr ""
+
+#: view_appstream_pamac.py:164
 msgid "Empacotador:"
 msgstr ""
 
-#: view_appstream_pamac.py:168
-msgid "Data do empacotamento:"
+#: view_appstream_pamac.py:92 view_aur.py:49
+msgid "Reinstalar"
+msgstr "Reinstall"
+
+#: view_appstream_pamac.py:130 view_flatpak_pamac.py:113
+msgid "Versão instalada:"
 msgstr ""
 
-#: view_appstream_pamac.py:177 view_flatpak_pamac.py:134
-msgid "Data de instalação:"
+#: view_appstream_pamac.py:142 view_flatpak_pamac.py:116
+msgid "Uso de armazenamento:"
+msgstr ""
+
+#: view_appstream_pamac.py:145 view_flatpak_pamac.py:119
+msgid "Tamanho do download:"
+msgstr ""
+
+#: view_appstream_pamac.py:149 view_flatpak_pamac.py:123
+msgid "Site:"
 msgstr ""
 
 #: view_appstream_pamac.py:186
@@ -122,26 +498,14 @@ msgstr ""
 msgid "Substitui:"
 msgstr ""
 
-#: view_appstream_pamac.py:246 view_flatpak_pamac.py:144
+#: view_appstream_pamac.py:246 view_flatpak_pamac.py:148
 msgid "Arquivos do pacote:"
 msgstr ""
 
-#: view_appstream_pamac.py:249 view_flatpak_pamac.py:146
+#: view_appstream_pamac.py:249 view_flatpak_pamac.py:150
 msgid "Clique aqui para ver os arquivos"
 msgstr ""
 
 #: view_aur.py:23
 msgid "Informações sobre programas AUR"
-msgstr ""
-
-#: view_aur.py:24
-msgid "Programas AUR"
-msgstr ""
-
-#: view_flatpak_pamac.py:56
-msgid "Programas Flatpak"
-msgstr ""
-
-#: view_flatpak_pamac.py:104
-msgid "Versão disponível:"
 msgstr ""
