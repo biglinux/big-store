@@ -10,7 +10,7 @@ import sys
 
 # Import gettext module
 import gettext
-lang_translations = gettext.translation('big-store', localedir='./locale', fallback=True)
+lang_translations = gettext.translation('big-store', localedir='/usr/share/locale', fallback=True)
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
