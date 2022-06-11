@@ -11,7 +11,6 @@ import os
 import locale
 import datetime
 from gi.repository import Pamac
-from gi.repository import Pamac
 
 # Import gettext module
 import gettext
