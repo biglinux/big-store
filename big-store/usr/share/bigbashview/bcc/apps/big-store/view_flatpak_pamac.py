@@ -21,7 +21,7 @@ _ = lang_translations.gettext
 
 
 def print_pkg_details (details):
-    if  details.get_app_id() == None:
+    if  details.get_app_id() is None:
         sys.exit()
     loc = '%d/%m/%Y' if locale.getlocale()[0] == 'pt_BR' else '%Y/%m/%d'
     #print (" -Name:", details.get_app_name())
@@ -65,7 +65,7 @@ def print_pkg_details (details):
     print ('<div id=title>')
     #print ('<div id=titleName>', details.get_id(), '</div></div></div>')
 
-    if details.get_icon() == None:
+    if details.get_icon() is None:
         print ('<div class=icon_middle><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
     else:
         print ('<img class="icon_view" src="', details.get_icon(), '">')

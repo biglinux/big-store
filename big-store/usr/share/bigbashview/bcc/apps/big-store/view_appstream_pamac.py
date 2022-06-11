@@ -60,7 +60,7 @@ def print_pkg_details (details):
     update_version = subprocess.run(["pacman", "-Qu", sys.argv[1], '|', "awk","'{print $NF}'"], stdout=subprocess.PIPE, text=True)
     print ('<div id=titleBar>')
     print ('<div id=title>')
-    if details.get_icon() == None:
+    if details.get_icon() is None:
         find_icon = subprocess.run(["find", "icons/", "/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/", "/usr/share/app-info/icons/archlinux-arch-community/64x64/", "/usr/share/app-info/icons/archlinux-arch-extra/64x64/","-type", "f", "-iname", '*' + details.get_name().split("-")[0] + '*', "-print", "-quit"], stdout=subprocess.PIPE, text=True)
         if find_icon.stdout == '':
             print ('<div class=icon_middle><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')

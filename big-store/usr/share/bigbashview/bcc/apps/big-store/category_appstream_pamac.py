@@ -20,17 +20,17 @@ _ = lang_translations.gettext
 def print_pkg_details (details):
         print ('<a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name=' + details.get_name() + '">')
         print ('<div class="col s12 m6 l3"')
-        if details.get_repo() == None:
+        if details.get_repo() is None:
             with open('/tmp/bigstore/category_aur.txt', 'a') as f:
                 print(details.get_name(), file=f)
-        if details.get_installed_version() != None:
+        if details.get_installed_version() is not None:
             print ('id="AppstreamP1">')
         else:
             print ('id="AppstreamP2">')
 
         print ('<div class="showapp">')
 
-        if details.get_icon() == None:
+        if details.get_icon() is None:
             find_icon = subprocess.run(["find", "icons/", "/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/", "/usr/share/app-info/icons/archlinux-arch-community/64x64/", "/usr/share/app-info/icons/archlinux-arch-extra/64x64/","-type", "f", "-iname", '*' + details.get_name().split("-")[0] + '*', "-print", "-quit"], stdout=subprocess.PIPE, text=True)
             if find_icon.stdout == '':
                 print ('<div id=appstream_icon><div class=icon_middle><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
@@ -49,7 +49,7 @@ def print_pkg_details (details):
         else:
             print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
 
-        if details.get_installed_version() == None:
+        if details.get_installed_version() is None:
             print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div></div>')
         else:
             with open('/tmp/bigstore/upgradeable.txt') as f:
