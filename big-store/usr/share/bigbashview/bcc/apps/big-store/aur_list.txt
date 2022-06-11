@@ -480,6 +480,7 @@ dkms-pl2501
 duckstation-qt-bin
 duckstation-qt-bin
 duckstation-qt-bin
+dropbox
 eagle
 eclipse-java-bin
 electron-qq
