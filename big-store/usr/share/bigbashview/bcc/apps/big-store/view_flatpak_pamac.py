@@ -22,7 +22,7 @@ _ = lang_translations.gettext
 
 def print_pkg_details (details):
     if  details.get_app_id() == None:
-        exit()
+        sys.exit()
     loc = '%d/%m/%Y' if locale.getlocale()[0] == 'pt_BR' else '%Y/%m/%d'
     #print (" -Name:", details.get_app_name())
     #print (" -Desc:", details.get_desc())
