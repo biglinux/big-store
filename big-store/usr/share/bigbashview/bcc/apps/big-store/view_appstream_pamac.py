@@ -205,10 +205,10 @@ def print_pkg_details (details):
             print (group + '<br>')
         print ('</div></div>')
 
-    if details.get_has_signature():
-        print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', _('Assinado:'), '</div>')
-        print ('<div class="gridRight">', details.get_has_signature(), '</div></div>')
+    #if details.get_has_signature():
+        #print ('<div class="grid-container">')
+        #print ('<div class=gridLeft>', _('Assinado:'), '</div>')
+        #print ('<div class="gridRight">', details.get_has_signature(), '</div></div>')
 
     if details.get_optdepends():
         print ('<div class="grid-container">')
