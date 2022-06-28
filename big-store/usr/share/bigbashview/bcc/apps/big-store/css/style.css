@@ -1,3 +1,86 @@
+* {
+    box-sizing: border-box;
+  --text-size-tiny: 12px;
+  --text-size-small: 14px;
+  --text-size-medium: 15px;
+  --text-size-big: 16px;
+  --text-size-large: 17px;
+  --text-size-huge: 18px;
+}
+
+:root {
+    --body-bg-color: #3d4550;
+    --theme-bg-color: rgba(16 18 27 / 40%);
+    --border-color: rgba(113 119 144 / 25%);
+    --theme-color: #f9fafb;
+    --inactive-color: rgb(113 119 144 / 78%);
+    --hover-menu-bg: rgba(12 15 25 / 30%);
+    --content-title-color: #797e84;
+    --content-bg: rgb(146 151 179 / 13%);
+    --button-inactive: rgb(249 250 251 / 55%);
+    --border-card-color: rgb(70 70 70);
+    --dropdown-bg: #21242d;
+    --dropdown-hover: rgb(42 46 60);
+    --popup-bg: rgb(22 25 37);
+    --subtitle-bg: rgb(0 102 153);
+    --search-bg: rgb(255 255 255 / 8%);
+    --overlay-bg: rgba(36, 39, 59, 0.3);
+    --scrollbar-bg: #428bff;
+    --border-box: #777;
+    --shador-color-icons: rgb(79 79 79 / 100%);
+    --subtitle: rgb(255 255 255 / 100%);
+    --search-color: rgb(155 155 155 / 100%);
+    --search-color-over: #fff;
+    --footer-bg-color: #2a303a;
+    --box-color-shadow-01: rgba(0, 0, 0, 0.2);
+    --text-a-color: #ccc;
+    --text-neon-color: #00ffff;
+    --tit-tooltip: #1d2028;
+}
+
+.light-mode {
+    --body-bg-color: #252d37;
+    --theme-bg-color: rgb(255 255 255 / 31%);
+    --theme-color: #3c3a3a;
+    --inactive-color: #333333;
+    --button-inactive: #3c3a3a;
+    --border-card-color: rgb(188 191 193);
+    --search-bg: rgb(255 255 255 / 31%);
+    --dropdown-bg: #f7f7f7;
+    --overlay-bg: rgb(255 255 255 / 30%);
+    --dropdown-hover: rgb(236 236 236);
+    --border-color: rgb(255 255 255 / 35%);
+    --popup-bg: rgb(255 255 255);
+    --subtitle-bg: rgb(255 255 255);
+    --hover-menu-bg: rgba(255 255 255 / 35%);
+    --scrollbar-bg: #428bff;
+    --content-title-color: --theme-color;
+    --content-bg: rgb(255 255 255 / 19%);
+    --border-box: #aaa;
+    --logo-big: invert(100%);
+    --shador-color-icons: rgb(0 0 0 / 28%);
+    --subtitle: rgb(0 0 0 / 100%);
+    --search-color: rgb(100 100 100 / 100%);
+    --search-color-over: #000;
+    --footer-bg-color: #6c6d6d;
+    --box-color-shadow-01: rgba(0, 0, 0, 0.2);
+    --text-a-color: #444;
+    --text-neon-color: #888;
+    --tit-tooltip: #c1c2c4;
+}
+
+body {
+    /*background-image: url(https://forum.biglinux.com.br/uploads/default/original/2X/f/f5679ca17fad618b3dc755347e2cb2677dd5ecfb.jpeg);*/
+    background-color: var(--body-bg-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
   input[type=checkbox],
 input[type=radio] {
@@ -136,73 +219,9 @@ input[type=radio] + label {
     --s: 0.5;
   }
 }
-* {
-  outline: none;
-  box-sizing: border-box;
-}
-:root {
-    --body-bg-color: #3d4550;
-    --theme-bg-color: rgba(16 18 27 / 40%);
-    --border-color: rgba(113 119 144 / 25%);
-    --theme-color: #f9fafb;
-    --inactive-color: rgb(113 119 144 / 78%);
-    --hover-menu-bg: rgba(12 15 25 / 30%);
-    --content-title-color: #797e84;
-    --content-bg: rgb(146 151 179 / 13%);
-    --button-inactive: rgb(249 250 251 / 55%);
-    --border-card-color: rgb(70 70 70);
-    --dropdown-bg: #21242d;
-    --dropdown-hover: rgb(42 46 60);
-    --popup-bg: rgb(22 25 37);
-    --subtitle-bg: rgb(0 102 153);
-    --search-bg: rgb(255 255 255 / 8%);
-    --overlay-bg: rgba(36, 39, 59, 0.3);
-    --scrollbar-bg: #428bff;
-    --border-box: #777;
-    --shador-color-icons: rgb(79 79 79 / 100%);
-    --subtitle: rgb(255 255 255 / 100%);
-    --search-color: rgb(155 155 155 / 100%);
-    --search-color-over: #fff;
-    --footer-bg-color: #2a303a;
-    --box-color-shadow-01: rgba(0, 0, 0, 0.2);
-    --text-a-color: #ccc;
-    --text-neon-color: #00ffff;
-    --tit-tooltip: #1d2028;
-}
 
 label {
     color: var(--text-a-color) !important;
-}
-
-.light-mode {
-    --body-bg-color: #252d37;
-    --theme-bg-color: rgb(255 255 255 / 31%);
-    --theme-color: #3c3a3a;
-    --inactive-color: #333333;
-    --button-inactive: #3c3a3a;
-    --border-card-color: rgb(188 191 193);
-    --search-bg: rgb(255 255 255 / 31%);
-    --dropdown-bg: #f7f7f7;
-    --overlay-bg: rgb(255 255 255 / 30%);
-    --dropdown-hover: rgb(236 236 236);
-    --border-color: rgb(255 255 255 / 35%);
-    --popup-bg: rgb(255 255 255);
-    --subtitle-bg: rgb(255 255 255);
-    --hover-menu-bg: rgba(255 255 255 / 35%);
-    --scrollbar-bg: #428bff;
-    --content-title-color: --theme-color;
-    --content-bg: rgb(255 255 255 / 19%);
-    --border-box: #aaa;
-    --logo-big: invert(100%);
-    --shador-color-icons: rgb(0 0 0 / 28%);
-    --subtitle: rgb(0 0 0 / 100%);
-    --search-color: rgb(100 100 100 / 100%);
-    --search-color-over: #000;
-    --footer-bg-color: #6c6d6d;
-    --box-color-shadow-01: rgba(0, 0, 0, 0.2);
-    --text-a-color: #444;
-    --text-neon-color: #888;
-    --tit-tooltip: #c1c2c4;
 }
 
 .logo-biglinux {
@@ -213,17 +232,6 @@ label {
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-}
-
-
-body {
-    /*background-image: url(https://forum.biglinux.com.br/uploads/default/original/2X/f/f5679ca17fad618b3dc755347e2cb2677dd5ecfb.jpeg);*/
-    background-color: var(--body-bg-color);
-    display: flex;
-   flex-direction: column;
-    padding: 0;
-    margin: 0;
-    font-family: Lato, sans-serif;
 }
 
 
@@ -417,38 +425,39 @@ body.light-mode .video-bg:before {
 
 }
 .search-bar input {
-  /*border: 1px solid #ccc;*/
-  /*border-radius: 100px;*/
-  border-radius: 5px;
-  border-bottom: 0px !important;
-  box-shadow: 0 0 0 0 !important;
-  line-height: 1;
-  box-sizing: border-box;
-  outline: none;
-  width: 100%;
-  height: 100%;
-  margin-left: 120px;
-  border: none;
-  background-color: var(--search-bg);
-  
-  font-family: var(--body-font);
-  font-size: 15px;
-  font-weight: 500;
-  padding: 0 20px 0 40px;
-  box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56.966 56.966' fill='%23717790c7'%3e%3cpath d='M55.146 51.887L41.588 37.786A22.926 22.926 0 0046.984 23c0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c.571.593 1.339.92 2.162.92.779 0 1.518-.297 2.079-.837a3.004 3.004 0 00.083-4.242zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z'/%3e%3c/svg%3e");
-  background-size: 14px;
-  background-repeat: no-repeat;
-  background-position: 16px 48%;
-  color: var(--theme-color);
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 100px;*/
+    border-radius: 5px;
+    border-bottom: 0px !important;
+    box-shadow: 0 0 0 0 !important;
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 120px;
+    border: none;
+    background-color: var(--search-bg);
+    font-family: var(--body-font);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 20px 0 40px;
+    box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56.966 56.966' fill='%23717790c7'%3e%3cpath d='M55.146 51.887L41.588 37.786A22.926 22.926 0 0046.984 23c0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c.571.593 1.339.92 2.162.92.779 0 1.518-.297 2.079-.837a3.004 3.004 0 00.083-4.242zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z'/%3e%3c/svg%3e");
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: 16px 48%;
+    color: var(--search-color-over);
     margin-top: 8px;
 }
 .search-bar input::placeholder {
-  font-family: var(--body-font);
-  color: var(--inactive-color) !important;
-  font-size: 15px;
-  font-weight: 500;
+    font-size: var(--text-size-medium);
+    font-weight: 500;
+    color: var(--search-color);
 }
+input::placeholder {
+      color: var(--search-color);
+}  
 
 .header-profile {
   align-items: center;
@@ -497,71 +506,68 @@ body.light-mode .video-bg:before {
   margin-left: 22px;
 }
 
+
 .wide .header-menu,
 .wide .header-profile {
-  display: none;
+    display: none;
 }
+
 .wide .search-bar {
-  max-width: 600px;
-  margin: auto;
-  transition: 0.4s;
-  /*box-shadow: 0 0 0 1px var(--border-color);*/
-  padding-left: 0;
+    max-width: 600px;
+    margin: auto;
+    transition: 0.4s;
+    box-shadow: 0 0 0 0px var(--border-color);
+    padding-left: 0;
 }
+
 .wide .menu-circle {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .wrapper {
-  display: flex;
-  flex-grow: 1;
-  overflow: hidden;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
 }
 
 .left-side {
-  flex-basis: 240px;
-  /*border-right: 1px solid var(--border-color);*/
-  padding: 26px;
-  overflow: auto;
-  flex-shrink: 0;
+    flex-basis: 240px;
+    padding: 26px;
+    padding-bottom: 0px;
+    overflow: auto;
+    flex-shrink: 0;
 }
-@media screen and (max-width: 1170px) {
-  .left-side {
-    /*display: none;*/
-    flex-basis: 70px;
-    padding: 10px;
-  }
-  .left-side .side-title {
-    display: none;
-  }
-  .left-side .side-menu {
-    /* Hide the text. */
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .left-side .side-menu svg {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .left-side .side-menu span {
-    display: none;
-  }
-  .left-side .side-menu a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid green; */
-    width: 44px;
-    height: 44px;
-    margin: 2px 5px;
-    padding: 10px;
-    /* width: 200px;
-    height: 36px; 
-    margin: 10px;
-    padding: 10px;*/
-  }
+
+@media screen and (max-width: 1000px) {
+    .left-side {
+        flex-basis: 75px;
+        padding: 10px;
+    }
+    #box-status-bar {
+        left: 75px !important;
+    }
+    .left-side .side-menu {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .left-side .side-menu svg {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .left-side .side-menu span {
+        display: none;
+    }
+    .left-side .side-menu a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        margin: -4px 0px;
+        padding: 0px;
+    }
 }
 
 
@@ -575,24 +581,35 @@ body.light-mode .video-bg:before {
 }
 
 .side-menu {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    padding-top: 6px;
+    padding-bottom: 6px;    
 }
+
 .side-menu a {
-  text-decoration: none;
-  color: var(--theme-color);
-  display: flex;
-  align-items: center;
-  font-weight: 400;
-  padding: 10px;
-  font-size: 14px;
-  border-radius: 6px;
-  transition: 0.3s;
+    text-decoration: none;
+    color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 8px;
+    font-size: var(--text-size-small);
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 1px solid rgb(255 255 255 / 0%);
 }
+
 .side-menu a:hover {
-  background-color: var(--hover-menu-bg);
+    background-color: var(--hover-menu-bg);
 }
+
+.side-menu a:active {
+    background-color: var(--popup-bg);
+    border: 1px solid var(--search-color);
+}
+
 .side-menu svg {
   width: 16px;
   margin-right: 8px;

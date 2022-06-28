@@ -163,10 +163,10 @@ for p in data['results']:
             installed_dep = subprocess.run(["pacman", "-Qq", optdepends_name], stdout=subprocess.PIPE, text=True)
             print ('<div id=optdepends_breakline>')
             if installed_dep.stdout == '':
-                print ('<div id=optdepends_install><a href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
+                print ('<div id=optdepends_install><a onclick="disableBody();" href="view_aur.sh.htm?pkg_name='+ optdepends_name + '">')
                 print ('<div id=optdepends_install_button>' + 'Instalar', optdepends_name, '</div></a>')
             else:
-                print ('<div id=optdepends_remove><a href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
+                print ('<div id=optdepends_remove><a onclick="disableBody();" href="view_aur.sh.htm?pkg_name='+ optdepends_name + '">')
                 print ('<div id=optdepends_remove_button>' + 'Remover', optdepends_name, '</div></a>')
             print ('</div></div>')
         print ('</div></div></div>')

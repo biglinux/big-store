@@ -75,6 +75,21 @@ if [ "$ACTION" = "force_upgrade" ]; then
     pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --upgrade-now
 fi
 
+if [ "$ACTION" = "reinstall_allpkg" ]; then
+    MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $(pwd)/reinstall_allpkg.sh
+fi
+
+if [ "$ACTION" = "system_upgrade" ]; then
+    MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update
+fi
+
+if [ "$ACTION" = "system_upgradetotal" ]; then
+    MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu
+fi
+
 if [ "$(xwininfo -id $WINDOW_ID 2>&1 | grep -i "No such window")" != "" ]; then
     kill -9 $PID_BIG_DEB_INSTALLER
     exit 0

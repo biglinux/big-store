@@ -1,5 +1,16 @@
 #!/usr/bin/python
 
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
 #Imported from https://gitlab.manjaro.org/applications/pamac/-/blob/master/examples/python/appstream.py
 
 import gi

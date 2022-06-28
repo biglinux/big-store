@@ -11,6 +11,29 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
 
+
+
+echo '<style>
+a.waves-effect.waves-light.btn {
+    color: white;
+    margin-right: 16px;
+    min-width: 171px;
+}
+.left {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.twodiv {
+    display: flex;
+}
+</style>'
+
+source header.sh.htm
+
 if [ "$pkg_install" != "" ]; then
     ./run_pamac_installer $pkg_name
     if [ "$pkg_name" = "libpamac-snap-plugin" ]; then
@@ -44,73 +67,127 @@ if [ "$force_upgrade" = "y" ]; then
     ACTION="force_upgrade" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
-echo '<style>
-a.waves-effect.waves-light.btn {
-    color: white;
-    margin-right: 16px;
-    min-width: 171px;
-}
-.left {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.right {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.twodiv {
-    display: flex;
-}
-</style>'
+if [ "$reinstall_allpkg" = "y" ]; then
+    ACTION="reinstall_allpkg" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+fi
 
+if [ "$system_upgrade" = "y" ]; then
+    ACTION="system_upgrade" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+fi
 
-
-source header.sh.htm
-
-
+if [ "$system_upgradetotal" = "y" ]; then
+    ACTION="system_upgradetotal" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+fi
 
     echo '<div id=box_index_category>'
     echo '<div id=box_info_index>'
 
     echo '<div class=info_box>'
     echo '<div class=category_title_index>'
-        echo $"Configurações"
-        echo '</div>'
+    echo $"Configurações"
+    echo '</div>'
+    
+    echo '<br><br>'
 
 #FLATPAK
 if [ -e "/usr/lib/libpamac-flatpak.so" ]; then
-    echo '<a href="config.sh.htm?pkg_remove=y&pkg_name=libpamac-flatpak-plugin" class="waves-effect waves-light btn red darken-4">' $"Desativar" '</a>' $"Suporte a Flatpak ativo."
+    
+    echo "<div class=twodiv>"
+    echo "<div class=left>"
+    echo '<a href="config.sh.htm?pkg_remove=y&pkg_name=libpamac-flatpak-plugin" class="waves-effect waves-light btn red darken-4">' $"Desativar" '</a>'
+    echo "</div>"
+    echo "<div class=right>"
+    echo $"Suporte a Flatpak ativo."
+    echo "</div></div>"    
+
 else
-    echo '<a href="config.sh.htm?pkg_install=y&pkg_name=libpamac-flatpak-plugin" class="waves-effect waves-light btn green darken-3">' $"Ativar" '</a>' $"Suporte a Flatpak NÃO está ativo."
+
+    echo "<div class=twodiv>"
+    echo "<div class=left>"
+    echo '<a href="config.sh.htm?pkg_install=y&pkg_name=libpamac-flatpak-plugin" class="waves-effect waves-light btn green darken-3">' $"Ativar" '</a>'
+    echo "</div>"
+    echo "<div class=right>"
+    echo $"Suporte a Flatpak NÃO está ativo."
+    echo "</div></div>"    
+    
 fi
 
-echo "<br><br><br>"
+echo "<br><br>"
 
 #SNAP
 if [ -e "/usr/lib/libpamac-snap.so" ]; then
-    echo '<a href="config.sh.htm?pkg_remove=y&pkg_name=libpamac-snap-plugin" class="waves-effect waves-light btn red darken-4">' $"Desativar" '</a>' $"Suporte a Snap ativo."
+
+    echo "<div class=twodiv>"
+    echo "<div class=left>"
+    echo '<a href="config.sh.htm?pkg_remove=y&pkg_name=libpamac-snap-plugin" class="waves-effect waves-light btn red darken-4">' $"Desativar" '</a>'
+    echo "</div>"
+    echo "<div class=right>"
+    echo $"Suporte a Snap ativo."
+    echo "</div></div>"    
+    
 else
-    echo '<a href="config.sh.htm?pkg_install=y&pkg_name=libpamac-snap-plugin" class="waves-effect waves-light btn green darken-3">' $"Ativar" '</a>' $"Suporte a Snap NÃO está ativo."
+   
+    echo "<div class=twodiv>"
+    echo "<div class=left>"
+    echo '<a href="config.sh.htm?pkg_install=y&pkg_name=libpamac-snap-plugin" class="waves-effect waves-light btn green darken-3">' $"Ativar" '</a>'
+    echo "</div>"
+    echo "<div class=right>"
+    echo $"Suporte a Snap NÃO está ativo."
+    echo "</div></div>"    
+    
 fi
 
-echo "<br><br><br>"
-echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_pacman=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a>' $"Atualizar cache dos repositórios nativos."
+echo "<br><br>"
 
-echo "<br><br><br>"
-echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_mirror=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a>' $"Procurar o servidor de repositórios nativos mais rápido no momento."
+echo "<div class=twodiv>"
+echo "<div class=left>"
+echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_pacman=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a>'
+echo "</div>"
+echo "<div class=right>"
+echo $"Atualizar cache dos repositórios nativos."
+echo "</div></div>"
 
-echo '<br><br><br>'
+echo "<br><br>"
 
+echo "<div class=twodiv>"
+echo "<div class=left>"
+echo '<a onclick="disableBodyConfig();" href="config.sh.htm?update_mirror=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a>'
+echo "</div>"
+echo "<div class=right>"
+echo $"Procurar o servidor de repositórios nativos mais rápido no momento."
+echo "</div></div>"
+
+echo "<br><br>"
+
+echo '<div class=category_title_index>'
+echo $"Atualizações:"
+echo '</div>'
+
+echo "<br><br>"
+
+echo '<div class=twodiv><div class=left><a onclick="disableBodyConfig();" href="config.sh.htm?system_upgrade=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a></div><div class=right>' $"Atualizar seu sistema" '</div></div>'
+
+echo '<br><br>'
+
+echo '<div class=twodiv><div class=left><a onclick="disableBodyConfig();" href="config.sh.htm?system_upgradetotal=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a></div><div class=right>' $"Sincronização total e atualizar seu sistema" '</div></div>'
+
+echo '<br><br>'
 
 echo '<div class=category_title_index>'
 echo $"Utilize as opções a seguir com cautela:"
 echo '</div>'
 
+echo "<br><br>"
+
+echo '<div class=twodiv><div class=left><a onclick="disableBodyConfig();" href="config.sh.htm?reinstall_allpkg=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a></div><div class=right>' $"Forçar reinstalação todos os pacotes instalados" '</div></div>'
 
 echo "<br><br>"
+
+
 echo '<div class=twodiv><div class=left><a onclick="disableBodyConfig();" href="config.sh.htm?update_keys=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a></div><div class=right>' $"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou repositórios complementares será necessário adicionar as chaves desses repositórios novamente." '</div></div>'
 
 echo "<br><br>"
+
 echo '<div class=twodiv><div class=left><a onclick="disableBodyConfig();" href="config.sh.htm?force_upgrade=y" class="waves-effect waves-light btn light-blue darken-2">' $"Executar" '</a></div><div class=right>' $"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na atualização forçada alguns programas podem ser removidos." '</div></div>'
 
 echo "<br><br><br>"

@@ -444,6 +444,7 @@ cnijfilter-mx880
 cnrdrvcups-lb-bin
 cnrdrvcups-sfp
 code-marketplace
+corectrl
 cudatext-gtk2-bin
 cudatext-qt5-bin
 cups-xerox
