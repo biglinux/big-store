@@ -1,4 +1,16 @@
 #!/usr/bin/python
+
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
 # coding=utf-8
 # -*- coding: utf-8 -*-
 
@@ -209,10 +221,10 @@ def print_pkg_details (details):
             installed_dep = subprocess.run(["pacman", "-Qq", optdepends_name], stdout=subprocess.PIPE, text=True)
             print ('<div id=optdepends_breakline>')
             if installed_dep.stdout == '':
-                print ('<div id=optdepends_install><a href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
+                print ('<div id=optdepends_install><a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
                 print ('<div id=optdepends_install_button>' + _('Instalar'), optdepends_name, '</div></a>' + optdepends_desc)
             else:
-                print ('<div id=optdepends_remove><a href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
+                print ('<div id=optdepends_remove><a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
                 print ('<div id=optdepends_remove_button>' + _('Remover'), optdepends_name, '</div></a>' + optdepends_desc)
             print ('</div></div>')
         print ('</div></div></div>')
@@ -251,7 +263,7 @@ def print_pkg_details (details):
     else:
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_not_installed " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
     print ('</script>')
-    print ('</div></div>')
+    print ('</div></div><br><br>')
 
 
 if __name__ == "__main__":

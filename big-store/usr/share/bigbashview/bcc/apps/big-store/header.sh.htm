@@ -1,10 +1,15 @@
 #!/bin/bash
-#
-# BigLinux Store 
-# www.biglinux.com.br
-# By Bruno Gonçalves
-# 11/01/2020
-# License: GPL v2 or greater
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -66,13 +71,28 @@ if (document.addEventListener) {
         if (event.persisted || window.performance && 
             window.performance.navigation.type == 2) 
         {
-            disableBody();
-            location.reload();
+        
+            
+            var url = window.location.toString;
+            var hostname = window.location.hostname;
+            var pathname = window.location.pathname;
+            var param = window.location.search;
+            
+            if (pathname == '/config.sh.htm') {
+              disableBody();
+              //alert('Entrou ' + pathname);
+              window.location = pathname;           
+            } else {
+              disableBody();
+              //alert('Entrou outro');
+              location.reload();            
+            }
+
         }
     },
    false);
 }
-</script>    
+</script>
     
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" type="text/css" href="/usr/share/bigbashview/bcc/apps/big-store/materialize/css/materialize.css">
@@ -239,7 +259,7 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 echo "<form action=\"index.sh.htm\" method=\"post\" id=\"formsearch\" onsubmit=\"disableBody();\">"
 cat << EOF
     <div class="search-bar">
-      <input type="text" name="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH">
+      <input type="text" name="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH...">
       <button class="custom-search-botton" type="submit">← Enter </button>
     </div>
     </div>
