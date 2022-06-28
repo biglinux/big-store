@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pacman -Qnq | pacman -S -
+pacman -Qnq | pacman -Sy --noconfirm -

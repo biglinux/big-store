@@ -1545,6 +1545,7 @@ div#title_aur_install {
     padding-top: 0px;
     padding-right: 20px;
     margin-bottom: -28px;
+    z-index: 5;
 }
 
 div#title_appstream_install {
@@ -1554,6 +1555,7 @@ div#title_appstream_install {
     padding-top: 0px;
     padding-right: 20px;
     margin-bottom: -28px;
+    z-index: 5;
 }
 
 div#title_flatpak_install {
@@ -1563,6 +1565,7 @@ div#title_flatpak_install {
     padding-top: 0px;
     padding-right: 20px;
     margin-bottom: -28px;
+    z-index: 5;
 }
 
 div#title_snap_install {
@@ -1572,6 +1575,7 @@ div#title_snap_install {
     padding-top: 0px;
     padding-right: 20px;
     margin-bottom: -28px;
+    z-index: 5;
 }
 
 input.validate.bigsearch.autocomplete:focus::placeholder {
