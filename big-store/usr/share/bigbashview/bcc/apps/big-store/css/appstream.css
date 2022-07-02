@@ -491,7 +491,11 @@ div#goBack {
 }
 
 a.modal-trigger {
-    color: aqua;
+    color: var(--text-neon-color);
+}
+
+a.modal-trigger:hover {
+    text-decoration: underline;
 }
 
 div#pkgDescription {
@@ -655,9 +659,13 @@ div#optdepends_install_button {
 
 div#optdepends_remove_button {
     display: -webkit-inline-box;
-    color: #ffd500;
+    color: var(--text-neon-color);
     margin-right: 7px;
 }
+div#optdepends_remove_button:hover {
+    text-decoration: underline;
+}
+
 
 div#appstream_name, div#flatpak_name, div#snap_name {
     color: var(--text-a-color);
