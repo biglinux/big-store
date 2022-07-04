@@ -4,7 +4,7 @@ LangFilter="${LANG%%.*}"
 LangFilterLowercase="${LangFilter,,}"
 LangClean="${LangFilterLowercase%%_*}"
 LangCountry="${LangFilterLowercase#*_}"
-AutoAddLangPkg="$(pacman -Ssq libreoffice-fresh.*$LangClean.* | grep -m1 [_-]$LangCountry)"
+AutoAddLangPkg="$(pacman -Ssq $1.*$LangClean.* | grep -m1 [_-]$LangCountry)"
 
 
 pamac-installer $@ $AutoAddLangPkg &
