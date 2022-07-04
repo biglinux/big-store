@@ -1,10 +1,14 @@
 #!/bin/bash
-#
-# BigLinux Store 
-# www.biglinux.com.br
-# By Bruno Gonçalves
-# 07/09/2020
-# License: GPL v2 or greater 
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -13,8 +17,9 @@ export TEXTDOMAIN=big-store
 
 if [[ $(ps -aux | grep Big-Store | grep bigbashview) ]]; then
 
-    kdialog --passivepopup $"A Big-Store já está em uso."
+    kdialog --passivepopup $"Big-Store está aberta."
     exit
+    
 fi
 
 cd /usr/share/bigbashview/bcc/apps/big-store/

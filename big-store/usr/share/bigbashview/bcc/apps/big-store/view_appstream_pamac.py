@@ -65,10 +65,8 @@ def print_pkg_details (details):
     #print (" -requiredby:", details.get_requiredby())
     #print (" -optionalfor:", details.get_optionalfor())
     #print (" -backups:", details.get_backups())
-    print ('<div id=box_appstream_install><div id=title_appstream_install>')
-    print ('<div id=button_appstream class="tooltipped" data-position="right" data-tooltip="'+_('Informações sobre programas nativos')+'">')
-    print (_('Programas Nativos'))
-    print ('</div></div><div id=content_appstream_install>')
+
+    print ('<div id=content_appstream_install>')
     update_version = subprocess.run(["pacman", "-Qu", sys.argv[1], '|', "awk","'{print $NF}'"], stdout=subprocess.PIPE, text=True)
     print ('<div id=titleBar>')
     print ('<div id=title>')
@@ -132,7 +130,9 @@ def print_pkg_details (details):
             print ('<div id=pkgDescriptionBox><div id=pkgDescription>', details.get_long_desc(), '</div></div>')
         if details.get_long_desc() or details.get_screenshots():
             print ('</div></div>')
-
+            
+    print ('<br>')
+    
     print ('<div class="grid-container">')
     print ('<div class=gridLeft>', _('Pacote:'), '</div>')
     print ('<div class=gridRight>', sys.argv[1], '</div></div>')
@@ -257,13 +257,13 @@ def print_pkg_details (details):
     print ('<div class=gridLeft>', _('Arquivos do pacote:'), '</div>')
     print ('<div class="gridRight">')
 
-    print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles">', _('Clique aqui para ver os arquivos'), '</a><script>')
+    print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles" style="top: 50% !import;">', _('Clique aqui para ver os arquivos'), '</a><script>')
     if details.get_installed_version():
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_installed " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
     else:
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_not_installed " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
     print ('</script>')
-    print ('</div></div><br><br>')
+    print ('</div></div>')
 
 
 if __name__ == "__main__":

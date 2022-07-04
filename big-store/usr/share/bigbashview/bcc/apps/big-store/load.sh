@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#sleep 120 delay animation loading
 case $1 in
     pkg_not_installed)
 		pacman -Flq "$2" | sed 's|^|/|'

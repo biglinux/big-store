@@ -1,11 +1,15 @@
 #!/bin/bash
-
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
 #Install .deb packages
-#           
-#Author Bruno Goncalves  <www.biglinux.com.br>
-#License: GPLv2 or later                       
-#################################################
-
 
 
 OIFS=$IFS
