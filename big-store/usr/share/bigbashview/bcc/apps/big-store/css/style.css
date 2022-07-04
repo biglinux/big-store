@@ -65,7 +65,7 @@
     --footer-bg-color: #6c6d6d;
     --box-color-shadow-01: rgba(0, 0, 0, 0.2);
     --text-a-color: #444;
-    --text-neon-color: #3a6df0;
+    --text-neon-color: #0047ff;
     --tit-tooltip: #c1c2c4;
 }
 
@@ -786,7 +786,7 @@ input::placeholder {
   border-radius: 14px;
   box-shadow: 0px 0px 1px 1px var(--border-box);
   border: 1px solid var(--theme-bg-color);
-  cursor: pointer;
+  cursor: default;
 }
 .content-section ul li {
   list-style: none;
@@ -846,7 +846,7 @@ input::placeholder {
 .txt {
   width: 100%;
   white-space: pre-line;
-  font-size: 13px;
+  font-size: 15px;
   /*@media screen and (min-width: 500px) {
    background-color: red;   
    width: 120px;
@@ -854,18 +854,17 @@ input::placeholder {
 
   }*/
 }
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
   .txt {
     width: 100%;
     font-size: 1.1vw;
-    color: green;
   }
-}
+}*/
 @media screen and (max-width: 950px) {
   .txt {
     /* border: 1px solid #fff; */
     font-size: 11px;
-    color: red;
+    /*color: red;*/
     width: 100%;
     /* text-align: center; */
   }

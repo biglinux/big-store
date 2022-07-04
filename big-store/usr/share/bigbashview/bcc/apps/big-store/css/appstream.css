@@ -887,10 +887,11 @@ hr {
     border: 1px solid var(--border-card-color);
     background-color: var(--content-bg);
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
     text-align-last: left;
-    color: var(--text-a-color);
+    color: var(--border-box);
     font-weight: bold;
+    text-align-last: center;
 }
 
 div#deb_desc {

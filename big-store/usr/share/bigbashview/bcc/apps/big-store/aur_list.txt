@@ -846,6 +846,7 @@ xpadneo-dkms-git
 yed
 yoga-usage-mode-dkms-git
 youtube-viewer
+youtubedl-gui
 yuzu-ea-bin
 yuzu-early-access
 yuzu-mainline-bin
