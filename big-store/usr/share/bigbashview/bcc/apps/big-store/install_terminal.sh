@@ -61,7 +61,7 @@ fi
 
 if [ "$ACTION" = "update_pacman" ]; then
     MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
-    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Syy
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Syy --noconfirm
 fi
 
 if [ "$ACTION" = "update_mirror" ]; then
@@ -86,12 +86,12 @@ fi
 
 if [ "$ACTION" = "system_upgrade" ]; then
     MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
-    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update --no-confirm
 fi
 
 if [ "$ACTION" = "system_upgradetotal" ]; then
     MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
-    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu
+    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu --noconfirm
 fi
 
 if [ "$(xwininfo -id $WINDOW_ID 2>&1 | grep -i "No such window")" != "" ]; then
