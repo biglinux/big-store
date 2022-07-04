@@ -1,6 +1,13 @@
 #!/bin/bash
 
-pamac-installer $@ &
+LangFilter="${LANG%%.*}"
+LangFilterLowercase="${LangFilter,,}"
+LangClean="${LangFilterLowercase%%_*}"
+LangCountry="${LangFilterLowercase#*_}"
+AutoAddLangPkg="$(pacman -Ssq $1.*$LangClean.* | grep -m1 $LangCountry)"
+
+
+pamac-installer $@ $AutoAddLangPkg &
 
 PID="$!"
 
