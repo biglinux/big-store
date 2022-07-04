@@ -65,7 +65,7 @@
     --footer-bg-color: #6c6d6d;
     --box-color-shadow-01: rgba(0, 0, 0, 0.2);
     --text-a-color: #444;
-    --text-neon-color: #428bff;
+    --text-neon-color: #3a6df0;
     --tit-tooltip: #c1c2c4;
 }
 
@@ -784,6 +784,7 @@ input::placeholder {
   padding-left: 0;
   margin: 0;
   border-radius: 14px;
+  box-shadow: 0px 0px 1px 1px var(--border-box);
   border: 1px solid var(--theme-bg-color);
   cursor: pointer;
 }
@@ -808,7 +809,8 @@ input::placeholder {
   border-radius: 0 0 13px 13px;
 }
 .content-section ul li + li {
-  border-top: 1px solid var(--border-color);
+  /*border-top: 1px solid var(--border-color);*/
+  border-top: 1px solid var(--border-box);  
 }
 .content-section ul svg {
   width: 28px;
@@ -821,7 +823,7 @@ input::placeholder {
   /* font-size: 0.5vw;*/
   display: flex;
   align-items: center;
-  width: 290px;
+  width: 100%;
   height: 45px;
   /* @media screen and (min-width: 480px) {
     width: 300px;
@@ -830,7 +832,7 @@ input::placeholder {
 }
 @media screen and (max-width: 680px) {
   .products {
-    display: block;
+    display: contents;
     width: 190px;
   }
 }
@@ -842,7 +844,7 @@ input::placeholder {
 }
 
 .txt {
-  width: 120%;
+  width: 100%;
   white-space: pre-line;
   font-size: 13px;
   /*@media screen and (min-width: 500px) {
@@ -854,14 +856,17 @@ input::placeholder {
 }
 @media screen and (max-width: 1200px) {
   .txt {
-    width: 120%;
-    font-size: 1.3vw;
+    width: 100%;
+    font-size: 1.1vw;
+    color: green;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 950px) {
   .txt {
     /* border: 1px solid #fff; */
-    font-size: 1.8vw;
+    font-size: 11px;
+    color: red;
+    width: 100%;
     /* text-align: center; */
   }
 }
@@ -883,11 +888,14 @@ input::placeholder {
   background-color: #396df0;
   position: absolute;
   border-radius: 50%;
-  top: 4px;
+  top: 10px;
   left: -20px;
 }
-.status-circle.green {
+.status-circle.true {
   background-color: #3bf083;
+}
+.status-circle.false {
+  background-color: #999;
 }
 .status-button {
   font-size: 15px;

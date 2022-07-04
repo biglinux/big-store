@@ -1,10 +1,14 @@
 #!/bin/bash
-#
-# BigLinux Store 
-# www.biglinux.com.br
-# By Bruno Gonçalves
-# 11/01/2020
-# License: GPL v2 or greater
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -105,30 +109,30 @@ COUNT=0
 case "$(echo "$search" | wc -w)" in
 
     1)
-        for i  in  $(grep -i  -m 50 -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache); do
+        for i  in  $(grep -i  -m 60 -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
-             if [ "$COUNT" = "50" ]; then
+             if [ "$COUNT" = "60" ]; then
                 break
             fi
         done
     ;;
 
     2)
-        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache | grep -i  -m 50 -e "$(echo "$search" | cut -f2 -d" ")"); do
+        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache | grep -i  -m 60 -e "$(echo "$search" | cut -f2 -d" ")"); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
-             if [ "$COUNT" = "50" ]; then
+             if [ "$COUNT" = "60" ]; then
                 break
             fi
         done
     ;;
 
     *)
-        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i  -m 50 -e "$(echo "$search" | cut -f3 -d" ")"); do
+        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i  -m 60 -e "$(echo "$search" | cut -f3 -d" ")"); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
-             if [ "$COUNT" = "50" ]; then
+             if [ "$COUNT" = "60" ]; then
                 break
             fi
         done

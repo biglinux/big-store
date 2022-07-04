@@ -19,14 +19,11 @@ response = requests.get('https://aur.archlinux.org/rpc/', params={'v': '5', 'typ
 data = json.loads(response.text)
 for p in data['results']:
 
-    print ('<div id=box_aur_install><div id=title_aur_install>')
-    print ('<div id=button_aur class="tooltipped" data-position="right" data-tooltip="'+_('Informações sobre programas AUR')+'">')
-    print (_('Programas AUR'))
-    print ('</div></div><div id=content_aur_bg>')
+    print ('<div id=content_aur_bg>')
     print ('<div id=titleBar>')
     print ('<div id=title>')
     if os.path.exists('icons/' + sys.argv[1] + '.png'):
-        print ('<div class=icon_middle>' + '<img class="icon" src="icons/' + sys.argv[1] + '.png">' + '</div>')
+        print ('<div class=icon_middle>' + '<img class="icon_view" src="icons/' + sys.argv[1] + '.png">' + '</div>')
     else:
         print ('<div class=icon_middle><div class=avatar_aur>' + sys.argv[1][0:3] + '</div></div>')
     print ('<div id=titleName>', p['Name'], '</div></div></div>')
@@ -75,15 +72,7 @@ for p in data['results']:
         print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
         print ('</div></div></div></div>')
 
-
-
-
-
-
-
-
-
-
+    print ('<br>')
 
     print ('<div class="grid-container">')
     print ('<div class=gridLeft>', 'Pacote:', '</div>')

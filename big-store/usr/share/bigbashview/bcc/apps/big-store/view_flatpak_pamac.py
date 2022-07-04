@@ -55,10 +55,8 @@ def print_pkg_details (details):
     #print (" -optionalfor:", details.get_optionalfor())
     #print (" -backups:", details.get_backups())
 
-    print ('<div id=box_flatpak_install><div id=title_flatpak_install>')
-    print ('<div id=button_flatpak class="tooltipped" data-position="right" data-tooltip="'+_('Informações sobre programas nativos')+'">')
-    print (_('Programas Flatpak'))
-    print ('</div></div><div id=content_flatpak_install>')
+
+    print ('<div id=content_flatpak_install>')
     update_version = subprocess.run(["./pkg_flatpak_version", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     update_available = subprocess.run(["./pkg_flatpak_update", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     print ('<div id=titleBar>')
@@ -98,6 +96,8 @@ def print_pkg_details (details):
         print ('<div id=pkgDescriptionBox><div id=pkgDescription>', details.get_long_desc(), '</div></div>')
     if details.get_long_desc() or details.get_screenshots():
         print ('</div></div>')
+        
+    print ('<br>')        
 
     print ('<div class="grid-container">')
     print ('<div class=gridLeft>', _('Pacote:'), '</div>')
