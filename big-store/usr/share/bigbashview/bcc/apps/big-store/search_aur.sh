@@ -28,7 +28,7 @@ for i  in  $(LANG=C yay --sortby popularity -Ssa --topdown $(echo $@ | sed "s| |
 
     TITLE="$(echo "$i" | awk 'ORS=NR%2?" ":"\n"' | cut -f2-5 -d/ | cut -f1 -d" ")"
 
-    if [ "$(grep "^${TITLE}$" '/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt')" != "" ]; then
+    if [ "$resultFilter_checkbox" = "" ] || [ "$(grep "^${TITLE}$" '/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt')" != "" ]; then
     
         TITLE_SIMPLE="$(echo "$TITLE" | cut -f1 -d"-")"
         DESCRIPTION="$(echo "$i" | awk -F"    " '{print $NF }')"

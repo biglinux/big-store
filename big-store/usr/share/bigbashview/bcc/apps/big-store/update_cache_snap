@@ -19,6 +19,8 @@ export TEXTDOMAIN=big-store
 # Seleciona e cria a pasta para salvar os arquivos para cache da busca
 FOLDER_TO_SAVE_FILES="$HOME/.bigstore/snap_list_files/snap_list"
 FILE_TO_SAVE_CACHE="$HOME/.bigstore/snap.cache"
+FILE_TO_SAVE_CACHE_FILTERED="$HOME/.bigstore/snap_filtered.cache"
+
 
 rm -R ~/.bigstore/snap_list_files/
 mkdir -p ~/.bigstore/snap_list_files/
@@ -65,3 +67,6 @@ wait
 ## portuguese
 # Filtra o resultado dos arquivos e cria um arquivo de cache que será utilizado nas buscas
 jq -r '._embedded."clickindex:package"[]| .title + "|" + .snap_id + "|" + .media[0].url + "|" + .summary + "|" + .version + "|" + .package_name + "|"' ${FOLDER_TO_SAVE_FILES}* | sort -u > $FILE_TO_SAVE_CACHE
+
+
+grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/snap_list.txt "$FILE_TO_SAVE_CACHE" > "$FILE_TO_SAVE_CACHE_FILTERED"

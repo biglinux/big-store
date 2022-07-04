@@ -18,6 +18,6 @@ rm -f ${TMP_FOLDER}/appstreambuild.html
 echo "" > ${TMP_FOLDER}/upgradeable.txt
 pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
 
- ./search_appstream_pamac.py "${@}" >> ${TMP_FOLDER}/appstreambuild.html
+ ./search_appstream_pamac_simple.py "${@}" >> ${TMP_FOLDER}/appstreambuild.html
  
  mv ${TMP_FOLDER}/appstreambuild.html ${TMP_FOLDER}/appstream.html

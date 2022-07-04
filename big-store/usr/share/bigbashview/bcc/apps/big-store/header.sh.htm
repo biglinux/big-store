@@ -253,18 +253,36 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 #     });
 # </script>"
 
+
+
 # Search box
 ## portuguese
 # Campo de busca
+
+
+if [ "$search" != "" ]; then
+    if [ "$resultFilter_checkbox" != "" ]; then 
+        echo "" > "${HOME_FOLDER}/resultFilter"
+    else
+        rm -f "${HOME_FOLDER}/resultFilter"
+    fi
+else
+    if [ -e "${HOME_FOLDER}/resultFilter" ]; then
+        resultFilter_checkbox="checked"
+    fi
+fi
+
 echo "<form action=\"index.sh.htm\" method=\"post\" id=\"formsearch\" onsubmit=\"disableBody();\">"
 cat << EOF
     <div class="search-bar">
       <input type="text" name="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH...">
       <button class="custom-search-botton" type="submit">← Enter </button>
-    </div>
-    </div>
-   </form>
 EOF
+
+  echo '<div class="switch"><label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked"' "$resultFilter_checkbox"'><span class="lever"></span>Filtrar resultados</label></div>'
+
+
+echo '</div></div></form>'
 
 
 # echo '<div id=header_left><a href=index.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-home"></i></span><div class=icon_text_header>Início</div></div></a>
@@ -447,6 +465,7 @@ if [ "$DISABLE_SNAP" != "y" ]; then
             echo '<div class="switch"><label><input class="switch" type="checkbox"' "$snap_checkbox "'><span class="lever"></span>Snap <div id=snap_number></div></label></div>'
             echo '</div>'
 fi
+
 
 
 
@@ -731,7 +750,15 @@ echo '<div class="row center" id="flex">'
                             # sync mode
                             echo "" > ${TMP_FOLDER}/upgradeable.txt
                             pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
-                            ./search_appstream_pamac.py "${search,,}"
+
+
+                            if [ "$resultFilter_checkbox" != "" ]; then 
+                                ./search_appstream_pamac_simple.py "${search,,}"
+                            else
+                                ./search_appstream_pamac.py "${search,,}"
+                            fi
+
+                            
 
                             # async mode
                             #rm -f ${TMP_FOLDER}/appstream.html
@@ -756,7 +783,8 @@ echo '<div class="row center" id="flex">'
             #Loading icon
             echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
             # Search
-              ./search_aur.sh "${search,,}"  > /dev/null 2>&1 &
+            
+              resultFilter_checkbox="$resultFilter_checkbox" ./search_aur.sh "${search,,}"  > /dev/null 2>&1 &
               echo "<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>"
               echo "<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>"
                     echo '</div>'
@@ -775,7 +803,7 @@ echo '<div class="row center" id="flex">'
                       echo '</div>'
           echo '<div id=content_flatpak>'
           rm -f ${TMP_FOLDER}/flatpak.html
-          ./search_flatpak.sh "${search,,}"  > /dev/null 2>&1 &
+          resultFilter_checkbox="$resultFilter_checkbox" ./search_flatpak.sh "${search,,}"  > /dev/null 2>&1 &
           echo "<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>"
           echo "<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>"
           #cat ${TMP_FOLDER}/flatpak.html | sort

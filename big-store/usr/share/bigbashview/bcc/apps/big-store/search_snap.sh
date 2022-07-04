@@ -105,11 +105,17 @@ EOF
 
 rm -f  ${TMP_FOLDER}/snapbuild.html
 
+if [ "$resultFilter_checkbox" = "" ]; then
+    cacheFile="${HOME_FOLDER}/snap.cache"
+else
+    cacheFile="${HOME_FOLDER}/snap_filtered.cache"
+fi
+
 COUNT=0
 case "$(echo "$search" | wc -w)" in
 
     1)
-        for i  in  $(grep -i  -m 60 -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache); do
+        for i  in  $(grep -i  -m 60 -e "$(echo "$search" | cut -f1 -d" ")" $cacheFile); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
              if [ "$COUNT" = "60" ]; then
@@ -119,7 +125,7 @@ case "$(echo "$search" | wc -w)" in
     ;;
 
     2)
-        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache | grep -i  -m 60 -e "$(echo "$search" | cut -f2 -d" ")"); do
+        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" $cacheFile | grep -i  -m 60 -e "$(echo "$search" | cut -f2 -d" ")"); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
              if [ "$COUNT" = "60" ]; then
@@ -129,7 +135,7 @@ case "$(echo "$search" | wc -w)" in
     ;;
 
     *)
-        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" ${HOME_FOLDER}/snap.cache | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i  -m 60 -e "$(echo "$search" | cut -f3 -d" ")"); do
+        for i  in  $(grep -i  -e "$(echo "$search" | cut -f1 -d" ")" $cacheFile | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i  -m 60 -e "$(echo "$search" | cut -f3 -d" ")"); do
             let COUNT=COUNT+1; 
             parallel_filter "$i" &
              if [ "$COUNT" = "60" ]; then

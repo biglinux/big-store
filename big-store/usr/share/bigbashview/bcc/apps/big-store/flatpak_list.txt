@@ -1,0 +1,7 @@
+org.texstudio.TeXstudio
+org.telegram.desktop
+org.tabos.roger
+org.syphon.Syphon
+org.synfig.SynfigStudio
+org.sigxcpu.Livi
+org.shotcut.Shotcut
