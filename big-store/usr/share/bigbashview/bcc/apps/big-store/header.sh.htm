@@ -42,11 +42,18 @@ os programas nativos, essa pode ser uma boa alternativa<br>
 para quem tem computadores que possuem boa capacidade<br>
 de processamento e armazenamento."
 
-ABOUT_SNAP=$"Programas Snap, assim como o Flatpak<br>
+ABOUT_SNAP=$"
+Programas Snap, assim como o Flatpak<br>
 disponibiliza programas para todas as distribuições Linux.<br>
 Tende a ser mais pesado e menos integrado ao sistema, mas<br>
 se o programa que você procura está disponível apenas neste<br>
 formato, utilize-o."
+
+ABOUT_MODE_SIMPLE=$"
+Exibe apenas programas selecionados<br> 
+e oculta resultados que são úteis <br>
+apenas a usuários avançados."
+
 
 #refrash installed packages
 #pacman -Qqe > ${TMP_FOLDER}/installed.txt
@@ -64,7 +71,6 @@ cat << EOF
     <script type="text/javascript" src="/usr/share/bigbashview/bcc/js/big.js"></script>
     <script type="text/javascript" src="js/autocomplete.js"></script>
     <script type="text/javascript" src="js/bigstore.js"></script>
-    
 <script type="text/javascript">
 if (document.addEventListener) {
     window.addEventListener('pageshow', function (event) {
@@ -210,7 +216,6 @@ cat << EOF
   <div class="header">
 EOF
 
-
 # Uncomment to debug in terminal
 ## portuguese
 # Remova o comentário para fazer testes no terminal
@@ -220,14 +225,11 @@ EOF
 ## portuguese
 # Texto do campo de busca
 TYPE_SEARCH=$"Procurar programa"
-
-
-
+MODE_SIMPLE=$"Modo Simplificado"
 
 # Show logo
 ## portuguese
 # Exibe o logo
-
 
 # Save search query
 echo "$search" > "${TMP_FOLDER}/query.txt"
@@ -236,7 +238,6 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 ## portuguese
 # Cabeçalho
 #echo "<div id=goLeft><a href=\"javascript:window.location.replace(document.referrer);\"><img id=goLeft src=img/left.png></a></div></div></div></div>"
-
 
 # back button
 # echo "<script>
@@ -252,8 +253,6 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 #     'display': 'block'
 #     });
 # </script>"
-
-
 
 # Search box
 ## portuguese
@@ -272,18 +271,25 @@ else
     fi
 fi
 
-echo "<form action=\"index.sh.htm\" method=\"post\" id=\"formsearch\" onsubmit=\"disableBody();\">"
 cat << EOF
     <div class="search-bar">
-      <input type="text" name="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH...">
+    <form action="index.sh.htm" method="post" id="formsearch" onsubmit="disableBody();">
+      <input type="text" name="search" id="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH..." autofocus>
       <button class="custom-search-botton" type="submit">← Enter </button>
+    </form>
+    </div>
+    
+
+    <div class="header-profile">
+      <div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_MODE_SIMPLE">
+        <div class="switch">
+          <label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked"' "$resultFilter_checkbox"'><span class="lever"></span>
+          $MODE_SIMPLE</label>
+        </div>
+      </div>
+    </div>
+</div>
 EOF
-
-  echo '<div class="switch"><label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked"' "$resultFilter_checkbox"'><span class="lever"></span>Filtrar resultados</label></div>'
-
-
-echo '</div></div></form>'
-
 
 # echo '<div id=header_left><a href=index.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-home"></i></span><div class=icon_text_header>Início</div></div></a>
 #         ' "<a class=clickpointer onclick=\"_run('pamac-manager --updates')\" "'><div class=icon_top><span class=header_font_icon><i class="fas fa-sync"></i></span><div class=icon_text_header>Atualizações</div></div></a>
@@ -461,12 +467,10 @@ if [ "$DISABLE_FLATPAK" != "y" ]; then
 fi
 
 if [ "$DISABLE_SNAP" != "y" ]; then
-            echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?snap_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_AUR\">"
+            echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?snap_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_SNAP\">"
             echo '<div class="switch"><label><input class="switch" type="checkbox"' "$snap_checkbox "'><span class="lever"></span>Snap <div id=snap_number></div></label></div>'
             echo '</div>'
 fi
-
-
 
 
 #           <a class="main-header-link is-active" href="#"><input id="s1" type="checkbox" class="switch" checked>
