@@ -683,7 +683,7 @@ div#optdepends_remove {
 
 div#optdepends_install_button {
     display: -webkit-inline-box;
-    color: #00c100;
+    color: var(--text-green-color);
     margin-right: 7px;
 }
 
@@ -693,7 +693,7 @@ div#optdepends_install_button:hover {
 
 div#optdepends_remove_button {
     display: -webkit-inline-box;
-    color: #ff0000;
+    color: var(--text-red-color);
     margin-right: 7px;
 }
 
