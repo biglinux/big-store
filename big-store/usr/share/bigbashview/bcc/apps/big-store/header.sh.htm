@@ -276,17 +276,18 @@ cat << EOF
     <form action="index.sh.htm" method="post" id="formsearch" onsubmit="disableBody();">
       <input type="text" name="search" id="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH..." autofocus>
       <button class="custom-search-botton" type="submit">← Enter </button>
-    </form>
+    
     </div>
     
 
     <div class="header-profile">
       <div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_MODE_SIMPLE">
         <div class="switch">
-          <label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked"' "$resultFilter_checkbox"'><span class="lever"></span>
+          <label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked" $resultFilter_checkbox><span class="lever"></span>
           $MODE_SIMPLE</label>
         </div>
       </div>
+      </form>
     </div>
 </div>
 EOF
@@ -294,12 +295,6 @@ EOF
 # echo '<div id=header_left><a href=index.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-home"></i></span><div class=icon_text_header>Início</div></div></a>
 #         ' "<a class=clickpointer onclick=\"_run('pamac-manager --updates')\" "'><div class=icon_top><span class=header_font_icon><i class="fas fa-sync"></i></span><div class=icon_text_header>Atualizações</div></div></a>
 # </div>'
-
-
-
-
-
-
 
 #APPSTREAM
 if [ -e "${HOME_FOLDER}/hide_appstream" ]; then
@@ -719,7 +714,7 @@ cat << EOF
         </div>
 
       </div>
-      <div class="content-wrapper">
+      <div class="content-wrapper">      
 EOF
 
 if [ "$SUB_CATEGORY" != "" ]; then
