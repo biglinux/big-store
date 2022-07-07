@@ -89,3 +89,15 @@ $(function () {
   }); 
 });
 
+
+var bigcount = 1;
+$('#btn-big').click(function(){
+    if (bigcount >= 3 && bigcount <= 3) {
+      $('#welcome').css('display','flex');
+    } else if (bigcount >= 6 && bigcount <= 6) {
+      $('body').css('background-image', 'url("img/body-bg.jpg")');
+    } else if (bigcount >= 9) {
+      window.location = "javascript-racer-master/racer.sh.htm";
+    }
+    ++bigcount;
+});

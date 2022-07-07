@@ -23,6 +23,19 @@ source header.sh.htm
 #####################
 if [ "$category" = "" ] && [ "${#search}" -le "2" ]; then
 
+cat << EOF
+      <div id="welcome" class="content-wrapper-header" style="display:none;">
+        <div class="content-wrapper-context">
+          <h3 class="img-content">
+            <img class="img-content img" src="icon.png">
+            Big Store
+          </h3>
+        </div>
+        <img class="content-wrapper-img" src="appsbigstore.png" alt="">
+      </div>
+      <br>
+EOF
+
 ICON_CATEGORY() {
     echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"$2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
 }
@@ -735,8 +748,10 @@ fi
 
 # Finish him
 cat << EOF
+
+
   <div class="logo">
-    <img src="logo.png" class="logo-biglinux">
+    <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
   </div>
 </div>
     <script src="./script.js"></script>
