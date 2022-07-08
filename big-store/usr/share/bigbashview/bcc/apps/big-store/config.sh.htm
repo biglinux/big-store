@@ -108,6 +108,7 @@ Reinstalar_forcado_text=$"Forçar reinstalação de todos os pacotes instalados"
 Reinstalar_chaves=$"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
 Executar_text=$"Executar"
 Forcar_atualizacao_text=$"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na atualização forçada alguns programas podem ser removidos."
+Repositorios_nativos_text=$"Repositórios nativos"
 
 cat << EOF
 <div class="content-section">
@@ -176,12 +177,8 @@ cat << EOF
     </div>     
 EOF
 fi        
-cat << EOF
 
-        </li>
-
-    </ul>
-</div> 
+echo '</li></ul></div>' 
 
 
 
@@ -217,9 +214,9 @@ cat << EOF
 #     </ul>
 # </div> 
 
- 
+cat << EOF
 <div class="content-section">
-    <div class="content-section-title">Repositórios nativos</div>
+    <div class="content-section-title">$Repositorios_nativos_text</div>
     <ul>
         <li class="hidemenu">
         <div class="products">
