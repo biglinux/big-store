@@ -84,16 +84,9 @@ IFS=$'\n'
 
     fi
 
-
-
-
-
-
 # cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
 # <a href="flatpak_view.sh?$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp tooltipped" data-position="top" data-tooltip="${PACKAGE}$PKG_ID<br><br>${VERSION}$PKG_VERSION"><div id=flatpak_package></div><div id=flatpak_icon><img height="64" width="64" loading="lazy" src="$PKG_ICON"><div id=version>$PKG_VERSION_ORIG</div></div><div id=flatpak_name>$PKG_NAME</div><div id=flatpak_desc>$PKG_DESC</div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
 # EOF
-
-
 
             # If all fail, use generic icon
 #             if [ "$PKG_ICON" = "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 'type=')" != "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 '<description>')" != "" ]; then
@@ -142,21 +135,6 @@ echo '<div class="row center">'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 echo "<div class=grid-container>
 <div class=gridLeft> " $"Pacote:" " </div>"
 
@@ -173,28 +151,6 @@ echo "<div class=grid-container>
 
 echo "<div class=gridRight> flathub </div></div>"
   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
 IFS=$OIFS
 
 
