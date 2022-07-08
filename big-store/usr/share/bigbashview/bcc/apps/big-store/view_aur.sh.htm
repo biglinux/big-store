@@ -45,7 +45,9 @@ echo '</div>'
 ./view_aur.py "$pkg_name"
 
 echo "<script>runAvatarAur();</script>"
-
+echo '<div class="logo">'
+echo '    <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">'
+echo '</div>'
         
 echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
 echo '<div id="files_in_package">
@@ -70,6 +72,7 @@ echo "<script>\$(document).ready(function(){
   });</script>"
 
 # Finish him
+
 cat << EOF
 </div>
   <script src="./script.js"></script>
