@@ -177,7 +177,7 @@ def print_pkg_details (details):
 
     if details.get_build_date():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Data do empacotamento:', '</div>')
+        print ('<div class=gridLeft>', _('Data do empacotamento:'), '</div>')
         print ('<div class="gridRight">')
         print (datetime.datetime.fromtimestamp(int(details.get_build_date().to_unix())
         ).strftime(loc))
@@ -185,7 +185,7 @@ def print_pkg_details (details):
 
     if details.get_install_date():
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Data de instalação:', '</div>')
+        print ('<div class=gridLeft>', _('Data de instalação:'), '</div>')
         print ('<div class="gridRight">')
         print (datetime.datetime.fromtimestamp(
             int(details.get_install_date().to_unix())

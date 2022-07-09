@@ -75,24 +75,24 @@ for p in data['results']:
     print ('<br>')
 
     print ('<div class="grid-container">')
-    print ('<div class=gridLeft>', 'Pacote:', '</div>')
+    print ('<div class=gridLeft>', _('Pacote:'), '</div>')
     print ('<div class=gridRight>', sys.argv[1], '</div></div>')
 
     if pkg_installed_version.stdout:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Versão instalada:', '</div>')
+        print ('<div class=gridLeft>', _('Versão instalada:'), '</div>')
         print ('<div class=gridRight>', pkg_installed_version.stdout.strip(), '</div></div>')
     if pkg_installed_version.stdout != p['Version']:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Versão disponivel:', '</div>')
+        print ('<div class=gridLeft>', _('Versão disponivel:'), '</div>')
         print ('<div class=gridRight>', p['Version'], '</div></div>')
 
     if 'NumVotes' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Número de votos:', '</div>')
+        print ('<div class=gridLeft>', _('Número de votos:'), '</div>')
         print ('<div class=gridRight>', p['NumVotes'], '</div></div>')
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Página no AUR:', '</div>')
+        print ('<div class=gridLeft>', _('Página no AUR:'), '</div>')
         print ('<div class="gridRight clickpointer" onclick="_run(', "'" + 'xdg-open', 'https://aur.archlinux.org/packages/' + p['Name'] + "'", ')">', 'https://aur.archlinux.org/packages/' + p['Name'], '</div></div>')
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', 'PKGBUILD:', '</div>')
@@ -100,51 +100,51 @@ for p in data['results']:
 
     if 'URL' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Site:', '</div>')
+        print ('<div class=gridLeft>', _('Site:'), '</div>')
         print ('<div class="gridRight clickpointer" onclick="_run(', "'" + 'xdg-open', p['URL'] + "'", ')">', p['URL'], '</div></div>')
 
     if 'License' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Licença:', '</div>')
+        print ('<div class=gridLeft>', _('Licença:'), '</div>')
         print ('<div class="gridRight">', p['License'][0], '</div></div>')
 
 
     print ('<div class="grid-container">')
-    print ('<div class=gridLeft>', 'Repositório:', '</div>')
+    print ('<div class=gridLeft>', _('Repositório:'), '</div>')
     print ('<div class="gridRight">', 'AUR', '</div></div>')
 
     if 'Maintainer' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Empacotador:', '</div>')
+        print ('<div class=gridLeft>', _('Empacotador:'), '</div>')
         print ('<div class="gridRight">', p['Maintainer'], '</div></div>')
 
     pkg_build_date = subprocess.run(["./pkg_pacman_build_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     if pkg_build_date.stdout != '':
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Data do empacotamento:', '</div>')
+        print ('<div class=gridLeft>', _('Data do empacotamento:'), '</div>')
         print ('<div class="gridRight">', pkg_build_date.stdout, '</div></div>')
 
     pkg_install_date = subprocess.run(["./pkg_pacman_install_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     if pkg_install_date.stdout != '':
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Data de instalação:', '</div>')
+        print ('<div class=gridLeft>', _('Data de instalação:'), '</div>')
         print ('<div class="gridRight">', pkg_install_date.stdout, '</div></div>')
 
     pkg_install_reason = subprocess.run(["./pkg_pacman_install_reason", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     if pkg_install_reason.stdout != '':
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Motivo da instalação:', '</div>')
+        print ('<div class=gridLeft>', _('Motivo da instalação:'), '</div>')
         print ('<div class="gridRight">', pkg_install_reason.stdout, '</div></div>')
 
     if 'Groups' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Grupos:', '</div>')
+        print ('<div class=gridLeft>', _('Grupos:'), '</div>')
         print ('<div class="gridRight">', p['Groups'], '</div></div>')
 
 
     if 'OptDepends' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Complementos:', '</div>')
+        print ('<div class=gridLeft>', _('Complementos:'), '</div>')
         print ('<div class="gridRight">')
         print ('<div class="optdepends_box">')
         for optdepends in p['OptDepends']:
@@ -153,16 +153,16 @@ for p in data['results']:
             print ('<div id=optdepends_breakline>')
             if installed_dep.stdout == '':
                 print ('<div id=optdepends_install><a onclick="disableBody();" href="view_aur.sh.htm?pkg_name='+ optdepends_name + '">')
-                print ('<div id=optdepends_install_button>' + 'Instalar', optdepends_name, '</div></a>')
+                print ('<div id=optdepends_install_button>' + _('Instalar'), optdepends_name, '</div></a>')
             else:
                 print ('<div id=optdepends_remove><a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name='+ optdepends_name + '">')
-                print ('<div id=optdepends_remove_button>' + 'Remover', optdepends_name, '</div></a>')
+                print ('<div id=optdepends_remove_button>' + _('Remover'), optdepends_name, '</div></a>')
             print ('</div></div>')
         print ('</div></div></div>')
 
     if 'Depends' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Dependências:', '</div>')
+        print ('<div class=gridLeft>', _('Dependências:'), '</div>')
         print ('<div class="gridRight">')
         for depends in p['Depends']:
             print (depends)
@@ -171,7 +171,7 @@ for p in data['results']:
 
     if 'MakeDepends' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Dependências de instalação:', '</div>')
+        print ('<div class=gridLeft>', _('Dependências de instalação:'), '</div>')
         print ('<div class="gridRight">')
         for makedepends in p['MakeDepends']:
             print (makedepends)
@@ -180,7 +180,7 @@ for p in data['results']:
 
     if 'Conflicts' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Remove:', '</div>')
+        print ('<div class=gridLeft>', _('Remove:'), '</div>')
         print ('<div class="gridRight">')
         for conflicts in p['Conflicts']:
             print (conflicts)
@@ -189,7 +189,7 @@ for p in data['results']:
 
     if 'Replaces' in p:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Substitui:', '</div>')
+        print ('<div class=gridLeft>', _('Substitui:'), '</div>')
         print ('<div class="gridRight">')
         for replaces in p['replaces']:
             print (replaces)
@@ -198,7 +198,7 @@ for p in data['results']:
 
     if pkg_installed.stdout:
         print ('<div class="grid-container">')
-        print ('<div class=gridLeft>', 'Arquivos do pacote:', '</div>')
+        print ('<div class=gridLeft>', _('Arquivos do pacote:'), '</div>')
         print ('<div class="gridRight">')
         print ('<a class="modal-trigger" href="#modal1" id="listPgkFiles">', 'Clique aqui para ver os arquivos', '</a><script>')
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_installed " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
