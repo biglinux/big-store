@@ -145,7 +145,30 @@ body {
     font-family: 'arcade-press';
     font-size: 14px;
 }
-
+#instructions {
+    clear: none;
+    float: none;
+    width: 100%;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    color: #dfa400;
+    text-shadow: 2px 2px 3px black;
+    position: absolute;
+    z-index: 1;
+    margin-top: -35px;
+    font-size: smaller;
+}
+#instructions a {
+  color: #dfa400;
+}
+#instructions a:hover {
+  color: #ffbc00;
+}
 </style>
 <body> 
 <div id="center">
@@ -203,9 +226,7 @@ body {
     </tr>
   </table>
 
-  <div id='instructions' style="display:none;">
-    <p>Use the <b>arrow keys</b> to drive the car.</p>
-  </div>
+  
 
   <div id="racer">
     <div id="hud">
@@ -215,10 +236,15 @@ body {
       <span id="last_lap_time"    class="hud">Lap:<span id="last_lap_time_value" class="value lapvalue">0.0</span></span> 
       <span id="fast_lap_time"    class="hud">Lap+fast:<span id="fast_lap_time_value" class="value lapvalue">0.0</span></span> 
     </div>
+
+    <div id='instructions' style="display:flex;">
+      <p>Javascript Pseudo 3D Racer - <a href="#" onclick="_run('xdg-open https://github.com/jakesgordon/javascript-racer')">https://github.com/jakesgordon/javascript-racer</a></p>
+    </div>    
     <canvas id="canvas">
       Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
     </canvas>
     Loading...
+    
   </div>
 
   <audio id='music'>
