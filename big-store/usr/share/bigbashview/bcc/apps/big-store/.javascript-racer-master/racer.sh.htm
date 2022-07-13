@@ -35,29 +35,41 @@ cat << EOF
 
 body {
     background-image: url(images/arcade.png);
-    background-size: 1083px 1266px;
+    /*background-size: 1083px 1266px;*/
     background-repeat: no-repeat;
-    background-position: center calc(100% - -192px);
+    background-position: center center;
     background-color: #241f21;
 }
-#racer {
-    position: relative;
-    z-index: 0;
-    width: 640px;
-    height: 480px;
-    margin-left: 20em;
-    border: 2px solid black;
-    margin-left: calc(50% - 324px) !important;
-    margin-top: 20%;    
+#divcenter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
 }
 
+#racer {
+    /* position: relative; */
+    z-index: 0;
+    width: 597px;
+    height: 460px;
+    margin-left: 0;
+    border: none;
+}
+
+#canvas {
+    width: 581px;
+    height: 440px;
+}
 
 #hud #speed {
     float: right;
     position: absolute;
     width: 150px;
     height: 32px;
-    top: 430px;
+    top: 399px;
     left: 11px;
     font-size: x-large;
     color: #ffbc00;
@@ -115,6 +127,7 @@ body {
 #hud {
     background: none;
     border-bottom: none;
+    width: 585px;
 }
 
 #mute {
@@ -171,7 +184,7 @@ body {
 }
 </style>
 <body> 
-<div id="center">
+<div id="divcenter">
   <table id="controls" style="display:none;">
     <tr>
       <td colspan="2">
@@ -248,8 +261,13 @@ body {
   </div>
 
   <audio id='music'>
-    <source src="music/racer.ogg">
-    <source src="music/racer.mp3">
+    <!-- 
+    Music: On My Way.ogg
+    Credit: DeltaBreaker
+    Link: https://opengameart.org/content/on-my-way-8-bit-loop 
+    -->
+    <source src="music/On My Way.ogg">
+    <!--<source src="music/racer.mp3">-->
   </audio>
 </div>  
 
