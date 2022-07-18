@@ -374,7 +374,13 @@ fi
 
 
 cat << EOF
-  <div class="wrapper">
+EOF
+if [ "$(echo $LANG | grep ^he)" != "" ]; then
+    echo '<div class="wrapper" style="flex-direction: row-reverse;">'
+else
+    echo '<div class="wrapper">'
+fi
+cat << EOF
     <div class="left-side"> 
       <div class="side-wrapper">
         <div class="side-menu">
@@ -457,13 +463,39 @@ EOF
 
 cat << EOF
       <div class="main-header">
-        <div class="header-profile-back">
+EOF
+if [ "$(echo $LANG | grep ^he)" != "" ]; then
+    echo '<div class="header-profile-back" style="margin-left: 15px;">'
+else
+    echo '<div class="header-profile-back">'
+fi
+cat << EOF
             <a href="#" onclick="history.back()">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class=""></path></svg>
             </a>
         </div>
           
-        <div class="header-menu">
+EOF
+if [ "$(echo $LANG | grep ^he)" != "" ]; then
+echo '<style>
+.header-menu { 
+  width: calc(100% - -220px) !important; 
+  margin-left: 0px !important;
+}
+@media screen and (max-width: 1055px) { 
+  .header-menu { 
+    width: calc(100% - -70px) !important; 
+  } 
+}
+</style>'
+
+    echo '<div class="header-menu" style="flex-direction: row-reverse;">'
+else
+    echo '<div class="header-menu">'
+fi
+cat << EOF
+          
+          
 EOF
 
             echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?appstream_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_APPSTREAM\">"
