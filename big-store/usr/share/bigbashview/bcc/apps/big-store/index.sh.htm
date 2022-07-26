@@ -246,7 +246,7 @@ if [ "$category" = "mail" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
     LANG_PKG="thunderbird-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "thunderbird $LANG_PKG evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
+    APPSTREAM_CATEGORY "thunderbird $LANG_PKG evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring bluemail"
     AUR_CATEGORY
 fi
 
