@@ -15,85 +15,119 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
 TMP_FOLDER="/tmp/bigstore"
-COUNT=0
 
 rm -f ${TMP_FOLDER}/aurbuild.html
 #  ./search_aur.py $@ >> ${TMP_FOLDER}/aurbuild.html
 # mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
 
-OIFS=$IFS
-IFS=$'\n'
+# Unused:
+# Try enable icons
+# PKG_ICON="$(find icons/ /usr/share/app-info/icons/archlinux-arch-community/64x64/ /usr/share/app-info/icons/archlinux-arch-extra/64x64/ /var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/ -type f -iname "*${TITLE_SIMPLE}*" -print -quit)"
+# echo '<div id=appstream_icon><img class="icon" loading="lazy" src="' "$PKG_ICON" '">' >> ${TMP_FOLDER}/aurbuild.html
 
-for i  in  $(LANG=C yay --sortby popularity -Ssa --topdown $(echo $@ | sed "s| |\n|g") | awk 'ORS=NR%2?" ":"\n"'); do
+LANG=C yay --sortby popularity -Ssa --singlelineresults --topdown $(echo $@ | sed "s| |\n|g") | \
+gawk -v tmpfolder="${TMP_FOLDER}" -v searchterms="$@" -v resultfilter="$resultFilter_checkbox" -v instalar=$"Instalar" -v remover=$"Remover" -- '
+### Begin of gawk script
+BEGIN{
+# This OFS allows readable code during printing
+    OFS="\n"
+}
 
-    TITLE="$(echo "$i" | awk 'ORS=NR%2?" ":"\n"' | cut -f2-5 -d/ | cut -f1 -d" ")"
+# The following block runs once per line given by yay to gawk
+{
+# Resetting variables
+    title = title_simple = idaur = icon = title = version = description = button = ""
 
-    if [ "$resultFilter_checkbox" = "" ] || [ "$(grep "^${TITLE}$" '/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt')" != "" ]; then
-    
-        TITLE_SIMPLE="$(echo "$TITLE" | cut -f1 -d"-")"
-        DESCRIPTION="$(echo "$i" | awk -F"    " '{print $NF }')"
-        INSTALLED="$(echo "$i"| grep '(Installed')"
-        VERSION="$(echo "$i"| cut -f2 -d" ")"
-        let COUNT=COUNT+1; 
-        
-        echo "<a onclick=\"disableBody();\" href=\"view_aur.sh.htm?pkg_name=$TITLE\">" >> ${TMP_FOLDER}/aurbuild.html
-        echo '<div class="col s12 m6 l3"' >> ${TMP_FOLDER}/aurbuild.html
-
-        if [ "$INSTALLED" = "" ]; then
-            if [ "$(echo "$TITLE" | grep "$(echo "$@" | cut -f1 -d" ")")" != "" ]; then
-                echo 'id="AurP2">' >> ${TMP_FOLDER}/aurbuild.html
-            else
-                echo 'id="AurP3">' >> ${TMP_FOLDER}/aurbuild.html
-            fi
-        else
-            echo 'id="AurP1">' >> ${TMP_FOLDER}/aurbuild.html
-        fi
+    title = gensub(/.*\//,"",1,$1)
 
 
+    RS_BAK = RS
+    RS = "^$"
+    getline aurlist < "/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt"
+    close("/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt")
+    RS = RS_BAK
 
-        # Try enable icons
-        # PKG_ICON="$(find icons/ /usr/share/app-info/icons/archlinux-arch-community/64x64/ /usr/share/app-info/icons/archlinux-arch-extra/64x64/ /var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/ -type f -iname "*${TITLE_SIMPLE}*" -print -quit)"
+# If resultfilter is not set, or package is in aur_list.txt
+    if ( ( !resultfilter ) || ( aurlist ~ "\\<" title "\\>" ) ) {
 
-        echo '<div class="showapp">' >> ${TMP_FOLDER}/aurbuild.html
-        
-        if [ -e "icons/${TITLE}.png" ]; then
-            echo "<div id=aur_icon><div class=icon_middle><img class=\"icon\" src=\"icons/${TITLE}.png\"></div>" >> ${TMP_FOLDER}/aurbuild.html
-        else
-            echo "<div id=aur_icon><div class=icon_middle><div class=avatar_aur>${TITLE:0:3}</div></div>" >> ${TMP_FOLDER}/aurbuild.html
-        fi
-        
-        # echo '<div id=appstream_icon><img class="icon" loading="lazy" src="' "$PKG_ICON" '">' >> ${TMP_FOLDER}/aurbuild.html
-        echo "<div id=aur_name><div id=limit_title_name>$TITLE</div>" >> ${TMP_FOLDER}/aurbuild.html
-        echo "<div id=version>$VERSION</div></div></div>" >> ${TMP_FOLDER}/aurbuild.html
-        
-        SUMMARY_FILE="description/${TITLE}/$(echo $LANG | cut -f1 -d".")/summary"
-        if [ -e "$SUMMARY_FILE" ]; then
-            echo "<div id=box_aur_desc><div id=aur_desc>$(cat "$SUMMARY_FILE")</div></div>" >> ${TMP_FOLDER}/aurbuild.html
-        else
-            echo "<div id=box_aur_desc><div id=aur_desc>$DESCRIPTION</div></div>" >> ${TMP_FOLDER}/aurbuild.html
-        fi
+#        title_simple = gensub(/-.*/,"",1,title)
+        description = gensub(/.+\t/,"",1)
+        installed = /Installed/ ? 1 : 0
+        version = $2
 
-        if [ "$INSTALLED" = "" ]; then
-            echo '<div id=aur_not_installed>' $"Instalar" '</div></a></div></div>' >> ${TMP_FOLDER}/aurbuild.html
-        else
-            echo '<div id=aur_installed>' $"Remover" '</div></a></div></div>' >> ${TMP_FOLDER}/aurbuild.html
-        fi
 
-        if [ "$COUNT" = "60" ]; then
-            break
-        fi
-    fi
-done
+        if ( !installed ) {
+            button = "<div id=aur_not_installed>" instalar "</div></a></div></div>"
+            if ( searchterms ~ "\\<" title "\\>" ) {
+                idaur = "AurP2"
+            } else {
+                idaur = "AurP3"
+            }
+        } else {
+            button = "<div id=aur_installed>" remover "</div></a></div></div>"
+            idaur = "AurP1"
+        }
 
-if [ "$COUNT" -gt "0" ]; then
-        echo '<script>$(document).ready(function() {$("#box_aur").show();});</script>' >> ${TMP_FOLDER}/aurbuild.html
-        echo '<script>document.getElementById("aur_icon_loading").innerHTML = ""; runAvatarAur();</script>' >> ${TMP_FOLDER}/aurbuild.html
-        mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
-else
-        echo '<script>document.getElementById("aur_icon_loading").innerHTML = ""; runAvatarAur();</script>' > ${TMP_FOLDER}/aurbuild.html
-        mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
-fi
 
-echo "$COUNT" > "${TMP_FOLDER}/aur_number.html"
+        if ( system("[ ! -e icons/" title ".png ]") ) {
+            icon = "<img class=\"icon\" src=\"icons/" title ".png\">"
+        } else {
+            icon = "<div class=avatar_aur>" substr(title,1,3) "</div>"
+        }
 
-IFS=$OIFS
+# Checking custom localized description
+        shortlang = gensub(/\..+/,"",1,ENVIRON["LANG"])
+        summaryfile = "description/" title "/" shortlang "/summary"
+# Double negative because system() returns exit status of shell command inside ()
+        if ( !system("[ -e " summaryfile " ]") ) {
+            RS_BAK = RS
+            RS = "^$"
+            getline description < summaryfile
+            close(summaryfile)
+            RS = RS_BAK
+        }
+
+# Checks if package is orphaned
+# TODO: bash localization for "Orphaned"
+        description = description ( /Orphaned/ ? " (Orphaned)" : "")
+
+
+# Writes html of current package on aurbuild.html
+# Do not worry, file redirector ">" works different in awk: only the first interaction deletes file content
+
+        print(\
+"<a onclick=\"disableBody();\" href=\"view_aur.sh.htm?pkg_name=" title "\">",
+"<div class=\"col s12 m6 l3\" id=" idaur ">",
+"<div class=\"showapp\">",
+"<div id=aur_icon><div class=icon_middle>" icon "</div>",
+"<div id=aur_name><div id=limit_title_name>" title "</div>",
+"<div id=version>" version "</div></div></div>",
+"<div id=box_aur_desc><div id=aur_desc>" description "</div></div>",
+button) > tmpfolder "/aurbuild.html"
+
+    }
+}
+
+# Stops right after the 60th package
+NR == 60 { exit }
+
+
+
+END {
+
+    if (NR > 0) {
+        print("<script>$(document).ready(function() {$(\"#box_aur\").show();});</script>",
+              "<script>document.getElementById(\"aur_icon_loading\").innerHTML = \"\"; runAvatarAur();</script>") > tmpfolder "/aurbuild.html"
+    } else {
+        print("<script>document.getElementById(\"aur_icon_loading\").innerHTML = \"\"; runAvatarAur();</script>") > tmpfolder "/aurbuild.html"
+    }
+
+# Writes on aur_number.html the number of packages read
+    print NR > tmpfolder "/aur_number.html"
+
+}
+
+'
+### End of gawk script
+
+mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
