@@ -20,6 +20,10 @@ rm -f ${TMP_FOLDER}/aurbuild.html
 #  ./search_aur.py $@ >> ${TMP_FOLDER}/aurbuild.html
 # mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
 
+# Unused:
+# Try enable icons
+# PKG_ICON="$(find icons/ /usr/share/app-info/icons/archlinux-arch-community/64x64/ /usr/share/app-info/icons/archlinux-arch-extra/64x64/ /var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/ -type f -iname "*${TITLE_SIMPLE}*" -print -quit)"
+# echo '<div id=appstream_icon><img class="icon" loading="lazy" src="' "$PKG_ICON" '">' >> ${TMP_FOLDER}/aurbuild.html
 
 LANG=C yay --sortby popularity -Ssa --singlelineresults --topdown $(echo $@ | sed "s| |\n|g") | \
 gawk -v tmpfolder="${TMP_FOLDER}" -v searchterms="$@" -v resultfilter="$resultFilter_checkbox" -v instalar=$"Instalar" -v remover=$"Remover" -- '
@@ -63,11 +67,6 @@ BEGIN{
             button = "<div id=aur_installed>" remover "</div></a></div></div>"
             idaur = "AurP1"
         }
-
-# Unused:
-# Try enable icons
-# PKG_ICON="$(find icons/ /usr/share/app-info/icons/archlinux-arch-community/64x64/ /usr/share/app-info/icons/archlinux-arch-extra/64x64/ /var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/ -type f -iname "*${TITLE_SIMPLE}*" -print -quit)"
-# echo '<div id=appstream_icon><img class="icon" loading="lazy" src="' "$PKG_ICON" '">' >> ${TMP_FOLDER}/aurbuild.html
 
 
         if ( system("[ ! -e icons/" title ".png ]") ) {
