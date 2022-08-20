@@ -602,8 +602,9 @@ input::placeholder {
 }
 
 .side-title {
-  color: var(--inactive-color);
-  margin-bottom: 14px;
+  font-weight: 800;
+  color: var(--theme-color);
+  margin-bottom: 0px;
 }
 
 .side-menu {
