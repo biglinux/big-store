@@ -50,7 +50,6 @@ ICON_CATEGORY() {
 
 ## XIVA category ##
 if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ];then 
-#if [ "$(lsb_release -sd | sed 's/"//g')" = "BigLinux" ];then
 
     #echo '<a name=xystem></a>'
         echo '<div id="xystem" class=category_box>'
@@ -327,9 +326,7 @@ FLATPAK_CATEGORY() {
 }
 
 if [ "$(lsb_release -sd | sed 's/"//g' )" = "XIVAStudio" ];then
-#if [ "$(lsb_release -sd | sed 's/"//g' )" = "BigLinux" ];then
     source xiva-category
-#     source biglinux-category
 else
     source biglinux-category
 fi
@@ -341,7 +338,6 @@ fi
 # Finish him
 
 if [ "$(lsb_release -sd | sed 's/"//g' )" = "XIVAStudio" ];then
-#if [ "$(lsb_release -sd | sed 's/"//g' )" = "BigLinux" ];then
 cat << EOF
   <div class="logo">
     <img id="btn-big" src="xiva.png" class="logo-biglinux" onclick="biglinux();">
