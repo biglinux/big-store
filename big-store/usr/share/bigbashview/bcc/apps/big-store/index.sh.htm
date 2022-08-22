@@ -48,6 +48,78 @@ ICON_CATEGORY() {
 #     echo $"Com tantas opções, se você possui pouca experiência com Linux, recomendo que utilize as categorias a seguir, pois selecionamos apenas os melhores programas para executar as tarefas mais utilizadas pelos nossos usuários: "
 #     echo '</div>'
 
+## XIVA category ##
+if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ];then 
+
+    #echo '<a name=xystem></a>'
+        echo '<div id="xystem" class=category_box>'
+        echo '<div class=category_title_index>'
+        echo $"X-Sistema"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições"
+    ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
+    ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização"
+
+    echo '</div></div></div>'
+    
+    #echo '<a name=image></a>'
+    echo '<div id=image class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Imagem"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY vetorial "fas fa-bezier-curve" $"Editores Vetorial"
+    ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho"
+#     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
+    ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
+    ICON_CATEGORY image-plugins "fas fa-plug" $"Plugins"
+    ICON_CATEGORY 3dcad "fas fa-cube" $"Edição 3D e CAD"
+    ICON_CATEGORY fontes "fas fa-font" $"Fontes (Tipografia)"
+    ICON_CATEGORY diagramacao "fas fa-file-invoice" $"Diagramação e organização de páginas"
+    ICON_CATEGORY colorizacao "fas fa-palette" $"Colorização e palheta de cores"
+
+    echo '</div></div></div>'
+    
+    #echo '<a name=video></a>'
+    echo '<div id=video class=category_box>'
+    echo '<div class=category_title_index>'
+    echo $"Video"
+    echo '</div>'
+    echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY videoeditors "fas fa-photo-video" $"Editores de video"
+    ICON_CATEGORY videoplay "fas fa-film" $"Reprodutores de vídeo"
+    ICON_CATEGORY 2deditor "fas fa-clapperboard" $"Animação e 2D"
+    ICON_CATEGORY captura "fas fa-video" $"Captura de tela e video download"
+    ICON_CATEGORY videotream "fas fa-tv" $"Stream/transmissão online"
+    ICON_CATEGORY dvdvideoconverter "fas fa-compact-disc" $"Conversores de vídeo e gravadores CD/DVD"
+
+    echo '</div></div></div>'
+    
+    #echo '<a name=audio></a>'
+    echo '<div id=audio class=category_box>'
+    echo '<div class=category_title_index>'
+    echo $"Audio"
+    echo '</div>'
+    echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
+    ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
+    ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
+    ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio"
+    ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo"
+    ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..."
+    ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo"
+    ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD"
+    ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
+
+    echo '</div></div></div>'
+fi
+
+## Big category ##
     #echo '<a name=internet></a>'
     echo '<div id=internet class=category_box>'
     echo '<div class=category_title_index>'
@@ -228,528 +300,55 @@ AUR_CATEGORY() {
     echo '</div>'
 }
 
-#####################
-#Show browser category
-#####################
-if [ "$category" = "browser" ]; then
+FLATPAK_CATEGORY() {
+    rm -f "${TMP_FOLDER}/flatpak_number.html"
+    
+    echo '<div id=box_flatpak>'
+    echo '<div id=title_flatpak>'
+    echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
+    echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'    
+    echo $"Programas Flatpak"
+    echo '</div></div>'
+    echo '</div>'
+    echo '<div id=content_flatpak>'
+    rm -f ${TMP_FOLDER}/flatpak.html
+    rm -f ${TMP_FOLDER}/flatpakbuild.html
+    #Loading icon
+    echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
+    # Search
+    #kdialog --msgbox "$@"
+    for i in $@; do ./category_flatpak.sh "$i"; done
+    mv -f ${TMP_FOLDER}/flatpakbuild.html ${TMP_FOLDER}/flatpak.html
+    # async load
+    echo "<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>"
+    echo '</div>'
+    echo '</div>'
+}
 
-    rm -f /tmp/bigstore/category_aur.txt
-    LANG_PKG="firefox-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "firefox $LANG_PKG brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
-    AUR_CATEGORY
+if [ "$(lsb_release -sd | sed 's/"//g' )" = "XIVAStudio" ];then
+    source xiva-category
+else
+    source biglinux-category
 fi
-
-#####################
-#Show mail category
-#####################
-if [ "$category" = "mail" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    LANG_PKG="thunderbird-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "thunderbird $LANG_PKG evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring bluemail"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show download category
-#####################
-if [ "$category" = "download" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "kget gwget uget steadyflow jdownloader2 clipgrab youtubedl-gui xdman flareget"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show torrent category
-#####################
-if [ "$category" = "torrent" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "qbittorrent torrential deluge-gtk ktorrent fragments transmission-qt amule tixati frostwire"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show messages category
-#####################
-if [ "$category" = "messages" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "telegram-desktop discord teamspeak3 mumble signal-desktop element-desktop caprine gajim murmur mattermost jami-gnome pidgin polari hexchat wire-desktop quassel-client zoom skypeforlinux-stable-bin slack-desktop teams viber icq-bin"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show remote
-#####################
-if [ "$category" = "remote" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "remmina vinagre tigervnc krdc krfb filezilla putty tmate rustdesk-bin anydesk-bin teamviewer chrome-remote-desktop"
-    AUR_CATEGORY
-fi
-
-#####################
-#Cloud storage
-#####################
-if [ "$category" = "cloud" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "nextcloud-client owncloud-client syncthing-gtk sparkleshare rclone cozy-desktop dropbox megasync overgrive cloudcross seafile-client"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show network
-#####################
-if [ "$category" = "network" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "wireshark-qt ipscan gnome-nettool mtr-gtk"
-    #AUR_CATEGORY
-fi
-
-
-#####################
-#Show news
-#####################
-if [ "$category" = "news" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "newsflash akregator gfeeds pan liferea rssguard quiterss"
-    #AUR_CATEGORY
-fi
-
-
-#####################
-#Show Book
-#####################
-if [ "$category" = "book" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "okular foliate evince atril gnome-books bookworm fbreader coolreader calibre peruse"
-    #AUR_CATEGORY
-fi
-
-#####################
-#Show PDF
-#####################
-if [ "$category" = "pdf" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "pdfarranger diffpdf pdfmod pdftricks pdfmixtool pdfslicer gscan2pdf mupdf masterpdfeditor masterpdfeditor-free"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show office category
-#####################
-if [ "$category" = "office" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    LANG_PKG1="libreoffice-fresh-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    LANG_PKG2="libreoffice-still-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    APPSTREAM_CATEGORY "libreoffice-fresh $LANG_PKG1 libreoffice-still  $LANG_PKG2 freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office wps-office-mui-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show Calendar
-#####################
-if [ "$category" = "calendar" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews minetime-bin"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show deveditor category
-#####################
-if [ "$category" = "deveditor" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition intellij-idea-community-edition codeblocks kdevelop kdevelop-python kdevelop-php android-studio eclipse-java-bin goland visual-studio-code-bin sublime-text-3 sublime-text-4-dev okteta phpstorm webstorm cudatext-gtk2-bin cudatext-qt5-bin vscodium-bin"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show devbd category
-#####################
-if [ "$category" = "devbd" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools-bin mongodb-bin"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show devwebserver category
-#####################
-if [ "$category" = "devwebserver" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "apache nginx "
-    #AUR_CATEGORY
-fi
-
-#####################
-#Show devgames category
-#####################
-if [ "$category" = "devgames" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "godot gb-studio-bin blender renpy unity-editor unreal-engine makehuman-git"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show audioplayer category
-#####################
-if [ "$category" = "audioplayer" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "clementine audacious elisa rhythmbox qmmp deadbeef lollypop quodlibet strawberry spotify"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show radio category
-#####################
-if [ "$category" = "radio" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "vocal gnome-podcasts gogglesmm gpodder great-little-radio-player radiotray-ng shortwave odio-appimage goodvibes gradio streamtuner2 tuner"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show audioconvert category
-#####################
-if [ "$category" = "audioconvert" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "gnome-sound-recorder soundkonverter ciano gnac soundconverter audacity"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show audioeditor category
-#####################
-if [ "$category" = "audioeditor" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "audacity kwave lmms ardour mixxx Rosegarden qtractor hydrogen cecilia ocenaudio-bin"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show videoplayer category
-#####################
-if [ "$category" = "videoplayer" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "smplayer vlc kodi-x11 mpv totem celluloid parole"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show stream category
-#####################
-if [ "$category" = "videostream" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "hypnotix minitube youtube-viewer clipgrab youtubedl-gui freetube-bin kodi-x11 plex-media-server plex-media-player"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show videoeditor category
-#####################
-if [ "$category" = "videoeditor" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "handbrake ciano kdenlive shotcut pitivi openshot vidcutter flowblade lightworks avidemux-qt blender losslesscut-bin qencoder mystiq davinci-resolve davinci-resolve-studio lightworks lives"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show imageplayer category
-#####################
-if [ "$category" = "imageplayer" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "gwenview eog shotwell gthumb digikam ristretto kphotoalbum phototonic viewnior"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show imageeditor category
-#####################
-if [ "$category" = "imageeditor" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "gimp krita inkscape pinta kolourpaint mypaint drawing scribus digikam rawtherapee fotoxx gravit-designer-bin sK1"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show dvd category
-#####################
-if [ "$category" = "dvd" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "k3b brasero dvdstyler devede xfburn acetoneiso2"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show webcam category
-#####################
-if [ "$category" = "webcam" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "obs-studio cheese kamoso simplescreenrecorder vokoscreen peek v4l-utils"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show screenshot category
-#####################
-if [ "$category" = "screenshot" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "spectacle gnome-screenshot flameshot pantheon-screenshot ksnip kazam screencloud"
-    AUR_CATEGORY
-fi
-
-
-#####################
-#Show imageconvert category
-#####################
-if [ "$category" = "imageconvert" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "converseen ciano xnconvert"
-    AUR_CATEGORY
-fi
-
-#####################
-#Show 3d category
-#####################
-if [ "$category" = "3d" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "blender wings3d sweethome3d freecad openscad cura librecad qcad godot gb-studio-bin meshroom-bin unity-editor unreal-engine makehuman-git brlcad"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show retroarch category
-#####################
-if [ "$category" = "gameretroarch" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "retroarch-biglinux retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-beetle-pce libretro-beetle-pce-fast libretro-beetle-psx libretro-beetle-psx-hw libretro-beetle-supergrafx libretro-blastem libretro-bsnes libretro-bsnes-hd libretro-bsnes2014 libretro-citra libretro-core-info libretro-desmume libretro-dolphin libretro-duckstation libretro-flycast libretro-gambatte libretro-genesis-plus-gx libretro-kronos libretro-melonds libretro-mesen libretro-mesen-s libretro-mgba libretro-mupen64plus-next libretro-nestopia libretro-overlays libretro-parallel-n64 libretro-picodrive libretro-play libretro-ppsspp libretro-retrodream libretro-sameboy libretro-scummvm libretro-shaders-slang libretro-snes9x libretro-yabause"
-#    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show emulator category
-#####################
-if [ "$category" = "gameemulator" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "desmume dgen-sdl dolphin-emu dosbox dosemu fceux fs-uae fs-uae-launcher hatari higan mame mame-tools qmc2 maui-station mednafen mgba-qt mupen64plus pcsx2 ppsspp snes9x-gtk stella vbam-wx vice yabause-qt gens-gs zsnes cemu duckstation-qt-bin epsxe yuzu-mainline-bin rpcs3-bin ryujinx-ldn-bind citra-bin fightcade2 melonds nestopia flycast-git m64p openmsx"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show emulator category
-#####################
-if [ "$category" = "gamemanager" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "steam-manjaro steam-native lutris playonlinux gamehub-bin itch gnome-games heroic-games-launcher-bin"
-    AUR_CATEGORY
-
-fi
-
-#####################
-#Show gamearcade category
-#####################
-if [ "$category" = "gamearcade" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "minetest xonotic supertux supertuxkart abuse warzone2100 warsow frozen-bubble pingus armagetronad astromenace barrage knavalbattle kspaceduel blobby blobwars fltk-examples bomber chromium-bsu cuyo endless-sky extremetuxracer gnome-nibbles gnome-robots gnujump granatier hedgewars kapman kblackbox kbounce kbreakout kgoldrunner killbots klickety kobodeluxe kolf kolision ksnakeduel lbreakout2 ltis quadrapassel sauerbraten teeworlds uqm frogatto apricots"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gamecard category
-#####################
-if [ "$category" = "gamecard" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "kpat lskat aisleriot pysolfc "
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gamestrategy category
-#####################
-if [ "$category" = "gamestrategy" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "0ad wesnoth konquest freeciv glob2 klines ksirk lincity-ng openra widelands"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gamepuzzle category
-#####################
-if [ "$category" = "gamepuzzle" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "atomix puzzles kmines gnome-mines fillets-ng gnome-2048 hitori gnome-klotsky gnome-taquin gnome-tetravex kblocks kdiamond knetwalk lightsoff palapeli picmi zaz"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gameboard category
-#####################
-if [ "$category" = "gameboard" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "bovo five-or-more gnome-mahjongg iagno gnome-sudoku gnome-chess kajongg kfourinline four-in-a-row kigo kjumpingcube kmahjongg knights kshisen ksquares ksudoku pychess qgo kreversi swell-foop xboard"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gamerpg category
-#####################
-if [ "$category" = "gamerpg" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "freedroidrpg manaplus megaglest naev openmw scummvm springlobby"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gameother category
-#####################
-if [ "$category" = "gameother" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "kiriki openbve openrct2 openttd peformous simutrans tali"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show educational category
-#####################
-if [ "$category" = "gameeducational" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "atomix blinken gbrainy gcompris-qt ktuberling kanagram katomic khangman kubrick kturtle minuet cantor kalgebra kalzium kbruch kgeography kig kiten klettres ktouch kwordquiz parley solfege step"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show gameutility category
-#####################
-if [ "$category" = "gameutility" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "goverlay-bin mangohud-x11 gamepad-tool-bin gamemode qt5-gamepad adriconf joyutils corectrl winetricks"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show javajar category
-#####################
-if [ "$category" = "javajar" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "jre-openjdk jre7-openjdk jre8-openjdk jre11-openjdk icedtea-web jre jre6 jre7 jre8 jre9 jre10 jre11 jre12 jre14"
-    AUR_CATEGORY
-
-fi
-
-
-#####################
-#Show storage category
-#####################
-if [ "$category" = "storage" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "gparted partitionmanager bleachbit gnome-dist-utility kdiskmark gsmartcontrol mintstick baobab filelight balena-etcher ventoy gnome-multi-writer"
-    AUR_CATEGORY
-
-fi
-
-#####################
-#Show fonts category
-#####################
-if [ "$category" = "fonts" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "font-manager ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-anonymous-pro ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-montserrat ttf-opensans ttf-roboto ttf-roboto-mono ttf-ms-fonts ttf-mac-fonts ttf-ms-win10-auto ttf-wps-fonts"
-    AUR_CATEGORY
-
-fi
-
-#####################
-#Show virtualization category
-#####################
-if [ "$category" = "virtualization" ]; then
-
-    rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "virtualbox virtualbox-guest-utils virt-manager qemu qemu-guest-agent gnome-boxes"
-    AUR_CATEGORY
-
-fi
-
-
+    
     #./category_appstream_pamac.py "libreoffice-fresh libreoffice-fresh-pt-br libreoffice-fresh-pt libreoffice-still libreoffice-still-pt-br libreoffice-still-pt freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra abiword gnumeric gnome-calculator kcalc gnucash kalgebra qalculate-gtk speedcrunch gnome-calendar korganizer pantheon-calendar kalarm kontact knotes kmymoney kresus moneymanagerex skrooge homebank calibre gnome-latex pdftricks pdfarranger pdfmixtool pdfmod pdfslicer gscan2pdf okular bookworm simple-scan gnome-documents xreader evince gimagereader-qt gimagereader-gtk kbibtex  tellico gnome-books minder notes-up ocrfeeder rednotebook retext scribus texworks atril xournalapp zathura"
 
 
 
 # Finish him
+
+if [ "$(lsb_release -sd | sed 's/"//g' )" = "XIVAStudio" ];then
 cat << EOF
-
-
+  <div class="logo">
+    <img id="btn-big" src="xiva.png" class="logo-biglinux" onclick="biglinux();">
+  </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
+EOF
+else
+cat << EOF
   <div class="logo">
     <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
   </div>
@@ -758,3 +357,5 @@ cat << EOF
 </body>
 </html>
 EOF
+fi
+
