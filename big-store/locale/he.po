@@ -3,37 +3,371 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
+
+msgid "X-Sistema"
+msgstr "אקס-סיסטם"
+
+msgid "Armazenamento e partições"
+msgstr "אחסון ומחיצות"
+
+msgid "Java JRE"
+msgstr "ג'אווה ג'וניור"
+
+msgid "Virtualização"
+msgstr "וירטואליזציה"
+
+msgid "Imagem"
+msgstr "תמונה"
+
+msgid "Editores Vetorial"
+msgstr "עורכים וקטוריים"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "עורכי תמונה, צילום וציור"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "המרה, שינוי גודל או דחיסת תמונות"
+
+msgid "Plugins"
+msgstr "תוספים"
+
+msgid "Edição 3D e CAD"
+msgstr "עריכת תלת-ממד ו- CAD"
+
+msgid "Fontes (Tipografia)"
+msgstr "גופנים (טיפוגרפיה)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "פריסה וארגון של דפים"
+
+msgid "Colorização e palheta de cores"
+msgstr "צביעה ופלטת צבעים"
+
+msgid "Video"
+msgstr "וידאו"
+
+msgid "Editores de video"
+msgstr "עורכי וידאו"
+
+msgid "Reprodutores de vídeo"
+msgstr "נגני וידאו"
+
+msgid "Animação e 2D"
+msgstr "אנימציה ודו-ממד"
+
+msgid "Captura de tela e video download"
+msgstr "צילום מסך והורדת וידאו"
+
+msgid "Stream/transmissão online"
+msgstr "הזרם/הזרם באופן מקוון"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "ממירי וידאו וצורבי תקליטורים/DVD"
+
+msgid "Audio"
+msgstr "שמע"
+
+msgid "Reprodutores de áudio"
+msgstr "נגני אודיו"
+
+msgid "Rádio online"
+msgstr "רדיו מקוון"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "מקליטי שמע וממירים"
+
+msgid "Editores de áudio"
+msgstr "עורכי אודיו"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "וידאו מקוון, IPTV, יוטיוב..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "עורכי וידאו ומדחסים"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "צורבי CD ו- DVD ומכונות צילום"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "מצלמת רשת, הקלטת מסך והזרמת וידאו"
+
+msgid "Internet"
+msgstr "מרשתת"
+
+msgid "Navegadores"
+msgstr "נווטים"
+
+msgid "E-mail"
+msgstr "דואר אלקטרוני"
+
+msgid "Armazenamento nas nuvens"
+msgstr "אחסון בענן"
+
+msgid "Download"
+msgstr "הורד"
+
+msgid "Compartilhadores e Torrent"
+msgstr "משתפים וסיקור"
+
+msgid "Mensageiros e Conferências"
+msgstr "שליחים וכנסים"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "גישה מרחוק, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "כלי רשת"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "חדשות, הזנות ו- RSS"
+
+msgid "Escritório"
+msgstr "משרד"
+
+msgid "Suíte Office"
+msgstr "סוויטה משרדית"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "צופי PDF, Epub, ספרים אלקטרוניים ועוד"
+
+msgid "Editores de PDF"
+msgstr "עורכי PDF"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "לוח זמנים של משימות ויצירת קשר"
+
+msgid "Gráficos"
+msgstr "גרפיקה"
+
+msgid "Visualizadores de imagem"
+msgstr "צופי תמונה"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "עורכי תמונה וכלי ציור"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "צילום מסך (צילום מסך)"
+
+msgid "Multimídia"
+msgstr "מולטימדיה"
+
+msgid "Jogos"
+msgstr "משחקים"
+
+msgid "Gerenciadores de jogos"
+msgstr "מנהלי משחקים"
+
+msgid "Utilitários para jogos"
+msgstr "כלי עזר למשחק"
+
+msgid "Emulador Retroarch"
+msgstr "אמולטור רטרוארך"
+
+msgid "Emuladores"
+msgstr "אמולטורים"
+
+msgid "Criadores de jogos"
+msgstr "יוצרי משחק"
+
+msgid "Ação/Arcade"
+msgstr "פעולה/ארקייד"
+
+msgid "Cartas"
+msgstr "כרטיסים"
+
+msgid "Educacional"
+msgstr "חינוכי"
+
+msgid "Estratégia"
+msgstr "אסטרטגיה"
+
+msgid "Puzzles"
+msgstr "פאזלים"
+
+msgid "Tabuleiro"
+msgstr "מגש"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Outros"
+msgstr "אחרים"
+
+msgid "Sistema"
+msgstr "מערכת"
+
+msgid "Desenvolvimento"
+msgstr "פיתוח"
+
+msgid "Editores de código e IDE"
+msgstr "עורכי קוד ו- IDE"
+
+msgid "Banco de dados"
+msgstr "מסד נתונים"
+
+msgid "Servidores WEB"
+msgstr "שרתי אינטרנט"
+
+msgid "Programas Nativos"
+msgstr "תוכניות מקוריות"
+
+msgid "Programas AUR"
+msgstr "תוכניות AUR"
+
+msgid "Programas Flatpak"
+msgstr "תוכניות פלאטפאק"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "הצמד חבילות מותקן לחץ על החבילה כדי להסיר"
+
+msgid "Cancelar"
+msgstr "ביטול"
+
+msgid "Fechar"
+msgstr "סגור"
+
+msgid "Instalar"
+msgstr "התקן"
+
+msgid "Remover"
+msgstr "הסר"
+
+msgid "Versão: "
+msgstr "גרסה: "
+
+msgid "Pacote: "
+msgstr "חבילה: "
+
+msgid "Não informada"
+msgstr "לא הודיע"
+
+msgid "Atualizar"
+msgstr "עדכון"
+
+msgid "Instalado na partição:"
+msgstr "מותקן על המחיצה:"
+
+msgid "Tamanho da partição:"
+msgstr "גודל מחיצה:"
+
+msgid "Espaço utilizado:"
+msgstr "שטח בשימוש:"
+
+msgid "Espaço livre:"
+msgstr "מקום פנוי:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "תאריך התקנת המערכת:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "חבילות מקוריות ו- AUR"
+
+msgid "Instalados:"
+msgstr "מותקן:"
+
+msgid "Disponíveis:"
+msgstr "זמין:"
+
+msgid "Pacotes Flatpak"
+msgstr "חבילות פלאטפאק"
+
+msgid "Repositórios configurados:"
+msgstr "מאגרים מוגדרים:"
+
+msgid "Pacotes Snap"
+msgstr "חבילות הצמד"
+
+msgid "Big-Store está aberta."
+msgstr "חנות גדולה פתוחה."
+
+msgid "Big-Store"
+msgstr "חנות גדולה"
+
+msgid "Executar"
+msgstr "לבצע"
+
+msgid "Pacote:"
+msgstr "חבילה:"
+
+msgid "Versão disponível:"
+msgstr "גרסה זמינה:"
+
+msgid "Repositório:"
+msgstr "מאגר:"
+
+msgid "Categorias"
+msgstr "קטגוריות"
+
+msgid "Versão instalada"
+msgstr "גרסה מותקנת"
+
+msgid "Versão disponível"
+msgstr "גרסה זמינה"
+
+msgid "Versão"
+msgstr "גרסה"
+
+msgid "Pacote .deb"
+msgstr ".deb חבילה"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "תוכנית זו היא בפורמט.deb, אשר יש את האינטגרציה הטובה ביותר עם המערכת."
+
+msgid "Mais informações"
+msgstr "מידע נוסף"
+
+msgid "Voltar"
+msgstr "חזור אחורה"
+
+msgid "Dependências a instalar"
+msgstr "תלות להתקנה"
+
+msgid "Ver mais"
+msgstr "ראה עוד"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "חבילות עם תלות שלא נענו: "
+
+msgid "Depende de "
+msgstr "זה תלוי "
+
+msgid "mas não vai ser instalado."
+msgstr "אבל זה לא הולך להיות מותקן."
+
+msgid "mas não está disponível"
+msgstr "אבל זה לא זמין"
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
 msgstr ""
 "\n"
-"מציג רק תוכניות שנבחרו <br> \n"
-"ולהסתיר תוצאות שימושיות <br>\n"
-"משתמשים מתקדמים בלבד."
+"תוכניות מקוריות משולבות טוב יותר במערכת <br>\n"
+"והם עוברים בדיקות נוספות לפני שהם הופכים לזמינים, <br>\n"
+"אז זה האפשרות הטובה ביותר כאשר התוכנית אתה <br>\n"
+"רוצה זמין ביותר מסוג אחד של התקנה. <br>"
 
 msgid ""
 "\n"
@@ -73,19 +407,6 @@ msgstr ""
 
 msgid ""
 "\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"תוכניות מקוריות משולבות טוב יותר במערכת <br>\n"
-"והם עוברים בדיקות נוספות לפני שהם הופכים לזמינים, <br>\n"
-"אז זה האפשרות הטובה ביותר כאשר התוכנית אתה <br>\n"
-"רוצה זמין ביותר מסוג אחד של התקנה. <br>"
-
-msgid ""
-"\n"
 "Programas Snap, assim como o Flatpak<br>\n"
 "disponibiliza programas para todas as distribuições Linux.<br>\n"
 "Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
@@ -99,442 +420,102 @@ msgstr ""
 "אם התוכנית שאתה מחפש זמינה רק על זה <br>\n"
 "פורמט, להשתמש בו."
 
-msgid "AUR"
-msgstr "AUR"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "גישה מרחוק, FTP, SSH, VNC, RDP..."
-
-msgid "Agenda de tarefas e contatos"
-msgstr "לוח זמנים של משימות ויצירת קשר"
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"\n"
+"מציג רק תוכניות שנבחרו <br> \n"
+"ולהסתיר תוצאות שימושיות <br>\n"
+"משתמשים מתקדמים בלבד."
 
 msgid "Aplicando - Aguarde"
 msgstr "הגשת בקשה - אנא המתן"
 
-msgid "Armazenamento e partições"
-msgstr "אחסון ומחיצות"
-
-msgid "Armazenamento nas nuvens"
-msgstr "אחסון בענן"
-
-msgid "Arquivos do pacote:"
-msgstr "קבצי חבילה:"
-
-msgid "Ativado"
-msgstr "מופעל"
-
-msgid "Atualizar"
-msgstr "עדכון"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
-"que se você ativou repositórios complementares será necessário adicionar as "
-"chaves desses repositórios novamente."
-msgstr ""
-"עדכן את המפתחות של מאגרי BigLinux, Manjaro ו- Archlinux. זכור שאם הפעלת "
-"מאגרים משלימים, יהיה עליך להוסיף שוב את המפתחות למאגרים אלה."
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "רענן מטמון של מאגרים מקומיים"
-
-msgid "Atualizar seu sistema"
-msgstr "עדכן את המערכת שלך"
-
-msgid "Atualizações"
-msgstr "שִׁפּוּעַים"
-
-msgid "Ação/Arcade"
-msgstr "פעולה/ארקייד"
-
-msgid "Banco de dados"
-msgstr "מסד נתונים"
-
-msgid "Big-Store"
-msgstr "חנות גדולה"
-
-msgid "Big-Store está aberta."
-msgstr "חנות גדולה פתוחה."
-
-msgid "Cancelar"
-msgstr "ביטול"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "צילום מסך (צילום מסך)"
-
-msgid "Cartas"
-msgstr "כרטיסים"
-
-msgid "Categorias"
-msgstr "קטגוריות"
-
-msgid "Clique aqui para ver os arquivos"
-msgstr "לחץ כאן לצפייה בקבצים"
-
-msgid "Compartilhadores e Torrent"
-msgstr "משתפים וסיקור"
-
-msgid "Complementos:"
-msgstr "ריהוט משלים:"
-
-msgid "Configurações"
-msgstr "הגדרות"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "המרה, שינוי גודל או דחיסת תמונות"
-
-msgid "Criadores de jogos"
-msgstr "יוצרי משחק"
-
-msgid "Data de instalação:"
-msgstr "תאריך התקנה:"
-
-msgid "Data do empacotamento:"
-msgstr "תאריך האריזה:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "תאריך התקנת המערכת:"
-
-msgid "Depende de "
-msgstr "זה תלוי "
-
-msgid "Dependências a instalar"
-msgstr "תלות להתקנה"
-
-msgid "Dependências de instalação:"
-msgstr "תלות התקנה:"
-
-msgid "Dependências:"
-msgstr "יחסי תלות:"
-
-msgid "Desativado"
-msgstr "מושבת"
-
-msgid "Desenvolvimento"
-msgstr "פיתוח"
-
-msgid "Disponíveis:"
-msgstr "זמין:"
-
-msgid "Download"
-msgstr "הורד"
-
-msgid "E-mail"
-msgstr "דואר אלקטרוני"
-
-msgid "Editores de PDF"
-msgstr "עורכי PDF"
-
-msgid "Editores de código e IDE"
-msgstr "עורכי קוד ו- IDE"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "עורכי תמונה וכלי ציור"
-
-msgid "Editores de áudio"
-msgstr "עורכי אודיו"
-
-msgid "Editores e compactadores de vídeo"
-msgstr "עורכי וידאו ומדחסים"
-
-msgid "Edição 3D e CAD"
-msgstr "עריכת תלת-ממד ו- CAD"
-
-msgid "Educacional"
-msgstr "חינוכי"
-
-msgid "Empacotador:"
-msgstr "פקר:"
-
-msgid "Emulador Retroarch"
-msgstr "אמולטור רטרוארך"
-
-msgid "Emuladores"
-msgstr "אמולטורים"
-
-msgid "Escritório"
-msgstr "משרד"
-
-msgid "Espaço livre:"
-msgstr "מקום פנוי:"
-
-msgid "Espaço utilizado:"
-msgstr "שטח בשימוש:"
-
-msgid ""
-"Esse programa está em formato .deb, que possui a melhor integração com o "
-"sistema."
-msgstr "תוכנית זו היא בפורמט.deb, אשר יש את האינטגרציה הטובה ביותר עם המערכת."
-
-msgid "Estratégia"
-msgstr "אסטרטגיה"
-
-msgid "Executar"
-msgstr "לבצע"
-
-msgid "Fechar"
-msgstr "סגור"
-
-msgid "Ferramentas de rede"
-msgstr "כלי רשת"
-
-msgid "Fontes (Tipografia)"
-msgstr "גופנים (טיפוגרפיה)"
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
-"o sistema, porém, na atualização forçada alguns programas podem ser "
-"removidos."
-msgstr ""
-"כפה עדכונים, השתמש באפשרות זו אם אינך מצליח לעדכן את המערכת, עם זאת, בעדכון "
-"הכפוי ניתן להסיר תוכניות מסוימות."
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "כפה התקנה מחדש של כל החבילות המותקנות"
-
-msgid "Gerenciadores de jogos"
-msgstr "מנהלי משחקים"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "מקליטי שמע וממירים"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "צורבי CD ו- DVD ומכונות צילום"
-
-msgid "Grupos:"
-msgstr "קבוצות:"
-
-msgid "Gráficos"
-msgstr "גרפיקה"
-
-msgid "Instalado na partição:"
-msgstr "מותקן על המחיצה:"
-
-msgid "Instalados:"
-msgstr "מותקן:"
-
-msgid "Instalando"
-msgstr "התקנת"
-
-msgid "Instalar"
-msgstr "התקן"
-
-msgid "Internet"
-msgstr "מרשתת"
-
-msgid "Início"
-msgstr "התחל"
-
-msgid "Java JRE"
-msgstr "ג'אווה ג'וניור"
-
-msgid "Jogos"
-msgstr "משחקים"
-
-msgid "Licença:"
-msgstr "רישיון:"
-
-msgid "Mais informações"
-msgstr "מידע נוסף"
-
-msgid "Mensageiros e Conferências"
-msgstr "שליחים וכנסים"
+msgid "Procurar programa"
+msgstr "חפש תוכנית"
 
 msgid "Modo Simplificado"
 msgstr "מצב מפושט"
 
-msgid "Motivo da instalação:"
-msgstr "סיבה להתקנה:"
-
-msgid "Multimídia"
-msgstr "מולטימדיה"
-
 msgid "Nativos"
 msgstr "ילידים"
 
-msgid "Navegadores"
-msgstr "נווטים"
+msgid "Início"
+msgstr "התחל"
 
-msgid "Notícias, Feeds e RSS"
-msgstr "חדשות, הזנות ו- RSS"
-
-msgid "Não informada"
-msgstr "לא הודיע"
-
-msgid "Número de votos:"
-msgstr "מספר הקולות:"
-
-msgid "Outros"
-msgstr "אחרים"
-
-msgid "Pacote .deb"
-msgstr ".deb חבילה"
-
-msgid "Pacote:"
-msgstr "חבילה:"
-
-msgid "Pacote: "
-msgstr "חבילה: "
-
-msgid "Pacotes"
-msgstr "חבילות"
-
-msgid "Pacotes Flatpak"
-msgstr "חבילות פלאטפאק"
-
-msgid "Pacotes Snap"
-msgstr "חבילות הצמד"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "הצמד חבילות מותקן לחץ על החבילה כדי להסיר"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "חבילות עם תלות שלא נענו: "
-
-msgid "Pacotes nativos e AUR"
-msgstr "חבילות מקוריות ו- AUR"
-
-msgid ""
-"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
-"faça login novamente."
-msgstr "כדי שתוכניות הצמד יופיעו בתפריט המערכת, צא והיכנס שוב למערכת."
-
-msgid "Procurar programa"
-msgstr "חפש תוכנית"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "חפש שרתי מאגר מקוריים מהירים יותר"
-
-msgid "Programas AUR"
-msgstr "תוכניות AUR"
-
-msgid "Programas Flatpak"
-msgstr "תוכניות פלאטפאק"
-
-msgid "Programas Nativos"
-msgstr "תוכניות מקוריות"
+msgid "Configurações"
+msgstr "הגדרות"
 
 msgid "Programas Snap"
 msgstr "הצמד תוכניות"
 
-msgid "Puzzles"
-msgstr "פאזלים"
-
-msgid "Página no AUR:"
-msgstr "עמוד על AUR:"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Reinstalar"
-msgstr "התקן מחדש"
-
-msgid "Reinstalação"
-msgstr "התקנה מחדש"
-
-msgid "Remove:"
-msgstr "הסר:"
+msgid "Instalando"
+msgstr "התקנת"
 
 msgid "Removendo"
 msgstr "הסרת"
 
-msgid "Remover"
-msgstr "הסר"
+msgid "Versão disponivel:"
+msgstr "גרסה זמינה:"
 
-msgid "Repositório:"
-msgstr "מאגר:"
+msgid "Licença:"
+msgstr "רישיון:"
 
-msgid "Repositórios configurados:"
-msgstr "מאגרים מוגדרים:"
+msgid "AUR"
+msgstr "AUR"
 
-msgid "Repositórios nativos"
-msgstr "מאגרים מקומיים"
+msgid "Empacotador:"
+msgstr "פקר:"
 
-msgid "Reprodutores de vídeo"
-msgstr "נגני וידאו"
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "כדי שתוכניות הצמד יופיעו בתפריט המערכת, צא והיכנס שוב למערכת."
 
-msgid "Reprodutores de áudio"
-msgstr "נגני אודיו"
+msgid "Pacotes"
+msgstr "חבילות"
 
-msgid "Rádio online"
-msgstr "רדיו מקוון"
+msgid "Ativado"
+msgstr "מופעל"
 
-msgid "Servidores WEB"
-msgstr "שרתי אינטרנט"
+msgid "Desativado"
+msgstr "מושבת"
 
-msgid "Sistema"
-msgstr "מערכת"
+msgid "Atualizações"
+msgstr "שִׁפּוּעַים"
 
-msgid "Site:"
-msgstr "אתר אינטרנט:"
+msgid "Atualizar seu sistema"
+msgstr "עדכן את המערכת שלך"
 
-msgid "Substitui:"
-msgstr "זה מחליף:"
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "רענן מטמון של מאגרים מקומיים"
 
-msgid "Suíte Office"
-msgstr "סוויטה משרדית"
-
-msgid "Tabuleiro"
-msgstr "מגש"
-
-msgid "Tamanho da partição:"
-msgstr "גודל מחיצה:"
-
-msgid "Tamanho do download:"
-msgstr "גודל הורדה:"
-
-msgid "Uso de armazenamento:"
-msgstr "שימוש באחסון:"
-
-msgid "Utilitários para jogos"
-msgstr "כלי עזר למשחק"
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "חפש שרתי מאגר מקוריים מהירים יותר"
 
 msgid "Utilize as opções a seguir com cautela"
 msgstr "השתמש באפשרויות הבאות בזהירות"
 
-msgid "Ver mais"
-msgstr "ראה עוד"
+msgid "Reinstalação"
+msgstr "התקנה מחדש"
 
-msgid "Versão"
-msgstr "גרסה"
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "כפה התקנה מחדש של כל החבילות המותקנות"
 
-msgid "Versão disponivel:"
-msgstr "גרסה זמינה:"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"עדכן את המפתחות של מאגרי BigLinux, Manjaro ו- Archlinux. זכור שאם הפעלת מאגרים משלימים, יהיה עליך "
+"להוסיף שוב את המפתחות למאגרים אלה."
 
-msgid "Versão disponível"
-msgstr "גרסה זמינה"
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"כפה עדכונים, השתמש באפשרות זו אם אינך מצליח לעדכן את המערכת, עם זאת, בעדכון הכפוי ניתן להסיר "
+"תוכניות מסוימות."
 
-msgid "Versão disponível:"
-msgstr "גרסה זמינה:"
-
-msgid "Versão instalada"
-msgstr "גרסה מותקנת"
-
-msgid "Versão instalada:"
-msgstr "גרסה מותקנת:"
-
-msgid "Versão: "
-msgstr "גרסה: "
-
-msgid "Virtualização"
-msgstr "וירטואליזציה"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "צופי PDF, Epub, ספרים אלקטרוניים ועוד"
-
-msgid "Visualizadores de imagem"
-msgstr "צופי תמונה"
-
-msgid "Voltar"
-msgstr "חזור אחורה"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "וידאו מקוון, IPTV, יוטיוב..."
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "מצלמת רשת, הקלטת מסך והזרמת וידאו"
-
-msgid "mas não está disponível"
-msgstr "אבל זה לא זמין"
-
-msgid "mas não vai ser instalado."
-msgstr "אבל זה לא הולך להיות מותקן."
+msgid "Repositórios nativos"
+msgstr "מאגרים מקומיים"

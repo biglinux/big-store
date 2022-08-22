@@ -3,37 +3,371 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
+
+msgid "X-Sistema"
+msgstr "X-システム"
+
+msgid "Armazenamento e partições"
+msgstr "収納・仕切り"
+
+msgid "Java JRE"
+msgstr "ジャバ JRE"
+
+msgid "Virtualização"
+msgstr "仮想化"
+
+msgid "Imagem"
+msgstr "画像"
+
+msgid "Editores Vetorial"
+msgstr "ベクターエディタ"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "画像、写真、描画編集者"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "画像の変換、リサイズ、圧縮"
+
+msgid "Plugins"
+msgstr "プラグイン"
+
+msgid "Edição 3D e CAD"
+msgstr "3D・CAD編集"
+
+msgid "Fontes (Tipografia)"
+msgstr "フォント（タイポグラフィ）"
+
+msgid "Diagramação e organização de páginas"
+msgstr "ページのレイアウトと構成"
+
+msgid "Colorização e palheta de cores"
+msgstr "カラー化とカラーパレット"
+
+msgid "Video"
+msgstr "ビデオ"
+
+msgid "Editores de video"
+msgstr "ビデオエディタ"
+
+msgid "Reprodutores de vídeo"
+msgstr "ビデオプレーヤー"
+
+msgid "Animação e 2D"
+msgstr "アニメーションと 2D"
+
+msgid "Captura de tela e video download"
+msgstr "スクリーンショットとビデオのダウンロード"
+
+msgid "Stream/transmissão online"
+msgstr "ストリーム/オンラインストリーミング"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "ビデオコンバータとCD / DVDバーナー"
+
+msgid "Audio"
+msgstr "オーディオ"
+
+msgid "Reprodutores de áudio"
+msgstr "オーディオプレーヤー"
+
+msgid "Rádio online"
+msgstr "オンラインラジオ"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "オーディオレコーダー、コンバーター"
+
+msgid "Editores de áudio"
+msgstr "オーディオ編集者"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "オンラインビデオ、IPTV、Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "ビデオエディターとコンプレッサー"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD・DVDレコーダー、コピー機"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
+
+msgid "Internet"
+msgstr "インターネット"
+
+msgid "Navegadores"
+msgstr "ブラウザー"
+
+msgid "E-mail"
+msgstr "電子メール"
+
+msgid "Armazenamento nas nuvens"
+msgstr "クラウドストレージ"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Compartilhadores e Torrent"
+msgstr "シェアリングとトレント"
+
+msgid "Mensageiros e Conferências"
+msgstr "メッセンジャーとコンファレンス"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "リモートアクセス、FTP、SSH、VNC、RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "ネットワークツール"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "ニュース、フィード、RSS"
+
+msgid "Escritório"
+msgstr "オフィス"
+
+msgid "Suíte Office"
+msgstr "オフィススイート"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF、Epub、電子書籍ビューアなど"
+
+msgid "Editores de PDF"
+msgstr "PDFエディター"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "タスクと連絡先のカレンダー"
+
+msgid "Gráficos"
+msgstr "グラフィック"
+
+msgid "Visualizadores de imagem"
+msgstr "画像ビューアー"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "イメージエディターとドローイングツール"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "スクリーンショット"
+
+msgid "Multimídia"
+msgstr "マルチメディア"
+
+msgid "Jogos"
+msgstr "ゲーム"
+
+msgid "Gerenciadores de jogos"
+msgstr "ゲーム担当者"
+
+msgid "Utilitários para jogos"
+msgstr "ゲームユーティリティ"
+
+msgid "Emulador Retroarch"
+msgstr "レトロアーキエミュレータ"
+
+msgid "Emuladores"
+msgstr "エミュレータ"
+
+msgid "Criadores de jogos"
+msgstr "ゲーム開発者"
+
+msgid "Ação/Arcade"
+msgstr "アクション/アーケード"
+
+msgid "Cartas"
+msgstr "手紙"
+
+msgid "Educacional"
+msgstr "教育的"
+
+msgid "Estratégia"
+msgstr "戦略"
+
+msgid "Puzzles"
+msgstr "パズル"
+
+msgid "Tabuleiro"
+msgstr "ボード"
+
+msgid "RPG"
+msgstr "ロールプレイングゲーム"
+
+msgid "Outros"
+msgstr "その他"
+
+msgid "Sistema"
+msgstr "システム"
+
+msgid "Desenvolvimento"
+msgstr "開発"
+
+msgid "Editores de código e IDE"
+msgstr "コードエディターとIDE"
+
+msgid "Banco de dados"
+msgstr "データベース"
+
+msgid "Servidores WEB"
+msgstr "WEBサーバー"
+
+msgid "Programas Nativos"
+msgstr "ネイティブプログラム"
+
+msgid "Programas AUR"
+msgstr "AURプログラム"
+
+msgid "Programas Flatpak"
+msgstr "Flatpakプログラム"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "インストールされているスナップパッケージ 削除するパッケージをクリックする"
+
+msgid "Cancelar"
+msgstr "キャンセル"
+
+msgid "Fechar"
+msgstr "閉じる"
+
+msgid "Instalar"
+msgstr "インストール"
+
+msgid "Remover"
+msgstr "削除"
+
+msgid "Versão: "
+msgstr "バージョン "
+
+msgid "Pacote: "
+msgstr "パッケージ "
+
+msgid "Não informada"
+msgstr "非通知"
+
+msgid "Atualizar"
+msgstr "更新情報"
+
+msgid "Instalado na partição:"
+msgstr "パーティションにインストールされています。"
+
+msgid "Tamanho da partição:"
+msgstr "パーティションサイズ。"
+
+msgid "Espaço utilizado:"
+msgstr "使用するスペース"
+
+msgid "Espaço livre:"
+msgstr "空間をクリアにする。"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "システムがインストールされた日付。"
+
+msgid "Pacotes nativos e AUR"
+msgstr "ネイティブパッケージとAUR"
+
+msgid "Instalados:"
+msgstr "インストールされています。"
+
+msgid "Disponíveis:"
+msgstr "利用可能です。"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak パッケージ"
+
+msgid "Repositórios configurados:"
+msgstr "リポジトリが設定されました。"
+
+msgid "Pacotes Snap"
+msgstr "スナップパッケージ"
+
+msgid "Big-Store está aberta."
+msgstr "ビッグストアがオープンしました。"
+
+msgid "Big-Store"
+msgstr "ビッグストア"
+
+msgid "Executar"
+msgstr "実行"
+
+msgid "Pacote:"
+msgstr "パッケージ"
+
+msgid "Versão disponível:"
+msgstr "バージョンあり。"
+
+msgid "Repositório:"
+msgstr "リポジトリです。"
+
+msgid "Categorias"
+msgstr "カテゴリー"
+
+msgid "Versão instalada"
+msgstr "インストールされているバージョン"
+
+msgid "Versão disponível"
+msgstr "使用可能なバージョン"
+
+msgid "Versão"
+msgstr "バージョン"
+
+msgid "Pacote .deb"
+msgstr ".debパッケージ"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "本プログラムは、システムとの連携が最も優れている.deb形式を採用しています。"
+
+msgid "Mais informações"
+msgstr "詳細はこちら"
+
+msgid "Voltar"
+msgstr "背面"
+
+msgid "Dependências a instalar"
+msgstr "インストールする依存関係"
+
+msgid "Ver mais"
+msgstr "もっと見る"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "依存関係が満たされていないパッケージ。 "
+
+msgid "Depende de "
+msgstr "に依存します。 "
+
+msgid "mas não vai ser instalado."
+msgstr "が、インストールされません。"
+
+msgid "mas não está disponível"
+msgstr "が、利用できない"
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
 msgstr ""
 "\n"
-"選択した 番組のみ表示<br>\n"
-"で、有用な結果は非表示になります<br>\n"
-"は上級者向けです。"
+"ネイティブ・プログラムがよりシステムに統合される<br>\n"
+"を作成し、さらにテストを経て発売されます。<br>\n"
+"ということで、「SuperSpeed」「SuperSpeed」「SuperSpeed」「SuperSpeed」の3つがあります。<br>\n"
+"は、複数種類の設置が可能です。<br>"
 
 msgid ""
 "\n"
@@ -63,29 +397,13 @@ msgid ""
 "de processamento e armazenamento."
 msgstr ""
 "\n"
-"Flatpakプログラムは、すべてのLinuxディストリビューションで利用可能です。"
-"<br>\n"
-"Linuxディストリビューションは、通常、プログラムによってメンテナンスされていま"
-"す<br>\n"
+"Flatpakプログラムは、すべてのLinuxディストリビューションで利用可能です。<br>\n"
+"Linuxディストリビューションは、通常、プログラムによってメンテナンスされています<br>\n"
 "を作成することはできません。<br>\n"
 "で発生するような最適化、システムとの統合を行う。<br>\n"
 "ネイティブ・プログラムの良い代替品になります。<br>\n"
 "容量に余裕のあるパソコンをお持ちの方<br>\n"
 "処理能力、記憶能力"
-
-msgid ""
-"\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"ネイティブ・プログラムがよりシステムに統合される<br>\n"
-"を作成し、さらにテストを経て発売されます。<br>\n"
-"ということで、「SuperSpeed」「SuperSpeed」「SuperSpeed」「SuperSpeed」の3つが"
-"あります。<br>\n"
-"は、複数種類の設置が可能です。<br>"
 
 msgid ""
 "\n"
@@ -97,453 +415,105 @@ msgid ""
 msgstr ""
 "\n"
 "Flatpakのようなスナッププログラム<br>\n"
-"は、すべてのLinuxディストリビューションに対応したソフトウェアを提供していま"
-"す。<br>\n"
+"は、すべてのLinuxディストリビューションに対応したソフトウェアを提供しています。<br>\n"
 "重くなりがちで、システムとの一体感も薄れがちですが<br>\n"
 "探しているプログラムが、このサイトでしか入手できない場合は<br>\n"
 "形式を使用してください。"
 
-msgid "AUR"
-msgstr "かどうりつ"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "リモートアクセス、FTP、SSH、VNC、RDP..."
-
-msgid "Agenda de tarefas e contatos"
-msgstr "タスクと連絡先のカレンダー"
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"\n"
+"選択した 番組のみ表示<br>\n"
+"で、有用な結果は非表示になります<br>\n"
+"は上級者向けです。"
 
 msgid "Aplicando - Aguarde"
 msgstr "応募中 - しばらくお待ちください"
 
-msgid "Armazenamento e partições"
-msgstr "収納・仕切り"
-
-msgid "Armazenamento nas nuvens"
-msgstr "クラウドストレージ"
-
-msgid "Arquivos do pacote:"
-msgstr "パッケージファイル："
-
-msgid "Ativado"
-msgstr "起動中"
-
-msgid "Atualizar"
-msgstr "更新情報"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
-"que se você ativou repositórios complementares será necessário adicionar as "
-"chaves desses repositórios novamente."
-msgstr ""
-"BigLinux、Manjaro、Archlinux レポジトリーのキーを更新しました。補完的なリポジ"
-"トリを有効にしている場合は、これらのリポジトリのキーを再度追加する必要がある"
-"ことを忘れないでください。"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "ネイティブリポジトリのキャッシュを更新"
-
-msgid "Atualizar seu sistema"
-msgstr "システムのアップデート"
-
-msgid "Atualizações"
-msgstr "更新情報"
-
-msgid "Ação/Arcade"
-msgstr "アクション/アーケード"
-
-msgid "Banco de dados"
-msgstr "データベース"
-
-msgid "Big-Store"
-msgstr "ビッグストア"
-
-msgid "Big-Store está aberta."
-msgstr "ビッグストアがオープンしました。"
-
-msgid "Cancelar"
-msgstr "キャンセル"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "スクリーンショット"
-
-msgid "Cartas"
-msgstr "手紙"
-
-msgid "Categorias"
-msgstr "カテゴリー"
-
-msgid "Clique aqui para ver os arquivos"
-msgstr "ファイルを表示するには、ここをクリックしてください"
-
-msgid "Compartilhadores e Torrent"
-msgstr "シェアリングとトレント"
-
-msgid "Complementos:"
-msgstr "アドオン："
-
-msgid "Configurações"
-msgstr "設定"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "画像の変換、リサイズ、圧縮"
-
-msgid "Criadores de jogos"
-msgstr "ゲーム開発者"
-
-msgid "Data de instalação:"
-msgstr "搭載日。"
-
-msgid "Data do empacotamento:"
-msgstr "パッケージングの日付。"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "システムがインストールされた日付。"
-
-msgid "Depende de "
-msgstr "に依存します。 "
-
-msgid "Dependências a instalar"
-msgstr "インストールする依存関係"
-
-msgid "Dependências de instalação:"
-msgstr "インストールに必要なもの"
-
-msgid "Dependências:"
-msgstr "依存関係："
-
-msgid "Desativado"
-msgstr "使用不可"
-
-msgid "Desenvolvimento"
-msgstr "開発"
-
-msgid "Disponíveis:"
-msgstr "利用可能です。"
-
-msgid "Download"
-msgstr "ダウンロード"
-
-msgid "E-mail"
-msgstr "電子メール"
-
-msgid "Editores de PDF"
-msgstr "PDFエディター"
-
-msgid "Editores de código e IDE"
-msgstr "コードエディターとIDE"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "イメージエディターとドローイングツール"
-
-msgid "Editores de áudio"
-msgstr "オーディオ編集者"
-
-msgid "Editores e compactadores de vídeo"
-msgstr "ビデオエディターとコンプレッサー"
-
-msgid "Edição 3D e CAD"
-msgstr "3D・CAD編集"
-
-msgid "Educacional"
-msgstr "教育的"
-
-msgid "Empacotador:"
-msgstr "パッカー"
-
-msgid "Emulador Retroarch"
-msgstr "レトロアーキエミュレータ"
-
-msgid "Emuladores"
-msgstr "エミュレータ"
-
-msgid "Escritório"
-msgstr "オフィス"
-
-msgid "Espaço livre:"
-msgstr "空間をクリアにする。"
-
-msgid "Espaço utilizado:"
-msgstr "使用するスペース"
-
-msgid ""
-"Esse programa está em formato .deb, que possui a melhor integração com o "
-"sistema."
-msgstr ""
-"本プログラムは、システムとの連携が最も優れている.deb形式を採用しています。"
-
-msgid "Estratégia"
-msgstr "戦略"
-
-msgid "Executar"
-msgstr "実行"
-
-msgid "Fechar"
-msgstr "閉じる"
-
-msgid "Ferramentas de rede"
-msgstr "ネットワークツール"
-
-msgid "Fontes (Tipografia)"
-msgstr "フォント（タイポグラフィ）"
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
-"o sistema, porém, na atualização forçada alguns programas podem ser "
-"removidos."
-msgstr ""
-"強制アップデートは、システムのアップデートができない場合に使用します。ただ"
-"し、強制アップデートでは一部のプログラムが削除されることがあります。"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "インストールされているすべてのパッケージの強制再インストール"
-
-msgid "Gerenciadores de jogos"
-msgstr "ゲーム担当者"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "オーディオレコーダー、コンバーター"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD・DVDレコーダー、コピー機"
-
-msgid "Grupos:"
-msgstr "グループ："
-
-msgid "Gráficos"
-msgstr "グラフィック"
-
-msgid "Instalado na partição:"
-msgstr "パーティションにインストールされています。"
-
-msgid "Instalados:"
-msgstr "インストールされています。"
-
-msgid "Instalando"
-msgstr "インストール"
-
-msgid "Instalar"
-msgstr "インストール"
-
-msgid "Internet"
-msgstr "インターネット"
-
-msgid "Início"
-msgstr "ホーム"
-
-msgid "Java JRE"
-msgstr "ジャバ JRE"
-
-msgid "Jogos"
-msgstr "ゲーム"
-
-msgid "Licença:"
-msgstr "ライセンス"
-
-msgid "Mais informações"
-msgstr "詳細はこちら"
-
-msgid "Mensageiros e Conferências"
-msgstr "メッセンジャーとコンファレンス"
+msgid "Procurar programa"
+msgstr "検索プログラム"
 
 msgid "Modo Simplificado"
 msgstr "簡易モード"
 
-msgid "Motivo da instalação:"
-msgstr "インストールの理由："
-
-msgid "Multimídia"
-msgstr "マルチメディア"
-
 msgid "Nativos"
 msgstr "ネイティブ"
 
-msgid "Navegadores"
-msgstr "ブラウザー"
+msgid "Início"
+msgstr "ホーム"
 
-msgid "Notícias, Feeds e RSS"
-msgstr "ニュース、フィード、RSS"
-
-msgid "Não informada"
-msgstr "非通知"
-
-msgid "Número de votos:"
-msgstr "投票数"
-
-msgid "Outros"
-msgstr "その他"
-
-msgid "Pacote .deb"
-msgstr ".debパッケージ"
-
-msgid "Pacote:"
-msgstr "パッケージ"
-
-msgid "Pacote: "
-msgstr "パッケージ "
-
-msgid "Pacotes"
-msgstr "パッケージ"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak パッケージ"
-
-msgid "Pacotes Snap"
-msgstr "スナップパッケージ"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr ""
-"インストールされているスナップパッケージ 削除するパッケージをクリックする"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "依存関係が満たされていないパッケージ。 "
-
-msgid "Pacotes nativos e AUR"
-msgstr "ネイティブパッケージとAUR"
-
-msgid ""
-"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
-"faça login novamente."
-msgstr ""
-"システムメニューにSnapプログラムを表示するには、一度ログアウトし、再度ログイ"
-"ンしてください。"
-
-msgid "Procurar programa"
-msgstr "検索プログラム"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "ネイティブリポジトリサーバーの検索を高速化"
-
-msgid "Programas AUR"
-msgstr "AURプログラム"
-
-msgid "Programas Flatpak"
-msgstr "Flatpakプログラム"
-
-msgid "Programas Nativos"
-msgstr "ネイティブプログラム"
+msgid "Configurações"
+msgstr "設定"
 
 msgid "Programas Snap"
 msgstr "スナップ・プログラム"
 
-msgid "Puzzles"
-msgstr "パズル"
-
-msgid "Página no AUR:"
-msgstr "AURのページです。"
-
-msgid "RPG"
-msgstr "ロールプレイングゲーム"
-
-msgid "Reinstalar"
-msgstr "再インストール"
-
-msgid "Reinstalação"
-msgstr "再インストール"
-
-msgid "Remove:"
-msgstr "削除する："
+msgid "Instalando"
+msgstr "インストール"
 
 msgid "Removendo"
 msgstr "削除"
 
-msgid "Remover"
-msgstr "削除"
+msgid "Versão disponivel:"
+msgstr "バージョンあり。"
 
-msgid "Repositório:"
-msgstr "リポジトリです。"
+msgid "Licença:"
+msgstr "ライセンス"
 
-msgid "Repositórios configurados:"
-msgstr "リポジトリが設定されました。"
+msgid "AUR"
+msgstr "かどうりつ"
 
-msgid "Repositórios nativos"
-msgstr "ネイティブレポジトリ"
+msgid "Empacotador:"
+msgstr "パッカー"
 
-msgid "Reprodutores de vídeo"
-msgstr "ビデオプレーヤー"
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "システムメニューにSnapプログラムを表示するには、一度ログアウトし、再度ログインしてください。"
 
-msgid "Reprodutores de áudio"
-msgstr "オーディオプレーヤー"
+msgid "Pacotes"
+msgstr "パッケージ"
 
-msgid "Rádio online"
-msgstr "オンラインラジオ"
+msgid "Ativado"
+msgstr "起動中"
 
-msgid "Servidores WEB"
-msgstr "WEBサーバー"
+msgid "Desativado"
+msgstr "使用不可"
 
-msgid "Sistema"
-msgstr "システム"
+msgid "Atualizações"
+msgstr "更新情報"
 
-msgid "Site:"
-msgstr "サイト："
+msgid "Atualizar seu sistema"
+msgstr "システムのアップデート"
 
-msgid "Substitui:"
-msgstr "置換："
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "ネイティブリポジトリのキャッシュを更新"
 
-msgid "Suíte Office"
-msgstr "オフィススイート"
-
-msgid "Tabuleiro"
-msgstr "ボード"
-
-msgid "Tamanho da partição:"
-msgstr "パーティションサイズ。"
-
-msgid "Tamanho do download:"
-msgstr "ダウンロードサイズ："
-
-msgid "Uso de armazenamento:"
-msgstr "ストレージ使用量："
-
-msgid "Utilitários para jogos"
-msgstr "ゲームユーティリティ"
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "ネイティブリポジトリサーバーの検索を高速化"
 
 msgid "Utilize as opções a seguir com cautela"
 msgstr "以下のオプションは注意して使用してください。"
 
-msgid "Ver mais"
-msgstr "もっと見る"
+msgid "Reinstalação"
+msgstr "再インストール"
 
-msgid "Versão"
-msgstr "バージョン"
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "インストールされているすべてのパッケージの強制再インストール"
 
-msgid "Versão disponivel:"
-msgstr "バージョンあり。"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"BigLinux、Manjaro、Archlinux "
+"レポジトリーのキーを更新しました。補完的なリポジトリを有効にしている場合は、これらのリポジトリのキーを再度追加する必要があることを忘れないでください。"
 
-msgid "Versão disponível"
-msgstr "使用可能なバージョン"
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr "強制アップデートは、システムのアップデートができない場合に使用します。ただし、強制アップデートでは一部のプログラムが削除されることがあります。"
 
-msgid "Versão disponível:"
-msgstr "バージョンあり。"
-
-msgid "Versão instalada"
-msgstr "インストールされているバージョン"
-
-msgid "Versão instalada:"
-msgstr "インストールされたバージョン："
-
-msgid "Versão: "
-msgstr "バージョン "
-
-msgid "Virtualização"
-msgstr "仮想化"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF、Epub、電子書籍ビューアなど"
-
-msgid "Visualizadores de imagem"
-msgstr "画像ビューアー"
-
-msgid "Voltar"
-msgstr "背面"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "オンラインビデオ、IPTV、Youtube..."
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
-
-msgid "mas não está disponível"
-msgstr "が、利用できない"
-
-msgid "mas não vai ser instalado."
-msgstr "が、インストールされません。"
+msgid "Repositórios nativos"
+msgstr "ネイティブレポジトリ"
