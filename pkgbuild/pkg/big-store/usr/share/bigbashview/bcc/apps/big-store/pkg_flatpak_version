@@ -1,0 +1,5 @@
+#!/bin/bash
+
+grep "|$1|" ~/.bigstore/flatpak.cache | cut -f4 -d"|"
+
+echo "$1" > ~/.bigstore/flatpak-verification-fault

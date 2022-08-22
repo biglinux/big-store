@@ -3,371 +3,37 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: attranslate\n"
-
-msgid "X-Sistema"
-msgstr "X-rendszer"
-
-msgid "Armazenamento e partições"
-msgstr "Tárolás és válaszfalak"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizáció"
-
-msgid "Imagem"
-msgstr "Kép"
-
-msgid "Editores Vetorial"
-msgstr "Vektorszerkesztők"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Kép-, fotó- és rajzszerkesztők"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Képek átalakítása, méretének módosítása vagy tömörítése"
-
-msgid "Plugins"
-msgstr "Bővítmények"
-
-msgid "Edição 3D e CAD"
-msgstr "3D és CAD szerkesztés"
-
-msgid "Fontes (Tipografia)"
-msgstr "Betűtípusok (tipográfia)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Az oldalak elrendezése és rendszerezése"
-
-msgid "Colorização e palheta de cores"
-msgstr "Színezés és színpaletta"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videószerkesztők"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video lejátszók"
-
-msgid "Animação e 2D"
-msgstr "Animáció és 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Képernyőkép és videó letöltése"
-
-msgid "Stream/transmissão online"
-msgstr "Streamelés/streamelés online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videokonverterek és CD/DVD írók"
-
-msgid "Audio"
-msgstr "Hanganyag"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio lejátszók"
-
-msgid "Rádio online"
-msgstr "Online rádió"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Hangrögzítők és átalakítók"
-
-msgid "Editores de áudio"
-msgstr "Hangszerkesztők"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online videó, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoszerkesztők és tömörítők"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- és DVD-írók és másolók"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webkamera, képernyőfelvétel és videó streaming"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Navegadores"
-msgstr "Böngészők"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Felhőalapú tárolás"
-
-msgid "Download"
-msgstr "Letöltés"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Megosztók és Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Hírvivők és konferenciák"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Távoli hozzáférés, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Hálózati eszközök"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Hírek, Feeds és RSS"
-
-msgid "Escritório"
-msgstr "Iroda"
-
-msgid "Suíte Office"
-msgstr "Office Suite"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, e-book nézők és még sok más"
-
-msgid "Editores de PDF"
-msgstr "PDF szerkesztők"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Feladat- és kapcsolattartási naptár"
-
-msgid "Gráficos"
-msgstr "Grafika"
-
-msgid "Visualizadores de imagem"
-msgstr "Képnézők"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Képszerkesztők és rajzeszközök"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Pillanatkép"
-
-msgid "Multimídia"
-msgstr "Multimédia"
-
-msgid "Jogos"
-msgstr "Játékok"
-
-msgid "Gerenciadores de jogos"
-msgstr "Játékvezetők"
-
-msgid "Utilitários para jogos"
-msgstr "Játék segédprogramok"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch emulátor"
-
-msgid "Emuladores"
-msgstr "Emulátorok"
-
-msgid "Criadores de jogos"
-msgstr "Játékfejlesztők"
-
-msgid "Ação/Arcade"
-msgstr "Akció/Arkád"
-
-msgid "Cartas"
-msgstr "Levelek"
-
-msgid "Educacional"
-msgstr "Oktatási"
-
-msgid "Estratégia"
-msgstr "Stratégia"
-
-msgid "Puzzles"
-msgstr "Rejtvények"
-
-msgid "Tabuleiro"
-msgstr "Igazgatótanács"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Egyéb"
-
-msgid "Sistema"
-msgstr "Rendszer"
-
-msgid "Desenvolvimento"
-msgstr "Fejlesztés"
-
-msgid "Editores de código e IDE"
-msgstr "Kódszerkesztők és IDE-k"
-
-msgid "Banco de dados"
-msgstr "Adatbázis"
-
-msgid "Servidores WEB"
-msgstr "WEB szerverek"
-
-msgid "Programas Nativos"
-msgstr "Bennszülött programok"
-
-msgid "Programas AUR"
-msgstr "AUR programok"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak programok"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Telepített Snap csomagok kattintson az eltávolítandó csomagra"
-
-msgid "Cancelar"
-msgstr "Törölje"
-
-msgid "Fechar"
-msgstr "Zárja be a"
-
-msgid "Instalar"
-msgstr "Telepítse a"
-
-msgid "Remover"
-msgstr "Távolítsa el a"
-
-msgid "Versão: "
-msgstr "Változat "
-
-msgid "Pacote: "
-msgstr "Csomag "
-
-msgid "Não informada"
-msgstr "Nem tájékoztatták"
-
-msgid "Atualizar"
-msgstr "Frissítés"
-
-msgid "Instalado na partição:"
-msgstr "Telepítve a partícióra:"
-
-msgid "Tamanho da partição:"
-msgstr "Partíció mérete:"
-
-msgid "Espaço utilizado:"
-msgstr "Használt tér:"
-
-msgid "Espaço livre:"
-msgstr "Tiszta tér:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "A rendszer telepítésének dátuma:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Natív csomagok és AUR"
-
-msgid "Instalados:"
-msgstr "Telepítve:"
-
-msgid "Disponíveis:"
-msgstr "Elérhető:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak csomagok"
-
-msgid "Repositórios configurados:"
-msgstr "Repozitóriumok konfigurálva:"
-
-msgid "Pacotes Snap"
-msgstr "Snap csomagok"
-
-msgid "Big-Store está aberta."
-msgstr "A Big-Store nyitva van."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Executar"
-msgstr "Fuss"
-
-msgid "Pacote:"
-msgstr "Csomag:"
-
-msgid "Versão disponível:"
-msgstr "Elérhető verzió:"
-
-msgid "Repositório:"
-msgstr "Tárhely:"
-
-msgid "Categorias"
-msgstr "Kategóriák"
-
-msgid "Versão instalada"
-msgstr "Telepített verzió"
-
-msgid "Versão disponível"
-msgstr "Elérhető verzió"
-
-msgid "Versão"
-msgstr "Verzió"
-
-msgid "Pacote .deb"
-msgstr ".deb csomag"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Ez a program .deb formátumú, amely a legjobban integrálódik a rendszerbe."
-
-msgid "Mais informações"
-msgstr "További információ"
-
-msgid "Voltar"
-msgstr "Vissza"
-
-msgid "Dependências a instalar"
-msgstr "Telepítendő függőségek"
-
-msgid "Ver mais"
-msgstr "Lásd még"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Nem teljesített függőségekkel rendelkező csomagok "
-
-msgid "Depende de "
-msgstr "Ez attól függ, hogy "
-
-msgid "mas não vai ser instalado."
-msgstr "de nem lesz telepítve."
-
-msgid "mas não está disponível"
-msgstr "de nem áll rendelkezésre"
 
 msgid ""
 "\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
 msgstr ""
 "\n"
-"A natív programok jobban integrálódnak a rendszerbe<br>\n"
-"és további tesztelésen mennek keresztül, mielőtt kiadják őket,<br>\n"
-"így ez a legjobb választás, ha a program, amit<br>\n"
-"többféle telepítésben is elérhető.<br>"
+"Csak a kiválasztott programokat jeleníti meg<br>\n"
+"és elrejti a hasznos eredményeket <br>\n"
+"csak haladó felhasználóknak."
 
 msgid ""
 "\n"
@@ -400,10 +66,24 @@ msgstr ""
 "A Flatpak programok minden Linux disztribúcióhoz elérhetők<br>\n"
 "linux disztribúciók, általában a program által karbantartott<br>\n"
 "alkotók a programok, de nem rendelkeznek bizonyos<br>\n"
-"optimalizálások és integrációk a rendszerrel, mint ahogyan az a következő esetekben történik<br>\n"
+"optimalizálások és integrációk a rendszerrel, mint ahogyan az a következő "
+"esetekben történik<br>\n"
 "natív programok, ez egy jó alternatíva lehet<br>\n"
 "azok számára, akiknek a számítógépe jó kapacitással rendelkezik<br>\n"
 "feldolgozási és tárolási kapacitás."
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"A natív programok jobban integrálódnak a rendszerbe<br>\n"
+"és további tesztelésen mennek keresztül, mielőtt kiadják őket,<br>\n"
+"így ez a legjobb választás, ha a program, amit<br>\n"
+"többféle telepítésben is elérhető.<br>"
 
 msgid ""
 "\n"
@@ -420,104 +100,447 @@ msgstr ""
 "ha az Ön által keresett program csak ebben az országban érhető el<br>\n"
 "formátumban, használja."
 
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Csak a kiválasztott programokat jeleníti meg<br>\n"
-"és elrejti a hasznos eredményeket <br>\n"
-"csak haladó felhasználóknak."
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Távoli hozzáférés, FTP, SSH, VNC, RDP..."
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Feladat- és kapcsolattartási naptár"
 
 msgid "Aplicando - Aguarde"
 msgstr "Jelentkezés - Kérjük, várjon"
 
-msgid "Procurar programa"
-msgstr "Keresés program"
+msgid "Armazenamento e partições"
+msgstr "Tárolás és válaszfalak"
 
-msgid "Modo Simplificado"
-msgstr "Egyszerűsített mód"
+msgid "Armazenamento nas nuvens"
+msgstr "Felhőalapú tárolás"
 
-msgid "Nativos"
-msgstr "Bennszülöttek"
-
-msgid "Início"
-msgstr "Home"
-
-msgid "Configurações"
-msgstr "Beállítások"
-
-msgid "Programas Snap"
-msgstr "Snap programok"
-
-msgid "Instalando"
-msgstr "A  telepítése"
-
-msgid "Removendo"
-msgstr "A  eltávolítása"
-
-msgid "Versão disponivel:"
-msgstr "Elérhető verzió:"
-
-msgid "Licença:"
-msgstr "Engedély:"
-
-msgid "AUR"
-msgstr "AUR"
-
-msgid "Empacotador:"
-msgstr "Packer:"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr ""
-"Ahhoz, hogy a Snap programok megjelenjenek a rendszermenüben, jelentkezzen ki és jelentkezzen be "
-"újra."
-
-msgid "Pacotes"
-msgstr "Csomagok"
+msgid "Arquivos do pacote:"
+msgstr "Csomagfájlok:"
 
 msgid "Ativado"
 msgstr "Aktivált"
 
-msgid "Desativado"
-msgstr "Mozgáskorlátozottak"
+msgid "Atualizar"
+msgstr "Frissítés"
 
-msgid "Atualizações"
-msgstr "Frissítések"
-
-msgid "Atualizar seu sistema"
-msgstr "Frissítse rendszerét"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"Frissítse a BigLinux, Manjaro és Archlinux tárolók kulcsait. Ne feledje, "
+"hogy ha már aktiválta a kiegészítő adattárakat, akkor újra hozzá kell adnia "
+"a kulcsokat ezekhez az adattárakhoz."
 
 msgid "Atualizar cache dos repositórios nativos"
 msgstr "A natív tárolók gyorsítótárának frissítése"
 
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Gyorsabb keresés a natív tárolók szerverén"
+msgid "Atualizar seu sistema"
+msgstr "Frissítse rendszerét"
 
-msgid "Utilize as opções a seguir com cautela"
-msgstr "A következő opciókat óvatosan használja"
+msgid "Atualizações"
+msgstr "Frissítések"
 
-msgid "Reinstalação"
-msgstr "Újratelepítés"
+msgid "Ação/Arcade"
+msgstr "Akció/Arkád"
+
+msgid "Banco de dados"
+msgstr "Adatbázis"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Big-Store está aberta."
+msgstr "A Big-Store nyitva van."
+
+msgid "Cancelar"
+msgstr "Törölje"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Pillanatkép"
+
+msgid "Cartas"
+msgstr "Levelek"
+
+msgid "Categorias"
+msgstr "Kategóriák"
+
+msgid "Clique aqui para ver os arquivos"
+msgstr "Kattintson ide az archívum megtekintéséhez"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Megosztók és Torrent"
+
+msgid "Complementos:"
+msgstr "Kiegészíti:"
+
+msgid "Configurações"
+msgstr "Beállítások"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Képek átalakítása, méretének módosítása vagy tömörítése"
+
+msgid "Criadores de jogos"
+msgstr "Játékfejlesztők"
+
+msgid "Data de instalação:"
+msgstr "A telepítés időpontja:"
+
+msgid "Data do empacotamento:"
+msgstr "A csomagolás dátuma:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "A rendszer telepítésének dátuma:"
+
+msgid "Depende de "
+msgstr "Ez attól függ, hogy "
+
+msgid "Dependências a instalar"
+msgstr "Telepítendő függőségek"
+
+msgid "Dependências de instalação:"
+msgstr "Telepítési függőségek:"
+
+msgid "Dependências:"
+msgstr "Függőségek:"
+
+msgid "Desativado"
+msgstr "Mozgáskorlátozottak"
+
+msgid "Desenvolvimento"
+msgstr "Fejlesztés"
+
+msgid "Disponíveis:"
+msgstr "Elérhető:"
+
+msgid "Download"
+msgstr "Letöltés"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Editores de PDF"
+msgstr "PDF szerkesztők"
+
+msgid "Editores de código e IDE"
+msgstr "Kódszerkesztők és IDE-k"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Képszerkesztők és rajzeszközök"
+
+msgid "Editores de áudio"
+msgstr "Hangszerkesztők"
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoszerkesztők és tömörítők"
+
+msgid "Edição 3D e CAD"
+msgstr "3D és CAD szerkesztés"
+
+msgid "Educacional"
+msgstr "Oktatási"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch emulátor"
+
+msgid "Emuladores"
+msgstr "Emulátorok"
+
+msgid "Escritório"
+msgstr "Iroda"
+
+msgid "Espaço livre:"
+msgstr "Tiszta tér:"
+
+msgid "Espaço utilizado:"
+msgstr "Használt tér:"
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+"Ez a program .deb formátumú, amely a legjobban integrálódik a rendszerbe."
+
+msgid "Estratégia"
+msgstr "Stratégia"
+
+msgid "Executar"
+msgstr "Fuss"
+
+msgid "Fechar"
+msgstr "Zárja be a"
+
+msgid "Ferramentas de rede"
+msgstr "Hálózati eszközök"
+
+msgid "Fontes (Tipografia)"
+msgstr "Betűtípusok (tipográfia)"
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Kényszerfrissítés, használja ezt a lehetőséget, ha nem tudja frissíteni a "
+"rendszert, azonban a kényszerfrissítés során egyes programok eltávolításra "
+"kerülhetnek."
 
 msgid "Forçar reinstalação de todos os pacotes instalados"
 msgstr "Az összes telepített csomag újratelepítésének kikényszerítése"
 
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Frissítse a BigLinux, Manjaro és Archlinux tárolók kulcsait. Ne feledje, hogy ha már aktiválta a "
-"kiegészítő adattárakat, akkor újra hozzá kell adnia a kulcsokat ezekhez az adattárakhoz."
+msgid "Gerenciadores de jogos"
+msgstr "Játékvezetők"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Hangrögzítők és átalakítók"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- és DVD-írók és másolók"
+
+msgid "Grupos:"
+msgstr "Csoportok:"
+
+msgid "Gráficos"
+msgstr "Grafika"
+
+msgid "Instalado na partição:"
+msgstr "Telepítve a partícióra:"
+
+msgid "Instalados:"
+msgstr "Telepítve:"
+
+msgid "Instalando"
+msgstr "A  telepítése"
+
+msgid "Instalar"
+msgstr "Telepítse a"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Início"
+msgstr "Home"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Jogos"
+msgstr "Játékok"
+
+msgid "Licença:"
+msgstr "Engedély:"
+
+msgid "Mais informações"
+msgstr "További információ"
+
+msgid "Mensageiros e Conferências"
+msgstr "Hírvivők és konferenciák"
+
+msgid "Modo Simplificado"
+msgstr "Egyszerűsített mód"
+
+msgid "Motivo da instalação:"
+msgstr "A telepítés oka:"
+
+msgid "Multimídia"
+msgstr "Multimédia"
+
+msgid "Nativos"
+msgstr "Bennszülöttek"
+
+msgid "Navegadores"
+msgstr "Böngészők"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Hírek, Feeds és RSS"
+
+msgid "Não informada"
+msgstr "Nem tájékoztatták"
+
+msgid "Número de votos:"
+msgstr "Szavazatok száma:"
+
+msgid "Outros"
+msgstr "Egyéb"
+
+msgid "Pacote .deb"
+msgstr ".deb csomag"
+
+msgid "Pacote:"
+msgstr "Csomag:"
+
+msgid "Pacote: "
+msgstr "Csomag "
+
+msgid "Pacotes"
+msgstr "Csomagok"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak csomagok"
+
+msgid "Pacotes Snap"
+msgstr "Snap csomagok"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Telepített Snap csomagok kattintson az eltávolítandó csomagra"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Nem teljesített függőségekkel rendelkező csomagok "
+
+msgid "Pacotes nativos e AUR"
+msgstr "Natív csomagok és AUR"
 
 msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
 msgstr ""
-"Kényszerfrissítés, használja ezt a lehetőséget, ha nem tudja frissíteni a rendszert, azonban a "
-"kényszerfrissítés során egyes programok eltávolításra kerülhetnek."
+"Ahhoz, hogy a Snap programok megjelenjenek a rendszermenüben, jelentkezzen "
+"ki és jelentkezzen be újra."
+
+msgid "Procurar programa"
+msgstr "Keresés program"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Gyorsabb keresés a natív tárolók szerverén"
+
+msgid "Programas AUR"
+msgstr "AUR programok"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programok"
+
+msgid "Programas Nativos"
+msgstr "Bennszülött programok"
+
+msgid "Programas Snap"
+msgstr "Snap programok"
+
+msgid "Puzzles"
+msgstr "Rejtvények"
+
+msgid "Página no AUR:"
+msgstr "AUR oldal:"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Reinstalar"
+msgstr "Telepítse újra a"
+
+msgid "Reinstalação"
+msgstr "Újratelepítés"
+
+msgid "Remove:"
+msgstr "Távolítsd el:"
+
+msgid "Removendo"
+msgstr "A  eltávolítása"
+
+msgid "Remover"
+msgstr "Távolítsa el a"
+
+msgid "Repositório:"
+msgstr "Tárhely:"
+
+msgid "Repositórios configurados:"
+msgstr "Repozitóriumok konfigurálva:"
 
 msgid "Repositórios nativos"
 msgstr "Natív tárolók"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video lejátszók"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio lejátszók"
+
+msgid "Rádio online"
+msgstr "Online rádió"
+
+msgid "Servidores WEB"
+msgstr "WEB szerverek"
+
+msgid "Sistema"
+msgstr "Rendszer"
+
+msgid "Site:"
+msgstr "Weboldal:"
+
+msgid "Substitui:"
+msgstr "Helyettesíti:"
+
+msgid "Suíte Office"
+msgstr "Office Suite"
+
+msgid "Tabuleiro"
+msgstr "Igazgatótanács"
+
+msgid "Tamanho da partição:"
+msgstr "Partíció mérete:"
+
+msgid "Tamanho do download:"
+msgstr "Letöltési méret:"
+
+msgid "Uso de armazenamento:"
+msgstr "A tárolás használata:"
+
+msgid "Utilitários para jogos"
+msgstr "Játék segédprogramok"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "A következő opciókat óvatosan használja"
+
+msgid "Ver mais"
+msgstr "Lásd még"
+
+msgid "Versão"
+msgstr "Verzió"
+
+msgid "Versão disponivel:"
+msgstr "Elérhető verzió:"
+
+msgid "Versão disponível"
+msgstr "Elérhető verzió"
+
+msgid "Versão disponível:"
+msgstr "Elérhető verzió:"
+
+msgid "Versão instalada"
+msgstr "Telepített verzió"
+
+msgid "Versão instalada:"
+msgstr "Telepített verzió:"
+
+msgid "Versão: "
+msgstr "Változat "
+
+msgid "Virtualização"
+msgstr "Virtualizáció"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, e-book nézők és még sok más"
+
+msgid "Visualizadores de imagem"
+msgstr "Képnézők"
+
+msgid "Voltar"
+msgstr "Vissza"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online videó, IPTV, Youtube..."
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, képernyőfelvétel és videó streaming"
+
+msgid "mas não está disponível"
+msgstr "de nem áll rendelkezésre"
+
+msgid "mas não vai ser instalado."
+msgstr "de nem lesz telepítve."

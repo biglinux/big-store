@@ -1,0 +1,361 @@
+#!/bin/bash
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+
+
+source header.sh.htm
+
+
+#####################
+#Show category in first page
+#####################
+if [ "$category" = "" ] && [ "${#search}" -le "2" ]; then
+
+cat << EOF
+      <div id="welcome" class="content-wrapper-header" style="display:none;">
+        <div class="content-wrapper-context">
+          <h3 class="img-content">
+            <img class="img-content img" src="icon.png">
+            Big Store
+          </h3>
+        </div>
+        <img class="content-wrapper-img" src="appsbigstore.png" alt="">
+      </div>
+      <br>
+EOF
+
+ICON_CATEGORY() {
+    echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"$2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
+}
+
+
+    echo '<div id=box_index_category>'
+#     echo '<div id=box_info_index>'
+#     echo $"Em nossa busca são verificadas mais de 20 mil opções de instalação, disponibilizando para você um acervo gigantesco de programas, drivers, temas e etc."
+#     echo "<p>"
+#     echo $"Com tantas opções, se você possui pouca experiência com Linux, recomendo que utilize as categorias a seguir, pois selecionamos apenas os melhores programas para executar as tarefas mais utilizadas pelos nossos usuários: "
+#     echo '</div>'
+
+## XIVA category ##
+if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ];then 
+
+    #echo '<a name=xystem></a>'
+        echo '<div id="xystem" class=category_box>'
+        echo '<div class=category_title_index>'
+        echo $"X-Sistema"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições"
+    ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
+    ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização"
+
+    echo '</div></div></div>'
+    
+    #echo '<a name=image></a>'
+    echo '<div id=image class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Imagem"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY vetorial "fas fa-bezier-curve" $"Editores Vetorial"
+    ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho"
+#     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
+    ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
+    ICON_CATEGORY image-plugins "fas fa-plug" $"Plugins"
+    ICON_CATEGORY 3dcad "fas fa-cube" $"Edição 3D e CAD"
+    ICON_CATEGORY fontes "fas fa-font" $"Fontes (Tipografia)"
+    ICON_CATEGORY diagramacao "fas fa-file-invoice" $"Diagramação e organização de páginas"
+    ICON_CATEGORY colorizacao "fas fa-palette" $"Colorização e palheta de cores"
+
+    echo '</div></div></div>'
+    
+    #echo '<a name=video></a>'
+    echo '<div id=video class=category_box>'
+    echo '<div class=category_title_index>'
+    echo $"Video"
+    echo '</div>'
+    echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY videoeditors "fas fa-photo-video" $"Editores de video"
+    ICON_CATEGORY videoplay "fas fa-film" $"Reprodutores de vídeo"
+    ICON_CATEGORY 2deditor "fas fa-clapperboard" $"Animação e 2D"
+    ICON_CATEGORY captura "fas fa-video" $"Captura de tela e video download"
+    ICON_CATEGORY videotream "fas fa-tv" $"Stream/transmissão online"
+    ICON_CATEGORY dvdvideoconverter "fas fa-compact-disc" $"Conversores de vídeo e gravadores CD/DVD"
+
+    echo '</div></div></div>'
+    
+    #echo '<a name=audio></a>'
+    echo '<div id=audio class=category_box>'
+    echo '<div class=category_title_index>'
+    echo $"Audio"
+    echo '</div>'
+    echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
+    ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
+    ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
+    ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio"
+    ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo"
+    ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..."
+    ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo"
+    ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD"
+    ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
+
+    echo '</div></div></div>'
+fi
+
+## Big category ##
+    #echo '<a name=internet></a>'
+    echo '<div id=internet class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Internet"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+    ICON_CATEGORY browser "fas fa-globe" $"Navegadores"
+    ICON_CATEGORY mail "fas fa-envelope" $"E-mail"
+    ICON_CATEGORY cloud "fas fa-cloud-upload-alt" $"Armazenamento nas nuvens"
+    ICON_CATEGORY download "fas fa-file-download" $"Download"
+    ICON_CATEGORY torrent "fas fa-magnet" $"Compartilhadores e Torrent"
+    ICON_CATEGORY messages "fas fa-comments" $"Mensageiros e Conferências"
+    ICON_CATEGORY remote "fas fa-laptop-house" $"Acesso Remoto, FTP, SSH, VNC, RDP..."
+    ICON_CATEGORY network "fas fa-network-wired" $"Ferramentas de rede"
+    ICON_CATEGORY news "fas fa-newspaper" $"Notícias, Feeds e RSS"
+
+    echo '</div></div></div>'
+
+    #echo '<a name=office></a>'
+    echo '<div id=office class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Escritório"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY office "fas fa-briefcase" $"Suíte Office"
+    ICON_CATEGORY book "fas fa-book" $"Visualizadores de PDF, Epub, e-books e mais"
+    ICON_CATEGORY pdf "fas fa-file-pdf" $"Editores de PDF"
+    ICON_CATEGORY calendar "fas fa-calendar-alt" $"Agenda de tarefas e contatos"
+#     ICON_CATEGORY calc "fas fa-calculator" $"Cálculos"
+#     ICON_CATEGORY other "fas fa-random" $"Outros"
+
+    echo '</div></div></div>'
+
+    #echo '<a name=graphics></a>'
+    echo '<div id=graphics class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Gráficos"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY imageplayer "fas fa-image" $"Visualizadores de imagem"
+    ICON_CATEGORY imageeditor "fas fa-paint-brush" $"Editores de imagem e ferramentas de desenho"
+    ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
+    ICON_CATEGORY imageconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
+    ICON_CATEGORY 3d "fas fa-cube" $"Edição 3D e CAD"
+
+    echo '</div></div></div>'
+
+    #echo '<a name=multimedia></a>'
+    echo '<div id=multimedia class=category_box>'
+    echo '<div class=category_title_index>'
+    echo $"Multimídia"
+    echo '</div>'
+    echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
+    ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
+    ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
+    ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio"
+    ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo"
+    ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..."
+    ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo"
+    ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD"
+    ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
+
+    echo '</div></div></div>'
+    #echo '<a name=games></a>'
+    echo '<div id=games class=category_box>'
+    echo '<div class=category_title_index>'
+        
+        echo $"Jogos"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY gamemanager "fas fa-gamepad" $"Gerenciadores de jogos"
+    ICON_CATEGORY gameutility "fas fa-toolbox" $"Utilitários para jogos"
+
+    #ICON_CATEGORY gameretroarch "fas fa-cog" $"Emulador Retroarch"
+    echo '<a onclick=\"disableBody();\" href=index.sh.htm?category=gameretroarch><div class=icon_background><div class=vertical_align_center><div class=icon>'
+    echo '<span class=category_font_icon>'
+    echo '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:58px; margin-right:5px;"><path fill="var(--text-a-color)" d="M 6.8398438 5.7597656 L 8.4003906 7.6796875 L 5.2792969 7.6796875 L 4.5605469 10.560547 L 2.640625 10.560547 L 3.359375 7.6796875 L 1.4394531 7.6796875 L 0 13.439453 L 3.8398438 13.439453 L 3.359375 15.359375 L 6.7207031 15.359375 L 4.1992188 18.240234 L 7.0195312 18.240234 L 9.359375 15.359375 L 14.640625 15.359375 L 16.980469 18.240234 L 19.800781 18.240234 L 17.279297 15.359375 L 20.640625 15.359375 L 20.160156 13.439453 L 24 13.439453 L 22.560547 7.6796875 L 20.640625 7.6796875 L 21.359375 10.560547 L 19.439453 10.560547 L 18.720703 7.6796875 L 15.599609 7.6796875 L 17.160156 5.7597656 L 15.119141 5.7597656 L 13.439453 7.6796875 L 10.560547 7.6796875 L 8.8808594 5.7597656 L 6.8398438 5.7597656 z M 7.0800781 9.5996094 L 9 9.5996094 L 9 11.519531 L 7.0800781 11.519531 L 7.0800781 9.5996094 z M 15.005859 9.5996094 L 16.925781 9.5996094 L 16.925781 11.519531 L 15.005859 11.519531 L 15.005859 9.5996094 z"/></svg>'
+    echo '</span>'
+    echo '</div><div class=icon_text><div class=icon_text_vertical_align> '$"Emulador Retroarch"'</div></div></div></div></a>'
+      
+    #ICON_CATEGORY gameemulator "fas fa-cogs" $"Emuladores"
+    echo '<a onclick=\"disableBody();\" href=index.sh.htm?category=gameemulator><div class=icon_background><div class=vertical_align_center><div class=icon>'
+    echo '<span class=category_font_icon>'
+    echo '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:58px; margin-right:5px;"><path fill="var(--text-neon-color)" d="M 19.710938 0.23242188 L 19.710938 13.603516 L 19.714844 13.603516 L 17.660156 17.326172 C 17.613376 19.571497 17.640625 21.498198 17.640625 23.744141 L 20.470703 23.744141 C 21.333904 23.744141 22.027344 23.237386 22.027344 22.607422 L 22.027344 1.3730469 C 22.027344 0.74308151 21.333904 0.23242202 20.470703 0.23242188 L 19.710938 0.23242188 z M 5.5703125 0.25976562 C 4.8967704 0.25976562 4.3554687 0.91400622 4.3554688 1.7304688 L 4.3554688 11.595703 C 4.3554688 11.60443 4.3572984 11.612404 4.3574219 11.621094 L 4.3574219 13.066406 L 5.5546875 13.066406 C 5.560015 13.066489 5.5649683 13.068359 5.5703125 13.068359 L 6.0371094 13.068359 L 6.0371094 12.878906 A 1.9747208 2.0551543 0 0 1 4.9980469 11.072266 A 1.9747208 2.0551543 0 0 1 6.0703125 9.25 L 6.0703125 3.8867188 C 6.0703125 3.1222614 6.6587618 2.5058595 7.390625 2.5058594 L 15.888672 2.5058594 C 16.620536 2.5058594 17.210938 3.1222614 17.210938 3.8867188 L 17.210938 9.4394531 C 17.210938 10.203911 16.620536 10.820313 15.888672 10.820312 L 8.9238281 10.820312 A 1.9747208 2.0551543 0 0 1 8.9453125 11.072266 A 1.9747208 2.0551543 0 0 1 7.90625 12.878906 L 7.90625 13.068359 L 18.925781 13.068359 L 18.925781 0.25976562 L 5.5703125 0.25976562 z M 6.9707031 9.4707031 A 1.5395521 1.6022605 0 0 0 5.4335938 11.072266 A 1.5395521 1.6022605 0 0 0 6.4140625 12.5625 L 6.4140625 14.537109 A 1.9026112 0.63330919 0 0 0 5.0859375 15.140625 A 1.9026112 0.63330919 0 0 0 6.9882812 15.773438 A 1.9026112 0.63330919 0 0 0 8.890625 15.140625 A 1.9026112 0.63330919 0 0 0 7.5292969 14.53125 L 7.5292969 12.5625 A 1.5395521 1.6022605 0 0 0 8.5097656 11.072266 A 1.5395521 1.6022605 0 0 0 6.9707031 9.4707031 z M 4.0234375 13.664062 L 1.9726562 17.0625 L 16.822266 17.0625 L 18.876953 13.664062 L 7.90625 13.664062 L 7.90625 14.263672 A 2.291621 0.95543505 0 0 1 9.2792969 15.140625 A 2.291621 0.95543505 0 0 1 6.9882812 16.095703 A 2.291621 0.95543505 0 0 1 4.6972656 15.140625 A 2.291621 0.95543505 0 0 1 6.0371094 14.273438 L 6.0371094 13.664062 L 4.0234375 13.664062 z M 11.863281 14.585938 A 1.1716185 0.77857885 1.9655233e-08 0 1 13.035156 15.363281 A 1.1716185 0.77857885 1.9655233e-08 0 1 11.863281 16.140625 A 1.1716185 0.77857885 1.9655233e-08 0 1 10.693359 15.363281 A 1.1716185 0.77857885 1.9655233e-08 0 1 11.863281 14.585938 z M 15.279297 14.585938 A 1.1716185 0.77857885 1.9655233e-08 0 1 16.453125 15.363281 A 1.1716185 0.77857885 1.9655233e-08 0 1 15.279297 16.140625 A 1.1716185 0.77857885 1.9655233e-08 0 1 14.107422 15.363281 A 1.1716185 0.77857885 1.9655233e-08 0 1 15.279297 14.585938 z M 2.0214844 17.660156 L 2.0214844 23.767578 L 16.855469 23.767578 L 16.855469 17.660156 L 2.0214844 17.660156 z M 5.2011719 19.115234 C 5.5315288 19.115234 5.7988281 19.387473 5.7988281 19.726562 L 5.7988281 21.697266 C 5.7988281 22.036355 5.5315288 22.3125 5.2011719 22.3125 C 4.8708144 22.3125 4.6054688 22.036355 4.6054688 21.697266 L 4.6054688 19.726562 C 4.6054688 19.387473 4.8708144 19.115234 5.2011719 19.115234 z M 13.671875 19.115234 C 14.002233 19.115234 14.271484 19.387473 14.271484 19.726562 L 14.271484 21.697266 C 14.271484 22.036355 14.002233 22.3125 13.671875 22.3125 C 13.341516 22.3125 13.076172 22.036355 13.076172 21.697266 L 13.076172 19.726562 C 13.076172 19.387473 13.341516 19.115234 13.671875 19.115234 z M 7.8144531 19.136719 L 11.060547 19.136719 C 11.379972 19.136719 11.636719 19.405846 11.636719 19.738281 L 11.636719 21.734375 C 11.636719 22.066809 11.379972 22.333984 11.060547 22.333984 L 7.8144531 22.333984 C 7.4950287 22.333984 7.2382814 22.066809 7.2382812 21.734375 L 7.2382812 19.738281 C 7.2382814 19.405846 7.4950287 19.136719 7.8144531 19.136719 z "/></svg>'
+    echo '</span>'
+    echo '</div><div class=icon_text><div class=icon_text_vertical_align> '$"Emuladores"'</div></div></div></div></a>'
+    
+    ICON_CATEGORY devgames "fas fa-code" $"Criadores de jogos"
+    ICON_CATEGORY gamearcade "fas fa-rocket" $"Ação/Arcade"
+              
+    #ICON_CATEGORY gamecard "fas fa-crown" $"Cartas"
+    echo '<a onclick=\"disableBody();\" href=index.sh.htm?category=gamecard><div class=icon_background><div class=vertical_align_center><div class=icon>'
+    echo '<span class=category_font_icon>'
+    echo '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:58px; margin-right:5px;"><path fill="#cd4747" d="M 10.164062 0.3984375 C 9.7312388 0.4023775 9.2992694 0.57160066 8.9707031 0.90625 L 7.4863281 2.4179688 L 9.0429688 2.4023438 L 9.5722656 1.8632812 C 9.9087659 1.5202969 10.500899 1.5592327 10.900391 1.9511719 L 10.941406 1.9902344 L 9.9003906 2.4335938 L 15.503906 2.4335938 L 15.074219 1.4257812 C 14.894959 1.0051041 14.524002 0.73900996 14.146484 0.71875 C 14.020645 0.71195001 13.893829 0.73190328 13.773438 0.78320312 L 12.023438 1.5292969 L 11.365234 0.88476562 C 11.030335 0.5564553 10.596887 0.3944975 10.164062 0.3984375 z M 6.5058594 3.2304688 C 6.0288114 3.2304688 5.6445312 3.6767799 5.6445312 4.2324219 L 5.6445312 19.765625 C 5.6445312 20.321268 6.0288114 20.769531 6.5058594 20.769531 L 17.494141 20.769531 C 17.971189 20.769531 18.355469 20.321268 18.355469 19.765625 L 18.355469 4.2324219 C 18.35547 3.6767799 17.971189 3.2304687 17.494141 3.2304688 L 6.5058594 3.2304688 z M 7.7714844 3.9414062 L 8.1640625 3.9414062 L 9.5058594 7.40625 L 9.0566406 7.40625 L 8.6425781 6.3378906 L 7.2734375 6.3378906 L 6.8632812 7.40625 L 6.4238281 7.40625 L 7.7714844 3.9414062 z M 7.9609375 4.390625 C 7.9383875 4.4904749 7.9118125 4.5889171 7.8828125 4.6855469 C 7.8538225 4.7789568 7.8298769 4.8534433 7.8105469 4.9082031 L 7.4199219 5.9511719 L 8.5117188 5.9511719 L 8.125 4.9082031 C 8.1153 4.8824332 8.0987219 4.8352131 8.0761719 4.7675781 C 8.0536219 4.6999382 8.0303625 4.6314067 8.0078125 4.5605469 C 7.9884925 4.4864669 7.9738079 4.429275 7.9609375 4.390625 z M 4.8652344 4.578125 L 2.6796875 5.5097656 C 2.1981234 5.7149702 2.0031759 6.3316753 2.2421875 6.8925781 L 2.5 7.4960938 L 0.84179688 9.1835938 C 0.18466419 9.8528894 0.19543171 10.921506 0.86523438 11.578125 L 4.9257812 15.558594 L 4.9101562 14.009766 L 1.9335938 11.089844 C 1.5341005 10.697907 1.4838141 10.106657 1.8203125 9.7636719 L 2.9667969 8.59375 L 4.8652344 13.048828 L 4.8652344 4.578125 z M 12 8.421875 C 12 8.421875 13.059451 10.233888 14.595703 11.865234 C 16.131954 13.496578 13.539116 15.648952 12.292969 13.814453 C 12.281309 13.797293 12.271046 13.779189 12.259766 13.761719 C 12.238426 14.594092 12.596935 15.204114 13.191406 15.578125 L 12.052734 15.568359 L 11.947266 15.568359 L 10.808594 15.578125 C 10.827784 15.566055 10.846534 15.553586 10.865234 15.541016 C 10.883144 15.528966 10.900529 15.518359 10.917969 15.505859 L 10.919922 15.503906 C 10.927722 15.498306 10.935659 15.492028 10.943359 15.486328 C 10.953969 15.478528 10.964179 15.470891 10.974609 15.462891 C 10.990039 15.451051 11.004501 15.439944 11.019531 15.427734 C 11.021731 15.425934 11.023291 15.423575 11.025391 15.421875 C 11.042531 15.407845 11.059572 15.393426 11.076172 15.378906 C 11.092782 15.364386 11.10894 15.348994 11.125 15.333984 C 11.1334 15.326184 11.142191 15.318447 11.150391 15.310547 C 11.157991 15.303147 11.166328 15.296562 11.173828 15.289062 C 11.185378 15.277513 11.195791 15.265716 11.207031 15.253906 C 11.210731 15.250006 11.21503 15.246207 11.21875 15.242188 C 11.24086 15.218548 11.262343 15.192659 11.283203 15.167969 C 11.286203 15.164469 11.290069 15.161703 11.292969 15.158203 C 11.297169 15.153203 11.300568 15.147678 11.304688 15.142578 C 11.310887 15.134978 11.316166 15.126841 11.322266 15.119141 C 11.329666 15.109741 11.338403 15.101397 11.345703 15.091797 C 11.354103 15.080697 11.362894 15.069894 11.371094 15.058594 C 11.375794 15.052094 11.380196 15.045562 11.384766 15.039062 C 11.404326 15.011243 11.423336 14.982095 11.441406 14.953125 C 11.446606 14.944725 11.451931 14.936234 11.457031 14.927734 C 11.474071 14.899424 11.490239 14.871177 11.505859 14.841797 C 11.526019 14.803877 11.54478 14.764306 11.5625 14.724609 C 11.5751 14.696379 11.586316 14.667802 11.597656 14.638672 C 11.602256 14.626932 11.606958 14.615406 11.611328 14.603516 C 11.616228 14.590136 11.62043 14.57606 11.625 14.5625 C 11.6324 14.54077 11.639784 14.518284 11.646484 14.496094 C 11.653184 14.473894 11.660016 14.452347 11.666016 14.429688 C 11.673616 14.401358 11.6811 14.37281 11.6875 14.34375 C 11.6966 14.30258 11.704138 14.2614 11.710938 14.21875 C 11.711637 14.21485 11.712191 14.210951 11.712891 14.207031 C 11.715891 14.187411 11.718103 14.166404 11.720703 14.146484 C 11.724303 14.118894 11.727869 14.09069 11.730469 14.0625 C 11.734869 14.01525 11.738634 13.968821 11.740234 13.919922 C 11.740278 13.918622 11.740192 13.917316 11.740234 13.916016 C 11.741003 13.891826 11.740139 13.866387 11.740234 13.841797 C 11.740332 13.815407 11.740922 13.788569 11.740234 13.761719 C 11.728954 13.779179 11.718691 13.797283 11.707031 13.814453 C 10.460669 15.649102 7.868046 13.496578 9.4042969 11.865234 C 10.940548 10.233888 12 8.421875 12 8.421875 z M 19.162109 8.5273438 L 19.177734 10.072266 L 22.068359 12.908203 C 22.467851 13.300141 22.51814 13.891391 22.181641 14.234375 L 21.03125 15.40625 L 19.132812 10.949219 L 19.132812 19.419922 L 21.318359 18.488281 C 21.799924 18.283076 21.99487 17.666372 21.755859 17.105469 L 21.498047 16.501953 L 23.158203 14.8125 C 23.815336 14.143204 23.804573 13.078496 23.134766 12.421875 L 19.162109 8.5273438 z M 14.494141 16.59375 L 14.943359 16.59375 L 15.359375 17.660156 L 16.726562 17.660156 L 17.136719 16.59375 L 17.576172 16.59375 L 16.228516 20.056641 L 15.837891 20.056641 L 14.494141 16.59375 z M 15.490234 18.046875 L 15.875 19.091797 C 15.8847 19.117567 15.901278 19.162827 15.923828 19.230469 C 15.946378 19.298109 15.969638 19.368593 15.992188 19.439453 C 16.011517 19.513533 16.028136 19.568772 16.041016 19.607422 C 16.063556 19.507572 16.088198 19.409129 16.117188 19.3125 C 16.146177 19.21909 16.170123 19.146557 16.189453 19.091797 L 16.582031 18.046875 L 15.490234 18.046875 z M 16.552734 21.541016 L 14.998047 21.556641 L 14.429688 22.134766 C 14.093189 22.477752 13.499101 22.438813 13.099609 22.046875 L 13.058594 22.007812 L 14.097656 21.564453 L 8.4941406 21.564453 L 8.9238281 22.574219 C 9.1628396 23.135122 9.7430447 23.420049 10.224609 23.214844 L 11.974609 22.46875 L 12.634766 23.115234 C 13.304566 23.771854 14.372164 23.76304 15.029297 23.09375 L 16.552734 21.541016 z "/></svg>'
+    echo '</span>'
+    echo '</div><div class=icon_text><div class=icon_text_vertical_align> '$"Cartas"'</div></div></div></div></a>'
+    
+    ICON_CATEGORY gameeducational "fas fa-graduation-cap" $"Educacional"
+    ICON_CATEGORY gamestrategy "fas fa-user-secret" $"Estratégia"
+    ICON_CATEGORY gamepuzzle "fas fa-puzzle-piece" $"Puzzles"
+    ICON_CATEGORY gameboard "fas fa-chess-board" $"Tabuleiro"
+    ICON_CATEGORY gamerpg "fas fa-dice-d20" $"RPG"
+    ICON_CATEGORY gameother "fas fa-dice" $"Outros"
+
+    echo '</div></div></div>'
+
+    #echo '<a name=system></a>'
+    echo '<div id="system" class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Sistema"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições"
+    ICON_CATEGORY fonts "fas fa-font" $"Fontes (Tipografia)"
+    ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
+    ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização"
+
+    echo '</div></div></div>'
+
+    #echo '<a name=dev></a>'
+    echo '<div id="dev" class=category_box>'
+    echo '<div class=category_title_index>'
+        echo $"Desenvolvimento"
+        echo '</div>'
+        echo '<div class=category_index_list_center><div class=category_index_list>'
+
+    ICON_CATEGORY deveditor "fas fa-file-code" $"Editores de código e IDE"
+    ICON_CATEGORY devbd "fas fa-database" $"Banco de dados"
+    ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB"
+
+    echo '</div></div></div>'
+fi
+
+APPSTREAM_CATEGORY() {
+    echo '<div class="row center" id="flex">'
+    
+    echo '<div id=box_appstream_category style="border-radius: 0 0 15px 15px;">'
+    echo '<div id=title_appstream>'
+    echo "<div id=button_appstream class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_APPSTREAM\">"
+    echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/></svg></div><div style="margin-right: 5px;">'
+    echo $"Programas Nativos"
+    echo '</div></div>'
+    echo '</div>'
+
+    echo '<div id=content_appstream>'
+    pacman -Qu | cut -f1 -d" " > ${TMP_FOLDER}/upgradeable.txt
+    ./category_appstream_pamac.py "$@"
+    echo "<script>runAvatarAppstream();</script>"
+    echo '</div>'
+    echo '</div>'
+}
+
+AUR_CATEGORY() {
+    rm -f "${TMP_FOLDER}/aur_number.html"
+    
+    echo '<div id=box_aur>'
+    echo '<div id=title_aur>'
+    echo "<div id=button_aur class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_AUR\">"
+    echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'    
+    echo $"Programas AUR"
+    echo '</div></div>'
+    echo '</div>'
+    echo '<div id=content_aur>'
+    rm -f ${TMP_FOLDER}/aur.html
+    #Loading icon
+    echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
+    # Search
+     ./category_aur.sh $(cat /tmp/bigstore/category_aur.txt | tr "\n" " ") > /dev/null 2>&1 &
+    # async load
+    echo "<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>"
+    echo '</div>'
+    echo '</div>'
+}
+
+FLATPAK_CATEGORY() {
+    rm -f "${TMP_FOLDER}/flatpak_number.html"
+    
+    echo '<div id=box_flatpak>'
+    echo '<div id=title_flatpak>'
+    echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
+    echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'    
+    echo $"Programas Flatpak"
+    echo '</div></div>'
+    echo '</div>'
+    echo '<div id=content_flatpak>'
+    rm -f ${TMP_FOLDER}/flatpak.html
+    rm -f ${TMP_FOLDER}/flatpakbuild.html
+    #Loading icon
+    echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
+    # Search
+    #kdialog --msgbox "$@"
+    for i in $@; do ./category_flatpak.sh "$i"; done
+    mv -f ${TMP_FOLDER}/flatpakbuild.html ${TMP_FOLDER}/flatpak.html
+    # async load
+    echo "<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>"
+    echo '</div>'
+    echo '</div>'
+}
+
+if [ "$(lsb_release -sd | sed 's/"//g' )" = "XIVAStudio" ];then
+    source xiva-category
+else
+    source biglinux-category
+fi
+    
+    #./category_appstream_pamac.py "libreoffice-fresh libreoffice-fresh-pt-br libreoffice-fresh-pt libreoffice-still libreoffice-still-pt-br libreoffice-still-pt freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra abiword gnumeric gnome-calculator kcalc gnucash kalgebra qalculate-gtk speedcrunch gnome-calendar korganizer pantheon-calendar kalarm kontact knotes kmymoney kresus moneymanagerex skrooge homebank calibre gnome-latex pdftricks pdfarranger pdfmixtool pdfmod pdfslicer gscan2pdf okular bookworm simple-scan gnome-documents xreader evince gimagereader-qt gimagereader-gtk kbibtex  tellico gnome-books minder notes-up ocrfeeder rednotebook retext scribus texworks atril xournalapp zathura"
+
+
+
+# Finish him
+
+if [ "$(lsb_release -sd | sed 's/"//g' )" = "XIVAStudio" ];then
+cat << EOF
+  <div class="logo">
+    <img id="btn-big" src="xiva.png" class="logo-biglinux" onclick="biglinux();">
+  </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
+EOF
+else
+cat << EOF
+  <div class="logo">
+    <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
+  </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
+EOF
+fi
+

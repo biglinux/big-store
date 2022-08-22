@@ -3,371 +3,37 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: attranslate\n"
-
-msgid "X-Sistema"
-msgstr "X-System"
-
-msgid "Armazenamento e partições"
-msgstr "Förvaring och skiljeväggar"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisering"
-
-msgid "Imagem"
-msgstr "Bild"
-
-msgid "Editores Vetorial"
-msgstr "Vektor redaktörer"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Bild-, foto- och ritningsredigerare"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Konvertera, ändra storlek eller komprimera bilder"
-
-msgid "Plugins"
-msgstr "Insticksprogram"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- och CAD-redigering"
-
-msgid "Fontes (Tipografia)"
-msgstr "Typsnitt (typografi)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Layout och organisering av sidor"
-
-msgid "Colorização e palheta de cores"
-msgstr "Färgläggning och färgpalett"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videoredigerare"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videospelare"
-
-msgid "Animação e 2D"
-msgstr "Animering och 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Skärmdump och nedladdning av video"
-
-msgid "Stream/transmissão online"
-msgstr "Streama/streama online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videokonverterare och CD/DVD-brännare"
-
-msgid "Audio"
-msgstr "Ljud"
-
-msgid "Reprodutores de áudio"
-msgstr "Ljudspelare"
-
-msgid "Rádio online"
-msgstr "Radio på nätet"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ljudinspelare och ljudomvandlare"
-
-msgid "Editores de áudio"
-msgstr "Ljudredaktörer"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Video på nätet, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoredigerare och kompressorer"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- och DVD-inspelare och kopiatorer"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webbkamera, skärminspelning och videoströmning"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Navegadores"
-msgstr "Webbläsare"
-
-msgid "E-mail"
-msgstr "E-post"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Molnlagring"
-
-msgid "Download"
-msgstr "Ladda ner"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Delare och Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Budbärare och konferenser"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Fjärråtkomst, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Nätverksverktyg"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Nyheter, flöden och RSS"
-
-msgid "Escritório"
-msgstr "Kontor"
-
-msgid "Suíte Office"
-msgstr "Office Suite"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, e-boksvisare med mera"
-
-msgid "Editores de PDF"
-msgstr "PDF-redigerare"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Kalender med uppgifter och kontakter"
-
-msgid "Gráficos"
-msgstr "Grafik"
-
-msgid "Visualizadores de imagem"
-msgstr "Bildvisare"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Bildredigerare och ritverktyg"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Skärmdump"
-
-msgid "Multimídia"
-msgstr "Multimedia"
-
-msgid "Jogos"
-msgstr "Spel"
-
-msgid "Gerenciadores de jogos"
-msgstr "Spelansvariga"
-
-msgid "Utilitários para jogos"
-msgstr "Spelverktyg"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch-emulator"
-
-msgid "Emuladores"
-msgstr "Emulatorer"
-
-msgid "Criadores de jogos"
-msgstr "Spelutvecklare"
-
-msgid "Ação/Arcade"
-msgstr "Action/Arcade"
-
-msgid "Cartas"
-msgstr "Brev"
-
-msgid "Educacional"
-msgstr "Utbildning"
-
-msgid "Estratégia"
-msgstr "Strategi"
-
-msgid "Puzzles"
-msgstr "Pussel"
-
-msgid "Tabuleiro"
-msgstr "Styrelse"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Övriga"
-
-msgid "Sistema"
-msgstr "System"
-
-msgid "Desenvolvimento"
-msgstr "Utveckling"
-
-msgid "Editores de código e IDE"
-msgstr "Kodredigerare och IDE:er"
-
-msgid "Banco de dados"
-msgstr "Databas"
-
-msgid "Servidores WEB"
-msgstr "WEB-servrar"
-
-msgid "Programas Nativos"
-msgstr "Inhemska program"
-
-msgid "Programas AUR"
-msgstr "AUR-programmen"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak-program"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Installerade Snap-paket klicka på paketet som du vill ta bort"
-
-msgid "Cancelar"
-msgstr "Avbryt"
-
-msgid "Fechar"
-msgstr "Stäng"
-
-msgid "Instalar"
-msgstr "Installera"
-
-msgid "Remover"
-msgstr "Ta bort"
-
-msgid "Versão: "
-msgstr "Version "
-
-msgid "Pacote: "
-msgstr "Paket "
-
-msgid "Não informada"
-msgstr "Inte informerad"
-
-msgid "Atualizar"
-msgstr "Uppdatera"
-
-msgid "Instalado na partição:"
-msgstr "Installerad på partitionen:"
-
-msgid "Tamanho da partição:"
-msgstr "Partitionsstorlek:"
-
-msgid "Espaço utilizado:"
-msgstr "Utrymme som används:"
-
-msgid "Espaço livre:"
-msgstr "Klart utrymme:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Datum då systemet installerades:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Inhemska paket och AUR"
-
-msgid "Instalados:"
-msgstr "Installerad:"
-
-msgid "Disponíveis:"
-msgstr "Tillgänglig:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak-paket"
-
-msgid "Repositórios configurados:"
-msgstr "Förvaringsarkiv konfigurerade:"
-
-msgid "Pacotes Snap"
-msgstr "Snap-paket"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store är öppen."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Executar"
-msgstr "Kör"
-
-msgid "Pacote:"
-msgstr "Paket:"
-
-msgid "Versão disponível:"
-msgstr "Tillgänglig version:"
-
-msgid "Repositório:"
-msgstr "Förvaringsplats:"
-
-msgid "Categorias"
-msgstr "Kategorier"
-
-msgid "Versão instalada"
-msgstr "Installerad version"
-
-msgid "Versão disponível"
-msgstr "Tillgänglig version"
-
-msgid "Versão"
-msgstr "Version"
-
-msgid "Pacote .deb"
-msgstr ".deb-paketet"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Programmet är i .deb-format, vilket ger den bästa integrationen med systemet."
-
-msgid "Mais informações"
-msgstr "Mer information"
-
-msgid "Voltar"
-msgstr "Tillbaka"
-
-msgid "Dependências a instalar"
-msgstr "Beroenden som ska installeras"
-
-msgid "Ver mais"
-msgstr "Se mer"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Paket med icke uppfyllda beroenden "
-
-msgid "Depende de "
-msgstr "Det beror på "
-
-msgid "mas não vai ser instalado."
-msgstr "men den kommer inte att installeras."
-
-msgid "mas não está disponível"
-msgstr "men den är inte tillgänglig"
 
 msgid ""
 "\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
 msgstr ""
 "\n"
-"De infödda programmen är bättre integrerade i systemet<br>\n"
-"och genomgå fler tester innan de släpps,<br>\n"
-"så det är det bästa alternativet när det program som du<br>\n"
-"finns i mer än en typ av installation.<br>"
+"Visar endast valda program<br>\n"
+"och döljer resultat som är användbara <br>\n"
+"endast för avancerade användare."
 
 msgid ""
 "\n"
@@ -407,6 +73,19 @@ msgstr ""
 
 msgid ""
 "\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"De infödda programmen är bättre integrerade i systemet<br>\n"
+"och genomgå fler tester innan de släpps,<br>\n"
+"så det är det bästa alternativet när det program som du<br>\n"
+"finns i mer än en typ av installation.<br>"
+
+msgid ""
+"\n"
 "Programas Snap, assim como o Flatpak<br>\n"
 "disponibiliza programas para todas as distribuições Linux.<br>\n"
 "Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
@@ -420,102 +99,446 @@ msgstr ""
 "om det program du letar efter endast finns tillgängligt i denna<br>\n"
 "format, använd det."
 
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Visar endast valda program<br>\n"
-"och döljer resultat som är användbara <br>\n"
-"endast för avancerade användare."
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Fjärråtkomst, FTP, SSH, VNC, RDP..."
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Kalender med uppgifter och kontakter"
 
 msgid "Aplicando - Aguarde"
 msgstr "Ansökan - Vänta"
 
-msgid "Procurar programa"
-msgstr "Sök program"
+msgid "Armazenamento e partições"
+msgstr "Förvaring och skiljeväggar"
 
-msgid "Modo Simplificado"
-msgstr "Förenklat läge"
+msgid "Armazenamento nas nuvens"
+msgstr "Molnlagring"
 
-msgid "Nativos"
-msgstr "Infödda"
-
-msgid "Início"
-msgstr "Hem"
-
-msgid "Configurações"
-msgstr "Inställningar"
-
-msgid "Programas Snap"
-msgstr "Snabbprogram"
-
-msgid "Instalando"
-msgstr "Installation av"
-
-msgid "Removendo"
-msgstr "Ta bort"
-
-msgid "Versão disponivel:"
-msgstr "Tillgänglig version:"
-
-msgid "Licença:"
-msgstr "Licens:"
-
-msgid "AUR"
-msgstr "AUR"
-
-msgid "Empacotador:"
-msgstr "Packer:"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "För att Snap-programmen ska visas i systemmenyn loggar du ut och loggar in igen."
-
-msgid "Pacotes"
-msgstr "Paket"
+msgid "Arquivos do pacote:"
+msgstr "Paketfiler:"
 
 msgid "Ativado"
 msgstr "Aktiverad"
 
-msgid "Desativado"
-msgstr "Inaktiverad"
+msgid "Atualizar"
+msgstr "Uppdatera"
 
-msgid "Atualizações"
-msgstr "Uppdateringar"
-
-msgid "Atualizar seu sistema"
-msgstr "Uppdatera ditt system"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"Uppdatera nycklarna till BigLinux-, Manjaro- och Archlinux-förråden. Kom "
+"ihåg att om du har aktiverat kompletterande arkiv måste du lägga till "
+"nycklarna till dessa arkiv igen."
 
 msgid "Atualizar cache dos repositórios nativos"
 msgstr "Uppdatera cacheminnet för inbyggda förvaringsutrymmen"
 
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Snabbare sökning i inbyggda förvaringsutrymmen på servern"
+msgid "Atualizar seu sistema"
+msgstr "Uppdatera ditt system"
 
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Använd följande alternativ med försiktighet"
+msgid "Atualizações"
+msgstr "Uppdateringar"
 
-msgid "Reinstalação"
-msgstr "Ominstallation"
+msgid "Ação/Arcade"
+msgstr "Action/Arcade"
+
+msgid "Banco de dados"
+msgstr "Databas"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store är öppen."
+
+msgid "Cancelar"
+msgstr "Avbryt"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Skärmdump"
+
+msgid "Cartas"
+msgstr "Brev"
+
+msgid "Categorias"
+msgstr "Kategorier"
+
+msgid "Clique aqui para ver os arquivos"
+msgstr "Klicka här för att se arkiven"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Delare och Torrent"
+
+msgid "Complementos:"
+msgstr "Kompletterar:"
+
+msgid "Configurações"
+msgstr "Inställningar"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konvertera, ändra storlek eller komprimera bilder"
+
+msgid "Criadores de jogos"
+msgstr "Spelutvecklare"
+
+msgid "Data de instalação:"
+msgstr "Datum för installation:"
+
+msgid "Data do empacotamento:"
+msgstr "Förpackningsdatum:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Datum då systemet installerades:"
+
+msgid "Depende de "
+msgstr "Det beror på "
+
+msgid "Dependências a instalar"
+msgstr "Beroenden som ska installeras"
+
+msgid "Dependências de instalação:"
+msgstr "Installationsberoenden:"
+
+msgid "Dependências:"
+msgstr "Beroenden:"
+
+msgid "Desativado"
+msgstr "Inaktiverad"
+
+msgid "Desenvolvimento"
+msgstr "Utveckling"
+
+msgid "Disponíveis:"
+msgstr "Tillgänglig:"
+
+msgid "Download"
+msgstr "Ladda ner"
+
+msgid "E-mail"
+msgstr "E-post"
+
+msgid "Editores de PDF"
+msgstr "PDF-redigerare"
+
+msgid "Editores de código e IDE"
+msgstr "Kodredigerare och IDE:er"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Bildredigerare och ritverktyg"
+
+msgid "Editores de áudio"
+msgstr "Ljudredaktörer"
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoredigerare och kompressorer"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- och CAD-redigering"
+
+msgid "Educacional"
+msgstr "Utbildning"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch-emulator"
+
+msgid "Emuladores"
+msgstr "Emulatorer"
+
+msgid "Escritório"
+msgstr "Kontor"
+
+msgid "Espaço livre:"
+msgstr "Klart utrymme:"
+
+msgid "Espaço utilizado:"
+msgstr "Utrymme som används:"
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+"Programmet är i .deb-format, vilket ger den bästa integrationen med systemet."
+
+msgid "Estratégia"
+msgstr "Strategi"
+
+msgid "Executar"
+msgstr "Kör"
+
+msgid "Fechar"
+msgstr "Stäng"
+
+msgid "Ferramentas de rede"
+msgstr "Nätverksverktyg"
+
+msgid "Fontes (Tipografia)"
+msgstr "Typsnitt (typografi)"
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Forcera uppdateringar, använd det här alternativet om du inte kan uppdatera "
+"systemet, men i den forcerade uppdateringen kan vissa program tas bort."
 
 msgid "Forçar reinstalação de todos os pacotes instalados"
 msgstr "Tvinga ominstallation av alla installerade paket"
 
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Uppdatera nycklarna till BigLinux-, Manjaro- och Archlinux-förråden. Kom ihåg att om du har "
-"aktiverat kompletterande arkiv måste du lägga till nycklarna till dessa arkiv igen."
+msgid "Gerenciadores de jogos"
+msgstr "Spelansvariga"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Ljudinspelare och ljudomvandlare"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- och DVD-inspelare och kopiatorer"
+
+msgid "Grupos:"
+msgstr "Grupper:"
+
+msgid "Gráficos"
+msgstr "Grafik"
+
+msgid "Instalado na partição:"
+msgstr "Installerad på partitionen:"
+
+msgid "Instalados:"
+msgstr "Installerad:"
+
+msgid "Instalando"
+msgstr "Installation av"
+
+msgid "Instalar"
+msgstr "Installera"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Início"
+msgstr "Hem"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Jogos"
+msgstr "Spel"
+
+msgid "Licença:"
+msgstr "Licens:"
+
+msgid "Mais informações"
+msgstr "Mer information"
+
+msgid "Mensageiros e Conferências"
+msgstr "Budbärare och konferenser"
+
+msgid "Modo Simplificado"
+msgstr "Förenklat läge"
+
+msgid "Motivo da instalação:"
+msgstr "Anledning till installationen:"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Nativos"
+msgstr "Infödda"
+
+msgid "Navegadores"
+msgstr "Webbläsare"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Nyheter, flöden och RSS"
+
+msgid "Não informada"
+msgstr "Inte informerad"
+
+msgid "Número de votos:"
+msgstr "Antal röster:"
+
+msgid "Outros"
+msgstr "Övriga"
+
+msgid "Pacote .deb"
+msgstr ".deb-paketet"
+
+msgid "Pacote:"
+msgstr "Paket:"
+
+msgid "Pacote: "
+msgstr "Paket "
+
+msgid "Pacotes"
+msgstr "Paket"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak-paket"
+
+msgid "Pacotes Snap"
+msgstr "Snap-paket"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Installerade Snap-paket klicka på paketet som du vill ta bort"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Paket med icke uppfyllda beroenden "
+
+msgid "Pacotes nativos e AUR"
+msgstr "Inhemska paket och AUR"
 
 msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
 msgstr ""
-"Forcera uppdateringar, använd det här alternativet om du inte kan uppdatera systemet, men i den "
-"forcerade uppdateringen kan vissa program tas bort."
+"För att Snap-programmen ska visas i systemmenyn loggar du ut och loggar in "
+"igen."
+
+msgid "Procurar programa"
+msgstr "Sök program"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Snabbare sökning i inbyggda förvaringsutrymmen på servern"
+
+msgid "Programas AUR"
+msgstr "AUR-programmen"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak-program"
+
+msgid "Programas Nativos"
+msgstr "Inhemska program"
+
+msgid "Programas Snap"
+msgstr "Snabbprogram"
+
+msgid "Puzzles"
+msgstr "Pussel"
+
+msgid "Página no AUR:"
+msgstr "AUR-sida:"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Reinstalar"
+msgstr "Återinstallera"
+
+msgid "Reinstalação"
+msgstr "Ominstallation"
+
+msgid "Remove:"
+msgstr "Ta bort:"
+
+msgid "Removendo"
+msgstr "Ta bort"
+
+msgid "Remover"
+msgstr "Ta bort"
+
+msgid "Repositório:"
+msgstr "Förvaringsplats:"
+
+msgid "Repositórios configurados:"
+msgstr "Förvaringsarkiv konfigurerade:"
 
 msgid "Repositórios nativos"
 msgstr "Inhemska förvaringsutrymmen"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videospelare"
+
+msgid "Reprodutores de áudio"
+msgstr "Ljudspelare"
+
+msgid "Rádio online"
+msgstr "Radio på nätet"
+
+msgid "Servidores WEB"
+msgstr "WEB-servrar"
+
+msgid "Sistema"
+msgstr "System"
+
+msgid "Site:"
+msgstr "Webbplats:"
+
+msgid "Substitui:"
+msgstr "Den ersätter:"
+
+msgid "Suíte Office"
+msgstr "Office Suite"
+
+msgid "Tabuleiro"
+msgstr "Styrelse"
+
+msgid "Tamanho da partição:"
+msgstr "Partitionsstorlek:"
+
+msgid "Tamanho do download:"
+msgstr "Storlek för nedladdning:"
+
+msgid "Uso de armazenamento:"
+msgstr "Användning av lagret:"
+
+msgid "Utilitários para jogos"
+msgstr "Spelverktyg"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Använd följande alternativ med försiktighet"
+
+msgid "Ver mais"
+msgstr "Se mer"
+
+msgid "Versão"
+msgstr "Version"
+
+msgid "Versão disponivel:"
+msgstr "Tillgänglig version:"
+
+msgid "Versão disponível"
+msgstr "Tillgänglig version"
+
+msgid "Versão disponível:"
+msgstr "Tillgänglig version:"
+
+msgid "Versão instalada"
+msgstr "Installerad version"
+
+msgid "Versão instalada:"
+msgstr "Installerad version:"
+
+msgid "Versão: "
+msgstr "Version "
+
+msgid "Virtualização"
+msgstr "Virtualisering"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, e-boksvisare med mera"
+
+msgid "Visualizadores de imagem"
+msgstr "Bildvisare"
+
+msgid "Voltar"
+msgstr "Tillbaka"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Video på nätet, IPTV, Youtube..."
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webbkamera, skärminspelning och videoströmning"
+
+msgid "mas não está disponível"
+msgstr "men den är inte tillgänglig"
+
+msgid "mas não vai ser instalado."
+msgstr "men den kommer inte att installeras."

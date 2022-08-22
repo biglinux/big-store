@@ -1,0 +1,4 @@
+#!/bin/bash
+
+TMP_FOLDER="/tmp/bigstore"
+grep "^Version " "${TMP_FOLDER}/pacman_pkg_cache.txt" | cut -f2-10 -d: | awk 'NF'

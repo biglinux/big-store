@@ -3,371 +3,37 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: attranslate\n"
-
-msgid "X-Sistema"
-msgstr "X-järjestelmä"
-
-msgid "Armazenamento e partições"
-msgstr "Säilytys ja väliseinät"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisointi"
-
-msgid "Imagem"
-msgstr "Kuva"
-
-msgid "Editores Vetorial"
-msgstr "Vektorieditorit"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Kuva-, valokuvaus- ja piirtoeditorit"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Kuvien muuntaminen, koon muuttaminen tai pakkaaminen"
-
-msgid "Plugins"
-msgstr "Laajennukset"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- ja CAD-editointi"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fontit (Typografia)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Sivujen asettelu ja organisointi"
-
-msgid "Colorização e palheta de cores"
-msgstr "Väritys ja väripaletti"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videon editorit"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videosoittimet"
-
-msgid "Animação e 2D"
-msgstr "Animaatio ja 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Näyttökuva ja videon lataus"
-
-msgid "Stream/transmissão online"
-msgstr "Suoratoista/suoratoista verkossa"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videomuuntimet ja TALLENTAVAT CD/DVD-levyt"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Äänisoittimet"
-
-msgid "Rádio online"
-msgstr "Nettiradio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ääninauhurit ja muuntimet"
-
-msgid "Editores de áudio"
-msgstr "Äänileikkaajat"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Verkkovideo, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoeditorit ja kompressorit"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- ja DVD-tallentimet ja kopiokoneet"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webkamera, näytön tallennus ja videon suoratoisto"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Navegadores"
-msgstr "Selaimet"
-
-msgid "E-mail"
-msgstr "Sähköposti"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Pilvitallennus"
-
-msgid "Download"
-msgstr "Lataa"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Jakajat ja Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Sanansaattajat ja konferenssit"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Etäkäyttö, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Verkkotyökalut"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Uutiset, syötteet ja RSS"
-
-msgid "Escritório"
-msgstr "Toimisto"
-
-msgid "Suíte Office"
-msgstr "Office Suite"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, e-kirjojen katseluohjelmat ja paljon muuta"
-
-msgid "Editores de PDF"
-msgstr "PDF-editorit"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Tehtävien ja yhteystietojen kalenteri"
-
-msgid "Gráficos"
-msgstr "Grafiikka"
-
-msgid "Visualizadores de imagem"
-msgstr "Kuvan katselijat"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Kuvankäsittelyohjelmat ja piirtotyökalut"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Kuvakaappaus"
-
-msgid "Multimídia"
-msgstr "Multimedia"
-
-msgid "Jogos"
-msgstr "Pelit"
-
-msgid "Gerenciadores de jogos"
-msgstr "Pelinjohtajat"
-
-msgid "Utilitários para jogos"
-msgstr "Pelin apuohjelmat"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch emulaattori"
-
-msgid "Emuladores"
-msgstr "Emulaattorit"
-
-msgid "Criadores de jogos"
-msgstr "Pelinkehittäjät"
-
-msgid "Ação/Arcade"
-msgstr "Toiminta/Arcade"
-
-msgid "Cartas"
-msgstr "Kirjeet"
-
-msgid "Educacional"
-msgstr "Koulutus"
-
-msgid "Estratégia"
-msgstr "Strategia"
-
-msgid "Puzzles"
-msgstr "Palapelit"
-
-msgid "Tabuleiro"
-msgstr "Hallitus"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Muut"
-
-msgid "Sistema"
-msgstr "Järjestelmä"
-
-msgid "Desenvolvimento"
-msgstr "Kehitys"
-
-msgid "Editores de código e IDE"
-msgstr "Koodieditorit ja IDE:t"
-
-msgid "Banco de dados"
-msgstr "Tietokanta"
-
-msgid "Servidores WEB"
-msgstr "WEB-palvelimet"
-
-msgid "Programas Nativos"
-msgstr "Kotimaiset ohjelmat"
-
-msgid "Programas AUR"
-msgstr "AUR-ohjelmat"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak-ohjelmat"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Asennetut Snap-paketit napsauta poistettavaa pakettia"
-
-msgid "Cancelar"
-msgstr "Peruuta"
-
-msgid "Fechar"
-msgstr "Sulje"
-
-msgid "Instalar"
-msgstr "Asenna"
-
-msgid "Remover"
-msgstr "Poista"
-
-msgid "Versão: "
-msgstr "Versio "
-
-msgid "Pacote: "
-msgstr "Pakkaus "
-
-msgid "Não informada"
-msgstr "Ei tietoa"
-
-msgid "Atualizar"
-msgstr "Päivitys"
-
-msgid "Instalado na partição:"
-msgstr "Asennettu osioon:"
-
-msgid "Tamanho da partição:"
-msgstr "Osion koko:"
-
-msgid "Espaço utilizado:"
-msgstr "Käytetty tila:"
-
-msgid "Espaço livre:"
-msgstr "Tyhjää tilaa:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Järjestelmän asennuspäivämäärä:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Kotimaiset paketit ja AUR"
-
-msgid "Instalados:"
-msgstr "Asennettu:"
-
-msgid "Disponíveis:"
-msgstr "Saatavilla:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak-paketit"
-
-msgid "Repositórios configurados:"
-msgstr "Arkistot määritetty:"
-
-msgid "Pacotes Snap"
-msgstr "Snap-paketit"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store on avoinna."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Executar"
-msgstr "Suorita"
-
-msgid "Pacote:"
-msgstr "Pakkaus:"
-
-msgid "Versão disponível:"
-msgstr "Saatavilla oleva versio:"
-
-msgid "Repositório:"
-msgstr "Säilytyspaikka:"
-
-msgid "Categorias"
-msgstr "Kategoriat"
-
-msgid "Versão instalada"
-msgstr "Asennettu versio"
-
-msgid "Versão disponível"
-msgstr "Saatavilla oleva versio"
-
-msgid "Versão"
-msgstr "Versio"
-
-msgid "Pacote .deb"
-msgstr ".deb-paketti"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Tämä ohjelma on .deb-muodossa, joka integroituu parhaiten järjestelmään."
-
-msgid "Mais informações"
-msgstr "Lisätietoja"
-
-msgid "Voltar"
-msgstr "Takaisin"
-
-msgid "Dependências a instalar"
-msgstr "Asennettavat riippuvuudet"
-
-msgid "Ver mais"
-msgstr "Katso lisää"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Paketit, joiden riippuvuudet ovat täyttämättä "
-
-msgid "Depende de "
-msgstr "Se riippuu "
-
-msgid "mas não vai ser instalado."
-msgstr "mutta sitä ei asenneta."
-
-msgid "mas não está disponível"
-msgstr "mutta se ei ole saatavilla"
 
 msgid ""
 "\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
 msgstr ""
 "\n"
-"Kotimaiset ohjelmat on integroitu paremmin järjestelmään<br>\n"
-"ja käyvät läpi lisää testejä ennen kuin ne julkaistaan,<br>\n"
-"joten se on paras vaihtoehto, kun ohjelma, jota käytät<br>\n"
-"on saatavilla useammassa kuin yhdessä asennustyypissä.<br>"
+"Näyttää vain valitut ohjelmat<br>\n"
+"ja piilottaa hyödylliset tulokset <br>\n"
+"vain edistyneille käyttäjille."
 
 msgid ""
 "\n"
@@ -400,10 +66,24 @@ msgstr ""
 "Flatpak-ohjelmat ovat saatavilla kaikkiin Linux-jakeluihin<br>\n"
 "linux-jakeluja, ylläpidetään yleensä ohjelmalla<br>\n"
 "luojien ohjelmien, mutta ei ole joitakin<br>\n"
-"optimoinnit ja integroinnit järjestelmään, kuten tapahtuu, kun kyseessä on<br>\n"
+"optimoinnit ja integroinnit järjestelmään, kuten tapahtuu, kun kyseessä "
+"on<br>\n"
 "natiivit ohjelmat, tämä voi olla hyvä vaihtoehto<br>\n"
 "niille, joilla on tietokoneet, joissa on hyvä kapasiteetti<br>\n"
 "käsittely- ja varastointikapasiteetti."
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"Kotimaiset ohjelmat on integroitu paremmin järjestelmään<br>\n"
+"ja käyvät läpi lisää testejä ennen kuin ne julkaistaan,<br>\n"
+"joten se on paras vaihtoehto, kun ohjelma, jota käytät<br>\n"
+"on saatavilla useammassa kuin yhdessä asennustyypissä.<br>"
 
 msgid ""
 "\n"
@@ -420,102 +100,447 @@ msgstr ""
 "jos etsimäsi ohjelma on saatavilla vain tässä osoitteessa<br>\n"
 "muodossa, käytä sitä."
 
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Näyttää vain valitut ohjelmat<br>\n"
-"ja piilottaa hyödylliset tulokset <br>\n"
-"vain edistyneille käyttäjille."
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Etäkäyttö, FTP, SSH, VNC, RDP..."
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Tehtävien ja yhteystietojen kalenteri"
 
 msgid "Aplicando - Aguarde"
 msgstr "Hakemuksen tekeminen - Odota"
 
-msgid "Procurar programa"
-msgstr "Hakuohjelma"
+msgid "Armazenamento e partições"
+msgstr "Säilytys ja väliseinät"
 
-msgid "Modo Simplificado"
-msgstr "Yksinkertaistettu tila"
+msgid "Armazenamento nas nuvens"
+msgstr "Pilvitallennus"
 
-msgid "Nativos"
-msgstr "Alkuperäiskansat"
-
-msgid "Início"
-msgstr "Etusivu"
-
-msgid "Configurações"
-msgstr "Asetukset"
-
-msgid "Programas Snap"
-msgstr "Snap-ohjelmat"
-
-msgid "Instalando"
-msgstr "Asennus"
-
-msgid "Removendo"
-msgstr "Poistaminen"
-
-msgid "Versão disponivel:"
-msgstr "Saatavilla oleva versio:"
-
-msgid "Licença:"
-msgstr "Lisenssi:"
-
-msgid "AUR"
-msgstr "AUR"
-
-msgid "Empacotador:"
-msgstr "Packer:"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Jotta Snap-ohjelmat näkyvät järjestelmävalikossa, kirjaudu ulos ja kirjaudu takaisin sisään."
-
-msgid "Pacotes"
-msgstr "Paketit"
+msgid "Arquivos do pacote:"
+msgstr "Pakettitiedostot:"
 
 msgid "Ativado"
 msgstr "Aktivoitu"
 
-msgid "Desativado"
-msgstr "Vammaiset"
+msgid "Atualizar"
+msgstr "Päivitys"
 
-msgid "Atualizações"
-msgstr "Päivitykset"
-
-msgid "Atualizar seu sistema"
-msgstr "Päivitä järjestelmäsi"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"Päivitä BigLinux-, Manjaro- ja Archlinux-tietovarastojen avaimet. Muista, "
+"että jos olet aktivoinut täydentäviä arkistoja, sinun on lisättävä näiden "
+"arkistojen avaimet uudelleen."
 
 msgid "Atualizar cache dos repositórios nativos"
 msgstr "Päivitä natiivien arkistojen välimuisti"
 
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Nopeampi haku natiivien arkistojen palvelimelta"
+msgid "Atualizar seu sistema"
+msgstr "Päivitä järjestelmäsi"
 
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Käytä seuraavia vaihtoehtoja varoen"
+msgid "Atualizações"
+msgstr "Päivitykset"
 
-msgid "Reinstalação"
-msgstr "Uudelleenasennus"
+msgid "Ação/Arcade"
+msgstr "Toiminta/Arcade"
+
+msgid "Banco de dados"
+msgstr "Tietokanta"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store on avoinna."
+
+msgid "Cancelar"
+msgstr "Peruuta"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Kuvakaappaus"
+
+msgid "Cartas"
+msgstr "Kirjeet"
+
+msgid "Categorias"
+msgstr "Kategoriat"
+
+msgid "Clique aqui para ver os arquivos"
+msgstr "Klikkaa tästä nähdäksesi arkistot"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Jakajat ja Torrent"
+
+msgid "Complementos:"
+msgstr "Täydentää:"
+
+msgid "Configurações"
+msgstr "Asetukset"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Kuvien muuntaminen, koon muuttaminen tai pakkaaminen"
+
+msgid "Criadores de jogos"
+msgstr "Pelinkehittäjät"
+
+msgid "Data de instalação:"
+msgstr "Asennuspäivämäärä:"
+
+msgid "Data do empacotamento:"
+msgstr "Pakkauspäivä:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Järjestelmän asennuspäivämäärä:"
+
+msgid "Depende de "
+msgstr "Se riippuu "
+
+msgid "Dependências a instalar"
+msgstr "Asennettavat riippuvuudet"
+
+msgid "Dependências de instalação:"
+msgstr "Asennusriippuvuudet:"
+
+msgid "Dependências:"
+msgstr "Riippuvuudet:"
+
+msgid "Desativado"
+msgstr "Vammaiset"
+
+msgid "Desenvolvimento"
+msgstr "Kehitys"
+
+msgid "Disponíveis:"
+msgstr "Saatavilla:"
+
+msgid "Download"
+msgstr "Lataa"
+
+msgid "E-mail"
+msgstr "Sähköposti"
+
+msgid "Editores de PDF"
+msgstr "PDF-editorit"
+
+msgid "Editores de código e IDE"
+msgstr "Koodieditorit ja IDE:t"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Kuvankäsittelyohjelmat ja piirtotyökalut"
+
+msgid "Editores de áudio"
+msgstr "Äänileikkaajat"
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoeditorit ja kompressorit"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- ja CAD-editointi"
+
+msgid "Educacional"
+msgstr "Koulutus"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch emulaattori"
+
+msgid "Emuladores"
+msgstr "Emulaattorit"
+
+msgid "Escritório"
+msgstr "Toimisto"
+
+msgid "Espaço livre:"
+msgstr "Tyhjää tilaa:"
+
+msgid "Espaço utilizado:"
+msgstr "Käytetty tila:"
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+"Tämä ohjelma on .deb-muodossa, joka integroituu parhaiten järjestelmään."
+
+msgid "Estratégia"
+msgstr "Strategia"
+
+msgid "Executar"
+msgstr "Suorita"
+
+msgid "Fechar"
+msgstr "Sulje"
+
+msgid "Ferramentas de rede"
+msgstr "Verkkotyökalut"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fontit (Typografia)"
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Pakota päivitykset, käytä tätä vaihtoehtoa, jos et pysty päivittämään "
+"järjestelmää, mutta pakotetussa päivityksessä joitakin ohjelmia saatetaan "
+"poistaa."
 
 msgid "Forçar reinstalação de todos os pacotes instalados"
 msgstr "Pakota kaikkien asennettujen pakettien uudelleenasennus"
 
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Päivitä BigLinux-, Manjaro- ja Archlinux-tietovarastojen avaimet. Muista, että jos olet aktivoinut "
-"täydentäviä arkistoja, sinun on lisättävä näiden arkistojen avaimet uudelleen."
+msgid "Gerenciadores de jogos"
+msgstr "Pelinjohtajat"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Ääninauhurit ja muuntimet"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- ja DVD-tallentimet ja kopiokoneet"
+
+msgid "Grupos:"
+msgstr "Ryhmät:"
+
+msgid "Gráficos"
+msgstr "Grafiikka"
+
+msgid "Instalado na partição:"
+msgstr "Asennettu osioon:"
+
+msgid "Instalados:"
+msgstr "Asennettu:"
+
+msgid "Instalando"
+msgstr "Asennus"
+
+msgid "Instalar"
+msgstr "Asenna"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Início"
+msgstr "Etusivu"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Jogos"
+msgstr "Pelit"
+
+msgid "Licença:"
+msgstr "Lisenssi:"
+
+msgid "Mais informações"
+msgstr "Lisätietoja"
+
+msgid "Mensageiros e Conferências"
+msgstr "Sanansaattajat ja konferenssit"
+
+msgid "Modo Simplificado"
+msgstr "Yksinkertaistettu tila"
+
+msgid "Motivo da instalação:"
+msgstr "Asennuksen syy:"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Nativos"
+msgstr "Alkuperäiskansat"
+
+msgid "Navegadores"
+msgstr "Selaimet"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Uutiset, syötteet ja RSS"
+
+msgid "Não informada"
+msgstr "Ei tietoa"
+
+msgid "Número de votos:"
+msgstr "Äänten määrä:"
+
+msgid "Outros"
+msgstr "Muut"
+
+msgid "Pacote .deb"
+msgstr ".deb-paketti"
+
+msgid "Pacote:"
+msgstr "Pakkaus:"
+
+msgid "Pacote: "
+msgstr "Pakkaus "
+
+msgid "Pacotes"
+msgstr "Paketit"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak-paketit"
+
+msgid "Pacotes Snap"
+msgstr "Snap-paketit"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Asennetut Snap-paketit napsauta poistettavaa pakettia"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Paketit, joiden riippuvuudet ovat täyttämättä "
+
+msgid "Pacotes nativos e AUR"
+msgstr "Kotimaiset paketit ja AUR"
 
 msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
 msgstr ""
-"Pakota päivitykset, käytä tätä vaihtoehtoa, jos et pysty päivittämään järjestelmää, mutta "
-"pakotetussa päivityksessä joitakin ohjelmia saatetaan poistaa."
+"Jotta Snap-ohjelmat näkyvät järjestelmävalikossa, kirjaudu ulos ja kirjaudu "
+"takaisin sisään."
+
+msgid "Procurar programa"
+msgstr "Hakuohjelma"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Nopeampi haku natiivien arkistojen palvelimelta"
+
+msgid "Programas AUR"
+msgstr "AUR-ohjelmat"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak-ohjelmat"
+
+msgid "Programas Nativos"
+msgstr "Kotimaiset ohjelmat"
+
+msgid "Programas Snap"
+msgstr "Snap-ohjelmat"
+
+msgid "Puzzles"
+msgstr "Palapelit"
+
+msgid "Página no AUR:"
+msgstr "AUR-sivu:"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Reinstalar"
+msgstr "Asenna uudelleen"
+
+msgid "Reinstalação"
+msgstr "Uudelleenasennus"
+
+msgid "Remove:"
+msgstr "Poista:"
+
+msgid "Removendo"
+msgstr "Poistaminen"
+
+msgid "Remover"
+msgstr "Poista"
+
+msgid "Repositório:"
+msgstr "Säilytyspaikka:"
+
+msgid "Repositórios configurados:"
+msgstr "Arkistot määritetty:"
 
 msgid "Repositórios nativos"
 msgstr "Kotimaiset arkistot"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videosoittimet"
+
+msgid "Reprodutores de áudio"
+msgstr "Äänisoittimet"
+
+msgid "Rádio online"
+msgstr "Nettiradio"
+
+msgid "Servidores WEB"
+msgstr "WEB-palvelimet"
+
+msgid "Sistema"
+msgstr "Järjestelmä"
+
+msgid "Site:"
+msgstr "Verkkosivusto:"
+
+msgid "Substitui:"
+msgstr "Se korvaa:"
+
+msgid "Suíte Office"
+msgstr "Office Suite"
+
+msgid "Tabuleiro"
+msgstr "Hallitus"
+
+msgid "Tamanho da partição:"
+msgstr "Osion koko:"
+
+msgid "Tamanho do download:"
+msgstr "Lataa koko:"
+
+msgid "Uso de armazenamento:"
+msgstr "Varaston käyttö:"
+
+msgid "Utilitários para jogos"
+msgstr "Pelin apuohjelmat"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Käytä seuraavia vaihtoehtoja varoen"
+
+msgid "Ver mais"
+msgstr "Katso lisää"
+
+msgid "Versão"
+msgstr "Versio"
+
+msgid "Versão disponivel:"
+msgstr "Saatavilla oleva versio:"
+
+msgid "Versão disponível"
+msgstr "Saatavilla oleva versio"
+
+msgid "Versão disponível:"
+msgstr "Saatavilla oleva versio:"
+
+msgid "Versão instalada"
+msgstr "Asennettu versio"
+
+msgid "Versão instalada:"
+msgstr "Asennettu versio:"
+
+msgid "Versão: "
+msgstr "Versio "
+
+msgid "Virtualização"
+msgstr "Virtualisointi"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, e-kirjojen katseluohjelmat ja paljon muuta"
+
+msgid "Visualizadores de imagem"
+msgstr "Kuvan katselijat"
+
+msgid "Voltar"
+msgstr "Takaisin"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Verkkovideo, IPTV, Youtube..."
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, näytön tallennus ja videon suoratoisto"
+
+msgid "mas não está disponível"
+msgstr "mutta se ei ole saatavilla"
+
+msgid "mas não vai ser instalado."
+msgstr "mutta sitä ei asenneta."

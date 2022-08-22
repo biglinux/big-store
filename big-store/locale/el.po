@@ -3,371 +3,37 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
-"X-Generator: attranslate\n"
-
-msgid "X-Sistema"
-msgstr "Σύστημα X"
-
-msgid "Armazenamento e partições"
-msgstr "Αποθήκευση και χωρίσματα"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Εικονικοποίηση"
-
-msgid "Imagem"
-msgstr "Εικόνα"
-
-msgid "Editores Vetorial"
-msgstr "Διανυσματικοί συντάκτες"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Επεξεργαστές εικόνας, φωτογραφίας και σχεδίασης"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Μετατροπή, αλλαγή μεγέθους ή συμπίεση εικόνων"
-
-msgid "Plugins"
-msgstr "Πρόσθετα"
-
-msgid "Edição 3D e CAD"
-msgstr "Επεξεργασία 3D και CAD"
-
-msgid "Fontes (Tipografia)"
-msgstr "Γραμματοσειρές (Τυπογραφία)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Διάταξη και οργάνωση σελίδων"
-
-msgid "Colorização e palheta de cores"
-msgstr "Χρωματισμός και παλέτα χρωμάτων"
-
-msgid "Video"
-msgstr "Βίντεο"
-
-msgid "Editores de video"
-msgstr "Επεξεργαστές βίντεο"
-
-msgid "Reprodutores de vídeo"
-msgstr "Παίκτες βίντεο"
-
-msgid "Animação e 2D"
-msgstr "Κινούμενα σχέδια και 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Λήψη στιγμιότυπου οθόνης και βίντεο"
-
-msgid "Stream/transmissão online"
-msgstr "Ροή /ροή στο διαδίκτυο"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Μετατροπείς βίντεο και συσκευές εγγραφής CD/DVD"
-
-msgid "Audio"
-msgstr "Ήχου"
-
-msgid "Reprodutores de áudio"
-msgstr "Συσκευές αναπαραγωγής ήχου"
-
-msgid "Rádio online"
-msgstr "Διαδικτυακό ραδιόφωνο"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Συσκευές εγγραφής ήχου και μετατροπείς"
-
-msgid "Editores de áudio"
-msgstr "Συντάκτες ήχου"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Διαδικτυακό βίντεο, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Επεξεργαστές και συμπιεστές βίντεο"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Συσκευές εγγραφής CD και DVD και φωτοαντιγραφικά μηχανήματα"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, καταγραφή οθόνης και ροή βίντεο"
-
-msgid "Internet"
-msgstr "Διαδίκτυο"
-
-msgid "Navegadores"
-msgstr "Φυλλομετρητές"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Αποθήκευση στο σύννεφο"
-
-msgid "Download"
-msgstr "Λήψη"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Μέτοχοι και Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Αγγελιοφόροι και συνέδρια"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Απομακρυσμένη πρόσβαση, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Εργαλεία δικτύου"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Ειδήσεις, τροφοδοσίες και RSS"
-
-msgid "Escritório"
-msgstr "Γραφείο"
-
-msgid "Suíte Office"
-msgstr "Σουίτα γραφείου"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, προγράμματα προβολής ηλεκτρονικών βιβλίων και πολλά άλλα"
-
-msgid "Editores de PDF"
-msgstr "Εκδότες PDF"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Ημερολόγιο εργασιών και επαφών"
-
-msgid "Gráficos"
-msgstr "Γραφικά"
-
-msgid "Visualizadores de imagem"
-msgstr "Θεατές εικόνας"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Επεξεργαστές εικόνας και εργαλεία σχεδίασης"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Στιγμιότυπο"
-
-msgid "Multimídia"
-msgstr "Πολυμέσα"
-
-msgid "Jogos"
-msgstr "Παιχνίδια"
-
-msgid "Gerenciadores de jogos"
-msgstr "Διαχειριστές παιχνιδιών"
-
-msgid "Utilitários para jogos"
-msgstr "Βοηθητικά προγράμματα παιχνιδιού"
-
-msgid "Emulador Retroarch"
-msgstr "Εξομοιωτής Retroarch"
-
-msgid "Emuladores"
-msgstr "Εξομοιωτές"
-
-msgid "Criadores de jogos"
-msgstr "Προγραμματιστές παιχνιδιών"
-
-msgid "Ação/Arcade"
-msgstr "Δράση / Arcade"
-
-msgid "Cartas"
-msgstr "Επιστολές"
-
-msgid "Educacional"
-msgstr "Εκπαιδευτικό"
-
-msgid "Estratégia"
-msgstr "Στρατηγική"
-
-msgid "Puzzles"
-msgstr "Παζλ"
-
-msgid "Tabuleiro"
-msgstr "Συμβούλιο"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Άλλα"
-
-msgid "Sistema"
-msgstr "Σύστημα"
-
-msgid "Desenvolvimento"
-msgstr "Ανάπτυξη"
-
-msgid "Editores de código e IDE"
-msgstr "Επεξεργαστές κώδικα και IDEs"
-
-msgid "Banco de dados"
-msgstr "Βάση δεδομένων"
-
-msgid "Servidores WEB"
-msgstr "WEB Servers"
-
-msgid "Programas Nativos"
-msgstr "Ντόπια προγράμματα"
-
-msgid "Programas AUR"
-msgstr "Προγράμματα AUR"
-
-msgid "Programas Flatpak"
-msgstr "Προγράμματα Flatpak"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Εγκατεστημένα πακέτα Snap κάντε κλικ στο πακέτο που θέλετε να αφαιρέσετε"
-
-msgid "Cancelar"
-msgstr "Ακύρωση"
-
-msgid "Fechar"
-msgstr "Κλείστε το"
-
-msgid "Instalar"
-msgstr "Εγκαταστήστε το"
-
-msgid "Remover"
-msgstr "Αφαιρέστε το"
-
-msgid "Versão: "
-msgstr "Έκδοση "
-
-msgid "Pacote: "
-msgstr "Συσκευασία "
-
-msgid "Não informada"
-msgstr "Δεν έχει ενημερωθεί"
-
-msgid "Atualizar"
-msgstr "Ενημέρωση"
-
-msgid "Instalado na partição:"
-msgstr "Εγκατεστημένο στο διαμέρισμα:"
-
-msgid "Tamanho da partição:"
-msgstr "Μέγεθος διαμερίσματος:"
-
-msgid "Espaço utilizado:"
-msgstr "Χώρος που χρησιμοποιείται:"
-
-msgid "Espaço livre:"
-msgstr "Ελεύθερος χώρος:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Ημερομηνία εγκατάστασης του συστήματος:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Εγχώρια πακέτα και AUR"
-
-msgid "Instalados:"
-msgstr "Εγκαταστάθηκε:"
-
-msgid "Disponíveis:"
-msgstr "Διαθέσιμο:"
-
-msgid "Pacotes Flatpak"
-msgstr "Πακέτα Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Ρυθμισμένα αποθετήρια:"
-
-msgid "Pacotes Snap"
-msgstr "Πακέτα Snap"
-
-msgid "Big-Store está aberta."
-msgstr "Το Big-Store είναι ανοιχτό."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Executar"
-msgstr "Εκτέλεση"
-
-msgid "Pacote:"
-msgstr "Συσκευασία:"
-
-msgid "Versão disponível:"
-msgstr "Διαθέσιμη έκδοση:"
-
-msgid "Repositório:"
-msgstr "Αποθετήριο:"
-
-msgid "Categorias"
-msgstr "Κατηγορίες"
-
-msgid "Versão instalada"
-msgstr "Εγκατεστημένη έκδοση"
-
-msgid "Versão disponível"
-msgstr "Διαθέσιμη έκδοση"
-
-msgid "Versão"
-msgstr "Έκδοση"
-
-msgid "Pacote .deb"
-msgstr ".deb πακέτο"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Αυτό το πρόγραμμα είναι σε μορφή .deb, η οποία έχει την καλύτερη ενσωμάτωση με το σύστημα."
-
-msgid "Mais informações"
-msgstr "Περισσότερες πληροφορίες"
-
-msgid "Voltar"
-msgstr "Πίσω"
-
-msgid "Dependências a instalar"
-msgstr "Εξαρτήσεις προς εγκατάσταση"
-
-msgid "Ver mais"
-msgstr "Δείτε περισσότερα"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Πακέτα με ανεκπλήρωτες εξαρτήσεις "
-
-msgid "Depende de "
-msgstr "Εξαρτάται από "
-
-msgid "mas não vai ser instalado."
-msgstr "αλλά δεν θα εγκατασταθεί."
-
-msgid "mas não está disponível"
-msgstr "αλλά δεν είναι διαθέσιμο"
 
 msgid ""
 "\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
 msgstr ""
 "\n"
-"Τα γηγενή προγράμματα ενσωματώνονται καλύτερα στο σύστημα<br>\n"
-"και να περάσουν από περισσότερες δοκιμές πριν κυκλοφορήσουν,<br>\n"
-"έτσι είναι η καλύτερη επιλογή όταν το πρόγραμμα που<br>\n"
-"διατίθεται σε περισσότερους από έναν τύπους εγκατάστασης.<br>"
+"Εμφανίζει μόνο επιλεγμένα προγράμματα<br>\n"
+"και αποκρύπτει τα αποτελέσματα που είναι χρήσιμα <br>\n"
+"μόνο για προχωρημένους χρήστες."
 
 msgid ""
 "\n"
@@ -407,6 +73,19 @@ msgstr ""
 
 msgid ""
 "\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"Τα γηγενή προγράμματα ενσωματώνονται καλύτερα στο σύστημα<br>\n"
+"και να περάσουν από περισσότερες δοκιμές πριν κυκλοφορήσουν,<br>\n"
+"έτσι είναι η καλύτερη επιλογή όταν το πρόγραμμα που<br>\n"
+"διατίθεται σε περισσότερους από έναν τύπους εγκατάστασης.<br>"
+
+msgid ""
+"\n"
 "Programas Snap, assim como o Flatpak<br>\n"
 "disponibiliza programas para todas as distribuições Linux.<br>\n"
 "Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
@@ -420,103 +99,449 @@ msgstr ""
 "αν το πρόγραμμα που αναζητάτε είναι διαθέσιμο μόνο σε αυτό το<br>\n"
 "μορφή, χρησιμοποιήστε την."
 
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Εμφανίζει μόνο επιλεγμένα προγράμματα<br>\n"
-"και αποκρύπτει τα αποτελέσματα που είναι χρήσιμα <br>\n"
-"μόνο για προχωρημένους χρήστες."
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Απομακρυσμένη πρόσβαση, FTP, SSH, VNC, RDP..."
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Ημερολόγιο εργασιών και επαφών"
 
 msgid "Aplicando - Aguarde"
 msgstr "Εφαρμογή - Παρακαλώ περιμένετε"
 
-msgid "Procurar programa"
-msgstr "Πρόγραμμα αναζήτησης"
+msgid "Armazenamento e partições"
+msgstr "Αποθήκευση και χωρίσματα"
 
-msgid "Modo Simplificado"
-msgstr "Απλοποιημένη λειτουργία"
+msgid "Armazenamento nas nuvens"
+msgstr "Αποθήκευση στο σύννεφο"
 
-msgid "Nativos"
-msgstr "Ντόπιοι"
-
-msgid "Início"
-msgstr "Αρχική σελίδα"
-
-msgid "Configurações"
-msgstr "Ρυθμίσεις"
-
-msgid "Programas Snap"
-msgstr "Προγράμματα Snap"
-
-msgid "Instalando"
-msgstr "Εγκατάσταση του"
-
-msgid "Removendo"
-msgstr "Αφαίρεση του"
-
-msgid "Versão disponivel:"
-msgstr "Διαθέσιμη έκδοση:"
-
-msgid "Licença:"
-msgstr "Άδεια:"
-
-msgid "AUR"
-msgstr "AUR"
-
-msgid "Empacotador:"
-msgstr "Packer:"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Για να εμφανιστούν τα προγράμματα Snap στο μενού του συστήματος, αποσυνδεθείτε και συνδεθείτε ξανά."
-
-msgid "Pacotes"
-msgstr "Πακέτα"
+msgid "Arquivos do pacote:"
+msgstr "Αρχεία πακέτων:"
 
 msgid "Ativado"
 msgstr "Ενεργοποιημένο"
 
-msgid "Desativado"
-msgstr "Άτομα με ειδικές ανάγκες"
+msgid "Atualizar"
+msgstr "Ενημέρωση"
 
-msgid "Atualizações"
-msgstr "Ενημερώσεις"
-
-msgid "Atualizar seu sistema"
-msgstr "Ενημερώστε το σύστημά σας"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"Ενημερώστε τα κλειδιά των αποθετηρίων BigLinux, Manjaro και Archlinux. "
+"Θυμηθείτε ότι αν έχετε ενεργοποιήσει συμπληρωματικά αποθετήρια θα πρέπει να "
+"προσθέσετε ξανά τα κλειδιά αυτών των αποθετηρίων."
 
 msgid "Atualizar cache dos repositórios nativos"
 msgstr "Ενημέρωση κρυφής μνήμης εγγενών αποθετηρίων"
 
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Γρηγορότερη αναζήτηση εγγενών αποθετηρίων διακομιστή"
+msgid "Atualizar seu sistema"
+msgstr "Ενημερώστε το σύστημά σας"
 
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Χρησιμοποιήστε τις ακόλουθες επιλογές με προσοχή"
+msgid "Atualizações"
+msgstr "Ενημερώσεις"
 
-msgid "Reinstalação"
-msgstr "Επανεγκατάσταση"
+msgid "Ação/Arcade"
+msgstr "Δράση / Arcade"
+
+msgid "Banco de dados"
+msgstr "Βάση δεδομένων"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Big-Store está aberta."
+msgstr "Το Big-Store είναι ανοιχτό."
+
+msgid "Cancelar"
+msgstr "Ακύρωση"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Στιγμιότυπο"
+
+msgid "Cartas"
+msgstr "Επιστολές"
+
+msgid "Categorias"
+msgstr "Κατηγορίες"
+
+msgid "Clique aqui para ver os arquivos"
+msgstr "Κάντε κλικ εδώ για να δείτε τα αρχεία"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Μέτοχοι και Torrent"
+
+msgid "Complementos:"
+msgstr "Συμπληρώνει:"
+
+msgid "Configurações"
+msgstr "Ρυθμίσεις"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Μετατροπή, αλλαγή μεγέθους ή συμπίεση εικόνων"
+
+msgid "Criadores de jogos"
+msgstr "Προγραμματιστές παιχνιδιών"
+
+msgid "Data de instalação:"
+msgstr "Ημερομηνία εγκατάστασης:"
+
+msgid "Data do empacotamento:"
+msgstr "Ημερομηνία συσκευασίας:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Ημερομηνία εγκατάστασης του συστήματος:"
+
+msgid "Depende de "
+msgstr "Εξαρτάται από "
+
+msgid "Dependências a instalar"
+msgstr "Εξαρτήσεις προς εγκατάσταση"
+
+msgid "Dependências de instalação:"
+msgstr "Εξαρτήσεις εγκατάστασης:"
+
+msgid "Dependências:"
+msgstr "Εξαρτήσεις:"
+
+msgid "Desativado"
+msgstr "Άτομα με ειδικές ανάγκες"
+
+msgid "Desenvolvimento"
+msgstr "Ανάπτυξη"
+
+msgid "Disponíveis:"
+msgstr "Διαθέσιμο:"
+
+msgid "Download"
+msgstr "Λήψη"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Editores de PDF"
+msgstr "Εκδότες PDF"
+
+msgid "Editores de código e IDE"
+msgstr "Επεξεργαστές κώδικα και IDEs"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Επεξεργαστές εικόνας και εργαλεία σχεδίασης"
+
+msgid "Editores de áudio"
+msgstr "Συντάκτες ήχου"
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Επεξεργαστές και συμπιεστές βίντεο"
+
+msgid "Edição 3D e CAD"
+msgstr "Επεξεργασία 3D και CAD"
+
+msgid "Educacional"
+msgstr "Εκπαιδευτικό"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Emulador Retroarch"
+msgstr "Εξομοιωτής Retroarch"
+
+msgid "Emuladores"
+msgstr "Εξομοιωτές"
+
+msgid "Escritório"
+msgstr "Γραφείο"
+
+msgid "Espaço livre:"
+msgstr "Ελεύθερος χώρος:"
+
+msgid "Espaço utilizado:"
+msgstr "Χώρος που χρησιμοποιείται:"
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+"Αυτό το πρόγραμμα είναι σε μορφή .deb, η οποία έχει την καλύτερη ενσωμάτωση "
+"με το σύστημα."
+
+msgid "Estratégia"
+msgstr "Στρατηγική"
+
+msgid "Executar"
+msgstr "Εκτέλεση"
+
+msgid "Fechar"
+msgstr "Κλείστε το"
+
+msgid "Ferramentas de rede"
+msgstr "Εργαλεία δικτύου"
+
+msgid "Fontes (Tipografia)"
+msgstr "Γραμματοσειρές (Τυπογραφία)"
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Αναγκαστική ενημέρωση, χρησιμοποιήστε αυτή την επιλογή εάν δεν μπορείτε να "
+"ενημερώσετε το σύστημα, ωστόσο, κατά την αναγκαστική ενημέρωση ενδέχεται να "
+"αφαιρεθούν ορισμένα προγράμματα."
 
 msgid "Forçar reinstalação de todos os pacotes instalados"
 msgstr "Αναγκαστική επανεγκατάσταση όλων των εγκατεστημένων πακέτων"
 
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgid "Gerenciadores de jogos"
+msgstr "Διαχειριστές παιχνιδιών"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Συσκευές εγγραφής ήχου και μετατροπείς"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Συσκευές εγγραφής CD και DVD και φωτοαντιγραφικά μηχανήματα"
+
+msgid "Grupos:"
+msgstr "Ομάδες:"
+
+msgid "Gráficos"
+msgstr "Γραφικά"
+
+msgid "Instalado na partição:"
+msgstr "Εγκατεστημένο στο διαμέρισμα:"
+
+msgid "Instalados:"
+msgstr "Εγκαταστάθηκε:"
+
+msgid "Instalando"
+msgstr "Εγκατάσταση του"
+
+msgid "Instalar"
+msgstr "Εγκαταστήστε το"
+
+msgid "Internet"
+msgstr "Διαδίκτυο"
+
+msgid "Início"
+msgstr "Αρχική σελίδα"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Jogos"
+msgstr "Παιχνίδια"
+
+msgid "Licença:"
+msgstr "Άδεια:"
+
+msgid "Mais informações"
+msgstr "Περισσότερες πληροφορίες"
+
+msgid "Mensageiros e Conferências"
+msgstr "Αγγελιοφόροι και συνέδρια"
+
+msgid "Modo Simplificado"
+msgstr "Απλοποιημένη λειτουργία"
+
+msgid "Motivo da instalação:"
+msgstr "Λόγος εγκατάστασης:"
+
+msgid "Multimídia"
+msgstr "Πολυμέσα"
+
+msgid "Nativos"
+msgstr "Ντόπιοι"
+
+msgid "Navegadores"
+msgstr "Φυλλομετρητές"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Ειδήσεις, τροφοδοσίες και RSS"
+
+msgid "Não informada"
+msgstr "Δεν έχει ενημερωθεί"
+
+msgid "Número de votos:"
+msgstr "Αριθμός ψήφων:"
+
+msgid "Outros"
+msgstr "Άλλα"
+
+msgid "Pacote .deb"
+msgstr ".deb πακέτο"
+
+msgid "Pacote:"
+msgstr "Συσκευασία:"
+
+msgid "Pacote: "
+msgstr "Συσκευασία "
+
+msgid "Pacotes"
+msgstr "Πακέτα"
+
+msgid "Pacotes Flatpak"
+msgstr "Πακέτα Flatpak"
+
+msgid "Pacotes Snap"
+msgstr "Πακέτα Snap"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr ""
-"Ενημερώστε τα κλειδιά των αποθετηρίων BigLinux, Manjaro και Archlinux. Θυμηθείτε ότι αν έχετε "
-"ενεργοποιήσει συμπληρωματικά αποθετήρια θα πρέπει να προσθέσετε ξανά τα κλειδιά αυτών των "
-"αποθετηρίων."
+"Εγκατεστημένα πακέτα Snap κάντε κλικ στο πακέτο που θέλετε να αφαιρέσετε"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Πακέτα με ανεκπλήρωτες εξαρτήσεις "
+
+msgid "Pacotes nativos e AUR"
+msgstr "Εγχώρια πακέτα και AUR"
 
 msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
 msgstr ""
-"Αναγκαστική ενημέρωση, χρησιμοποιήστε αυτή την επιλογή εάν δεν μπορείτε να ενημερώσετε το σύστημα, "
-"ωστόσο, κατά την αναγκαστική ενημέρωση ενδέχεται να αφαιρεθούν ορισμένα προγράμματα."
+"Για να εμφανιστούν τα προγράμματα Snap στο μενού του συστήματος, "
+"αποσυνδεθείτε και συνδεθείτε ξανά."
+
+msgid "Procurar programa"
+msgstr "Πρόγραμμα αναζήτησης"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Γρηγορότερη αναζήτηση εγγενών αποθετηρίων διακομιστή"
+
+msgid "Programas AUR"
+msgstr "Προγράμματα AUR"
+
+msgid "Programas Flatpak"
+msgstr "Προγράμματα Flatpak"
+
+msgid "Programas Nativos"
+msgstr "Ντόπια προγράμματα"
+
+msgid "Programas Snap"
+msgstr "Προγράμματα Snap"
+
+msgid "Puzzles"
+msgstr "Παζλ"
+
+msgid "Página no AUR:"
+msgstr "Σελίδα AUR:"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Reinstalar"
+msgstr "Επανεγκαταστήστε το"
+
+msgid "Reinstalação"
+msgstr "Επανεγκατάσταση"
+
+msgid "Remove:"
+msgstr "Αφαιρέστε:"
+
+msgid "Removendo"
+msgstr "Αφαίρεση του"
+
+msgid "Remover"
+msgstr "Αφαιρέστε το"
+
+msgid "Repositório:"
+msgstr "Αποθετήριο:"
+
+msgid "Repositórios configurados:"
+msgstr "Ρυθμισμένα αποθετήρια:"
 
 msgid "Repositórios nativos"
 msgstr "Εγχώρια αποθετήρια"
+
+msgid "Reprodutores de vídeo"
+msgstr "Παίκτες βίντεο"
+
+msgid "Reprodutores de áudio"
+msgstr "Συσκευές αναπαραγωγής ήχου"
+
+msgid "Rádio online"
+msgstr "Διαδικτυακό ραδιόφωνο"
+
+msgid "Servidores WEB"
+msgstr "WEB Servers"
+
+msgid "Sistema"
+msgstr "Σύστημα"
+
+msgid "Site:"
+msgstr "Ιστοσελίδα:"
+
+msgid "Substitui:"
+msgstr "Αντικαθιστά:"
+
+msgid "Suíte Office"
+msgstr "Σουίτα γραφείου"
+
+msgid "Tabuleiro"
+msgstr "Συμβούλιο"
+
+msgid "Tamanho da partição:"
+msgstr "Μέγεθος διαμερίσματος:"
+
+msgid "Tamanho do download:"
+msgstr "Μέγεθος λήψης:"
+
+msgid "Uso de armazenamento:"
+msgstr "Χρήση της αποθήκευσης:"
+
+msgid "Utilitários para jogos"
+msgstr "Βοηθητικά προγράμματα παιχνιδιού"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Χρησιμοποιήστε τις ακόλουθες επιλογές με προσοχή"
+
+msgid "Ver mais"
+msgstr "Δείτε περισσότερα"
+
+msgid "Versão"
+msgstr "Έκδοση"
+
+msgid "Versão disponivel:"
+msgstr "Διαθέσιμη έκδοση:"
+
+msgid "Versão disponível"
+msgstr "Διαθέσιμη έκδοση"
+
+msgid "Versão disponível:"
+msgstr "Διαθέσιμη έκδοση:"
+
+msgid "Versão instalada"
+msgstr "Εγκατεστημένη έκδοση"
+
+msgid "Versão instalada:"
+msgstr "Εγκατεστημένη έκδοση:"
+
+msgid "Versão: "
+msgstr "Έκδοση "
+
+msgid "Virtualização"
+msgstr "Εικονικοποίηση"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, προγράμματα προβολής ηλεκτρονικών βιβλίων και πολλά άλλα"
+
+msgid "Visualizadores de imagem"
+msgstr "Θεατές εικόνας"
+
+msgid "Voltar"
+msgstr "Πίσω"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Διαδικτυακό βίντεο, IPTV, Youtube..."
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, καταγραφή οθόνης και ροή βίντεο"
+
+msgid "mas não está disponível"
+msgstr "αλλά δεν είναι διαθέσιμο"
+
+msgid "mas não vai ser instalado."
+msgstr "αλλά δεν θα εγκατασταθεί."

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+TMP_FOLDER="/tmp/bigstore"
+grep "^Install Reason " "${TMP_FOLDER}/pacman_pkg_cache.txt" | cut -f2 -d:
