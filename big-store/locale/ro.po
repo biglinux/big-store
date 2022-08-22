@@ -3,32 +3,247 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR ORGANIZATION
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 06:12-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
 
-msgid "Big-Store está aberta."
-msgstr "Big-Store este deschis."
+msgid "X-Sistema"
+msgstr "Sistemul X"
 
-msgid "Big-Store"
-msgstr "Big-Store"
+msgid "Armazenamento e partições"
+msgstr "Depozitare și partiții"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizare"
+
+msgid "Imagem"
+msgstr "Imagine"
+
+msgid "Editores Vetorial"
+msgstr "Editori vectori"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Editori de imagine, fotografie și desen"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Conversia, redimensionarea sau comprimarea imaginilor"
+
+msgid "Plugins"
+msgstr "Plugin-uri"
+
+msgid "Edição 3D e CAD"
+msgstr "Editare 3D și CAD"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fonturi (Tipografie)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Dispunerea și organizarea paginilor"
+
+msgid "Colorização e palheta de cores"
+msgstr "Colorizare și paletă de culori"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Editores de video"
+msgstr "Editori video"
+
+msgid "Reprodutores de vídeo"
+msgstr "Jucători video"
+
+msgid "Animação e 2D"
+msgstr "Animație și 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Captură de ecran și descărcare video"
+
+msgid "Stream/transmissão online"
+msgstr "Redați în flux/redați în flux online"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Convertoare video și arzătoare CD/DVD"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Reprodutores de áudio"
+msgstr "Redactori audio"
+
+msgid "Rádio online"
+msgstr "Radio online"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Aparate de înregistrare și convertoare audio"
+
+msgid "Editores de áudio"
+msgstr "Editorii audio"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Video online, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Editorii și compresoarele video"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Aparate de înregistrat și copiatoare de CD și DVD"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, înregistrare a ecranului și streaming video"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Navegadores"
+msgstr "Browsere"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Stocarea în cloud"
+
+msgid "Download"
+msgstr "Descărcați"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Sharers și Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Mesageri și conferințe"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Acces la distanță, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Instrumente de rețea"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Știri, fluxuri și RSS"
+
+msgid "Escritório"
+msgstr "Birou"
+
+msgid "Suíte Office"
+msgstr "Suita Office"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, vizualizatoare de cărți electronice și multe altele"
+
+msgid "Editores de PDF"
+msgstr "Editorii PDF"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Calendar de sarcini și contacte"
+
+msgid "Gráficos"
+msgstr "Grafică"
+
+msgid "Visualizadores de imagem"
+msgstr "Vizualizatori de imagini"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Editoare de imagini și instrumente de desen"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Captură de ecran"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Jogos"
+msgstr "Jocuri"
+
+msgid "Gerenciadores de jogos"
+msgstr "Managerii de joc"
+
+msgid "Utilitários para jogos"
+msgstr "Utilități de joc"
+
+msgid "Emulador Retroarch"
+msgstr "Emulator Retroarch"
+
+msgid "Emuladores"
+msgstr "Emulatoare"
+
+msgid "Criadores de jogos"
+msgstr "Dezvoltatorii de jocuri"
+
+msgid "Ação/Arcade"
+msgstr "Acțiune/Arcade"
+
+msgid "Cartas"
+msgstr "Scrisori"
+
+msgid "Educacional"
+msgstr "Educațional"
+
+msgid "Estratégia"
+msgstr "Strategie"
+
+msgid "Puzzles"
+msgstr "Puzzle-uri"
+
+msgid "Tabuleiro"
+msgstr "Consiliul de administrație"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Outros"
+msgstr "Altele"
+
+msgid "Sistema"
+msgstr "Sistem"
+
+msgid "Desenvolvimento"
+msgstr "Dezvoltare"
+
+msgid "Editores de código e IDE"
+msgstr "Editoare de cod și IDE-uri"
+
+msgid "Banco de dados"
+msgstr "Baza de date"
+
+msgid "Servidores WEB"
+msgstr "Servere WEB"
+
+msgid "Programas Nativos"
+msgstr "Programe autohtone"
+
+msgid "Programas AUR"
+msgstr "Programe AUR"
+
+msgid "Programas Flatpak"
+msgstr "Programe Flatpak"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Pachete Snap instalate faceți clic pe pachetul pe care doriți să îl eliminați"
+
+msgid "Cancelar"
+msgstr "Anulează"
+
+msgid "Fechar"
+msgstr "Închideți"
 
 msgid "Instalar"
 msgstr "Instalați"
@@ -36,75 +251,110 @@ msgstr "Instalați"
 msgid "Remover"
 msgstr "Eliminați"
 
-msgid ""
-"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
-"faça login novamente."
-msgstr ""
-"Pentru ca programele Snap să apară în meniul sistemului, deconectați-vă și "
-"conectați-vă din nou."
+msgid "Versão: "
+msgstr "Versiunea "
 
-msgid "Configurações"
-msgstr "Setări"
+msgid "Pacote: "
+msgstr "Pachet "
 
-msgid "Pacotes"
-msgstr "Pachete"
-
-msgid "Pacotes Flatpak"
-msgstr "Pachete Flatpak"
-
-msgid "Ativado"
-msgstr "Activat"
-
-msgid "Desativado"
-msgstr "Persoane cu handicap"
-
-msgid "Atualizações"
-msgstr "Actualizări"
-
-msgid "Atualizar seu sistema"
-msgstr "Actualizați-vă sistemul"
+msgid "Não informada"
+msgstr "Neinformat"
 
 msgid "Atualizar"
 msgstr "Actualizare"
 
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Actualizarea cache-ului depozitelor native"
+msgid "Instalado na partição:"
+msgstr "Instalat pe partiție:"
 
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Căutați mai rapid serverul de depozite nativ"
+msgid "Tamanho da partição:"
+msgstr "Dimensiunea partiției:"
 
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Utilizați următoarele opțiuni cu prudență"
+msgid "Espaço utilizado:"
+msgstr "Spațiu utilizat:"
 
-msgid "Reinstalação"
-msgstr "Reinstalație"
+msgid "Espaço livre:"
+msgstr "Spațiu liber:"
 
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Forțați reinstalarea forțată a tuturor pachetelor instalate"
+msgid "Data que o sistema foi instalado:"
+msgstr "Data la care a fost instalat sistemul:"
 
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
-"que se você ativou repositórios complementares será necessário adicionar as "
-"chaves desses repositórios novamente."
-msgstr ""
-"Actualizați cheile depozitelor BigLinux, Manjaro și Archlinux. Nu uitați că, "
-"dacă ați activat depozite complementare, va trebui să adăugați din nou "
-"cheile acestor depozite."
+msgid "Pacotes nativos e AUR"
+msgstr "Pachete native și AUR"
+
+msgid "Instalados:"
+msgstr "Instalat:"
+
+msgid "Disponíveis:"
+msgstr "Disponibil:"
+
+msgid "Pacotes Flatpak"
+msgstr "Pachete Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Depozite configurate:"
+
+msgid "Pacotes Snap"
+msgstr "Pachete Snap"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store este deschis."
+
+msgid "Big-Store"
+msgstr "Big-Store"
 
 msgid "Executar"
 msgstr "Rulați"
 
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
-"o sistema, porém, na atualização forçada alguns programas podem ser "
-"removidos."
-msgstr ""
-"Forțați actualizările, utilizați această opțiune dacă nu puteți actualiza "
-"sistemul; cu toate acestea, în cadrul actualizării forțate, este posibil ca "
-"unele programe să fie eliminate."
+msgid "Pacote:"
+msgstr "Pachet:"
 
-msgid "Repositórios nativos"
-msgstr "Depozite native"
+msgid "Versão disponível:"
+msgstr "Versiune disponibilă:"
+
+msgid "Repositório:"
+msgstr "Depozitar:"
+
+msgid "Categorias"
+msgstr "Categorii"
+
+msgid "Versão instalada"
+msgstr "Versiunea instalată"
+
+msgid "Versão disponível"
+msgstr "Versiunea disponibilă"
+
+msgid "Versão"
+msgstr "Versiunea"
+
+msgid "Pacote .deb"
+msgstr "Pachetul .deb"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Acest program este în format .deb, care are cea mai bună integrare cu sistemul."
+
+msgid "Mais informações"
+msgstr "Mai multe informații"
+
+msgid "Voltar"
+msgstr "Înapoi"
+
+msgid "Dependências a instalar"
+msgstr "Dependențe de instalat"
+
+msgid "Ver mais"
+msgstr "Vezi mai mult"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Pachete cu dependențe nesatisfăcute "
+
+msgid "Depende de "
+msgstr "Depinde de "
+
+msgid "mas não vai ser instalado."
+msgstr "dar nu va fi instalat."
+
+msgid "mas não está disponível"
+msgstr "dar nu este disponibil"
 
 msgid ""
 "\n"
@@ -196,283 +446,11 @@ msgstr "Nativi"
 msgid "Início"
 msgstr "Acasă"
 
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Escritório"
-msgstr "Birou"
-
-msgid "Gráficos"
-msgstr "Grafică"
-
-msgid "Multimídia"
-msgstr "Multimedia"
-
-msgid "Jogos"
-msgstr "Jocuri"
-
-msgid "Sistema"
-msgstr "Sistem"
-
-msgid "Desenvolvimento"
-msgstr "Dezvoltare"
-
-msgid "Navegadores"
-msgstr "Browsere"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Stocarea în cloud"
-
-msgid "Download"
-msgstr "Descărcați"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Sharers și Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Mesageri și conferințe"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Acces la distanță, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Instrumente de rețea"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Știri, fluxuri și RSS"
-
-msgid "Suíte Office"
-msgstr "Suita Office"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, vizualizatoare de cărți electronice și multe altele"
-
-msgid "Editores de PDF"
-msgstr "Editorii PDF"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Calendar de sarcini și contacte"
-
-msgid "Visualizadores de imagem"
-msgstr "Vizualizatori de imagini"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Editoare de imagini și instrumente de desen"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Captură de ecran"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Conversia, redimensionarea sau comprimarea imaginilor"
-
-msgid "Edição 3D e CAD"
-msgstr "Editare 3D și CAD"
-
-msgid "Reprodutores de áudio"
-msgstr "Redactori audio"
-
-msgid "Rádio online"
-msgstr "Radio online"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Aparate de înregistrare și convertoare audio"
-
-msgid "Editores de áudio"
-msgstr "Editorii audio"
-
-msgid "Reprodutores de vídeo"
-msgstr "Jucători video"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Video online, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Editorii și compresoarele video"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Aparate de înregistrat și copiatoare de CD și DVD"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, înregistrare a ecranului și streaming video"
-
-msgid "Gerenciadores de jogos"
-msgstr "Managerii de joc"
-
-msgid "Utilitários para jogos"
-msgstr "Utilități de joc"
-
-msgid "Emulador Retroarch"
-msgstr "Emulator Retroarch"
-
-msgid "Emuladores"
-msgstr "Emulatoare"
-
-msgid "Criadores de jogos"
-msgstr "Dezvoltatorii de jocuri"
-
-msgid "Ação/Arcade"
-msgstr "Acțiune/Arcade"
-
-msgid "Cartas"
-msgstr "Scrisori"
-
-msgid "Educacional"
-msgstr "Educațional"
-
-msgid "Estratégia"
-msgstr "Strategie"
-
-msgid "Puzzles"
-msgstr "Puzzle-uri"
-
-msgid "Tabuleiro"
-msgstr "Consiliul de administrație"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Armazenamento e partições"
-msgstr "Depozitare și partiții"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fonturi (Tipografie)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizare"
-
-msgid "Editores de código e IDE"
-msgstr "Editoare de cod și IDE-uri"
-
-msgid "Banco de dados"
-msgstr "Baza de date"
-
-msgid "Servidores WEB"
-msgstr "Servere WEB"
-
-msgid "Programas Nativos"
-msgstr "Programe autohtone"
-
-msgid "Programas AUR"
-msgstr "Programe AUR"
-
-msgid "Programas Flatpak"
-msgstr "Programe Flatpak"
+msgid "Configurações"
+msgstr "Setări"
 
 msgid "Programas Snap"
 msgstr "Programe rapide"
-
-msgid "Outros"
-msgstr "Altele"
-
-msgid "Instalado na partição:"
-msgstr "Instalat pe partiție:"
-
-msgid "Tamanho da partição:"
-msgstr "Dimensiunea partiției:"
-
-msgid "Espaço utilizado:"
-msgstr "Spațiu utilizat:"
-
-msgid "Espaço livre:"
-msgstr "Spațiu liber:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Data la care a fost instalat sistemul:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Pachete native și AUR"
-
-msgid "Instalados:"
-msgstr "Instalat:"
-
-msgid "Disponíveis:"
-msgstr "Disponibil:"
-
-msgid "Repositórios configurados:"
-msgstr "Depozite configurate:"
-
-msgid "Pacotes Snap"
-msgstr "Pachete Snap"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr ""
-"Pachete Snap instalate faceți clic pe pachetul pe care doriți să îl eliminați"
-
-msgid "Versão: "
-msgstr "Versiunea "
-
-msgid "Pacote: "
-msgstr "Pachet "
-
-msgid "Não informada"
-msgstr "Neinformat"
-
-msgid "Categorias"
-msgstr "Categorii"
-
-msgid "Versão instalada"
-msgstr "Versiunea instalată"
-
-msgid "Versão disponível"
-msgstr "Versiunea disponibilă"
-
-msgid "Versão"
-msgstr "Versiunea"
-
-msgid "Fechar"
-msgstr "Închideți"
-
-msgid "Pacote .deb"
-msgstr "Pachetul .deb"
-
-msgid ""
-"Esse programa está em formato .deb, que possui a melhor integração com o "
-"sistema."
-msgstr ""
-"Acest program este în format .deb, care are cea mai bună integrare cu "
-"sistemul."
-
-msgid "Mais informações"
-msgstr "Mai multe informații"
-
-msgid "Voltar"
-msgstr "Înapoi"
-
-msgid "Dependências a instalar"
-msgstr "Dependențe de instalat"
-
-msgid "Ver mais"
-msgstr "Vezi mai mult"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Pachete cu dependențe nesatisfăcute "
-
-msgid "Depende de "
-msgstr "Depinde de "
-
-msgid "mas não vai ser instalado."
-msgstr "dar nu va fi instalat."
-
-msgid "mas não está disponível"
-msgstr "dar nu este disponibil"
-
-msgid "Pacote:"
-msgstr "Pachet:"
-
-msgid "Versão disponível:"
-msgstr "Versiune disponibilă:"
-
-msgid "Repositório:"
-msgstr "Depozitar:"
-
-msgid "Cancelar"
-msgstr "Anulează"
 
 msgid "Instalando"
 msgstr "Instalarea"
@@ -492,56 +470,52 @@ msgstr "AUR"
 msgid "Empacotador:"
 msgstr "Packer:"
 
-msgid "Reinstalar"
-msgstr "Reinstalați"
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Pentru ca programele Snap să apară în meniul sistemului, deconectați-vă și conectați-vă din nou."
 
-msgid "Versão instalada:"
-msgstr "Versiunea instalată:"
+msgid "Pacotes"
+msgstr "Pachete"
 
-msgid "Uso de armazenamento:"
-msgstr "Utilizarea depozitului:"
+msgid "Ativado"
+msgstr "Activat"
 
-msgid "Tamanho do download:"
-msgstr "Dimensiunea de descărcare:"
+msgid "Desativado"
+msgstr "Persoane cu handicap"
 
-msgid "Site:"
-msgstr "Site web:"
+msgid "Atualizações"
+msgstr "Actualizări"
 
-msgid "Data do empacotamento:"
-msgstr "Data ambalării:"
+msgid "Atualizar seu sistema"
+msgstr "Actualizați-vă sistemul"
 
-msgid "Data de instalação:"
-msgstr "Data instalării:"
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Actualizarea cache-ului depozitelor native"
 
-msgid "Motivo da instalação:"
-msgstr "Motivul instalării:"
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Căutați mai rapid serverul de depozite nativ"
 
-msgid "Grupos:"
-msgstr "Grupuri:"
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Utilizați următoarele opțiuni cu prudență"
 
-msgid "Complementos:"
-msgstr "Complemente:"
+msgid "Reinstalação"
+msgstr "Reinstalație"
 
-msgid "Dependências:"
-msgstr "Dependențe:"
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Forțați reinstalarea forțată a tuturor pachetelor instalate"
 
-msgid "Remove:"
-msgstr "Îndepărtați:"
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Actualizați cheile depozitelor BigLinux, Manjaro și Archlinux. Nu uitați că, dacă ați activat "
+"depozite complementare, va trebui să adăugați din nou cheile acestor depozite."
 
-msgid "Substitui:"
-msgstr "Acesta înlocuiește:"
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Forțați actualizările, utilizați această opțiune dacă nu puteți actualiza sistemul; cu toate "
+"acestea, în cadrul actualizării forțate, este posibil ca unele programe să fie eliminate."
 
-msgid "Arquivos do pacote:"
-msgstr "Fișiere de pachete:"
-
-msgid "Clique aqui para ver os arquivos"
-msgstr "Click aici pentru a vedea arhivele"
-
-msgid "Número de votos:"
-msgstr "Numărul de voturi:"
-
-msgid "Página no AUR:"
-msgstr "Pagina AUR:"
-
-msgid "Dependências de instalação:"
-msgstr "Dependențe de instalare:"
+msgid "Repositórios nativos"
+msgstr "Depozite native"
