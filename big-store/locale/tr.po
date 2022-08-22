@@ -1,0 +1,544 @@
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 06:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store açık."
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Instalar"
+msgstr "Kurulum"
+
+msgid "Remover"
+msgstr "Kaldırmak"
+
+msgid ""
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
+msgstr ""
+"Snap programlarının sistem menüsünde görünmesi için oturumu kapatın ve "
+"tekrar oturum açın."
+
+msgid "Configurações"
+msgstr "Ayarlar"
+
+msgid "Pacotes"
+msgstr "Paketler"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak paketleri"
+
+msgid "Ativado"
+msgstr "Etkinleştirilmiş"
+
+msgid "Desativado"
+msgstr "Engelli"
+
+msgid "Atualizações"
+msgstr "Güncellemeler"
+
+msgid "Atualizar seu sistema"
+msgstr "Sisteminizi güncelleyin"
+
+msgid "Atualizar"
+msgstr "Güncelleme"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Yerel depoların önbelleğini güncelleyin"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Daha hızlı arama yerel depolar sunucusu"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Aşağıdaki seçenekleri dikkatli kullanın"
+
+msgid "Reinstalação"
+msgstr "Yeniden Yükleme"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Yüklü tüm paketleri yeniden yüklemeye zorla"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"BigLinux, Manjaro ve Archlinux depolarının anahtarlarını güncelleyin. "
+"Tamamlayıcı depoları etkinleştirdiyseniz, bu depoların anahtarlarını tekrar "
+"eklemeniz gerekeceğini unutmayın."
+
+msgid "Executar"
+msgstr "Koşmak"
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Güncellemeleri zorla, sistemi güncelleyemiyorsanız bu seçeneği kullanın, "
+"ancak zorunlu güncellemede bazı programlar kaldırılabilir."
+
+msgid "Repositórios nativos"
+msgstr "Yerel depolar"
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"Yerel programlar sisteme daha iyi entegre edilmiştir<br>\n"
+"ve piyasaya sürülmeden önce daha fazla testten geçecek,<br>\n"
+"bu nedenle, programın sizin için en iyi seçenek<br>\n"
+"birden fazla kurulum türünde mevcuttur.<br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"\n"
+"AUR programları kullanıcılar tarafından oluşturulan komut dosyalarıdır<br>\n"
+"mevcut olmayan programları yüklemek için<br>\n"
+"doğrudan sistemin yerel depolarında.<br>\n"
+"Bu yöntemle yüklenen programlar çalışır<br>\n"
+"iyi, ama aynı testlerden geçmiyorlar<br>\n"
+"yerel programlar."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"\n"
+"Flatpak programları tüm Linux dağıtımları için mevcuttur<br>\n"
+"linux dağıtımları, genellikle program tarafından sürdürülür<br>\n"
+"programların yaratıcıları, ancak bazı<br>\n"
+"optimizasyonlar ve sistemle entegrasyonlarda olduğu gibi<br>\n"
+"yerel programlar, bu iyi bir alternatif olabilir<br>\n"
+"iyi kapasiteye sahip bilgisayarları olanlar için<br>\n"
+"işleme ve depolama kapasitesi."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"\n"
+"Flatpak gibi Snap programları<br>\n"
+"tüm Linux dağıtımları için yazılım sağlar.<br>\n"
+"Daha ağır ve sisteme daha az entegre olma eğilimindedir, ancak<br>\n"
+"aradığınız program sadece bu programda mevcutsa<br>\n"
+"formatını kullanın."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br> \n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"\n"
+"Yalnızca seçili programları görüntüler<br>\n"
+"ve yararlı olan sonuçları gizler <br>\n"
+"sadece ileri düzey kullanıcılar içindir."
+
+msgid "Aplicando - Aguarde"
+msgstr "Başvuru - Lütfen bekleyin"
+
+msgid "Procurar programa"
+msgstr "Arama programı"
+
+msgid "Modo Simplificado"
+msgstr "Basitleştirilmiş Mod"
+
+msgid "Nativos"
+msgstr "Yerliler"
+
+msgid "Início"
+msgstr "Ev"
+
+msgid "Internet"
+msgstr "İnternet"
+
+msgid "Escritório"
+msgstr "Ofis"
+
+msgid "Gráficos"
+msgstr "Grafikler"
+
+msgid "Multimídia"
+msgstr "Multimedya"
+
+msgid "Jogos"
+msgstr "Oyunlar"
+
+msgid "Sistema"
+msgstr "Sistem"
+
+msgid "Desenvolvimento"
+msgstr "Geliştirme"
+
+msgid "Navegadores"
+msgstr "Tarayıcılar"
+
+msgid "E-mail"
+msgstr "E-posta"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Bulut depolama"
+
+msgid "Download"
+msgstr "İndir"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Paylaşıcılar ve Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Haberciler ve Konferanslar"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Uzaktan Erişim, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Ağ araçları"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Haberler, Akışlar ve RSS"
+
+msgid "Suíte Office"
+msgstr "Ofis Paketi"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, e-kitap görüntüleyiciler ve daha fazlası"
+
+msgid "Editores de PDF"
+msgstr "PDF editörleri"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Görev ve kişi takvimi"
+
+msgid "Visualizadores de imagem"
+msgstr "Görüntü izleyiciler"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Görüntü düzenleyiciler ve çizim araçları"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Ekran görüntüsü"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Görüntüleri dönüştürme, yeniden boyutlandırma veya sıkıştırma"
+
+msgid "Edição 3D e CAD"
+msgstr "3D ve CAD Düzenleme"
+
+msgid "Reprodutores de áudio"
+msgstr "Ses oynatıcılar"
+
+msgid "Rádio online"
+msgstr "Çevrimiçi radyo"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Ses kayıt cihazları ve dönüştürücüler"
+
+msgid "Editores de áudio"
+msgstr "Ses editörleri"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video oynatıcılar"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Çevrimiçi video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video düzenleyiciler ve sıkıştırıcılar"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD ve DVD kaydediciler ve fotokopi makineleri"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Web kamerası, ekran kaydı ve video akışı"
+
+msgid "Gerenciadores de jogos"
+msgstr "Oyun Yöneticileri"
+
+msgid "Utilitários para jogos"
+msgstr "Oyun Yardımcı Programları"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch Emülatörü"
+
+msgid "Emuladores"
+msgstr "Emülatörler"
+
+msgid "Criadores de jogos"
+msgstr "Oyun geliştiricileri"
+
+msgid "Ação/Arcade"
+msgstr "Aksiyon/Arcade"
+
+msgid "Cartas"
+msgstr "Mektuplar"
+
+msgid "Educacional"
+msgstr "Eğitim"
+
+msgid "Estratégia"
+msgstr "Strateji"
+
+msgid "Puzzles"
+msgstr "Bulmacalar"
+
+msgid "Tabuleiro"
+msgstr "Yönetim Kurulu"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Armazenamento e partições"
+msgstr "Depolama ve bölmeler"
+
+msgid "Fontes (Tipografia)"
+msgstr "Yazı Tipleri (Tipografi)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Sanallaştırma"
+
+msgid "Editores de código e IDE"
+msgstr "Kod editörleri ve IDE'ler"
+
+msgid "Banco de dados"
+msgstr "Veritabanı"
+
+msgid "Servidores WEB"
+msgstr "WEB Sunucuları"
+
+msgid "Programas Nativos"
+msgstr "Yerel Programlar"
+
+msgid "Programas AUR"
+msgstr "AUR programları"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programları"
+
+msgid "Programas Snap"
+msgstr "Snap programları"
+
+msgid "Outros"
+msgstr "Diğer"
+
+msgid "Instalado na partição:"
+msgstr "Bölüme yüklendi:"
+
+msgid "Tamanho da partição:"
+msgstr "Bölüm boyutu:"
+
+msgid "Espaço utilizado:"
+msgstr "Kullanılan alan:"
+
+msgid "Espaço livre:"
+msgstr "Boş alan:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Sistemin kurulduğu tarih:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Yerel paketler ve AUR"
+
+msgid "Instalados:"
+msgstr "Yüklendi:"
+
+msgid "Disponíveis:"
+msgstr "Mevcut:"
+
+msgid "Repositórios configurados:"
+msgstr "Depolar yapılandırıldı:"
+
+msgid "Pacotes Snap"
+msgstr "Çıtçıtlı Paketler"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Yüklü Snap Paketleri kaldırmak için paketin üzerine tıklayın"
+
+msgid "Versão: "
+msgstr "Versiyon "
+
+msgid "Pacote: "
+msgstr "Paket "
+
+msgid "Não informada"
+msgstr "Bilgilendirilmedi"
+
+msgid "Categorias"
+msgstr "Kategoriler"
+
+msgid "Versão instalada"
+msgstr "Yüklü sürüm"
+
+msgid "Versão disponível"
+msgstr "Mevcut sürüm"
+
+msgid "Versão"
+msgstr "Versiyon"
+
+msgid "Fechar"
+msgstr "Kapat"
+
+msgid "Pacote .deb"
+msgstr ".deb paketi"
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+"Bu program, sistemle en iyi entegrasyona sahip olan .deb formatındadır."
+
+msgid "Mais informações"
+msgstr "Daha fazla bilgi"
+
+msgid "Voltar"
+msgstr "Geri"
+
+msgid "Dependências a instalar"
+msgstr "Yüklenecek bağımlılıklar"
+
+msgid "Ver mais"
+msgstr "Daha fazlasını görün"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Karşılanmamış bağımlılıkları olan paketler "
+
+msgid "Depende de "
+msgstr "Bu şunlara bağlıdır "
+
+msgid "mas não vai ser instalado."
+msgstr "ancak yüklenmeyecektir."
+
+msgid "mas não está disponível"
+msgstr "ancak mevcut değil"
+
+msgid "Pacote:"
+msgstr "Paket:"
+
+msgid "Versão disponível:"
+msgstr "Versiyon mevcut:"
+
+msgid "Repositório:"
+msgstr "Depo:"
+
+msgid "Cancelar"
+msgstr "İptal"
+
+msgid "Instalando"
+msgstr "Yükleme"
+
+msgid "Removendo"
+msgstr "Kaldırma"
+
+msgid "Versão disponivel:"
+msgstr "Versiyon mevcut:"
+
+msgid "Licença:"
+msgstr "Ruhsat:"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Reinstalar"
+msgstr "Yeniden Yükle"
+
+msgid "Versão instalada:"
+msgstr "Sürüm yüklendi:"
+
+msgid "Uso de armazenamento:"
+msgstr "Depo kullanımı:"
+
+msgid "Tamanho do download:"
+msgstr "İndirme boyutu:"
+
+msgid "Site:"
+msgstr "Web sitesi:"
+
+msgid "Data do empacotamento:"
+msgstr "Paketleme tarihi:"
+
+msgid "Data de instalação:"
+msgstr "Kurulum tarihi:"
+
+msgid "Motivo da instalação:"
+msgstr "Kurulum nedeni:"
+
+msgid "Grupos:"
+msgstr "Gruplar:"
+
+msgid "Complementos:"
+msgstr "Tamamlayıcılar:"
+
+msgid "Dependências:"
+msgstr "Bağımlılıklar:"
+
+msgid "Remove:"
+msgstr "Kaldır:"
+
+msgid "Substitui:"
+msgstr "Yerine geçer:"
+
+msgid "Arquivos do pacote:"
+msgstr "Paket dosyaları:"
+
+msgid "Clique aqui para ver os arquivos"
+msgstr "Arşivleri görmek için buraya tıklayın"
+
+msgid "Número de votos:"
+msgstr "Oy sayısı:"
+
+msgid "Página no AUR:"
+msgstr "AUR sayfası:"
+
+msgid "Dependências de instalação:"
+msgstr "Kurulum bağımlılıkları:"
