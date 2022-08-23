@@ -38,3 +38,5 @@ package() {
     # Add link to bin path
     mkdir "${pkgdir}/usr/bin"
     ln -s "/usr/share/bigbashview/bcc/apps/big-store/big-store-start.sh" "${pkgdir}/usr/bin/big-store"
+
+}
