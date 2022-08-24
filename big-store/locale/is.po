@@ -23,6 +23,93 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+msgid "X-Sistema"
+msgstr "X-kerfi"
+
+msgid "Armazenamento e partições"
+msgstr "Geymsla og skipting"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Sýndarvæðing"
+
+msgid "Imagem"
+msgstr "Ímynd"
+
+msgid "Editores Vetorial"
+msgstr "Vektor ritstjórar"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Mynd-, ljósmynda- og teikniritstjórar"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Breyta, breyta stærð eða þjappa myndum"
+
+msgid "Plugins"
+msgstr "Viðbætur"
+
+msgid "Edição 3D e CAD"
+msgstr "3D og CAD útgáfa"
+
+msgid "Fontes (Tipografia)"
+msgstr "Skírnarfontur (leturfræði)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Skipulag og skipulag síðna"
+
+msgid "Colorização e palheta de cores"
+msgstr "Litun og litaspjald"
+
+msgid "Video"
+msgstr "Myndband"
+
+msgid "Editores de video"
+msgstr "Vídeó ritstjórar"
+
+msgid "Reprodutores de vídeo"
+msgstr "Vídeó leikmenn"
+
+msgid "Animação e 2D"
+msgstr "Hreyfimyndir og 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Skjámynd og niðurhal myndbanda"
+
+msgid "Stream/transmissão online"
+msgstr "Streyma/streyma á netinu"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Vídeó breytir og CD / DVD brennarar"
+
+msgid "Audio"
+msgstr "Hljóð"
+
+msgid "Reprodutores de áudio"
+msgstr "Hljóðspilarar"
+
+msgid "Rádio online"
+msgstr "Útvarp á netinu"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Hljóðupptökutæki og breytir"
+
+msgid "Editores de áudio"
+msgstr "Audio ritstjórar"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online vídeó, IPTV, YouTube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Vídeó ritstjórar og þjöppur"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD og DVD brennarar og ljósritunarvélar"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Vefmyndavél, skjáupptaka og straumspilun"
+
 msgid "Internet"
 msgstr "Internet"
 
@@ -80,41 +167,8 @@ msgstr "Myndritstjórar og teikningatæki"
 msgid "Captura de tela (Screenshot)"
 msgstr "Skjámynd (skjámynd)"
 
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Breyta, breyta stærð eða þjappa myndum"
-
-msgid "Edição 3D e CAD"
-msgstr "3D og CAD útgáfa"
-
 msgid "Multimídia"
 msgstr "Margmiðlun"
-
-msgid "Reprodutores de áudio"
-msgstr "Hljóðspilarar"
-
-msgid "Rádio online"
-msgstr "Útvarp á netinu"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Hljóðupptökutæki og breytir"
-
-msgid "Editores de áudio"
-msgstr "Audio ritstjórar"
-
-msgid "Reprodutores de vídeo"
-msgstr "Vídeó leikmenn"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online vídeó, IPTV, YouTube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Vídeó ritstjórar og þjöppur"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD og DVD brennarar og ljósritunarvélar"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Vefmyndavél, skjáupptaka og straumspilun"
 
 msgid "Jogos"
 msgstr "Leikir"
@@ -161,18 +215,6 @@ msgstr "Annað"
 msgid "Sistema"
 msgstr "Kerfi"
 
-msgid "Armazenamento e partições"
-msgstr "Geymsla og skipting"
-
-msgid "Fontes (Tipografia)"
-msgstr "Skírnarfontur (leturfræði)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Sýndarvæðing"
-
 msgid "Desenvolvimento"
 msgstr "Þróun"
 
@@ -191,14 +233,14 @@ msgstr "Innfædd forrit"
 msgid "Programas AUR"
 msgstr "AUR forrit"
 
+msgid "Programas Flatpak"
+msgstr "Flatpak Programs"
+
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Snap Pakkar Uppsett smelltu á pakkann til að fjarlægja"
 
 msgid "Cancelar"
 msgstr "Hætta"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak Programs"
 
 msgid "Fechar"
 msgstr "Loka"

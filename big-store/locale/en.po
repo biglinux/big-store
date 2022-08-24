@@ -23,6 +23,93 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+msgid "X-Sistema"
+msgstr "X-System"
+
+msgid "Armazenamento e partições"
+msgstr "Storage and partitions"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualization"
+
+msgid "Imagem"
+msgstr "Image"
+
+msgid "Editores Vetorial"
+msgstr "Vector Editors"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Image, photography and drawing editors"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Convert, resize or compress images"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Edição 3D e CAD"
+msgstr "3D and CAD Editing"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fonts (Typography)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Layout and organization of pages"
+
+msgid "Colorização e palheta de cores"
+msgstr "Colorization and color palette"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Editores de video"
+msgstr "Video editors"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video Players"
+
+msgid "Animação e 2D"
+msgstr "Animation and 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Screenshot and video download"
+
+msgid "Stream/transmissão online"
+msgstr "Stream/stream online"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Video converters and CD/DVD burners"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio Players"
+
+msgid "Rádio online"
+msgstr "Online Radio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Audio recorders and converters"
+
+msgid "Editores de áudio"
+msgstr "Audio Editors"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video editors and compressors"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD and DVD recorders and copiers"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, screen recording and video streaming"
+
 msgid "Internet"
 msgstr "Internet"
 
@@ -80,41 +167,8 @@ msgstr "Image editors and drawing tools"
 msgid "Captura de tela (Screenshot)"
 msgstr "Screenshot"
 
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Convert, resize or compress images"
-
-msgid "Edição 3D e CAD"
-msgstr "3D and CAD Editing"
-
 msgid "Multimídia"
 msgstr "Multimedia"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio Players"
-
-msgid "Rádio online"
-msgstr "Online Radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Audio recorders and converters"
-
-msgid "Editores de áudio"
-msgstr "Audio Editors"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video Players"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video editors and compressors"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD and DVD recorders and copiers"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, screen recording and video streaming"
 
 msgid "Jogos"
 msgstr "Games"
@@ -161,18 +215,6 @@ msgstr "Other"
 msgid "Sistema"
 msgstr "System"
 
-msgid "Armazenamento e partições"
-msgstr "Storage and partitions"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fonts (Typography)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualization"
-
 msgid "Desenvolvimento"
 msgstr "Development"
 
@@ -191,14 +233,14 @@ msgstr "Native Programs"
 msgid "Programas AUR"
 msgstr "AUR Programs"
 
+msgid "Programas Flatpak"
+msgstr "Flatpak programs"
+
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Installed Snap Packages click on the package to remove"
 
 msgid "Cancelar"
 msgstr "Cancel"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak programs"
 
 msgid "Fechar"
 msgstr "Close"

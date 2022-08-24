@@ -23,6 +23,93 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+msgid "X-Sistema"
+msgstr "X-시스템"
+
+msgid "Armazenamento e partições"
+msgstr "스토리지 및 파티션"
+
+msgid "Java JRE"
+msgstr "자바 JRE"
+
+msgid "Virtualização"
+msgstr "가상화"
+
+msgid "Imagem"
+msgstr "이미지"
+
+msgid "Editores Vetorial"
+msgstr "벡터 편집기"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "이미지, 사진 및 그리기 편집기"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "이미지 변환, 크기 조정 또는 압축"
+
+msgid "Plugins"
+msgstr "플러그인"
+
+msgid "Edição 3D e CAD"
+msgstr "3D 및 CAD 편집"
+
+msgid "Fontes (Tipografia)"
+msgstr "글꼴 (타이포그래피)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "페이지의 레이아웃 및 구성"
+
+msgid "Colorização e palheta de cores"
+msgstr "채색 및 색상 팔레트"
+
+msgid "Video"
+msgstr "비디오"
+
+msgid "Editores de video"
+msgstr "비디오 편집기"
+
+msgid "Reprodutores de vídeo"
+msgstr "비디오 플레이어"
+
+msgid "Animação e 2D"
+msgstr "애니메이션 및 2D"
+
+msgid "Captura de tela e video download"
+msgstr "스크린 샷 및 비디오 다운로드"
+
+msgid "Stream/transmissão online"
+msgstr "온라인 스트리밍/스트리밍"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "비디오 컨버터 및 CD/DVD 버너"
+
+msgid "Audio"
+msgstr "오디오"
+
+msgid "Reprodutores de áudio"
+msgstr "오디오 플레이어"
+
+msgid "Rádio online"
+msgstr "온라인 라디오"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "오디오 레코더 및 컨버터"
+
+msgid "Editores de áudio"
+msgstr "오디오 에디터"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "온라인 비디오, IPTV, 유튜브..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "비디오 편집자 및 압축기"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD 및 DVD 버너 및 복사기"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "웹캠, 화면 녹화 및 비디오 스트리밍"
+
 msgid "Internet"
 msgstr "인터넷"
 
@@ -80,41 +167,8 @@ msgstr "이미지 편집기 및 그리기 도구"
 msgid "Captura de tela (Screenshot)"
 msgstr "스크린샷 (스크린샷)"
 
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "이미지 변환, 크기 조정 또는 압축"
-
-msgid "Edição 3D e CAD"
-msgstr "3D 및 CAD 편집"
-
 msgid "Multimídia"
 msgstr "멀티미디어"
-
-msgid "Reprodutores de áudio"
-msgstr "오디오 플레이어"
-
-msgid "Rádio online"
-msgstr "온라인 라디오"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "오디오 레코더 및 컨버터"
-
-msgid "Editores de áudio"
-msgstr "오디오 에디터"
-
-msgid "Reprodutores de vídeo"
-msgstr "비디오 플레이어"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "온라인 비디오, IPTV, 유튜브..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "비디오 편집자 및 압축기"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD 및 DVD 버너 및 복사기"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "웹캠, 화면 녹화 및 비디오 스트리밍"
 
 msgid "Jogos"
 msgstr "게임"
@@ -161,18 +215,6 @@ msgstr "기타"
 msgid "Sistema"
 msgstr "시스템"
 
-msgid "Armazenamento e partições"
-msgstr "스토리지 및 파티션"
-
-msgid "Fontes (Tipografia)"
-msgstr "글꼴 (타이포그래피)"
-
-msgid "Java JRE"
-msgstr "자바 JRE"
-
-msgid "Virtualização"
-msgstr "가상화"
-
 msgid "Desenvolvimento"
 msgstr "개발"
 
@@ -191,14 +233,14 @@ msgstr "네이티브 프로그램"
 msgid "Programas AUR"
 msgstr "AUR 프로그램"
 
+msgid "Programas Flatpak"
+msgstr "플랫팩 프로그램"
+
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Snap 패키지 설치됨 제거할 패키지를 클릭합니다."
 
 msgid "Cancelar"
 msgstr "취소"
-
-msgid "Programas Flatpak"
-msgstr "플랫팩 프로그램"
 
 msgid "Fechar"
 msgstr "닫기"

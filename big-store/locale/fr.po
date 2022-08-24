@@ -23,6 +23,93 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+msgid "X-Sistema"
+msgstr "Système X"
+
+msgid "Armazenamento e partições"
+msgstr "Rangement et cloisons"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisation"
+
+msgid "Imagem"
+msgstr "Image"
+
+msgid "Editores Vetorial"
+msgstr "Éditeurs vectoriels"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Éditeurs d’images, de photographies et de dessins"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Convertir, redimensionner ou compresser des images"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Edição 3D e CAD"
+msgstr "Édition 3D et CAO"
+
+msgid "Fontes (Tipografia)"
+msgstr "Polices (typographie)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Mise en page et organisation des pages"
+
+msgid "Colorização e palheta de cores"
+msgstr "Colorisation et palette de couleurs"
+
+msgid "Video"
+msgstr "Vidéo"
+
+msgid "Editores de video"
+msgstr "Éditeurs vidéo"
+
+msgid "Reprodutores de vídeo"
+msgstr "Lecteurs vidéo"
+
+msgid "Animação e 2D"
+msgstr "Animation et 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Capture d’écran et téléchargement vidéo"
+
+msgid "Stream/transmissão online"
+msgstr "Stream/stream en ligne"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Convertisseurs vidéo et graveurs de CD/DVD"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Reprodutores de áudio"
+msgstr "Lecteurs audio"
+
+msgid "Rádio online"
+msgstr "Radio en ligne"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Enregistreurs et convertisseurs audio"
+
+msgid "Editores de áudio"
+msgstr "Éditeurs audio"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Vidéo en ligne, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Éditeurs et compresseurs vidéo"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Enregistreurs et copieurs de CD et DVD"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, enregistrement d'écran et streaming vidéo"
+
 msgid "Internet"
 msgstr "Internet"
 
@@ -80,41 +167,8 @@ msgstr "Éditeurs d'images et outils de dessin"
 msgid "Captura de tela (Screenshot)"
 msgstr "Capture d'écran"
 
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Convertir, redimensionner ou compresser des images"
-
-msgid "Edição 3D e CAD"
-msgstr "Édition 3D et CAO"
-
 msgid "Multimídia"
 msgstr "Multimédia"
-
-msgid "Reprodutores de áudio"
-msgstr "Lecteurs audio"
-
-msgid "Rádio online"
-msgstr "Radio en ligne"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Enregistreurs et convertisseurs audio"
-
-msgid "Editores de áudio"
-msgstr "Éditeurs audio"
-
-msgid "Reprodutores de vídeo"
-msgstr "Lecteurs vidéo"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Vidéo en ligne, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Éditeurs et compresseurs vidéo"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Enregistreurs et copieurs de CD et DVD"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, enregistrement d'écran et streaming vidéo"
 
 msgid "Jogos"
 msgstr "Jeux"
@@ -161,18 +215,6 @@ msgstr "Autre"
 msgid "Sistema"
 msgstr "Système"
 
-msgid "Armazenamento e partições"
-msgstr "Rangement et cloisons"
-
-msgid "Fontes (Tipografia)"
-msgstr "Polices (typographie)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisation"
-
 msgid "Desenvolvimento"
 msgstr "Développement"
 
@@ -191,14 +233,14 @@ msgstr "Programmes autochtones"
 msgid "Programas AUR"
 msgstr "Programmes AUR"
 
+msgid "Programas Flatpak"
+msgstr "Programmes Flatpak"
+
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Packages Snap installés cliquez sur le package à supprimer"
 
 msgid "Cancelar"
 msgstr "Annuler"
-
-msgid "Programas Flatpak"
-msgstr "Programmes Flatpak"
 
 msgid "Fechar"
 msgstr "Fermer"

@@ -23,6 +23,93 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+msgid "X-Sistema"
+msgstr "X-System"
+
+msgid "Armazenamento e partições"
+msgstr "Lagerung und Trennwände"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisierung"
+
+msgid "Imagem"
+msgstr "Bild"
+
+msgid "Editores Vetorial"
+msgstr "Vektor-Editoren"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Bild-, Foto- und Zeichnungseditoren"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Bilder konvertieren, in der Größe verändern oder komprimieren"
+
+msgid "Plugins"
+msgstr "Plugins (Plugins)"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- und CAD-Bearbeitung"
+
+msgid "Fontes (Tipografia)"
+msgstr "Schriftarten (Typografie)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Layout und Organisation der Seiten"
+
+msgid "Colorização e palheta de cores"
+msgstr "Farbgebung und Farbpalette"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Editores de video"
+msgstr "Video-Editoren"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video-Spieler"
+
+msgid "Animação e 2D"
+msgstr "Animation und 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Screenshot- und Video-Download"
+
+msgid "Stream/transmissão online"
+msgstr "Online streamen/streamen"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Videokonverter und CD/DVD-Brenner"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Reprodutores de áudio"
+msgstr "Audioplayer"
+
+msgid "Rádio online"
+msgstr "Online-Radio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Audiorecorder und -wandler"
+
+msgid "Editores de áudio"
+msgstr "Audio-Editoren"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online-Video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videobearbeitungsprogramme und Kompressoren"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- und DVD-Brenner und -Kopierer"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, Bildschirmaufzeichnung und Videostreaming"
+
 msgid "Internet"
 msgstr "Internet"
 
@@ -80,41 +167,8 @@ msgstr "Bildbearbeitungsprogramme und Zeichenwerkzeuge"
 msgid "Captura de tela (Screenshot)"
 msgstr "Bildschirmfoto"
 
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Bilder konvertieren, in der Größe verändern oder komprimieren"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- und CAD-Bearbeitung"
-
 msgid "Multimídia"
 msgstr "Multimedia"
-
-msgid "Reprodutores de áudio"
-msgstr "Audioplayer"
-
-msgid "Rádio online"
-msgstr "Online-Radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Audiorecorder und -wandler"
-
-msgid "Editores de áudio"
-msgstr "Audio-Editoren"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video-Spieler"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online-Video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videobearbeitungsprogramme und Kompressoren"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- und DVD-Brenner und -Kopierer"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, Bildschirmaufzeichnung und Videostreaming"
 
 msgid "Jogos"
 msgstr "Spiele"
@@ -161,18 +215,6 @@ msgstr "Andere"
 msgid "Sistema"
 msgstr "System"
 
-msgid "Armazenamento e partições"
-msgstr "Lagerung und Trennwände"
-
-msgid "Fontes (Tipografia)"
-msgstr "Schriftarten (Typografie)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisierung"
-
 msgid "Desenvolvimento"
 msgstr "Entwicklung"
 
@@ -191,14 +233,14 @@ msgstr "Einheimische Programme"
 msgid "Programas AUR"
 msgstr "AUR-Programme"
 
+msgid "Programas Flatpak"
+msgstr "Flatpak-Programme"
+
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Installierte Snap-Pakete Klicken Sie auf das zu entfernende Paket"
 
 msgid "Cancelar"
 msgstr "Abbrechen"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak-Programme"
 
 msgid "Fechar"
 msgstr "Schließen Sie"

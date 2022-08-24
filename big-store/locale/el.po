@@ -23,6 +23,93 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+msgid "X-Sistema"
+msgstr "Σύστημα X"
+
+msgid "Armazenamento e partições"
+msgstr "Αποθήκευση και χωρίσματα"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Εικονικοποίηση"
+
+msgid "Imagem"
+msgstr "Εικόνα"
+
+msgid "Editores Vetorial"
+msgstr "Διανυσματικοί συντάκτες"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Επεξεργαστές εικόνας, φωτογραφίας και σχεδίασης"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Μετατροπή, αλλαγή μεγέθους ή συμπίεση εικόνων"
+
+msgid "Plugins"
+msgstr "Πρόσθετα"
+
+msgid "Edição 3D e CAD"
+msgstr "Επεξεργασία 3D και CAD"
+
+msgid "Fontes (Tipografia)"
+msgstr "Γραμματοσειρές (Τυπογραφία)"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Διάταξη και οργάνωση σελίδων"
+
+msgid "Colorização e palheta de cores"
+msgstr "Χρωματισμός και παλέτα χρωμάτων"
+
+msgid "Video"
+msgstr "Βίντεο"
+
+msgid "Editores de video"
+msgstr "Επεξεργαστές βίντεο"
+
+msgid "Reprodutores de vídeo"
+msgstr "Παίκτες βίντεο"
+
+msgid "Animação e 2D"
+msgstr "Κινούμενα σχέδια και 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Λήψη στιγμιότυπου οθόνης και βίντεο"
+
+msgid "Stream/transmissão online"
+msgstr "Ροή /ροή στο διαδίκτυο"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Μετατροπείς βίντεο και συσκευές εγγραφής CD/DVD"
+
+msgid "Audio"
+msgstr "Ήχου"
+
+msgid "Reprodutores de áudio"
+msgstr "Συσκευές αναπαραγωγής ήχου"
+
+msgid "Rádio online"
+msgstr "Διαδικτυακό ραδιόφωνο"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Συσκευές εγγραφής ήχου και μετατροπείς"
+
+msgid "Editores de áudio"
+msgstr "Συντάκτες ήχου"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Διαδικτυακό βίντεο, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Επεξεργαστές και συμπιεστές βίντεο"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Συσκευές εγγραφής CD και DVD και φωτοαντιγραφικά μηχανήματα"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, καταγραφή οθόνης και ροή βίντεο"
+
 msgid "Internet"
 msgstr "Διαδίκτυο"
 
@@ -80,41 +167,8 @@ msgstr "Επεξεργαστές εικόνας και εργαλεία σχεδ
 msgid "Captura de tela (Screenshot)"
 msgstr "Στιγμιότυπο"
 
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Μετατροπή, αλλαγή μεγέθους ή συμπίεση εικόνων"
-
-msgid "Edição 3D e CAD"
-msgstr "Επεξεργασία 3D και CAD"
-
 msgid "Multimídia"
 msgstr "Πολυμέσα"
-
-msgid "Reprodutores de áudio"
-msgstr "Συσκευές αναπαραγωγής ήχου"
-
-msgid "Rádio online"
-msgstr "Διαδικτυακό ραδιόφωνο"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Συσκευές εγγραφής ήχου και μετατροπείς"
-
-msgid "Editores de áudio"
-msgstr "Συντάκτες ήχου"
-
-msgid "Reprodutores de vídeo"
-msgstr "Παίκτες βίντεο"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Διαδικτυακό βίντεο, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Επεξεργαστές και συμπιεστές βίντεο"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Συσκευές εγγραφής CD και DVD και φωτοαντιγραφικά μηχανήματα"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, καταγραφή οθόνης και ροή βίντεο"
 
 msgid "Jogos"
 msgstr "Παιχνίδια"
@@ -161,18 +215,6 @@ msgstr "Άλλα"
 msgid "Sistema"
 msgstr "Σύστημα"
 
-msgid "Armazenamento e partições"
-msgstr "Αποθήκευση και χωρίσματα"
-
-msgid "Fontes (Tipografia)"
-msgstr "Γραμματοσειρές (Τυπογραφία)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Εικονικοποίηση"
-
 msgid "Desenvolvimento"
 msgstr "Ανάπτυξη"
 
@@ -191,14 +233,14 @@ msgstr "Ντόπια προγράμματα"
 msgid "Programas AUR"
 msgstr "Προγράμματα AUR"
 
+msgid "Programas Flatpak"
+msgstr "Προγράμματα Flatpak"
+
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Εγκατεστημένα πακέτα Snap κάντε κλικ στο πακέτο που θέλετε να αφαιρέσετε"
 
 msgid "Cancelar"
 msgstr "Ακύρωση"
-
-msgid "Programas Flatpak"
-msgstr "Προγράμματα Flatpak"
 
 msgid "Fechar"
 msgstr "Κλείστε το"
