@@ -1,0 +1,477 @@
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Navegadores"
+msgstr "Prehliadače"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Ukladanie v cloude"
+
+msgid "Download"
+msgstr "Stiahnite si"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Zdieľanie a Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Poslovia a konferencie"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Vzdialený prístup, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Sieťové nástroje"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Správy, kanály a RSS"
+
+msgid "Escritório"
+msgstr "Kancelária"
+
+msgid "Suíte Office"
+msgstr "Kancelársky balík"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, prehliadače e-kníh a ďalšie"
+
+msgid "Editores de PDF"
+msgstr "Redaktori PDF"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Kalendár úloh a kontaktov"
+
+msgid "Gráficos"
+msgstr "Grafika"
+
+msgid "Visualizadores de imagem"
+msgstr "Prehliadače obrázkov"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Editory obrázkov a nástroje na kreslenie"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Snímka obrazovky"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konverzia, zmena veľkosti alebo komprimácia obrázkov"
+
+msgid "Edição 3D e CAD"
+msgstr "Úprava 3D a CAD"
+
+msgid "Multimídia"
+msgstr "Multimédiá"
+
+msgid "Reprodutores de áudio"
+msgstr "Zvukové prehrávače"
+
+msgid "Rádio online"
+msgstr "Online rádio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Zvukové rekordéry a prevodníky"
+
+msgid "Editores de áudio"
+msgstr "Zvukové editory"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videoprehrávače"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Editory a kompresory videa"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD a DVD rekordéry a kopírky"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webová kamera, nahrávanie obrazovky a streamovanie videa"
+
+msgid "Jogos"
+msgstr "Hry"
+
+msgid "Gerenciadores de jogos"
+msgstr "Manažéri hier"
+
+msgid "Utilitários para jogos"
+msgstr "Herné nástroje"
+
+msgid "Emulador Retroarch"
+msgstr "Emulátor Retroarch"
+
+msgid "Emuladores"
+msgstr "Emulátory"
+
+msgid "Criadores de jogos"
+msgstr "Vývojári hier"
+
+msgid "Ação/Arcade"
+msgstr "Akcia/arkáda"
+
+msgid "Cartas"
+msgstr "Listy"
+
+msgid "Educacional"
+msgstr "Vzdelávanie"
+
+msgid "Estratégia"
+msgstr "Stratégia"
+
+msgid "Puzzles"
+msgstr "Hádanky"
+
+msgid "Tabuleiro"
+msgstr "Rada"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Outros"
+msgstr "Iné"
+
+msgid "Sistema"
+msgstr "Systém"
+
+msgid "Armazenamento e partições"
+msgstr "Úložné priestory a priečky"
+
+msgid "Fontes (Tipografia)"
+msgstr "Písma (typografia)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizácia"
+
+msgid "Desenvolvimento"
+msgstr "Vývoj"
+
+msgid "Editores de código e IDE"
+msgstr "Editory kódu a IDE"
+
+msgid "Banco de dados"
+msgstr "Databáza"
+
+msgid "Servidores WEB"
+msgstr "WEB servery"
+
+msgid "Programas Nativos"
+msgstr "Pôvodné programy"
+
+msgid "Programas AUR"
+msgstr "Programy AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Nainštalované balíky Snap Kliknite na balík, ktorý chcete odstrániť"
+
+msgid "Cancelar"
+msgstr "Zrušiť"
+
+msgid "Programas Flatpak"
+msgstr "Programy Flatpak"
+
+msgid "Fechar"
+msgstr "Zatvoriť"
+
+msgid "Instalar"
+msgstr "Inštalácia stránky"
+
+msgid "Remover"
+msgstr "Odstránenie stránky"
+
+msgid "Versão: "
+msgstr "Verzia "
+
+msgid "Pacote: "
+msgstr "Balenie "
+
+msgid "Não informada"
+msgstr "Nie je informovaný"
+
+msgid "Atualizar"
+msgstr "Aktualizácia"
+
+msgid "Instalado na partição:"
+msgstr "Nainštalovaný na oddiele:"
+
+msgid "Tamanho da partição:"
+msgstr "Veľkosť oddielu:"
+
+msgid "Espaço utilizado:"
+msgstr "Použitý priestor:"
+
+msgid "Espaço livre:"
+msgstr "Voľný priestor:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Dátum inštalácie systému:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Pôvodné balíky a AUR"
+
+msgid "Instalados:"
+msgstr "Nainštalované:"
+
+msgid "Disponíveis:"
+msgstr "K dispozícii:"
+
+msgid "Pacotes Flatpak"
+msgstr "Balíky Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Nakonfigurované úložiská:"
+
+msgid "Pacotes Snap"
+msgstr "Balíky Snap"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store je otvorený."
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Executar"
+msgstr "Spustiť"
+
+msgid "Pacote:"
+msgstr "Balenie:"
+
+msgid "Versão disponível:"
+msgstr "Dostupná verzia:"
+
+msgid "Repositório:"
+msgstr "Úložisko:"
+
+msgid "Categorias"
+msgstr "Kategórie"
+
+msgid "Versão instalada"
+msgstr "Nainštalovaná verzia"
+
+msgid "Versão disponível"
+msgstr "Dostupná verzia"
+
+msgid "Versão"
+msgstr "Verzia"
+
+msgid "Pacote .deb"
+msgstr "Balík .deb"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Tento program je vo formáte .deb, ktorý má najlepšiu integráciu so systémom."
+
+msgid "Mais informações"
+msgstr "Viac informácií"
+
+msgid "Voltar"
+msgstr "Späť"
+
+msgid "Dependências a instalar"
+msgstr "Závislosti na inštaláciu"
+
+msgid "Ver mais"
+msgstr "Pozri viac"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Balíky s nesplnenými závislosťami "
+
+msgid "Depende de "
+msgstr "Závisí to od "
+
+msgid "mas não vai ser instalado."
+msgstr "ale nebude nainštalovaný."
+
+msgid "mas não está disponível"
+msgstr "ale nie je k dispozícii"
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"Pôvodné programy sú lepšie integrované do systému<br>\n"
+"a pred ich vydaním prejsť ďalším testovaním,<br>\n"
+"takže je to najlepšia možnosť, keď program, ktorý<br>\n"
+"je k dispozícii viac ako jeden typ inštalácie.<br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"\n"
+"Programy AUR sú skripty vytvorené používateľmi<br>\n"
+"inštalovať programy, ktoré nie sú k dispozícii<br>\n"
+"priamo v pôvodných úložiskách systému.<br>\n"
+"Programy nainštalované touto metódou pracujú<br>\n"
+"dobre, ale nepodliehajú rovnakým testom ako<br>\n"
+"pôvodné programy."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"\n"
+"Programy Flatpak sú k dispozícii pre všetky distribúcie Linuxu<br>\n"
+"distribúcie Linuxu, sú zvyčajne udržiavané programom<br>\n"
+"tvorcovia programov, ale nemajú niektoré<br>\n"
+"optimalizácie a integrácie so systémom, ako je to v prípade<br>\n"
+"natívne programy, môže to byť dobrá alternatíva<br>\n"
+"pre tých, ktorí majú počítače s dobrou kapacitou<br>\n"
+"spracovateľskú a skladovaciu kapacitu."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"\n"
+"Programy Snap, ako napríklad Flatpak<br>\n"
+"poskytuje softvér pre všetky distribúcie Linuxu.<br>\n"
+"Je zvyčajne ťažší a menej integrovaný do systému, ale<br>\n"
+"ak je hľadaný program dostupný len v tejto<br>\n"
+"použite ho."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Zobrazí iba vybrané programy<br>a skrýva výsledky, ktoré sú užitočné <br>iba pokročilým "
+"používateľom."
+
+msgid "Aplicando - Aguarde"
+msgstr "Podanie žiadosti - Počkajte, prosím"
+
+msgid "Procurar programa"
+msgstr "Vyhľadávací program"
+
+msgid "Modo Simplificado"
+msgstr "Zjednodušený režim"
+
+msgid "Nativos"
+msgstr "Domorodci"
+
+msgid "Início"
+msgstr "Domov"
+
+msgid "Configurações"
+msgstr "Nastavenia"
+
+msgid "Programas Snap"
+msgstr "Snap programy"
+
+msgid "Instalando"
+msgstr "Inštalácia stránky"
+
+msgid "Removendo"
+msgstr "Odstránenie stránky"
+
+msgid "Versão disponivel:"
+msgstr "Dostupná verzia:"
+
+msgid "Licença:"
+msgstr "Licencia:"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Aby sa programy Snap objavili v systémovej ponuke, odhláste sa a znova sa prihláste."
+
+msgid "Pacotes"
+msgstr "Balíky"
+
+msgid "Ativado"
+msgstr "Aktivované"
+
+msgid "Desativado"
+msgstr "Bezbariérový"
+
+msgid "Atualizações"
+msgstr "Aktualizácie"
+
+msgid "Atualizar seu sistema"
+msgstr "Aktualizujte svoj systém"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Aktualizácia vyrovnávacej pamäte natívnych úložísk"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Rýchlejšie vyhľadávanie na serveri natívnych úložísk"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Nasledujúce možnosti používajte opatrne"
+
+msgid "Reinstalação"
+msgstr "Preinštalovanie"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Vynútenie preinštalovania všetkých nainštalovaných balíkov"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Aktualizujte kľúče repozitárov BigLinux, Manjaro a Archlinux. Nezabudnite, že ak ste aktivovali "
+"doplnkové úložiská, budete musieť kľúče týchto úložísk pridať znova."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Vynútiť aktualizácie, túto možnosť použite, ak sa vám nedarí aktualizovať systém, avšak pri "
+"vynútenej aktualizácii môžu byť niektoré programy odstránené."
+
+msgid "Repositórios nativos"
+msgstr "Pôvodné úložiská"

@@ -1,0 +1,475 @@
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
+
+msgid "Internet"
+msgstr "מרשתת"
+
+msgid "Navegadores"
+msgstr "נווטים"
+
+msgid "E-mail"
+msgstr "דואר אלקטרוני"
+
+msgid "Armazenamento nas nuvens"
+msgstr "אחסון בענן"
+
+msgid "Download"
+msgstr "הורד"
+
+msgid "Compartilhadores e Torrent"
+msgstr "משתפים וסיקור"
+
+msgid "Mensageiros e Conferências"
+msgstr "שליחים וכנסים"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "גישה מרחוק, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "כלי רשת"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "חדשות, הזנות ו- RSS"
+
+msgid "Escritório"
+msgstr "משרד"
+
+msgid "Suíte Office"
+msgstr "סוויטה משרדית"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "צופי PDF, Epub, ספרים אלקטרוניים ועוד"
+
+msgid "Editores de PDF"
+msgstr "עורכי PDF"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "לוח זמנים של משימות ויצירת קשר"
+
+msgid "Gráficos"
+msgstr "גרפיקה"
+
+msgid "Visualizadores de imagem"
+msgstr "צופי תמונה"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "עורכי תמונה וכלי ציור"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "צילום מסך (צילום מסך)"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "המרה, שינוי גודל או דחיסת תמונות"
+
+msgid "Edição 3D e CAD"
+msgstr "עריכת תלת-ממד ו- CAD"
+
+msgid "Multimídia"
+msgstr "מולטימדיה"
+
+msgid "Reprodutores de áudio"
+msgstr "נגני אודיו"
+
+msgid "Rádio online"
+msgstr "רדיו מקוון"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "מקליטי שמע וממירים"
+
+msgid "Editores de áudio"
+msgstr "עורכי אודיו"
+
+msgid "Reprodutores de vídeo"
+msgstr "נגני וידאו"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "וידאו מקוון, IPTV, יוטיוב..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "עורכי וידאו ומדחסים"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "צורבי CD ו- DVD ומכונות צילום"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "מצלמת רשת, הקלטת מסך והזרמת וידאו"
+
+msgid "Jogos"
+msgstr "משחקים"
+
+msgid "Gerenciadores de jogos"
+msgstr "מנהלי משחקים"
+
+msgid "Utilitários para jogos"
+msgstr "כלי עזר למשחק"
+
+msgid "Emulador Retroarch"
+msgstr "אמולטור רטרוארך"
+
+msgid "Emuladores"
+msgstr "אמולטורים"
+
+msgid "Criadores de jogos"
+msgstr "יוצרי משחק"
+
+msgid "Ação/Arcade"
+msgstr "פעולה/ארקייד"
+
+msgid "Cartas"
+msgstr "כרטיסים"
+
+msgid "Educacional"
+msgstr "חינוכי"
+
+msgid "Estratégia"
+msgstr "אסטרטגיה"
+
+msgid "Puzzles"
+msgstr "פאזלים"
+
+msgid "Tabuleiro"
+msgstr "מגש"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Outros"
+msgstr "אחרים"
+
+msgid "Sistema"
+msgstr "מערכת"
+
+msgid "Armazenamento e partições"
+msgstr "אחסון ומחיצות"
+
+msgid "Fontes (Tipografia)"
+msgstr "גופנים (טיפוגרפיה)"
+
+msgid "Java JRE"
+msgstr "ג'אווה ג'וניור"
+
+msgid "Virtualização"
+msgstr "וירטואליזציה"
+
+msgid "Desenvolvimento"
+msgstr "פיתוח"
+
+msgid "Editores de código e IDE"
+msgstr "עורכי קוד ו- IDE"
+
+msgid "Banco de dados"
+msgstr "מסד נתונים"
+
+msgid "Servidores WEB"
+msgstr "שרתי אינטרנט"
+
+msgid "Programas Nativos"
+msgstr "תוכניות מקוריות"
+
+msgid "Programas AUR"
+msgstr "תוכניות AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "הצמד חבילות מותקן לחץ על החבילה כדי להסיר"
+
+msgid "Cancelar"
+msgstr "ביטול"
+
+msgid "Programas Flatpak"
+msgstr "תוכניות פלאטפאק"
+
+msgid "Fechar"
+msgstr "סגור"
+
+msgid "Instalar"
+msgstr "התקן"
+
+msgid "Remover"
+msgstr "הסר"
+
+msgid "Versão: "
+msgstr "גרסה: "
+
+msgid "Pacote: "
+msgstr "חבילה: "
+
+msgid "Não informada"
+msgstr "לא הודיע"
+
+msgid "Atualizar"
+msgstr "עדכון"
+
+msgid "Instalado na partição:"
+msgstr "מותקן על המחיצה:"
+
+msgid "Tamanho da partição:"
+msgstr "גודל מחיצה:"
+
+msgid "Espaço utilizado:"
+msgstr "שטח בשימוש:"
+
+msgid "Espaço livre:"
+msgstr "מקום פנוי:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "תאריך התקנת המערכת:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "חבילות מקוריות ו- AUR"
+
+msgid "Instalados:"
+msgstr "מותקן:"
+
+msgid "Disponíveis:"
+msgstr "זמין:"
+
+msgid "Pacotes Flatpak"
+msgstr "חבילות פלאטפאק"
+
+msgid "Repositórios configurados:"
+msgstr "מאגרים מוגדרים:"
+
+msgid "Pacotes Snap"
+msgstr "חבילות הצמד"
+
+msgid "Big-Store está aberta."
+msgstr "חנות גדולה פתוחה."
+
+msgid "Big-Store"
+msgstr "חנות גדולה"
+
+msgid "Executar"
+msgstr "לבצע"
+
+msgid "Pacote:"
+msgstr "חבילה:"
+
+msgid "Versão disponível:"
+msgstr "גרסה זמינה:"
+
+msgid "Repositório:"
+msgstr "מאגר:"
+
+msgid "Categorias"
+msgstr "קטגוריות"
+
+msgid "Versão instalada"
+msgstr "גרסה מותקנת"
+
+msgid "Versão disponível"
+msgstr "גרסה זמינה"
+
+msgid "Versão"
+msgstr "גרסה"
+
+msgid "Pacote .deb"
+msgstr ".deb חבילה"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "תוכנית זו היא בפורמט.deb, אשר יש את האינטגרציה הטובה ביותר עם המערכת."
+
+msgid "Mais informações"
+msgstr "מידע נוסף"
+
+msgid "Voltar"
+msgstr "חזור אחורה"
+
+msgid "Dependências a instalar"
+msgstr "תלות להתקנה"
+
+msgid "Ver mais"
+msgstr "ראה עוד"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "חבילות עם תלות שלא נענו: "
+
+msgid "Depende de "
+msgstr "זה תלוי "
+
+msgid "mas não vai ser instalado."
+msgstr "אבל זה לא הולך להיות מותקן."
+
+msgid "mas não está disponível"
+msgstr "אבל זה לא זמין"
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"תוכניות מקוריות משולבות טוב יותר במערכת <br>\n"
+"והם עוברים בדיקות נוספות לפני שהם הופכים לזמינים, <br>\n"
+"אז זה האפשרות הטובה ביותר כאשר התוכנית אתה <br>\n"
+"רוצה זמין ביותר מסוג אחד של התקנה. <br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"\n"
+"תוכניות AUR הן סקריפטים שנוצרו על ידי המשתמש <br>\n"
+"כדי להתקין תוכניות שאינן זמינות <br>\n"
+"ישירות במאגרים המקומיים של המערכת. <br>\n"
+"תוכניות המותקנות בשיטה זו פועלות <br>\n"
+"ובכן, אבל הם לא עוברים את אותם מבחנים <br>\n"
+"עם תוכניות מקוריות."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"\n"
+"תוכניות Flatpak זמינות עבור כל <br>\n"
+"הפצות לינוקס, נשמרות בדרך כלל על ידי עצמן <br>\n"
+"יוצרי התוכניות, לעומת זאת, אין כמה <br>\n"
+"אופטימיזציות ואינטגרציות עם המערכת, כפי שקורה עם <br>\n"
+"תוכניות מקוריות, זו יכולה להיות אלטרנטיבה טובה <br>\n"
+"עבור אלה שיש להם מחשבים בעלי יכולת טובה <br>\n"
+"עיבוד ואחסון."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"\n"
+"הצמד תוכניות, כמו גם Flatpak <br>\n"
+"מציעה תוכניות לכל הפצות לינוקס. <br>\n"
+"זה נוטה להיות כבד יותר ופחות משולב במערכת, אבל <br>\n"
+"אם התוכנית שאתה מחפש זמינה רק על זה <br>\n"
+"פורמט, להשתמש בו."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr "מציג רק תוכניות נבחרות<br>ומסתיר תוצאות שימושיות <br>רק למשתמשים מתקדמים."
+
+msgid "Aplicando - Aguarde"
+msgstr "הגשת בקשה - אנא המתן"
+
+msgid "Procurar programa"
+msgstr "חפש תוכנית"
+
+msgid "Modo Simplificado"
+msgstr "מצב מפושט"
+
+msgid "Nativos"
+msgstr "ילידים"
+
+msgid "Início"
+msgstr "התחל"
+
+msgid "Configurações"
+msgstr "הגדרות"
+
+msgid "Programas Snap"
+msgstr "הצמד תוכניות"
+
+msgid "Instalando"
+msgstr "התקנת"
+
+msgid "Removendo"
+msgstr "הסרת"
+
+msgid "Versão disponivel:"
+msgstr "גרסה זמינה:"
+
+msgid "Licença:"
+msgstr "רישיון:"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Empacotador:"
+msgstr "פקר:"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "כדי שתוכניות הצמד יופיעו בתפריט המערכת, צא והיכנס שוב למערכת."
+
+msgid "Pacotes"
+msgstr "חבילות"
+
+msgid "Ativado"
+msgstr "מופעל"
+
+msgid "Desativado"
+msgstr "מושבת"
+
+msgid "Atualizações"
+msgstr "שִׁפּוּעַים"
+
+msgid "Atualizar seu sistema"
+msgstr "עדכן את המערכת שלך"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "רענן מטמון של מאגרים מקומיים"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "חפש שרתי מאגר מקוריים מהירים יותר"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "השתמש באפשרויות הבאות בזהירות"
+
+msgid "Reinstalação"
+msgstr "התקנה מחדש"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "כפה התקנה מחדש של כל החבילות המותקנות"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"עדכן את המפתחות של מאגרי BigLinux, Manjaro ו- Archlinux. זכור שאם הפעלת מאגרים משלימים, יהיה עליך "
+"להוסיף שוב את המפתחות למאגרים אלה."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"כפה עדכונים, השתמש באפשרות זו אם אינך מצליח לעדכן את המערכת, עם זאת, בעדכון הכפוי ניתן להסיר "
+"תוכניות מסוימות."
+
+msgid "Repositórios nativos"
+msgstr "מאגרים מקומיים"

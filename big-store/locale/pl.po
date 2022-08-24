@@ -1,0 +1,477 @@
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Navegadores"
+msgstr "Przeglądarki"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Przechowywanie w chmurze"
+
+msgid "Download"
+msgstr "Pobierz"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Sharers i Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Posłańcy i konferencje"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Zdalny dostęp, FTP, SSH, VNC, RDP."
+
+msgid "Ferramentas de rede"
+msgstr "Narzędzia sieciowe"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Wiadomości, kanały i RSS"
+
+msgid "Escritório"
+msgstr "Biuro"
+
+msgid "Suíte Office"
+msgstr "Office Suite"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, przeglądarki e-booków i inne"
+
+msgid "Editores de PDF"
+msgstr "Redaktorzy PDF"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Kalendarz zadań i kontaktów"
+
+msgid "Gráficos"
+msgstr "Grafika"
+
+msgid "Visualizadores de imagem"
+msgstr "Przeglądarki zdjęć"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Edytory obrazów i narzędzia do rysowania"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Screenshot"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konwertowanie, zmiana rozmiaru lub kompresja obrazów"
+
+msgid "Edição 3D e CAD"
+msgstr "Edycja 3D i CAD"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Odtwarzacze audio"
+
+msgid "Rádio online"
+msgstr "Radio internetowe"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Rejestratory i konwertery dźwięku"
+
+msgid "Editores de áudio"
+msgstr "Edytory dźwięku"
+
+msgid "Reprodutores de vídeo"
+msgstr "Odtwarzacze wideo"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Wideo online, IPTV, Youtube."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Edytory i kompresory wideo"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Nagrywarki CD i DVD oraz kopiarki"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Kamera internetowa, nagrywanie ekranu i strumieniowe przesyłanie wideo"
+
+msgid "Jogos"
+msgstr "Gry"
+
+msgid "Gerenciadores de jogos"
+msgstr "Menedżerowie gier"
+
+msgid "Utilitários para jogos"
+msgstr "Narzędzia do gier"
+
+msgid "Emulador Retroarch"
+msgstr "Emulator Retroarch"
+
+msgid "Emuladores"
+msgstr "Emulatory"
+
+msgid "Criadores de jogos"
+msgstr "Twórcy gier"
+
+msgid "Ação/Arcade"
+msgstr "Akcja/Arkada"
+
+msgid "Cartas"
+msgstr "Listy"
+
+msgid "Educacional"
+msgstr "Edukacja"
+
+msgid "Estratégia"
+msgstr "Strategia"
+
+msgid "Puzzles"
+msgstr "Puzzle"
+
+msgid "Tabuleiro"
+msgstr "Zarząd"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Outros"
+msgstr "Inne"
+
+msgid "Sistema"
+msgstr "System"
+
+msgid "Armazenamento e partições"
+msgstr "Przechowywanie i przegrody"
+
+msgid "Fontes (Tipografia)"
+msgstr "Czcionki (Typografia)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Wirtualizacja"
+
+msgid "Desenvolvimento"
+msgstr "Rozwój"
+
+msgid "Editores de código e IDE"
+msgstr "Edytory kodu i IDE"
+
+msgid "Banco de dados"
+msgstr "Baza danych"
+
+msgid "Servidores WEB"
+msgstr "Serwery WEB"
+
+msgid "Programas Nativos"
+msgstr "Programy rodzime"
+
+msgid "Programas AUR"
+msgstr "Programy AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Zainstalowane pakiety Snap kliknij na pakiet, który chcesz usunąć"
+
+msgid "Cancelar"
+msgstr "Anuluj"
+
+msgid "Programas Flatpak"
+msgstr "Programy Flatpak"
+
+msgid "Fechar"
+msgstr "Zamknij"
+
+msgid "Instalar"
+msgstr "Zainstaluj"
+
+msgid "Remover"
+msgstr "Usuń"
+
+msgid "Versão: "
+msgstr "Wersja "
+
+msgid "Pacote: "
+msgstr "Pakiet "
+
+msgid "Não informada"
+msgstr "Nie poinformowano"
+
+msgid "Atualizar"
+msgstr "Aktualizacja"
+
+msgid "Instalado na partição:"
+msgstr "Zainstalowane na partycji:"
+
+msgid "Tamanho da partição:"
+msgstr "Wielkość partycji:"
+
+msgid "Espaço utilizado:"
+msgstr "Wykorzystana przestrzeń:"
+
+msgid "Espaço livre:"
+msgstr "Czysta przestrzeń:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Data zainstalowania systemu:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Pakiety natywne i AUR"
+
+msgid "Instalados:"
+msgstr "Zainstalowane:"
+
+msgid "Disponíveis:"
+msgstr "Dostępne:"
+
+msgid "Pacotes Flatpak"
+msgstr "Pakiety Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Repozytoria skonfigurowane:"
+
+msgid "Pacotes Snap"
+msgstr "Pakiety Snap"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store jest otwarty."
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Executar"
+msgstr "Uruchom"
+
+msgid "Pacote:"
+msgstr "Pakiet:"
+
+msgid "Versão disponível:"
+msgstr "Dostępna wersja:"
+
+msgid "Repositório:"
+msgstr "Repozytorium:"
+
+msgid "Categorias"
+msgstr "Kategorie"
+
+msgid "Versão instalada"
+msgstr "Zainstalowana wersja"
+
+msgid "Versão disponível"
+msgstr "Dostępna wersja"
+
+msgid "Versão"
+msgstr "Wersja"
+
+msgid "Pacote .deb"
+msgstr "Pakiet .deb"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Ten program jest w formacie .deb, który ma najlepszą integrację z systemem."
+
+msgid "Mais informações"
+msgstr "Więcej informacji"
+
+msgid "Voltar"
+msgstr "Powrót"
+
+msgid "Dependências a instalar"
+msgstr "Zależności, które należy zainstalować"
+
+msgid "Ver mais"
+msgstr "Zobacz więcej"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Pakiety z niespełnionymi zależnościami "
+
+msgid "Depende de "
+msgstr "To zależy od "
+
+msgid "mas não vai ser instalado."
+msgstr "ale nie zostanie on zainstalowany."
+
+msgid "mas não está disponível"
+msgstr "ale nie jest on dostępny"
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"Programy rodzime są lepiej zintegrowane z systemem<br>\n"
+"i przechodzą kolejne testy, zanim zostaną wypuszczone na rynek,<br>\n"
+"więc jest to najlepsza opcja, gdy program, który Państwo<br>\n"
+"jest dostępny w więcej niż jednym typie instalacji.<br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"\n"
+"Programy AUR to skrypty tworzone przez użytkowników<br>\n"
+"aby zainstalować programy, które nie są dostępne<br>\n"
+"bezpośrednio w rodzimych repozytoriach systemu.<br>\n"
+"Programy instalowane za pomocą tej metody działają<br>\n"
+"dobrze, ale nie są one poddawane takim samym testom jak<br>\n"
+"rodzime programy."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"\n"
+"Programy Flatpak są dostępne dla wszystkich dystrybucji Linuksa<br>\n"
+"dystrybucje Linuksa, są zazwyczaj utrzymywane przez program<br>\n"
+"twórców programów, ale nie mają niektórych<br>\n"
+"optymalizacje i integracje z systemem, jak to ma miejsce w przypadku<br>\n"
+"rodzimych programów, może to być dobra alternatywa<br>\n"
+"dla tych, którzy mają komputery o dobrej wydajności<br>\n"
+"możliwości przetwarzania i przechowywania danych."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"\n"
+"Programy typu Snap, jak Flatpak<br>\n"
+"oferuje oprogramowanie dla wszystkich dystrybucji systemu Linux.<br>\n"
+"Jest on zazwyczaj cięższy i mniej zintegrowany z systemem, ale<br>\n"
+"jeśli program, którego Państwo szukają, jest dostępny tylko w tym<br>\n"
+"format, proszę go użyć."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Wyświetla tylko wybrane programy<br>i ukrywa przydatne wyniki <br>tylko dla zaawansowanych "
+"użytkowników."
+
+msgid "Aplicando - Aguarde"
+msgstr "Składanie wniosku - Proszę czekać"
+
+msgid "Procurar programa"
+msgstr "Program do wyszukiwania"
+
+msgid "Modo Simplificado"
+msgstr "Tryb uproszczony"
+
+msgid "Nativos"
+msgstr "Tubylcy"
+
+msgid "Início"
+msgstr "Strona główna"
+
+msgid "Configurações"
+msgstr "Ustawienia"
+
+msgid "Programas Snap"
+msgstr "Programy Snap"
+
+msgid "Instalando"
+msgstr "Instalacja"
+
+msgid "Removendo"
+msgstr "Usuwanie"
+
+msgid "Versão disponivel:"
+msgstr "Dostępna wersja:"
+
+msgid "Licença:"
+msgstr "Licencja:"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Empacotador:"
+msgstr "Packer:"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Aby programy Snap pojawiły się w menu systemu, należy się wylogować i zalogować ponownie."
+
+msgid "Pacotes"
+msgstr "Pakiety"
+
+msgid "Ativado"
+msgstr "Aktywowany"
+
+msgid "Desativado"
+msgstr "Niepełnosprawni"
+
+msgid "Atualizações"
+msgstr "Aktualizacje"
+
+msgid "Atualizar seu sistema"
+msgstr "Zaktualizuj swój system"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Aktualizacja pamięci podręcznej rodzimych repozytoriów"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Szybsze przeszukiwanie rodzimego serwera repozytoriów"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Następujące opcje należy stosować ostrożnie"
+
+msgid "Reinstalação"
+msgstr "Ponowna instalacja"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Wymuszenie reinstalacji wszystkich zainstalowanych pakietów"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Uaktualnić klucze repozytoriów BigLinux, Manjaro i Archlinux. Proszę pamiętać, że jeżeli aktywowali "
+"Państwo uzupełniające repozytoria, będą Państwo musieli ponownie dodać klucze tych repozytoriów."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Wymuś aktualizacje, proszę skorzystać z tej opcji, jeżeli nie można zaktualizować systemu, jednak w "
+"wymuszonej aktualizacji niektóre programy mogą zostać usunięte."
+
+msgid "Repositórios nativos"
+msgstr "Rodzime repozytoria"

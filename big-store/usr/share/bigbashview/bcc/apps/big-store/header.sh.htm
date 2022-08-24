@@ -1,12 +1,12 @@
 #!/bin/bash
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/05/09
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -50,7 +50,7 @@ se o programa que você procura está disponível apenas neste<br>
 formato, utilize-o."
 
 ABOUT_MODE_SIMPLE=$"
-Exibe apenas programas selecionados<br> 
+Exibe apenas programas selecionados<br>
 e oculta resultados que são úteis <br>
 apenas a usuários avançados."
 
@@ -65,33 +65,35 @@ apenas a usuários avançados."
 ## portuguese
 # Carrega o tema e arquivos essenciais
 cat << EOF
-<meta charset="utf-8">
-    <script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/jquery.js"></script>
-    <script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/materialize.js"></script>
-    <script type="text/javascript" src="/usr/share/bigbashview/bcc/js/big.js"></script>
-    <script type="text/javascript" src="js/autocomplete.js"></script>
-    <script type="text/javascript" src="js/bigstore.js"></script>
-<script type="text/javascript">
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/jquery.js"></script>
+  <script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/materialize.js"></script>
+  <script type="text/javascript" src="/usr/share/bigbashview/bcc/js/big.js"></script>
+  <script type="text/javascript" src="js/autocomplete.js"></script>
+  <script type="text/javascript" src="js/bigstore.js"></script>
+  <script type="text/javascript">
 if (document.addEventListener) {
     window.addEventListener('pageshow', function (event) {
-        if (event.persisted || window.performance && 
-            window.performance.navigation.type == 2) 
+        if (event.persisted || window.performance &&
+            window.performance.navigation.type == 2)
         {
-        
-            
+
+
             var url = window.location.toString;
             var hostname = window.location.hostname;
             var pathname = window.location.pathname;
             var param = window.location.search;
-            
+
             if (pathname == '/config.sh.htm') {
               disableBody();
               //alert('Entrou ' + pathname);
-              window.location = pathname;           
+              window.location = pathname;
             } else {
               disableBody();
               //alert('Entrou outro');
-              location.reload();            
+              location.reload();
             }
 
         }
@@ -99,14 +101,46 @@ if (document.addEventListener) {
    false);
 }
 </script>
-    
+<script>
+// CHECKBOX LIST APPS
+// \$(function () {
+//   \$('.checkboxitemSelect').on('change',function(e){
+//     e.preventDefault();
+//     console.log(this);
+//     var newquantidade = this.value;
+//     \$.ajax({
+//       type: 'post',
+//       url: 'big-select.run',
+//       data: newquantidade,
+//       success: function () {
+//         \$("#btnFull").show();
+//         \$("#btnInstall").load("./big-install.tmp", function(e) {
+//           if (e) {
+//             //\$("#btnFull").show();
+//           } else {
+//             //\$("#btnFull").hide();
+//           }
+//         });
+//         \$("#btnRemove").load("./big-remove.tmp", function(e) {
+//           if (e) {
+//             //\$("#btnFull").show();
+//           } else {
+//             //\$("#btnFull").hide();
+//           }
+//         });
+//         
+//       }
+//     });
+//   });
+// });
+// FIM CHECKBOX LIST APPS
+</script>
+
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" type="text/css" href="/usr/share/bigbashview/bcc/apps/big-store/materialize/css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/appstream.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Big-Store</title>
-<html>
-
 
 EOF
 
@@ -136,7 +170,7 @@ div#box_progress_config_bar {
     position: absolute;
     font-family: "Lato", sans-serif;
     font-size: 13px;
-    color: #ccc;    
+    color: #ccc;
     top: 0;
     left: 0;
     right: 0;
@@ -170,6 +204,11 @@ div#box_progress_config_bar {
 }
 </style>'
 
+echo '</head>'
+
+# Get body tag with color light or not
+/usr/share/bigbashview/bcc/shell/getbgcolor.sh
+
 # Loading
 echo '<div id=box_progress_config>'
 echo '<div id=box_progress_config_bar>'
@@ -184,33 +223,16 @@ echo '</div>'
 echo '<div id=box_progress_config_simple></div>'
 
 
-
-
-# Get body tag with color light or not
-/usr/share/bigbashview/bcc/shell/getbgcolor.sh
-
 # Loading disableBody();
 echo '<div id=box_progress><div id=progress_loading>'
 echo '<div class="lds-ring"><div></div><div></div><div></div><div></div></div>'
 echo '</div></div>'
-# echo '<div id=box_progress><div id=progress_loading>
-#   <div class="preloader-wrapper big active">
-#     <div class="spinner-layer spinner-blue-only">
-#       <div class="circle-clipper left">
-#         <div class="circle"></div>
-#       </div><div class="gap-patch">
-#         <div class="circle"></div>
-#       </div><div class="circle-clipper right">
-#         <div class="circle"></div>
-#       </div>
-#     </div>
-#   </div>
-# </div></div>'
+
 
 cat << EOF
 <div class="dark-light">
-  <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"> 
-    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
+  <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
 </div>
 <div class="app">
   <div class="header">
@@ -242,13 +264,13 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 
 # back button
 # echo "<script>
-#     
+#
 # const queryString = window.location.search;
 # const urlParams = new URLSearchParams(queryString);
 # const pkg_install = urlParams.get('pkg_install');
 # const pkg_remove = urlParams.get('pkg_remove');
-# 
-# 
+#
+#
 # if (history.length > 1 && pkg_install == null && pkg_remove == null)
 #     \$('img#goLeft').css({
 #     'display': 'block'
@@ -261,7 +283,7 @@ echo "$search" > "${TMP_FOLDER}/query.txt"
 
 
 if [ "$search" != "" ]; then
-    if [ "$resultFilter_checkbox" != "" ]; then 
+    if [ "$resultFilter_checkbox" != "" ]; then
         echo "" > "${HOME_FOLDER}/resultFilter"
     else
         rm -f "${HOME_FOLDER}/resultFilter"
@@ -273,13 +295,12 @@ else
 fi
 
 cat << EOF
+    
     <div class="search-bar">
     <form action="index.sh.htm" method="post" id="formsearch" onsubmit="disableBody();">
       <input type="text" name="search" id="search" value="$search" class="custom-search-input validate bigsearch autocomplete" placeholder="$TYPE_SEARCH..." autofocus>
       <button class="custom-search-botton" type="submit">← Enter </button>
-    
     </div>
-    
 
     <div class="header-profile">
       <div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_MODE_SIMPLE">
@@ -288,7 +309,7 @@ cat << EOF
           $MODE_SIMPLE</label>
         </div>
       </div>
-      </form>
+    </form>
     </div>
 </div>
 EOF
@@ -366,7 +387,7 @@ else
 fi
 
 
-        
+
 #         echo '<div id=header_right>
 #         <a href=config.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-wrench"></i></span><div class=icon_text_header>Configurações</div></div></a>
 #         <a href=info.sh.htm><div class=icon_top><span class=header_font_icon><i class="fas fa-info-circle"></i></span><div class=icon_text_header>Informações</div></div></a>'
@@ -381,7 +402,7 @@ else
     echo '<div class="wrapper">'
 fi
 cat << EOF
-    <div class="left-side"> 
+    <div class="left-side">
       <div class="side-wrapper">
         <div class="side-menu">
           <a href="index.sh.htm">
@@ -396,7 +417,7 @@ EOF
             echo '<span>' $"Início" '</span>'
 cat << EOF
           </a>
-          <a href="config.sh.htm">       
+          <a href="config.sh.htm">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-cog fa-w-16 fa-3x"><path fill="currentColor" d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z" class=""></path></svg>
 EOF
             echo '<span>' $"Configurações" '</span>'
@@ -406,7 +427,7 @@ cat << EOF
         </div>
       </div>
       <div class="side-wrapper">
-        
+
         <div class="side-menu">
           <a href="index.sh.htm?#internet">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe-americas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="svg-inline--fa fa-globe-americas fa-w-16 fa-3x"><path fill="currentColor" d="M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm82.29 357.6c-3.9 3.88-7.99 7.95-11.31 11.28-2.99 3-5.1 6.7-6.17 10.71-1.51 5.66-2.73 11.38-4.77 16.87l-17.39 46.85c-13.76 3-28 4.69-42.65 4.69v-27.38c1.69-12.62-7.64-36.26-22.63-51.25-6-6-9.37-14.14-9.37-22.63v-32.01c0-11.64-6.27-22.34-16.46-27.97-14.37-7.95-34.81-19.06-48.81-26.11-11.48-5.78-22.1-13.14-31.65-21.75l-.8-.72a114.792 114.792 0 0 1-18.06-20.74c-9.38-13.77-24.66-36.42-34.59-51.14 20.47-45.5 57.36-82.04 103.2-101.89l24.01 12.01C203.48 89.74 216 82.01 216 70.11v-11.3c7.99-1.29 16.12-2.11 24.39-2.42l28.3 28.3c6.25 6.25 6.25 16.38 0 22.63L264 112l-10.34 10.34c-3.12 3.12-3.12 8.19 0 11.31l4.69 4.69c3.12 3.12 3.12 8.19 0 11.31l-8 8a8.008 8.008 0 0 1-5.66 2.34h-8.99c-2.08 0-4.08.81-5.58 2.27l-9.92 9.65a8.008 8.008 0 0 0-1.58 9.31l15.59 31.19c2.66 5.32-1.21 11.58-7.15 11.58h-5.64c-1.93 0-3.79-.7-5.24-1.96l-9.28-8.06a16.017 16.017 0 0 0-15.55-3.1l-31.17 10.39a11.95 11.95 0 0 0-8.17 11.34c0 4.53 2.56 8.66 6.61 10.69l11.08 5.54c9.41 4.71 19.79 7.16 30.31 7.16s22.59 27.29 32 32h66.75c8.49 0 16.62 3.37 22.63 9.37l13.69 13.69a30.503 30.503 0 0 1 8.93 21.57 46.536 46.536 0 0 1-13.72 32.98zM417 274.25c-5.79-1.45-10.84-5-14.15-9.97l-17.98-26.97a23.97 23.97 0 0 1 0-26.62l19.59-29.38c2.32-3.47 5.5-6.29 9.24-8.15l12.98-6.49C440.2 193.59 448 223.87 448 256c0 8.67-.74 17.16-1.82 25.54L417 274.25z" class=""></path></svg>
@@ -474,18 +495,18 @@ cat << EOF
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class=""></path></svg>
             </a>
         </div>
-          
+
 EOF
 if [ "$(echo $LANG | grep ^he)" != "" ]; then
 echo '<style>
-.header-menu { 
-  width: calc(100% - -220px) !important; 
+.header-menu {
+  width: calc(100% - -220px) !important;
   margin-left: 0px !important;
 }
-@media screen and (max-width: 1055px) { 
-  .header-menu { 
-    width: calc(100% - -70px) !important; 
-  } 
+@media screen and (max-width: 1055px) {
+  .header-menu {
+    width: calc(100% - -70px) !important;
+  }
 }
 </style>'
 
@@ -494,8 +515,8 @@ else
     echo '<div class="header-menu">'
 fi
 cat << EOF
-          
-          
+
+
 EOF
 
             echo "<div onchange=\"disableBody();javascript:location.href='index.sh.htm?appstream_change=y&search=$search'\" class=\"tooltipped\" data-position=\"bottom\" data-tooltip=\"$ABOUT_APPSTREAM\">"
@@ -524,7 +545,7 @@ cat << EOF
         </div>
 
       </div>
-      <div class="content-wrapper">      
+      <div class="content-wrapper">
 EOF
 
       case "$category" in
@@ -784,7 +805,7 @@ echo '<div class="row center" id="flex">'
               echo '<div id=box_appstream>'
                     echo '<div id=title_appstream>'
                         echo "<div id=button_appstream class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_APPSTREAM\">"
-                            echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/></svg></div><div style="margin-right: 5px;">'                            
+                            echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/></svg></div><div style="margin-right: 5px;">'
                             echo $"Programas Nativos"
                         echo '</div></div>'
                     echo '</div>'
@@ -795,17 +816,17 @@ echo '<div class="row center" id="flex">'
                             pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
 
 
-                            if [ "$resultFilter_checkbox" != "" ]; then 
+                            if [ "$resultFilter_checkbox" != "" ]; then
                                 ./search_appstream_pamac_simple.py "${search,,}"
                             else
                                 ./search_appstream_pamac.py "${search,,}"
                             fi
 
-                            
+
 
                             # async mode
                             #rm -f ${TMP_FOLDER}/appstream.html
-                              #./search_appstream_pamac.sh "$search" 
+                              #./search_appstream_pamac.sh "$search"
                             #echo "<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html');</script>"
                             #echo "<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html');runAvatarAppstream();</script>"
                     echo '</div>'
@@ -817,7 +838,7 @@ echo '<div class="row center" id="flex">'
                 echo '<div id=box_aur>'
                     echo '<div id=title_aur>'
                         echo "<div id=button_aur class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_AUR\">"
-                            echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'                            
+                            echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'
                             echo $"Programas AUR"
                         echo '</div></div>'
                     echo '</div>'
@@ -826,21 +847,21 @@ echo '<div class="row center" id="flex">'
             #Loading icon
             echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
             # Search
-            
+
               resultFilter_checkbox="$resultFilter_checkbox" ./search_aur.sh "${search,,}"  > /dev/null 2>&1 &
               echo "<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>"
               echo "<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>"
-                    echo '</div>'
+              echo '</div>'
               echo '</div>'
       fi
-      
+
 
       if [ "$flatpak_checkbox" = "checked" ]; then
               rm -f "${TMP_FOLDER}/flatpak_number.html"
                 echo '<div id=box_flatpak>'
                       echo '<div id=title_flatpak>'
                           echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
-                              echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg></div><div style="margin-right: 5px;">'                            
+                              echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg></div><div style="margin-right: 5px;">'
                               echo $"Programas Flatpak"
                           echo '</div></div>'
                       echo '</div>'
@@ -860,7 +881,7 @@ echo '<div class="row center" id="flex">'
                 echo '<div id=box_snap>'
                       echo '<div id=title_snap>'
                           echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_SNAP\">"
-                              echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/></svg></div><div style="margin-right: 5px;">'                            
+                              echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/></svg></div><div style="margin-right: 5px;">'
                               echo $"Programas Snap"
                           echo '</div></div>'
                       echo '</div>'
@@ -875,3 +896,4 @@ echo '<div class="row center" id="flex">'
       fi
 
 fi
+

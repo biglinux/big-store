@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: big-store\n"
+        "Report-Msgid-Bugs-To: \n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "Language: \n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+msgid   "Internet"
+msgstr  ""
+
+msgid   "Navegadores"
+msgstr  ""
+
+msgid   "E-mail"
+msgstr  ""
+
+msgid   "Armazenamento nas nuvens"
+msgstr  ""
+
+msgid   "Download"
+msgstr  ""
+
+msgid   "Compartilhadores e Torrent"
+msgstr  ""
+
+msgid   "Mensageiros e Conferências"
+msgstr  ""
+
+msgid   "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr  ""
+
+msgid   "Ferramentas de rede"
+msgstr  ""
+
+msgid   "Notícias, Feeds e RSS"
+msgstr  ""
+
+msgid   "Escritório"
+msgstr  ""
+
+msgid   "Suíte Office"
+msgstr  ""
+
+msgid   "Visualizadores de PDF, Epub, e-books e mais"
+msgstr  ""
+
+msgid   "Editores de PDF"
+msgstr  ""
+
+msgid   "Agenda de tarefas e contatos"
+msgstr  ""
+
+msgid   "Gráficos"
+msgstr  ""
+
+msgid   "Visualizadores de imagem"
+msgstr  ""
+
+msgid   "Editores de imagem e ferramentas de desenho"
+msgstr  ""
+
+msgid   "Captura de tela (Screenshot)"
+msgstr  ""
+
+msgid   "Converter, redimensionar ou compactar imagens"
+msgstr  ""
+
+msgid   "Edição 3D e CAD"
+msgstr  ""
+
+msgid   "Multimídia"
+msgstr  ""
+
+msgid   "Reprodutores de áudio"
+msgstr  ""
+
+msgid   "Rádio online"
+msgstr  ""
+
+msgid   "Gravadores e conversores de áudio"
+msgstr  ""
+
+msgid   "Editores de áudio"
+msgstr  ""
+
+msgid   "Reprodutores de vídeo"
+msgstr  ""
+
+msgid   "Vídeo online, IPTV, Youtube..."
+msgstr  ""
+
+msgid   "Editores e compactadores de vídeo"
+msgstr  ""
+
+msgid   "Gravadores e copiadores de CD e DVD"
+msgstr  ""
+
+msgid   "Webcam, gravação de tela e transmissão de vídeo"
+msgstr  ""
+
+msgid   "Jogos"
+msgstr  ""
+
+msgid   "Gerenciadores de jogos"
+msgstr  ""
+
+msgid   "Utilitários para jogos"
+msgstr  ""
+
+msgid   "Emulador Retroarch"
+msgstr  ""
+
+msgid   "Emuladores"
+msgstr  ""
+
+msgid   "Criadores de jogos"
+msgstr  ""
+
+msgid   "Ação/Arcade"
+msgstr  ""
+
+msgid   "Cartas"
+msgstr  ""
+
+msgid   "Educacional"
+msgstr  ""
+
+msgid   "Estratégia"
+msgstr  ""
+
+msgid   "Puzzles"
+msgstr  ""
+
+msgid   "Tabuleiro"
+msgstr  ""
+
+msgid   "RPG"
+msgstr  ""
+
+msgid   "Outros"
+msgstr  ""
+
+msgid   "Sistema"
+msgstr  ""
+
+msgid   "Armazenamento e partições"
+msgstr  ""
+
+msgid   "Fontes (Tipografia)"
+msgstr  ""
+
+msgid   "Java JRE"
+msgstr  ""
+
+msgid   "Virtualização"
+msgstr  ""
+
+msgid   "Desenvolvimento"
+msgstr  ""
+
+msgid   "Editores de código e IDE"
+msgstr  ""
+
+msgid   "Banco de dados"
+msgstr  ""
+
+msgid   "Servidores WEB"
+msgstr  ""
+
+msgid   "Programas Nativos"
+msgstr  ""
+
+msgid   "Programas AUR"
+msgstr  ""
+
+msgid   "Pacotes Snap Instalados clique no pacote para remover"
+msgstr  ""
+
+msgid   "Cancelar"
+msgstr  ""
+
+msgid   "Programas Flatpak"
+msgstr  ""
+
+msgid   "Fechar"
+msgstr  ""
+
+msgid   "Instalar"
+msgstr  ""
+
+msgid   "Remover"
+msgstr  ""
+
+msgid   "Versão: "
+msgstr  ""
+
+msgid   "Pacote: "
+msgstr  ""
+
+msgid   "Não informada"
+msgstr  ""
+
+msgid   "Atualizar"
+msgstr  ""
+
+msgid   "Instalado na partição:"
+msgstr  ""
+
+msgid   "Tamanho da partição:"
+msgstr  ""
+
+msgid   "Espaço utilizado:"
+msgstr  ""
+
+msgid   "Espaço livre:"
+msgstr  ""
+
+msgid   "Data que o sistema foi instalado:"
+msgstr  ""
+
+msgid   "Pacotes nativos e AUR"
+msgstr  ""
+
+msgid   "Instalados:"
+msgstr  ""
+
+msgid   "Disponíveis:"
+msgstr  ""
+
+msgid   "Pacotes Flatpak"
+msgstr  ""
+
+msgid   "Repositórios configurados:"
+msgstr  ""
+
+msgid   "Pacotes Snap"
+msgstr  ""
+
+msgid   "Big-Store está aberta."
+msgstr  ""
+
+msgid   "Big-Store"
+msgstr  ""
+
+msgid   "Executar"
+msgstr  ""
+
+msgid   "Pacote:"
+msgstr  ""
+
+msgid   "Versão disponível:"
+msgstr  ""
+
+msgid   "Repositório:"
+msgstr  ""
+
+msgid   "Categorias"
+msgstr  ""
+
+msgid   "Versão instalada"
+msgstr  ""
+
+msgid   "Versão disponível"
+msgstr  ""
+
+msgid   "Versão"
+msgstr  ""
+
+msgid   "Pacote .deb"
+msgstr  ""
+
+msgid   "Esse programa está em formato .deb, que possui a melhor integração "
+        "com o sistema."
+msgstr  ""
+
+msgid   "Mais informações"
+msgstr  ""
+
+msgid   "Voltar"
+msgstr  ""
+
+msgid   "Dependências a instalar"
+msgstr  ""
+
+msgid   "Ver mais"
+msgstr  ""
+
+msgid   "Pacotes com dependências não atendidas: "
+msgstr  ""
+
+msgid   "Depende de "
+msgstr  ""
+
+msgid   "mas não vai ser instalado."
+msgstr  ""
+
+msgid   "mas não está disponível"
+msgstr  ""
+
+msgid   "\n"
+        "Programas Nativos são melhor integrados ao sistema<br>\n"
+        "e passam por mais testes antes de serem disponibilizados,<br>\n"
+        "portanto é a melhor opção quando o programa que você<br>\n"
+        "deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr  ""
+
+msgid   "\n"
+        "Programas AUR são scripts criados por usuários<br>\n"
+        "para instalar programas que não estão disponíveis<br>\n"
+        "diretamente nos repositórios nativos do sistema.<br>\n"
+        "Os programas instalados por esse método funcionam<br>\n"
+        "bem, mas não passam pelos mesmos testes feitos<br>\n"
+        "com os programas nativos."
+msgstr  ""
+
+msgid   "\n"
+        "Programas Flatpak, são disponibilizados para todas as<br>\n"
+        "distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+        "criadores dos programas, porém, não possuem algumas<br>\n"
+        "otimizações e integrações com o sistema, como ocorre com<br>\n"
+        "os programas nativos, essa pode ser uma boa alternativa<br>\n"
+        "para quem tem computadores que possuem boa capacidade<br>\n"
+        "de processamento e armazenamento."
+msgstr  ""
+
+msgid   "\n"
+        "Programas Snap, assim como o Flatpak<br>\n"
+        "disponibiliza programas para todas as distribuições Linux.<br>\n"
+        "Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+        "se o programa que você procura está disponível apenas neste<br>\n"
+        "formato, utilize-o."
+msgstr  ""
+
+msgid   "\n"
+        "Exibe apenas programas selecionados<br>\n"
+        "e oculta resultados que são úteis <br>\n"
+        "apenas a usuários avançados."
+msgstr  ""
+
+msgid   "Aplicando - Aguarde"
+msgstr  ""
+
+msgid   "Procurar programa"
+msgstr  ""
+
+msgid   "Modo Simplificado"
+msgstr  ""
+
+msgid   "Nativos"
+msgstr  ""
+
+msgid   "Início"
+msgstr  ""
+
+msgid   "Configurações"
+msgstr  ""
+
+msgid   "Programas Snap"
+msgstr  ""
+
+msgid   "Instalando"
+msgstr  ""
+
+msgid   "Removendo"
+msgstr  ""
+
+msgid   "Versão disponivel:"
+msgstr  ""
+
+msgid   "Licença:"
+msgstr  ""
+
+msgid   "AUR"
+msgstr  ""
+
+msgid   "Empacotador:"
+msgstr  ""
+
+msgid   "Para os programas Snap aparecerem no menu do sistema finalize a "
+        "sessão e faça login novamente."
+msgstr  ""
+
+msgid   "Pacotes"
+msgstr  ""
+
+msgid   "Ativado"
+msgstr  ""
+
+msgid   "Desativado"
+msgstr  ""
+
+msgid   "Atualizações"
+msgstr  ""
+
+msgid   "Atualizar seu sistema"
+msgstr  ""
+
+msgid   "Atualizar cache dos repositórios nativos"
+msgstr  ""
+
+msgid   "Procurar servidor de repositórios nativos mais rápidos"
+msgstr  ""
+
+msgid   "Utilize as opções a seguir com cautela"
+msgstr  ""
+
+msgid   "Reinstalação"
+msgstr  ""
+
+msgid   "Forçar reinstalação de todos os pacotes instalados"
+msgstr  ""
+
+msgid   "Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. "
+        "Lembre que se você ativou repositórios complementares será "
+        "necessário adicionar as chaves desses repositórios novamente."
+msgstr  ""
+
+msgid   "Forçar atualizações, utilize essa opção se não estiver conseguindo "
+        "atualizar o sistema, porém, na atualização forçada alguns programas "
+        "podem ser removidos."
+msgstr  ""
+
+msgid   "Repositórios nativos"
+msgstr  ""

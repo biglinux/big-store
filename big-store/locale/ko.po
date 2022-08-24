@@ -1,0 +1,471 @@
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: attranslate\n"
+
+msgid "Internet"
+msgstr "인터넷"
+
+msgid "Navegadores"
+msgstr "항해사"
+
+msgid "E-mail"
+msgstr "이메일"
+
+msgid "Armazenamento nas nuvens"
+msgstr "클라우드 스토리지"
+
+msgid "Download"
+msgstr "다운로드"
+
+msgid "Compartilhadores e Torrent"
+msgstr "공유자 및 토렌트"
+
+msgid "Mensageiros e Conferências"
+msgstr "메신저 및 컨퍼런스"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "원격 액세스, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "네트워크 도구"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "뉴스, 피드 및 RSS"
+
+msgid "Escritório"
+msgstr "사무실"
+
+msgid "Suíte Office"
+msgstr "오피스 스위트"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF 뷰어, Epub, 전자책 등"
+
+msgid "Editores de PDF"
+msgstr "PDF 편집자"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "작업 및 연락처 일정"
+
+msgid "Gráficos"
+msgstr "그래픽스"
+
+msgid "Visualizadores de imagem"
+msgstr "이미지 뷰어"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "이미지 편집기 및 그리기 도구"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "스크린샷 (스크린샷)"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "이미지 변환, 크기 조정 또는 압축"
+
+msgid "Edição 3D e CAD"
+msgstr "3D 및 CAD 편집"
+
+msgid "Multimídia"
+msgstr "멀티미디어"
+
+msgid "Reprodutores de áudio"
+msgstr "오디오 플레이어"
+
+msgid "Rádio online"
+msgstr "온라인 라디오"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "오디오 레코더 및 컨버터"
+
+msgid "Editores de áudio"
+msgstr "오디오 에디터"
+
+msgid "Reprodutores de vídeo"
+msgstr "비디오 플레이어"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "온라인 비디오, IPTV, 유튜브..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "비디오 편집자 및 압축기"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD 및 DVD 버너 및 복사기"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "웹캠, 화면 녹화 및 비디오 스트리밍"
+
+msgid "Jogos"
+msgstr "게임"
+
+msgid "Gerenciadores de jogos"
+msgstr "게임 매니저"
+
+msgid "Utilitários para jogos"
+msgstr "게임 유틸리티"
+
+msgid "Emulador Retroarch"
+msgstr "레트로 아치 에뮬레이터"
+
+msgid "Emuladores"
+msgstr "에뮬레이터"
+
+msgid "Criadores de jogos"
+msgstr "게임 크리에이터"
+
+msgid "Ação/Arcade"
+msgstr "액션/아케이드"
+
+msgid "Cartas"
+msgstr "카드"
+
+msgid "Educacional"
+msgstr "교육적"
+
+msgid "Estratégia"
+msgstr "전략"
+
+msgid "Puzzles"
+msgstr "퍼즐"
+
+msgid "Tabuleiro"
+msgstr "트레이"
+
+msgid "RPG"
+msgstr "롤 플레잉"
+
+msgid "Outros"
+msgstr "기타"
+
+msgid "Sistema"
+msgstr "시스템"
+
+msgid "Armazenamento e partições"
+msgstr "스토리지 및 파티션"
+
+msgid "Fontes (Tipografia)"
+msgstr "글꼴 (타이포그래피)"
+
+msgid "Java JRE"
+msgstr "자바 JRE"
+
+msgid "Virtualização"
+msgstr "가상화"
+
+msgid "Desenvolvimento"
+msgstr "개발"
+
+msgid "Editores de código e IDE"
+msgstr "코드 에디터 및 IDE"
+
+msgid "Banco de dados"
+msgstr "데이터베이스"
+
+msgid "Servidores WEB"
+msgstr "웹 서버"
+
+msgid "Programas Nativos"
+msgstr "네이티브 프로그램"
+
+msgid "Programas AUR"
+msgstr "AUR 프로그램"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Snap 패키지 설치됨 제거할 패키지를 클릭합니다."
+
+msgid "Cancelar"
+msgstr "취소"
+
+msgid "Programas Flatpak"
+msgstr "플랫팩 프로그램"
+
+msgid "Fechar"
+msgstr "닫기"
+
+msgid "Instalar"
+msgstr "설치"
+
+msgid "Remover"
+msgstr "제거"
+
+msgid "Versão: "
+msgstr "버전: "
+
+msgid "Pacote: "
+msgstr "패키지: "
+
+msgid "Não informada"
+msgstr "정보 없음"
+
+msgid "Atualizar"
+msgstr "업데이트"
+
+msgid "Instalado na partição:"
+msgstr "파티션에 설치됨:"
+
+msgid "Tamanho da partição:"
+msgstr "파티션 크기:"
+
+msgid "Espaço utilizado:"
+msgstr "사용된 공간:"
+
+msgid "Espaço livre:"
+msgstr "여유 공간:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "시스템 설치 날짜:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "네이티브 및 AUR 패키지"
+
+msgid "Instalados:"
+msgstr "설치:"
+
+msgid "Disponíveis:"
+msgstr "사용 가능:"
+
+msgid "Pacotes Flatpak"
+msgstr "플랫팩 패키지"
+
+msgid "Repositórios configurados:"
+msgstr "구성된 리포지토리:"
+
+msgid "Pacotes Snap"
+msgstr "스냅 패키지"
+
+msgid "Big-Store está aberta."
+msgstr "대형 매장이 열려 있습니다."
+
+msgid "Big-Store"
+msgstr "빅 스토어"
+
+msgid "Executar"
+msgstr "수행"
+
+msgid "Pacote:"
+msgstr "패키지:"
+
+msgid "Versão disponível:"
+msgstr "사용 가능한 버전:"
+
+msgid "Repositório:"
+msgstr "리포지토리:"
+
+msgid "Categorias"
+msgstr "카테고리"
+
+msgid "Versão instalada"
+msgstr "설치된 버전"
+
+msgid "Versão disponível"
+msgstr "사용 가능한 버전"
+
+msgid "Versão"
+msgstr "버전"
+
+msgid "Pacote .deb"
+msgstr ".deb 패키지"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "이 프로그램은.deb 형식으로 시스템과 가장 잘 통합됩니다."
+
+msgid "Mais informações"
+msgstr "추가 정보"
+
+msgid "Voltar"
+msgstr "뒤로 가기"
+
+msgid "Dependências a instalar"
+msgstr "설치할 종속성"
+
+msgid "Ver mais"
+msgstr "더 보기"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "종속성이 충족되지 않은 패키지: "
+
+msgid "Depende de "
+msgstr "그것은에 달려있다 "
+
+msgid "mas não vai ser instalado."
+msgstr "하지만 설치되지는 않을 것입니다."
+
+msgid "mas não está disponível"
+msgstr "하지만 사용할 수 없습니다"
+
+msgid ""
+"\n"
+"Programas Nativos são melhor integrados ao sistema<br>\n"
+"e passam por mais testes antes de serem disponibilizados,<br>\n"
+"portanto é a melhor opção quando o programa que você<br>\n"
+"deseja está disponível em mais de um tipo de instalação.<br>"
+msgstr ""
+"\n"
+"네이티브 프로그램이 시스템에 더 잘 통합됨 <br>\n"
+"사용 가능해지기 전에 추가 테스트를 거칩니다. <br>\n"
+"그래서 프로그램이 <br>\n"
+"want 는 두 가지 이상의 설치 유형에서 사용할 수 있습니다.<br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"\n"
+"AUR 프로그램은 사용자가 만든 스크립트입니다. <br>\n"
+"사용할 수 없는 프로그램 설치 <br>\n"
+"시스템의 기본 리포지토리에 직접 저장됩니다.<br>\n"
+"이 방법으로 설치된 프로그램이 작동합니다. <br>\n"
+"글쎄요, 하지만 그들은 같은 테스트를 통과하지 못했습니다. <br>\n"
+"네이티브 프로그램과 함께."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"\n"
+"Flatpak 프로그램은 모두 사용할 수 있습니다 <br>\n"
+"Linux 배포판은 일반적으로 자체적으로 유지 관리됩니다. <br>\n"
+"그러나 프로그램 제작자에게는 <br>\n"
+"다음과 같이 최적화 및 시스템과의 통합 <br>\n"
+"네이티브 프로그램, 이것은 좋은 대안이 될 수 있습니다 <br>\n"
+"용량이 좋은 컴퓨터를 가지고 있는 사람들을 위해 <br>\n"
+"처리 및 저장."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"\n"
+"스냅 프로그램 및 플랫팩 <br>\n"
+"는 모든 Linux 배포판을 위한 프로그램을 제공합니다.<br>\n"
+"더 무겁고 시스템에 덜 통합되는 경향이 있지만 <br>\n"
+"찾고 있는 프로그램이 이 프로그램에서만 사용 가능한 경우 <br>\n"
+"형식을 지정하려면 사용하십시오."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr "선택한 프로그램만 표시합니다.<br>유용한 결과를 숨 깁니다. <br>고급 사용자에게만 해당됩니다."
+
+msgid "Aplicando - Aguarde"
+msgstr "신청 - 기다려주세요"
+
+msgid "Procurar programa"
+msgstr "프로그램 검색"
+
+msgid "Modo Simplificado"
+msgstr "간소화 모드"
+
+msgid "Nativos"
+msgstr "원주민"
+
+msgid "Início"
+msgstr "시작"
+
+msgid "Configurações"
+msgstr "설정"
+
+msgid "Programas Snap"
+msgstr "스냅 프로그램"
+
+msgid "Instalando"
+msgstr "설치 중"
+
+msgid "Removendo"
+msgstr "제거"
+
+msgid "Versão disponivel:"
+msgstr "사용 가능한 버전:"
+
+msgid "Licença:"
+msgstr "라이선스:"
+
+msgid "AUR"
+msgstr "공기"
+
+msgid "Empacotador:"
+msgstr "패커:"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Snap 프로그램이 시스템 메뉴에 나타나도록 하려면 로그아웃했다가 다시 로그인합니다."
+
+msgid "Pacotes"
+msgstr "묶음"
+
+msgid "Ativado"
+msgstr "활성화됨"
+
+msgid "Desativado"
+msgstr "비활성화"
+
+msgid "Atualizações"
+msgstr "업그레이드"
+
+msgid "Atualizar seu sistema"
+msgstr "시스템 업데이트"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "네이티브 리포지토리의 캐시 새로 고침"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "더 빠른 네이티브 리포지토리 서버 검색"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "다음 옵션은 주의해서 사용하십시오."
+
+msgid "Reinstalação"
+msgstr "재설치"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "설치된 모든 패키지를 강제 재설치"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr "BigLinux, 만자로 및 Archlinux 리포지토리의 키를 업데이트합니다.보조 리포지토리를 활성화한 경우 해당 리포지토리에 키를 다시 추가해야 합니다."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr "강제 업데이트, 시스템을 업데이트 할 수없는 경우이 옵션을 사용하십시오. 그러나 강제 업데이트에서는 일부 프로그램이 제거 될 수 있습니다."
+
+msgid "Repositórios nativos"
+msgstr "네이티브 리포지토리"
