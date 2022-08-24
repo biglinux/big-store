@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-süsteem"
-
-msgid "Armazenamento e partições"
-msgstr "Ladustamine ja vaheseinad"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualiseerimine"
-
-msgid "Imagem"
-msgstr "Piltide"
-
-msgid "Editores Vetorial"
-msgstr "Vektori redaktorid"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Pildi-, fotograafia- ja joonistusredaktorid"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Piltide teisendamine, suuruse muutmine või tihendamine"
-
-msgid "Plugins"
-msgstr "Pluginad"
-
-msgid "Edição 3D e CAD"
-msgstr "3D ja CAD redigeerimine"
-
-msgid "Fontes (Tipografia)"
-msgstr "Kirjatüübid (tüpograafia)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Lehekülgede paigutus ja korraldus"
-
-msgid "Colorização e palheta de cores"
-msgstr "Värvimine ja värvipalett"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Video toimetajad"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videomängijad"
-
-msgid "Animação e 2D"
-msgstr "Animatsioon ja 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Kuvatõmmise ja video allalaadimine"
-
-msgid "Stream/transmissão online"
-msgstr "Voogesitage / voogesitage võrgus"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videomuundurid ja CD/DVD-kirjutajad"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Helimängijad"
-
-msgid "Rádio online"
-msgstr "Online raadio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Helisalvestid ja muundurid"
-
-msgid "Editores de áudio"
-msgstr "Heliredaktorid"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online-video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videotöötlusprogrammid ja kompressorid"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- ja DVD-salvestid ning koopiamasinad"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Veebikaamera, ekraanisalvestus ja video voogedastus"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Pildiredaktorid ja joonistustööriistad"
 msgid "Captura de tela (Screenshot)"
 msgstr "Ekraanipilt"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Piltide teisendamine, suuruse muutmine või tihendamine"
+
+msgid "Edição 3D e CAD"
+msgstr "3D ja CAD redigeerimine"
+
 msgid "Multimídia"
 msgstr "Multimeedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Helimängijad"
+
+msgid "Rádio online"
+msgstr "Online raadio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Helisalvestid ja muundurid"
+
+msgid "Editores de áudio"
+msgstr "Heliredaktorid"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videomängijad"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online-video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videotöötlusprogrammid ja kompressorid"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- ja DVD-salvestid ning koopiamasinad"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Veebikaamera, ekraanisalvestus ja video voogedastus"
 
 msgid "Jogos"
 msgstr "Mängud"
@@ -215,6 +161,18 @@ msgstr "Muud"
 msgid "Sistema"
 msgstr "Süsteem"
 
+msgid "Armazenamento e partições"
+msgstr "Ladustamine ja vaheseinad"
+
+msgid "Fontes (Tipografia)"
+msgstr "Kirjatüübid (tüpograafia)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualiseerimine"
+
 msgid "Desenvolvimento"
 msgstr "Arendus"
 
@@ -233,14 +191,14 @@ msgstr "Emakeelsed programmid"
 msgid "Programas AUR"
 msgstr "AUR programmid"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak programmid"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Paigaldatud Snap paketid klõpsake paketi eemaldamiseks paketil"
 
 msgid "Cancelar"
 msgstr "Tühista"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programmid"
 
 msgid "Fechar"
 msgstr "Sulge"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Kuvab ainult valitud programme<br>\n"
-"ja peidab kasulikud tulemused <br>\n"
-"ainult edasijõudnud kasutajatele."
+"Kuvab ainult valitud programmid<br>ja peidab kasulikke tulemusi <br>ainult edasijõudnud "
+"kasutajatele."
 
 msgid "Aplicando - Aguarde"
 msgstr "Taotlemine - Palun oodake"

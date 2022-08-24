@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-järjestelmä"
-
-msgid "Armazenamento e partições"
-msgstr "Säilytys ja väliseinät"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisointi"
-
-msgid "Imagem"
-msgstr "Kuva"
-
-msgid "Editores Vetorial"
-msgstr "Vektorieditorit"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Kuva-, valokuvaus- ja piirtoeditorit"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Kuvien muuntaminen, koon muuttaminen tai pakkaaminen"
-
-msgid "Plugins"
-msgstr "Laajennukset"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- ja CAD-editointi"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fontit (Typografia)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Sivujen asettelu ja organisointi"
-
-msgid "Colorização e palheta de cores"
-msgstr "Väritys ja väripaletti"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videon editorit"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videosoittimet"
-
-msgid "Animação e 2D"
-msgstr "Animaatio ja 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Näyttökuva ja videon lataus"
-
-msgid "Stream/transmissão online"
-msgstr "Suoratoista/suoratoista verkossa"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videomuuntimet ja TALLENTAVAT CD/DVD-levyt"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Äänisoittimet"
-
-msgid "Rádio online"
-msgstr "Nettiradio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ääninauhurit ja muuntimet"
-
-msgid "Editores de áudio"
-msgstr "Äänileikkaajat"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Verkkovideo, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoeditorit ja kompressorit"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- ja DVD-tallentimet ja kopiokoneet"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webkamera, näytön tallennus ja videon suoratoisto"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Kuvankäsittelyohjelmat ja piirtotyökalut"
 msgid "Captura de tela (Screenshot)"
 msgstr "Kuvakaappaus"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Kuvien muuntaminen, koon muuttaminen tai pakkaaminen"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- ja CAD-editointi"
+
 msgid "Multimídia"
 msgstr "Multimedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Äänisoittimet"
+
+msgid "Rádio online"
+msgstr "Nettiradio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Ääninauhurit ja muuntimet"
+
+msgid "Editores de áudio"
+msgstr "Äänileikkaajat"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videosoittimet"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Verkkovideo, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoeditorit ja kompressorit"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- ja DVD-tallentimet ja kopiokoneet"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, näytön tallennus ja videon suoratoisto"
 
 msgid "Jogos"
 msgstr "Pelit"
@@ -215,6 +161,18 @@ msgstr "Muut"
 msgid "Sistema"
 msgstr "Järjestelmä"
 
+msgid "Armazenamento e partições"
+msgstr "Säilytys ja väliseinät"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fontit (Typografia)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisointi"
+
 msgid "Desenvolvimento"
 msgstr "Kehitys"
 
@@ -233,14 +191,14 @@ msgstr "Kotimaiset ohjelmat"
 msgid "Programas AUR"
 msgstr "AUR-ohjelmat"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak-ohjelmat"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Asennetut Snap-paketit napsauta poistettavaa pakettia"
 
 msgid "Cancelar"
 msgstr "Peruuta"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak-ohjelmat"
 
 msgid "Fechar"
 msgstr "Sulje"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Näyttää vain valitut ohjelmat<br>\n"
-"ja piilottaa hyödylliset tulokset <br>\n"
-"vain edistyneille käyttäjille."
+"Näyttää vain valitut ohjelmat<br>ja piilottaa hyödylliset tulokset <br>vain edistyneille "
+"käyttäjille."
 
 msgid "Aplicando - Aguarde"
 msgstr "Hakemuksen tekeminen - Odota"

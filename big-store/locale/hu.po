@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-rendszer"
-
-msgid "Armazenamento e partições"
-msgstr "Tárolás és válaszfalak"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizáció"
-
-msgid "Imagem"
-msgstr "Kép"
-
-msgid "Editores Vetorial"
-msgstr "Vektorszerkesztők"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Kép-, fotó- és rajzszerkesztők"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Képek átalakítása, méretének módosítása vagy tömörítése"
-
-msgid "Plugins"
-msgstr "Bővítmények"
-
-msgid "Edição 3D e CAD"
-msgstr "3D és CAD szerkesztés"
-
-msgid "Fontes (Tipografia)"
-msgstr "Betűtípusok (tipográfia)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Az oldalak elrendezése és rendszerezése"
-
-msgid "Colorização e palheta de cores"
-msgstr "Színezés és színpaletta"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videószerkesztők"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video lejátszók"
-
-msgid "Animação e 2D"
-msgstr "Animáció és 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Képernyőkép és videó letöltése"
-
-msgid "Stream/transmissão online"
-msgstr "Streamelés/streamelés online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videokonverterek és CD/DVD írók"
-
-msgid "Audio"
-msgstr "Hanganyag"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio lejátszók"
-
-msgid "Rádio online"
-msgstr "Online rádió"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Hangrögzítők és átalakítók"
-
-msgid "Editores de áudio"
-msgstr "Hangszerkesztők"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online videó, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoszerkesztők és tömörítők"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- és DVD-írók és másolók"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webkamera, képernyőfelvétel és videó streaming"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Képszerkesztők és rajzeszközök"
 msgid "Captura de tela (Screenshot)"
 msgstr "Pillanatkép"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Képek átalakítása, méretének módosítása vagy tömörítése"
+
+msgid "Edição 3D e CAD"
+msgstr "3D és CAD szerkesztés"
+
 msgid "Multimídia"
 msgstr "Multimédia"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio lejátszók"
+
+msgid "Rádio online"
+msgstr "Online rádió"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Hangrögzítők és átalakítók"
+
+msgid "Editores de áudio"
+msgstr "Hangszerkesztők"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video lejátszók"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online videó, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoszerkesztők és tömörítők"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- és DVD-írók és másolók"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, képernyőfelvétel és videó streaming"
 
 msgid "Jogos"
 msgstr "Játékok"
@@ -215,6 +161,18 @@ msgstr "Egyéb"
 msgid "Sistema"
 msgstr "Rendszer"
 
+msgid "Armazenamento e partições"
+msgstr "Tárolás és válaszfalak"
+
+msgid "Fontes (Tipografia)"
+msgstr "Betűtípusok (tipográfia)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizáció"
+
 msgid "Desenvolvimento"
 msgstr "Fejlesztés"
 
@@ -233,14 +191,14 @@ msgstr "Bennszülött programok"
 msgid "Programas AUR"
 msgstr "AUR programok"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak programok"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Telepített Snap csomagok kattintson az eltávolítandó csomagra"
 
 msgid "Cancelar"
 msgstr "Törölje"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programok"
 
 msgid "Fechar"
 msgstr "Zárja be a"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Csak a kiválasztott programokat jeleníti meg<br>\n"
-"és elrejti a hasznos eredményeket <br>\n"
-"csak haladó felhasználóknak."
+"Csak a kijelölt programokat jeleníti meg<br>és elrejti a hasznos eredményeket <br>csak haladó "
+"felhasználóknak."
 
 msgid "Aplicando - Aguarde"
 msgstr "Jelentkezés - Kérjük, várjon"

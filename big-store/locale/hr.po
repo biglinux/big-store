@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-sustav"
-
-msgid "Armazenamento e partições"
-msgstr "Skladištenje i particije"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizacija"
-
-msgid "Imagem"
-msgstr "Slika"
-
-msgid "Editores Vetorial"
-msgstr "Vektorski urednici"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Urednici slika, fotografija i crtanja"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Pretvaranje, promjena veličine ili komprimiranje slika"
-
-msgid "Plugins"
-msgstr "Dodaci"
-
-msgid "Edição 3D e CAD"
-msgstr "3D i CAD uređivanje"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fontovi (tipografija)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Izgled i organizacija stranica"
-
-msgid "Colorização e palheta de cores"
-msgstr "Paleta boja i boja"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Video urednici"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video plejeri"
-
-msgid "Animação e 2D"
-msgstr "Animacija i 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Snimka zaslona i preuzimanje videozapisa"
-
-msgid "Stream/transmissão online"
-msgstr "Strujanje/strujanje na mreži"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Video pretvarači i CD/DVD snimači"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio playeri"
-
-msgid "Rádio online"
-msgstr "Online radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Audio snimači i pretvarači"
-
-msgid "Editores de áudio"
-msgstr "Audio urednici"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, YouTube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video urednici i kompresori"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD i DVD snimači i kopirni uređaji"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Web kamera, snimanje zaslona i streaming videozapisa"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Uređivači slika i alati za crtanje"
 msgid "Captura de tela (Screenshot)"
 msgstr "Snimak zaslona (Snimak zaslona)"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Pretvaranje, promjena veličine ili komprimiranje slika"
+
+msgid "Edição 3D e CAD"
+msgstr "3D i CAD uređivanje"
+
 msgid "Multimídia"
 msgstr "Multimedija"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio playeri"
+
+msgid "Rádio online"
+msgstr "Online radio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Audio snimači i pretvarači"
+
+msgid "Editores de áudio"
+msgstr "Audio urednici"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video plejeri"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, YouTube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video urednici i kompresori"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD i DVD snimači i kopirni uređaji"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Web kamera, snimanje zaslona i streaming videozapisa"
 
 msgid "Jogos"
 msgstr "Igre"
@@ -215,6 +161,18 @@ msgstr "Ostalo"
 msgid "Sistema"
 msgstr "Sustav"
 
+msgid "Armazenamento e partições"
+msgstr "Skladištenje i particije"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fontovi (tipografija)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizacija"
+
 msgid "Desenvolvimento"
 msgstr "Razvoj"
 
@@ -233,14 +191,14 @@ msgstr "Izvorni programi"
 msgid "Programas AUR"
 msgstr "AUR programi"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak programi"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Snap Paketi Instalirani kliknite na paket za uklanjanje"
 
 msgid "Cancelar"
 msgstr "Odustani"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programi"
 
 msgid "Fechar"
 msgstr "Zatvoriti"
@@ -422,14 +380,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
-msgstr ""
-"\n"
-"Prikazuje samo odabrane programe <br> \n"
-"i sakriti rezultate koji su korisni <br>\n"
-"samo napredni korisnici."
+msgstr "Prikazuje samo odabrane programe<br>i skriva korisne rezultate <br>samo naprednim korisnicima."
 
 msgid "Aplicando - Aguarde"
 msgstr "Primjena - Molimo pričekajte"

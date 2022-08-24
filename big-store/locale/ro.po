@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "Sistemul X"
-
-msgid "Armazenamento e partições"
-msgstr "Depozitare și partiții"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizare"
-
-msgid "Imagem"
-msgstr "Imagine"
-
-msgid "Editores Vetorial"
-msgstr "Editori vectori"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Editori de imagine, fotografie și desen"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Conversia, redimensionarea sau comprimarea imaginilor"
-
-msgid "Plugins"
-msgstr "Plugin-uri"
-
-msgid "Edição 3D e CAD"
-msgstr "Editare 3D și CAD"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fonturi (Tipografie)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Dispunerea și organizarea paginilor"
-
-msgid "Colorização e palheta de cores"
-msgstr "Colorizare și paletă de culori"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Editori video"
-
-msgid "Reprodutores de vídeo"
-msgstr "Jucători video"
-
-msgid "Animação e 2D"
-msgstr "Animație și 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Captură de ecran și descărcare video"
-
-msgid "Stream/transmissão online"
-msgstr "Redați în flux/redați în flux online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Convertoare video și arzătoare CD/DVD"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Redactori audio"
-
-msgid "Rádio online"
-msgstr "Radio online"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Aparate de înregistrare și convertoare audio"
-
-msgid "Editores de áudio"
-msgstr "Editorii audio"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Video online, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Editorii și compresoarele video"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Aparate de înregistrat și copiatoare de CD și DVD"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, înregistrare a ecranului și streaming video"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Editoare de imagini și instrumente de desen"
 msgid "Captura de tela (Screenshot)"
 msgstr "Captură de ecran"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Conversia, redimensionarea sau comprimarea imaginilor"
+
+msgid "Edição 3D e CAD"
+msgstr "Editare 3D și CAD"
+
 msgid "Multimídia"
 msgstr "Multimedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Redactori audio"
+
+msgid "Rádio online"
+msgstr "Radio online"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Aparate de înregistrare și convertoare audio"
+
+msgid "Editores de áudio"
+msgstr "Editorii audio"
+
+msgid "Reprodutores de vídeo"
+msgstr "Jucători video"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Video online, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Editorii și compresoarele video"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Aparate de înregistrat și copiatoare de CD și DVD"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, înregistrare a ecranului și streaming video"
 
 msgid "Jogos"
 msgstr "Jocuri"
@@ -215,6 +161,18 @@ msgstr "Altele"
 msgid "Sistema"
 msgstr "Sistem"
 
+msgid "Armazenamento e partições"
+msgstr "Depozitare și partiții"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fonturi (Tipografie)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizare"
+
 msgid "Desenvolvimento"
 msgstr "Dezvoltare"
 
@@ -233,14 +191,14 @@ msgstr "Programe autohtone"
 msgid "Programas AUR"
 msgstr "Programe AUR"
 
-msgid "Programas Flatpak"
-msgstr "Programe Flatpak"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Pachete Snap instalate faceți clic pe pachetul pe care doriți să îl eliminați"
 
 msgid "Cancelar"
 msgstr "Anulează"
+
+msgid "Programas Flatpak"
+msgstr "Programe Flatpak"
 
 msgid "Fechar"
 msgstr "Închideți"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Afișează numai programele selectate <br>\n"
-"și ascunde rezultatele care sunt utile <br>\n"
-"numai pentru utilizatorii avansați."
+"Afișează numai programele selectate<br>și ascunde rezultatele care sunt utile <br>numai pentru "
+"utilizatorii avansați."
 
 msgid "Aplicando - Aguarde"
 msgstr "Aplicare - Vă rugăm să așteptați"

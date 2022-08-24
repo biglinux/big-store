@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-System"
-
-msgid "Armazenamento e partições"
-msgstr "Förvaring och skiljeväggar"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisering"
-
-msgid "Imagem"
-msgstr "Bild"
-
-msgid "Editores Vetorial"
-msgstr "Vektor redaktörer"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Bild-, foto- och ritningsredigerare"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Konvertera, ändra storlek eller komprimera bilder"
-
-msgid "Plugins"
-msgstr "Insticksprogram"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- och CAD-redigering"
-
-msgid "Fontes (Tipografia)"
-msgstr "Typsnitt (typografi)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Layout och organisering av sidor"
-
-msgid "Colorização e palheta de cores"
-msgstr "Färgläggning och färgpalett"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videoredigerare"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videospelare"
-
-msgid "Animação e 2D"
-msgstr "Animering och 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Skärmdump och nedladdning av video"
-
-msgid "Stream/transmissão online"
-msgstr "Streama/streama online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videokonverterare och CD/DVD-brännare"
-
-msgid "Audio"
-msgstr "Ljud"
-
-msgid "Reprodutores de áudio"
-msgstr "Ljudspelare"
-
-msgid "Rádio online"
-msgstr "Radio på nätet"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ljudinspelare och ljudomvandlare"
-
-msgid "Editores de áudio"
-msgstr "Ljudredaktörer"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Video på nätet, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoredigerare och kompressorer"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- och DVD-inspelare och kopiatorer"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webbkamera, skärminspelning och videoströmning"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Bildredigerare och ritverktyg"
 msgid "Captura de tela (Screenshot)"
 msgstr "Skärmdump"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konvertera, ändra storlek eller komprimera bilder"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- och CAD-redigering"
+
 msgid "Multimídia"
 msgstr "Multimedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Ljudspelare"
+
+msgid "Rádio online"
+msgstr "Radio på nätet"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Ljudinspelare och ljudomvandlare"
+
+msgid "Editores de áudio"
+msgstr "Ljudredaktörer"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videospelare"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Video på nätet, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoredigerare och kompressorer"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- och DVD-inspelare och kopiatorer"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webbkamera, skärminspelning och videoströmning"
 
 msgid "Jogos"
 msgstr "Spel"
@@ -215,6 +161,18 @@ msgstr "Övriga"
 msgid "Sistema"
 msgstr "System"
 
+msgid "Armazenamento e partições"
+msgstr "Förvaring och skiljeväggar"
+
+msgid "Fontes (Tipografia)"
+msgstr "Typsnitt (typografi)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisering"
+
 msgid "Desenvolvimento"
 msgstr "Utveckling"
 
@@ -233,14 +191,14 @@ msgstr "Inhemska program"
 msgid "Programas AUR"
 msgstr "AUR-programmen"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak-program"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Installerade Snap-paket klicka på paketet som du vill ta bort"
 
 msgid "Cancelar"
 msgstr "Avbryt"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak-program"
 
 msgid "Fechar"
 msgstr "Stäng"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Visar endast valda program<br>\n"
-"och döljer resultat som är användbara <br>\n"
-"endast för avancerade användare."
+"Visar endast valda program<br>och döljer resultat som är användbara <br>endast till avancerade "
+"användare."
 
 msgid "Aplicando - Aguarde"
 msgstr "Ansökan - Vänta"

@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "System X"
-
-msgid "Armazenamento e partições"
-msgstr "Przechowywanie i przegrody"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Wirtualizacja"
-
-msgid "Imagem"
-msgstr "Obraz"
-
-msgid "Editores Vetorial"
-msgstr "Edytory wektorowe"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Edytory obrazów, fotografii i rysunków"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Konwertowanie, zmiana rozmiaru lub kompresja obrazów"
-
-msgid "Plugins"
-msgstr "Wtyczki"
-
-msgid "Edição 3D e CAD"
-msgstr "Edycja 3D i CAD"
-
-msgid "Fontes (Tipografia)"
-msgstr "Czcionki (Typografia)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Układ i organizacja stron"
-
-msgid "Colorização e palheta de cores"
-msgstr "Kolorystyka i paleta kolorów"
-
-msgid "Video"
-msgstr "Wideo"
-
-msgid "Editores de video"
-msgstr "Edytory wideo"
-
-msgid "Reprodutores de vídeo"
-msgstr "Odtwarzacze wideo"
-
-msgid "Animação e 2D"
-msgstr "Animacja i 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Zrzut ekranu i pobieranie wideo"
-
-msgid "Stream/transmissão online"
-msgstr "Streamuj/streamuj online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Konwertery wideo i nagrywarki CD/DVD"
-
-msgid "Audio"
-msgstr "Dźwięk"
-
-msgid "Reprodutores de áudio"
-msgstr "Odtwarzacze audio"
-
-msgid "Rádio online"
-msgstr "Radio internetowe"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Rejestratory i konwertery dźwięku"
-
-msgid "Editores de áudio"
-msgstr "Edytory dźwięku"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Wideo online, IPTV, Youtube."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Edytory i kompresory wideo"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Nagrywarki CD i DVD oraz kopiarki"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Kamera internetowa, nagrywanie ekranu i strumieniowe przesyłanie wideo"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Edytory obrazów i narzędzia do rysowania"
 msgid "Captura de tela (Screenshot)"
 msgstr "Screenshot"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konwertowanie, zmiana rozmiaru lub kompresja obrazów"
+
+msgid "Edição 3D e CAD"
+msgstr "Edycja 3D i CAD"
+
 msgid "Multimídia"
 msgstr "Multimedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Odtwarzacze audio"
+
+msgid "Rádio online"
+msgstr "Radio internetowe"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Rejestratory i konwertery dźwięku"
+
+msgid "Editores de áudio"
+msgstr "Edytory dźwięku"
+
+msgid "Reprodutores de vídeo"
+msgstr "Odtwarzacze wideo"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Wideo online, IPTV, Youtube."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Edytory i kompresory wideo"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Nagrywarki CD i DVD oraz kopiarki"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Kamera internetowa, nagrywanie ekranu i strumieniowe przesyłanie wideo"
 
 msgid "Jogos"
 msgstr "Gry"
@@ -215,6 +161,18 @@ msgstr "Inne"
 msgid "Sistema"
 msgstr "System"
 
+msgid "Armazenamento e partições"
+msgstr "Przechowywanie i przegrody"
+
+msgid "Fontes (Tipografia)"
+msgstr "Czcionki (Typografia)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Wirtualizacja"
+
 msgid "Desenvolvimento"
 msgstr "Rozwój"
 
@@ -233,14 +191,14 @@ msgstr "Programy rodzime"
 msgid "Programas AUR"
 msgstr "Programy AUR"
 
-msgid "Programas Flatpak"
-msgstr "Programy Flatpak"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Zainstalowane pakiety Snap kliknij na pakiet, który chcesz usunąć"
 
 msgid "Cancelar"
 msgstr "Anuluj"
+
+msgid "Programas Flatpak"
+msgstr "Programy Flatpak"
 
 msgid "Fechar"
 msgstr "Zamknij"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Wyświetla tylko wybrane programy<br>\n"
-"i ukrywa wyniki, które są przydatne <br>\n"
-"tylko dla zaawansowanych użytkowników."
+"Wyświetla tylko wybrane programy<br>i ukrywa przydatne wyniki <br>tylko dla zaawansowanych "
+"użytkowników."
 
 msgid "Aplicando - Aguarde"
 msgstr "Składanie wniosku - Proszę czekać"

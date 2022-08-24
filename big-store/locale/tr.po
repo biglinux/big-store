@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Sistemi"
-
-msgid "Armazenamento e partições"
-msgstr "Depolama ve bölmeler"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Sanallaştırma"
-
-msgid "Imagem"
-msgstr "Resim"
-
-msgid "Editores Vetorial"
-msgstr "Vektör Editörleri"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Resim, fotoğraf ve çizim editörleri"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Görüntüleri dönüştürme, yeniden boyutlandırma veya sıkıştırma"
-
-msgid "Plugins"
-msgstr "Eklentiler"
-
-msgid "Edição 3D e CAD"
-msgstr "3D ve CAD Düzenleme"
-
-msgid "Fontes (Tipografia)"
-msgstr "Yazı Tipleri (Tipografi)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Sayfaların düzeni ve organizasyonu"
-
-msgid "Colorização e palheta de cores"
-msgstr "Renklendirme ve renk paleti"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Video düzenleyiciler"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video oynatıcılar"
-
-msgid "Animação e 2D"
-msgstr "Animasyon ve 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Ekran görüntüsü ve video indirme"
-
-msgid "Stream/transmissão online"
-msgstr "Çevrimiçi akış/akış"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Video dönüştürücüler ve CD/DVD yazıcılar"
-
-msgid "Audio"
-msgstr "Ses"
-
-msgid "Reprodutores de áudio"
-msgstr "Ses oynatıcılar"
-
-msgid "Rádio online"
-msgstr "Çevrimiçi radyo"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ses kayıt cihazları ve dönüştürücüler"
-
-msgid "Editores de áudio"
-msgstr "Ses editörleri"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Çevrimiçi video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video düzenleyiciler ve sıkıştırıcılar"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD ve DVD kaydediciler ve fotokopi makineleri"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Web kamerası, ekran kaydı ve video akışı"
-
 msgid "Internet"
 msgstr "İnternet"
 
@@ -167,8 +80,41 @@ msgstr "Görüntü düzenleyiciler ve çizim araçları"
 msgid "Captura de tela (Screenshot)"
 msgstr "Ekran görüntüsü"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Görüntüleri dönüştürme, yeniden boyutlandırma veya sıkıştırma"
+
+msgid "Edição 3D e CAD"
+msgstr "3D ve CAD Düzenleme"
+
 msgid "Multimídia"
 msgstr "Multimedya"
+
+msgid "Reprodutores de áudio"
+msgstr "Ses oynatıcılar"
+
+msgid "Rádio online"
+msgstr "Çevrimiçi radyo"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Ses kayıt cihazları ve dönüştürücüler"
+
+msgid "Editores de áudio"
+msgstr "Ses editörleri"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video oynatıcılar"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Çevrimiçi video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video düzenleyiciler ve sıkıştırıcılar"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD ve DVD kaydediciler ve fotokopi makineleri"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Web kamerası, ekran kaydı ve video akışı"
 
 msgid "Jogos"
 msgstr "Oyunlar"
@@ -215,6 +161,18 @@ msgstr "Diğer"
 msgid "Sistema"
 msgstr "Sistem"
 
+msgid "Armazenamento e partições"
+msgstr "Depolama ve bölmeler"
+
+msgid "Fontes (Tipografia)"
+msgstr "Yazı Tipleri (Tipografi)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Sanallaştırma"
+
 msgid "Desenvolvimento"
 msgstr "Geliştirme"
 
@@ -233,14 +191,14 @@ msgstr "Yerel Programlar"
 msgid "Programas AUR"
 msgstr "AUR programları"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak programları"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Yüklü Snap Paketleri kaldırmak için paketin üzerine tıklayın"
 
 msgid "Cancelar"
 msgstr "İptal"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programları"
 
 msgid "Fechar"
 msgstr "Kapat"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Yalnızca seçili programları görüntüler<br>\n"
-"ve yararlı olan sonuçları gizler <br>\n"
-"sadece ileri düzey kullanıcılar içindir."
+"Yalnızca seçili programları görüntüler<br>ve yararlı sonuçları gizler <br>yalnızca ileri düzey "
+"kullanıcılara."
 
 msgid "Aplicando - Aguarde"
 msgstr "Başvuru - Lütfen bekleyin"

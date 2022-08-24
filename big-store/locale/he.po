@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "אקס-סיסטם"
-
-msgid "Armazenamento e partições"
-msgstr "אחסון ומחיצות"
-
-msgid "Java JRE"
-msgstr "ג'אווה ג'וניור"
-
-msgid "Virtualização"
-msgstr "וירטואליזציה"
-
-msgid "Imagem"
-msgstr "תמונה"
-
-msgid "Editores Vetorial"
-msgstr "עורכים וקטוריים"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "עורכי תמונה, צילום וציור"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "המרה, שינוי גודל או דחיסת תמונות"
-
-msgid "Plugins"
-msgstr "תוספים"
-
-msgid "Edição 3D e CAD"
-msgstr "עריכת תלת-ממד ו- CAD"
-
-msgid "Fontes (Tipografia)"
-msgstr "גופנים (טיפוגרפיה)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "פריסה וארגון של דפים"
-
-msgid "Colorização e palheta de cores"
-msgstr "צביעה ופלטת צבעים"
-
-msgid "Video"
-msgstr "וידאו"
-
-msgid "Editores de video"
-msgstr "עורכי וידאו"
-
-msgid "Reprodutores de vídeo"
-msgstr "נגני וידאו"
-
-msgid "Animação e 2D"
-msgstr "אנימציה ודו-ממד"
-
-msgid "Captura de tela e video download"
-msgstr "צילום מסך והורדת וידאו"
-
-msgid "Stream/transmissão online"
-msgstr "הזרם/הזרם באופן מקוון"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "ממירי וידאו וצורבי תקליטורים/DVD"
-
-msgid "Audio"
-msgstr "שמע"
-
-msgid "Reprodutores de áudio"
-msgstr "נגני אודיו"
-
-msgid "Rádio online"
-msgstr "רדיו מקוון"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "מקליטי שמע וממירים"
-
-msgid "Editores de áudio"
-msgstr "עורכי אודיו"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "וידאו מקוון, IPTV, יוטיוב..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "עורכי וידאו ומדחסים"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "צורבי CD ו- DVD ומכונות צילום"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "מצלמת רשת, הקלטת מסך והזרמת וידאו"
-
 msgid "Internet"
 msgstr "מרשתת"
 
@@ -167,8 +80,41 @@ msgstr "עורכי תמונה וכלי ציור"
 msgid "Captura de tela (Screenshot)"
 msgstr "צילום מסך (צילום מסך)"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "המרה, שינוי גודל או דחיסת תמונות"
+
+msgid "Edição 3D e CAD"
+msgstr "עריכת תלת-ממד ו- CAD"
+
 msgid "Multimídia"
 msgstr "מולטימדיה"
+
+msgid "Reprodutores de áudio"
+msgstr "נגני אודיו"
+
+msgid "Rádio online"
+msgstr "רדיו מקוון"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "מקליטי שמע וממירים"
+
+msgid "Editores de áudio"
+msgstr "עורכי אודיו"
+
+msgid "Reprodutores de vídeo"
+msgstr "נגני וידאו"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "וידאו מקוון, IPTV, יוטיוב..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "עורכי וידאו ומדחסים"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "צורבי CD ו- DVD ומכונות צילום"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "מצלמת רשת, הקלטת מסך והזרמת וידאו"
 
 msgid "Jogos"
 msgstr "משחקים"
@@ -215,6 +161,18 @@ msgstr "אחרים"
 msgid "Sistema"
 msgstr "מערכת"
 
+msgid "Armazenamento e partições"
+msgstr "אחסון ומחיצות"
+
+msgid "Fontes (Tipografia)"
+msgstr "גופנים (טיפוגרפיה)"
+
+msgid "Java JRE"
+msgstr "ג'אווה ג'וניור"
+
+msgid "Virtualização"
+msgstr "וירטואליזציה"
+
 msgid "Desenvolvimento"
 msgstr "פיתוח"
 
@@ -233,14 +191,14 @@ msgstr "תוכניות מקוריות"
 msgid "Programas AUR"
 msgstr "תוכניות AUR"
 
-msgid "Programas Flatpak"
-msgstr "תוכניות פלאטפאק"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "הצמד חבילות מותקן לחץ על החבילה כדי להסיר"
 
 msgid "Cancelar"
 msgstr "ביטול"
+
+msgid "Programas Flatpak"
+msgstr "תוכניות פלאטפאק"
 
 msgid "Fechar"
 msgstr "סגור"
@@ -422,14 +380,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
-msgstr ""
-"\n"
-"מציג רק תוכניות שנבחרו <br> \n"
-"ולהסתיר תוצאות שימושיות <br>\n"
-"משתמשים מתקדמים בלבד."
+msgstr "מציג רק תוכניות נבחרות<br>ומסתיר תוצאות שימושיות <br>רק למשתמשים מתקדמים."
 
 msgid "Aplicando - Aguarde"
 msgstr "הגשת בקשה - אנא המתן"

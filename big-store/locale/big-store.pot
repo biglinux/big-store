@@ -14,93 +14,6 @@ msgstr  "Project-Id-Version: big-store\n"
         "Content-Type: text/plain; charset=UTF-8\n"
         "Content-Transfer-Encoding: 8bit\n"
 
-msgid   "X-Sistema"
-msgstr  ""
-
-msgid   "Armazenamento e partições"
-msgstr  ""
-
-msgid   "Java JRE"
-msgstr  ""
-
-msgid   "Virtualização"
-msgstr  ""
-
-msgid   "Imagem"
-msgstr  ""
-
-msgid   "Editores Vetorial"
-msgstr  ""
-
-msgid   "Editores de imagem, fotografia e desenho"
-msgstr  ""
-
-msgid   "Converter, redimensionar ou compactar imagens"
-msgstr  ""
-
-msgid   "Plugins"
-msgstr  ""
-
-msgid   "Edição 3D e CAD"
-msgstr  ""
-
-msgid   "Fontes (Tipografia)"
-msgstr  ""
-
-msgid   "Diagramação e organização de páginas"
-msgstr  ""
-
-msgid   "Colorização e palheta de cores"
-msgstr  ""
-
-msgid   "Video"
-msgstr  ""
-
-msgid   "Editores de video"
-msgstr  ""
-
-msgid   "Reprodutores de vídeo"
-msgstr  ""
-
-msgid   "Animação e 2D"
-msgstr  ""
-
-msgid   "Captura de tela e video download"
-msgstr  ""
-
-msgid   "Stream/transmissão online"
-msgstr  ""
-
-msgid   "Conversores de vídeo e gravadores CD/DVD"
-msgstr  ""
-
-msgid   "Audio"
-msgstr  ""
-
-msgid   "Reprodutores de áudio"
-msgstr  ""
-
-msgid   "Rádio online"
-msgstr  ""
-
-msgid   "Gravadores e conversores de áudio"
-msgstr  ""
-
-msgid   "Editores de áudio"
-msgstr  ""
-
-msgid   "Vídeo online, IPTV, Youtube..."
-msgstr  ""
-
-msgid   "Editores e compactadores de vídeo"
-msgstr  ""
-
-msgid   "Gravadores e copiadores de CD e DVD"
-msgstr  ""
-
-msgid   "Webcam, gravação de tela e transmissão de vídeo"
-msgstr  ""
-
 msgid   "Internet"
 msgstr  ""
 
@@ -158,7 +71,40 @@ msgstr  ""
 msgid   "Captura de tela (Screenshot)"
 msgstr  ""
 
+msgid   "Converter, redimensionar ou compactar imagens"
+msgstr  ""
+
+msgid   "Edição 3D e CAD"
+msgstr  ""
+
 msgid   "Multimídia"
+msgstr  ""
+
+msgid   "Reprodutores de áudio"
+msgstr  ""
+
+msgid   "Rádio online"
+msgstr  ""
+
+msgid   "Gravadores e conversores de áudio"
+msgstr  ""
+
+msgid   "Editores de áudio"
+msgstr  ""
+
+msgid   "Reprodutores de vídeo"
+msgstr  ""
+
+msgid   "Vídeo online, IPTV, Youtube..."
+msgstr  ""
+
+msgid   "Editores e compactadores de vídeo"
+msgstr  ""
+
+msgid   "Gravadores e copiadores de CD e DVD"
+msgstr  ""
+
+msgid   "Webcam, gravação de tela e transmissão de vídeo"
 msgstr  ""
 
 msgid   "Jogos"
@@ -206,6 +152,18 @@ msgstr  ""
 msgid   "Sistema"
 msgstr  ""
 
+msgid   "Armazenamento e partições"
+msgstr  ""
+
+msgid   "Fontes (Tipografia)"
+msgstr  ""
+
+msgid   "Java JRE"
+msgstr  ""
+
+msgid   "Virtualização"
+msgstr  ""
+
 msgid   "Desenvolvimento"
 msgstr  ""
 
@@ -224,13 +182,13 @@ msgstr  ""
 msgid   "Programas AUR"
 msgstr  ""
 
-msgid   "Programas Flatpak"
-msgstr  ""
-
 msgid   "Pacotes Snap Instalados clique no pacote para remover"
 msgstr  ""
 
 msgid   "Cancelar"
+msgstr  ""
+
+msgid   "Programas Flatpak"
 msgstr  ""
 
 msgid   "Fechar"
@@ -383,7 +341,7 @@ msgid   "\n"
 msgstr  ""
 
 msgid   "\n"
-        "Exibe apenas programas selecionados<br> \n"
+        "Exibe apenas programas selecionados<br>\n"
         "e oculta resultados que são úteis <br>\n"
         "apenas a usuários avançados."
 msgstr  ""

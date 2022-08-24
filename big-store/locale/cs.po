@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Systém"
-
-msgid "Armazenamento e partições"
-msgstr "Úložiště a oddíly"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizace"
-
-msgid "Imagem"
-msgstr "Obraz"
-
-msgid "Editores Vetorial"
-msgstr "Vektorové editory"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Editory obrázků, fotografií a kreseb"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Převod, změna velikosti nebo komprese obrázků"
-
-msgid "Plugins"
-msgstr "Pluginy"
-
-msgid "Edição 3D e CAD"
-msgstr "Úpravy 3D a CAD"
-
-msgid "Fontes (Tipografia)"
-msgstr "Písma (typografie)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Rozvržení a uspořádání stránek"
-
-msgid "Colorização e palheta de cores"
-msgstr "Kolorování a paleta barev"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Editory videa"
-
-msgid "Reprodutores de vídeo"
-msgstr "Přehrávače videa"
-
-msgid "Animação e 2D"
-msgstr "Animace a 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Stažení snímku obrazovky a videa"
-
-msgid "Stream/transmissão online"
-msgstr "Streamujte/streamujte online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Video konvertory a CD/DVD vypalovačky"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Zvukové přehrávače"
-
-msgid "Rádio online"
-msgstr "Rádio online"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Zvukové rekordéry a převodníky"
-
-msgid "Editores de áudio"
-msgstr "Editory zvuku"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Střihače videa a kompresory"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Rekordéry a kopírky CD a DVD"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webová kamera, nahrávání obrazovky a streamování videa"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Editory obrázků a nástroje pro kreslení"
 msgid "Captura de tela (Screenshot)"
 msgstr "Snímek obrazovky"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Převod, změna velikosti nebo komprese obrázků"
+
+msgid "Edição 3D e CAD"
+msgstr "Úpravy 3D a CAD"
+
 msgid "Multimídia"
 msgstr "Multimédia"
+
+msgid "Reprodutores de áudio"
+msgstr "Zvukové přehrávače"
+
+msgid "Rádio online"
+msgstr "Rádio online"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Zvukové rekordéry a převodníky"
+
+msgid "Editores de áudio"
+msgstr "Editory zvuku"
+
+msgid "Reprodutores de vídeo"
+msgstr "Přehrávače videa"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Střihače videa a kompresory"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Rekordéry a kopírky CD a DVD"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webová kamera, nahrávání obrazovky a streamování videa"
 
 msgid "Jogos"
 msgstr "Hry"
@@ -215,6 +161,18 @@ msgstr "Další"
 msgid "Sistema"
 msgstr "Systém"
 
+msgid "Armazenamento e partições"
+msgstr "Úložiště a oddíly"
+
+msgid "Fontes (Tipografia)"
+msgstr "Písma (typografie)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizace"
+
 msgid "Desenvolvimento"
 msgstr "Vývoj"
 
@@ -233,14 +191,14 @@ msgstr "Nativní programy"
 msgid "Programas AUR"
 msgstr "Programy AUR"
 
-msgid "Programas Flatpak"
-msgstr "Programy Flatpak"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Nainstalované balíčky Snap Klikněte na balíček, který chcete odebrat"
 
 msgid "Cancelar"
 msgstr "Zrušit"
+
+msgid "Programas Flatpak"
+msgstr "Programy Flatpak"
 
 msgid "Fechar"
 msgstr "Zavřít"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Zobrazí pouze vybrané  programy<br>\n"
-"a skrývá užitečné výsledky <br>\n"
-"pouze pro pokročilé uživatele."
+"Zobrazí pouze vybrané programy<br>a skryje výsledky, které jsou užitečné <br>pouze pro pokročilé "
+"uživatele."
 
 msgid "Aplicando - Aguarde"
 msgstr "Podání žádosti - Počkejte prosím"

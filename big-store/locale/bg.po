@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Система"
-
-msgid "Armazenamento e partições"
-msgstr "Съхранение и прегради"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Виртуализация"
-
-msgid "Imagem"
-msgstr "Изображение"
-
-msgid "Editores Vetorial"
-msgstr "Векторни редактори"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Редактори на изображения, фотография и рисуване"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Конвертиране, промяна на размера или компресиране на изображения"
-
-msgid "Plugins"
-msgstr "Плъгини"
-
-msgid "Edição 3D e CAD"
-msgstr "3D и CAD редактиране"
-
-msgid "Fontes (Tipografia)"
-msgstr "Шрифтове (типография)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Оформление и организиране на страници"
-
-msgid "Colorização e palheta de cores"
-msgstr "Оцветяване и цветова палитра"
-
-msgid "Video"
-msgstr "Видео"
-
-msgid "Editores de video"
-msgstr "Видео редактори"
-
-msgid "Reprodutores de vídeo"
-msgstr "Видео плейъри"
-
-msgid "Animação e 2D"
-msgstr "Анимация и 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Екранна снимка и изтегляне на видео"
-
-msgid "Stream/transmissão online"
-msgstr "Поточно предаване/поточно предаване онлайн"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Видео конвертори и записващи CD/DVD дискове"
-
-msgid "Audio"
-msgstr "Аудио"
-
-msgid "Reprodutores de áudio"
-msgstr "Аудио плейъри"
-
-msgid "Rádio online"
-msgstr "Онлайн радио"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Звукозаписващи устройства и конвертори"
-
-msgid "Editores de áudio"
-msgstr "Аудио редактори"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Онлайн видео, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Видеоредактори и компресори"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD и DVD записващи устройства и копирни машини"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Уеб камера, запис на екрана и видео стрийминг"
-
 msgid "Internet"
 msgstr "Интернет"
 
@@ -167,8 +80,41 @@ msgstr "Редактори на изображения и инструменти
 msgid "Captura de tela (Screenshot)"
 msgstr "Снимка на екрана"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Конвертиране, промяна на размера или компресиране на изображения"
+
+msgid "Edição 3D e CAD"
+msgstr "3D и CAD редактиране"
+
 msgid "Multimídia"
 msgstr "Мултимедия"
+
+msgid "Reprodutores de áudio"
+msgstr "Аудио плейъри"
+
+msgid "Rádio online"
+msgstr "Онлайн радио"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Звукозаписващи устройства и конвертори"
+
+msgid "Editores de áudio"
+msgstr "Аудио редактори"
+
+msgid "Reprodutores de vídeo"
+msgstr "Видео плейъри"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Онлайн видео, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Видеоредактори и компресори"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD и DVD записващи устройства и копирни машини"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Уеб камера, запис на екрана и видео стрийминг"
 
 msgid "Jogos"
 msgstr "Игри"
@@ -215,6 +161,18 @@ msgstr "Други"
 msgid "Sistema"
 msgstr "Система"
 
+msgid "Armazenamento e partições"
+msgstr "Съхранение и прегради"
+
+msgid "Fontes (Tipografia)"
+msgstr "Шрифтове (типография)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Виртуализация"
+
 msgid "Desenvolvimento"
 msgstr "Развитие"
 
@@ -233,14 +191,14 @@ msgstr "Родни програми"
 msgid "Programas AUR"
 msgstr "Програми на AUR"
 
-msgid "Programas Flatpak"
-msgstr "Програми Flatpak"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Инсталирани пакети Snap Кликнете върху пакета, за да го премахнете"
 
 msgid "Cancelar"
 msgstr "Отмяна на"
+
+msgid "Programas Flatpak"
+msgstr "Програми Flatpak"
 
 msgid "Fechar"
 msgstr "Затвори"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Показва само избрани програми<br>\n"
-"и скрива полезните резултати <br>\n"
-"само за напреднали потребители."
+"Показва само избрани програми<br>и скрива резултатите, които са полезни <br>само на напреднали "
+"потребители."
 
 msgid "Aplicando - Aguarde"
 msgstr "Кандидатстване - Моля, изчакайте"

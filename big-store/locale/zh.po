@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-系统"
-
-msgid "Armazenamento e partições"
-msgstr "储存和隔断"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "虚拟化"
-
-msgid "Imagem"
-msgstr "图像"
-
-msgid "Editores Vetorial"
-msgstr "矢量编辑器"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "图像、摄影和绘图编辑器"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "转换、调整大小或压缩图像"
-
-msgid "Plugins"
-msgstr "插件"
-
-msgid "Edição 3D e CAD"
-msgstr "3D和CAD编辑"
-
-msgid "Fontes (Tipografia)"
-msgstr "字体(排版)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "页面的布局和组织"
-
-msgid "Colorização e palheta de cores"
-msgstr "着色和调色板"
-
-msgid "Video"
-msgstr "视频"
-
-msgid "Editores de video"
-msgstr "视频编辑器"
-
-msgid "Reprodutores de vídeo"
-msgstr "视频播放器"
-
-msgid "Animação e 2D"
-msgstr "动画和 2D"
-
-msgid "Captura de tela e video download"
-msgstr "屏幕截图和视频下载"
-
-msgid "Stream/transmissão online"
-msgstr "在线流/流"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "视频转换器和 CD/DVD 刻录机"
-
-msgid "Audio"
-msgstr "音频"
-
-msgid "Reprodutores de áudio"
-msgstr "音频播放器"
-
-msgid "Rádio online"
-msgstr "在线广播"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "音频录音机和转换器"
-
-msgid "Editores de áudio"
-msgstr "音频编辑"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "在线视频、IPTV、Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "视频编辑和压缩器"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD和DVD刻录机和复印机"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "网络摄像头、屏幕录制和视频流"
-
 msgid "Internet"
 msgstr "互联网"
 
@@ -167,8 +80,41 @@ msgstr "图像编辑器和绘图工具"
 msgid "Captura de tela (Screenshot)"
 msgstr "屏幕截图"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "转换、调整大小或压缩图像"
+
+msgid "Edição 3D e CAD"
+msgstr "3D和CAD编辑"
+
 msgid "Multimídia"
 msgstr "多媒体"
+
+msgid "Reprodutores de áudio"
+msgstr "音频播放器"
+
+msgid "Rádio online"
+msgstr "在线广播"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "音频录音机和转换器"
+
+msgid "Editores de áudio"
+msgstr "音频编辑"
+
+msgid "Reprodutores de vídeo"
+msgstr "视频播放器"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "在线视频、IPTV、Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "视频编辑和压缩器"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD和DVD刻录机和复印机"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "网络摄像头、屏幕录制和视频流"
 
 msgid "Jogos"
 msgstr "游戏"
@@ -215,6 +161,18 @@ msgstr "其他"
 msgid "Sistema"
 msgstr "系统"
 
+msgid "Armazenamento e partições"
+msgstr "储存和隔断"
+
+msgid "Fontes (Tipografia)"
+msgstr "字体(排版)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "虚拟化"
+
 msgid "Desenvolvimento"
 msgstr "发展"
 
@@ -233,14 +191,14 @@ msgstr "本地方案"
 msgid "Programas AUR"
 msgstr "AUR方案"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak程序"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "已安装的Snap软件包，点击要删除的软件包"
 
 msgid "Cancelar"
 msgstr "取消"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak程序"
 
 msgid "Fechar"
 msgstr "关闭"
@@ -422,14 +380,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
-msgstr ""
-"\n"
-"只显示 选定的 节目<br>\n"
-"并隐藏了一些有用的结果<br>\n"
-"只对高级用户开放。"
+msgstr "仅显示选定的程序<br>并隐藏有用的结果 <br>仅对高级用户。"
 
 msgid "Aplicando - Aguarde"
 msgstr "申请 - 请等待"

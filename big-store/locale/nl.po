@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Systeem"
-
-msgid "Armazenamento e partições"
-msgstr "Opslag en scheidingswanden"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisatie"
-
-msgid "Imagem"
-msgstr "Beeld"
-
-msgid "Editores Vetorial"
-msgstr "Vector-editors"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Beeld-, fotografie- en tekeneditors"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Afbeeldingen converteren, verkleinen of comprimeren"
-
-msgid "Plugins"
-msgstr "Plug-ins"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- en CAD-bewerking"
-
-msgid "Fontes (Tipografia)"
-msgstr "Lettertypen (Typografie)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Lay-out en organisatie van pagina's"
-
-msgid "Colorização e palheta de cores"
-msgstr "Kleuring en kleurenpalet"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Video-editors"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videospelers"
-
-msgid "Animação e 2D"
-msgstr "Animatie en 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Screenshot en video downloaden"
-
-msgid "Stream/transmissão online"
-msgstr "Online streamen/streamen"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videoconverters en cd/dvd-branders"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio spelers"
-
-msgid "Rádio online"
-msgstr "Online radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Geluidsopnemers en converters"
-
-msgid "Editores de áudio"
-msgstr "Audio-editors"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video-editors en compressoren"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- en DVD-recorders en kopieerapparaten"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, schermopname en videostreaming"
-
 msgid "Internet"
 msgstr "Internet"
 
@@ -167,8 +80,41 @@ msgstr "Beeldbewerkers en tekengereedschappen"
 msgid "Captura de tela (Screenshot)"
 msgstr "Screenshot"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Afbeeldingen converteren, verkleinen of comprimeren"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- en CAD-bewerking"
+
 msgid "Multimídia"
 msgstr "Multimedia"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio spelers"
+
+msgid "Rádio online"
+msgstr "Online radio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Geluidsopnemers en converters"
+
+msgid "Editores de áudio"
+msgstr "Audio-editors"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videospelers"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video-editors en compressoren"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- en DVD-recorders en kopieerapparaten"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, schermopname en videostreaming"
 
 msgid "Jogos"
 msgstr "Spelletjes"
@@ -215,6 +161,18 @@ msgstr "Andere"
 msgid "Sistema"
 msgstr "Systeem"
 
+msgid "Armazenamento e partições"
+msgstr "Opslag en scheidingswanden"
+
+msgid "Fontes (Tipografia)"
+msgstr "Lettertypen (Typografie)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisatie"
+
 msgid "Desenvolvimento"
 msgstr "Ontwikkeling"
 
@@ -233,14 +191,14 @@ msgstr "Inheemse programma's"
 msgid "Programas AUR"
 msgstr "AUR-programma's"
 
-msgid "Programas Flatpak"
-msgstr "Flatpak programma's"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "Geïnstalleerde Snap-pakketten klik op het pakket om het te verwijderen"
 
 msgid "Cancelar"
 msgstr "Annuleren"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programma's"
 
 msgid "Fechar"
 msgstr "Sluiten"
@@ -422,14 +380,12 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
 msgstr ""
-"\n"
-"Geeft alleen geselecteerde programma's weer<br>\n"
-"en verbergt resultaten die nuttig zijn <br>\n"
-"alleen voor gevorderde gebruikers."
+"Geeft alleen geselecteerde programma's weer<br>en verbergt resultaten die nuttig zijn <br>alleen "
+"voor gevorderde gebruikers."
 
 msgid "Aplicando - Aguarde"
 msgstr "Aanvragen - Even geduld a.u.b"

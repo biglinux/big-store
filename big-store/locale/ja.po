@@ -23,93 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-システム"
-
-msgid "Armazenamento e partições"
-msgstr "収納・仕切り"
-
-msgid "Java JRE"
-msgstr "ジャバ JRE"
-
-msgid "Virtualização"
-msgstr "仮想化"
-
-msgid "Imagem"
-msgstr "画像"
-
-msgid "Editores Vetorial"
-msgstr "ベクターエディタ"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "画像、写真、描画編集者"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "画像の変換、リサイズ、圧縮"
-
-msgid "Plugins"
-msgstr "プラグイン"
-
-msgid "Edição 3D e CAD"
-msgstr "3D・CAD編集"
-
-msgid "Fontes (Tipografia)"
-msgstr "フォント（タイポグラフィ）"
-
-msgid "Diagramação e organização de páginas"
-msgstr "ページのレイアウトと構成"
-
-msgid "Colorização e palheta de cores"
-msgstr "カラー化とカラーパレット"
-
-msgid "Video"
-msgstr "ビデオ"
-
-msgid "Editores de video"
-msgstr "ビデオエディタ"
-
-msgid "Reprodutores de vídeo"
-msgstr "ビデオプレーヤー"
-
-msgid "Animação e 2D"
-msgstr "アニメーションと 2D"
-
-msgid "Captura de tela e video download"
-msgstr "スクリーンショットとビデオのダウンロード"
-
-msgid "Stream/transmissão online"
-msgstr "ストリーム/オンラインストリーミング"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "ビデオコンバータとCD / DVDバーナー"
-
-msgid "Audio"
-msgstr "オーディオ"
-
-msgid "Reprodutores de áudio"
-msgstr "オーディオプレーヤー"
-
-msgid "Rádio online"
-msgstr "オンラインラジオ"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "オーディオレコーダー、コンバーター"
-
-msgid "Editores de áudio"
-msgstr "オーディオ編集者"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "オンラインビデオ、IPTV、Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "ビデオエディターとコンプレッサー"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD・DVDレコーダー、コピー機"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
-
 msgid "Internet"
 msgstr "インターネット"
 
@@ -167,8 +80,41 @@ msgstr "イメージエディターとドローイングツール"
 msgid "Captura de tela (Screenshot)"
 msgstr "スクリーンショット"
 
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "画像の変換、リサイズ、圧縮"
+
+msgid "Edição 3D e CAD"
+msgstr "3D・CAD編集"
+
 msgid "Multimídia"
 msgstr "マルチメディア"
+
+msgid "Reprodutores de áudio"
+msgstr "オーディオプレーヤー"
+
+msgid "Rádio online"
+msgstr "オンラインラジオ"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "オーディオレコーダー、コンバーター"
+
+msgid "Editores de áudio"
+msgstr "オーディオ編集者"
+
+msgid "Reprodutores de vídeo"
+msgstr "ビデオプレーヤー"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "オンラインビデオ、IPTV、Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "ビデオエディターとコンプレッサー"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD・DVDレコーダー、コピー機"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
 
 msgid "Jogos"
 msgstr "ゲーム"
@@ -215,6 +161,18 @@ msgstr "その他"
 msgid "Sistema"
 msgstr "システム"
 
+msgid "Armazenamento e partições"
+msgstr "収納・仕切り"
+
+msgid "Fontes (Tipografia)"
+msgstr "フォント（タイポグラフィ）"
+
+msgid "Java JRE"
+msgstr "ジャバ JRE"
+
+msgid "Virtualização"
+msgstr "仮想化"
+
 msgid "Desenvolvimento"
 msgstr "開発"
 
@@ -233,14 +191,14 @@ msgstr "ネイティブプログラム"
 msgid "Programas AUR"
 msgstr "AURプログラム"
 
-msgid "Programas Flatpak"
-msgstr "Flatpakプログラム"
-
 msgid "Pacotes Snap Instalados clique no pacote para remover"
 msgstr "インストールされているスナップパッケージ 削除するパッケージをクリックする"
 
 msgid "Cancelar"
 msgstr "キャンセル"
+
+msgid "Programas Flatpak"
+msgstr "Flatpakプログラム"
 
 msgid "Fechar"
 msgstr "閉じる"
@@ -422,14 +380,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Exibe apenas programas selecionados<br> \n"
+"Exibe apenas programas selecionados<br>\n"
 "e oculta resultados que são úteis <br>\n"
 "apenas a usuários avançados."
-msgstr ""
-"\n"
-"選択した 番組のみ表示<br>\n"
-"で、有用な結果は非表示になります<br>\n"
-"は上級者向けです。"
+msgstr "選択したプログラムのみを表示します。<br>有用な結果を非表示にします <br>上級ユーザーのみ。"
 
 msgid "Aplicando - Aguarde"
 msgstr "応募中 - しばらくお待ちください"
