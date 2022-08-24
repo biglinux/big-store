@@ -92,15 +92,18 @@ parallel_filter () {
     if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
         if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
             PKG_INSTALLED=$"Atualizar"
+            LIST_INSTALL="remove"
             DIV_FLATPAK_INSTALLED="flatpak_upgradable"
             PKG_ORDER="FlatpakP1"
         else
             PKG_INSTALLED=$"Remover"
+            LIST_INSTALL="remove"
             DIV_FLATPAK_INSTALLED="flatpak_installed"
             PKG_ORDER="FlatpakP1"
         fi
     else
         PKG_INSTALLED=$"Instalar"
+        LIST_INSTALL="install"
         DIV_FLATPAK_INSTALLED="flatpak_not_installed"
 
         if [ "$(echo "$PKG_NAME $PKG_ID" | grep -i -m1 "$PKG_NAME_CLEAN")" != "" ]
@@ -122,17 +125,29 @@ parallel_filter () {
 # <a href="flatpak_view.sh?$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp tooltipped" data-position="top" data-tooltip="${PACKAGE}$PKG_ID<br><br>${VERSION}$PKG_VERSION"><div id=flatpak_package></div><div id=flatpak_icon><img height="64" width="64" loading="lazy" src="$PKG_ICON"><div id=version>$PKG_VERSION_ORIG</div></div><div id=flatpak_name>$PKG_NAME</div><div id=flatpak_desc>$PKG_DESC</div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
 # EOF
 
-
-
             # If all fail, use generic icon
             if [ "$PKG_ICON" = "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 'type=')" != "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 '<description>')" != "" ]; then
+                INPUT=$(grep -o "$PKG_ID," ~/.bigstore/big-select.tmp)
+                if [ -n "$INPUT" ]; then                
 cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak checked><label for=itemSelect-$PKG_ID></label></div></form></div>
 EOF
+                else
+cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak><label for=itemSelect-$PKG_ID></label></div></form></div>
+EOF
+                fi
             else
+                INPUT2=$(grep -o "$PKG_ID," ~/.bigstore/big-select.tmp)
+                if [ -n "$INPUT2" ]; then              
 cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak checked><label for=itemSelect-$PKG_ID></label></div></form></div>
 EOF
+                else
+cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak><label for=itemSelect-$PKG_ID></label></div></form></div>
+EOF
+                fi
             fi
 
     
@@ -193,6 +208,31 @@ $("#box_flatpak").show();});
 fi
 
 echo "$COUNT" > "${TMP_FOLDER}/flatpak_number.html"
+
+echo "<script>
+// CHECKBOX LIST APPS
+\$(function () {
+  \$('.checkboxitemSelect-flatpak').on('change',function(e){
+    e.preventDefault();
+    console.log(this);
+    var newquantidade = this.value;
+    \$.ajax({
+      type: 'post',
+      url: 'big-select.run',
+      data: newquantidade,
+      success: function () {
+        //alert('search_flatpak.sh ' + newquantidade);
+        \$('#btnFull').show();
+        \$('#btnInstall').load('./big-install.tmp');
+        \$('#btnRemove').load('./big-remove.tmp');
+      }
+    });
+  });
+});
+// FIM CHECKBOX LIST APPS
+</script>" >> ${TMP_FOLDER}/flatpakbuild.html
+
+
 
 mv -f ${TMP_FOLDER}/flatpakbuild.html ${TMP_FOLDER}/flatpak.html
 

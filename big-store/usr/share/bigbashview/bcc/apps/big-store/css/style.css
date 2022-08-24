@@ -1,3 +1,31 @@
+#btnFull:empty {
+  display: none;
+}
+#btnInstall:empty {
+  display: none;
+}
+#btnRemove:empty {
+  display: none;
+}
+
+
+#checkboxItem {
+  display: block; 
+  width: 30px; 
+  height: 30px; 
+  position: relative; 
+  z-index: 999; 
+  top: -140px; 
+  left: 350px;
+}
+#controlBtn {
+    width: 100%;
+    /*border: 1px solid red;*/
+    text-align: center;
+    /* margin-left: -24px; */
+    margin-bottom: 10px;
+}
+
 * {
     box-sizing: border-box;
   --text-size-tiny: 12px;
@@ -602,9 +630,8 @@ input::placeholder {
 }
 
 .side-title {
-  font-weight: 800;
-  color: var(--theme-color);
-  margin-bottom: 0px;
+  color: var(--inactive-color);
+  margin-bottom: 14px;
 }
 
 .side-menu {

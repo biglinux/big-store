@@ -57,14 +57,18 @@ BEGIN{
 
 
         if ( !installed ) {
-            button = "<div id=aur_not_installed>" instalar "</div></a></div></div>"
+            #button = "<div id=aur_not_installed>" instalar "</div></a></div></div>"
+            #button = "<div id=aur_not_installed>" instalar "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title " name=itemSelect class=checkboxitemSelect-aur value=" title ",install,aur checked><label for=itemSelect-" title "></label></div></form></div>"
+            button = "<div id=aur_not_installed>" instalar "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title " name=itemSelect class=checkboxitemSelect-aur value=" title ",install,aur ><label for=itemSelect-" title "></label></div></form></div>"            
             if ( searchterms ~ "\\<" title "\\>" ) {
                 idaur = "AurP2"
             } else {
                 idaur = "AurP3"
             }
         } else {
-            button = "<div id=aur_installed>" remover "</div></a></div></div>"
+            #button = "<div id=aur_installed>" remover "</div></a></div></div>"
+            #button = "<div id=aur_installed>" remover "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title " name=itemSelect class=checkboxitemSelect-aur value=" title ",remove,aur checked><label for=itemSelect-" title "></label></div></form></div>"
+            button = "<div id=aur_installed>" remover "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title " name=itemSelect class=checkboxitemSelect-aur value=" title ",remove,aur ><label for=itemSelect-" title "></label></div></form></div>"            
             idaur = "AurP1"
         }
 
@@ -129,5 +133,28 @@ END {
 
 '
 ### End of gawk script
+
+echo "<script>
+// CHECKBOX LIST APPS
+\$(function () {
+  \$('.checkboxitemSelect-aur').on('change',function(e){
+    e.preventDefault();
+    console.log(this);
+    var newquantidade = this.value;
+    \$.ajax({
+      type: 'post',
+      url: 'big-select.run',
+      data: newquantidade,
+      success: function () {
+        //alert('search_aur.sh: ' + newquantidade);
+        \$('#btnFull').show();
+        \$('#btnInstall').load('./big-install.tmp');
+        \$('#btnRemove').load('./big-remove.tmp');
+      }
+    });
+  });
+});
+// FIM CHECKBOX LIST APPS
+</script>" >> ${TMP_FOLDER}/aurbuild.html
 
 mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
