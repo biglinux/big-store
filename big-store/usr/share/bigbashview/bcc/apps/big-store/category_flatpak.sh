@@ -92,18 +92,15 @@ parallel_filter () {
     if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
         if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
             PKG_INSTALLED=$"Atualizar"
-            LIST_INSTALL="remove"
             DIV_FLATPAK_INSTALLED="flatpak_upgradable"
             PKG_ORDER="FlatpakP1"
         else
             PKG_INSTALLED=$"Remover"
-            LIST_INSTALL="remove"
             DIV_FLATPAK_INSTALLED="flatpak_installed"
             PKG_ORDER="FlatpakP1"
         fi
     else
         PKG_INSTALLED=$"Instalar"
-        LIST_INSTALL="install"
         DIV_FLATPAK_INSTALLED="flatpak_not_installed"
 
         if [ "$(echo "$PKG_NAME $PKG_ID" | grep -i -m1 "$PKG_NAME_CLEAN")" != "" ]
@@ -124,6 +121,8 @@ parallel_filter () {
 # cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
 # <a href="flatpak_view.sh?$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp tooltipped" data-position="top" data-tooltip="${PACKAGE}$PKG_ID<br><br>${VERSION}$PKG_VERSION"><div id=flatpak_package></div><div id=flatpak_icon><img height="64" width="64" loading="lazy" src="$PKG_ICON"><div id=version>$PKG_VERSION_ORIG</div></div><div id=flatpak_name>$PKG_NAME</div><div id=flatpak_desc>$PKG_DESC</div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
 # EOF
+
+
 
             # If all fail, use generic icon
             if [ "$PKG_ICON" = "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 'type=')" != "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 '<description>')" != "" ]; then
@@ -221,7 +220,7 @@ echo "<script>
       url: 'big-select.run',
       data: newquantidade,
       success: function () {
-        //alert('search_flatpak.sh ' + newquantidade);
+        //alert('category_flatpak.sh ' + newquantidade);
         \$('#btnFull').show();
         //\$('#btnInstall').load('/tmp/big-install.tmp');
         //\$('#btnRemove').load('/tmp/big-remove.tmp');
@@ -260,9 +259,8 @@ echo "<script>
 // FIM CHECKBOX LIST APPS
 </script>" >> ${TMP_FOLDER}/flatpakbuild.html
 
-
-
-mv -f ${TMP_FOLDER}/flatpakbuild.html ${TMP_FOLDER}/flatpak.html
+# mv -f ${TMP_FOLDER}/flatpakbuild.html ${TMP_FOLDER}/flatpak.html
+# cat "${TMP_FOLDER}/flatpakbuild.html" >> ${TMP_FOLDER}/flatpak.html
 
 IFS=$OIFS
 

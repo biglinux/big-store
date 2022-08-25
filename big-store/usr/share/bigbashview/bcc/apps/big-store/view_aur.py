@@ -38,6 +38,12 @@ for p in data['results']:
     pkg_installed = subprocess.run(["pacman", "-Q", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
     if pkg_installed.stdout:
+        
+        with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+            checkedBoxItem = 'checked' if sys.argv[1] + ',remove,aur' in e.read() else ''
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-aur value=' + sys.argv[1] + ',remove,aur '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')
+        
+        
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>')
         if pkg_installed_version.stdout.strip() != p['Version'].strip():
             print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
@@ -45,6 +51,12 @@ for p in data['results']:
             if 'Version' in p:
                 print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Reinstalar'), '</button>')
     else:
+        
+        with open('/tmp/bigstore/upgradeable.txt') as f:
+            with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+                checkedBoxItem = 'checked' if sys.argv[1] + ',install,aur' in e.read() else ''
+            print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-aur value=' + sys.argv[1] + ',install,aur '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
+        
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
     screenshot_store = 'description/' + sys.argv[1] + '/screenshot'
@@ -205,6 +217,67 @@ for p in data['results']:
         print ('</script>')
         print ('</div></div>')
 
+    print ('</div>')
+    print ('</div>')
+    print ('</div>')
+    print ('<div id="controlBtn">')
+    print ('<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->')
+    print ('<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">')
+    print ('<span id="btnInstall" style="margin-right:10px"></span>')
+    print ('<span id="btnRemove" style="margin-left:10px"></span>')
+    print ('</button>')
+    print ('</div>')
+    print ('<script>')
+    print ('// CHECKBOX LIST APPS')
+    print ('$(function () {')
+    print ('$(".checkboxitemSelect-aur").on("change",function(e){')
+    print ('e.preventDefault();')
+    print ('console.log(this);')
+    print ('var newquantidade = this.value;')
+    print ('$.ajax({')
+    print ('type: "post",')
+    print ('url: "big-select.run",')
+    print ('data: newquantidade,')
+    print ('success: function () {')
+    print ('alert("view_aur.py: " + newquantidade);')
+    print ('$("#btnFull").show();')
+
+    #print ('$("#btnInstall").load("/tmp/big-install.tmp");')
+    #print ('$("#btnRemove").load("/tmp/big-remove.tmp");')
+
+    print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnFull").hide();')
+    print ('}')
+    print ('});')
+    print ('}')
+    print ('});')
+    print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnFull").hide();')
+    print ('}')
+    print ('});')
+    print ('}')
+    print ('});')
+
+    print ('}')
+    print ('});')
+    print ('});')
+    print ('});')
+    print ('// FIM CHECKBOX LIST APPS')
+    print ('</script>')
 
     #if 'ID' in p:
         #print(p['ID'])

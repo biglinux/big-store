@@ -42,8 +42,10 @@ if [ "$ACTION" = "install_snap" ]; then
 MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$" WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
 
     if [ ! -e "$HOME/.bigstore/disable_snap_unused_remove" ]; then
+        #kdialog --msgbox "$PACKAGE_NAME"
         pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $(pwd)/snap_clean.sh install $PACKAGE_NAME
     else
+        #kdialog --msgbox "$PACKAGE_NAME"
         snap install $PACKAGE_NAME
     fi
 fi

@@ -1,0 +1,233 @@
+#!/bin/bash
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+
+
+# COLF1=$(cat /tmp/big-select.tmp | cut -d "," -f1)
+# COLF2=$(cat /tmp/big-select.tmp | cut -d "," -f2)
+# COLF3=$(cat /tmp/big-select.tmp | cut -d "," -f3)
+
+
+
+
+echo '<style>
+a.waves-effect.waves-light.btn {
+    color: white;
+    margin-right: 16px;
+    min-width: 171px;
+}
+.left {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.twodiv {
+    display: flex;
+}
+</style>'
+
+source header.sh.htm
+
+cat << EOF
+<div id=box_index_category>
+    <div id=box_info_index>
+        <div class=info_box>
+            <div class=category_title_index>
+EOF
+    echo $"Lista de pacotes selecionados"
+cat << EOF
+            </div>
+
+<div class="content-section">
+    <div class="content-section-title">$Pacotes_text</div>
+    <ul>
+EOF
+for line  in  $(cat /tmp/big-select.tmp); do
+    lineworking=${line#*,}
+
+    AUR_TITLE="${line%%,*}"    
+    
+    
+#     echo "#########"
+#     echo "linha inteira: $line"
+#     echo ""
+#     echo "primeira coluna: ${line%%,*}"
+#     echo ""
+#     echo "segunda coluna: ${lineworking%,*}"
+#     echo ""
+#     echo "ultima coluna: ${line##*,}"
+#     echo ""
+#     echo ""
+
+cat << EOF
+        <li>
+            <div class="products">
+EOF
+
+if [ "${line##*,}" == "native" ]; then
+
+echo '<svg viewBox="0 0 448 512" style="border-radius: 0px; width: 20px;"><path fill="currentColor" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"></path></svg>'
+
+./icon-native.py ${line%%,*}
+
+
+elif [ "${line##*,}" == "aur" ]; then
+
+echo '<svg viewBox="0 0 640 512" style="border-radius: 0px; width: 20px;"><path fill="currentColor" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"></path></svg>'
+
+search="${line%%,*}"
+PKG_ICON="$(find /usr/share/bigbashview/bcc/apps/big-store/icons/ /var/lib/flatpak/appstream/ -type f -iname "*$search*.png" -print -quit)"
+AUR_TITLE="${line%%,*}"
+
+    if [ "$PKG_ICON" != "" ]; then
+        echo '<div class=icon_middle style="margin-right:5px;"><img class="icon_view" src="'
+        $PKG_ICON
+        echo '"></div>'
+    else
+        echo "<div class=icon_middle style='margin-right:5px;'><div class=avatar_snap>${AUR_TITLE:0:3}</div></div>"
+    fi
+
+
+elif [ "${line##*,}" == "flatpak" ]; then
+    search="${line%%,*}"
+    readarray -t -d"|" myarray <<< "$(grep "|$search|" ~/.bigstore/flatpak.cache)"
+
+    FLATPAK_TITLE="${myarray[0]}"
+    PKG_ID="${myarray[2]}"
+    PKG_REMOTE="${myarray[5]}"
+    PKG_XML_APPSTREAM="/var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/appstream.xml"
+    PKG_ICON="$(find /var/lib/flatpak/appstream/  -type f -iname "*$PKG_ID*.png" -print -quit)"
+    
+    echo '<svg viewBox="0 0 400 400" style="border-radius: 0px; width: 20px;"><path fill="currentColor" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"></path></svg>'
+    
+    if [ "$PKG_ICON" = "" ]; then
+
+        PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+        
+        echo '<div class=icon_middle style="margin-right:5px;"><img class="icon_view" src="'
+        $PKG_ICON
+        echo '"></div>'
+        
+        
+        if [ "$PKG_ICON" = "" ]; then
+            PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+        fi
+
+    else
+        echo "<div class=icon_middle style='margin-right:5px;'><div class=avatar_snap>${FLATPAK_TITLE:0:3}</div></div>"
+    fi
+
+    echo " $FLATPAK_TITLE"
+
+
+elif [ "${line##*,}" == "snap" ]; then
+    HOME_FOLDER="$HOME/.bigstore"
+    SNAP_TMP_FOLDER="/tmp/bigstore"
+    SNAP_INFO_FILE="$SNAP_TMP_FOLDER/snap_info.txt"
+
+    jq -r "._embedded.\"clickindex:package\"[] | select(.snap_id == \"${line%%,*}\" )" $(grep -rl ${line%%,*} "$HOME_FOLDER/snap_list_files/") | jq -s .[0] > "$SNAP_INFO_FILE"
+
+    SNAP_INFO() {
+        jq -r .${1} "$SNAP_INFO_FILE"
+    }
+
+    SNAP_ICON() {
+        jq -r '.media[] | select(.type == "icon" ) | .url' "$SNAP_INFO_FILE"
+    }
+
+    SNAP_SCREENSHOT() {
+        jq -r '.media[] | select(.type == "screenshot" ) | .url' "$SNAP_INFO_FILE" | grep -v banner
+    }
+
+    SNAP_TITLE="$(SNAP_INFO title)"
+
+    echo '<svg viewBox="0 0 24 24" style="border-radius: 0px; width: 20px;"><path fill="currentColor" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"></path></svg>'
+    
+    if [ "$(SNAP_ICON)" != "" ]; then
+        echo '<div class=icon_middle style="margin-right:5px;"><img class="icon_view" src="'
+        SNAP_ICON
+        echo '"></div>'
+    else
+        echo "<div class=icon_middle style='margin-right:5px;'><div class=avatar_snap>${SNAP_TITLE:0:3}</div></div>"
+    fi
+    
+    
+    echo " $SNAP_TITLE"
+    
+fi
+
+#${line%%,*} (${line##*,})
+                
+cat << EOF                
+          | ${line%%,*}</div>
+            
+EOF
+
+if [ "${lineworking%,*}" == "install" ]; then
+
+echo '<span class="status"><span class="status-circle true"></span>'
+echo $"Instalar"
+echo '</span>'
+
+elif [ "${lineworking%,*}" == "remove" ]; then
+
+echo '<span class="status"><span class="status-circle true red"></span>'
+echo $"Remover"
+echo '</span>'
+          
+fi            
+cat << EOF            
+            </span>
+            <div class="button-wrapper">   
+                <div class="switch">
+                <label for="f-${line%%,*}-${line##*,}">
+                    <input id="f-${line%%,*}-${line##*,}" type="checkbox" class="switch" checked <!--onclick="location.href='list-pkg-install-remove.sh.htm.sh.htm?pkg_remove=y&pkg_name=${line%%,*}&pkg_repo=${line##*,}';"-->
+                    <span class="lever"></span>
+                </label>
+                </div>
+            </div>     
+        </li>
+EOF
+done
+cat << EOF        
+
+    </ul>
+</div>
+
+<br><br>
+
+            <div class="logo">
+                <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
+            </div>
+            
+        </div>
+    </div>
+</div>
+  <script src="./script.js"></script>
+</div>  
+<div id="controlBtn">
+<button style="margin-right: 8px;" id="btnApply" class="content-button status-button" onclick="location.href='list-pkg-apply.sh.htm';">
+Aplicar tudo
+</button>  
+</div>  
+</div>  
+</div> 
+</div>  
+</body>
+</html>
+EOF

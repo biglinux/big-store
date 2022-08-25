@@ -1059,13 +1059,8 @@ div#snap_package {
     display: grid;
     opacity: 1;
     position: fixed;
-	z-index: 100;
+	z-index: 1000;
 }
-
-
-
-
-
 
 div#count {
     margin-top: 1px;

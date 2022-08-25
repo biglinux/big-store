@@ -64,13 +64,14 @@ echo '<div id=title_flatpak_install>'
 echo '</div>'
 
 ./view_flatpak_pamac.py "$pkg_name" > /tmp/flapak_pamac_temp.txt
+
 if [ -e "$HOME/.bigstore/flatpak-verification-fault" ]; then
   cat /tmp/flapak_pamac_temp.txt
 else
   ./view_flatpak.sh "$pkg_name"
 fi
 
-#kdialog --msgbox "$pkg_name"
+# kdialog --msgbox "$pkg_name"
 echo "<script>runAvatarFlatpak();</script>"
         
 echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
@@ -100,6 +101,20 @@ cat << EOF
   <div class="logo">
     <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
   </div>
+</div>
+</div>
+</div>
+
+<div id="controlBtn">
+<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->
+<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">
+  <span id="btnInstall" style="margin-right:10px"></span>
+  <span id="btnRemove" style="margin-left:10px"></span>
+</button>
+</div>
+
+</div>
+</div>
 </div>
   <script src="./script.js"></script>
 </body>

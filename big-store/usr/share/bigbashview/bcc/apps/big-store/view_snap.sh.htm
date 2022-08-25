@@ -107,16 +107,32 @@ echo '</div></div>'
 echo '<div class="row center">'
 
 if [ "$(echo "$SNAP_INSTALLED_LIST" | grep -i -m1 "|$(SNAP_INFO package_name)|")" != "" ]; then
+
+  INPUT=$(grep -o "$PKG_ID,remove,snap" /tmp/big-select.tmp)
+  if [ -n "$INPUT" ]; then
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,remove,snap checked><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+  else
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,remove,snap ><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+  fi
+  
 cat << EOF
-<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodySnapRemove();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_remove=y'">$TXT_REMOVE</button>
+  <button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodySnapRemove();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_remove=y'">$TXT_REMOVE</button>
 EOF
 #<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('snap run $(SNAP_INFO package_name)')">$TXT_EXEC</button>
 
 else
 
+  INPUT2=$(grep -o "$PKG_ID,install,snap" /tmp/big-select.tmp)
+  if [ -n "$INPUT2" ]; then
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,install,snap checked><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+  else
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,install,snap ><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+  fi
+
 cat << EOF
-<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodySnapInstall();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_install=y'">$TXT_INSTALL</button>
+  <button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodySnapInstall();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_install=y'">$TXT_INSTALL</button>
 EOF
+
 fi
 
 
@@ -237,7 +253,71 @@ cat << EOF
     <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
   </div>
 </div>
+</div>
+
+<div id="controlBtn">
+<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->
+<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">
+  <span id="btnInstall" style="margin-right:10px"></span>
+  <span id="btnRemove" style="margin-left:10px"></span>
+</button>
+</div>
+
+</div>
+</div>
+</div>
+
   <script src="./script.js"></script>
+<script>
+// CHECKBOX LIST APPS
+\$(function () {
+  \$('.checkboxitemSelect-snap').on('change',function(e){
+    e.preventDefault();
+    console.log(this);
+    var newquantidade = this.value;
+    \$.ajax({
+      type: 'post',
+      url: 'big-select.run',
+      data: newquantidade,
+      success: function () {
+        //alert('view_snap.sh.htm: ' + newquantidade);
+        \$('#btnFull').show();
+        //\$('#btnInstall').load('/tmp/big-install.tmp');
+        //\$('#btnRemove').load('/tmp/big-remove.tmp');
+        
+        \$('#btnInstall').load('/tmp/big-install.tmp', function(e) {
+        if (e) {
+            \$('#btnFull').show();
+        } else {
+            \$('#btnRemove').load('/tmp/big-remove.tmp', function(e) {
+            if (e) {
+                \$('#btnFull').show();
+            } else {
+                \$('#btnFull').hide();
+            }
+            });
+        }
+        });
+        \$('#btnRemove').load('/tmp/big-remove.tmp', function(e) {
+        if (e) {
+            \$('#btnFull').show();
+        } else {
+            \$('#btnInstall').load('/tmp/big-install.tmp', function(e) {
+            if (e) {
+                \$('#btnFull').show();
+            } else {
+                \$('#btnFull').hide();
+            }
+            });
+        }
+        });
+        
+      }
+    });
+  });
+});
+// FIM CHECKBOX LIST APPS
+</script>
 </body>
 </html>
 EOF

@@ -70,6 +70,7 @@ def print_pkg_details (details):
     update_version = subprocess.run(["pacman", "-Qu", sys.argv[1], '|', "awk","'{print $NF}'"], stdout=subprocess.PIPE, text=True)
     print ('<div id=titleBar>')
     print ('<div id=title>')
+    
     if details.get_icon() is None:
         find_icon = subprocess.run(["find", "icons/", "/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/", "/usr/share/app-info/icons/archlinux-arch-community/64x64/", "/usr/share/app-info/icons/archlinux-arch-extra/64x64/","-type", "f", "-iname", '*' + details.get_name().split("-")[0] + '*', "-print", "-quit"], stdout=subprocess.PIPE, text=True)
         if find_icon.stdout == '':
@@ -79,29 +80,43 @@ def print_pkg_details (details):
     else:
         print ('<img class="icon_view" src="', details.get_icon(), '">')
     print ('<div id=titleName>', details.get_id(), '</div></div></div>')
-
     if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
         print ('<div id=description>')
         print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
-        print ('</div></div>')
+        print ('</div></div></div>')
     else:
-        print ('<div id=description>', details.get_desc(), '</div></div>')
+        print ('<div id=description>', details.get_desc(), '</div>')
     print ('<div class="row center">')
-    if details.get_installed_version():
-        print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', _('Remover'), '</button>')
 
+    
+    if details.get_installed_version():
+        
+        with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+            checkedBoxItem = 'checked' if sys.argv[1] + ',' in e.read() else ''
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-native value=' + sys.argv[1] + ',remove,native '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')
+        
+        print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', _('Remover'), '</button>')
+        
         if details.get_launchable():
             print ('<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run(', "'" + 'gtk-launch', details.get_launchable() + "'", ')">', _('Executar'), '</button>')
 
         with open('/tmp/bigstore/upgradeable.txt') as f:
-            if '\n' + details.get_name() + '\n' in f.read():
+            if '\n' + sys.argv[1] + '\n' in f.read():
                 print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
             else:
                 if details.get_repo():
                     print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBodyConfig();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_reinstall=y'" + '">', _('Reinstalar'), '</button>')
+        print ('</div>')
     else:
-        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
+        
+        with open('/tmp/bigstore/upgradeable.txt') as f:
+            with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+                checkedBoxItem = 'checked' if sys.argv[1] + ',' in e.read() else ''
+            print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-native value=' + sys.argv[1] + ',install,native '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')
 
+        
+        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
+        print ('</div>')
     screenshot_store = 'description/' + details.get_name() + '/screenshot'
     if details.get_long_desc() or details.get_screenshots() or os.path.exists(screenshot_store) or os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
         screenshot_resolution = open("/tmp/bigstore/screenshot-resolution.txt", "r")
@@ -119,7 +134,7 @@ def print_pkg_details (details):
                 for screenshot in details.get_screenshots():
                     print ('<li><img class=screenshot src="', screenshot, '"></li>')
                 print ('<script>jQuery(document).ready(function(){jQuery(".slider").slider({width:', screenshot_resolution.read(), '});});</script>')
-                print ('</ul></div>')
+                print ('</ul></div></div>')
 
     if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
         print ('<div id=pkgDescriptionBox><div id=pkgDescription>')
@@ -129,7 +144,7 @@ def print_pkg_details (details):
         if details.get_long_desc():
             print ('<div id=pkgDescriptionBox><div id=pkgDescription>', details.get_long_desc(), '</div></div>')
         if details.get_long_desc() or details.get_screenshots():
-            print ('</div></div>')
+            print ('</div>')
             
     print ('<br>')
     
@@ -263,8 +278,71 @@ def print_pkg_details (details):
     else:
         print ("$('#listPgkFiles').click(function(e){$.get('./load.sh','pkg_not_installed " + sys.argv[1] + "',function(data){$('#files_in_package').html(data);})})")
     print ('</script>')
-    print ('</div></div>')
+    print ('</div>')
+    print ('</div>')
+    print ('</div>')
+    print ('</div>')
+    print ('</div>')
+    
+    
+    print ('<div id="controlBtn">')
+    print ('<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->')
+    print ('<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">')
+    print ('<span id="btnInstall" style="margin-right:10px"></span>')
+    print ('<span id="btnRemove" style="margin-left:10px"></span>')
+    print ('</button>')
+    print ('</div>')
+    print ('<script>')
+    print ('// CHECKBOX LIST APPS')
+    print ('$(function () {')
+    print ('$(".checkboxitemSelect-native").on("change",function(e){')
+    print ('e.preventDefault();')
+    print ('console.log(this);')
+    print ('var newquantidade = this.value;')
+    print ('$.ajax({')
+    print ('type: "post",')
+    print ('url: "big-select.run",')
+    print ('data: newquantidade,')
+    print ('success: function () {')
+    #print ('alert("view_appstream_pacman.py: " + newquantidade);')
+    print ('$("#btnFull").show();')
 
+    #print ('$("#btnInstall").load("/tmp/big-install.tmp");')
+    #print ('$("#btnRemove").load("/tmp/big-remove.tmp");')
+
+    print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnFull").hide();')
+    print ('}')
+    print ('});')
+    print ('}')
+    print ('});')
+    print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
+    print ('if (e) {')
+    print ('$("#btnFull").show();')
+    print ('} else {')
+    print ('$("#btnFull").hide();')
+    print ('}')
+    print ('});')
+    print ('}')
+    print ('});')
+
+    print ('}')
+    print ('});')
+    print ('});')
+    print ('});')
+    print ('// FIM CHECKBOX LIST APPS')
+    print ('</script>')
 
 if __name__ == "__main__":
     config = Pamac.Config(conf_path="/etc/pamac.conf")
@@ -287,3 +365,6 @@ if __name__ == "__main__":
     db.enable_appstream()
     pkg = db.get_pkg(sys.argv[1])
     print_pkg_details (pkg)
+
+
+

@@ -100,12 +100,15 @@ IFS=$'\n'
 #             fi
 
 
-echo "<div id=box_flatpak_install><div id=title_flatpak_install>
-<div id=button_flatpak class=\"tooltipped\" data-position=\"left\" data-tooltip=\"" $ABOUT_FLATPAK "\">"
-echo '<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-right:1px;margin-left:5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg> '
-echo $"Programas Flatpak"
+# echo '<div id=box_flatpak_install>'
+# echo '<div id=title_flatpak_install>'
+#     echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
+#         echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left:5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg></div><div style="margin-right: 5px;">'                            
+#         echo $"Programas Flatpak"
+#     echo '</div></div>'
+# echo '</div>'
 
-echo "</div></div><div id=content_flatpak_install>
+echo "<div id=content_flatpak_install>
 <div id=titleBar>
 <div id=title>
 <img class=\"icon_view\" src=\"$PKG_ICON\">"
@@ -120,15 +123,39 @@ echo '<div class="row center">'
     # Verify if package are installed
     if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
         if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
+        
+            INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)
+            if [ -n "$INPUT" ]; then
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+            else
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak ><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+            fi
+        
             echo "<button class=\"btn btnSpace waves-effect waves-light yellow darken-4\" type=\"submit\" name=\"action\" onclick=\"disableBodyFlatpakInstall();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_install=y'\">"
             echo $"Atualizar" "</button>"
             echo "<button class=\"btn btnSpace waves-effect waves-light blue darken-3\" type=\"submit\" name=\"action\" onclick=\"_run( 'flatpak run $search' )\">" $"Executar" "</button>"
         else
+        
+            INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)
+            if [ -n "$INPUT" ]; then
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+            else
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak ><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+            fi        
+           
             echo "<button class=\"btn btnSpace waves-effect waves-light red accent-4\" type=\"submit\" name=\"action\" onclick=\"disableBodyFlatpakRemove();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_remove=y'\">"
             echo $"Remover" "</button>"
             echo "<button class=\"btn btnSpace waves-effect waves-light blue darken-3\" type=\"submit\" name=\"action\" onclick=\"_run( 'flatpak run $search' )\">" $"Executar" "</button>"
         fi
     else
+
+        INPUT2=$(grep -o "$PKG_ID,install,flatpak" /tmp/big-select.tmp)
+        if [ -n "$INPUT2" ]; then
+            echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,install,flatpak checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+        else
+            echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,install,flatpak ><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+        fi        
+    
         echo "<button class=\"btn btnSpace waves-effect waves-light green accent-4\" type=\"submit\" name=\"action\" onclick=\"disableBodyFlatpakInstall();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_install=y'\">"
         echo $"Instalar" "</button>"
     fi
@@ -150,7 +177,57 @@ echo "<div class=grid-container>
 <div class=gridLeft> " $"Repositório:" " </div>"
 
 echo "<div class=gridRight> flathub </div></div>"
-  
+
+
+echo "<script>
+// CHECKBOX LIST APPS
+\$(function () {
+  \$('.checkboxitemSelect-flatpak').on('change',function(e){
+    e.preventDefault();
+    console.log(this);
+    var newquantidade = this.value;
+    \$.ajax({
+      type: 'post',
+      url: 'big-select.run',
+      data: newquantidade,
+      success: function () {
+        //alert('view_flatpak.sh: ' + newquantidade);
+        \$('#btnFull').show();
+        //\$('#btnInstall').load('/tmp/big-install.tmp');
+        //\$('#btnRemove').load('/tmp/big-remove.tmp');
+        
+        \$('#btnInstall').load('/tmp/big-install.tmp', function(e) {
+        if (e) {
+            \$('#btnFull').show();
+        } else {
+            \$('#btnRemove').load('/tmp/big-remove.tmp', function(e) {
+            if (e) {
+                \$('#btnFull').show();
+            } else {
+                \$('#btnFull').hide();
+            }
+            });
+        }
+        });
+        \$('#btnRemove').load('/tmp/big-remove.tmp', function(e) {
+        if (e) {
+            \$('#btnFull').show();
+        } else {
+            \$('#btnInstall').load('/tmp/big-install.tmp', function(e) {
+            if (e) {
+                \$('#btnFull').show();
+            } else {
+                \$('#btnFull').hide();
+            }
+            });
+        }
+        });
+        
+      }
+    });
+  });
+});
+// FIM CHECKBOX LIST APPS
+</script>"
+
 IFS=$OIFS
-
-

@@ -4,7 +4,8 @@
 #snap set core snapshots.automatic.retention=no
 
 if [ "$1" = "install" ]; then
-    snap install $2
+    kdialog --msgbox "$2"
+    #snap install $2
 fi
 
 if [ "$1" = "remove" ]; then

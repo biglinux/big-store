@@ -4,6 +4,7 @@
 
 #Imported from https://gitlab.manjaro.org/applications/pamac/-/blob/master/examples/python/appstream.py
 
+import os
 import gi
 import subprocess
 import sys
@@ -72,6 +73,10 @@ def print_pkg_details (details):
     print ('<div id=description>', details.get_desc(), '</div></div>')
     print ('<div class="row center">')
     if details.get_installed_version():
+        with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+            checkedBoxItem = 'checked' if sys.argv[1] + ',remove,flatpak' in e.read() else ''
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-flatpak value=' + sys.argv[1] + ',remove,flatpak '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
+        
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodyFlatpakRemove();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y&pkg_id=" +details.get_id() + "'" + '">', _('Remover'), '</button>')
 
         if details.get_launchable():
@@ -80,7 +85,13 @@ def print_pkg_details (details):
         if update_available.stdout.replace("\n", "") != '':
             print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" + details.get_id() + "'" + '">', _('Atualizar'), '</button>')
     else:
-        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" +details.get_id() + "'" + '">', _('Instalar'), '</button>')
+        
+        with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+            checkedBoxItem = 'checked' if sys.argv[1] + ',install,flatpak' in e.read() else ''
+                
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-flatpak value=' + sys.argv[1] + ',install,flatpak '+ checkedBoxItem +' ><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
+        
+        print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" + details.get_id() + "'" + '">', _('Instalar'), '</button>')
 
     if details.get_long_desc() or details.get_screenshots():
         print ('<div id=descriptionbox>')
@@ -175,3 +186,65 @@ if __name__ == "__main__":
     #db.enable_appstream()
     pkg = db.get_app_by_id(sys.argv[1])
     print_pkg_details (pkg)
+
+#print ('</div>')
+#print ('</div>')
+#print ('</div>')
+#print ('<div id="controlBtn">')
+#print ('<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->')
+#print ('<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">')
+#print ('<span id="btnInstall" style="margin-right:10px"></span>')
+#print ('<span id="btnRemove" style="margin-left:10px"></span>')
+#print ('</button>')
+#print ('</div>')
+print ('<script>')
+print ('// CHECKBOX LIST APPS')
+print ('$(function () {')
+print ('$(".checkboxitemSelect-flatpak").on("change",function(e){')
+print ('e.preventDefault();')
+print ('console.log(this);')
+print ('var newquantidade = this.value;')
+print ('$.ajax({')
+print ('type: "post",')
+print ('url: "big-select.run",')
+print ('data: newquantidade,')
+print ('success: function () {')
+#print ('alert("view_flatpak_pacman.py: " + newquantidade);')
+print ('$("#btnFull").show();')
+
+#print ('$("#btnInstall").load("/tmp/big-install.tmp");')
+#print ('$("#btnRemove").load("/tmp/big-remove.tmp");')
+
+print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
+print ('if (e) {')
+print ('$("#btnFull").show();')
+print ('} else {')
+print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
+print ('if (e) {')
+print ('$("#btnFull").show();')
+print ('} else {')
+print ('$("#btnFull").hide();')
+print ('}')
+print ('});')
+print ('}')
+print ('});')
+print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
+print ('if (e) {')
+print ('$("#btnFull").show();')
+print ('} else {')
+print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
+print ('if (e) {')
+print ('$("#btnFull").show();')
+print ('} else {')
+print ('$("#btnFull").hide();')
+print ('}')
+print ('});')
+print ('}')
+print ('});')
+
+print ('}')
+print ('});')
+print ('});')
+print ('});')
+print ('// FIM CHECKBOX LIST APPS')
+print ('</script>')
