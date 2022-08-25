@@ -22,6 +22,8 @@ if [[ $(ps -aux | grep Big-Store | grep bigbashview) ]]; then
     
 fi
 
+rm -f /tmp/big-select.tmp /tmp/big-install.tmp /tmp/big-remove.tmp
+
 cd /usr/share/bigbashview/bcc/apps/big-store/
 
 HOME_FOLDER="$HOME/.bigstore"

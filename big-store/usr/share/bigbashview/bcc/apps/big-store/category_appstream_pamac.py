@@ -61,7 +61,7 @@ def print_pkg_details (details):
             print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
 
         if details.get_installed_version() is None:
-            with open(os.path.expanduser('~/.bigstore/big-select.tmp')) as e:
+            with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
                     checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
                     
                     print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div>')
@@ -70,14 +70,14 @@ def print_pkg_details (details):
         else:
             with open('/tmp/bigstore/upgradeable.txt') as f:
                 if '\n' + details.get_name() + '\n' in f.read():
-                    with open(os.path.expanduser('~/.bigstore/big-select.tmp')) as e:
+                    with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
                         checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
                         
                         print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div>')
                         print ('<form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-' + details.get_name() + ' name=itemSelect class=checkboxitemSelect value=' + details.get_name() + ',remove,native '+ checkedBoxItem +'><label for=itemSelect-' + details.get_name() + '></label></div></form>')
                         print ('</div>')
                 else:
-                    with open(os.path.expanduser('~/.bigstore/big-select.tmp')) as e:
+                    with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
                         checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
                         
                         print ('<div id=appstream_installed>'+_('Remover')+'</div></a></div>')
@@ -135,8 +135,8 @@ if __name__ == "__main__":
     #print ('success: function () {')
     ##print ('alert("search_appstream_pacman_simple.py: " + newquantidade);')
     #print ('\$("#btnFull").show();')
-    #print ('\$("#btnInstall").load("./big-install.tmp");')
-    #print ('\$("#btnRemove").load("./big-remove.tmp");')
+    #print ('\$("#btnInstall").load("/tmp/big-install.tmp");')
+    #print ('\$("#btnRemove").load("/tmp/big-remove.tmp");')
     #print ('}')
     #print ('});')
     #print ('});')

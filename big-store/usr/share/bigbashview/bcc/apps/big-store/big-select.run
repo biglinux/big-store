@@ -1,22 +1,22 @@
 #!/bin/bash
 
-if [ "$(grep $1 ~/.bigstore/big-select.tmp)" ];then
-    sed -i "/$1/d" ~/.bigstore/big-select.tmp
+if [ "$(grep $1 /tmp/big-select.tmp)" ];then
+    sed -i "/$1/d" /tmp/big-select.tmp
 else
-    echo "$1" >> ~/.bigstore/big-select.tmp
+    echo "$1" >> /tmp/big-select.tmp
 fi
 
-countInstall=$(grep 'install' $HOME/.bigstore/big-select.tmp|wc -l)
-countRemove=$(grep 'remove' $HOME/.bigstore/big-select.tmp|wc -l)
+countInstall=$(grep 'install' /tmp/big-select.tmp|wc -l)
+countRemove=$(grep 'remove' /tmp/big-select.tmp|wc -l)
 
 if [ "$countInstall" != "0" ];then
-    echo "Instalar: $countInstall pacote(s)" > big-install.tmp
+    echo "Instalar: $countInstall pacote(s)" > /tmp/big-install.tmp
 else
-    echo -n > big-install.tmp
+    echo -n > /tmp/big-install.tmp
 fi
 
 if [ "$countRemove" != "0" ];then
-    echo "Remover: $countRemove pacote(s)" > big-remove.tmp
+    echo "Remover: $countRemove pacote(s)" > /tmp/big-remove.tmp
 else
-    echo -n > big-remove.tmp
+    echo -n > /tmp/big-remove.tmp
 fi

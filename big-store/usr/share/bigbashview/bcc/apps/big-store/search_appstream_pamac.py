@@ -59,7 +59,7 @@ def print_pkg_details (details):
         print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
 
     if details.get_installed_version() is None:
-            with open(os.path.expanduser('~/.bigstore/big-select.tmp')) as e:
+            with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
                 checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
             print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div>')
             print ('<form id=formcheckbox><div id=checkboxItem><input type=checkbox id="itemSelect-' + details.get_name() + '" name=itemSelect class=checkboxitemSelect value=' + details.get_name() + ',install,native '+ checkedBoxItem +'><label for="itemSelect-' + details.get_name() + '"></label></div></form>')
@@ -67,13 +67,13 @@ def print_pkg_details (details):
     else:
         with open('/tmp/bigstore/upgradeable.txt') as f:
             if '\n' + details.get_name() + '\n' in f.read():
-                    with open(os.path.expanduser('~/.bigstore/big-select.tmp')) as e:
+                    with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
                         checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
                     print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div>')
                     print ('<form id="formcheckbox"><div id="checkboxItem"><input type="checkbox" id="itemSelect-' + details.get_name() + '" name="itemSelect" class="checkboxitemSelect" value=' + details.get_name() + ',remove,native '+ checkedBoxItem +'><label for="itemSelect-' + details.get_name() + '"></label></div></form>')
                     print ('</div>')
             else:
-                    with open(os.path.expanduser('~/.bigstore/big-select.tmp')) as e:
+                    with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
                         checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
                     print ('<div id=appstream_installed>'+_('Remover')+'</div></a></div>')
                     print ('<form id="formcheckbox"><div id="checkboxItem"><input type="checkbox" id="itemSelect-' + details.get_name() + '" name="itemSelect" class="checkboxitemSelect" value=' + details.get_name() + ',remove,native '+ checkedBoxItem +'><label for="itemSelect-' + details.get_name() + '"></label></div></form>')
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     if num > 0:
         print ('<script>runAvatarAppstream(); $(document).ready(function () {$("#box_appstream").show();});</script>')
     print ('<script>document.getElementById("appstream_number").innerHTML = "', num, '";</script>')
-    #print ("<script>$(function () {  $('.checkboxitemSelect').on('change',function(e){    e.preventDefault();    console.log(this);    var newquantidade = this.value;    $.ajax({      type: 'post',      url: 'big-select.run',      data: newquantidade,      success: function () {        ('#btnFull').show();        $('#btnInstall').load('./big-install.tmp', function(e) {      }    });  });});</script>")
+    #print ("<script>$(function () {  $('.checkboxitemSelect').on('change',function(e){    e.preventDefault();    console.log(this);    var newquantidade = this.value;    $.ajax({      type: 'post',      url: 'big-select.run',      data: newquantidade,      success: function () {        ('#btnFull').show();        $('#btnInstall').load('/tmp/big-install.tmp', function(e) {      }    });  });});</script>")
 
     # Simple Search
     #for pkg in pkgs:

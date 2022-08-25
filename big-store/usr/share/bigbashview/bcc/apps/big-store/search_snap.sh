@@ -85,7 +85,7 @@ parallel_filter () {
     # Se nao detectar ícone, utiliza um generico
 if [ "$PKG_ICON" = "" ]; then
     
-    INPUT=$(grep -o "$PKG_ID," ~/.bigstore/big-select.tmp)
+    INPUT=$(grep -o "$PKG_ID," /tmp/big-select.tmp)
         if [ -n "$INPUT" ]; then
 cat >>  ${TMP_FOLDER}/snapbuild.html << EOF
         <!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><div class=avatar_snap>${PKG_NAME:0:3}</div></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID' name=itemSelect class=checkboxitemSelect-snap value='$PKG_ID,$LIST_INSTALL,snap' checked><label for='itemSelect-$PKG_ID'></label></div></form></div>
@@ -100,7 +100,7 @@ EOF
     else
     
     
-    INPUT2=$(grep -o "$PKG_ID," ~/.bigstore/big-select.tmp)
+    INPUT2=$(grep -o "$PKG_ID," /tmp/big-select.tmp)
         if [ -n "$INPUT2" ]; then    
 cat >>  ${TMP_FOLDER}/snapbuild.html << EOF
         <!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID' name=itemSelect class=checkboxitemSelect-snap value='$PKG_ID,$LIST_INSTALL,snap' checked><label for='itemSelect-$PKG_ID'></label></div></form></div>
@@ -203,8 +203,8 @@ echo "<script>
       success: function () {
         //alert('search_snap.sh: ' + newquantidade);
         \$('#btnFull').show();
-        \$('#btnInstall').load('./big-install.tmp');
-        \$('#btnRemove').load('./big-remove.tmp');
+        \$('#btnInstall').load('/tmp/big-install.tmp');
+        \$('#btnRemove').load('/tmp/big-remove.tmp');
       }
     });
   });

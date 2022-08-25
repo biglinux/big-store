@@ -14,12 +14,17 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
-FILE=~/.bigstore/big-select.tmp
-if [ ! -e "$FILE" ]; then
-    touch $FILE
+if [ ! -e "/tmp/big-select.tmp" ]; then
+> /tmp/big-select.tmp
 fi
 
+if [ ! -e "/tmp/big-install.tmp" ]; then
+> /tmp/big-install.tmp
+fi
 
+if [ ! -e "/tmp/big-remove.tmp" ]; then
+> /tmp/big-remove.tmp
+fi
 
 source header.sh.htm
 #category=mail
@@ -378,8 +383,8 @@ cat << EOF
       success: function () {
         //alert('header.sh.html: ' + newquantidade);
         \$("#btnFull").show();
-        \$("#btnInstall").load('./big-install.tmp');
-        \$("#btnRemove").load('./big-remove.tmp');        
+        \$("#btnInstall").load('/tmp/big-install.tmp');
+        \$("#btnRemove").load('/tmp/big-remove.tmp');        
       }
     });
   });

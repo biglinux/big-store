@@ -57,7 +57,7 @@ for i  in  $(LANGUAGE=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Descripti
     
     if [ "$INSTALLED" = "" ]; then
     
-        INPUT=$(grep -o "$TITLE," ~/.bigstore/big-select.tmp)
+        INPUT=$(grep -o "$TITLE," /tmp/big-select.tmp)
         if [ -n "$INPUT" ]; then
             echo '<div id=aur_not_installed>' $"Instalar" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE' name=itemSelect class=checkboxitemSelect-aur value='$TITLE',install,aur checked><label for=itemSelect-'$TITLE'></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
         else
@@ -66,7 +66,7 @@ for i  in  $(LANGUAGE=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Descripti
 
     else
     
-        INPUT2=$(grep -o "$TITLE," ~/.bigstore/big-select.tmp)
+        INPUT2=$(grep -o "$TITLE," /tmp/big-select.tmp)
         if [ -n "$INPUT2" ]; then
             echo '<div id=aur_installed>' $"Remover" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE' name=itemSelect class=checkboxitemSelect-aur value='$TITLE',remove,aur checked><label for=itemSelect-'$TITLE'></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
         else
@@ -99,8 +99,8 @@ echo "<script>
       success: function () {
         //alert('category_aur.sh: ' + newquantidade);
         \$('#btnFull').show();
-        \$('#btnInstall').load('./big-install.tmp');
-        \$('#btnRemove').load('./big-remove.tmp');        
+        \$('#btnInstall').load('/tmp/big-install.tmp');
+        \$('#btnRemove').load('/tmp/big-remove.tmp');        
       }
     });
   });

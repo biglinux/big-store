@@ -148,8 +148,8 @@ echo "<script>
       success: function () {
         //alert('search_aur.sh: ' + newquantidade);
         \$('#btnFull').show();
-        \$('#btnInstall').load('./big-install.tmp');
-        \$('#btnRemove').load('./big-remove.tmp');
+        \$('#btnInstall').load('/tmp/big-install.tmp');
+        \$('#btnRemove').load('/tmp/big-remove.tmp');
       }
     });
   });

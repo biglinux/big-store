@@ -10,16 +10,16 @@
 //       data: newquantidade,
 //       success: function () {
 //         $("#btnFull").show();
-//         $("#btnInstall").load("./big-install.tmp");
-//         $("#btnRemove").load("./big-remove.tmp");
-// //         $("#btnInstall").load("./big-install.tmp", function(e) {
+//         $("#btnInstall").load("/tmp/big-install.tmp");
+//         $("#btnRemove").load("/tmp/big-remove.tmp");
+// //         $("#btnInstall").load("/tmp/big-install.tmp", function(e) {
 // //           if (e) {
 // //             //\$("#btnFull").show();
 // //           } else {
 // //             //\$("#btnFull").hide();
 // //           }
 // //         });
-// //         $("#btnRemove").load("./big-remove.tmp", function(e) {
+// //         $("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
 // //           if (e) {
 // //             //\$("#btnFull").show();
 // //           } else {
