@@ -84,30 +84,37 @@ parallel_filter () {
     ## portuguese
     # Se nao detectar ícone, utiliza um generico
 if [ "$PKG_ICON" = "" ]; then
+
+
+    ## titulo,remove,snap
+    lineCheck="$PKG_ID,remove,snap,$PKG_ICON,$PKG_NAME,$PKG_VERSION"
+    ## titulo,remove,snap,caminho do icon,nome app,versao
+    INPUT=$(grep -o "$PKG_ID,remove,snap" /tmp/big-select.tmp)   
     
-    INPUT=$(grep -o "$PKG_ID,remove,snap" /tmp/big-select.tmp)
         if [ -n "$INPUT" ]; then
 cat >>  ${TMP_FOLDER}/snapbuild.html << EOF
-        <!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><div class=avatar_snap>${PKG_NAME:0:3}</div></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value='$PKG_ID,$LIST_INSTALL,snap' checked><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
+<!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><div class=avatar_snap>${PKG_NAME:0:3}</div></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value="$lineCheck" checked><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
 EOF
         else
 cat >>  ${TMP_FOLDER}/snapbuild.html << EOF
-        <!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><div class=avatar_snap>${PKG_NAME:0:3}</div></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value='$PKG_ID,$LIST_INSTALL,snap'><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
+<!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><div class=avatar_snap>${PKG_NAME:0:3}</div></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value="$lineCheck"><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
 EOF
         fi
 
-
     else
     
-    
+    ## titulo,install,snap
+    lineCheck="$PKG_ID,install,snap,$PKG_ICON,$PKG_NAME,$PKG_VERSION"
+    ## titulo,install,snap,caminho do icon,nome app,versao
     INPUT2=$(grep -o "$PKG_ID,install,snap" /tmp/big-select.tmp)
+    
         if [ -n "$INPUT2" ]; then    
 cat >>  ${TMP_FOLDER}/snapbuild.html << EOF
-        <!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value='$PKG_ID,$LIST_INSTALL,snap' checked><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
+<!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value="$lineCheck" checked><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
 EOF
         else
 cat >>  ${TMP_FOLDER}/snapbuild.html << EOF
-        <!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value='$PKG_ID,$LIST_INSTALL,snap'><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
+<!--$PKG_NAME--><a onclick="disableBody();" href="view_snap.sh.htm?pkg_id=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=snap_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=snap_name>$PKG_NAME<div id=version>$PKG_VERSION</div></div></div><div id=box_snap_desc><div id=snap_desc>$PKG_DESC</div></div><div id=$DIV_SNAP_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id='itemSelect-$PKG_ID-snap' name=itemSelect class=checkboxitemSelect-snap value="$lineCheck"><label for='itemSelect-$PKG_ID-snap'></label></div></form></div>
 EOF
         fi
         
@@ -189,6 +196,10 @@ $("#box_snap").show();});
 fi
 echo "$COUNT" > "${TMP_FOLDER}/snap_number.html"
 
+
+OIFS=$IFS
+IFS=$'\n'
+
 echo "<script>
 // CHECKBOX LIST APPS
 \$(function () {
@@ -197,9 +208,8 @@ echo "<script>
     console.log(this);
     var newquantidade = this.value;
     \$.ajax({
-      type: 'post',
-      url: 'big-select.run',
-      data: newquantidade,
+      type: 'get',
+      url: 'big-select.run?line=' + newquantidade,
       success: function () {
         //alert('search_snap.sh: ' + newquantidade);
         \$('#btnFull').show();

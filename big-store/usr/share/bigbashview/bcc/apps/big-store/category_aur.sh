@@ -40,8 +40,11 @@ for i  in  $(LANGUAGE=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Descripti
     echo '<div class="showapp">' >> ${TMP_FOLDER}/aurbuild.html
     if [ -e "icons/${TITLE}.png" ]; then
         echo "<div id=aur_icon><div class=icon_middle><img class=\"icon\" src=\"icons/${TITLE}.png\"></div>" >> ${TMP_FOLDER}/aurbuild.html
+        ##Create path icon
+        PKG_ICON="/usr/share/bigbashview/bcc/apps/big-store/icons/${TITLE}.png"
     else
         echo "<div id=aur_icon><div class=icon_middle><div class=avatar_aur>${TITLE:0:3}</div></div>" >> ${TMP_FOLDER}/aurbuild.html
+        PKG_ICON=""
     fi
     
     # echo '<div id=appstream_icon><img class="icon" loading="lazy" src="' "$PKG_ICON" '">' >> ${TMP_FOLDER}/aurbuild.html
@@ -56,21 +59,29 @@ for i  in  $(LANGUAGE=C yay -a -Sii $@ | grep -e ^Name -e ^Version -e ^Descripti
     fi
     
     if [ "$INSTALLED" = "" ]; then
-    
-        INPUT=$(grep -o "$TITLE," /tmp/big-select.tmp)
+        
+        ## titulo,install,aur
+        lineCheck="$TITLE,install,aur,$PKG_ICON,$TITLE,$VERSION"
+        ## titulo,install,aur,caminho do icon,nome app,versao
+        INPUT=$(grep -o "$TITLE,install,aur" /tmp/big-select.tmp)
+        
         if [ -n "$INPUT" ]; then
-            echo '<div id=aur_not_installed>' $"Instalar" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value='$TITLE',install,aur checked><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
+            echo '<div id=aur_not_installed>' $"Instalar" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value="'$lineCheck'" checked><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
         else
-            echo '<div id=aur_not_installed>' $"Instalar" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value='$TITLE',install,aur><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
+            echo '<div id=aur_not_installed>' $"Instalar" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value="'$lineCheck'"><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
         fi
 
     else
     
-        INPUT2=$(grep -o "$TITLE," /tmp/big-select.tmp)
+        ## titulo,remove,aur
+        lineCheck="$TITLE,remove,aur,$PKG_ICON,$TITLE,$VERSION"
+        ## titulo,remove,aur,caminho do icon,nome app,versao
+        INPUT2=$(grep -o "$TITLE,remove,aur" /tmp/big-select.tmp)    
+    
         if [ -n "$INPUT2" ]; then
-            echo '<div id=aur_installed>' $"Remover" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value='$TITLE',remove,aur checked><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
+            echo '<div id=aur_installed>' $"Remover" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value="'$lineCheck'" checked><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html
         else
-            echo '<div id=aur_installed>' $"Remover" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value='$TITLE',remove,aur><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html        
+            echo '<div id=aur_installed>' $"Remover" '</div></div></a><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-'$TITLE'-aur name=itemSelect class=checkboxitemSelect-aur value="'$lineCheck'"><label for=itemSelect-'$TITLE'-aur></label></div></form></div>' >> ${TMP_FOLDER}/aurbuild.html        
         fi
 
     fi
@@ -93,9 +104,8 @@ echo "<script>
     console.log(this);
     var newquantidade = this.value;
     \$.ajax({
-      type: 'post',
-      url: 'big-select.run',
-      data: newquantidade,
+      type: 'get',
+      url: 'big-select.run?line='+newquantidade,
       success: function () {
         //alert('category_aur.sh: ' + newquantidade);
         \$('#btnFull').show();

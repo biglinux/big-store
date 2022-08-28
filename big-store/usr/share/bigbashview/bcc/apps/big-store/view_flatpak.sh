@@ -66,54 +66,40 @@ IFS=$'\n'
     # Example to run
     # awk /\<id\>com.eduke32.EDuke32\<\\/id\>/,/\<\\/component\>/ /var/lib/flatpak/appstream/flathub/x86_64/active/appstream.xml | grep -m1 -e icon -e cached | sed 's|.*">||g;s|</icon>||g'
     PKG_ICON=""
-    
     # Search icon
-    PKG_ICON="$(find /var/lib/flatpak/appstream/  -type f -iname "$PKG_ID.png" -print -quit)"
-    
+    PKG_ICON="$(find /var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/icons/64x64/ -type f -iname "$PKG_ID.png" -print -quit)"
     # If not found try another way
     if [ "$PKG_ICON" = "" ]; then
-
+    
+        PKG_ICON="$(find /var/lib/flatpak/appstream/$PKG_REMOTE -type f -iname "$PKG_ID.png" -print -quit)"
+    
+        if [ "$PKG_ICON" = "" ]; then
         # If cached icon not found, try online
-        PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+        PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g;s|.*">||g')"
 
-        
             # If online icon not found, try another way
             if [ "$PKG_ICON" = "" ]; then
-                PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+                PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g;s|.*">||g')"
             fi
+            
+        fi
 
     fi
 
-# cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-# <a href="flatpak_view.sh?$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp tooltipped" data-position="top" data-tooltip="${PACKAGE}$PKG_ID<br><br>${VERSION}$PKG_VERSION"><div id=flatpak_package></div><div id=flatpak_icon><img height="64" width="64" loading="lazy" src="$PKG_ICON"><div id=version>$PKG_VERSION_ORIG</div></div><div id=flatpak_name>$PKG_NAME</div><div id=flatpak_desc>$PKG_DESC</div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
-# EOF
-
-            # If all fail, use generic icon
-#             if [ "$PKG_ICON" = "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 'type=')" != "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 '<description>')" != "" ]; then
-# cat << EOF
-# <a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
-# EOF
-#             else
-# cat << EOF
-# <a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
-# EOF
-#             fi
-
-
-# echo '<div id=box_flatpak_install>'
-# echo '<div id=title_flatpak_install>'
-#     echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
-#         echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left:5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg></div><div style="margin-right: 5px;">'                            
-#         echo $"Programas Flatpak"
-#     echo '</div></div>'
-# echo '</div>'
-
+PKGNAMEFLATPAK="$(echo "$PKG_ID" | sed 's|.org||g;s|org.||g;s|com.||g;s|.desktop||g;s|.io||g')"    
+    
 echo "<div id=content_flatpak_install>
 <div id=titleBar>
-<div id=title>
-<img class=\"icon_view\" src=\"$PKG_ICON\">"
+<div id=title>"
 
-echo "<div id=titleName>$PKG_NAME</div></div></div>"
+if [ "$PKG_ICON" != "" ] ; then
+echo "<img class=\"icon_view\" src=\"$PKG_ICON\">"
+else
+echo "<div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div>"
+fi
+
+
+echo "<div id=titleName>$PKGNAMEFLATPAK / $PKG_NAME</div></div></div>"
 
 echo "<div id=description>$PKG_DESC</div></div>"
 
@@ -123,12 +109,16 @@ echo '<div class="row center">'
     # Verify if package are installed
     if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
         if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
-        
-            INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)
+
+            ## titulo,remove,flatpak
+            lineCheck="$PKG_ID,remove,flatpak,$PKG_ICON,$PKG_NAME,$PKG_VERSION"
+            ## titulo,install,remove,caminho do icon,nome app,versao
+            INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)           
+            
             if [ -n "$INPUT" ]; then
-                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=\"$lineCheck\" checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
             else
-                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak ><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=\"$lineCheck\"><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
             fi
         
             echo "<button class=\"btn btnSpace waves-effect waves-light yellow darken-4\" type=\"submit\" name=\"action\" onclick=\"disableBodyFlatpakInstall();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_install=y'\">"
@@ -136,11 +126,17 @@ echo '<div class="row center">'
             echo "<button class=\"btn btnSpace waves-effect waves-light blue darken-3\" type=\"submit\" name=\"action\" onclick=\"_run( 'flatpak run $search' )\">" $"Executar" "</button>"
         else
         
-            INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)
-            if [ -n "$INPUT" ]; then
-                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+        
+            ## titulo,remove,flatpak
+            lineCheck="$PKG_ID,remove,flatpak,$PKG_ICON,$PKG_NAME,$PKG_VERSION"
+            ## titulo,remove,flatpak,caminho do icon,nome app,versao
+            INPUT2=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)        
+            
+            
+            if [ -n "$INPUT2" ]; then
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=\"$lineCheck\" checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
             else
-                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,remove,flatpak ><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+                echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=\"$lineCheck\"><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
             fi        
            
             echo "<button class=\"btn btnSpace waves-effect waves-light red accent-4\" type=\"submit\" name=\"action\" onclick=\"disableBodyFlatpakRemove();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_remove=y'\">"
@@ -149,11 +145,17 @@ echo '<div class="row center">'
         fi
     else
 
-        INPUT2=$(grep -o "$PKG_ID,install,flatpak" /tmp/big-select.tmp)
-        if [ -n "$INPUT2" ]; then
-            echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,install,flatpak checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+    
+        ## titulo,install,flatpak
+        lineCheck="$PKG_ID,install,flatpak,$PKG_ICON,$PKG_NAME,$PKG_VERSION"
+        ## titulo,install,flatpak,caminho do icon,nome app,versao
+        INPUT3=$(grep -o "$PKG_ID,install,flatpak" /tmp/big-select.tmp)     
+       
+        
+        if [ -n "$INPUT3" ]; then
+            echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=\"$lineCheck\" checked><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
         else
-            echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=$search,install,flatpak ><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
+            echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$search name=itemSelect class=checkboxitemSelect-flatpak value=\"$lineCheck\"><label for=itemSelect-$search>" $"Adicionar na lista" "</label></div></form>"
         fi        
     
         echo "<button class=\"btn btnSpace waves-effect waves-light green accent-4\" type=\"submit\" name=\"action\" onclick=\"disableBodyFlatpakInstall();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_install=y'\">"
@@ -187,9 +189,8 @@ echo "<script>
     console.log(this);
     var newquantidade = this.value;
     \$.ajax({
-      type: 'post',
-      url: 'big-select.run',
-      data: newquantidade,
+      type: 'get',
+      url: 'big-select.run?line='+newquantidade,
       success: function () {
         //alert('view_flatpak.sh: ' + newquantidade);
         \$('#btnFull').show();

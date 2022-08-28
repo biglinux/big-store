@@ -1,12 +1,12 @@
 #!/usr/bin/python
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/05/09
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -28,7 +28,6 @@ lang_translations.install()
 _ = lang_translations.gettext
 
 def print_pkg_details (details):
-    
     print ('<a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name=' + details.get_name() + '">')
     print ('<div class="col s12 m6 l3"')
     if details.get_installed_version() is not None:
@@ -43,13 +42,24 @@ def print_pkg_details (details):
 
     if details.get_icon() is None:
         find_icon = subprocess.run(["find", "icons/", "/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/", "/usr/share/app-info/icons/archlinux-arch-community/64x64/", "/usr/share/app-info/icons/archlinux-arch-extra/64x64/","-type", "f", "-iname", '*' + details.get_name().split("-")[0] + '*', "-print", "-quit"], stdout=subprocess.PIPE, text=True)
+
         if find_icon.stdout == '':
             print ('<div id=appstream_icon><div class=icon_middle><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
+
+            iconCheck = ''
+
         else:
             print ('<div id=appstream_icon><div class=icon_middle><img class="icon" loading="lazy" src="', find_icon.stdout, '"></div>')
+
+            iconCheck = find_icon.stdout
+
     else:
         print ('<div id=appstream_icon><div class=icon_middle><img class="icon" loading="lazy" src="', details.get_icon(), '"></div>')
+
+        iconCheck = details.get_icon()
+
     print ('<div id=appstream_name><div id=limit_title_name>', details.get_id(), '</div>')
+
     print ('<div id=version>', details.get_version(), '</div></div></div>')
     if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
         print ('<div id=box_appstream_desc><div id=appstream_desc>')
@@ -59,24 +69,42 @@ def print_pkg_details (details):
         print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
 
     if details.get_installed_version() is None:
-            with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-                checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
+
+        with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+
+            lineCheck = details.get_name() + ',install,native,' + iconCheck.strip() + ','+ details.get_id() +','+ details.get_version()
+            
+            checkedBoxItem = 'checked' if lineCheck in e.read() else ''
+
             print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div>')
-            print ('<form id=formcheckbox><div id=checkboxItem><input type=checkbox id="itemSelect-' + details.get_name() + '-native" name=itemSelect class=checkboxitemSelect-native value=' + details.get_name() + ',install,native '+ checkedBoxItem +'><label for="itemSelect-' + details.get_name() + '-native"></label></div></form>')
+            print ('<form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-' + details.get_name() + '-native name=itemSelect class=checkboxitemSelect-native value="'+ lineCheck +'" '+ checkedBoxItem +'><label for=itemSelect-' + details.get_name() + '-native></label></div></form>')
             print ('</div>')
+
     else:
+
         with open('/tmp/bigstore/upgradeable.txt') as f:
             if '\n' + details.get_name() + '\n' in f.read():
-                    with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-                        checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
+
+                lineCheck = details.get_name() + ',remove,native,' + iconCheck.strip() + ','+ details.get_id() +','+ details.get_version()
+
+                with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+
+                    checkedBoxItem = 'checked' if lineCheck in e.read() else ''
+
                     print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div>')
-                    print ('<form id="formcheckbox"><div id="checkboxItem"><input type="checkbox" id="itemSelect-' + details.get_name() + '-native" name="itemSelect" class="checkboxitemSelect-native" value=' + details.get_name() + ',remove,native '+ checkedBoxItem +'><label for="itemSelect-' + details.get_name() + '-native"></label></div></form>')
+                    print ('<form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-' + details.get_name() + '-native name=itemSelect class=checkboxitemSelect-native value="'+ lineCheck +'" '+ checkedBoxItem +'><label for=itemSelect-' + details.get_name() + '-native></label></div></form>')
                     print ('</div>')
+
             else:
-                    with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-                        checkedBoxItem = 'checked' if details.get_name() + ',' in e.read() else ''
+
+                lineCheck = details.get_name() + ',remove,native,' + iconCheck.strip() + ','+ details.get_id() +','+ details.get_version()
+
+                with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
+
+                    checkedBoxItem = 'checked' if lineCheck in e.read() else ''
+
                     print ('<div id=appstream_installed>'+_('Remover')+'</div></a></div>')
-                    print ('<form id="formcheckbox"><div id="checkboxItem"><input type="checkbox" id="itemSelect-' + details.get_name() + '-native" name="itemSelect" class="checkboxitemSelect-native" value=' + details.get_name() + ',remove,native '+ checkedBoxItem +'><label for="itemSelect-' + details.get_name() + '-native"></label></div></form>')
+                    print ('<form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-' + details.get_name() + '-native name=itemSelect class=checkboxitemSelect-native value="'+ lineCheck +'" '+ checkedBoxItem +'><label for=itemSelect-' + details.get_name() + '-native></label></div></form>')
                     print ('</div>')
 
 if __name__ == "__main__":
@@ -117,7 +145,6 @@ if __name__ == "__main__":
     if num > 0:
         print ('<script>runAvatarAppstream(); $(document).ready(function () {$("#box_appstream").show();});</script>')
     print ('<script>document.getElementById("appstream_number").innerHTML = "', num, '";</script>')
-    #print ("<script>$(function () {  $('.checkboxitemSelect').on('change',function(e){    e.preventDefault();    console.log(this);    var newquantidade = this.value;    $.ajax({      type: 'post',      url: 'big-select.run',      data: newquantidade,      success: function () {        ('#btnFull').show();        $('#btnInstall').load('/tmp/big-install.tmp', function(e) {      }    });  });});</script>")
 
     # Simple Search
     #for pkg in pkgs:
@@ -128,55 +155,50 @@ if __name__ == "__main__":
     #if num > 0:
         #print ('<script>$(document).ready(function () {$("#box_appstream").show();});</script>')
     #print ('<script>document.getElementById("appstream_number").innerHTML = "', num, '"</script>')
-    
-print ('<script>')
-print ('// CHECKBOX LIST APPS')
-print ('$(function () {')
-print ('$(".checkboxitemSelect-native").on("change",function(e){')
-print ('e.preventDefault();')
-print ('console.log(this);')
-print ('var newquantidade = this.value;')
-print ('$.ajax({')
-print ('type: "post",')
-print ('url: "big-select.run",')
-print ('data: newquantidade,')
-print ('success: function () {')
-#print ('alert("search_appstream_pacman.py: " + newquantidade);')
-print ('$("#btnFull").show();')
 
-#print ('$("#btnInstall").load("/tmp/big-install.tmp");')
-#print ('$("#btnRemove").load("/tmp/big-remove.tmp");')
+SCRIPT = '''<script>
+// CHECKBOX LIST APPS
+$(function () {
+$(".checkboxitemSelect-native").on("change",function(e){
+e.preventDefault();
+console.log(this.value);
+var newquantidade = this.value;
+$.ajax({
+type: "get",
+url: "big-select.run?line="+newquantidade,
+success: function () {
+$("#btnFull").show();
+$("#btnInstall").load("/tmp/big-install.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnFull").hide();
+}
+});
+}
+});
+$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnInstall").load("/tmp/big-install.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnFull").hide();
+}
+});
+}
+});
+}
+});
+});
+});
+// FIM CHECKBOX LIST APPS
+</script>'''
 
-print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnFull").hide();')
-print ('}')
-print ('});')
-print ('}')
-print ('});')
-print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnFull").hide();')
-print ('}')
-print ('});')
-print ('}')
-print ('});')
-
-print ('}')
-print ('});')
-print ('});')
-print ('});')
-print ('// FIM CHECKBOX LIST APPS')
-print ('</script>')
+print(str(SCRIPT), end='')

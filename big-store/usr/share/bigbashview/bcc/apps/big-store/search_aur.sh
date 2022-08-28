@@ -59,30 +59,34 @@ BEGIN{
         version = $2
 
         
-        checked = ( aurselect ~ "\\<" title ",(install|remove),aur\\>" ? "checked" : "" )
+        checked = ( aurselect ~ "\\<" title ",(install|remove),aur," iconCheck "," title "," version "\\>" ? "checked" : "" )
+        
+        if ( system("[ ! -e icons/" title ".png ]") ) {
+            icon = "<img class=\"icon\" src=\"icons/" title ".png\">"
+            iconCheck = "icons/" title ".png"
+        } else {
+            icon = "<div class=avatar_aur>" substr(title,1,3) "</div>"
+            iconCheck = ""
+        }        
         
         if ( !installed ) {
-            #button = "<div id=aur_not_installed>" instalar "</div></a></div></div>"
-            #button = "<div id=aur_not_installed>" instalar "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title "-aur name=itemSelect class=checkboxitemSelect-aur value=" title ",install,aur checked><label for=itemSelect-" title "-aur></label></div></form></div>"
-            button = "<div id=aur_not_installed>" instalar "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title "-aur name=itemSelect class=checkboxitemSelect-aur value=" title ",install,aur " checked "><label for=itemSelect-" title "-aur></label></div></form></div>"            
+            
+            lineCheck = "" title ",install,aur," iconCheck "," title "," version ""
+            
+            button = "<div id=aur_not_installed>" instalar "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title "-aur name=itemSelect class=checkboxitemSelect-aur value=" lineCheck " " checked "><label for=itemSelect-" title "-aur></label></div></form></div>"            
             if ( searchterms ~ "\\<" title "\\>" ) {
                 idaur = "AurP2"
             } else {
                 idaur = "AurP3"
             }
         } else {
-            #button = "<div id=aur_installed>" remover "</div></a></div></div>"
-            #button = "<div id=aur_installed>" remover "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title " name=itemSelect class=checkboxitemSelect-aur value=" title ",remove,aur checked><label for=itemSelect-" title "></label></div></form></div>"
-            button = "<div id=aur_installed>" remover "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title "-aur name=itemSelect class=checkboxitemSelect-aur value=" title ",remove,aur " checked "><label for=itemSelect-" title "-aur></label></div></form></div>"            
+            
+            lineCheck = "" title ",remove,aur," iconCheck "," title "," version ""
+            
+            button = "<div id=aur_installed>" remover "</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-" title "-aur name=itemSelect class=checkboxitemSelect-aur value=" lineCheck " " checked "><label for=itemSelect-" title "-aur></label></div></form></div>"            
             idaur = "AurP1"
         }
 
-
-        if ( system("[ ! -e icons/" title ".png ]") ) {
-            icon = "<img class=\"icon\" src=\"icons/" title ".png\">"
-        } else {
-            icon = "<div class=avatar_aur>" substr(title,1,3) "</div>"
-        }
 
 # Checking custom localized description
         shortlang = gensub(/\..+/,"",1,ENVIRON["LANG"])
@@ -148,9 +152,8 @@ echo "<script>
     console.log(this);
     var newquantidade = this.value;
     \$.ajax({
-      type: 'post',
-      url: 'big-select.run',
-      data: newquantidade,
+      type: 'get',
+      url: 'big-select.run?line='+newquantidade,
       success: function () {
         //alert('search_aur.sh: ' + newquantidade);
         \$('#btnFull').show();

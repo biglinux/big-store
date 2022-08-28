@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
 # coding=UTF-8
 
 import json
@@ -24,8 +36,14 @@ for p in data['results']:
     print ('<div id=title>')
     if os.path.exists('icons/' + sys.argv[1] + '.png'):
         print ('<div class=icon_middle>' + '<img class="icon_view" src="icons/' + sys.argv[1] + '.png">' + '</div>')
+        
+        iconCheck = 'icons/' + sys.argv[1] + '.png'
+        
     else:
         print ('<div class=icon_middle><div class=avatar_aur>' + sys.argv[1][0:3] + '</div></div>')
+        
+        iconCheck = ''
+        
     print ('<div id=titleName>', p['Name'], '</div></div></div>')
 
     if os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary'):
@@ -37,25 +55,40 @@ for p in data['results']:
     print ('<div class="row center">')
     pkg_installed = subprocess.run(["pacman", "-Q", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
+    
     if pkg_installed.stdout:
         
         with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-            checkedBoxItem = 'checked' if sys.argv[1] + ',remove,aur' in e.read() else ''
-        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-aur value=' + sys.argv[1] + ',remove,aur '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')
+            
+            lineCheck = sys.argv[1] + ',remove,aur,' + iconCheck.strip() + ',' + p['Name'].strip() + ',' + p['Version'].strip()
+
+            checkedBoxItem = 'checked' if lineCheck in e.read() else ''            
+            
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-aur value="'+ lineCheck +'" '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')
         
         
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>')
+        
         if pkg_installed_version.stdout.strip() != p['Version'].strip():
+            
             print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
+            
         else:
+            
             if 'Version' in p:
+                
                 print ('<button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Reinstalar'), '</button>')
+                
     else:
         
         with open('/tmp/bigstore/upgradeable.txt') as f:
             with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-                checkedBoxItem = 'checked' if sys.argv[1] + ',install,aur' in e.read() else ''
-            print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-aur value=' + sys.argv[1] + ',install,aur '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
+                
+                lineCheck = sys.argv[1] + ',install,aur,' + iconCheck.strip() + ',' + p['Name'].strip() + ',' + p['Version'].strip()
+
+                checkedBoxItem = 'checked' if lineCheck in e.read() else ''                     
+                
+            print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-aur value="'+ lineCheck +'" '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
         
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
@@ -221,63 +254,60 @@ for p in data['results']:
     print ('</div>')
     print ('</div>')
     print ('<div id="controlBtn">')
-    print ('<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->')
-    print ('<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">')
+    print ('<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button" onclick="location.href=\'list-pkg-install-remove.sh.htm\';">')
     print ('<span id="btnInstall" style="margin-right:10px"></span>')
     print ('<span id="btnRemove" style="margin-left:10px"></span>')
     print ('</button>')
     print ('</div>')
-    print ('<script>')
-    print ('// CHECKBOX LIST APPS')
-    print ('$(function () {')
-    print ('$(".checkboxitemSelect-aur").on("change",function(e){')
-    print ('e.preventDefault();')
-    print ('console.log(this);')
-    print ('var newquantidade = this.value;')
-    print ('$.ajax({')
-    print ('type: "post",')
-    print ('url: "big-select.run",')
-    print ('data: newquantidade,')
-    print ('success: function () {')
-    print ('alert("view_aur.py: " + newquantidade);')
-    print ('$("#btnFull").show();')
 
-    #print ('$("#btnInstall").load("/tmp/big-install.tmp");')
-    #print ('$("#btnRemove").load("/tmp/big-remove.tmp");')
+SCRIPT = '''<script>
+// CHECKBOX LIST APPS
+$(function () {
+$(".checkboxitemSelect-aur").on("change",function(e){
+e.preventDefault();
+console.log(this.value);
+var newquantidade = this.value;
+$.ajax({
+type: "get",
+url: "big-select.run?line="+newquantidade,
+success: function () {
+$("#btnFull").show();
+$("#btnInstall").load("/tmp/big-install.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnFull").hide();
+}
+});
+}
+});
+$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnInstall").load("/tmp/big-install.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnFull").hide();
+}
+});
+}
+});
+}
+});
+});
+});
+// FIM CHECKBOX LIST APPS
+</script>'''
 
-    print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
-    print ('if (e) {')
-    print ('$("#btnFull").show();')
-    print ('} else {')
-    print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
-    print ('if (e) {')
-    print ('$("#btnFull").show();')
-    print ('} else {')
-    print ('$("#btnFull").hide();')
-    print ('}')
-    print ('});')
-    print ('}')
-    print ('});')
-    print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
-    print ('if (e) {')
-    print ('$("#btnFull").show();')
-    print ('} else {')
-    print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
-    print ('if (e) {')
-    print ('$("#btnFull").show();')
-    print ('} else {')
-    print ('$("#btnFull").hide();')
-    print ('}')
-    print ('});')
-    print ('}')
-    print ('});')
+print(str(SCRIPT), end='')
 
-    print ('}')
-    print ('});')
-    print ('});')
-    print ('});')
-    print ('// FIM CHECKBOX LIST APPS')
-    print ('</script>')
+
 
     #if 'ID' in p:
         #print(p['ID'])

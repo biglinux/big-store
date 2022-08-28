@@ -1,9 +1,21 @@
 #!/bin/bash
 
-if [ "$(grep $1 /tmp/big-select.tmp)" ];then
-    sed -i "/$1/d" /tmp/big-select.tmp
+#line="$1"
+
+col1=${line%%,*} # primeira coluna          # nome pacote
+col24=${line#*,} # colunas 2 a 4 apoio
+col2=${col24%%,*} # segunda coluna          # remove ou install
+col34=${col24#*,} # colunas 3 e 4 apoio
+col3=${col34%%,*} # terceira coluna         # pacote nativo, aur, flatpak ou snap
+
+REMOVE_LINE="$col1,$col2,$col3"
+
+#kdialog --msgbox $line
+
+if [ "$(grep "$line" /tmp/big-select.tmp)" ];then
+    sed -i "/$REMOVE_LINE/d" /tmp/big-select.tmp
 else
-    echo "$1" >> /tmp/big-select.tmp
+    echo "$line" >> /tmp/big-select.tmp
 fi
 
 countInstall=$(grep 'install' /tmp/big-select.tmp|wc -l)

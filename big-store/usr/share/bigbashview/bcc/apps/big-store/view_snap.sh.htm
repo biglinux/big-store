@@ -44,7 +44,6 @@ if [ "$pkg_remove" = "y" ]; then
     ACTION="remove_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
-
 # Loading
 echo '<div id=box_progress_snap_install>'
 echo '<div id=box_progress_snap_bar>'
@@ -53,7 +52,6 @@ echo "<div id=box_progress_snap_cancel><button class=\"btn btnSpace waves-effect
 echo $"Cancelar"
 echo '</button></div>'
 echo '</div></div>'
-
 
 # Loading
 echo '<div id=box_progress_snap_remove>'
@@ -64,7 +62,6 @@ echo $"Cancelar"
 echo '</button></div>'
 echo '</div></div>'
 
-
 source header.sh.htm
 
 cat << EOF
@@ -72,9 +69,6 @@ cat << EOF
 EOF
 
 SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
-
-
-
 
 echo '<div id=box_snap_install>'
       echo '<div id=title_snap_install>'
@@ -94,8 +88,11 @@ if [ "$(SNAP_ICON)" != "" ]; then
     echo '<div class=icon_middle><img class="icon_view" src="'
     SNAP_ICON
     echo '"></div>'
+    PKG_ICON="$(SNAP_ICON)"
 else
     echo "<div class=icon_middle><div class=avatar_snap>${TITLE:0:3}</div></div>"
+    PKG_ICON=""
+    
 fi
 
 echo '<div id=titleName>'
@@ -106,27 +103,36 @@ SNAP_INFO summary
 echo '</div></div>'
 echo '<div class="row center">'
 
+PKG_VERSION="$(SNAP_INFO version)"
+
 if [ "$(echo "$SNAP_INSTALLED_LIST" | grep -i -m1 "|$(SNAP_INFO package_name)|")" != "" ]; then
 
-  INPUT=$(grep -o "$PKG_ID,remove,snap" /tmp/big-select.tmp)
+  ## titulo,remove,snap
+  lineCheck="$pkg_id,remove,snap,$PKG_ICON,$TITLE,$PKG_VERSION"
+  ## titulo,remove,snap,caminho do icon,nome app,versao
+  INPUT=$(grep -o "$pkg_id,remove,snap" /tmp/big-select.tmp)  
+    
   if [ -n "$INPUT" ]; then
-      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,remove,snap checked><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=\"$lineCheck\" checked><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
   else
-      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,remove,snap ><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=\"$lineCheck\"><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
   fi
   
 cat << EOF
   <button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodySnapRemove();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_remove=y'">$TXT_REMOVE</button>
 EOF
-#<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('snap run $(SNAP_INFO package_name)')">$TXT_EXEC</button>
 
 else
 
-  INPUT2=$(grep -o "$PKG_ID,install,snap" /tmp/big-select.tmp)
+  ## titulo,install,snap
+  lineCheck="$pkg_id,install,snap,$PKG_ICON,$TITLE,$PKG_VERSION"
+  ## titulo,install,snap,caminho do icon,nome app,versao
+  INPUT2=$(grep -o "$pkg_id,install,snap" /tmp/big-select.tmp)  
+
   if [ -n "$INPUT2" ]; then
-      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,install,snap checked><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=\"$lineCheck\" checked><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
   else
-      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=$pkg_id,install,snap ><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
+      echo "<form id=formcheckbox><div><input type=checkbox id=itemSelect-$pkg_id name=itemSelect class=checkboxitemSelect-snap value=\"$lineCheck\"><label for=itemSelect-$pkg_id>" $"Adicionar na lista" "</label></div></form>"
   fi
 
 cat << EOF
@@ -134,20 +140,6 @@ cat << EOF
 EOF
 
 fi
-
-
-#    pkg_installed = subprocess.run(["pacman", "-Qs", sys.argv[1]], stdout=subprocess.PIPE, text=True)
-#    pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
-#    if pkg_installed.stdout:
-#     <button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>
-#         if pkg_installed_version.stdout.strip() != p['Version'].strip():
-#         <button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Atualizar', '</button>
-#         else:
-#             if 'Version' in p:
-#             <button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Reinstalar', '</button>
-#     else:
-#     <button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Instalar', '</button>
-
 
 OIFS=$IFS
 IFS=$'\n'
@@ -164,11 +156,9 @@ if [ "$($(SNAP_SCREENSHOT))" != "" ]; then
     IFS=$OIFS
 fi
 
-
 echo '<div id=pkgDescriptionBox><div id=pkgDescription>'
 SNAP_INFO description
 echo '</div></div></div></div>'
-
 
 echo '<div class="grid-container">'
 echo '<div class=gridLeft>' $"Pacote:" '</div>'
@@ -188,15 +178,11 @@ echo '<div class=gridRight>'
 SNAP_INFO version
 echo '</div></div>'
 
-
-
-
 echo '<div class="grid-container">'
 echo '<div class=gridLeft>' $"Licença:" '</div>'
 echo '<div class="gridRight">'
 SNAP_INFO license
 echo '</div></div>'
-
 
 echo '<div class="grid-container">'
 echo '<div class=gridLeft>' $"Repositório:" '</div>'
@@ -217,9 +203,6 @@ echo '</div></div>'
 #         print ("$('#listPgkFiles.click(function(e){$.get('./load.sh','pkg_installed " + sys.argv[1] + "',function(data){$('#files_in_package.html(data);})})")
 #     </script>
 #     </div></div>
-
-
-
 
 
 #kdialog --msgbox "$pkg_id"
@@ -256,8 +239,7 @@ cat << EOF
 </div>
 
 <div id="controlBtn">
-<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->
-<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">
+<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button" onclick="location.href='list-pkg-install-remove.sh.htm';">
   <span id="btnInstall" style="margin-right:10px"></span>
   <span id="btnRemove" style="margin-left:10px"></span>
 </button>
@@ -276,11 +258,10 @@ cat << EOF
     console.log(this);
     var newquantidade = this.value;
     \$.ajax({
-      type: 'post',
-      url: 'big-select.run',
-      data: newquantidade,
+      type: 'get',
+      url: 'big-select.run?line='+newquantidade,
       success: function () {
-        //alert('view_snap.sh.htm: ' + newquantidade);
+        //alert('view_snap.sh ' + newquantidade);
         \$('#btnFull').show();
         //\$('#btnInstall').load('/tmp/big-install.tmp');
         //\$('#btnRemove').load('/tmp/big-remove.tmp');

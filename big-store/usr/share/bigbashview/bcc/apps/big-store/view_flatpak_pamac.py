@@ -1,4 +1,16 @@
 #!/usr/bin/python
+
+##################################
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
+#  Create Date:    2020/01/11
+#  Modify Date:    2022/05/09 
+#  
+#  Description: Big Store installing programs for BigLinux
+#  
+#  Licensed by GPL V2 or greater
+##################################
+
 # coding=utf-8
 # -*- coding: utf-8 -*-
 
@@ -10,6 +22,7 @@ import subprocess
 import sys
 import locale
 import datetime
+
 gi.require_version('Pamac', '11')
 from gi.repository import Pamac
 
@@ -66,16 +79,28 @@ def print_pkg_details (details):
 
     if details.get_icon() is None:
         print ('<div class=icon_middle><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
+        
+        iconCheck = ''
+        
     else:
         print ('<img class="icon_view" src="', details.get_icon(), '">')
+        
+        iconCheck = details.get_icon()
+        
     #print ('<div id=titleName>', sys.argv[1], '</div></div></div>')
-    print ('<div id=titleName>', details.get_app_id().replace(".org", "").replace("org.", "").replace("com.", "").replace(".desktop", "").replace(".io", ""), '/', details.get_app_name(), '</div></div></div>')
+    print ('<div id=titleName>', sys.argv[1].replace(".org", "").replace("org.", "").replace("com.", "").replace(".desktop", "").replace(".io", ""), '/', details.get_app_name(), '</div></div></div>')
     print ('<div id=description>', details.get_desc(), '</div></div>')
     print ('<div class="row center">')
+    
     if details.get_installed_version():
+        
         with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-            checkedBoxItem = 'checked' if sys.argv[1] + ',remove,flatpak' in e.read() else ''
-        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-flatpak value=' + sys.argv[1] + ',remove,flatpak '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
+            
+            lineCheck = details.get_name() + ',remove,flatpak,' + iconCheck.strip() + ',' + sys.argv[1].replace(".org", "").replace("org.", "").replace("com.", "").replace(".desktop", "").replace(".io", "") + '/' + details.get_app_name() + ',' + details.get_version()
+
+            checkedBoxItem = 'checked' if lineCheck in e.read() else ''             
+            
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-flatpak value="'+ lineCheck +'" '+ checkedBoxItem +'><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
         
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodyFlatpakRemove();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y&pkg_id=" +details.get_id() + "'" + '">', _('Remover'), '</button>')
 
@@ -87,9 +112,12 @@ def print_pkg_details (details):
     else:
         
         with open(os.path.expanduser('/tmp/big-select.tmp')) as e:
-            checkedBoxItem = 'checked' if sys.argv[1] + ',install,flatpak' in e.read() else ''
+            
+            lineCheck = details.get_name() + ',install,flatpak,' + iconCheck.strip() + ',' + sys.argv[1].replace(".org", "").replace("org.", "").replace("com.", "").replace(".desktop", "").replace(".io", "") + '/' + details.get_app_name() + ',' + details.get_version()
+
+            checkedBoxItem = 'checked' if lineCheck in e.read() else ''
                 
-        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-flatpak value=' + sys.argv[1] + ',install,flatpak '+ checkedBoxItem +' ><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
+        print ('<form id=formcheckbox><div><input type=checkbox id=itemSelect-' + sys.argv[1] + ' name=itemSelect class=checkboxitemSelect-flatpak value="'+ lineCheck +'" '+ checkedBoxItem +' ><label for=itemSelect-' + sys.argv[1] + '>', _('Adicionar na lista'), '</label></div></form>')        
         
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href=' + "'view_flatpak.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y&pkg_id=" + details.get_id() + "'" + '">', _('Instalar'), '</button>')
 
@@ -118,12 +146,12 @@ def print_pkg_details (details):
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', _('Versão disponível:'), '</div>')
         print ('<div class="gridRight">', update_version.stdout, '</div></div>')
-
-    print ('<div class="grid-container">')
+    
     if details.get_installed_version():
+        print ('<div class="grid-container">')
         print ('<div class=gridLeft>', _('Versão instalada:'), '</div>')
-        print ('<div class=gridRight>', details.get_installed_version(), '</div>')
-    print ('</div>')
+        print ('<div class=gridRight>', details.get_installed_version(), '</div></div>')
+    
     print ('<div class=grid-container><div class=gridLeft>', _('Uso de armazenamento:'), '</div><div class=gridRight id=Size>', str(round(details.get_installed_size() / (1024 * 1024), 1)), 'MB</div></div>')
 
     if details.get_download_size():
@@ -187,64 +215,49 @@ if __name__ == "__main__":
     pkg = db.get_app_by_id(sys.argv[1])
     print_pkg_details (pkg)
 
-#print ('</div>')
-#print ('</div>')
-#print ('</div>')
-#print ('<div id="controlBtn">')
-#print ('<!-- <button style="display:none; margin-right: 8px;" id="btnFull" class="content-button status-button"> -->')
-#print ('<button style="grepmargin-right: 8px;" id="btnFull" class="content-button status-button">')
-#print ('<span id="btnInstall" style="margin-right:10px"></span>')
-#print ('<span id="btnRemove" style="margin-left:10px"></span>')
-#print ('</button>')
-#print ('</div>')
-print ('<script>')
-print ('// CHECKBOX LIST APPS')
-print ('$(function () {')
-print ('$(".checkboxitemSelect-flatpak").on("change",function(e){')
-print ('e.preventDefault();')
-print ('console.log(this);')
-print ('var newquantidade = this.value;')
-print ('$.ajax({')
-print ('type: "post",')
-print ('url: "big-select.run",')
-print ('data: newquantidade,')
-print ('success: function () {')
-#print ('alert("view_flatpak_pacman.py: " + newquantidade);')
-print ('$("#btnFull").show();')
+SCRIPT = '''<script>
+// CHECKBOX LIST APPS
+$(function () {
+$(".checkboxitemSelect-flatpak").on("change",function(e){
+e.preventDefault();
+console.log(this.value);
+var newquantidade = this.value;
+$.ajax({
+type: "get",
+url: "big-select.run?line="+newquantidade,
+success: function () {
+$("#btnFull").show();
+$("#btnInstall").load("/tmp/big-install.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnFull").hide();
+}
+});
+}
+});
+$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnInstall").load("/tmp/big-install.tmp", function(e) {
+if (e) {
+$("#btnFull").show();
+} else {
+$("#btnFull").hide();
+}
+});
+}
+});
+}
+});
+});
+});
+// FIM CHECKBOX LIST APPS
+</script>'''
 
-#print ('$("#btnInstall").load("/tmp/big-install.tmp");')
-#print ('$("#btnRemove").load("/tmp/big-remove.tmp");')
-
-print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnFull").hide();')
-print ('}')
-print ('});')
-print ('}')
-print ('});')
-print ('$("#btnRemove").load("/tmp/big-remove.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnInstall").load("/tmp/big-install.tmp", function(e) {')
-print ('if (e) {')
-print ('$("#btnFull").show();')
-print ('} else {')
-print ('$("#btnFull").hide();')
-print ('}')
-print ('});')
-print ('}')
-print ('});')
-
-print ('}')
-print ('});')
-print ('});')
-print ('});')
-print ('// FIM CHECKBOX LIST APPS')
-print ('</script>')
+print(str(SCRIPT), end='')

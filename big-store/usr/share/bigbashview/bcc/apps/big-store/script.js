@@ -1,37 +1,3 @@
-// // CHECKBOX LIST APPS
-// $(function () {
-//   $('.checkboxitemSelect').on('change',function(e){
-//     e.preventDefault();
-//     console.log(this);
-//     var newquantidade = this.value;
-//     $.ajax({
-//       type: 'post',
-//       url: 'big-select.run',
-//       data: newquantidade,
-//       success: function () {
-//         $("#btnFull").show();
-//         $("#btnInstall").load("/tmp/big-install.tmp");
-//         $("#btnRemove").load("/tmp/big-remove.tmp");
-// //         $("#btnInstall").load("/tmp/big-install.tmp", function(e) {
-// //           if (e) {
-// //             //\$("#btnFull").show();
-// //           } else {
-// //             //\$("#btnFull").hide();
-// //           }
-// //         });
-// //         $("#btnRemove").load("/tmp/big-remove.tmp", function(e) {
-// //           if (e) {
-// //             //\$("#btnFull").show();
-// //           } else {
-// //             //\$("#btnFull").hide();
-// //           }
-// //         });
-//         
-//       }
-//     });
-//   });
-// });
-// FIM CHECKBOX LIST APPS
 /* LEGENDA BOX STATUS BAR */
 $(".box-items").mouseover(function () {
   $(this).children("#box-status-bar").css("display", "block");

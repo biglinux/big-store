@@ -25,7 +25,6 @@ NOT_VERSION=$"Não informada"
 HOME_FOLDER="$HOME/.bigstore"
 TMP_FOLDER="/tmp/bigstore"
 
-
 # Read parameter and use as $search
 ## portuguese
 # Le o parametro passado via terminal e cria a variavel $search
@@ -43,7 +42,7 @@ IFS=$'\n'
 parallel_filter () {
 
     readarray -t -d"|" myarray <<< "$1"
-
+    
     PKG_NAME="${myarray[0]}"
     PKG_DESC="${myarray[1]}"
     PKG_ID="${myarray[2]}"
@@ -51,7 +50,7 @@ parallel_filter () {
     PKG_STABLE="${myarray[4]}"
     PKG_REMOTE="${myarray[5]}"
     PKG_UPDATE="${myarray[6]}"
-
+    
     # Select xml file to work
     ## portuguese
     # Seleciona o arquivo xml para filtrar os dados
@@ -67,27 +66,30 @@ parallel_filter () {
     # Example to run
     # awk /\<id\>com.eduke32.EDuke32\<\\/id\>/,/\<\\/component\>/ /var/lib/flatpak/appstream/flathub/x86_64/active/appstream.xml | grep -m1 -e icon -e cached | sed 's|.*">||g;s|</icon>||g'
     PKG_ICON=""
-    
     # Search icon
-    PKG_ICON="$(find /var/lib/flatpak/appstream/  -type f -iname "$PKG_ID.png" -print -quit)"
-    
+    PKG_ICON="$(find /var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/icons/64x64/ -type f -iname "$PKG_ID.png" -print -quit)"
     # If not found try another way
     if [ "$PKG_ICON" = "" ]; then
-
+    
+        PKG_ICON="$(find /var/lib/flatpak/appstream/$PKG_REMOTE -type f -iname "$PKG_ID.png" -print -quit)"
+    
+        if [ "$PKG_ICON" = "" ]; then
         # If cached icon not found, try online
-        PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+        PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g;s|.*">||g')"
 
-        
             # If online icon not found, try another way
             if [ "$PKG_ICON" = "" ]; then
-                PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+                PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g;s|.*">||g')"
             fi
+            
+        fi
 
     fi
 
     # Improve order of packages
     PKG_NAME_CLEAN="${search% *}"
-
+    PKGNAMEFLATPAK="$(echo "$PKG_ID" | sed 's|.org||g;s|org.||g;s|com.||g;s|.desktop||g;s|.io||g')"   
+    
     # Verify if package are installed
     if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
         if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
@@ -118,34 +120,39 @@ parallel_filter () {
         fi
     fi
 
-
-
-
-# cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-# <a href="flatpak_view.sh?$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp tooltipped" data-position="top" data-tooltip="${PACKAGE}$PKG_ID<br><br>${VERSION}$PKG_VERSION"><div id=flatpak_package></div><div id=flatpak_icon><img height="64" width="64" loading="lazy" src="$PKG_ICON"><div id=version>$PKG_VERSION_ORIG</div></div><div id=flatpak_name>$PKG_NAME</div><div id=flatpak_desc>$PKG_DESC</div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
-# EOF
-
             # If all fail, use generic icon
             if [ "$PKG_ICON" = "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 'type=')" != "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 '<description>')" != "" ]; then
-                INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)
-                if [ -n "$INPUT" ]; then                
+            
+             
+            
+                ## titulo,remove,flatpak
+                lineCheck="$PKG_ID,remove,flatpak,$PKG_ICON,$PKGNAMEFLATPAK/$PKG_NAME,$PKG_VERSION_ORIG"
+                ## titulo,remove,flatpak,caminho do icon,nome app,versao
+                INPUT=$(grep -o "$PKG_ID,remove,flatpak" /tmp/big-select.tmp)            
+            
+                if [ -n "$INPUT" ]; then
 cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak checked><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKGNAMEFLATPAK / $PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value="$lineCheck" checked><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
 EOF
                 else
 cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKGNAMEFLATPAK / $PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value="$lineCheck"><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
 EOF
                 fi
             else
-                INPUT2=$(grep -o "$PKG_ID,install,flatpak" /tmp/big-select.tmp)
-                if [ -n "$INPUT2" ]; then              
+            
+                ## titulo,install,flatpak
+                lineCheck="$PKG_ID,install,flatpak,$PKG_ICON,$PKGNAMEFLATPAK/$PKG_NAME,$PKG_VERSION_ORIG"
+                ## titulo,install,flatpak,caminho do icon,nome app,versao
+                INPUT2=$(grep -o "$PKG_ID,install,flatpak" /tmp/big-select.tmp)                
+                
+                if [ -n "$INPUT2" ]; then
 cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak checked><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKGNAMEFLATPAK / $PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value="$lineCheck" checked><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
 EOF
                 else
 cat >>  ${TMP_FOLDER}/flatpakbuild.html << EOF
-<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value=$PKG_ID,$LIST_INSTALL,flatpak><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
+<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKGNAMEFLATPAK / $PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div><form id=formcheckbox><div id=checkboxItem><input type=checkbox id=itemSelect-$PKG_ID-flatpak name=itemSelect class=checkboxitemSelect-flatpak value="$lineCheck"><label for=itemSelect-$PKG_ID-flatpak></label></div></form></div>
 EOF
                 fi
             fi
@@ -217,9 +224,8 @@ echo "<script>
     console.log(this);
     var newquantidade = this.value;
     \$.ajax({
-      type: 'post',
-      url: 'big-select.run',
-      data: newquantidade,
+      type: 'get',
+      url: 'big-select.run?line='+newquantidade,
       success: function () {
         //alert('search_flatpak.sh ' + newquantidade);
         \$('#btnFull').show();

@@ -30,11 +30,11 @@ def print_pkg_details (details):
     if details.get_icon() is None:
         find_icon = subprocess.run(["find", "icons/", "/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/", "/usr/share/app-info/icons/archlinux-arch-community/64x64/", "/usr/share/app-info/icons/archlinux-arch-extra/64x64/","-type", "f", "-iname", '*' + details.get_name().split("-")[0] + '*', "-print", "-quit"], stdout=subprocess.PIPE, text=True)
         if find_icon.stdout == '':
-            print ('<div class=icon_middle style="border-radius: 0px; width: 20px;"><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
+            print ('<div class=icon_middle style="border-radius: 0px; width: 20px; margin-right:5px;"><div class=avatar_appstream>' + details.get_name()[0:3] + '</div></div>')
         else:
-            print ('<img class="icon_view" style="border-radius: 0px; width: 20px;" src="', find_icon.stdout, '">')
+            print ('<img class="icon_view" style="border-radius: 0px; width: 20px; margin-right:5px;" src="', find_icon.stdout, '">')
     else:
-        print ('<img class="icon_view" src="', details.get_icon(), '">')
+        print ('<img class="icon_view" src="', details.get_icon(), '" style="border-radius: 0px; width: 20px; margin-right:5px;">')
 
 if __name__ == "__main__":
     config = Pamac.Config(conf_path="/etc/pamac.conf")
