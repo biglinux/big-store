@@ -47,8 +47,8 @@ jobs:
           bash gettext_po_generator_github.sh $gitfolder
           
       ## Tmate ##
-      #- name: Setup tmate session
-        #uses: mxschmitt/action-tmate@v3 
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3 
         
       - name: Update github
         run: |
