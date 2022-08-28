@@ -245,9 +245,46 @@ msgstr "취소"
 msgid "Fechar"
 msgstr "닫기"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
 msgid "Instalar"
 msgstr "설치"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
 msgid "Remover"
 msgstr "제거"
 
@@ -260,6 +297,23 @@ msgstr "패키지: "
 msgid "Não informada"
 msgstr "정보 없음"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 81
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 43
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 98
 msgid "Atualizar"
 msgstr "업데이트"
 
@@ -302,15 +356,46 @@ msgstr "대형 매장이 열려 있습니다."
 msgid "Big-Store"
 msgstr "빅 스토어"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
 msgid "Executar"
 msgstr "수행"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
 msgid "Pacote:"
 msgstr "패키지:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
 msgid "Versão disponível:"
 msgstr "사용 가능한 버전:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
 msgid "Repositório:"
 msgstr "리포지토리:"
 
@@ -458,15 +543,40 @@ msgstr "설치 중"
 msgid "Removendo"
 msgstr "제거"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 msgid "Versão disponivel:"
 msgstr "사용 가능한 버전:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
 msgid "Licença:"
 msgstr "라이선스:"
 
 msgid "AUR"
 msgstr "공기"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "패커:"
 
@@ -515,3 +625,150 @@ msgstr "강제 업데이트, 시스템을 업데이트 할 수없는 경우이 �
 
 msgid "Repositórios nativos"
 msgstr "네이티브 리포지토리"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+msgid "Versão instalada:"
+msgstr "설치된 버전:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+msgid "Uso de armazenamento:"
+msgstr "스토리지 사용량:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+msgid "Tamanho do download:"
+msgstr "다운로드 크기:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+msgid "Site:"
+msgstr "사이트:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+msgid "Data de instalação:"
+msgstr "설치 날짜:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+msgid "Arquivos do pacote:"
+msgstr "패키지 파일:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+msgid "Clique aqui para ver os arquivos"
+msgstr "파일을 보려면 여기를 클릭하십시오."
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+msgid "Reinstalar"
+msgstr "재설치"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "투표 수 :"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "AUR의 페이지:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
+msgid "Data do empacotamento:"
+msgstr "포장 날짜:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
+msgid "Motivo da instalação:"
+msgstr "설치 이유:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
+msgid "Grupos:"
+msgstr "그룹:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
+msgid "Complementos:"
+msgstr "부가 기능:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
+msgid "Dependências:"
+msgstr "종속성:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "설치 종속성:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
+msgid "Remove:"
+msgstr "제거:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
+msgid "Substitui:"
+msgstr "재정의:"
