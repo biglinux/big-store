@@ -5,7 +5,7 @@ for i  in  $(echo n | LC_ALL=C pacman -Rc $@ 2> /dev/null | grep ^Packages | cut
     PKGS="$PKGS $(echo "$i" | sed 's|-[0-9].*||g')"
 done
 
-pamac-installer --remove $@ $(LC_ALL=C timeout 10s pamac remove -od $PKGS | grep "^  " | cut -f3 -d" ") &
+pamac-installer --remove $@ $(LC_ALL=C timeout 10s pamac remove -odc $PKGS | grep "^  " | cut -f3 -d" ") &
 
 PID="$!"
 
