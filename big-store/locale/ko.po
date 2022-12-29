@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-시스템"
-
-msgid "Armazenamento e partições"
-msgstr "스토리지 및 파티션"
-
-msgid "Java JRE"
-msgstr "자바 JRE"
-
-msgid "Virtualização"
-msgstr "가상화"
-
-msgid "Imagem"
-msgstr "이미지"
-
-msgid "Editores Vetorial"
-msgstr "벡터 편집기"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "이미지, 사진 및 그리기 편집기"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "이미지 변환, 크기 조정 또는 압축"
-
-msgid "Plugins"
-msgstr "플러그인"
-
-msgid "Edição 3D e CAD"
-msgstr "3D 및 CAD 편집"
-
-msgid "Fontes (Tipografia)"
-msgstr "글꼴 (타이포그래피)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "페이지의 레이아웃 및 구성"
-
-msgid "Colorização e palheta de cores"
-msgstr "채색 및 색상 팔레트"
-
-msgid "Video"
-msgstr "비디오"
-
-msgid "Editores de video"
-msgstr "비디오 편집기"
-
-msgid "Reprodutores de vídeo"
-msgstr "비디오 플레이어"
-
-msgid "Animação e 2D"
-msgstr "애니메이션 및 2D"
-
-msgid "Captura de tela e video download"
-msgstr "스크린 샷 및 비디오 다운로드"
-
-msgid "Stream/transmissão online"
-msgstr "온라인 스트리밍/스트리밍"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "비디오 컨버터 및 CD/DVD 버너"
-
-msgid "Audio"
-msgstr "오디오"
-
-msgid "Reprodutores de áudio"
-msgstr "오디오 플레이어"
-
-msgid "Rádio online"
-msgstr "온라인 라디오"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "오디오 레코더 및 컨버터"
-
-msgid "Editores de áudio"
-msgstr "오디오 에디터"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "온라인 비디오, IPTV, 유튜브..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "비디오 편집자 및 압축기"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD 및 DVD 버너 및 복사기"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "웹캠, 화면 녹화 및 비디오 스트리밍"
-
-msgid "Internet"
-msgstr "인터넷"
-
-msgid "Navegadores"
-msgstr "항해사"
-
-msgid "E-mail"
-msgstr "이메일"
-
-msgid "Armazenamento nas nuvens"
-msgstr "클라우드 스토리지"
-
-msgid "Download"
-msgstr "다운로드"
-
-msgid "Compartilhadores e Torrent"
-msgstr "공유자 및 토렌트"
-
-msgid "Mensageiros e Conferências"
-msgstr "메신저 및 컨퍼런스"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "원격 액세스, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "네트워크 도구"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "뉴스, 피드 및 RSS"
-
-msgid "Escritório"
-msgstr "사무실"
-
-msgid "Suíte Office"
-msgstr "오피스 스위트"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF 뷰어, Epub, 전자책 등"
-
-msgid "Editores de PDF"
-msgstr "PDF 편집자"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "작업 및 연락처 일정"
-
-msgid "Gráficos"
-msgstr "그래픽스"
-
-msgid "Visualizadores de imagem"
-msgstr "이미지 뷰어"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "이미지 편집기 및 그리기 도구"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "스크린샷 (스크린샷)"
-
-msgid "Multimídia"
-msgstr "멀티미디어"
-
-msgid "Jogos"
-msgstr "게임"
-
-msgid "Gerenciadores de jogos"
-msgstr "게임 매니저"
-
-msgid "Utilitários para jogos"
-msgstr "게임 유틸리티"
-
-msgid "Emulador Retroarch"
-msgstr "레트로 아치 에뮬레이터"
-
-msgid "Emuladores"
-msgstr "에뮬레이터"
-
-msgid "Criadores de jogos"
-msgstr "게임 크리에이터"
-
-msgid "Ação/Arcade"
-msgstr "액션/아케이드"
-
-msgid "Cartas"
-msgstr "카드"
-
-msgid "Educacional"
-msgstr "교육적"
-
-msgid "Estratégia"
-msgstr "전략"
-
-msgid "Puzzles"
-msgstr "퍼즐"
-
-msgid "Tabuleiro"
-msgstr "트레이"
-
-msgid "RPG"
-msgstr "롤 플레잉"
-
-msgid "Outros"
-msgstr "기타"
-
-msgid "Sistema"
-msgstr "시스템"
-
-msgid "Desenvolvimento"
-msgstr "개발"
-
-msgid "Editores de código e IDE"
-msgstr "코드 에디터 및 IDE"
-
-msgid "Banco de dados"
-msgstr "데이터베이스"
-
-msgid "Servidores WEB"
-msgstr "웹 서버"
-
-msgid "Programas Nativos"
-msgstr "네이티브 프로그램"
-
-msgid "Programas AUR"
-msgstr "AUR 프로그램"
-
-msgid "Programas Flatpak"
-msgstr "플랫팩 프로그램"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Snap 패키지 설치됨 제거할 패키지를 클릭합니다."
-
-msgid "Cancelar"
-msgstr "취소"
-
-msgid "Fechar"
-msgstr "닫기"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "설치"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "제거"
-
 msgid "Versão: "
 msgstr "버전: "
 
@@ -317,54 +52,26 @@ msgstr "정보 없음"
 msgid "Atualizar"
 msgstr "업데이트"
 
-msgid "Instalado na partição:"
-msgstr "파티션에 설치됨:"
-
-msgid "Tamanho da partição:"
-msgstr "파티션 크기:"
-
-msgid "Espaço utilizado:"
-msgstr "사용된 공간:"
-
-msgid "Espaço livre:"
-msgstr "여유 공간:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "시스템 설치 날짜:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "네이티브 및 AUR 패키지"
-
-msgid "Instalados:"
-msgstr "설치:"
-
-msgid "Disponíveis:"
-msgstr "사용 가능:"
-
-msgid "Pacotes Flatpak"
-msgstr "플랫팩 패키지"
-
-msgid "Repositórios configurados:"
-msgstr "구성된 리포지토리:"
-
-msgid "Pacotes Snap"
-msgstr "스냅 패키지"
-
-msgid "Big-Store está aberta."
-msgstr "대형 매장이 열려 있습니다."
-
-msgid "Big-Store"
-msgstr "빅 스토어"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "수행"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "제거"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "수행"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "패키지:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "사용 가능한 버전:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "리포지토리:"
-
-msgid "Categorias"
-msgstr "카테고리"
-
-msgid "Versão instalada"
-msgstr "설치된 버전"
-
-msgid "Versão disponível"
-msgstr "사용 가능한 버전"
-
-msgid "Versão"
-msgstr "버전"
-
-msgid "Pacote .deb"
-msgstr ".deb 패키지"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "이 프로그램은.deb 형식으로 시스템과 가장 잘 통합됩니다."
-
-msgid "Mais informações"
-msgstr "추가 정보"
-
-msgid "Voltar"
-msgstr "뒤로 가기"
-
-msgid "Dependências a instalar"
-msgstr "설치할 종속성"
-
-msgid "Ver mais"
-msgstr "더 보기"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "종속성이 충족되지 않은 패키지: "
-
-msgid "Depende de "
-msgstr "그것은에 달려있다 "
-
-msgid "mas não vai ser instalado."
-msgstr "하지만 설치되지는 않을 것입니다."
-
-msgid "mas não está disponível"
-msgstr "하지만 사용할 수 없습니다"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "설치"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "시작"
 msgid "Configurações"
 msgstr "설정"
 
+msgid "X-Sistema"
+msgstr "X-시스템"
+
+msgid "Imagem"
+msgstr "이미지"
+
+msgid "Video"
+msgstr "비디오"
+
+msgid "Audio"
+msgstr "오디오"
+
+msgid "Internet"
+msgstr "인터넷"
+
+msgid "Escritório"
+msgstr "사무실"
+
+msgid "Gráficos"
+msgstr "그래픽스"
+
+msgid "Multimídia"
+msgstr "멀티미디어"
+
+msgid "Jogos"
+msgstr "게임"
+
+msgid "Sistema"
+msgstr "시스템"
+
+msgid "Desenvolvimento"
+msgstr "개발"
+
+msgid "Navegadores"
+msgstr "항해사"
+
+msgid "E-mail"
+msgstr "이메일"
+
+msgid "Armazenamento nas nuvens"
+msgstr "클라우드 스토리지"
+
+msgid "Download"
+msgstr "다운로드"
+
+msgid "Compartilhadores e Torrent"
+msgstr "공유자 및 토렌트"
+
+msgid "Mensageiros e Conferências"
+msgstr "메신저 및 컨퍼런스"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "원격 액세스, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "네트워크 도구"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "뉴스, 피드 및 RSS"
+
+msgid "Suíte Office"
+msgstr "오피스 스위트"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF 뷰어, Epub, 전자책 등"
+
+msgid "Editores de PDF"
+msgstr "PDF 편집자"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "작업 및 연락처 일정"
+
+msgid "Visualizadores de imagem"
+msgstr "이미지 뷰어"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "이미지 편집기 및 그리기 도구"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "스크린샷 (스크린샷)"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "이미지 변환, 크기 조정 또는 압축"
+
+msgid "Edição 3D e CAD"
+msgstr "3D 및 CAD 편집"
+
+msgid "Reprodutores de áudio"
+msgstr "오디오 플레이어"
+
+msgid "Rádio online"
+msgstr "온라인 라디오"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "오디오 레코더 및 컨버터"
+
+msgid "Editores de áudio"
+msgstr "오디오 에디터"
+
+msgid "Reprodutores de vídeo"
+msgstr "비디오 플레이어"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "온라인 비디오, IPTV, 유튜브..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "비디오 편집자 및 압축기"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD 및 DVD 버너 및 복사기"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "웹캠, 화면 녹화 및 비디오 스트리밍"
+
+msgid "Gerenciadores de jogos"
+msgstr "게임 매니저"
+
+msgid "Utilitários para jogos"
+msgstr "게임 유틸리티"
+
+msgid "Emulador Retroarch"
+msgstr "레트로 아치 에뮬레이터"
+
+msgid "Emuladores"
+msgstr "에뮬레이터"
+
+msgid "Criadores de jogos"
+msgstr "게임 크리에이터"
+
+msgid "Ação/Arcade"
+msgstr "액션/아케이드"
+
+msgid "Cartas"
+msgstr "카드"
+
+msgid "Educacional"
+msgstr "교육적"
+
+msgid "Estratégia"
+msgstr "전략"
+
+msgid "Puzzles"
+msgstr "퍼즐"
+
+msgid "Tabuleiro"
+msgstr "트레이"
+
+msgid "RPG"
+msgstr "롤 플레잉"
+
+msgid "Armazenamento e partições"
+msgstr "스토리지 및 파티션"
+
+msgid "Fontes (Tipografia)"
+msgstr "글꼴 (타이포그래피)"
+
+msgid "Java JRE"
+msgstr "자바 JRE"
+
+msgid "Virtualização"
+msgstr "가상화"
+
+msgid "Editores de código e IDE"
+msgstr "코드 에디터 및 IDE"
+
+msgid "Banco de dados"
+msgstr "데이터베이스"
+
+msgid "Servidores WEB"
+msgstr "웹 서버"
+
+msgid "Programas Nativos"
+msgstr "네이티브 프로그램"
+
+msgid "Programas AUR"
+msgstr "AUR 프로그램"
+
+msgid "Programas Flatpak"
+msgstr "플랫팩 프로그램"
+
 msgid "Programas Snap"
 msgstr "스냅 프로그램"
+
+msgid "Editores Vetorial"
+msgstr "벡터 편집기"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "이미지, 사진 및 그리기 편집기"
+
+msgid "Plugins"
+msgstr "플러그인"
+
+msgid "Diagramação e organização de páginas"
+msgstr "페이지의 레이아웃 및 구성"
+
+msgid "Colorização e palheta de cores"
+msgstr "채색 및 색상 팔레트"
+
+msgid "Editores de video"
+msgstr "비디오 편집기"
+
+msgid "Animação e 2D"
+msgstr "애니메이션 및 2D"
+
+msgid "Captura de tela e video download"
+msgstr "스크린 샷 및 비디오 다운로드"
+
+msgid "Stream/transmissão online"
+msgstr "온라인 스트리밍/스트리밍"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "비디오 컨버터 및 CD/DVD 버너"
+
+msgid "Outros"
+msgstr "기타"
+
+msgid "Fechar"
+msgstr "닫기"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "수행"
 
 msgid "Instalando"
 msgstr "설치 중"
 
+msgid "Cancelar"
+msgstr "취소"
+
 msgid "Removendo"
 msgstr "제거"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "패키지:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "사용 가능한 버전:"
 msgid "Licença:"
 msgstr "라이선스:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "리포지토리:"
+
 msgid "AUR"
 msgstr "공기"
 
@@ -579,6 +488,55 @@ msgstr "공기"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "패커:"
+
+msgid "Big-Store está aberta."
+msgstr "대형 매장이 열려 있습니다."
+
+msgid "Big-Store"
+msgstr "빅 스토어"
+
+msgid "Instalado na partição:"
+msgstr "파티션에 설치됨:"
+
+msgid "Tamanho da partição:"
+msgstr "파티션 크기:"
+
+msgid "Espaço utilizado:"
+msgstr "사용된 공간:"
+
+msgid "Espaço livre:"
+msgstr "여유 공간:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "시스템 설치 날짜:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "네이티브 및 AUR 패키지"
+
+msgid "Instalados:"
+msgstr "설치:"
+
+msgid "Disponíveis:"
+msgstr "사용 가능:"
+
+msgid "Pacotes Flatpak"
+msgstr "플랫팩 패키지"
+
+msgid "Repositórios configurados:"
+msgstr "구성된 리포지토리:"
+
+msgid "Pacotes Snap"
+msgstr "스냅 패키지"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "사용 가능한 버전:"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Snap 패키지 설치됨 제거할 패키지를 클릭합니다."
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Snap 프로그램이 시스템 메뉴에 나타나도록 하려면 로그아웃했다가 다시 로그인합니다."
@@ -626,149 +584,44 @@ msgstr "강제 업데이트, 시스템을 업데이트 할 수없는 경우이 �
 msgid "Repositórios nativos"
 msgstr "네이티브 리포지토리"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "설치된 버전:"
+msgid "Categorias"
+msgstr "카테고리"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "스토리지 사용량:"
+msgid "Versão instalada"
+msgstr "설치된 버전"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "다운로드 크기:"
+msgid "Versão disponível"
+msgstr "사용 가능한 버전"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "사이트:"
+msgid "Versão"
+msgstr "버전"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "설치 날짜:"
+msgid "Pacote .deb"
+msgstr ".deb 패키지"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "패키지 파일:"
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "이 프로그램은.deb 형식으로 시스템과 가장 잘 통합됩니다."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "파일을 보려면 여기를 클릭하십시오."
+msgid "Mais informações"
+msgstr "추가 정보"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "재설치"
+msgid "Voltar"
+msgstr "뒤로 가기"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "투표 수 :"
+msgid "Dependências a instalar"
+msgstr "설치할 종속성"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "AUR의 페이지:"
+msgid "Ver mais"
+msgstr "더 보기"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "포장 날짜:"
+msgid "Pacotes com dependências não atendidas: "
+msgstr "종속성이 충족되지 않은 패키지: "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "설치 이유:"
+msgid "Depende de "
+msgstr "그것은에 달려있다 "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "그룹:"
+msgid "mas não vai ser instalado."
+msgstr "하지만 설치되지는 않을 것입니다."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "부가 기능:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "종속성:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "설치 종속성:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "제거:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "재정의:"
+msgid "mas não está disponível"
+msgstr "하지만 사용할 수 없습니다"

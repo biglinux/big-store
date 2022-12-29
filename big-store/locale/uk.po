@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Система"
-
-msgid "Armazenamento e partições"
-msgstr "Зберігання та перегородки"
-
-msgid "Java JRE"
-msgstr "Ява JRE"
-
-msgid "Virtualização"
-msgstr "Віртуалізація"
-
-msgid "Imagem"
-msgstr "Образ"
-
-msgid "Editores Vetorial"
-msgstr "Векторні редактори"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Редактори зображень, фотографій і креслень"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Перетворення, зміна розміру або стиснення зображень"
-
-msgid "Plugins"
-msgstr "Плагіни"
-
-msgid "Edição 3D e CAD"
-msgstr "3D і CAD редагування"
-
-msgid "Fontes (Tipografia)"
-msgstr "Шрифти (Друкарня)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Верстка і організація сторінок"
-
-msgid "Colorização e palheta de cores"
-msgstr "Колоризація і колірна палітра"
-
-msgid "Video"
-msgstr "Відео"
-
-msgid "Editores de video"
-msgstr "Відео редактори"
-
-msgid "Reprodutores de vídeo"
-msgstr "Відео плеєри"
-
-msgid "Animação e 2D"
-msgstr "Анімація та 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Скріншот і завантаження відео"
-
-msgid "Stream/transmissão online"
-msgstr "Транслюйте/транслюйте онлайн"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Відеоконвертери та записувачі CD/DVD"
-
-msgid "Audio"
-msgstr "Аудіо"
-
-msgid "Reprodutores de áudio"
-msgstr "Аудіо плеєри"
-
-msgid "Rádio online"
-msgstr "Онлайн радіо"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Аудіомагнітофони та перетворювачі"
-
-msgid "Editores de áudio"
-msgstr "Аудіо редактори"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Онлайн відео, IPTV, YouTube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Відеоредактори та компресори"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- і DVD пальники і копіювальні пристрої"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Веб-камера, запис на екрані та потокове відео"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Navegadores"
-msgstr "навігаторів"
-
-msgid "E-mail"
-msgstr "Електронна пошта"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Хмарне сховище"
-
-msgid "Download"
-msgstr "Завантажити"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Sharers і торрент"
-
-msgid "Mensageiros e Conferências"
-msgstr "Месенджери та конференції"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Віддалений доступ, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Мережеві інструменти"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Новини, канали та RSS"
-
-msgid "Escritório"
-msgstr "Офіс"
-
-msgid "Suíte Office"
-msgstr "Офісний пакет"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "Переглядачі PDF, Epub, електронні книги тощо"
-
-msgid "Editores de PDF"
-msgstr "PDF-редактори"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Розклад завдань і контактів"
-
-msgid "Gráficos"
-msgstr "графіка"
-
-msgid "Visualizadores de imagem"
-msgstr "Переглядачі зображень"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Графічні редактори та інструменти для малювання"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Скріншот (Знімок екрана"
-
-msgid "Multimídia"
-msgstr "Мультимедіа"
-
-msgid "Jogos"
-msgstr "Ігри"
-
-msgid "Gerenciadores de jogos"
-msgstr "Ігрові менеджери"
-
-msgid "Utilitários para jogos"
-msgstr "Ігрові утиліти"
-
-msgid "Emulador Retroarch"
-msgstr "Ретроарх емулятор"
-
-msgid "Emuladores"
-msgstr "Емулятори"
-
-msgid "Criadores de jogos"
-msgstr "Творці ігор"
-
-msgid "Ação/Arcade"
-msgstr "Екшн/Аркада"
-
-msgid "Cartas"
-msgstr "Картки"
-
-msgid "Educacional"
-msgstr "Навчальні"
-
-msgid "Estratégia"
-msgstr "Стратегія"
-
-msgid "Puzzles"
-msgstr "Пазли"
-
-msgid "Tabuleiro"
-msgstr "Лоток"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Інші"
-
-msgid "Sistema"
-msgstr "система"
-
-msgid "Desenvolvimento"
-msgstr "Розвиток"
-
-msgid "Editores de código e IDE"
-msgstr "Редактори коду та IDE"
-
-msgid "Banco de dados"
-msgstr "База даних"
-
-msgid "Servidores WEB"
-msgstr "WEB-сервери"
-
-msgid "Programas Nativos"
-msgstr "Нативні програми"
-
-msgid "Programas AUR"
-msgstr "Програми AUR"
-
-msgid "Programas Flatpak"
-msgstr "Програми Flatpak"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Прив'язка Пакети Встановлені натисніть на пакет, щоб видалити"
-
-msgid "Cancelar"
-msgstr "Скасувати"
-
-msgid "Fechar"
-msgstr " Закрити"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "Встановити"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Вилучити:"
-
 msgid "Versão: "
 msgstr "Версія: "
 
@@ -317,54 +52,26 @@ msgstr "Не інформований"
 msgid "Atualizar"
 msgstr "оновити"
 
-msgid "Instalado na partição:"
-msgstr "Встановлено на розділ:"
-
-msgid "Tamanho da partição:"
-msgstr "Розмір розділу:"
-
-msgid "Espaço utilizado:"
-msgstr "Використовуваний простір:"
-
-msgid "Espaço livre:"
-msgstr "Вільний простір:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Дата установки системи:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Рідні та AUR пакети"
-
-msgid "Instalados:"
-msgstr "Встановлено:"
-
-msgid "Disponíveis:"
-msgstr "Доступно:"
-
-msgid "Pacotes Flatpak"
-msgstr "Пакети Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Налаштовані сховища:"
-
-msgid "Pacotes Snap"
-msgstr "Прив'язати пакети"
-
-msgid "Big-Store está aberta."
-msgstr "Біг-магазин відкритий."
-
-msgid "Big-Store"
-msgstr "Біг-магазин"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Виконати"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Вилучити:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "Виконати"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Пакет:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Доступна версія:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Сховище:"
-
-msgid "Categorias"
-msgstr "Категорії"
-
-msgid "Versão instalada"
-msgstr "Встановлена версія"
-
-msgid "Versão disponível"
-msgstr "Доступна версія"
-
-msgid "Versão"
-msgstr "Версія"
-
-msgid "Pacote .deb"
-msgstr ".deb пакунок"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Дана програма знаходиться в формате.deb, який має найкращу інтеграцію з системою."
-
-msgid "Mais informações"
-msgstr "Більше інформації"
-
-msgid "Voltar"
-msgstr "Повертатися"
-
-msgid "Dependências a instalar"
-msgstr "Залежності для встановлення"
-
-msgid "Ver mais"
-msgstr "Дивитись більше"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Пакунки з незадоволеними залежностями: "
-
-msgid "Depende de "
-msgstr "Це залежить від "
-
-msgid "mas não vai ser instalado."
-msgstr "але це не буде встановлено."
-
-msgid "mas não está disponível"
-msgstr "але вона недоступна"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "Встановити"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "Старт"
 msgid "Configurações"
 msgstr "Налаштування"
 
+msgid "X-Sistema"
+msgstr "X-Система"
+
+msgid "Imagem"
+msgstr "Образ"
+
+msgid "Video"
+msgstr "Відео"
+
+msgid "Audio"
+msgstr "Аудіо"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Escritório"
+msgstr "Офіс"
+
+msgid "Gráficos"
+msgstr "графіка"
+
+msgid "Multimídia"
+msgstr "Мультимедіа"
+
+msgid "Jogos"
+msgstr "Ігри"
+
+msgid "Sistema"
+msgstr "система"
+
+msgid "Desenvolvimento"
+msgstr "Розвиток"
+
+msgid "Navegadores"
+msgstr "навігаторів"
+
+msgid "E-mail"
+msgstr "Електронна пошта"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Хмарне сховище"
+
+msgid "Download"
+msgstr "Завантажити"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Sharers і торрент"
+
+msgid "Mensageiros e Conferências"
+msgstr "Месенджери та конференції"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Віддалений доступ, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Мережеві інструменти"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Новини, канали та RSS"
+
+msgid "Suíte Office"
+msgstr "Офісний пакет"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "Переглядачі PDF, Epub, електронні книги тощо"
+
+msgid "Editores de PDF"
+msgstr "PDF-редактори"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Розклад завдань і контактів"
+
+msgid "Visualizadores de imagem"
+msgstr "Переглядачі зображень"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Графічні редактори та інструменти для малювання"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Скріншот (Знімок екрана"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Перетворення, зміна розміру або стиснення зображень"
+
+msgid "Edição 3D e CAD"
+msgstr "3D і CAD редагування"
+
+msgid "Reprodutores de áudio"
+msgstr "Аудіо плеєри"
+
+msgid "Rádio online"
+msgstr "Онлайн радіо"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Аудіомагнітофони та перетворювачі"
+
+msgid "Editores de áudio"
+msgstr "Аудіо редактори"
+
+msgid "Reprodutores de vídeo"
+msgstr "Відео плеєри"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Онлайн відео, IPTV, YouTube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Відеоредактори та компресори"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- і DVD пальники і копіювальні пристрої"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Веб-камера, запис на екрані та потокове відео"
+
+msgid "Gerenciadores de jogos"
+msgstr "Ігрові менеджери"
+
+msgid "Utilitários para jogos"
+msgstr "Ігрові утиліти"
+
+msgid "Emulador Retroarch"
+msgstr "Ретроарх емулятор"
+
+msgid "Emuladores"
+msgstr "Емулятори"
+
+msgid "Criadores de jogos"
+msgstr "Творці ігор"
+
+msgid "Ação/Arcade"
+msgstr "Екшн/Аркада"
+
+msgid "Cartas"
+msgstr "Картки"
+
+msgid "Educacional"
+msgstr "Навчальні"
+
+msgid "Estratégia"
+msgstr "Стратегія"
+
+msgid "Puzzles"
+msgstr "Пазли"
+
+msgid "Tabuleiro"
+msgstr "Лоток"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Armazenamento e partições"
+msgstr "Зберігання та перегородки"
+
+msgid "Fontes (Tipografia)"
+msgstr "Шрифти (Друкарня)"
+
+msgid "Java JRE"
+msgstr "Ява JRE"
+
+msgid "Virtualização"
+msgstr "Віртуалізація"
+
+msgid "Editores de código e IDE"
+msgstr "Редактори коду та IDE"
+
+msgid "Banco de dados"
+msgstr "База даних"
+
+msgid "Servidores WEB"
+msgstr "WEB-сервери"
+
+msgid "Programas Nativos"
+msgstr "Нативні програми"
+
+msgid "Programas AUR"
+msgstr "Програми AUR"
+
+msgid "Programas Flatpak"
+msgstr "Програми Flatpak"
+
 msgid "Programas Snap"
 msgstr "Прив'язати програми"
+
+msgid "Editores Vetorial"
+msgstr "Векторні редактори"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Редактори зображень, фотографій і креслень"
+
+msgid "Plugins"
+msgstr "Плагіни"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Верстка і організація сторінок"
+
+msgid "Colorização e palheta de cores"
+msgstr "Колоризація і колірна палітра"
+
+msgid "Editores de video"
+msgstr "Відео редактори"
+
+msgid "Animação e 2D"
+msgstr "Анімація та 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Скріншот і завантаження відео"
+
+msgid "Stream/transmissão online"
+msgstr "Транслюйте/транслюйте онлайн"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Відеоконвертери та записувачі CD/DVD"
+
+msgid "Outros"
+msgstr "Інші"
+
+msgid "Fechar"
+msgstr " Закрити"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Виконати"
 
 msgid "Instalando"
 msgstr "Встановлення"
 
+msgid "Cancelar"
+msgstr "Скасувати"
+
 msgid "Removendo"
 msgstr "Вилучення"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "Пакет:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "Доступна версія:"
 msgid "Licença:"
 msgstr "Ліцензія:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Сховище:"
+
 msgid "AUR"
 msgstr "АУР"
 
@@ -579,6 +488,55 @@ msgstr "АУР"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Пакувальник:"
+
+msgid "Big-Store está aberta."
+msgstr "Біг-магазин відкритий."
+
+msgid "Big-Store"
+msgstr "Біг-магазин"
+
+msgid "Instalado na partição:"
+msgstr "Встановлено на розділ:"
+
+msgid "Tamanho da partição:"
+msgstr "Розмір розділу:"
+
+msgid "Espaço utilizado:"
+msgstr "Використовуваний простір:"
+
+msgid "Espaço livre:"
+msgstr "Вільний простір:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Дата установки системи:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Рідні та AUR пакети"
+
+msgid "Instalados:"
+msgstr "Встановлено:"
+
+msgid "Disponíveis:"
+msgstr "Доступно:"
+
+msgid "Pacotes Flatpak"
+msgstr "Пакети Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Налаштовані сховища:"
+
+msgid "Pacotes Snap"
+msgstr "Прив'язати пакети"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Доступна версія:"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Прив'язка Пакети Встановлені натисніть на пакет, щоб видалити"
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Щоб програми Snap з'явилися в системному меню, вийдіть із системи та знову увійдіть."
@@ -630,149 +588,44 @@ msgstr ""
 msgid "Repositórios nativos"
 msgstr "Рідні репозиторії"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "Встановлена версія:"
+msgid "Categorias"
+msgstr "Категорії"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "Використання сховища:"
+msgid "Versão instalada"
+msgstr "Встановлена версія"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "Розмір завантаження:"
+msgid "Versão disponível"
+msgstr "Доступна версія"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "Сайт:"
+msgid "Versão"
+msgstr "Версія"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "Дата установки:"
+msgid "Pacote .deb"
+msgstr ".deb пакунок"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "Файли пакетів:"
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Дана програма знаходиться в формате.deb, який має найкращу інтеграцію з системою."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "Натисніть тут, щоб переглянути файли"
+msgid "Mais informações"
+msgstr "Більше інформації"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "Перевстановити"
+msgid "Voltar"
+msgstr "Повертатися"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Кількість голосів:"
+msgid "Dependências a instalar"
+msgstr "Залежності для встановлення"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Сторінка в AUR:"
+msgid "Ver mais"
+msgstr "Дивитись більше"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "Дата упаковки:"
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Пакунки з незадоволеними залежностями: "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "Причина установки:"
+msgid "Depende de "
+msgstr "Це залежить від "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "Групи:"
+msgid "mas não vai ser instalado."
+msgstr "але це не буде встановлено."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "Додатки:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "Залежностей:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Залежності від установки:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "Видаляє:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "Заміщення:"
+msgid "mas não está disponível"
+msgstr "але вона недоступна"

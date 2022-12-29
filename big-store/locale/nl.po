@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Systeem"
-
-msgid "Armazenamento e partições"
-msgstr "Opslag en scheidingswanden"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisatie"
-
-msgid "Imagem"
-msgstr "Beeld"
-
-msgid "Editores Vetorial"
-msgstr "Vector-editors"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Beeld-, fotografie- en tekeneditors"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Afbeeldingen converteren, verkleinen of comprimeren"
-
-msgid "Plugins"
-msgstr "Plug-ins"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- en CAD-bewerking"
-
-msgid "Fontes (Tipografia)"
-msgstr "Lettertypen (Typografie)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Lay-out en organisatie van pagina's"
-
-msgid "Colorização e palheta de cores"
-msgstr "Kleuring en kleurenpalet"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Video-editors"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videospelers"
-
-msgid "Animação e 2D"
-msgstr "Animatie en 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Screenshot en video downloaden"
-
-msgid "Stream/transmissão online"
-msgstr "Online streamen/streamen"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videoconverters en cd/dvd-branders"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio spelers"
-
-msgid "Rádio online"
-msgstr "Online radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Geluidsopnemers en converters"
-
-msgid "Editores de áudio"
-msgstr "Audio-editors"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video-editors en compressoren"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- en DVD-recorders en kopieerapparaten"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, schermopname en videostreaming"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Navegadores"
-msgstr "Browsers"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Cloud-opslag"
-
-msgid "Download"
-msgstr "Download"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Sharers en Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Boodschappers en Conferenties"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Toegang op afstand, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Netwerkgereedschappen"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Nieuws, Feeds en RSS"
-
-msgid "Escritório"
-msgstr "Kantoor"
-
-msgid "Suíte Office"
-msgstr "Kantoor-Suite"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, e-book kijkers en meer"
-
-msgid "Editores de PDF"
-msgstr "PDF-redactie"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Kalender van taken en contacten"
-
-msgid "Gráficos"
-msgstr "Graphics"
-
-msgid "Visualizadores de imagem"
-msgstr "Beeldkijkers"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Beeldbewerkers en tekengereedschappen"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Screenshot"
-
-msgid "Multimídia"
-msgstr "Multimedia"
-
-msgid "Jogos"
-msgstr "Spelletjes"
-
-msgid "Gerenciadores de jogos"
-msgstr "Spelleiders"
-
-msgid "Utilitários para jogos"
-msgstr "Spel hulpprogramma's"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch Emulator"
-
-msgid "Emuladores"
-msgstr "Emulators"
-
-msgid "Criadores de jogos"
-msgstr "Spelontwikkelaars"
-
-msgid "Ação/Arcade"
-msgstr "Actie/Arcade"
-
-msgid "Cartas"
-msgstr "Brieven"
-
-msgid "Educacional"
-msgstr "Onderwijs"
-
-msgid "Estratégia"
-msgstr "Strategie"
-
-msgid "Puzzles"
-msgstr "Puzzels"
-
-msgid "Tabuleiro"
-msgstr "Raad"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Andere"
-
-msgid "Sistema"
-msgstr "Systeem"
-
-msgid "Desenvolvimento"
-msgstr "Ontwikkeling"
-
-msgid "Editores de código e IDE"
-msgstr "Code-editors en IDE's"
-
-msgid "Banco de dados"
-msgstr "Database"
-
-msgid "Servidores WEB"
-msgstr "WEB-servers"
-
-msgid "Programas Nativos"
-msgstr "Inheemse programma's"
-
-msgid "Programas AUR"
-msgstr "AUR-programma's"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak programma's"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Geïnstalleerde Snap-pakketten klik op het pakket om het te verwijderen"
-
-msgid "Cancelar"
-msgstr "Annuleren"
-
-msgid "Fechar"
-msgstr "Sluiten"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "Installeer"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Verwijder"
-
 msgid "Versão: "
 msgstr "Versie "
 
@@ -317,54 +52,26 @@ msgstr "Niet op de hoogte"
 msgid "Atualizar"
 msgstr "Bijwerken"
 
-msgid "Instalado na partição:"
-msgstr "Geïnstalleerd op de partitie:"
-
-msgid "Tamanho da partição:"
-msgstr "Partitiegrootte:"
-
-msgid "Espaço utilizado:"
-msgstr "Gebruikte ruimte:"
-
-msgid "Espaço livre:"
-msgstr "Vrije ruimte:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Datum waarop het systeem werd geïnstalleerd:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Native pakketten en AUR"
-
-msgid "Instalados:"
-msgstr "Geïnstalleerd:"
-
-msgid "Disponíveis:"
-msgstr "Beschikbaar:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak pakketten"
-
-msgid "Repositórios configurados:"
-msgstr "Repositories geconfigureerd:"
-
-msgid "Pacotes Snap"
-msgstr "Snap Pakketten"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store is open."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Run"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Verwijder"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "Run"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Pakket:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Beschikbare versie:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Repository:"
-
-msgid "Categorias"
-msgstr "Categorieën"
-
-msgid "Versão instalada"
-msgstr "Geïnstalleerde versie"
-
-msgid "Versão disponível"
-msgstr "Versie beschikbaar"
-
-msgid "Versão"
-msgstr "Versie"
-
-msgid "Pacote .deb"
-msgstr ".deb-pakket"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Dit programma is in .deb formaat, dat de beste integratie met het systeem heeft."
-
-msgid "Mais informações"
-msgstr "Meer informatie"
-
-msgid "Voltar"
-msgstr "Terug"
-
-msgid "Dependências a instalar"
-msgstr "Te installeren afhankelijkheden"
-
-msgid "Ver mais"
-msgstr "Zie meer"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Pakketten met onvervulde afhankelijkheden "
-
-msgid "Depende de "
-msgstr "Het hangt af van "
-
-msgid "mas não vai ser instalado."
-msgstr "maar het zal niet geïnstalleerd worden."
-
-msgid "mas não está disponível"
-msgstr "maar het is niet beschikbaar"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "Installeer"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "Home"
 msgid "Configurações"
 msgstr "Instellingen"
 
+msgid "X-Sistema"
+msgstr "X-Systeem"
+
+msgid "Imagem"
+msgstr "Beeld"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Escritório"
+msgstr "Kantoor"
+
+msgid "Gráficos"
+msgstr "Graphics"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Jogos"
+msgstr "Spelletjes"
+
+msgid "Sistema"
+msgstr "Systeem"
+
+msgid "Desenvolvimento"
+msgstr "Ontwikkeling"
+
+msgid "Navegadores"
+msgstr "Browsers"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Cloud-opslag"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Sharers en Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Boodschappers en Conferenties"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Toegang op afstand, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Netwerkgereedschappen"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Nieuws, Feeds en RSS"
+
+msgid "Suíte Office"
+msgstr "Kantoor-Suite"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub, e-book kijkers en meer"
+
+msgid "Editores de PDF"
+msgstr "PDF-redactie"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Kalender van taken en contacten"
+
+msgid "Visualizadores de imagem"
+msgstr "Beeldkijkers"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Beeldbewerkers en tekengereedschappen"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Screenshot"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Afbeeldingen converteren, verkleinen of comprimeren"
+
+msgid "Edição 3D e CAD"
+msgstr "3D- en CAD-bewerking"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio spelers"
+
+msgid "Rádio online"
+msgstr "Online radio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Geluidsopnemers en converters"
+
+msgid "Editores de áudio"
+msgstr "Audio-editors"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videospelers"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video-editors en compressoren"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- en DVD-recorders en kopieerapparaten"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, schermopname en videostreaming"
+
+msgid "Gerenciadores de jogos"
+msgstr "Spelleiders"
+
+msgid "Utilitários para jogos"
+msgstr "Spel hulpprogramma's"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch Emulator"
+
+msgid "Emuladores"
+msgstr "Emulators"
+
+msgid "Criadores de jogos"
+msgstr "Spelontwikkelaars"
+
+msgid "Ação/Arcade"
+msgstr "Actie/Arcade"
+
+msgid "Cartas"
+msgstr "Brieven"
+
+msgid "Educacional"
+msgstr "Onderwijs"
+
+msgid "Estratégia"
+msgstr "Strategie"
+
+msgid "Puzzles"
+msgstr "Puzzels"
+
+msgid "Tabuleiro"
+msgstr "Raad"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Armazenamento e partições"
+msgstr "Opslag en scheidingswanden"
+
+msgid "Fontes (Tipografia)"
+msgstr "Lettertypen (Typografie)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisatie"
+
+msgid "Editores de código e IDE"
+msgstr "Code-editors en IDE's"
+
+msgid "Banco de dados"
+msgstr "Database"
+
+msgid "Servidores WEB"
+msgstr "WEB-servers"
+
+msgid "Programas Nativos"
+msgstr "Inheemse programma's"
+
+msgid "Programas AUR"
+msgstr "AUR-programma's"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak programma's"
+
 msgid "Programas Snap"
 msgstr "Snap programma's"
+
+msgid "Editores Vetorial"
+msgstr "Vector-editors"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Beeld-, fotografie- en tekeneditors"
+
+msgid "Plugins"
+msgstr "Plug-ins"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Lay-out en organisatie van pagina's"
+
+msgid "Colorização e palheta de cores"
+msgstr "Kleuring en kleurenpalet"
+
+msgid "Editores de video"
+msgstr "Video-editors"
+
+msgid "Animação e 2D"
+msgstr "Animatie en 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Screenshot en video downloaden"
+
+msgid "Stream/transmissão online"
+msgstr "Online streamen/streamen"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Videoconverters en cd/dvd-branders"
+
+msgid "Outros"
+msgstr "Andere"
+
+msgid "Fechar"
+msgstr "Sluiten"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Run"
 
 msgid "Instalando"
 msgstr "Installeren van"
 
+msgid "Cancelar"
+msgstr "Annuleren"
+
 msgid "Removendo"
 msgstr "Verwijderen van"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "Pakket:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "Beschikbare versie:"
 msgid "Licença:"
 msgstr "Licentie:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Repository:"
+
 msgid "AUR"
 msgstr "AUR"
 
@@ -579,6 +488,55 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Verpakker:"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store is open."
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Instalado na partição:"
+msgstr "Geïnstalleerd op de partitie:"
+
+msgid "Tamanho da partição:"
+msgstr "Partitiegrootte:"
+
+msgid "Espaço utilizado:"
+msgstr "Gebruikte ruimte:"
+
+msgid "Espaço livre:"
+msgstr "Vrije ruimte:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Datum waarop het systeem werd geïnstalleerd:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Native pakketten en AUR"
+
+msgid "Instalados:"
+msgstr "Geïnstalleerd:"
+
+msgid "Disponíveis:"
+msgstr "Beschikbaar:"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak pakketten"
+
+msgid "Repositórios configurados:"
+msgstr "Repositories geconfigureerd:"
+
+msgid "Pacotes Snap"
+msgstr "Snap Pakketten"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Beschikbare versie:"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Geïnstalleerde Snap-pakketten klik op het pakket om het te verwijderen"
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Om de Snap programma's in het systeemmenu te laten verschijnen, logt u uit en weer in."
@@ -631,149 +589,44 @@ msgstr ""
 msgid "Repositórios nativos"
 msgstr "Inheemse repositories"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "Geïnstalleerde versie:"
+msgid "Categorias"
+msgstr "Categorieën"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "Opslaggebruik:"
+msgid "Versão instalada"
+msgstr "Geïnstalleerde versie"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "Download grootte:"
+msgid "Versão disponível"
+msgstr "Versie beschikbaar"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "Ligging:"
+msgid "Versão"
+msgstr "Versie"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "Installatiedatum:"
+msgid "Pacote .deb"
+msgstr ".deb-pakket"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "Pakketbestanden:"
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Dit programma is in .deb formaat, dat de beste integratie met het systeem heeft."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "Klik hier om de bestanden te bekijken"
+msgid "Mais informações"
+msgstr "Meer informatie"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "Opnieuw installeren"
+msgid "Voltar"
+msgstr "Terug"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Aantal stemmen:"
+msgid "Dependências a instalar"
+msgstr "Te installeren afhankelijkheden"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Pagina in AUR:"
+msgid "Ver mais"
+msgstr "Zie meer"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "Datum verpakking:"
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Pakketten met onvervulde afhankelijkheden "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "Reden voor installatie:"
+msgid "Depende de "
+msgstr "Het hangt af van "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "Groepen:"
+msgid "mas não vai ser instalado."
+msgstr "maar het zal niet geïnstalleerd worden."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "Add-ons:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "Afhankelijkheden:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Installatie afhankelijkheden:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "Verwijdert:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "Overschrijft:"
+msgid "mas não está disponível"
+msgstr "maar het is niet beschikbaar"

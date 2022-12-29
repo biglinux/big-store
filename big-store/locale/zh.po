@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-系统"
-
-msgid "Armazenamento e partições"
-msgstr "储存和隔断"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "虚拟化"
-
-msgid "Imagem"
-msgstr "图像"
-
-msgid "Editores Vetorial"
-msgstr "矢量编辑器"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "图像、摄影和绘图编辑器"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "转换、调整大小或压缩图像"
-
-msgid "Plugins"
-msgstr "插件"
-
-msgid "Edição 3D e CAD"
-msgstr "3D和CAD编辑"
-
-msgid "Fontes (Tipografia)"
-msgstr "字体(排版)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "页面的布局和组织"
-
-msgid "Colorização e palheta de cores"
-msgstr "着色和调色板"
-
-msgid "Video"
-msgstr "视频"
-
-msgid "Editores de video"
-msgstr "视频编辑器"
-
-msgid "Reprodutores de vídeo"
-msgstr "视频播放器"
-
-msgid "Animação e 2D"
-msgstr "动画和 2D"
-
-msgid "Captura de tela e video download"
-msgstr "屏幕截图和视频下载"
-
-msgid "Stream/transmissão online"
-msgstr "在线流/流"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "视频转换器和 CD/DVD 刻录机"
-
-msgid "Audio"
-msgstr "音频"
-
-msgid "Reprodutores de áudio"
-msgstr "音频播放器"
-
-msgid "Rádio online"
-msgstr "在线广播"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "音频录音机和转换器"
-
-msgid "Editores de áudio"
-msgstr "音频编辑"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "在线视频、IPTV、Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "视频编辑和压缩器"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD和DVD刻录机和复印机"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "网络摄像头、屏幕录制和视频流"
-
-msgid "Internet"
-msgstr "互联网"
-
-msgid "Navegadores"
-msgstr "浏览器"
-
-msgid "E-mail"
-msgstr "电子邮件"
-
-msgid "Armazenamento nas nuvens"
-msgstr "云存储"
-
-msgid "Download"
-msgstr "下载"
-
-msgid "Compartilhadores e Torrent"
-msgstr "分享者和Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "信息员和会议"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "远程访问，FTP，SSH，VNC，RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "网络工具"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "新闻、提要和RSS"
-
-msgid "Escritório"
-msgstr "办公室"
-
-msgid "Suíte Office"
-msgstr "办公套件"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF、Epub、電子書等閱讀器。"
-
-msgid "Editores de PDF"
-msgstr "PDF编辑"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "任务和联系人的日历"
-
-msgid "Gráficos"
-msgstr "图形"
-
-msgid "Visualizadores de imagem"
-msgstr "图片浏览者"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "图像编辑器和绘图工具"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "屏幕截图"
-
-msgid "Multimídia"
-msgstr "多媒体"
-
-msgid "Jogos"
-msgstr "游戏"
-
-msgid "Gerenciadores de jogos"
-msgstr "游戏经理"
-
-msgid "Utilitários para jogos"
-msgstr "游戏实用工具"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch仿真器"
-
-msgid "Emuladores"
-msgstr "仿真器"
-
-msgid "Criadores de jogos"
-msgstr "游戏开发者"
-
-msgid "Ação/Arcade"
-msgstr "动作/街机"
-
-msgid "Cartas"
-msgstr "信件"
-
-msgid "Educacional"
-msgstr "教育性"
-
-msgid "Estratégia"
-msgstr "战略"
-
-msgid "Puzzles"
-msgstr "拼图"
-
-msgid "Tabuleiro"
-msgstr "董事会"
-
-msgid "RPG"
-msgstr "角色扮演"
-
-msgid "Outros"
-msgstr "其他"
-
-msgid "Sistema"
-msgstr "系统"
-
-msgid "Desenvolvimento"
-msgstr "发展"
-
-msgid "Editores de código e IDE"
-msgstr "代码编辑器和IDE"
-
-msgid "Banco de dados"
-msgstr "数据库"
-
-msgid "Servidores WEB"
-msgstr "网络服务器"
-
-msgid "Programas Nativos"
-msgstr "本地方案"
-
-msgid "Programas AUR"
-msgstr "AUR方案"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak程序"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "已安装的Snap软件包，点击要删除的软件包"
-
-msgid "Cancelar"
-msgstr "取消"
-
-msgid "Fechar"
-msgstr "关闭"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "安装"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "移除"
-
 msgid "Versão: "
 msgstr "版本。 "
 
@@ -317,54 +52,26 @@ msgstr "未被告知"
 msgid "Atualizar"
 msgstr "更新"
 
-msgid "Instalado na partição:"
-msgstr "安装在分区上。"
-
-msgid "Tamanho da partição:"
-msgstr "分区大小。"
-
-msgid "Espaço utilizado:"
-msgstr "使用的空间。"
-
-msgid "Espaço livre:"
-msgstr "清理空间。"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "系统安装的日期。"
-
-msgid "Pacotes nativos e AUR"
-msgstr "原生包和AUR"
-
-msgid "Instalados:"
-msgstr "已安装。"
-
-msgid "Disponíveis:"
-msgstr "可用。"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak软件包"
-
-msgid "Repositórios configurados:"
-msgstr "配置的存储库。"
-
-msgid "Pacotes Snap"
-msgstr "啪啪啪套餐"
-
-msgid "Big-Store está aberta."
-msgstr "大卖场开张了。"
-
-msgid "Big-Store"
-msgstr "BigStore"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "运转"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "移除"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "运转"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "包装。"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "可用的版本。"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "存储库。"
-
-msgid "Categorias"
-msgstr "类别"
-
-msgid "Versão instalada"
-msgstr "安装的版本"
-
-msgid "Versão disponível"
-msgstr "现有版本"
-
-msgid "Versão"
-msgstr "版本"
-
-msgid "Pacote .deb"
-msgstr ".deb包"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "这个程序是.deb格式，与系统有最好的整合。"
-
-msgid "Mais informações"
-msgstr "更多信息"
-
-msgid "Voltar"
-msgstr "溯源"
-
-msgid "Dependências a instalar"
-msgstr "需要安装的依赖性"
-
-msgid "Ver mais"
-msgstr "查看更多"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "具有未满足的依赖性的软件包。 "
-
-msgid "Depende de "
-msgstr "这取决于 "
-
-msgid "mas não vai ser instalado."
-msgstr "但它将不会被安装。"
-
-msgid "mas não está disponível"
-msgstr "但它是不存在的"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "安装"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "首页"
 msgid "Configurações"
 msgstr "设置"
 
+msgid "X-Sistema"
+msgstr "X-系统"
+
+msgid "Imagem"
+msgstr "图像"
+
+msgid "Video"
+msgstr "视频"
+
+msgid "Audio"
+msgstr "音频"
+
+msgid "Internet"
+msgstr "互联网"
+
+msgid "Escritório"
+msgstr "办公室"
+
+msgid "Gráficos"
+msgstr "图形"
+
+msgid "Multimídia"
+msgstr "多媒体"
+
+msgid "Jogos"
+msgstr "游戏"
+
+msgid "Sistema"
+msgstr "系统"
+
+msgid "Desenvolvimento"
+msgstr "发展"
+
+msgid "Navegadores"
+msgstr "浏览器"
+
+msgid "E-mail"
+msgstr "电子邮件"
+
+msgid "Armazenamento nas nuvens"
+msgstr "云存储"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Compartilhadores e Torrent"
+msgstr "分享者和Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "信息员和会议"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "远程访问，FTP，SSH，VNC，RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "网络工具"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "新闻、提要和RSS"
+
+msgid "Suíte Office"
+msgstr "办公套件"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF、Epub、電子書等閱讀器。"
+
+msgid "Editores de PDF"
+msgstr "PDF编辑"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "任务和联系人的日历"
+
+msgid "Visualizadores de imagem"
+msgstr "图片浏览者"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "图像编辑器和绘图工具"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "屏幕截图"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "转换、调整大小或压缩图像"
+
+msgid "Edição 3D e CAD"
+msgstr "3D和CAD编辑"
+
+msgid "Reprodutores de áudio"
+msgstr "音频播放器"
+
+msgid "Rádio online"
+msgstr "在线广播"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "音频录音机和转换器"
+
+msgid "Editores de áudio"
+msgstr "音频编辑"
+
+msgid "Reprodutores de vídeo"
+msgstr "视频播放器"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "在线视频、IPTV、Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "视频编辑和压缩器"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD和DVD刻录机和复印机"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "网络摄像头、屏幕录制和视频流"
+
+msgid "Gerenciadores de jogos"
+msgstr "游戏经理"
+
+msgid "Utilitários para jogos"
+msgstr "游戏实用工具"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch仿真器"
+
+msgid "Emuladores"
+msgstr "仿真器"
+
+msgid "Criadores de jogos"
+msgstr "游戏开发者"
+
+msgid "Ação/Arcade"
+msgstr "动作/街机"
+
+msgid "Cartas"
+msgstr "信件"
+
+msgid "Educacional"
+msgstr "教育性"
+
+msgid "Estratégia"
+msgstr "战略"
+
+msgid "Puzzles"
+msgstr "拼图"
+
+msgid "Tabuleiro"
+msgstr "董事会"
+
+msgid "RPG"
+msgstr "角色扮演"
+
+msgid "Armazenamento e partições"
+msgstr "储存和隔断"
+
+msgid "Fontes (Tipografia)"
+msgstr "字体(排版)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "虚拟化"
+
+msgid "Editores de código e IDE"
+msgstr "代码编辑器和IDE"
+
+msgid "Banco de dados"
+msgstr "数据库"
+
+msgid "Servidores WEB"
+msgstr "网络服务器"
+
+msgid "Programas Nativos"
+msgstr "本地方案"
+
+msgid "Programas AUR"
+msgstr "AUR方案"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak程序"
+
 msgid "Programas Snap"
 msgstr "捕捉方案"
+
+msgid "Editores Vetorial"
+msgstr "矢量编辑器"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "图像、摄影和绘图编辑器"
+
+msgid "Plugins"
+msgstr "插件"
+
+msgid "Diagramação e organização de páginas"
+msgstr "页面的布局和组织"
+
+msgid "Colorização e palheta de cores"
+msgstr "着色和调色板"
+
+msgid "Editores de video"
+msgstr "视频编辑器"
+
+msgid "Animação e 2D"
+msgstr "动画和 2D"
+
+msgid "Captura de tela e video download"
+msgstr "屏幕截图和视频下载"
+
+msgid "Stream/transmissão online"
+msgstr "在线流/流"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "视频转换器和 CD/DVD 刻录机"
+
+msgid "Outros"
+msgstr "其他"
+
+msgid "Fechar"
+msgstr "关闭"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "运转"
 
 msgid "Instalando"
 msgstr "安装"
 
+msgid "Cancelar"
+msgstr "取消"
+
 msgid "Removendo"
 msgstr "移除"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "包装。"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "可用的版本。"
 msgid "Licença:"
 msgstr "许可证。"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "存储库。"
+
 msgid "AUR"
 msgstr "AUR"
 
@@ -579,6 +488,55 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "包装工。"
+
+msgid "Big-Store está aberta."
+msgstr "大卖场开张了。"
+
+msgid "Big-Store"
+msgstr "BigStore"
+
+msgid "Instalado na partição:"
+msgstr "安装在分区上。"
+
+msgid "Tamanho da partição:"
+msgstr "分区大小。"
+
+msgid "Espaço utilizado:"
+msgstr "使用的空间。"
+
+msgid "Espaço livre:"
+msgstr "清理空间。"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "系统安装的日期。"
+
+msgid "Pacotes nativos e AUR"
+msgstr "原生包和AUR"
+
+msgid "Instalados:"
+msgstr "已安装。"
+
+msgid "Disponíveis:"
+msgstr "可用。"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak软件包"
+
+msgid "Repositórios configurados:"
+msgstr "配置的存储库。"
+
+msgid "Pacotes Snap"
+msgstr "啪啪啪套餐"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "可用的版本。"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "已安装的Snap软件包，点击要删除的软件包"
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "为了使 \"快照 \"程序出现在系统菜单中，请退出并重新登录。"
@@ -626,149 +584,44 @@ msgstr "强制更新，如果你无法更新系统，就使用这个选项，然
 msgid "Repositórios nativos"
 msgstr "本地存储库"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "安装的版本："
+msgid "Categorias"
+msgstr "类别"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "存储用法："
+msgid "Versão instalada"
+msgstr "安装的版本"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "下载大小："
+msgid "Versão disponível"
+msgstr "现有版本"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "网站："
+msgid "Versão"
+msgstr "版本"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "安装日期："
+msgid "Pacote .deb"
+msgstr ".deb包"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "软件包文件："
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "这个程序是.deb格式，与系统有最好的整合。"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "单击此处查看文件"
+msgid "Mais informações"
+msgstr "更多信息"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "安装"
+msgid "Voltar"
+msgstr "溯源"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "票数："
+msgid "Dependências a instalar"
+msgstr "需要安装的依赖性"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "AUR 中的页面："
+msgid "Ver mais"
+msgstr "查看更多"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "包装日期："
+msgid "Pacotes com dependências não atendidas: "
+msgstr "具有未满足的依赖性的软件包。 "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "安装原因："
+msgid "Depende de "
+msgstr "这取决于 "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "组："
+msgid "mas não vai ser instalado."
+msgstr "但它将不会被安装。"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "附加组件："
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "依赖："
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "安装依赖关系："
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "删除："
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "重写："
+msgid "mas não está disponível"
+msgstr "但它是不存在的"

@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-System"
-
-msgid "Armazenamento e partições"
-msgstr "Lagring og partisjoner"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisering"
-
-msgid "Imagem"
-msgstr "Bilde"
-
-msgid "Editores Vetorial"
-msgstr "Vector Redaktører"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Bilder, fotografering og tegning redaktører"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Konvertere, endre størrelse på eller komprimere bilder"
-
-msgid "Plugins"
-msgstr "Plugin-moduler"
-
-msgid "Edição 3D e CAD"
-msgstr "3D og CAD-redigering"
-
-msgid "Fontes (Tipografia)"
-msgstr "Skrifter (Typografi)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Oppsett og organisering av sider"
-
-msgid "Colorização e palheta de cores"
-msgstr "Fargelegging og fargepalett"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Videoredigerere"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videospillere"
-
-msgid "Animação e 2D"
-msgstr "Animasjon og 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Skjermbilde og videonedlasting"
-
-msgid "Stream/transmissão online"
-msgstr "Strøm/strøm på nettet"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videoomformere og CD/DVD-brennere"
-
-msgid "Audio"
-msgstr "Lyd"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio spillere"
-
-msgid "Rádio online"
-msgstr "Online radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Lydopptakere og omformere"
-
-msgid "Editores de áudio"
-msgstr "Audio redaktører"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, YouTube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoredigerere og kompressorer"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- og DVD-brennere og kopimaskiner"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webkamera, skjermopptak og videostreaming"
-
-msgid "Internet"
-msgstr "Internett"
-
-msgid "Navegadores"
-msgstr "navigatører"
-
-msgid "E-mail"
-msgstr "Epost"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Skylagring"
-
-msgid "Download"
-msgstr "Last ned"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Delere og Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Budbringere og konferanser"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Fjerntilgang, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Nettverksverktøy"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Nyheter, Feeds og RSS"
-
-msgid "Escritório"
-msgstr "Kontor"
-
-msgid "Suíte Office"
-msgstr "Kontor-suite"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF-seere, Epub, e-bøker og mer"
-
-msgid "Editores de PDF"
-msgstr "PDF-redaktører"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Oppgave og kontakt tidsplan"
-
-msgid "Gráficos"
-msgstr "grafikk"
-
-msgid "Visualizadores de imagem"
-msgstr "Bildevisere"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Bilde redaktører og tegneverktøy"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Skjermbilde (skjermbilde)"
-
-msgid "Multimídia"
-msgstr "Multimedia"
-
-msgid "Jogos"
-msgstr "Spill"
-
-msgid "Gerenciadores de jogos"
-msgstr "Spill ledere"
-
-msgid "Utilitários para jogos"
-msgstr "Spill verktøy"
-
-msgid "Emulador Retroarch"
-msgstr "Retroark emulator"
-
-msgid "Emuladores"
-msgstr "Emulatorer"
-
-msgid "Criadores de jogos"
-msgstr "Spillskapere"
-
-msgid "Ação/Arcade"
-msgstr "Handling/Arcade"
-
-msgid "Cartas"
-msgstr "Kort"
-
-msgid "Educacional"
-msgstr "pedagogisk"
-
-msgid "Estratégia"
-msgstr "strategi"
-
-msgid "Puzzles"
-msgstr "gåter"
-
-msgid "Tabuleiro"
-msgstr "skuff"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Annet"
-
-msgid "Sistema"
-msgstr "Systemet"
-
-msgid "Desenvolvimento"
-msgstr "Utvikling"
-
-msgid "Editores de código e IDE"
-msgstr "Kode redaktører og IDE"
-
-msgid "Banco de dados"
-msgstr "database"
-
-msgid "Servidores WEB"
-msgstr "WEB-servere"
-
-msgid "Programas Nativos"
-msgstr "Innfødte programmer"
-
-msgid "Programas AUR"
-msgstr "AUR-programmer"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak-programmer"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Snap Pakker Installert Klikk på pakken for å fjerne"
-
-msgid "Cancelar"
-msgstr "Avbryt"
-
-msgid "Fechar"
-msgstr "Lukk"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "Installer"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Fjern"
-
 msgid "Versão: "
 msgstr "Versjon: "
 
@@ -317,54 +52,26 @@ msgstr "Ikke informert"
 msgid "Atualizar"
 msgstr "oppdatering"
 
-msgid "Instalado na partição:"
-msgstr "Installert på partisjonen:"
-
-msgid "Tamanho da partição:"
-msgstr "Partisjon størrelse:"
-
-msgid "Espaço utilizado:"
-msgstr "Plass brukt:"
-
-msgid "Espaço livre:"
-msgstr "Ledig plass:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Dato systemet ble installert:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Innfødte og AUR-pakker"
-
-msgid "Instalados:"
-msgstr "Installert:"
-
-msgid "Disponíveis:"
-msgstr "Tilgjengelig:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak-pakker"
-
-msgid "Repositórios configurados:"
-msgstr "Konfigurerte repositories:"
-
-msgid "Pacotes Snap"
-msgstr "Snap-pakker"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store er åpen."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Utføre"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Fjern"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "Utføre"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Pakke:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Tilgjengelig versjon:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Oppbevaringssted:"
-
-msgid "Categorias"
-msgstr "Kategorier"
-
-msgid "Versão instalada"
-msgstr "Installert versjon"
-
-msgid "Versão disponível"
-msgstr "Tilgjengelig versjon"
-
-msgid "Versão"
-msgstr "Versjon"
-
-msgid "Pacote .deb"
-msgstr ".deb pakke"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Dette programmet er i .deb-format, som har den beste integrasjonen med systemet."
-
-msgid "Mais informações"
-msgstr "Mer informasjon"
-
-msgid "Voltar"
-msgstr "Gå tilbake"
-
-msgid "Dependências a instalar"
-msgstr "Avhengigheter å installere"
-
-msgid "Ver mais"
-msgstr "Se mer"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Pakker med uoppfylte avhengigheter: "
-
-msgid "Depende de "
-msgstr "Det kommer an på "
-
-msgid "mas não vai ser instalado."
-msgstr "men det kommer ikke til å bli installert."
-
-msgid "mas não está disponível"
-msgstr "men det er ikke tilgjengelig"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "Installer"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "Start"
 msgid "Configurações"
 msgstr "Innstillinger"
 
+msgid "X-Sistema"
+msgstr "X-System"
+
+msgid "Imagem"
+msgstr "Bilde"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Lyd"
+
+msgid "Internet"
+msgstr "Internett"
+
+msgid "Escritório"
+msgstr "Kontor"
+
+msgid "Gráficos"
+msgstr "grafikk"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Jogos"
+msgstr "Spill"
+
+msgid "Sistema"
+msgstr "Systemet"
+
+msgid "Desenvolvimento"
+msgstr "Utvikling"
+
+msgid "Navegadores"
+msgstr "navigatører"
+
+msgid "E-mail"
+msgstr "Epost"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Skylagring"
+
+msgid "Download"
+msgstr "Last ned"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Delere og Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Budbringere og konferanser"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Fjerntilgang, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Nettverksverktøy"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Nyheter, Feeds og RSS"
+
+msgid "Suíte Office"
+msgstr "Kontor-suite"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF-seere, Epub, e-bøker og mer"
+
+msgid "Editores de PDF"
+msgstr "PDF-redaktører"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Oppgave og kontakt tidsplan"
+
+msgid "Visualizadores de imagem"
+msgstr "Bildevisere"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Bilde redaktører og tegneverktøy"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Skjermbilde (skjermbilde)"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konvertere, endre størrelse på eller komprimere bilder"
+
+msgid "Edição 3D e CAD"
+msgstr "3D og CAD-redigering"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio spillere"
+
+msgid "Rádio online"
+msgstr "Online radio"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Lydopptakere og omformere"
+
+msgid "Editores de áudio"
+msgstr "Audio redaktører"
+
+msgid "Reprodutores de vídeo"
+msgstr "Videospillere"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, YouTube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videoredigerere og kompressorer"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD- og DVD-brennere og kopimaskiner"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, skjermopptak og videostreaming"
+
+msgid "Gerenciadores de jogos"
+msgstr "Spill ledere"
+
+msgid "Utilitários para jogos"
+msgstr "Spill verktøy"
+
+msgid "Emulador Retroarch"
+msgstr "Retroark emulator"
+
+msgid "Emuladores"
+msgstr "Emulatorer"
+
+msgid "Criadores de jogos"
+msgstr "Spillskapere"
+
+msgid "Ação/Arcade"
+msgstr "Handling/Arcade"
+
+msgid "Cartas"
+msgstr "Kort"
+
+msgid "Educacional"
+msgstr "pedagogisk"
+
+msgid "Estratégia"
+msgstr "strategi"
+
+msgid "Puzzles"
+msgstr "gåter"
+
+msgid "Tabuleiro"
+msgstr "skuff"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Armazenamento e partições"
+msgstr "Lagring og partisjoner"
+
+msgid "Fontes (Tipografia)"
+msgstr "Skrifter (Typografi)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualisering"
+
+msgid "Editores de código e IDE"
+msgstr "Kode redaktører og IDE"
+
+msgid "Banco de dados"
+msgstr "database"
+
+msgid "Servidores WEB"
+msgstr "WEB-servere"
+
+msgid "Programas Nativos"
+msgstr "Innfødte programmer"
+
+msgid "Programas AUR"
+msgstr "AUR-programmer"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak-programmer"
+
 msgid "Programas Snap"
 msgstr "Snap-programmer"
+
+msgid "Editores Vetorial"
+msgstr "Vector Redaktører"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Bilder, fotografering og tegning redaktører"
+
+msgid "Plugins"
+msgstr "Plugin-moduler"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Oppsett og organisering av sider"
+
+msgid "Colorização e palheta de cores"
+msgstr "Fargelegging og fargepalett"
+
+msgid "Editores de video"
+msgstr "Videoredigerere"
+
+msgid "Animação e 2D"
+msgstr "Animasjon og 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Skjermbilde og videonedlasting"
+
+msgid "Stream/transmissão online"
+msgstr "Strøm/strøm på nettet"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Videoomformere og CD/DVD-brennere"
+
+msgid "Outros"
+msgstr "Annet"
+
+msgid "Fechar"
+msgstr "Lukk"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Utføre"
 
 msgid "Instalando"
 msgstr "Installere"
 
+msgid "Cancelar"
+msgstr "Avbryt"
+
 msgid "Removendo"
 msgstr "Fjerner"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "Pakke:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "Tilgjengelig versjon:"
 msgid "Licença:"
 msgstr "Lisens:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Oppbevaringssted:"
+
 msgid "AUR"
 msgstr "AUR"
 
@@ -579,6 +488,55 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Pakker:"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store er åpen."
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Instalado na partição:"
+msgstr "Installert på partisjonen:"
+
+msgid "Tamanho da partição:"
+msgstr "Partisjon størrelse:"
+
+msgid "Espaço utilizado:"
+msgstr "Plass brukt:"
+
+msgid "Espaço livre:"
+msgstr "Ledig plass:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Dato systemet ble installert:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Innfødte og AUR-pakker"
+
+msgid "Instalados:"
+msgstr "Installert:"
+
+msgid "Disponíveis:"
+msgstr "Tilgjengelig:"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak-pakker"
+
+msgid "Repositórios configurados:"
+msgstr "Konfigurerte repositories:"
+
+msgid "Pacotes Snap"
+msgstr "Snap-pakker"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Tilgjengelig versjon:"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Snap Pakker Installert Klikk på pakken for å fjerne"
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "For at Snap-programmer skal vises i systemmenyen, logger du av og logger på igjen."
@@ -630,149 +588,44 @@ msgstr ""
 msgid "Repositórios nativos"
 msgstr "Innfødte depoter"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "Installert versjon:"
+msgid "Categorias"
+msgstr "Kategorier"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "Bruk av lagringsplass:"
+msgid "Versão instalada"
+msgstr "Installert versjon"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "Nedlastingsstørrelse:"
+msgid "Versão disponível"
+msgstr "Tilgjengelig versjon"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "Tomt:"
+msgid "Versão"
+msgstr "Versjon"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "Installasjonsdato:"
+msgid "Pacote .deb"
+msgstr ".deb pakke"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "Pakkefiler:"
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Dette programmet er i .deb-format, som har den beste integrasjonen med systemet."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "Klikk her for å se filene"
+msgid "Mais informações"
+msgstr "Mer informasjon"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "Installere"
+msgid "Voltar"
+msgstr "Gå tilbake"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Antall stemmer:"
+msgid "Dependências a instalar"
+msgstr "Avhengigheter å installere"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Side i AUR:"
+msgid "Ver mais"
+msgstr "Se mer"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "Emballasje dato:"
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Pakker med uoppfylte avhengigheter: "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "Årsak til installasjon:"
+msgid "Depende de "
+msgstr "Det kommer an på "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "Grupper:"
+msgid "mas não vai ser instalado."
+msgstr "men det kommer ikke til å bli installert."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "Tillegg:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "Avhengigheter:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Avhengigheter for installasjon:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "Fjerner:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "Overstyrer:"
+msgid "mas não está disponível"
+msgstr "men det er ikke tilgjengelig"

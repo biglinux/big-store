@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-システム"
-
-msgid "Armazenamento e partições"
-msgstr "収納・仕切り"
-
-msgid "Java JRE"
-msgstr "ジャバ JRE"
-
-msgid "Virtualização"
-msgstr "仮想化"
-
-msgid "Imagem"
-msgstr "画像"
-
-msgid "Editores Vetorial"
-msgstr "ベクターエディタ"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "画像、写真、描画編集者"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "画像の変換、リサイズ、圧縮"
-
-msgid "Plugins"
-msgstr "プラグイン"
-
-msgid "Edição 3D e CAD"
-msgstr "3D・CAD編集"
-
-msgid "Fontes (Tipografia)"
-msgstr "フォント（タイポグラフィ）"
-
-msgid "Diagramação e organização de páginas"
-msgstr "ページのレイアウトと構成"
-
-msgid "Colorização e palheta de cores"
-msgstr "カラー化とカラーパレット"
-
-msgid "Video"
-msgstr "ビデオ"
-
-msgid "Editores de video"
-msgstr "ビデオエディタ"
-
-msgid "Reprodutores de vídeo"
-msgstr "ビデオプレーヤー"
-
-msgid "Animação e 2D"
-msgstr "アニメーションと 2D"
-
-msgid "Captura de tela e video download"
-msgstr "スクリーンショットとビデオのダウンロード"
-
-msgid "Stream/transmissão online"
-msgstr "ストリーム/オンラインストリーミング"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "ビデオコンバータとCD / DVDバーナー"
-
-msgid "Audio"
-msgstr "オーディオ"
-
-msgid "Reprodutores de áudio"
-msgstr "オーディオプレーヤー"
-
-msgid "Rádio online"
-msgstr "オンラインラジオ"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "オーディオレコーダー、コンバーター"
-
-msgid "Editores de áudio"
-msgstr "オーディオ編集者"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "オンラインビデオ、IPTV、Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "ビデオエディターとコンプレッサー"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD・DVDレコーダー、コピー機"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
-
-msgid "Internet"
-msgstr "インターネット"
-
-msgid "Navegadores"
-msgstr "ブラウザー"
-
-msgid "E-mail"
-msgstr "電子メール"
-
-msgid "Armazenamento nas nuvens"
-msgstr "クラウドストレージ"
-
-msgid "Download"
-msgstr "ダウンロード"
-
-msgid "Compartilhadores e Torrent"
-msgstr "シェアリングとトレント"
-
-msgid "Mensageiros e Conferências"
-msgstr "メッセンジャーとコンファレンス"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "リモートアクセス、FTP、SSH、VNC、RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "ネットワークツール"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "ニュース、フィード、RSS"
-
-msgid "Escritório"
-msgstr "オフィス"
-
-msgid "Suíte Office"
-msgstr "オフィススイート"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF、Epub、電子書籍ビューアなど"
-
-msgid "Editores de PDF"
-msgstr "PDFエディター"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "タスクと連絡先のカレンダー"
-
-msgid "Gráficos"
-msgstr "グラフィック"
-
-msgid "Visualizadores de imagem"
-msgstr "画像ビューアー"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "イメージエディターとドローイングツール"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "スクリーンショット"
-
-msgid "Multimídia"
-msgstr "マルチメディア"
-
-msgid "Jogos"
-msgstr "ゲーム"
-
-msgid "Gerenciadores de jogos"
-msgstr "ゲーム担当者"
-
-msgid "Utilitários para jogos"
-msgstr "ゲームユーティリティ"
-
-msgid "Emulador Retroarch"
-msgstr "レトロアーキエミュレータ"
-
-msgid "Emuladores"
-msgstr "エミュレータ"
-
-msgid "Criadores de jogos"
-msgstr "ゲーム開発者"
-
-msgid "Ação/Arcade"
-msgstr "アクション/アーケード"
-
-msgid "Cartas"
-msgstr "手紙"
-
-msgid "Educacional"
-msgstr "教育的"
-
-msgid "Estratégia"
-msgstr "戦略"
-
-msgid "Puzzles"
-msgstr "パズル"
-
-msgid "Tabuleiro"
-msgstr "ボード"
-
-msgid "RPG"
-msgstr "ロールプレイングゲーム"
-
-msgid "Outros"
-msgstr "その他"
-
-msgid "Sistema"
-msgstr "システム"
-
-msgid "Desenvolvimento"
-msgstr "開発"
-
-msgid "Editores de código e IDE"
-msgstr "コードエディターとIDE"
-
-msgid "Banco de dados"
-msgstr "データベース"
-
-msgid "Servidores WEB"
-msgstr "WEBサーバー"
-
-msgid "Programas Nativos"
-msgstr "ネイティブプログラム"
-
-msgid "Programas AUR"
-msgstr "AURプログラム"
-
-msgid "Programas Flatpak"
-msgstr "Flatpakプログラム"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "インストールされているスナップパッケージ 削除するパッケージをクリックする"
-
-msgid "Cancelar"
-msgstr "キャンセル"
-
-msgid "Fechar"
-msgstr "閉じる"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "インストール"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "削除"
-
 msgid "Versão: "
 msgstr "バージョン "
 
@@ -317,54 +52,26 @@ msgstr "非通知"
 msgid "Atualizar"
 msgstr "更新情報"
 
-msgid "Instalado na partição:"
-msgstr "パーティションにインストールされています。"
-
-msgid "Tamanho da partição:"
-msgstr "パーティションサイズ。"
-
-msgid "Espaço utilizado:"
-msgstr "使用するスペース"
-
-msgid "Espaço livre:"
-msgstr "空間をクリアにする。"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "システムがインストールされた日付。"
-
-msgid "Pacotes nativos e AUR"
-msgstr "ネイティブパッケージとAUR"
-
-msgid "Instalados:"
-msgstr "インストールされています。"
-
-msgid "Disponíveis:"
-msgstr "利用可能です。"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak パッケージ"
-
-msgid "Repositórios configurados:"
-msgstr "リポジトリが設定されました。"
-
-msgid "Pacotes Snap"
-msgstr "スナップパッケージ"
-
-msgid "Big-Store está aberta."
-msgstr "ビッグストアがオープンしました。"
-
-msgid "Big-Store"
-msgstr "ビッグストア"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "実行"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "削除"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "実行"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "パッケージ"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "バージョンあり。"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "リポジトリです。"
-
-msgid "Categorias"
-msgstr "カテゴリー"
-
-msgid "Versão instalada"
-msgstr "インストールされているバージョン"
-
-msgid "Versão disponível"
-msgstr "使用可能なバージョン"
-
-msgid "Versão"
-msgstr "バージョン"
-
-msgid "Pacote .deb"
-msgstr ".debパッケージ"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "本プログラムは、システムとの連携が最も優れている.deb形式を採用しています。"
-
-msgid "Mais informações"
-msgstr "詳細はこちら"
-
-msgid "Voltar"
-msgstr "背面"
-
-msgid "Dependências a instalar"
-msgstr "インストールする依存関係"
-
-msgid "Ver mais"
-msgstr "もっと見る"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "依存関係が満たされていないパッケージ。 "
-
-msgid "Depende de "
-msgstr "に依存します。 "
-
-msgid "mas não vai ser instalado."
-msgstr "が、インストールされません。"
-
-msgid "mas não está disponível"
-msgstr "が、利用できない"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "インストール"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "ホーム"
 msgid "Configurações"
 msgstr "設定"
 
+msgid "X-Sistema"
+msgstr "X-システム"
+
+msgid "Imagem"
+msgstr "画像"
+
+msgid "Video"
+msgstr "ビデオ"
+
+msgid "Audio"
+msgstr "オーディオ"
+
+msgid "Internet"
+msgstr "インターネット"
+
+msgid "Escritório"
+msgstr "オフィス"
+
+msgid "Gráficos"
+msgstr "グラフィック"
+
+msgid "Multimídia"
+msgstr "マルチメディア"
+
+msgid "Jogos"
+msgstr "ゲーム"
+
+msgid "Sistema"
+msgstr "システム"
+
+msgid "Desenvolvimento"
+msgstr "開発"
+
+msgid "Navegadores"
+msgstr "ブラウザー"
+
+msgid "E-mail"
+msgstr "電子メール"
+
+msgid "Armazenamento nas nuvens"
+msgstr "クラウドストレージ"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Compartilhadores e Torrent"
+msgstr "シェアリングとトレント"
+
+msgid "Mensageiros e Conferências"
+msgstr "メッセンジャーとコンファレンス"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "リモートアクセス、FTP、SSH、VNC、RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "ネットワークツール"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "ニュース、フィード、RSS"
+
+msgid "Suíte Office"
+msgstr "オフィススイート"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF、Epub、電子書籍ビューアなど"
+
+msgid "Editores de PDF"
+msgstr "PDFエディター"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "タスクと連絡先のカレンダー"
+
+msgid "Visualizadores de imagem"
+msgstr "画像ビューアー"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "イメージエディターとドローイングツール"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "スクリーンショット"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "画像の変換、リサイズ、圧縮"
+
+msgid "Edição 3D e CAD"
+msgstr "3D・CAD編集"
+
+msgid "Reprodutores de áudio"
+msgstr "オーディオプレーヤー"
+
+msgid "Rádio online"
+msgstr "オンラインラジオ"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "オーディオレコーダー、コンバーター"
+
+msgid "Editores de áudio"
+msgstr "オーディオ編集者"
+
+msgid "Reprodutores de vídeo"
+msgstr "ビデオプレーヤー"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "オンラインビデオ、IPTV、Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "ビデオエディターとコンプレッサー"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD・DVDレコーダー、コピー機"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
+
+msgid "Gerenciadores de jogos"
+msgstr "ゲーム担当者"
+
+msgid "Utilitários para jogos"
+msgstr "ゲームユーティリティ"
+
+msgid "Emulador Retroarch"
+msgstr "レトロアーキエミュレータ"
+
+msgid "Emuladores"
+msgstr "エミュレータ"
+
+msgid "Criadores de jogos"
+msgstr "ゲーム開発者"
+
+msgid "Ação/Arcade"
+msgstr "アクション/アーケード"
+
+msgid "Cartas"
+msgstr "手紙"
+
+msgid "Educacional"
+msgstr "教育的"
+
+msgid "Estratégia"
+msgstr "戦略"
+
+msgid "Puzzles"
+msgstr "パズル"
+
+msgid "Tabuleiro"
+msgstr "ボード"
+
+msgid "RPG"
+msgstr "ロールプレイングゲーム"
+
+msgid "Armazenamento e partições"
+msgstr "収納・仕切り"
+
+msgid "Fontes (Tipografia)"
+msgstr "フォント（タイポグラフィ）"
+
+msgid "Java JRE"
+msgstr "ジャバ JRE"
+
+msgid "Virtualização"
+msgstr "仮想化"
+
+msgid "Editores de código e IDE"
+msgstr "コードエディターとIDE"
+
+msgid "Banco de dados"
+msgstr "データベース"
+
+msgid "Servidores WEB"
+msgstr "WEBサーバー"
+
+msgid "Programas Nativos"
+msgstr "ネイティブプログラム"
+
+msgid "Programas AUR"
+msgstr "AURプログラム"
+
+msgid "Programas Flatpak"
+msgstr "Flatpakプログラム"
+
 msgid "Programas Snap"
 msgstr "スナップ・プログラム"
+
+msgid "Editores Vetorial"
+msgstr "ベクターエディタ"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "画像、写真、描画編集者"
+
+msgid "Plugins"
+msgstr "プラグイン"
+
+msgid "Diagramação e organização de páginas"
+msgstr "ページのレイアウトと構成"
+
+msgid "Colorização e palheta de cores"
+msgstr "カラー化とカラーパレット"
+
+msgid "Editores de video"
+msgstr "ビデオエディタ"
+
+msgid "Animação e 2D"
+msgstr "アニメーションと 2D"
+
+msgid "Captura de tela e video download"
+msgstr "スクリーンショットとビデオのダウンロード"
+
+msgid "Stream/transmissão online"
+msgstr "ストリーム/オンラインストリーミング"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "ビデオコンバータとCD / DVDバーナー"
+
+msgid "Outros"
+msgstr "その他"
+
+msgid "Fechar"
+msgstr "閉じる"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "実行"
 
 msgid "Instalando"
 msgstr "インストール"
 
+msgid "Cancelar"
+msgstr "キャンセル"
+
 msgid "Removendo"
 msgstr "削除"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "パッケージ"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "バージョンあり。"
 msgid "Licença:"
 msgstr "ライセンス"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "リポジトリです。"
+
 msgid "AUR"
 msgstr "かどうりつ"
 
@@ -579,6 +488,55 @@ msgstr "かどうりつ"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "パッカー"
+
+msgid "Big-Store está aberta."
+msgstr "ビッグストアがオープンしました。"
+
+msgid "Big-Store"
+msgstr "ビッグストア"
+
+msgid "Instalado na partição:"
+msgstr "パーティションにインストールされています。"
+
+msgid "Tamanho da partição:"
+msgstr "パーティションサイズ。"
+
+msgid "Espaço utilizado:"
+msgstr "使用するスペース"
+
+msgid "Espaço livre:"
+msgstr "空間をクリアにする。"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "システムがインストールされた日付。"
+
+msgid "Pacotes nativos e AUR"
+msgstr "ネイティブパッケージとAUR"
+
+msgid "Instalados:"
+msgstr "インストールされています。"
+
+msgid "Disponíveis:"
+msgstr "利用可能です。"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak パッケージ"
+
+msgid "Repositórios configurados:"
+msgstr "リポジトリが設定されました。"
+
+msgid "Pacotes Snap"
+msgstr "スナップパッケージ"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "バージョンあり。"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "インストールされているスナップパッケージ 削除するパッケージをクリックする"
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "システムメニューにSnapプログラムを表示するには、一度ログアウトし、再度ログインしてください。"
@@ -628,149 +586,44 @@ msgstr "強制アップデートは、システムのアップデートができ
 msgid "Repositórios nativos"
 msgstr "ネイティブレポジトリ"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "インストールされているバージョン:"
+msgid "Categorias"
+msgstr "カテゴリー"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "ストレージ使用量:"
+msgid "Versão instalada"
+msgstr "インストールされているバージョン"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "ダウンロードサイズ:"
+msgid "Versão disponível"
+msgstr "使用可能なバージョン"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "敷地："
+msgid "Versão"
+msgstr "バージョン"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "インストール日:"
+msgid "Pacote .deb"
+msgstr ".debパッケージ"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "パッケージファイル:"
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "本プログラムは、システムとの連携が最も優れている.deb形式を採用しています。"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "ファイルを見るにはここをクリックしてください"
+msgid "Mais informações"
+msgstr "詳細はこちら"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "再"
+msgid "Voltar"
+msgstr "背面"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "投票数:"
+msgid "Dependências a instalar"
+msgstr "インストールする依存関係"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "AUR のページ:"
+msgid "Ver mais"
+msgstr "もっと見る"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "包装日:"
+msgid "Pacotes com dependências não atendidas: "
+msgstr "依存関係が満たされていないパッケージ。 "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "インストールの理由:"
+msgid "Depende de "
+msgstr "に依存します。 "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "グループ："
+msgid "mas não vai ser instalado."
+msgstr "が、インストールされません。"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "アドオン:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "依存 関係："
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "インストールの依存関係:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "削除："
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "オーバーライド："
+msgid "mas não está disponível"
+msgstr "が、利用できない"

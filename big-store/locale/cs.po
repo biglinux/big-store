@@ -23,271 +23,6 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
-msgid "X-Sistema"
-msgstr "X-Systém"
-
-msgid "Armazenamento e partições"
-msgstr "Úložiště a oddíly"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizace"
-
-msgid "Imagem"
-msgstr "Obraz"
-
-msgid "Editores Vetorial"
-msgstr "Vektorové editory"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Editory obrázků, fotografií a kreseb"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Převod, změna velikosti nebo komprese obrázků"
-
-msgid "Plugins"
-msgstr "Pluginy"
-
-msgid "Edição 3D e CAD"
-msgstr "Úpravy 3D a CAD"
-
-msgid "Fontes (Tipografia)"
-msgstr "Písma (typografie)"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Rozvržení a uspořádání stránek"
-
-msgid "Colorização e palheta de cores"
-msgstr "Kolorování a paleta barev"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Editores de video"
-msgstr "Editory videa"
-
-msgid "Reprodutores de vídeo"
-msgstr "Přehrávače videa"
-
-msgid "Animação e 2D"
-msgstr "Animace a 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Stažení snímku obrazovky a videa"
-
-msgid "Stream/transmissão online"
-msgstr "Streamujte/streamujte online"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Video konvertory a CD/DVD vypalovačky"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Reprodutores de áudio"
-msgstr "Zvukové přehrávače"
-
-msgid "Rádio online"
-msgstr "Rádio online"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Zvukové rekordéry a převodníky"
-
-msgid "Editores de áudio"
-msgstr "Editory zvuku"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Střihače videa a kompresory"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Rekordéry a kopírky CD a DVD"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webová kamera, nahrávání obrazovky a streamování videa"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Navegadores"
-msgstr "Prohlížeče"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Cloudové úložiště"
-
-msgid "Download"
-msgstr "Stáhnout"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Sdílení a Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Poslové a konference"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Vzdálený přístup, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Síťové nástroje"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Zprávy, kanály a RSS"
-
-msgid "Escritório"
-msgstr "Kancelář"
-
-msgid "Suíte Office"
-msgstr "Kancelářská sada"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "Prohlížeče PDF, Epub, e-knih a další"
-
-msgid "Editores de PDF"
-msgstr "Redaktoři PDF"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Kalendář úkolů a kontaktů"
-
-msgid "Gráficos"
-msgstr "Grafika"
-
-msgid "Visualizadores de imagem"
-msgstr "Prohlížeče obrázků"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Editory obrázků a nástroje pro kreslení"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Snímek obrazovky"
-
-msgid "Multimídia"
-msgstr "Multimédia"
-
-msgid "Jogos"
-msgstr "Hry"
-
-msgid "Gerenciadores de jogos"
-msgstr "Herní manažeři"
-
-msgid "Utilitários para jogos"
-msgstr "Herní nástroje"
-
-msgid "Emulador Retroarch"
-msgstr "Emulátor Retroarch"
-
-msgid "Emuladores"
-msgstr "Emulátory"
-
-msgid "Criadores de jogos"
-msgstr "Vývojáři her"
-
-msgid "Ação/Arcade"
-msgstr "Akční / arkádové hry"
-
-msgid "Cartas"
-msgstr "Dopisy"
-
-msgid "Educacional"
-msgstr "Vzdělávání"
-
-msgid "Estratégia"
-msgstr "Strategie"
-
-msgid "Puzzles"
-msgstr "Hádanky"
-
-msgid "Tabuleiro"
-msgstr "Tabule"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Outros"
-msgstr "Další"
-
-msgid "Sistema"
-msgstr "Systém"
-
-msgid "Desenvolvimento"
-msgstr "Vývoj"
-
-msgid "Editores de código e IDE"
-msgstr "Editory kódu a IDE"
-
-msgid "Banco de dados"
-msgstr "Databáze"
-
-msgid "Servidores WEB"
-msgstr "Webové servery"
-
-msgid "Programas Nativos"
-msgstr "Nativní programy"
-
-msgid "Programas AUR"
-msgstr "Programy AUR"
-
-msgid "Programas Flatpak"
-msgstr "Programy Flatpak"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Nainstalované balíčky Snap Klikněte na balíček, který chcete odebrat"
-
-msgid "Cancelar"
-msgstr "Zrušit"
-
-msgid "Fechar"
-msgstr "Zavřít"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "Instalace"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Odstranění stránky"
-
 msgid "Versão: "
 msgstr "Verze "
 
@@ -317,54 +52,26 @@ msgstr "Není informován"
 msgid "Atualizar"
 msgstr "Aktualizace"
 
-msgid "Instalado na partição:"
-msgstr "Nainstalováno na oddílu:"
-
-msgid "Tamanho da partição:"
-msgstr "Velikost oddílu:"
-
-msgid "Espaço utilizado:"
-msgstr "Využitý prostor:"
-
-msgid "Espaço livre:"
-msgstr "Volný prostor:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Datum instalace systému:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Nativní balíčky a AUR"
-
-msgid "Instalados:"
-msgstr "Nainstalováno:"
-
-msgid "Disponíveis:"
-msgstr "K dispozici:"
-
-msgid "Pacotes Flatpak"
-msgstr "Balíčky Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Nakonfigurovaná úložiště:"
-
-msgid "Pacotes Snap"
-msgstr "Balíčky Snap"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store je otevřen."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Spustit"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Odstranění stránky"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -373,73 +80,20 @@ msgstr "Spustit"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Balení:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Dostupná verze:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Úložiště:"
-
-msgid "Categorias"
-msgstr "Kategorie"
-
-msgid "Versão instalada"
-msgstr "Nainstalovaná verze"
-
-msgid "Versão disponível"
-msgstr "Dostupná verze"
-
-msgid "Versão"
-msgstr "Verze"
-
-msgid "Pacote .deb"
-msgstr "Balíček .deb"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Tento program je ve formátu .deb, který má nejlepší integraci se systémem."
-
-msgid "Mais informações"
-msgstr "Více informací"
-
-msgid "Voltar"
-msgstr "Zpět"
-
-msgid "Dependências a instalar"
-msgstr "Závislosti k instalaci"
-
-msgid "Ver mais"
-msgstr "Viz více"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Balíčky s nesplněnými závislostmi "
-
-msgid "Depende de "
-msgstr "Záleží na "
-
-msgid "mas não vai ser instalado."
-msgstr "ale nebude nainstalován."
-
-msgid "mas não está disponível"
-msgstr "ale není k dispozici"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "Instalace"
 
 msgid ""
 "\n"
@@ -534,14 +188,256 @@ msgstr "Home"
 msgid "Configurações"
 msgstr "Nastavení"
 
+msgid "X-Sistema"
+msgstr "X-Systém"
+
+msgid "Imagem"
+msgstr "Obraz"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Escritório"
+msgstr "Kancelář"
+
+msgid "Gráficos"
+msgstr "Grafika"
+
+msgid "Multimídia"
+msgstr "Multimédia"
+
+msgid "Jogos"
+msgstr "Hry"
+
+msgid "Sistema"
+msgstr "Systém"
+
+msgid "Desenvolvimento"
+msgstr "Vývoj"
+
+msgid "Navegadores"
+msgstr "Prohlížeče"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Cloudové úložiště"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Sdílení a Torrent"
+
+msgid "Mensageiros e Conferências"
+msgstr "Poslové a konference"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Vzdálený přístup, FTP, SSH, VNC, RDP..."
+
+msgid "Ferramentas de rede"
+msgstr "Síťové nástroje"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Zprávy, kanály a RSS"
+
+msgid "Suíte Office"
+msgstr "Kancelářská sada"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "Prohlížeče PDF, Epub, e-knih a další"
+
+msgid "Editores de PDF"
+msgstr "Redaktoři PDF"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Kalendář úkolů a kontaktů"
+
+msgid "Visualizadores de imagem"
+msgstr "Prohlížeče obrázků"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Editory obrázků a nástroje pro kreslení"
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Snímek obrazovky"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Převod, změna velikosti nebo komprese obrázků"
+
+msgid "Edição 3D e CAD"
+msgstr "Úpravy 3D a CAD"
+
+msgid "Reprodutores de áudio"
+msgstr "Zvukové přehrávače"
+
+msgid "Rádio online"
+msgstr "Rádio online"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Zvukové rekordéry a převodníky"
+
+msgid "Editores de áudio"
+msgstr "Editory zvuku"
+
+msgid "Reprodutores de vídeo"
+msgstr "Přehrávače videa"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Střihače videa a kompresory"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Rekordéry a kopírky CD a DVD"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webová kamera, nahrávání obrazovky a streamování videa"
+
+msgid "Gerenciadores de jogos"
+msgstr "Herní manažeři"
+
+msgid "Utilitários para jogos"
+msgstr "Herní nástroje"
+
+msgid "Emulador Retroarch"
+msgstr "Emulátor Retroarch"
+
+msgid "Emuladores"
+msgstr "Emulátory"
+
+msgid "Criadores de jogos"
+msgstr "Vývojáři her"
+
+msgid "Ação/Arcade"
+msgstr "Akční / arkádové hry"
+
+msgid "Cartas"
+msgstr "Dopisy"
+
+msgid "Educacional"
+msgstr "Vzdělávání"
+
+msgid "Estratégia"
+msgstr "Strategie"
+
+msgid "Puzzles"
+msgstr "Hádanky"
+
+msgid "Tabuleiro"
+msgstr "Tabule"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Armazenamento e partições"
+msgstr "Úložiště a oddíly"
+
+msgid "Fontes (Tipografia)"
+msgstr "Písma (typografie)"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "Virtualização"
+msgstr "Virtualizace"
+
+msgid "Editores de código e IDE"
+msgstr "Editory kódu a IDE"
+
+msgid "Banco de dados"
+msgstr "Databáze"
+
+msgid "Servidores WEB"
+msgstr "Webové servery"
+
+msgid "Programas Nativos"
+msgstr "Nativní programy"
+
+msgid "Programas AUR"
+msgstr "Programy AUR"
+
+msgid "Programas Flatpak"
+msgstr "Programy Flatpak"
+
 msgid "Programas Snap"
 msgstr "Snap programy"
+
+msgid "Editores Vetorial"
+msgstr "Vektorové editory"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Editory obrázků, fotografií a kreseb"
+
+msgid "Plugins"
+msgstr "Pluginy"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Rozvržení a uspořádání stránek"
+
+msgid "Colorização e palheta de cores"
+msgstr "Kolorování a paleta barev"
+
+msgid "Editores de video"
+msgstr "Editory videa"
+
+msgid "Animação e 2D"
+msgstr "Animace a 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Stažení snímku obrazovky a videa"
+
+msgid "Stream/transmissão online"
+msgstr "Streamujte/streamujte online"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Video konvertory a CD/DVD vypalovačky"
+
+msgid "Outros"
+msgstr "Další"
+
+msgid "Fechar"
+msgstr "Zavřít"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Spustit"
 
 msgid "Instalando"
 msgstr "Instalace stránek"
 
+msgid "Cancelar"
+msgstr "Zrušit"
+
 msgid "Removendo"
 msgstr "Odstranění"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "Balení:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -567,6 +463,19 @@ msgstr "Dostupná verze:"
 msgid "Licença:"
 msgstr "Licence:"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Úložiště:"
+
 msgid "AUR"
 msgstr "AUR"
 
@@ -579,6 +488,55 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Packer:"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store je otevřen."
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Instalado na partição:"
+msgstr "Nainstalováno na oddílu:"
+
+msgid "Tamanho da partição:"
+msgstr "Velikost oddílu:"
+
+msgid "Espaço utilizado:"
+msgstr "Využitý prostor:"
+
+msgid "Espaço livre:"
+msgstr "Volný prostor:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Datum instalace systému:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Nativní balíčky a AUR"
+
+msgid "Instalados:"
+msgstr "Nainstalováno:"
+
+msgid "Disponíveis:"
+msgstr "K dispozici:"
+
+msgid "Pacotes Flatpak"
+msgstr "Balíčky Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Nakonfigurovaná úložiště:"
+
+msgid "Pacotes Snap"
+msgstr "Balíčky Snap"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Dostupná verze:"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Nainstalované balíčky Snap Klikněte na balíček, který chcete odebrat"
 
 msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Aby se programy Snap objevily v systémové nabídce, odhlaste se a znovu se přihlaste."
@@ -630,149 +588,44 @@ msgstr ""
 msgid "Repositórios nativos"
 msgstr "Nativní úložiště"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-msgid "Versão instalada:"
-msgstr "Nainstalovaná verze:"
+msgid "Categorias"
+msgstr "Kategorie"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-msgid "Uso de armazenamento:"
-msgstr "Využití úložiště:"
+msgid "Versão instalada"
+msgstr "Nainstalovaná verze"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-msgid "Tamanho do download:"
-msgstr "Velikost stahování:"
+msgid "Versão disponível"
+msgstr "Dostupná verze"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-msgid "Site:"
-msgstr "Poloha:"
+msgid "Versão"
+msgstr "Verze"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-msgid "Data de instalação:"
-msgstr "Datum instalace:"
+msgid "Pacote .deb"
+msgstr "Balíček .deb"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-msgid "Arquivos do pacote:"
-msgstr "Soubory balíčků:"
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Tento program je ve formátu .deb, který má nejlepší integraci se systémem."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-msgid "Clique aqui para ver os arquivos"
-msgstr "Klikněte zde pro zobrazení souborů"
+msgid "Mais informações"
+msgstr "Více informací"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-msgid "Reinstalar"
-msgstr "Přeinstalovat"
+msgid "Voltar"
+msgstr "Zpět"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Počet hlasů:"
+msgid "Dependências a instalar"
+msgstr "Závislosti k instalaci"
 
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Stránka v AUR:"
+msgid "Ver mais"
+msgstr "Viz více"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-msgid "Data do empacotamento:"
-msgstr "Datum balení:"
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Balíčky s nesplněnými závislostmi "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-msgid "Motivo da instalação:"
-msgstr "Důvod instalace:"
+msgid "Depende de "
+msgstr "Záleží na "
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-msgid "Grupos:"
-msgstr "Skupiny:"
+msgid "mas não vai ser instalado."
+msgstr "ale nebude nainstalován."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-msgid "Complementos:"
-msgstr "Doplňky:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-msgid "Dependências:"
-msgstr "Závislosti:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Závislosti instalace:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-msgid "Remove:"
-msgstr "Odstraňuje:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-msgid "Substitui:"
-msgstr "Potlačuje:"
+msgid "mas não está disponível"
+msgstr "ale není k dispozici"
