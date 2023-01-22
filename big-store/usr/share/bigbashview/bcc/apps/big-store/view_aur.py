@@ -49,7 +49,7 @@ for p in data['results']:
 
     screenshot_store = 'description/' + sys.argv[1] + '/screenshot'
     description_file_store = os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc')
-    if os.path.exists(screenshot_store) or description_file_store:
+    if os.path.exists(screenshot_store):
         screenshot_resolution = open("/tmp/bigstore/screenshot-resolution.txt", "r")
         print ('<div id=descriptionbox>')
         if os.path.exists(screenshot_store):
