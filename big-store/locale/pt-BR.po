@@ -15,6 +15,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Instalar"
+msgstr "Instalar"
+
+msgid "Remover"
+msgstr "Remover"
+
 msgid "Versão: "
 msgstr "Versão: "
 
@@ -24,14 +30,205 @@ msgstr "Pacote: "
 msgid "Não informada"
 msgstr "Não informada"
 
+msgid "Programas Flatpak"
+msgstr "Programas Flatpak"
+
 msgid "Atualizar"
 msgstr "Atualizar"
 
-msgid "Remover"
-msgstr "Remover"
+msgid "Executar"
+msgstr "Executar"
 
-msgid "Instalar"
-msgstr "Instalar"
+msgid "Pacote:"
+msgstr "Pacote:"
+
+msgid "Versão disponível:"
+msgstr "Versão disponível:"
+
+msgid "Repositório:"
+msgstr "Repositório:"
+
+msgid "Cancelar"
+msgstr "Cancelar"
+
+msgid "Fechar"
+msgstr "Fechar"
+
+msgid "Categorias"
+msgstr "Categorias"
+
+msgid "Versão instalada"
+msgstr "Versão instalada"
+
+msgid "Versão disponível"
+msgstr "Versão disponível"
+
+msgid "Versão"
+msgstr "Versão"
+
+msgid "Pacote .deb"
+msgstr "Pacote .deb"
+
+msgid ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+msgstr ""
+"Esse programa está em formato .deb, que possui a melhor integração com o "
+"sistema."
+
+msgid "Mais informações"
+msgstr "Mais informações"
+
+msgid "Voltar"
+msgstr "Voltar"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Dependências a instalar"
+msgstr "Dependências a instalar"
+
+msgid "Ver mais"
+msgstr "Ver mais"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Pacotes com dependências não atendidas: "
+
+msgid "Depende de "
+msgstr "Depende de "
+
+msgid "mas não vai ser instalado."
+msgstr "mas não vai ser instalado."
+
+msgid "mas não está disponível"
+msgstr "mas não está disponível"
+
+msgid "Sistema"
+msgstr "Sistema"
+
+msgid "Instalado na partição:"
+msgstr "Instalado na partição:"
+
+msgid "Tamanho da partição:"
+msgstr "Tamanho da partição:"
+
+msgid "Espaço utilizado:"
+msgstr "Espaço utilizado:"
+
+msgid "Espaço livre:"
+msgstr "Espaço livre:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Data que o sistema foi instalado:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Pacotes nativos e AUR"
+
+msgid "Instalados:"
+msgstr "Instalados:"
+
+msgid "Disponíveis:"
+msgstr "Disponíveis:"
+
+msgid "Pacotes Flatpak"
+msgstr "Pacotes Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Repositórios configurados:"
+
+msgid "Pacotes Snap"
+msgstr "Pacotes Snap"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid ""
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
+msgstr ""
+"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
+"faça login novamente."
+
+msgid "Configurações"
+msgstr "Configurações"
+
+msgid "Pacotes"
+msgstr "Pacotes"
+
+msgid "Ativado"
+msgstr "Ativado"
+
+msgid "Desativado"
+msgstr "Desativado"
+
+msgid "Atualizações"
+msgstr "Atualizações"
+
+msgid "Atualizar seu sistema"
+msgstr "Atualizar seu sistema"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Atualizar cache dos repositórios nativos"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Procurar servidor de repositórios nativos mais rápidos"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Utilize as opções a seguir com cautela"
+
+msgid "Reinstalação"
+msgstr "Reinstalação"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Forçar reinstalação de todos os pacotes instalados"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+
+msgid "Repositórios nativos"
+msgstr "Repositórios nativos"
+
+msgid "Programas AUR"
+msgstr "Programas AUR"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store está aberta."
+
+msgid "Instalando"
+msgstr "Instalando"
+
+msgid "Removendo"
+msgstr "Removendo"
+
+msgid "Programas Snap"
+msgstr "Programas Snap"
+
+msgid "Versão disponivel:"
+msgstr "Versão disponivel:"
+
+msgid "Licença:"
+msgstr "Licença:"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Empacotador:"
+msgstr "Empacotador:"
 
 msgid ""
 "\n"
@@ -123,9 +320,6 @@ msgstr "Nativos"
 msgid "Início"
 msgstr "Início"
 
-msgid "Configurações"
-msgstr "Configurações"
-
 msgid "X-Sistema"
 msgstr "X-Sistema"
 
@@ -153,9 +347,6 @@ msgstr "Multimídia"
 msgid "Jogos"
 msgstr "Jogos"
 
-msgid "Sistema"
-msgstr "Sistema"
-
 msgid "Desenvolvimento"
 msgstr "Desenvolvimento"
 
@@ -167,9 +358,6 @@ msgstr "E-mail"
 
 msgid "Armazenamento nas nuvens"
 msgstr "Armazenamento nas nuvens"
-
-msgid "Download"
-msgstr "Download"
 
 msgid "Compartilhadores e Torrent"
 msgstr "Compartilhadores e Torrent"
@@ -300,14 +488,8 @@ msgstr "Servidores WEB"
 msgid "Programas Nativos"
 msgstr "Programas Nativos"
 
-msgid "Programas AUR"
-msgstr "Programas AUR"
-
-msgid "Programas Flatpak"
-msgstr "Programas Flatpak"
-
-msgid "Programas Snap"
-msgstr "Programas Snap"
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Pacotes Snap Instalados clique no pacote para remover"
 
 msgid "Editores Vetorial"
 msgstr "Editores Vetorial"
@@ -341,185 +523,3 @@ msgstr "Conversores de vídeo e gravadores CD/DVD"
 
 msgid "Outros"
 msgstr "Outros"
-
-msgid "Fechar"
-msgstr "Fechar"
-
-msgid "Executar"
-msgstr "Executar"
-
-msgid "Instalando"
-msgstr "Instalando"
-
-msgid "Cancelar"
-msgstr "Cancelar"
-
-msgid "Removendo"
-msgstr "Removendo"
-
-msgid "Pacote:"
-msgstr "Pacote:"
-
-msgid "Versão disponivel:"
-msgstr "Versão disponivel:"
-
-msgid "Licença:"
-msgstr "Licença:"
-
-msgid "Repositório:"
-msgstr "Repositório:"
-
-msgid "AUR"
-msgstr "AUR"
-
-msgid "Empacotador:"
-msgstr "Empacotador:"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store está aberta."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Instalado na partição:"
-msgstr "Instalado na partição:"
-
-msgid "Tamanho da partição:"
-msgstr "Tamanho da partição:"
-
-msgid "Espaço utilizado:"
-msgstr "Espaço utilizado:"
-
-msgid "Espaço livre:"
-msgstr "Espaço livre:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Data que o sistema foi instalado:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Pacotes nativos e AUR"
-
-msgid "Instalados:"
-msgstr "Instalados:"
-
-msgid "Disponíveis:"
-msgstr "Disponíveis:"
-
-msgid "Pacotes Flatpak"
-msgstr "Pacotes Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Repositórios configurados:"
-
-msgid "Pacotes Snap"
-msgstr "Pacotes Snap"
-
-msgid "Versão disponível:"
-msgstr "Versão disponível:"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Pacotes Snap Instalados clique no pacote para remover"
-
-msgid ""
-"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
-"faça login novamente."
-msgstr ""
-"Para os programas Snap aparecerem no menu do sistema finalize a sessão e "
-"faça login novamente."
-
-msgid "Pacotes"
-msgstr "Pacotes"
-
-msgid "Ativado"
-msgstr "Ativado"
-
-msgid "Desativado"
-msgstr "Desativado"
-
-msgid "Atualizações"
-msgstr "Atualizações"
-
-msgid "Atualizar seu sistema"
-msgstr "Atualizar seu sistema"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Atualizar cache dos repositórios nativos"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Procurar servidor de repositórios nativos mais rápidos"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Utilize as opções a seguir com cautela"
-
-msgid "Reinstalação"
-msgstr "Reinstalação"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Forçar reinstalação de todos os pacotes instalados"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
-"que se você ativou repositórios complementares será necessário adicionar as "
-"chaves desses repositórios novamente."
-msgstr ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
-"que se você ativou repositórios complementares será necessário adicionar as "
-"chaves desses repositórios novamente."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
-"o sistema, porém, na atualização forçada alguns programas podem ser "
-"removidos."
-msgstr ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
-"o sistema, porém, na atualização forçada alguns programas podem ser "
-"removidos."
-
-msgid "Repositórios nativos"
-msgstr "Repositórios nativos"
-
-msgid "Categorias"
-msgstr "Categorias"
-
-msgid "Versão instalada"
-msgstr "Versão instalada"
-
-msgid "Versão disponível"
-msgstr "Versão disponível"
-
-msgid "Versão"
-msgstr "Versão"
-
-msgid "Pacote .deb"
-msgstr "Pacote .deb"
-
-msgid ""
-"Esse programa está em formato .deb, que possui a melhor integração com o "
-"sistema."
-msgstr ""
-"Esse programa está em formato .deb, que possui a melhor integração com o "
-"sistema."
-
-msgid "Mais informações"
-msgstr "Mais informações"
-
-msgid "Voltar"
-msgstr "Voltar"
-
-msgid "Dependências a instalar"
-msgstr "Dependências a instalar"
-
-msgid "Ver mais"
-msgstr "Ver mais"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Pacotes com dependências não atendidas: "
-
-msgid "Depende de "
-msgstr "Depende de "
-
-msgid "mas não vai ser instalado."
-msgstr "mas não vai ser instalado."
-
-msgid "mas não está disponível"
-msgstr "mas não está disponível"
