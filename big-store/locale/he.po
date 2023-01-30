@@ -23,6 +23,49 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "התקן"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "הסר"
+
 msgid "Versão: "
 msgstr "גרסה: "
 
@@ -31,6 +74,9 @@ msgstr "חבילה: "
 
 msgid "Não informada"
 msgstr "לא הודיע"
+
+msgid "Programas Flatpak"
+msgstr "תוכניות פלאטפאק"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -57,21 +103,10 @@ msgstr "עדכון"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "הסר"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "לבצע"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -80,20 +115,226 @@ msgstr "הסר"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "חבילה:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "גרסה זמינה:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "התקן"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "מאגר:"
+
+msgid "Cancelar"
+msgstr "ביטול"
+
+msgid "Fechar"
+msgstr "סגור"
+
+msgid "Categorias"
+msgstr "קטגוריות"
+
+msgid "Versão instalada"
+msgstr "גרסה מותקנת"
+
+msgid "Versão disponível"
+msgstr "גרסה זמינה"
+
+msgid "Versão"
+msgstr "גרסה"
+
+msgid "Pacote .deb"
+msgstr ".deb חבילה"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "תוכנית זו היא בפורמט.deb, אשר יש את האינטגרציה הטובה ביותר עם המערכת."
+
+msgid "Mais informações"
+msgstr "מידע נוסף"
+
+msgid "Voltar"
+msgstr "חזור אחורה"
+
+msgid "Download"
+msgstr "הורד"
+
+msgid "Dependências a instalar"
+msgstr "תלות להתקנה"
+
+msgid "Ver mais"
+msgstr "ראה עוד"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "חבילות עם תלות שלא נענו: "
+
+msgid "Depende de "
+msgstr "זה תלוי "
+
+msgid "mas não vai ser instalado."
+msgstr "אבל זה לא הולך להיות מותקן."
+
+msgid "mas não está disponível"
+msgstr "אבל זה לא זמין"
+
+msgid "Sistema"
+msgstr "מערכת"
+
+msgid "Instalado na partição:"
+msgstr "מותקן על המחיצה:"
+
+msgid "Tamanho da partição:"
+msgstr "גודל מחיצה:"
+
+msgid "Espaço utilizado:"
+msgstr "שטח בשימוש:"
+
+msgid "Espaço livre:"
+msgstr "מקום פנוי:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "תאריך התקנת המערכת:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "חבילות מקוריות ו- AUR"
+
+msgid "Instalados:"
+msgstr "מותקן:"
+
+msgid "Disponíveis:"
+msgstr "זמין:"
+
+msgid "Pacotes Flatpak"
+msgstr "חבילות פלאטפאק"
+
+msgid "Repositórios configurados:"
+msgstr "מאגרים מוגדרים:"
+
+msgid "Pacotes Snap"
+msgstr "חבילות הצמד"
+
+msgid "Big-Store"
+msgstr "חנות גדולה"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "כדי שתוכניות הצמד יופיעו בתפריט המערכת, צא והיכנס שוב למערכת."
+
+msgid "Configurações"
+msgstr "הגדרות"
+
+msgid "Pacotes"
+msgstr "חבילות"
+
+msgid "Ativado"
+msgstr "מופעל"
+
+msgid "Desativado"
+msgstr "מושבת"
+
+msgid "Atualizações"
+msgstr "שִׁפּוּעַים"
+
+msgid "Atualizar seu sistema"
+msgstr "עדכן את המערכת שלך"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "רענן מטמון של מאגרים מקומיים"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "חפש שרתי מאגר מקוריים מהירים יותר"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "השתמש באפשרויות הבאות בזהירות"
+
+msgid "Reinstalação"
+msgstr "התקנה מחדש"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "כפה התקנה מחדש של כל החבילות המותקנות"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"עדכן את המפתחות של מאגרי BigLinux, Manjaro ו- Archlinux. זכור שאם הפעלת מאגרים משלימים, יהיה עליך "
+"להוסיף שוב את המפתחות למאגרים אלה."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"כפה עדכונים, השתמש באפשרות זו אם אינך מצליח לעדכן את המערכת, עם זאת, בעדכון הכפוי ניתן להסיר "
+"תוכניות מסוימות."
+
+msgid "Repositórios nativos"
+msgstr "מאגרים מקומיים"
+
+msgid "Programas AUR"
+msgstr "תוכניות AUR"
+
+msgid "Big-Store está aberta."
+msgstr "חנות גדולה פתוחה."
+
+msgid "Instalando"
+msgstr "התקנת"
+
+msgid "Removendo"
+msgstr "הסרת"
+
+msgid "Programas Snap"
+msgstr "הצמד תוכניות"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "גרסה זמינה:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+msgid "Licença:"
+msgstr "רישיון:"
+
+msgid "AUR"
+msgstr "AUR"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
+msgid "Empacotador:"
+msgstr "פקר:"
 
 msgid ""
 "\n"
@@ -185,9 +426,6 @@ msgstr "ילידים"
 msgid "Início"
 msgstr "התחל"
 
-msgid "Configurações"
-msgstr "הגדרות"
-
 msgid "X-Sistema"
 msgstr "אקס-סיסטם"
 
@@ -215,9 +453,6 @@ msgstr "מולטימדיה"
 msgid "Jogos"
 msgstr "משחקים"
 
-msgid "Sistema"
-msgstr "מערכת"
-
 msgid "Desenvolvimento"
 msgstr "פיתוח"
 
@@ -229,9 +464,6 @@ msgstr "דואר אלקטרוני"
 
 msgid "Armazenamento nas nuvens"
 msgstr "אחסון בענן"
-
-msgid "Download"
-msgstr "הורד"
 
 msgid "Compartilhadores e Torrent"
 msgstr "משתפים וסיקור"
@@ -362,14 +594,8 @@ msgstr "שרתי אינטרנט"
 msgid "Programas Nativos"
 msgstr "תוכניות מקוריות"
 
-msgid "Programas AUR"
-msgstr "תוכניות AUR"
-
-msgid "Programas Flatpak"
-msgstr "תוכניות פלאטפאק"
-
-msgid "Programas Snap"
-msgstr "הצמד תוכניות"
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "הצמד חבילות מותקן לחץ על החבילה כדי להסיר"
 
 msgid "Editores Vetorial"
 msgstr "עורכים וקטוריים"
@@ -404,228 +630,149 @@ msgstr "ממירי וידאו וצורבי תקליטורים/DVD"
 msgid "Outros"
 msgstr "אחרים"
 
-msgid "Fechar"
-msgstr "סגור"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "להתקין מחדש"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "לבצע"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "גרסה מותקנת:"
 
-msgid "Instalando"
-msgstr "התקנת"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "שימוש באחסון:"
 
-msgid "Cancelar"
-msgstr "ביטול"
-
-msgid "Removendo"
-msgstr "הסרת"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "גודל הורדה:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "חבילה:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "אתר:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "גרסה זמינה:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
+msgid "Data do empacotamento:"
+msgstr "תאריך האריזה:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
-msgid "Licença:"
-msgstr "רישיון:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "תאריך התקנה:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "מאגר:"
-
-msgid "AUR"
-msgstr "AUR"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
+msgid "Motivo da instalação:"
+msgstr "סיבה להתקנה:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
-msgid "Empacotador:"
-msgstr "פקר:"
-
-msgid "Big-Store está aberta."
-msgstr "חנות גדולה פתוחה."
-
-msgid "Big-Store"
-msgstr "חנות גדולה"
-
-msgid "Instalado na partição:"
-msgstr "מותקן על המחיצה:"
-
-msgid "Tamanho da partição:"
-msgstr "גודל מחיצה:"
-
-msgid "Espaço utilizado:"
-msgstr "שטח בשימוש:"
-
-msgid "Espaço livre:"
-msgstr "מקום פנוי:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "תאריך התקנת המערכת:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "חבילות מקוריות ו- AUR"
-
-msgid "Instalados:"
-msgstr "מותקן:"
-
-msgid "Disponíveis:"
-msgstr "זמין:"
-
-msgid "Pacotes Flatpak"
-msgstr "חבילות פלאטפאק"
-
-msgid "Repositórios configurados:"
-msgstr "מאגרים מוגדרים:"
-
-msgid "Pacotes Snap"
-msgstr "חבילות הצמד"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
+msgid "Grupos:"
+msgstr "קבוצות:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "גרסה זמינה:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
+msgid "Complementos:"
+msgstr "תוספות:"
 
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "הצמד חבילות מותקן לחץ על החבילה כדי להסיר"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
+msgid "Dependências:"
+msgstr "יחסי תלות:"
 
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "כדי שתוכניות הצמד יופיעו בתפריט המערכת, צא והיכנס שוב למערכת."
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
+msgid "Remove:"
+msgstr "מסיר:"
 
-msgid "Pacotes"
-msgstr "חבילות"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
+msgid "Substitui:"
+msgstr "דריסות:"
 
-msgid "Ativado"
-msgstr "מופעל"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "קבצי חבילה:"
 
-msgid "Desativado"
-msgstr "מושבת"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "לחץ כאן כדי לראות את הקבצים"
 
-msgid "Atualizações"
-msgstr "שִׁפּוּעַים"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "מספר קולות:"
 
-msgid "Atualizar seu sistema"
-msgstr "עדכן את המערכת שלך"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "דף ב-AUR:"
 
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "רענן מטמון של מאגרים מקומיים"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "חפש שרתי מאגר מקוריים מהירים יותר"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "השתמש באפשרויות הבאות בזהירות"
-
-msgid "Reinstalação"
-msgstr "התקנה מחדש"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "כפה התקנה מחדש של כל החבילות המותקנות"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"עדכן את המפתחות של מאגרי BigLinux, Manjaro ו- Archlinux. זכור שאם הפעלת מאגרים משלימים, יהיה עליך "
-"להוסיף שוב את המפתחות למאגרים אלה."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"כפה עדכונים, השתמש באפשרות זו אם אינך מצליח לעדכן את המערכת, עם זאת, בעדכון הכפוי ניתן להסיר "
-"תוכניות מסוימות."
-
-msgid "Repositórios nativos"
-msgstr "מאגרים מקומיים"
-
-msgid "Categorias"
-msgstr "קטגוריות"
-
-msgid "Versão instalada"
-msgstr "גרסה מותקנת"
-
-msgid "Versão disponível"
-msgstr "גרסה זמינה"
-
-msgid "Versão"
-msgstr "גרסה"
-
-msgid "Pacote .deb"
-msgstr ".deb חבילה"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "תוכנית זו היא בפורמט.deb, אשר יש את האינטגרציה הטובה ביותר עם המערכת."
-
-msgid "Mais informações"
-msgstr "מידע נוסף"
-
-msgid "Voltar"
-msgstr "חזור אחורה"
-
-msgid "Dependências a instalar"
-msgstr "תלות להתקנה"
-
-msgid "Ver mais"
-msgstr "ראה עוד"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "חבילות עם תלות שלא נענו: "
-
-msgid "Depende de "
-msgstr "זה תלוי "
-
-msgid "mas não vai ser instalado."
-msgstr "אבל זה לא הולך להיות מותקן."
-
-msgid "mas não está disponível"
-msgstr "אבל זה לא זמין"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "יחסי תלות בהתקנה:"

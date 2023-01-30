@@ -23,6 +23,49 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "Instalați"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Eliminați"
+
 msgid "Versão: "
 msgstr "Versiunea "
 
@@ -31,6 +74,9 @@ msgstr "Pachet "
 
 msgid "Não informada"
 msgstr "Neinformat"
+
+msgid "Programas Flatpak"
+msgstr "Programe Flatpak"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -57,21 +103,10 @@ msgstr "Actualizare"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Eliminați"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Rulați"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -80,20 +115,226 @@ msgstr "Eliminați"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "Pachet:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Versiune disponibilă:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
-msgstr "Instalați"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Depozitar:"
+
+msgid "Cancelar"
+msgstr "Anulează"
+
+msgid "Fechar"
+msgstr "Închideți"
+
+msgid "Categorias"
+msgstr "Categorii"
+
+msgid "Versão instalada"
+msgstr "Versiunea instalată"
+
+msgid "Versão disponível"
+msgstr "Versiunea disponibilă"
+
+msgid "Versão"
+msgstr "Versiunea"
+
+msgid "Pacote .deb"
+msgstr "Pachetul .deb"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Acest program este în format .deb, care are cea mai bună integrare cu sistemul."
+
+msgid "Mais informações"
+msgstr "Mai multe informații"
+
+msgid "Voltar"
+msgstr "Înapoi"
+
+msgid "Download"
+msgstr "Descărcați"
+
+msgid "Dependências a instalar"
+msgstr "Dependențe de instalat"
+
+msgid "Ver mais"
+msgstr "Vezi mai mult"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Pachete cu dependențe nesatisfăcute "
+
+msgid "Depende de "
+msgstr "Depinde de "
+
+msgid "mas não vai ser instalado."
+msgstr "dar nu va fi instalat."
+
+msgid "mas não está disponível"
+msgstr "dar nu este disponibil"
+
+msgid "Sistema"
+msgstr "Sistem"
+
+msgid "Instalado na partição:"
+msgstr "Instalat pe partiție:"
+
+msgid "Tamanho da partição:"
+msgstr "Dimensiunea partiției:"
+
+msgid "Espaço utilizado:"
+msgstr "Spațiu utilizat:"
+
+msgid "Espaço livre:"
+msgstr "Spațiu liber:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Data la care a fost instalat sistemul:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Pachete native și AUR"
+
+msgid "Instalados:"
+msgstr "Instalat:"
+
+msgid "Disponíveis:"
+msgstr "Disponibil:"
+
+msgid "Pacotes Flatpak"
+msgstr "Pachete Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Depozite configurate:"
+
+msgid "Pacotes Snap"
+msgstr "Pachete Snap"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Pentru ca programele Snap să apară în meniul sistemului, deconectați-vă și conectați-vă din nou."
+
+msgid "Configurações"
+msgstr "Setări"
+
+msgid "Pacotes"
+msgstr "Pachete"
+
+msgid "Ativado"
+msgstr "Activat"
+
+msgid "Desativado"
+msgstr "Persoane cu handicap"
+
+msgid "Atualizações"
+msgstr "Actualizări"
+
+msgid "Atualizar seu sistema"
+msgstr "Actualizați-vă sistemul"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Actualizarea cache-ului depozitelor native"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Căutați mai rapid serverul de depozite nativ"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Utilizați următoarele opțiuni cu prudență"
+
+msgid "Reinstalação"
+msgstr "Reinstalație"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Forțați reinstalarea forțată a tuturor pachetelor instalate"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Actualizați cheile depozitelor BigLinux, Manjaro și Archlinux. Nu uitați că, dacă ați activat "
+"depozite complementare, va trebui să adăugați din nou cheile acestor depozite."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Forțați actualizările, utilizați această opțiune dacă nu puteți actualiza sistemul; cu toate "
+"acestea, în cadrul actualizării forțate, este posibil ca unele programe să fie eliminate."
+
+msgid "Repositórios nativos"
+msgstr "Depozite native"
+
+msgid "Programas AUR"
+msgstr "Programe AUR"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store este deschis."
+
+msgid "Instalando"
+msgstr "Instalarea"
+
+msgid "Removendo"
+msgstr "Îndepărtarea"
+
+msgid "Programas Snap"
+msgstr "Programe rapide"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "Versiune disponibilă:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+msgid "Licença:"
+msgstr "Licență:"
+
+msgid "AUR"
+msgstr "AUR"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
+msgid "Empacotador:"
+msgstr "Packer:"
 
 msgid ""
 "\n"
@@ -185,9 +426,6 @@ msgstr "Nativi"
 msgid "Início"
 msgstr "Acasă"
 
-msgid "Configurações"
-msgstr "Setări"
-
 msgid "X-Sistema"
 msgstr "Sistemul X"
 
@@ -215,9 +453,6 @@ msgstr "Multimedia"
 msgid "Jogos"
 msgstr "Jocuri"
 
-msgid "Sistema"
-msgstr "Sistem"
-
 msgid "Desenvolvimento"
 msgstr "Dezvoltare"
 
@@ -229,9 +464,6 @@ msgstr "E-mail"
 
 msgid "Armazenamento nas nuvens"
 msgstr "Stocarea în cloud"
-
-msgid "Download"
-msgstr "Descărcați"
 
 msgid "Compartilhadores e Torrent"
 msgstr "Sharers și Torrent"
@@ -362,14 +594,8 @@ msgstr "Servere WEB"
 msgid "Programas Nativos"
 msgstr "Programe autohtone"
 
-msgid "Programas AUR"
-msgstr "Programe AUR"
-
-msgid "Programas Flatpak"
-msgstr "Programe Flatpak"
-
-msgid "Programas Snap"
-msgstr "Programe rapide"
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Pachete Snap instalate faceți clic pe pachetul pe care doriți să îl eliminați"
 
 msgid "Editores Vetorial"
 msgstr "Editori vectori"
@@ -404,228 +630,149 @@ msgstr "Convertoare video și arzătoare CD/DVD"
 msgid "Outros"
 msgstr "Altele"
 
-msgid "Fechar"
-msgstr "Închideți"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Reinstala"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Rulați"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Versiunea instalată:"
 
-msgid "Instalando"
-msgstr "Instalarea"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Utilizarea spațiului de stocare:"
 
-msgid "Cancelar"
-msgstr "Anulează"
-
-msgid "Removendo"
-msgstr "Îndepărtarea"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Dimensiune descărcare:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Pachet:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Site:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "Versiune disponibilă:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
+msgid "Data do empacotamento:"
+msgstr "Data ambalării:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
-msgid "Licença:"
-msgstr "Licență:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "Data instalării:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Depozitar:"
-
-msgid "AUR"
-msgstr "AUR"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
+msgid "Motivo da instalação:"
+msgstr "Motivul instalării:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
-msgid "Empacotador:"
-msgstr "Packer:"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store este deschis."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Instalado na partição:"
-msgstr "Instalat pe partiție:"
-
-msgid "Tamanho da partição:"
-msgstr "Dimensiunea partiției:"
-
-msgid "Espaço utilizado:"
-msgstr "Spațiu utilizat:"
-
-msgid "Espaço livre:"
-msgstr "Spațiu liber:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Data la care a fost instalat sistemul:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Pachete native și AUR"
-
-msgid "Instalados:"
-msgstr "Instalat:"
-
-msgid "Disponíveis:"
-msgstr "Disponibil:"
-
-msgid "Pacotes Flatpak"
-msgstr "Pachete Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Depozite configurate:"
-
-msgid "Pacotes Snap"
-msgstr "Pachete Snap"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
+msgid "Grupos:"
+msgstr "Grupuri:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Versiune disponibilă:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
+msgid "Complementos:"
+msgstr "Programe de completare:"
 
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Pachete Snap instalate faceți clic pe pachetul pe care doriți să îl eliminați"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
+msgid "Dependências:"
+msgstr "Dependenţele:"
 
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Pentru ca programele Snap să apară în meniul sistemului, deconectați-vă și conectați-vă din nou."
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
+msgid "Remove:"
+msgstr "Elimină:"
 
-msgid "Pacotes"
-msgstr "Pachete"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
+msgid "Substitui:"
+msgstr "Suprascrie:"
 
-msgid "Ativado"
-msgstr "Activat"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "Pachet de fișiere:"
 
-msgid "Desativado"
-msgstr "Persoane cu handicap"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "Click aici pentru a vedea fișierele"
 
-msgid "Atualizações"
-msgstr "Actualizări"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Număr de voturi:"
 
-msgid "Atualizar seu sistema"
-msgstr "Actualizați-vă sistemul"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Pagina din AUR:"
 
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Actualizarea cache-ului depozitelor native"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Căutați mai rapid serverul de depozite nativ"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Utilizați următoarele opțiuni cu prudență"
-
-msgid "Reinstalação"
-msgstr "Reinstalație"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Forțați reinstalarea forțată a tuturor pachetelor instalate"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Actualizați cheile depozitelor BigLinux, Manjaro și Archlinux. Nu uitați că, dacă ați activat "
-"depozite complementare, va trebui să adăugați din nou cheile acestor depozite."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Forțați actualizările, utilizați această opțiune dacă nu puteți actualiza sistemul; cu toate "
-"acestea, în cadrul actualizării forțate, este posibil ca unele programe să fie eliminate."
-
-msgid "Repositórios nativos"
-msgstr "Depozite native"
-
-msgid "Categorias"
-msgstr "Categorii"
-
-msgid "Versão instalada"
-msgstr "Versiunea instalată"
-
-msgid "Versão disponível"
-msgstr "Versiunea disponibilă"
-
-msgid "Versão"
-msgstr "Versiunea"
-
-msgid "Pacote .deb"
-msgstr "Pachetul .deb"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Acest program este în format .deb, care are cea mai bună integrare cu sistemul."
-
-msgid "Mais informações"
-msgstr "Mai multe informații"
-
-msgid "Voltar"
-msgstr "Înapoi"
-
-msgid "Dependências a instalar"
-msgstr "Dependențe de instalat"
-
-msgid "Ver mais"
-msgstr "Vezi mai mult"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Pachete cu dependențe nesatisfăcute "
-
-msgid "Depende de "
-msgstr "Depinde de "
-
-msgid "mas não vai ser instalado."
-msgstr "dar nu va fi instalat."
-
-msgid "mas não está disponível"
-msgstr "dar nu este disponibil"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Dependențele de instalare:"

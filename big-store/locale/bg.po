@@ -23,6 +23,49 @@ msgstr ""
 "Generated-By: pygettext.py 1.5\n"
 "X-Generator: attranslate\n"
 
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+msgid "Instalar"
+msgstr "Инсталиране на"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Премахване на"
+
 msgid "Versão: "
 msgstr "Версия "
 
@@ -31,6 +74,9 @@ msgstr "Опаковка "
 
 msgid "Não informada"
 msgstr "Не е информиран"
+
+msgid "Programas Flatpak"
+msgstr "Програми Flatpak"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -57,21 +103,10 @@ msgstr "Актуализация"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Премахване на"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Изпълнявайте"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -80,20 +115,226 @@ msgstr "Премахване на"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
+msgid "Pacote:"
+msgstr "Опаковка:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Налична версия:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
-msgid "Instalar"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Хранилище:"
+
+msgid "Cancelar"
+msgstr "Отмяна на"
+
+msgid "Fechar"
+msgstr "Затвори"
+
+msgid "Categorias"
+msgstr "Категории"
+
+msgid "Versão instalada"
+msgstr "Инсталирана версия"
+
+msgid "Versão disponível"
+msgstr "Налична версия"
+
+msgid "Versão"
+msgstr "Версия"
+
+msgid "Pacote .deb"
+msgstr ".deb пакет"
+
+msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
+msgstr "Тази програма е във формат .deb, който има най-добра интеграция със системата."
+
+msgid "Mais informações"
+msgstr "Повече информация"
+
+msgid "Voltar"
+msgstr "Обратно"
+
+msgid "Download"
+msgstr "Изтегляне"
+
+msgid "Dependências a instalar"
+msgstr "Зависимости за инсталиране"
+
+msgid "Ver mais"
+msgstr "Вижте повече"
+
+msgid "Pacotes com dependências não atendidas: "
+msgstr "Пакети с неизпълнени зависимости "
+
+msgid "Depende de "
+msgstr "Това зависи от "
+
+msgid "mas não vai ser instalado."
+msgstr "но тя няма да бъде инсталирана."
+
+msgid "mas não está disponível"
+msgstr "но не е налична"
+
+msgid "Sistema"
+msgstr "Система"
+
+msgid "Instalado na partição:"
+msgstr "Инсталиран в дяла:"
+
+msgid "Tamanho da partição:"
+msgstr "Размер на дяла:"
+
+msgid "Espaço utilizado:"
+msgstr "Използвано пространство:"
+
+msgid "Espaço livre:"
+msgstr "Свободно пространство:"
+
+msgid "Data que o sistema foi instalado:"
+msgstr "Дата на инсталиране на системата:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Родни пакети и AUR"
+
+msgid "Instalados:"
+msgstr "Инсталиран:"
+
+msgid "Disponíveis:"
+msgstr "На разположение:"
+
+msgid "Pacotes Flatpak"
+msgstr "Пакети Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Конфигурирани хранилища:"
+
+msgid "Pacotes Snap"
+msgstr "Пакети Snap"
+
+msgid "Big-Store"
+msgstr "Big-Store"
+
+msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "За да се появят програмите Snap в системното меню, излезте и влезте отново."
+
+msgid "Configurações"
+msgstr "Настройки"
+
+msgid "Pacotes"
+msgstr "Пакети"
+
+msgid "Ativado"
+msgstr "Активиран"
+
+msgid "Desativado"
+msgstr "Инвалиди"
+
+msgid "Atualizações"
+msgstr "Актуализации"
+
+msgid "Atualizar seu sistema"
+msgstr "Актуализирайте системата си"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Актуализиране на кеша на родните хранилища"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Търсене по-бързо в родния сървър на хранилищата"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Използвайте следните опции с повишено внимание"
+
+msgid "Reinstalação"
+msgstr "Преинсталиране"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Принудително преинсталиране на всички инсталирани пакети"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Актуализирайте ключовете на хранилищата на BigLinux, Manjaro и Archlinux. Не забравяйте, че ако сте "
+"активирали допълнителни хранилища, ще трябва отново да добавите ключовете на тези хранилища."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Принудителни актуализации, използвайте тази опция, ако не можете да актуализирате системата, но при "
+"принудителната актуализация някои програми може да бъдат премахнати."
+
+msgid "Repositórios nativos"
+msgstr "Родни хранилища"
+
+msgid "Programas AUR"
+msgstr "Програми на AUR"
+
+msgid "Big-Store está aberta."
+msgstr "Big-Store е отворен."
+
+msgid "Instalando"
 msgstr "Инсталиране на"
+
+msgid "Removendo"
+msgstr "Премахване на"
+
+msgid "Programas Snap"
+msgstr "Програми Snap"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "Налична версия:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+msgid "Licença:"
+msgstr "Лиценз:"
+
+msgid "AUR"
+msgstr "AUR"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
+msgid "Empacotador:"
+msgstr "Packer:"
 
 msgid ""
 "\n"
@@ -185,9 +426,6 @@ msgstr "Местни жители"
 msgid "Início"
 msgstr "Начало"
 
-msgid "Configurações"
-msgstr "Настройки"
-
 msgid "X-Sistema"
 msgstr "X-Система"
 
@@ -215,9 +453,6 @@ msgstr "Мултимедия"
 msgid "Jogos"
 msgstr "Игри"
 
-msgid "Sistema"
-msgstr "Система"
-
 msgid "Desenvolvimento"
 msgstr "Развитие"
 
@@ -229,9 +464,6 @@ msgstr "Електронна поща"
 
 msgid "Armazenamento nas nuvens"
 msgstr "Съхранение в облак"
-
-msgid "Download"
-msgstr "Изтегляне"
 
 msgid "Compartilhadores e Torrent"
 msgstr "Споделящи и Торент"
@@ -362,14 +594,8 @@ msgstr "WEB сървъри"
 msgid "Programas Nativos"
 msgstr "Родни програми"
 
-msgid "Programas AUR"
-msgstr "Програми на AUR"
-
-msgid "Programas Flatpak"
-msgstr "Програми Flatpak"
-
-msgid "Programas Snap"
-msgstr "Програми Snap"
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Инсталирани пакети Snap Кликнете върху пакета, за да го премахнете"
 
 msgid "Editores Vetorial"
 msgstr "Векторни редактори"
@@ -404,228 +630,149 @@ msgstr "Видео конвертори и записващи CD/DVD диско�
 msgid "Outros"
 msgstr "Други"
 
-msgid "Fechar"
-msgstr "Затвори"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Преинсталирате"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Изпълнявайте"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Инсталирана версия:"
 
-msgid "Instalando"
-msgstr "Инсталиране на"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Използване на съхранението:"
 
-msgid "Cancelar"
-msgstr "Отмяна на"
-
-msgid "Removendo"
-msgstr "Премахване на"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Размер за изтегляне:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Опаковка:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Сайт:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "Налична версия:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
+msgid "Data do empacotamento:"
+msgstr "Дата на опаковане:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
-msgid "Licença:"
-msgstr "Лиценз:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "Дата на инсталиране:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Хранилище:"
-
-msgid "AUR"
-msgstr "AUR"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
+msgid "Motivo da instalação:"
+msgstr "Причина за инсталацията:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
-msgid "Empacotador:"
-msgstr "Packer:"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store е отворен."
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Instalado na partição:"
-msgstr "Инсталиран в дяла:"
-
-msgid "Tamanho da partição:"
-msgstr "Размер на дяла:"
-
-msgid "Espaço utilizado:"
-msgstr "Използвано пространство:"
-
-msgid "Espaço livre:"
-msgstr "Свободно пространство:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Дата на инсталиране на системата:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Родни пакети и AUR"
-
-msgid "Instalados:"
-msgstr "Инсталиран:"
-
-msgid "Disponíveis:"
-msgstr "На разположение:"
-
-msgid "Pacotes Flatpak"
-msgstr "Пакети Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Конфигурирани хранилища:"
-
-msgid "Pacotes Snap"
-msgstr "Пакети Snap"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
+msgid "Grupos:"
+msgstr "Групи:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Налична версия:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
+msgid "Complementos:"
+msgstr "Добавки:"
 
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Инсталирани пакети Snap Кликнете върху пакета, за да го премахнете"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
+msgid "Dependências:"
+msgstr "Зависимости:"
 
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "За да се появят програмите Snap в системното меню, излезте и влезте отново."
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
+msgid "Remove:"
+msgstr "Премахва:"
 
-msgid "Pacotes"
-msgstr "Пакети"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
+msgid "Substitui:"
+msgstr "Предимство:"
 
-msgid "Ativado"
-msgstr "Активиран"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "Пакетни файлове:"
 
-msgid "Desativado"
-msgstr "Инвалиди"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "Щракнете тук, за да видите файловете"
 
-msgid "Atualizações"
-msgstr "Актуализации"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Брой гласове:"
 
-msgid "Atualizar seu sistema"
-msgstr "Актуализирайте системата си"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Страница в AUR:"
 
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Актуализиране на кеша на родните хранилища"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Търсене по-бързо в родния сървър на хранилищата"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Използвайте следните опции с повишено внимание"
-
-msgid "Reinstalação"
-msgstr "Преинсталиране"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Принудително преинсталиране на всички инсталирани пакети"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Актуализирайте ключовете на хранилищата на BigLinux, Manjaro и Archlinux. Не забравяйте, че ако сте "
-"активирали допълнителни хранилища, ще трябва отново да добавите ключовете на тези хранилища."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Принудителни актуализации, използвайте тази опция, ако не можете да актуализирате системата, но при "
-"принудителната актуализация някои програми може да бъдат премахнати."
-
-msgid "Repositórios nativos"
-msgstr "Родни хранилища"
-
-msgid "Categorias"
-msgstr "Категории"
-
-msgid "Versão instalada"
-msgstr "Инсталирана версия"
-
-msgid "Versão disponível"
-msgstr "Налична версия"
-
-msgid "Versão"
-msgstr "Версия"
-
-msgid "Pacote .deb"
-msgstr ".deb пакет"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Тази програма е във формат .deb, който има най-добра интеграция със системата."
-
-msgid "Mais informações"
-msgstr "Повече информация"
-
-msgid "Voltar"
-msgstr "Обратно"
-
-msgid "Dependências a instalar"
-msgstr "Зависимости за инсталиране"
-
-msgid "Ver mais"
-msgstr "Вижте повече"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Пакети с неизпълнени зависимости "
-
-msgid "Depende de "
-msgstr "Това зависи от "
-
-msgid "mas não vai ser instalado."
-msgstr "но тя няма да бъде инсталирана."
-
-msgid "mas não está disponível"
-msgstr "но не е налична"
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Инсталационни зависимости:"
