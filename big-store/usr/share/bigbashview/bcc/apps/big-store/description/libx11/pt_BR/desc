@@ -1,0 +1,1 @@
+libx11 é uma biblioteca do lado do cliente para o protocolo X Window System, usado para criar interfaces gráficas de usuário em sistemas operacionais Unix-like. Ele permite que aplicações clientes conectem-se a um servidor X e desenhem janelas, botões e outros elementos de interface na tela. 

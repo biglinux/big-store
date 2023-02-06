@@ -1,0 +1,3 @@
+Você já precisou saber a largura de uma string unicode em um terminal? Pois bem, agora você pode usar a
+biblioteca python2-wcwidth para isso! Ela é fácil de usar e vai te ajudar a medir a largura de suas strings com precisão.Não perca mais tempo tentando fazer isso sozinho, use
+python2-wcwidth e tenha resultados confiáveis em questão de segundos.

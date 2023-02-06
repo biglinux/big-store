@@ -1,0 +1,4 @@
+ Este é um módulo para o PHP 8.2 que adiciona recursos para limpar e formatar código HTML, XML e XHTML. Ele remove tags
+desnecessárias e conserta outras que estão mal formadas, tornando seu código mais legível e fácil de manter. Com esse módulo, você pode melhorar a qualidade do seu código e evitar erros
+comuns de sintaxe.Além disso, ele também oferece opções avançadas de formatação, como configuração de tabulação e indentação, para ajudar a organizar seu código de acordo com suas
+preferências. É uma ferramenta útil para qualquer desenvolvedor PHP que deseja manter seu código limpo e organizado. 

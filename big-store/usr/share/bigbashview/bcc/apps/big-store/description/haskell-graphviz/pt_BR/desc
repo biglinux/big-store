@@ -1,0 +1,1 @@
+Esse programa é usado para visualizar gráficos utilizando o Graphviz. Ele possui bindings, ou seja, ligações, que permitem a integração com o haskell. Isso permite que você possa ver seus dados em forma de gráfico de uma maneira fácil e intuitiva. 

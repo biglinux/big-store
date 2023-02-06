@@ -1,0 +1,4 @@
+ O WSL-open é um utilitário para abrir arquivos dentro do Windows Subsystem for Linux na linha de comando de aplicativos GUI do
+Windows. Ele facilita acessar arquivos e pastas no sistema WSL sem precisar sair do ambiente de trabalho do Windows. Com ele, é possível abrir arquivos de imagem, vídeo, música, entre
+outros, usando os aplicativos padrão do Windows. Além disso, o WSL-open permite abrir pastas no Windows Explorer, facilitando a navegação e organização de arquivos. Ele é uma ferramenta
+prática para usuários que trabalham com o WSL e precisam acessar arquivos no Windows com facilidade.

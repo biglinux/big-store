@@ -1,0 +1,1 @@
+Este pacote contém ferramentas de binários para o compilador cruzado MinGW-w64. Ele inclui ferramentas como o linker e o assembler, que são essenciais para a compilação de código fonte em programas executáveis. Com este pacote, você pode compilar programas para rodar em sistemas  Windows usando o compilador MinGW-w64. 

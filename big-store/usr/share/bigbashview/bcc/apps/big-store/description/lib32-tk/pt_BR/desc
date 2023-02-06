@@ -1,0 +1,3 @@
+Este é um programa chamado lib32-tk. Ele é um kit de ferramentas para criar janelas em programas que usam a linguagem
+de programação TCL. Ele funciona como uma espécie de construtor de janelas, tornando mais fácil e rápido criar janelas para seus programas.Com ele, você pode criar janelas com botões,
+menus, caixas de texto e outros elementos interativos. Ele é especialmente útil para programadores que querem criar programas com interfaces gráficas amigáveis para o usuário.

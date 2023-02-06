@@ -1,0 +1,3 @@
+Este programa é uma implementação completa do roteador I2P escrita em C++. Ele é baseado na versão mais recente disponível no
+repositório git. Com ele, você pode navegar na rede I2P de forma segura e anônima.I2P é uma rede de comunicação privada e segura que permite a comunicação entre usuários de forma anônima e 
+segura. É usado principalmente para acessar websites e serviços de comunicação que estão disponíveis apenas dentro da rede I2P.

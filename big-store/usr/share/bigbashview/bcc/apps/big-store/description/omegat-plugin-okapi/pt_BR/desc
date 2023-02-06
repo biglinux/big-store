@@ -1,0 +1,4 @@
+Este programa é um plugin para o OmegaT, um software de tradução assistida por computador. Ele adiciona
+novos filtros de arquivo, como TTX, IDML e JSON, que permitem trabalhar com esses tipos de arquivos em conjunto com o OmegaT. Isso pode ser útil para tradutores que precisam lidar com esses
+tipos de arquivos em seu trabalho. Além disso, o plugin também oferece algumas outras funcionalidades, como a possibilidade de importar e exportar arquivos em formato JSON e a capacidade de
+trabalhar com arquivos IDML, que são usados ​​comumente em aplicativos de design gráfico.

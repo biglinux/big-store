@@ -1,0 +1,3 @@
+ Este é um módulo adicional para o PHP 8.0 que permite que o seu programa lidar com vários tipos de caracteres, como caracteres 
+UTF-8. Ele é especialmente útil para programas que lidam com idiomas diferentes. Com ele, você pode facilmente converter, cortar e formatar texto, sem se preocupar com problemas de
+codificação. O mbstring é uma escolha popular para programadores que precisam lidar com vários idiomas e scripts diferentes. 

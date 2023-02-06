@@ -1,0 +1,1 @@
+Este programa é usado para medir o desempenho de iterações por segundo em códigos escritos em Ruby. Ele pode ser usado para comparar diferentes maneiras de escrever um código e escolher a que é mais rápida e eficiente. Também pode ser útil para encontrar gargalos de desempenho em um código existente e otimizá-lo. 

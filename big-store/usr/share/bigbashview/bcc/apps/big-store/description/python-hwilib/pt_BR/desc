@@ -1,0 +1,3 @@
+A biblioteca de interface de carteira de hardware Bitcoin é uma biblioteca Python e ferramenta de linha
+de comando para interagir com carteiras de hardware. Ela permite que você envie e receba transações, gere novas chaves privadas e verifique o saldo das suas carteiras. É uma ferramenta
+importante para quem precisa armazenar suas criptomoedas de forma segura e acessí-las facilmente.

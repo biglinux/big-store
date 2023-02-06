@@ -1,0 +1,4 @@
+Este é um módulo para o nginx principal que adiciona suporte ao protocolo RTMP. Isso permite que você transmita vídeos ao vivo
+e outros conteúdos usando o nginx como servidor. É útil para quem precisa transmitir conteúdo para muitos espectadores simultaneamente, como em eventos ao vivo ou transmissões
+esportivas.Este módulo foi desenvolvido para a versão principal do nginx, então é sempre atualizado com as últimas funcionalidades e correções de segurança. Ele também é fácil de configurar
+e usar, mesmo para quem não tem muita experiência com servidores.

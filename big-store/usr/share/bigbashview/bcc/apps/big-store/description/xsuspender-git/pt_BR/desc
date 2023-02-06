@@ -1,0 +1,3 @@
+Este programa é útil para aqueles que querem economizar energia em seu computador. Ele automaticamente pausa aplicativos do X11
+que não estão sendo usados, o que significa que eles não estarão consumindo recursos do sistema e prolongará a vida útil da bateria.Isso é especialmente útil para laptops e outros
+dispositivos móveis, mas também pode ser útil em sistemas de mesa. Ele pode ser configurado para pausar aplicativos após um determinado período de inatividade.

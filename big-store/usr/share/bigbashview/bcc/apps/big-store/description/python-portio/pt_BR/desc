@@ -1,0 +1,3 @@
+Este programa permite o controle de portas de entrada e saída no sistema operacional Linux, utilizando a linguagem Python. Ele 
+é especialmente útil para desenvolvimento de projetos envolvendo hardware e automação. Com ele, é possível ler e escrever dados nas portas de forma simples e eficiente.O PortIO é específico
+para arquitetura x86 e foi desenvolvido com o objetivo de proporcionar acesso de baixo nível às portas, o que permite um maior controle e precisão na comunicação com dispositivos externos.

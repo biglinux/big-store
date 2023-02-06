@@ -1,0 +1,4 @@
+Este programa é uma ferramenta da Intel para sistemas Linux que permite extrair configurações do DPTF 
+(Dynamic Platform and Thermal Framework). Ele é usado para gerar o arquivo thermal_conf.xml, que é necessário para o funcionamento do thermald, outro utilitário para gerenciamento de
+temperatura no sistema.O dptfxtract-bin é uma ferramenta essencial para quem deseja ajustar as configurações de temperatura em um sistema baseado em Linux, especialmente se estiver usando
+hardware da Intel.

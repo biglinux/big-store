@@ -1,0 +1,3 @@
+Este programa é uma ferramenta útil para listar todos os itens secretos em um serviço de segredos usando a biblioteca
+libsecret. Com ele, você pode facilmente gerenciar suas senhas e chaves de criptografia de forma segura. Ele permite que você visualize, adicione, edite e exclua suas senhas armazenadas de 
+forma fácil e intuitiva. Além disso, oferece suporte à autenticação de dois fatores e criptografia de ponta a ponta para garantir a segurança de suas informações.

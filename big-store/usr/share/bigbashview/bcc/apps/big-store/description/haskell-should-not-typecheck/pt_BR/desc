@@ -1,0 +1,1 @@
+Esta biblioteca de afirmação HUnit/hspec verifica se uma expressão não está corretamente tipada. Ela é útil para garantir que códigos específicos não possam ser compilados, evitando erros de lógica e de programação. 

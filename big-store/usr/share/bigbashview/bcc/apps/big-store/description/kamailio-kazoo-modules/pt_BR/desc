@@ -1,0 +1,3 @@
+Este é um módulo de integração do servidor de aplicação Kazoo para o Kamailio. Ele permite que o Kamailio se conecte e comunique com o
+servidor Kazoo, fornecendo recursos adicionais para aplicações de telefonia. Com este módulo, é possível criar soluções avançadas de comunicação como discagem por meio de números de ramal, 
+transferência de chamadas, entre outras.

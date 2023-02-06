@@ -1,0 +1,1 @@
+mb2md é um script em Perl que permite a conversão de caixas de correio no formato mbox para o formato maildir. Ele pode processar uma ou mais caixas de correio mbox ao mesmo tempo e é útil para mudar configurações de e-mail ou migrar dados para outros sistemas. 

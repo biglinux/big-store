@@ -1,0 +1,3 @@
+Este programa fornece acesso limitado de linha de comando ao seu 'gnome-keyring', que é como o seu computador
+guarda informações de senha e outras informações confidenciais. Isso significa que você pode usar comandos simples para ver, adicionar ou remover informações do seu gnome-keyring sem
+precisar abrir a interface gráfica do usuário.

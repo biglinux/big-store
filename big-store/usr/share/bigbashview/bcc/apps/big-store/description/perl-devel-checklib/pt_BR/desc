@@ -1,0 +1,1 @@
+Este é um módulo para verificar se outros módulos Perl estão instalados. Ele é chamado de 'perl-devel-checklib' e é útil para garantir que todas as dependências necessárias estejam presentes antes de executar um programa Perl. 

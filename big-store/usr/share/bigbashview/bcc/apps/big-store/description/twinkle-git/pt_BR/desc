@@ -1,0 +1,3 @@
+Este programa é um cliente de chamadas de voz via SIP, ou seja, ele permite que você faça ligações de voz usando o
+protocolo SIP. Ele é baseado no projeto Twinkle, e é desenvolvido usando a plataforma git.Com ele, você pode fazer e receber chamadas, além de gerenciar sua conta SIP e configurações de
+chamadas. Ele é fácil de usar e possui uma interface intuitiva.Além disso, ele é compatível com diferentes sistemas operacionais, incluindo Windows, Linux e MacOS.

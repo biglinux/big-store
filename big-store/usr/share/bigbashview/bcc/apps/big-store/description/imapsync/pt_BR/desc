@@ -1,0 +1,1 @@
+imapsync é uma ferramenta de linha de comando que permite sincronizar ou migrar emails de um servidor de email para outro. Ele suporta o protocolo IMAP e pode copiar ou mover emails entre diferentes formatos de caixa de correio, como Maildir, mbox ou mailbox. 

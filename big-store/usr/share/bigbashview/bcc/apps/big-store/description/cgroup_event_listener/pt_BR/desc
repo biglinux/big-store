@@ -1,0 +1,1 @@
+Este programa é um ouvinte simples de eventos de cgroup. Ele permite que você acompanhe as atividades dos grupos de controle de recursos do sistema, como uso de CPU, memória e outros recursos. Ele é útil para monitorar e gerenciar o desempenho do sistema e ajudar a identificar problemas de recursos. 

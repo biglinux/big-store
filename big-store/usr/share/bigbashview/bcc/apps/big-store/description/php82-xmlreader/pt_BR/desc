@@ -1,0 +1,2 @@
+Este é um módulo para o PHP 8.2 que permite ler arquivos XML. Ele pode ser útil para extrair informações de arquivos XML grandes
+ou para percorrer elementos em um arquivo XML. Por exemplo, você pode usar o xmlreader para ler um arquivo RSS e exibir as últimas notícias em um site. 

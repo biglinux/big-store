@@ -1,0 +1,4 @@
+Com o dracut-hook, você pode instalar ou remover hooks para o dracut. O dracut é um gerador de imagem initramfs para o Linux, e
+com este gerenciador de hooks, você pode personalizar sua imagem initramfs de acordo com suas necessidades. Isso significa que você pode adicionar scripts, drivers ou outros recursos ao seu
+sistema de inicialização para garantir que tudo funcione corretamente. Se você precisa de mais flexibilidade no gerenciamento de sua imagem initramfs, o dracut-hook é uma ferramenta valiosa
+para ter em sua caixa de ferramentas. 

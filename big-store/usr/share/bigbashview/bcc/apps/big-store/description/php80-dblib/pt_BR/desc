@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 8.0 chamado dblib. Ele é usado para conectar-se a bancos de dados Microsoft SQL Server e Sybase. Com
+ele, você pode facilmente fazer operações como inserir, atualizar e recuperar dados do banco de dados. Ele é fácil de usar e é compatível com a maioria dos sistemas operacionais. Se você
+precisa trabalhar com bancos de dados Microsoft SQL Server ou Sybase e está usando o PHP 8.0, este módulo é uma ótima escolha.

@@ -1,0 +1,1 @@
+Este programa fornece módulos para a funcionalidade SMAPI do ThinkPad. SMAPI é uma API para acesso a recursos adicionais de bateria de alguns modelos de ThinkPad. Com estes módulos, você pode acessar informações sobre a bateria e controlar sua carga. Ele é compatível com o sistema operacional linux62. 

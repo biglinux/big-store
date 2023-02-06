@@ -1,0 +1,1 @@
+Os pacotes de transferência de protótipo do Xorg são uma coleção de arquivos de definição de protocolo que ajudam a garantir a compatibilidade entre diferentes versões do sistema Xorg. Eles incluem definições para protocolos como X11, GLX e outros, e são usados pelo sistema Xorg para garantir que os programas possam se comunicar corretamente com o servidor Xorg. 

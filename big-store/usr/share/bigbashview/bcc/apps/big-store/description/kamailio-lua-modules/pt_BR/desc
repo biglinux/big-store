@@ -1,0 +1,4 @@
+Este é um módulo de extensão para o Kamailio que adiciona suporte ao Lua. Com ele, é possível escrever regras e scripts para o
+Kamailio usando a linguagem Lua, que é uma linguagem de programação simples e fácil de aprender. Isso permite que você personalize e automatize as tarefas do Kamailio de acordo com suas
+necessidades específicas. Além disso, o módulo Lua para Kamailio oferece uma interface de programação de aplicativos (API) para acessar as funcionalidades do Kamailio, como a manipulação de
+sessões e a configuração de rotas de chamadas. Isso significa que os desenvolvedores podem criar aplicativos personalizados que funcionam em conjunto com o Kamailio.

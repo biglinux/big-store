@@ -1,0 +1,1 @@
+Essa biblioteca foi criada para ser usada em sistemas embarcados, como o ARM bare metal. Ela é uma implementação da biblioteca padrão C e tem como objetivo tornar o desenvolvimento de aplicações para esses sistemas mais fácil e eficiente.A biblioteca é chamada arm-none-eabi-newlib e é uma opção popular entre desenvolvedores que trabalham com sistemas embarcados. 

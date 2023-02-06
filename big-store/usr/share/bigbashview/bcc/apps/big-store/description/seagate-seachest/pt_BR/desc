@@ -1,0 +1,2 @@
+A suite Seagate SeaChest inclui Basics Configure (sctReadTimer, TLER, writecache), Erase (secure, trim), Firmware (update), Format
+(setSectorSize), GenericTests, Info, Lite, PowerControl, SMART e Security. Antes conhecido como Seaflashlin.

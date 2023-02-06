@@ -1,0 +1,4 @@
+Esse é um programa para gerenciar atalhos (symlinks) no seu computador. Ele é usado pelo linha de comando e
+tem uma estrutura para ajudar a organizar esses atalhos. Ele é chamado de 'pilgo' e pode ser usado para criar, remover e gerenciar atalhos em seu computador. É possível usar o 'pilgo' para 
+criar vários atalhos de uma só vez, usando uma configuração. Isso pode ser útil se você precisar criar muitos atalhos em diferentes lugares do seu computador. Além disso, o 'pilgo' pode ser
+usado para remover atalhos que você não precisa mais, ou para gerenciar atalhos existentes de uma maneira mais fácil.

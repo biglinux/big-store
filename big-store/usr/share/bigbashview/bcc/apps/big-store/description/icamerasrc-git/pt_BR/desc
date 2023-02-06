@@ -1,0 +1,3 @@
+Este programa é uma fonte de câmera Intel IPU6 para o GStreamer. Ele permite que você use sua câmera Intel IPU6 com
+o GStreamer, um framework de fluxo de mídia popular. Isso significa que você pode usar essa fonte de câmera com outros programas que usam o GStreamer, como o VLC, para transmitir ou gravar 
+vídeo. Além disso, você pode ajustar configurações de câmera como brilho, contraste e saturação usando essa fonte de câmera.

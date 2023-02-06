@@ -1,0 +1,4 @@
+O módulo ctype é uma extensão para o PHP 7.4 que fornece funções para verificar o tipo de caracteres. Ele oferece uma série de
+funções que podem ser usadas para verificar se um caractere é alfanumérico, alfabético, numérico, entre outros tipos. Essas funções são úteis para validação de dados de entrada, como
+formulários, por exemplo.Algumas das funções incluídas no módulo ctype são: ctype_alnum, ctype_alpha, ctype_digit, entre outros. Elas podem ser usadas para verificar se um dado é
+alfanumérico, alfabético, numérico, respectivamente.

@@ -1,0 +1,4 @@
+Este é um módulo específico para o PHP 7.2 que permite que arquivos sejam armazenados e distribuídos como um único arquivo, chamado 
+de arquivo Phar. Isso facilita a distribuição e implantação de aplicativos PHP, pois tudo o que é necessário é um único arquivo para ser enviado e instalado. Além disso, arquivos Phar
+também podem ser protegidos com assinaturas digitais para garantir sua autenticidade e integridade. Este módulo específico para PHP 7.2 é uma atualização para versões anteriores e inclui
+novas funcionalidades e correções de bugs.

@@ -1,0 +1,1 @@
+Existe uma biblioteca chamada python-pdfrw que permite a geração de arquivos PDF a partir de texto no formato restructured text. Isso é feito através do uso da biblioteca reportlab. Assim, é possível converter textos escritos em uma estrutura específica para o formato de arquivo PDF, o que é útil em diversas situações, como a geração de relatórios ou documentação. 

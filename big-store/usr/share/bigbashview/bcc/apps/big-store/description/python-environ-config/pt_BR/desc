@@ -1,0 +1,5 @@
+ Este programa ajuda você a configurar sua aplicação Python usando variáveis de ambiente. Isso é 
+útil quando você quer manter as configurações da sua aplicação fora do código fonte, o que facilita a manutenção e a segurança. Com esse programa, você pode facilmente configurar coisas
+como endereços de banco de dados, chaves de API e outros parâmetros importantes. Além disso, ele é fácil de usar e segue as boas práticas recomendadas pelos desenvolvedores Python. Para
+usar esse programa, você precisa criar variáveis de ambiente com as configurações desejadas e, em seguida, usar a biblioteca python-environ-config para ler essas variáveis ​​e configurar sua 
+aplicação. Ele suporta vários tipos de valores, como números, strings e booleanos, e fornece erros claros quando as variáveis ​​necessárias não estão definidas. 

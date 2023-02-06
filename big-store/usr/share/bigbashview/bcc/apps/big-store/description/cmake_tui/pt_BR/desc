@@ -1,0 +1,3 @@
+O CMake é um sistema de gerenciamento de compilação que ajuda a criar programas para diferentes sistemas
+operacionais e plataformas. O CMake_tui é uma ferramenta que permite configurar o CMake através de uma interface de usuário no terminal, em vez de editar arquivos de configuração
+manualmente. Isso facilita o processo de configuração e torna mais fácil para usuários sem conhecimento avançado de configuração usarem o CMake.

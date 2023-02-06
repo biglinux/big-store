@@ -1,0 +1,4 @@
+Este programa é chamado xdg-open-server e ele ajuda a abrir arquivos e links diretamente dentro dos seus contêineres
+Docker. Isso pode ser útil se você estiver trabalhando com vários contêineres e precisar acessar arquivos ou links específicos sem sair do seu ambiente Docker.Ele usa o protocolo
+xdg-open, que é padrão para abrir arquivos e links no Linux e no Unix. Isso significa que ele se integra perfeitamente à sua configuração atual e pode ser usado como uma ferramenta
+adicional em sua operação com contêineres Docker.

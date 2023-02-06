@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.2 que permite a utilização de extensões XSL. O XSL é um linguagem de estilo para XML que permite
+transformar documentos XML em outros formatos, como HTML ou PDF. Com este módulo, desenvolvedores podem criar aplicações PHP que utilizam XSL para processar e exibir dados XML de forma
+flexível.Este módulo é uma adição valiosa para qualquer projeto PHP que lidar com dados XML, permitindo aos desenvolvedores trabalhar com esses dados de maneira mais eficiente e flexível.

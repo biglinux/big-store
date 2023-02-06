@@ -1,0 +1,1 @@
+Este programa é usado para medir as respostas impulsivas de um sistema. Isso é feito enviando uma varredura senoidal através do sistema e, em seguida, usando desconvolução para calcular a resposta impulsiva original do sistema. Isso é útil para avaliar a acústica de uma sala, por exemplo, ou para otimizar o desempenho de um sistema de som. 

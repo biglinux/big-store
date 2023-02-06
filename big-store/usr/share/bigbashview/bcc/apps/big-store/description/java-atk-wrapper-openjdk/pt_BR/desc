@@ -1,0 +1,1 @@
+Este é um wrapper para acesso de leitor de tela em aplicações Java Swing desenvolvido com o OpenJDK 18. Ele permite que usuários com deficiência visual possam usar aplicativos Java Swing de forma acessível, através de leitores de tela. Isso é importante para garantir a inclusão de todos os usuários e tornar a experiência de usuário mais agradável. 

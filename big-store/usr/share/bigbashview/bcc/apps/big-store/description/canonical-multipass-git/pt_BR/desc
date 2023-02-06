@@ -1,0 +1,4 @@
+ Multipass é um programa que permite gerenciar máquinas virtuais Ubuntu de forma fácil e rápida. Ele foi desenvolvido
+pela Canonica, e é baseado em Git, o que permite que ele seja facilmente integrado em outros programas e sistemas. Com o Multipass você pode criar, gerenciar e apagar máquinas virtuais
+Ubuntu com apenas alguns cliques, sem precisar se preocupar com configurações complexas. Além disso, ele também permite que você faça backup de suas máquinas virtuais e as compartilhe com
+outros usuários.

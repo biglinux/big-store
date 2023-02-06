@@ -1,0 +1,4 @@
+Esse é um módulo para o programa Kamailio que adiciona suporte ao uso de um cache. Ele permite armazenar informações em um
+banco de dados de memória, o que pode aumentar a velocidade de processamento e reduzir a carga no servidor. Isso pode ser especialmente útil em situações onde há muitas requisições
+idênticas sendo feitas.O módulo se conecta a um servidor memcached para armazenar e recuperar dados. Ele pode ser configurado para armazenar diferentes tipos de informações, como por
+exemplo, dados de usuários ou informações de sessão.

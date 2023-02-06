@@ -1,0 +1,1 @@
+O pacote multipath-tools contém uma série de ferramentas para gerenciar dispositivos multipath no Linux. O pacote inclui a ferramenta kpartx, que pode ser usada para criar mapeamentos de dispositivos para partições em dispositivos multipath. O pacote também inclui outras ferramentas para configurar e gerenciar  dispositivos multipath, como multipath e multipathd. 

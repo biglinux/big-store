@@ -1,0 +1,1 @@
+unifdef é um programa que remove linhas de código que foram desativadas com a diretiva #ifdef. Isso pode ser útil para limpar o código e deixá-lo mais fácil de entender e manter. 

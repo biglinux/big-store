@@ -1,0 +1,1 @@
+udisks2-qt5 é um vínculo para as interfaces DBus do udisks2 usando Qt5. Ele permite uma fácil integração da funcionalidade de gerenciamento de disco em aplicativos Qt5. Ele fornece uma API simples para gerenciar e interagir com dispositivos de armazenamento em um sistema Linux. 

@@ -1,0 +1,4 @@
+Este é um programa chamado php74-fpm, ele é um gerenciador de processos FastCGI para a versão 7.4 do PHP. Ele
+ajuda a gerenciar como o PHP é executado no servidor, garantindo que as páginas carreguem rapidamente para os visitantes. É uma ferramenta importante para quem está usando o PHP para
+desenvolver sites e aplicativos.Com o php74-fpm, você pode gerenciar vários processos PHP ao mesmo tempo, o que significa que vários usuários podem acessar o site ou aplicativo ao mesmo
+tempo sem problemas de desempenho. Ele também ajuda a melhorar a segurança, pois você pode limitar as permissões de cada processo PHP individualmente.

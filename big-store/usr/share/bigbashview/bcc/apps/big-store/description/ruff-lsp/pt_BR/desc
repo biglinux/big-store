@@ -1,0 +1,1 @@
+ruff-lsp é uma implementação do Language Server Protocol (LSP) para o Ruff, uma linguagem de programação para a Internet das Coisas. Ele fornece recursos como conclusão de código, verificação de erros e informações de hover para o código Ruff. O pacote é fácil de instalar e usar, tornando-o uma ótima ferramenta para os desenvolvedores Ruff. 

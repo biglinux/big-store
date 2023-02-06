@@ -1,0 +1,1 @@
+Este programa é uma interface de linha de comando para os dispositivos de segurança Nitrokey FIDO2 e Nitrokey Start. Ele permite acessar e gerenciar as informações armazenadas nestes dispositivos através de comandos simples e fáceis de usar. Ele é escrito em Python e utiliza a biblioteca pynitrokey para se comunicar com os dispositivos. 

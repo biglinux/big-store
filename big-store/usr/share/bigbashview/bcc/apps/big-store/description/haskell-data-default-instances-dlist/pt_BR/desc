@@ -1,0 +1,1 @@
+Este pacote fornece instâncias padrão para tipos em dlist (double linked list) em Haskell. Isso permite que esses tipos sejam usados ​​de forma mais conveniente com outras bibliotecas e ferramentas que esperam essas instâncias. 

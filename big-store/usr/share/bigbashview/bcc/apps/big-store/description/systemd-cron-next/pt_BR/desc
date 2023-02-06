@@ -1,0 +1,4 @@
+Com o systemd-cron-next, você pode criar timers e serviços a partir de arquivos crontab e anacrontab. Isso
+significa que você pode programar tarefas para serem executadas automaticamente em determinados horários e dias, sem precisar fazer isso manualmente.Por exemplo, você pode configurar o
+backup do seu banco de dados para acontecer todos os dias às 3h da manhã, ou fazer com que seu computador desligue automaticamente à meia-noite. Tudo isso é possível com o
+systemd-cron-next.

@@ -1,0 +1,3 @@
+ O plugin Bareos para Python é uma ferramenta para usar com o Bareos, que é um software de backup, arquivamento e
+recuperação de código aberto. Este plugin específico é para o File daemon do Bareos e foi criado usando a biblioteca Libcloud. Ele permite que você faça backups de arquivos em nuvem usando 
+o Bareos.

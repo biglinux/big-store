@@ -1,0 +1,1 @@
+O pacote 'haskell-ordered-containers' oferece tipos de conjunto e mapa que se lembram da ordem em que os elementos foram inseridos. Isso pode ser útil em situações onde é importante manter a ordem original dos elementos. 

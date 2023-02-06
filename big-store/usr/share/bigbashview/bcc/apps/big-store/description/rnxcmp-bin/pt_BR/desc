@@ -1,0 +1,3 @@
+Este programa foi desenvolvido por Y. Hatanaka da GSI e tem como objetivo comprimir e restaurar arquivos de
+observação RINEX. Esses arquivos contêm informações precisas sobre a posição do satélite e a precisão do relógio, e são usados para calcular a posição precisa de um usuário. Com a
+compressão, é possível economizar espaço em disco e tempo de transferência de dados, enquanto a restauração permite que esses arquivos sejam utilizados novamente.

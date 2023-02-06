@@ -1,0 +1,1 @@
+Este é um pacote para usar em seus programas escritos em Go (golang). Ele permite que você adicione comandos e flags à sua linha de comando, facilitando a interação com seu programa. Ele é chamado de golang-gopkg-alecthomas-kingpin.v2 e foi criado por alecthomas. 

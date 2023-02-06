@@ -1,0 +1,2 @@
+Este programa é chamado Bareos, ele é usado para fazer backups, arquivar e recuperar arquivos. Ele é open source, o que significa
+que qualquer pessoa pode usá-lo e modificá-lo. Este programa também tem suporte para FIFO, o que significa que ele pode armazenar arquivos em uma ordem específica.

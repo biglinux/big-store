@@ -1,0 +1,1 @@
+Essa biblioteca é útil para a internacionalização em Lua 5.1. Ela permite que você crie códigos com strings em diversos idiomas, facilitando a adaptação do seu programa para diferentes culturas e países.A biblioteca lua51-say é específica para a versão 5.1 do Lua, então tenha certeza de estar utilizando a versão correta antes de implementá-la em seu projeto. 

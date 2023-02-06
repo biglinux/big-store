@@ -1,0 +1,3 @@
+ Este programa é um depurador interativo para a versão PHP73. Ele permite que você execute seu código PHP passo a passo,
+inspecionando variáveis e entendendo melhor como o código está funcionando. Ele é útil para encontrar erros e melhorar o desempenho do seu código.Com esse programa, você pode pausar a
+execução do código em pontos específicos e examinar o estado da sua aplicação, facilitando a depuração e otimização do código. 

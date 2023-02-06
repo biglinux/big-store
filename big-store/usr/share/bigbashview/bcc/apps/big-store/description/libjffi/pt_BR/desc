@@ -1,0 +1,4 @@
+Libjffi é um programa que permite a integração de Java com a biblioteca libffi. Isso significa que é possível chamar funções de
+outras linguagens de programação diretamente a partir de código Java. Isso é útil para quem precisa se comunicar com outros programas ou sistemas que não foram escritos em Java.Além disso, 
+libjffi também permite que você chame funções nativas de outras linguagens de programação diretamente a partir de código Java. Isso é útil para acelerar certas operações que não são
+possíveis de serem feitas diretamente em Java.

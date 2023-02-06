@@ -1,0 +1,4 @@
+O Kamailio é um software de roteamento SIP (Session Initiation Protocol) que permite a construção de sistemas escaláveis e de
+alta disponibilidade. Esses módulos RADIUS adicionam suporte a autenticação e autorização baseadas em RADIUS para o Kamailio, permitindo que os administradores usem um banco de dados
+externo de usuários e senhas para controlar o acesso aos recursos SIP.Os módulos também incluem suporte a contabilidade RADIUS, permitindo que os administradores rastreiem o uso de recursos
+SIP e gerem relatórios de uso.

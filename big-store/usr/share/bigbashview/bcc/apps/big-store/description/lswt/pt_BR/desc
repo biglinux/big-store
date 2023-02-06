@@ -1,0 +1,3 @@
+Este programa tem como objetivo listar as janelas atuais no sistema utilizando o protocolo Wayland. Ele exibe os títulos das janelas
+e outras informações relevantes para o usuário, como se a janela está ativa ou minimizada. Isso pode ser útil para gerenciar as janelas abertas no seu ambiente de trabalho e para encontrar 
+rapidamente uma janela específica.Além disso, o programa também permite que o usuário execute ações como minimizar, maximizar e fechar janelas diretamente a partir da lista exibida.

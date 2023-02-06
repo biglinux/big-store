@@ -1,0 +1,2 @@
+Este programa é chamado de simple-tls-bin. Ele é um túnel seguro para o tráfego TCP. Ele usa a versão mais recente do TLS, que é a
+1.3. Isso significa que ele mantém suas informações seguras enquanto elas passam por ele. Ele é fácil de usar e é útil para quem precisa de mais segurança em suas comunicações online.

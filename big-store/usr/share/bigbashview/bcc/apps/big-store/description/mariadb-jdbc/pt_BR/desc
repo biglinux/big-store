@@ -1,0 +1,3 @@
+Com o MariaDB Connector/J, é possível conectar-se facilmente aos bancos de dados MariaDB e MySQL usando a linguagem de
+programação Java. Este pacote fornece uma biblioteca Java que pode ser facilmente integrada a qualquer aplicação Java para se conectar e interagir com esses bancos de dados. Com ele, é
+possível realizar operações como inserir, atualizar, selecionar e excluir dados, além de gerenciar transações e outras funcionalidades comuns de bancos de dados.

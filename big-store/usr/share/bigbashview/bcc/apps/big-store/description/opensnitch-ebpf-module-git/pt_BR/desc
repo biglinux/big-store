@@ -1,0 +1,5 @@
+O opensnitch-ebpf-module-git é um módulo de monitoramento de processos que utiliza a tecnologia eBPF (extended
+Berkeley Packet Filter) para o software de segurança opensnitch. Ele permite uma melhor monitoração e controle de processos em seu dispositivo, ajudando a protegê-lo contra ameaças
+externas.O módulo também oferece recursos adicionais, como a capacidade de criar regras personalizadas para diferentes processos e acompanhar as atividades de rede de um processo
+específico.Em resumo, o opensnitch-ebpf-module-git é uma ferramenta valiosa para melhorar a segurança do seu dispositivo e garantir que somente os processos confiáveis estejam em
+execução. 

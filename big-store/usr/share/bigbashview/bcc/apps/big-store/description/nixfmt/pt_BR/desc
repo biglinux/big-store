@@ -1,0 +1,3 @@
+Este programa tem como objetivo deixar o código escrito em Nix mais organizado e fácil de ler. Ele funciona
+automaticamente, identificando e corrigindo erros de formatação no código. Com ele, é possível garantir que todas as partes do código estejam seguindo as mesmas regras de estilo, tornando-o
+mais fácil de ler e entender para qualquer pessoa que precise trabalhar com ele.

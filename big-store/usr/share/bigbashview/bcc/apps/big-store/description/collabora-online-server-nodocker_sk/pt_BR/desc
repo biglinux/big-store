@@ -1,0 +1,3 @@
+Este programa é um servidor de colaboração online que não precisa de Docker para funcionar. Ele permite que várias 
+pessoas trabalhem juntas em um documento ou projeto ao mesmo tempo, de qualquer lugar e em qualquer dispositivo. Com ele, é possível criar, editar e compartilhar arquivos, além de conversar
+com outros usuários em tempo real. É uma ótima opção para equipes que precisam trabalhar de forma colaborativa, mas não querem se preocupar com a configuração de um ambiente Docker.

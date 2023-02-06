@@ -1,0 +1,1 @@
+grcov é uma ferramenta escrita em Rust que permite coletar e agregar dados de cobertura de código para múltiplos arquivos de origem. Ele é projetado para ser rápido e escalável, e suporta vários formatos de saída, como lcov e cobertura. 

@@ -1,0 +1,1 @@
+Este programa é uma biblioteca de acesso para a interface Intel CSME HECI. Ele permite que outros programas comuniquem com a interface de gerenciamento de segurança integrada da Intel (HECI) para realizar tarefas como configuração, gerenciamento e monitoramento de segurança. 

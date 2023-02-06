@@ -1,0 +1,4 @@
+Este programa é um servidor da plataforma Collabora Online, que permite a colaboração em documentos online. Ele é
+projetado para funcionar sem a necessidade de utilizar o Docker, tornando-o mais acessível para usuários que não tenham experiência com esse tipo de ferramenta.Com este servidor, é possível
+trabalhar em documentos em tempo real com outras pessoas, compartilhar ideias e editar arquivos de forma eficiente e simples. Além disso, ele oferece uma interface intuitiva e fácil de usar
+para todos os usuários, independentemente de sua habilidade técnica.

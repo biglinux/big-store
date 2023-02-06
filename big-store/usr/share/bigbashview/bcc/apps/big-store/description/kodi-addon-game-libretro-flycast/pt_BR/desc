@@ -1,0 +1,1 @@
+Esse é um programa chamado kodi-addon-game-libretro-flycast. Ele é um 'wrapper', ou seja, ele serve como uma camada adicional para outro programa. Neste caso, ele se conecta ao Game API do Kodi (um programa para assistir vídeos e jogar jogos em sua TV ou computador) e permite que você use jogos que foram feitos para outro emulador chamado Libretro. 

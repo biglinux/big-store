@@ -1,0 +1,3 @@
+Este programa ajuda a construir uma imagem do sistema operacional Arch para ser usada no Google Compute Engine. Isso permite
+que você tenha um sistema operacional personalizado em suas máquinas virtuais no GCE. Com ele, você pode escolher quais pacotes incluir na imagem, o que ajuda a manter o tamanho da imagem o
+mais pequeno possível. É uma ótima opção para quem precisa de um sistema operacional leve e personalizado para suas necessidades específicas no GCE.

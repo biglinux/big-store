@@ -1,0 +1,1 @@
+Este programa é para autenticar arquivos tar (arquivos compactados) através de uma tag assinada em um repositório git. Ele também suporta construções reproduzíveis, o que significa que você pode ter certeza de que o arquivo tar é o mesmo que foi originalmente criado e não foi alterado. 

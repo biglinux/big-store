@@ -1,0 +1,4 @@
+Com tecnologias da web, você pode criar aplicativos desktop que funcionem em diferentes sistemas operacionais. A versão 11
+do Electron é a versão binária, o que significa que você pode começar a criar seus aplicativos imediatamente, sem precisar compilar o código do programa. Com o Electron, você pode
+aproveitar a facilidade do desenvolvimento web para criar aplicativos de desktop de alta qualidade, que sejam compatíveis com Windows, MacOS e Linux. Além disso, o Electron permite que você
+tenha acesso a recursos do sistema, como câmera, microfone e outros, para criar aplicativos mais interativos. 

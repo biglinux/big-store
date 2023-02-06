@@ -1,0 +1,1 @@
+O p11-kit é uma biblioteca que ajuda a carregar e enumerar módulos PKCS#11 de forma consistente, independentemente do sistema operacional ou configuração. Ele também fornece ferramentas para gerenciar e usar chaves criptográficas em hardware seguro (HSM). 

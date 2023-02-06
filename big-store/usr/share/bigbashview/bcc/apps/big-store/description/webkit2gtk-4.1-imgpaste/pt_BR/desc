@@ -1,0 +1,3 @@
+Este programa é uma extensão para o webkit2gtk e permite colar imagens diretamente da área de transferência para a
+página web que você estiver visualizando. Ele adiciona recursos adicionais ao webkit2gtk, um motor de conteúdo web usado em aplicativos GTK, para tornar a colagem de imagens mais fácil e
+rápida.

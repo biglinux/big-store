@@ -1,0 +1,4 @@
+ tcptraceroute é uma ferramenta utilizada para descobrir o caminho que um pacote de dados percorre em uma rede. Ele
+funciona enviando pacotes TCP para o destino desejado e registrando cada salto (roteador) que o pacote passa até chegar ao destino final. Com isso, é possível identificar problemas de
+conectividade ou lentidão em uma rede. A diferença entre tcptraceroute e outras ferramentas de rastreamento de rotas é que ele utiliza pacotes TCP ao invés de pacotes ICMP, o que permite
+obter mais informações precisas sobre a rota percorrida.

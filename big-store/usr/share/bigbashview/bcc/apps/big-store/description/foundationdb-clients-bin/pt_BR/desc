@@ -1,0 +1,2 @@
+O FoundationDB é um banco de dados escalável, tolerante a falhas e ordenado com chave-valor, com transações
+completas e ACID. Este pacote contém utilitários e bibliotecas para clientes.

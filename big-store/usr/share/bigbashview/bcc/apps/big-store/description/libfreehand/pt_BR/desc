@@ -1,0 +1,1 @@
+libfreehand é uma biblioteca para importar documentos Aldus/Macromedia/Adobe FreeHand. Ele pode lidar com ambos os formatos antigos FreeHand 7 e os novos FreeHand MX. A biblioteca é escrita em C++ e é utilizável a partir de C, C++ e Python. Ele é lançado sob a licença LGPL. 

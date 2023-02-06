@@ -1,0 +1,3 @@
+Esse programa é capaz de transformar texto escrito em Unicode em arquivos no formato PDF e Postscript. Ele utiliza a
+biblioteca Pango para realizar essa conversão. É importante mencionar que esse programa é útil para quem precisa criar documentos com caracteres especiais, como símbolos matemáticos ou
+idiomas diferentes do inglês.

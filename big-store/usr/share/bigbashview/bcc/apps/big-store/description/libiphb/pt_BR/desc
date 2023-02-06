@@ -1,0 +1,3 @@
+Este programa é chamado 'libiphb' e ele ajuda a controlar os batimentos de IP. O que isso significa é que ele verifica se seu
+dispositivo está conectado à internet e, se não estiver, ele tenta reconectá-lo automaticamente.É útil para garantir que você sempre tenha acesso à internet, especialmente em lugares onde a
+conexão pode ser instável.

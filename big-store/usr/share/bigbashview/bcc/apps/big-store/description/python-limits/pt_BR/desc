@@ -1,0 +1,3 @@
+ Este programa é útil para implementar limites de velocidade em seus projetos em Python. Ele permite que você defina
+limites de velocidade para evitar sobrecarga de sistemas ou abuso de uso.Por exemplo, você pode usá-lo para limitar o número de solicitações de API por minuto de um usuário específico.
+Isso ajuda a garantir que seu sistema continue funcionando corretamente e evita problemas de desempenho. 

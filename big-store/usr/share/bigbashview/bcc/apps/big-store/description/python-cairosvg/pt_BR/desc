@@ -1,0 +1,1 @@
+Este programa é um conversor de arquivos SVG que utiliza a biblioteca Cairo. Ele permite exportar arquivos SVG para formatos PDF, PostScript e PNG. Ele é escrito em Python e se chama python-cairosvg.  

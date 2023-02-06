@@ -1,0 +1,3 @@
+Este programa, chamado jid-bin, é uma ferramenta que ajuda a extrair informações de arquivos JSON. Ele funciona de forma
+incremental, o que significa que você pode escolher quais dados deseja extrair e ele irá buscá-los para você. É uma ótima opção para quem precisa trabalhar com grandes quantidades de
+informações em formato JSON e quer uma maneira fácil e rápida de acessá-las.

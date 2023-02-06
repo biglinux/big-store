@@ -1,0 +1,1 @@
+ruby-mixlib-cli é um mixin simples para criar interfaces de linha de comando (CLI) em Ruby. Ele fornece uma maneira fácil de analisar opções e argumentos de linha de comando e gerar mensagens de ajuda. Ele é projetado para ser usado como um mixin, então pode ser facilmente adicionado a qualquer classe. Ele é compatível com as versões 2.0 e posteriores do Ruby.  

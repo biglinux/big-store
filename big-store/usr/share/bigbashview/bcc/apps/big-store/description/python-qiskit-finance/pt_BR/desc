@@ -1,0 +1,4 @@
+Este é um pacote de finanças quânticas para o framework IBM qiskit. Ele permite que você explore novas possibilidades em
+finanças usando ferramentas de computação quântica. Com ele, você pode simular diferentes cenários financeiros e tomar decisões baseadas em resultados precisos e confiáveis. Esse pacote é
+escrito em Python e é fácil de usar, mesmo para aqueles que não possuem conhecimento avançado em computação quântica. Ele também é compatível com o framework IBM qiskit, o que significa que
+você pode combinar as habilidades de computação quântica com as ferramentas de programação que já conhece.

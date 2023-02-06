@@ -1,0 +1,1 @@
+Com o lua-loadkit, você pode facilmente carregar arquivos personalizados dentro do caminho de pacote Lua. Isso significa que você pode adicionar suas próprias bibliotecas e módulos para serem usados ​​em seus scripts Lua sem precisar mexer no código fonte do Lua. É uma ferramenta útil para quem trabalha com essa linguagem de programação. 

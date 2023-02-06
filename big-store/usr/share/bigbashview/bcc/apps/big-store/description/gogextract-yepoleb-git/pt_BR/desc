@@ -1,0 +1,3 @@
+Este programa permite separar os arquivos contidos em um pacote do formato gog, conhecido como mojo. Ele é especialmente útil 
+para aqueles que desejam extrair jogos ou aplicativos adquiridos através da plataforma gog.com sem precisar instalá-los completamente em seu dispositivo. O programa é baseado em um script
+em Python chamado gogextract e é compatível com sistemas operacionais Windows, Mac e Linux.

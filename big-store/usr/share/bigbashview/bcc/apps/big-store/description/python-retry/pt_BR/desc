@@ -1,0 +1,3 @@
+ Este programa é um decorador para funções em Python que permite tentar a execução da função várias vezes em caso de 
+falha. É fácil de usar, basta adicionar @retry acima da função que deseja tentar executar novamente em caso de falha. Além disso, você pode especificar o número de tentativas e o tempo
+entre elas. 

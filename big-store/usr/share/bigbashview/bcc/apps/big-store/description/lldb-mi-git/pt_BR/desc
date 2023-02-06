@@ -1,0 +1,3 @@
+Esse programa é um driver de interface de máquina para o LLDB. Ele permite que o LLDB se comunique com o GDB, o que é
+útil para depuração de códigos em diferentes plataformas. Ele também oferece recursos adicionais, como suporte a breakpoints condicionais e watchpoints. Esse driver é desenvolvido como um
+fork do driver original do LLDB, e é distribuído sob a licença MIT.

@@ -1,0 +1,1 @@
+libwslay é uma biblioteca de WebSocket que fornece uma camada de implementação de baixo nível para aplicativos WebSocket. Ele é projetado para ser usado com eventos assíncronos e pode ser usado com qualquer evento de soquete de biblioteca, como libevent ou libev. 

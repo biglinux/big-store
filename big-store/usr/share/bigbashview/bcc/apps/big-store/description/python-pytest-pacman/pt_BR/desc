@@ -1,0 +1,1 @@
+Este é um programa que ajuda a configurar os testes automatizados para o gerenciador de pacotes do sistema operacional Arch Linux, chamado Pacman. Ele utiliza a biblioteca Pytest e cria uma 'fixture' para que os testes possam ser executados de forma mais fácil e consistente. 

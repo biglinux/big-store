@@ -1,0 +1,3 @@
+Este é um repositório de programas que contém ferramentas experimentais para trabalhar com sistemas de arquivos
+APFS no Linux. Ele inclui utilitários para criar, modificar e verificar discos APFS. Este é um projeto em desenvolvimento e não deve ser usado em sistemas de produção.Lembre-se de que essas
+ferramentas são experimentais e podem causar danos aos seus arquivos, use por sua conta e risco. Esteja sempre seguro, faça backups antes de usar essas ferramentas.

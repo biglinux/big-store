@@ -1,0 +1,1 @@
+O haskell-tagstream-conduit é um analisador de tags HTML otimizado, ele é capaz de processar grandes quantidades de dados de tags HTML de maneira rápida e eficiente. Ele é escrito em Haskell e usa a biblioteca Conduit para gerenciar fluxos de dados. É uma ferramenta útil para qualquer pessoa que precise trabalhar com dados de tags HTML em grande escala. 

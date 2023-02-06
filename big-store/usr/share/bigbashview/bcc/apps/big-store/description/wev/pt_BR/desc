@@ -1,0 +1,3 @@
+Esta é uma ferramenta útil para depurar eventos Wayland, que é similar ao xev. Ele permite que você veja as
+informações sobre os eventos que estão acontecendo no seu ambiente Wayland, como cliques de mouse, teclas pressionadas e outras ações do usuário. Isso pode ser útil para desenvolvedores que
+estão trabalhando em aplicativos Wayland ou para usuários que querem entender melhor como o seu ambiente está funcionando.

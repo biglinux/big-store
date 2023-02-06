@@ -1,0 +1,4 @@
+Esse programa ajuda a completar automaticamente os pares de comandos na linha de comando Fish. Isso significa que,
+quando você digita um caractere de abertura, como uma aspa ou parêntese, o programa automaticamente adicionará o caractere correspondente de fechamento. Isso pode economizar muito tempo e
+evitar erros comuns, como esquecer de adicionar aspas ou parênteses.Além disso, ele também ajuda a manter seu código organizado e fácil de ler, pois os caracteres de fechamento são
+adicionados automaticamente, então você não precisa se preocupar em adicioná-los manualmente. 

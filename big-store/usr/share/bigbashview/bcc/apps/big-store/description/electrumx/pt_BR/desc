@@ -1,0 +1,3 @@
+Este programa é uma implementação de servidor para a carteira de bitcoin chamada Electrum. Com ele, você pode facilmente
+acessar suas moedas digitais sem precisar baixar toda a cadeia de blocos do bitcoin. Basta se conectar ao servidor que você já terá acesso à sua carteira e ao seu saldo. É uma maneira
+rápida e segura de gerenciar seus bitcoins. 

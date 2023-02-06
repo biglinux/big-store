@@ -1,0 +1,2 @@
+ Este programa é uma aplicação minimalista feita com Electron que permite controlar o processador Ryzen através de uma
+interface amigável. Ele usa o ryzenAdj para ajustar as configurações do processador de forma fácil e intuitiva. 

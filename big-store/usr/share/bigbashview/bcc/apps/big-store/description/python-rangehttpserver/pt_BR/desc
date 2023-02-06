@@ -1,0 +1,1 @@
+Este programa é um servidor HTTP simples escrito em Python. Ele suporta solicitações de faixa, o que significa que ele pode enviar partes específicas de um arquivo ao invés de enviar o arquivo inteiro. Isso pode ser útil em situações em que o arquivo é muito grande para ser enviado de  uma só vez ou quando você deseja economizar banda. 

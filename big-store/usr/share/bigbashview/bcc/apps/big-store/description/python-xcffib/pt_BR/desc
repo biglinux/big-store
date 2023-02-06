@@ -1,0 +1,1 @@
+O python-xcffib é uma biblioteca de vinculação do Python3 para o protocolo XCB, que é uma interface de baixo nível para o sistema de janelas X. Ele é projetado como uma substituição drop-in para o xpyb, outra biblioteca de vinculação do XCB para o Python. Com o python-xcffib, você pode escrever aplicativos X usando Python de maneira fácil e rápida. 

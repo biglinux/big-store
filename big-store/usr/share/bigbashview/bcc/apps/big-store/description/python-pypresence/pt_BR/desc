@@ -1,0 +1,4 @@
+Esta é uma biblioteca que ajuda a integrar seu programa com o Discord. Ela permite que você mostre informações sobre o
+seu programa, como o título da música que você está ouvindo, diretamente no Discord. Além disso, ela também permite que você mostre uma imagem personalizada, chamada de 'Rich Presence', que
+pode ser vista por outros usuários do Discord que estão jogando o mesmo jogo que você. Ela é escrita em Python e é fácil de usar. Tudo o que você precisa fazer é instalar a biblioteca,
+importá-la em seu código e começar a usá-la para mostrar informações sobre o seu programa no Discord.

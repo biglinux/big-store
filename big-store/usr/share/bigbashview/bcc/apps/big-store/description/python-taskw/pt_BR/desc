@@ -1,0 +1,5 @@
+Com o python-taskw, é possível conectar o seu banco de dados do Taskwarrior ao Python. Isso significa que você pode usar o
+Python para controlar e gerenciar suas tarefas e projetos no Taskwarrior. É uma ferramenta muito útil se você gosta de trabalhar com o Taskwarrior e também usa o Python para automatizar
+tarefas. Algumas das coisas que você pode fazer com o python-taskw incluem: adicionar novas tarefas, marcar tarefas como completas, definir prazos e prioridades, e muito mais. Tudo isso
+pode ser feito diretamente no seu banco de dados do Taskwarrior usando o Python. Se você é usuário do Taskwarrior e do Python, o python-taskw é uma ferramenta valiosa que pode ajudá-lo a
+automatizar e otimizar seu fluxo de trabalho.

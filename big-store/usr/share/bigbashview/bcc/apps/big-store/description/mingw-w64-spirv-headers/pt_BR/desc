@@ -1,0 +1,3 @@
+Este é um pacote de cabeçalhos para desenvolvimento de programas usando a especificação SPIR-V. Ele é compatível com a
+plataforma mingw-w64 e é essencial para quem deseja trabalhar com essa tecnologia.SPIR-V é uma linguagem de baixo nível para programação de shaders, ou seja, é usada para criar efeitos
+visuais em jogos e aplicativos gráficos. Se você é um desenvolvedor de jogos ou aplicativos que precisam de efeitos visuais avançados, este pacote é essencial para você.

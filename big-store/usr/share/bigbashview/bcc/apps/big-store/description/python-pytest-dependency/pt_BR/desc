@@ -1,0 +1,1 @@
+Esse programa é usado para gerenciar as dependências dos testes em Python. Ele utiliza a biblioteca pytest-dependency para fazer isso. 

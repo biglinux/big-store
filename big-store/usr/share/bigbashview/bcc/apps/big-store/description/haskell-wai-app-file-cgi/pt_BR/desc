@@ -1,0 +1,1 @@
+Este é um aplicativo de proxy reverso escrito em Haskell usando a biblioteca WAI. Ele permite que você execute scripts CGI em um servidor web e acesse arquivos estáticos de maneira segura. 

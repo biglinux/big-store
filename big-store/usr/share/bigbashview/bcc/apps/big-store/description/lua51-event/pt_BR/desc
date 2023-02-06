@@ -1,0 +1,2 @@
+Este programa é uma biblioteca que permite a integração entre o Lua, uma linguagem de programação, e a libevent, que é uma
+biblioteca para trabalhar com eventos de sistemas. Com ela, é possível controlar eventos de maneira mais fácil e eficiente no seu código escrito em Lua.

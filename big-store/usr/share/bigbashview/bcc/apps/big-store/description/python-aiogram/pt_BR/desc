@@ -1,0 +1,1 @@
+Essa biblioteca é escrita em Python e usa o asyncio e o aiohttp para permitir que o bot do Telegram rode de forma assíncrona e suave. Ela é fácil de usar e permite que você crie bots para o Telegram de forma rápida e eficiente. 

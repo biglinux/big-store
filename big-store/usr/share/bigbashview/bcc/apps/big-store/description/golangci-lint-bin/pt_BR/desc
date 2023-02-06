@@ -1,0 +1,2 @@
+Este programa é chamado golangci-lint-bin e é usado para verificar se o código escrito em Go está de acordo com as
+boas práticas de programação. Ele é cinco vezes mais rápido do que outra ferramenta chamada gometalinter.

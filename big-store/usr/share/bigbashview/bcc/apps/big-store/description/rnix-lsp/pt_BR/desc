@@ -1,0 +1,3 @@
+ Este programa é chamado de rnix-lsp e é um gerenciador de linguagem para o Nix. Ele ajuda a tornar a escrita de código
+no Nix mais fácil e eficiente. Ele oferece sugestões de código e verifica erros enquanto você escreve. Isso permite que você se concentre em construir seu projeto, em vez de se preocupar
+com pequenos erros de digitação. Ele é fácil de usar e pode ser integrado a vários editores de código diferentes. 

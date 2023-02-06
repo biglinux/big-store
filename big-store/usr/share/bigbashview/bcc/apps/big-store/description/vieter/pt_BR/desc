@@ -1,0 +1,2 @@
+Este programa é um servidor de repositório leve para o gerenciador de pacotes Pacman. Ele também possui um sistema
+de construção de pacotes, tornando fácil adicionar e gerenciar pacotes personalizados.

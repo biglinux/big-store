@@ -1,0 +1,1 @@
+Uma biblioteca em Python para gerenciar e validar configurações de aplicativos de maneira estruturada. Ela permite aos desenvolvedores definir esquemas para suas configurações e garantir que somente valores válidos sejam aceitos. Além disso, oferece suporte a vários formatos de arquivo, como .ini e .json, e pode ser facilmente integrada a outras bibliotecas Python. 

@@ -1,0 +1,4 @@
+Este é um programa chamado python-aiokafka. Ele é um cliente para o sistema de mensagens Kafka, e ele foi criado para funcionar
+com o Asyncio, que é um pacote do Python para lidar com tarefas assíncronas. Isso significa que ele é capaz de lidar com várias tarefas ao mesmo tempo, sem precisar esperar por cada uma
+delas para ser concluída antes de continuar.O python-aiokafka é útil para quem precisa lidar com grandes volumes de dados e precisa que esses dados sejam processados rapidamente. Ele também
+é útil para quem precisa de uma solução escalável, ou seja, que possa lidar com crescimento do volume de dados ao longo do tempo.

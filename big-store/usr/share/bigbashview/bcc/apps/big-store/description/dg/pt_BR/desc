@@ -1,0 +1,1 @@
+Este programa é uma linguagem de programação simples que é capaz de compilar seu código em bytecode do CPython. Isso significa que o código escrito nesta linguagem pode ser executado usando a máquina virtual Python, o que torna a execução mais rápida e eficiente. Além disso, ao usar bytecode, é possível proteger seu código de modificações indesejadas. 

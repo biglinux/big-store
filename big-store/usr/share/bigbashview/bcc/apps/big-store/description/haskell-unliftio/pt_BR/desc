@@ -1,0 +1,1 @@
+O pacote 'haskell-unliftio' inclui a classe MonadUnliftIO, que permite a você 'unlift' (ou desencadear) um monad para o IO. Isso significa que você pode usar funções que estão dentro de um monad específico, como o 'Maybe' ou 'Either', e transformá-las em funções IO. Dessa forma, você pode usar essas funções em outros lugares do seu código que exigem IO. 

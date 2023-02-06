@@ -1,0 +1,2 @@
+Este é um módulo do kernel que implementa uma interface básica para o dispositivo IVSHMEM quando se usa o LookingGlass no modo
+VM->VM.

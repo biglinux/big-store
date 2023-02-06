@@ -1,0 +1,1 @@
+Este programa é uma versão especializada do tipo de dados 'Either' em Haskell, que é usado para codificar se uma operação teve sucesso ou falha. Ele permite que os desenvolvedores lidem com esses dois cenários de forma clara e organizada, e facilita a criação de código robusto e confiável. 

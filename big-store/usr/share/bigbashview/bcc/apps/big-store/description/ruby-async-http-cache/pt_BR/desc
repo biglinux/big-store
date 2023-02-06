@@ -1,0 +1,1 @@
+Esse programa é um cache que segue as normas para ser usado com o async-http em ruby. Ele garante que os dados fiquem salvos de  forma correta e possam ser usados sempre que precisar, evitando que a sua aplicação precise buscar os dados toda vez que precisar. 

@@ -1,0 +1,3 @@
+Este programa permite que você junte a sua aplicação Python com todas as suas dependências em um único pacote. Assim, 
+você pode facilmente distribuir e instalar a sua aplicação em outros computadores sem se preocupar em instalar cada dependência individualmente.É especialmente útil quando você quer
+compartilhar a sua aplicação com outras pessoas e garantir que ela funcione corretamente em qualquer computador sem a necessidade de configurações adicionais.

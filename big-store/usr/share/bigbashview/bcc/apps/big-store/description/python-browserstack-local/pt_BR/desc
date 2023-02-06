@@ -1,0 +1,3 @@
+Este programa permite conectar ao BrowserStack Local usando as linguagem Python. Ele fornece um conjunto de ferramentas para
+interagir com o BrowserStack Local de maneira fácil e simples. Com ele, você pode testar seus aplicativos web em diferentes navegadores e dispositivos sem precisar configurar tudo
+manualmente.Além disso, você pode acessar recursos avançados do BrowserStack Local, como a possibilidade de testar aplicativos em redes privadas e acessar dados de teste.

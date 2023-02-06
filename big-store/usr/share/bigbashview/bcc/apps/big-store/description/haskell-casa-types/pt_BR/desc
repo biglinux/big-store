@@ -1,0 +1,1 @@
+Este programa é um pacote de tipos de arquivos de armazenamento endereçáveis por conteúdo (CASA) desenvolvido em Haskell. Ele permite que você armazene arquivos de forma segura e recupere-os facilmente usando seus endereços de conteúdo únicos. Este programa é útil para criar backups, compartilhar arquivos e armazenar dados de forma organizada e segura. 

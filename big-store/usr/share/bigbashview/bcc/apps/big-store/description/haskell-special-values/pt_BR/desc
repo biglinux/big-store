@@ -1,0 +1,1 @@
+O Typeclass é um recurso do Haskell que permite a criação de valores especiais. Esses valores são utilizados para representar situações especiais dentro do programa, como valores nulos ou infinitos. Eles são criados através de funções específicas e podem ser utilizados de diversas formas, como por exemplo, para tratar erros ou exceções. 

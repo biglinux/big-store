@@ -1,0 +1,3 @@
+Existe um programa chamado srm que é uma substituição segura para o comando rm(1). Ele funciona da seguinte forma: antes de
+apagar o arquivo, ele sobrepõe os dados com caracteres aleatórios, tornando impossível a recuperação dos dados. Isso é útil quando você precisa apagar arquivos que contém informações
+confidenciais. Ao usar o srm, você pode ter certeza de que os dados serão excluídos de forma segura e não serão recuperáveis. 

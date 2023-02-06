@@ -1,0 +1,1 @@
+Este programa é uma interface para emuladores de terminal, como o screen e o xterm, que permite gravar as sessões dos usuários nos arquivos utmp e wtmp. Ele é conhecido como libutempter. 

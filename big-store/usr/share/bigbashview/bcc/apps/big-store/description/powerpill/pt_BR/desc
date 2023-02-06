@@ -1,0 +1,4 @@
+ Powerpill é um programa que foi desenvolvido para aumentar a velocidade de download dos pacotes do gerenciador de
+pacotes Pacman. Ele faz isso criando uma conexão com vários mirrors (espelhos) ao mesmo tempo, o que aumenta a velocidade de download. Além disso, ele também suporta downloads paralelos, o 
+que significa que ele pode baixar vários pacotes ao mesmo tempo.O Powerpill é fácil de usar e não requer nenhuma configuração adicional. Ele pode ser instalado com o comando 'pacman -S
+powerpill' e usado em conjunto com o gerenciador de pacotes pacman. 

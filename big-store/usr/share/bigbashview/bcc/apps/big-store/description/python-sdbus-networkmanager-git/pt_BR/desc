@@ -1,0 +1,3 @@
+Este programa é uma biblioteca para Python que permite acessar as funcionalidades do gerenciador de rede NetworkManager. Ele 
+se liga à biblioteca python-sdbus para proporcionar uma interface simples e intuitiva para controlar as configurações de rede no seu sistema.Com este programa, é possível facilmente
+gerenciar conexões WiFi, Ethernet e de outros tipos, visualizar informações sobre conexões atuais e criar novas configurações de conexão.

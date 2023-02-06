@@ -1,0 +1,3 @@
+Este é um fork do VKD3D, criado para o desenvolvimento de uma implementação de Direct3D 12 para o
+Protons. Esta versão foi criada para ser utilizada especificamente com o Protons, fornecendo recursos adicionais e melhorias para ajudar na criação de jogos e aplicativos. É importante
+destacar que ele foi desenvolvido para ser utilizado com o mingw, tornando ainda mais fácil para desenvolvedores trabalharem com ele.

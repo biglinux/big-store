@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 8.0 que permite verificar o tipo de caracteres em uma string. Ele pode ser usado para verificar se uma 
+string contém apenas números, letras ou outros tipos de caracteres. Ele também pode ser usado para transformar maiúsculas em minúsculas e vice-versa. Este módulo é útil para validação de
+dados de formulários e outras tarefas semelhantes.

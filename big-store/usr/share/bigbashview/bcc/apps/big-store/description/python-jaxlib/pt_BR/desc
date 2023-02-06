@@ -1,0 +1,4 @@
+A biblioteca python-jaxlib é uma ferramenta poderosa para otimizar o desempenho de códigos escritos em Python.
+Ela é baseada em XLA, uma biblioteca de linguagem de computação de alto desempenho, e é projetada especificamente para trabalhar com o pacote JAX, um conjunto de ferramentas para cálculo
+diferencial automático em Python. Com python-jaxlib, é possível acelerar o código Python de forma significativa sem precisar escrever códigos em outras linguagens de programação. Isso torna
+a biblioteca uma escolha popular entre cientistas de dados e desenvolvedores de aprendizado de máquina que trabalham com grandes conjuntos de dados.

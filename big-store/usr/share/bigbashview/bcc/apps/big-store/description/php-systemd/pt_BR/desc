@@ -1,0 +1,3 @@
+Esta é uma extensão PHP que permite a interação nativa com o sistema de gerenciamento de serviços systemd e seu
+diário. Com ela, você pode facilmente integrar o seu aplicativo PHP com o sistema operacional e aproveitar as funcionalidades do systemd, como gerenciamento de serviços, log de eventos e
+muito mais. Se você está procurando uma maneira fácil de integrar seu aplicativo PHP com o sistema operacional, esta extensão é uma ótima opção para você. 

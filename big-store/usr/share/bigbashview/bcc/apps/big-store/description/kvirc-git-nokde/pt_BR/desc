@@ -1,0 +1,3 @@
+Este é um programa de comunicação chamado IRC (Internet Relay Chat). Ele permite que você converse com outras
+pessoas online em tempo real. Ele é baseado em uma biblioteca chamada Qt5, que é usada para criar interfaces gráficas para programas. Este programa específico foi compilado sem suporte ao
+KDE, que é outro conjunto de ferramentas para criar programas com interface gráfica. Esta é a versão do programa que vem diretamente do repositório de código.

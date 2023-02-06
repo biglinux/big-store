@@ -1,0 +1,4 @@
+O python-jaraco.packaging é um conjunto de ferramentas que ajudam a melhorar a embalagem de
+lançamentos do Python. Ele fornece recursos adicionais além do que é oferecido pelo pacote padrão do Python, tornando o processo de embalagem mais fácil e eficiente. Com ele, é possível
+automatizar tarefas comuns, como criar arquivos de distribuição e gerar documentação. Além disso, ele também oferece suporte para vários sistemas operacionais e formatos de arquivo. Em
+resumo, o python-jaraco.packaging é uma excelente escolha para qualquer pessoa que precise embalar lançamentos Python com eficiência e precisão.

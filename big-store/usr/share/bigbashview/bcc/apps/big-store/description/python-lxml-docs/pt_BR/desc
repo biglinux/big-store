@@ -1,0 +1,1 @@
+A biblioteca python-lxml-docs é um pacote de documentação para a biblioteca de vínculos python-lxml. Ela fornece documentação detalhada sobre como usar a biblioteca para trabalhar com arquivos XML e HTML em Python. É importante notar que essa biblioteca é baseada nas bibliotecas libxml2 e libxslt, e é recomendado ter conhecimento prévio sobre elas antes de usar python-lxml-docs. 

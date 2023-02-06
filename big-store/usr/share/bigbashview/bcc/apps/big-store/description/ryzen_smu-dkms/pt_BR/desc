@@ -1,0 +1,1 @@
+Este é um driver para o kernel Linux que permite acesso à Unidade de Gerenciamento de Sistema (SMU) em alguns processadores AMD Ryzen. Ele é instalado usando o sistema DKMS (Dynamic Kernel Module Support) e garante que o driver esteja sempre atualizado com a versão mais recente do kernel. 

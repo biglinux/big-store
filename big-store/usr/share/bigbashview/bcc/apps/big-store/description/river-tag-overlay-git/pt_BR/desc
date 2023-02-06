@@ -1,0 +1,2 @@
+Uma ferramenta para o compositor Wayland que mostrará um pop-up com informações simbólicas sobre as tags
+atualmente focadas e ocupadas sempre que o foco das tags mudar.

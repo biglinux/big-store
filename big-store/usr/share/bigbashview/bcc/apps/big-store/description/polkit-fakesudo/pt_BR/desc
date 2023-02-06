@@ -1,0 +1,2 @@
+Esta ferramenta é uma forma engraçada de conceder permissões, ela se chama polkit-fakesudo e usa o polkit pkexec para
+isso. Ela é bem simples de usar e é uma ótima escolha se você precisar dar permissões a alguém sem usar o comando sudo de verdade. 

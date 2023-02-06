@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para resolver problemas de otimização linear, usando o solver GLPK. Ele é parte do projeto
+COIN-OR, que fornece ferramentas de otimização de código aberto. Com ele, você pode encontrar a melhor solução para problemas como maximizar lucros ou minimizar custos em situações com
+restrições. Ele é fácil de usar e é compatível com diversos sistemas operacionais e linguagens de programação.

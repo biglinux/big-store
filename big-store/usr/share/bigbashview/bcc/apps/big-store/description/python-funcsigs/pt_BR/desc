@@ -1,0 +1,3 @@
+ Este programa em Python permite que você obtenha assinaturas de função de acordo com o PEP362. Isso significa que você pode 
+ver os argumentos esperados e os tipos de retorno de uma função sem precisar ler o código dela. Isso pode ser útil para entender melhor como uma biblioteca ou pacote funciona sem precisar
+ler todo o código fonte. 

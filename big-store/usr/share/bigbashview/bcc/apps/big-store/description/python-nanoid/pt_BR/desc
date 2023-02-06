@@ -1,0 +1,4 @@
+Este programa é chamado 'python-nanoid' e ele é usado para criar identificadores únicos e seguros para usar em URLs.
+Ele é pequeno e fácil de usar, e é especialmente útil para aplicativos web.Por exemplo, imagine que você está criando um site de compartilhamento de fotos e quer dar a cada foto um endereço
+único para que as pessoas possam compartilhá-lo facilmente. Com esse programa, você pode gerar um identificador único para cada foto automaticamente, sem precisar se preocupar com problemas
+de segurança ou conflitos de nomes.

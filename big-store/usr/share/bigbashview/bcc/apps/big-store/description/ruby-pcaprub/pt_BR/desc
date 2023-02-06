@@ -1,0 +1,1 @@
+A biblioteca ruby-pcaprub é um vinculo em ruby para a biblioteca libpcap de captura de pacotes. Ela fornece uma interface consistente para capturar pacotes em várias plataformas e suporta uma grande variedade de opções de filtragem de pacotes. Esta biblioteca é útil para monitoramento de rede, detecção de invasões e análise de pacotes. 

@@ -1,0 +1,4 @@
+Existe um programa chamado steghide que permite esconder uma mensagem dentro de um arquivo. Ele faz isso trocando alguns dos 
+bits menos importantes do arquivo original pelos bits da mensagem. Isso significa que o arquivo final ainda parece o mesmo, mas agora contém uma mensagem secreta.É uma ferramenta útil para 
+enviar mensagens de forma segura, pois não é fácil detectar que há uma mensagem escondida no arquivo. Pode ser usado para compartilhar informações confidenciais com alguém sem que outras
+pessoas saibam disso.

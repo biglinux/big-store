@@ -1,0 +1,3 @@
+Esse programa serve para corrigir os botões laterais do mouse Mi Silent. Ele usa o sistema DKMS, que permite
+que as alterações sejam feitas dinamicamente, sem precisar reiniciar o computador.Isso garante que as correções sejam aplicadas de forma eficiente e segura, sem afetar o funcionamento do
+sistema.

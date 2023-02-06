@@ -1,0 +1,1 @@
+Este plugin adiciona suporte para campos de texto que possuem marcação, utilizado para injetar tokens de anotação no índice. Ele é específico para o programa opensearch-mapper. 

@@ -1,0 +1,1 @@
+O módulo Gettext para Perl é uma ferramenta útil para ajudar a traduzir seus programas escritos em Perl para vários idiomas. Ele usa arquivos de mensagem para armazenar as traduções e é compatível com o sistema de tradução de software Gettext. Ele pode ser facilmente instalado através do gerenciador de pacotes CPAN. 

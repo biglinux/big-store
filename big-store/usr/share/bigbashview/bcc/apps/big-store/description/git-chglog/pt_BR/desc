@@ -1,0 +1,4 @@
+Este programa é um gerador de logs de mudanças do git. Ele é projetado para facilitar a manutenção de um registro
+atualizado das alterações realizadas em um projeto. Isso é útil para equipes de desenvolvimento que precisam manter um histórico claro e detalhado das mudanças no código e outros aspectos
+do projeto. Com o uso desse gerador, será possível acompanhar facilmente o progresso do projeto e identificar rapidamente quaisquer problemas ou questões que possam surgir ao longo do
+tempo. Além disso, ele também pode ser útil para outros membros da equipe, incluindo gerentes de projeto, que precisam ter uma visão geral das atividades recentes no projeto. 

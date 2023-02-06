@@ -1,0 +1,1 @@
+Este é um pacote de dados para o Tesseract, um software de reconhecimento óptico de caracteres (OCR, na sigla em inglês). Ele  é específico para o idioma hebraico.Esses dados são necessários para o Tesseract ser capaz de reconhecer textos escritos em hebraico e convertê-los para um formato de texto editável. 

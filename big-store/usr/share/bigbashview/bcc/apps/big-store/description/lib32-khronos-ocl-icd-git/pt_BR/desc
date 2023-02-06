@@ -1,0 +1,3 @@
+Este programa é um gerenciador de drivers para a tecnologia OpenCL. Ele é responsável por carregar os drivers corretos para que
+seus aplicativos possam usar as capacidades de processamento paralelo disponíveis em sua placa gráfica ou outros dispositivos de processamento. Ele é especialmente útil para jogos e outros 
+aplicativos que exigem alta performance.Esse programa é desenvolvido pela Khronos Group e essa é a versão mais recente dele disponível no GIT. Ele é compatível com sistemas de 32 bits.

@@ -1,0 +1,4 @@
+Esta é uma ferramenta de linha de comando que permite exibir informações
+sobre caracteres unicode. Ele é útil para quem trabalha com programação e precisa verificar detalhes sobre os caracteres que estão sendo usados. Ele pode mostrar informações como o código
+unicode, a categoria e a forma de escrita dos caracteres. É fácil de usar, basta digitar o comando e o caractere que você deseja ver as informações. Ele vai mostrar tudo o que você precisa 
+saber sobre esse caractere específico.

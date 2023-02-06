@@ -1,0 +1,5 @@
+Este programa foi criado para corrigir uma falha de segurança existente entre o Docker e o UFW, sem desabilitar o iptables.
+Ele é fácil de usar e garante que sua aplicação dentro do Docker esteja segura e protegida contra invasões. Com o uso desse programa, você pode adicionar regras de firewall ao seu container
+Docker de forma fácil e rápida, sem precisar se preocupar com configurações complexas. Além disso, ele permite que você bloqueie o acesso a portas específicas, garantindo que somente os
+usuários autorizados possam acessar sua aplicação. Em resumo, este programa é uma ótima opção para quem quer garantir a segurança do seu container Docker sem precisar desabilitar o
+iptables.

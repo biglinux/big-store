@@ -1,0 +1,2 @@
+Este programa é chamado bcnc e é usado para enviar comandos para máquinas CNC que usam o GRBL. Ele também tem a função de fazer 
+o nivelamento automático e editar o código g.

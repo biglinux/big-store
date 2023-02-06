@@ -1,0 +1,1 @@
+A biblioteca python-oslo-i18n é uma ferramenta para internacionalização (i18n) dos projetos OpenStack. Ela fornece uma série de funções úteis para trabalhar com strings traduzidas e é projetada para ser usada por outros projetos OpenStack. A biblioteca é escrita em Python e é projetada para ser flexível e fácil de usar. 

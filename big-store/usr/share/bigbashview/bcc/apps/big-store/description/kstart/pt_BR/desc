@@ -1,0 +1,4 @@
+Este programa é chamado kstart e foi desenvolvido para suportar o sistema AFS e a renovação de tickets do
+Kerberos. Ele permite ao usuário iniciar sessões Kerberos de forma fácil e automática, sem precisar fazer isso manualmente a cada vez que precisar de acesso a recursos protegidos por
+autenticação. Além disso, o kstart também pode renovar automaticamente seus tickets, garantindo que você sempre tenha acesso aos recursos que precisa, sem precisar se preocupar com a
+expiração desses tickets.

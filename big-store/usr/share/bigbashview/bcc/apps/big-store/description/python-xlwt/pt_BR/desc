@@ -1,0 +1,1 @@
+O python-xlwt é uma biblioteca para escrever arquivos de planilhas compatíveis com o formato XLS do Microsoft Excel. Com ela, você pode criar arquivos de planilha com várias folhas, escrever dados em células específicas e aplicar formatação a esses dados.  Essa biblioteca é compatível com várias versões do Excel, incluindo o 97, 2000, XP e 2003. 

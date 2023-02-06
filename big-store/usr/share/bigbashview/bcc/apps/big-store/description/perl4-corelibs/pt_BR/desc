@@ -1,0 +1,4 @@
+Estamos preenchendo um banco de dados de um repositório de programas. O título curto deve ter no máximo 20
+palavras e descrever o que o programa faz de forma clara e objetiva. Já a descrição completa pode ter até 200 palavras e explicar em detalhes o que o programa faz e para que serve.De acordo
+com as informações que você nos forneceu, o programa chama-se 'perl4-corelibs' e ele inclui bibliotecas que estão sendo descontinuadas e serão removidas do Perl5. Isso significa que essas
+bibliotecas não serão mais atualizadas ou suportadas e, por isso, é importante que os usuários busquem alternativas para essas bibliotecas.

@@ -1,0 +1,1 @@
+O emacs-slime é um pacote para o editor de texto Emacs que fornece uma interface para o sistema de programação Lisp Common. Ele permite que você execute comandos Lisp diretamente no buffer do Emacs, entre outras coisas. Isso é útil se você estiver escrevendo programas Lisp e quiser ver imediatamente como eles funcionam sem sair do seu ambiente de edição. 

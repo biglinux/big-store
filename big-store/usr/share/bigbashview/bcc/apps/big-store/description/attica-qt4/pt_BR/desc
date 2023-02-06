@@ -1,0 +1,4 @@
+Attica é uma biblioteca para o framework Qt4 que implementa a API de Serviços de Colaboração Aberta. Ela permite que você
+facilmente acesse e gerencie conteúdo em plataformas de colaboração como o ownCloud ou o KDE. Algumas das funcionalidades incluem suporte para autenticação, listagem de arquivos, upload e
+download de arquivos, e gerenciamento de contas. Se você estiver desenvolvendo um aplicativo que precise acessar serviços de colaboração, Attica é uma excelente escolha para simplificar
+esse processo.

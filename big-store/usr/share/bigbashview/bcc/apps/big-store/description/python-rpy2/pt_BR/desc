@@ -1,0 +1,1 @@
+Essa é uma interface Python para o R, que permite usar o R dentro do Python. É simples de usar e possui recursos  robustos, como acesso a todas as funções do R e a capacidade de converter dados entre os dois formatos.O pacote se chama python-rpy2 e é uma excelente opção para quem quer trabalhar com dados em ambos os idiomas. 

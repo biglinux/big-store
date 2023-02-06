@@ -1,0 +1,4 @@
+ Jekyll é um gerador de site estático simples que é ciente de blogs. Ele transforma o seu conteúdo em páginas HTML simples, 
+que podem ser carregadas rapidamente pelos visitantes do seu site. Com Jekyll, você pode escrever posts e páginas usando Markdown ou outros formatos de texto simples, e ele cuidará de
+transformar esses arquivos em páginas HTML estilizadas. Além disso, ele fornece suporte a recursos avançados como categorias, tags e arquivos, tornando-o uma ótima escolha para blogs e
+sites pessoais. 

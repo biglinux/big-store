@@ -1,0 +1,3 @@
+Este programa é um módulo para o PHP72 que permite conectá-lo a bancos de dados utilizando o driver dblib. Ele permite que você
+execute consultas e gerencie seus dados usando o PHP, tornando mais fácil e rápido desenvolver seus projetos.Com ele, você pode criar aplicações web dinâmicas e interativas, como
+formulários de contato, gerenciadores de conteúdo e muito mais, sem precisar aprender uma linguagem de banco de dados específica.

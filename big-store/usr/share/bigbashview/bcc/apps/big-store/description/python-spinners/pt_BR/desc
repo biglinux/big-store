@@ -1,0 +1,1 @@
+Existe uma biblioteca incrível chamada cli-spinners, que permite adicionar animações no terminal. Eu criei um wrapper em python para facilitar o uso dessa biblioteca. Agora é possível adicionar essas animações de forma simples e rápida, diretamente no seu código python. 

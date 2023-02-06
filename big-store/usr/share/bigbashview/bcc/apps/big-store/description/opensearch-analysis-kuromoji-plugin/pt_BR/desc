@@ -1,0 +1,1 @@
+O plugin de análise kuromoji japonês integra o módulo de análise kuromoji do Lucene no opensearch. Isso permite que você use a análise kuromoji japonesa para buscar e indexar documentos japoneses no opensearch. 

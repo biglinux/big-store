@@ -1,0 +1,1 @@
+O BearSSL é uma implementação escrita em C do protocolo SSL/TLS (RFC 5246). Ele é projetado para ser simples, pequeno e rápido, e é usado em vários projetos de software, como dispositivos embarcados, gateways de rede, etc. 

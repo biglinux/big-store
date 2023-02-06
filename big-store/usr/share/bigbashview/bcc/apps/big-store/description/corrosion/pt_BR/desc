@@ -1,0 +1,1 @@
+ Ferramenta conhecida anteriormente como cmake-cargo, permite integrar o Rust em um projeto CMake existente, tornando mais fácil e eficiente utilizar essa linguagem de programação junto com outras já existentes no projeto. 

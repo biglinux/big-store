@@ -1,0 +1,4 @@
+Este é um módulo de exif para a versão 8.2 do PHP. Ele permite que você trabalhe com informações de metadados de imagens, como a 
+data e hora em que a foto foi tirada, a resolução, a marca do equipamento, etc. É uma ferramenta útil para quem trabalha com imagens e precisa de informações adicionais sobre elas. Com esse
+módulo, você pode facilmente ler e escrever informações de metadados de imagens, o que é útil para aplicações de gerenciamento de imagens e outros projetos relacionados. Ele é compatível
+com vários formatos de imagem, incluindo JPEG e TIFF.

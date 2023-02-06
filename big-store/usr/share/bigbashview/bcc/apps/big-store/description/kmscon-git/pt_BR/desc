@@ -1,0 +1,3 @@
+Este programa é um emulador de terminal que funciona com base em Kernel Mode Setting (KMS). Isso significa que ele usa a 
+configuração do kernel para funcionar, o que o torna mais rápido e eficiente do que outros emuladores de terminal. Ele é especialmente útil em sistemas sem interface gráfica, como
+servidores. Além disso, o kmscon-git é uma versão de desenvolvimento do kmscon, então se você é um desenvolvedor pode ajudar a melhoria-lo.

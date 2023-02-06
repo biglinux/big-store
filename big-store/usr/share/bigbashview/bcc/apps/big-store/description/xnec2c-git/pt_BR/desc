@@ -1,0 +1,3 @@
+Este programa é um cliente de modelagem de EM de antenas com interface GTK+. Ele permite simular como as antenas funcionam e como elas
+se comportam em diferentes condições. Com ele, você pode ver como suas antenas estão se comportando e fazer ajustes para melhorar o desempenho delas.Ele é baseado em um projeto de código
+aberto e está disponível como um pacote git para usuários avançados.

@@ -1,0 +1,2 @@
+Este programa em Perl é uma subclasse de Encode::Encoding que permite detectar a codificação dos dados. Ele é útil para lidar 
+com arquivos ou strings que podem estar codificados de forma diferente, e garantir que você esteja trabalhando com a codificação correta.

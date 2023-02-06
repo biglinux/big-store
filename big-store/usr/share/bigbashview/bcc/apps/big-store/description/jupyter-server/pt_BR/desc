@@ -1,0 +1,1 @@
+jupyter-server é um programa que fornece a parte de trás dos aplicativos web Jupyter, como Jupyter notebook, JupyterLab e Voila. Ele é responsável por gerenciar as conexões e a comunicação entre os diferentes componentes do aplicativo, garantindo que tudo funcione corretamente. Ele é essencial para o funcionamento dos aplicativos Jupyter. 

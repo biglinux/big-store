@@ -1,0 +1,3 @@
+Esta é uma biblioteca para usar o protocolo SSH de forma assíncrona. Isso significa que você pode fazer várias coisas ao mesmo
+tempo enquanto espera a conexão SSH ser estabelecida. É possível usar tanto como cliente quanto como servidor.A biblioteca é escrita em Python e é compatível com as versões 2 e 3 do
+Python.

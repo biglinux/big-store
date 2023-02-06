@@ -1,0 +1,1 @@
+you-get é uma pequena ferramenta de linha de comando para baixar conteúdo de mídia (vídeos, áudios, imagens) da web, caso o site não forneça uma maneira de baixar ou o vídeo esteja bloqueado no seu país. you-get suporta YouTube, Youku, Niconico e muitos outros sites. Ele  é escrito em Python 3 e roda no Windows, Linux e MacOS. 

@@ -1,0 +1,3 @@
+Esta é uma extensão para o navegador Firefox que permite esconder elementos que tenham a propriedade CSS 'position:
+fixed'. Isso é útil para remover elementos indesejados da tela, como barras de rolagem ou banners publicitários, e melhorar a navegação.Para usar, simplesmente instale a extensão e ative-a 
+nas configurações do navegador. A partir daí, os elementos serão automaticamente escondidos enquanto você navega na web.

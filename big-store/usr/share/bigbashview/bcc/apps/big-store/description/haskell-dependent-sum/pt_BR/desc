@@ -1,0 +1,1 @@
+O haskell-dependent-sum é um tipo de dados que permite a criação de tipos dependentes. Isso significa que o tipo de uma variável pode ser  determinado por outra variável. Por exemplo, um tipo de lista pode ser dependente do tipo de elementos que ela contém. Isso permite uma maior flexibilidade na programação e pode ser útil em vários cenários. 

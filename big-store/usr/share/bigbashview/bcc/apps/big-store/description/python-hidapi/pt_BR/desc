@@ -1,0 +1,1 @@
+Uma interface para utilizar a biblioteca hidapi de signal11/hidapi através do Cython, permitindo acessar dispositivos USB usando Python. 

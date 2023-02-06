@@ -1,0 +1,1 @@
+Este programa é uma extensão do módulo 'nose.plugins.cover' do Python, que permite gerar relatórios de cobertura de código em formato XML estilo Cobertura. Ele é conhecido como 'python-nosexcover'. 

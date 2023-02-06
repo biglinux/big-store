@@ -1,0 +1,1 @@
+A biblioteca python-qasync é uma ferramenta útil para desenvolvedores que desejam utilizar o recurso asyncio em aplicações baseadas em Qt. Isso permite que as tarefas assíncronas sejam executadas de forma eficiente e sem bloquear a interface gráfica do usuário. Além disso, essa biblioteca é compatível com as versões mais recentes do Python e do Qt. 

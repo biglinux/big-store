@@ -1,0 +1,1 @@
+Existem algumas bibliotecas que foram descontinuadas e não são mais utilizadas para o protocolo de comunicação bluetooth. Elas são chamadas de bluez-libs.Essas bibliotecas não são mais recomendadas para uso e é importante usar bibliotecas atualizadas para garantir a segurança e estabilidade da comunicação via bluetooth. 

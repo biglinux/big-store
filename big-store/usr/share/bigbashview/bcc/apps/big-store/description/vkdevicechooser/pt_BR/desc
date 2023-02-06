@@ -1,0 +1,4 @@
+Este é um programa para escolher o dispositivo gráfico que você quer usar com o Vulkan. É útil quando você tem mais de uma
+placa gráfica e quer escolher qual delas usar para jogos ou outras aplicações gráficas. É fácil de usar, basta escolher qual dispositivo você quer usar e pronto!Você pode escolher entre
+diferentes tipos de placas gráficas, como Nvidia, AMD ou Intel, e escolher a que é mais adequada para suas necessidades. Isso garante que você tenha a melhor experiência gráfica possível,
+sem ter que se preocupar em configurar as coisas manualmente.

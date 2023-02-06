@@ -1,0 +1,1 @@
+A biblioteca libspf2 é uma ferramenta que ajuda a verificar os registros do Sender Policy Framework (SPF) em e-mails. Ela é usada para garantir que os e-mails são enviados pelo domínio correto e evitar spam e phishing. A libspf2 é compatível com vários sistemas operacionais e é fácil de usar para desenvolvedores de software. 

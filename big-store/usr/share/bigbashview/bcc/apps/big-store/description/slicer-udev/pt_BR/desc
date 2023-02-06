@@ -1,0 +1,1 @@
+Este programa é chamado de slicer-udev e é uma variação do Slic3r, projetado especificamente para ser usado com impressoras 3D da Prusa. Ele ajuda a gerar o código G, que é o código que controla como a impressora 3D deve construir o objeto. Com este programa, você pode facilmente personalizar e ajustar as configurações de impressão para obter os melhores resultados. 

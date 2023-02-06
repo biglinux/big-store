@@ -1,0 +1,4 @@
+O módulo SOAP para PHP 8.1 é uma extensão que permite aos desenvolvedores criar e consumir serviços web usando o protocolo SOAP. Ele
+inclui funções para criar mensagens SOAP, enviar solicitações e processar respostas. Com esse módulo, é possível integrar aplicações PHP com outros sistemas que usam SOAP para
+comunicação.Para utilizar o módulo SOAP, é necessário habilitá-lo no arquivo de configuração PHP. Ele é compatível com versões do PHP a partir da 8.1 e pode ser baixado e instalado
+manualmente ou via gerenciador de pacotes, como o PECL.

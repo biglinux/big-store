@@ -1,0 +1,2 @@
+Este programa combina a verificação de atualizações regulares com a verificação de pacotes AUR (Arch Linux User
+Repository). Ele usa um separador como argumento para diferenciar entre as atualizações.

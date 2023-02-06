@@ -1,0 +1,4 @@
+ Este programa é uma ferramenta gráfica para visualizar arquivos de log do GNU ddrescue. Ele permite que você veja o
+progresso da recuperação de dados e identifique quais setores foram recuperados com sucesso e quais ainda precisam ser trabalhados. É uma ótima opção para quem precisa recuperar dados de
+discos danificados ou corrompidos. Além de visualizar os arquivos de log, o programa também fornece outras funcionalidades úteis, como a capacidade de salvar e carregar configurações, e a
+possibilidade de exportar dados em diferentes formatos.

@@ -1,0 +1,3 @@
+Este é um módulo adicional para a versão 8.0 do PHP, que permite que o PHP acesse funções POSIX (Portable Operating System
+Interface) para sistemas operacionais como Linux, Unix e MacOS. Isso significa que o PHP pode realizar tarefas comuns de sistema, como criar, abrir e ler arquivos, gerenciar processos e
+configurar permissões de arquivos.Com este módulo, desenvolvedores podem criar aplicativos web mais avançados e funcionais, aproveitando ao máximo as capacidades do sistema operacional.

@@ -1,0 +1,1 @@
+ O haskell-wuss é um pacote de biblioteca Haskell para clientes seguros de WebSocket (WSS). Ele fornece uma interface simples e segura para se comunicar com servidores WebSocket usando o protocolo WSS. Com ele, você pode facilmente criar aplicativos que precisam se comunicar com servidores WebSocket de forma segura.  

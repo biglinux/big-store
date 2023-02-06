@@ -1,0 +1,2 @@
+Este é um programa chamado android-backup-extractor-git. Ele ajuda a tirar os arquivos de um backup do Android que foi
+feito com o comando adb backup. Assim você pode ver os arquivos dentro do backup e talvez até mesmo colocá-los de volta no seu celular.

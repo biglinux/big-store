@@ -1,0 +1,1 @@
+libnetfilter_cthelper é uma biblioteca que fornece uma API para ajudantes de rastreamento  de conexão em netfilter. Ajudantes de rastreamento de conexão são usados para rastrear conexões que não são lidas pelo código de rastreamento de conexão padrão no kernel. Eles são normalmente usados para rastrear conexões que usam protocolos não padrão ou que têm requisitos especiais. 

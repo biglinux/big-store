@@ -1,0 +1,3 @@
+Com o findpkg, você pode encontrar programas de forma rápida e fácil. Ele funciona como um gancho, ou um complemento, para o
+comando 'command not found', ou seja, quando você digita um comando que não existe no seu sistema, o findpkg irá procurar por ele em um banco de dados e mostrará sugestões de comandos
+similares. Assim, você pode encontrar o programa que deseja sem precisar procurar manualmente.

@@ -1,0 +1,3 @@
+Este programa é um driver para dispositivos Wi-Fi baseados nos chipsets Realtek RTL8188EUS e RTL8188ETV. Ele
+inclui suporte para monitoramento de modo e injeção de quadros, o que significa que é possível usar esses dispositivos para monitorar e testar redes sem fio. Ele é desenvolvido como um
+módulo DKMS, o que significa que ele se adapta automaticamente às atualizações do kernel do sistema operacional.

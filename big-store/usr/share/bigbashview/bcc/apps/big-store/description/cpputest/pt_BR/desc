@@ -1,0 +1,1 @@
+cpputest é um framework de testes unitários e simulação para C/C++. Ele permite escrever testes para verificar se o código está funcionando corretamente e simular comportamentos para testar códigos dependentes. Com cpputest, você pode escrever testes automatizados para garantir que seu código esteja sempre funcionando corretamente.  

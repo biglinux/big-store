@@ -1,0 +1,3 @@
+Este é um plugin para o programa mkdocs que tem como objetivo minificar o código HTML de uma página antes de salvar no disco. Isso
+significa que ele remove espaços em branco e outros caracteres desnecessários, tornando o arquivo final menor e mais rápido de carregar para os usuários.Com este plugin, seu site será mais 
+rápido e otimizado para melhor desempenho e velocidade de carregamento.

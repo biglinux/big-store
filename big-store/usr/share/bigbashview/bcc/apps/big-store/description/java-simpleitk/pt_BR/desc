@@ -1,0 +1,4 @@
+ O java-simpleitk é uma camada simplificada construída por cima do ITK. Ele é projetado para tornar mais fácil para os
+desenvolvedores trabalhar com imagens 3D, fornecendo uma interface amigável e fácil de usar. Com o java-simpleitk, você pode realizar tarefas comuns de processamento de imagem, como
+rotação, redimensionamento e corte, sem precisar entender os detalhes complexos do ITK. Além disso, o java-simpleitk é escrito em Java, o que o torna acessível a uma ampla gama de
+desenvolvedores. 

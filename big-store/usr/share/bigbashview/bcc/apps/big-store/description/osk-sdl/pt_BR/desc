@@ -1,0 +1,3 @@
+Este programa é um teclado virtual para usar na tela, ele foi feito usando a biblioteca SDL2. Ele é útil para quem precisa digitar 
+algo, mas não tem teclado físico disponível, por exemplo, em um computador de mesa sem teclado ou em um tablet.Ele é especialmente útil para quem usa criptografia de disco rígido completa
+(FDE) e precisa digitar a senha para desbloquear o disco. 

@@ -1,0 +1,2 @@
+O mve-git é uma linha de produção para reconstrução de geometria baseada em imagem. Ele inclui várias técnicas,
+como estrutura-a-partir-do-movimento, multi-vista-estereoscopia (que leva em conta a sombra), reconstrução de superfície e texturização.

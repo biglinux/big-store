@@ -1,0 +1,4 @@
+Este programa é um servidor HTTP otimizado, o que significa que ele foi projetado para funcionar de
+maneira rápida e eficiente. Ele tem suporte aos protocolos HTTP/1.x e HTTP/2, o que significa que pode lidar com vários tipos de tráfego da web. Isso é útil se você precisar de um servidor 
+para lidar com muitas conexões simultaneamente, como em um site de alto tráfego. Além disso, ele é fácil de configurar e usar, então mesmo se você não é um especialista em tecnologia da
+web, ainda pode usá-lo para criar seu próprio site.

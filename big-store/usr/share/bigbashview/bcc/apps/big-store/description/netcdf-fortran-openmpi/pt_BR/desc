@@ -1,0 +1,1 @@
+Esse programa permite acessar arquivos NetCDF (formato de armazenamento de dados científicos) utilizando o Fortran, com suporte para execução paralela através do openmpi. Isso significa que ele pode trabalhar com vários processadores ao mesmo tempo, o que pode ser útil em casos de grandes quantidades de dados ou cálculos complexos. 

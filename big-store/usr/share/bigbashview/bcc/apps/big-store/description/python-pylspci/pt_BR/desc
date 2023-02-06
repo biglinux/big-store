@@ -1,0 +1,3 @@
+Este programa é escrito em Python e ajuda a analisar o comando lspci, que vem da biblioteca pciutils. Ele é capaz de
+entender e interpretar os dados fornecidos pelo comando lspci e pode ser usado para obter informações detalhadas sobre os dispositivos PCI instalados no seu computador. É uma ferramenta
+útil para os administradores de sistemas e desenvolvedores que precisam trabalhar com dispositivos PCI.

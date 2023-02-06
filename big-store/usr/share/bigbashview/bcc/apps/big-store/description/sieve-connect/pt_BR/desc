@@ -1,0 +1,1 @@
+O sieve-connect é um cliente para o protocolo MANAGESIEVE. Ele permite que os usuários gerenciem seus scripts Sieve em um servidor remoto. Com o sieve-connect, os usuários podem fazer upload, download e excluir seus scripts Sieve, além de listar os scripts atualmente no servidor. Isso facilita o gerenciamento dos seus filtros de email e os mantém organizados. 

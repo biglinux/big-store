@@ -1,0 +1,1 @@
+Este programa em Haskell permite que você utilize asserções semelhantes às do HUnit, mas com o QuickCheck. Isso significa que você pode testar suas propriedades de forma automatizada e aleatória, o que pode ajudar a encontrar falhas em seu código de forma mais eficiente. 

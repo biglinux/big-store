@@ -1,0 +1,4 @@
+ Snakemake é um programa baseado em Python que permite automatizar fluxos de trabalho semelhantes aos do GNU
+Make. Ele é fácil de usar e pode ser integrado a várias outras ferramentas de análise de dados. Com Snakemake, é possível escrever regras para controlar o fluxo de trabalho, garantindo que 
+as tarefas sejam executadas na ordem certa e que os dados estejam sempre atualizados. Ele também fornece recursos avançados, como cluster computing e cloud computing, tornando-o uma opção
+poderosa para fluxos de trabalho de grande escala.

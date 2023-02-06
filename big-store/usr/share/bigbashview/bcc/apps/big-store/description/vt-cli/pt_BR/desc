@@ -1,0 +1,3 @@
+A ferramenta vt-cli é uma interface de linha de comando para o VirusTotal, um serviço online que verifica
+arquivos e URLs para possíveis ameaças de malware. Com ela, você pode enviar arquivos para análise, verificar o status de arquivos já enviados e obter relatórios de resultados de forma
+automatizada. É uma ferramenta útil para profissionais de segurança da informação e administradores de sistemas que precisam verificar regularmente arquivos em busca de malware.

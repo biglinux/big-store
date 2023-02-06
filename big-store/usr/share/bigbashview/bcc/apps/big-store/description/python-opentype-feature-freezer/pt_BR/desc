@@ -1,0 +1,5 @@
+Este programa é uma ferramenta útil para designers de tipografia e desenvolvedores de software. Ele permite
+congelar recursos do OpenType em uma fonte, o que significa que eles não podem ser modificados ou removidos. Isso é útil quando você deseja garantir que uma fonte específica seja exibida de
+uma determinada maneira, independentemente do software ou sistema operacional que está sendo usado. O programa é escrito em Python e é fácil de usar.Ele tem a capacidade de processar
+várias fontes de uma só vez, tornando-o uma escolha eficiente para trabalhar com grandes conjuntos de fontes. Além disso, ele também pode ser usado para desbloquear recursos congelados,
+permitindo que os usuários modifiquem e personalizem as fontes de acordo com suas necessidades.

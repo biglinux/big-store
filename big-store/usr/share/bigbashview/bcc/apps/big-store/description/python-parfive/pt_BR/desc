@@ -1,0 +1,3 @@
+Esse programa é um baixador de arquivos que usa HTTP e FTP para fazer o download de arquivos de forma paralela. Isso significa 
+que ele pode baixar vários arquivos ao mesmo tempo, o que torna o processo mais rápido. Ele é especialmente útil para baixar grandes arquivos ou vários arquivos ao mesmo tempo. Além disso, 
+o programa possui recursos adicionais, como a capacidade de retomar downloads interrompidos e gerenciar filas de downloads.

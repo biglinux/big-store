@@ -1,0 +1,4 @@
+O Authelia é um portal de autenticação multi-fator pronto para nuvem, projetado para proteger seus
+aplicativos. Ele funciona como um proxy de autenticação centralizado e fornece uma interface web para gerenciar usuários e dispositivos. Ele suporta vários mecanismos de autenticação,
+incluindo senha, aplicativo de autenticação, cartão de segurança e biometria. Além disso, ele também fornece recursos avançados, como autenticação condicional e autenticação por contexto.
+Ele é fácil de configurar e integrar com seus aplicativos existentes, tornando-o uma solução ideal para proteção de aplicativos.

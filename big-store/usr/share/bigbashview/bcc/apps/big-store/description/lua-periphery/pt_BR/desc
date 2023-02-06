@@ -1,0 +1,3 @@
+Existe uma biblioteca chamada lua-periphery que é usada para controlar os periféricos de entrada e saída (como GPIO, LED, 
+PWM, SPI, I2C, MMIO e Serial) no Linux. Ela permite que você controle esses periféricos usando o código escrito em Lua. Isso pode ser útil se você estiver desenvolvendo algum projeto que
+precise interagir com esses tipos de dispositivos.

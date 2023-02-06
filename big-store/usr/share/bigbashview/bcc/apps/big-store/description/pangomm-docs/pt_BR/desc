@@ -1,0 +1,1 @@
+pangomm-docs é uma documentação para bindings em C++ para o Pango, um sistema de gerenciamento de fontes para aplicativos GTK. Isso permite que os desenvolvedores utilizem a biblioteca Pango em seus aplicativos escritos em C++. Esses bindings fornecem uma interface de programação de aplicativo (API) para acessar as funcionalidades do Pango de forma fácil e eficiente. 

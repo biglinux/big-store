@@ -1,0 +1,4 @@
+Este programa é um serviço do usuário do SystemD que ajuda a gerenciar a entrada de idiomas no seu computador. Ele funciona
+com o IBus, que é um sistema de entrada de idiomas para várias plataformas. Com ele, você pode facilmente trocar entre diferentes idiomas e escrever textos sem problemas. Ele é útil para
+pessoas que precisam escrever em diferentes idiomas e não querem ter que mudar as configurações do teclado ou do sistema toda vez. Com o ibus-daemon, é possível fazer isso rapidamente e
+facilmente, sem precisar sair do programa que você está usando.

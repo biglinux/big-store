@@ -1,0 +1,4 @@
+w3m-imgcat é uma ferramenta simples que permite exibir imagens diretamente no seu terminal. Ele faz isso ao
+imprimir a imagem para a saída padrão, o que significa que você pode usá-lo em conjunto com outros comandos no seu terminal. Ele é útil para visualizar imagens rapidamente sem precisar
+abrir outro aplicativo. Ele suporta uma variedade de formatos de imagem, incluindo jpeg, png e gif. É fácil de usar, basta passar o caminho da imagem como argumento para o script e ele fará
+o resto.

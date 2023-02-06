@@ -1,0 +1,1 @@
+unuran é uma biblioteca C que permite gerar variáveis pseudorandom não uniformes. Isso significa que ele pode criar números aleatórios que seguem uma distribuição específica, como uma distribuição normal ou exponencial. Isso é útil em muitas áreas, como simulações científicas e jogos.  Ele é fácil de usar e possui muitas opções para personalizar a saída. 

@@ -1,0 +1,1 @@
+Esse programa tenta simular a presença do GTK+2, mas na verdade ele está tentando usar o GTK+3. Ele é útil para quem precisa rodar aplicativos que ainda dependem do GTK+2, mas quer usar a versão mais atual do GTK+3. Ele é especialmente útil para quem usa sistemas operacionais mais antigos que não possuem suporte  nativo ao GTK+3. 

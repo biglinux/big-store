@@ -1,0 +1,1 @@
+O qemu-hw-display-virtio-vga é um dispositivo de exibição virtio-vga para o sistema QEMU. Ele permite que o sistema QEMU acesse e utilize recursos de exibição virtuais, como gráficos e vídeo, para exibir conteúdo em uma tela. Esse dispositivo é útil em sistemas virtuais, como máquinas virtuais, para garantir que o conteúdo seja exibido corretamente. 

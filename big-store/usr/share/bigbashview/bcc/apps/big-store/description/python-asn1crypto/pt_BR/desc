@@ -1,0 +1,1 @@
+python-asn1crypto é uma biblioteca que oferece capacidades de parsing e serialização de ASN.1. Ela tem ênfase em desempenho e uma API pythonica. É útil para trabalhar com certificados X.509 e solicitações de assinatura de certificados, bem como outros tipos de dados codificados em ASN.1. 

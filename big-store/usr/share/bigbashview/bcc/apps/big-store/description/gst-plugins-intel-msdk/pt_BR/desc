@@ -1,0 +1,4 @@
+Os plugins de GStreamer para Intel Media SDK (MSDK) são uma coleção de plugins para o GStreamer que permitem
+acessar recursos de hardware de codecs de mídia em dispositivos Intel. Esses plugins são especialmente úteis para aplicativos de transcodificação, edição de vídeo e reprodução de mídia.
+Eles fornecem suporte para codecs populares, como H.264, MPEG-2 e VC-1, bem como para recursos avançados, como hardware de aceleração de decodificação e codificação. Com os plugins de
+GStreamer para Intel Media SDK, os desenvolvedores podem criar aplicativos de mídia de alta performance e eficientes em termos de recursos.

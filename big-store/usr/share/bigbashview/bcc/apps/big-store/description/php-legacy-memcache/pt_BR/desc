@@ -1,0 +1,1 @@
+Este é um módulo para usar o Memcache com aplicações PHP antigas. Ele permite armazenar dados em cache para melhorar o desempenho e evitar a sobrecarga do banco de dados. 

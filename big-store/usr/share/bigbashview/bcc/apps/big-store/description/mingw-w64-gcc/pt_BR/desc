@@ -1,0 +1,1 @@
+Este programa é um compilador GCC para o compilador cruzado MinGW-w64. Ele permite que você compile código para sistemas operacionais Windows utilizando ferramentas de linha de comando de código aberto. Isso é útil para desenvolvedores que desejam criar aplicativos para Windows sem precisar usar ferramentas proprietárias. 

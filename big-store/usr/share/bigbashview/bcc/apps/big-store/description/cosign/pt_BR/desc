@@ -1,0 +1,1 @@
+ O programa cosign permite assinar containers com suporte para chaves efêmeras e assinatura Sigstore. Isso garante a segurança e a autenticidade dos containers ao garantir que eles foram criados e assinados por uma fonte confiável. Além disso, a assinatura com chaves efêmeras garante que a assinatura não possa ser reutilizada em outro momento. 

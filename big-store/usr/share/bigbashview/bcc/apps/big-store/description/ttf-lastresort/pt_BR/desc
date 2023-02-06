@@ -1,0 +1,3 @@
+Este é um programa que fornece uma fonte de último recurso para casos em que outras fontes não estão disponíveis. Ele é
+especialmente útil quando você está lidando com caracteres unicode que não são suportados pelas fontes padrão do seu sistema. Ele garante que os caracteres desconhecidos possam ser exibidos
+corretamente, mesmo quando outras fontes não estão disponíveis.

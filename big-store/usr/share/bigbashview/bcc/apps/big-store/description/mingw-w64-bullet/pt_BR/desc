@@ -1,0 +1,4 @@
+A biblioteca Bullet é uma ferramenta incrível para desenvolvedores de jogos e
+animação. Ela oferece recursos avançados de detecção de colisão e dinâmica rígida, permitindo que os objetos sejam animados de maneira mais realista e precisa. Com a versão mingw-w64, é
+possível usar a biblioteca Bullet com o compilador MinGW-w64, o que a torna ainda mais flexível e acessível para desenvolvedores.Se você está trabalhando em um projeto de jogo ou animação
+e precisa de recursos avançados de detecção de colisão e dinâmica rígida, a biblioteca Bullet é uma ótima opção a considerar. 

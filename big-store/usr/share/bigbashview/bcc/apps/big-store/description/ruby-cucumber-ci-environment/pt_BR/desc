@@ -1,0 +1,1 @@
+Este programa detecta se você está executando em um ambiente de Integração Contínua (CI) usando variáveis de ambiente. Ele é especialmente útil para quem trabalha com o framework de testes Cucumber em Ruby. Assim, você pode personalizar seus testes de acordo com o ambiente em que eles estão sendo executados. 

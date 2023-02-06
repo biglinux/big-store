@@ -1,0 +1,3 @@
+Este programa é uma maneira fácil de configurar a câmera no seu dispositivo. Ele usa uma interface gráfica de usuário (GUI) para
+ajudar você a ajustar as configurações, como brilho e contraste. Ele também funciona com o comando v4l2-ctl, que é usado para controlar dispositivos de vídeo no Linux. Assim, você pode ter 
+certeza de que sua câmera estará configurada corretamente e pronta para usar.

@@ -1,0 +1,1 @@
+ Esse programa adiciona suporte ao recurso de Reflink no Python. O que isso significa é que agora é possível criar links de referência para arquivos, o que economiza espaço em disco e torna as operações mais rápidas. Isso é especialmente útil em sistemas de arquivos grandes e/ou que sofrem muitas alterações.  

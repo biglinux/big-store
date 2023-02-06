@@ -1,0 +1,3 @@
+Esta é uma biblioteca embutida para o PHP 8.1. Ela permite que você execute códigos PHP diretamente no seu sistema, sem precisar de um 
+servidor web. Isso pode ser útil para criar scripts de automação ou aplicativos desktop que precisam de funcionalidades PHP.A biblioteca é chamada 'php81-embed' e é desenvolvida pela
+comunidade PHP. Ela pode ser facilmente integrada a outros projetos e é compatível com as últimas versões do PHP.

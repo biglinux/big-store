@@ -1,0 +1,1 @@
+Este módulo fornece uma coleção de utilitários de teste para atributos de arquivo. Ele é útil para  verificar se um arquivo tem as permissões, o tamanho ou outros atributos esperados antes de executar uma ação específica no arquivo. 

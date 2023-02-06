@@ -1,0 +1,3 @@
+Este programa é uma ferramenta escrita em Python que permite converter a saída de muitos profilers em um
+gráfico do tipo dot. Ele é útil para visualizar como o tempo é gasto em diferentes partes do seu código e encontrar pontos de otimização. Ele suporta vários formatos de entrada, incluindo o
+gprof, o oprofile e o perf. Com ele é possível facilmente identificar funções ou módulos que estão consumindo mais tempo de execução e assim tomar decisões para otimizar o seu código.

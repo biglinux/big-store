@@ -1,0 +1,4 @@
+Esta é uma ferramenta de linha de comando (CLI) para o PHP 8.2. Ela permite que você execute comandos PHP diretamente 
+no seu prompt de comando, sem precisar de um servidor web. Isso pode ser útil para tarefas automatizadas, testes e outros usos avançados.Para usar a ferramenta, basta digitar 'php82-cli'
+seguido pelo comando que você deseja executar. Por exemplo, para ver a versão do PHP instalada, você pode digitar 'php82-cli -v'. Existem muitos outros comandos e opções disponíveis,
+consulte a documentação do PHP para obter mais informações.

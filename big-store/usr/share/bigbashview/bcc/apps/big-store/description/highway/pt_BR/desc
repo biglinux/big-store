@@ -1,0 +1,1 @@
+Uma biblioteca escrita em C++ para SIMD (Single Instruction, Multiple Data) é uma técnica de computação que permite que vários dados sejam processados ao mesmo tempo, aumentando a velocidade e eficiência do processamento. Esta biblioteca é útil para aplicações que exigem alta performance, como jogos, animações e simulações. 

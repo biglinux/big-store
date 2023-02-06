@@ -1,0 +1,1 @@
+rnnoise é uma biblioteca que utiliza uma rede neural recorrente para suprimir os ruídos indesejados em áudios. Ela é capaz de remover ruídos como o vento, tráfego, e conversas de fundo, deixando o áudio mais limpo e fácil de ouvir. A biblioteca é fácil de usar e pode ser integrada a diversos projetos de áudio. 

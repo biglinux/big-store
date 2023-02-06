@@ -1,0 +1,1 @@
+Esse programa permite a criação automática de uma API REST através da captura de tráfego. Ele usa o mitmproxy2swagger para fazer isso. 

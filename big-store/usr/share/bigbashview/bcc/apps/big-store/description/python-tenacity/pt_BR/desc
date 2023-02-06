@@ -1,0 +1,1 @@
+Este programa é escrito em Python e utiliza a biblioteca Tenacity para tentar executar um código até que ele obtenha sucesso. Isso  pode ser útil em situações onde o código pode falhar por motivos temporários, mas deve continuar tentando até que ele funcione corretamente. 

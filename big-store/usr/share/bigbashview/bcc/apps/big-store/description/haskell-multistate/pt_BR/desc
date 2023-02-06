@@ -1,0 +1,1 @@
+Esse programa em Haskell permite trabalhar com vários tipos e valores contidos em conjunto, similar ao funcionamento do ReaderT, WriterT e StateT já existentes na linguagem, mas com a capacidade de lidar com mais de uma variável de estado. 

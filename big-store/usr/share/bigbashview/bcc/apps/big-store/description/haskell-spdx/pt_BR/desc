@@ -1,0 +1,1 @@
+A linguagem de expressão de licença SPDX é uma ferramenta que ajuda a descrever as licenças de software de maneira precisa e consistente. Ela é usada para definir os termos e condições de uso de um programa de computador. A biblioteca haskell-spdx é uma implementação dessa linguagem escrita em Haskell, uma linguagem de programação funcional. 

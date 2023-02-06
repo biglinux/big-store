@@ -1,0 +1,1 @@
+Este é um pacote de biblioteca chamado libindicator-gtk2. Ele fornece um conjunto de símbolos e funções de comodidade para usar com indicadores Ayatana. Os indicadores são pequenos ícones que mostram informações, como o status de conexão de rede ou bateria, na barra de tarefas do seu computador. Esse pacote é específico para uso com a biblioteca GTK+ 2. 

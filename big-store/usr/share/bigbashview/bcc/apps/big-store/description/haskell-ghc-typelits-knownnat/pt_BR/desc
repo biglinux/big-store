@@ -1,0 +1,1 @@
+Este programa permite que você derive restrições KnownNat de outras restrições KnownNat usando o  Haskell e a biblioteca GHC TypeLits. Isso é útil para garantir que os valores numéricos em seu código sejam os esperados e evitar erros de tempo de execução.  

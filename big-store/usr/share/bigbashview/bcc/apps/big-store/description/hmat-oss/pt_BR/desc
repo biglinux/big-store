@@ -1,0 +1,4 @@
+Esta é uma biblioteca de matrizes hierárquicas escrita em C/C++. Ela é projetada para ajudar os desenvolvedores a
+lidar com matrizes grandes e complexas de maneira eficiente. Com sua estrutura hierárquica, a biblioteca pode dividir uma matriz em submatrizes menores, o que permite que ela lidem com
+grandes quantidades de dados sem comprometer a velocidade ou a precisão. Além disso, ela também oferece várias funções úteis para facilitar o trabalho com essas matrizes, como
+multiplicação, inversão e decomposição. Esta biblioteca é open-source e pode ser usada livremente em projetos pessoais ou comerciais.

@@ -1,0 +1,3 @@
+Este programa é chamado de 'abuild' e é um script criado para construir pacotes para o sistema operacional Alpine. Ele é usado para 
+preparar e compilar pacotes, garantindo que eles estejam prontos para serem instalados e usados ​​no sistema.Com esse script, é possível automatizar o processo de construção de pacotes e
+garantir que eles estejam de acordo com as especificações necessárias para o Alpine.

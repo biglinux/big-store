@@ -1,0 +1,3 @@
+Este programa é chamado de 'retdec' e é um descompilador de código de máquina. Isso significa que ele pode pegar um
+programa escrito em código de máquina e transformá-lo de volta em um código fonte mais fácil de ler e entender. Ele usa algo chamado LLVM para fazer isso. É útil para programadores que
+querem entender como um programa funciona ou para encontrar problemas no código.

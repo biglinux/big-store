@@ -1,0 +1,1 @@
+Essa ferramenta é útil para se comunicar com o CMOS/NVRAM em sistemas Coreboot. Ela pode ser usada  para ler e escrever informações nessas áreas de memória, o que é útil para configurar o sistema.Algumas das coisas que você pode fazer com essa ferramenta incluem ler e escrever configurações de BIOS, definir senhas de administrador e gerenciar opções de inicialização. 

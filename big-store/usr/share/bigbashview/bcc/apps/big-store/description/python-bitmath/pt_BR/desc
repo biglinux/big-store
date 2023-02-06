@@ -1,0 +1,2 @@
+Este programa é um módulo em Python que permite representar e manipular tamanhos de arquivos com diferentes
+notações de prefixo (como por exemplo, KB, MB, GB). Ele é útil para converter tamanhos de arquivos de uma unidade para outra.

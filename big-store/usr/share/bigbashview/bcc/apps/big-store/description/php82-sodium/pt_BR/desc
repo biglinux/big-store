@@ -1,0 +1,3 @@
+Este programa adiciona uma camada extra de segurança para a sua aplicação PHP através do uso do módulo de segurança 'sodium'.
+Ele é compatível com a versão 8.2 do PHP. Com ele, você pode criptografar dados sensíveis e garantir a privacidade dos usuários. Além disso, o módulo também oferece outras funcionalidades
+de segurança, como autenticação de mensagens e geração de números aleatórios seguros.

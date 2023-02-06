@@ -1,0 +1,4 @@
+Este programa é chamado de pacmixer e ele é usado para controlar o volume do som no seu computador. Ele é similar 
+a outro programa chamado alsamixer, mas é específico para usuários que usam o sistema de som PulseAudio.Com o pacmixer, você pode aumentar ou diminuir o volume, definir o volume para
+diferentes dispositivos de som e criar atalhos de teclado para acessar rapidamente as configurações de volume.Se você estiver tendo problemas com o som no seu computador ou deseja ter mais 
+controle sobre como o som é reproduzido, o pacmixer pode ser uma boa opção a considerar.

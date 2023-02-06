@@ -1,0 +1,6 @@
+ Com o JNA (Java Native Access), você pode acessar facilmente bibliotecas nativas em seu código Java sem a
+necessidade de escrever código em C ou C++. Isso significa que você pode usar todos os recursos e funcionalidades de bibliotecas existentes sem precisar reescrevê-los. Além disso, o JNA
+fornece uma interface de alto nível para trabalhar com essas bibliotecas, tornando-o fácil de usar e entender.Com o JNA, você também pode chamar funções de bibliotecas nativas
+diretamente de sua aplicação Java, sem precisar de uma camada intermediária. Isso significa que você pode aproveitar todo o desempenho dessas bibliotecas sem comprometer a portabilidade e a
+segurança do seu código.Em resumo, o JNA é uma excelente escolha se você precisar acessar bibliotecas nativas em seu código Java, pois é fácil de usar, eficiente e mantém a segurança e a
+portabilidade do seu código.

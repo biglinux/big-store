@@ -1,0 +1,1 @@
+Os drivers da NVIDIA são usados para fazer com que o seu computador se comunique corretamente com a sua placa de vídeo NVIDIA. Eles incluem arquivos de código-fonte, que são como as instruções que o computador precisa seguir para usar a placa de vídeo. O pacote nvidia-dkms é usado para instalar esses drivers no sistema operacional. 

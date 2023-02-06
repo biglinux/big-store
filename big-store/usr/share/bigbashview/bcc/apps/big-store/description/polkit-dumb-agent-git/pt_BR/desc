@@ -1,0 +1,3 @@
+Esse programa é um agente de autorização para sistemas baseados em Unix. Ele foi escrito com o objetivo de ser
+simples e fácil de usar, usando apenas 145 linhas de código. Ele foi desenvolvido com o uso de bibliotecas Qt e libsystemd. Ele foi criado como uma alternativa ao polkit, que é considerado 
+complexo e difícil de usar.

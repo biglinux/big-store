@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 8.2 que permite o acesso a memória compartilhada SysV. Ele é usado para permitir que múltiplos
+processos acessem a mesma informação na memória, o que pode ser útil em alguns aplicativos.O módulo SysVSHM é uma opção de memória compartilhada para o PHP, que é uma linguagem de
+programação amplamente utilizada para criar sites e aplicativos da web. 

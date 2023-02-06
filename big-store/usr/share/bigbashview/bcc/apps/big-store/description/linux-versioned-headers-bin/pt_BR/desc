@@ -1,0 +1,4 @@
+Este é um pacote chamado linux-versioned-headers-bin. Ele é um tipo especial de pacote que depende de outro pacote chamado
+linux6.1.7.arch1-1-headers-bin. Isso significa que ele precisa do outro pacote para funcionar corretamente. Este pacote é usado para incluir arquivos de cabeçalho específicos para o sistema
+operacional Linux.Os arquivos de cabeçalho são usados ​​pela linguagem de programação C e C ++ para acessar as funções do sistema operacional. Eles contêm informações sobre como o sistema
+operacional trabalha e como se comunicar com ele. Com este pacote, os desenvolvedores podem escrever programas para o Linux com mais facilidade.

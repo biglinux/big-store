@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 8.1, chamado Phar. Ele permite que você crie, gerencie e use arquivos Phar, que são como arquivos de
+pacote para o seu código PHP. Com ele, você pode juntar vários arquivos PHP em um só arquivo, facilitando a distribuição e uso do seu código.Além disso, os arquivos Phar também oferecem
+recursos adicionais de segurança, como assinatura digital e verificação de integridade, para garantir que o código contido no arquivo não foi alterado.

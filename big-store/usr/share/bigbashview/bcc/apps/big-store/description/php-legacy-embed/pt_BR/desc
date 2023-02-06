@@ -1,0 +1,1 @@
+A biblioteca php-legacy-embed é uma biblioteca SAPI (Server Application Programming Interface) para PHP que permite que o PHP seja usado como uma biblioteca em vez de um interpretador independente. Isso é útil para quem precisa incorporar o PHP em outros aplicativos ou sistemas operacionais. 

@@ -1,0 +1,3 @@
+Esse programa é uma ferramenta para geração rápida e incremental de tags para uso em editores de código como o Vim. Ele é
+específico para o uso em projetos escritos em Haskell.As tags são marcações que permitem navegar facilmente entre os arquivos de um projeto, tornando mais fácil encontrar e acessar funções,
+variáveis e outros elementos do código. Com esse gerador de tags, é possível atualizar essas marcações de forma rápida e eficiente, sem precisar esperar por longos processos de geração.

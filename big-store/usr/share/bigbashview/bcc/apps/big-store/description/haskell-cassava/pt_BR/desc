@@ -1,0 +1,1 @@
+Essa é uma biblioteca para ajudar a lidar com arquivos CSV (Comma Separated Values) em Haskell. Ela oferece  funções para ler e escrever esses arquivos, além de ajudar a lidar com possíveis erros que possam acontecer durante essas operações. 

@@ -1,0 +1,1 @@
+ lib32-krb5 é uma biblioteca para o sistema de autenticação de rede Kerberos. Ele fornece as funcionalidades necessárias para que os programas possam se comunicar com um servidor Kerberos e se autenticar. Ele é especialmente útil para sistemas de 64-bits que precisam usar programas de 32-bits que requerem essa biblioteca.  

@@ -1,0 +1,3 @@
+ Esta biblioteca, chamada python-mapbox-earcut, permite utilizar a implementação em C++ da biblioteca Mapbox
+Earcut em aplicações Python. Ela é útil para quem precisa trabalhar com polígonos em seus programas e precisa de uma maneira eficiente e precisa de cortá-los. Com ela, é possível fazer
+cortes precisos em polígonos de maneira simples e rápida. 

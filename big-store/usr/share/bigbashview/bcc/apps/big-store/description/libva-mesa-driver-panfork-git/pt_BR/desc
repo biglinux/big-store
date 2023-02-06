@@ -1,0 +1,4 @@
+Este é um driver VA-API para o sistema de renderização Gallium. Ele permite que os usuários aproveitem os recursos de aceleração
+de vídeo em suas placas gráficas compatíveis com VA-API. Ele é baseado no projeto Panfork e é mantido como um repositório Git.Com este driver, é possível assistir vídeos de alta qualidade
+com maior desempenho e eficiência de recursos em seu computador. Ele é especialmente útil para usuários que desejam reproduzir vídeos em resoluções mais altas ou com taxas de quadros mais
+elevadas.

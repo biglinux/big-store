@@ -1,0 +1,1 @@
+Este programa permite a conversão de expressões matemáticas escritas em MathML ou LaTeX Math para o formato SVG, sem a  necessidade de instalar o Latex. Ele é chamado python-ziamath e é fácil de usar para qualquer pessoa que precise exibir expressões matemáticas em seu website ou documento. 

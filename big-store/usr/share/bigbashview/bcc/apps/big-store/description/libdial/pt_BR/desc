@@ -1,0 +1,1 @@
+A biblioteca libdial é necessária para o funcionamento do programa tzclock. Ela fornece as funcionalidades necessárias para o programa funcionar corretamente.Sem essa biblioteca, o programa não será capaz de executar corretamente. 

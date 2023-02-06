@@ -1,0 +1,4 @@
+Este programa adiciona atalhos de teclado baseados no FZF ao seu terminal Fish. Isso significa que você poderá navegar
+facilmente por seus arquivos e pastas usando combinações de teclas, em vez de ter que digitar comandos inteiros. Isso pode tornar sua navegação mais rápida e eficiente.Por exemplo, você
+poderá usar a combinação de teclas 'ctrl + t' para pesquisar rapidamente por arquivos em sua pasta atual, ou usar 'ctrl + r' para pesquisar comandos recentes no seu histórico.É fácil de
+instalar e configurar, então experimente hoje e veja como isso pode melhorar sua experiência de navegação no terminal.

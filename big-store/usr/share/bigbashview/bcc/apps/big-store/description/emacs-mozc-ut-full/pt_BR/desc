@@ -1,0 +1,3 @@
+ Este programa é um módulo para o editor de texto Emacs, que adiciona suporte ao dicionário japonês Mozc e UT. Isso
+significa que você pode escrever em japonês usando o teclado do seu computador e o programa vai ajudá-lo a escrever as palavras corretamente, assim como fornecer sugestões de palavras
+enquanto você digita. Além disso, ele também inclui um dicionário completo para ajudar a traduzir palavras e frases.

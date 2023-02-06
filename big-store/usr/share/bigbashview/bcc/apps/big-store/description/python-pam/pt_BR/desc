@@ -1,0 +1,1 @@
+A biblioteca python-pam é uma interface pura em Python para o sistema de Módulos de Autenticação Conectáveis (PAM) no Linux. O PAM é um sistema poderoso que permite uma autenticação flexível em sistemas Linux. Com o python-pam, você pode facilmente integrar a autenticação baseada em PAM em suas aplicações Python. Essa biblioteca é compatível com Python 2 e 3. 

@@ -1,0 +1,3 @@
+Este é um complemento para o Mozilla Thunderbird que verifica as assinaturas DKIM de acordo com o RFC 6376. Ele é útil para
+garantir que as mensagens de email que você recebe foram enviadas pelo remetente original e não foram alteradas durante o envio. Isso aumenta a segurança e a confiabilidade das suas
+mensagens de email.

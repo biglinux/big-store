@@ -1,0 +1,1 @@
+A biblioteca padrão C é um conjunto de funções e recursos que são comuns em muitos programas escritos em C. Essa implementação específica é destinada a ser usada em sistemas embarcados que não possuem um sistema operacional completo. O alvo específico é o processador RISCV64 sem sistema operacional. 

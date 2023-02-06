@@ -1,0 +1,3 @@
+Godot é uma ferramenta de desenvolvimento de jogos open source, com suporte para várias plataformas, incluindo Windows,
+MacOS e Linux. Ele permite a criação de jogos 2D e 3D e possui uma linguagem de script própria, chamada GDScript.Godot-build é uma ferramenta que ajuda a construir projetos criados com o 
+Godot. Ele permite automatizar tarefas comuns, como compilação, geração de pacotes e publicação. Isso torna mais fácil e rápido para os desenvolvedores publicarem seus jogos. 

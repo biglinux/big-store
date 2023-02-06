@@ -1,0 +1,1 @@
+Este programa é responsável por gerenciar as chaves de segurança do sistema operacional Manjaro. Ele mantém as chaves PGP atualizadas e garante que apenas pacotes seguros sejam instalados no sistema. 

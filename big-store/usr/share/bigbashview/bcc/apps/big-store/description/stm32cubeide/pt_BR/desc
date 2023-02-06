@@ -1,0 +1,4 @@
+ O STM32CubeIDE é uma ferramenta de desenvolvimento integrado (IDE) para os microcontroladores STM32. Ele oferece uma
+interface fácil de usar para escrever, depurar e carregar seu código em um dispositivo STM32. Além disso, ele inclui bibliotecas prontas para usar e recursos de depuração avançados para
+ajudar você a otimizar seu código.Com o STM32CubeIDE, você pode facilmente criar aplicativos para dispositivos como sensores, atuadores, dispositivos de comunicação e muito mais. Ele é
+compatível com uma ampla gama de microcontroladores STM32 e suporta vários sistemas operacionais, incluindo Windows, Linux e macOS. 

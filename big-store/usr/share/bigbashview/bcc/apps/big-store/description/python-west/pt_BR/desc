@@ -1,0 +1,4 @@
+O Zephyr RTOS é um sistema operacional de tempo real para dispositivos embarcados. O python-west é uma
+ferramenta de gerenciamento de projetos desenvolvida especificamente para o Zephyr RTOS. Ele ajuda a gerenciar e organizar o código fonte, a configuração do sistema e outros aspectos do
+projeto. Ele é escrito em Python e é fácil de usar para pessoas que já estão familiarizadas com essa linguagem de programação. Ele também fornece uma interface gráfica amigável para aqueles
+que não têm tanto conhecimento técnico.

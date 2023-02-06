@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de gerenciamento de privilégios, similar ao sudo, que foi adaptado do doas do
+OpenBSD. Ele permite que usuários comuns execute comandos com privilégios de administrador de forma segura e controlada.Com ele, é possível definir regras específicas para usuários e
+comandos, garantindo maior segurança e controle sobre as ações realizadas no sistema.

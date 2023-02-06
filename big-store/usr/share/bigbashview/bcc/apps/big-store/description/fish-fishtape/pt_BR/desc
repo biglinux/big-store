@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de testes para o shell fish, ele usa TAP (Test Anything Protocol) para rodar os testes.
+Isso permite que você escreva testes de forma fácil e rápida para o seu código e verificar se ele está funcionando corretamente. Com este programa você pode garantir que seu código está
+funcionando como esperado antes de usá-lo em produção.

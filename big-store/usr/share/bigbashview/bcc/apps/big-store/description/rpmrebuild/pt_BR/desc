@@ -1,0 +1,4 @@
+O programa 'rpmrebuild' é uma ferramenta que permite criar um arquivo RPM a partir de um pacote já instalado. Ele é útil quando você
+precisa fazer modificações em um pacote já instalado e quer salvar essas modificações em um novo arquivo RPM. Com ele, você pode facilmente criar uma nova versão de um pacote existente sem 
+precisar instalar e desinstalar o pacote várias vezes.Ele é simples de usar e permite fazer uma variedade de tarefas, como adicionar ou remover arquivos, modificar configurações, e até
+mesmo adicionar scripts de inicialização. 

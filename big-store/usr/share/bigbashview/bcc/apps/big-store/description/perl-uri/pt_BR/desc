@@ -1,0 +1,1 @@
+O pacote perl-uri fornece uma série de funções para trabalhar com Uniform Resource Identifiers  (URIs), tanto absolutos quanto relativos. Ele permite que você parseie, valide e construa URIs, além de realizar outras operações comuns com esses identificadores. Esse pacote é útil para desenvolvedores que trabalham com links e endereços na web. 

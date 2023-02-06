@@ -1,0 +1,3 @@
+O Bauerbill é uma extensão do Powerpill com suporte para AUR (Arch User Repository) e ABS (Arch Build System). Ele é
+uma ferramenta útil para gerenciar pacotes no Arch Linux, possibilitando instalar, atualizar e remover pacotes de forma fácil e rápida.Além disso, ele também permite gerenciar pacotes AUR, 
+que são pacotes criados e mantidos por usuários, e pacotes ABS, que são pacotes compilados a partir do código fonte.

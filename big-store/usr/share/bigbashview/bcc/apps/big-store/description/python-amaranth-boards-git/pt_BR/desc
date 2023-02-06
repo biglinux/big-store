@@ -1,0 +1,4 @@
+Este programa fornece as definições de placa para o sistema Amaranth HDL. Isso significa que ele inclui informações
+sobre como as diferentes peças e componentes devem ser conectadas e configuradas em uma determinada placa para que o sistema funcione corretamente. Ele é escrito em Python e é baseado em um
+repositório Git, o que significa que é fácil de atualizar e gerenciar.Esse programa é especialmente útil para desenvolvedores de hardware que estão trabalhando com o sistema Amaranth HDL e 
+precisam de uma maneira fácil de gerenciar as definições da placa. Ele também pode ser útil para qualquer pessoa interessada em aprender mais sobre como esses sistemas funcionam.

@@ -1,0 +1,1 @@
+IPAddr fornece um conjunto de métodos para manipular um endereço IP. Ambos IPv4 e IPv6 são suportados.ruby-ipaddr 

@@ -1,0 +1,1 @@
+ Este programa é escrito em Python e serve para decodificar uma string codificada em Base64 sem espaços adicionais. Ele é útil quando a string codificada não foi devidamente formatada com espaços para torná-la mais legível. 

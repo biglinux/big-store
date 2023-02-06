@@ -1,0 +1,1 @@
+Esta é uma biblioteca de regex (expressões regulares) que funciona com o pcre-light. Ela é fácil de usar e é útil para encontrar e substituir palavras ou padrões em um texto. Com ela, você pode criar regras para buscar e modificar dados de maneira automatizada. Essa biblioteca esta em haskell. 

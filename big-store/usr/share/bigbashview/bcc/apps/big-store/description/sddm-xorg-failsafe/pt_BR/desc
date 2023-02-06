@@ -1,0 +1,1 @@
+Se o driver de vídeo padrão não funcionar, é possível usar o driver fbdev no gerenciador de sessão Xorg chamado sddm como uma opção de fail-safe. 

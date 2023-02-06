@@ -1,0 +1,1 @@
+O Keepalived é um daemon (programa de fundo) que gerencia a disponibilidade de um cluster LVS (Linux  Virtual Server) através da verificação de estado dos nós e do balanceamento de carga. Ele também pode ser configurado para enviar alertas quando houver falhas no cluster. 

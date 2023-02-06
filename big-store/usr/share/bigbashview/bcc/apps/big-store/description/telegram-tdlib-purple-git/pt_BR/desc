@@ -1,0 +1,3 @@
+Este é um plugin para o Telegram que foi implementado usando a biblioteca oficial tdlib client. É necessário definir
+as variáveis de ambiente TD_API_ID e TD_API_HASH para que ele possa ser criado com o makepkg.Com ele, você pode usar o Telegram diretamente no seu cliente de mensagens instantâneas
+preferido, sem precisar alternar entre aplicativos. 

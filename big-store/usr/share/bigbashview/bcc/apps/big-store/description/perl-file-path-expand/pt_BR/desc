@@ -1,0 +1,1 @@
+O módulo File::Path::Expand para Perl/CPAN permite expandir caminhos de arquivos de forma fácil e eficiente. Ele é útil para lidar com caminhos relativos e absolutos, e pode ser usado em várias aplicações para garantir que os caminhos dos arquivos estejam corretos. 

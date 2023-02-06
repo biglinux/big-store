@@ -1,0 +1,3 @@
+Este programa é uma versão para ser usada na linha de comando (CLI) do PHP73. Ele permite que você execute comandos PHP
+diretamente do seu terminal, sem precisar de um servidor web ou navegador. Com ele, é possível criar scripts automatizados, rodar aplicações de linha de comando e muito mais. Ele é uma
+ferramenta poderosa para desenvolvedores e administradores de sistemas.

@@ -1,0 +1,4 @@
+Este programa é uma ferramenta de monitoramento de sistema que usa uma interface TUI (interface gráfica de usuário de
+texto) para exibir informações sobre o seu computador. Ele também inclui um serviço de dados históricos, que permite ver como o desempenho do sistema mudou com o tempo.Com este programa,
+você pode ver informações como o uso da CPU, memória, disco e rede em tempo real. Ele também mostra informações sobre processos em execução e pode ajudar a identificar problemas no seu
+sistema.

@@ -1,0 +1,4 @@
+ QUISK é um transceptor de rádio definido por software (SDR) que pode controlar vários dispositivos de rádio. Ele é uma
+ferramenta útil para aqueles que desejam experimentar com transmissão e recepção de rádio sem precisar construir o hardware por conta própria. Com QUISK, é possível controlar dispositivos
+de rádio como o RTL-SDR, Softrock, e muitos outros. Além disso, QUISK tem uma interface fácil de usar e é compatível com vários sistemas operacionais, incluindo Windows, MacOS e Linux. Ele 
+também suporta vários modos de transmissão, como SSB, CW, AM e FM.

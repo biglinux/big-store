@@ -1,0 +1,3 @@
+Este é um programa simples escrito em PHP para ser usado com a API de DNS da Netcup. Ele permite que você mantenha
+seu endereço IP sempre atualizado sem precisar fazer manualmente.Com ele, você pode ter um nome de domínio apontando sempre para o endereço IP correto, mesmo que ele mude com frequência. É 
+uma ótima solução para quem precisa ter um site ou serviço sempre acessível na internet.

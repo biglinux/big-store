@@ -1,0 +1,1 @@
+O ruby-async-container é um programa que permite a utilização de paralelismo baseado em contêineres. Isso significa que ele pode utilizar threads e processos de acordo com a necessidade do programa para aumentar a velocidade de execução. 

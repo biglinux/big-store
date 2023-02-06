@@ -1,0 +1,3 @@
+Esse programa é feito para ajudar a executar códigos escritos em Rust com mais cuidado e segurança. Ele faz verificações
+extras durante o processo para garantir que tudo esteja funcionando corretamente. Isso é importante porque o Rust é uma linguagem poderosa, mas também pode ser complexa e trazer riscos se
+não for usada corretamente. Esse programa ajuda a evitar problemas e garantir que tudo esteja funcionando como deveria.

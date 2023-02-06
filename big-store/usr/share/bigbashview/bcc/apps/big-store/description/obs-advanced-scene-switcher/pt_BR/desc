@@ -1,0 +1,4 @@
+Este programa é chamado obs-advanced-scene-switcher e é usado para mudar cenas automaticamente no OBS Studio. Isso 
+significa que você não precisa fazer isso manualmente toda vez que quiser mudar a cena exibida no seu stream ou gravação. Ele pode ser configurado para mudar de cena com base em regras
+específicas, como tempo ou eventos de entrada.Isso pode ser útil se você estiver fazendo uma transmissão ao vivo e quiser mudar automaticamente para mostrar seus jogadores ou convidados,
+por exemplo. Ele também pode ser usado para mudar de cena automaticamente durante uma gravação para mostrar diferentes cenas ou elementos visuais.

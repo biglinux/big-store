@@ -1,0 +1,1 @@
+ python-curtsies é uma biblioteca que permite criar programas de terminal com uma exibição baseada em composição de matrizes 2D de texto. Essa biblioteca é semelhante ao módulo curses do Python e possibilita criar programas com interface amigável e interativa. 

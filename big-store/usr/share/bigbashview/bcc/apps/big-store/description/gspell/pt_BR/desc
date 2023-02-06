@@ -1,0 +1,1 @@
+gspell é uma biblioteca de correção ortográfica para aplicativos GTK+. Ele fornece um widget baseado em GtkTextView para aplicativos GTK+ usarem, bem como uma biblioteca para outros widgets habilitados para correção ortográfica. A biblioteca usa a biblioteca Enchant para correção ortográfica. 

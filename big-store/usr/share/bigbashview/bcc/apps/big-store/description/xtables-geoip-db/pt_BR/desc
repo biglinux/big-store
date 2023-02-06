@@ -1,0 +1,3 @@
+Este é um banco de dados GeoIP para uso com o xtables. Ele permite que você bloqueie ou permita pacotes de acordo
+com a localização geográfica de origem ou destino. Ele é útil para aumentar a segurança de sua rede ou para aplicar políticas de acesso específicas para diferentes regiões. Ele é atualizado
+regularmente e compatível com o Linux.

@@ -1,0 +1,4 @@
+Flyway é uma ferramenta de migração de banco de dados escrita em Java. Ela suporta uma ampla variedade de bancos de 
+dados, permitindo que você facilmente gerencie e atualize o esquema do seu banco de dados.Com Flyway, você pode garantir que as alterações no seu banco de dados sejam aplicadas de forma
+consistente em todas as suas instâncias, sejam elas de desenvolvimento, teste ou produção. Além disso, ele também permite desfazer mudanças indesejadas e rastrear quais alterações foram
+aplicadas e quando.

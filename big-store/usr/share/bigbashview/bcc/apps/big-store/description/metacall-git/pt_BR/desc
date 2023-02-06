@@ -1,0 +1,4 @@
+Este programa é uma linha de comando que fornece uma interface para uma biblioteca que permite chamadas de
+função estrangeira entre diferentes linguagens. Isso significa que você pode usar código escrito em uma linguagem em outro código escrito em outra linguagem, sem precisar se preocupar com
+problemas de compatibilidade. Por exemplo, você pode usar uma função escrita em Python em um aplicativo C++, ou usar uma função escrita em JavaScript em um aplicativo Java. Isso é possível 
+graças à biblioteca metacall, que é o que esse programa é baseado.

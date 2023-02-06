@@ -1,0 +1,1 @@
+Este programa é uma interface em Python para o dispositivo SEGGER J-Link. Ele permite que você conecte seu computador ao dispositivo J-Link e use as ferramentas de depuração disponíveis para trabalhar com seu projeto.Com este programa, você pode facilmente enviar e receber dados, configurar o dispositivo J-Link, e realizar outras tarefas de depuração. 

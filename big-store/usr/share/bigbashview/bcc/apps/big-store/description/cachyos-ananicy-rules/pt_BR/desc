@@ -1,0 +1,4 @@
+O CachyOS é um sistema operacional que conta com o ananicy-rules, um gerenciador de recursos. Ele ajuda a 
+manter o sistema operacional estável e rápido, gerenciando o uso de recursos como CPU, memória e disco. Isso permite que os programas funcionem de forma mais suave e sem travamentos.Além
+disso, o ananicy-rules também pode ser configurado para lidar com processos específicos, o que permite um ajuste ainda mais preciso do uso de recursos. Isso é especialmente útil em sistemas
+com recursos limitados, como computadores antigos ou dispositivos móveis.

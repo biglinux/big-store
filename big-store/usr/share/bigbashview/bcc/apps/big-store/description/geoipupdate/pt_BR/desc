@@ -1,0 +1,1 @@
+geoipupdate é uma ferramenta de linha de comando simples para atualizar os bancos de dados binários  GeoIP2 e GeoIP Legacy. Os bancos de dados são usados ​​para mapear rapidamente endereços IP para uma localização geográfica, como uma cidade ou país. A ferramenta baixará automaticamente a versão mais recente dos bancos de dados do MaxMind e os instalará em seu sistema. 

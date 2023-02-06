@@ -1,0 +1,1 @@
+Este programa fornece uma interface comum para usar as melhores implementações disponíveis de JSON no Python. Ele é  conhecido como python-anyjson. Isso facilita o uso de diferentes bibliotecas JSON em seus projetos, sem ter que se preocupar com a compatibilidade entre elas. Ele é útil para desenvolvedores que desejam ter flexibilidade e escolha em suas implementações de JSON. 

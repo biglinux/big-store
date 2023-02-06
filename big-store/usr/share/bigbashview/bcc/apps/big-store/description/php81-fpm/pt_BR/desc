@@ -1,0 +1,3 @@
+O PHP é uma linguagem de programação muito popular para desenvolvimento de websites e aplicações web. O php81-fpm é um
+gerenciador de processos específico para a versão 8.1 do PHP, chamado FastCGI Process Manager. Ele é responsável por gerenciar e controlar o funcionamento do PHP no servidor, garantindo que
+as aplicações funcionem de forma rápida e estável.

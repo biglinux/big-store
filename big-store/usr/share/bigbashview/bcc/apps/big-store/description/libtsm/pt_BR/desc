@@ -1,0 +1,1 @@
+libtsm é uma biblioteca para emular terminais. Ele fornece uma máquina de estado para interpretar sequências de controle de terminal e renderizar caracteres em uma janela. Ele é usado para criar emuladores de terminal como parte de outros programas. 

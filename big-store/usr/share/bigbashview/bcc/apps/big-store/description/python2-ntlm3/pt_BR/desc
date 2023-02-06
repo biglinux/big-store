@@ -1,0 +1,3 @@
+Este programa permite que clientes Python em qualquer sistema operacional forneçam autenticação NTLM para um servidor compatível.
+É especificamente projetado para uso com a versão 2 do Python. Com ele, é possível garantir que as informações trocadas entre o cliente e o servidor estejam seguras e protegidas contra
+acessos não autorizados.

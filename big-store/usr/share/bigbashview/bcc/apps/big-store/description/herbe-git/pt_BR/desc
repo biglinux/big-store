@@ -1,0 +1,3 @@
+Este programa fornece notificações sem precisar de um daemon (um programa que roda em segundo plano). Isso significa que ele é mais
+leve e não precisa de recursos extras para funcionar. Ele é uma alternativa ao uso do D-Bus, que é um sistema comum para enviar notificações no Linux. Além disso, ele é compatível com o
+protocolo de notificação do sistema, o que significa que ele pode ser usado com qualquer programa que suporte esse protocolo.

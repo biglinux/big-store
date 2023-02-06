@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para adicionar numeração nas equações no pandoc. Ele funciona como um filtro, que 
+processa o documento antes de ser convertido para outro formato. Com ele, fica mais fácil se referir a uma equação específica em um texto longo.É simples de usar, basta adicioná-lo no
+comando de conversão do pandoc e ele fará o trabalho automaticamente. Além disso, é totalmente compatível com todos os formatos de saída suportados pelo pandoc.

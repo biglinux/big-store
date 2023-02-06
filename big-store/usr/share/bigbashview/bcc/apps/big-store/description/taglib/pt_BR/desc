@@ -1,0 +1,1 @@
+Essa biblioteca é chamada taglib e ela é usada para ler e editar os meta-dados de vários formatos de áudio populares, como MP3, Ogg Vorbis e FLAC. Isso significa que você pode usá-la para adicionar informações como o título da música, o nome do artista e o álbum em arquivos de áudio. Além disso, você também pode usá-la para ler essas informações de arquivos de áudio.  

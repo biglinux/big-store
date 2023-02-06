@@ -1,0 +1,3 @@
+Este programa é útil para rastrear os pacotes instalados no seu sistema. Ele funciona como uma alternativa a outros
+programas como pug e pacmanity, e usa o etckeeper para fazer isso. Com ele, você pode ver facilmente quais pacotes foram adicionados ou removidos do seu sistema, o que é útil para manter o 
+controle de sua configuração e garantir que tudo está funcionando corretamente.

@@ -1,0 +1,3 @@
+Com o programa Perl-devel-findperl, você pode facilmente encontrar o caminho para a sua instalação do Perl. Isso é útil se
+você estiver trabalhando em vários projetos e precisar garantir que está usando a versão correta do Perl em cada um deles. Ele é simples de usar e faz uma busca completa no seu sistema para
+encontrar a instalação do Perl, então você não precisa se preocupar em procurar manualmente. 

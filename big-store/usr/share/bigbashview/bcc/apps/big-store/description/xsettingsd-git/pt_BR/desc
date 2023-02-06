@@ -1,0 +1,3 @@
+xsettingsd é um programa que ajuda a gerenciar as configurações do X Window, que é o sistema de janelas padrão em muitas
+distribuições Linux. Ele implementa a especificação XSETTINGS, permitindo que você configure várias opções como a cor e o estilo do cursor, o esquema de cores, entre outras coisas.Com o
+xsettingsd, você pode facilmente personalizar a aparência do seu ambiente de trabalho, tornando-o mais agradável e fácil de usar.

@@ -1,0 +1,3 @@
+Este programa é chamado de 'Yet Another AWS SSO', ou simplesmente 'yawsso' para short. Ele ajuda a sincronizar a sua sessão
+de login do AWS CLI v2 SSO com as credenciais antigas do CLI v1. Isso significa que você pode usar as mesmas informações de login em vários programas diferentes sem precisar ficar digitando
+suas informações de conta toda vez.

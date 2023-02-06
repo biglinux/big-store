@@ -1,0 +1,4 @@
+Este programa é um controle de volume para o sistema de som PulseAudio, que é usado em muitos sistemas Linux. Ele possui uma
+interface gráfica fácil de usar, com opções para ajustar o volume de diferentes fontes de som, como música e vídeos. Além disso, ele também permite gerenciar entradas e saídas de som, como 
+mudar de dispositivos de áudio e ajustar configurações avançadas. Ele é desenvolvido usando a biblioteca GTK, o que significa que ele se integra perfeitamente com a maioria dos ambientes de
+desktop Linux.

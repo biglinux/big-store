@@ -1,0 +1,1 @@
+Este programa é usado para testar como o sistema reage quando um módulo específico não está presente. Ele é escrito em Perl e é chamado 'Test::Without::Module'. Ele é especialmente útil quando se está desenvolvendo novos módulos e precisa verificar se o sistema ainda funcionará corretamente sem eles. 

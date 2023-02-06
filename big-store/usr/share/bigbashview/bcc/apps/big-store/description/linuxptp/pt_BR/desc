@@ -1,0 +1,5 @@
+ Este programa é uma implementação do Protocolo de Tempo de Precisão (PTP) de acordo com a norma IEEE 1588 para o
+sistema operacional Linux. Ele ajuda a sincronizar relógios em sua rede, garantindo que todos os dispositivos estejam com o mesmo tempo preciso. Isso é importante para aplicações críticas
+como sistemas de comunicações e controle de processos industriais.Com Linux PTP, você pode sincronizar relógios em computadores, roteadores e outros dispositivos na sua rede. Ele é
+compatível com várias plataformas e sistemas operacionais, incluindo Linux, Windows e MacOS. Além disso, ele é fácil de configurar e usar, tornando-o uma escolha popular para
+administradores de rede e engenheiros de sistemas. 

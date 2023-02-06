@@ -1,0 +1,1 @@
+Este script é um fork do biglinux e foi criado  para permitir a criação de espaço de troca híbrido usando zram, arquivos de troca e partições de troca. Isso permite que o usuário obtenha o melhor desempenho possível e aproveite ao máximo a capacidade de sua máquina. 

@@ -1,0 +1,3 @@
+Este programa é usado para conectar o seu controlador PS3 Sixaxis ao seu sistema através de Bluetooth. Ele faz isso
+conectando o controlador ao seu computador por meio de USB e, em seguida, associando-o com o bluetoothd (um programa que gerencia conexões Bluetooth em seu sistema). Desta forma, você pode 
+usar o controlador sem fio para jogar jogos ou controlar outros aplicativos em seu computador.

@@ -1,0 +1,1 @@
+O xdg-dbus-proxy é um programa que atua como um filtro para as conexões D-Bus. Ele permite que aplicativos se comuniquem  de forma segura e controlada, garantindo que somente os acessos autorizados sejam permitidos. É uma ferramenta importante para aumentar a segurança e privacidade do sistema. 

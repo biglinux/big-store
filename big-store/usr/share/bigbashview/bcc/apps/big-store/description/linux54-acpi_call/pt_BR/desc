@@ -1,0 +1,1 @@
+O módulo linux54-acpi_call permite aos usuários fazer chamadas para métodos ACPI (Advanced Configuration and Power Interface) diretamente através de um arquivo especial no sistema de arquivos do Linux, chamado /proc/acpi/call. Isso pode ser útil para ajustar configurações avançadas do sistema ou gerenciar recursos de energia de forma mais precisa. 

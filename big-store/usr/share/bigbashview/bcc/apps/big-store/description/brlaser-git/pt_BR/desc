@@ -1,0 +1,3 @@
+ Este é um driver para usar com o Brother DCP-7065DN em conjunto com o sistema de impressão CUPS. Ele permite que o seu
+computador se comunique com a impressora e envie documentos para serem impressos. Para usar este driver, você precisará ter o CUPS instalado no seu computador e seguir as instruções de
+instalação fornecidas. Depois de instalado, você poderá imprimir documentos normalmente como faria com qualquer outra impressora. 

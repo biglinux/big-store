@@ -1,0 +1,4 @@
+Este programa é um cliente escrito em Python para o Apache Kafka, que é um sistema de gerenciamento de fluxo de dados
+distribuído. Ele permite que os usuários enviem e recebam dados através do Apache Kafka usando a linguagem Python.Com este cliente, é possível criar aplicações que enviem dados para o
+Apache Kafka, ou aplicações que recebam dados do Apache Kafka, ou ambos. Além disso, ele fornece ferramentas para ajudar a gerenciar o fluxo de dados, como criar tópicos, gerenciar
+partições e assinar fluxos de dados.

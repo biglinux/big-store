@@ -1,0 +1,1 @@
+A log4cpp é uma biblioteca de classes C++ que permite o registro flexível em arquivos, syslog, IDSA e outros destinos. Ela é fácil de usar e configurar, oferecendo diversas opções para personalizar o registro de acordo com as suas necessidades. Com a log4cpp, você pode facilmente adicionar registros em seus programas para ajudar na depuração e monitoramento. 

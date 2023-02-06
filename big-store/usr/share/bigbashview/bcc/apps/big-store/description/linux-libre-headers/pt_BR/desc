@@ -1,0 +1,2 @@
+Este é um pacote de cabeçalhos e scripts que ajudam a construir módulos para o kernel Linux-libre. O Linux-libre é uma versão livre e 
+sem restrições do kernel Linux, que foi removido de todo o código proprietário. Com este pacote, os desenvolvedores podem criar módulos personalizados para o Linux-libre.

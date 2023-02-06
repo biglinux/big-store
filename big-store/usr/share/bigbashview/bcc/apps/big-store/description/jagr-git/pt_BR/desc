@@ -1,0 +1,4 @@
+Esta ferramenta, chamada jagr-git, foi desenvolvida para ajudar professores a avaliar trabalhos de alunos
+escritos em Java. Ela foi implementada usando a linguagem Kotlin e tem como objetivo facilitar o processo de correção e avaliação de código. Com ela, professores podem definir critérios de 
+avaliação e deixar que a ferramenta faça a avaliação automaticamente, economizando tempo e garantindo maior precisão nas notas. Além disso, os alunos também podem se beneficiar, pois podem 
+verificar como estão se saindo e corrigir eventuais erros antes da entrega final.

@@ -1,0 +1,3 @@
+Este é um módulo específico para a versão 7.4 do PHP, que permite o uso de memória compartilhada entre processos. Isso pode ser
+útil em aplicações web que precisam compartilhar informações em tempo real entre diferentes usuários ou sessões.Com esse módulo, é possível criar, acessar e modificar segmentos de memória
+compartilhada, permitindo a comunicação entre processos de forma rápida e eficiente.

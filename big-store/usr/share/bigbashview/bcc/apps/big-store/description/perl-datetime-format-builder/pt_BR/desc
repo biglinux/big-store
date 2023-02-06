@@ -1,0 +1,1 @@
+Este programa permite criar classes e objetos para parsear datas e horas. Ele é escrito em Perl e usa o módulo 'datetime-format-builder' para construir os formatos de data e hora desejados.Com ele, é possível trabalhar facilmente com datas e horas em seus scripts Perl e formatá-las de acordo  com suas necessidades. 

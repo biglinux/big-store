@@ -1,0 +1,2 @@
+ gokey-git é um gerenciador de senhas simples e sem senha feito em Go. Ele permite armazenar e gerenciar suas senhas de maneira
+segura sem a necessidade de um cofre ou senha. É fácil de usar e oferece recursos úteis como geração automática de senhas fortes. 

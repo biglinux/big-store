@@ -1,0 +1,1 @@
+O lxqt-powermanagement é um daemon para gerenciamento de energia no LXQt. Ele trata eventos de energia, como fechamento da tampa e baixa bateria, e fornece uma maneira para outros aplicativos reagirem a esses eventos. Ele também fornece uma maneira de configurar configurações de energia, como brilho da tela e tempo de espera para dormir. 

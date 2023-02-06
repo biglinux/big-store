@@ -1,0 +1,1 @@
+xorg-iceauth é uma ferramenta para gerenciamento de autenticação ICE para o X Window System. Ele permite que os usuários e administradores gerenciem arquivos de autoridade ICE, que são usados para autenticar as conexões entre clientes e servidores de janela X. Ele também pode ser usado para adicionar, remover ou listar entradas de arquivo de autoridade. 

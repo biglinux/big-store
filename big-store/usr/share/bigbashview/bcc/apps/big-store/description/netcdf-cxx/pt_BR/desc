@@ -1,0 +1,1 @@
+A biblioteca netcdf-cxx é uma biblioteca de ligação para o NetCDF (Network Common Data Form) em C++. Ela permite acesso fácil e eficiente a arquivos no formato NetCDF, incluindo a capacidade de ler, escrever e modificar arquivos existentes. Além disso, a biblioteca fornece uma interface C++ amigável para trabalhar com os dados contidos nos arquivos NetCDF.  

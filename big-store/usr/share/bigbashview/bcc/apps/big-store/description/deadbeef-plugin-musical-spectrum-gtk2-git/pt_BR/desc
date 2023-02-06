@@ -1,0 +1,3 @@
+Este é um plugin para o DeaDBeeF, um player de áudio popular. Ele adiciona um espectro musical à interface do usuário,
+mostrando a distribuição das frequências de áudio ao longo do tempo. Isso pode ser útil para identificar as partes mais intensas de uma música ou para ajustar as configurações de
+equalização. Ele é baseado na biblioteca GTK2 e foi desenvolvido como um projeto independente por um desenvolvedor chamado 'deadbeef-plugin-musical-spectrum-gtk2-git'.

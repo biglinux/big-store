@@ -1,0 +1,1 @@
+A biblioteca ruby-hashdiff é uma ferramenta útil para comparar dois hashes e encontrar a menor diferença entre eles. Ela é escrita em Ruby e facilmente integrável em outros programas. Com essa biblioteca, é possível verificar se duas versões de um arquivo ou banco de dados são iguais ou se há alguma diferença entre elas, e qual é a menor delas.  

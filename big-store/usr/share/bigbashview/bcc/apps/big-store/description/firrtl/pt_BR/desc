@@ -1,0 +1,1 @@
+O firrtl é uma representação intermediária flexível para linguagens de descrição de hardware em nível de registrador (RTL). Ele permite a transformação de código RTL em outras representações intermediárias, o que facilita a otimização e a verificação do código. Além disso, o firrtl suporta uma variedade de idiomas de descrição de hardware, incluindo Verilog e VHDL. 

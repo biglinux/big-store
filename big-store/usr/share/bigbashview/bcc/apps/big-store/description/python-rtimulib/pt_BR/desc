@@ -1,0 +1,2 @@
+Essa é uma biblioteca para usar com sensores de movimento (IMU) no Python. Ela se chama RTIMULib e é bem versátil, o que significa
+que dá para usar com vários tipos diferentes de sensores. Ela foi escrita em C++ e essa é uma 'binding', ou uma forma de usar essa biblioteca em Python.

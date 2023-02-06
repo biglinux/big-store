@@ -1,0 +1,4 @@
+O Trust-DNS é um servidor DNS seguro e confiável com suporte a DNSEC. Ele é projetado para garantir que as consultas de
+DNS sejam autênticas e protegidas contra ataques maliciosos. Com o suporte DNSEC, o Trust-DNS pode fornecer uma camada adicional de segurança para o seu sistema de nomes de domínio,
+garantindo que as respostas de DNS sejam válidas e autênticas.Além disso, ele é desenvolvido para ser escalável e fácil de configurar, tornando-o uma ótima escolha para qualquer pessoa
+que queira garantir a segurança de seus serviços de DNS. 

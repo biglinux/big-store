@@ -1,0 +1,3 @@
+Este programa fornece uma função decorativa para tentativas e retentativas. Ele é útil quando você precisa fazer
+uma chamada a uma API ou outra operação e precisa lidar com falhas temporárias. Ele fará automaticamente várias tentativas com um tempo de espera crescente entre cada uma, até que a chamada
+seja bem-sucedida ou atinja o número máximo de tentativas.

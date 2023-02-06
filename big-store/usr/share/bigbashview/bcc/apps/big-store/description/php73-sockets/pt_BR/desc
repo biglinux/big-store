@@ -1,0 +1,3 @@
+ Este é um módulo que permite que você use sockets (conexões de rede) com a versão 7.3 do PHP. Com ele, você pode se conectar a 
+outros computadores e enviar ou receber informações através da internet. É útil para criar aplicativos que precisam se comunicar com outros programas ou sites.Por exemplo, você pode
+usá-lo para criar um bate-papo ou um jogo online. Também é útil para automatizar tarefas, como enviar e-mails ou baixar arquivos. 

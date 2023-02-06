@@ -1,0 +1,1 @@
+Este é um projeto de simulação de serviço web HTTP para projetos que usam a biblioteca libsoup. Ele permite que você teste seus projetos sem precisar depender de uma conexão real com o serviço web. Isso é útil para desenvolvimento e testes, pois você pode simular diferentes cenários de resposta e garantir que o seu código está funcionando corretamente. 

@@ -1,0 +1,1 @@
+Phonon-qt5-vlc é um Phonon VLC backend para Qt5. Ele fornece o VLC como um backend Phonon no Linux, Windows e macOS. Isso permite que você use o VLC como o player de mídia padrão para suas aplicações Qt5. 

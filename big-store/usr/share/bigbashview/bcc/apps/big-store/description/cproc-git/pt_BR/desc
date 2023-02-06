@@ -1,0 +1,2 @@
+Este é um compilador pequeno escrito em C11 e que utiliza QBE como mecanismo de geração de código. Ele é um projeto open-source e
+pode ser facilmente modificado para atender às suas necessidades. Além disso, ele é compatível com a maioria dos sistemas operacionais, incluindo Windows, MacOS e Linux.

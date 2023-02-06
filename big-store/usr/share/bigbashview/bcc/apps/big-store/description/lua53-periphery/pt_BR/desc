@@ -1,0 +1,3 @@
+Esse é um programa que usa a linguagem Lua para acessar dispositivos periféricos, como GPIO, LED, PWM, SPI, I2C, MMIO e Serial no
+sistema operacional Linux. Isso significa que você pode controlar e obter informações de diferentes partes do seu computador usando Lua.Por exemplo, você pode usar esse programa para
+ligar e desligar um LED conectado ao seu computador, ou para ler dados de um sensor conectado via I2C. 

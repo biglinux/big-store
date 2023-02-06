@@ -1,0 +1,1 @@
+O programa 'perl-carp-always' é uma ferramenta para mostrar avisos e erros de maneira mais clara e detalhada, incluindo o traçado de pilha (stack trace), ou seja, mostrando todas as chamadas de função que levaram ao problema. Isso ajuda a identificar mais facilmente onde o erro ocorreu e como corrigi-lo. 

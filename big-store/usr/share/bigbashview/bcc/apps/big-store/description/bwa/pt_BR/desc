@@ -1,0 +1,3 @@
+O Burrows-Wheeler Aligner, ou BWA, é um programa que ajuda a encontrar onde as sequências curtas de DNA ou RNA se encaixam 
+em um genoma de referência maior. Isso é útil para entender como as diferentes partes do genoma se relacionam entre si e como elas são usadas.O BWA é especialmente útil para sequências que 
+não têm muitas diferenças entre si, pois é capaz de encontrar sua localização precisa mesmo quando há poucas diferenças.

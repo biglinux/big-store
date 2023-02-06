@@ -1,0 +1,2 @@
+ Este programa é um armazenamento de chave-valor que é altamente disponível. Isso significa que ele sempre
+estará disponível para você usar, mesmo quando outras coisas estiverem acontecendo. Ele também é útil para compartilhar configurações e descobrir serviços. 

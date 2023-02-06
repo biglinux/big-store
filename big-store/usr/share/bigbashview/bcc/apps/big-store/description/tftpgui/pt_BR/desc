@@ -1,0 +1,2 @@
+Este é um servidor TFTP que foi projetado para ser executado como um programa iniciado pelo usuário, em vez de um serviço em
+segundo plano. Isso significa que você pode iniciá-lo quando precisar e encerrá-lo quando não precisar mais dele, sem afetar outros programas em seu computador. 

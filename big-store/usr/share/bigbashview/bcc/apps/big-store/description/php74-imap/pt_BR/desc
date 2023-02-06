@@ -1,0 +1,4 @@
+Este é um módulo especial para o programa PHP74 que permite que ele se comunique com contas de e-mail usando o protocolo IMAP. Isso
+significa que você pode criar scripts que possam ler, enviar e gerenciar e-mails de forma automatizada. É uma ferramenta muito útil para qualquer pessoa que precise trabalhar com e-mails em
+grande escala.O módulo IMAP é fácil de usar e é compatível com a maioria dos sistemas operacionais. Ele vem pré-instalado com o PHP74, mas às vezes precisa ser ativado manualmente. Se você 
+estiver enfrentando problemas para usá-lo, verifique a documentação do PHP74 para obter instruções de configuração.

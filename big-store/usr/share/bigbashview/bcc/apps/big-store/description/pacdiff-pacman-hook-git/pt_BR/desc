@@ -1,0 +1,4 @@
+Este é um programa chamado pacdiff-pacman-hook-git. Ele é um gancho (hook) para o gerenciador de
+pacotes do Arch Linux chamado Pacman. Ele ajuda a revisar automaticamente os arquivos .pacnew quando atualizações são instaladas. Isso significa que você não precisa fazer isso manualmente,
+o programa fará isso por você.Isso pode ser útil para garantir que suas configurações personalizadas não sejam sobrescritas durante as atualizações. Além disso, ele também pode ajudar a
+detectar conflitos de arquivos que podem ocorrer durante as atualizações.

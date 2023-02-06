@@ -1,0 +1,2 @@
+Este programa é uma ferramenta gráfica feita em Java que ajuda a inspecionar, invocar, monitorar, simular e testar Web
+Services baseados em REST/WADL e SOAP/WSDL através de HTTP. Ele é útil para testes funcionais, de carga e de conformidade.

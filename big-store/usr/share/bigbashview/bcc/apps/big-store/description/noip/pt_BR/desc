@@ -1,0 +1,3 @@
+Este é um programa que ajuda você a manter seu endereço de DNS dinâmico atualizado com o serviço no-ip.com. Ele
+funciona verificando se houve mudanças em seu endereço IP e, se sim, atualiza automaticamente o endereço no no-ip.com. Isso significa que você sempre poderá acessar seu dispositivo, mesmo
+que seu endereço IP mude. É uma ótima ferramenta para usuários que precisam acessar dispositivos remotamente, como roteadores, câmeras de segurança e servidores.

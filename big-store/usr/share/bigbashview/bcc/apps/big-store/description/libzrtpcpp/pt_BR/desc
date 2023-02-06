@@ -1,0 +1,3 @@
+Este é um programa chamado libzrtpcpp, que é uma implementação em C++ da especificação ZRTP criada por Phil
+Zimmermann. A especificação ZRTP é um protocolo de segurança utilizado para garantir a privacidade das chamadas de voz e vídeo. A libzrtpcpp é uma biblioteca open-source que pode ser usada 
+para adicionar suporte ao ZRTP em outros programas.

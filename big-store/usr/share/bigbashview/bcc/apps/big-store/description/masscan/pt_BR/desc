@@ -1,0 +1,1 @@
+Este programa é um scanner de porta TCP, ele envia pacotes SYN de forma assíncrona, o que permite que ele escaneie toda a Internet em menos de 5 minutos. Ele é chamado de masscan. 

@@ -1,0 +1,1 @@
+ Essa é uma biblioteca Python que permite acessar a biblioteca wlroots usando cffi. Isso significa que você pode usar a biblioteca wlroots em seu código Python para fazer coisas legais como criar interfaces de usuário. É fácil de usar e é uma boa escolha se você estiver trabalhando com Python e wlroots.  

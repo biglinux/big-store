@@ -1,0 +1,3 @@
+Este programa é uma versão da função 'encontrar' que usa o algoritmo de pesquisa em largura (BFS). Ele funciona examinando todos os nós
+de um grafo ou árvore a partir de um ponto de partida e visitando os nós vizinhos antes de seguir para nós mais distantes.Isso pode ser útil em situações em que se deseja encontrar o
+caminho mais curto entre dois pontos ou garantir que todos os nós sejam visitados.

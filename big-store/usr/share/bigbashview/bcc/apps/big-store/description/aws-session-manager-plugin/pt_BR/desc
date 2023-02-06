@@ -1,0 +1,3 @@
+ O Gerenciador de sessão da AWS é um plugin para o aws-cli que permite gerenciar suas sessões de trabalho na nuvem. Com ele,
+você pode iniciar, controlar e encerrar sessões, além de acessar recursos da AWS sem precisar de uma chave de acesso ou uma senha. É uma forma segura e fácil de acessar suas contas e
+recursos na nuvem. 

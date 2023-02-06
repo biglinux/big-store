@@ -1,0 +1,4 @@
+Este programa é chamado de osync, ele é um script que permite sincronizar arquivos em ambos os sentidos. Isso
+significa que ele pode manter duas pastas iguais, mesmo se os arquivos forem adicionados, excluídos ou alterados em uma delas. Ele é útil para manter arquivos sincronizados entre diferentes
+dispositivos, como computadores, discos rígidos externos e nuvens. O osync é fácil de usar e tem várias opções de configuração para se adequar a diferentes necessidades de sincronização.
+Ele também possui recursos de segurança, como criptografia de arquivos e backup automático, para garantir que seus dados sejam seguros e sempre acessíveis. 

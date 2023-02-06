@@ -1,0 +1,1 @@
+Este programa é uma melhoria e correção de bugs no método de multiprocessamento 'fork' do Python. Ele ajuda a tornar o processamento mais rápido e eficiente, permitindo que vários tarefas sejam executadas ao mesmo tempo. É útil para tarefas que exigem muito poder de processamento, como análise de grandes conjuntos de dados. 

@@ -1,0 +1,3 @@
+A Real-time Transport Protocol (RTP) é uma biblioteca de protocolos de comunicação utilizada para
+transmitir dados de vídeo e áudio em tempo real. Ela permite que os dados sejam transmitidos de forma confiável e precisa, garantindo que a qualidade da transmissão seja mantida. A RTP é
+amplamente utilizada em aplicações de comunicação, como videoconferências e streaming de mídia.

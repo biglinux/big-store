@@ -1,0 +1,3 @@
+ Este programa é uma implementação de geohash em AWK. Geohash é uma técnica para codificar coordenadas geográficas (como latitude 
+e longitude) em uma sequência curta de caracteres. Isso é útil para armazenar e consultar dados geográficos de forma eficiente. Com este programa, você pode codificar e decodificar
+coordenadas usando o AWK.

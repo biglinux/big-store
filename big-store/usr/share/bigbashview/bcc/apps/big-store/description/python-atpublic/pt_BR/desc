@@ -1,0 +1,1 @@
+O decorador @public permite que um método ou atributo de uma classe seja acessado publicamente, sem restrições de encapsulamento.Isso é útil quando queremos expor uma funcionalidade específica de nossa classe para outras partes do código ou para outras classes sem precisar acessá-la diretamente. 

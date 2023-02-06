@@ -1,0 +1,2 @@
+ O qoibench-git é uma ferramenta de compressão de imagem que utiliza o formato 'Quite OK Image' para
+compressão rápida e sem perda. Ele também inclui um benchmark para comparar o qoi com várias bibliotecas de png.

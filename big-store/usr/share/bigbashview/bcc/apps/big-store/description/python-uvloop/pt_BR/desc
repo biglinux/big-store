@@ -1,0 +1,1 @@
+Este programa utiliza o módulo python-uvloop para criar um event loop ultra rápido e eficiente. Ele é baseado no módulo asyncio, que é uma biblioteca padrão do Python para gerenciamento de tarefas assíncronas. Com o python-uvloop, é possível executar várias tarefas simultaneamente sem afetar a velocidade e desempenho do programa. 

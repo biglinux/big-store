@@ -1,0 +1,3 @@
+Com o phpup-bin, você pode facilmente gerenciar as versões do PHP em seu computador, independentemente do sistema operacional que
+você estiver usando. Ele é escrito em rust, o que o torna rápido e confiável.Com esse programa, você pode alternar facilmente entre as versões do PHP instaladas, garantindo que seu projeto 
+sempre esteja usando a versão correta.

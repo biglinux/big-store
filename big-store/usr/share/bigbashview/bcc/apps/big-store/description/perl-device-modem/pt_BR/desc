@@ -1,0 +1,1 @@
+Este é um pacote de extensão em Perl que permite a comunicação com dispositivos  de modem conectados através de uma porta serial. Ele fornece uma maneira simples de enviar e receber dados através do modem, permitindo que você crie aplicações que precisam se comunicar com dispositivos externos. 

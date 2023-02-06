@@ -1,0 +1,1 @@
+gperftools é um conjunto de ferramentas para ajudar a melhorar o desempenho de seu aplicativo. Ele inclui um malloc rápido e multi-threaded, bem como ferramentas para ajudá-lo a analisar e entender como seu aplicativo está usando a memória. Com estas ferramentas, você pode identificar e  corrigir problemas de desempenho, tornando seu aplicativo mais rápido e mais eficiente. 

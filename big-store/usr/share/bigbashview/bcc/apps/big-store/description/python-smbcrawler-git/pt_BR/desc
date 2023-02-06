@@ -1,0 +1,3 @@
+Este programa é um crawler para buscar credenciais em compartilhamentos SMB. Ele funciona varrendo
+as pastas compartilhadas e procurando por arquivos que possam conter informações de login e senha. É uma ferramenta útil para testes de segurança e auditoria de redes.Ele foi desenvolvido
+utilizando a linguagem de programação Python e é baseado no projeto 'python-smbcrawler-git'. 

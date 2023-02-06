@@ -1,0 +1,1 @@
+O pacote 'haskell-pipes' permite a criação de fluxos de trabalho complexos, chamados de 'compositional pipelines', com facilidade e flexibilidade. Ele fornece ferramentas para construir, manipular e executar esses fluxos, tornando mais fácil de desenvolver aplicativos que precisam de processamento de fluxo  de dados. 

@@ -1,0 +1,5 @@
+ Shiboken é um gerador de vínculos para a linguagem de programação Python. Ele é usado para criar bindings
+para bibliotecas escritas em C++. Isso significa que permite que você use código escrito em C++ em seus programas Python. Isso é útil porque muitas bibliotecas e ferramentas úteis estão
+escritas em C++ e, sem o shiboken, você não poderia usá-las no Python.Além disso, ele é usado para criar bindings para a biblioteca de widgets Qt, que é amplamente utilizada para criar
+interfaces gráficas de usuário (GUIs) em aplicativos desktop. Isso permite que você crie aparência e comportamentos personalizados para suas janelas, botões e outros elementos de interface 
+usando o Python.

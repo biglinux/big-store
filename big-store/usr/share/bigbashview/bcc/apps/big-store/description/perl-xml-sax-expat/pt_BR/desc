@@ -1,0 +1,1 @@
+Este programa é um driver de SAX2 (Simple API for XML) para o Expat (XML::Parser). Ele permite que você faça parse de arquivos XML usando a API SAX2 e o Expat como parseador subjacente. Isso é útil se você já estiver usando a API SAX2 e quiser usar o Expat como parseador, ou se você prefira a interface SAX2 para parsear arquivos XML. 

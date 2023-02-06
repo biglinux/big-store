@@ -1,0 +1,4 @@
+O módulo bcmath é uma extensão para o PHP 8.2 que adiciona funções matemáticas de precisão arbitrária. Isso significa que ele
+permite trabalhar com números muito grandes ou muito pequenos, além de possibilitar operações matemáticas precisas com esses números. Algumas das funções incluem adição, subtração,
+multiplicação, divisão, exponenciação e comparação.Esse módulo é especialmente útil para aplicações financeiras, científicas e outras que precisam lidar com números grandes e precisos. Ele 
+é fácil de usar e pode ser instalado com poucos passos.

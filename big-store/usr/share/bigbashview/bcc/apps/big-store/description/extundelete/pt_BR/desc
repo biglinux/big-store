@@ -1,0 +1,3 @@
+Com o extundelete, é possível recuperar arquivos que foram excluídos de uma partição ext3 ou ext4. Ele é uma ferramenta
+útil para quem precisa recuperar dados perdidos acidentalmente ou devido a falhas no sistema. O extundelete funciona examinando a partição e procurando por arquivos marcados como excluídos,
+mas ainda presentes no disco. Ele pode recuperar esses arquivos e salvá-los em outra localização, permitindo que você os use novamente.

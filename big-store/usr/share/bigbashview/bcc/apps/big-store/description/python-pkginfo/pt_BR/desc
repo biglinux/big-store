@@ -1,0 +1,1 @@
+O programa python-pkginfo é utilizado para consultar metadados de pacotes instalados. Ele permite obter informações  sobre pacotes sdists, bdists e pacotes instalados. Com ele é possível verificar informações como nome do pacote, versão, descrição e autor. 

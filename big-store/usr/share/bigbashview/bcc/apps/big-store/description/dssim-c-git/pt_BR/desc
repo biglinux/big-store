@@ -1,0 +1,3 @@
+Este é um programa que implementa a métrica de similaridade DSSIM em linguagem C. A métrica DSSIM é usada para medir a
+diferença entre duas imagens e é amplamente utilizada em aplicações de processamento de imagem. Com este programa, você pode comparar duas imagens e obter uma pontuação que indica o quão
+semelhantes elas são. 

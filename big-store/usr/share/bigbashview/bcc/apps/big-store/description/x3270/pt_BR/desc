@@ -1,0 +1,3 @@
+Este é um emulador de terminal IBM 3270 para o sistema X Window. Ele permite que você use um computador como se fosse um
+terminal IBM 3270, o que é útil se você precisar acessar sistemas antigos ou legados que ainda usam esses terminais.Com este emulador, você pode se conectar a um host IBM mainframe e usar
+aplicativos legados que normalmente só funcionam em um terminal IBM 3270.

@@ -1,0 +1,4 @@
+Este programa ajuda a configurar dispositivos de troca com base em zram logo na inicialização do sistema. É uma solução simples
+para aumentar a velocidade e eficiência do seu computador ao usar recursos de memória virtual.Quando você está fazendo muitas tarefas ao mesmo tempo, pode acontecer de sua memória RAM ficar
+cheia. O swap serve como uma espécie de armazenamento extra para ajudar o seu computador a continuar funcionando sem travar. E com a tecnologia zram, esse processo é ainda mais rápido e
+eficiente.Baixe esse programa e deixe seu computador mais ágil e sem problemas de memória!

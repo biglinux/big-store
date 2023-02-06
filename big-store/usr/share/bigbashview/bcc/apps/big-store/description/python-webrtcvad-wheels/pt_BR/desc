@@ -1,0 +1,4 @@
+Este é um programa que fornece uma interface para o Detector de Atividade de Voz WebRTC (VAD). Ele é escrito em Python e
+permite aos usuários integrar facilmente o VAD em seus projetos. Com ele, é possível detectar se uma pessoa está falando ou não, o que pode ser útil em aplicações de reconhecimento de voz
+ou processamento de áudio em geral.Este programa é uma biblioteca de roda pronta, o que significa que você pode instalá-lo e começar a usá-lo imediatamente, sem precisar configurar nada.
+Além disso, ele é compatível com a maioria das versões do Python, tornando-o uma opção acessível para muitos desenvolvedores.

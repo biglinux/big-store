@@ -1,0 +1,1 @@
+Este programa é uma biblioteca para Python que permite o bloqueio de arquivos de maneira segura em sistemas POSIX, com tempo limite para acesso. Isso é útil para evitar conflitos de acesso a arquivos em sistemas de arquivos compartilhados, como o NFS. 

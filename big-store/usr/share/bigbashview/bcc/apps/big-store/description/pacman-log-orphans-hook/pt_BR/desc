@@ -1,0 +1,3 @@
+Este programa é um gancho (hook) que verifica se há pacotes marcados como não necessários (orfãos) após cada execução do pacman. Ele
+utiliza o comando 'pacman -Qttdq' para fazer essa verificação e, se encontrar algum pacote orfão, ele o remove automaticamente. Isso garante que o seu sistema operacional esteja sempre
+limpo e livre de pacotes desnecessários, otimizando seu espaço em disco e melhorando o desempenho geral do sistema.

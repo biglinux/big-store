@@ -1,0 +1,3 @@
+O corosync é um motor para sistemas de comunicações em cluster, com recursos de alta disponibilidade. Ele ajuda a
+garantir que a comunicação entre os nós do cluster seja rápida e confiável, o que é importante em sistemas críticos que precisam estar sempre disponíveis.Com o corosync, você pode ter
+certeza de que seus dados e aplicações estarão sempre acessíveis, mesmo em caso de falhas em algum dos nós do cluster.

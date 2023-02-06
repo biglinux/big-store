@@ -1,0 +1,3 @@
+Esse programa é uma abstração para o IO Bus do Hare. Ele permite que você use o Hare de forma mais fácil e intuitiva, sem precisar se
+preocupar com os detalhes técnicos do funcionamento do IO Bus. Com ele, você pode se concentrar em criar suas aplicações e deixar que o programa cuide do resto.Ele é especialmente útil para
+desenvolvedores iniciantes ou para projetos que precisam de um alto nível de simplicidade.

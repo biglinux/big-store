@@ -1,0 +1,2 @@
+Este programa é um detector de pacotes proprietários para distribuições baseadas em Arch Linux. Ele usa uma lista negra de 
+pacotes da Parabola para identificar esses pacotes.

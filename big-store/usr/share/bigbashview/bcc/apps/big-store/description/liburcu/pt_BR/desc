@@ -1,0 +1,1 @@
+Esta é uma biblioteca chamada liburcu. Ela é usada para fazer atualizações em programas sem precisar parar tudo  enquanto isso acontece. Ela segue a licença LGPLv2.1 e é usada principalmente em espaços de usuário. É uma ferramenta muito útil para programadores que precisam fazer mudanças em seus programas sem interromper o funcionamento deles.  

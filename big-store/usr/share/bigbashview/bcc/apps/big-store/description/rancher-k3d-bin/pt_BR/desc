@@ -1,0 +1,2 @@
+A ferramenta rancher-k3d-bin é uma pequena ajuda para rodar o programa k3s da Rancher Labs dentro do Docker. Com ela, 
+é possível criar e gerenciar clusters K3s de forma rápida e simples.

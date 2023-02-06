@@ -1,0 +1,2 @@
+Uma ferramenta que ajuda a criar imagens de contêiner de forma consistente e precisa. Com ela, é possível
+criar imagens de contêiner OCI ou Docker de forma rápida e segura. Isso garante que as imagens sejam sempre iguais, independentemente de quem as construa ou em que momento.

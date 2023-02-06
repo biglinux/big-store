@@ -1,0 +1,1 @@
+ruby-attr_extras é um pacote que ajuda a simplificar o código Ruby, tornando-o mais limpo e fácil de entender. Ele adiciona métodos úteis como attr_initialize, que permite criar atributos de instância de maneira mais rápida e fácil. Com esse pacote, é possível economizar tempo e esforço ao escrever código Ruby, tornando-o mais fácil de manter e escalar no futuro. 

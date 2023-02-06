@@ -1,0 +1,3 @@
+Este é um módulo para o programa PHP 8.2 que permite criar e gerenciar arquivos no formato Phar. O Phar é um formato de arquivo
+específico para PHP que permite embalar vários arquivos em um único arquivo, facilitando a distribuição e a instalação de aplicativos PHP. Este módulo é necessário para usar esses arquivos 
+Phar no PHP 8.2.Com ele, você pode criar arquivos Phar, adicionar arquivos a eles, extrair arquivos deles e fazer outras operações úteis.

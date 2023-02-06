@@ -1,0 +1,3 @@
+Hexcompare é um programa de computador que ajuda a comparar e identificar diferenças entre dois arquivos binários. Ele é baseado
+em curses, que é uma biblioteca de interface de usuário para aplicativos de linha de comando.Com ele, você pode facilmente comparar dois arquivos binários e ver quais partes são diferentes 
+entre eles. Isso pode ser útil para encontrar erros ou alterações em arquivos importantes.

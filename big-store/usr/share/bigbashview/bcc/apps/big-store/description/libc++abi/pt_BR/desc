@@ -1,0 +1,1 @@
+libc++abi é uma biblioteca de suporte de baixo nível para a biblioteca padrão C++ LLVM. Ele fornece a implementação de baixo nível de vários recursos da linguagem C++, como manipulação de exceções e RTTI (Informação de Tipo de Tempo de Execução). Ele é projetado para trabalhar com o compilador LLVM e é destinado a ser usado por outras bibliotecas e programas C++. 

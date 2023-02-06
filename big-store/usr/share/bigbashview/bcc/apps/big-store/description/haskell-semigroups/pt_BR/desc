@@ -1,0 +1,4 @@
+Haskell é uma linguagem de programação funcional muito poderosa. Uma das bibliotecas mais interessantes disponíveis para
+ela é a de semigrupos. Essa biblioteca permite que você trabalhe com conjuntos de dados que seguem algumas regras matemáticas específicas. Isso pode ser muito útil para resolver problemas
+de maneira eficiente e elegante.Por exemplo, você pode usar a biblioteca de semigrupos para agrupar elementos em conjuntos e fazer operações com eles, como somar ou multiplicar todos os
+elementos de um conjunto. Isso é muito útil em aplicações como inteligência artificial, análise de dados e outras áreas que precisam lidar com grandes volumes de informação.

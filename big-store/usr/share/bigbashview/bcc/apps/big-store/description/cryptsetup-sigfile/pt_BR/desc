@@ -1,0 +1,2 @@
+Esta é uma ferramenta de configuração para usuários que permite a criptografia transparente de
+dispositivos de bloco usando o dm-crypt. Ela tem um gancho mkinitcpio editado para verificar a assinatura do sistema de arquivos antes de tentar abri-lo.

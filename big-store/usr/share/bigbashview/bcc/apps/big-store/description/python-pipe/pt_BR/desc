@@ -1,0 +1,3 @@
+Python-pipe é uma biblioteca para usar a notação infix em Python. Isso significa que, em vez de usar a notação
+padrão de Python, com colchetes e parênteses para chamar funções e operadores, você pode escrever códigos como se estivesse digitando em matemática. Por exemplo, em vez de escrever 2 + 2,
+você pode escrever 2 + 2. Isso pode tornar o código mais fácil de ler e escrever para algumas pessoas.

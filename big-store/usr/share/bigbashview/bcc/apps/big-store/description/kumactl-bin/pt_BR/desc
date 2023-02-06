@@ -1,0 +1,3 @@
+O kumactl-bin é uma ferramenta de linha de comando (CLI) que ajuda a gerenciar o Kuma, um serviço de malha universal
+Envoy. Ele permite que você configure e gerencie facilmente seus aplicativos e serviços usando Kuma, tornando-os mais seguros e escaláveis. Com o kumactl-bin, você pode criar e gerenciar
+regras de roteamento, garantir a disponibilidade de serviços e monitorar o tráfego de rede.

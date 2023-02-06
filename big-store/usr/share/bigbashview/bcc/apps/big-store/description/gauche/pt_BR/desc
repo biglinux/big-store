@@ -1,0 +1,1 @@
+Gauche é uma implementação Scheme conforme R7RS (Revised^7 Report on the Algorithmic Language Scheme). Ele inclui uma série de extensões, como o suporte a multithreading, Unicode, e módulos de estilo R6RS. Ele também inclui uma ferramenta chamada gosh, que é uma shell interativa para o interpretador Scheme. 

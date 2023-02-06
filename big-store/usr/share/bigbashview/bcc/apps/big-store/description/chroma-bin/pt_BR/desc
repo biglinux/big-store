@@ -1,0 +1,2 @@
+Este programa é um destacador de sintaxe geral, feito inteiramente em Go. Ele ajuda a identificar e destacar diferentes elementos
+de código, como palavras-chave, variáveis e strings, tornando mais fácil ler e entender o código. Ele é útil tanto para programadores iniciantes quanto para profissionais.

@@ -1,0 +1,4 @@
+Este programa é um gerenciador de processos FastCGI para a versão 7.3 do PHP. Ele ajuda a gerenciar e otimizar o
+desempenho do PHP em um ambiente de servidor. Ele é frequentemente usado em conjunto com outros programas como o nginx ou o Apache para garantir que o PHP esteja funcionando de maneira
+eficiente e estável.Com o uso deste programa, você pode ajustar configurações como o número de processos PHP em execução simultaneamente, o tamanho do pool de memória, entre outras
+configurações avançadas para garantir que o PHP esteja funcionando da melhor maneira possível.

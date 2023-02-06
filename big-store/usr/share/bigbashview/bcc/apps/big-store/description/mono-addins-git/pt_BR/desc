@@ -1,0 +1,4 @@
+Este programa é um framework genérico para a criação de aplicativos extensíveis, permitindo que você crie
+add-ins para estender esses aplicativos. Ele é especialmente útil se você quiser adicionar novas funcionalidades a um programa já existente sem precisar modificar o código-fonte original.
+Com o mono-addins-git, você pode facilmente criar novos módulos e personalizar o comportamento do seu programa de acordo com suas necessidades. Além disso, ele também oferece uma interface 
+simples e fácil de usar para que você possa criar seus add-ins com facilidade.

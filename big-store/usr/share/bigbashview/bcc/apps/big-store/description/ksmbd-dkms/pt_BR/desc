@@ -1,0 +1,2 @@
+O ksmbd-dkms é um servidor SMB (Server Message Block) que roda dentro do kernel do sistema operacional. Ele foi desenvolvido com o
+objetivo principal de melhorar o desempenho de entrada e saída de dados (I/O).

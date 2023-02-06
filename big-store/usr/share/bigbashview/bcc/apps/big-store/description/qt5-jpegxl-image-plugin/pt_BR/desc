@@ -1,0 +1,3 @@
+ Este é um plugin para o Qt5 que permite que aplicativos baseados em Qt5 e KDE leiam e escrevam imagens no
+formato JXL.Ele adiciona suporte para esse formato de imagem específico às aplicações compatíveis, permitindo que elas abram e salvem arquivos JXL sem problemas.Isso é útil para
+usuários que precisam trabalhar com esse formato de imagem específico em suas aplicações e desejam ter suporte nativo para ele.

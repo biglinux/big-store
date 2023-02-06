@@ -1,0 +1,3 @@
+Este programa é capaz de comprimir arquivos rapidamente usando o algoritmo LZMA. Ele divide o arquivo de entrada em várias
+partes e as comprimir simultaneamente em múltiplos núcleos e processadores. Isso permite que o processo de compressão seja muito mais rápido do que se fosse feito em apenas um núcleo ou
+processador.

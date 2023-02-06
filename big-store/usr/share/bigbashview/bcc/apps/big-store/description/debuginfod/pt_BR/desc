@@ -1,0 +1,1 @@
+debuginfod é uma ferramenta que permite gerenciar arquivos de objeto ELF e informações de depuração DWARF. Ele fornece recursos para acessar e distribuir arquivos de depuração de forma eficiente, melhorando a experiência de depuração para desenvolvedores. 

@@ -1,0 +1,3 @@
+Estas são as bibliotecas que são enviadas com o GCC (10.x.x). Elas são importantes para o funcionamento de programas que foram
+compilados com esta versão do compilador GCC.Sem estas bibliotecas, os programas não conseguirão funcionar corretamente, então é importante ter uma cópia destas bibliotecas em seu
+computador se você deseja usar programas que foram compilados com o GCC 10.

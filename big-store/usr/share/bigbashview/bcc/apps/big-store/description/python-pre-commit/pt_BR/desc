@@ -1,0 +1,1 @@
+O python-pre-commit é uma estrutura para gerenciar e manter ganchos pré-commit (scripts que são executados antes de uma confirmação) para várias linguagens de programação. Ele permite que você defina regras para verificar se o código está de acordo com os padrões estabelecidos antes de ser enviado para o repositório. 

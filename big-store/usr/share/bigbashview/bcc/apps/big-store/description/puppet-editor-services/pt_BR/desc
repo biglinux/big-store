@@ -1,0 +1,3 @@
+Esta é uma ferramenta chamada puppet-editor-services. Ela é usada para ajudar a escrever códigos do programa Puppet. Funciona 
+como um 'servidor de linguagem' e ajuda a identificar erros e sugestões para melhorar o código enquanto você o escreve. Isso torna mais fácil e rápido escrever códigos corretos para o
+programa Puppet.

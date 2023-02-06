@@ -1,0 +1,2 @@
+Este programa é um gerenciador de clipboard que permite salvar e acessar rapidamente textos, imagens e arquivos que você
+copiou recentemente. Ele também possui um plugin para o rofi, que é um lançador de programas, e uma interface D-Bus, que permite que outros programas se comuniquem com ele.

@@ -1,0 +1,1 @@
+Este programa adiciona suporte para a codificação UTF-8 ao Lua, tornando-o compatível com o módulo de strings. Isso significa que ele pode lidar com caracteres especiais e idiomas diferentes sem problemas.A versão específica deste programa é o lua52-luautf8. 

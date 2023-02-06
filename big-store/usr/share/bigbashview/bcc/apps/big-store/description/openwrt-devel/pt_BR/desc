@@ -1,0 +1,3 @@
+Esse é um pacote especial chamado 'openwrt-devel' que você pode usar para construir o software OpenWrt. Ele vai puxar todas as 
+outras coisas de que você precisa para fazer isso, como código fonte e ferramentas.OpenWrt é um sistema operacional para roteadores e outros dispositivos pequenos. Ele é feito para ser
+personalizável e fácil de usar. Se você quiser criar sua própria versão do OpenWrt, esse pacote vai te ajudar a começar.

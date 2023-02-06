@@ -1,0 +1,1 @@
+Este script é projetado para verificar se há comandos ou sintaxe específicos do Bash (conhecidos como bashisms) em scripts do Debian. Isso é útil para garantir a compatibilidade e evitar problemas potenciais. Ele verifica cada linha de um script e informa qual linha contém um bashism, se houver algum. 

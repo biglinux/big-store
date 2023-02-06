@@ -1,0 +1,4 @@
+Este programa permite que você use o Ruby, um popular linguagem de programação, dentro do Neovim, um editor de texto
+avançado. Isso significa que você pode escrever scripts em Ruby para automatizar tarefas no Neovim ou adicionar novas funcionalidades ao editor.Com o ruby-neovim, você pode aproveitar a
+versatilidade do Ruby para criar scripts personalizados, sem precisar sair do seu editor de texto favorito. Além disso, a integração do Ruby com o Neovim é muito fácil de usar, mesmo para
+quem não tem experiência prévia com programação.

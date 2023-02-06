@@ -1,0 +1,3 @@
+O programa é uma máquina virtual RISC-V. Ele permite que você execute códigos escritos na arquitetura RISC-V em diferentes sistemas
+operacionais. Isso é útil para testes e desenvolvimento de código sem precisar de um hardware específico. Além disso, também é possível utilizá-lo como ferramenta de ensino para entender
+como a arquitetura RISC-V funciona.

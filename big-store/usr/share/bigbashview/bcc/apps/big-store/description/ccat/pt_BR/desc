@@ -1,0 +1,4 @@
+Este programa adiciona realce de cores à saída do comando 'cat' no terminal. Isso ajuda a tornar o texto mais fácil de ler e
+identificar informações importantes rapidamente. Ele funciona com vários tipos de arquivos, incluindo código-fonte, log e arquivos de configuração. Para usar o programa, basta adicionar
+'ccat' antes do comando 'cat' na linha de comando, como este exemplo: 'ccat meu_arquivo.txt'. Experimente diferentes arquivos para ver como o realce de cores pode melhorar sua experiência
+de leitura de texto no terminal.

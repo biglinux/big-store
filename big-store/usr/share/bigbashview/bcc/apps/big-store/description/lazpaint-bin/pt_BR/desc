@@ -1,0 +1,3 @@
+Lazpaint é um editor de imagens para Windows, semelhante ao PaintBrush ou Paint.Net. Ele foi escrito usando Lazarus (Free
+Pascal) e está disponível em formato binário (GTK2). Com ele, você pode criar, editar e salvar imagens no seu computador, usando ferramentas como desenho livre, seleção de áreas, adição de 
+texto e muito mais.

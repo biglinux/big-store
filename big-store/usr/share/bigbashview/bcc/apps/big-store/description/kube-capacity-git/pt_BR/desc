@@ -1,0 +1,3 @@
+Esta é uma ferramenta de linha de comando simples que fornece uma visão geral dos pedidos de
+recursos, limites e utilização em um cluster Kubernetes. Com ela, você pode ver rapidamente se há algum recurso que esteja sendo subutilizado ou se há necessidade de ajustar os limites de
+algum recurso para evitar problemas de sobrecarga. É uma ferramenta útil para garantir que o seu cluster Kubernetes esteja funcionando da melhor forma possível.

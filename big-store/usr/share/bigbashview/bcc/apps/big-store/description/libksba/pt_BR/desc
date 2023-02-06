@@ -1,0 +1,1 @@
+libksba é uma biblioteca para trabalhar com certificados X.509, dados CMS  e objetos relacionados. Ele fornece uma interface para lidar com esses objetos, incluindo a geração de chaves, a criação de certificados e a verificação de assinaturas. É uma ferramenta poderosa para qualquer pessoa que precise lidar com certificados digitais em seus projetos. 

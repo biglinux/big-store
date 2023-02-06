@@ -1,0 +1,4 @@
+ Este é um módulo para o PHP 7.2 que permite a troca de dados entre aplicações. Ele adiciona suporte ao protocolo WDDX (Web
+Distributed Data Exchange) ao PHP, permitindo que você crie e leia arquivos WDDX. Isso é útil quando você precisa compartilhar dados entre aplicações diferentes, como entre um site e um
+aplicativo de desktop.Com este módulo, você pode facilmente converter variáveis ​​PHP em um formato que pode ser lido por outras aplicações e vice-versa. Isso é feito usando funções
+simples, como wddx_serialize e wddx_deserialize. Além disso, ele também fornece suporte ao trabalho com arquivos WDDX, permitindo que você salve e carregue dados a partir deles. 

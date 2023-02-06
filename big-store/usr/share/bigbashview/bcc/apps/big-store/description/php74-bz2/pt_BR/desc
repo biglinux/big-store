@@ -1,0 +1,2 @@
+Este é um módulo de compressão para a versão 74 do PHP. Ele permite que você compacte e descompacte arquivos usando o
+algoritmo bz2.Isso é útil quando você precisa economizar espaço em disco ou enviar arquivos grandes de maneira mais rápida. É fácil de usar e se integra perfeitamente com o PHP74.

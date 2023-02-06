@@ -1,0 +1,5 @@
+libmemstack é uma pequena biblioteca para ajudar a gerenciar a memória do seu programa. Ela foi criada para ser fácil de 
+usar e entender, mesmo para quem é novo na programação. Com ela, você pode alocar e liberar memória de forma segura e organizada, evitando problemas como vazamento de memória e falhas no
+programa. Além disso, a libmemstack vem com algumas ferramentas úteis, como a capacidade de verificar o uso atual de memória e acompanhar as alocações e liberações recentes. Isso pode ser
+útil para depurar e otimizar seu programa. A libmemstack é open-source e está disponível no Github, então você pode contribuir e ajudar a melhorá-la. Se você estiver procurando uma maneira 
+simples de gerenciar a memória do seu programa, dê uma olhada na libmemstack.

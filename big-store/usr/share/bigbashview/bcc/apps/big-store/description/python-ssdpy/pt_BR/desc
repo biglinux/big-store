@@ -1,0 +1,3 @@
+ python-ssdpy é uma biblioteca compatível e leve para o protocolo SSDP (Simple Service Discovery Protocol) em Python. Com
+ela, você pode facilmente adicionar funcionalidade de descoberta de serviço em seus projetos em Python. É uma biblioteca simples e fácil de usar, perfeita para quem está começando a
+trabalhar com descoberta de serviço. 

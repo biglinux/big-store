@@ -1,0 +1,3 @@
+Este é um programa chamado pegdbserver_power, que é um servidor GDB para dispositivos Power. Ele usa hardware P&E JTAG 
+para funcionar.GDB é um programa que ajuda os desenvolvedores a depurar outros programas. Ele permite que os desenvolvedores vejam o que está acontecendo dentro de outro programa enquanto
+ele está rodando.Este programa específico, pegdbserver_power, foi projetado para trabalhar com dispositivos Power, que são tipos específicos de computadores.

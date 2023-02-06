@@ -1,0 +1,3 @@
+Este programa é um visualizador de arquivos PDF e imagens para o sistema operacional Linux. Ele utiliza o framebuffer, que é uma
+forma de exibir informações na tela, para mostrar esses arquivos de forma rápida e fácil. Com ele, é possível navegar entre as páginas dos arquivos PDF e ver imagens com qualidade e sem
+problemas. Ele é especialmente útil para quem utiliza o Linux como sistema operacional principal e precisa visualizar esses tipos de arquivos com frequência.

@@ -1,0 +1,3 @@
+ Este é um programa que permite usar seus controladores da Nintendo Switch com jogos online, como os
+clássicos NES e SNES. Ele funciona como um driver HID, ou seja, é responsável por fazer a comunicação entre o controlador e o sistema. Com ele, você pode jogar jogos antigos com os botões
+originais da Nintendo. 

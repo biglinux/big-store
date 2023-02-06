@@ -1,0 +1,4 @@
+Este programa é uma ferramenta gráfica escrita em Qt que permite aos usuários avançados modificar as
+configurações do Bash. Ele é projetado para ser fácil de usar, mesmo para aqueles sem muita experiência com linha de comando. Com ele, é possível personalizar as opções do Bash de acordo
+com suas necessidades, tornando sua experiência no terminal mais agradável e eficiente.O programa é baseado em git, o que significa que é possível acompanhar facilmente as alterações feitas
+nas configurações e reverter quaisquer erros. Além disso, ele também permite compartilhar suas configurações com outros usuários, o que pode ser útil para equipes de desenvolvimento.

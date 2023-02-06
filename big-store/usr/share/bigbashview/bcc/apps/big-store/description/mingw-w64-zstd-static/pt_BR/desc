@@ -1,0 +1,3 @@
+Este programa usa o algoritmo Zstandard para fazer compressão de arquivos em tempo real. Ele é especialmente útil
+para arquivos grandes e/ou que precisam ser transferidos rapidamente.Ele foi compilado para ser usado com o mingw-w64, o que significa que ele pode ser usado em sistemas Windows de 64
+bits. 

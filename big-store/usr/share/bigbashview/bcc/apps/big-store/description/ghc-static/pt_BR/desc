@@ -1,0 +1,1 @@
+O Compilador Haskell Glasgow (GHC) é uma ferramenta poderosa para desenvolvimento em Haskell, uma linguagem de programação funcional. Essas bibliotecas estáticas e a documentação incluída permitem a utilização do GHC em projetos sem a necessidade de instalar todo o pacote completo. Isso pode ser útil para projetos com restrições de espaço ou para compilações de sistemas. 

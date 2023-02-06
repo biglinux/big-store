@@ -1,0 +1,3 @@
+Este é um programa para ajudar a fazer coisas com argumentos no Python. Ele usa algo chamado argparse, que é uma forma de descrever como
+os argumentos devem ser lidos de forma mais fácil. Isso é útil quando você quer que as pessoas usem o seu programa de forma consistente. Ele é especialmente útil se você tem muitos
+argumentos diferentes que as pessoas podem usar e você quer tornar fácil para elas entenderem como usá-los.

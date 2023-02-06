@@ -1,0 +1,3 @@
+ O Gromacs é um pacote versátil para realizar dinâmica molecular, ou seja, simular as equações de Newton para sistemas com
+centenas a milhões de partículas. Ele é amplamente utilizado em simulações biomoleculares e é considerado uma das melhores opções para simulações de alto desempenho. Além disso, ele possui 
+uma ampla variedade de recursos, como integração de trajetórias, cálculos de propriedades termodinâmicas e análise de estrutura. 

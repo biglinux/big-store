@@ -1,0 +1,1 @@
+O qt5-x11extras fornece uma série de APIs adicionais para plataformas que utilizam o X Window System, como o Linux. Essas APIs permitem que os desenvolvedores acessem recursos exclusivos do X11, como por exemplo gerenciamento de janelas e eventos de teclado e mouse. 

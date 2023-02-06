@@ -1,0 +1,3 @@
+Existe uma ferramenta chamada ripmime-git que é útil para extrair arquivos anexados de um pacote MIME. Ele é
+especialmente útil quando você precisa pegar arquivos enviados por e-mail que estão dentro de um pacote MIME.Com essa ferramenta, você pode facilmente extrair esses arquivos e salvá-los em 
+seu computador, sem precisar abrir cada arquivo individualmente dentro do pacote MIME.

@@ -1,0 +1,4 @@
+Essa ferramenta é chamada python-spython e ajuda você a trabalhar com o Singularity
+Python. Ela é usada para criar e gerenciar containers com o Python dentro. Isso permite que você use diferentes versões do Python sem afetar outras partes do seu sistema. Além disso, você
+pode compartilhar seus projetos com outras pessoas de forma fácil e segura, sem precisar se preocupar em instalar as dependências corretamente. Essa ferramenta é fácil de usar, basta
+digitar alguns comandos simples no terminal. Ela também possui uma documentação clara e detalhada para ajudar você a começar.

@@ -1,0 +1,1 @@
+cl-cffi é uma interface de função estrangeira comum para Common Lisp. Isso permite que você chame funções de bibliotecas externas, como as escritas em C, a partir de seu código Common Lisp. Isso torna a integração com outras linguagens e bibliotecas muito mais fácil e permite que você aproveite a potência de Common Lisp em conjunto com essas outras ferramentas. 

@@ -1,0 +1,4 @@
+Este é um programa que ajuda a exportar dados do Unbound para o Prometheus. O Prometheus é uma ferramenta de monitoramento
+de sistemas e aplicativos, enquanto o Unbound é um servidor DNS recursivo. Juntos, eles permitem a você coletar e visualizar informações importantes sobre o seu sistema de nomes de
+domínio.Com o exportador Prometheus para Unbound, você pode monitorar o desempenho do seu servidor DNS e garantir que ele esteja sempre funcionando corretamente. Além disso, você pode usar 
+as informações coletadas para identificar problemas e tomar medidas para resolvê-los rapidamente.

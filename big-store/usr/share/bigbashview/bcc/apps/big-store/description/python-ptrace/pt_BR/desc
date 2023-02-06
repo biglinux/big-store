@@ -1,0 +1,1 @@
+ python-ptrace é uma biblioteca que permite você rastrear processos e syscalls no Linux usando  Python. É uma ligação da biblioteca ptrace, que é uma chamada de sistema que permite que um processo controle outro. Esta biblioteca é útil para criar ferramentas que precisam monitorar ou  depurar outros processos. 

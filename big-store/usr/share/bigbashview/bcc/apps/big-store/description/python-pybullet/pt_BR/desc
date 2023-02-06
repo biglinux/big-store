@@ -1,0 +1,1 @@
+ O python-pybullet é uma biblioteca que permite acesso ao motor de física Bullet através de bindings do Python. Isso significa que você pode usar o Python para criar simulações em 3D e testar a física dos objetos dentro delas. É uma ferramenta muito útil para jogos e simulações de robótica. 

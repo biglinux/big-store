@@ -1,0 +1,1 @@
+rt-tests é um conjunto de ferramentas de teste de latência para o kernel Linux(-rt). Ele permite medir e analisar a latência do sistema operacional, o que é útil para ajustar configurações e encontrar problemas de desempenho. Ele é especialmente útil para sistemas de tempo real, onde a latência precisa ser mantida a um nível mínimo. 

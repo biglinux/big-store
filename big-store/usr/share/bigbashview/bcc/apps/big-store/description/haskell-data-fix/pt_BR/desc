@@ -1,0 +1,1 @@
+Os tipos de dados Fixpoint são usados em programação para representar valores que podem ser modificados. Eles são comumente usados em linguagens de programação funcional, como Haskell, para criar estruturas de dados como listas encadeadas. A biblioteca Haskell Data Fix é uma ferramenta para trabalhar com esses tipos de dados em Haskell. 

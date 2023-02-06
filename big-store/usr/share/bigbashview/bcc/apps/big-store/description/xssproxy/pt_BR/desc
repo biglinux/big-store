@@ -1,0 +1,2 @@
+Este programa é um serviço que encaminha chamadas de inibição de ociosidade do freedesktop.org para o Xss. Ele é útil para 
+evitar que o computador entre em modo de espera ou suspensão enquanto determinadas tarefas estão sendo executadas.

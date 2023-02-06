@@ -1,0 +1,1 @@
+Este programa é uma interface para a biblioteca C netCDF, que permite acesso e manipulação de arquivos netCDF (formato de dados científicos) usando o Python e a biblioteca NumPy. Esta versão específica inclui suporte a openmpi, que é uma biblioteca para programação paralela em múltiplos processadores. 

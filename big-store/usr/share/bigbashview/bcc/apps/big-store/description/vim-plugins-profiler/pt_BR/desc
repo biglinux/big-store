@@ -1,0 +1,3 @@
+Este é um utilitário para listar plugins VIM em ordem de tempo de inicialização, medido em milissegundos.
+Ele ajuda a identificar quais plugins estão lentos e precisam ser otimizados ou substituídos por alternativas mais rápidas.Se você usa o VIM como seu editor de texto principal, este
+programa pode ser muito útil para aumentar a velocidade e eficiência do seu trabalho.

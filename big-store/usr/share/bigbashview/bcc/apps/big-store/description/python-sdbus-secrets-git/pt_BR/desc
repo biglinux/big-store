@@ -1,0 +1,4 @@
+Este programa fornece ligações para o gerenciamento de segredos do Freedesktop para usuários do Python. Ele é conhecido
+como python-sdbus-secrets-git e permite que os usuários armazenem e acessem informações confidenciais de forma segura, como senhas e chaves de autenticação, usando o protocolo D-Bus. Ele é 
+útil para qualquer pessoa que desenvolva aplicativos em Python e precisem lidar com dados sensíveis. Com este programa, é possível garantir que as informações confidenciais sejam protegidas
+e acessadas somente por usuários autorizados.

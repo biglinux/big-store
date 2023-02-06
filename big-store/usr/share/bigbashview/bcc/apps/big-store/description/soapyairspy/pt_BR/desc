@@ -1,0 +1,1 @@
+soapyairspy é um plugin para o SoapySDR, que fornece suporte para a rádio definida por software Airspy. Ele permite que você use o Airspy com uma variedade de softwares que suportam a interface SoapySDR, como SDRangel, GQRX e GNU Radio. Com este plugin, você pode facilmente controlar e receber sinais do Airspy usando seu software de preferência. 

@@ -1,0 +1,3 @@
+Este programa ajuda a encontrar endereços da internet que já foram usados antes. Ele busca essas informações em vários lugares
+diferentes, como no AlienVault's Open Threat Exchange, na Wayback Machine e no Common Crawl.Isso pode ser útil para investigar sites maliciosos ou para encontrar versões antigas de páginas 
+que já não existem mais.

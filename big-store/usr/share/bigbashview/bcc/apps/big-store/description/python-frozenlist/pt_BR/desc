@@ -1,0 +1,1 @@
+FrozenList é uma estrutura semelhante à uma lista, mas que pode ser feita imutável. Utilizado para garantir que os dados não sejam modificados acidentalmente em uma determinada parte do código. 

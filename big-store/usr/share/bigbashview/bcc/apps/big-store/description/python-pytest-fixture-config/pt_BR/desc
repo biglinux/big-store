@@ -1,0 +1,1 @@
+ Este programa é uma biblioteca para o py.test, um framework de testes para Python. Ele fornece utilitários para configurar e gerenciar fixações, que são objetos que são preparados antes de um teste e limpos depois dele. Isso permite que você configure o ambiente de teste de forma fácil e consistente.  

@@ -1,0 +1,1 @@
+light-locker é um simples bloqueio de sessão para LightDM. Ele foi projetado para ser leve e se integrar bem com o gerenciador de login LightDM. Quando um usuário bloqueia sua sessão, light-locker preencherá a tela e bloqueará a sessão, protegendo-a de acesso não autorizado. 

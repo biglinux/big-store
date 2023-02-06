@@ -1,0 +1,4 @@
+Duplicacy é uma ferramenta de backup na nuvem de nova geração, baseada em deduplicação sem trava. Com ele,
+você pode fazer backup de seus arquivos importantes em vários serviços de nuvem, como Google Drive, Dropbox, AWS S3 e muito mais. Além disso, ele usa uma técnica avançada de deduplicação
+para garantir que seus arquivos sejam armazenados de forma eficiente, economizando espaço de armazenamento e reduzindo os custos. Com suporte para vários sistemas operacionais, incluindo
+Windows, MacOS e Linux, Duplicacy é uma ótima opção para quem procura uma solução confiável e fácil de usar para backup de dados na nuvem. 

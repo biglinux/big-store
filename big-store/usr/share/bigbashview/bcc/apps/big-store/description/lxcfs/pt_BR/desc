@@ -1,0 +1,1 @@
+lxcfs é um sistema de arquivos FUSE baseado em contêiner para o Linux Containers (LXC). Ele fornece acesso transparente aos arquivos e diretórios do host dentro dos contêineres, bem como recursos adicionais como configuração automática de limites e relatórios de uso de recursos. lxcfs é útil para aumentar a segurança e a facilidade de uso de contêineres LXC. 

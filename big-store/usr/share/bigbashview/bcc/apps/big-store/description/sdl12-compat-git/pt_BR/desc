@@ -1,0 +1,3 @@
+Este é um programa que oferece compatibilidade com a versão 1.2 da biblioteca SDL, usando a versão 2.0 como base. Isso
+significa que você pode rodar jogos e aplicações antigas que usavam a versão 1.2 da SDL, sem precisar se preocupar com a atualização para a versão 2.0. O programa funciona como uma camada
+intermediária, traduzindo as chamadas da versão antiga para a versão atual. Dessa forma, você pode continuar jogando seus jogos favoritos sem problemas.

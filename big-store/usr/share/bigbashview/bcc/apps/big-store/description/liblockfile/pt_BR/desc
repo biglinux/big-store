@@ -1,0 +1,1 @@
+A liblockfile é uma biblioteca que possui funções de bloqueio seguras para uso com o protocolo NFS. Isso significa que ela garante que arquivos não serão corrompidos ou sobrescritos acidentalmente quando vários usuários ou processos acessam o mesmo arquivo ao mesmo tempo. Com essa biblioteca, você pode ter  certeza de que os dados serão mantidos seguros e precisos.  

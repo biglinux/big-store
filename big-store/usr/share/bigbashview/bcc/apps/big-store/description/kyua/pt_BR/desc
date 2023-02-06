@@ -1,0 +1,3 @@
+Kyua é uma coleção de bibliotecas e ferramentas para implementar e executar testes automatizados. Ele é projetado para
+ser flexível e escalável, e possui uma interface de linha de comando intuitiva para facilitar o uso. Com Kyua, você pode gerenciar seus testes de forma eficiente, obtendo relatórios
+detalhados sobre o desempenho e a cobertura de código. Além disso, ele é compatível com vários sistemas operacionais, incluindo Windows, Linux e macOS.

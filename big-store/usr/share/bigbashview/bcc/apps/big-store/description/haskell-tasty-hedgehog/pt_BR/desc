@@ -1,0 +1,1 @@
+Este programa permite a integração do Haskell com o framework Tasty, usado para testes automatizados, e o Hedgehog, utilizado para gerar dados aleatórios.Isso permite que os desenvolvedores possam escrever testes de forma mais eficiente e automatizada, garantindo a qualidade do código. 

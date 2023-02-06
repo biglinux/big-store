@@ -1,0 +1,1 @@
+Esse programa chamado supervisor é responsável por controlar o estado de processos no sistema operacional UNIX. Ele garante que os processos estejam funcionando corretamente e, caso algum deles pare, o supervisor irá reiniciá-lo automaticamente. 

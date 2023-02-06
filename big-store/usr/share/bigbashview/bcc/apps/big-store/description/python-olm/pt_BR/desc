@@ -1,0 +1,1 @@
+python-olm é uma biblioteca que fornece ligações Python para o Olm, uma implementação do algoritmo Double Ratchet. Ele permite a criptografia de ponta a ponta de mensagens em aplicativos Python. Essa biblioteca é útil para desenvolvedores que desejam adicionar criptografia de ponta a ponta aos seus projetos Python e desejam usar o poderoso e seguro algoritmo Double Ratchet. 

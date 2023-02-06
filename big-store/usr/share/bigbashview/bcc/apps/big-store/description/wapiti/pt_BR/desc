@@ -1,0 +1,3 @@
+Este programa é chamado Wapiti e ele é usado para verificar se há problemas de segurança em um aplicativo web. Ele foi
+escrito usando a linguagem de programação Python e é capaz de encontrar vários tipos de problemas, como falhas de injeção SQL e problemas de autenticação. É uma ferramenta útil para
+garantir que seu aplicativo web esteja seguro e protegido contra ataques maliciosos.

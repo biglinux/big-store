@@ -1,0 +1,4 @@
+Esse programa é uma API escrita em Python para acessar os dados do SteamGridDB.com. Ele permite que você faça consultas e
+obtenha informações sobre jogos e ícones de jogos na plataforma Steam de forma fácil e rápida. Com ele, você pode criar aplicativos ou ferramentas personalizadas usando dados do
+SteamGridDB.com.A API é fácil de usar e possui documentação detalhada para ajudá-lo a começar. É compatível com a maioria das versões recentes do Python e não requer nenhuma biblioteca
+adicional.

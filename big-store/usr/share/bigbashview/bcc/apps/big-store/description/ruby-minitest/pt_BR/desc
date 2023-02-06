@@ -1,0 +1,1 @@
+O ruby-minitest é uma biblioteca de testes para o Ruby que fornece uma variedade de ferramentas para testar seu código. Ele inclui suporte para testes baseados em desenvolvimento orientado a comportamento (BDD), testes baseados em desenvolvimento orientado a testes (TDD), mocking e benchmarking. Ele é uma alternativa popular a outras bibliotecas de testes, como o RSpec. 

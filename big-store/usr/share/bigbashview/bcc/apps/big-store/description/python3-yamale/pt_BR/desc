@@ -1,0 +1,3 @@
+ Este programa é chamado de python3-yamale e ele ajuda a verificar se o formato de arquivos YAML está correto. Ele faz isso usando 
+um esquema, que é como uma lista de regras para o arquivo seguir. Se o arquivo não segue essas regras, o programa avisa. Isso é útil para garantir que os arquivos estejam no formato correto
+antes de serem usados em outros programas. 

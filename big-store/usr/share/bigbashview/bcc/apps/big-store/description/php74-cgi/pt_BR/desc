@@ -1,0 +1,3 @@
+ Este é um programa que permite que você use o PHP 7.4 com um servidor web que suporta CGI e FCGI. Isso significa que você pode 
+usar o PHP para criar páginas dinâmicas e interagir com outros sistemas, como banco de dados.Ele é usado junto com outros programas como Apache ou Nginx, que fazem a conexão entre o
+usuário e o PHP. É uma maneira confiável e estável de executar scripts PHP no servidor.

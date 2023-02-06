@@ -1,0 +1,3 @@
+ Este programa é chamado de Tootle e é um cliente para a rede social Mastodon. Ele foi criado usando a biblioteca GTK3, o que
+significa que ele tem uma interface bonita e fácil de usar. Com Tootle, você pode navegar pelos seus feeds, publicar novos toots, curtir e comentar em publicações, entre outras coisas. Ele 
+é uma ótima opção se você quer usar Mastodon sem precisar abrir o navegador. 

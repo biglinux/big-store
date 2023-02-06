@@ -1,0 +1,1 @@
+Este é um programa chamado igmpproxy. Ele é um roteador multicast simples para usar apenas no sistema operacional Linux. Ele usa o protocolo IGMP para funcionar. Isso significa que ele ajuda a enviar mensagens para vários dispositivos ao mesmo tempo, como uma rede de televisão. Ele é fácil de usar e configurar para as suas necessidades.  

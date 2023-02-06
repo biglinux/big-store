@@ -1,0 +1,1 @@
+Esse programa é um 'compatibility layer' para haskell-aeson. Isso significa que ele ajuda a tornar possível que outros programas trabalhem com haskell-aeson, mesmo se eles não foram projetados especificamente para isso. 

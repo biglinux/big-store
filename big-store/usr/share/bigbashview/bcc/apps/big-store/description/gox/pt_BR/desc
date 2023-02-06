@@ -1,0 +1,1 @@
+gox é uma ferramenta para compilação cruzada em Go, sem muitos adicionais. Ele permite compilar o seu código em Go em diferentes plataformas, como Windows, Mac ou Linux, de forma rápida e eficiente. 

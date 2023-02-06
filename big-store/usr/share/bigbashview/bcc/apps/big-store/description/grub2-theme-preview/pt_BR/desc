@@ -1,0 +1,3 @@
+Esse programa é uma ferramenta para visualizar um tema completo para o GRUB 2.x (ou apenas uma imagem de fundo) usando 
+KVM/QEMU. Ele é útil para testar diferentes opções de design antes de aplicá-las de forma permanente no sistema.Com ele, é possível ver como o menu inicial do sistema operacional ficará
+antes de fazer qualquer alteração definitiva.

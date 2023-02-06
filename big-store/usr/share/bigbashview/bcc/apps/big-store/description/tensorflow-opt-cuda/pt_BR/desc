@@ -1,0 +1,1 @@
+Essa biblioteca é usada para computação usando gráficos de fluxo de dados, o que permite o aprendizado de máquina escalável (com otimizações CUDA e AVX2 para CPU). Ele se chama tensorflow-opt-cuda. 

@@ -1,0 +1,1 @@
+Este programa é uma biblioteca para reconhecimento de links em textos, escrita em Python. Ele suporta o unicode completamente, o que significa que ele é capaz de reconhecer links em diferentes idiomas e scripts. Ele é chamado de python-linkify-it-py e é uma ferramenta útil para quem precisa extrair links de textos longos ou para qualquer outra tarefa relacionada a links. 

@@ -1,0 +1,1 @@
+A biblioteca python-fxa é uma ferramenta para interagir com o ecossistema Firefox Accounts. Ela permite a criação e gerenciamento fáceis de contas Firefox, além de realizar ações como verificação de conta e redefinição de senha. Essa biblioteca é especialmente útil para  desenvolvedores que desejam integrar as contas Firefox em suas próprias aplicações. 

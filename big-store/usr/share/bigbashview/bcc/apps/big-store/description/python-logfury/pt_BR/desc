@@ -1,0 +1,3 @@
+Este programa é responsável por registrar as chamadas de método de maneira simples e sem muita
+complexidade para bibliotecas escritas em Python. Ele ajuda a manter o código limpo e organizado, permitindo que você veja facilmente o que está acontecendo em sua biblioteca.É útil para
+depurar e entender como as diferentes partes de seu código estão interagindo, e também pode ser usado para rastrear problemas de performance.

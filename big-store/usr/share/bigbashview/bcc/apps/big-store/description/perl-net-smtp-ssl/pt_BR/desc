@@ -1,0 +1,1 @@
+ Este programa adiciona suporte SSL ao módulo Net::SMTP do Perl, permitindo que as conexões de SMTP sejam feitas de forma segura. Isso é útil quando você precisa enviar e-mails através de servidores que exigem conexões criptografadas, como o Gmail ou Yahoo.  

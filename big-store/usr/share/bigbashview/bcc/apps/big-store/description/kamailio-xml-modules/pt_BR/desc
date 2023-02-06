@@ -1,0 +1,5 @@
+Os módulos XML para Kamailio permitem que você adicione recursos de processamento de XML ao seu servidor Kamailio. Isso pode ser
+útil para integração com outros sistemas que usam XML para troca de mensagens. Esses módulos incluem funções para parsear, criar e manipular mensagens XML. Além disso, eles também podem ser
+usados para autenticação e autorização baseadas em informações contidas em mensagens XML.Para começar a usar os módulos XML para Kamailio, você precisará ter o Kamailio instalado e
+configurado. Em seguida, você pode habilitar os módulos XML adicionando-os à sua configuração Kamailio. Depois disso, você pode começar a usar as funções e recursos fornecidos pelos módulos
+XML para adicionar recursos de processamento de XML ao seu servidor Kamailio.

@@ -1,0 +1,1 @@
+Este programa é chamado de SuperLU e é uma coleção de subrotinas para resolver sistemas lineares esparsos. Ele usa uma decomposição LU para resolver esses tipos de sistemas e é capaz de lidar com matrizes muito grandes. É uma ferramenta muito útil para a ciência de dados, engenharia e outras áreas onde é necessário resolver sistemas lineares. 

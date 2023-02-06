@@ -1,0 +1,1 @@
+Este módulo em Perl e disponível na CPAN, é projetado para filtrar tags HTML indesejadas em um documento. Ele pode ser usado para remover scripts maliciosos ou outras tags que possam afetar a segurança ou a integridade do conteúdo. 

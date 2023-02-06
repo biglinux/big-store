@@ -1,0 +1,4 @@
+Este é um programa que fornece dois drivers Linux para monitores que usam a tecnologia DDC/CI. Esses drivers são
+instalados usando o sistema DKMS, o que significa que eles se adaptam automaticamente às atualizações do kernel Linux. Isso garante que os drivers continuem funcionando corretamente, mesmo 
+quando você atualiza o seu sistema operacional.Os drivers são especialmente úteis para usuários que possuem monitores antigos ou menos comuns que não são totalmente compatíveis com o Linux 
+sem esses drivers. Eles também podem ser úteis para profissionais de TI que gerenciam vários monitores em um ambiente de trabalho.

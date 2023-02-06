@@ -1,0 +1,1 @@
+python-fido2 é uma biblioteca que permite a comunicação com dispositivos compatíveis com o padrão FIDO 2.0 utilizando a interface USBA. Ela fornece uma maneira fácil e segura de realizar autenticação baseada em dispositivos de reconhecimento biométrico, como leitores de impressão digital e reconhecimento facial. 

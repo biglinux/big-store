@@ -1,0 +1,2 @@
+Este programa é utilizado para criar metapacotes para as distribuições Arch e baseadas em Arch GNU/Linux. Ele 
+é utilizado para especificar que um pacote fornece outras funcionalidades, caso isso não esteja especificado nos repositórios ou no AUR.

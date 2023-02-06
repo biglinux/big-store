@@ -1,0 +1,4 @@
+Este programa permite controlar máquinas virtuais usando comandos IPMI. Ele funciona como uma interface de
+gerenciamento baseada em IPMI, o que significa que você pode gerenciar suas máquinas virtuais de forma fácil e eficiente. Com ele, você pode controlar as funções básicas de uma máquina
+virtual, como ligar, desligar, reiniciar e monitorar o estado da máquina.Além disso, você pode acessar informações detalhadas sobre a máquina virtual, como uso de CPU, memória e disco. Tudo
+isso é possível sem precisar acessar a máquina virtual diretamente, o que é muito conveniente e eficiente.

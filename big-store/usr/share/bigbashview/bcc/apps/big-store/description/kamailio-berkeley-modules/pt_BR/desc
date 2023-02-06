@@ -1,0 +1,4 @@
+Este é um módulo de banco de dados Berkeley para o Kamailio, que é um software de roteamento de sinalização
+SIP avançado. Ele permite que o Kamailio acesse dados armazenados em um banco de dados Berkeley, que é uma base de dados orientada a chave-valor.Com este módulo, o Kamailio pode gerenciar e
+recuperar informações de usuário, sessões e configurações de forma eficiente e rápida. Ele também oferece recursos adicionais para o gerenciamento de usuários e contas, além de suporte para
+o uso de transações.

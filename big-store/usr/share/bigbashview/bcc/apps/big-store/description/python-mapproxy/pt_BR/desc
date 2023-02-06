@@ -1,0 +1,2 @@
+ python-mapproxy é um programa que ajuda a armazenar cópias de mapas na memória do computador para que eles possam ser carregados
+mais rapidamente. Ele também funciona como um proxy para o protocolo WMS, o que significa que ele pode ajudar a acessar mapas de outros sites de forma mais eficiente. 

@@ -1,0 +1,1 @@
+Este programa inclui cabeçalhos de protocolo X11 combinados, que são usados para comunicação entre os componentes do sistema X.Org. Estes cabeçalhos incluem informações sobre mensagens, eventos e outros aspectos da comunicação entre os componentes do sistema X.Este é um componente importante para o funcionamento de aplicações e programas gráficos no sistema X.Org. 

@@ -1,0 +1,2 @@
+ Esta é uma biblioteca que fornece uma implementação do especificação DBusMenu para o Qt4. Isso significa que ela permite que
+outros programas utilizem menus no estilo do DBus para se comunicarem com seu aplicativo. Com ela, é possível adicionar recursos avançados de menu ao seu software de forma fácil e rápida. 

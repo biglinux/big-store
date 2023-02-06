@@ -1,0 +1,5 @@
+Este é um programa chamado arcus que ajuda a comunicar diferentes partes do software Ultimaker. Ele funciona como uma
+espécie de mensageiro, fazendo com que as informações possam fluir de um lugar para outro de maneira mais fácil e organizada. Dessa forma, os desenvolvedores podem trabalhar de forma mais
+eficiente e o software fica mais estável. O arcus é uma biblioteca, ou seja, um conjunto de códigos prontos que podem ser usados em outros programas. Isso facilita a vida dos
+desenvolvedores, pois eles não precisam escrever tudo do zero. Além disso, como o arcus foi criado especificamente para o software Ultimaker, ele já está adaptado às necessidades do
+programa e funciona de forma perfeita.

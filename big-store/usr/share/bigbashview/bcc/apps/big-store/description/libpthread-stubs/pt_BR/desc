@@ -1,0 +1,1 @@
+Esta biblioteca fornece nomes fracos para funções pthread que não são fornecidas na libc ou não estão disponíveis por padrão.

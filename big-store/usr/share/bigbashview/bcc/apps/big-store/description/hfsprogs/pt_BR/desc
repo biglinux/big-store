@@ -1,0 +1,4 @@
+Este programa fornece ferramentas para usuários criarem e
+verificarem sistemas de arquivos Apple HFS/HFS+. Ele é útil para pessoas que precisam gerenciar esses tipos de sistemas de arquivos em seus computadores. As ferramentas incluem a capacidade
+de criar novos sistemas de arquivos, verificar a integridade de sistemas de arquivos existentes e recuperar dados de sistemas de arquivos danificados. É importante notar que este programa é
+executado no espaço do usuário, o que significa que ele não precisa de privilégios de administrador para funcionar. 

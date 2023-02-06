@@ -1,0 +1,1 @@
+Esta extensão adiciona suporte a GPG/MIME à biblioteca de e-mails Ruby. Isso permite que os e-mails sejam criptografados e assinados digitalmente, garantindo a privacidade e a autenticidade dos dados enviados. É uma ferramenta útil para qualquer pessoa que precise enviar informações confidenciais por e-mail. 

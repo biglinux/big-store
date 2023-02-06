@@ -1,0 +1,1 @@
+dd_rescue é uma versão do comando dd que é muito útil para recuperação de dados. Ele permite que você faça cópias de discos ou partições mesmo quando há erros, ignorando-os e continuando a copiar o resto dos dados. Isso pode ser particularmente útil se você estiver tentando recuperar dados de um disco  danificado ou com setores defeituosos. 

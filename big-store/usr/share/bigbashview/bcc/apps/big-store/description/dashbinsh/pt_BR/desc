@@ -1,0 +1,2 @@
+ Este programa faz com que o comando /bin/sh seja redirecionado para o dash. Isso significa que quando você digitar 'sh' no
+terminal, o dash será iniciado ao invés do bash. Isso pode ser útil para melhorar a velocidade de execução de alguns comandos. 

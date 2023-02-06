@@ -1,0 +1,1 @@
+Este programa é uma ferramenta para procurar palavras em um dicionário online. Ele tem duas partes: um cliente e um servidor. O cliente é como você usa o dicionário, digitando palavras para procurar. O servidor é como o dicionário é armazenado e mantido. Juntos, eles permitem que você encontre as definições de palavras facilmente e sem precisar carregar um livro grande. 

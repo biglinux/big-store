@@ -1,0 +1,4 @@
+mrsh-git é um shell minimalista baseado em POSIX. Ele é projetado para ser simples e leve, tornando-o ideal para sistemas embarcados 
+ou outras aplicações em que o tamanho do sistema é um fator importante. Ele suporta a maioria dos comandos básicos do shell, como ls, cd e echo, mas não inclui recursos avançados como
+tab-completion ou histórico de comandos.O mrsh-git é open-source e está disponível no GitHub para download e contribuição. Ele é compatível com a maioria das distribuições Linux e pode ser 
+facilmente compilado e instalado em qualquer sistema.

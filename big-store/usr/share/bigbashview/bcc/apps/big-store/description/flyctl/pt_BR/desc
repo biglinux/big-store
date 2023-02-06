@@ -1,0 +1,3 @@
+Com o flyctl, você tem acesso a uma série de ferramentas de linha de comando para gerenciar os serviços da fly.io. Essas
+ferramentas são úteis para configurar e gerenciar seus aplicativos e serviços na nuvem, tudo diretamente pelo terminal. Com ele, você pode facilmente fazer deploys, escalar seus serviços,
+ver o status deles e muito mais.Além disso, o flyctl é uma ferramenta open-source, o que significa que você pode contribuir para o desenvolvimento dele e usar o código como quiser.

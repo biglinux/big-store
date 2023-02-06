@@ -1,0 +1,2 @@
+ O runtime .NET Core versão 5.0 (em binário) está fora de suporte. Ele foi descontinuado e não deve ser utilizado em novos
+projetos. Se você já tem um projeto usando essa versão, é recomendado atualizá-lo para uma versão mais recente. 

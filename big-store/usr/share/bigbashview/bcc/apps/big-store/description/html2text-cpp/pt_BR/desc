@@ -1,0 +1,3 @@
+Este programa é baseado em C/C++ e tem como objetivo transformar arquivos HTML em texto puro. Ele é útil para quem precisa extrair 
+o conteúdo de páginas web e utilizá-lo em outras aplicações, sem a formatação original do HTML. Com este programa, é possível obter apenas o conteúdo relevante de uma página web, sem a
+presença de tags HTML, CSS ou JavaScript. Isso torna mais fácil fazer buscas, análises de dados ou utilizar o conteúdo em outras aplicações. 

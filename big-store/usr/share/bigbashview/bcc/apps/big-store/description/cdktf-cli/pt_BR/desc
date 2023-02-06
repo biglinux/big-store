@@ -1,0 +1,4 @@
+Esse programa se chama cdktf-cli e é uma ferramenta muito útil para ajudar desenvolvedores a trabalhar com o
+Terraform, um sistema de gerenciamento de recursos da nuvem. Ele permite que você crie, teste e implemente facilmente seus projetos na nuvem usando o Terraform. É uma ferramenta de linha de
+comando (CLI) fácil de usar e simples de entender, mesmo para quem é novo no Terraform. Com ela, você pode automatizar tarefas comuns e economizar tempo e esforço ao trabalhar com seus
+projetos.

@@ -1,0 +1,3 @@
+Esta é uma biblioteca que permite criar e ler vários formatos de arquivos compactados. Ela é especialmente útil para
+desenvolvedores que precisam trabalhar com arquivos compactados em seus programas. Com ela, é possível criar arquivos compactados e descompactá-los com facilidade.Ela é compatível com o
+sistema operacional Windows e é especificamente projetada para ser usada com o compilador MinGW-w64.

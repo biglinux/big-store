@@ -1,0 +1,1 @@
+O haskell-hosc é um programa escrito em Haskell que permite o controle de som. Ele utiliza a biblioteca Open Sound Control (OSC) para comunicar com outros programas e dispositivos que também usam essa biblioteca. Com o haskell-hosc, é possível criar aplicações de áudio avançadas e interagir com outros equipamentos de áudio. 

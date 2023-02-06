@@ -1,0 +1,4 @@
+Existe um programa chamado TLP que ajuda a configurar o limite de bateria no seu computador ThinkPad. Ele usa algo
+chamado D-Bus para comunicar com o sistema e fazer as alterações necessárias. Com esse programa, você pode escolher quando deseja que a bateria comece a ser poupada, assim como escolher
+quando deseja que o computador desligue completamente quando a bateria estiver muito baixa. Isso é útil para quem precisa de mais tempo de bateria, especialmente quando estiver trabalhando 
+fora de casa ou em viagens. 

@@ -1,0 +1,1 @@
+mpdecimal é uma biblioteca de ponto flutuante decimal de precisão arbitrária para o idioma de programação Python, que fornece aritmética com arredondamento correto. Ele é baseado na Especificação de Aritmética Decimal Geral e é compatível com o módulo decimal na biblioteca padrão do Python. 

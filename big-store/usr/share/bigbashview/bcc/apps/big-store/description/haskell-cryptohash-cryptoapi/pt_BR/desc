@@ -1,0 +1,1 @@
+Este programa fornece interfaces para a biblioteca Haskell Crypto-API que permitem calcular hashes criptográficos usando a biblioteca Cryptohash. Ele é útil para garantir a integridade de dados e autenticidade em aplicações de segurança. 

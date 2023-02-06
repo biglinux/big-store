@@ -1,0 +1,5 @@
+Existe uma maneira fácil de se conectar a um banco de dados MariaDB usando a linguagem de programação Python.
+Um pacote chamado python-mariadb-connector é um API compatível com a versão 2.0 da DB API do Python, e é usado para acessar bancos de dados MariaDB e MySQL. Com ele, você pode fazer
+consultas, inserir, atualizar e excluir dados no banco de dados de forma simples e rápida.Para usar esse pacote, você precisa ter o Python e o MariaDB ou MySQL instalados em seu computador.
+Depois disso, você pode instalar o python-mariadb-connector usando o gerenciador de pacotes pip. Agora você está pronto para começar a escrever seus próprios scripts de banco de dados em
+Python.

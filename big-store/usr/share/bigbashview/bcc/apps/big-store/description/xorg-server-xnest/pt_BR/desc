@@ -1,0 +1,1 @@
+O xorg-server-xnest é um servidor X aninhado que roda como uma aplicação X, permitindo que você execute  múltiplos sistemas gráficos dentro de um único ambiente de trabalho. Isso é útil para testes, desenvolvimento e outras tarefas avançadas. 

@@ -1,0 +1,3 @@
+Este programa é um conjunto de módulos que adicionam suporte ao banco de dados MySQL ao PHP 8.2. Isso permite que você use o MySQL
+para gerenciar seus dados e crie aplicativos dinâmicos com o PHP. Com esses módulos, você pode se conectar a um banco de dados MySQL, executar consultas e obter resultados, além de realizar
+outras tarefas relacionadas ao gerenciamento de dados. É uma ferramenta essencial para qualquer desenvolvedor que trabalhe com PHP e MySQL.

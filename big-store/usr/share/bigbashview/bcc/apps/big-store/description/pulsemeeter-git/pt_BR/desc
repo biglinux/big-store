@@ -1,0 +1,3 @@
+O programa Pulsemeeter-git é uma aplicação de roteamento de áudio para o Pulseaudio. Ele permite que você controle como o
+áudio é enviado para diferentes dispositivos de saída, como fones de ouvido ou caixas de som. Isso é útil se você quiser mudar rapidamente de onde o áudio está sendo reproduzido, sem
+precisar mudar as configurações do sistema inteiro.

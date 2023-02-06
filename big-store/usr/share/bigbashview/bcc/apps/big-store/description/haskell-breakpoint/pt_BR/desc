@@ -1,0 +1,1 @@
+O haskell-breakpoint é um plugin para o GHC (Glasgow Haskell Compiler) que permite definir pontos de parada durante a depuração de código escrito na linguagem de programação Haskell. Isso permite que você pare a execução do seu programa em um determinado ponto e examine o estado da sua aplicação, o que é útil ao encontrar erros ou entender como o seu código está funcionando. 

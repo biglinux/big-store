@@ -1,0 +1,2 @@
+ Este programa é uma implementação da arquitetura DeepSpeech, desenvolvida pelo Baidu, usando o TensorFlow. Ele é capaz
+de entender e traduzir falas em texto, tornando mais fácil para computadores compreender e se comunicar com seres humanos. 

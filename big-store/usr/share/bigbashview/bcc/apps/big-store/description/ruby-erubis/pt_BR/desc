@@ -1,0 +1,3 @@
+ ruby-erubis é uma implementação rápida, segura e muito extensível do eRuby. Ele é projetado para ser
+usado como um substituto do ERB (Embedded Ruby) padrão que vem com o Ruby. Ele é mais rápido do que o ERB padrão e oferece mais recursos, como suporte a expressões regulares e opções de
+formatação personalizadas. Além disso, é seguro para uso em ambientes de produção, pois evita ataques de injeção de script. 

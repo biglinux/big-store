@@ -1,0 +1,2 @@
+Este programa em Python é projetado para gerenciar arquivos PID (Process ID). Ele possui recursos para detecção de
+arquivos desatualizados e trava de arquivos, garantindo a segurança no uso de processos no sistema.

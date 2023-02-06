@@ -1,0 +1,3 @@
+O módulo PDO (PHP Data Objects) é um recurso para acesso a banco de dados no PHP 7.3. Ele oferece uma interface para se conectar a
+diferentes bancos de dados de forma uniforme, facilitando a troca de banco de dados sem precisar mudar o código. Além disso, ele também oferece segurança adicional, como proteção contra
+injeção de SQL. Este módulo é essencial para desenvolvimento de aplicações que precisam acessar bancos de dados.

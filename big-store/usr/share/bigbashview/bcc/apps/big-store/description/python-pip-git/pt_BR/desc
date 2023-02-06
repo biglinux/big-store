@@ -1,0 +1,4 @@
+Este é um programa recomendado pela PyPA para instalar pacotes Python. Ele é chamado de 'python-pip-git' e é uma ferramenta
+muito útil para quem trabalha com o desenvolvimento de softwares em Python. Com ele, você pode facilmente instalar, atualizar e desinstalar pacotes, sem precisar se preocupar com
+configurações avançadas.Além disso, o python-pip-git também é compatível com o sistema de controle de versão git, o que permite que você gerencie facilmente as diferentes versões de pacotes
+que estão sendo utilizadas em seus projetos.

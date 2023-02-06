@@ -1,0 +1,3 @@
+Esse programa é uma ferramenta para ajudar a desenvolver códigos em C e C++. Ele fornece recursos para criar testes
+automatizados, simulando chamadas de funções e criando 'falsas' entradas de dados para testar seu código de maneira eficiente. Isso permite que você encontre e corrija erros no seu código
+de maneira mais rápida e precisa, garantindo que seu programa funcione corretamente antes de ser lançado para uso geral.

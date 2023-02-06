@@ -1,0 +1,1 @@
+Biblioteca lua53-lanes é uma biblioteca leve, nativa e de avaliação preguiçosa multithreading. Isso significa que ela é projetada para ser rápida e eficiente, e também permite que vários processos sejam executados ao mesmo tempo, o que pode melhorar a velocidade e o desempenho do seu programa. Além disso, ela é fácil de usar e integrar em seu projeto. 

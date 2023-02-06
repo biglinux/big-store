@@ -1,0 +1,4 @@
+Este é um kernel Linux específico para sistemas LTS (Long Term Support, ou Suporte a Longo Prazo). Ele inclui módulos
+VFIO, que permitem que o sistema gerencie dispositivos de hardware de forma virtualizada. Isso é útil para usuários que precisam executar múltiplos sistemas operacionais em um único
+computador, ou que precisam acessar dispositivos de hardware de forma segura em um ambiente de nuvem.Esse kernel é recomendado para usuários que precisam de estabilidade e segurança a
+longo prazo, pois é um kernel LTS, que recebe atualizações de segurança por um período mais longo do que os kernels normais.

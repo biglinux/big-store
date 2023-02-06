@@ -1,0 +1,2 @@
+Esse pacote contém arquivos comuns para os plugins do Bareos File Daemon, tanto para Python 2 quanto para Python 3. 
+Bareos é um software de Backup Archiving Recovery Open Sourced. Ele é usado para fazer backup e recuperar arquivos importantes.

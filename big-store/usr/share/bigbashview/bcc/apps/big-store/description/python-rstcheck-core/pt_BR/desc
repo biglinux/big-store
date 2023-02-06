@@ -1,0 +1,1 @@
+Este programa verifica a sintaxe do reStructuredText e dos blocos de código aninhados dentro dele.Ele é baseado na biblioteca python-rstcheck-core. 

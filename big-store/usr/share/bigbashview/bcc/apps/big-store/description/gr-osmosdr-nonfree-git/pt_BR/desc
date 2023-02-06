@@ -1,0 +1,3 @@
+Este é um bloco de fonte para o programa GNU Radio que permite o uso de componentes adicionais, como
+o sdrplay, para a captura de sinais de rádio. Ele é chamado de gr-osmosdr-nonfree-git e é baseado no projeto OsmoSDR.É importante observar que esses componentes adicionais não são livres e 
+podem ter restrições de uso. Certifique-se de estar ciente dessas restrições antes de utilizar este bloco de fonte.

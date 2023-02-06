@@ -1,0 +1,4 @@
+Este programa é um driver para a impressora Brother HL-4570CDW. Ele permite que você use a impressora com o protocolo LPR ou o 
+sistema de impressão CUPS. Isso significa que você pode imprimir documentos a partir de qualquer computador ou dispositivo conectado à sua rede usando esses protocolos.Com esse driver, você
+pode ajustar as configurações da impressora, como a qualidade de impressão e a orientação da página, e também pode ver o status da impressora e verificar o nível de tinta ou toner
+restante.

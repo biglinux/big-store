@@ -1,0 +1,1 @@
+alex é um gerador de analisador léxico para Haskell. Ele lê uma descrição de um analisador léxico escrita em formato simples e gera um programa Haskell que faz a análise léxica da entrada seguindo as regras descritas. O gerador também inclui suporte para a geração de código para lidar com erros léxicos. 

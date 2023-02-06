@@ -1,0 +1,4 @@
+Este programa é um plugin para o irssi, que é um cliente de IRC (Internet Relay Chat). Ele adiciona uma funcionalidade de
+notificação para o irssi, o que significa que você será avisado quando receber uma nova mensagem enquanto não estiver no programa. Assim, você nunca mais perderá uma mensagem importante
+enquanto estiver ocupado com outra coisa. Ele usa a biblioteca libnotify para mostrar as notificações, o que significa que elas serão exibidas como notificações nativas do sistema,
+semelhantes às que você recebe para novas mensagens de e-mail ou mensagens de bate-papo.

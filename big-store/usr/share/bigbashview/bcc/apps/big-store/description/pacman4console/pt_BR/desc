@@ -1,0 +1,2 @@
+Este é um jogo de Pac-Man para console, com 9 níveis e criado utilizando a biblioteca ncurses. Ele possui também um editor, e
+foi modificado para não interferir em gerenciadores de pacotes e para ter fantasmas legais. 

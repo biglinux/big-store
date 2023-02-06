@@ -1,0 +1,1 @@
+Uma biblioteca em Python para usar o serviço de identidade do OpenStack, chamada python-keystoneclient. Com ela, é  possível acessar e gerenciar as contas de usuários e permissões no OpenStack de forma fácil e segura. 

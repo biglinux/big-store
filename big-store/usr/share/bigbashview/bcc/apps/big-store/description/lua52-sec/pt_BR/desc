@@ -1,0 +1,1 @@
+Esse programa permite que você tenha comunicação segura (TLS/SSL) em seus aplicativos escritos em Lua  5.2, usando a biblioteca OpenSSL. Isso é importante para proteger as informações que você está enviando ou recebendo, como senhas ou dados pessoais. O programa é chamado lua52-sec e é uma extensão para a linguagem Lua. 

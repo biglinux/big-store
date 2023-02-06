@@ -1,0 +1,1 @@
+Dicionário persistente em Python com suporte a sqlite3 e pickle, seguro para múltiplas threads

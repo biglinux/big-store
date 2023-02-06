@@ -1,0 +1,3 @@
+Este programa é chamado de checkpolicy e ele é usado para compilar políticas para o SELinux. O SELinux é um sistema de
+segurança que ajuda a proteger o seu dispositivo de ameaças. Com esse programa, você pode criar regras específicas para controlar o acesso de diferentes usuários e aplicativos em seu
+dispositivo. Ele é útil se você quiser aumentar a segurança do seu dispositivo e garantir que as informações nele sejam protegidas.

@@ -1,0 +1,3 @@
+Este programa é um daemon NIS para sistemas Linux. Ele é conhecido como ypbind-mt-git e é usado para vincular sistemas Linux a um
+servidor NIS. Ele permite que usuários e grupos sejam compartilhados entre múltiplos sistemas, tornando a administração de usuários e grupos mais fácil e eficiente. Este programa é
+especialmente útil em ambientes de rede em que há muitos sistemas Linux.

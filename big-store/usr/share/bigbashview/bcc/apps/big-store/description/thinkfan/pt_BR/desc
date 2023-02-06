@@ -1,0 +1,1 @@
+Este programa é usado para controlar o ventilador do computador. Ele suporta a interface sysfs hwmon e thinkpad_acpi.

@@ -1,0 +1,3 @@
+O Seer-GDB é uma interface gráfica para o GDB. Ele permite que você use o GDB de maneira mais fácil e intuitiva, sem precisar digitar
+comandos no terminal. Com o Seer-GDB, você pode navegar pelo código fonte, colocar pontos de interrupção, ver variáveis e muito mais. O Seer-GDB é uma ferramenta útil para programadores que
+precisam depurar seus programas com o GDB. 

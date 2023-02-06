@@ -1,0 +1,1 @@
+A libwhereami é uma biblioteca que permite a você obter informações sobre o hipervisor em  que sua máquina virtual (VM) está sendo executada. Isso pode ser útil em situações em que você precisa saber se está em um ambiente de nuvem, em um ambiente de laboratório ou em outro tipo  de configuração. A biblioteca é fácil de usar e pode ser integrada facilmente em seus aplicativos. 

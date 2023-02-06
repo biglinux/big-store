@@ -1,0 +1,3 @@
+Esta ferramenta é uma subcomando do cargo, oferece várias opções úteis para testes e integração contínua.
+Ele pode ser usado para automatizar processos de testes e garantir que o seu código esteja sempre funcionando corretamente, mesmo quando você faz mudanças nele.Além disso, ele também pode
+ajudar a garantir que suas atualizações sejam liberadas com confiança, sabendo que elas foram testadas e não causarão problemas para seus usuários.

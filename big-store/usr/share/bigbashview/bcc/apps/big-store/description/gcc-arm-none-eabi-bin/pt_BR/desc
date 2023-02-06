@@ -1,0 +1,3 @@
+As ferramentas ARM Embedded para GCC são uma distribuição binária que inclui o compilador GCC, o linker e outras
+ferramentas de desenvolvimento para processadores ARM. Essas ferramentas são projetadas para ajudar os desenvolvedores a criar código para dispositivos embarcados que utilizam processadores
+ARM. Elas incluem a biblioteca newlib, mas não incluem o GDB (depurador).

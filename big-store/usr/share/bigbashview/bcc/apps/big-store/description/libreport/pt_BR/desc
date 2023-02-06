@@ -1,0 +1,3 @@
+Uma biblioteca genérica para relatórios de diversos problemas. Ela pode ser usada para ajudar a coletar informações sobre bugs ou 
+problemas em um programa e enviá-las para os desenvolvedores. Isso pode incluir detalhes como o sistema operacional, a versão do programa e os passos para reproduzir o problema. A
+biblioteca também pode ser personalizada para se adequar às necessidades específicas de um programa.

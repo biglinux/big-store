@@ -1,0 +1,1 @@
+Este programa é uma classe descendente da Net::DNS::Resolver, ele permite emular o DNS offline. Isso  significa que ele pode ser usado para testar aplicações que dependem de consultas DNS sem precisar estar conectado à internet.Ele é escrito em Perl e é chamado de 'perl-net-dns-resolver-programmable'  

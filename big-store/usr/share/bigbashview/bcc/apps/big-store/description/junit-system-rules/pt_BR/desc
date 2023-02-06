@@ -1,0 +1,1 @@
+junit-system-rules é uma coleção de regras do JUnit que podem ser usadas para testar códigos que utilizam java.lang.System. Isso pode ser útil ao testar códigos que lidam com propriedades do sistema, variáveis de ambiente ou fluxos padrões, pois permite configurar facilmente e consistentemente as condições de teste e capturar a saída do sistema. 

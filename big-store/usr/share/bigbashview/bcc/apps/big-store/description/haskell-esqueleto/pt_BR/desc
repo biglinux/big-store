@@ -1,0 +1,1 @@
+Esse programa é uma Linguagem de Consulta Estruturada Segura (EDSL, na sigla em inglês) para consultas SQL em backends persistentes. Ele tem um estilo semelhante ao Haskell, o que facilita a escrita de consultas de forma segura e organizada. 

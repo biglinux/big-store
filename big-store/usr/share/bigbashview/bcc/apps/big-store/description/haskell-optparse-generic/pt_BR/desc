@@ -1,0 +1,1 @@
+O haskell-optparse-generic é um programa que ajuda a criar um interpretador de linha de comando para  o seu tipo de dado. Ele faz isso de forma automática, sem que você precise escrever código adicional. Isso pode ser útil se você estiver trabalhando com dados complexos e precisar de um jeito fácil de processá-los através de um comando no terminal. 

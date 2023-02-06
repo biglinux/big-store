@@ -1,0 +1,3 @@
+O Open Watcom é um compilador de linguagens Fortran, C e C++. Essa é uma versão específica, chamada de V2, que é uma 
+bifurcação do compilador original. Ele é distribuído em formato binário, ou seja, já está pronto para ser usado em computadores. Ele é usado para transformar o código escrito pelo
+programador em uma linguagem de máquina, que é entendida pelo computador. Isso permite que o programa escrito possa ser executado e funcione corretamente.

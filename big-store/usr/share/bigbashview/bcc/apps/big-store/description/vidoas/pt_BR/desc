@@ -1,0 +1,2 @@
+ vidoas é um programa que te permite editar o arquivo doas.conf de forma segura, assim como o visudo faz para o arquivo
+sudoers. Ele garante que as alterações feitas sejam corretas e evita erros que possam causar problemas no sistema. 

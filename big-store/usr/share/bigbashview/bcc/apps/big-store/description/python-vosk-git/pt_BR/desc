@@ -1,0 +1,3 @@
+ Este é um módulo Python para o vosk-api, ele permite que você adicione recursos de reconhecimento de voz em seus
+programas. Ele é baseado em versão git, o que significa que é atualizado frequentemente e tem as últimas características e correções de bugs. Com este módulo, você pode fazer coisas como
+transcrição de áudio, reconhecimento de comando de voz e muito mais. Ele é fácil de usar e pode ser implementado em qualquer aplicação Python.

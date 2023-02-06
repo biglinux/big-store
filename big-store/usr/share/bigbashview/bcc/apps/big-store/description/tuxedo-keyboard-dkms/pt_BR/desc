@@ -1,0 +1,1 @@
+Este é um módulo do kernel para habilitar a iluminação de teclado em computadores da marca TUXEDO. Ele é gerenciado através de DKMS, garantindo que ele seja atualizado automaticamente sempre que houver uma atualização do kernel. 

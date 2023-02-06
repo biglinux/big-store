@@ -1,0 +1,2 @@
+Este programa é uma ferramenta simples que permite gerenciar bancos de dados SQL no Google Cloud. Ele se conecta à API
+V1beta4 do Cloud SQL Admin e é escrito em Ruby. Com ele, você pode realizar tarefas como criar e gerenciar instâncias e backups do seu banco de dados.

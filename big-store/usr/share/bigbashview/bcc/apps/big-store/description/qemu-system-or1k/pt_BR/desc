@@ -1,0 +1,1 @@
+ O QEMU é um emulador de sistema para o OpenRisc32, o que significa que ele permite que você execute programas que são projetados para rodar em um sistema OpenRisc32 em outro sistema, como um computador pessoal. Isso é útil se você deseja testar programas sem precisar de um sistema OpenRisc32 real, ou se você deseja executar programas OpenRisc32 em um sistema diferente.  

@@ -1,0 +1,1 @@
+O pbzip2 é uma implementação paralela do compressor de arquivos bzip2, que utiliza pthreads e alcança um ganho de velocidade próximo ao linear em máquinas SMP. A saída desta versão é totalmente compatível com o bzip2 v1.0.2 ou superior (ou seja, qualquer coisa comprimida com pbzip2 pode ser descomprimida com bzip2). 

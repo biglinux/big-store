@@ -1,0 +1,3 @@
+Este programa é um menu de logout para usuários que utilizam o sistema operacional Wayland. Ele permite que os usuários
+desconectem de sua sessão de forma fácil e rápida, sem precisar digitar comandos no terminal.Além disso, ele também oferece opções adicionais, como reiniciar ou desligar o computador.
+Este programa é especialmente útil para usuários que preferem um menu visual para gerenciar sua sessão ao invés de digitar comandos no terminal. 

@@ -1,0 +1,1 @@
+Este programa é escrito em Python e permite ler arquivos no formato SVG (Scalable Vector Graphics) e convertê-los para outros formatos, como PNG, PDF e EPS. Isso é útil se você precisar editar ou compartilhar esses arquivos em outras plataformas ou dispositivos.O módulo python-svglib é utilizado para lidar com os arquivos SVG, tornando essa conversão simples e eficiente. 

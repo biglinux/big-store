@@ -1,0 +1,3 @@
+Este é um módulo para o PHP que permite fazer transferências de arquivos através da internet. Ele se chama cURL 
+e é compatível com a versão 7.1 do PHP. Com ele, você pode baixar arquivos de um servidor ou enviar arquivos para outro servidor usando vários protocolos, como HTTP, FTP e outros.Além
+disso, o cURL também permite que você faça requisições web, como enviar dados para um formulário ou obter informações de uma página da web.

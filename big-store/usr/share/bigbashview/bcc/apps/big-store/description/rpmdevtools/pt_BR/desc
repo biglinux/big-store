@@ -1,0 +1,5 @@
+As ferramentas de desenvolvimento RPM são um conjunto de ferramentas que ajudam a criar pacotes RPM (Red Hat Package
+Manager). Esses pacotes são usados ​​principalmente em sistemas operacionais baseados em Linux, como o Red Hat, Fedora e CentOS. Com essas ferramentas, os desenvolvedores podem facilmente
+criar, modificar e gerenciar pacotes RPM, tornando o processo de distribuição de software mais fácil e eficiente.Algumas das ferramentas incluídas nesse conjunto são o rpmdev-setuptree, que
+cria uma estrutura de diretórios padrão para o desenvolvimento de pacotes, e o rpmbuild, que constrói os pacotes RPM a partir do código fonte. Além disso, existem ferramentas adicionais
+para ajudar a verificar a integridade dos pacotes e a resolver dependências.

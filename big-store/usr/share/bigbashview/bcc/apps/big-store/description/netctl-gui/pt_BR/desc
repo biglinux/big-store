@@ -1,0 +1,4 @@
+ netctl-gui é uma ferramenta gráfica desenvolvida com Qt5 para ajudar na configuração de conexões de rede
+no Linux. Ele é uma parte do pacote netctl-gui, que permite que os usuários configurem facilmente suas conexões de rede sem precisar digitar comandos no terminal. Com ele, é possível criar,
+editar e gerenciar conexões de forma intuitiva e simples. Além disso, o netctl-gui oferece recursos adicionais como a capacidade de salvar perfis de conexão e alternar entre eles
+facilmente. Ele também tem suporte a vários tipos de conexão, incluindo Ethernet, WiFi e conexões VPN. 

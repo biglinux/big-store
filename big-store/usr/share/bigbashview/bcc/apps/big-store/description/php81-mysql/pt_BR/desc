@@ -1,0 +1,4 @@
+Este programa é uma coleção de módulos que permitem que o PHP 8.1 se conecte e interaja com um banco de dados MySQL. Ele permite
+que você crie scripts PHP que possam se comunicar com seu banco de dados, fazer consultas, inserir, atualizar e excluir dados, entre outras coisas. Com ele, você pode construir aplicações
+web dinâmicas e interativas que precisam acessar um banco de dados.Este pacote de módulos é específico para a versão 8.1 do PHP, então certifique-se de que você tem essa versão antes de
+instalá-lo. Ele é fácil de instalar e configurar, e há muita documentação e exemplos disponíveis para ajudá-lo a começar.

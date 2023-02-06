@@ -1,0 +1,1 @@
+Com a biblioteca libeatmydata, é possível desativar o fsync e outros recursos semelhantes. Isso pode  aumentar significativamente a velocidade de gravação em disco em algumas situações, mas é importante lembrar que também pode aumentar o risco de perda de dados em caso de falha do sistema.  Use com cuidado. 

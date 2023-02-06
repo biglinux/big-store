@@ -1,0 +1,1 @@
+O python-wheel é um formato de pacote para distribuição de módulos Python. Ele permite que os módulos sejam compactados e distribuídos de maneira eficiente, facilitando a instalação e utilização deles em outros projetos. Ele também garante que as dependências dos módulos sejam resolvidas de maneira correta, evitando problemas de compatibilidade. 

@@ -1,0 +1,2 @@
+Essa é uma biblioteca para calcular a transformada discreta de Fourier (DFT). Ela foi otimizada especificamente para
+uso em processadores AMD Ryzen e EPYC.

@@ -1,0 +1,1 @@
+O uwsgi-plugin-cgi é um plugin para o servidor web uWSGI que permite a execução de scripts CGI. Ele é útil para construir serviços de hospedagem completos, pois permite que você execute scripts em várias linguagens de programação e forneça recursos dinâmicos para os usuários do seu site. 

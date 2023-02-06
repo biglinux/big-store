@@ -1,0 +1,2 @@
+Este programa ajuda a criar imagens do sistema operacional Arch Linux para instalação e uso em modo live. Ele também 
+possibilita o suporte ao tipo de imagem LUKS, o que permite criptografar essas imagens.

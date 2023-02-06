@@ -1,0 +1,1 @@
+haskell-lifted-async permite realizar operações IO de forma assíncrona e aguardar pelos resultados. Isso pode melhorar significativamente a performance de seu programa e tornar a execução mais eficiente. 

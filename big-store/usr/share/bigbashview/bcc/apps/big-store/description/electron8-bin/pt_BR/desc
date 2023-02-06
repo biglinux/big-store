@@ -1,0 +1,4 @@
+Com tecnologias da web, você pode construir aplicativos desktop que funcionam em várias plataformas. Esta versão 8 é a
+versão binária, o que significa que já está pronta para ser usada sem precisar ser compilada.Com o Electron8-bin, você pode criar aplicativos com recursos avançados que antes eram restritos
+apenas aos aplicativos nativos, como acesso a arquivos do sistema e integração com outros aplicativos.Sem se preocupar com diferenças entre sistemas operacionais, você pode criar
+aplicativos com aparência e comportamento consistentes em todas as plataformas suportadas.

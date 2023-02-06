@@ -1,0 +1,2 @@
+Este programa oferece classes de dispositivos de barramento para o CircuitPython que permitem
+gerenciar a compartilhação de barramentos. Ele é baseado na biblioteca python-adafruit-circuitpython-busdevice.

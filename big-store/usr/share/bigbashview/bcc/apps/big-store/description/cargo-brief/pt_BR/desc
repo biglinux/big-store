@@ -1,0 +1,4 @@
+Este programa fornece uma visão geral rápida das dependências do seu projeto Cargo. Ele exibe informações importantes como o
+nome, versão e status atual de cada dependência. Isso permite que você veja rapidamente se há algum problema ou atualização disponível, sem precisar navegar pelo código ou configuração do
+projeto.Além disso, ele também mostra as dependências transitive, ou seja, aquelas que são necessárias pelas dependências principais do seu projeto. Isso pode ser útil para identificar e
+resolver problemas de conflito de versão.

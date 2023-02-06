@@ -1,0 +1,4 @@
+ Este programa é chamado de python2-gobject e ele ajuda a conectar o Python 2 com as bibliotecas GLib, GObject, GIO e
+GTK+. Isso significa que você pode usar essas bibliotecas para criar programas com interface gráfica usando Python 2.GLib é uma biblioteca comum usada em vários programas Linux. Ele
+fornece várias funções úteis para desenvolvimento de programas. GObject é uma extensão do GLib que adiciona recursos para criação de objetos. GIO é uma biblioteca para acesso a arquivos e
+rede. GTK+ é uma biblioteca para criação de interfaces gráficas.Com python2-gobject, você pode aproveitar todos esses recursos em seus programas Python 2. 

@@ -1,0 +1,1 @@
+O anything-sync-daemon é um programa que sincroniza e cria atalhos (symlinks) para as pastas especificadas pelo usuário na memória RAM. Isso permite que os arquivos sejam acessados ​​mais rapidamente, pois eles estão sendo lidos diretamente da RAM em vez de do disco rígido. Ele é útil para melhorar o desempenho do sistema e economizar vida útil do disco rígido. 

@@ -1,0 +1,1 @@
+Este é um script POSIX que permite encontrar e assistir vídeos do YouTube diretamente no terminal. Ele utiliza a ferramenta 'fzf' para facilitar a busca de vídeos e reproduzi-los diretamente no terminal. 

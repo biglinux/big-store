@@ -1,0 +1,4 @@
+Este programa é chamado 'pkgdu' e ele ajuda a mostrar quanto espaço em disco os pacotes estão
+usando no seu computador. Ele é útil para ver quais pacotes estão ocupando muito espaço e decidir se você deseja mantê-los ou removê-los.Para usar o programa, basta abri-lo e ele mostrará
+uma lista de todos os pacotes instalados e quanto espaço eles estão usando. Você pode classificá-los por tamanho para ver facilmente qual pacote é o maior.Além disso, o programa também
+permite que você remova pacotes diretamente a partir da interface, economizando tempo e esforço. 

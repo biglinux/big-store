@@ -1,0 +1,5 @@
+Este é um módulo para o PHP 7.4 que adiciona suporte a semáforos SysV. Isso permite que você execute ações de forma sincronizada 
+em seus scripts PHP, garantindo que apenas uma ação específica esteja sendo executada ao mesmo tempo. Isso é útil em situações em que você precisa garantir que uma ação específica não seja 
+interrompida por outra. Por exemplo, se você estiver criando um aplicativo de e-commerce, pode usar semáforos para garantir que duas pessoas não possam comprar o mesmo item ao mesmo tempo. 
+Isso garante que seu estoque seja preciso e evita problemas com dois clientes recebendo o mesmo item. Este módulo é fácil de usar e é compatível com a maioria das configurações de servidor 
+PHP comuns. Ele também é open-source, o que significa que é gratuito para usar e modificar.

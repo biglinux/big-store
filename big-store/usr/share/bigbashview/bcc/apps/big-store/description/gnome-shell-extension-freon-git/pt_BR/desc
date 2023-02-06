@@ -1,0 +1,4 @@
+Este programa é uma extensão para o GNOME Shell e exibe informações importantes sobre o 
+seu computador diretamente na barra superior do seu ambiente de trabalho. Ele mostra a temperatura da CPU, do disco rígido ou SSD, da placa de vídeo e também a velocidade do ventilador.
+Além disso, ele também mostra a voltagem do seu computador.Essas informações são exibidas em uma janela pop-down, permitindo que você acesse rapidamente esses dados sem precisar abrir
+outros aplicativos ou configurações. Esse programa é especialmente útil para usuários que desejam monitorar a saúde e o desempenho de seus sistemas.

@@ -1,0 +1,5 @@
+Helmsman é um programa que permite gerenciar configurações de aplicativos Kubernetes através de código. Isso
+significa que você pode escrever e gerenciar as configurações dos seus aplicativos de forma automatizada, usando ferramentas de controle de versão, como Git. Isso facilita a colaboração e a
+manutenção das configurações, além de ajudar a garantir que suas configurações estejam sempre atualizadas e corretas.Helmsman usa o formato Helm Chart para representar as configurações dos 
+aplicativos, o que significa que você pode usar qualquer chart Helm existente ou criar seus próprios. Além disso, o programa suporta a automação de tarefas comuns, como atualizar
+configurações, rolar atualizações e testar configurações antes de implementá-las.

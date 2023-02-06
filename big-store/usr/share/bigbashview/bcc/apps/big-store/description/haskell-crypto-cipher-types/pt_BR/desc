@@ -1,0 +1,1 @@
+Este repositório contém tipos de cifras de criptografia genéricos escritos em Haskell. Estes tipos são usados para  cifrar e decifrar informações de forma segura. Ele inclui suporte para cifras simétricas, assimétricas e de hash. Ele é projetado para ser fácil de usar e extensível para suportar novas cifras no futuro. 

@@ -1,0 +1,1 @@
+Este programa é usado para validar certificados e CRL (Certificate Revocation Lists) no formato X.509. Ele é escrito em  Haskell e é útil para garantir a segurança e autenticidade de informações em comunicações eletrônicas. 

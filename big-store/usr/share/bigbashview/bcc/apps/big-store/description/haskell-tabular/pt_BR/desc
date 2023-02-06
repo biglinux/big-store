@@ -1,0 +1,1 @@
+Este programa é uma biblioteca escrita em Haskell que fornece uma forma fácil de criar tabelas de dados bidimensionais, com suporte a vários formatos de saída, incluindo texto, HTML e LaTeX. Ele também inclui funções de renderização para tornar a criação de tabelas mais fácil e rápida.  É perfeito para quem precisa exibir dados em uma tabela de forma organizada e fácil de ler. 

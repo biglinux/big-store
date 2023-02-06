@@ -1,0 +1,3 @@
+Você quer criar um jogo ou aplicativo que precise de acesso aos elementos básicos da tela, como framebuffer, áudio, mouse e
+teclado? A biblioteca SDL2 pode ajudá-lo! Ela é uma ferramenta de baixo nível que funciona em vários sistemas operacionais, sem precisar de suporte a X11. Assim, você pode ter certeza de
+que o seu projeto vai rodar em diversos tipos de computadores sem problemas.

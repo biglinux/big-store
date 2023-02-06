@@ -1,0 +1,1 @@
+Esta biblioteca permite que você acesse serviços web REST de forma simples e fácil. Ela foi criada para suportar versões antigas dos serviços, por isso é considerada legada. Utilizando essa biblioteca, você pode realizar requisições HTTP e obter respostas em formato JSON, sem precisar se preocupar com detalhes técnicos. 

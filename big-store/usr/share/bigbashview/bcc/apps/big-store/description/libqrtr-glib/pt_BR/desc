@@ -1,0 +1,1 @@
+Esta é uma biblioteca chamada libqrtr-glib que ajuda a usar o protocolo Qualcomm IPC Router. Ela é usada para comunicar diferentes partes de um sistema, como diferentes aplicativos ou componentes de hardware, de forma mais fácil e eficiente. Isso é útil para desenvolvedores de software que estão criando programas que precisam se comunicar com outras partes do sistema. 

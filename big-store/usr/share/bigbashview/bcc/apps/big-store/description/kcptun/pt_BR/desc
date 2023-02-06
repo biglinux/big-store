@@ -1,0 +1,1 @@
+kcptun é um túnel de segurança baseado em KCP, com capacidade de multiplexação N:M. Ele pode ser usado para atravessar NATs e firewalls. Ele foi projetado para ser extremamente rápido e confiável, ao mesmo tempo em que é leve e fácil de usar. O software é de código aberto e disponível  no Github. 

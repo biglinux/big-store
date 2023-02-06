@@ -1,0 +1,3 @@
+Este programa é chamado de brickd e é um gerenciador de dispositivos para os dispositivos chamados de Tinkerforge
+bricks e bricklets. Ele funciona como um 'daemon', ou seja, um programa de fundo que roda no seu computador e ajuda a controlar esses dispositivos. Com o brickd, você pode facilmente
+conectar e controlar vários dispositivos Tinkerforge ao mesmo tempo, sem precisar se preocupar em gerenciar cada um deles individualmente.

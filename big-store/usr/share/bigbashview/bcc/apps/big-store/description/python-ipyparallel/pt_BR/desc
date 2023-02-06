@@ -1,0 +1,1 @@
+O python-ipyparallel é um pacote que permite a realização de computação paralela de forma interativa utilizando o Python. Ele permite que vários processos do Python sejam executados ao mesmo tempo, o que pode aumentar significativamente a velocidade de processamento em tarefas específicas. 

@@ -1,0 +1,1 @@
+makedumpfile é uma ferramenta que pode criar arquivos de dump menores a partir de dumps de memória kdump. Ele funciona filtrando dados desnecessários e comprimindo o arquivo resultante. Isso pode ser útil para economizar espaço de armazenamento e/ou para enviar o arquivo de dump por uma conexão de rede lenta. 

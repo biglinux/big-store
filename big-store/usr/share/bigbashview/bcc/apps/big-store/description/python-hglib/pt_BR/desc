@@ -1,0 +1,1 @@
+Esta biblioteca fornece uma interface fácil de usar para trabalhar com o Mercurial, um sistema de controle de versão. Ela usa o servidor de comandos do Mercurial para se comunicar com o hg e torna a interação com o Mercurial mais fácil e rápida. O nome da biblioteca é python-hglib. 

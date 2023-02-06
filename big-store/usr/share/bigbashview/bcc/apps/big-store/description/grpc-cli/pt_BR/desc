@@ -1,0 +1,1 @@
+grpc-cli é uma ferramenta de linha de comando para trabalhar com o protocolo gRPC. Ele permite que você faça chamadas de serviço e analise as respostas, sem precisar escrever código. É útil para testar e depurar serviços gRPC. 

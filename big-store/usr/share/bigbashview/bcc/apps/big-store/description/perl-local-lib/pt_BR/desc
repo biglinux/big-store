@@ -1,0 +1,1 @@
+Esse programa permite que você crie e use módulos de Perl em um diretório local, chamado lib/. Isso é feito através da variável de ambiente PERL5LIB, que informa ao Perl onde procurar por módulos adicionais. Isso é útil se você não tem permissão para instalar módulos globalmente ou deseja manter  módulos específicos para um projeto ou sistema. 

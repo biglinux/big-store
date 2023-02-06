@@ -1,0 +1,1 @@
+Este programa, chamado haskell-http-client-restricted, tem como objetivo restringir os servidores que o cliente http irá utilizar. Isso garante mais segurança e controle sobre as conexões feitas pelo programa. 

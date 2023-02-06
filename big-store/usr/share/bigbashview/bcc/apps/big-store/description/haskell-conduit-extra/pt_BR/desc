@@ -1,0 +1,1 @@
+O pacote haskell-conduit-extra é conhecido como 'Batteries included conduit', ele fornece adapters para bibliotecas comuns, facilitando a integração dessas bibliotecas com o seu código. Isso significa que você pode usar essas bibliotecas sem precisar se preocupar com a configuração complexa,  pois o pacote já fornece tudo o que você precisa. 

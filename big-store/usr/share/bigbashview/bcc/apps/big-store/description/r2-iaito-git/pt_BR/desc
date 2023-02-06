@@ -1,0 +1,3 @@
+O r2-iaito-git é uma ferramenta de engenharia reversa desenvolvida com o framework radare2 e possui uma interface
+gráfica desenvolvida com Qt e C++. Ele é uma bifurcação do projeto Cutter e foi criado para ajudar os engenheiros de segurança cibernética e os pesquisadores de segurança a analisar e
+entender o código de aplicativos maliciosos e outros tipos de software.

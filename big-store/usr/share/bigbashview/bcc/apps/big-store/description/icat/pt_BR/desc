@@ -1,0 +1,3 @@
+Este programa é projetado para exibir imagens em terminais que são capazes de mostrar 256 cores diferentes. Ele é
+capaz de lidar com imagens em diferentes formatos, como PNG ou JPG, e deve ser fácil de usar mesmo para aqueles que não possuem muito conhecimento técnico. Ele é útil para quem precisa
+visualizar imagens em um ambiente sem acesso a um monitor gráfico, como em servidores remotos ou terminais antigos.

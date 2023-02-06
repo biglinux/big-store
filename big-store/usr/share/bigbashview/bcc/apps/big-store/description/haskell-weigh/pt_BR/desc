@@ -1,0 +1,1 @@
+Este programa permite medir as alocações de memória de funções e valores em aplicações escritas em Haskell. Isso é útil para identificar quais partes do código estão consumindo mais recursos e otimizá-las. Com esse programa, você pode acompanhar o uso de memória de suas aplicações Haskell e tomar decisões informadas sobre como otimizá-las. 

@@ -1,0 +1,2 @@
+Este é um pequeno e leve script em Bash para usar uma curva de ventilador personalizada no Linux para GPUs
+NVIDIA. Ele é fácil de usar e permite configurar a velocidade do ventilador de acordo com a temperatura da GPU, garantindo que o dispositivo fique fresco e funcione corretamente.

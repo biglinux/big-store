@@ -1,0 +1,1 @@
+pkgconf é uma ferramenta que ajuda a gerenciar as configurações e dependências de pacotes de software. Ele é usado para encontrar arquivos de cabeçalho e bibliotecas em sistemas Unix-like, incluindo Linux e macOS. Ele é especialmente útil em projetos de software que precisam ser compilados e linkados corretamente. 

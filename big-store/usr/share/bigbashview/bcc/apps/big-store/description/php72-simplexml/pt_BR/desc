@@ -1,0 +1,4 @@
+Este programa adiciona suporte ao módulo SimpleXML no PHP 7.2. SimpleXML é uma extensão do PHP que permite
+trabalhar com arquivos XML de maneira fácil e intuitiva. Com ele, você pode ler, criar e editar arquivos XML com poucas linhas de código.Depois de instalar este programa, você poderá usar
+as funções e classes do SimpleXML em seus scripts PHP 7.2 sem problemas. Isso é útil para projetos que precisam lidar com dados em formato XML, como importação e exportação de dados,
+trabalhando com RSS e Atom feeds, entre outros.

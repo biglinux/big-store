@@ -1,0 +1,1 @@
+Este é um programa que permite gerenciar tarefas em containers Podman usando o Nomad. Ele funciona como um intermediário entre o Nomad e os containers, permitindo que você execute tarefas em containers de forma eficiente e gerencie-as facilmente. É uma solução ideal para quem precisa executar aplicativos em containers e garantir alta disponibilidade e escalabilidade. 

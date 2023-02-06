@@ -1,0 +1,4 @@
+Este programa é um temporizador de Pomodoro para usar no terminal. O Pomodoro é um método de gerenciamento de tempo que 
+ajuda as pessoas a se manterem focadas e produtivas. Ele funciona dividindo o tempo de trabalho em períodos curtos, chamados de 'pomodoros', seguidos de períodos de descanso.Com este
+programa, você pode configurar quanto tempo deseja trabalhar e descansar, e o programa irá contar o tempo para você. Ele também pode emitir um aviso quando o tempo estiver acabando, para
+que você saiba quando é hora de parar ou começar a trabalhar novamente.

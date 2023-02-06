@@ -1,0 +1,1 @@
+O pacote python-crc32c é um pacote python que fornece uma implementação pura em python  do algoritmo crc32c, bem como uma versão acelerada em hardware que usa a instrução crc32c se disponível no processador host. Este pacote é útil para aplicativos que precisam calcular a soma de verificação crc32c de dados. 

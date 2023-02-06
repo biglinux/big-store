@@ -1,0 +1,4 @@
+Este é um módulo que adiciona suporte ao formato json para o PHP 7.2. Ele permite que o PHP trabalhe com dados json de forma mais 
+fácil e rápida, tornando possível ler e escrever arquivos json e convertê-los em arrays ou objetos. Além disso, oferece funções para codificar e decodificar dados json, permitindo que você 
+crie e manipule esses dados com facilidade.Com este módulo, você poderá trabalhar com dados json de forma mais eficiente e simples, facilitando a comunicação com outras aplicações e
+sistemas que utilizam essa formatação.

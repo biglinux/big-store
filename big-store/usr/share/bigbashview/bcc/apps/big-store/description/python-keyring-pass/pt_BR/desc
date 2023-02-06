@@ -1,0 +1,3 @@
+Este programa é um backend para o https://www.passwordstore.org e é especificamente projetado para ser usado com o
+gerenciador de senhas keyring do python. Ele permite que você armazene e gerencie suas senhas de forma segura e fácil de usar. Com ele, você pode criar e armazenar senhas únicas para cada
+conta e acessá-las rapidamente usando o keyring do python. Além disso, ele oferece recursos adicionais, como criptografia de ponta a ponta e suporte a vários formatos de arquivo.

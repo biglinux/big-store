@@ -1,0 +1,3 @@
+ Guix é um gerenciador de pacotes totalmente funcional para o sistema GNU. Ele permite aos usuários instalar, atualizar e
+gerenciar pacotes de software de forma fácil e eficiente. Além disso, o Guix oferece recursos avançados como rollbacks, snapshots e reprodução de configurações. Ele é projetado para ser
+simples, seguro e compatível com o sistema operacional GNU. 

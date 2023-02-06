@@ -1,0 +1,1 @@
+Este programa implementa a distância de Levenshtein limitada, também conhecida como algoritmo de Ukkonen.  Ele permite calcular a diferença entre duas palavras ou frases, considerando um limite máximo de diferenças permitidas. O programa foi escrito em Python. 

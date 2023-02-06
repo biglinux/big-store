@@ -1,0 +1,1 @@
+Esse programa é um gerador de bits aleatórios determinísticos, também conhecido como RNG ou PRNG. Ele baseia-se em HMACs, Hashes e Ciphers. Ele é escrito em Haskell.  

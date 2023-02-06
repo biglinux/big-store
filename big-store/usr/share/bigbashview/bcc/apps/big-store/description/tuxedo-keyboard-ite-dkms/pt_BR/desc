@@ -1,0 +1,1 @@
+Este programa é um driver de retroiluminação de teclado por tecla para dispositivos TUXEDO ITE. Ele permite que você personalize a iluminação de cada tecla individualmente, para que você possa ter um teclado com uma aparência única. Esse programa é específico  para dispositivos TUXEDO ITE e requer que você instale o pacote DKMS para funcionar corretamente. 

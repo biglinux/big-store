@@ -1,0 +1,1 @@
+Este programa é um cliente escrito em Python para se conectar ao banco de dados InfluxDB. Ele permite que você execute comandos e faça consultas no banco de dados, além de ajudar a gerenciar e organizar suas informações armazenadas. 

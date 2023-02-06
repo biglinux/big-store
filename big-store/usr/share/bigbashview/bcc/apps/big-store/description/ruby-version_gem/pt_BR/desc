@@ -1,0 +1,4 @@
+As versões são importantes. Elas ajudam a manter o controle de como o seu programa está evoluindo e quais versões são
+compatíveis com quais. O ruby-version_gem é uma ferramenta que ajuda a gerenciar as versões do seu programa em Ruby. Ele permite que você especifique qual versão do seu programa está sendo 
+usada e garante que as outras pessoas usando o seu programa estejam usando a mesma versão. Com ele, você pode facilmente atualizar ou mudar de versão, sem ter que se preocupar em quebrar
+algo. É uma ferramenta simples mas poderosa para manter seu programa organizado e estável.

@@ -1,0 +1,3 @@
+Este programa é uma pequena ferramenta para enviar códigos para o servidor Hastebin. Ele foi escrito em Go e é fácil
+de usar. Basta digitar o código que você deseja enviar e clicar em enviar. Ele vai fazer o upload do código para o servidor e fornecer um link para você compartilhar com outras pessoas. É
+uma ótima opção para compartilhar códigos com colegas de trabalho ou para guardar códigos que você está trabalhando para referência futura.

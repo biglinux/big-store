@@ -1,0 +1,2 @@
+ O Bareos é um software de backup aberto e de código aberto, e este plugin é específico para o daemon de gerenciamento
+do programa. Ele permite que você faça backup de seus arquivos e pastas usando a linguagem de programação Python3. 

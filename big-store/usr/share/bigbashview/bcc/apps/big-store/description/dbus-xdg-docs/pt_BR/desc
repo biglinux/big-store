@@ -1,0 +1,2 @@
+Este programa é parte do sistema de mensagens bus Freedesktop.org. Ele não cria um diretório ~/.dbus (para 
+sistemas que não usam o systemd) e fornece a documentação necessária para o uso do sistema de mensagens bus.

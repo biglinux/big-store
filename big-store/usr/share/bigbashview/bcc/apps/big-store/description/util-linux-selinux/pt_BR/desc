@@ -1,0 +1,3 @@
+Utilitários diversos para sistemas Linux que são compatíveis com SELinux. Este programa foi projetado para
+trabalhar com segurança em sistemas Linux usando SELinux, para ajudar a garantir que o sistema seja protegido contra ameaças de segurança. Ele inclui vários comandos úteis para gerenciar
+diferentes aspectos do sistema, como gerenciamento de arquivos, usuários e processos.

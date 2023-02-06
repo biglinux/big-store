@@ -1,0 +1,2 @@
+Este programa cria quatro barreiras de ponteiro ao redor de cada tela XRandR, efetivamente prendendo seu
+ponteiro de mouse em apenas uma tela física.

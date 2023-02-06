@@ -1,0 +1,2 @@
+Este é um módulo de monitoramento em Perl chamado Monitoring::Plugin. Ele é usado para facilitar a escrita de plugins para os
+sistemas de monitoramento Naemon, Nagios, Icinga ou Shinken (e compatíveis).

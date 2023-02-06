@@ -1,0 +1,3 @@
+Este é um compilador para Teal, um dialeto tipado de Lua. Ele permite que você compile seu código escrito em Teal para ser
+executado com o interpretador Lua51. Com esse compilador, você pode aproveitar as vantagens de ambas as linguagens, o poder da linguagem Lua e a tipagem de dados de Teal. Além disso, você
+pode escrever códigos mais seguros e fáceis de manter. 

@@ -1,0 +1,4 @@
+O ruby-simpleitk é uma camada simplificada construída sobre o ITK (Kit de Ferramentas de Imagem Insight). Ele fornece uma
+interface de programação fácil de usar para acessar as funcionalidades avançadas do ITK, tornando mais fácil para desenvolvedores trabalhar com imagens e processamento de imagens em seus
+projetos. Isso inclui recursos como segmentação, registro e transformação de imagens. Além disso, o ruby-simpleitk também oferece suporte para diversos formatos de arquivo de imagem, o que 
+significa que você pode trabalhar com uma ampla variedade de imagens sem precisar se preocupar com problemas de compatibilidade.

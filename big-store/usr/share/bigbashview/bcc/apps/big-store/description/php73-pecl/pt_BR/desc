@@ -1,0 +1,4 @@
+A biblioteca de extensão PHP (PECL) é uma coleção de módulos de extensão para o PHP. Ela permite aos usuários adicionar novas
+funcionalidades ao PHP sem precisar recompilar o código fonte do próprio PHP. Essa biblioteca específica é para a versão 7.3 do PHP. Os módulos incluem suporte a novos formatos de arquivo, 
+acesso a bancos de dados, integração com outras linguagens e muito mais. Os módulos são desenvolvidos e mantidos por uma comunidade de desenvolvedores independentes, e podem ser baixados e 
+instalados facilmente.

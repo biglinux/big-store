@@ -1,0 +1,3 @@
+Este programa é uma implementação aberta do Apple Wireless Direct Link (AWDL) escrito em C. Ele se chama 'owlink-git'. O
+AWDL é um protocolo de rede sem fio que permite comunicação direta entre dispositivos Apple, sem a necessidade de uma rede Wi-Fi. Com esse programa, é possível usar essa funcionalidade em
+dispositivos que não sejam da Apple.

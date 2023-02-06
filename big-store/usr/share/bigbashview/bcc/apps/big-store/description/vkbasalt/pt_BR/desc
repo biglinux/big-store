@@ -1,0 +1,3 @@
+VKBasalt é uma camada de pós-processamento para o Vulkan. Alguns dos efeitos incluem o Contraste Adaptativo de
+Saturação (CAS), Anti-Aliasing em Cascata de Taxa de Amostragem (FXAA), Anti-Aliasing de Submuestreo (SMAA) e remoção de faixas (deband).Ele é uma ferramenta útil para melhorar a qualidade 
+gráfica dos jogos e aplicativos que usam o Vulkan como engine de gráficos.

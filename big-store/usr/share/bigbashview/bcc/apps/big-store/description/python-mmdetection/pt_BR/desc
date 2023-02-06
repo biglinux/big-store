@@ -1,0 +1,4 @@
+ python-mmdetection é uma ferramenta de detecção de objetos desenvolvida pela OpenMMLab. Ela é baseada em Python
+e foi projetada para ser uma ferramenta de detecção de objetos de alto desempenho. Além disso, ela também inclui um benchmark para avaliar o desempenho de diferentes algoritmos de detecção.
+Com python-mmdetection, você pode facilmente detectar objetos em imagens e vídeos, e também pode treinar seus próprios modelos de detecção de objetos. Ele é compatível com várias
+arquiteturas de rede, incluindo o popular framework de aprendizado profundo PyTorch.

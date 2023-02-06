@@ -1,0 +1,3 @@
+Este pacote contém as ferramentas necessárias para debugar e fazer perfis de aplicações baseadas em HIP. Ele inclui
+ferramentas como o ROC-gdb, roc-perf, e roc-memcheck. Com essas ferramentas, os desenvolvedores podem identificar e corrigir problemas de desempenho e de memória em seus aplicativos, além
+de obter informações valiosas sobre como os aplicativos estão usando recursos de hardware.

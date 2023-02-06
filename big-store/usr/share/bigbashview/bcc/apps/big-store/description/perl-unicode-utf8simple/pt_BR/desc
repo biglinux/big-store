@@ -1,0 +1,1 @@
+Esse programa permite a conversão de caracteres para o formato UTF8 e de UTF8 para caracteres. Isso é útil quando  você precisa trabalhar com arquivos ou textos que possuem caracteres especiais ou que não são compatíveis com o seu sistema.Ele é escrito em Perl e usa a biblioteca Unicode::UTF8Simple para realizar as conversões. 

@@ -1,0 +1,2 @@
+Este programa é um gerenciador de drivers para os sensores de CPUs da família Zen da AMD. Ele é específico para sistemas
+Linux e permite que você leia os dados dos sensores de sua CPU Zen.

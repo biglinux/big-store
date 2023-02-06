@@ -1,0 +1,1 @@
+Este é um módulo do kernel específico para placas de rede Realtek 8723bu. Ele é projetado para funcionar  com a distribuição Linux Xanmod Edge e é responsável por gerenciar as operações da placa de rede no sistema. Com este módulo instalado, você pode se conectar à internet e usar outros recursos de rede sem problemas. 

@@ -1,0 +1,1 @@
+Este plugin para o Pytest permite desativar as chamadas de socket durante os testes. Isso pode ser útil em casos em que os testes precisam ser executados em um ambiente sem conexão de rede, ou quando se deseja evitar interações com serviços externos durante a execução dos testes. O nome do plugin é python-pytest-socket 

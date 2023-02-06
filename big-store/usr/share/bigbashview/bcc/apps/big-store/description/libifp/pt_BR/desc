@@ -1,0 +1,1 @@
+ libifp é uma biblioteca geral-propósito para jogadores de áudio portáteis iRiver iFP. Ele permite que você se comunique com o dispositivo, recupere informações sobre o dispositivo e o controle. Ele também fornece uma interface de linha de comando simples para interagir  com o dispositivo. 

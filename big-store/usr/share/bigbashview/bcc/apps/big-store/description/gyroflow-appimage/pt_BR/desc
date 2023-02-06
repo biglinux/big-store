@@ -1,0 +1,4 @@
+A aplicação gyroflow utiliza dados de giroscópio para estabilizar vídeos. Isso significa que se você gravou um
+vídeo e ele ficou tremido, essa aplicação pode ajudar a deixá-lo mais suave e fácil de assistir. Ela também pode ser utilizada para outras finalidades, como vlogs e filmagens profissionais.
+O aplicativo gyroflow é disponibilizado como um arquivo AppImage, o que significa que ele pode ser executado em diferentes sistemas operacionais sem a necessidade de instalação. Além disso,
+o arquivo AppImage é auto-contido, o que significa que ele contém todas as dependências necessárias para a execução.

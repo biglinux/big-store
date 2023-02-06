@@ -1,0 +1,3 @@
+Esse programa foi criado para ajudar a manter as suas credenciais do Docker seguras. Ele utiliza o secretservice para
+armazenar essas informações importantes. Isso significa que as suas credenciais ficarão protegidas e você não precisará se preocupar com elas sendo expostas ou roubadas. Além disso, esse
+programa é fácil de usar e não requer nenhum conhecimento avançado de tecnologia.

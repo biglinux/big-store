@@ -1,0 +1,4 @@
+Este programa é uma subcomando do Cargo, que permite visualizar o código fonte escrito em Rust em diferentes
+formatos de assembly, incluindo ASM, LLVM-IR e MIR. Isso pode ser útil para desenvolvedores que desejam entender como o código é compilado e executado em diferentes sistemas.Para utilizar
+este comando, basta digitar 'cargo show-asm' no terminal, seguido do nome do pacote ou do arquivo desejado. Ele irá exibir o código em formato de assembly, permitindo uma análise detalhada 
+do código.

@@ -1,0 +1,1 @@
+mdns-scan é uma ferramenta de linha de comando que permite escanear por serviços publicados mDNS/DNS-SD na rede local. Ele pode ser usado para descobrir serviços como os fornecidos pelo iTunes, AirPlay e Chromecast, bem como outros serviços que usam o protocolo mDNS/DNS-SD. 

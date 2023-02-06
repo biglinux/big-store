@@ -1,0 +1,1 @@
+A biblioteca lib32-libxdmcp é um componente importante para o gerenciamento de exibição X11. Ela fornece as funções necessárias para permitir que diferentes programas se comuniquem com o gerenciador de exibição e controlem as janelas e outros elementos gráficos que aparecem na tela. Ela é projetada para ser usada em sistemas de 32 bits. 

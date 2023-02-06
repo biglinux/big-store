@@ -1,0 +1,2 @@
+Hyprland é um compositor para o sistema Wayland que se preocupa tanto com a funcionalidade quanto com a estética. Ele é baseado
+em wlroots e permite criar janelas em diferentes tamanhos e disposições, de forma dinâmica e sem sacrificar a aparência.

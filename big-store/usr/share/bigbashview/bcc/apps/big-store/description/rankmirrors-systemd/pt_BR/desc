@@ -1,0 +1,2 @@
+Este programa ajuda a organizar os espelhos do Pacman baseado na velocidade deles em relação à sua rede. Ele se chama
+rankmirrors-systemd.Isso significa que ele vai testar cada espelho e mostrar quais são os mais rápidos para você baixar pacotes, assim você pode escolher os melhores para usar.

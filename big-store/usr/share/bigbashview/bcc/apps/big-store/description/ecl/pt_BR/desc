@@ -1,0 +1,1 @@
+ECL é uma implementação embutível do Common Lisp. Ele é projetado para ser usado como uma biblioteca, possibilitando  ao desenvolvedor incluir funcionalidades do Lisp em seus programas escritos em outras linguagens. O ECL é uma boa opção para quem busca flexibilidade e expressividade em seu código, além de possuir uma ampla variedade de recursos e bibliotecas. 

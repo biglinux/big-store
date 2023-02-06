@@ -1,0 +1,4 @@
+A libngf é uma biblioteca de código aberto para desenvolvimento de aplicativos de feedback não gráfico. Ele
+fornece uma maneira fácil de adicionar feedback de áudio, vibração e LED a seus aplicativos, sem a necessidade de lidar com os detalhes técnicos por trás disso. Ele é compatível com várias 
+plataformas, incluindo Android e Linux. Com a libngf, você pode criar aplicativos de realidade aumentada, jogos, assistentes virtuais e muito mais, que fornecem feedback tátil para os
+usuários. Ele é fácil de usar, com uma documentação completa e exemplos para ajudá-lo a começar. Experimente a libngf hoje e dê vida a seus aplicativos com feedback não gráfico!

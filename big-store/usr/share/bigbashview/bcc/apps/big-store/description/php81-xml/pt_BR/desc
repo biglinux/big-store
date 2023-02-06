@@ -1,0 +1,4 @@
+Os módulos XML para o PHP 8.1 permitem que você trabalhe com arquivos e dados XML em suas aplicações PHP. Eles oferecem uma
+variedade de funções e classes para manipular e analisar dados XML, incluindo suporte para XPath e XML Schema.Além disso, esses módulos também fornecem suporte para a criação e modificação 
+de documentos XML, permitindo que você adicione, remova ou altere elementos e atributos em um documento XML existente.Em resumo, os módulos XML para o PHP 8.1 são uma ferramenta valiosa
+para qualquer desenvolvedor que trabalhe com dados estruturados em formato XML.

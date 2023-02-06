@@ -1,0 +1,4 @@
+ O PlatformIO é uma ferramenta popular para desenvolvimento de projetos de IoT e embarcados. Ele
+suporta uma grande variedade de placas e dispositivos, mas para algumas delas é necessário instalar regras adicionais no gerenciador de dispositivos do sistema operacional, chamado udev.
+Essas regras garantem que a placa seja reconhecida corretamente e possa ser utilizada pelo PlatformIO sem problemas. Elas são específicas para cada tipo de dispositivo e precisam ser
+instaladas manualmente. Essas regras adicionais são conhecidas como platformio-udev-rules. 

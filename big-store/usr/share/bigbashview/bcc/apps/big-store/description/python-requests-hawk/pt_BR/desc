@@ -1,0 +1,1 @@
+A biblioteca python-requests-hawk é uma estratégia de autenticação para a biblioteca de requisições Python. Ele adiciona suporte ao protocolo Hawk ao fazer requisições HTTP.Hawk é um protocolo de autenticação baseado em cabeçalhos, que fornece segurança adicional para as requisições feitas pela biblioteca de requisições Python. 

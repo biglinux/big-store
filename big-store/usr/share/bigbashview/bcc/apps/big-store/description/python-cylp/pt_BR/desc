@@ -1,0 +1,3 @@
+Este programa permite resolver problemas de programação linear e de programação inteira mista (MIPs) usando a
+linguagem Python. Ele fornece uma interface para os solvers CLP, CBC e CGL. Com ele, você pode encontrar soluções ótimas para problemas de otimização envolvendo variáveis contínuas e
+inteiras. É uma ferramenta útil para quem trabalha com análise de dados, engenharia, finanças e outras áreas.

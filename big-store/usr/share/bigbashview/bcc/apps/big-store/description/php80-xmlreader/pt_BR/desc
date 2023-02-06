@@ -1,0 +1,3 @@
+Este é um módulo chamado xmlreader para a versão 8.0 do PHP. Ele permite que você leia arquivos XML facilmente em seus scripts
+PHP. É uma ferramenta útil para trabalhar com dados em formato XML em seus projetos.Com o xmlreader, você pode percorrer o documento XML, acessar elementos e atributos, e realizar outras
+operações avançadas de maneira eficiente. Ele é uma escolha popular entre desenvolvedores que trabalham com dados XML em PHP.

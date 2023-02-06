@@ -1,0 +1,3 @@
+Este programa ajuda a integrar o JDK (Kit de Desenvolvimento Java) fornecido pelo Android Studio com o Arch Linux Java. Isso
+significa que você pode usar o JDK do Android Studio para desenvolver aplicativos para dispositivos Android sem precisar instalar outro JDK em seu computador.Isso é útil se você já usa o
+Android Studio para desenvolver aplicativos e não quer ter que lidar com configurações adicionais para usar outro JDK.

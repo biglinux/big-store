@@ -1,0 +1,1 @@
+Este pacote é uma versão estaticamente compilada do gerenciador de pacotes pacman. Ele pode ser usado para consertar ou instalar sistemas sem a biblioteca libc. 

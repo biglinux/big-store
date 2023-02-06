@@ -1,0 +1,3 @@
+Este programa permite simular modelos hierárquicos bayesianos usando simulação de Cadena de Markov Monte Carlo (MCMC). Ele é 
+conhecido como JAGS e é usado para analisar dados estatísticos e fazer previsões baseadas em probabilidades. Ele é útil para cientistas de dados e estatísticos que desejam trabalhar com
+modelos complexos e fazer inferências precisas a partir deles.

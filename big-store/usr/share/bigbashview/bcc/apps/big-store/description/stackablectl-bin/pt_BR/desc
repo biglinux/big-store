@@ -1,0 +1,3 @@
+ Uma ferramenta de linha de comando é um programa que permite que você interaja com seu computador através de
+comandos digitados no terminal. A ferramenta Stackablectl-bin é específica para interagir com a plataforma de dados Stackable. Isso significa que você pode usá-lo para gerenciar seus dados 
+na plataforma Stackable, como adicionar, excluir ou consultar informações.

@@ -1,0 +1,1 @@
+runc é uma ferramenta de linha de comando que permite gerenciar recipientes compatíveis com a especificação OCI (Open Container Initiative). Com ela, é possível criar, iniciar, parar e gerenciar recipientes, além de realizar outras operações relacionadas a containers. Ela é desenvolvida em conjunto com a Docker e a Linux Foundation. 

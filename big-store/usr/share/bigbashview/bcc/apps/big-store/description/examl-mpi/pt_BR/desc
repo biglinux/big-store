@@ -1,0 +1,5 @@
+Examl-mpi é uma ferramenta de aprendizado de máquina de alta escala que permite a análise de dados de alta
+dimensionalidade. Ele utiliza o algoritmo de likelihood máxima para encontrar as melhores soluções para os seus dados. Ele é projetado para ser usado em ambientes de computação de alto
+desempenho, como clusters de supercomputadores. Ele é baseado no software MPI, que é uma biblioteca de comunicação de processos paralelos amplamente utilizada. Isso permite que ele seja
+escalável e possa lidar com grandes volumes de dados. Ele também suporta várias plataformas, incluindo Windows, Linux e MacOS.Examl-mpi foi publicado no Bioinformatics Journal com o título 
+'Exascale Maximum Likelihood' e pode ser acessado através do link https://doi.org/10.1093/bioinformatics/btv184.

@@ -1,0 +1,1 @@
+A biblioteca python-axolotl-curve25519 é um wrapper para a biblioteca curve25519 com assinaturas ed25519. Ele permite que você use as funcionalidades da biblioteca curve25519 de maneira fácil e simples em seus projetos Python. Com esta biblioteca, você pode criptografar e descriptografar dados, assinar e verificar assinaturas digitais, entre outras funcionalidades. 

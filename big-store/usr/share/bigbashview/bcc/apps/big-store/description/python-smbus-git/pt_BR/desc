@@ -1,0 +1,3 @@
+Este programa fornece uma forma fácil de acessar o barramento SMBus (System Management Bus) utilizando o Python. Ele funciona como
+um 'wrapper' para o acesso i2c-dev, tornando mais fácil utilizar o SMBus com o Python.Com ele, é possível ler e escrever dados no barramento de forma simples e eficiente, o que é útil em
+projetos que utilizam dispositivos que se comunicam através do SMBus, como sensores e controladores.

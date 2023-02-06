@@ -1,0 +1,3 @@
+Este programa ajuda você a armazenar suas senhas de SSH de forma segura. Ele usa o programa 'pass' para pegar a senha e
+usá-la quando você precisar se conectar a um servidor via SSH.Assim, você não precisa se preocupar em esquecer sua senha ou digitá-la manualmente toda vez que precisar se conectar. Além
+disso, como a senha é armazenada de forma criptografada, você pode ter certeza de que suas informações estarão seguras.

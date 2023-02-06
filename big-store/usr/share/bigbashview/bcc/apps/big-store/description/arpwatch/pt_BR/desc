@@ -1,0 +1,1 @@
+O arpwatch é um programa que monitora atividades de estação Ethernet e FDDI. Ele registra endereços MAC e IPs vistos em uma rede, e envia alertas de mudanças (por exemplo, nova estação, mudança de endereço, estação inativa). Ele também gera relatórios diários. 

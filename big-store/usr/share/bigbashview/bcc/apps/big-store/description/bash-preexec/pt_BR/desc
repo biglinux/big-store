@@ -1,0 +1,4 @@
+bash-preexec é um programa que adiciona funcionalidades ao seu Bash, tornando-o mais parecido com o Zsh. Ele adiciona as
+funções preexec e precmd ao seu Bash, o que permite que você execute comandos antes e depois de executar um comando específico. Isso pode ser útil para automatizar tarefas e personalizar
+sua experiência de usuário.Alguns exemplos de uso incluem a execução de comandos de limpeza antes de sair de um diretório, ou a exibição de informações relevantes depois de executar um
+comando específico. Com bash-preexec, você pode fazer com que o Bash se comporte de acordo com suas necessidades.

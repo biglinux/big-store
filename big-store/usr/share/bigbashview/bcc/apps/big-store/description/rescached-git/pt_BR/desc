@@ -1,0 +1,4 @@
+ Este programa é um gerenciador de cache de DNS, ele ajuda a resolver nomes de domínio mais rapidamente. Ele funciona como um
+'daemon' que fica rodando em segundo plano no seu computador, armazenando informações de nomes de domínio que você já procurou. Assim, quando você precisar acessar o mesmo nome de domínio
+novamente, o processo será mais rápido, pois as informações já estarão armazenadas no cache.Isso é especialmente útil se você acessa muitos sites diferentes e não quer esperar a cada vez
+que precisa carregar uma nova página. 

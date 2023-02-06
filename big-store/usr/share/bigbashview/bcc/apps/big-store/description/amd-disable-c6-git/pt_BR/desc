@@ -1,0 +1,4 @@
+Esse programa foi criado para desativar automaticamente o estado de economia de energia C6 em
+processadores AMD Zen (Ryzen / Epyc). Isso pode ser útil para quem usa o computador para jogos ou aplicativos de alta performance, pois esses estados de economia de energia podem afetar o
+desempenho. É importante notar que desativar esses estados de economia de energia pode aumentar o consumo de energia e gerar mais calor no computador, então é importante avaliar se essa é
+uma boa opção para você.

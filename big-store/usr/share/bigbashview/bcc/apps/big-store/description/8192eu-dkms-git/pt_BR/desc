@@ -1,0 +1,3 @@
+Este programa é um driver para o chipset Realtek 8192eu. Ele é instalado através do DKMS (Dynamic Kernel Module Support), o que
+significa que ele se adapta automaticamente às atualizações do kernel. Isso garante que o driver funcione corretamente, mesmo quando há atualizações no sistema.Com esse driver, você pode
+usar dispositivos que possuem o chipset Realtek 8192eu sem problemas. Ele garante que a conexão com a internet funcione corretamente e que os dispositivos sejam reconhecidos pelo sistema.

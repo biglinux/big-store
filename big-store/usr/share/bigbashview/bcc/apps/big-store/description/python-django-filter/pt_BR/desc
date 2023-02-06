@@ -1,0 +1,1 @@
+Este é um sistema genérico para filtrar conjuntos de consultas do Django com base nas seleções do usuário. Ele é construído em Python e utiliza o framework Django, permitindo que você facilmente adicione filtros às suas consultas e personalize como eles são exibidos na interface do usuário. 

@@ -1,0 +1,2 @@
+Esta é uma biblioteca de reprodução de música MIDI que possui um emulador OPL3 (YMF262). Com ela, você pode tocar arquivos MIDI
+usando este tipo de som. É útil para quem deseja reproduzir músicas antigas no estilo FM.

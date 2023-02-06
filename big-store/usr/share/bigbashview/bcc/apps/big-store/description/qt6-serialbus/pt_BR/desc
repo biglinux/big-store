@@ -1,0 +1,1 @@
+O módulo qt6-serialbus é um recurso para acessar barramentos seriais de forma geral. Ele permite que você  se conecte e comunique com dispositivos que utilizam esse tipo de conexão, como sensores, dispositivos de automação industrial, entre outros. Com ele, é possível enviar e receber dados, gerenciar configurações e monitorar o status dos dispositivos conectados. 

@@ -1,0 +1,1 @@
+Este é um módulo de cache para o PHP. Ele é chamado de 'php-legacy-apcu' e é usado para armazenar dados temporariamente na memória para que eles possam ser acessados rapidamente sem precisar ser recarregados do banco de dados. Isso pode ajudar a melhorar a velocidade do seu site ou aplicativo. 

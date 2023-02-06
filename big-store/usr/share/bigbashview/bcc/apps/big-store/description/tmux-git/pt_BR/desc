@@ -1,0 +1,5 @@
+tmux-git é um programa que permite ao usuário dividir a tela do terminal em várias áreas, cada uma com seu próprio shell.
+Isso é útil quando você precisa trabalhar em vários projetos ao mesmo tempo ou quando precisa visualizar várias informações ao mesmo tempo. Com tmux-git, você pode alternar facilmente entre
+as diferentes áreas da tela e acessar as sessões salvas anteriormente.Além disso, o tmux-git permite acessar e controlar as sessões tmux remotamente, o que é útil se você estiver
+trabalhando em um servidor ou em outra máquina. Ele também possui recursos avançados de gerenciamento de janelas e sessões, como a capacidade de renomear janelas e sessões e atribuir
+atalhos de teclado personalizados.

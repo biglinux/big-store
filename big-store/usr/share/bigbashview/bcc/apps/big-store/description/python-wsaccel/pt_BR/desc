@@ -1,0 +1,1 @@
+O python-wsaccel é um acelerador para as bibliotecas ws4py e AutobahnPython, que melhora a performance das comunicações WebSocket em aplicações Python. Ele usa aceleradores Cython e C para aumentar a velocidade de processamento de pacotes WebSocket. 

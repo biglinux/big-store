@@ -1,0 +1,3 @@
+O NodeJS Shadow CLJS é uma ferramenta que torna a compilação de ClojureScript muito mais fácil. Com ele, você pode
+transformar seu código em uma versão compatível com JavaScript, pronta para ser usada em qualquer lugar. Acesse o site http://shadow-cljs.org/ para mais informações e começar a usar essa
+ferramenta incrível hoje mesmo!

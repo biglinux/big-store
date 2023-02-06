@@ -1,0 +1,4 @@
+ Com o Yubikey-agent, você pode usar sua chave YubiKey para fazer login em seus computadores e servidores de forma fácil e sem 
+problemas. Ele funciona como um agente ssh, o que significa que você só precisa inserir sua chave uma vez e ela será usada automaticamente para todas as suas conexões ssh. Isso é útil para 
+manter sua conta segura e evitar a necessidade de digitar sua senha várias vezes. Além disso, como sua chave YubiKey é uma forma física de autenticação, ela é mais segura do que uma senha
+comum. 

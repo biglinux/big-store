@@ -1,0 +1,3 @@
+Este é um gerenciador de plugins inspirado no use-package para o Neovim. Ele permite que você gerencie e instale
+facilmente os plugins que você precisa para o seu editor de texto Neovim.Com esse programa, você pode adicionar, remover e atualizar plugins de forma fácil, sem precisar se preocupar em
+gerenciar manualmente os arquivos do plugin. Ele também possibilita a criação de pacotes, o que torna ainda mais fácil gerenciar os plugins.

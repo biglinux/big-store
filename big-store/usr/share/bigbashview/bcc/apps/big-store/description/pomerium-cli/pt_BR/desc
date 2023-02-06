@@ -1,0 +1,4 @@
+Pomerium é uma ferramenta incrível que permite que você adicione autenticação e autorização a qualquer aplicativo ou 
+site sem precisar modificar seu código. Este programa é especificamente o componente de linha de comando (CLI) do Pomerium, que permite que você gerencie suas configurações de autenticação 
+e autorização diretamente pelo terminal.Com o Pomerium-cli, você pode facilmente adicionar usuários e grupos, configurar regras de autorização e até mesmo verificar o status de autenticação
+de seus usuários em tempo real.

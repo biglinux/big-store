@@ -1,0 +1,5 @@
+Este programa é chamado de swhkd-git e é inspirado em outro programa chamado sxhkd. Ele é um daemon, ou seja, um
+programa que roda em segundo plano e ajuda outros programas a funcionarem. Ele é especialmente útil para atalhos de teclado, pois permite que você crie atalhos personalizados sem depender
+de um servidor de exibição específico.Isso significa que você pode usar atalhos de teclado para abrir programas, abrir pastas, mudar configurações do sistema, entre outras coisas,
+independentemente do servidor de exibição que você estiver usando. Se você gosta de personalizar sua experiência de computador e usar atalhos de teclado para aumentar sua produtividade,
+esse programa pode ser útil para você.

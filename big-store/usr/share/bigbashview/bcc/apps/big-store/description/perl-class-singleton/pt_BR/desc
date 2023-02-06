@@ -1,0 +1,1 @@
+Esse programa é uma implementação de uma classe singleton em Perl. Uma classe singleton é um tipo de classe que só permite que  exista uma única instância dela em todo o programa. Isso é útil quando queremos ter um objeto que seja compartilhado por várias partes do código e garantir que todas elas estão acessando a  mesma informação. 

@@ -1,0 +1,3 @@
+Este programa é uma biblioteca para o Python que permite que você crie atalhos de teclado para todo o sistema. Isso significa que
+você pode definir teclas específicas para abrir programas ou realizar tarefas específicas, mesmo que outro programa esteja em execução. É fácil de usar e pode ser adicionado a qualquer
+projeto em Python.

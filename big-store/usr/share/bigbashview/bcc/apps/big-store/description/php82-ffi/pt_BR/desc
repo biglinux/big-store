@@ -1,0 +1,3 @@
+ O módulo FFI (Foreign Function Interface) é uma ferramenta que permite que você use códigos escritos em outras linguagens, como C,
+dentro do seu código PHP. Ele é útil quando você precisa acessar bibliotecas ou funcionalidades específicas que não estão disponíveis nativamente no PHP. Com o módulo FFI, você pode
+aumentar a velocidade e o desempenho de seu código, além de aproveitar todas as vantagens do PHP. Este módulo é específico para a versão 8.2 do PHP. 

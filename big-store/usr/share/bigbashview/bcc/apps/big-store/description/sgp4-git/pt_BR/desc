@@ -1,0 +1,4 @@
+A biblioteca SGP4 é usada para rastrear a posição de satélites em órbita ao redor da Terra. Ela utiliza
+algoritmos precisos para calcular a posição dos satélites em relação ao planeta, levando em conta fatores como a gravidade e a velocidade do satélite. Com essa biblioteca, é possível fazer 
+previsões precisas sobre a posição dos satélites e usar essas informações para diversas aplicações, como comunicações, meteorologia e observação da Terra.A biblioteca SGP4 é mantida por um 
+grupo de desenvolvedores colaboradores e está disponível no formato de código aberto. Isso significa que qualquer pessoa pode usá-la, modificá-la e contribuir para melhorá-la.

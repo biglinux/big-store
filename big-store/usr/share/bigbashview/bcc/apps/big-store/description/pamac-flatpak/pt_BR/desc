@@ -1,0 +1,3 @@
+ Este é um gerenciador de programas com interface gráfica feito em Gtk3. Ele utiliza a biblioteca
+libalpm e possui suporte para gerenciar pacotes do AUR (pacotes não oficiais para Arch Linux) e Flatpak (pacotes para várias distribuições Linux). Além disso, ele conta com suporte para
+AppIndicator, o que permite que ele seja facilmente acessado a partir da bandeja do sistema. 

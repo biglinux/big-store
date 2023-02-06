@@ -1,0 +1,3 @@
+ python-neotermcolor é um programa que permite que você adicione cores à saída no terminal. Isso pode tornar mais fácil para 
+os usuários identificar informações importantes, como erros ou alertas. Ele é compatível com vários sistemas operacionais e pode ser usado em scripts ou programas interativos. Além disso, é
+fácil de usar e personalizar as cores de acordo com suas preferências. Ele também é compatível com diversos terminais, incluindo o PowerShell, CMD e Git Bash.

@@ -1,0 +1,2 @@
+Este programa é uma pequena ferramenta escrita em Python que permite converter arquivos de áudio FLAC para MP3. Ele aceita uma
+lista de diretórios como argumento e realiza a conversão com as opções especificadas pelo usuário. Além disso, ele também permite criar arquivos torrent.

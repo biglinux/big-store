@@ -1,0 +1,5 @@
+Este programa é responsável por definir as associações de arquivos padrão no ambiente GNOME. Isso significa que ele
+determina qual aplicativo será usado para abrir determinados tipos de arquivos, como por exemplo, quais arquivos de imagem serão abertos com o visualizador de imagens do GNOME. Assim, o
+programa torna mais fácil para os usuários abrirem os arquivos corretamente, sem precisar fazer configurações manualmente. Além disso, o programa também pode ser usado para editar as
+associações de arquivos existentes ou adicionar novas associações. Isso é útil se você deseja usar um aplicativo diferente para abrir um tipo específico de arquivo, ou se você deseja
+associar um novo tipo de arquivo a um aplicativo.

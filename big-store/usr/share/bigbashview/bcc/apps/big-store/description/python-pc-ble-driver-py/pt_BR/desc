@@ -1,0 +1,1 @@
+ Esta biblioteca fornece ligações para o nrf-ble-driver, permitindo que você facilmente se comunique com dispositivos BLE (Bluetooth Low Energy) usando uma porta serial. Ela é escrita em Python e é chamada de python-pc-ble-driver-py. Com ela, você pode enviar e receber dados de dispositivos BLE de maneira fácil e simples.  

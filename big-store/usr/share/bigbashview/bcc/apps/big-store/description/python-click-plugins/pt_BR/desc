@@ -1,0 +1,1 @@
+Este é um módulo de extensão para o python que permite adicionar comandos ao terminal através de setuptools entry-points. Ele se chama python-click-plugins e é muito útil para desenvolvedores que querem criar programas com interface de linha de comando 

@@ -1,0 +1,4 @@
+Este programa é uma pequena ferramenta que permite transmitir arquivos de áudio de seu computador para outros
+dispositivos compatíveis com DLNA ou UPnP, como smart TVs ou caixas de som inteligentes. Ele se conecta ao PulseAudio, que é o sistema de som padrão em muitas distribuições Linux, para
+transmitir os arquivos.Com esse programa, você pode facilmente compartilhar música, podcasts ou qualquer outro tipo de áudio com outras pessoas na sua casa sem precisar de cabos ou
+dispositivos adicionais.

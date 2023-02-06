@@ -1,0 +1,5 @@
+Este é um módulo para o PHP 8.0 que permite a realização de operações matemáticas avançadas, como arredondamentos e
+cálculos com números de precisão dupla. Ele é chamado de bcmath, que significa biblioteca de matemática de precisão arbitrária. Isso significa que ele pode lidar com números muito grandes
+ou muito pequenos com precisão. Ele é útil para aplicações financeiras, científicas e outras que exigem precisão matemática.Para usar o módulo bcmath, ele precisa ser instalado e ativado no
+seu servidor. Isso pode ser feito através do gerenciador de pacotes do PHP ou editando o arquivo de configuração do PHP. Depois disso, as funções bcmath podem ser chamadas em seu código PHP
+para realizar operações matemáticas avançadas.

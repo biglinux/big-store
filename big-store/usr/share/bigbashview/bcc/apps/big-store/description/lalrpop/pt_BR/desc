@@ -1,0 +1,4 @@
+lalrpop é um gerador de analisador LR(1) para Rust. Ele é projetado para ser fácil de usar e oferecer alta performance.
+Com lalrpop, você pode escrever gramáticas simples e claras e gerar um analisador que segue essas regras. Ele também suporta recuperação de erros, o que significa que o seu programa ainda
+pode funcionar mesmo se o usuário digitar algo incorreto.lalrpop é uma ótima escolha para quem deseja criar um programa que precisa analisar entrada do usuário, como um compilador ou
+interpretador. Ele é fácil de aprender e usar, e oferece ótimos resultados.

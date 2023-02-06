@@ -1,0 +1,3 @@
+Com o programa python-dephell-archive, você pode facilmente organizar seus arquivos no seu computador usando o módulo
+Pathlib. Ele é especialmente útil para trabalhar com arquivos compactados como .zip ou .tar. Ele permite que você navegue facilmente pelos arquivos dentro dos arquivos compactados e faça
+operações como extrair, renomear e excluir arquivos sem precisar descompactá-los antes.

@@ -1,0 +1,1 @@
+Os drivers de Mesa VDPAU são uma coleção de drivers de dispositivos de vídeo de código aberto que suportam a API de  Decodificação e Apresentação de Vídeo para sistemas baseados em Unix (VDPAU) usando a Biblioteca Gráfica Mesa 3D. Esses drivers permitem a decodificação acelerada de formatos de vídeo H.264, MPEG-1/2/4, VC-1 e WMV3 em GPUs suportadas. 

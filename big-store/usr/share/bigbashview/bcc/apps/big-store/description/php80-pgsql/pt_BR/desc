@@ -1,0 +1,4 @@
+Este programa fornece módulos do PostgreSQL para a versão 8.0 do PHP. Isso permite que você use recursos do PostgreSQL,
+como bancos de dados e tabelas, em conjunto com o PHP. Isso é útil se você estiver criando um site ou aplicativo que precisa armazenar e recuperar dados.Os módulos incluem funções e classes
+que você pode usar em seu código PHP para se conectar ao PostgreSQL e executar operações nele, como criar tabelas, inserir dados, consultar dados e muito mais. Além disso, esses módulos são
+compatíveis com a última versão do PHP 8.0.

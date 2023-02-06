@@ -1,0 +1,1 @@
+Este é um módulo do kernel Linux que habilita as chamadas de métodos ACPI através do /proc/acpi/call. Ele se chama linux515-rt-acpi_call e é útil para ajustar configurações avançadas do sistema no Linux. 

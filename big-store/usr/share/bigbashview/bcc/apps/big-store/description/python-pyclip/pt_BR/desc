@@ -1,0 +1,3 @@
+Este programa é uma coleção de utilitários de clipboard para o Python. Ele permite que você acesse e modifique o
+conteúdo do clipboard, tanto para dados binários quanto para texto. Ele é compatível com várias plataformas, incluindo Windows, Mac e Linux.Com ele, você pode copiar e colar arquivos,
+imagens e textos de forma fácil e rápida. Ele também possui recursos avançados, como a possibilidade de acessar o histórico do clipboard e escolher qual item deseja colar.

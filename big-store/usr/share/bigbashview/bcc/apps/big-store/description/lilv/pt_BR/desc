@@ -1,0 +1,1 @@
+lilv é uma biblioteca C que fornece uma interface para o padrão de plug-in LV2. Ele permite que desenvolvedores criem programas que possam se comunicar com plug-ins LV2 de forma eficiente e fácil. Com lilv, os desenvolvedores podem carregar, instanciar e controlar plug-ins LV2, bem como acessar suas propriedades e recursos. 

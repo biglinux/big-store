@@ -1,0 +1,1 @@
+Este programa é escrito em Python e tem como função  analisar os cabeçalhos de imagens nos formatos JPEG, JPEG 2000, PNG, GIF, TIFF, SVG, Netpbm e WebP e retornar o tamanho da imagem ou a resolução DPI. Ele é útil para verificar as informações de uma imagem sem precisar abri-la em um software específico. 

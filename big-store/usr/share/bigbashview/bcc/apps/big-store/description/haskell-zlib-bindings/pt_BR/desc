@@ -1,0 +1,1 @@
+Esta é uma biblioteca de baixo nível para o pacote zlib, que permite acesso direto às funcionalidades desse pacote em linguagem Haskell. Com ela, é possível comprimir e descomprimir dados de forma rápida e eficiente, além de outras funcionalidades avançadas. 

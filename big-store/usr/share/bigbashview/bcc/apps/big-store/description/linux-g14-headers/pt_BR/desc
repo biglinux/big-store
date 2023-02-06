@@ -1,0 +1,3 @@
+Esse programa é composto por cabeçalhos e scripts que ajudam a construir módulos para o kernel Linux. É importante para
+desenvolvedores que precisam trabalhar com o núcleo do sistema operacional.Esses cabeçalhos são essenciais para que outros programas possam funcionar corretamente no Linux, já que eles
+fornecem informações sobre como o sistema operacional se comunica com o hardware.

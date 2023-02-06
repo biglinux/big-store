@@ -1,0 +1,3 @@
+Este programa permite ajustar o tamanho da fonte no URxvt de forma dinâmica. Isso significa que você pode aumentar ou
+diminuir o tamanho da fonte enquanto o programa estiver em execução, sem precisar fechá-lo ou reiniciá-lo.Isso pode ser útil se você precisar aumentar o tamanho da fonte para melhorar a
+legibilidade ou se precisar diminuí-lo para economizar espaço na tela.

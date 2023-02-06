@@ -1,0 +1,3 @@
+Este programa ajuda a criar maneiras automáticas de inicializar o sistema usando o rEFInd a partir de snapshots do
+Btrfs. Isso é útil quando você quer ter várias versões do seu sistema operacional disponíveis para inicializar sem precisar escolher manualmente toda vez. Ele gera as configurações
+necessárias para que o rEFInd possa encontrar e inicializar as versões do sistema presentes nos snapshots do Btrfs.

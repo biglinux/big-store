@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 8.2 que adiciona suporte para funções POSIX (Portable Operating System Interface). POSIX é um
+conjunto de padrões para sistemas operacionais, que incluem funções para interagir com arquivos, processos e outros recursos do sistema. Com esse módulo, você pode fazer coisas como criar, 
+ler e escrever arquivos, gerenciar processos, e muito mais. Isso pode ser útil se você estiver escrevendo um script que precisa interagir com o sistema operacional de forma avançada.

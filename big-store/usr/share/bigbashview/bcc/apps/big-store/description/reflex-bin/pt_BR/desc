@@ -1,0 +1,4 @@
+Com o programa reflex-bin, você pode automatizar tarefas simples no seu computador. Por exemplo, você pode configurá-lo
+para que sempre que um arquivo específico for alterado, ele execute um comando automaticamente. Isso é útil se você precisar executar uma tarefa sempre que um arquivo for atualizado, como, 
+por exemplo, compilar um código ou atualizar um banco de dados. O reflex-bin é uma ferramenta de linha de comando fácil de usar e é compatível com vários sistemas operacionais, incluindo
+Windows, MacOS e Linux. Ele é open-source, o que significa que você pode contribuir e personalizar o código para atender às suas necessidades específicas.

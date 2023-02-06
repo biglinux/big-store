@@ -1,0 +1,1 @@
+Esse é um pacote de Go (um idioma de programação) que contém uma versão parcial do pacote difflib, originalmente escrito em Python. Ele permite comparar e encontrar diferenças entre sequências de texto, o que é útil em vários casos, como por exemplo, no desenvolvimento de ferramentas de  comparação de arquivos.Ele foi desenvolvido pelo usuário pmezard no GitHub. 

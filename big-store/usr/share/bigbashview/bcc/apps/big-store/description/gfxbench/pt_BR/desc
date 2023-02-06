@@ -1,0 +1,2 @@
+Este é um programa de benchmark gráfico unificado, que funciona com base em DXBenchmark (DirectX) e GLBenchmark (OpenGL ES).Ele é
+usado para avaliar o desempenho de gráficos em dispositivos, como smartphones e computadores, e ajuda a identificar pontos de melhoria para os fabricantes de hardware e software. 

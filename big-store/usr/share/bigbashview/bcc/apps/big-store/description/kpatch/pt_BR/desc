@@ -1,0 +1,3 @@
+O programa kpatch é capaz de fazer atualizações em seu sistema operacional enquanto ele está rodando, sem precisar reiniciar o
+computador. Isso é conhecido como 'Live kernel patching'.Isso significa que você pode corrigir bugs ou adicionar novos recursos sem interromper o trabalho ou os serviços em execução no
+seu sistema.Além disso, o kpatch também pode ajudar a manter sua máquina mais segura, já que as atualizações de segurança podem ser aplicadas sem parar o sistema. 

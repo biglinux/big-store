@@ -1,0 +1,1 @@
+Esse programa oferece as primitivas IPC (comunicação entre processos) System V, como semaforos, memória compartilhada e filas de mensagens, para serem utilizadas com a linguagem Python. Isso permite que os desenvolvedores criem aplicações que possam se comunicar de forma segura e eficiente entre processos. 

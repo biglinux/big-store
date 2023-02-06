@@ -1,0 +1,2 @@
+Este programa é um provedor PKCS#11 e gerenciador de token para smart cards. Ele permite que você utilize sua smart card para
+autenticação e assinatura digital de documentos eletrônicos.

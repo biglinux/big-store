@@ -1,0 +1,3 @@
+Existen algunas librerías llamadas GTK/GL Area que ayudan a crear áreas en un programa donde se pueden mostrar gráficos 3D. Estas
+librerías son muy útiles para desarrolladores que trabajan con gráficos y necesitan una forma fácil de mostrarlos en su programa.Algunas de las características de estas librerías incluyen
+soporte para diferentes versiones de OpenGL, una interfaz fácil de usar y una amplia variedad de funciones para personalizar la forma en que se muestran los gráficos.

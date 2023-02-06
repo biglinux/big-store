@@ -1,0 +1,4 @@
+ resvg é uma biblioteca de renderização SVG e uma linha de comando (CLI) para lidar com arquivos SVG. Ele é projetado
+para ser rápido, preciso e suportar a maioria dos recursos SVG. Além disso, ele tem uma boa compatibilidade com o navegador, permitindo que você use resvg para renderizar SVG em sua
+aplicação web. Ele também suporta múltiplos formatos de saída, incluindo PNG, PDF e HTML.Com resvg, você pode facilmente converter arquivos SVG em outros formatos, otimizar arquivos SVG 
+para carregamento mais rápido, e até mesmo criar arquivos SVG a partir de outros formatos de imagem. É uma ferramenta poderosa para qualquer pessoa que trabalhe com arquivos SVG. 

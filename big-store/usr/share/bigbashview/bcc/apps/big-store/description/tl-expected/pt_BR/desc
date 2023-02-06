@@ -1,0 +1,1 @@
+A biblioteca tl-expected é uma biblioteca para programação em C++ que fornece uma classe chamada std::expected, que é semelhante a std::optional, mas também permite a expressão de falhas esperadas. Além disso, ela fornece extensões de estilo funcional para trabalhar com std::expected. 

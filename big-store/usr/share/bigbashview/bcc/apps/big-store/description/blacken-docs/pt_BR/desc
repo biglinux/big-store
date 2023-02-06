@@ -1,0 +1,3 @@
+Este programa tem como objetivo ajudar a formatar automaticamente o código Python presente em arquivos de
+documentação. Ele utiliza a ferramenta Black para realizar essa formatação, garantindo assim que o código fique legível e padronizado.Isso é muito útil para equipes de desenvolvimento, pois
+permite que o código seja mantido de maneira consistente sem a necessidade de intervenção manual.

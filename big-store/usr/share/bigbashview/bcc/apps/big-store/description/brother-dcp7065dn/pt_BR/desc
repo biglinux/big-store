@@ -1,0 +1,3 @@
+Este programa é um driver para a impressora Brother DCP7065DN. Ele permite que você use a impressora com o protocolo LPR ou CUPS.
+Isso significa que você pode imprimir arquivos de diferentes aplicativos, como o Word ou o Photoshop, sem precisar de um driver específico para cada um. Além disso, este driver é compatível
+com sistemas operacionais como Windows e MacOS. Isso significa que você pode usar a impressora em diferentes computadores com diferentes sistemas operacionais.

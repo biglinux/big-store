@@ -1,0 +1,4 @@
+pacfoster é um script de limpeza semelhante ao 'debfoster', usando o sistema de construção pacman. Ele ajuda a manter o
+sistema limpo, removendo pacotes desnecessários que foram instalados automaticamente como dependências e não estão mais sendo usados.Com o pacfoster, você pode facilmente identificar e
+remover pacotes inúteis, liberando espaço em disco e melhorando o desempenho do sistema. Além disso, ele também ajuda a manter o sistema atualizado, garantindo que você tenha apenas as
+versões mais recentes dos pacotes instalados.

@@ -1,0 +1,4 @@
+Este é um programa chamado python-pjproject. Ele é uma coleção de bibliotecas de código aberto que ajuda a criar programas
+de comunicação, como softphones e gateways. Ele contém uma pilha de SIP (Session Initiation Protocol) e uma pilha de mídia, que são as ferramentas de comunicação usadas para fazer chamadas 
+de voz e vídeo.Você pode usar o python-pjproject para criar seu próprio aplicativo de comunicação ou adicionar recursos de comunicação a outros programas. Ele é escrito em Python, então é
+fácil de entender e personalizar.

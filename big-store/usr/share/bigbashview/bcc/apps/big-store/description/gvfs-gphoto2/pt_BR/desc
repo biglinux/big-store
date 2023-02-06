@@ -1,0 +1,1 @@
+Esse programa é uma implementação de sistema de arquivos virtual para dispositivos móveis, como câmeras e reproductores de mídia. Ele usa o backend gphoto2 e é compatível com dispositivos que usam PTP e MTP. 

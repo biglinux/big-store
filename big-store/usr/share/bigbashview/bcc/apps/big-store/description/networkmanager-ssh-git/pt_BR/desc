@@ -1,0 +1,3 @@
+Esse programa adiciona suporte para conexões VPN via SSH no NetworkManager. Isso significa que você pode se conectar a
+redes privadas de forma segura e fácil, usando o protocolo SSH.É uma ótima opção para quem precisa acessar arquivos e recursos de uma rede privada, mas não quer lidar com configurações
+complicadas ou programas difíceis de usar.Este programa é baseado em código aberto e está disponível no repositório git.

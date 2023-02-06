@@ -1,0 +1,3 @@
+Este é um programa simples que permite mudar a prioridade dos processos enquanto eles estão sendo executados. Ele é útil para
+garantir que os processos importantes tenham recursos suficientes para funcionar corretamente.Com ele, é possível ajustar a prioridade de um processo de forma fácil e rápida, sem precisar
+interromper ou reiniciar o processo.

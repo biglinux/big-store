@@ -1,0 +1,3 @@
+Este programa, chamado cvsps2-git, é uma ferramenta importante para quem precisa importar dados do CVS para o Git. Ele é
+chamado pelo comando 'git cvsimport' e é uma versão atualizada do cvsps original.Se você está trabalhando em um projeto antigo que foi iniciado no CVS e agora deseja migrá-lo para o Git,
+este programa é fundamental para fazer essa migração de forma suave e sem perda de dados.

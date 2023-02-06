@@ -1,0 +1,1 @@
+Este programa é um driver para placas de rede Ethernet com chip RTL810xE. Ele foi criado para ser usado com o sistema DKMS, o que significa que ele será atualizado automaticamente  quando você atualizar o seu sistema operacional. Ele é projetado para funcionar com uma variedade de sistemas operacionais, incluindo Linux e outros. 

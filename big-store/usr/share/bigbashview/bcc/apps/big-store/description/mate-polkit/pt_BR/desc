@@ -1,0 +1,1 @@
+O mate-polkit é uma ferramenta de integração para o ambiente de trabalho MATE. Ele permite que os usuários executem ações com privilégios elevados, como instalar programas ou modificar configurações do sistema, sem precisar digitar a senha de administrador. Isso torna a navegação mais fácil e segura, pois somente as ações realmente necessárias exigem autorização. 

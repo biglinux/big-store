@@ -1,0 +1,3 @@
+Este é um programa chamado gdcm-git que é uma implementação aberta do padrão DICOM. DICOM é um padrão usado para
+compartilhar imagens médicas, como radiografias, entre diferentes equipamentos e sistemas. Com este programa, os médicos e outros profissionais de saúde podem compartilhar essas imagens de 
+forma mais fácil e eficiente.É importante notar que o gdcm-git é uma versão em desenvolvimento do gdcm, então algumas funcionalidades pode não estar disponíveis ou estar em teste. 

@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.2 que adiciona recursos de internacionalização e localização para a linguagem. Ele permite que você
+trabalhe com diferentes idiomas e regiões sem problemas, ajudando a tornar seus programas mais acessíveis e fáceis de usar para um público global.Com o módulo intl, você pode facilmente
+formatar números, datas e moedas de acordo com as convenções do país, além de classificar e ordenar strings de acordo com as regras do idioma. Ele também oferece suporte para a colagem de
+caracteres Unicode e para as normas de normalização.

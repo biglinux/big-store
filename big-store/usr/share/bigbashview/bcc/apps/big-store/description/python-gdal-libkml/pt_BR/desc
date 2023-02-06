@@ -1,0 +1,4 @@
+Esse programa adiciona suporte para arquivos KML no Python, através da biblioteca GDAL. Isso significa que você poderá
+trabalhar com arquivos KML, como se fossem arquivos nativos do Python. Além disso, você poderá usar todas as funcionalidades da biblioteca GDAL para manipular esses arquivos.Por exemplo,
+você poderá ler, escrever e modificar arquivos KML. Também poderá converter entre formatos de arquivo, como KML para Shapefile ou GeoJSON. Além disso, você pode usar as ferramentas de
+análise espacial da GDAL para trabalhar com os dados geográficos contidos no KML.

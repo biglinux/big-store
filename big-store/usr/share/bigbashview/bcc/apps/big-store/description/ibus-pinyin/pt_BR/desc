@@ -1,0 +1,1 @@
+O ibus-pinyin é um método de entrada Pinyin para o framework IBus. Ele fornece um método de entrada Pinyin para caracteres Simplificados e Tradicionais do Chinês. Ele usa a biblioteca libpinyin como motor de trás. O projeto foi iniciado por Huang Peng em 2008 e agora é mantido pela comunidade ibus-pinyin. 

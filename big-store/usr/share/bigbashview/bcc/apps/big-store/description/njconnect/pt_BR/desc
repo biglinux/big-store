@@ -1,0 +1,1 @@
+njconnect é um gerenciador de conexão para o software JACK. Ele permite que você conecte e desconecte facilmente dispositivos de  áudio no seu computador, para que você possa usar diferentes fontes de áudio com facilidade. Ele também pode ser usado para gerenciar as configurações do JACK, como a taxa de amostragem e o buffer. 

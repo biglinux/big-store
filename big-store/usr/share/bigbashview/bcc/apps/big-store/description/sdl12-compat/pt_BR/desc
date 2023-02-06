@@ -1,0 +1,1 @@
+Esta é uma biblioteca que permite que programas escritos para utilizar a versão 1.2 da biblioteca SDL (Simple DirectMedia Layer) possam ser executados em sistemas que utilizam a versão 2.0 da biblioteca SDL.A biblioteca sdl12-compat é útil para programadores que desejam manter a compatibilidade com versões antigas de seus programas, sem precisar reescrevê-los inteiramente. 

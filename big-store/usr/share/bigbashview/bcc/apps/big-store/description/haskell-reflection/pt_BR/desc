@@ -1,0 +1,1 @@
+Esse programa é escrito em Haskell e tem como objetivo transformar termos arbitrários em tipos refletíveis. Isso significa que esses termos podem ser refletidos de volta para seus estados originais. É uma ferramenta útil para a construção de programas mais flexíveis e reutilizáveis. 

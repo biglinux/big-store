@@ -1,0 +1,4 @@
+Este programa é uma biblioteca para acesso a banco de dados em C++. Ele permite que os desenvolvedores escrevam 
+aplicativos que se comuniquem com bancos de dados sem precisar lidar com os detalhes de baixo nível. A biblioteca suporta vários tipos de bancos de dados, incluindo MySQL, PostgreSQL e
+SQLite. Ela é fácil de usar e possui uma documentação completa para ajudar os desenvolvedores a começar. Além disso, essa biblioteca é open-source, significa que os desenvolvedores podem
+ver e modificar o código fonte para atender as suas necessidades específicas. 

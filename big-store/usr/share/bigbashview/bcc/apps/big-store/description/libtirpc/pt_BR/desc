@@ -1,0 +1,1 @@
+A libtirpc é uma biblioteca de chamadas de procedimento remoto (RPC, na sigla em inglês) que pode ser usada como substituta do SunRPC. Ela é independente do transporte, o que significa que pode ser usada com vários tipos diferentes de conexões de rede, como TCP e UDP. Isso a torna flexível e fácil de  usar em vários ambientes de rede diferentes. 

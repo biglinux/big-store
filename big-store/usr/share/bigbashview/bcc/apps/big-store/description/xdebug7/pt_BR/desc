@@ -1,0 +1,3 @@
+Esta é uma extensão para depuração de código PHP, especificamente para a versão 7 do pacote PHP. Ele permite aos
+desenvolvedores encontrar e corrigir erros no código de maneira mais rápida e eficiente. Com ele, é possível pausar a execução do código em certos pontos e verificar o valor das variáveis, 
+entre outras coisas. Ele é uma ferramenta valiosa para qualquer desenvolvedor PHP trabalhando com a versão 7.

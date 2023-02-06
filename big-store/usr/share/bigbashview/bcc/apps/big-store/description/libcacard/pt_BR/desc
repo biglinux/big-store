@@ -1,0 +1,1 @@
+Esta biblioteca, chamada libcacard, permite que você emule um cartão inteligente em um leitor virtual dentro de uma máquina virtual. Isso significa que você pode usar um cartão de acesso comum (CAC) em um ambiente virtua, sem precisar ter o cartão físico presente. É útil para testes e desenvolvimento de aplicativos que precisam se comunicar com um cartão inteligente. 

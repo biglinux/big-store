@@ -1,0 +1,3 @@
+O nbdkit é uma ferramenta de servidor NBD (Network Block Device). Ele permite que você exponha arquivos, discos, partições, etc.
+como dispositivos de bloco na rede para outras máquinas. Isso é útil para compartilhar arquivos grandes com outras máquinas, como discos virtuais em uma máquina virtual. Ele é fácil de usar
+e tem vários plug-ins que permitem que ele se conecte a diferentes tipos de fontes de dados, como arquivos, discos, banco de dados, etc.

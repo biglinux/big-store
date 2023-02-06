@@ -1,0 +1,1 @@
+Este programa é um front-end de Objective-C para o compilador GCC. Ele permite que você escreva código em Objective-C, que  é uma linguagem de programação similar ao C, mas com algumas adições para facilitar a programação orientada a objetos. Com esse front-end, você pode usar todos os recursos do GCC, como otimização de código, enquanto escreve em Objective-C. 

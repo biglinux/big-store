@@ -1,0 +1,3 @@
+Com o Gobbl, você pode facilmente verificar os níveis de bateria
+de dispositivos Bluetooth conectados ao seu computador. Ele utiliza a interface D-Bus do Bluez para obter essas informações. É simples de usar e pode ser uma ferramenta útil para garantir
+que você nunca fique sem bateria em dispositivos importantes, como fones de ouvido ou alto-falantes.

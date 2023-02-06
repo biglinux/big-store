@@ -1,0 +1,3 @@
+Este programa impede que o swayidle entre em modo de sono enquanto qualquer aplicativo estiver emitindo ou recebendo áudio.
+Assim, você pode ouvir música ou assistir a vídeos sem interrupções enquanto trabalha ou joga, sem precisar mexer nas configurações de energia do seu computador.É compatível com o ambiente 
+de trabalho sway e foi desenvolvido como um pacote git, o que significa que você pode facilmente baixá-lo e instalá-lo em seu sistema.

@@ -1,0 +1,4 @@
+Este programa é um depurador interativo para o PHP 8.2. Ele permite que você execute seu código PHP passo a passo, verificando
+variáveis ​​e estados, para encontrar erros e problemas. É uma ferramenta valiosa para desenvolvedores que desejam entender melhor como seu código está funcionando e corrigir problemas
+rapidamente.Ele inclui recursos avançados como pausa automática em pontos de quebra, monitoramento de variáveis ​​e a capacidade de avaliar expressões PHP enquanto o código está sendo
+executado. Ele também tem uma interface de linha de comando fácil de usar, para que você possa integrá-lo facilmente em seus fluxos de trabalho de desenvolvimento.

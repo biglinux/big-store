@@ -1,0 +1,1 @@
+O xdg-desktop-portal-lxqt é uma implementação do backend para o xdg-desktop-portal, que  é uma especificação do freedesktop.org para a criação de portais de desktop. Ele utiliza o framework Qt/KF5 e a biblioteca libfm-qt para fornecer suporte para o LXQt, que é uma interface gráfica de usuário para o sistema operacional Linux. 

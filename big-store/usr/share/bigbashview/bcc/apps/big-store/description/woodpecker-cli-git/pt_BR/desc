@@ -1,0 +1,3 @@
+ woodpecker-cli-git é uma ferramenta de integração e entrega contínua (CI) simples e extensível. Ele é projetado para
+ser usado a partir da linha de comando (CLI) e está em desenvolvimento constante. Esta ferramenta é perfeita para projetos pequenos e médios que precisam de automação de build e entrega de 
+software de forma rápida e fácil. Ele é altamente personalizável, permitindo que você adicione novos recursos e adapte-o às suas necessidades específicas.

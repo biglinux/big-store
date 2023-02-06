@@ -1,0 +1,4 @@
+ Este programa é um servidor VNC (Virtual Network Computing) que permite que você acesse o seu computador de outro lugar 
+usando uma conexão de rede. Ele é projetado para trabalhar com exibições X reais, o que significa que ele pode exibir a tela do seu computador como se você estivesse sentado na frente dele.
+Isso é útil se você precisar acessar seus arquivos ou programas de outro lugar, ou se precisar ajudar alguém com um problema em seu computador. O código-fonte desse programa está disponível
+no GitHub. 

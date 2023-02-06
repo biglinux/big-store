@@ -1,0 +1,1 @@
+A biblioteca python-mohawk é uma biblioteca para autorização HTTP Hawk. Ela fornece uma maneira fácil de adicionar autorização Hawk a suas solicitações HTTP usando Python. Com ela, você pode verificar a validade de um cabeçalho Hawk e gerar cabeçalhos Hawk para suas solicitações. É uma ferramenta útil para garantir a segurança de suas comunicações HTTP. 

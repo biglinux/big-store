@@ -1,0 +1,3 @@
+Este é um programa que ajuda a atualizar o sistema operacional com mais facilidade. Quando há uma
+atualização do sistema, ele automaticamente atualiza também o gerenciador de inicialização do sistema, o systemd-boot. Dessa forma, você não precisa se preocupar em fazer isso manualmente e
+pode ter a certeza de que o seu sistema está sempre funcionando da melhor forma possível.

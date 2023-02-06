@@ -1,0 +1,4 @@
+makedepend é uma ferramenta útil para quem trabalha com programas escritos em linguagem C. Ela ajuda a criar 
+as dependências necessárias para os arquivos de Makefile, de forma automática. Isso significa que, com makedepend, você não precisa se preocupar em escrever as dependências manualmente e
+pode se concentrar em escrever seu código. Além disso, makedepend também pode ser usado para identificar quais arquivos precisam ser recompilados em caso de alterações em outros arquivos.
+Isso torna o processo de desenvolvimento mais rápido e eficiente.

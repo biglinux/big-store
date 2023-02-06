@@ -1,0 +1,4 @@
+iPXE é um firmware de inicialização aberto que permite inicializar sistemas de forma mais flexível e personalizada. Ele é uma
+opção popular para sistemas de rede e virtualização. Com o iPXE, você pode inicializar sistemas a partir de diferentes fontes, como rede, disco rígido ou até mesmo da nuvem. Ele também
+permite a criação de menus de inicialização personalizados e a automação de tarefas. Este é um repositório git do iPXE, o que significa que você está obtendo acesso à versão mais recente e 
+atualizada do código fonte. Isso pode ser útil para desenvolvedores ou usuários avançados que desejam contribuir ou personalizar o firmware.

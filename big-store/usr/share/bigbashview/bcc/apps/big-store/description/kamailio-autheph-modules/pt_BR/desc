@@ -1,0 +1,3 @@
+Este é um módulo de autenticação efêmera para o Kamailio. Ele permite que os usuários se autentiquem rapidamente sem
+precisar fornecer informações de login permanentes. Isso é útil em situações onde a segurança não é tão crítica ou onde os usuários precisam acessar rapidamente um recurso. O módulo é fácil
+de configurar e usar, e pode ser integrado com outros módulos de autenticação no Kamailio para fornecer uma camada adicional de segurança.

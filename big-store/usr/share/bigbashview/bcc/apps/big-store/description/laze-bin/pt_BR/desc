@@ -1,0 +1,3 @@
+Laze-bin é um sistema de construção declarativo para projetos em C. Ele tem como objetivo ser simples, rápido e
+preciso. Isso significa que você pode declarar o que deseja construir e o laze-bin cuidará do resto, garantindo que o seu projeto seja construído corretamente. Além disso, ele é rápido,
+pois utiliza tecnologias avançadas para otimizar a construção do seu projeto. Por fim, ele é preciso, pois verifica se tudo está correto antes de construir, evitando erros no seu projeto.

@@ -1,0 +1,1 @@
+O perl-extutils-xsbuilder é uma ferramenta que gera automaticamente o código necessário para a criação de extensões em Perl utilizando XS. Ele é muito útil para quem deseja estender o Perl com funcionalidades escritas em C. 

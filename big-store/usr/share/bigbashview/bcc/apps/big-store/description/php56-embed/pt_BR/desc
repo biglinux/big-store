@@ -1,0 +1,4 @@
+Esta é uma biblioteca SAPI (Systems Application Programming Interface) embutida do PHP56. Ela permite que você execute scripts PHP 
+diretamente no seu sistema, sem a necessidade de instalar o interpretador PHP completo. É uma opção ideal para aplicativos que precisam de recursos PHP, mas não querem o overhead de uma
+instalação completa do PHP. Com esta biblioteca, você pode facilmente incorporar funcionalidades PHP em seu aplicativo, como acesso a bancos de dados, geração de páginas dinâmicas e muito
+mais. Além disso, ela é fácil de usar e configurar, tornando-a uma escolha popular para desenvolvedores que procuram adicionar recursos PHP a seus aplicativos sem complicações. 

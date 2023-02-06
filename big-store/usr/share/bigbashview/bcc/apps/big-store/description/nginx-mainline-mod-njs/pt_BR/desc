@@ -1,0 +1,2 @@
+Este é um módulo adicional para o software de servidor web nginx, conhecido como nginx-mainline-mod-njs. Ele permite a adição de
+recursos de script nginScript ao nginx, o que pode ser útil para a configuração avançada e personalização do seu servidor web.

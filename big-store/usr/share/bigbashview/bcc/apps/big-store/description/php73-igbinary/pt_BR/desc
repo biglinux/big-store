@@ -1,0 +1,3 @@
+ Este é um substituto para o serializador padrão do PHP 7.3. Ele é conhecido como igbinary e é uma forma mais rápida e eficiente de
+serializar dados. Isso significa que ele pode ajudar seu programa a funcionar mais rapidamente e usar menos recursos do seu computador. Além disso, ele é compatível com a maioria dos
+sistemas e é fácil de usar. 

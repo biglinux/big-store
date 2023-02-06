@@ -1,0 +1,1 @@
+ ruby-async-pool é uma biblioteca para implementar recursos de pool simples e múltiplos. Isso permite que você gerencie facilmente várias conexões simultâneas, sem precisar se preocupar com bloqueios ou outros problemas de gerenciamento de recursos. É uma maneira fácil e eficiente de tornar seus aplicativos mais robustos e escaláveis.  

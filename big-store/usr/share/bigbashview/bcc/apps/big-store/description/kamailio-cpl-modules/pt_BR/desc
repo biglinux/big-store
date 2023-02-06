@@ -1,0 +1,4 @@
+ O Kamailio é um programa de gerenciamento de chamadas de voz e mensagens de texto. Os módulos Kamailio-CPL adicionam a capacidade de
+usar a linguagem de processamento de chamadas (CPL) para controlar as chamadas no Kamailio. Isso permite a criação de regras avançadas para redirecionamento de chamadas, gravação de
+chamadas e outras tarefas.Com esses módulos, os administradores de sistemas podem personalizar ainda mais a forma como as chamadas são gerenciadas no Kamailio, oferecendo mais
+flexibilidade e controle sobre o fluxo de chamadas. 

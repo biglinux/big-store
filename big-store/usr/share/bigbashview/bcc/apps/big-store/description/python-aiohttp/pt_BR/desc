@@ -1,0 +1,1 @@
+Este programa é chamado python-aiohttp e ele ajuda a comunicar entre o computador que está pedindo algo (cliente) e o computador que está respondendo (servidor) de forma assíncrona. Isso significa que as coisas acontecem ao mesmo tempo, sem precisar esperar uma acabar antes da outra. É útil para projetos que precisam fazer várias coisas ao mesmo tempo. 

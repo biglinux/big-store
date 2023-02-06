@@ -1,0 +1,1 @@
+O módulo Authen::SASL para Perl/CPAN fornece uma estrutura para a autenticação SASL (Simple Authentication and Security Layer) em aplicativos Perl. Ele permite que os desenvolvedores implementem métodos de autenticação baseados em SASL de forma fácil e consistente em seus  projetos. 

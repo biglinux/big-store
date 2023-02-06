@@ -1,0 +1,3 @@
+Este programa é uma ferramenta simples para ajudar você a se conectar à API V1 do Compute Engine do
+Google usando o Ruby. Ele funciona como um cliente REST, o que significa que ele envia solicitações à API e recebe respostas dela. Com ele, você pode fazer coisas como criar e gerenciar
+máquinas virtuais no Google Cloud, sem precisar escrever código complexo. É uma forma fácil e rápida de trabalhar com a nuvem do Google.

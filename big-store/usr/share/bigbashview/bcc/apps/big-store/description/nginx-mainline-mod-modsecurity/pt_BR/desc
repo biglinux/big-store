@@ -1,0 +1,2 @@
+Este é um módulo de segurança para o servidor web Nginx. Ele se chama ModSecurity v3 Nginx Connector e é projetado para
+trabalhar com a versão principal do Nginx.Com este módulo, você pode adicionar uma camada adicional de segurança ao seu servidor, protegendo-o contra ataques maliciosos e outras ameaças.

@@ -1,0 +1,1 @@
+python-xpybutil é um port incompleto do xcb-util, uma biblioteca de utilidade para programas X11, com alguns extras adicionais. Ele permite que os desenvolvedores criem programas X11 mais facilmente e de forma mais eficiente. 

@@ -1,0 +1,3 @@
+ filebeat é um programa que ajuda a enviar seus arquivos de log para o Logstash ou diretamente para o Elasticsearch.
+Isso torna mais fácil de encontrar e analisar suas informações de log. Com filebeat, você pode especificar quais arquivos de log você quer enviar e onde enviá-los, tornando o gerenciamento 
+de logs muito mais simples. 

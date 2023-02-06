@@ -1,0 +1,1 @@
+Este programa é uma ligação entre o Python e a biblioteca ALSA. Isso significa que ele permite que o Python acesse e controle recursos de som fornecidos pela biblioteca ALSA. Isso pode incluir dispositivos de som, configurações de áudio e muito mais. Com esse programa, os desenvolvedores podem criar aplicativos de som avançados usando o Python. 

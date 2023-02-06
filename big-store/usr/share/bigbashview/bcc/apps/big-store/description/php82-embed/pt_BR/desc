@@ -1,0 +1,3 @@
+Essa é uma biblioteca especial para o PHP 8.2, chamada de 'php82-embed'. Ela permite que o PHP seja usado em outros programas, como
+por exemplo dentro de um navegador web ou em outra aplicação.Ela é chamada de 'SAPI' que significa 'Systems Application Programming Interface'. Isso significa que ela é usada para conectar 
+o PHP com outros programas.

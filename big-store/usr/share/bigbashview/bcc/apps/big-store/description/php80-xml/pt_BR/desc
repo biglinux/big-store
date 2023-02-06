@@ -1,0 +1,5 @@
+Os módulos XML são uma ferramenta importante para trabalhar com arquivos e dados no formato XML no PHP 8.0. Eles permitem acessar 
+e manipular esses dados de diversas maneiras, como criar, ler, editar e excluir informações. Além disso, também é possível validar esses dados usando esquemas e realizar transformações
+usando XSLT. Os módulos XML incluem recursos como a classe DOM, que permite acessar e manipular elementos e atributos de um documento XML, e a classe SimpleXML, que oferece uma forma fácil 
+e intuitiva de trabalhar com esses dados. Em resumo, os módulos XML são uma excelente opção para desenvolvedores PHP que precisam trabalhar com arquivos e dados no formato XML, oferecendo
+uma ampla variedade de recursos e facilidade de uso.

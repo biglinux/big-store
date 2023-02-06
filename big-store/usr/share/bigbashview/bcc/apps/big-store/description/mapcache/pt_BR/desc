@@ -1,0 +1,3 @@
+Com o MapCache, você pode acelerar o acesso às suas camadas WMS! Isso é possível porque ele implementa um cache de tiles.
+Assim, você pode visualizar seus dados mais rapidamente. Além disso, ao utilizar um cache de tiles, você também economiza recursos, pois não precisa acessar a camada WMS a cada vez que
+precisa exibir os dados. É uma ótima opção para quem precisa trabalhar com camadas WMS de forma eficiente.

@@ -1,0 +1,2 @@
+Este é um programa chamado python2-fitparse-git. Ele é uma biblioteca escrita em Python que ajuda a ler arquivos FIT,
+que são usados ​​por dispositivos ANT e Garmin. Com essa biblioteca, você pode facilmente acessar e interpretar os dados contidos em arquivos FIT em seus próprios programas.

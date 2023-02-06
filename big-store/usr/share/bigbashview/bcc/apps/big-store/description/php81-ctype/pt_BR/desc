@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.1 que fornece funções para trabalhar com diferentes tipos de caracteres. Ele permite
+que você verifique se uma determinada string contém apenas caracteres de diferentes tipos, como letras, números ou símbolos.Com este módulo, você pode validar strings para garantir que
+contenham apenas informações válidas e relevantes para a sua aplicação, como por exemplo, verificar se uma string é uma data válida ou se contém apenas números.Se você estiver desenvolvendo
+um aplicativo em PHP 8.1, este módulo de tipos de caracteres pode ser uma ferramenta útil para garantir a integridade dos dados em sua aplicação.

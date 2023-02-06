@@ -1,0 +1,1 @@
+Este é um plugin para o pytest, um framework de testes para Python, que adiciona suporte ao aiohttp, uma biblioteca  para criar aplicativos web assíncronos.Com este plugin, você pode facilmente testar suas rotas e requisições ao seu aplicativo web criado com aiohttp. 

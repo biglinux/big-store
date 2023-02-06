@@ -1,0 +1,2 @@
+Este programa adiciona suporte MPRIS2 ao MPD, ou seja, ele permite controlar o MPD através de outros programas que utilizam a
+especificação MPRIS2.Isso significa que você pode controlar o MPD a partir de softwares como o GNOME Music, por exemplo, sem precisar abrir o MPD diretamente.

@@ -1,0 +1,2 @@
+ O gnome-keyring é um script em python que tem plugins para vários aplicativos, como o vimperator, o qutebrowser, o
+msmtp e o offlineimap. Ele ajuda a gerenciar e armazenar as chaves de acesso para esses programas, mantendo-as seguras e fáceis de usar. 

@@ -1,0 +1,1 @@
+debootstrap é uma ferramenta para criar um sistema Debian minimalista. Ele é usado para criar um sistema básico que pode ser usado como base para um sistema personalizado. debootstrap pode ser usado para criar um sistema mínimo que pode ser usado como um ambiente chroot ou como base para um sistema construído personalizado. 

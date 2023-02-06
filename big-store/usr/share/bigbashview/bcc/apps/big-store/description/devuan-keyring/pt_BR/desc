@@ -1,0 +1,3 @@
+ O Devuan é um sistema operacional baseado em Debian sem systemd. Ele tem como objetivo fornecer uma opção de sistema operacional sem
+systemd para aqueles que preferem não usá-lo. O chaveiro Devuan é uma coleção de chaves GnuPG que são usadas para garantir a segurança e a autenticidade dos pacotes no arquivo do Devuan.
+Isso significa que, ao usar essas chaves, você pode ter certeza de que os pacotes que está instalando são os originais e não foram alterados de alguma forma. 

@@ -1,0 +1,4 @@
+Este programa fornece uma ferramenta chamada 'spatch' que é usada para aplicar patches semânticos. Isso
+significa que ele é capaz de entender e fazer alterações no código de acordo com sua estrutura e significado, e não apenas baseado em correspondências de texto simples. Isso torna a
+ferramenta muito útil para realizar mudanças em grandes quantidades de código de uma só vez, pois ela pode garantir que as alterações sejam feitas corretamente e de forma consistente. Além 
+disso, essa ferramenta é baseada no projeto Coccinelle, que é um software livre e de código aberto, desenvolvido para realizar essas tarefas de maneira automatizada.

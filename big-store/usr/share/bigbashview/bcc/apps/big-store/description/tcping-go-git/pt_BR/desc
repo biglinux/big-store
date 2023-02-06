@@ -1,0 +1,3 @@
+Como o nome sugere, tcping-go-git é uma ferramenta que permite testar se uma determinada porta TCP está aberta e
+respondendo. Ela foi inspirada na utilidade 'ping' do Linux e escrita em Go. Com ela, é possível testar rapidamente se um serviço específico está funcionando corretamente em um host remoto,
+sem precisar abrir uma conexão completa. Isso é útil, por exemplo, para verificar se um serviço de banco de dados está disponível antes de tentar se conectar a ele.

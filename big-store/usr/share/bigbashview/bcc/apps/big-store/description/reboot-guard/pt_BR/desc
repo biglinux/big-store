@@ -1,0 +1,2 @@
+Este programa tem como objetivo evitar que o sistema desligue ou reinicie antes que certas condições sejam
+atendidas. Ele bloqueia comandos de poweroff, reboot e halt iniciados pelo systemd até que as verificações de condição configuradas sejam passadas.

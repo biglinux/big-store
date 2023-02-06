@@ -1,0 +1,5 @@
+ O módulo PDO (PHP Data Objects) para PHP 8.0 é uma biblioteca que permite aos desenvolvedores trabalhar com vários bancos de dados
+de forma consistente. Ele fornece uma interface para trabalhar com bancos de dados de forma padronizada, independentemente do banco de dados específico que estiver sendo utilizado. Isso
+torna mais fácil mudar de um banco de dados para outro, já que a lógica do aplicativo não precisa ser alterada. Além disso, o PDO oferece segurança adicional, pois ele automaticamente
+escapa qualquer entrada de dados para evitar ataques de injeção SQL.Este módulo é específico para o PHP 8.0 e pode ser facilmente instalado e configurado para trabalhar com seu
+aplicativo PHP existente. Ele é compatível com vários bancos de dados populares, incluindo MySQL, PostgreSQL, SQLite e outros. 

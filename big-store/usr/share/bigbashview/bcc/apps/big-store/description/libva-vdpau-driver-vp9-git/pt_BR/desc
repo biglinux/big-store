@@ -1,0 +1,2 @@
+Este programa é um driver que adiciona suporte ao codec VP9 ao utilizar o VDPAU (Video Decode and Presentation 
+API for Unix) e a VA API (Video Acceleration API) juntos. Isso permite que os usuários reproduzam vídeos com esse codec de forma mais eficiente em seus computadores.

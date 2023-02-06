@@ -1,0 +1,4 @@
+Esta ferramenta, chamada libdcmtk14-bin, é uma biblioteca de tempo de execução desenvolvida pela OFFIS para tratar 
+imagens no formato DICOM. Ela permite que você visualize, armazene e modifique imagens DICOM, que são comuns em exames de raio-x, tomografia computadorizada e outros tipos de exames de
+imagem médicos.Com esta ferramenta, é possível trabalhar com arquivos DICOM de forma fácil e rápida, permitindo que você faça análises e modificações precisas nas imagens. Além disso, ela é
+compatível com vários sistemas operacionais e possui uma ampla variedade de recursos para atender às necessidades de diferentes usuários.

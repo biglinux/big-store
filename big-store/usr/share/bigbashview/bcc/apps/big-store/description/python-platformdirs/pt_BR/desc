@@ -1,0 +1,1 @@
+Este é um pequeno módulo em Python que ajuda a determinar os diretórios corretos para cada plataforma, por exemplo, o diretório de dados do usuário. Ele é útil para garantir que seu programa armazene e acesse arquivos de forma apropriada em diferentes sistemas operacionais. 

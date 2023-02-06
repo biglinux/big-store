@@ -1,0 +1,1 @@
+O python-flup é uma coleção aleatória de servidores WSGI. WSGI é um padrão para escrever aplicativos web em Python. Ele  permite que vários servidores web diferentes possam rodar seus aplicativos, tornando-os mais flexíveis e escaláveis. O python-flup é uma ferramenta útil para desenvolvedores que querem criar aplicativos web com Python de forma rápida e fácil. 

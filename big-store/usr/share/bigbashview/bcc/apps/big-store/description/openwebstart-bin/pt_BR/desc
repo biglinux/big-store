@@ -1,0 +1,3 @@
+OpenWebStart é um programa de código aberto que permite iniciar outros programas escritos em Java de forma fácil e rápida. 
+Ele é uma reimplementação da tecnologia Java Web Start, que foi descontinuada pela Oracle.Com o OpenWebStart, você pode iniciar programas Java diretamente do seu navegador, sem precisar
+instalar nenhum software adicional no seu computador. Além disso, ele garante que você sempre esteja usando a versão mais recente do programa que você deseja executar.

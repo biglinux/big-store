@@ -1,0 +1,3 @@
+Usar a biblioteca requests no python pode ser uma tarefa complicada, principalmente quando se trata de tipagem. O pacote
+python-types-requests facilita essa tarefa, fornecendo stubs de tipos para uso com a biblioteca requests. Isso torna o código mais fácil de ler e entender, além de ajudar a evitar erros
+comuns de digitação. É uma ferramenta simples, mas muito útil para desenvolvedores python que trabalham com requisições HTTP.

@@ -1,0 +1,1 @@
+Este programa segue a especificação de diretório base criada pelo Freedesktop.org. Isso significa que ele organiza os arquivos de acordo com as recomendações desta organização, garantindo compatibilidade com outros programas que também seguem essa especificação. Ele é escrito em Perl e se base  em arquivos para armazenamento de dados. 

@@ -1,0 +1,3 @@
+Gophercap é uma ferramenta precisa, modular e escalável escrita em Go para manipulação de arquivos PCAP. Ela permite aos
+usuários filtrar, modificar e exportar pacotes de rede capturados. Além disso, ela suporta vários formatos de saída, incluindo JSON e XML. Com Gophercap, é possível realizar análises
+avançadas de tráfego de rede de maneira rápida e eficiente.

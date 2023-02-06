@@ -1,0 +1,5 @@
+ evrouter é um programa para Linux que ajuda a gerenciar a entrada de eventos, como cliques do mouse e digitação no
+teclado. Ele permite que você configure como esses eventos devem ser lidos e usados pelo sistema, para personalizar sua experiência de usuário.Por exemplo, você pode usar evrouter para
+definir atalhos de teclado personalizados, ou para redirecionar eventos de entrada de um dispositivo para outro. Ele também permite que você configure regras para lidar com eventos
+específicos, como desativar o clique do mouse em determinadas áreas da tela.evrouter é uma ferramenta avançada, mas fácil de usar, para usuários avançados do Linux que desejam
+personalizar sua experiência de usuário. 

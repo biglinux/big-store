@@ -1,0 +1,3 @@
+Este programa é um módulo para o PHP 7.3 que permite o acesso a banco de dados Interbase. Ele adiciona recursos específicos
+para trabalhar com esse tipo de banco, como a possibilidade de executar comandos SQL e gerenciar tabelas e registros.Este módulo é importante para desenvolvedores que precisam criar
+aplicações web que trabalhem com banco de dados Interbase. Com ele, é possível acessar e manipular os dados de maneira mais fácil e rápida.

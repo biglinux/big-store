@@ -1,0 +1,4 @@
+ O gr-satnogs é um programa desenvolvido pela Fundação Librespace que permite monitorar e gravar dados de
+satélites. Ele usa a biblioteca GNU Radio para processar as informações capturadas pelo receptor e pode ser facilmente integrado a outros programas. Com o gr-satnogs, é possível fazer
+análises de frequência, decodificar dados de telemetria e até mesmo fazer transmissões para os satélites.Além disso, o gr-satnogs é um software livre e open-source, o que significa que
+qualquer pessoa pode contribuir para o seu desenvolvimento e usá-lo de acordo com suas necessidades. 

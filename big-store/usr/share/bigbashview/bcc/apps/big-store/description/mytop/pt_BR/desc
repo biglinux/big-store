@@ -1,0 +1,1 @@
+mytop é um clone do comando top para MariaDB. Ele monitora a atividade do servidor MariaDB e exibe informações como uso de CPU, consultas, threads, etc. É uma ferramenta útil para gerenciar e otimizar o desempenho do seu banco de dados MariaDB. 

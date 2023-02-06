@@ -1,0 +1,4 @@
+Esta biblioteca em Python é útil para analisar orientações e simetria cristalina. Ela fornece ferramentas para
+trabalhar com dados de orientação, como calcular o ângulo entre dois vectores e determinar a classe de simetria de um cristal. Além disso, ela também pode ser usada para visualizar dados de
+orientação em gráficos tridimensionais. Se você estiver trabalhando com dados de simetria cristalina ou orientação, essa biblioteca pode ser uma boa escolha para ajudá-lo a analisar e
+interpretar seus dados.

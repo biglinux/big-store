@@ -1,0 +1,3 @@
+Este é um programa chamado ncspot-cover, é um cliente Spotify para usar em terminais. Ele é feito em Rust, uma linguagem de
+programação. Ele foi inspirado por outro programa chamado ncmpc. Ele tem uma função especial chamada 'cover', que mostra a capa do álbum que você está ouvindo. Ele é compatível com vários
+sistemas operacionais.

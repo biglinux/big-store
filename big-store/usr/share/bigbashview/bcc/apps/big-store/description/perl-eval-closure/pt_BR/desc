@@ -1,0 +1,1 @@
+Este programa utiliza a avaliação de strings para criar closures de forma segura e limpa, sem riscos de vulnerabilidades de segurança. Ele é específico para o Perl e é chamado de 'perl-eval-closure'. 

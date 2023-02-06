@@ -1,0 +1,1 @@
+Este módulo Perl/CPAN, chamado HTML::Strip, permite remover tags HTML de um texto. Isso é útil quando você deseja limpar o código HTML de uma página antes de armazená-lo ou exibi-lo. Ele pode ser usado para remover tags indesejadas, como scripts e estilos, ou para garantir que o conteúdo seja exibido corretamente em diferentes dispositivos e navegadores. 

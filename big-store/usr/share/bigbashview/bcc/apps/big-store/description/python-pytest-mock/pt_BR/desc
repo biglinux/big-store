@@ -1,0 +1,1 @@
+Este programa é um 'thin-wrapper' (envolvimento fino) em torno do pacote mock, para tornar mais fácil o uso dele com py.test. Ele é específico para uso em python. 

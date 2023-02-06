@@ -1,0 +1,1 @@
+Skein é uma família de funções de hash criptográficas. Inclui a função Skein-MAC também. Ele é implementado em Haskell. 

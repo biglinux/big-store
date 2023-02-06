@@ -1,0 +1,4 @@
+ Este é um programa chamado itd-git. Ele é um 'daemon', ou seja, é um programa que fica rodando em segundo plano no seu
+computador e se comunica com outros programas. Este programa específico se comunica com o firmware do seu relógio inteligente PineTime. Isso significa que ele ajuda a gerenciar o software
+que faz o seu relógio funcionar.Algumas das coisas que o itd-git pode fazer incluem atualizar o firmware do seu relógio, resolver problemas com o software e personalizar as configurações
+do seu relógio. Se você tem um PineTime e quer ter mais controle sobre como ele funciona, pode ser útil usar o itd-git. 

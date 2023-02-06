@@ -1,0 +1,2 @@
+Este programa analisa pacotes Debian e procura por bugs e violações de políticas. Ele é útil para garantir que
+os pacotes sejam de alta qualidade e estejam de acordo com as diretrizes estabelecidas.

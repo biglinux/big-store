@@ -1,0 +1,4 @@
+Webstorm é um software desenvolvido pela JetBrains que é usado para criar aplicativos web. Ele vem com o JBR (JetBrains Runtime), que é uma 
+versão modificada do Java Runtime Environment (JRE). Isso significa que você não precisa instalar o JRE separadamente para usar o Webstorm.Com o Webstorm, você pode escrever códigos com
+suporte para HTML, CSS e JavaScript, além de ter acesso a recursos como depuração e análise de código. Ele também possui um sistema de gerenciamento de versão integrado para ajudar a
+gerenciar suas alterações no código.

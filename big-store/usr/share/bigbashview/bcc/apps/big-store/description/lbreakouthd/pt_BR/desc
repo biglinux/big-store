@@ -1,0 +1,3 @@
+Este programa é um remake do jogo LBreakout2, mas com tela em formato 16:9. Ele é escalável, o que significa que pode ser jogado
+em telas de diferentes tamanhos.O objetivo é quebrar todos os bloquinhos na tela usando uma bola. Você controla uma barra na parte inferior da tela para desviar a bola e acertar os
+bloquinhos.

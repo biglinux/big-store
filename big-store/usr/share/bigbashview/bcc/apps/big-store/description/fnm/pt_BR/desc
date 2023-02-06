@@ -1,0 +1,3 @@
+Este programa é um gerenciador de versões do Node.js que é construído com Rust. Ele é projetado para ser
+fácil de usar e rápido, permitindo que você altere facilmente a versão do Node.js que você está usando. Ele é útil para desenvolvedores que trabalham em projetos que exigem versões
+específicas do Node.js.

@@ -1,0 +1,2 @@
+O Teal é uma linguagem de programação baseada em Lua53, que adiciona tipos à linguagem. Este programa é o compilador para essa
+linguagem, permitindo que os desenvolvedores escrevam código em Teal e o convertam em código Lua53 compilado.

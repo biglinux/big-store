@@ -1,0 +1,1 @@
+Python-geoip é uma biblioteca que permite você facilmente fazer uso da biblioteca de resolução GeoIP IP-to-country em seu código Python. Com esta biblioteca, você pode facilmente determinar o país de origem de um determinado endereço IP. É uma ferramenta muito útil para construir aplicativos e serviços conscientes de localização. 

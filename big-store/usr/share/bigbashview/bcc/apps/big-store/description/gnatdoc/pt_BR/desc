@@ -1,0 +1,4 @@
+A ferramenta gnatdoc é um utilitário que gera documentação a partir de código fonte escrito em Ada. Ele utiliza
+comentários no código para criar a documentação, tornando mais fácil para os desenvolvedores manterem a documentação atualizada.O gnatdoc pode gerar documentação em vários formatos,
+incluindo HTML, PDF e LaTeX. Ele também fornece recursos avançados, como geração de índice, links entre as páginas da documentação e suporte para a inclusão de imagens e tabelas.Em resumo, 
+o gnatdoc é uma ferramenta útil para qualquer equipe de desenvolvimento que trabalha com o Ada e deseja manter a documentação do código atualizada e de fácil acesso.

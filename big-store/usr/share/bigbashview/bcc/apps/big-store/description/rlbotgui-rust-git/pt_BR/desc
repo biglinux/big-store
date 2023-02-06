@@ -1,0 +1,4 @@
+Esta é uma ferramenta gráfica construída em Rust para o framework RLBot. Ela permite que você configure e execute
+seus bots de forma fácil e intuitiva, sem precisar escrever linhas de código. Com ela, você pode ajustar as configurações de seu bot, ver as estatísticas em tempo real e até mesmo assistir 
+partidas envolvendo seus bots. A interface é amigável e fácil de usar, ideal para iniciantes no desenvolvimento de bots. Além disso, é mantida pela comunidade e está sempre sendo atualizada
+com novos recursos.

@@ -1,0 +1,3 @@
+ Poetry é uma ferramenta de gerenciamento de pacotes do Python que segue as recomendações do PEP 517. Ele
+foi criado para tornar mais fácil a instalação e gerenciamento de pacotes Python em seus projetos. Ele possui um conjunto de utilitários e ferramentas que ajudam a construir pacotes Python 
+de forma rápida e fácil. Além disso, ele permite que você crie arquivos de configuração simples para gerenciar suas dependências de forma eficiente. 

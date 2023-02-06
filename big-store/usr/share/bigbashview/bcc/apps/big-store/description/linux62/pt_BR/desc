@@ -1,0 +1,1 @@
+O kernel é o núcleo do sistema operacional Linux62, é responsável por gerenciar as comunicações entre o hardware e os programas.  Já os módulos são pequenos programas adicionais que podem ser carregados e descarregados dinamicamente pelo kernel, permitindo que ele se adapte às necessidades específicas do usuário. Esses dois componentes juntos formam a base do Linux62. 

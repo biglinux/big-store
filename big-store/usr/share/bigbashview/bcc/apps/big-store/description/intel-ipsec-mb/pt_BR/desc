@@ -1,0 +1,3 @@
+A biblioteca Intel(R) Multi-Buffer Crypto para IPsec é um conjunto de ferramentas de criptografia desenvolvido
+pela Intel. Ele é projetado para ajudar a proteger as comunicações de rede usando o protocolo IPsec. Ele oferece suporte a vários algoritmos de criptografia, incluindo AES, 3DES e SHA. Além
+disso, ele oferece suporte a vários modos de operação, como o modo CBC e o modo CTR. Ele é otimizado para uso em sistemas que executam o Intel(R) Multi-Buffer Crypto para IPsec Library.

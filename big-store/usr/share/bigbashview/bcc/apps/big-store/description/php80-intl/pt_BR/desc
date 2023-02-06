@@ -1,0 +1,4 @@
+Este programa é um módulo de internacionalização para a versão 8.0 do PHP. Ele permite que o seu código PHP seja
+executado em diferentes idiomas e países, tornando-o mais flexível e adaptável. Com este módulo, você pode trabalhar com data, hora, moeda e outros aspectos culturais de forma fácil e
+eficiente.Alguns exemplos de como você pode usar este módulo incluem formatar datas e horas de acordo com as convenções do país, convertendo moedas e números para diferentes idiomas, e
+lidar com caracteres especiais de forma correta. Ele é uma ferramenta útil para qualquer desenvolvedor que trabalha com aplicações multilingues e internacionais.

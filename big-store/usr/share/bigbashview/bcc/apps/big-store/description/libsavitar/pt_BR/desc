@@ -1,0 +1,2 @@
+Este programa é uma implementação em C++ da leitura de arquivos 3mf, com as ligações em python SIP. Ele usa a
+biblioteca libsavitar para carregar esses arquivos e torná-los acessíveis para serem usados em outros projetos.

@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de introspecção para bibliotecas baseadas em GObject, especificamente para
+sistemas de 32 bits. Ele ajuda a descobrir informações sobre as bibliotecas, como quais funções e objetos elas possuem, e como eles podem ser usados em seu código. Isso é útil para
+desenvolvedores que querem criar aplicativos que usam essas bibliotecas.

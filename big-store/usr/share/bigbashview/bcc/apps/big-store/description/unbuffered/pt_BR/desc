@@ -1,0 +1,2 @@
+Este programa copia o que você digita no seu computador e mostra na tela, sem armazenar em um lugar temporário antes. É chamado de
+unbuffered, ou sem buffer.Isso significa que ele mostra tudo o que você digita imediatamente, sem esperar acumular mais informações antes de mostrar na tela.

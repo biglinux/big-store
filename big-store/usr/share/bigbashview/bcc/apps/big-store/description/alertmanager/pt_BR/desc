@@ -1,0 +1,1 @@
+Este programa é responsável por lidar com alertas enviados por aplicações clientes, como o servidor Prometheus. Ele é essencial para manter o monitoramento e a segurança de sua infraestrutura. 

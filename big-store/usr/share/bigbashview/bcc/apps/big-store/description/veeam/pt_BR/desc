@@ -1,0 +1,4 @@
+Veeam Agent for Linux é um programa de gerenciamento de backup para sistemas operacionais Linux. Ele permite que você faça
+backup de arquivos, pastas e sistemas inteiros, e também pode ser usado para restaurar esses dados. Ele é fácil de usar e oferece muitas opções de configuração para garantir que você tenha 
+o backup certo para suas necessidades.Algumas das principais características incluem backup incremental, suporte a várias plataformas, backup de dados em nuvem e recuperação de desastres.
+Também é possível programar backups para acontecerem automaticamente, o que garante que seus dados estejam sempre seguros.

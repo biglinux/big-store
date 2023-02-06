@@ -1,0 +1,4 @@
+Este é um plugin para o Bareos, um programa de backup de código aberto. Ele utiliza o XtraBackup para fazer backups dos
+arquivos. O Bareos é uma solução completa para backup, arquivamento e recuperação de dados. Ele suporta vários sistemas operacionais, incluindo Windows, Linux e macOS, e pode ser usado para
+fazer backups de bancos de dados, arquivos e sistemas inteiros. Este plugin adiciona suporte ao XtraBackup, que é uma ferramenta popular para fazer backups de bancos de dados MySQL e
+Percona.

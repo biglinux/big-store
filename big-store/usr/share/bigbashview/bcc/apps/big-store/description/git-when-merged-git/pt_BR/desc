@@ -1,0 +1,3 @@
+Com o programa 'git-when-merged-git', você pode saber exatamente quando um commit específico foi mesclado em uma
+branch do git. Isso é útil quando você quer verificar o momento exato em que uma alteração foi incorporada ao seu código. Basta fornecer o ID do commit e o programa irá mostrar a data e
+hora em que ele foi mesclado. 

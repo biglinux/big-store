@@ -1,0 +1,3 @@
+A extensão Sphinx para Doxygen é uma ferramenta que permite que você integre documentação gerada pelo Doxygen ao seu projeto
+Sphinx. Ela usa a extensão Breathe para fazer isso, tornando mais fácil a criação de documentação para o seu código. Com essa extensão, você pode usar a linguagem de marcação do Sphinx para
+formatar sua documentação e obter uma saída consistente e profissional. Além disso, você pode incluir imagens, tabelas e outros recursos para melhorar a leitura da documentação.

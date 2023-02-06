@@ -1,0 +1,1 @@
+Este programa é uma biblioteca em Python para trabalhar com arquivos no formato HDF5. Ele usa a versão openmpi para garantir compatibilidade com múltiplas plataformas. 

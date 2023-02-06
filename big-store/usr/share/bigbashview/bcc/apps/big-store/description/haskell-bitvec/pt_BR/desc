@@ -1,0 +1,1 @@
+Esse programa, chamado haskell-bitvec, permite criar vetores de bits que ocupam menos espaço em memória. Isso é útil quando você precisa armazenar grandes quantidades de informação binária, como imagens ou arquivos de áudio, mas não quer usar muito espaço em disco ou memória.Ele foi escrito na linguagem de programação Haskell, que é conhecida por sua expressividade e eficiência. 

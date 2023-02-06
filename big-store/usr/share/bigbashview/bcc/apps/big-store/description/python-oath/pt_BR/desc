@@ -1,0 +1,4 @@
+Este programa oferece uma implementação em python dos algoritmos HOTP, TOTP e OCRA, que são utilizados para autenticação 
+segura. Ele é baseado nas especificações da OATH (Iniciativa de Autenticação de Senha Aberta). Com ele, é possível adicionar uma camada extra de segurança em aplicações web, sistemas de
+gerenciamento de contas e outros serviços que precisam garantir a autenticidade dos usuários. Além disso, o python-oath é fácil de usar e integrar em outros projetos, tornando a
+implementação de autenticação de dois fatores simples e rápida.

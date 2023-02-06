@@ -1,0 +1,1 @@
+Este é um plugin para o Haskell Language Server que permite visualizar a hierarquia de chamadas de funções em seu  código. Isso significa que você pode ver quais funções chamam outras funções e como elas estão interconectadas. Isso pode ser útil para entender como um código funciona e encontrar erros. 

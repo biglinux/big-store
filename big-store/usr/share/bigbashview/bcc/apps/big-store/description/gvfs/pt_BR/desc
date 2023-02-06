@@ -1,0 +1,1 @@
+gvfs é uma implementação de sistema de arquivos virtual para a biblioteca GIO em GLib, que fornece backends de sistema de arquivos adicionais além do sistema de arquivos local, como FTP, SFTP, SMB, HTTP e outros. Isso permite que aplicativos acessem arquivos remotos como se fossem arquivos locais, sem a necessidade de software ou bibliotecas adicionais. 

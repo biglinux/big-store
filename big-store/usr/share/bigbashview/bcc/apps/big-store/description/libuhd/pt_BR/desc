@@ -1,0 +1,1 @@
+Este programa é um driver para o dispositivo Universal Software Radio Peripheral (USRP). Ele permite que os usuários acessem e controlem o dispositivo a partir do espaço do usuário, o que é essencial para aplicações de rádio software. Ele usa a biblioteca libuhd para acessar o hardware. 

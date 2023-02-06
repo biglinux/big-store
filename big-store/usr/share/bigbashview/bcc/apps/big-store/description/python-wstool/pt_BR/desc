@@ -1,0 +1,4 @@
+ python-wstool é uma ferramenta de
+linha de comando que ajuda a manter um espaço de trabalho de projetos de diferentes sistemas de controle de versão, como git, svn, hg e bzr. Ele permite adicionar, atualizar e remover
+projetos facilmente, além de permitir a configuração de diferentes versões de um projeto. É uma ferramenta útil para quem trabalha com vários projetos de código aberto ou com projetos que
+precisam ser mantidos em diferentes versões. python-wstool é escrito em Python e é compatível com Windows, Mac e Linux.

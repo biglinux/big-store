@@ -1,0 +1,1 @@
+Este programa, chamado xorg-bdftopcf, é utilizado para converter fontes do formato Bitmap Distribution Format (BDF) para o formato Portable Compiled Format (PCF). Isso permite que as fontes sejam usadas de maneira mais eficiente em sistemas operacionais X. 

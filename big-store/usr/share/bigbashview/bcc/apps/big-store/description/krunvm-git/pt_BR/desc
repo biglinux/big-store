@@ -1,0 +1,3 @@
+Este programa permite criar microVMs a partir de imagens OCI. Ele é chamado krunvm-git e é uma ótima ferramenta para quem 
+precisa de VMs pequenas e rápidas para testes ou outros usos. Com ele, é possível personalizar a configuração da VM de acordo com suas necessidades e utilizá-la de forma simples e
+intuitiva.

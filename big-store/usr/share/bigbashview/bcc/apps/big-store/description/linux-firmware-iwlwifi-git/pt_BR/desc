@@ -1,0 +1,3 @@
+Este é um pacote de firmware para placas wireless compatíveis com o Linux. Ele inclui os arquivos de firmware necessários
+para que essas placas funcionem corretamente no seu sistema Linux. Esse pacote é especialmente útil para usuários que estão usando laptops com placas wireless inteligentes (iwlwifi) e
+precisam atualizar ou instalar os arquivos de firmware corretos para se conectar à internet.

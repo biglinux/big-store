@@ -1,0 +1,3 @@
+Advancecomp-git é um conjunto de ferramentas para recompressão de arquivos gz, mng, png e zip.
+Ele utiliza os algoritmos Zopfli e 7-Zip DEFLATE para melhorar a compressão dos arquivos, o que pode resultar em arquivos menores e mais rápidos para carregar. Se você precisa otimizar o
+tamanho de arquivos para economizar espaço em disco ou melhorar o desempenho de carregamento, essas ferramentas podem ser úteis.

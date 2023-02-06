@@ -1,0 +1,1 @@
+O programa 'haskell-case-insensitive' permite realizar comparações entre strings sem diferenciar maiúsculas e minúsculas. Isso significa que, se você estiver comparando duas palavras, elas serão consideradas iguais, independentemente de seus caracteres estarem em maiúsculas ou minúsculas. 

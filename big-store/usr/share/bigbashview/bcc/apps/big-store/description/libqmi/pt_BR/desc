@@ -1,0 +1,1 @@
+libqmi é uma biblioteca que oferece suporte ao protocolo QMI (Qualcomm MSM Interface) utilizado em modems compatíveis. Ele permite acesso aos recursos do modem, como configuração de conexão, gerenciamento de pacotes de dados e outros. Isso facilita o desenvolvimento de aplicativos que precisam  se comunicar com um modem QMI. 

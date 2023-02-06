@@ -1,0 +1,1 @@
+ liburing é uma biblioteca de acesso I/O nativa para Linux. Ele permite que os programas façam operações de entrada e saída de maneira mais eficiente e rápida, usando a tecnologia io_uring. Isso pode melhorar significativamente o desempenho de aplicações que lidam com muitos arquivos ou dispositivos de rede. 

@@ -1,0 +1,1 @@
+Essa é uma biblioteca de serialização binária em C++ que só precisa do cabeçalho para ser utilizada. Ela é chamada  de bitsery e pode ser usada para salvar e carregar dados em formato binário. 

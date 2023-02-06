@@ -1,0 +1,1 @@
+Este programa permite interceptar conexões de socket para aplicativos wsgi durante os testes. Ele é escrito em Python e é chamado de python-wsgi-intercept. 

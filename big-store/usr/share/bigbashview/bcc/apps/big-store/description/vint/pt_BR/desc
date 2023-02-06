@@ -1,0 +1,1 @@
+vint é uma ferramenta de Lint para a linguagem Vim script. Ele verifica o script para erros e inconsistências. Pode ser usado como uma ferramenta de linha de comando independente ou integrado com o editor Vim. Ajuda a pegar erros de sintaxe, erros semânticos e tornar o script mais legível. 

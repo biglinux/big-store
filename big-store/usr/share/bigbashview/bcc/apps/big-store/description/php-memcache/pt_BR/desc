@@ -1,0 +1,1 @@
+Este programa é um módulo do PHP que permite armazenar dados em cache, para que eles possam ser recuperados rapidamente sem precisar ser carregados novamente do banco de dados ou de outra fonte de dados. Isso pode aumentar significativamente a velocidade de um site ou aplicativo que faz muitas consultas a dados. 

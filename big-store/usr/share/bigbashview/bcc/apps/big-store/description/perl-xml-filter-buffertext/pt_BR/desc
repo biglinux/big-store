@@ -1,0 +1,1 @@
+O módulo Perl XML-Filter-BufferText é um filtro para colocar todos os caracteres() em um evento. Ele é útil para lidar com arquivos XML de grande tamanho e garantir uma melhor performance na manipulação dos dados. 

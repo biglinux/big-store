@@ -1,0 +1,3 @@
+Este programa é um servidor de colaboração online, ele permite que várias pessoas trabalhem juntas em um documento 
+ou projeto ao mesmo tempo, sem precisar usar o Docker. Isso significa que você não precisa instalar nenhum tipo de container ou programa adicional para usá-lo. Ele é fácil de configurar e
+usar, e é ótimo para equipes que trabalham em projetos juntas e precisam acessar o mesmo documento ou arquivo ao mesmo tempo.

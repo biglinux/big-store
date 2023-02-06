@@ -1,0 +1,3 @@
+Este programa é um pacote de drivers para placas de vídeo Intel, como a i810, i830, i915, 945G e G965+. Ele é projetado
+para funcionar com o sistema X.org e garantir que o seu computador possa exibir imagens de forma correta. Esse pacote de drivers é baseado no código fonte do xf86-video-intel-git e é
+atualizado frequentemente para garantir compatibilidade com as últimas versões do sistema operacional e dos programas que você utiliza.

@@ -1,0 +1,2 @@
+Este programa é um relógio digital que funciona dentro do seu terminal. Ele usa a biblioteca ncurses para exibir a hora
+atual de forma bonita e fácil de ler. Ele é útil para quem precisa ver a hora sem sair do terminal ou para quem gosta de personalizar o visual do seu ambiente de trabalho.

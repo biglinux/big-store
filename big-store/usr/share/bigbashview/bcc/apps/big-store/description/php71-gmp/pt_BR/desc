@@ -1,0 +1,4 @@
+Este é um módulo adicional para a versão 7.1 do PHP, chamado GMP. Ele adiciona recursos avançados de matemática para o PHP,
+permitindo que os desenvolvedores façam operações matemáticas mais complexas com facilidade.O GMP é uma biblioteca de matemática de precisão arbitrária, o que significa que ele pode lidar
+com números muito grandes e muito pequenos sem perda de precisão.Se você está desenvolvendo um aplicativo ou site que precisa de operações matemáticas avançadas, esse módulo pode ser muito 
+útil para você.

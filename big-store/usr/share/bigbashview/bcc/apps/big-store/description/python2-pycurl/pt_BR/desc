@@ -1,0 +1,3 @@
+A biblioteca Python 2 permite usar a biblioteca cURL, que é uma ferramenta para transferir dados para a internet. Com ela,
+você pode fazer requisições HTTP, FTP, SMTP, entre outras coisas. É uma ótima opção para programadores que precisam acessar dados na web em suas aplicações.Além disso, a biblioteca Python
+2-pycurl é fácil de usar e possui uma documentação completa, o que a torna uma escolha popular entre os desenvolvedores de software.

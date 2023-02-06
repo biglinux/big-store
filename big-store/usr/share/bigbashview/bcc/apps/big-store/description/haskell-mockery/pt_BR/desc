@@ -1,0 +1,1 @@
+haskell-mockery é um pacote de ferramentas para auxiliar na criação de testes automatizados em projetos Haskell. Ele oferece funções para criar mocks e verificar se os valores esperados foram retornados durante a execução dos testes. Com haskell-mockery, é possível aumentar a confiabilidade dos testes e facilitar a manutenção do código. 

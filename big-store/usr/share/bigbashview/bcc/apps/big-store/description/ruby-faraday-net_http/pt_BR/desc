@@ -1,0 +1,1 @@
+Esse é um adaptador para o ruby-faraday que permite que ele trabalhe com o Net::HTTP, uma biblioteca padrão do Ruby para fazer requisições HTTP. Ele é usado para conectar o Faraday com outras bibliotecas HTTP, permitindo que você acesse a Internet de forma mais fácil e rápida. 

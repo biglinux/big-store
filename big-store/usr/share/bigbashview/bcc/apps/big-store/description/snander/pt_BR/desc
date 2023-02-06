@@ -1,0 +1,2 @@
+Este programa, chamado SNANDer, é usado para programar memórias seriais, como Nor, NAND e Eeprom. Ele é baseado no chip CH341A
+e permite que você faça alterações e gravações nessas memórias.

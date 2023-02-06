@@ -1,0 +1,4 @@
+A ferramenta de extração de sistema de arquivos JFFS2, ou jefferson-git, é uma ferramenta útil para
+extrair arquivos de dispositivos que usam o sistema de arquivos JFFS2. Ele é capaz de recuperar arquivos apagados ou perdidos e pode ser usado para analisar dispositivos com problemas. Ele 
+é uma ferramenta importante para engenheiros de recuperação de dados e investigadores forenses digitais.A ferramenta é baseada no código do projeto 'jefferson' original e é mantida e
+atualizada regularmente. É compatível com vários sistemas operacionais, incluindo Windows, Linux e MacOS.

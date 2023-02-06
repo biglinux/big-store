@@ -1,0 +1,1 @@
+A libewf é uma biblioteca para suporte ao formato de compressão de testemunha especialista (EWF). Ela permite a leitura e escrita de arquivos EWF, bem como a aquisição e análise de dados armazenados nesses arquivos. A libewf é destinada a ser usada por profissionais forenses e legais, bem como pesquisadores e desenvolvedores que trabalham com evidências digitais. 

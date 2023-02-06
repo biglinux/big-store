@@ -1,0 +1,2 @@
+Essa ferramenta é chamada reshape e ela ajuda a mudar o jeito que as informações são armazenadas em um banco de dados
+chamado PostgreSQL. Ela faz isso sem precisar parar o banco de dados, então você pode continuar usando ele normalmente enquanto a mudança acontece.

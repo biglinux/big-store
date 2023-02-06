@@ -1,0 +1,1 @@
+O kldap é uma API que permite acessar servidores LDAP (Lightweight Directory Access Protocol) a partir do ambiente de desktop KDE. Com ela, é possível realizar operações como buscar, adicionar, editar e excluir entradas no diretório, além de autenticar usuários. A API é desenvolvida em C++ e está disponível como parte do projeto KDE. 

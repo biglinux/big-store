@@ -1,0 +1,4 @@
+Esse programa é uma implementação do OpenCL para dispositivos NVIDIA de 32-bits. O OpenCL é uma linguagem de
+programação de alto nível que permite a criação de aplicativos que rodam em vários dispositivos, incluindo CPUs, GPUs e outros processadores paralelos. Com esse programa, é possível criar
+aplicativos mais rápidos e eficientes para dispositivos NVIDIA. Alguns exemplos de aplicativos que podem ser criados com esse programa incluem: processamento de imagens, reconhecimento de
+voz, simulações científicas, entre outros.

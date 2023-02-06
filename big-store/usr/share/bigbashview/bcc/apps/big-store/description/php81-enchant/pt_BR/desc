@@ -1,0 +1,5 @@
+Este é um módulo adicional para a versão 8.1 do PHP que permite a correção ortográfica de textos dentro do seu
+programa. Ele utiliza bibliotecas de correção ortográfica já existentes para fornecer sugestões de correção para palavras escritas incorretamente.Isso pode ser muito útil em áreas como
+formulários de contato, comentários de blog e mensagens de bate-papo. Para usar esse módulo, você precisará instalá-lo e configurá-lo corretamente em seu servidor PHP. Isso geralmente
+inclui editar o arquivo de configuração do PHP e adicionar uma linha para carregar o módulo de correção ortográfica. Depois disso, você pode usar funções fornecidas pelo módulo em seu
+código PHP para verificar a ortografia de strings e obter sugestões de correção.

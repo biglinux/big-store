@@ -1,0 +1,4 @@
+Com o pacote python-quandl, você pode acessar facilmente dados financeiros de várias fontes, como bolsas de valores e 
+governos. Ele fornece uma maneira fácil de baixar, manipular e visualizar dados usando a linguagem de programação Python. Além disso, ele oferece suporte a vários formatos de dados, como
+CSV, Excel e JSON.Para começar a usar o pacote python-quandl, você precisará se registrar em sua página de desenvolvedores e obter uma chave de autenticação. Depois disso, você pode usar 
+a biblioteca Quandl para baixar dados de uma variedade de fontes e usá-los em suas análises. 

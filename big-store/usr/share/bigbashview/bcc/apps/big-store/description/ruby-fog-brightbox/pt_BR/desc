@@ -1,0 +1,4 @@
+Este é um módulo para o gem 'fog' que permite suporte à nuvem Brightbox. Ele é escrito em Ruby e é projetado para ser
+usado com aplicativos Ruby que precisam se conectar à nuvem Brightbox. Com este módulo, é possível gerenciar recursos na nuvem, como máquinas virtuais, armazenamento e redes.Para usar este 
+módulo, você precisará primeiro instalar o 'fog' e configurá-lo com suas credenciais da Brightbox. Em seguida, você poderá usar as funções fornecidas pelo módulo para gerenciar recursos na 
+nuvem.

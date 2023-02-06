@@ -1,0 +1,1 @@
+O qsynth é uma aplicação de interface gráfica para o Fluidsynth, escrita em C++ usando o framework Qt e o Qt Designer. Ele pode se desenvolver em um gerenciador de softsynths, permitindo que o usuário controle e gerencie vários softsynths de linha de comando. 

@@ -1,0 +1,4 @@
+Este é um módulo para o programa PHP80 que permite a transferência de arquivos usando o protocolo curl. Ele é útil
+para fazer upload e download de arquivos, bem como para acessar recursos da web de forma segura e fácil. Com este módulo, você pode automatizar tarefas comuns, como enviar imagens para um
+servidor ou baixar dados de uma página da web.Alguns exemplos de uso incluem: fazer upload de arquivos para um servidor de FTP, baixar arquivos de uma URL, enviar dados via HTTP POST e
+obter respostas de um serviço web.

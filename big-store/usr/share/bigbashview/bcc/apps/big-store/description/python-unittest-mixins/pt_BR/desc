@@ -1,0 +1,1 @@
+Mixins são uma ótima forma de reutilizar código em suas classes de teste unittest. Eles permitem que você adicione funcionalidade adicional a suas classes de teste sem precisar escrever código adicional. O pacote python-unittest-mixins fornece uma variedade de mixins úteis para usar em suas classes de teste unittest. 

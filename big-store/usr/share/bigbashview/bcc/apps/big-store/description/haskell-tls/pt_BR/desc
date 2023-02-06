@@ -1,0 +1,1 @@
+Implementação nativa do protocolo de segurança TLS/SSL, tanto para servidor quanto para cliente, feita em Haskell. Com essa implementação, é possível estabelecer conexões seguras entre dispositivos, garantindo a privacidade e a integridade dos dados transmitidos. 

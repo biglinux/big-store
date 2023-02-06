@@ -1,0 +1,4 @@
+DragonflyDB é uma opção moderna para substituir o Redis e o Memcached.Ele é projetado para ser rápido, confiável e escalável. Além
+disso, oferece recursos avançados como suporte a transações, replicação e backups em tempo real, tornando-o uma escolha ideal para aplicações empresariais que precisam de alta
+disponibilidade e desempenho.Com DragonflyDB, você pode armazenar e recuperar rapidamente grandes quantidades de dados, o que o torna uma ótima escolha para aplicações que lidam com muitos 
+dados em tempo real, como jogos, redes sociais, e-commerces e muito mais.

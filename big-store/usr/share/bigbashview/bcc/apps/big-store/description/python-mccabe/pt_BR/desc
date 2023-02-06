@@ -1,0 +1,1 @@
+Este programa é um checador de complexidade McCabe para códigos escritos em Python. Ele ajuda a medir a complexidade do seu código e identificar trechos que podem ser melhorados para torná-lo mais fácil de entender e manter. 

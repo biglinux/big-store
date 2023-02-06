@@ -1,0 +1,3 @@
+Este programa é um daemon de notificação leve para o Wayland, um sistema de janelas moderno. Ele é projetado para ser rápido 
+e fácil de usar, e é uma boa opção para quem quer notificações semelhantes às do sistema sem um grande impacto no desempenho. Algumas das características incluem suporte para notificações
+de vários aplicativos ao mesmo tempo, design minimalista e personalização de cores e estilos. Ele também é compatível com vários gerenciadores de janelas, incluindo o Gnome e o KDE.

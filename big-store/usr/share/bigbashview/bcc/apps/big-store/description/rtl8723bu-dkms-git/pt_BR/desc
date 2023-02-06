@@ -1,0 +1,3 @@
+Este programa é um driver para dispositivos Wi-Fi com chip Realtek RTL8723BU. Ele é uma versão DKMS, o que significa
+que ele pode ser instalado dinamicamente durante a inicialização do sistema, garantindo compatibilidade com várias versões do kernel. Com ele, você pode usar seu dispositivo Wi-Fi sem
+problemas no seu computador.

@@ -1,0 +1,1 @@
+O módulo 'perl-namespace-clean' é uma ferramenta útil para desenvolvedores de códigos Perl. Ele ajuda a manter o espaço de nomes limpo, impedindo que as funções e imports desnecessários poluam o espaço de trabalho. Isso pode ajudar a evitar conflitos de nomes e tornar o código mais fácil de entender e manter.  

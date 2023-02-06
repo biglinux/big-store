@@ -1,0 +1,4 @@
+Este programa adiciona autocomplete de estilo de IDE para o seu terminal existente. Com ele, você pode digitar comandos mais
+rapidamente e evitar erros de digitação. Ele funciona como uma extensão para o terminal, fornecendo sugestões enquanto você digita. Isso é especialmente útil para comandos com muitos
+parâmetros ou quando você não se lembra exatamente do nome de um arquivo ou pasta. Além disso, o programa suporta vários tipos de shells, incluindo Bash, Zsh e Fish, para que você possa
+usá-lo em qualquer ambiente.

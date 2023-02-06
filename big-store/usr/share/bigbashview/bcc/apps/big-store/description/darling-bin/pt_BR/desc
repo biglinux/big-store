@@ -1,0 +1,3 @@
+ darling-bin é um programa que permite a você rodar programas do Darwin, o sistema operacional da Apple, no Linux. Isso significa 
+que você pode usar programas que normalmente só funcionam no macOS em um computador com Linux. Ele é chamado de camada de emulação. Ele ajuda o Linux a entender como os programas do Darwin 
+funcionam e os faz rodar sem problemas. 

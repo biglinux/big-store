@@ -1,0 +1,3 @@
+FlareGet é um gerenciador de download completo, avançado e acelerador. Ele é multi-threaded e multi-segmentado, o que
+significa que ele pode dividir os downloads em várias partes e baixá-los ao mesmo tempo, aumentando a velocidade de download. Além disso, ele possui recursos avançados como gerenciamento de
+filas, retomada automática de downloads interrompidos e suporte a protocolos de download populares.

@@ -1,0 +1,4 @@
+O Kamailio é um servidor de comunicação de protocolo aberto, e com o uso dos módulos SQLite, ele agora pode se conectar e
+gerenciar facilmente bancos de dados SQLite. Isso permite armazenar e recuperar informações importantes, como contas de usuário e configurações, de forma rápida e eficiente.Com esses
+módulos, você pode usar o Kamailio como um servidor de registro e proxy para sessões de comunicação SIP, além de outras funcionalidades avançadas. Ele é uma opção popular para
+implementações de comunicação empresariais e de uso geral. 

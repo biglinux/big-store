@@ -1,0 +1,4 @@
+Este programa é chamado ffsclient-bin e serve para acessar os dados do Firefox-Sync através de uma interface de linha de
+comando (CLI). Isso significa que você pode usar comandos no seu computador para ver ou modificar os dados sincronizados com o Firefox em outros dispositivos. Por exemplo, você pode ver
+suas senhas salvas, marcadores e histórico de navegação. É uma ferramenta útil para quem usa o Firefox como navegador principal e deseja ter acesso aos seus dados em diferentes
+dispositivos.

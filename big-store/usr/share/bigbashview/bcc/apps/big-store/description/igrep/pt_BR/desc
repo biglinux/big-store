@@ -1,0 +1,4 @@
+Esse programa é chamado igrep e ele ajuda você a encontrar palavras ou frases em arquivos do seu computador. Ele é chamado de
+'interativo' porque você pode digitar sua busca e ver os resultados enquanto você digita, sem precisar esperar pelo final da busca. Você pode usar o igrep para procurar por coisas como
+nomes de arquivos, números de linha, e até mesmo palavras dentro do conteúdo dos arquivos. É uma ferramenta útil para qualquer pessoa que precise encontrar algo rapidamente em um grande
+número de arquivos.

@@ -1,0 +1,3 @@
+Este é um módulo de cache chamado opcache para a versão 8.0 do PHP. Ele ajuda a aumentar a velocidade do seu site ou aplicação
+PHP, armazenando códigos já processados em um lugar rápido para acessar. Isso significa que, quando alguém visita seu site, o PHP não precisa gastar tempo processando o mesmo código de novo
+e de novo. Em vez disso, ele pode simplesmente pegar o código já pronto do cache e usá-lo, economizando tempo e tornando seu site mais rápido para carregar.

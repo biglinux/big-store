@@ -1,0 +1,4 @@
+Esta biblioteca é projetada para ajudar a determinar o formato de um arquivo específico. Ela é escrita em 
+Python 2 e é chamada python2-fleep. Com ela, você pode facilmente descobrir se um arquivo é um documento de texto, imagem, vídeo, etc. sem precisar abri-lo manualmente. Isso pode ser útil
+em muitas aplicações, como organizar arquivos em uma pasta ou verificar se um arquivo é compatível com um determinado programa.A biblioteca é fácil de usar e possui uma documentação
+detalhada para ajudar os desenvolvedores a implementá-la em seus projetos.

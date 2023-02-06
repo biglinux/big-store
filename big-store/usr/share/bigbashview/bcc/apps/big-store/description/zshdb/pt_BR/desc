@@ -1,0 +1,1 @@
+zshdb é um depurador de código-fonte para scripts zsh. Ele é semelhante ao depurador de linha de comando gdb. Com o zshdb, você pode definir pontos de interrupção, percorrer o código e examinar variáveis. É uma ferramenta útil para depurar scripts zsh complexos. 

@@ -1,0 +1,3 @@
+ Ferramentas de linha de comando baseadas em Java que ajudam na inspeção de arquivos Parquet. Essas
+ferramentas permitem visualizar, converter e filtrar arquivos Parquet sem precisar usar outras ferramentas ou programas. Além disso, elas possuem uma interface de usuário amigável e fácil
+de usar, tornando a inspeção de arquivos Parquet uma tarefa simples e rápida. 

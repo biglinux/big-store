@@ -1,0 +1,4 @@
+Este programa, chamado vulkan-caps-viewer-wayland, tem como objetivo mostrar as capacidades do seu hardware em
+relação ao uso da biblioteca de gráficos Vulkan. Ele é especificamente projetado para funcionar no sistema operacional Wayland. Com ele, você pode ver informações detalhadas sobre sua placa
+de vídeo, como o número de núcleos, recursos de textura e capacidades de renderização. Isso pode ser útil para desenvolvedores de jogos e aplicativos que desejam aproveitar ao máximo o
+desempenho do hardware.

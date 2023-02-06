@@ -1,0 +1,2 @@
+ O Bareos é um programa de backup, arquivamento e recuperação de dados de código aberto. Ele inclui ferramentas de linha
+de comando que precisam de dependências do banco de dados (dbcheck, bscan). 

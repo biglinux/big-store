@@ -1,0 +1,3 @@
+waypipe é um programa que age como um proxy para aplicativos que usam o protocolo Wayland. Ele é similar ao comando
+ssh -X, que permite que você execute aplicativos em outro computador e os exiba em sua tela.Com waypipe, você pode executar aplicativos Wayland em outro computador e exibi-los em sua
+própria tela, sem precisar se conectar diretamente ao outro computador.

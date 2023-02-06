@@ -1,0 +1,3 @@
+ctypes.sh é um plugin para o bash que permite que você chame rotinas em bibliotecas
+compartilhadas diretamente dentro do bash. Isso é útil quando você precisa usar funções específicas de uma biblioteca sem escrever uma aplicação completa em outra linguagem de programação.O
+plugin é fácil de usar e possui uma documentação completa para ajudar você a começar. Ele também é compatível com várias plataformas, incluindo Linux e macOS.

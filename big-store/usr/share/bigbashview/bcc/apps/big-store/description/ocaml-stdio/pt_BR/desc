@@ -1,0 +1,1 @@
+A biblioteca ocaml-stdio é uma biblioteca padrão de entrada e saída para a linguagem de programação OCaml. Ela fornece funções para ler e escrever dados de e para arquivos e dispositivos de entrada e saída, como o teclado e a tela. Esta biblioteca é usada como base para muitas outras bibliotecas e aplicativos OCaml. 

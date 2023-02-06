@@ -1,0 +1,1 @@
+Esse é um módulo do kernel Linux que permite que você chame métodos ACPI através do caminho /proc/acpi/call. Ele é chamado de linux60-acpi_call. Com esse módulo, você pode fazer coisas como controlar a velocidade do ventilador ou ativar recursos adicionais em seu computador. Ele é útil para usuários avançados que precisam de mais controle sobre seu sistema. 

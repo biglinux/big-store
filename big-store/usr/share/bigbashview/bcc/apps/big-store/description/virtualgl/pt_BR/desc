@@ -1,0 +1,1 @@
+O virtualgl é uma ferramenta que permite que aplicativos 3D sejam executados em servidores sem uma placa gráfica física. Ele faz isso redirecionando os comandos OpenGL do aplicativo para uma placa gráfica 3D no lado do servidor. Isso permite que os  usuários acessem aplicativos 3D em dispositivos sem suporte gráfico, como computadores remotos ou terminais. 

@@ -1,0 +1,4 @@
+Este programa é chamado de uftrace e ele é usado para rastrear as funções em um programa escrito em C/C++/Rust. Ele mostra
+como as diferentes partes do programa estão se comunicando e ajuda a encontrar problemas de desempenho. Ele é especialmente útil para programadores que estão tentando otimizar seus
+programas para serem mais rápidos.Além disso, este programa também pode ser utilizado para rastrear chamadas de funções, tempo de execução e outras informações valiosas para ajudar na
+depuração e resolução de problemas.

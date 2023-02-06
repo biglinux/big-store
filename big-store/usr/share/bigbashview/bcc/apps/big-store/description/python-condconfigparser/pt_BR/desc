@@ -1,0 +1,3 @@
+Uma biblioteca em Python projetada para ajudar na leitura de arquivos de configuração. Sua principal
+especificidade é permitir a definição de condições usando operadores lógicos e seções específicas no arquivo de configuração que só são aplicadas quando a condição correspondente é
+atendida.

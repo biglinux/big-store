@@ -1,0 +1,1 @@
+Esse programa permite que você use a biblioteca libsmbclient do Python 3, o que lhe dá acesso a recursos de compartilhamento de arquivos SMB (Server Message Block) em redes de computadores. Com ele, você pode ler, escrever, e gerenciar arquivos em compartilhamentos de rede usando código Python. Ele é chamado python-pysmbc  

@@ -1,0 +1,3 @@
+Esse programa é uma interface gráfica para o SftpMan, que é responsável por gerenciar sistemas de arquivos via SFTP (Secure 
+File Transfer Protocol) e SSHFS (SSH File System). Ele permite montar esses sistemas de arquivos de forma fácil e intuitiva, sem precisar digitar comandos no terminal.Com esse programa,
+você pode navegar, copiar, mover, renomear e excluir arquivos e pastas de forma segura e rápida, sem se preocupar com configurações avançadas.

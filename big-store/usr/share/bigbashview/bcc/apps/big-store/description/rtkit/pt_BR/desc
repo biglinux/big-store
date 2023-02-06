@@ -1,0 +1,1 @@
+rtkit é um daemon que fornece suporte para politica e vigilância em tempo real. Ele é projetado para garantir que os processos de tempo real sejam executados de forma confiável e eficiente em sistemas operacionais. Ele faz isso monitorando o uso de recursos do sistema e tomando medidas para evitar problemas, como a interrupção de processos de tempo real. 

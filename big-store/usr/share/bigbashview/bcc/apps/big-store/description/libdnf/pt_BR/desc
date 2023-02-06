@@ -1,0 +1,1 @@
+Uma biblioteca chamada libdnf que fornece uma API simplificada para utilizar a biblioteca libsolv. Isso significa que ela torna mais fácil para os desenvolvedores escreverem programas que utilizem a biblioteca libsolv, especialmente em C e Python. Assim, os programas podem ser criados mais rapidamente e com menos erros. 

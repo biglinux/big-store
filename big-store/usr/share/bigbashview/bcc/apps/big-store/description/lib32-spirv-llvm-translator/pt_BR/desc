@@ -1,0 +1,3 @@
+Este programa é uma ferramenta e biblioteca para tradução bidirecional entre SPIR-V e LLVM IR. Ele permite que você converta
+código de uma linguagem para outra, o que pode ser útil em vários projetos de desenvolvimento de software.O SPIR-V é uma linguagem de computação gráfica usada em sistemas como o Vulkan e o 
+OpenCL, enquanto o LLVM IR é uma representação intermediária de código usada em vários compiladores, incluindo o Clang e o LLVM.

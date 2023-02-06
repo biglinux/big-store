@@ -1,0 +1,1 @@
+s3cmd é um cliente de linha de comando para o Amazon S3. Ele permite que você gerencie facilmente  seus arquivos no Amazon S3 e em outros serviços de armazenamento na nuvem. Com o s3cmd, você pode fazer upload, download e gerenciar seus arquivos a partir da linha de comando. Ele também suporta vários outros recursos, como criptografia, compressão e muito mais. 

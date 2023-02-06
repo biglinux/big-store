@@ -1,0 +1,3 @@
+Este é um módulo de porta serial para o Python 2, que é compatível com várias plataformas. Ele permite
+que você se conecte a dispositivos externos usando a porta serial e envie ou receba dados através dela. É uma ferramenta útil para qualquer pessoa que precise se comunicar com dispositivos 
+externos usando a porta serial em sua aplicação Python 2. 

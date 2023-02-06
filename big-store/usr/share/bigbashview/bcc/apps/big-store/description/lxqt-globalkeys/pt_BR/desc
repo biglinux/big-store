@@ -1,0 +1,1 @@
+Esse programa é responsável por gerenciar os atalhos de teclado globalmente no sistema. Ele inclui um daemon (um programa que roda em segundo plano) e uma biblioteca para registrar esses atalhos. Isso significa que, independentemente de qual aplicativo você esteja usando, esses atalhos sempre funcionarão da mesma maneira. Ele é parte do sistema LXQt. 

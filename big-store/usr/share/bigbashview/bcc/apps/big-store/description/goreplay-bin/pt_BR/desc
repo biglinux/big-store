@@ -1,0 +1,3 @@
+ goreplay-bin é uma ferramenta open-source para capturar e reproduzir tráfego HTTP ao vivo em 
+um ambiente de teste. Isso permite testar continuamente seu sistema com dados reais. Pode ser usado para aumentar a confiança em implantações de código, alterações de configuração e
+alterações de infraestrutura.

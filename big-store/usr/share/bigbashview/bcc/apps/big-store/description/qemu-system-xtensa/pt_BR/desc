@@ -1,0 +1,1 @@
+O qemu-system-xtensa é um emulador de máquina genérico e de código aberto. Ele pode emular diferentes arquiteturas, incluindo a Xtensa, usada pelos microcontroladores ESP32 e ESP8266. Com o QEMU, você pode executar software de uma arquitetura em outra, como executar software ARM em x86. Isso é útil para  testes, desenvolvimento e educação. 

@@ -1,0 +1,3 @@
+Esse programa é chamado kubeval-bin e ele serve para verificar se os arquivos de configuração do Kubernetes estão
+corretos. Ele verifica arquivos em formato YAML ou JSON.Isso é importante porque se houver algum erro nas configurações, pode impedir que o Kubernetes funcione como deveria.Usando esse
+programa, você pode ter certeza de que suas configurações estão corretas antes de colocar seus aplicativos no Kubernetes.

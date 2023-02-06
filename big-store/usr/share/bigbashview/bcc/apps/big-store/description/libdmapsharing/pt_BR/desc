@@ -1,0 +1,1 @@
+libdmapsharing é uma biblioteca que implementa os protocolos da família DMAP. Eles são usados para compartilhar mídia, como música e vídeos, em uma rede. A biblioteca fornece uma API simples e fácil de usar para os desenvolvedores criarem aplicativos que possam compartilhar mídia usando o DMAP. Ela é escrita em C e está disponível para Linux, macOS e Windows. 

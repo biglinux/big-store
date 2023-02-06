@@ -1,0 +1,1 @@
+lib32-libepoxy é uma biblioteca para gerenciar os ponteiros de funções do OpenGL. Ele ajuda a garantir que as funções corretas sejam chamadas em diferentes sistemas e dispositivos, tornando o desenvolvimento de aplicativos gráficos mais fácil e consistente.  

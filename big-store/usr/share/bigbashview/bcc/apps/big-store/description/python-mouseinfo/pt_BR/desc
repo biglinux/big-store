@@ -1,0 +1,3 @@
+Este programa é uma ferramenta útil para desenvolvedores ou designers. Ele exibe as informações de posição XY e cor RGB do
+pixel onde o cursor do mouse está posicionado. Isso pode ser útil para verificar as coordenadas de elementos específicos na tela ou para verificar a cor exata de um pixel.Ele é escrito em
+Python, então é fácil de usar e personalizar. Ele pode ser executado em qualquer sistema operacional que suporte Python.

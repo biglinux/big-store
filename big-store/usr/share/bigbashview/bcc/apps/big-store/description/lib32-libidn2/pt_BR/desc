@@ -1,0 +1,1 @@
+Lib32-libidn2 é uma implementação de software livre do IDNA2008, Punycode e TR46. Ele é utilizado para codificar e decodificar nomes de domínios internacionais, permitindo que eles sejam usados ​​em sistemas que não suportam caracteres unicode. Isso é útil para garantir que os nomes de domínios sejam exibidos corretamente em diferentes sistemas e plataformas. 

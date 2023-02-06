@@ -1,0 +1,1 @@
+O xf86-input-evdev é o driver de entrada evdev do X.org. Ele é usado para lidar com eventos de entrada de dispositivos evdev, como teclados e mouses. Esse driver faz parte do projeto X.org e está incluído em a maioria das distribuições Linux. 

@@ -1,0 +1,2 @@
+ Esse programa é feito para ajudar a criar imagens para dispositivos Android. Ele usa scripts automatizados para inspecionar 
+e reconstruir imagens de inicialização para Android, incluindo binários modificados que só são usados pelos scripts desse pacote. 

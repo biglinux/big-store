@@ -1,0 +1,4 @@
+Esta é uma biblioteca escrita em Python para controlar fontes de energia Riden RD. Com ela, é possível acessar
+e controlar as configurações de uma fonte de energia Riden de forma fácil e simples. Ela foi desenvolvida como um projeto open-source, ou seja, qualquer pessoa pode contribuir para o seu
+desenvolvimento e melhoria.Essa biblioteca é útil para quem precisa automatizar ou monitorar fontes de energia Riden em projetos de automação, testes eletrônicos e outras aplicações. Ela é 
+compatível com as versões mais recentes do Python e é fácil de usar, mesmo para quem não tem conhecimentos avançados em programação.

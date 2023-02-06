@@ -1,0 +1,2 @@
+Um framework para criar aplicações e interfaces para usuário em várias plataformas. Essa versão específica é uma
+construção sem interface gráfica, ou seja, não inclui o QtGui ou QtWidgets.

@@ -1,0 +1,3 @@
+Uma ferramenta de benchmarking HTTP que funciona em várias plataformas e foi escrita em Go. Ela ajuda a medir o desempenho de
+um servidor web, permitindo que você envie muitas solicitações de uma só vez e veja como ele se sai. Isso pode ser útil para verificar se seu site está funcionando corretamente e para
+identificar gargalos de desempenho. 

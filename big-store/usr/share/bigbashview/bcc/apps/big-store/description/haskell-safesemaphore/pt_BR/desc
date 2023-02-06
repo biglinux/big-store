@@ -1,0 +1,1 @@
+O pacote haskell-safesemaphore fornece uma implementação segura de semáforos para ser usado em Haskell. Ele é uma alternativa mais segura para os módulos QSemN, QSem e SampleVar existentes. Este pacote é útil para quem precisa garantir a segurança dos dados enquanto as tarefas são executadas  em paralelo.  

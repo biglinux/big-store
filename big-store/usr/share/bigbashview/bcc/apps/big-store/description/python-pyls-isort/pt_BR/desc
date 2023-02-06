@@ -1,0 +1,4 @@
+Esse programa é um plugin para o python-language-server e se chama python-pyls-isort. Ele ajuda a organizar as importações de 
+módulos no seu código Python. Isso significa que, se você tem muitos módulos importados no seu código e eles estão bagunçados, o plugin os organizará automaticamente para você. Assim, fica 
+mais fácil de encontrar o que você precisa e o código fica mais limpo.Além disso, o plugin também pode adicionar novos imports automaticamente quando você estiver escrevendo seu código, o
+que pode salvar tempo e evitar erros.

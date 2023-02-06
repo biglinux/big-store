@@ -1,0 +1,4 @@
+Existem alguns programas que precisamos usar com frequência e que podem demorar um pouco para abrir, como por
+exemplo, o navegador, o editor de texto, ou até mesmo o nosso programa de e-mail.Para melhorar a velocidade de abertura desses programas, podemos usar o 'prelockd', um programa que bloqueia
+esses programas e bibliotecas em memória.Isso significa que eles já estarão carregados e prontos para uso, sem precisar esperar para abrir novamente.Assim, ao invés de esperar para abrir um
+programa, ele já estará pronto para uso imediatamente.

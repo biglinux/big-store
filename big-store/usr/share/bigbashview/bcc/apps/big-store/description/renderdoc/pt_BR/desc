@@ -1,0 +1,4 @@
+RenderDoc é uma ferramenta de depuração para ajudar a resolver problemas em aplicativos que usam o OpenGL ou o
+Vulkan. Ele permite que você capture uma imagem do estado do seu aplicativo em um momento específico e depois a examine detalhadamente, ajudando a encontrar erros e problemas de desempenho.
+Ele também oferece recursos para análise de desempenho, como gráficos de uso de recursos e rastreamento de chamadas de API.RenderDoc é uma ferramenta útil para desenvolvedores de jogos,
+aplicativos de realidade virtual e outros aplicativos gráficos que precisam otimizar o desempenho e resolver problemas. Ele é compatível com Windows, Linux e MacOS.

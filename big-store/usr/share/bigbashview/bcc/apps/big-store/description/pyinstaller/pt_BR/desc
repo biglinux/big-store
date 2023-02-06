@@ -1,0 +1,4 @@
+Com o Pyinstaller, você pode juntar sua aplicação Python e todas as suas dependências em um único pacote. Isso significa
+que, em vez de distribuir o seu código Python e todas as bibliotecas necessárias para rodá-lo separadamente, você pode agrupá-las em um único arquivo fácil de instalar. Isso é útil quando
+você precisa distribuir sua aplicação para outras pessoas ou quando precisa instalar sua aplicação em vários computadores. Com o Pyinstaller, você pode criar um pacote auto-executável, que 
+é um arquivo que pode ser executado sem a necessidade de instalar qualquer software adicional.

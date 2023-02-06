@@ -1,0 +1,4 @@
+A ferramenta de envio de pacote Debian, ou dput, é um utilitário simples e eficiente que permite a você enviar pacotes
+Debian para repositórios oficiais. Com ele, você pode facilmente manter seus pacotes atualizados e disponíveis para outros usuários sem precisar se preocupar com os detalhes técnicos do
+envio. Para usar dput, basta preparar seu pacote Debian, gerar uma assinatura GPG e usar dput para enviar o pacote ao repositório. É fácil e rápido, permitindo que você se concentre no que 
+realmente importa: desenvolver seu software. 

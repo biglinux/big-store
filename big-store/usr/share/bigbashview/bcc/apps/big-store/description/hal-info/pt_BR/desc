@@ -1,0 +1,5 @@
+Arquivos de informações sobre a camada de abstração de hardware (HAL, sigla em inglês) são usados para
+gerenciar e controlar o acesso aos recursos do computador, como a memória, dispositivos de entrada e saída e dispositivos de armazenamento. Esses arquivos ajudam a garantir que o sistema
+operacional e os programas possam se comunicar de forma eficiente com o hardware do computador.O HAL é uma camada intermediária entre o sistema operacional e o hardware, permitindo que os
+desenvolvedores escrevam códigos que sejam independentes do hardware específico. Isso significa que o mesmo código pode ser usado em diferentes computadores, sem precisar se preocupar com
+as diferenças no hardware.

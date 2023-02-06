@@ -1,0 +1,1 @@
+Minikube é uma ferramenta que permite rodar o Kubernetes localmente em sua máquina. Isso é útil para desenvolvimento e testes, pois permite que você crie e teste suas aplicações sem precisar de uma conexão com a internet ou uma infraestrutura complexa. Ele é fácil de usar e configurar, e é uma boa opção para quem está começando a trabalhar com Kubernetes. 

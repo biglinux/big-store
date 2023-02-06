@@ -1,0 +1,4 @@
+Um programa chamado tinyproxy-git é um proxy HTTP leve para sistemas operacionais POSIX. Ele funciona como um intermediário
+entre o seu computador e a internet, ajudando a proteger a sua privacidade e aumentando a segurança ao navegar. Ele é especialmente útil em redes corporativas ou em viagens.O tinyproxy-git 
+é fácil de configurar e usar, e tem recursos avançados, como suporte a HTTPS e bloqueio de conteúdo. Ele também é altamente personalizável, permitindo que você ajuste as configurações de
+acordo com suas necessidades específicas.

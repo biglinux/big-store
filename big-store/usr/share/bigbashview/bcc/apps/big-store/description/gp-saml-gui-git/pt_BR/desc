@@ -1,0 +1,5 @@
+Este programa permite que você se autentique de forma interativa em redes privadas virtuais (VPNs)
+GlobalProtect que exigem autenticação SAML. Isso significa que, em vez de digitar seu nome de usuário e senha manualmente, você poderá fazer isso através de uma interface gráfica de usuário
+(GUI). Isso pode ser mais fácil e seguro, pois evita erros de digitação e ajuda a proteger sua senha de olhos curiosos.Este programa é baseado em git, o que significa que ele é desenvolvido
+e mantido por uma comunidade de usuários e desenvolvedores. Isso também significa que ele é gratuito e de código aberto, o que significa que você pode usá-lo, modificá-lo e redistribuí-lo
+livremente.

@@ -1,0 +1,3 @@
+Este programa fornece uma introspecção para bibliotecas baseadas em GObject. Isso significa que 
+ele permite que outros programas vejam e usem as partes internas de uma biblioteca GObject sem precisar olhar o código-fonte. Isso pode ser útil para criar ferramentas de desenvolvimento ou
+para integrar outras bibliotecas com a biblioteca GObject.

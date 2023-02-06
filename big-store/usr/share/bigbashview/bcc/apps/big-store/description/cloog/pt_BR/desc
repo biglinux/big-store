@@ -1,0 +1,5 @@
+A biblioteca CLooG é uma ferramenta poderosa para a geração de loops de varredura de poliedros. Ela é
+especialmente útil para programadores que trabalham com otimização de código e análise de desempenho. Com CLooG, é possível gerar loops de forma automatizada, o que pode economizar muito
+tempo e esforço. Além disso, a biblioteca é compatível com várias plataformas e possui uma interface fácil de usar.Ao usar CLooG, os programadores podem especificar os poliedros a serem
+varridos e as restrições de loop desejadas. A biblioteca então gera os loops de acordo com essas especificações. Isso pode incluir loops aninhados, loops com diferentes tamanhos de passo e 
+outras características avançadas. Como resultado, os programas gerados pelo CLooG são geralmente mais eficientes e rápidos do que aqueles escritos manualmente.

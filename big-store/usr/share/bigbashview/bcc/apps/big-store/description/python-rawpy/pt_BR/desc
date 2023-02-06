@@ -1,0 +1,3 @@
+Com o programa python-rawpy, você pode trabalhar facilmente com arquivos de imagem no formato RAW. Ele é um wrapper, ou seja,
+uma camada de programação que torna mais fácil usar outra biblioteca, chamada libraw. Isso significa que você pode usar todas as funcionalidades da libraw sem precisar se preocupar com os
+detalhes técnicos.Isso é útil para fotógrafos e designers gráficos que precisam editar imagens em alta qualidade e precisam ter acesso a todos os detalhes da imagem.

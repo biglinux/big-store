@@ -1,0 +1,1 @@
+Este plugin permite a repetição da execução de testes escritos em python usando a biblioteca pytest.Ele é útil para garantir que os testes estão passando de forma consistente e para encontrar problemas de flaky tests. 

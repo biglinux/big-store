@@ -1,0 +1,1 @@
+O perl-net-http é um módulo para o Perl que fornece uma maneira fácil e rápida de se conectar a um servidor HTTP e enviar solicitações. Ele é projetado para ser usado em aplicativos de linha de comando e scripts, mas também pode ser usado em aplicativos web. Ele suporta vários métodos de autenticação, incluindo Basic e Digest, e pode lidar com redirecionamentos automáticos. 

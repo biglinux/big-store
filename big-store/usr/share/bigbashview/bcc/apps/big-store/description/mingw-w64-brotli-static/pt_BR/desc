@@ -1,0 +1,4 @@
+A biblioteca de compressão Brotli é um software que ajuda a reduzir o tamanho de arquivos, tornando-os mais fáceis de enviar 
+e baixar. Ela foi criada especificamente para funcionar com o sistema operacional Windows, utilizando o compilador mingw-w64.Com essa biblioteca, é possível comprimir arquivos de vários
+tipos, como imagens, músicas, vídeos e documentos. Isso significa que você pode economizar espaço em seu computador e tempo na transferência de arquivos.Além disso, a biblioteca é fornecida
+como arquivo estático, o que significa que não é necessário instalar nenhum outro software para usá-la.

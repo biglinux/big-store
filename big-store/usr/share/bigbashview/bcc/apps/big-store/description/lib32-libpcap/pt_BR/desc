@@ -1,0 +1,1 @@
+ lib32-libpcap é uma biblioteca para capturar pacotes de rede. Ele fornece uma interface independente do sistema para capturar pacotes de usuário, permitindo que você capture pacotes de diferentes sistemas operacionais. Esta versão específica é para sistemas de 32-bits.  

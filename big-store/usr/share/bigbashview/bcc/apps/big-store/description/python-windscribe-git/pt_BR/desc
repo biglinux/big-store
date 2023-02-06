@@ -1,0 +1,3 @@
+ O programa é uma biblioteca Python que funciona como um envoltório para o Windscribe CLI. Isso significa que ele permite
+que você use comandos do Windscribe, que é um aplicativo de linha de comando para gerenciar sua conta Windscribe e conexões VPN, através de código Python. Isso torna mais fácil automatizar 
+tarefas relacionadas ao Windscribe ou integrar o Windscribe em outros programas Python que você está escrevendo. 

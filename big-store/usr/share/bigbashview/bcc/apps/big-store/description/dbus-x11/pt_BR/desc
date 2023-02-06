@@ -1,0 +1,2 @@
+ O sistema de mensagens dbus-x11 é usado para comunicação entre programas no computador. Ele permite que os programas
+compartilhem informações e trabalhem juntos de forma mais fácil. Ele também possui recurso de auto-lançamento do x11.

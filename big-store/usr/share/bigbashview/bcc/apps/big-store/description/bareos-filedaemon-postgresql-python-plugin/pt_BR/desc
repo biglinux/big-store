@@ -1,0 +1,4 @@
+O plugin Bareos para PostgreSQL é uma ferramenta para fazer backup, arquivar e recuperar dados do banco de dados
+PostgreSQL. Ele é compatível com o Bareos File daemon, que é uma parte importante do sistema Bareos de backup. Com esse plugin, é possível fazer backup de dados do PostgreSQL de forma
+eficiente e segura.Além disso, o plugin é desenvolvido com o código aberto, o que significa que é possível personalizar e ajustar a ferramenta de acordo com as necessidades específicas do
+seu ambiente.

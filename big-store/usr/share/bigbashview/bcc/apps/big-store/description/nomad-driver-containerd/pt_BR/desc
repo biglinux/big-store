@@ -1,0 +1,1 @@
+nomad-driver-containerd é um controlador de tarefa para o nomad que permite a execução de contêineres containerd no cluster nomad. Ele permite que os usuários executem tarefas containerd como se fossem tarefas nomad nativas. Isso fornece uma camada adicional de flexibilidade e escalabilidade para os usuários do nomad. 

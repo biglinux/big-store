@@ -1,0 +1,5 @@
+Este programa é uma biblioteca de código aberto que permite a criação de aplicações de cliente e servidor XMPP
+(Extensible Messaging and Presence Protocol) para diferentes plataformas. Ele foi escrito em C++ e é fácil de usar, mesmo para quem não tem conhecimento avançado em programação. Com ele, é 
+possível criar aplicativos de chat, troca de arquivos e outras funcionalidades baseadas no protocolo XMPP.Uma das vantagens desse programa é que ele é compatível com vários sistemas
+operacionais, incluindo Windows, Linux e MacOS. Isso significa que você pode criar aplicativos que funcionem em diferentes plataformas sem precisar reescrever o código. Além disso, ele é
+atualizado regularmente para garantir a compatibilidade com as últimas versões do protocolo XMPP.

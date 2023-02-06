@@ -1,0 +1,1 @@
+O python-cle é um programa que carrega arquivos binários e suas bibliotecas e resolve imports. Ele também fornece uma abstração da memória do processo, o que torna mais fácil para os desenvolvedores trabalhar com esses arquivos. 

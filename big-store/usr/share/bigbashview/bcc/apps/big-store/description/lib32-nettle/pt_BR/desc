@@ -1,0 +1,1 @@
+Esta é uma biblioteca criptográfica de baixo nível, desenvolvida para ser usada em sistemas com 32-bit. Ela fornece várias funções criptográficas, como cifra, decifra, assinatura digital e verificação de assinatura, para ajudar a proteger dados sensíveis.A biblioteca é conhecida como 'lib32-nettle' e é amplamente utilizada em aplicativos de segurança criptográfica. 

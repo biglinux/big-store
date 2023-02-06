@@ -1,0 +1,1 @@
+Este programa, chamado haskell-hxt-unicode, fornece funções para codificar e decodificar texto utilizando o padrão Unicode, incluindo utf8 e outras codificações latinas. Ele é útil para garantir que o texto possa ser lido corretamente em diferentes sistemas e plataformas. 

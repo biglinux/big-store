@@ -1,0 +1,5 @@
+O usql é uma interface de linha de comando universal para bancos de dados SQL. Ele
+permite que você conecte-se e execute comandos em vários bancos de dados diferentes usando uma única interface. Isso facilita muito a vida do desenvolvedor, pois ele não precisa aprender
+comandos diferentes para cada banco de dados. Além disso, o usql tem suporte para vários formatos de saída, como CSV, JSON e tabela, para que você possa visualizar os dados de acordo com
+suas necessidades.O usql é fácil de usar e possui uma sintaxe intuitiva. Ele também oferece recursos avançados, como suporte a transações e gerenciamento de conexões. Se você trabalha com
+vários bancos de dados SQL, o usql é uma ferramenta valiosa para ter em sua caixa de ferramentas.

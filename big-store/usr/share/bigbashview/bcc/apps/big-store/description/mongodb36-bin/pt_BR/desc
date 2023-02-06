@@ -1,0 +1,4 @@
+O MongoDB é um banco de dados de documentos escalável e flexível. Ele permite armazenar e recuperar grandes conjuntos de
+dados de forma rápida e fácil. A versão 3.6 do MongoDB oferece melhorias na performance e novos recursos para ajudar a gerenciar seus dados de maneira eficiente. Alguns dos recursos incluem
+suporte a transações, melhorias na segurança e suporte ao protocolo de rede TLS 1.0. Além disso, essa versão também oferece suporte ao Kubernetes, permitindo que você implemente facilmente 
+o MongoDB em ambientes de nuvem.

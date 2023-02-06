@@ -1,0 +1,3 @@
+ Este programa é um gerenciador de downloads para pacotes, ele encaminha as solicitações para as pastas configuradas. É
+uma ferramenta útil para garantir que as atualizações dos pacotes sejam baixadas com facilidade e rapidez. Ele é especialmente útil em ambientes de desenvolvimento ou em sistemas com
+conexão à internet limitada. 

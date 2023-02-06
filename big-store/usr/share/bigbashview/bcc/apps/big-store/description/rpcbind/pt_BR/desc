@@ -1,0 +1,1 @@
+rpcbind é uma ferramenta que permite que os programas usem as chamadas de procedimento remoto (RPC) em diferentes protocolos. Ele é uma alternativa ao portmap, que é um serviço padrão para mapeamento de portas em sistemas Unix. Com rpcbind, os desenvolvedores podem escrever programas que possam se comunicar de forma eficiente com outros programas em diferentes máquinas. 

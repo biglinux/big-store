@@ -1,0 +1,3 @@
+Este programa é semelhante ao beep, mas ele toca som através do ALSA. Isso significa que ele pode ser usado em diferentes sistemas
+operacionais e configurações de hardware, tornando-o mais flexível. Ele é especialmente útil para avisos e alertas em scripts automatizados, pois pode ser facilmente integrado a outras
+ferramentas.

@@ -1,0 +1,3 @@
+Este é um plugin para o programa Vapoursynth chamado nnedi3. Ele adiciona recursos para melhorar a qualidade de imagem. Ele usa
+arquivos de peso binários para aprimorar as imagens.O nnedi3 é uma técnica de processamento de imagem que é usada para interpolar (ou aumentar) a resolução de uma imagem, isso significa que
+ele pode melhorar a qualidade de imagens baixas para que elas pareçam mais nítidas e detalhadas.

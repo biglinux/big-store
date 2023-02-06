@@ -1,0 +1,4 @@
+O python-pyzor é um sistema em rede para bloquear spam que usa assinaturas de spam para identificá-lo. Ele funciona
+comparando as mensagens de entrada com uma base de dados de assinaturas de spam conhecidas. Se uma mensagem corresponde a uma assinatura na base de dados, ela é classificada como spam e
+tratada de acordo. Esse sistema é eficaz na detecção de mensagens de spam, especialmente aquelas que são enviadas em massa. Ele é fácil de usar e se integra facilmente a vários sistemas de 
+correio eletrônico.

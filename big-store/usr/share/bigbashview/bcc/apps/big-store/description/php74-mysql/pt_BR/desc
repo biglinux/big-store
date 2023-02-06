@@ -1,0 +1,4 @@
+Este programa adiciona os módulos MySQL para a versão 7.4 do PHP. Isso permite que você use a linguagem PHP para se conectar e
+interagir com bancos de dados MySQL. Isso é útil se você estiver criando um site ou aplicativo que precisa acessar e manipular dados armazenados em um banco de dados MySQL.Com este programa
+instalado, você poderá usar as funções PHP específicas para MySQL, como mysql_connect () e mysql_query (), para se conectar ao banco de dados e executar consultas SQL. Ele também inclui
+bibliotecas adicionais que permitem acessar recursos avançados do MySQL, como transações e stored procedures.

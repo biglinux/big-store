@@ -1,0 +1,3 @@
+Esse programa é um driver de rádio sem fio atualizado para os kernels mais recentes. Ele é específico para dispositivos
+que usam o chip rtl88x2bu e foi desenvolvido pela equipe Cilynx. Ele é instalado como um pacote DKMS (Dynamic Kernel Module Support) para garantir compatibilidade com futuros updates do
+kernel. Isso significa que sempre que o kernel for atualizado, esse driver será automaticamente reconstruído e carregado para garantir o funcionamento correto do dispositivo.

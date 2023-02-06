@@ -1,0 +1,2 @@
+Este é um módulo de kernel experimental para o sistema de arquivos APFS com suporte a escrita. Ele usa a
+tecnologia DKMS para permitir que você instale e use o módulo no seu sistema Linux. Ele ainda é experimental, então use-o com cuidado e faça backup de seus dados antes de usá-lo.

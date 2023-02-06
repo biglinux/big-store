@@ -1,0 +1,1 @@
+Este programa adiciona operações adicionais de nível de tipo para trabalhar com números inteiros (Nat) na biblioteca GHC.TypeLits. Ele é útil para quem desenvolve com a linguagem Haskell e precisa de mais flexibilidade e recursos para trabalhar com esses tipos de dados. 

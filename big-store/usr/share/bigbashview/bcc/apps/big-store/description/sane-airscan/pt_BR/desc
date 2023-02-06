@@ -1,0 +1,1 @@
+O sane-airscan é um backend para o SANE (Scanner Access Now Easy) que permite a conexão de scanners  de documentos AirScan (eSCL) e WSD. Ele permite a aquisição de imagens diretamente dos scanners sem a necessidade de drivers específicos. É uma solução aberta e de código livre, compatível  com vários sistemas operacionais. 

@@ -1,0 +1,4 @@
+Este programa é uma implementação pura de jq, uma ferramenta popular para trabalhar com dados em formato JSON, usando a
+linguagem de programação Go. Ele permite que você filtre, transforme e manipule dados JSON de maneira rápida e eficiente, sem precisar de outras dependências.Se você já usou jq antes, vai
+se sentir em casa com esta implementação, pois ele oferece as mesmas funcionalidades. Se você nunca usou jq, essa é uma ótima maneira de começar a trabalhar com dados JSON de maneira fácil 
+e poderosa.

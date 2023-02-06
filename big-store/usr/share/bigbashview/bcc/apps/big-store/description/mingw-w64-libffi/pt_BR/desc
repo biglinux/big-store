@@ -1,0 +1,3 @@
+Esta é uma biblioteca chamada mingw-w64-libffi. Ela permite que programas usem funções de outros
+programas, mesmo que eles tenham sido escritos em diferentes linguagens de programação. Isso é útil porque permite que os programas trabalhem juntos e compartilhem recursos. A biblioteca é 
+chamada de 'portátil' porque pode ser usada em diferentes sistemas operacionais e arquiteturas de computador.

@@ -1,0 +1,2 @@
+Esse é um kernel Linux específico para placas baseadas no processador AArch64 da sunxi64. Ele inclui os módulos necessários 
+para funcionar corretamente neste tipo de hardware.

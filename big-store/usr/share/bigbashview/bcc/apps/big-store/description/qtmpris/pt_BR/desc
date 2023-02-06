@@ -1,0 +1,1 @@
+O qtmpris é um programa que permite controlar a reprodução de música em outros aplicativos usando o Qt e QML. Ele fornece uma interface chamada MPRIS e um adaptador para fazer essa conexão. 

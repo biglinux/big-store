@@ -1,0 +1,3 @@
+Este é um programa que te ajuda a ver arquivos em formato PDF. Ele usa uma biblioteca chamada poppler para mostrar as páginas do
+arquivo. Ele tem abas, o que significa que você pode abrir vários arquivos ao mesmo tempo e mudar de um para outro facilmente.Essa é uma versão em desenvolvimento, ou seja, ainda está sendo
+trabalhada para ficar ainda melhor.

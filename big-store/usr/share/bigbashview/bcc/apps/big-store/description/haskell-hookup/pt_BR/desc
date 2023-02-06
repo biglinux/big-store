@@ -1,0 +1,1 @@
+Esse programa é uma abstração para criar conexões de rede usando o protocolo SOCKS5 e o protocolo de segurança TLS. Ele foi escrito em Haskell. 

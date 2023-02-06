@@ -1,0 +1,4 @@
+Este programa é chamado lua-event e ele ajuda a conectar a linguagem de programação Lua com eventos. Isso significa que ele
+permite que o código escrito em Lua responda a eventos, como cliques de mouse ou pressionamentos de teclas, de forma mais fácil. Ele faz isso usando uma biblioteca chamada libevent, que
+fornece as ferramentas necessárias para trabalhar com eventos.Em resumo, lua-event é uma maneira de adicionar interatividade aos seus programas escritos em Lua, tornando-os mais dinâmicos e
+reativos ao usuário.

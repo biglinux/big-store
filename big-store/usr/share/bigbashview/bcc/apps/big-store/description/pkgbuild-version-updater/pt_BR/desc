@@ -1,0 +1,2 @@
+Esse script permite que você atualize automaticamente um grande número de arquivos PKGBUILD e os envie para o aur, desde que
+somente a pkgver e o checksum tenham sido alterados. Como exemplo, isso é muito útil para jogos gog com muitos DLCs.

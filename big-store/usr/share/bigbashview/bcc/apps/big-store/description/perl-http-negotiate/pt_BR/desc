@@ -1,0 +1,1 @@
+ O perl-http-negotiate é um módulo para o Perl que permite que o servidor negocie com o cliente sobre o tipo de conteúdo a ser servido. Ele funciona como um intermediário entre o cliente e o servidor, garantindo que o cliente receba o conteúdo que ele deseja e o servidor forneça o conteúdo correto.  

@@ -1,0 +1,1 @@
+python-atspi é uma biblioteca para acessar o D-Bus AT-SPI usando Python. O D-Bus AT-SPI é um sistema de acessibilidade que permite que programas de assistência, como leitores de tela, acessem informações sobre a interface do usuário de outros programas. A biblioteca python-atspi fornece uma forma fácil de acessar essas informações a partir de um script Python. 

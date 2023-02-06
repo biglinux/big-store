@@ -1,0 +1,3 @@
+Esse programa é chamado kpatch-git e ele permite a atualização do kernel enquanto o sistema está em funcionamento. Isso é
+chamado de 'live kernel patching'. Ele utiliza o controle de versão git para gerenciar as atualizações e garantir a segurança do sistema. Com esse programa, você pode corrigir erros e
+adicionar novos recursos sem precisar desligar o computador.

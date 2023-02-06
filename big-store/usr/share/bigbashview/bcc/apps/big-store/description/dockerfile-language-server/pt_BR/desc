@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para ajudar a escrever arquivos Dockerfile, que são usados para criar imagens 
+do Docker. Ele funciona como um 'servidor de linguagem', ou seja, ele fornece sugestões e correções enquanto você escreve o arquivo Dockerfile. Isso facilita e agiliza a criação de imagens,
+garantindo que elas estejam corretas e funcionando perfeitamente. Além disso, ele tem recursos para validar e lintar os arquivos Dockerfile, garantindo a qualidade do seu código.

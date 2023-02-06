@@ -1,0 +1,2 @@
+Este programa permite a conversão do sistema de arquivos NTFS, utilizado pelo Microsoft, para o sistema de arquivos
+Btrfs, de código aberto. A conversão é feita no próprio disco, sem necessidade de criar uma cópia temporária dos arquivos.

@@ -1,0 +1,3 @@
+Mounriver Studio Toolchain é uma ferramenta de desenvolvimento para a linguagem de assembly RISC-V e compilação GNU C.
+Ela oferece suporte para operações de linkagem, tornando mais fácil para os desenvolvedores criarem programas para processadores RISC-V.Com essa ferramenta, é possível escrever códigos em
+assembly RISC-V ou na linguagem C e depois juntá-los (linkagem) para formar um programa completo. Isso torna o processo de desenvolvimento mais simples e organizado.

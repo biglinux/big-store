@@ -1,0 +1,2 @@
+Com o comando snp, você pode criar snapshots de comandos no shell. Por exemplo, você pode usar o snp pacman -Syu para criar 
+um snapshot antes e depois de atualizar seu sistema.

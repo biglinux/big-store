@@ -1,0 +1,4 @@
+Este programa fornece uma API e comandos para processar módulos SPIR-V. Ele é projetado para funcionar com sistemas de 32
+bits e é uma ótima ferramenta para desenvolvedores de jogos e aplicativos gráficos.Os módulos SPIR-V são usados ​​para descrever shaders de gráficos e são compatíveis com uma variedade de
+plataformas, incluindo dispositivos móveis e computadores de mesa.Usando essas ferramentas, os desenvolvedores podem otimizar e testar seus shaders de forma eficiente antes de incorporá-los
+em seus projetos.

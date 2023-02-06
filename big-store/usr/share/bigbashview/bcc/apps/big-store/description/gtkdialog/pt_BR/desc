@@ -1,0 +1,4 @@
+gtkdialog é uma pequena ferramenta que ajuda a criar interfaces gráficas de usuário (GUI) de forma rápida e fácil. Ele é
+baseado na biblioteca GTK+ e permite criar janelas, botões, caixas de diálogo e outros elementos comuns de interface usando scripts em shell ou em outras linguagens de programação. Com o
+gtkdialog, é possível criar programas simples e personalizados sem precisar aprender uma linguagem de programação complexa ou lidar com detalhes técnicos difíceis. Ele é ideal para
+iniciantes, usuários avançados e desenvolvedores que desejam criar aplicativos com interfaces amigáveis e atraentes.

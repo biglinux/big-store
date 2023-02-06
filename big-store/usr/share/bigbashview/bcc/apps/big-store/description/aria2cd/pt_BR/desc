@@ -1,0 +1,2 @@
+Este é um serviço criado para o sistema operacional systemd que permite iniciar o programa aria2 automaticamente. Assim, você
+não precisa se preocupar em abrir o programa manualmente toda vez que precisar dele. Basta configurá-lo uma vez e ele sempre estará pronto para uso.

@@ -1,0 +1,3 @@
+Com esse programa, você pode controlar dispositivos Razer, como teclados e mouses, usando a linguagem de
+programação Python. Ele se conecta ao 'daemon' da Razer, que é como o seu computador se comunica com esses dispositivos, e lhe permite fazer coisas como mudar as cores das teclas ou ajustar
+a sensibilidade do mouse. É uma ótima ferramenta se você quiser automatizar tarefas ou personalizar seus dispositivos Razer de uma maneira específica.

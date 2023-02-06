@@ -1,0 +1,1 @@
+Este programa permite que você acesse e configure valores em arquivos .env, tanto em servidores locais quanto em produção. Ele é específico para uso em projetos Python, usando a biblioteca python-dotenv. 

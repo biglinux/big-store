@@ -1,0 +1,1 @@
+Este pacote fornece suporte aprimorado para HTTPS nos módulos httplib e urllib2 do Python, utilizando a biblioteca PyOpenSSL. Isso permite que esses módulos realizem conexões seguras e autenticadas via HTTPS, garantindo a privacidade e integridade dos dados transmitidos. 

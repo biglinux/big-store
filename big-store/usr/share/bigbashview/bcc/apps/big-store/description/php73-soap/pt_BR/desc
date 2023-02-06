@@ -1,0 +1,4 @@
+O módulo SOAP para PHP 7.3 permite que aplicativos PHP acessem e se comuniquem com serviços web usando o protocolo SOAP. Ele é uma
+extensão do PHP e precisa ser instalado e habilitado no servidor para poder ser usado. Ele é compatível com as últimas versões do SOAP e WSDL, tornando mais fácil para os desenvolvedores
+criarem e consumirem serviços web.Com esse módulo, é possível criar clientes SOAP, servidores SOAP e trabalhar com mensagens SOAP usando a biblioteca nativa do PHP. Isso permite que os
+desenvolvedores criem integrações com outros sistemas e aplicativos usando o protocolo SOAP de forma rápida e fácil.

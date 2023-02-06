@@ -1,0 +1,1 @@
+lua-bit32 é uma biblioteca para manipulação de bits para a linguagem de programação Lua 5.2. Ela permite aos desenvolvedores realizar operações de bit a bit em números inteiros, como deslocamentos, OR, AND e NOT. Essa biblioteca é útil para aplicações que precisam de desempenho rápido e eficiência na manipulação de dados binários. 

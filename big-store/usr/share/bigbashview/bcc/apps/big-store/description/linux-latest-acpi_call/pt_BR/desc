@@ -1,0 +1,1 @@
+A atualização do núcleo do BigLinux está disponível. A versão mais recente inclui o suporte ao acpi_call.O acpi_call é uma biblioteca que permite aos usuários habilitar recursos adicionais em seus computadores, como aumentar a duração da bateria, entre outras coisas. Com a atualização, os usuários do BigLinux poderão aproveitar esses recursos adicionais. 

@@ -1,0 +1,1 @@
+ xorg-xrdb é uma ferramenta que permite gerenciar e aplicar configurações ao servidor X. Ele permite aos usuários adicionar, editar e remover configurações do banco de dados do servidor X. Isso pode ser útil para personalizar a aparência e comportamento do ambiente de trabalho. Além disso, ele pode ser usado para resolver problemas de configuração comuns no servidor X.  

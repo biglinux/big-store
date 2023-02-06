@@ -1,0 +1,3 @@
+Este programa é uma extensão para o PHP 7.2 que adiciona suporte a conexões com bancos de dados utilizando ODBC. Isso permite que
+você acesse e gerencie dados de vários bancos de dados diferentes, como MySQL, SQL Server e Oracle, usando comandos PHP.Com esses módulos instalados, você pode escrever scripts PHP para se 
+conectar a um banco de dados, executar consultas e gerenciar os dados retornados. Isso é útil para desenvolvimento web e automação de tarefas.

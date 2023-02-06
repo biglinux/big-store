@@ -1,0 +1,3 @@
+Este é um módulo para o programa php 8.2 chamado sysvsem. Ele permite que o programa use recursos de semáforos de sistema para
+gerenciar acesso a recursos compartilhados. Com ele, é possível garantir que apenas uma pessoa tenha acesso a um determinado recurso de cada vez, evitando conflitos e erros.É importante
+notar que este módulo é específico para a versão 8.2 do php, e pode não funcionar corretamente com outras versões.

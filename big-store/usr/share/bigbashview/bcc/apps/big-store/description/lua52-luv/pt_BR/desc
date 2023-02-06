@@ -1,0 +1,1 @@
+Este é um módulo Lua 5.2 com ligações Bare libuv. Ele permite que você use as funcionalidades do libuv (uma biblioteca de suporte à I/O assíncrona) diretamente em seus scripts Lua. Isso pode ser útil para criar aplicativos com alta performance ou para trabalhar com redes e sistemas de arquivos de maneira mais eficiente. 

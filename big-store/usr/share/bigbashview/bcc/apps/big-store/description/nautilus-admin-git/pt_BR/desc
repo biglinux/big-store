@@ -1,0 +1,4 @@
+Esta é uma extensão para o Nautilus que permite realizar operações administrativas com facilidade. Com ela, é possível
+gerenciar arquivos e pastas com acesso de administrador dentro da interface do Nautilus. Ela foi criada com base no Git, o que permite um rápido acesso aos arquivos.Essa extensão é útil
+para usuários avançados que precisam acessar arquivos e pastas com permissões de administrador, sem precisar sair da interface do Nautilus. Isso pode ser muito útil para quem precisa
+gerenciar arquivos em servidores ou outros sistemas.

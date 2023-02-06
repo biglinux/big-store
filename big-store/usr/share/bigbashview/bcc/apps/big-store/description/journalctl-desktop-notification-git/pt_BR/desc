@@ -1,0 +1,2 @@
+Este programa tem como função enviar notificações para o desktop sempre que aparecer alguma mensagem de erro no log do
+Journalctl. Dessa forma, você fica sabendo imediatamente quando algum problema ocorre e pode agir rapidamente para resolvê-lo.

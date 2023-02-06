@@ -1,0 +1,4 @@
+Este é um módulo especial para o PHP 7.2 que ajuda a dividir uma string em pedaços chamados tokens. Isso é útil para quem está 
+trabalhando com programação e precisa analisar ou dividir texto de alguma forma. O módulo Tokenizer é fácil de usar e pode ser adicionado ao seu programa PHP para dar mais
+funcionalidade.Alguns exemplos de como o Tokenizer pode ser usado incluem dividir uma frase em palavras individuais, dividir uma lista de números em números individuais ou dividir um código
+em pedaços mais pequenos para serem analisados ​​separadamente.

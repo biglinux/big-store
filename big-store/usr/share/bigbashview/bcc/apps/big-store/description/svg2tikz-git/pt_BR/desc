@@ -1,0 +1,4 @@
+Existe um conjunto de ferramentas chamado svg2tikz-git, que tem como objetivo ajudar na conversão de
+gráficos em SVG para o formato TikZ/PGF. Isso é útil quando você quer utilizar gráficos em seus documentos LaTeX, mas eles foram criados ou editados em outro software.Essas ferramentas
+funcionam de forma simples, bastando apontar o arquivo SVG desejado para que ele seja convertido automaticamente para o formato TikZ/PGF. Dessa forma, você pode continuar editando e
+personalizando seus gráficos como desejar, sem precisar refazer todo o trabalho.

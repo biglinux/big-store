@@ -1,0 +1,5 @@
+BrowserStack Local é um programa que permite testar sua aplicação em diferentes navegadores e dispositivos, sem
+precisar de configurações complexas. Com ele, é possível testar sua aplicação em diferentes versões de navegadores como Chrome, Safari, Firefox, entre outros, e também em diferentes
+sistemas operacionais como Windows, Mac e Linux.Além disso, o BrowserStack Local também permite testar sua aplicação em dispositivos móveis, como smartphones e tablets. Isso significa que
+você pode ter certeza de que sua aplicação está funcionando corretamente em todos os dispositivos e navegadores que seus usuários estão usando.Este é o arquivo binário do BrowserStack Local
+para sistemas de 64 bits.

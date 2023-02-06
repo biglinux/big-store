@@ -1,0 +1,1 @@
+O aardvark-dns é um servidor DNS autoritativo que gerencia registros de contêiner A e AAAA. Ele  é projetado para ser rápido, confiável e fácil de usar. Com ele, é possível garantir que os endereços IP dos seus contêineres sejam resolvidos de forma precisa e consistente. Além disso, ele oferece recursos avançados, como suporte a DNSSEC e configuração de zonas secundárias. 

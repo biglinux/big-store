@@ -1,0 +1,1 @@
+dbus-python é um pacote que permite o uso do sistema de bus D-BUS em Python. Ele fornece vários meios para se comunicar com outros  processos usando o D-BUS, permitindo que você envie e receba mensagens, se registre como um serviço e gerencie sinais. 

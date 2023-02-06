@@ -1,0 +1,4 @@
+Os módulos do kernel Linux para usuário permitem que os usuários executem programas no modo de usuário, em vez do modo
+de núcleo. Isso é útil para testar e desenvolver novos programas sem afetar o sistema operacional principal. Além disso, esses módulos também podem ser usados para criar máquinas virtuais. 
+Os módulos são simplesmente pequenos programas que podem ser adicionados ao kernel Linux para fornecer funcionalidades adicionais. Eles podem ser carregados e descarregados dinamicamente,
+sem precisar reiniciar o sistema. Isso permite que os usuários personalizem facilmente seus sistemas para atender às suas necessidades específicas.

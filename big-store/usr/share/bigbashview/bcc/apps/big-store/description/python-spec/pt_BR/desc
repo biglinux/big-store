@@ -1,0 +1,1 @@
+Esse programa fornece uma saída de teste em estilo especificação para o Python usando o nosetests. Isso significa que os resultados dos testes serão apresentados de uma forma clara e fácil de entender, semelhante a como as especificações do sistema são escritas. Isso torna mais fácil para os desenvolvedores e equipes de teste entenderem e rastrearem problemas. 

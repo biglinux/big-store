@@ -1,0 +1,4 @@
+mxnet é uma biblioteca de aprendizado profundo desenvolvida para ser flexível e eficiente. Ela
+permite que você crie modelos de aprendizado profundo usando várias linguagens de programação, como Python, R e Julia. Além disso, ela suporta vários sistemas operacionais, incluindo
+Windows, Linux e macOS. A biblioteca é projetada para ser escalável, permitindo que você treine modelos em várias GPUs e até mesmo em grandes clusters de computação. Em resumo, mxnet é uma 
+escolha excelente para qualquer pessoa que queira criar modelos de aprendizado profundo de alta qualidade e eficiência.

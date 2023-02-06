@@ -1,0 +1,3 @@
+DNSS é um programa que te ajuda a usar o DNS (Sistema de Nomes de Domínio) de forma segura, através de HTTPS. Isso significa
+que todas as suas buscas de endereços de internet serão criptografadas, o que as torna mais difíceis de serem interceptadas por pessoas mal intencionadas. Além disso, o DNSS é um 'daemon', 
+ou seja, um programa que fica rodando em segundo plano, sempre pronto para te ajudar quando precisar. 

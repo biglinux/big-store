@@ -1,0 +1,1 @@
+Este programa usa a lista de sufixos públicos para obter o sufixo público de um nome de domínio específico. Ele é escrito em Python e é fácil de usar. Com ele, você pode verificar se um determinado nome de domínio tem um sufixo público válido e qual é esse sufixo. 

@@ -1,0 +1,4 @@
+O programa chamado rustpython-git é um interpretador de Python3 escrito em Rust. Ele permite que você execute códigos
+Python3 em um ambiente construído com Rust, o que é útil para quem deseja experimentar ou usar as características dessas duas linguagens juntas.Rust é uma linguagem de programação de
+sistemas, enquanto Python é conhecida por ser fácil de aprender e usar para muitos tipos de aplicações. Com rustpython-git, os desenvolvedores podem aproveitar os benefícios de ambas as
+linguagens, tornando seus projetos mais flexíveis e escaláveis.

@@ -1,0 +1,1 @@
+O qmltermwidget é uma porta do qtermwidget para o QML, ou seja, é um widget de terminal escrito em QML, a linguagem de marcação de interface de usuário para aplicativos Qt. Ele permite que você adicione um terminal ao seu aplicativo usando QML. 

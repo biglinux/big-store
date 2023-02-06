@@ -1,0 +1,5 @@
+NW.js é uma plataforma que permite rodar aplicativos web como se fossem programas nativos no computador. Ele é baseado em
+Chromium, o mesmo motor de navegador que o Google Chrome, e Node.js, uma plataforma para desenvolver aplicativos web. Isso significa que você pode escrever seu código usando JavaScript,
+HTML e CSS e transformá-lo em um programa que pode ser executado no Windows, Mac ou Linux.Com NW.js, você pode aproveitar as vantagens de desenvolver para a web, como a facilidade de manter
+o seu aplicativo atualizado automaticamente, mas ao mesmo tempo, ter a liberdade de criar programas que possam ser usados offline e acessar recursos do sistema operacional, como arquivos e 
+pastas.

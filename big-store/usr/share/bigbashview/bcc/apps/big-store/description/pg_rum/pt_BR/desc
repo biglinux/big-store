@@ -1,0 +1,2 @@
+ Este é um método de acesso RUM (Real User Monitoring) para o banco de dados PostgreSQL. Ele utiliza um índice invertido
+com informações adicionais nas listas de postagem para melhorar a velocidade e eficiência na busca de dados. 

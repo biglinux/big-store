@@ -1,0 +1,1 @@
+MinGW-w64 é um conjunto de cabeçalhos para desenvolvimento de software para Windows. Ele permite que você crie aplicativos  para Windows usando o GCC (GNU Compiler Collection) em vez do compilador nativo do Windows. Isso é útil se você deseja usar código aberto ou se estiver trabalhando em plataformas diferentes. 

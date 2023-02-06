@@ -1,0 +1,4 @@
+Este programa é uma implementação de um 'Relying Party' para o protocolo OpenID Connect. Ele é projetado para ser usado com o
+servidor web Apache 2.x e fornece uma maneira segura e fácil de autenticar usuários em sua aplicação.OpenID Connect é uma camada de segurança adicional para autenticação, além de senhas e
+nomes de usuário. Ele permite que os usuários sejam autenticados por provedores de identidade confiáveis, como Google ou Facebook, sem a necessidade de compartilhar suas senhas com sua
+aplicação.

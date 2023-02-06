@@ -1,0 +1,2 @@
+Este programa serve para transformar pacotes Ruby Gem em pacotes PKGBUILD. Isso pode ser útil se você deseja instalar um pacote Ruby 
+no Arch Linux, por exemplo. Com ele, você pode criar facilmente um arquivo PKGBUILD a partir do pacote Ruby, o que torna o processo de instalação mais simples. 

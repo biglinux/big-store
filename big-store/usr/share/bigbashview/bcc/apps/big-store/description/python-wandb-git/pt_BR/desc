@@ -1,0 +1,5 @@
+Weights and Biases (WandB) é uma ferramenta que ajuda a organizar e analisar
+experimentos de aprendizado de máquina. Ele permite que você rastreie seus hiperparâmetros, métricas e arquivos, além de fornecer visualizações úteis para entender melhor seus dados. Com o 
+WandB, você pode facilmente comparar diferentes configurações e ver como elas se desempenharam, o que pode ajudá-lo a melhorar seus modelos de aprendizado de máquina. O WandB é compatível
+com várias bibliotecas de aprendizado de máquina populares, incluindo TensorFlow, PyTorch e Keras. Ele também é fácil de usar, basta adicionar algumas linhas de código à sua configuração de
+experimento para começar a rastrear seus dados.

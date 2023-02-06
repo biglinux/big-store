@@ -1,0 +1,3 @@
+Este programa é um wrapper para OpenSSL, feito em Python, que permite o uso de criptografia de curva elíptica
+(ECDSA, ECIES), além de outros algoritmos como AES, HMAC e Blowfish. Ele é útil para quem deseja adicionar segurança adicional às suas aplicações Python. Com esse programa, você pode criar 
+chaves privadas e públicas, assinar e verificar assinaturas digitalmente, além de criptografar e descriptografar dados de forma segura.

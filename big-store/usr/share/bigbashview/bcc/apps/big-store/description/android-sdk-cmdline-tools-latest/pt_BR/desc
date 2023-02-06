@@ -1,0 +1,5 @@
+As Ferramentas de linha de comando do Android SDK são um conjunto de ferramentas que permitem
+desenvolver e testar aplicativos para Android usando comandos no terminal. Essas ferramentas incluem o SDK Manager, que permite gerenciar as versões do SDK do Android e instalar
+atualizações, e o Android Debug Bridge (ADB), que permite conectar seu dispositivo Android ao computador e executar ações de depuração. Com essas ferramentas, é possível desenvolver
+aplicativos para Android sem precisar usar uma interface gráfica, o que é útil para desenvolvedores avançados. Essa é a versão mais recente das ferramentas de linha de comando do Android
+SDK. Certifique-se de ter a versão mais recente do SDK do Android instalado para garantir compatibilidade com essas ferramentas.

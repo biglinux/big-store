@@ -1,0 +1,3 @@
+ Mangohud é uma camada adicional para jogos que usam o sistema gráfico Vulkan. Ele ajuda a monitorar coisas como a
+taxa de quadros por segundo (FPS), temperatura do computador, uso da CPU e da GPU, entre outras informações importantes. Assim, você pode ter uma ideia melhor de como o seu jogo está se
+saindo e o que pode ser feito para melhorar o desempenho. 

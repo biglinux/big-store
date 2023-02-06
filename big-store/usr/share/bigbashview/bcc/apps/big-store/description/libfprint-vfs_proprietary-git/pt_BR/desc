@@ -1,0 +1,3 @@
+Este programa é uma biblioteca de impressão biométrica chamada libfprint com suporte para o driver proprietário
+Validity/VFS. Isso significa que ele é capaz de trabalhar com impressoras digitais de dedo que usam esse tipo específico de driver. Ele foi criado para ser usado em sistemas operacionais
+Linux e é atualizado regularmente através de um repositório git.

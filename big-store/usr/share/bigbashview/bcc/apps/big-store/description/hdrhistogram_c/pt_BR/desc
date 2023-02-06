@@ -1,0 +1,2 @@
+Este programa permite medir a latência de forma precisa. Ele é uma porta do HdrHistogram para a linguagem de programação C. Com
+ele, é possível registrar e analisar dados de latência de forma eficiente. Ele é útil para avaliar desempenho em sistemas distribuídos, como redes e bancos de dados.

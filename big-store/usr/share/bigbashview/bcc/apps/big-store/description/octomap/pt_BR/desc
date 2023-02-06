@@ -1,0 +1,3 @@
+Com o programa octomap, você pode criar mapas tridimensionais de forma eficiente e precisa. Ele é baseado em uma técnica chamada 
+octrees, que permite dividir o espaço em pequenos pedaços e analisá-los separadamente. Isso torna possível criar mapas detalhados sem gastar muita memória ou tempo de processamento. Além
+disso, o octomap é projetado para lidar com incertezas, o que o torna ideal para aplicações como robótica e percepção de sensores.

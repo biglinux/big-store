@@ -1,0 +1,1 @@
+Este plugin é chamado Mapper Murmur3. Ele ajuda a calcular as hashes dos valores de um campo durante o momento de indexação e guarda esses valores no índice. Isso é útil para fazer buscas mais rápidas e precisas no banco de dados. 

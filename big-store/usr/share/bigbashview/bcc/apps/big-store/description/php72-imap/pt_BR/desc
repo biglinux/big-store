@@ -1,0 +1,3 @@
+Este programa é um módulo adicional para o PHP 7.2 que permite acessar e manipular contas de email usando o protocolo IMAP. Ele é
+útil para desenvolvimento de aplicações web que precisam ler, enviar ou gerenciar emails.Com este módulo, é possível realizar tarefas como listar pastas, buscar mensagens, ler e escrever
+emails, e muito mais. Ele é compatível com as últimas versões do PHP e é fácil de instalar e usar.

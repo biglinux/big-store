@@ -1,0 +1,2 @@
+Libksysguard é um conjunto de bibliotecas que ajudam a verificar o status atual do hardware do seu computador sem
+precisar usar muito recursos. Ele é útil para monitorar coisas como temperatura, uso de memória e de CPU. E tudo isso sem precisar depender de uma grande biblioteca como a qt5-webengine.

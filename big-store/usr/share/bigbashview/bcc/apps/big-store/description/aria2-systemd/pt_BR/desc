@@ -1,0 +1,3 @@
+Este programa é um conjunto de configurações para o gerenciamento de um serviço chamado Aria2. Ele usa o sistema Systemd para 
+garantir que o Aria2 esteja sempre funcionando corretamente e para facilitar o gerenciamento do mesmo.Com ele, você pode iniciar, parar e verificar o status do serviço Aria2 de forma fácil 
+e rápida.

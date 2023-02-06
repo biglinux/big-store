@@ -1,0 +1,2 @@
+O Firejail é um programa de sandbox para Linux que permite executar outros programas de forma isolada, para evitar que eles
+acessem arquivos ou dados importantes do sistema. Esse programa específico foi compilado sem dependência do Apparmor, que é outra ferramenta de segurança para Linux.

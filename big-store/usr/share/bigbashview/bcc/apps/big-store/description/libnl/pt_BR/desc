@@ -1,0 +1,1 @@
+libnl é uma biblioteca que fornece uma interface para trabalhar com sockets netlink. Ela é utilizada para comunicar com o kernel do sistema operacional para configuração e monitoramento de redes. Essa biblioteca é amplamente utilizada em ferramentas de administração de rede e é compatível com vários sistemas operacionais, incluindo Linux, BSD e Solaris. 

@@ -1,0 +1,4 @@
+ Este é um programa que permite que você conecte ao GPSD (serviço de dados de GPS) usando Python. Ele fornece uma maneira
+fácil de obter informações de localização, velocidade e outros dados do GPS para seu projeto.O python-gps3 é uma biblioteca simples e fácil de usar, que faz a comunicação com o GPSD e
+retorna os dados em um formato fácil de ler e usar. Ele é útil para desenvolvedores que precisam de informações de GPS em seus projetos, como aplicativos de navegação, jogos ou outras
+aplicações. 

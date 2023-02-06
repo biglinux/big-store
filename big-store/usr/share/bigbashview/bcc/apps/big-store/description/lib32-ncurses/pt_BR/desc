@@ -1,0 +1,1 @@
+Biblioteca ncurses para sistemas de 32 bits, ela permite a emulação do curses do System V Release 4.0. Isso significa que você pode usar comandos e funções semelhantes ao curses em sistemas que não possuem suporte nativo a ele. A biblioteca ncurses é amplamente utilizada em sistemas Unix e Linux. 

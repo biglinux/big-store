@@ -1,0 +1,3 @@
+Esta é uma biblioteca escrita em C++ para lidar com arquivos DICOM, que são usados ​​na medicina para armazenar imagens e
+informações médicas. Com ela, é possível ler, escrever e modificar esses arquivos de maneira fácil e eficiente.Algumas das funcionalidades da biblioteca incluem suporte para a maioria dos
+tipos de imagens DICOM, capacidade de lidar com arquivos grandes e com diversos formatos, e compatibilidade com diversas plataformas.

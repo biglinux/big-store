@@ -1,0 +1,1 @@
+ Este é um módulo para o Nginx que permite colocar um cache transparente em qualquer local específico. Isso significa que ele armazena uma cópia dos dados que foram solicitados anteriormente e, quando alguém os solicita novamente, ele os entrega a partir do cache em vez de fazer uma nova solicitação. Isso ajuda a  tornar o site mais rápido e eficiente.  

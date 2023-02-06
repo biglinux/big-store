@@ -1,0 +1,1 @@
+ librabbitmq-c é uma biblioteca para interagir com o gerenciador de mensagens RabbitMQ usando o protocolo AMQP em linguagem  C. Ele fornece uma API simples e fácil de usar para se conectar ao RabbitMQ, enviar e receber mensagens e realizar outras operações. A biblioteca é projetada para ser leve e rápida, tornando-a adequada para uso em sistemas de alta performance. 

@@ -1,0 +1,3 @@
+Este programa é um decorador para executar funções síncronas de maneira assíncrona. Ele foi escrito em Python e utiliza a 
+biblioteca 'awaitable-git' para isso. Com ele, é possível melhorar a performance de aplicações que precisam executar várias tarefas ao mesmo tempo, sem travar o programa principal.Usando
+esse decorador, é possível escrever códigos que não precisam esperar a finalização de uma tarefa para iniciar outra. Isso gera uma melhor usabilidade e experiência para o usuário final.

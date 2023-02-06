@@ -1,0 +1,1 @@
+Esta biblioteca fornece suporte para criar núcleos de programação em Haskell para serem usados com o frontend do IPython, tornando possível escrever e executar códigos Haskell diretamente no notebook IPython. 

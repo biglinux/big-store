@@ -1,0 +1,4 @@
+ Este é um programa que permite que você use expressões regulares compatíveis com Perl no OCaml. Isso significa que
+você pode escrever expressões regulares de forma semelhante a como faria no Perl, e usá-las para procurar e substituir texto no OCaml. Isso é útil se você já estiver familiarizado com as
+expressões regulares do Perl e quiser usá-las no OCaml sem precisar aprender uma nova sintaxe. Além disso, este programa também oferece algumas outras funcionalidades adicionais que não são
+encontradas na biblioteca padrão de expressões regulares do OCaml.

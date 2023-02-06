@@ -1,0 +1,3 @@
+Este é um script simples para corrigir o problema do Discord PTB querendo atualizar mesmo quando a atualização não está
+disponível nos repositórios. Ele ajuda a pular a atualização desnecessária e mantém o seu Discord funcionando sem problemas.Para usar este script, você precisará ter conhecimentos básicos
+de como usar o terminal e git. Ele é compatível com sistemas operacionais baseados em Linux e MacOS.

@@ -1,0 +1,1 @@
+Este programa em Haskell utiliza a biblioteca Parsec para transformar números em texto sem precisar de um parser grande e difícil de ser transportado para outros sistemas. 

@@ -1,0 +1,4 @@
+Este programa é uma ferramenta de linha de comando que ajuda a monitorar roteadores e switches através do protocolo SNMP.
+Ele funciona enviando requisições SNMP para dispositivos de rede e coletando informações sobre suas configurações e status. Isso permite que você verifique se os dispositivos estão
+funcionando corretamente e identifique possíveis problemas. Além disso, você pode usar essas informações para gerar relatórios e gráficos que mostram como os dispositivos estão sendo
+utilizados.

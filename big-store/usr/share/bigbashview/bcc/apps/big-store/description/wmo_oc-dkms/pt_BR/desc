@@ -1,0 +1,3 @@
+Este programa é um módulo do kernel para aumentar a velocidade do seu mouse MS Wheel Optical (MLT04). Ele é conhecido
+como wmo_oc-dkms e é usado para overclocking o mouse, ou seja, fazê-lo funcionar mais rápido do que o normal. Isso pode ser útil se você sentir que o cursor do mouse está se movendo muito
+devagar e precisa de uma resposta mais rápida. 

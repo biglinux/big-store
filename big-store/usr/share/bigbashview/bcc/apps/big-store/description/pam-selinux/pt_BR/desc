@@ -1,0 +1,3 @@
+ Este programa é uma biblioteca que permite o uso do SELinux (Sistema de Controle de Acesso de Nível de Objeto) para
+autenticação de usuários com o PAM (Módulos de Autenticação Encaixáveis). Isso significa que ele adiciona uma camada extra de segurança ao processo de login, garantindo que somente usuários
+autorizados tenham acesso ao sistema. 

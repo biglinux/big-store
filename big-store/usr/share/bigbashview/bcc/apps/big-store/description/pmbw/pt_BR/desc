@@ -1,0 +1,3 @@
+Este programa é usado para medir a quantidade de dados que a sua memória consegue transferir por segundo. Isso é
+chamado de largura de banda da memória. Ele é útil para verificar se a sua memória está funcionando corretamente e para comparar com outros computadores.Ele é especialmente útil para quem
+trabalha com programação paralela, pois isso pode afetar a velocidade de processamento.Ele é chamado de 'pmbw' e é um benchmark de largura de banda de memória paralela.

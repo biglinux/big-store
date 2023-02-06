@@ -1,0 +1,1 @@
+ O aws-c-mqtt é uma implementação da especificação MQTT 3.1.1, escrita em C99. MQTT é um protocolo de comunicação para dispositivos IoT (Internet das coisas) que permite a conexão de dispositivos com baixo poder de processamento e recursos limitados. Com esta implementação, é possível usar  o protocolo MQTT em dispositivos que utilizam C99. 

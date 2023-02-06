@@ -1,0 +1,1 @@
+ Este programa é uma interface do Perl para o algoritmo SHA-1. Ele permite que você use esse algoritmo de segurança  em seus scripts escritos em Perl. O SHA-1 é uma forma de criptografar dados, o que torna mais difícil para outras pessoas verem o que está escrito. Ele é comumente usado para proteger senhas e outras informações importantes.  

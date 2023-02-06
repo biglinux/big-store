@@ -1,0 +1,1 @@
+Este programa é uma interface em Perl para a biblioteca uulib, também conhecida como uudeview/uuenview. Ele permite que você faça uso das funções desta biblioteca através do uso de código em Perl. Isso pode ser útil para automatizar tarefas relacionadas a arquivos codificados com uuencode ou similar. 

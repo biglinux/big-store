@@ -1,0 +1,3 @@
+Este programa é chamado archivefs e ele é um sistema de arquivos de leitura somente para montagem de arquivos
+comprimidos. Ele foi inspirado por outro programa chamado archivemount.Isso significa que você pode usá-lo para ver o conteúdo de arquivos compactados, como .zip ou .tar, sem precisar
+descompactá-los primeiro. Mas você não pode alterar ou adicionar arquivos a eles enquanto eles estiverem montados.

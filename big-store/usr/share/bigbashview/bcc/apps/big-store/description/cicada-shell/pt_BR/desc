@@ -1,0 +1,4 @@
+Esse é um programa chamado cicada-shell, é semelhante ao bash, que é um dos principais shells dos sistemas operacionais Unix. A
+diferença é que ele foi escrito em Rust, que é uma linguagem de programação moderna e segura. Isso significa que ele é mais estável e seguro do que outros shells tradicionais.O cicada-shell
+é um programa muito útil para quem trabalha com sistemas operacionais Unix e precisa de um shell poderoso e seguro. Ele é fácil de usar e possui muitos recursos avançados, como suporte a
+programação em script e integração com outros programas.

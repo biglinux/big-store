@@ -1,0 +1,2 @@
+Este programa é uma ferramenta de linha de comando que permite exibir imagens em conjunto com o X11. Ele foi escrito em
+C++ e é chamado de ueberzugpp. Ele é útil para mostrar miniaturas de imagens em programas de gerenciamento de arquivos ou para adicionar imagens ao terminal.

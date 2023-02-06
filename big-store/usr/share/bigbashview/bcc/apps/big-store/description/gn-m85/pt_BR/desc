@@ -1,0 +1,3 @@
+Este é um sistema de construção chamado gn-m85. Ele ajuda a gerar arquivos de construção para o programa Ninja. Ele é 
+usado para aplicativos que ainda não foram adaptados para usar quadros e para listar as dependências dos quadros. Ele é baseado na versão 85 do Chromium e pode ser encontrado em
+https://gn-review.googlesource.com/c/gn/+/9240.

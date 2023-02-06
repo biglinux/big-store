@@ -1,0 +1,3 @@
+Este programa é responsável por atualizar o sistema OpenVPN com o systemd-resolved. Ele garante que a
+configuração do seu VPN esteja sempre atualizada e funcionando corretamente, garantindo sua privacidade e segurança enquanto você navega na internet. Ele é fácil de usar e é compatível com 
+várias distribuições Linux. Ele também pode ser configurado para atualizar automaticamente, garantindo que você sempre esteja usando a versão mais recente.

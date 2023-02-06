@@ -1,0 +1,1 @@
+O lxqt-openssh-askpass é um programa que permite que o usuário insira sua senha de forma segura quando utilizando o LXQt junto com o openssh. Ele fornece uma janela de diálogo para inserir a senha, impedindo que ela seja exposta em linhas de comando ou em arquivos de log. 

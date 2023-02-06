@@ -1,0 +1,1 @@
+Este pacote oferece suporte para SmallCheck no pacote de testes haskell-test-framework. Isso permite que você execute testes automatizados de propriedades em seu código usando SmallCheck, uma ferramenta para gerar exemplos de teste baseados em propriedades. 

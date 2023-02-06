@@ -1,0 +1,1 @@
+haskell-gi é uma coleção de binding Haskell para bibliotecas GObject Introspection. Isso significa que permite acesso fácil à funcionalidade exposta por bibliotecas C, sem a necessidade de embalagem manual. Este pacote é especialmente útil para desenvolver aplicativos GTK+ em Haskell. 

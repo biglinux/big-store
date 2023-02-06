@@ -1,0 +1,1 @@
+Este é um pacote de software em Perl que fornece uma classe base para objetos de fuso horário e uma fábrica para criar  esses objetos. Ele ajuda a gerenciar as diferenças de horário e funciona como uma camada adicional para o pacote de data e hora do Perl. 

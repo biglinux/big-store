@@ -1,0 +1,1 @@
+Esse é um conjunto de classes em C++ que fornece uma API comum para MIDI de entrada e saída em tempo real. Ele permite que você envie e receba informações MIDI para e de dispositivos MIDI externos, como teclados e controladores. A documentação está incluída para ajudar a entender como usar essas classes. 

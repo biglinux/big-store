@@ -1,0 +1,3 @@
+ Este programa é uma interface para usuários que permite ler notícias e atualizações de fontes de RSS e Atom de forma
+fácil e intuitiva. Ele utiliza a biblioteca Curses para oferecer uma experiência de usuário amigável e personalizável. Com ele, você pode acompanhar seus sites favoritos e ficar sempre
+atualizado com as últimas notícias. 

@@ -1,0 +1,1 @@
+bootsplash-systemd é um programa que permite exibir uma imagem de inicialização durante o processo de inicialização do sistema operacional. Ele é compatível com o systemd, o gerenciador de inicialização padrão em muitas distribuições Linux. Ele usa arquivos de serviço systemd para controlar a exibição da imagem de inicialização. 

@@ -1,0 +1,1 @@
+O gst-plugins-bad é um framework de gráficos multimídia que possui problemas com alguns dos seus plugins. Isso pode causar problemas ao reproduzir certos tipos de arquivos de mídia ou ao utilizar determinadas funcionalidades. É importante verificar se os plugins necessários para o uso  desejado estão funcionando corretamente antes de usar este framework. 

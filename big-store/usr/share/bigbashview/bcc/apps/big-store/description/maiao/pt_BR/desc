@@ -1,0 +1,3 @@
+Com o programa git-review, você pode gerenciar facilmente as solicitações de pull request (PR) no GitHub diretamente pelo seu
+terminal. Não há mais necessidade de navegar pelo site para fazer aprovações ou deixar comentários, tudo pode ser feito com apenas um comando.Além disso, o git-review é totalmente
+integrado com o git, então você pode continuar trabalhando com seus arquivos locais e enviá-los para o GitHub com apenas alguns cliques.

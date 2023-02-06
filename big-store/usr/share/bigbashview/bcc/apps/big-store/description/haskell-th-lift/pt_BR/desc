@@ -1,0 +1,1 @@
+ O haskell-th-lift é uma biblioteca que permite criar a classe Lift do Template Haskell para tipos de dados personalizados. Com ela, é possível usar estes tipos como expressões literais no código gerado pelo Template Haskell. Isso é útil para criar tipos de dados que possam ser facilmente usados  em outras partes do seu código sem precisar escrever conversões explícitas.  

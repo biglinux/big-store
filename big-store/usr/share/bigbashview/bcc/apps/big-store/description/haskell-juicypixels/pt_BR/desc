@@ -1,0 +1,1 @@
+ Este programa permite carregar e salvar imagens em vários formatos, incluindo png, jpeg, bitmap, gif, tga, tiff e radiance. Ele foi escrito em Haskell e usa a biblioteca JuicyPixels para lidar com imagens. 

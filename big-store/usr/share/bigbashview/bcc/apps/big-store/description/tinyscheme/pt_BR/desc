@@ -1,0 +1,2 @@
+Um interpretador de Scheme leve que implementa uma grande parte do R5RS. Ele é pequeno e rápido, fazendo dele uma boa opção para
+projetos que precisam de uma linguagem de programação dinâmica e expressiva. Ele também é compatível com a maioria dos sistemas operacionais.

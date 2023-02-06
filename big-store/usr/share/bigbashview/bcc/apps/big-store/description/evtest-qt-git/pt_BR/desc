@@ -1,0 +1,4 @@
+Este programa é um testador de joystick para sistemas operacionais Linux. Ele é feito especificamente para usuários do Qt,
+uma biblioteca de interface gráfica de usuário popular para Linux. Com ele, você pode testar os botões e os eixos do seu joystick e verificar se estão funcionando corretamente. Ele também
+mostra informações sobre o dispositivo, como o nome e o endereço.Este programa é especialmente útil se você estiver jogando jogos no Linux e precisar verificar se o seu joystick está
+configurado corretamente antes de jogar. Ele também pode ser útil para desenvolvedores que estão criando jogos ou outros aplicativos que usam joysticks.

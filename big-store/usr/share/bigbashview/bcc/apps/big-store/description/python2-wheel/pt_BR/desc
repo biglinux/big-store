@@ -1,0 +1,3 @@
+O python2-wheel é um formato de pacote pré-construído para a versão 2.7 do Python. Ele facilita a instalação de pacotes 
+e bibliotecas para seu projeto em Python 2.7, tornando o processo mais rápido e simples. Com o python2-wheel, você não precisa se preocupar com a compilação de código fonte ou com a
+configuração de dependências. Basta baixar o pacote e instalá-lo em sua máquina. 

@@ -1,0 +1,3 @@
+Este programa é uma ferramenta útil para extrair sequências de texto delimitadas de strings. É escrito em Perl e usa 
+o módulo Text::Balanced para realizar esta tarefa. Com ele, você pode facilmente extrair partes específicas de uma string e usá-las para suas próprias necessidades. Se você trabalha com
+manipulação de dados ou processamento de texto, este programa pode ser uma grande ajuda para você. Dê uma olhada e veja como ele pode simplificar suas tarefas!

@@ -1,0 +1,3 @@
+Este programa é um serviço de controle de ventoinha para GPUs AMD. Ele foi especificamente desenvolvido para funcionar
+com a versão Wayland do sistema operacional.Ele ajuda a manter a temperatura da GPU em níveis seguros, garantindo que o desempenho do computador seja otimizado sem comprometer a segurança
+do hardware.

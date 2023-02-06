@@ -1,0 +1,1 @@
+ O qemu-block-dmg é um driver de bloco para o QEMU que permite que você use arquivos DMG como discos rígidos virtuais. Ele é uma ferramenta útil para executar convidados macOS em hosts Windows ou Linux. O driver está incluído com o pacote QEMU e pode ser usado com qualquer software de virtualização baseado em QEMU.  

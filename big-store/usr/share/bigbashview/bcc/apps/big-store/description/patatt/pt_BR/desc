@@ -1,0 +1,1 @@
+ Esta biblioteca simples permite adicionar atestação criptográfica a patches enviados por e-mail. Isso garante que os patches são seguros e vêm de uma fonte confiável. Dessa forma, você pode ter certeza de que os patches instalados em seus sistemas são os corretos e não foram alterados  durante a transmissão.  

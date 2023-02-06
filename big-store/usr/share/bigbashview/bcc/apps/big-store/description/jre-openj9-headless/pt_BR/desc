@@ -1,0 +1,3 @@
+OpenJDK Java 18 é um ambiente de execução de código sem interface gráfica, ou seja, sem janelas e botões. Ele é usado
+para rodar programas que não precisam de interação com o usuário, como serviços ou programas de linha de comando.Esse pacote específico é baseado na implementação OpenJ9, que é uma das
+várias opções de implementação disponíveis para o Java.

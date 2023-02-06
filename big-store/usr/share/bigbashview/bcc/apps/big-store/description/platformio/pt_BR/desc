@@ -1,0 +1,4 @@
+O PlatformIO é uma ferramenta de construção de código cross-platform, ou seja, ele funciona em diversos sistemas
+operacionais. Ele também é um gerenciador de bibliotecas, o que significa que ele ajuda você a encontrar e usar as bibliotecas certas para o seu projeto.Com o PlatformIO, você pode
+facilmente construir e testar seu código em diferentes plataformas, como microcontroladores, sistemas embarcados e computadores. Ele também oferece integração com várias ferramentas de
+desenvolvimento, como o Git e o Jira, para tornar o processo de trabalho ainda mais fácil.

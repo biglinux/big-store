@@ -1,0 +1,1 @@
+O mephisto.lv2 é um plugin LV2 que contém um compilador FAUST embutido, permitindo que os usuários compilam e executem seus programas FAUST em tempo real dentro do plugin. Isso permite uma flexibilidade maior e um desempenho melhor do que se os programas fossem compilados fora do plugin. 

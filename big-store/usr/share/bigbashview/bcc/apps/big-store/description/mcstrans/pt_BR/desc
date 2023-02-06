@@ -1,0 +1,3 @@
+Este programa é chamado mcstrans e é responsável por traduzir as configurações do Sistema de Controle de Acesso de Níveis de
+Segurança (SELinux) para que os aplicativos possam entender e seguir essas regras de segurança. Ele é um daemon, ou seja, um programa que fica rodando em segundo plano e realiza tarefas em 
+um sistema operacional.Sem ele, os aplicativos poderiam não funcionar corretamente ou poderiam não estar sujeitos às regras de segurança necessárias para proteger o sistema.

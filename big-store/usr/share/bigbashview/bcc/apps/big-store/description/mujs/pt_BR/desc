@@ -1,0 +1,1 @@
+mujs é um interpretador de javascript embutível escrito em C. Ele é projetado para ser usado como biblioteca, permitindo que você adicione funcionalidades javascript às suas aplicações C. É uma ferramenta útil para desenvolvedores que precisam adicionar scriptabilidade a seus programas, sem precisar de uma máquina virtual completa ou de uma instalação de javascript separada.  

@@ -1,0 +1,1 @@
+Esse programa é uma implementação dos mapas de código-fonte propostos pelo Google e Mozilla. Ele é escrito em Haskell, uma linguagem de programação funcional.Os mapas de código-fonte permitem que os desenvolvedores vejam o código-fonte original, mesmo quando ele foi minificado ou convertido para outra linguagem. Isso pode ser útil para depuração e análise do código. 

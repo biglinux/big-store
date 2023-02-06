@@ -1,0 +1,2 @@
+Este programa é um framework para desenvolvimento de aplicativos sem interface gráfica. Ele é compatível com várias 
+plataformas e não inclui o módulo QtGui ou QtWidgets.

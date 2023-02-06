@@ -1,0 +1,1 @@
+ulogd é um programa que permite o registro de pacotes no espaço do usuário para o netfilter, que é um conjunto  de ferramentas de firewall para o Linux. Ele captura pacotes de rede e os armazena em um arquivo para análise posterior. Ele é uma ferramenta útil para monitorar e garantir a segurança de sua rede. 

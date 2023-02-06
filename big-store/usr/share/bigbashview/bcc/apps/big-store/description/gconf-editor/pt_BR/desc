@@ -1,0 +1,4 @@
+O gconf-editor é um programa que permite a edição gráfica do registro gconf, um sistema de configuração do sistema
+operacional Linux. Ele é útil para acessar e modificar configurações avançadas do sistema que não estão disponíveis através de ferramentas gráficas padrão.Com o gconf-editor, é possível
+acessar as configurações de vários aplicativos e do sistema em geral, como por exemplo, o tema do sistema, configurações de área de trabalho, etc. Além disso, o gconf-editor também permite 
+a criação de novas entradas e a remoção de entradas existentes, o que pode ser útil para solucionar problemas de configuração ou personalizar ainda mais o sistema operacional.

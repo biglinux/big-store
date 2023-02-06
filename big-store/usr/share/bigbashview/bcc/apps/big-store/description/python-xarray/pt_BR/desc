@@ -1,0 +1,1 @@
+O python-xarray é uma biblioteca em Python para trabalhar com arrays e conjuntos de dados rotulados N-D.  Ele facilita a manipulação e análise de dados multi-dimensionais, tornando-os fáceis de entender e usar. Ele também vem com ferramentas para trabalhar com formatos de arquivo comuns, como NetCDF e HDF5, e integração com outras bibliotecas populares, como NumPy e pandas. 

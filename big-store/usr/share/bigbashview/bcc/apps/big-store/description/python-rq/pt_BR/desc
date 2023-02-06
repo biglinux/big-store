@@ -1,0 +1,6 @@
+ Este é um programa chamado python-rq. Ele ajuda as pessoas a criar filas de trabalhos em seus projetos Python. Isso
+significa que você pode colocar tarefas em uma fila e o programa as executará uma de cada vez, na ordem em que foram adicionadas. Isso é útil quando você tem várias tarefas que precisam ser
+realizadas, mas não quer que elas aconteçam ao mesmo tempo.Por exemplo, você pode usar python-rq para enviar e-mails em massa. Em vez de enviar todos os e-mails ao mesmo tempo, você os
+coloca na fila e eles são enviados um de cada vez. Isso evita que o seu servidor de e-mail fique sobrecarregado.O python-rq é fácil de usar e possui vários recursos avançados. Ele pode
+lidar com tarefas recorrentes, tarefas programadas e muito mais. Se você precisa de uma maneira fácil de gerenciar filas de trabalhos em seus projetos Python, o python-rq é uma ótima
+escolha. 

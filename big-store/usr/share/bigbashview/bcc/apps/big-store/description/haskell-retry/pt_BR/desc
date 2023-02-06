@@ -1,0 +1,1 @@
+O programa haskell-retry fornece combinadores para tentar realizar ações monádicas que podem  falhar. Isso permite que você execute a ação várias vezes até que ela seja bem-sucedida, ou até que um certo número de tentativas tenha sido alcançado. É útil para lidar com situações em que a ação é dependente de recursos externos que podem estar temporariamente indisponíveis. 

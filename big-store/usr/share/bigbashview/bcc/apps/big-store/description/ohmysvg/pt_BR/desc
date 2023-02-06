@@ -1,0 +1,3 @@
+Este programa foi criado para otimizar arquivos SVG, tornando-os menores e mais rápidos de carregar. Ele remove informações desnecessárias 
+do arquivo, como comentários e espaços em branco, e compacta o código para que ele ocupe menos espaço. Isso é útil para quem usa SVG em sites ou aplicativos, pois ajuda a carregar as
+imagens mais rapidamente para os usuários.

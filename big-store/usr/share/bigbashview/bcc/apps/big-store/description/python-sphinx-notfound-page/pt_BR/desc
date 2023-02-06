@@ -1,0 +1,4 @@
+Usando a extensão Sphinx, é possível criar uma página de erro 404 personalizada com URLs absolutos. Isso pode ser útil 
+para manter a aparência consistente do seu site, mesmo quando as páginas não são encontradas. Com essa extensão, é possível definir uma página de erro 404 com uma mensagem personalizada, ou
+até mesmo um redirecionamento para outra página. Além disso, essa extensão é fácil de usar e se integra perfeitamente ao Sphinx, tornando-se uma ótima opção para criar páginas de erro 404
+no seu projeto Python.

@@ -1,0 +1,3 @@
+Este é um módulo para o programa php 8.2. Ele adiciona suporte para operações matemáticas avançadas, como cálculos de precisão
+arbitrária e operações com números grandes. Com este módulo, você pode fazer cálculos complexos em seus scripts PHP sem precisar de bibliotecas externas. Ele é útil para aplicações como
+criptografia, geração de números aleatórios seguros, e operações matemáticas com grandes números inteiros e fracionários.

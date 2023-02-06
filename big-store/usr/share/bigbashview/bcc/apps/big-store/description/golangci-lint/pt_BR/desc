@@ -1,0 +1,2 @@
+O golangci-lint é uma ferramenta que ajuda a encontrar erros no código escrito em Go. Ele é 5x mais rápido do que o
+gometalinter, outra ferramenta popular para esse fim.

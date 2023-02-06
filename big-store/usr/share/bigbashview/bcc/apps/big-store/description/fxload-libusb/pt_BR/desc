@@ -1,0 +1,3 @@
+Este programa é chamado fxload e é usado para carregar firmware em dispositivos USB. Ele vem dos exemplos da biblioteca libusb,
+que é uma biblioteca comum usada para comunicação com dispositivos USB.Com este programa, você pode facilmente carregar o firmware em seu dispositivo USB, sem precisar se preocupar com
+detalhes técnicos complicados.

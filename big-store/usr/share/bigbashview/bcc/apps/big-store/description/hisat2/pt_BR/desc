@@ -1,0 +1,3 @@
+Hisat2 é um programa de alinhamento rápido e sensível para mapear leituras de sequenciamento de próxima geração
+contra genomas. Ele é especialmente útil para dados de RNA-seq e outras aplicações de sequenciamento de transcriptoma. Ele usa uma técnica de indexação de espaço O(n) para garantir alta
+velocidade e sensibilidade, e suporta a maioria das plataformas de sequenciamento de nova geração.

@@ -1,0 +1,1 @@
+Este dispositivo é usado para habilitar suporte a smartcards para máquinas virtuais criadas com QEMU. Ele permite que as  smartcards sejam conectadas à máquina virtual, assim como se estivessem conectadas a uma máquina real, permitindo que os programas da máquina virtual acessem os dados contidos na smartcard. 

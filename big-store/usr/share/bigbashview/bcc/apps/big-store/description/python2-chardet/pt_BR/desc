@@ -1,0 +1,3 @@
+Este é um módulo para o Python 2 que ajuda a detectar automaticamente a codificação de caracteres de um
+texto. É útil para garantir que o texto seja lido corretamente, independentemente da codificação original.Com o python2-chardet, você não precisa se preocupar em descobrir manualmente a
+codificação de um texto, pois o módulo faz isso automaticamente para você. Assim, você pode ter certeza de que o texto será exibido corretamente sem erros de codificação.

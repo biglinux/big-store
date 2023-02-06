@@ -1,0 +1,2 @@
+Uma ferramenta de linha de comando chamada TUI (interface de usuário de texto) para o Mastodon, um aplicativo de mídia social
+descentralizado. As teclas são inspiradas no estilo do editor de texto vim. É semelhante ao pacote 'aur/tut', mas foi renomeado para evitar conflitos de nome.

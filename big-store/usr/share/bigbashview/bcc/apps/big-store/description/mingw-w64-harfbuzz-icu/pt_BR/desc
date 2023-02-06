@@ -1,0 +1,3 @@
+Esse programa é um motor de formatação de texto chamado OpenType. Ele é especialmente útil para lidar com tipos de
+letra em diferentes idiomas e scripts. Ele foi integrado com outra biblioteca chamada ICU e otimizado para funcionar com o sistema operacional mingw-w64. Com ele, você pode garantir que o
+texto será exibido de forma correta e esteticamente agradável em todas as plataformas.

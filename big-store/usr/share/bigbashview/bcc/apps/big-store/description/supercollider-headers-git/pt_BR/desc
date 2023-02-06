@@ -1,0 +1,3 @@
+Os cabeçalhos do SuperCollider são usados para construir plugins. Eles contêm informações importantes sobre como os programas
+devem se comunicar com o SuperCollider, para que os plugins possam funcionar corretamente.Esses cabeçalhos estão disponíveis como um repositório git, o que significa que você pode
+facilmente manter sua cópia sempre atualizada. 

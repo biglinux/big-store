@@ -1,0 +1,1 @@
+O python-wcwidth é uma biblioteca em Python que mede o número de células de coluna do Terminal utilizadas por caracteres largos. Isso é útil ao desenvolver aplicativos que precisam se adaptar a diferentes tamanhos de tela ou fontes. 

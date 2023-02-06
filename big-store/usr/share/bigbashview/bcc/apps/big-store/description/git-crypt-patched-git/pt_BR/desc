@@ -1,0 +1,3 @@
+Com o git-crypt, você pode encriptar arquivos de forma transparente dentro do seu repositório Git. Além disso, ele possui uma 
+correção para funcionar com a estrutura de trabalho (worktree) do Git.Assim, você pode ter a segurança de que suas informações confidenciais ficarão protegidas, mesmo em um repositório
+compartilhado. Com esse programa, você pode ter a certeza de que seus dados estarão seguros.

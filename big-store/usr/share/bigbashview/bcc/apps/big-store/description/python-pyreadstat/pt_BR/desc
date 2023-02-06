@@ -1,0 +1,3 @@
+Este programa é capaz de ler arquivos SAS, SPSS e Stata e transformá-los em dataframes do Pandas. Isso é útil para quem 
+trabalha com análise de dados e precisa importar esses tipos de arquivos para seus projetos.Além disso, o programa é desenvolvido em Python, o que facilita a integração com outras
+bibliotecas e ferramentas de análise de dados.

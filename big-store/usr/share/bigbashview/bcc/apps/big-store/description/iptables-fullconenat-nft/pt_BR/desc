@@ -1,0 +1,3 @@
+O iptables é uma ferramenta poderosa para controlar os pacotes no kernel Linux. Ele permite definir regras para permitir 
+ou bloquear certos tipos de tráfego de rede. Com o suporte FULLCONENAT, essa ferramenta se torna ainda mais completa, permitindo configurações avançadas de segurança. Ela é utilizada
+através da interface nft.

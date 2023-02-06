@@ -1,0 +1,1 @@
+O haskell-generic-lens-lite é um pacote que fornece lentes de campos monomórficos semelhantes ao generic-lens. Ele permite acessar e modificar facilmente os campos de estruturas de dados complexas em Haskell. Com ele, você pode escrever código mais limpo e legível, além  de evitar a escrita de funções de acesso e modificação manuais para cada campo. 

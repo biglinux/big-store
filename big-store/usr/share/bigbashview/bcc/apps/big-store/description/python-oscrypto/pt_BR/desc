@@ -1,0 +1,1 @@
+A biblioteca python-oscrypto é uma biblioteca de criptografia sem necessidade de compilador, ou seja, ela não precisa ser compilada antes de ser usada. Ela é apoiada pelo sistema operacional, o que significa que ela usa recursos do sistema operacional para criptografar e descriptografar dados. 

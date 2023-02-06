@@ -1,0 +1,1 @@
+Este programa é usado para forçar o ksmserver a usar renderização de software em vez de renderização gráfica. Isso pode ser útil em sistemas com placas gráficas antigas ou com problemas de compatibilidade.Ao usar a renderização de software, algumas funcionalidades podem ser afetadas, mas isso geralmente garante uma melhor estabilidade e desempenho. 

@@ -1,0 +1,4 @@
+Esta biblioteca permite que você use o libevent com o Lua. O libevent é uma biblioteca que ajuda a gerenciar eventos, como
+conexões de rede e timers, de forma eficiente. Com ela, você pode escrever programas Lua que sejam rápidos e escaláveis.Com esse recurso, você pode criar aplicativos com mais facilidade,
+pois o libevent cuida de toda a parte de gerenciamento de eventos. Além disso, ele é compatível com diferentes sistemas operacionais, o que torna ainda mais fácil usá-lo em diferentes
+projetos.

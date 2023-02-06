@@ -1,0 +1,3 @@
+Este programa é um daemon de notificação leve, ou seja, é um programa que fica rodando em segundo plano e fornece 
+notificações para o usuário. Ele tem um layout altamente personalizável, o que significa que você pode escolher como as notificações aparecem na tela. Ele é escrito em Rust, que é uma
+linguagem de programação moderna e segura. 

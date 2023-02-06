@@ -1,0 +1,4 @@
+Este programa fornece ferramentas para ajudar a analisar e entender as políticas do SELinux. Ele pode ser
+usado para verificar se as regras estão configuradas corretamente e para encontrar problemas de segurança potenciais.Algumas das funcionalidades incluem a capacidade de comparar políticas, 
+verificar a relação entre regras e objetos e gerar relatórios detalhados sobre a configuração atual.O setools é uma ferramenta valiosa para administradores de sistemas e profissionais de
+segurança que trabalham com o SELinux.

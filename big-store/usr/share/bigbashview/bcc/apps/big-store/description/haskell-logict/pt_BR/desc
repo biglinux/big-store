@@ -1,0 +1,1 @@
+haskell-logict é uma biblioteca para programação lógica com backtracking escrita em Haskell. Ela fornece uma monad, que é uma estrutura de dados para lidar com cálculos não-determinísticos, permitindo que você escreva programas lógicos de forma concisa e clara. 

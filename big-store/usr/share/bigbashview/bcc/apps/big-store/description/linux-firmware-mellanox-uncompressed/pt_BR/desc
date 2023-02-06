@@ -1,0 +1,4 @@
+Este pacote contém arquivos de firmware para Linux (sem compressão de módulo) para os switches Mellanox Spectrum.
+Esses arquivos são necessários para que o hardware funcione corretamente no sistema Linux.Ele ajuda a garantir que todos os recursos do switch Mellanox Spectrum sejam acessíveis e
+funcionem de maneira eficiente. Ele também mantém o sistema Linux atualizado e seguro.Se você estiver usando um switch Mellanox Spectrum em sua rede, é importante manter esse pacote de
+firmware atualizado para garantir que tudo esteja funcionando corretamente.

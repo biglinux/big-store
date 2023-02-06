@@ -1,0 +1,3 @@
+Esse programa é uma extensão para o PHP 8.1 que adiciona mais segurança à sua aplicação. Ele inclui o módulo sodium, que é uma 
+biblioteca de criptografia segura. Com esse programa, você pode criptografar informações sensíveis, como senhas e dados pessoais, de forma segura e confiável. Além disso, ele também oferece
+outras funcionalidades de segurança. Este é uma ótima opção para quem desenvolve aplicações web e quer garantir a segurança dos dados dos usuários.

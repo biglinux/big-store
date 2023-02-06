@@ -1,0 +1,3 @@
+Esse programa é uma biblioteca de expressões regulares criada pelo Google. Ela foi adaptada para funcionar com a
+linguagem de programação OCaml. Isso significa que você pode usar essa biblioteca em seus programas escritos em OCaml para procurar e manipular padrões de texto. É uma ferramenta útil para 
+qualquer pessoa que precise trabalhar com dados de texto em seus programas.

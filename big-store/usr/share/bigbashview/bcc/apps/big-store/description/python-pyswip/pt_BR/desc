@@ -1,0 +1,1 @@
+python-pyswip é um wrapper para utilizar o SWI-Prolog, um sistema de programação lógica popular, a partir do Python. Com ele,  você pode utilizar as funcionalidades do Prolog dentro do seu código Python, combinando as vantagens de ambas as linguagens. É uma ótima opção para quem precisa de lógica formal e inferência em seus projetos Python. 

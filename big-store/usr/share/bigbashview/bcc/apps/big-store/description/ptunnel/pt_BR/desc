@@ -1,0 +1,1 @@
+ptunnel é uma ferramenta que permite criar túneis de conexão TCP confiáveis usando pacotes ICMP echo request e reply. Ele é útil para contornar firewalls e acessar redes restritas. 

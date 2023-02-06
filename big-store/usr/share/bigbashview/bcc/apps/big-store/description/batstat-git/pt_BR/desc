@@ -1,0 +1,4 @@
+Este programa, chamado batstat-git, é uma ferramenta de linha de comando que permite ver o status da bateria do seu
+dispositivo. Ele exibe informações como a porcentagem de carga, se está carregando ou desconectado, e o tempo estimado restante. É útil para saber quando é hora de carregar o dispositivo
+antes de sair de casa ou durante trabalhos ao ar livre.O programa é fácil de usar e pode ser instalado rapidamente. Ele também é personalizável, permitindo que você configure as informações
+exibidas e o formato de saída.

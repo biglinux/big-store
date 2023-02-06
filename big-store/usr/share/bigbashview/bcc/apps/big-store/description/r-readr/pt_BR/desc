@@ -1,0 +1,4 @@
+Este programa é útil para ler dados em formato retangular. Ele é especialmente útil quando os dados estão em um
+arquivo de texto simples e precisam ser organizados em uma tabela para análise. Ele pode ler vários tipos de arquivos, como CSV, TSV e outros. Além disso, ele permite que você especifique
+como os dados devem ser lidos, como a codificação de caracteres, o separador de colunas e muito mais. Ele é fácil de usar e pode ser integrado a outros programas para automatizar tarefas de
+leitura de dados.

@@ -1,0 +1,3 @@
+ rpmlint-git é uma ferramenta útil para verificar erros comuns nos pacotes RPM. Ele verifica se há
+erros de formatação, se os arquivos estão faltando e se há problemas com as dependências. Ele também pode fornecer sugestões para melhorar a qualidade do pacote. É uma ferramenta essencial 
+para qualquer pessoa que crie pacotes RPM para garantir que eles sejam de alta qualidade e sem erros.

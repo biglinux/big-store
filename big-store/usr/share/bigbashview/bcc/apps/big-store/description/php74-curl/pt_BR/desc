@@ -1,0 +1,3 @@
+O módulo curl para PHP 7.4 permite que você faça solicitações HTTP e HTTPS em seus scripts PHP. Ele suporta vários protocolos, como 
+FTP, FTPS, HTTP, HTTPS, GOPHER, TELNET, DICT, FILE e LDAP. Além disso, ele possui uma série de opções de configuração para personalizar suas solicitações, como definir cabeçalhos, definir
+tempo limite e ativar cookies. Este módulo é útil para automatizar tarefas, como enviar dados para um formulário ou baixar arquivos de um servidor.

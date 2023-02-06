@@ -1,0 +1,1 @@
+A libnftnl é uma biblioteca que fornece uma interface para o subsistema nf_tables do kernel Linux. Ela permite acesso e manipulação de regras de firewall e de filtragem de pacotes de rede de maneira fácil e eficiente. A libnftnl é uma ferramenta poderosa para administradores de redes e desenvolvedores de aplicações de rede. 

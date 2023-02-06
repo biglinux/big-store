@@ -1,0 +1,1 @@
+A biblioteca python-capng é uma ferramenta para o sistema operacional Linux que torna o uso de capacidades POSIX mais fácil. Ela oferece ligações para o Python, permitindo que os desenvolvedores possam acessar as capacidades POSIX de forma simples e direta em seus programas. 

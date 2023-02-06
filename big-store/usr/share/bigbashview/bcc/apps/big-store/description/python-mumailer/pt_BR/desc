@@ -1,0 +1,4 @@
+Com o pacote python-mumailer, é fácil enviar mensagens de e-mail usando o protocolo SMTP. Ele é simples de usar e
+permite que você configure facilmente as configurações de e-mail, como o endereço de remetente e destinatário, assunto e corpo da mensagem.Além disso, o python-mumailer suporta anexos e
+personalização de cabeçalhos, o que o torna uma ótima opção para quem precisa enviar e-mails com arquivos anexos ou com outras especificações avançadas.Se você está procurando uma forma
+fácil e rápida de enviar e-mails com python, o python-mumailer é uma ótima escolha.

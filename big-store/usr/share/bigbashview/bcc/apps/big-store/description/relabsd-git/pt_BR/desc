@@ -1,0 +1,3 @@
+Este programa faz com que seus dispositivos de entrada sejam usados como joysticks, convertendo eixos relativos em
+absolutos. Isso significa que, em vez de ter que mover o mouse ou o trackpad para um ponto específico na tela, você pode simplesmente mover-se na direção desejada e o cursor se moverá na
+mesma proporção. Isso pode ser útil para jogos ou outras aplicações que exigem precisão de controle.

@@ -1,0 +1,1 @@
+A haskell-ghc-lib-parser é uma biblioteca para parsear arquivos do GHC (Glasgow Haskell Compiler). Com ela, é possível acessar informações sobre o código Haskell sem precisar da instalação completa do compilador. Isso significa que é possível utilizar a biblioteca em projetos que não dependem de uma versão  específica do GHC. 

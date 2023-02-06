@@ -1,0 +1,1 @@
+Este programa é uma coleção de gerenciadores de inicialização que permitem iniciar o sistema a partir de sistemas de arquivos FAT, ext2/3/4 e btrfs, a partir de CDs e via PXE. Ele é chamado syslinux. 

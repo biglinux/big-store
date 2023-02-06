@@ -1,0 +1,1 @@
+O 'perl-try-tiny' é um módulo para o interpretador de script Perl que permite lidar com exceções (erros) de maneira simples e eficiente. Ele fornece uma forma de capturar e tratar exceções de maneira mais organizada, sem precisar escrever muito código. Além disso, ele possibilita a localização correta de erros, através do uso da variável $@, o que facilita a depuração do código. 

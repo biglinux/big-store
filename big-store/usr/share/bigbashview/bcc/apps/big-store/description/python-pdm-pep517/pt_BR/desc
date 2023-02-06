@@ -1,0 +1,1 @@
+Esta ferramenta é especificamente projetada para gerenciar pacotes Python e suporta metadados específicos  do PEP 621. Ela é baseada no backend PEP 517 e é conhecida como python-pdm-pep517. 

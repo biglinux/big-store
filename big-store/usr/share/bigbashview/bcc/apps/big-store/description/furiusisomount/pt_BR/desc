@@ -1,0 +1,3 @@
+ Este programa é uma interface gráfica feita em PyGTK para gerenciar arquivos de imagem ISO, IMG, BIN, MDF e NRG. Ele permite que 
+você abra, crie e edite esses tipos de arquivos sem precisar usar linhas de comando. É uma ótima opção para quem trabalha com esses arquivos com frequência e quer uma forma fácil e
+intuitiva de gerenciá-los. 

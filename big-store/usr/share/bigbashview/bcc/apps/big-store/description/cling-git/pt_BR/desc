@@ -1,0 +1,4 @@
+ cling-git é um interpretador interativo de C++ construído com base nas bibliotecas LLVM e Clang. Isso significa que ele
+permite que você digite código C++ e veja os resultados imediatamente, sem precisar compilar o código antes. É uma ferramenta útil para aprender a programar em C++, experimentar com novos
+conceitos e debugar código existente. Ele também tem recursos avançados, como suporte a C++11, C++14 e C++17, bem como suporte a bibliotecas adicionais. Ele é open source e está disponível 
+para várias plataformas, incluindo Windows, Mac e Linux.

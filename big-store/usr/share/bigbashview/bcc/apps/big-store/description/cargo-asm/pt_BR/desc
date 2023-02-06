@@ -1,0 +1,1 @@
+cargo-asm é um subcomando do gerenciador de pacotes Rust, cargo, que permite visualizar o assembly ou llvm-ir gerado para o seu código Rust. Isso pode ser útil para entender como o compilador está otimizando seu código ou para depurar problemas com a geração de código. A saída pode ser visualizada em uma variedade de formatos, incluindo texto, HTML e JSON. 

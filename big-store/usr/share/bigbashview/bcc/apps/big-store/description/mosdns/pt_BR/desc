@@ -1,0 +1,4 @@
+mosdns é uma ferramenta que ajuda a encaminhar as solicitações de nomes de domínio para os servidores de DNS corretos.
+Isso significa que, quando você digita o endereço de um site na barra de endereços do seu navegador, o mosdns ajuda a encontrar o endereço real do site para você. Ele é útil em redes
+maiores, onde vários servidores de DNS precisam ser gerenciados.O mosdns é fácil de configurar e usar, e pode ser usado tanto em ambientes Windows quanto Linux. Ele também suporta várias
+funções avançadas, como o bloqueio de sites indesejados e a otimização do desempenho do DNS.

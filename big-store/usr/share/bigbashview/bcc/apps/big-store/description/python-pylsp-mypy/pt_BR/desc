@@ -1,0 +1,4 @@
+Este programa adiciona verificação de tipos estáticos para o servidor Python-LSP usando o Mypy. Isso significa que
+ele verifica se o código está escrito corretamente antes de ser executado, o que ajuda a evitar erros e torna o código mais confiável.O Mypy é uma ferramenta popular para verificação de
+tipos estáticos em Python e é usado por muitos desenvolvedores para garantir a qualidade do código. Com este programa, você pode usufruir dessa ferramenta diretamente no servidor Python-LSP
+para tornar seu fluxo de trabalho ainda mais eficiente.

@@ -1,0 +1,1 @@
+Este programa é usado para executar suites de testes externos para verificar se houve algum tipo de quebra no código. Ele foi escrito em Ruby e é conhecido como ruby-bake-test-external. Ele é útil para garantir que o código esteja funcionando corretamente antes de ser lançado em produção. 

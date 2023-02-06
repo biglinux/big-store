@@ -1,0 +1,4 @@
+O python-pyspark é uma API desenvolvida em Python para trabalhar com o Apache Spark. Ele permite utilizar o poder de
+processamento distribuído do Spark para trabalhar com grandes volumes de dados, realizando operações como filtragem, agrupamento, contagem e muito mais.Com o python-pyspark, é possível
+escrever scripts em Python para processar grandes quantidades de dados de forma rápida e eficiente. Ele também fornece uma interface de programação de aplicativos (API) para interagir com
+outras bibliotecas e ferramentas de processamento de dados, como o Hadoop.

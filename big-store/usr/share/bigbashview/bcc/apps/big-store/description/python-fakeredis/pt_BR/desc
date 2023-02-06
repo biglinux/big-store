@@ -1,0 +1,1 @@
+O python-fakeredis é uma implementação falsa da API do Redis, criada para fins de teste. Ele permite que você teste seu código que usa o Redis sem precisar configurar um servidor real. Ele é baseado na biblioteca redis-py, que é a biblioteca oficial do Redis para o Python. 

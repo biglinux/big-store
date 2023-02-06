@@ -1,0 +1,3 @@
+Este é um programa chamado PHP 8.0 que é usado para trabalhar com outro programa chamado CGI. O CGI é um tipo de ferramenta que
+ajuda a fazer com que os sites funcionem corretamente. Então, este programa ajuda a fazer com que o PHP 8.0 funcione bem quando estiver trabalhando com o CGI.Além disso, o programa também
+funciona com outra ferramenta chamada FCGI SAPI. Isso significa que ele pode ajudar a fazer várias tarefas ao mesmo tempo de forma eficiente.

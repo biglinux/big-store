@@ -1,0 +1,3 @@
+O posh-git é uma ferramenta para tornar a linha de comando do Git mais fácil e intuitiva de usar. Ele adiciona várias
+informações úteis sobre o estado do seu repositório diretamente na sua linha de comando, como o branch atual, o estado das alterações e o progresso dos seus commits.A versão para Bash/Zsh
+do posh-git torna ainda mais fácil de usar, pois é compatível com os shells mais comuns usados no Linux e MacOS.

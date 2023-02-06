@@ -1,0 +1,1 @@
+O haskell-openpgp-asciiarmor é um codec de armadura ASCII para o protocolo de criptografia de chave pública OpenPGP (RFC4880). Ele permite codificar e decodificar mensagens criptografadas e assinadas digitalmente usando esse formato. 

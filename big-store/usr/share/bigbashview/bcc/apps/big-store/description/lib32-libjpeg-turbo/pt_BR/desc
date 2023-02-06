@@ -1,0 +1,1 @@
+O lib32-libjpeg-turbo é um codec de imagem JPEG que fornece compressão e descompressão aceleradas. Ele é projetado para ser compatível com a especificação JPEG padrão e é uma versão de 32 bits da biblioteca libjpeg-turbo. Ele é útil para aplicativos que precisam de alta velocidade de compressão e descompressão de imagens JPEG sem sacrificar a qualidade da imagem. 

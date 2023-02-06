@@ -1,0 +1,4 @@
+Este programa permite que você escreva em uma área de memória compartilhada. Isso é útil quando você precisa compartilhar
+informações entre diferentes processos ou programas. A memória compartilhada é uma área de armazenamento que pode ser acessada por vários processos ao mesmo tempo, sem precisar de cópias da
+informação.Com este programa, você pode escrever informações em uma área de memória compartilhada, que pode ser facilmente acessada por outros processos ou programas. Isso facilita a
+comunicação entre diferentes partes de um sistema.

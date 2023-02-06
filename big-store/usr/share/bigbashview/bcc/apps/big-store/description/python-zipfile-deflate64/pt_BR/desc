@@ -1,0 +1,1 @@
+Este programa usa a API zipfile do Python para extrair arquivos ZIP com compressão Deflate64. Ele é  útil para descompactar arquivos grandes de forma eficiente e gerenciá-los facilmente no seu código Python. 

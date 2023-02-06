@@ -1,0 +1,4 @@
+O VMware Remote Console é uma ferramenta útil para gerenciar máquinas virtuais em um ambiente VMware. Com ele, é possível
+ter acesso remoto aos recursos da máquina virtual, como ajustar configurações, instalar aplicativos e resolver problemas. Além disso, ele permite que você visualize a tela da máquina
+virtual em tempo real, tornando mais fácil trabalhar com ela de forma remota.O vmware-vmrc é a implementação do console remoto VMware, oferecendo uma interface intuitiva e fácil de usar
+para gerenciar suas máquinas virtuais. Se você precisa gerenciar suas máquinas virtuais de forma remota, este é o programa ideal para você.

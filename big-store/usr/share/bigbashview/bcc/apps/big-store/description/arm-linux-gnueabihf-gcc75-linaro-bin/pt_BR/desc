@@ -1,0 +1,4 @@
+Este é um compilador da coleção GNU, especialmente projetado para sistemas ARMv7 com EABI e suporte para ponto flutuante de 
+precisão dura. Ele foi desenvolvido pela equipe Linaro, que é uma organização sem fins lucrativos dedicada a otimizar o desempenho de sistemas Linux em dispositivos embarcados.Com este
+compilador, é possível compilar códigos fonte em linguagem C, C++, Objective-C, Fortran, Ada, e outras para rodarem em sistemas baseados em ARM. Ele é compatível com a maioria dos sistemas 
+operacionais Linux e pode ser facilmente integrado a outras ferramentas de desenvolvimento.

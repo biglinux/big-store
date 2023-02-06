@@ -1,0 +1,4 @@
+Conduktor é um cliente de escritório para o sistema de mensageria Kafka. Ele permite que os usuários visualizem, gerenciem e
+interajam com tópicos e mensagens no Kafka de maneira fácil e intuitiva. Com Conduktor, é possível criar, excluir e gerenciar tópicos, bem como enviar e receber mensagens. Além disso, ele
+fornece recursos avançados, como filtragem de mensagens, busca de texto integral e suporte para vários clusters.Em resumo, o Conduktor é uma ferramenta poderosa para qualquer pessoa que
+trabalhe com o Kafka e precisa de uma maneira fácil de gerenciar e interagir com seus tópicos e mensagens.

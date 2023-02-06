@@ -1,0 +1,4 @@
+Este é um programa responsável por compilar o código escrito na linguagem SELinux Common Intermediate
+Language. Ele é fundamental para o funcionamento correto do sistema de segurança SELinux, que protege o sistema operacional de ameaças externas. O compilador transforma o código escrito na 
+linguagem em uma forma que o sistema possa entender e executar, garantindo a segurança do sistema.Sem esse programa, o SELinux não funcionaria corretamente, tornando o sistema vulnerável a 
+ameaças externas. Por isso, é importante que ele esteja instalado e funcionando corretamente em todos os sistemas que utilizam o SELinux.

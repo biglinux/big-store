@@ -1,0 +1,3 @@
+Esse programa é usado para ajudar na otimização dos hiperparâmetros de seu projeto. Hiperparâmetros são valores que precisam
+ser definidos antes de rodar o seu modelo de aprendizado de máquina, e escolhendo os valores corretos pode ajudar a melhorar a performance do seu modelo. O python-hyperchamber é uma
+ferramenta que pode ajudar a encontrar os melhores valores para esses hiperparâmetros.

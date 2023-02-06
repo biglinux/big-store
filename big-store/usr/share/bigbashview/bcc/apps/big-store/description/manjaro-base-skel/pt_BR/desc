@@ -1,0 +1,1 @@
+ Os arquivos básicos do Manjaro Linux são usados para criar uma instalação limpa do sistema operacional. Eles incluem configurações padrão, como permissões de arquivos e diretórios, além de pacotes básicos necessários para o funcionamento do sistema. O pacote manjaro-base-skel é o pacote que contém esses arquivos básicos. 

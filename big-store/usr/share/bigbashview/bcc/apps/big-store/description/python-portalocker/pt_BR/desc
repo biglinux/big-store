@@ -1,0 +1,3 @@
+Com o python-portalocker, você pode trancar arquivos de forma fácil e portável. Esse programa oferece uma API
+simples e intuitiva para garantir que somente você tenha acesso aos seus arquivos importantes, evitando problemas como acesso indevido ou conflitos de edição.Além disso, como é portable,
+você pode usar esse programa em diferentes sistemas operacionais sem precisar se preocupar com configurações específicas. Tudo o que você precisa é de python instalado em sua máquina.

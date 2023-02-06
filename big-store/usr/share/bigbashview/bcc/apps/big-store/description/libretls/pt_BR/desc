@@ -1,0 +1,1 @@
+A libtls é uma biblioteca de segurança que pode ser usada com o OpenSSL. Ela oferece suporte ao protocolo TLS e SSL, permitindo que os desenvolvedores adicionem criptografia às suas aplicações. A libtls é uma boa escolha para quem precisa de segurança adicional em suas aplicações, sem precisar escrever todo o código de criptografia do zero. 

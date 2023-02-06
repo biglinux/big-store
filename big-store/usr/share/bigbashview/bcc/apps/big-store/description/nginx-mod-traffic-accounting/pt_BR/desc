@@ -1,0 +1,3 @@
+Este programa permite monitorar as métricas de tráfego de entrada e saída em tempo real para o NGINX. Ele usa o módulo de
+contabilidade de tráfego do NGINX para coletar e exibir dados sobre o uso da sua aplicação.Com este programa, você pode ver facilmente quais páginas ou recursos estão sendo mais acessados e
+identificar possíveis problemas de desempenho. Também é útil para medir o sucesso de suas campanhas de marketing e entender melhor seus usuários.

@@ -1,0 +1,1 @@
+gpsd é um daemon e biblioteca para dispositivos GPS USB/Serial. Ele permite acesso compartilhado a um dispositivo GPS sem conflito. Também oferece recursos avançados como detecção automática e configuração de dispositivos GPS, análise avançada de dados e relatórios. É uma ferramenta poderosa para qualquer aplicação que requer dados de localização. 

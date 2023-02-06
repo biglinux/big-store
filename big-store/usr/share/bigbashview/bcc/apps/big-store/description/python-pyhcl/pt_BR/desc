@@ -1,0 +1,1 @@
+Este é um programa para Python chamado python-pyhcl, que é um analisador de configuração HCL. Ele ajuda a ler arquivos de configuração escritos na linguagem HCL e transforma-os em objetos Python que você pode usar em seu código. Isso facilita a manipulação de configurações em seus projetos Python. 

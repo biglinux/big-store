@@ -1,0 +1,1 @@
+Este programa é usado para ligar o Qml com as configurações do sistema (GSettings). Isso permite que as configurações do sistema  sejam facilmente acessadas e modificadas através do Qml. 

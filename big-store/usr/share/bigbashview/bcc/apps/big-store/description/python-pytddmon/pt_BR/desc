@@ -1,0 +1,1 @@
+pytddmon é um programa em Python que permite que você execute testes de unidade continuamente enquanto você escreve o código. Isso significa que, assim que você salvar as alterações em um arquivo, os testes correspondentes serão executados automaticamente. Isso ajuda a garantir que o código esteja sempre funcionando corretamente e ajuda a identificar erros rapidamente. 

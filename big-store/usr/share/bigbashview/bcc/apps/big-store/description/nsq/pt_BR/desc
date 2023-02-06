@@ -1,0 +1,3 @@
+NSQ é uma plataforma de mensagens distribuídas em tempo real, projetada para lidar com milhões de
+mensagens por segundo e escalar horizontalmente. Ele permite que as aplicações se comuniquem e troquem dados em tempo real, sem precisar lidar com a complexidade de sistemas de fila
+tradicionais. Com NSQ, é possível construir aplicações mais rápidas e escaláveis.

@@ -1,0 +1,3 @@
+Este programa é uma implantação parcial do popular utilitário de segurança Mimikatz, escrito inteiramente em
+Python. Ele permite aos usuários extrair informações de autenticação de sistemas Windows, como senhas e nomes de usuário. Embora não seja tão completo quanto a versão original escrita em C,
+este programa em Python oferece uma maneira simples e acessível de realizar algumas das mesmas tarefas.

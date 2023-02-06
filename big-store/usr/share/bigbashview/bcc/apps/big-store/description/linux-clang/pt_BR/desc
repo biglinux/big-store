@@ -1,0 +1,4 @@
+Este é um sistema operacional baseado em Linux, mas construído com o compilador Clang em vez do
+compilador GCC padrão. Isso significa que o kernel e os módulos foram compilados com o Clang, o que pode oferecer melhor desempenho e segurança. Além disso, o Clang é um compilador de
+código aberto, o que significa que ele é gratuito e pode ser modificado para atender às necessidades específicas de um usuário ou empresa.Este sistema operacional é útil para
+desenvolvedores que desejam experimentar as vantagens do Clang em um ambiente Linux ou para empresas que desejam melhorar a segurança de seus sistemas operacionais.

@@ -1,0 +1,3 @@
+Este é um módulo de segurança chamado sodium (libsodium) para a versão 74 do PHP. Ele fornece funções criptográficas seguras
+para proteger os dados do seu programa. Ele é fácil de usar e ajuda a manter as informações do seu programa seguras.Essas funções incluem criptografia simétrica, autenticação de mensagens e
+geração de números aleatórios seguros. Ele também é compatível com outras bibliotecas de criptografia para garantir a compatibilidade com outros programas.

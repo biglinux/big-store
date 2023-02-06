@@ -1,0 +1,3 @@
+Esta é uma biblioteca chamada roctracer, ela é usada para medir o desempenho de programas que rodam no ROCm. Com
+ela, os desenvolvedores podem ver onde o programa está levando mais tempo e o que pode ser feito para melhorar a velocidade.É uma ferramenta muito útil para identificar problemas de
+desempenho e otimizar o código para melhorar a eficiência do programa.

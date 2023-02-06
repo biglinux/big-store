@@ -1,0 +1,1 @@
+mdbook-linkcheck é uma extensão para o mdbook que verifica se todos os links em um documento são válidos. Ele varre todas as páginas e verifica se cada link está funcionando corretamente. Se ele encontrar algum link quebrado, ele irá apontá-lo e você poderá consertá-lo facilmente. Isso garante que seu livro esteja sempre atualizado e sem problemas. 

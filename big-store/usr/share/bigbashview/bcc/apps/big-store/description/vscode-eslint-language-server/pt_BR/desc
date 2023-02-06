@@ -1,0 +1,3 @@
+ Esse programa é uma ferramenta para ajudar a encontrar e corrigir erros no código. Ele foi tirado da extensão oficial
+do VSCode e se chama ESLint. Ele vai olhar por erros em seu código e te avisar onde eles estão, assim você pode consertá-los. Isso vai ajudar a deixar o seu código mais limpo e fácil de
+entender. 

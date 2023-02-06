@@ -1,0 +1,3 @@
+ python-snakeviz é um visualizador de dados de perfil para o Python. Ele permite que você visualize facilmente os
+resultados de um perfil de código Python, ajudando a identificar onde o código está consumindo mais tempo e recursos. Com essa ferramenta, você pode otimizar seu código para melhorar suas
+performances. Ele é fácil de usar e oferece uma interface intuitiva para navegar pelos resultados de perfil.

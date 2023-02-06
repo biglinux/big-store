@@ -1,0 +1,1 @@
+Este programa é um roteador e processador de áudio e vídeo de baixa latência. Ele utiliza o V4L2 interceptor para garantir que a transmissão de áudio e vídeo seja feita de forma rápida e eficiente.Ele é chamado de pipewire-v4l2. 

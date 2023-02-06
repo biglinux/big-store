@@ -1,0 +1,1 @@
+Esse programa é um construtor de bytestring estrito para o Haskell. Ele permite criar bytestrings de forma rápida  e eficiente, sem desperdício de memória. Ele é útil para aplicações que precisam lidar com grandes quantidades de dados binários. 

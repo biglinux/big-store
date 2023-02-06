@@ -1,0 +1,1 @@
+Este programa é capaz de identificar o tipo de arquivo e o tipo MIME de qualquer arquivo ou buffer. Isso é útil quando você precisa saber o tipo de arquivo sem abri-lo ou quando o nome do arquivo não é suficiente para determinar o tipo. Ele é escrito em Python. 

@@ -1,0 +1,2 @@
+Albafetch é um programa similar ao Neofetch, mas escrito em C. Ele é mais rápido, mas também possui algumas
+limitações em comparação com o original. Ele é especificamente projetado para trabalhar com sistemas operacionais baseados em Git.

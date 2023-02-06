@@ -1,0 +1,2 @@
+Este programa é uma versão leve de um navegador que não depende dos serviços da Google. Ele também não cria uma pasta
+desnecessária chamada ~/.pki.Isso significa que você pode navegar na internet sem se preocupar com o rastreamento ou coleta de dados por parte da Google.

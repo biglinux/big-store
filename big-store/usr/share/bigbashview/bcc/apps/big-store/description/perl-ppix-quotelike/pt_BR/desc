@@ -1,0 +1,1 @@
+ O pacote perl-ppix-quotelike é uma ferramenta útil para analisar literais de string no código Perl. Ele ajuda a identificar e manipular trechos de código que são semelhantes a literais de string, como aspas simples e duplas, e outros caracteres especiais. Isso pode ser útil para tarefas de refatoração, depuração e análise de código.  

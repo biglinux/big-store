@@ -1,0 +1,3 @@
+Este é um programa chamado Flake8 que ajuda você a escrever melhores compreensões de lista/conjunto/dicionário em
+seu código Python. Ele funciona como um plugin, ou seja, é adicionado ao Flake8 (outro programa) para lhe fornecer essa funcionalidade adicional. Ele verifica seu código e lhe dá dicas
+sobre como melhorar suas compreensões e, assim, tornar seu código mais fácil de entender e manter. 

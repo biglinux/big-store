@@ -1,0 +1,1 @@
+Este programa é responsável por prover integração com o gerenciador de senhas e erros SSL do sistema, tornando a experiência de usuário mais segura e fácil de usar. Ele trabalha em conjunto com o telepathy-kde-auth-handler para garantir que as informações de conta sejam mantidas em segurança. 

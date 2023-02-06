@@ -1,0 +1,3 @@
+ Este programa é uma 'wrapper' em Python para acessar a API do arXiv. Ele te permite buscar e baixar papers científicos
+diretamente do arXiv.org. Basta seguir o link http://arxiv.org/help/api/ e seguir as instruções para usar o programa. Ele é uma ferramenta útil para pesquisadores e estudantes, pois
+facilita a busca por papers científicos. 

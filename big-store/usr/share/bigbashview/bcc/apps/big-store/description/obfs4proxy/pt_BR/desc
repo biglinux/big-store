@@ -1,0 +1,4 @@
+Obfs4proxy é um programa que ajuda a proteger a sua privacidade online. Ele funciona como um proxy, ou seja, ele age
+como um intermediário entre você e a internet. Isso faz com que seu tráfego online fique mais seguro e mais difícil de ser rastreado.Obfs4proxy é escrito em Go e é chamado de 'pluggable
+transport proxy'. Isso significa que ele pode ser facilmente adaptado para trabalhar com outros programas de privacidade. Ele é uma ótima opção para quem quer se proteger de ameaças
+cibernéticas e manter a privacidade online.

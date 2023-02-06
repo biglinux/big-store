@@ -1,0 +1,2 @@
+Esse programa é baseado em outras ferramentas como Nmap, Masscan, Zgrab2, Nuclei, httpx, Zeek (Bro), Argus e Netflow. 
+Com ele você pode criar suas próprias alternativas a ferramentas como Shodan e GreyNoise, rodar seu próprio serviço de DNS passivo e muito mais!

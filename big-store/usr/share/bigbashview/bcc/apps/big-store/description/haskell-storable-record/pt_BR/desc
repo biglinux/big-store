@@ -1,0 +1,1 @@
+Este programa em Haskell permite a definição elegante de instâncias de armazenamento para registros. Ele  utiliza o módulo storable para facilitar o armazenamento e a recuperação de dados em registros. 

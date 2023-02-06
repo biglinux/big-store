@@ -1,0 +1,4 @@
+Esta é uma biblioteca escrita em C que implementa as especificações do Javascript Object Signing and
+Encryption (JOSE). Ela permite que você assine e criptografe dados usando diferentes algoritmos e formatos, como JWT, JWE e JWS. Com essa biblioteca, você pode garantir a segurança e a
+privacidade dos dados que você está transmitindo ou armazenando.Ela é fácil de usar e inclui exemplos de código para ajudá-lo a começar. Além disso, ela é compatível com várias plataformas 
+e sistemas operacionais, incluindo Windows, Linux e macOS.

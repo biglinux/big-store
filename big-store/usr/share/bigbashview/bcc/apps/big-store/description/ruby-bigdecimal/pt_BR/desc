@@ -1,0 +1,1 @@
+A biblioteca ruby-bigdecimal fornece uma classe para números de ponto flutuante com precisão arbitrária, ou seja, uma precisão maior do que a oferecida pelos tipos de dados padrão do sistema. Isso é útil em aplicações financeiras e científicas, onde precisão é crucial. 

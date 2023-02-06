@@ -1,0 +1,4 @@
+Este é um plugin para o painel Xfce que usa o lm_sensors para mostrar informações sobre o hardware do seu
+computador. Ele foi especialmente projetado para funcionar com placas de vídeo NVIDIA, mostrando informações como a temperatura da GPU e o uso de memória. Isso permite que você monitore
+facilmente o desempenho do seu computador e tome medidas se algo estiver errado. Este plugin é fácil de usar e se integra perfeitamente ao painel Xfce, tornando-o acessível e conveniente
+para verificar o status do seu hardware. Ele é uma ótima opção para usuários que desejam manter um olho no desempenho do seu computador e garantir que tudo esteja funcionando corretamente.

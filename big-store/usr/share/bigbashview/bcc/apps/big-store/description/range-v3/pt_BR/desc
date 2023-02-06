@@ -1,0 +1,1 @@
+range-v3 é uma biblioteca experimental para intervalos em C++, suportando as versões 11, 14 e 17. Ela fornece  ferramentas para trabalhar com intervalos de elementos de forma eficiente e expressiva, tornando mais fácil realizar tarefas comuns como iteração, filtragem e transformação de dados. 

@@ -1,0 +1,3 @@
+Esta biblioteca é usada para criar aplicativos que só podem ser abertos uma única vez. Por exemplo, se você abrir o
+aplicativo duas vezes, ele apenas irá mostrar a janela já aberta. Isso é útil para aplicativos como chat ou e-mail, onde você não quer várias janelas abertas ao mesmo tempo. A biblioteca é 
+compatível com o GTK3, uma biblioteca para interface gráfica do usuário em sistemas operacionais Linux.

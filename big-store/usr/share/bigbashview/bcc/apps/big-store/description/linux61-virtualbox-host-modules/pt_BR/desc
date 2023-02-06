@@ -1,0 +1,1 @@
+Este pacote fornece os módulos do kernel necessários para executar máquinas virtuais no Virtualbox no sistema operacional Manjaro. Ele é específico para a versão do kernel linux61 e é necessário para que o Virtualbox possa se comunicar com o sistema operacional host. 

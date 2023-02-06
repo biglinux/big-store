@@ -1,0 +1,4 @@
+ Este programa adiciona suporte ao banco de dados ODBC para a versão 7.1 do PHP. Isso permite que você conecte suas aplicações PHP 
+a bancos de dados usando o protocolo ODBC. Isso é útil se você precisar se conectar a um banco de dados que não tenha suporte nativo no PHP.Ao instalar esse programa, você poderá usar as
+funções ODBC no seu código PHP e se comunicar com o banco de dados de forma eficiente. Ele é fácil de usar e configurar, e pode ser uma boa opção se você precisar se conectar a um banco de 
+dados não-SQL. 

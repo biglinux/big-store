@@ -1,0 +1,4 @@
+Com o programa mprocs-bin, é possível executar vários comandos ao mesmo tempo sem precisar esperar o término de cada 
+um deles. Isso pode ser útil quando você precisa fazer várias tarefas ao mesmo tempo e quer poupar tempo. Ele funciona como um gerenciador de processos, permitindo que você execute vários
+comandos simultaneamente e acompanhe o progresso de cada um deles.Além disso, ele também permite que você configure comandos para serem executados automaticamente, como por exemplo, iniciar
+um processo toda vez que o computador é ligado. Ele é simples de usar e pode ser facilmente integrado em scripts e automações.

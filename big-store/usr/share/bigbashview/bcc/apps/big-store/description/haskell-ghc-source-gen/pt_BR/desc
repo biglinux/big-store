@@ -1,0 +1,1 @@
+haskell-ghc-source-gen é uma biblioteca que permite construir árvores de sintaxe Haskell usando a API GHC. Isso pode ser útil para criar geradores de código personalizados ou ferramentas de refatoração. A biblioteca fornece uma interface simples e intuitiva para construir árvores de sintaxe e é  projetada para funcionar bem com o resto do ecossistema GHC. 

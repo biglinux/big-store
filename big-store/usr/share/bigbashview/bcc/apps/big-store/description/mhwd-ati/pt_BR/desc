@@ -1,0 +1,1 @@
+Este programa é usado para configurar a placa de vídeo da marca ATI. Ele utiliza módulos chamados MHWD para identificar a  versão correta da placa de vídeo e instalar os drivers corretos. Neste caso, ele está configurado para a versão 19.1.0 da ATI. 

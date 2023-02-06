@@ -1,0 +1,1 @@
+Este é um módulo de kernel específico para as placas de rede Realtek 8723bu. Ele permite que essas placas de rede funcionem corretamente no sistema operacional Linux. Ele é chamado de linux60-rt-rtl8723bu. 

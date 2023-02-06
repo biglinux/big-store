@@ -1,0 +1,1 @@
+O virtualbox-host-dkms é uma ferramenta que permite que os módulos do kernel do VirtualBox sejam compilados e instalados automaticamente no sistema operacional hospedeiro. Isso garante a compatibilidade entre a máquina virtual e o sistema operacional, permitindo que as funcionalidades do VirtualBox funcionem corretamente. 

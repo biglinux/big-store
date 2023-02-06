@@ -1,0 +1,2 @@
+Este programa é uma plataforma de próxima geração desenvolvida pela FAIR para detecção e segmentação de objetos. Ele usa a
+tecnologia CUDA para acelerar o processamento e oferecer resultados mais precisos e rápidos. Ele é escrito em Python e baseado na biblioteca Detectron2.

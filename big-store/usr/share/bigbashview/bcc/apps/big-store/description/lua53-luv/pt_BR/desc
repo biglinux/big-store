@@ -1,0 +1,1 @@
+Este é um módulo para o Lua 5.3 que oferece vinculações para o Bare libuv. Ele permite que você use funções do libuv, uma biblioteca de suporte para operações de sistema, diretamente no seu código Lua. Isso pode incluir coisas como gerenciamento de eventos de rede, manipulação de arquivos e gerenciamento de processos. 

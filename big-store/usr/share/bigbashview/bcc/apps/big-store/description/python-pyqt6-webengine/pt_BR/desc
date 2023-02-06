@@ -1,0 +1,1 @@
+Este programa permite que você use o QtWebEngine, um mecanismo de renderização de páginas web, com o Python. Ele faz isso através de 'bindings', que são como conectores entre as duas tecnologias. Dessa forma, você pode usar o poder do QtWebEngine para criar aplicativos web incríveis usando o Python. 

@@ -1,0 +1,3 @@
+Libvterm é uma biblioteca que permite criar um terminal virtual, semelhante ao VT220 ou xterm. Ela foi escrita em C99 e é
+bastante flexível e fácil de usar. Com ela, é possível criar aplicativos que simulem o comportamento de um terminal real, permitindo a interação com o usuário através de comandos e dados
+exibidos na tela.

@@ -1,0 +1,1 @@
+Este programa é uma implementação de criptografia chamada Salsa20 e XSalsa20 desenvolvida por D.J. Bernstein. Ele é  usado para proteger dados sensíveis, garantindo que apenas as pessoas autorizadas possam visualizá-los. Ele está disponível para ser usado com a linguagem Python. 

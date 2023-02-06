@@ -1,0 +1,3 @@
+ Este é um programa chamado gnome-x11-gesture-daemon que ajuda a melhorar a forma como os gestos funcionam no ambiente de
+trabalho GNOME. Ele é um 'daemon' ou um programa que fica rodando em segundo plano e ajuda outros programas a funcionar melhor. Com esse programa, os gestos que você faz no seu computador
+com o mouse ou trackpad serão reconhecidos de forma mais precisa e rápida. Isso significa que você pode navegar pelo seu computador e abrir programas com mais facilidade. 

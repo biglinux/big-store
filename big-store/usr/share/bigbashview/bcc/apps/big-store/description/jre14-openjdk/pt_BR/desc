@@ -1,0 +1,3 @@
+Este programa é o ambiente completo de execução para o Java 14, baseado no OpenJDK. Ele inclui tudo o que é necessário para
+rodar aplicativos Java, incluindo a JVM (máquina virtual Java) e bibliotecas de sistema.Com ele, você pode executar aplicativos e jogos escritos em Java sem precisar instalar nenhuma outra 
+coisa. É útil tanto para desenvolvedores quanto para usuários comuns.

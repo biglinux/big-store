@@ -1,0 +1,1 @@
+A biblioteca haskell-regex-tdfa é um backend para trabalhar com expressões regulares em Haskell. Ela utiliza a estrutura de automato marcado (Tagged DFA) para fornecer uma maneira eficiente e precisa de trabalhar com textos. É uma opção popular para quem deseja trabalhar com expressões regulares em aplicações escritas em Haskell. 

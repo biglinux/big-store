@@ -1,0 +1,1 @@
+htmlcxx é um analisador simples de HTML e CSS1 para C++. Ele pode analisar tanto HTML válido quanto inválido. O analisador foi projetado para ser fácil de usar e com alta velocidade de análise. Ele pode analisar arquivos HTML grandes em questão de segundos. A biblioteca é pequena e fácil de usar, e é compatível com a maioria dos compiladores C++. 

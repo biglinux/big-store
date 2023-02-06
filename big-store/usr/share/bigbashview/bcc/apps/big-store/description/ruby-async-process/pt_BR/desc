@@ -1,0 +1,1 @@
+Esse programa é capaz de criar processos de forma assíncrona, ou seja, sem precisar esperar que cada processo termine para iniciar o próximo. Isso permite que várias tarefas sejam realizadas ao mesmo tempo, aumentando a velocidade de execução e otimizando o uso dos recursos do computador.Este programa é escrito em Ruby e é compatível com a maioria dos sistemas operacionais. 

@@ -1,0 +1,4 @@
+Uma biblioteca de interface gráfica para C, chamada libui-git, permite a criação de aplicativos com interface
+gráfica para usuários em vários sistemas operacionais. Isso significa que você pode criar um programa com uma janela e botões, por exemplo, e ele funcionaria tanto no Windows quanto no Mac 
+e no Linux. Além disso, a libui-git é open-source, o que significa que qualquer pessoa pode usá-la gratuitamente e até contribuir para o desenvolvimento do projeto. Isso garante que a
+biblioteca esteja sempre atualizada e com correções de bugs.

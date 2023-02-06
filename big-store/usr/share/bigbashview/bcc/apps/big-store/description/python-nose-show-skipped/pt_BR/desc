@@ -1,0 +1,1 @@
+Este é um plugin para o nose, um framework de teste para Python. Ele permite que você veja quais testes foram pulados e as mensagens associadas a eles, o que pode ser útil para identificar e corrigir problemas no seu código. 

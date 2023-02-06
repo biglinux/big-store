@@ -1,0 +1,3 @@
+Essa biblioteca permite que você adicione componentes de interface gráfica chamados widgets ao seu notebook Jupyter. Esses
+widgets são baseados em componentes de interface criados pelo projeto Vuetify.Isso significa que os widgets terão um visual moderno e profissional, além de serem fáceis de personalizar. Com
+essa biblioteca, você poderá criar notebooks mais interativos e fáceis de usar.

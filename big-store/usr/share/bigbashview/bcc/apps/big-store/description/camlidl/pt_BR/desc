@@ -1,0 +1,2 @@
+ Este programa é chamado camlidl e ele ajuda a gerar códigos de base e faz a ligação com o COM para o Objective Caml
+(OCaml). Ele é útil para quem está trabalhando com OCaml e precisa de uma ferramenta para facilitar essas tarefas. 

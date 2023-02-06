@@ -1,0 +1,5 @@
+Este programa é um módulo chamado FFI (Foreign Function Interface) para a versão 8.0 do PHP. Ele permite que você chame funções de
+bibliotecas externas diretamente a partir do seu código PHP. Isso significa que você pode usar código escrito em outras linguagens, como C ou C++, dentro do seu projeto PHP. É uma maneira
+flexível e poderosa de expandir as capacidades do PHP e aproveitar o código já existente. Com o módulo FFI, você pode acessar recursos do sistema operacional, usar bibliotecas de terceiros 
+ou até mesmo escrever sua própria biblioteca em outra linguagem e usá-la no seu projeto PHP. Ele é fácil de usar e tem uma curva de aprendizado rápida, tornando-o uma excelente opção para
+desenvolvedores PHP que desejam expandir suas habilidades.

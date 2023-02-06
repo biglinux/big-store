@@ -1,0 +1,2 @@
+Este é um pacote meta que depende de 'wxgtk2' e fornece 'wxgtk'. É necessário para alguns pacotes AUR (mal formados)
+para cumprir dependências.

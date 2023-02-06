@@ -1,0 +1,3 @@
+ Este programa é o núcleo do Linux e os módulos para o processador AArch64 multi-plataforma RK3588. Ele permite que o sistema
+operacional Linux funcione em dispositivos que possuem esse processador. É importante para garantir que o sistema operacional possa acessar todos os recursos do dispositivo e funcionar
+corretamente.

@@ -1,0 +1,2 @@
+ certbot-ocsp-fetcher-git é uma ferramenta que prepara o cache OCSP do nginx para os certificados gerenciados 
+pelo Certbot, a fim de tornar o OCSP stapling confiável. 

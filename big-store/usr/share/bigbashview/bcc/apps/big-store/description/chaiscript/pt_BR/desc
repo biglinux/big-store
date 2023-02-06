@@ -1,0 +1,4 @@
+ Chaiscript é uma linguagem de script embutida para C++. Ele permite que você adicione dinamismo ao seu código C++,
+permitindo que você altere o comportamento do seu programa sem precisar recompilá-lo. Isso significa que você pode fazer alterações e testá-las rapidamente sem precisar passar por todo o
+processo de compilação. Além disso, com Chaiscript, você pode escrever scripts para automatizar tarefas comuns, como testes e validações de dados. Em resumo, Chaiscript é uma ferramenta
+poderosa para desenvolvedores C++ que buscam adicionar flexibilidade e eficiência ao seu trabalho.

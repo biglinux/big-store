@@ -1,0 +1,2 @@
+Este programa permite que você digite sua senha usando o Rofi, que é uma ferramenta de seleção de opções para o terminal. Ele é
+uma implementação de entrada de senha baseada no Rofi, o que significa que ele usa o Rofi para exibir uma janela onde você pode digitar sua senha de forma segura.

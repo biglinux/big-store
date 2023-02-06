@@ -1,0 +1,1 @@
+Esta é uma biblioteca escrita em C++ que foi empacotada usando Cython. Isso permite que ela seja usada como uma biblioteca Python, tornando mais fácil trabalhar com os dados. Ela se chama python-pycapnp. 

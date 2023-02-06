@@ -1,0 +1,1 @@
+python-piccata é uma ferramenta simples para trabalhar com protocolo CoAP (RFC7252). Ele fornece uma maneira fácil de enviar e receber mensagens CoAP, além de lidar com as configurações de rede necessárias. Com ele, você pode facilmente construir aplicativos IoT simples e de baixo consumo de energia. 

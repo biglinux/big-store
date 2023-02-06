@@ -1,0 +1,3 @@
+Este é um pacote que contém recursos do Python 2 que foram backportados, ou seja, adaptados para funcionar em
+versões mais antigas do Python. Ele é útil para quem precisa usar recursos mais recentes em projetos que não podem ser atualizados para uma versão mais nova do Python.Este pacote é chamado 
+de 'python2-backports' e oferece uma namespace para esses recursos, tornando-os fáceis de usar em seus projetos.

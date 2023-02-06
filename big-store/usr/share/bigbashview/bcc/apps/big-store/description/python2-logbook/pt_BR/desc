@@ -1,0 +1,4 @@
+Este é um sistema de registro para o Python que substitui o módulo de registro da biblioteca padrão. Ele é chamado de
+'python2-logbook' e é usado para registrar informações importantes sobre o seu programa, como erros e eventos. Isso ajuda a manter o controle do que está acontecendo no seu código e
+facilita a depuração.Com esse sistema, você pode personalizar como e onde as informações são registradas, o que permite maior flexibilidade e controle sobre o seu código. Ele também oferece
+recursos adicionais, como suporte a múltiplos handlers e filtros de registro.

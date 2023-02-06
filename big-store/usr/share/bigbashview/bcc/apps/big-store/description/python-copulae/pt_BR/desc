@@ -1,0 +1,5 @@
+O python-copulae é um pacote para modelagem de dados multivariados com Copulas em Python. As copulas são
+ferramentas matemáticas que permitem a modelagem de relações de dependência entre variáveis, independentemente da distribuição marginal de cada uma delas. Com o python-copulae, é possível
+realizar tarefas como a geração de amostras de dados, o cálculo de probabilidades conjuntas e a estimação de parâmetros de copulas.Além disso, o pacote inclui várias funções para a
+visualização dos resultados, como gráficos de contorno de densidade e plotagem de curvas de dependência. Ele também oferece suporte para vários tipos de copulas, incluindo copulas normais, 
+t e Clayton. O python-copulae é uma ferramenta útil para análise de dados multivariados e modelagem estatística.

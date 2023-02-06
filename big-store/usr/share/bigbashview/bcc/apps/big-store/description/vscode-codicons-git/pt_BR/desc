@@ -1,0 +1,3 @@
+Esse programa adiciona fontes de ícones para o Visual Studio Code. Isso torna mais fácil identificar arquivos e pastas, pois
+cada tipo de arquivo tem um ícone diferente.Por exemplo, arquivos de código-fonte terão um ícone diferente de imagens ou documentos de texto.Além disso, essa extensão também inclui ícones
+para indicar o status do controle de versão (como se um arquivo foi modificado ou está sendo rastreado).

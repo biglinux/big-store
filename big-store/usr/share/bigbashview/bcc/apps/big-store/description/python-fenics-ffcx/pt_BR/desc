@@ -1,0 +1,3 @@
+ O FEniCSx Form Compiler é um compilador de formas matemáticas para o FEniCS, uma plataforma de código aberto para resolver
+problemas de diferenciação automática. Ele permite que os usuários escrevam equações matemáticas em forma de formas finitas, que são então compiladas em código Python eficiente. O FFCx é
+especialmente útil para aplicações em elementos finitos, como a simulação de ondas e o fluxo de fluidos. 

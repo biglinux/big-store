@@ -1,0 +1,1 @@
+spiped é um programa que permite a criação de conexões seguras entre diferentes dispositivos. Ele funciona como um 'daemon' (programa de fundo) e é capaz de criptografar e proteger as informações que são transmitidas através dele. Dessa forma, assegura que somente os usuários autorizados tenham acesso às informações. 

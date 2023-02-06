@@ -1,0 +1,3 @@
+Esse programa é uma ligação entre o Ada e a biblioteca Gtk+. Isso significa que ele permite que você use o Gtk+, uma biblioteca para criar 
+interfaces gráficas, em conjunto com o Ada, uma linguagem de programação.Isso pode ser útil se você já estiver trabalhando com o Ada e quiser adicionar uma interface gráfica ao seu projeto.
+Ou se você gosta do Gtk+ mas prefere programar com o Ada.

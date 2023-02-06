@@ -1,0 +1,2 @@
+Este programa tem como objetivo substituir o editor vi pelo vim. Ele cria um link simbólico do vim para o vi, para que
+quando o comando 'vi' for digitado, o vim seja aberto. Isso permite que os usuários continuem a utilizar o comando 'vi' de costume, mas com as funcionalidades avançadas do vim.

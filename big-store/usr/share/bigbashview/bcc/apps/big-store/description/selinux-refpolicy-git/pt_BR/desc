@@ -1,0 +1,4 @@
+Este é um repositório de programas que inclui a política de referência modular SELinux, junto com seus cabeçalhos e
+documentações. A política de referência é uma importante ferramenta para garantir a segurança de sistemas operacionais que utilizam o SELinux. Com ela, é possível configurar regras de
+segurança para controlar o acesso a recursos do sistema e aplicativos.Este repositório é uma excelente opção para administradores de sistemas e desenvolvedores que precisam de uma política 
+de referência completa e atualizada para o SELinux.

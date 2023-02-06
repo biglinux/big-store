@@ -1,0 +1,4 @@
+O Memory Overcommitment Manager, ou Gerenciador de Sobrecarga de Memória, é um programa criado para gerenciar a memória 
+de máquinas virtuais. Ele ajuda a garantir que as máquinas virtuais não tenham problemas de memória, garantindo que elas tenham acesso à quantidade correta de memória quando precisam.Esse
+programa é especialmente útil em ambientes de nuvem, onde várias máquinas virtuais podem ser executadas em um único host. Ele ajuda a maximizar o uso da memória disponível, garantindo que
+as máquinas virtuais funcionem de forma eficiente e sem problemas.

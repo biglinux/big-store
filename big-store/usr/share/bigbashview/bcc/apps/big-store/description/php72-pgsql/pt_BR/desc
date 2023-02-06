@@ -1,0 +1,3 @@
+Esse programa adiciona módulos do PostgreSQL à versão 7.2 do PHP. Isso permite que você use o PostgreSQL como banco de dados
+em seus projetos PHP.O PostgreSQL é um sistema de gerenciamento de banco de dados de código aberto, altamente confiável e escalável. Ele é amplamente utilizado em projetos web e aplicativos
+empresariais.

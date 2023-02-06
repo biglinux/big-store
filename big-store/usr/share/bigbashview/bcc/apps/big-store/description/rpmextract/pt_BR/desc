@@ -1,0 +1,1 @@
+ Este programa é usado para converter ou extrair arquivos RPM. Ele contém o comando rpm2cpio, que é usado para extrair  os arquivos de dentro do pacote RPM. É útil para acessar os arquivos dentro do pacote sem precisar instalá-lo.  

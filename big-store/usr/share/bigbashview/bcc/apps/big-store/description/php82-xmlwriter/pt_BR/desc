@@ -1,0 +1,4 @@
+Este programa adiciona suporte ao módulo xmlwriter no PHP 8.2. Isso permite que os usuários criem e editem facilmente
+arquivos XML em suas aplicações PHP. Com esse recurso, é possível criar documentos XML de maneira eficiente e organizada, o que é útil em muitas aplicações web e de dados.O módulo xmlwriter
+é fácil de usar e possui uma sintaxe simples, tornando-o acessível para desenvolvedores de todos os níveis de habilidade. Além disso, ele é altamente compatível com outros módulos e
+bibliotecas PHP, permitindo integrações suaves em projetos existentes.

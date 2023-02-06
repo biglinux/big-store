@@ -1,0 +1,2 @@
+Este programa foi projetado para contornar o sistema DPI (Deep Packet Inspection) colocado em prática por diversos provedores de
+internet para bloquear o acesso a certos sites. Ele é usado por meio de linha de comando (CLI).

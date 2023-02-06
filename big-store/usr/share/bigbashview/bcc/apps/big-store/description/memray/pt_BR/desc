@@ -1,0 +1,1 @@
+memray é uma ferramenta para medir o uso de memória em programas escritos em Python. Ela funciona  analisando o código enquanto ele é executado e mostrando quais partes dele estão consumindo mais memória. Isso pode ser útil para encontrar problemas de performance e otimizar seu código. 

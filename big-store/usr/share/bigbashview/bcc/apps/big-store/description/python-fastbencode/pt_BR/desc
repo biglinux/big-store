@@ -1,0 +1,1 @@
+python-fastbencode é uma biblioteca que permite codificar e decodificar dados no formato bencode. Ela possui extensões em C, o que a torna mais rápida do que a versão nativa em python. Essa biblioteca é útil para aplicações que precisam lidar com arquivos no formato bencode, como o protocolo BitTorrent. 

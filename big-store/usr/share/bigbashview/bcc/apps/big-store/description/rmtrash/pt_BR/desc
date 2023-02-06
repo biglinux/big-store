@@ -1,0 +1,2 @@
+Este programa é uma ferramenta para lidar com arquivos removidos de maneira segura e compatível com os comandos 'rm' e
+'rmdir' do GNU. Ele coloca os arquivos em uma lixeira, permitindo que você os recupere caso precise, em vez de excluí-los permanentemente.

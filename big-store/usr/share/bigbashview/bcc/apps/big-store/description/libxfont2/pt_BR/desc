@@ -1,0 +1,1 @@
+libxfont2 é uma biblioteca que é usada para rasterizar fontes no sistema X11. Ele é usado para exibir texto em janelas e outros elementos gráficos no sistema X11. Ele é uma parte importante do sistema X11 e é necessário para a maioria dos programas que usam o sistema X11. 

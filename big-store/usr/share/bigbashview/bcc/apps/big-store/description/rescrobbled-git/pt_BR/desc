@@ -1,0 +1,3 @@
+Este programa é um 'daemon' (um programa que roda em segundo plano) que usa a interface D-Bus do MPRIS para acompanhar as
+músicas que você está ouvindo. Ele envia essas informações para um banco de dados, permitindo que você veja suas músicas ouvidas recentemente e crie estatísticas sobre o que você ouve.É uma
+ferramenta útil para os amantes de música que querem acompanhar suas listas de reprodução e ver quais músicas são as suas favoritas.

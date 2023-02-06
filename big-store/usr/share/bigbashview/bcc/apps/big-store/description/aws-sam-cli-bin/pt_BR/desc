@@ -1,0 +1,4 @@
+Essa ferramenta permite construir, testar, depurar e implementar aplicações Serverless
+utilizando o AWS SAM. Com ela, é possível gerenciar facilmente seus projetos Serverless, tornando o desenvolvimento mais rápido e eficiente.Você pode utilizar comandos simples para criar e 
+gerenciar suas aplicações, sem precisar acessar a interface web do AWS. Além disso, ela também oferece recursos para testar e depurar seus projetos, garantindo que eles estejam funcionando 
+corretamente antes de serem implementados.

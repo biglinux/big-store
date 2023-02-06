@@ -1,0 +1,1 @@
+Este programa é uma construção do PostgreSQL específica para ajudar na migração entre versões principais do banco de dados. Ele utiliza a ferramenta pg_upgrade para facilitar esse processo. 

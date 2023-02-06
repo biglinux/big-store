@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.1 que permite acessar e gerenciar caixas de e-mail usando o protocolo IMAP. Com ele, é possível ler,
+enviar e excluir e-mails, além de criar e gerenciar pastas. Ele é útil para qualquer aplicação web que precise acessar caixas de e-mail de forma automatizada.Para usar o módulo, é
+necessário ter o PHP 7.1 instalado em seu servidor e habilitá-lo no arquivo de configuração do PHP. Depois disso, basta usar as funções fornecidas pelo módulo para se conectar a uma caixa
+de e-mail e realizar as operações desejadas.

@@ -1,0 +1,1 @@
+Este programa permite a utilização de recursos de autenticação de rede do Qt com o python. Ele cria uma ponte entre as bibliotecas de rede do Qt e o código escrito em python, permitindo que as aplicações em python possam facilmente se autenticar em redes utilizando o QtNetworkAuth.  

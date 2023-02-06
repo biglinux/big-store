@@ -1,0 +1,2 @@
+ Este programa é uma ferramenta para procurar senhas no Gnome. Ele funciona com diferentes tipos de armazenamento de senhas, como o
+pass (zx2c4/passwordstore.org), gopass e outros compatíveis. Ele também pode enviar as senhas para a área de transferência (ou GPaste). 

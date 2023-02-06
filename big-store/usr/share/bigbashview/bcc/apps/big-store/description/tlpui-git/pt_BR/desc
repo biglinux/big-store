@@ -1,0 +1,5 @@
+Este programa oferece uma interface gráfica (GUI) para o TLP, que é um utilitário para gerenciamento de energia no Linux.
+Ele foi escrito em Python e usa a biblioteca GTK para a interface. Com ele, você pode ajustar as configurações de energia do seu computador de forma fácil e intuitiva.Algumas das
+configurações que você pode ajustar incluem ajustar as configurações de bateria, configurações de carregamento, configurações de economia de energia, entre outras. Ele também oferece
+informações sobre o status atual da bateria e outras informações úteis.Se você estiver procurando por uma forma fácil de gerenciar a energia do seu computador Linux, este programa é uma
+ótima opção.

@@ -1,0 +1,1 @@
+ Este programa permite a conversão rápida entre representações de números de ponto flutuante simples e dupla precisão e texto. Isso é útil para tarefas de processamento de dados e outras aplicações que exigem a manipulação de números de ponto flutuante com precisão. Ele é escrito em Haskell e é chamado de haskell-double-conversion. 

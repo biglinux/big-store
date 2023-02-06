@@ -1,0 +1,3 @@
+Com o uso deste programa, você pode enviar arquivos de forma segura e criptografada na rede Storj. Ele é
+composto por uma biblioteca em C chamada libstorj e uma interface de linha de comando (CLI) para facilitar o uso. Além disso, ele é projetado para ser assíncrono, o que significa que você
+pode enviar vários arquivos ao mesmo tempo sem comprometer a velocidade.

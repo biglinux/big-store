@@ -1,0 +1,1 @@
+O tmuxp é um gerenciador de sessão Tmux construído com libtmux. Ele permite um gerenciamento fácil de sessões Tmux, incluindo a criação, salvamento e carregamento de sessões. Ele também inclui a capacidade de se conectar e alternar entre sessões, além da capacidade de automatizar a configuração da sessão. 

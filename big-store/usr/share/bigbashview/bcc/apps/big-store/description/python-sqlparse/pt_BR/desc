@@ -1,0 +1,1 @@
+python-sqlparse é um analisador de SQL não-validador para Python. Ele pode analisar declarações SQL e dividi-las  em tokens individuais, como palavras-chave, identificadores e literais. O objetivo do python-sqlparse é tornar fácil trabalhar com declarações SQL de uma maneira programática, em vez de lidar com elas como strings. 

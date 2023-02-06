@@ -1,0 +1,1 @@
+Esse programa é chamado python-pygeos. Ele faz uso de funções de geometria, como calcular a distância entre dois pontos, mas as utiliza dentro de uma biblioteca chamada numpy ufuncs. Isso significa que é possível fazer cálculos mais avançados e rápidos. 

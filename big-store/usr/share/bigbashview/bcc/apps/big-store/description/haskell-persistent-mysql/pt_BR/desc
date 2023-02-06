@@ -1,0 +1,1 @@
+Este programa é um backend para a biblioteca persistente, ele utiliza o banco de dados MySQL para armazenar  os dados de forma segura e acessível. Ele é escrito em Haskell, uma linguagem de programação funcional. 

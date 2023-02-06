@@ -1,0 +1,3 @@
+Os cabeçalhos e scripts para construir módulos para o kernel Linux Mainline são essenciais para desenvolvedores que precisam criar 
+ou atualizar drivers para seus dispositivos. Este pacote inclui os arquivos necessários para que esses desenvolvedores possam compilar seus módulos de forma eficiente e compatível com o
+kernel Linux Mainline. Ele é uma ferramenta importante para quem deseja aproveitar ao máximo as funcionalidades do kernel Linux Mainline. 

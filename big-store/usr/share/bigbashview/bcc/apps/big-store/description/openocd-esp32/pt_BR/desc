@@ -1,0 +1,4 @@
+Este é um programa chamado OpenOCD-ESP32. Ele é uma versão do OpenOCD, que é um programa usado para debugar dispositivos
+eletrônicos. A diferença é que este programa tem suporte especial para o chip ESP32, que é muito usado em projetos de Internet das Coisas (IoT). Com ele, é possível fazer coisas como ver o 
+que está acontecendo dentro do chip enquanto o dispositivo está funcionando e modificar o que ele está fazendo. Isso pode ser muito útil para solucionar problemas e melhorar o desempenho do
+dispositivo.

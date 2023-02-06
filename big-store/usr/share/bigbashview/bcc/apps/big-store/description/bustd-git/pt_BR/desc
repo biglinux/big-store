@@ -1,0 +1,4 @@
+Este programa é um gerenciador de processos que ajuda a lidar com situações de falta de memória. Ele funciona como um
+'daemon', ou seja, um programa que roda em segundo plano e monitora o uso de memória. Quando a memória estiver baixa, ele irá fechar processos que não são tão importantes para liberar
+espaço.Isso é útil para evitar que o sistema trave ou fique lento devido a falta de memória disponível. Este programa é especialmente útil em sistemas com pouca memória, como computadores
+antigos ou dispositivos com baixo desempenho.

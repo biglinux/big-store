@@ -1,0 +1,3 @@
+Este programa é uma implementação do PEP 557, que trata de classes de dados para o Python. Ele permite criar classes simples e de
+fácil utilização, especialmente para armazenar dados. Com elas, é possível definir atributos e métodos padrão para essas classes, tornando o código mais organizado e limpo.Ao utilizar as
+classes de dados, é possível trabalhar com dados de forma mais eficiente e fácil, pois elas já possuem algumas funcionalidades pré-definidas.

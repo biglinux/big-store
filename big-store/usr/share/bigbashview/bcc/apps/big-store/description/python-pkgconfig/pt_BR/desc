@@ -1,0 +1,1 @@
+O python-pkgconfig é um wrapper em Python para a ferramenta de linha de comando pkg-config. Ele fornece uma maneira fácil de usar as informações fornecidas pelo pkg-config sobre bibliotecas instaladas no sistema. Ele é útil para construir e embalar extensões Python. 

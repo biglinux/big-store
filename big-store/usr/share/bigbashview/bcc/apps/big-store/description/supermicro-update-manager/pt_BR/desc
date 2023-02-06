@@ -1,0 +1,3 @@
+ O Supermicro Update Manager é um programa que ajuda a atualizar o firmware da sua placa-mãe da marca Supermicro. Ele permite
+atualizar o firmware da BMC (Baseboard Management Controller) e do UEFI/BIOS, que são os programas que controlam a comunicação entre os componentes da sua placa-mãe e o sistema operacional.
+Atualizando esses programas, você pode ter acesso a novas funcionalidades e correções de bugs para garantir que tudo esteja funcionando corretamente. 

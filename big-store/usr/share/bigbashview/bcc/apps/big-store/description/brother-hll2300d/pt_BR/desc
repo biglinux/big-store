@@ -1,0 +1,3 @@
+Esse é um driver para a impressora Brother HL-L2300D, que é usado para conectar a impressora ao seu computador. Ele 
+permite que você envie documentos para a impressora e imprima-os. Sem ele, a impressora não poderá funcionar corretamente.Este driver é específico para o sistema operacional CUPS, então
+certifique-se de que você está usando o sistema operacional correto antes de baixá-lo.

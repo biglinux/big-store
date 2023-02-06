@@ -1,0 +1,3 @@
+Este programa oferece uma interface de nível superior para o Lua que expõe as funcionalidades do lua-cmark. Isso significa que
+ele permite que você use o lua-cmark de uma maneira mais fácil e intuitiva, sem precisar se preocupar com os detalhes técnicos. É útil para quem precisa lidar com marcação de texto e
+formatar conteúdo de forma automatizada. 

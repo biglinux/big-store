@@ -1,0 +1,3 @@
+ Este é um programa que simula um serviço Geoclue, permitindo que você use ele sem precisar se conectar a outros computadores. Ele é
+chamado de 'geoclue_fake-git'.Isso significa que ele não precisa enviar informações sobre sua localização para outros lugares e você pode usá-lo sem se preocupar com privacidade. Ele é
+útil para quem deseja manter suas informações pessoais seguras. 

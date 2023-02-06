@@ -1,0 +1,1 @@
+Este programa fornece uma interface para as funções de syslog presentes em uma biblioteca C. Ele permite que você envie mensagens de log para o sistema de syslog do seu computador, o que é útil para rastrear e registrar atividades em seu sistema. Ele é escrito em Perl, uma linguagem de programação amplamente utilizada em sistemas UNIX. 

@@ -1,0 +1,1 @@
+perl-ev é um módulo que fornece uma interface em Perl para a biblioteca libev, que é um loop de eventos de alta performance e com vários recursos. O módulo permite que os programadores em Perl usem a biblioteca libev em seus programas, o que pode ajudar a melhorar o desempenho de aplicativos baseados em eventos. 

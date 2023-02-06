@@ -1,0 +1,2 @@
+Boolector é um solucionador eficiente de problemas SMT (satisfiability modulo theories) para teorias de vetores de bits
+combinadas com teorias extensas de arrays. Ele é capaz de resolver problemas matemáticos complexos de maneira rápida e precisa.

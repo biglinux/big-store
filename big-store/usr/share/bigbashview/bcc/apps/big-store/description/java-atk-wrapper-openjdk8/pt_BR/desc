@@ -1,0 +1,1 @@
+Esse programa é um wrapper, ou seja, uma camada adicional, que permite que os aplicativos Java Swing sejam acessados por leitores de tela. Ele foi desenvolvido com o objetivo de tornar a utilização desses aplicativos mais fácil para pessoas com deficiência visual. Ele foi criado usando o OpenJDK 8, uma implementação gratuita e de código aberto do Java. 

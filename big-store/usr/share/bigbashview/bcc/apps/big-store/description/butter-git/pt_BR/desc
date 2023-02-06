@@ -1,0 +1,3 @@
+Este é um programa chamado butter-git que é uma aplicação GTK. Ele é usado para gerenciar snapshots do sistema de arquivos
+Btrfs. Com ele, você pode criar, excluir e gerenciar facilmente snapshots do seu sistema de arquivos, o que é útil para backup e recuperação de dados. Além disso, ele tem uma interface
+fácil de usar e é compatível com várias distribuições Linux.

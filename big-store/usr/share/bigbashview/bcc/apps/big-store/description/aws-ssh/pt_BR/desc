@@ -1,0 +1,3 @@
+Com o aws-ssh, você pode acessar rapidamente as instâncias EC2 (Elastic Compute Cloud) em suas contas da Amazon Web
+Services. O programa percorre todas as contas disponíveis em paralelo, procura as instâncias EC2 e gera uma configuração SSH para acessá-las. Assim, você pode se conectar a essas instâncias
+sem precisar procurar manualmente por endereços IP ou chaves de acesso.

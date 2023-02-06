@@ -1,0 +1,1 @@
+A biblioteca 'lua-basexx' fornece suporte para codificação e decodificação de diferentes formatos de base, incluindo base2 (bitfield), base16 (hex), base32 (crockford/rfc), base64 (rfc/url) e base85 (z85) para a versão 5.4 do Lua. 

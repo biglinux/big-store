@@ -1,0 +1,1 @@
+A biblioteca principal do PCManFM-Qt é uma ligação para a libfm, que é uma biblioteca para gerenciamento de arquivos. Ela  permite que o programa PCManFM-Qt se comunique com essa biblioteca e utilize suas funcionalidades. 

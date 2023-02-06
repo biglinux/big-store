@@ -1,0 +1,4 @@
+Com a biblioteca python-ftputil você pode facilmente se conectar a um servidor FTP e realizar diversas operações, tais 
+como: upload e download de arquivos, criação e exclusão de pastas, listagem de arquivos e pastas, entre outras. Ela é uma biblioteca de alto nível, o que significa que possui uma interface 
+simples e intuitiva, tornando a programação mais fácil e rápida. Além disso, ela oferece recursos avançados, como suporte a conexões seguras (FTPs), tratamento automático de erros e suporte
+a arquivos grandes. 

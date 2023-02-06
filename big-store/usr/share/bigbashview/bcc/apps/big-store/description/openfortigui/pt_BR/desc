@@ -1,0 +1,2 @@
+ OpenFortiGUI é um programa de código aberto que permite a conexão com dispositivos VPN Fortigate. Ele é baseado no
+openfortivpn e adiciona uma interface fácil de usar e agradável, escrita em Qt5. 

@@ -1,0 +1,1 @@
+Este é um programa escrito em Haskell que permite cifrar e decifrar dados usando o algoritmo AES de 128 bits. Ele também suporta os modos de cifra mais comuns, como ECB, CBC e CTR. Se a sua máquina suporta instruções AES-NI, elas serão usadas para melhorar a performance da cifra. 

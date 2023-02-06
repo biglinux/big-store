@@ -1,0 +1,3 @@
+Essa extensão permite que você pesquise seus aplicativos de forma mais rápida e fácil no Gnome. Ela usa uma tecnologia
+chamada 'busca fuzzy' que mostra resultados mesmo quando você não digita o nome completo do aplicativo que está procurando.Dessa forma, se você quiser abrir o Firefox, mas não se lembra se 
+o nome completo é 'Firefox' ou 'Mozilla Firefox', a busca fuzzy vai encontrar o aplicativo para você de qualquer forma.

@@ -1,0 +1,3 @@
+Este programa é um módulo escrito em Python que permite a leitura e análise de arquivos BEAM, que são usados pelo Erlang,
+uma linguagem de programação orientada a mensagens. Com este módulo, é possível extrair informações dos arquivos BEAM, como funções e estruturas de dados.O nome do programa é python-pybeam 
+e é fácil de usar, basta importá-lo em seu script Python e chamar as funções específicas para ler e analisar os arquivos BEAM.

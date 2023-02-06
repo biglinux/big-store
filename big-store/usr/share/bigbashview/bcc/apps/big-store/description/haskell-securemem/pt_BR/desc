@@ -1,0 +1,1 @@
+Este programa, chamado haskell-securemem, é uma abstração para uma limpeza automática e igualdade de tempo e memória. Ele permite que você gerencie de forma segura a memória em seu aplicativo, garantindo que as informações confidenciais sejam apagadas automaticamente quando não são mais necessárias. 

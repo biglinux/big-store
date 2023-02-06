@@ -1,0 +1,1 @@
+Essa é uma API para exibir fórmulas matemáticas escritas em LaTeX. Ela permite que você escreva fórmulas matemáticas de forma clara e precisa usando o LaTeX e exiba-as em sua aplicação Java. Isso é útil para aplicativos educacionais, científicos e de engenharia que precisam exibir fórmulas matemáticas complexas. Exemplo de uso:jlatexmath.display('f(x) = x^2');  

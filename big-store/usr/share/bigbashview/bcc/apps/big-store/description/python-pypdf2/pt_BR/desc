@@ -1,0 +1,3 @@
+ Com a biblioteca python-pypdf2, você pode manipular páginas de arquivos PDF com facilidade. Ela é uma opção antiga, mas ainda muito
+útil para quem precisa fazer edições simples em arquivos PDF.Com ela, você pode adicionar ou remover texto, imagens e outros elementos, assim como dividir ou unir páginas. Além disso, é
+possível proteger o arquivo com senha e adicionar marcas d'água.Se você precisa de uma ferramenta simples e eficiente para trabalhar com PDFs, python-pypdf2 é uma boa escolha. 

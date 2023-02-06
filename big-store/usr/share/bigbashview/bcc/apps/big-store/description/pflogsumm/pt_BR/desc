@@ -1,0 +1,1 @@
+O pflogsumm é um analisador de log para o Postfix. Ele gera várias estatísticas a partir dos arquivos de log de e-mail e serve como uma ferramenta útil para acompanhar a saúde e desempenho de um sistema de e-mail, bem como detectar anomalias e atividades suspeitas. Ele pode ser usado para gerar relatórios em  vários formatos, incluindo texto simples, HTML e CSV. 

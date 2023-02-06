@@ -1,0 +1,1 @@
+Este programa é um driver para o banco de dados Postgres, que permite que você use o Perl Data Language (DBI) para se conectar e  interagir com o banco de dados. Isso significa que você pode escrever scripts em Perl para realizar tarefas como consultar e modificar dados, criar tabelas e outras operações comuns. Ele é  conhecido como 'perl-dbd-pg'. 

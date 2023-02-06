@@ -1,0 +1,3 @@
+Este programa oferece ferramentas para conversão de arquivos binários para o formato Motorola S-Record (SREC)
+e vice-versa. Ele é especialmente útil para desenvolvedores de software e engenheiros de sistemas que trabalham com dispositivos embarcados.Com ele, é possível transformar arquivos binários
+em um formato que pode ser facilmente transferido para dispositivos como microcontroladores, e também convertê-los de volta para seu formato original para fins de edição ou análise.

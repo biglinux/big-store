@@ -1,0 +1,1 @@
+python-heatclient é uma biblioteca de cliente para a API de orquestração OpenStack. Ele permite que você gerencie recursos de nuvem, como máquinas virtuais e redes, através de comandos simples e fáceis de usar. Com esta biblioteca, você pode automatizar tarefas de nuvem e integrar sua aplicação com o OpenStack. 

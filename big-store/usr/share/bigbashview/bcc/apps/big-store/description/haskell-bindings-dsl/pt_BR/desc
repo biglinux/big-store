@@ -1,0 +1,1 @@
+O haskell-bindings-dsl é uma linguagem específica para Foreign Function Interface (FFI), que é construída sobre o hsc2hs. Ela permite aos desenvolvedores escrever interfaces de bindings de forma mais simples e legível, tornando o processo de chamar funções de bibliotecas externas em Haskell mais fácil. 

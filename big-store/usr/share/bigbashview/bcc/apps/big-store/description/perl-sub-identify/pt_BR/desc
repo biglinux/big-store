@@ -1,0 +1,1 @@
+Este programa é escrito em Perl e tem como função recuperar os nomes das referências de código. Ele é útil para quem  precisa encontrar rapidamente um determinado trecho de código dentro de um grande projeto.Ele usa uma técnica chamada identificação de subrotina para localizar os nomes das referências de código. 

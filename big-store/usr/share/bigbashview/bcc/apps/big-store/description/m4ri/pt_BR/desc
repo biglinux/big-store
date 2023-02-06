@@ -1,0 +1,1 @@
+m4ri é um pacote de software que fornece implementações rápidas e precisas de algoritmos para álgebra linear sobre o campo F_2. Isso é útil para operações com matrizes booleanas e criptografia. Ele suporta operações como multiplicação de matrizes, inversão, decomposição LU e muito mais. É escrito em C e possui interfaces para outras linguagens como Python e Sage. 

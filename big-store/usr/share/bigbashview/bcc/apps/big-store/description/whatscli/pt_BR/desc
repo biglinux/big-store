@@ -1,0 +1,3 @@
+Essa ferramenta permite que você use o WhatsApp pelo seu computador, sem precisar abrir o aplicativo no celular.
+Ela é baseada em duas outras bibliotecas, chamadas go-whatsapp e tview. Dessa forma, você pode enviar e receber mensagens, verificar seus contatos e grupos, e fazer outras coisas sem
+precisar pegar o celular.

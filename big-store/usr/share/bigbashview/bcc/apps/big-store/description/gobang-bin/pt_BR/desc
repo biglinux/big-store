@@ -1,0 +1,4 @@
+Uma ferramenta de gerenciamento de banco de dados TUI (interface de usuário de texto) cruz-plataforma
+escrita em Rust. É fácil de usar e permite que você gerencie seus bancos de dados de forma rápida e eficiente, tudo através de comandos de texto simples. Ele é ideal para usuários avançados
+e desenvolvedores, mas também é acessível para usuários iniciantes. Com o Gobang-bin, você pode criar, modificar e gerenciar tabelas, inserir e buscar dados, e muito mais. Experimente agora
+e veja como é fácil gerenciar seus bancos de dados.

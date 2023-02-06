@@ -1,0 +1,3 @@
+O Buildroot é uma ferramenta popular para construir sistemas embarcados Linux, ele fornece uma maneira fácil de
+personalizar suas configurações e criar sua própria imagem do sistema. Ele é especialmente útil para dispositivos com recursos limitados, como roteadores, câmeras de segurança e outros
+equipamentos IoT.A buildroot-meta é uma dependência necessária para o Buildroot, ela fornece as configurações de dependência para o Buildroot funcionar corretamente.

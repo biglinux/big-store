@@ -1,0 +1,3 @@
+Este é um programa chamado COIN-OR que é uma ferramenta para ajudar a construir outro programa chamado MUMPS. Ele usa algo
+chamado autotools para fazer isso de forma automatizada e fácil de usar.MUMPS é um sistema de solução de equações matriciais que é amplamente utilizado em cálculos científicos e engenharia.
+Ele é um software livre e de código aberto, o que significa que qualquer pessoa pode usá-lo, modificá-lo e distribuí-lo livremente.

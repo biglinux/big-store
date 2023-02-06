@@ -1,0 +1,1 @@
+ctpl é uma biblioteca de engine de template escrita em C. Ela permite criar modelos de texto com variáveis dinâmicas que podem ser preenchidas com dados em tempo de execução. Isso é útil para gerar saídas de texto personalizadas, como relatórios, e-mails e documentos. A biblioteca é fácil de usar e possui uma sintaxe simples para definir as variáveis e criar modelos. 

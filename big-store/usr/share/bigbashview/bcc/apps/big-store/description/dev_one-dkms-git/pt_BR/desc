@@ -1,0 +1,2 @@
+Este programa é um módulo para o kernel do Linux que cria um dispositivo '/dev/one', semelhante ao '/dev/zero'
+mas que fornece bits de valor 1 (bytes 0xFF).

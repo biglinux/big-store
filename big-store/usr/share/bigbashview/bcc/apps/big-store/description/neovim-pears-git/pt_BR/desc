@@ -1,0 +1,3 @@
+Este é um plugin para o editor de texto Neovim que adiciona a funcionalidade de auto pair. Isso significa que ele
+automaticamente coloca caracteres de fechamento, como parênteses e aspas, quando você digita um caractere correspondente de abertura.Por exemplo, se você digitar '(', o plugin adicionará
+automaticamente ')' para fechar o parêntese. Isso pode ajudar a economizar tempo e evitar erros comuns de digitação.

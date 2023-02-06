@@ -1,0 +1,1 @@
+Este programa é projetado para detectar quais pacotes precisam ser reconstruídos. Ele verifica as dependências de cada pacote e determina se alguma atualização ou mudança foi feita em outro pacote que afeta a funcionalidade deste. Isso é útil para garantir que o sistema esteja sempre funcionando corretamente e evitar problemas futuros. 

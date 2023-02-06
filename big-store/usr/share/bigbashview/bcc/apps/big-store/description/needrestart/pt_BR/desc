@@ -1,0 +1,1 @@
+needrestart é um programa que ajuda a reiniciar os serviços (daemons) depois de atualizações de kernel, bibliotecas e microcódigos da CPU. Ele verifica quais processos precisam ser reiniciados para aplicar as atualizações e os reinicia automaticamente. Isso é útil para garantir que o sistema esteja sempre atualizado e seguro. 

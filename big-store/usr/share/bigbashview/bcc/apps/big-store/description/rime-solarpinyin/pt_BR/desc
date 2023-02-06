@@ -1,0 +1,4 @@
+Este programa fornece uma entrada simplificada de pinyin para o sistema de entrada de idiomas Rime. Isso significa
+que ele permite que você digite caracteres chineses usando a escrita fonética do pinyin, em vez de precisar saber os caracteres chineses correspondentes. Isso pode ser útil para aqueles que
+estão aprendendo chinês ou para quem prefere digitar usando o teclado em vez de escrever com o mouse. O programa é baseado em SolarPinyin, um popular motor de entrada de pinyin
+simplificado. Ele foi adaptado para funcionar com o Rime e inclui várias melhorias adicionais, como suporte para caracteres de sino e seleção de palavras automática.

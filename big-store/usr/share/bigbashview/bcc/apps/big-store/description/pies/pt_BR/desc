@@ -1,0 +1,4 @@
+Este programa é chamado de 'Program Invocation and Execution Supervisor' ou simplesmente 'pies' para resumir.
+Ele tem como objetivo gerenciar como e quando os programas são iniciados e executados em um sistema. Isso inclui controlar quais programas são iniciados automaticamente quando o sistema é
+iniciado e garantir que os programas sejam executados de forma segura e estável. Além disso, ele pode ser usado para iniciar e parar programas manualmente, bem como monitorar o uso de
+recursos dos programas em execução. Em resumo, é uma ferramenta útil para garantir que seu sistema funcione de forma eficiente e sem problemas.

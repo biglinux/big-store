@@ -1,0 +1,2 @@
+Este é um sistema de construção meta que gera arquivos de construção para o Ninja (versão incluída no Chromium
+87). Ele é usado para aplicativos que utilizam a função set_sources_assignment_filter. Mais informações podem ser encontradas aqui: https://crbug.com/1018739.

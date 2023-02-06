@@ -1,0 +1,1 @@
+Esse programa é usado para medir o desempenho de banda e latência do InfiniBand da OpenFabrics Alliance. Ele suporta TCP/IP e RDMA e é conhecido como qperf. 

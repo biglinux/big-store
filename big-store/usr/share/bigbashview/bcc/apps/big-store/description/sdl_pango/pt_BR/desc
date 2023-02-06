@@ -1,0 +1,3 @@
+Este programa tem como objetivo conectar o Pango ao SDL, o que significa que ele permite que você use o Pango para exibir texto em
+suas aplicações SDL. O Pango é uma biblioteca de renderização de texto que suporta vários idiomas e scripts, então, ao conectá-lo ao SDL, você pode exibir texto em vários idiomas e scripts 
+em suas aplicações SDL.Isso é muito útil se você estiver desenvolvendo uma aplicação multilíngue ou se precisar exibir texto complexo, como texto escrito em árabe ou chinês.

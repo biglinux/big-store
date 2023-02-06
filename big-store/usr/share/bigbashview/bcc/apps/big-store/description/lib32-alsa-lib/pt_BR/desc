@@ -1,0 +1,1 @@
+Este programa é uma implementação alternativa para o suporte de som no Linux, específica para sistemas de  32 bits. Ele se chama lib32-alsa-lib e é usado para garantir que o som funcione corretamente em computadores que executam essa versão do sistema operacional. 

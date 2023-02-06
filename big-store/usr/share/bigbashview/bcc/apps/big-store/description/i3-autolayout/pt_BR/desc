@@ -1,0 +1,4 @@
+Este programa é um serviço para gerenciar automaticamente o layout do gerenciador de janelas i3. Ele ajuda você a organizar suas
+janelas de forma rápida e fácil, sem precisar fazer isso manualmente. Ele funciona com o i3, um gerenciador de janelas popular para sistemas Linux.Com o i3-autolayout, você pode especificar
+como as janelas devem ser organizadas e elas serão automaticamente organizadas de acordo com suas configurações. Isso pode ser útil para pessoas que precisam de muitas janelas abertas ao
+mesmo tempo e querem manter sua área de trabalho organizada.

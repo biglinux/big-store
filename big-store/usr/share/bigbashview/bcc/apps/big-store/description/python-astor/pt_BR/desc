@@ -1,0 +1,1 @@
+Esse programa é capaz de ler, reescrever e escrever ASTs (Abstract Syntax Trees) em Python. O pacote python-astor é utilizado para essas funcionalidades. 

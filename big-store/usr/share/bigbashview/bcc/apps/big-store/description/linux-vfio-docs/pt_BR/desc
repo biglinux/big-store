@@ -1,0 +1,3 @@
+Este repositório contém documentação para o kernel Linux, incluindo os patches de ACS override e i915 VGA arbiter. Esses
+patches são importantes para garantir o correto funcionamento de dispositivos de hardware em sistemas Linux.Este repositório é especialmente útil para usuários avançados e desenvolvedores
+que precisam entender como esses patches afetam o kernel Linux e como eles podem ser aplicados para melhorar o desempenho de seus sistemas.

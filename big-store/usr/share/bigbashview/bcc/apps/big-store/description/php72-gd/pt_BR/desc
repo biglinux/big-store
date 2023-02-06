@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.2 que permite a criação e manipulação de imagens. Ele é chamado de GD e é muito útil para
+desenvolvimento de sites e aplicações que precisam lidar com imagens, como por exemplo, um sistema de upload de fotos. Ele tem diversas funções como redimensionamento, criação de
+thumbnails, adição de texto e muito mais.É fácil de usar e tem uma boa documentação disponível para ajudar os desenvolvedores. Se você está criando um site ou aplicação que trabalha com
+imagens, este módulo pode ser muito útil para você.

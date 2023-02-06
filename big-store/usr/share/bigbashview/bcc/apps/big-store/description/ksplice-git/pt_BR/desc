@@ -1,0 +1,4 @@
+O programa ksplice-git permite que você faça atualizações no núcleo do seu sistema operacional sem precisar reiniciar. Isso
+pode ser útil em situações em que você precisa atualizar o sistema de forma rápida e não pode parar o funcionamento dele por muito tempo.Com ksplice-git, você pode aplicar patches
+(correções) no núcleo do seu sistema sem precisar interromper o funcionamento dele. Isso é possível graças ao uso de técnicas avançadas de atualização, que permitem que as modificações
+sejam feitas sem precisar interromper o funcionamento do sistema.

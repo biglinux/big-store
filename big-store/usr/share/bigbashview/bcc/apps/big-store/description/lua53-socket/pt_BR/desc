@@ -1,0 +1,1 @@
+Esta biblioteca oferece suporte de rede para a linguagem de programação Lua. Ela permite que os programas escritos em Lua se conectem e se comuniquem com outros dispositivos na rede, como servidores e computadores.Ela é compatível com a versão 5.3 do Lua e fornece várias funções e métodos para trabalhar com protocolos de rede comuns, como TCP e UDP. 

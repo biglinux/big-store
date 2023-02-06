@@ -1,0 +1,1 @@
+msgpack-cxx é uma biblioteca de serialização de objetos eficiente para C++. Ela fornece uma maneira  simples e rápida de converter objetos C++ para e de dados binários, tornando-a ideal para uso em comunicações de rede e armazenamento de dados. A biblioteca é leve, fácil de usar e altamente configurável, tornando-a uma ótima escolha para uma ampla gama de aplicativos. 

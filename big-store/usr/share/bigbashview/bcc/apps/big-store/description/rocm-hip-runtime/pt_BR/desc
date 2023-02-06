@@ -1,0 +1,3 @@
+Este pacote é especificamente projetado para ajudar a executar aplicativos HIP (Heterogeneous-Compute Interface for Portability)
+na plataforma AMD. Ele contém todos os arquivos necessários e as configurações corretas para garantir que os aplicativos HIP funcionem de forma otimizada na sua máquina AMD.Com este pacote 
+instalado, você poderá executar aplicativos HIP sem problemas e obter desempenho superior na sua máquina AMD.

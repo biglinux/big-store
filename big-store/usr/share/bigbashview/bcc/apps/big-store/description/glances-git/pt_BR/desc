@@ -1,0 +1,3 @@
+ Glances-git é uma ferramenta de monitoramento baseada em curses que usa a linha de comando. Ele mostra informações
+importantes sobre o seu sistema, como uso de CPU, memória, disco, rede e processos. Ele também suporta alertas e plugins para adicionar mais funcionalidade. O Glances-git é uma versão do
+Glances que vem diretamente do repositório git, o que significa que ele sempre contém as últimas atualizações e correções de bugs. 

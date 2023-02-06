@@ -1,0 +1,1 @@
+haskell-mustache é uma biblioteca para parsear templates mustache em código Haskell. Ela permite aos desenvolvedores criar templates de forma fácil e rápida, tornando mais simples a construção de aplicações web e outros projetos que precisem de interpolação de strings. 

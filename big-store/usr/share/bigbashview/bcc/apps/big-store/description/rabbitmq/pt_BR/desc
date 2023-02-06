@@ -1,0 +1,1 @@
+RabbitMQ é uma implementação altamente confiável e performática de mensagens empresariais escrita em Erlang/OTP. Ele segue o protocolo AMQP (Advanced Message Queuing Protocol) e é amplamente utilizado em aplicações distribuídas para garantir a entrega confiável de mensagens em tempo real. 

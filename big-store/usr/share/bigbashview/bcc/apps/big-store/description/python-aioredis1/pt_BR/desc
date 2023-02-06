@@ -1,0 +1,2 @@
+ A biblioteca python-aioredis é uma ferramenta que permite trabalhar com o banco de dados Redis usando o asyncio (PEP
+3156). Ela é uma versão antiga mas ainda pode ser usada para algumas finalidades. 

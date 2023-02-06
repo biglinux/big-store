@@ -1,0 +1,2 @@
+my_timers é um programa que permite gerenciar eventos de forma multithreaded no banco de dados MariaDB/MySQL. Ele pode ser
+usado como uma substituição completa para event_scheduler.

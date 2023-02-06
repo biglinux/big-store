@@ -1,0 +1,3 @@
+Esta é uma biblioteca chamada python-pgi. Ela permite que você use uma coisa chamada GObject com o Python. GObject é 
+uma coisa usada para fazer programas para computadores. Com esta biblioteca, você pode fazer seus programas de forma mais fácil e rápida. Ela também é necessária se você quiser usar o
+Python PyPy com GObject.

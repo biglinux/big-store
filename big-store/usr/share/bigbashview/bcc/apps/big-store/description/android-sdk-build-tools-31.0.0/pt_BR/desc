@@ -1,0 +1,3 @@
+As ferramentas de construção são um conjunto de ferramentas necessárias para construir e desenvolver aplicativos
+para o sistema operacional Android. Ele inclui programas como aapt, aidl, dexdump, dx e llvm-rs-cc. Essas ferramentas são fornecidas pelo Google através do Android SDK e são essenciais para
+qualquer desenvolvedor que deseja criar aplicativos para dispositivos Android.

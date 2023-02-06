@@ -1,0 +1,1 @@
+O lua-testmore é uma porta da biblioteca de teste unitário Perl Test::More para o Lua. Ele fornece as funcionalidades básicas de teste, como verificações de igualdade, de verdadeiro e falso, e de não-nulidade, além de suporte para testes condicionais e contagem de testes. 

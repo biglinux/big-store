@@ -1,0 +1,3 @@
+Com o appimagetool-bin, você pode criar pacotes de aplicativos para desktop facilmente. Isso permite que você distribua seus
+programas de forma simples e universal, sem precisar se preocupar com configurações específicas do sistema. O AppImage é um formato de arquivo que contém tudo o que é necessário para
+executar um aplicativo, incluindo bibliotecas e configurações. Ele é compatível com várias distribuições Linux e pode ser executado sem precisar instalar nada. 

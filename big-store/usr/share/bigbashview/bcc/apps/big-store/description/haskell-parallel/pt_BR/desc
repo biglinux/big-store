@@ -1,0 +1,1 @@
+A biblioteca 'haskell-parallel' é uma ferramenta que permite a criação de programas que rodam em paralelo, ou seja, ao mesmo tempo. Isso é útil para aumentar a velocidade de execução de tarefas que podem ser divididas em partes menores e executadas simultaneamente. Ela é escrita na linguagem de programação  Haskell e pode ser facilmente integrada a outros projetos. 

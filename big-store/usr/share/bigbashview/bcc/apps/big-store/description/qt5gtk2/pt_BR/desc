@@ -1,0 +1,2 @@
+Este programa oferece plugins que permitem a integração entre o Qt5 e o GTK+2.0. Isso significa que os desenvolvedores podem usar
+recursos e componentes de ambas as bibliotecas em seus projetos. Com isso, é possível criar aplicativos com interfaces gráficas ricas e personalizadas.

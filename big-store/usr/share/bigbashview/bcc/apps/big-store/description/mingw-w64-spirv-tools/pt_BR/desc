@@ -1,0 +1,4 @@
+Essas ferramentas são usadas para processar módulos SPIR-V, um tipo de arquivo usado para escrever shaders (códigos que
+ajudam a desenhar imagens) em computadores gráficos. Elas funcionam com o Mingw-w64, um conjunto de ferramentas para desenvolvimento de software. É possível usar essas ferramentas para
+criar, verificar, otimizar e traduzir arquivos SPIR-V. Elas também podem ser usadas como uma API (interface de programação de aplicativos) para integrar essas funcionalidades em outros
+programas.

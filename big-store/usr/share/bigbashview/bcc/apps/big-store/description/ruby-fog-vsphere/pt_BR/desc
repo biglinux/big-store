@@ -1,0 +1,3 @@
+Este programa é usado para gerenciar sua nuvem com a linguagem de programação Ruby. Ele se conecta com o vSphere, uma
+plataforma de virtualização da VMware, para te ajudar a gerenciar suas máquinas virtuais e seus recursos de nuvem. Ele é fácil de usar e é útil para quem precisa gerenciar muitas máquinas
+virtuais ao mesmo tempo.

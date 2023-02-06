@@ -1,0 +1,3 @@
+Esta biblioteca, chamada precice-git, é projetada para ajudar a gerenciar simulações
+multi-físicas em sistemas massivamente paralelos. Ela é especialmente útil para garantir que diferentes partes da simulação sejam sincronizadas e trabalhem juntas de forma eficiente. A
+versão git desta biblioteca está disponível para download e uso.

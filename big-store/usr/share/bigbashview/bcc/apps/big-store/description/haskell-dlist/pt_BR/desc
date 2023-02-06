@@ -1,0 +1,1 @@
+O pacote 'haskell-dlist' fornece uma implementação de listas de diferenças em Haskell. Essas listas são úteis quando precisamos fazer muitas alterações em uma lista, pois elas possuem uma melhor performance que as listas normais nesses casos. Além disso, elas também possuem algumas operações específicas,  como a inserção de elementos em posições específicas. 

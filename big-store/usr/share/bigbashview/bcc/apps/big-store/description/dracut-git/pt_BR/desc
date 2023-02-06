@@ -1,0 +1,4 @@
+O dracut-git é uma infraestrutura de initramfs que funciona com base em eventos. Isso significa que ele é
+capaz de detectar e responder a eventos específicos durante o processo de inicialização do sistema operacional. Com isso, ele garante que o sistema seja iniciado de forma mais rápida e
+eficiente.A infraestrutura de initramfs é uma parte importante do sistema operacional, pois ela é responsável por garantir que todos os dispositivos e sistemas necessários sejam iniciados
+corretamente antes do sistema operacional ser iniciado. O dracut-git é uma opção avançada para essa infraestrutura, oferecendo recursos adicionais e melhor desempenho.

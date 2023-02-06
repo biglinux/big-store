@@ -1,0 +1,1 @@
+O ffado-mixer é uma aplicação gráfica que permite controlar uma interface de áudio FireWire. A extensão do controle é determinada pelo nível de suporte do dispositivo no FFADO e no ffado-dbus-server. Controles típicos oferecidos pelo ffado-mixer incluem faders para o mixer embarcado, controle de alimentação fantasma, interruptores de modo e assim por diante. 

@@ -1,0 +1,4 @@
+O Collabora Online Server é um programa que permite a colaboração em tempo real em documentos do Microsoft Office.
+Ele pode ser instalado sem utilizar o Docker, o que facilita a configuração em alguns casos. Com ele, é possível editar documentos, planilhas e apresentações de forma simultânea com outras 
+pessoas, além de compartilhar comentários e realizar revisões.Essa versão sem Docker é útil para quem já tem um servidor próprio e não quer utilizar mais recursos para rodar o Docker. É
+possível fazer a instalação em sistemas operacionais como Linux e Windows.

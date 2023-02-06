@@ -1,0 +1,1 @@
+prometheus-mysqld-exporter é um coletor de métricas do MySQL para o Prometheus. É uma ferramenta simples que roda junto ao seu servidor MySQL e expõe uma variedade de métricas no formato Prometheus. O coletor pode ser configurado para coletar métricas de bancos de dados ou tabelas específicas e também pode ser usado para coletar métricas de escravos de replicação. 

@@ -1,0 +1,4 @@
+Este é um módulo específico para o PHP 8.1 que permite a conexão com bancos de dados utilizando o protocolo DBLIB. Ele
+é conhecido como PDO_DBLIB e é uma extensão muito útil para desenvolvedores que trabalham com essa versão da linguagem de programação. Com ele, é possível realizar consultas, inserções,
+atualizações e outras operações com facilidade e segurança, além de contar com recursos avançados para trabalhar com transações e outras funcionalidades importantes. Em resumo, este módulo 
+é uma excelente opção para quem precisa trabalhar com banco de dados utilizando o PHP 8.1 e deseja contar com uma ferramenta confiável e completa.

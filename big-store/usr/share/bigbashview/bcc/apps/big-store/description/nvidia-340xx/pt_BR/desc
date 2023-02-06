@@ -1,0 +1,3 @@
+Os drivers NVIDIA para Linux são responsáveis por garantir que sua placa de vídeo NVIDIA funcione corretamente com o sistema
+operacional Linux. Este pacote específico é para a branch 340xx, que é considerada uma branch legada. Isso significa que ele é usado para placas de vídeo antigas que já não são mais
+suportadas pelas versões mais recentes dos drivers NVIDIA. Instalando este pacote, você garante que sua placa de vídeo antiga funcionará corretamente com o Linux.

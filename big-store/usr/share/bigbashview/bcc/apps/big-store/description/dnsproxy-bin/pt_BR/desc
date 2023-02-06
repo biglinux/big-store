@@ -1,0 +1,4 @@
+Este programa é um proxy DNS simples que oferece suporte a diferentes protocolos de segurança, como
+DoH (DNS sobre HTTPS), DoT (DNS sobre TLS), DoQ (DNS sobre QUIC) e DNSCrypt. Ele permite que você acesse sites e serviços de maneira segura e privada, protegendo suas informações de
+navegação de possíveis ameaças. Além disso, o programa é fácil de usar e configurar, bastando apontar seu dispositivo para o endereço IP do proxy para começar a usufruir dos benefícios de
+segurança adicionais.

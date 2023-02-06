@@ -1,0 +1,4 @@
+A ferramenta Stack Haskell é um gerenciador de pacotes e ambientes para a linguagem de programação Haskell. 
+Ele permite que você instale e gerencie facilmente as versões de bibliotecas e ferramentas que seu projeto precisa. O Stack Haskell estáticamente linkado significa que as bibliotecas e
+ferramentas serão incluídas diretamente no seu programa, em vez de carregadas dinamicamente. Isso pode ser útil para projetos que precisam ser executados em sistemas sem acesso às
+bibliotecas necessárias.

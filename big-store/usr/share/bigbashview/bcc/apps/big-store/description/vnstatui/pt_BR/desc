@@ -1,0 +1,4 @@
+Vnstatui é uma interface web básica que exibe gráficos de tráfego de rede a partir do vnstat. É uma ferramenta fácil de
+usar que permite aos usuários visualizar o uso de largura de banda em tempo real. Com ele, é possível monitorar o tráfego de rede em sua rede local ou em servidores remotos, sem precisar de
+conhecimento técnico avançado. Além disso, o vnstatui oferece recursos de personalização, como a possibilidade de selecionar períodos de tempo específicos para visualização e ajustar as
+cores e outros aspectos do gráfico.

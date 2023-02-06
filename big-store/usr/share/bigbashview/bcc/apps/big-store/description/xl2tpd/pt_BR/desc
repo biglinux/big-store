@@ -1,0 +1,1 @@
+xl2tpd é uma implementação open source do protocolo L2TP (Layer 2 Tunneling Protocol), mantida pela Xelerance Corporation. Ele é utilizado para criar túneis de rede de camada 2, permitindo a conexão remota de usuários a uma rede privada. Com xl2tpd, é possível criar túneis seguros e estáveis, garantindo a privacidade e a segurança dos dados transmitidos. 

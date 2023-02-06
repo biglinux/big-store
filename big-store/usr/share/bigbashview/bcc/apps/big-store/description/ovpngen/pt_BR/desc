@@ -1,0 +1,3 @@
+Este programa é usado para criar um perfil de cliente VPN no formato unificado. Ele é útil para quem precisa se conectar a uma 
+rede privada virtual (VPN) usando o protocolo OpenVPN. Com ele, é possível gerar um arquivo de configuração com as informações de conexão e autenticação necessárias, facilitando o processo 
+de configuração.

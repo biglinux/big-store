@@ -1,0 +1,2 @@
+Esse é um sistema de mensagens bus criado pela Freedesktop.org. Ele é utilizado para a comunicação entre diferentes
+programas e sistemas. O que o diferencia é que ele não cria um diretório ~/.dbus para sistemas que não utilizam o systemd.

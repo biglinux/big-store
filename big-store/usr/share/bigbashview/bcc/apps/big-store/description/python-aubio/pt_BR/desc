@@ -1,0 +1,1 @@
+Este programa é conhecido como python-aubio, ele fornece uma forma de ligar o Python ao aubio, que é uma biblioteca de processamento de áudio para extrair informações como tempo, pitch e outras características. Isso permite que você crie aplicativos de áudio personalizados usando Python, como reconhecimento de voz, análise de música e muito mais.  

@@ -1,0 +1,5 @@
+Jfrog-cli-bin é uma ferramenta de linha de comando que permite gerenciar repositórios de
+forma simples. Ele dá acesso às funcionalidades de Artifactory, Bintray e Mission Control, permitindo aos usuários gerenciar pacotes e artefatos de software de forma rápida e fácil. Com
+ele, é possível fazer upload, download, busca e gerenciamento de versões de forma automatizada, economizando tempo e esforço. Além disso, o Jfrog-cli-bin permite aos desenvolvedores
+trabalhar de forma integrada com seus fluxos de trabalho de CI/CD, permitindo a automação de tarefas comuns de gerenciamento de pacotes, garantindo uma melhor qualidade e velocidade no
+desenvolvimento de software.

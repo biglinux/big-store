@@ -1,0 +1,3 @@
+ TortoiseHG é um programa que ajuda a gerenciar o código do seu projeto usando o Mercurial. Ele é um front-end gráfico do
+Mercurial, o que significa que ele fornece uma interface amigável para que você possa navegar e gerenciar seu código facilmente. Com ele, você pode verificar o histórico de alterações,
+comparar versões e até mesmo fazer merge de código. É uma ótima ferramenta para desenvolvedores que trabalham em projetos de código aberto ou em equipes. 

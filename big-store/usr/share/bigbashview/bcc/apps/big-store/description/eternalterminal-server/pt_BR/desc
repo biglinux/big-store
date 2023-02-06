@@ -1,0 +1,2 @@
+Este programa é um servidor de conexão terminal. Ele permite que você se conecte a ele e use o terminal a partir de outro
+dispositivo. Ele só inclui o lado do servidor, então você precisará de outro programa para se conectar a ele.

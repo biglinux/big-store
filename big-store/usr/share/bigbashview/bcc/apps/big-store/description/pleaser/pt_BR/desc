@@ -1,0 +1,4 @@
+Este programa, chamado please, é similar ao comando sudo que já vem instalado em muitos sistemas operacionais.
+Ele foi escrito em rust, uma linguagem de programação moderna e segura. Além disso, ele possui suporte a regex, o que significa que você pode usar expressões regulares para especificar
+quais comandos deseja executar com privilégios elevados. Se você é desenvolvedor e gostaria de contribuir para o desenvolvimento deste programa, fique à vontade para entrar em contato com a
+equipe de desenvolvimento.

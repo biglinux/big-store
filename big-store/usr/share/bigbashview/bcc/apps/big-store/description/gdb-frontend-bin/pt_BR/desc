@@ -1,0 +1,4 @@
+Este programa é uma interface gráfica para o gdb, um depurador popular para programas escritos em C e C++.
+Ele é fácil de usar, flexível e pode ser estendido com novos recursos através de extensões. Com ele, você pode facilmente encontrar e corrigir erros em seus programas, o que ajuda a
+torná-los mais estáveis e confiáveis. Ele tem uma interface amigável e intuitiva, que permite que você navegue pelo código e visualize variáveis e valores enquanto o programa está sendo
+executado. Além disso, ele oferece recursos avançados, como a capacidade de definir pontos de interrupção e passo a passo, para ajudá-lo a entender como seu código está funcionando.

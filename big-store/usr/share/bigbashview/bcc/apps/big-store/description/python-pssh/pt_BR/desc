@@ -1,0 +1,3 @@
+Existem versões paralelas das ferramentas SSH, como o ssh, scp, rsync, nuke e slurp, que foram adaptadas para serem
+usadas com o Python. Essas ferramentas permitem que você conecte e gerencie vários computadores ao mesmo tempo, o que é útil para tarefas de administração de rede e automação. O python-pssh
+é uma boa opção para quem precisa gerenciar muitos servidores simultaneamente.

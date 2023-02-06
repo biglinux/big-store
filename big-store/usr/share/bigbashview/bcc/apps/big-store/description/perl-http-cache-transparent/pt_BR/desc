@@ -1,0 +1,1 @@
+Este programa em Perl permite armazenar de forma persistente os resultados de requisições HTTP, o que pode melhorar significativamente a velocidade de carregamento de páginas e diminuir a carga de trabalho do servidor. 

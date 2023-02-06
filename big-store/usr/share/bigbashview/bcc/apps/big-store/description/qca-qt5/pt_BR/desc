@@ -1,0 +1,1 @@
+QCA-qt5 é uma arquitetura criptográfica para aplicações Qt. Ele fornece uma interface de alto nível para vários provedores de criptografia, incluindo OpenSSL e NSS. Isso permite que os desenvolvedores adicionem facilmente suporte à criptografia em suas aplicações Qt sem precisar se preocupar com detalhes de implementação. 

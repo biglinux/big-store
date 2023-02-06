@@ -1,0 +1,3 @@
+Este programa é chamado nodejs-browser-sync. Ele é útil para desenvolvedores de websites que querem ver as
+alterações feitas em seus arquivos CSS sem precisar atualizar a página manualmente. Ele faz isso de forma automática, permitindo que você veja as mudanças enquanto trabalha. Além disso, ele
+também sincroniza a navegação em vários dispositivos, o que é útil para testar como o site se comporta em diferentes tamanhos de tela.

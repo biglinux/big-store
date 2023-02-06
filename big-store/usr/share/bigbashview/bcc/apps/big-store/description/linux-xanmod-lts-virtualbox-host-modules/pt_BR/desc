@@ -1,0 +1,1 @@
+Os módulos do kernel para Virtualbox no Manjaro são uma coleção de arquivos que permitem que o sistema operacional se comunique com o software de virtualização Virtualbox. Esses módulos são específicos para o kernel do Manjaro, e são necessários para que o Virtualbox funcione corretamente no sistema. 

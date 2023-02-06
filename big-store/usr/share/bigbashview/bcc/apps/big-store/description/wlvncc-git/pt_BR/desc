@@ -1,0 +1,3 @@
+ Este programa é um cliente VNC nativo para o Wayland. Ele permite que você se conecte a um servidor VNC e veja a tela remota
+em seu próprio ambiente Wayland. Ele é projetado para ser leve e rápido, e oferece uma boa qualidade de imagem. É útil para acessar máquinas remotas, trabalhar em conjunto com outras
+pessoas ou simplesmente acessar seu próprio computador de outro lugar. 

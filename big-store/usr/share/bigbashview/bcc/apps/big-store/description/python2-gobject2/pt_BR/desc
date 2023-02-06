@@ -1,0 +1,4 @@
+Este é um pacote de bindings para GObject, que é uma biblioteca usada para desenvolvimento de aplicativos com
+interface gráfica. Ele é específico para a versão 2 do Python, por isso é chamado de python2-gobject2. Isso significa que ele permite que você use as funcionalidades do GObject na sua
+aplicação escrita em Python 2.Os bindings são uma espécie de tradução, que permite que você use as funcionalidades de uma biblioteca em outra linguagem de programação. No caso desse pacote,
+ele traduz as funcionalidades do GObject para o Python 2, permitindo que você as use em sua aplicação.

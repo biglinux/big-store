@@ -1,0 +1,3 @@
+Este programa ajuda a extrair as informações importantes do arquivo setup.py de um projeto Python. Ele funciona usando a
+biblioteca dephell e o pacote setuptools. Com ele, você pode facilmente acessar detalhes como nome do projeto, autor, descrição e dependências. Isso é útil para quem deseja gerenciar ou
+entender melhor um projeto Python.

@@ -1,0 +1,3 @@
+Este programa tem como objetivo evitar problemas de segurança excessiva, chamados de hipersegurança, ao invocar funções de shell
+em resposta a eventos de socket2 em Hyprland. Isso permite que você ajuste as configurações de segurança de acordo com as necessidades específicas do seu sistema, garantindo que suas
+informações estejam sempre protegidas sem precisar se preocupar com bloqueios desnecessários.

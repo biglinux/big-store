@@ -1,0 +1,3 @@
+Este é um banco de dados de um programa chamado efistub-standalone. Ele trata de arquivos .efi.stub localizados na pasta
+/usr/lib/systemd/boot/efi/. Esses arquivos são importantes para o correto funcionamento do sistema e o efistub-standalone os mantém organizados e atualizados.Em resumo, o
+efistub-standalone é responsável por garantir que o seu sistema inicialize corretamente, graças aos arquivos .efi.stub.

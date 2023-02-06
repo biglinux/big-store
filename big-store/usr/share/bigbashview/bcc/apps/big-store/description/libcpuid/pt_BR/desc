@@ -1,0 +1,1 @@
+libcpuid é uma biblioteca pequena em C que permite a detecção de processadores x86 e  extração de recursos. Ela pode ser usada para obter informações sobre o processador, como a marca, o modelo, a velocidade e as características de instrução suportadas. Além disso, a biblioteca fornece uma interface simples e fácil de usar para acessar essas informações.  

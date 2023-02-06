@@ -1,0 +1,3 @@
+Este programa é um gerenciador de pacotes para sistemas operacionais UNIX, baseado no sistema runit. Ele ajuda a
+gerenciar e atualizar pacotes de forma automatizada, sem a necessidade de fazer isso manualmente. Além disso, ele oferece uma interface amigável para que mesmo crianças possam entender como
+usá-lo.É importante notar que este programa não inclui o portmaster em si, apenas o serviço runit para gerenciá-lo.

@@ -1,0 +1,1 @@
+Esta biblioteca permite que você implemente um processo de daemon Unix de maneira correta e segura. Um daemon é um tipo de programa que fica rodando em segundo plano, sem interação com o usuário, mas realizando tarefas importantes no sistema. Com essa biblioteca, é possível garantir que o seu programa se comporte de acordo com as boas práticas para daemons em sistemas Unix. 

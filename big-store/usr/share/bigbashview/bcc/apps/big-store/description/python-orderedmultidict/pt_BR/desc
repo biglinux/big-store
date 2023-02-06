@@ -1,0 +1,1 @@
+Este programa é um dicionário multivalor ordenado, ou seja, ele permite que vários valores sejam associados a uma única chave. Ele também mantém a compatibilidade com os métodos do dicionário padrão do Python. 

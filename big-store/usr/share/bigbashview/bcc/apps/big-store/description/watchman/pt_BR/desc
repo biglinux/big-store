@@ -1,0 +1,4 @@
+Watchman é um utilitário de linha de comando baseado em inotify que permite monitorar
+arquivos e acionar tarefas quando há mudanças. Ele é útil para desenvolvedores que precisam executar tarefas automatizadas sempre que um arquivo é modificado, como atualizar caches ou
+recriar arquivos de saída. Além de monitorar arquivos, o watchman também oferece recursos avançados, como a capacidade de agrupar tarefas em grupos e acioná-las de forma condicional com
+base nas mudanças detectadas.

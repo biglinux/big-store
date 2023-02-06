@@ -1,0 +1,4 @@
+Este programa adiciona suporte a comandos de sistema, como interromper ou executar processos, no PHP 7.1.
+Ele permite que os desenvolvedores usem funções adicionais para controlar o fluxo de seus scripts PHP e interagir com o sistema operacional. Algumas funções comuns incluem a capacidade de
+enviar sinais para processos, criar processos filho e esperar por seus resultados, e ler e escrever em pipes de processos. Este módulo é útil para quem deseja criar scripts de automação,
+monitoramento de sistemas e outras tarefas que precisem controlar processos no sistema operacional.

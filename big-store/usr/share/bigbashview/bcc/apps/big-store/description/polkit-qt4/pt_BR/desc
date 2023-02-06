@@ -1,0 +1,2 @@
+ Polkit-qt4 é uma biblioteca que permite aos desenvolvedores acessar a API do PolicyKit de forma amigável e estilizada com o 
+Qt. Isso significa que os programadores podem incluir facilmente recursos de autenticação e autorização em seus aplicativos usando esta biblioteca.

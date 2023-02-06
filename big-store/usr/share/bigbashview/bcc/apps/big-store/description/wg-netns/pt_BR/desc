@@ -1,0 +1,4 @@
+Este programa permite que você crie namespaces de rede usando o WireGuard no Linux. Isso significa que você pode 
+ter várias redes virtuais separadas em seu computador, cada uma com suas próprias configurações e aplicativos. É útil para proteger a privacidade e a segurança de seus dados, bem como para 
+testar configurações de rede sem afetar outras redes.Por exemplo, você pode criar um namespace de rede separado para sua navegação na internet, outro para jogos online e outro para
+trabalho. Cada um terá suas próprias configurações e aplicativos, e você pode alternar facilmente entre eles.

@@ -1,0 +1,3 @@
+Esse programa é chamado de argparse e ele ajuda a lidar com os argumentos passados para o seu código C++. Ele é projetado
+especificamente para o C++ moderno e torna mais fácil de entender e usar os argumentos passados para o seu programa. Com ele, você pode definir quais argumentos são necessários, quais são
+opcionais e como eles devem ser usados. Além disso, ele fornece uma maneira fácil de mostrar ajuda para os usuários do seu programa. 

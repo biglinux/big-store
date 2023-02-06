@@ -1,0 +1,4 @@
+ O programa python-pmdarima é uma biblioteca para o Python que fornece estimadores ARIMA (Autoregressive
+Integrated Moving Average) para séries temporais. Estes estimadores permitem que você ajuste modelos de séries temporais para dados e faça previsões futuras. É uma ferramenta útil para
+análise de dados financeiros, previsão de vendas, entre outros.Além de fornecer os estimadores ARIMA, a biblioteca também inclui funções para automatizar a seleção de parâmetros e a
+verificação de qualidade dos modelos. Isso facilita o processo de análise de séries temporais e torna o programa acessível para usuários com pouco conhecimento em estatística. 

@@ -1,0 +1,3 @@
+Este é um programa que permite controlar a velocidade do ventilador do seu computador através de uma interface gráfica fácil de
+usar. Ele usa um script chamado fancontrol e um serviço do systemd para funcionar.Com esse programa, você pode ajustar a velocidade do ventilador para manter a temperatura do seu computador
+em um nível confortável, sem precisar mexer nas configurações avançadas manualmente.

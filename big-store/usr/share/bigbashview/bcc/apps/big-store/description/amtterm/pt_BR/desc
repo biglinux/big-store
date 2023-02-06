@@ -1,0 +1,4 @@
+ O amtterm é uma ferramenta que permite se conectar com máquinas habilitadas com Intel Active Management
+Technology (AMT) através de Serial-Over-LAN. Isso significa que você pode acessar e gerenciar essas máquinas remotamente, mesmo se elas estiverem desligadas ou sem conexão com a rede. Isso 
+é útil para solucionar problemas, instalar atualizações e configurar a segurança dessas máquinas.O amtterm é fácil de usar e possui uma interface amigável, mesmo para usuários sem
+conhecimento técnico. Ele também é compatível com diferentes sistemas operacionais, incluindo Windows, Linux e MacOS. 

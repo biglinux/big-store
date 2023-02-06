@@ -1,0 +1,3 @@
+Kodi Event Clients é um conjunto de programas que permitem que outros aplicativos ou dispositivos interajam com o Kodi. Eles estão
+localizados na branch master, ou seja, a versão mais atualizada disponível. Com esses clientes, é possível controlar o Kodi, enviar informações para ele e receber informações de volta. Isso
+permite que outros dispositivos, como smartphones ou tablets, possam controlar a reprodução de mídia no Kodi.

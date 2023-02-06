@@ -1,0 +1,2 @@
+Este programa ajuda a escrever registros de inicialização compatíveis com o Microsoft, como o MBR (Master Boot
+Record) e o PBR (Partition Boot Record). Ele é útil para quem precisa criar ou recuperar esses registros em sistemas operacionais como o Windows.

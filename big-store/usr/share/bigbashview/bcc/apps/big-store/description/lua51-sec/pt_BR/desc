@@ -1,0 +1,1 @@
+Este programa fornece uma forma de comunicação segura (TLS/SSL) para a linguagem de programação Lua 5.1 através da biblioteca OpenSSL. Ele cria uma conexão segura para que os dados possam ser transmitidos de maneira protegida entre computadores. 

@@ -1,0 +1,4 @@
+Esta ferramenta é chamada hidrd-git e ela é uma biblioteca e ferramenta de conversão para relatórios HID (Human
+Interface Device). Ela ajuda a gerenciar e converter os relatórios de dispositivos de interface humana, como teclados e mouses, para serem usados em programas e sistemas.A biblioteca
+hidrd-git é útil para desenvolvedores de software e engenheiros de dispositivos que precisam trabalhar com relatórios HID e garantir que eles sejam compatíveis com seus programas ou
+sistemas.

@@ -1,0 +1,1 @@
+Biblioteca de testes de simulação fácil usando RAII. Esta biblioteca permite que você crie facilmente testes de simulação de objetos em seus aplicativos Perl. Ele usa RAII para garantir que os objetos simulados sejam limpos automaticamente, mesmo em caso de exceções. Isso torna os testes mais confiáveis e menos propensos a erros. 

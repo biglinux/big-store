@@ -1,0 +1,3 @@
+Esse programa permite a integração com a biblioteca libcurl através de uma linguagem chamada OCaml. Isso significa que você pode fazer
+requisições de internet, como baixar arquivos ou enviar dados para um site, usando essa biblioteca dentro do seu programa OCaml.Isso pode ser útil para automatizar tarefas online, criar
+ferramentas de gerenciamento de dados ou até mesmo criar aplicativos web.

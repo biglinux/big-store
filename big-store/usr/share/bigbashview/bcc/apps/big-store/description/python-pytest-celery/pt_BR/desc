@@ -1,0 +1,1 @@
+Este é um plugin para a biblioteca pytest que permite habilitar celery, uma biblioteca para gerenciamento de tarefas assíncronas no Python. Com ele, é possível testar facilmente as funções celery e garantir que elas estejam funcionando corretamente. Este plugin é especialmente útil para projetos que usam  celery em conjunto com pytest. 

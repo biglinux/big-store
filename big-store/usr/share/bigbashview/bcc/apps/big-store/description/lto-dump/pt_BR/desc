@@ -1,0 +1,1 @@
+lto-dump é uma ferramenta que permite verificar as informações de otimização de arquivos de objeto  gerados pelo compilador com otimização de tempo de link. Ele mostra as funções e variáveis presentes no arquivo, bem como as informações de otimização aplicadas a elas. 

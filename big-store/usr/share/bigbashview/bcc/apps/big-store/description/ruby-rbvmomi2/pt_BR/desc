@@ -1,0 +1,3 @@
+Esse programa fornece uma maneira fácil e intuitiva de se comunicar com a API do vSphere da VMware usando a linguagem Ruby. Ele
+permite que os usuários gerenciem máquinas virtuais, redes e armazenamento de forma automatizada, além de fornecer relatórios e monitoramento em tempo real. É uma ferramenta útil para
+administradores de sistemas e desenvolvedores que trabalham com ambientes VMware.

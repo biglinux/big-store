@@ -1,0 +1,3 @@
+Este é um kernel Linux especialmente desenvolvido para ser usado em dispositivos com processadores sunxi. Ele inclui os módulos
+necessários para funcionar corretamente nestes dispositivos.O kernel é o coração do sistema operacional, é responsável por gerenciar recursos do dispositivo, como memória, processamento e
+dispositivos de entrada e saída.

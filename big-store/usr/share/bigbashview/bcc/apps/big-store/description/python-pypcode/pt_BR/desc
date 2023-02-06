@@ -1,0 +1,1 @@
+Esta biblioteca em Python é uma vinculação para a biblioteca SLEIGH do Ghidra, que permite a disassemblagem de código e o lifting para o formato de código intermediário p-code. Com ela, é possível analisar e entender melhor o funcionamento de um programa, auxiliando na sua depuração e manutenção. 

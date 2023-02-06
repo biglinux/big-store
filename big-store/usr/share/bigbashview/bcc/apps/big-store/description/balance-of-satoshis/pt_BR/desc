@@ -1,0 +1,3 @@
+Este programa fornece comandos para trabalhar com saldos do LND (Lightning Network Daemon). Com ele, é possível verificar o saldo
+atual, enviar e receber pagamentos usando o LND e muito mais. Ele é uma ferramenta importante para quem usa o LND como carteira ou para os desenvolvedores que criam aplicativos com suporte 
+ao LND.

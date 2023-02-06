@@ -1,0 +1,1 @@
+Este programa é um cliente de correio SMTP, ou seja, ele permite enviar e-mails através de servidores de correio. Ele é menor e mais simples que um MTA (Mail Transfer Agent) regular, mas ainda pode cumprir as mesmas funções básicas. 

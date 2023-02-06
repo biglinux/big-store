@@ -1,0 +1,1 @@
+Este programa adiciona suporte à internacionalização para modelos SQLAlchemy. Isso permite que você tenha conteúdo traduzido em vários idiomas dentro do seu banco de dados, sem a necessidade de criar tabelas adicionais ou campos.Com esse programa, você pode facilmente configurar e gerenciar traduções para seus modelos, tornando seu aplicativo mais acessível a um público global. 

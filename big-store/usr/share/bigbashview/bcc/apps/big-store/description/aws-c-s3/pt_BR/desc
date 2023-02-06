@@ -1,0 +1,1 @@
+Essa biblioteca foi criada para se comunicar com o serviço S3 da Amazon. Ela foi projetada para maximizar a  velocidade de transferência em instâncias EC2 de alta largura de banda. 

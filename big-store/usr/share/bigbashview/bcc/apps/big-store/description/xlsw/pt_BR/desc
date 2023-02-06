@@ -1,0 +1,4 @@
+Este programa fornece uma maneira fácil de visualizar o conteúdo da árvore de janelas do sistema operacional. Ele
+lista todas as janelas abertas e seus detalhes, como o título da janela, o nome do aplicativo e o ID da janela. Isso é útil para solucionar problemas de janelas que não respondem ou para
+verificar o uso de recursos do sistema. Ele também pode ser usado para automatizar tarefas como fechar janelas específicas ou mudar a posição de janelas. O programa é fácil de usar e
+oferece diversas opções de filtragem e ordenação para tornar a busca de janelas ainda mais fácil.

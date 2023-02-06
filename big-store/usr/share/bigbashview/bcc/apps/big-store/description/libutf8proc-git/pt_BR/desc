@@ -1,0 +1,4 @@
+Esta é uma biblioteca de programação para ajudar a trabalhar com strings que estão codificadas em UTF-8.
+Isso é útil quando você está lidando com texto em diferentes idiomas e quer garantir que todos os caracteres sejam exibidos e processados corretamente.A biblioteca inclui funções para
+verificar se uma string está codificada corretamente, para contar o número de caracteres em uma string, e para normalizar a forma de uma string para facilitar a comparação. Ela também pode 
+ser usada para simplificar ou case-fold uma string.

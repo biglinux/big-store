@@ -1,0 +1,2 @@
+Este programa é um gancho do Pacman que lista os pacotes instalados em /etc/packages-list-native.txt e
+/etc/packages-list-foreign.txt.Ele é útil para manter registro dos pacotes instalados em um sistema Linux.

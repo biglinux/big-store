@@ -1,0 +1,3 @@
+ iioutils é um conjunto de ferramentas para gerenciamento de dispositivos de entrada e saída industrial. Ele é semelhante ao 
+pciutils, que é usado para gerenciar dispositivos de entrada e saída de computadores pessoais. Com iioutils, os usuários podem listar e configurar dispositivos I/O industrial, como sensores
+e atuadores, em sistemas Linux. Ele é útil para engenheiros e técnicos que trabalham com sistemas de automação industrial.

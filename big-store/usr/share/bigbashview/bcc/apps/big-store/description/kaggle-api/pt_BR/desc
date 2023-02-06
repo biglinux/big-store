@@ -1,0 +1,3 @@
+O Kaggle API CLI é uma ferramenta para baixar dados de competições do Kaggle diretamente pelo seu computador. Com ele,
+você pode facilmente baixar conjuntos de dados, submeter resultados e visualizar suas pontuações sem precisar acessar a página do Kaggle no seu navegador.Para usar o Kaggle API CLI, você
+precisa criar uma conta no Kaggle e gerar uma chave de API. Depois disso, é só seguir as instruções de uso fornecidas pelo programa para baixar os dados desejados.

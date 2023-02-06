@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.2 chamado PDO. Ele permite que você conecte e execute comandos em um banco de dados usando o PHP. É uma
+ferramenta importante para criar aplicações web dinâmicas e interagir com bancos de dados. O PDO é uma extensão do PHP que fornece uma maneira abstrata de acessar diferentes bancos de
+dados. Isso significa que você pode usar o mesmo código para se conectar a diferentes tipos de bancos de dados, como MySQL, PostgreSQL e SQLite.

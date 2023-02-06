@@ -1,0 +1,4 @@
+Este programa permite que você colabore online com outras pessoas em um servidor. Isso significa que você pode trabalhar
+em documentos, planilhas e outros arquivos ao mesmo tempo que outras pessoas, sem precisar estar no mesmo lugar. Além disso, ele não precisa ser instalado dentro de um container do
+Docker.Isso é útil para equipes que trabalham em projetos juntas e precisam acessar e editar os mesmos arquivos. Também é útil para empresas que precisam compartilhar informações
+confidencias com parceiros ou clientes de forma segura.

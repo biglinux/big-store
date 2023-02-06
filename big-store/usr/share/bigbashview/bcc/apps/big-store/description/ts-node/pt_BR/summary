@@ -1,0 +1,1 @@
+ts-node permite a execução de arquivos TypeScript diretamente, com suporte para mapas de origem para depuração.

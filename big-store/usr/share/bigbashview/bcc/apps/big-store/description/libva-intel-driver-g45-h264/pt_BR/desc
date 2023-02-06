@@ -1,0 +1,3 @@
+Este é um driver de aceleração de vídeo para o sistema operacional Linux. Ele usa a API VA (Video Acceleration) e é 
+específico para dispositivos Intel G45 que suportam o codec H264. Ele permite que o sistema reproduza vídeos com melhor desempenho e qualidade.Esse driver é importante para garantir uma
+reprodução suave de vídeos e melhorar a experiência do usuário. Ele é desenvolvido para trabalhar em conjunto com outros softwares de reprodução de vídeo, como o VLC ou o MPV.

@@ -1,0 +1,3 @@
+Este programa é usado para imprimir novas unidades systemd quando um pacote é instalado ou atualizado. Ele funciona com o
+gerenciador de pacotes pacman e é útil para manter o controle das unidades systemd que foram adicionadas ou modificadas com cada atualização do pacote. Com ele, você pode verificar
+facilmente quais unidades systemd foram adicionadas ou modificadas quando um pacote é instalado ou atualizado.

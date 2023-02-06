@@ -1,0 +1,1 @@
+ Este programa é uma implementação do OpenCL para dispositivos NVIDIA. Ele foi desenvolvido para aproveitar ao máximo a capacidade de processamento dos dispositivos NVIDIA, permitindo que os desenvolvedores de aplicativos criem programas mais rápidos e eficientes. Ele funciona com as versões 390xx dos dispositivos NVIDIA.  

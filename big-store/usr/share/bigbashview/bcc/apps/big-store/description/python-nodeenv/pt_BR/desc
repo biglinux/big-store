@@ -1,0 +1,1 @@
+Este programa permite criar um ambiente virtual para Node.js, similar ao virtualenv do Python. Ele é chamado python-nodeenv e é uma ótima opção para quem precisa trabalhar com várias versões do Node.js em um mesmo projeto. Com ele, você pode facilmente gerenciar as dependências e configurações de  cada ambiente virtual, sem afetar o sistema principal. 

@@ -1,0 +1,3 @@
+Esse é um fork, ou cópia, do programa Elemental. Ele foi modificado para usar diretamente a biblioteca GMP, ao invés de usar a 
+MPFR. Isso faz com que ele tenha algumas diferenças em relação ao Elemental original. Mas, ainda assim, é uma ferramenta poderosa para quem precisa realizar cálculos matemáticos complexos. 
+Vale a pena experimentá-lo!

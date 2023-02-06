@@ -1,0 +1,1 @@
+Esse programa adiciona uma extensão de compressão por mensagem DEFLATE para conexões WebSocket. Isso significa que cada mensagem enviada através da conexão será compactada antes de ser enviada, o que pode economizar largura de banda e aumentar a velocidade de comunicação. É escrito em Ruby. 

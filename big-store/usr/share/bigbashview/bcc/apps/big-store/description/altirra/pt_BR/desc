@@ -1,0 +1,3 @@
+ Este programa é um emulador de computador Atari 8-bit. Ele permite que você execute jogos e aplicativos desenvolvidos para o Atari
+original em um computador moderno. Ele usa o Wine para fornecer compatibilidade com sistemas operacionais Windows e Linux. Com ele, você pode jogar clássicos como Pac-Man, Space Invaders e 
+muitos outros jogos da época.Além disso, ele também é útil para desenvolvedores que desejam testar seus aplicativos em um ambiente Atari sem ter que possuir um hardware antigo.

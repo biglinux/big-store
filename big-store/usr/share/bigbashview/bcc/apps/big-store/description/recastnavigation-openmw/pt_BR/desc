@@ -1,0 +1,5 @@
+RecastNavigation-OpenMW é uma ferramenta de navegação baseada em malha que permite que os jogadores de OpenMW tenham uma 
+experiência de movimentação mais suave e realista no jogo. Ele usa algoritmos avançados para analisar o ambiente do jogo e criar uma malha de navegação que o personagem pode seguir
+facilmente. Isso garante que o personagem evite obstáculos e siga o caminho mais curto para o seu destino.Além disso, o RecastNavigation-OpenMW oferece suporte para múltiplos níveis de
+detalhes, o que permite que os desenvolvedores de jogos criem áreas grandes com navegação precisa sem comprometer o desempenho do jogo. Ele também é fácil de personalizar, permitindo que os
+jogadores e desenvolvedores ajustem a navegação de acordo com suas necessidades.

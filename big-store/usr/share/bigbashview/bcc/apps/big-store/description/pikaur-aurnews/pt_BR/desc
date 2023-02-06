@@ -1,0 +1,3 @@
+Pikaur é um helper para gerenciar pacotes AUR (Arch User Repository) que pergunta todas as perguntas antes de instalar ou
+construir. Ele foi inspirado por outros helpers como pacaur, yaourt e yay, e também possui o recurso aurnews. O recurso aurnews permite acompanhar as atualizações dos pacotes diretamente na
+interface do programa, sem precisar acessar o repositório manualmente. É uma ótima opção para usuários do Arch Linux que desejam manter seus pacotes atualizados com facilidade. 

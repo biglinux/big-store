@@ -1,0 +1,2 @@
+Este programa cria arquivos PDF com o texto reconhecido e colocado atrás da imagem, como se fosse um sanduíche. É uma
+espécie de 'casaco' para o OCR tesseract e o hocr2pdf. Com ele, você pode transformar imagens em PDFs com o texto reconhecido e facilmente pesquisável. 

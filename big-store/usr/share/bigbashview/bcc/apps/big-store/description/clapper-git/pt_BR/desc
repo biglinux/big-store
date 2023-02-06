@@ -1,0 +1,2 @@
+Este é um reprodutor de mídia construído para o ambiente de trabalho GNOME, ele usa GJS com o conjunto de ferramentas GTK4 e é
+alimentado pelo GStreamer com renderização OpenGL. Com ele, você pode reproduzir vários formatos de mídia, incluindo música e vídeo, de uma maneira simples e intuitiva.

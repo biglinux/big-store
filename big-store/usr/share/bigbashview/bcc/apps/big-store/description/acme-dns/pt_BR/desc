@@ -1,0 +1,2 @@
+ Este é um programa chamado acme-dns. Ele é um servidor DNS especial que ajuda a passar nos desafios dns-01 do ACME. Ele é
+fácil de usar e configurar, e garante que você tenha sucesso nos desafios necessários para obter um certificado SSL. 

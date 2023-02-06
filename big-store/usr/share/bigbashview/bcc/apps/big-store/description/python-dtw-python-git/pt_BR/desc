@@ -1,0 +1,3 @@
+Este programa é uma porta de Python para o pacote de algoritmo de distorção temporal dinâmica de R. Ele permite que 
+você execute esse algoritmo em suas próprias aplicações escritas em Python. A distorção temporal dinâmica é um método utilizado para comparar séries temporais, como sinais de áudio ou
+gráficos de vendas, para encontrar pontos de correspondência entre eles. Isso é útil para tarefas como reconhecimento de fala ou previsão de tendências de vendas.

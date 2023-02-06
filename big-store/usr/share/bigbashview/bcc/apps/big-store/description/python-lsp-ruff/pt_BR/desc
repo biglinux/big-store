@@ -1,0 +1,5 @@
+Esse é um plugin para servidores Python LSP (Language Server Protocol) que permite fazer linting de maneira rápida
+e extensiva. Ele se chama Ruff.O linting é um processo importante para garantir que o código esteja escrito corretamente e segue as boas práticas da linguagem. Com o Ruff, essa
+verificação é feita de forma mais eficiente e completa, o que pode ajudar a encontrar e corrigir erros antes que eles causem problemas maiores.Esse plugin é especialmente útil para
+projetos grandes ou complexos, onde é importante manter o código limpo e organizado. Além disso, ele é simples de usar e configurar, tornando-o uma excelente opção para qualquer pessoa que 
+desenvolva em Python.

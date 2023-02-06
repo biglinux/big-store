@@ -1,0 +1,1 @@
+ Este é o módulo base do Lubyk, que é construído com base na linguagem Lua53. Ele é essencial para o funcionamento do programa e é usado para gerenciar as configurações e as dependências do programa. Ele também fornece recursos básicos, como acesso a arquivos e bibliotecas, para outros módulos do programa.  

@@ -1,0 +1,4 @@
+Este programa é um gerenciador de métodos que permite o uso de múltiplos argumentos. Ele é escrito em Python 
+e é útil para evitar a necessidade de escrever várias verificações de tipo de dado antes de chamar um método específico. Com ele, é possível definir vários métodos para tratar diferentes
+tipos de argumentos de forma simples e organizada.Exemplo de uso:def func(arg1, arg2):passdispatch = MultiMethod()dispatch.add(func, (int, int))dispatch.add(func, (str, str))dispatch(1,
+2) # chama a primeira funçãodispatch('a', 'b') # chama a segunda função

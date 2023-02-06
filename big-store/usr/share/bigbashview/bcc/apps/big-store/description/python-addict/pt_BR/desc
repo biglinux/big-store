@@ -1,0 +1,4 @@
+Você já precisou acessar um valor em um dicionário, mas achou difícil digitar toda a estrutura de chaves e colchetes? Com
+o programa python-addict, isso fica mais fácil! Ele permite que você adicione atributos aos seus dicionários, de forma que você possa acessar os valores como se fossem variáveis. Por
+exemplo, em vez de digitar dicionario['chave'], você pode usar dicionario.chave. Além disso, ele também fornece métodos úteis para gerenciar dicionários, como adicionar, remover e atualizar
+valores.

@@ -1,0 +1,4 @@
+ O AWS Cloud Development Kit (CDK) é uma ferramenta de linha de comando que permite criar aplicativos AWS usando 
+código. Ele fornece um conjunto de bibliotecas de construção em diferentes linguagens de programação, como JavaScript, TypeScript, Python, C# e Java, para ajudar a construir e gerenciar
+recursos AWS de forma programática. Com o CDK, você pode usar sua linguagem de programação favorita para definir seus recursos AWS, em vez de usar a interface da web ou arquivos de modelo. 
+Isso permite automatizar o processo de criação de aplicativos e torná-lo mais eficiente.

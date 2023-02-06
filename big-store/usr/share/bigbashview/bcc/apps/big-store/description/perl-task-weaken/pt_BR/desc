@@ -1,0 +1,1 @@
+O perl-task-weaken é um pacote do Perl que garante o suporte fraco em uma plataforma. Ele é projetado para evitar que certos recursos sejam disponibilizados em ambientes que não deveriam tê-los, como em produção ou em sistemas críticos. 

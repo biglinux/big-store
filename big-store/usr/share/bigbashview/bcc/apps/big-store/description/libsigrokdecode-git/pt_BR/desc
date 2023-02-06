@@ -1,0 +1,2 @@
+O programa é uma biblioteca de decodificação de protocolos para uso com analisadores lógicos de hardware
+diferentes. Ele permite decodificar sinais capturados pelo analisador lógico e transformá-los em dados legíveis. Esta é a versão mais atualizada do programa, disponível através do git.

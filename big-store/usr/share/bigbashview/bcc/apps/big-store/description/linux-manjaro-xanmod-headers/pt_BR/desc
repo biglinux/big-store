@@ -1,0 +1,4 @@
+ Este é um pacote com headers e scripts para construir módulos para o kernel Linux
+Xanmod. Ele é especificamente projetado para o sistema operacional Manjaro. Com este pacote, os desenvolvedores podem criar módulos adicionais para o kernel e personalizar o funcionamento
+do sistema.O kernel Linux Xanmod é uma versão modificada do kernel Linux padrão com melhorias de desempenho e recursos adicionais. Ele é projetado para ser estável e confiável, além de
+oferecer uma melhor experiência do usuário. 

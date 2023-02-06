@@ -1,0 +1,3 @@
+Esse é um script para o programa mpv que permite que ele funcione como uma aplicação única no Linux. Isso significa
+que, quando você abre o programa, ele não permite que outras instâncias dele sejam abertas ao mesmo tempo. Dessa forma, você pode evitar ter várias janelas do mesmo programa abertas e se
+confundir.

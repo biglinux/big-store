@@ -1,0 +1,4 @@
+Com o proot-bin, você pode executar programas como se estivesse em um sistema operacional diferente, sem precisar de
+privilégios ou configurações complexas. É uma ferramenta útil para quem precisa testar programas em ambientes diferentes sem afetar o sistema principal.O proot-bin permite que você execute 
+programas como se estivesse em um sistema operacional diferente, usando recursos como chroot, mount --bind e binfmt_misc. Além disso, ele é fácil de usar e não requer configurações
+avançadas.

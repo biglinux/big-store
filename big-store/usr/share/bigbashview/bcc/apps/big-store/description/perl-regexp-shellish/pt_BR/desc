@@ -1,0 +1,1 @@
+O módulo Regexp::Shellish para Perl/CPAN é utilizado para criar expressões regulares com estilo de shell, ou seja, semelhantes às utilizadas em comandos do shell. Ele é uma ferramenta útil para trabalhar com strings que representam comandos ou caminhos de arquivos. 

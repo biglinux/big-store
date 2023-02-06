@@ -1,0 +1,4 @@
+A Biblioteca de Extensão OpenGL (GLEW) é um software que ajuda a desenvolver programas que usam a API de gráficos OpenGL. Ele é
+especialmente útil para o Wayland, que é um sistema operacional para dispositivos móveis e computadores. A biblioteca GLEW torna mais fácil para os desenvolvedores trabalhar com as
+extensões OpenGL, permitindo que eles acessem novas funcionalidades sem precisar lidar com a complexidade de como essas funcionalidades são implementadas.Em resumo, a biblioteca GLEW é uma 
+ferramenta valiosa para quem deseja criar programas gráficos avançados usando a API OpenGL no Wayland.

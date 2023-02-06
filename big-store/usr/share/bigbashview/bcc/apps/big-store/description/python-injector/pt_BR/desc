@@ -1,0 +1,3 @@
+ Um framework de injeção de dependência para Python, inspirado no Guice. Este programa ajuda você a gerenciar as dependências
+do seu código, tornando-o mais fácil de entender e manter. Com ele, você pode especificar quais classes precisam de quais outras classes para funcionar e deixar o framework lidar com a
+criação e injeção dessas dependências no seu código. Isso torna o seu código mais limpo e organizado, além de facilitar a manutenção e o teste. 

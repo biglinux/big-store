@@ -1,0 +1,3 @@
+Este programa é um módulo de extensão para o PHP 7.2, chamado sodium (ou libsodium). Ele adiciona recursos de segurança
+criptográfica para a linguagem de programação PHP. Com esse módulo, os desenvolvedores podem utilizar funções criptográficas avançadas em seus projetos PHP, como criptografia assimétrica e 
+autenticação de mensagens. Isso ajuda a garantir a privacidade e a segurança dos dados dos usuários finais.

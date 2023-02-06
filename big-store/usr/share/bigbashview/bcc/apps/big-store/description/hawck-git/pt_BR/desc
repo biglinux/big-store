@@ -1,0 +1,4 @@
+O hawck-git é um programa que permite criar macros para teclado e fazer reassociações de teclas. Ele funciona como um
+daemon, ou seja, um programa que fica rodando em segundo plano, para que você possa criar e gerenciar suas macros sem precisar interromper suas atividades.Com o hawck-git, é possível
+automatizar tarefas comuns, como digitar uma frase ou comando com apenas uma tecla, ou atribuir uma tecla para abrir um programa específico. Além disso, você pode fazer reassociações de
+teclas para personalizar sua experiência de usuário.

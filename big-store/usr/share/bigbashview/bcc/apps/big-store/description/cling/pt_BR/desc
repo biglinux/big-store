@@ -1,0 +1,3 @@
+Clang é um interpretador interativo de C++ construído com base nas bibliotecas LLVM e Clang. Ele permite que você digite
+código C++ e veja o resultado imediatamente, sem a necessidade de compilar e executar um arquivo separado.Isso pode ser útil para testar pequenos trechos de código, experimentar novas
+ideias e depurar problemas de forma rápida e fácil.

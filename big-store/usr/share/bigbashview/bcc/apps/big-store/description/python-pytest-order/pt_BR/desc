@@ -1,0 +1,1 @@
+ Este é um plugin para o pytest, que permite a personalização da ordem de execução dos testes. Isso pode ser útil quando você precisa garantir que certos testes sejam executados primeiro, ou quando você deseja executar testes em uma ordem específica para facilitar a depuração. O plugin é chamado python-pytest-order. 

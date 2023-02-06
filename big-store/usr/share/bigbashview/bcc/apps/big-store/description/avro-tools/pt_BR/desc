@@ -1,0 +1,4 @@
+ Avro é um projeto de codificação de dados que fornece ferramentas de linha de comando e utilitários para trabalhar com 
+arquivos Avro. Essas ferramentas permitem que você valide, compacte, decompacte e converta arquivos Avro facilmente. Além disso, eles também permitem que você trabalhe com esquemas Avro,
+incluindo a criação, validação e conversão de esquemas. As ferramentas de linha de comando Avro são simples de usar e possuem uma interface intuitiva. Elas são compatíveis com várias
+plataformas, incluindo Windows, Linux e MacOS. Com o Avro, você pode trabalhar com seus dados de forma eficiente e confiável.

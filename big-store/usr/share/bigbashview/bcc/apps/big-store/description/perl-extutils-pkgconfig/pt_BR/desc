@@ -1,0 +1,1 @@
+O módulo Perl Pkgconfig é uma extensão que permite acessar informações de pacotes de configuração do sistema, como caminhos de incluir  e bibliotecas, usando o utilitário pkg-config. Ele é útil para programas escritos em Perl que precisam usar bibliotecas externas. 

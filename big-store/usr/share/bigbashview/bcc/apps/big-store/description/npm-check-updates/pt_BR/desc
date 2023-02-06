@@ -1,0 +1,1 @@
+Este programa ajuda você a encontrar novas versões das dependências que você usa em seu projeto. Ele verifica o arquivo package.json ou bower.json e mostra as atualizações disponíveis.Assim, você pode ficar sempre com as versões mais recentes e aproveitar as novidades e correções de erros. 

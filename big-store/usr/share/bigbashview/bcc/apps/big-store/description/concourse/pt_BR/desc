@@ -1,0 +1,3 @@
+Concourse é um programa escrito em Go e Elm que ajuda a automatizar tarefas de forma contínua. Ele utiliza
+contêineres para garantir que as tarefas sejam executadas de forma consistente e precisa. É útil para equipes que precisam garantir que seus processos de trabalho sejam executados sem
+problemas, como em projetos de desenvolvimento de software ou operações de infraestrutura.

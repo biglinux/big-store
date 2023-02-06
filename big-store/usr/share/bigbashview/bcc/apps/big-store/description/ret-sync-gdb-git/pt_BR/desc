@@ -1,0 +1,3 @@
+Este programa é um conjunto de plugins que ajudam a sincronizar a sessão de depuração com um desmontador. Ele é um
+plugin para o GDB, um depurador popular.Com este programa, você pode facilmente navegar entre o código fonte e o código desmontado enquanto depura seu programa, o que pode tornar o processo
+de depuração mais fácil e eficiente.

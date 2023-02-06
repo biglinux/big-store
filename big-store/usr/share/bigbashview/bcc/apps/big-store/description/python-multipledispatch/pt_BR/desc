@@ -1,0 +1,4 @@
+Este programa é uma implementação de multiple dispatch para a linguagem de programação Python. O que isso significa é que ele
+permite a execução de diferentes funções de acordo com a combinação de tipos dos argumentos passados para a função. Isso pode ser útil em várias situações, como a criação de código mais
+genérico e flexível. A utilização desse programa é simples, basta importar a biblioteca e utilizar a função 'dispatch' para definir quais funções serão chamadas de acordo com os tipos dos
+argumentos. Além disso, ele é compatível com a maioria das versões atuais do Python.

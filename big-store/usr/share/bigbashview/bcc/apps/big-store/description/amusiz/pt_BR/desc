@@ -1,0 +1,3 @@
+Este programa é um cliente de música da Amazon para computadores com sistema operacional Linux. Ele usa a biblioteca GTK 
+para exibir a interface gráfica, o que o torna fácil de usar e bonito de se ver. Com ele, é possível navegar pela sua biblioteca de música, criar playlists e ouvir suas músicas favoritas
+sem sair do seu computador.

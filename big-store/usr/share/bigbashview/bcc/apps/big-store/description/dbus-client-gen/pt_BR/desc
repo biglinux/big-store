@@ -1,0 +1,1 @@
+Essa é uma biblioteca que ajuda a criar classes e funções úteis para um cliente em  Python que se comunica com o D-Bus. O D-Bus é um sistema de comunicação interprocesso que permite aos programas trocarem mensagens e compartilharem informações. Com essa biblioteca, você pode facilmente criar um programa em Python que se comunique com outros programas usando o D-Bus. 

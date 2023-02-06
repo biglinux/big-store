@@ -1,0 +1,1 @@
+sequoia-wot é uma implementação da rede de confiança do OpenPGP. Ele permite aos usuários criar e gerenciar chaves PGP, assinar e verificar assinaturas, e construir uma rede de confiança baseada nas assinaturas dos outros usuários. Ele é projetado para ser usado em conjunto com outros softwares PGP, como GnuPG. 

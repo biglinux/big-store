@@ -1,0 +1,4 @@
+ Minfetch é um script de busca simples e personalizável. Ele pode ser usado para recuperar informações sobre o sistema,
+como o nome do host, a versão do kernel e a data atual. Além disso, você pode adicionar suas próprias informações para serem exibidas. O script é fácil de usar e pode ser personalizado de
+acordo com suas necessidades. Ele é escrito em shell script, o que significa que é compatível com a maioria dos sistemas operacionais Linux. Experimente o Minfetch hoje e veja como ele pode
+tornar a obtenção de informações do seu sistema mais fácil e rápida!

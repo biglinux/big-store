@@ -1,0 +1,1 @@
+Esse programa é escrito em Python e tem como função principal converter e gerar marcas de tempo compatíveis com o padrão RFC 3339. Ele utiliza objetos datetime do Python para realizar essas operações, tornando-o fácil de usar e integrar com outros sistemas. 

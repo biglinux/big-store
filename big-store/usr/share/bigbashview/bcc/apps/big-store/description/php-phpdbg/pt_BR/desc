@@ -1,0 +1,1 @@
+O phpdbg é um depurador interativo para PHP. Ele permite que você execute scripts PHP com opções de depuração adicionais, como pausar a execução em pontos específicos do código e inspecionar variáveis. Ele também fornece uma interface de linha de comando fácil de usar, semelhante ao gdb, para depurar aplicativos PHP.  

@@ -1,0 +1,1 @@
+Este programa permite que você carregue arquivos de qualquer lugar dentro do caminho de pacote Lua. Isso é útil se você precisar carregar arquivos personalizados para seu projeto sem precisar adicioná-los manualmente ao caminho de pacote. Ele é específico para a versão 5.3 do Lua. 

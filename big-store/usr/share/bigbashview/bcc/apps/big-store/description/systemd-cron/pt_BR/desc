@@ -1,0 +1,3 @@
+Este programa utiliza as unidades do systemd para executar scripts de cron. Isso significa que ele pode ser usado para
+agendar tarefas no sistema operacional, como a execução de backups, limpeza de arquivos desnecessários e outras tarefas rotineiras. Ele é fácil de configurar e garante que as tarefas sejam 
+executadas de maneira consistente e confiável.

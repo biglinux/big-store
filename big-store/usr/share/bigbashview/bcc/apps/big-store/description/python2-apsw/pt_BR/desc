@@ -1,0 +1,4 @@
+Esta é uma biblioteca para Python 2 que permite acessar banco de dados SQLite de forma fácil e intuitiva. Com
+ela, você pode criar, ler, atualizar e excluir dados em um banco SQLite sem precisar escrever muito código. É uma ótima opção para quem precisa de uma solução rápida e eficiente para
+armazenar e gerenciar dados.Além disso, a biblioteca é compatível com a maioria das versões do SQLite, o que significa que você pode usá-la em diferentes projetos sem se preocupar com a
+compatibilidade. Se você precisa de uma solução fácil e eficiente para trabalhar com banco de dados SQLite, esta biblioteca é a escolha certa para você.

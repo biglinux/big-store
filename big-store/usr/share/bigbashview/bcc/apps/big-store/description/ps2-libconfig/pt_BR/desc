@@ -1,0 +1,3 @@
+Esta é uma biblioteca para arquivos de configuração escrita em C/C++. Ela foi adaptada para funcionar no sistema
+de videogame Sony Playstation® 2. Com esta biblioteca, você pode facilmente ler e escrever arquivos de configuração em seus aplicativos, tornando mais fácil para você e seus usuários
+personalizarem as configurações do seu programa. 

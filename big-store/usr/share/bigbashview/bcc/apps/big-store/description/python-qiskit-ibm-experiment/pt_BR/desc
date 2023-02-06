@@ -1,0 +1,3 @@
+Esse programa permite acessar o banco de experimentos IBM Quantum. Ele usa a biblioteca python-qiskit para se
+conectar aos serviços da IBM Quantum e realizar experimentos. Ele é uma ferramenta útil para quem está estudando ou trabalhando com computação quântica e precisa de acesso aos experimentos 
+disponíveis na IBM Quantum.

@@ -1,0 +1,3 @@
+Este é um programa que ajuda a transformar dados em um formato que pode ser facilmente armazenado e
+compartilhado entre diferentes sistemas. Ele é especialmente útil para projetos em Python2, pois permite que você trabalhe com dados de forma mais eficiente e organizada. Com ele, você pode
+serializar (transformar em formato de dados) e deserializar (transformar de volta em dados normais) informações rapidamente e facilmente. 

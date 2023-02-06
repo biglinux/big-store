@@ -1,0 +1,1 @@
+lib32-mesa-utils é um conjunto de ferramentas úteis para usuários de Mesa, uma biblioteca gráfica open-source. Essas ferramentas incluem utilitários para testar recursos gráficos do hardware, visualizar informações sobre drivers e configurações, entre outras funções. Este pacote específico é projetado para sistemas de 32-bit. 

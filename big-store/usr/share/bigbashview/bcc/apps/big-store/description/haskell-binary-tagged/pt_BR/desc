@@ -1,0 +1,1 @@
+ O 'haskell-binary-tagged' é um pacote para serializar dados binários com marcação em Haskell. Isso significa que cada elemento do dado tem uma tag associada a ele, que indica o tipo de dado e ajuda na deserialização. Esse pacote é útil para transmitir dados binários entre sistemas ou salvar dados binários  em arquivos. 

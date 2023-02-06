@@ -1,0 +1,3 @@
+Esta é uma biblioteca de compositor Wayland modular, com suporte para HiDPI (versão git). Ele é usado para criar
+interfaces gráficas em sistemas operacionais baseados em Wayland. Com suporte para HiDPI, as telas de alta resolução serão exibidas corretamente. Esta versão é a versão em desenvolvimento, 
+diretamente do repositório git.

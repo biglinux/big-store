@@ -1,0 +1,1 @@
+A biblioteca libmaxminddb é utilizada para ler arquivos de banco de dados GeoIP2 fornecidos pela MaxMind. Ela permite que  os desenvolvedores acessem as informações de geolocalização precisas contidas nesses bancos de dados de forma rápida e fácil. Com ela, é possível identificar o país, estado, cidade e outras informações geográficas para um determinado endereço IP. 

@@ -1,0 +1,4 @@
+O OpenJDK é um conjunto de ferramentas de código aberto que permite a criação de aplicativos Java. O pacote openjdk18-src contém as 
+fontes do OpenJDK Java 18, ou seja, o código-fonte do sistema de programação utilizado para criar aplicativos Java.Com essas fontes, é possível personalizar o sistema de acordo com suas
+necessidades, além de contribuir para o desenvolvimento do OpenJDK. Este pacote é uma excelente opção para desenvolvedores que trabalham com Java e desejam ter mais controle sobre o
+sistema.

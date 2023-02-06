@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de linkagem moderna, ele ajuda a juntar todas as partes de um programa em um único arquivo
+executável. Isso é importante porque o computador precisa saber onde encontrar todas as partes do programa para poder rodá-lo corretamente. Com essa ferramenta, o processo de linkagem é
+mais rápido e fácil.Além disso, ele também oferece suporte a vários formatos de arquivos, como o ELF, PE e Mach-O, tornando-o compatível com diversas plataformas de computador.

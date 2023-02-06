@@ -1,0 +1,3 @@
+Feroxbuster é uma ferramenta de descoberta de conteúdo rápida, simples e recursiva escrita em Rust. Ele ajuda a
+encontrar e identificar conteúdos em um site ou servidor, permitindo que você possa fazer análises e identificar vulnerabilidades. É uma ferramenta útil para testes de penetração e
+auditorias de segurança.

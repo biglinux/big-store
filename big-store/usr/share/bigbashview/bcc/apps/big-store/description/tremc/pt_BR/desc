@@ -1,0 +1,2 @@
+Este programa é uma interface para o Transmission, que é um software de gerenciamento de download de arquivos. Com ele,
+você pode controlar as transferências remotamente usando um terminal.Ele é escrito em Python3 e é uma versão modificada de outro programa chamado transmission-remote-cli.

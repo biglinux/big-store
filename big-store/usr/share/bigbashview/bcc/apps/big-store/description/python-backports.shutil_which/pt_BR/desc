@@ -1,0 +1,3 @@
+Esse programa é uma versão de volta do recurso 'shutil.which' do Python 3.3. Ele permite que você encontre a localização
+de um arquivo executável em seu sistema, semelhante à função 'which' do Unix.Isso é útil quando você está trabalhando com scripts Python em sistemas operacionais antigos que não possuem a
+versão mais recente do Python instalada.

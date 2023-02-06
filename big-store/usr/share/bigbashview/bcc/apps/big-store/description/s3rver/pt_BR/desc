@@ -1,0 +1,1 @@
+Esse programa é um servidor falso escrito em NodeJs. Ele foi criado para simular o funcionamento de um servidor S3 da Amazon, permitindo que desenvolvedores testem suas aplicações sem precisar usar o serviço real.Com esse programa, é possível criar buckets, fazer upload de arquivos e simular erros, entre outras funcionalidades. 

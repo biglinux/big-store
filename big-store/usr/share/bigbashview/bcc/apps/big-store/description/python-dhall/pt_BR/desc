@@ -1,0 +1,3 @@
+Este programa, chamado 'python-dhall', é uma ferramenta útil para lidar com configurações em um formato funcional.
+Ele é feito para trabalhar com o idioma 'dhall' e é compatível com o Python. Isso significa que ele permite que você use seus conhecimentos de Python para gerenciar configurações e
+automatizar tarefas de configuração.Além disso, como o dhall é uma linguagem de configuração funcional, ele oferece benefícios como segurança, tipagem estática e prevenção de erros comuns.

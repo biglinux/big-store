@@ -1,0 +1,1 @@
+Este programa, chamado hostapd, é responsável por garantir a segurança de redes sem fio utilizando padrões IEEE 802.11  AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS. Ele age como um autenticador, verificando se os usuários estão autorizados a se conectar à rede e garantindo que as informações trocadas sejam criptografadas para proteção contra invasões. 

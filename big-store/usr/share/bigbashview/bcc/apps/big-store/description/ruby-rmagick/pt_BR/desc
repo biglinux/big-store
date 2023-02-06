@@ -1,0 +1,3 @@
+ RMagick é uma interface entre a linguagem de programação Ruby e a biblioteca de processamento de imagens ImageMagick.
+Com ele, é possível trabalhar de forma fácil e rápida com imagens, editando, redimensionando e adicionando efeitos. Tudo isso utilizando o poder do ImageMagick e com a praticidade da
+programação em Ruby. 

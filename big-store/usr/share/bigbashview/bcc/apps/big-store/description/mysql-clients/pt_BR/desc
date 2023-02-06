@@ -1,0 +1,4 @@
+As ferramentas de cliente MySQL são programas que permitem que você se conecte a um banco de dados MySQL e execute comandos
+nele. Isso inclui coisas como criar tabelas, inserir dados, selecionar dados e muito mais. É essencial ter essas ferramentas se você estiver trabalhando com um banco de dados MySQL.Algumas 
+das ferramentas de cliente comuns incluem o mysql, mysqladmin e mysqldump. Cada ferramenta tem suas próprias funções e usos específicos. Por exemplo, o mysql é usado para se conectar e
+executar comandos em um banco de dados, enquanto o mysqladmin é usado para gerenciar um servidor MySQL.

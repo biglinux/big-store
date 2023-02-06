@@ -1,0 +1,1 @@
+Este programa é um daemon, ou seja, um programa que roda em segundo plano no seu computador. Ele implementa o protocolo Point-to-Point (PPP) para redes de discagem. Isso significa que ele permite que você se conecte à internet usando uma linha telefônica tradicional. 

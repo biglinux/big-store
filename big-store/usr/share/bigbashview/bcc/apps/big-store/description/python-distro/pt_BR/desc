@@ -1,0 +1,1 @@
+Este programa é uma API feita em python para coletar informações sobre a plataforma Linux OS. Ele usa a biblioteca python-distro para acessar essas informações e pode ser usado para criar outros programas ou automatizar tarefas que precisem dessas informações. 

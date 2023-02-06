@@ -1,0 +1,4 @@
+Este programa é utilizado para verificar se há atualizações disponíveis para pacotes instalados através do AUR (Arch User
+Repository). Ele verifica a lista de pacotes instalados e compara com a versão mais recente disponível no repositório. Desta forma, é possível manter os pacotes atualizados e garantir que
+você esteja sempre usando a versão mais recente.O programa é simples de usar, basta executá-lo e ele irá mostrar quais pacotes possuem atualizações disponíveis. Você então pode escolher
+quais pacotes deseja atualizar e o programa fará isso automaticamente para você.

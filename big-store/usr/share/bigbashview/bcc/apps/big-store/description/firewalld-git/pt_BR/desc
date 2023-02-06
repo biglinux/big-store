@@ -1,0 +1,3 @@
+Este programa é um gerenciador de firewall que utiliza a interface D-Bus para se comunicar com outros
+aplicativos. Ele foi desenvolvido a partir do código fonte do Git, o que significa que é uma versão sempre atualizada e com as últimas funcionalidades disponíveis. Com ele, é possível
+controlar as configurações de firewall de maneira fácil e intuitiva, garantindo maior segurança para o seu dispositivo.

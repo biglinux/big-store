@@ -1,0 +1,1 @@
+A biblioteca de expressões regulares haskell-pcre-light é compatível com expressões regulares do Perl 5 e é portátil. Isso significa que você pode usá-la em diferentes sistemas operacionais sem precisar fazer mudanças.Com essa biblioteca, você pode procurar padrões específicos em textos, validação de dados de formulários e muito mais. 

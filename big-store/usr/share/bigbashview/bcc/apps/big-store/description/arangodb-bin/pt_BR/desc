@@ -1,0 +1,3 @@
+ArangoDB é um gerenciador de banco de dados NoSQL de alto desempenho, baseado em grafos. Ele fornece uma maneira fácil
+de armazenar, gerenciar e consultar dados complexos. Com ArangoDB, você pode criar aplicativos de banco de dados altamente escaláveis e flexíveis.Este pacote contém o binário do ArangoDB
+para uso em sistemas Debian e Ubuntu.

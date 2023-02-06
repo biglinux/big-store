@@ -1,0 +1,4 @@
+Esse programa é capaz de ler arquivos de vídeo no formato WebM. Ele funciona como um parser, ou seja, ele analisa o arquivo 
+e extrai as informações dele, como a duração, a resolução, entre outras. Com esse programa, é possível reproduzir arquivos WebM em dispositivos que não suportam esse formato nativamente.O
+libwebm é uma biblioteca de código aberto, o que significa que qualquer pessoa pode usá-lo e modificá-lo de acordo com suas necessidades. Isso também significa que ele é gratuito para
+usar.

@@ -1,0 +1,3 @@
+Este programa é uma biblioteca em Python para acessar a API RESTful do Nasdaq Data Link. Ele permite que você faça
+solicitações aos dados fornecidos pelo Nasdaq Data Link e os utilize em seus próprios projetos. Com ele, você pode acessar informações como cotações de ações, histórico de negociações e
+outros dados financeiros.É uma ferramenta útil para quem trabalha com análise de dados financeiros e precisa de acesso confiável e fácil às informações do Nasdaq Data Link.

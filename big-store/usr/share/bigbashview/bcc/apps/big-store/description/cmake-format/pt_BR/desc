@@ -1,0 +1,4 @@
+O cmake-format é um programa que ajuda a formatar seus arquivos de lista do CMake de forma organizada e legível. Ele ajusta 
+a indentação, adiciona espaços em branco e faz outras alterações para deixar seu código mais fácil de ler e entender. É útil para trabalhar em projetos grandes ou colaborativos, onde é
+importante manter um padrão consistente de formatação.É fácil de usar, basta selecionar o arquivo ou pasta que deseja formatar e o programa fará o resto. Ele também pode ser integrado a
+ferramentas de desenvolvimento populares, como o VS Code, para que você possa formatar seu código automaticamente ao salvar. 

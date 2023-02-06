@@ -1,0 +1,3 @@
+ Este programa é uma biblioteca para Python que permite acessar o DBus, um sistema de comunicação interprocesso. Ele é escrito em
+Python 3 e é útil para desenvolvedores que desejam adicionar suporte a DBus em seus projetos. A biblioteca fornece uma interface simples e fácil de usar para se comunicar com outros
+processos em seu sistema operacional. 

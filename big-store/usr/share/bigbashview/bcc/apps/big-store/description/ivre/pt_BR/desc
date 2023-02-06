@@ -1,0 +1,2 @@
+Esta é uma ferramenta de reconhecimento de rede baseada em Nmap, Masscan, Zgrab2, Nuclei, httpx, Zeek (Bro), Argus e
+Netflow. Ela permite que você crie suas próprias alternativas ao Shodan e GreyNoise, execute seu próprio serviço de DNS passivo e muito mais!

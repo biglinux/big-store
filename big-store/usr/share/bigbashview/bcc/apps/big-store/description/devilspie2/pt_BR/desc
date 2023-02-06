@@ -1,0 +1,3 @@
+O Devilspie2 é uma ferramenta que permite ao usuário realizar ações scriptadas em janelas assim que elas são
+criadas. Ele é capaz de identificar e selecionar janelas baseadas em suas propriedades, como título, tamanho e posição, e então executar scripts personalizados nelas. Isso pode ser útil
+para automatizar tarefas comuns ou personalizar a aparência de certas janelas.

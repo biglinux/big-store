@@ -1,0 +1,4 @@
+ Este programa é uma solução para desativar a decoração do lado do cliente no GTK+ 3. Isso significa que as
+janelas não terão botões de fechar, minimizar ou maximizar. Alguns usuários preferem essa aparência minimalista e essa ferramenta é útil para eles.Além disso, ele também pode melhorar o
+desempenho do seu ambiente de trabalho, pois não precisará carregar recursos adicionais para a decoração da janela.É importante notar que essa é uma hack e pode causar problemas de
+compatibilidade com alguns programas. Use por sua conta e risco. 

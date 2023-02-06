@@ -1,0 +1,3 @@
+Este programa é uma versão do kernel Linux, que é o coração do sistema operacional. Ele inclui algumas modificações feitas por um
+desenvolvedor chamado CK, que visam melhorar o desempenho do sistema. Essas modificações são conhecidas como patches CK.Os patches CK são uma série de ajustes no código fonte do kernel
+Linux que visam otimizar o desempenho do sistema. Eles foram desenvolvidos por Con Kolivas, um desenvolvedor australiano que tem trabalhado na otimização do Linux há muitos anos.

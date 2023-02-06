@@ -1,0 +1,3 @@
+Este programa é um serviço de controle de velocidade de ventilador para placas gráficas AMD. Ele foi desenvolvido
+especificamente para funcionar com a versão Xorg do sistema operacional. Com ele, é possível ajustar a velocidade do ventilador de acordo com as necessidades de cada usuário, garantindo
+assim um melhor desempenho e menor ruído. Além disso, ele também pode ser configurado para funcionar de maneira automática, o que facilita ainda mais o uso.

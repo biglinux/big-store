@@ -1,0 +1,3 @@
+Este é um driver específico para placas de vídeo AMD que possuem suporte ao Vulkan, uma API de baixo nível para
+desenvolvimento de jogos e aplicativos gráficos. Com ele, é possível aproveitar todo o poder dos chips da AMD para obter uma performance ainda melhor em jogos e outros programas que
+utilizem o Vulkan.O driver também oferece suporte ao AMDGPU Pro, uma ferramenta avançada para otimização de desempenho e configuração de gráficos.

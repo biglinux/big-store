@@ -1,0 +1,1 @@
+Este módulo do kernel permite alternar entre a placa gráfica dedicada e a integrada  em laptops equipados com a tecnologia Optimus. Ele é específico para a versão 6.1 do sistema operacional Linux e se chama linux61-bbswitch. 

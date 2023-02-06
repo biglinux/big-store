@@ -1,0 +1,4 @@
+MongoDB é um banco de dados de documentos de código aberto e de alta performance. Ele é chamado de 'schema-free' porque não requer que
+você defina esquemas de tabelas como em bancos de dados relacionais tradicionais. Isso significa que você pode armazenar e recuperar dados de vários formatos, como texto, imagens, vídeos e 
+muito mais, sem precisar se preocupar com a estrutura dos dados. Além disso, MongoDB é escalável e pode lidar com grandes volumes de dados, tornando-o ideal para aplicativos que precisam
+lidar com muitas consultas e transações simultâneas.

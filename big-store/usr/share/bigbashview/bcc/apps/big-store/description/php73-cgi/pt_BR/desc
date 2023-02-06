@@ -1,0 +1,3 @@
+Este programa é usado para rodar scripts escritos em PHP usando o Sistema de Aplicação CGI ou FCGI. Ele é específico para a
+versão 7.3 do PHP. Se você tem um site ou aplicação que usa PHP, provavelmente vai precisar deste programa para que tudo funcione corretamente. Ele é essencial para o funcionamento de
+qualquer coisa que você queira fazer usando PHP.

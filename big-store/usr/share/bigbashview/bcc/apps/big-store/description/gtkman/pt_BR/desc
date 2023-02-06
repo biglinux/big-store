@@ -1,0 +1,4 @@
+Este programa é um visualizador simples de páginas de manuais feito com GTK+3. Ele permite que você visualize as páginas 
+de manuais do seu sistema de forma fácil e intuitiva, sem precisar usar o terminal. Ele é especialmente útil para quem não está acostumado a usar comandos no terminal, mas ainda assim quer 
+acessar informações sobre os programas do seu computador.Ele é simples de usar, basta abrir o programa e pesquisar por um comando ou programa específico, e as informações serão exibidas na 
+tela. É uma ferramenta útil para qualquer usuário, desde iniciantes até usuários mais avançados que querem acessar informações rapidamente sem precisar sair do ambiente gráfico.

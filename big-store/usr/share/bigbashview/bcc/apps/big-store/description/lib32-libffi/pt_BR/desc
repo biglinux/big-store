@@ -1,0 +1,1 @@
+A biblioteca lib32-libffi é uma biblioteca de interface de função estrangeira portátil. Isso significa que ela permite que você chame funções de outras linguagens de programação a partir da sua linguagem de programação atual. Ela é especificamente projetada para ser usada em sistemas de 32 bits. 

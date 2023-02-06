@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.4 que adiciona funções matemáticas avançadas, como operações aritméticas com números de precisão
+arbitrária. Isso é útil para trabalhar com números grandes e precisos, como valores monetários ou precisão científica. Com este módulo, você pode realizar operações como adição, subtração, 
+multiplicação, divisão e módulo com números de precisão arbitrária sem perda de precisão.

@@ -1,0 +1,1 @@
+aws-c-auth é uma implementação da biblioteca C99 de autenticação do lado do cliente AWS. Ela fornece provedores de credenciais padrão e assinaturas para os serviços AWS. Ele foi projetado para ser simples e fácil de usar para qualquer aplicação baseada em C. 

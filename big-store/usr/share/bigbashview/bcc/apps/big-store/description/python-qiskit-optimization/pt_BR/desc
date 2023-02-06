@@ -1,0 +1,3 @@
+Este programa é uma biblioteca de otimização quântica para o framework IBM Qiskit. Ele permite que você use a computação
+quântica para resolver problemas de otimização, como encontrar o ponto mínimo ou máximo de uma função. Isso pode ser útil em muitas áreas, como financeira, logística e ciência dos
+materiais. Ele é escrito em Python, e é fácil de usar se você já tiver alguma experiência com o Qiskit.

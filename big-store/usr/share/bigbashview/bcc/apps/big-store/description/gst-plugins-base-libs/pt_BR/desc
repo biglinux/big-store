@@ -1,0 +1,1 @@
+gst-plugins-base-libs é um conjunto de bibliotecas base para o framework de gráfico de multimídia. Ele fornece funcionalidades básicas para reprodução de áudio e vídeo, como suporte a formatos de arquivo comuns e codificação/decodificação de áudio e vídeo.Este pacote é essencial para o funcionamento de outros plugins e aplicativos que utilizam o framework gstreamer. 

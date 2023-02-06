@@ -1,0 +1,3 @@
+Existe uma biblioteca chamada lutok que ajuda a usar o Lua, uma linguagem de programação, em outras linguagens como C++.
+Ela é chamada de biblioteca leve porque não precisa de muitos recursos para funcionar e é fácil de usar. Com ela, você pode usar o Lua em seus projetos de C++ de uma forma simples e
+eficiente.

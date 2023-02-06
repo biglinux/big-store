@@ -1,0 +1,1 @@
+Este programa é um compilador D baseado na infraestrutura de compiladores LLVM. Ele inclui tanto o runtime quanto a biblioteca libphobos2. libphobos2 é a biblioteca padrão D, fornece várias funcionalidades como coleções, algoritmos e muito mais. 

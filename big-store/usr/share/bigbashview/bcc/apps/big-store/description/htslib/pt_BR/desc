@@ -1,0 +1,3 @@
+A biblioteca htslib é uma ferramenta em C para lidar com formatos de dados de sequenciamento de alta
+performance. Ela é utilizada para armazenar, processar e visualizar dados de sequenciamento de DNA e RNA, incluindo formatos comuns como BAM, SAM e VCF. A biblioteca é amplamente utilizada 
+em ferramentas de análise de sequenciamento de DNA e RNA, e é uma parte importante da infraestrutura de análise de sequenciamento de muitos projetos de biologia molecular.

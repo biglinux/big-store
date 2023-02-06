@@ -1,0 +1,3 @@
+Este é um plugin para o gerenciador de arquivos Thunar que adiciona suporte à compactação usando o formato zstd.
+Isso significa que você pode compactar e descompactar arquivos usando essa ferramenta de forma mais rápida e eficiente do que com outros formatos de compactação comuns.Além disso, o plugin 
+também permite a criação e extração de arquivos em vários formatos de compactação, incluindo .zip, .tar e .tar.gz.

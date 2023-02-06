@@ -1,0 +1,5 @@
+Este programa é uma ferramenta de linha de comando para gerenciar seu ambiente de Java. Ele ajuda você a gerenciar várias
+versões do Java e definir qual versão você deseja usar em um projeto específico. Isso é útil quando você está trabalhando em projetos que precisam de versões diferentes do Java. Ele é fácil
+de usar e pode ser integrado a diferentes sistemas operacionais, como Windows, Mac e Linux.Além disso, ele oferece suporte para gerenciar diferentes configurações de Java, como variáveis 
+de ambiente, caminhos e configurações globais. Ele também é capaz de instalar e desinstalar versões do Java automaticamente. Ele é uma ferramenta eficaz e útil para desenvolvedores Java que
+precisam gerenciar seus ambientes de trabalho.

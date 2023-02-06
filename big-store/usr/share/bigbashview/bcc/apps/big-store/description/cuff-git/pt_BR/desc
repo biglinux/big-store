@@ -1,0 +1,4 @@
+Este programa permite que você consulte a API de busca do Jackett diretamente pelo seu terminal. Isso
+significa que você pode pesquisar por torrents e outros arquivos sem precisar abrir o navegador ou usar a interface gráfica do Jackett. Ele é especialmente útil se você quiser automatizar
+suas pesquisas ou se você prefere trabalhar diretamente com o terminal.Além disso, este programa funciona como uma extensão para o git, o que significa que você pode usá-lo junto com outros
+comandos git para facilitar seu trabalho.

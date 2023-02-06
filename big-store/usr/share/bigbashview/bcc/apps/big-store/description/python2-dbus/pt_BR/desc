@@ -1,0 +1,3 @@
+O programa Python2 é uma vinculação para trabalhar com o sistema DBUS. Ele permite que você use o DBUS com o Python2, que é uma
+linguagem de programação popular. Com essa vinculação, você pode criar programas que se comuniquem com outros programas e sistemas usando o DBUS. Algumas das coisas que você pode fazer com 
+o Python2-DBUS incluem enviar mensagens, assinar notificações e chamar métodos em outros programas. Isso é útil para automatizar tarefas, criar interfaces gráficas e muito mais.

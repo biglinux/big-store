@@ -1,0 +1,1 @@
+Este pacote fornece simbolos de depuração separados para o vlc-luajit. Isso permite que os desenvolvedores possam depurar o código-fonte de vlc-luajit sem precisar de todas as informações de depuração incluídas no pacote principal. Isso pode ser útil para economizar espaço em disco e melhorar as performances do sistema. 

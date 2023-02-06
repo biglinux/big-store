@@ -1,0 +1,4 @@
+A Biblioteca de Extensão Comunitária (PECL) para PHP 8.0 é uma coleção de extensões de software para o PHP, escritas em
+PHP. Elas fornecem funções adicionais para o PHP e são desenvolvidas, distribuídas e mantidas por uma comunidade de usuários e desenvolvedores. Essas extensões podem ser usadas para
+adicionar recursos e melhorar a performance do PHP em seu site ou aplicação.Algumas extensões populares incluem o suporte para bancos de dados adicionais, como PostgreSQL e Oracle, além de 
+ferramentas de geração de PDF e manipulação de imagens. As extensões PECL são compatíveis com a versão 8.0 do PHP e podem ser instaladas facilmente com o gerenciador de pacotes PECL.

@@ -1,0 +1,1 @@
+O py3status é um substituto/wrapper extensível para i3status escrito em python. Ele permite que você adicione novos módulos à sua barra i3 facilmente e personalize sua exibição. Ele também permite que você tenha múltiplas instâncias da barra i3 em execução ao mesmo tempo, cada uma com seu próprio conjunto de módulos e configuração. 

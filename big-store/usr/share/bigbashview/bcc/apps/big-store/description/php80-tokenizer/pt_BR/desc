@@ -1,0 +1,3 @@
+Este é um módulo especial para o PHP 8.0 que ajuda a dividir textos grandes em pedaços menores, chamados de tokens. Isso é
+útil para várias tarefas, como análise de texto e processamento de linguagem natural. Com ele, é possível separar palavras, frases e outras partes do texto de forma automática e precisa.
+Além disso, ele é compatível com a versão mais recente do PHP, garantindo uma boa performance e estabilidade.

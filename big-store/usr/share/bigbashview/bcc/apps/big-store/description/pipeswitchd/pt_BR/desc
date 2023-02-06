@@ -1,0 +1,2 @@
+Este programa é chamado pipeswitchd e é um daemon (um programa que roda em segundo plano) para o PipeWire. Ele faz a
+ligação automática de entradas e saídas de áudio baseado em expressões regulares, semelhante a um patchbay (uma ferramenta para conectar e desconectar sinais de áudio).

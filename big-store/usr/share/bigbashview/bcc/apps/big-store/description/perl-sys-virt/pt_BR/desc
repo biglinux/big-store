@@ -1,0 +1,1 @@
+Este programa em Perl é projetado para representar e gerenciar uma conexão de hipervisor com o libvirt. Ele permite acessar e controlar recursos virtuais, como máquinas virtuais e redes virtuais, em um ambiente de virtualização. Com ele, é possível criar, excluir, gerenciar e monitorar recursos virtuais com facilidade. 

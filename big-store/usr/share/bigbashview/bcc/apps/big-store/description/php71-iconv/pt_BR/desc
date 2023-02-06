@@ -1,0 +1,3 @@
+Este é um módulo chamado 'iconv' para o programa PHP 7.1. Ele ajuda a converter caracteres de um tipo para outro, como de
+um alfabeto para outro. Isso é útil para lidar com textos em diferentes idiomas ou codificações. Sem ele, alguns caracteres poderiam aparecer como erros ou símbolos estranhos ao invés de
+letras e números.Este módulo é necessário se você precisar trabalhar com textos em diferentes idiomas ou codificações e deseja exibi-los corretamente no seu programa PHP.

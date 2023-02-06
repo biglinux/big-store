@@ -1,0 +1,1 @@
+Com o ruby-timers, é possível agendar processos para serem executados depois de um determinado tempo ou em intervalos  regulares. Isso pode ser feito usando qualquer API que aceite um tempo limite. 

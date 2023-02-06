@@ -1,0 +1,1 @@
+Este programa adiciona saída colorida vermelha e verde para o Minitest, que é um framework de testes para a linguagem de programação Ruby. Isso torna mais fácil identificar quais testes falharam ou passaram, pois os resultados são exibidos em cores diferentes. Além disso, o ruby-minitest-rg também oferece uma maneira fácil de ativar ou desativar a saída colorida. 

@@ -1,0 +1,1 @@
+O PRECIS framework é composto pelas RFCs 8264, 8265 e 8266 e é projetado para garantir a compatibilidade entre diferentes sistemas de codificação de caracteres ao lidar com identificadores de usuários em protocolos de internet. Este pacote em específico é uma implementação desse framework em Python, facilitando a sua utilização em aplicações que utilizam essa linguagem. 

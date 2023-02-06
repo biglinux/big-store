@@ -1,0 +1,3 @@
+Esse é um kernel para Jupyter/IPython que permite usar o Gnuplot, um software de plotagem de gráficos. Com ele, é possível fazer
+representações gráficas de dados de forma simples e intuitiva dentro do Jupyter Notebook. O Gnuplot é muito utilizado em ciência, engenharia e estatística, e agora ficou ainda mais fácil de
+usar com esse kernel.

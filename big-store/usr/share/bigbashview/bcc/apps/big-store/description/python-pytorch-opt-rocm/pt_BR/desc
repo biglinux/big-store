@@ -1,0 +1,2 @@
+ Este programa utiliza o PyTorch e o ROCM para acelerar o processamento de tensores e redes neurais dinâmicas em Python. Ele
+também possui otimizações para CPU com AVX2. 

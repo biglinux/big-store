@@ -1,0 +1,3 @@
+Ivre-docs é uma ferramenta que ajuda a reconhecer redes usando várias ferramentas como Nmap, Masscan, Zgrab2, Nuclei,
+httpx, Zeek (Bro), Argus e Netflow. Com ela, é possível construir suas próprias alternativas para ferramentas como Shodan e GreyNoise, além de rodar seu próprio serviço de DNS passivo e
+muito mais! (documentação)

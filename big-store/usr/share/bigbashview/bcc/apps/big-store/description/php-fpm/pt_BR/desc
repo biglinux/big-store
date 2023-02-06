@@ -1,0 +1,1 @@
+O php-fpm é um gerenciador de processos FastCGI para PHP que permite que scripts PHP sejam executados com diferentes permissões de usuário e com diferentes configurações para diferentes hospedeiros virtuais. Ele pode ser usado para melhorar desempenho e segurança de aplicativos PHP. 

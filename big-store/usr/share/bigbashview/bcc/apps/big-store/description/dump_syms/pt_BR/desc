@@ -1,0 +1,1 @@
+dump_syms é um utilitário que extrai informações de símbolos de arquivos de biblioteca do Firefox. Ele é usado para gerar arquivos de símbolos (.sym) que podem ser enviados à equipe de desenvolvimento do Firefox para ajudar a depurar problemas.Este utilitário é usado principalmente por desenvolvedores e engenheiros de suporte para ajudar a solucionar problemas no Firefox. 

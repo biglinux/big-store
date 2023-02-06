@@ -1,0 +1,1 @@
+Este programa é uma ferramenta de testes para códigos escritos em Perl que chamam funções  como exit, exec, system ou qx(). Ele permite que você verifique se essas chamadas estão funcionando corretamente e se o código está se comportando da maneira esperada. Isso é importante para garantir que o seu software funcione corretamente e evitar problemas futuros. 

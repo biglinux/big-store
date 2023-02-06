@@ -1,0 +1,4 @@
+O Python-tinyaes é uma ferramenta útil para descobrir quais versões do Python estão instaladas em seu sistema. Ele
+procura por todas as versões do Python e as exibe em uma lista, permitindo que você saiba exatamente quais versões estão disponíveis para uso. Além disso, ele também pode ser usado para
+verificar se uma versão específica está instalada e onde ela está localizada no sistema.Este programa é especialmente útil para desenvolvedores que precisam garantir que estão usando a
+versão correta do Python para seus projetos, ou para administradores de sistemas que precisam gerenciar várias versões do Python em um único sistema.

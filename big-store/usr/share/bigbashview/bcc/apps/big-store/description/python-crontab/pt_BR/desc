@@ -1,0 +1,2 @@
+ Com o módulo python-crontab, é possível ler e escrever arquivos crontab e acessar o cron do sistema de
+forma simples e direta usando uma API. 

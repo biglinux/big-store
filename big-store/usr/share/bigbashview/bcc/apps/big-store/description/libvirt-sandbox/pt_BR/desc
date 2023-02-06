@@ -1,0 +1,4 @@
+ libvirt-sandbox é uma ferramenta que permite criar ambientes isolados para aplicativos. Isso é útil para testar
+programas sem afetar o sistema inteiro ou outros programas em execução. Ele usa a tecnologia de virtualização para garantir que o aplicativo tenha acesso apenas às recursos que lhe foram
+atribuídos. É possível configurar quais arquivos e pastas o aplicativo tem acesso, além de limitar a rede e outras funcionalidades. Isso é uma ótima opção para desenvolvedores que desejam
+testar seus programas de maneira segura.

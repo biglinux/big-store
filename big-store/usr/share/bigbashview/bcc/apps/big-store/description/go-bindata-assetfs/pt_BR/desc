@@ -1,0 +1,1 @@
+O go-bindata-assetfs é um programa que ajuda a fornecer arquivos embutidos no seu código Go. Ele usa a biblioteca jteeuwen/go-bindata para transformar arquivos em dados binários e os serve com o pacote net/http. Isso significa que você pode embutir arquivos como imagens, arquivos CSS e JavaScript diretamente no seu código Go, ao invés de tê-los como arquivos separados. 

@@ -1,0 +1,4 @@
+O python-nutils é um pacote de ferramentas que oferece recursos para auxiliar na análise de elementos
+finitos em projetos de engenharia. Ele inclui funções para manipulação de geometrias, solução de equações diferenciais, e integração numérica, entre outros. O python-nutils é escrito em
+Python e é compatível com vários pacotes de análise de elementos finitos populares. Ele é uma boa escolha para engenheiros e cientistas que precisam de ferramentas avançadas para análise
+numérica.

@@ -1,0 +1,1 @@
+ O ANTLR C++ runtime é uma ferramenta que permite que você execute gramáticas ANTLR em aplicações C++. Ele é uma biblioteca que fornece suporte para analisar texto com base em regras específicas, como as encontradas em linguagens de programação. Isso pode ser útil para criar ferramentas de análise de  código, compiladores, interpretadores, entre outros.  

@@ -1,0 +1,3 @@
+ Este programa é uma implementação pura em Python do protocolo de notificação de serviço systemd (sd_notify). Ele permite que
+você envie atualizações sobre o status do seu aplicativo para o gerenciador de inicialização systemd, que, por sua vez, pode usar essas informações para garantir que o aplicativo esteja
+funcionando corretamente. Isso é útil se você estiver executando um aplicativo em um sistema que usa systemd como gerenciador de inicialização. 

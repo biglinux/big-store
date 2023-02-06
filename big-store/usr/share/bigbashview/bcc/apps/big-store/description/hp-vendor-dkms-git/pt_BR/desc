@@ -1,0 +1,3 @@
+Este programa é um driver específico da plataforma HP Dev One, desenvolvido pela equipe Pop!_OS. Ele é projetado para
+garantir que dispositivos HP funcionem corretamente no sistema operacional Pop!_OS. Ele é construído usando o sistema de gerenciamento de módulos de kernel dinâmico (DKMS), o que significa 
+que ele se adapta automaticamente às atualizações do kernel e garante a compatibilidade a longo prazo.

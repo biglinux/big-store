@@ -1,0 +1,1 @@
+Este programa fornece acesso a objetos QObject ou QML a partir de clientes HTML, permitindo  uma integração sem problemas entre aplicativos Qt e clientes HTML/JavaScript. 

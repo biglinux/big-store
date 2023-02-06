@@ -1,0 +1,5 @@
+ O programa EML é uma ferramenta utilizada para análise de dados genéticos. Ele foi desenvolvido para ajudar os cientistas 
+a encontrar padrões e relações importantes nos dados. Ele usa um algoritmo chamado Maximum Likelihood, que é uma técnica matemática usada para encontrar a melhor explicação para os dados.
+O EML foi projetado especificamente para trabalhar com grandes conjuntos de dados genéticos, como os que são gerados por sequenciadores de nova geração. Ele é capaz de lidar com a escala
+exascale, o que significa que ele pode trabalhar com enormes quantidades de dados.O EML é uma ferramenta valiosa para cientistas que estudam a genética e a biologia. Ele pode ser usado
+para descobrir novos genes e mecanismos biológicos, assim como para entender como as doenças se desenvolvem e como as pessoas respondem a diferentes tratamentos. 

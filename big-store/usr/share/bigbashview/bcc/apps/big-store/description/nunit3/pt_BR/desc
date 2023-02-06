@@ -1,0 +1,4 @@
+ O NUnit é um framework de testes unitários para todas as linguagens .NET. Ele permite que os desenvolvedores
+escrevam testes de unidade para seus códigos, o que ajuda a garantir que o software esteja funcionando corretamente. Com o NUnit, é possível escrever testes automatizados e executá-los
+facilmente, o que economiza tempo e esforço na verificação manual do software. Além disso, o NUnit fornece recursos avançados para organizar e gerenciar seus testes, como suporte a várias
+plataformas e relatórios detalhados de teste. 

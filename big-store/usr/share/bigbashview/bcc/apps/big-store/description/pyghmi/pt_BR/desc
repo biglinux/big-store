@@ -1,0 +1,4 @@
+O Pyghmi é um projeto que visa facilitar o gerenciamento de hardware utilizando a linguagem de programação Python. Ele
+suporta diversas funcionalidades, como o IPMI (Interface de Gerenciamento de Plataforma Integrada) e outras ferramentas similares.Com o Pyghmi, é possível realizar tarefas como monitorar o 
+uso de recursos, gerenciar dispositivos de rede e atualizar firmware de maneira simples e automatizada.Se você é um administrador de sistemas ou desenvolvedor que precisa gerenciar máquinas
+em sua rede, o Pyghmi é uma ótima opção para considerar.

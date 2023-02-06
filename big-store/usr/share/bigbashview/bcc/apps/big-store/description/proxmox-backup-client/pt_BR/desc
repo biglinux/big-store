@@ -1,0 +1,4 @@
+Este é um programa especialmente desenvolvido para ser usado como cliente de backup do servidor Proxmox. Ele permite que você 
+faça backup de suas máquinas virtuais de forma fácil e segura, garantindo que seus dados estejam sempre protegidos. Com ele, você pode programar backups regulares, escolher quais máquinas
+virtuais deseja fazer backup e até mesmo restaurar seus dados em caso de falha. Este é um programa essencial para qualquer pessoa que use o Proxmox e deseje ter uma solução confiável para
+backup de seus dados.

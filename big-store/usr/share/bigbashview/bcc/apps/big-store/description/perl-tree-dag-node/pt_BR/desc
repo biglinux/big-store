@@ -1,0 +1,1 @@
+Este programa é uma classe base para árvores. Ele permite que você crie árvores com vários nós e caminhos entre eles. É útil para organizar dados de maneira hierárquica e fácil de entender. É escrito em Perl e é chamado de 'perl-tree-dag-node'. 

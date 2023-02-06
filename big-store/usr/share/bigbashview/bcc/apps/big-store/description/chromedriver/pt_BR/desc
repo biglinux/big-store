@@ -1,0 +1,4 @@
+O ChromeDriver é um servidor independente que implementa o padrão W3C WebDriver (para o Google Chrome). Ele permite que 
+outros programas controlem o navegador Chrome de forma automatizada. Isso é útil para testes automatizados e outras tarefas que precisam interagir com o navegador.Com o ChromeDriver, você
+pode fazer coisas como abrir uma página web, clicar em um botão e preencher formulários automaticamente. Ele também permite coletar informações da página, como o título ou o texto de um
+elemento específico.

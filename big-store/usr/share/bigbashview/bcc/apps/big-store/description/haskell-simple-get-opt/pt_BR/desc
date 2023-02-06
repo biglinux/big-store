@@ -1,0 +1,1 @@
+Essa biblioteca é uma opção simples para processar as opções de linha de comando de seu programa. Ela é escrita em Haskell e é fácil de usar. Com ela, você pode definir opções e argumentos para seu programa e obter acesso a eles de forma fácil e organizada. Ela também fornece  recursos para geração automática de ajuda e mensagens de erro. 

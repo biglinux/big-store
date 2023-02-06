@@ -1,0 +1,3 @@
+Esta biblioteca em Python permite interagir com diferentes sistemas de controle de versão, como o Git e o
+Mercurial. Ela facilita o gerenciamento de repositórios, permitindo acessar e manipular arquivos e históricos de forma simples e eficiente. Com ela, é possível automatizar tarefas comuns,
+como baixar código e enviar alterações. Além disso, ela é compatível com diversas plataformas, incluindo Windows, Linux e Mac. A biblioteca é open-source e está disponível no GitHub.

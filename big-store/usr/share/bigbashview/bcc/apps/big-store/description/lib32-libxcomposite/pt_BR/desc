@@ -1,0 +1,1 @@
+A biblioteca lib32-libxcomposite é uma extensão do X11 que permite a composição de janelas na tela. Ela é específica para sistemas de 32-bits, ou seja, ela não funciona em sistemas de 64-bits. 

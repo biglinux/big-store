@@ -1,0 +1,1 @@
+O PIM layer fornece uma API assíncrona para acessar todos os tipos de dados PIM. O Akonadi é um exemplo de como essa camada pode ser utilizada para gerenciar e sincronizar esses dados. 

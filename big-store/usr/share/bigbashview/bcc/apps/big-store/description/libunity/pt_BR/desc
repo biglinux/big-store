@@ -1,0 +1,5 @@
+Esta é uma biblioteca que ajuda a instrumentar e se integrar com todos os aspectos do Unity shell. É uma ferramenta útil
+para desenvolvedores que querem criar programas que funcionem bem com o Unity, que é um ambiente de trabalho para sistemas operacionais.Com essa biblioteca, é possível acessar recursos do
+Unity, como a barra de tarefas e o painel de aplicativos, e personalizar a maneira como seus programas se comportam nesse ambiente. Isso pode incluir adicionar atalhos personalizados, criar
+notificações personalizadas e até mesmo modificar a aparência do Unity.Em resumo, a libunity é uma ferramenta valiosa para qualquer desenvolvedor que queira criar programas que funcionem de
+maneira perfeita com o Unity.

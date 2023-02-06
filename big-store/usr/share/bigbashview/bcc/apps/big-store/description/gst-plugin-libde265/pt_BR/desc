@@ -1,0 +1,3 @@
+Este é um plugin para um codec de vídeo chamado H.265. Ele é uma implementação aberta e é usado com um programa chamado gstreamer. O 
+codec H.265 é um dos mais recentes e avançados disponíveis para comprimir vídeos, tornando-os menores sem perder muita qualidade. Este plugin é chamado libde265 e é uma forma de adicionar
+suporte ao H.265 em programas que usam o gstreamer.

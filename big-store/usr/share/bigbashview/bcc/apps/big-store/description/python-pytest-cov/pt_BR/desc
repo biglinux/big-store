@@ -1,0 +1,1 @@
+ Esse programa é um plugin para o py.test e fornece relatórios de cobertura de código. Ele suporta tanto testes centralizados quanto distribuídos, incluindo subprocessos e multiprocessamento. Isso é útil para verificar quanto do seu código está sendo testado e identificar áreas que precisam ser melhoradas.  

@@ -1,0 +1,3 @@
+Este é um módulo chamado 'gettext' para a versão 7.2 do PHP. Ele permite que você traduza textos dentro do seu programa, para 
+que ele possa ser entendido em diferentes idiomas. Isso é útil se você quer que o seu programa seja usado em vários países ou se você quer oferecer suporte a vários idiomas dentro do seu
+programa. Para usar o módulo, você precisará instalá-lo e configurá-lo corretamente no seu servidor. Ele também requer arquivos de tradução específicos para funcionar corretamente.

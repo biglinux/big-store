@@ -1,0 +1,3 @@
+ fluentd é um programa projetado para coletar dados de forma escalável e simplificada. Ele é especialmente útil
+para gerenciar grandes volumes de logs, tornando mais fácil encontrar e analisar as informações que você precisa. Além disso, ele é compatível com uma variedade de sistemas e formatos de
+arquivos, o que torna ainda mais fácil integrá-lo à sua infraestrutura existente. 

@@ -1,0 +1,1 @@
+libgpg-error é uma biblioteca de suporte para libgcrypt, que fornece uma interface de erro padronizada para aplicativos  que usam a biblioteca libgcrypt para criptografia. Ele fornece uma série de funções de tratamento de erros que ajudam a lidar com erros comuns que podem ocorrer durante o uso da libgcrypt,  como falhas na alocação de memória ou problemas com chaves inválidas. 

@@ -1,0 +1,1 @@
+A biblioteca lib32-libxinerama é uma extensão para o X11 que permite que múltiplos monitores sejam usados como uma única área de trabalho. Isso significa que você pode estender sua área de trabalho para vários monitores, permitindo que você tenha mais espaço para abrir janelas e programas. Esta biblioteca é específica para sistemas de 32-bits. 

@@ -1,0 +1,1 @@
+Este programa fornece uma API para o banco de dados de rede POSIX, que é uma biblioteca comum usada em sistemas operacionais baseados em UNIX. Ele permite que os desenvolvedores façam consultas e modifiquem informações sobre endereços de rede, como nomes de host e endereços IP. Ele é escrito em Haskell e segue as especificações BSD. 

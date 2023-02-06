@@ -1,0 +1,3 @@
+Com o pacserve, você pode facilmente compartilhar pacotes do Pacman entre computadores. Ele é uma alternativa para o
+PkgD. Com ele, você pode instalar pacotes em múltiplos computadores sem precisar baixá-los novamente. Isso economiza tempo e espaço em disco. Além disso, você pode criar um repositório
+local para compartilhar pacotes com outras pessoas na sua rede.

@@ -1,0 +1,4 @@
+ Este é um aplicativo de hospedagem para o sistema operacional Linux que permite enviar dados de quadros para o dispositivo
+LookingGlass IVSHMEM. Ele é projetado para funcionar com o dispositivo LookingGlass, que é uma ferramenta de virtualização de hardware que permite que você execute sistemas operacionais
+diferentes ao mesmo tempo em um único computador. Com este aplicativo, é possível enviar quadros de dados para o dispositivo LookingGlass para que eles possam ser exibidos em outros
+sistemas operacionais em execução no mesmo computador. 

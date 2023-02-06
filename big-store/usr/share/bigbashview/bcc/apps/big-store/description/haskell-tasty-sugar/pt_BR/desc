@@ -1,0 +1,1 @@
+Este programa usa a biblioteca 'haskell-tasty-sugar' para definir testes. Ele permite que você busque por uma resposta ideal (conhecida como 'Golden Answer') e compare com as respostas do seu código. Isso garante que o seu código está funcionando corretamente e de acordo com o esperado.  

@@ -1,0 +1,1 @@
+Esta é uma biblioteca de compatibilidade para programas de código aberto (OSS). Ela permite que esses programas  funcionem corretamente em sistemas operacionais de 32 bits.A biblioteca é específica para o ALSA, que é um sistema de áudio para Linux. Ela permite que os programas OSS possam se comunicar  com o ALSA e reproduzir áudio. 

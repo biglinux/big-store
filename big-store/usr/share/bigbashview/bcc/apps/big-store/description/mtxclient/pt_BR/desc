@@ -1,0 +1,3 @@
+Uma biblioteca para usar em programas que desejam se conectar com o Matrix, construída com base na biblioteca Boost.Asio. Ela é
+chamada de mtxclient. Com ela, é possível criar aplicações que enviem e recebam mensagens, gerenciem salas de bate-papo e outros recursos do Matrix de forma fácil e eficiente.Se você está
+desenvolvendo um aplicativo que precisa se comunicar com o Matrix, essa biblioteca pode ser útil para você.

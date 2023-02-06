@@ -1,0 +1,1 @@
+O programa libwhich funciona como o comando 'which', mas para bibliotecas dinâmicas. Ele ajuda a encontrar onde uma biblioteca específica está instalada em seu sistema e fornece informações sobre ela. 

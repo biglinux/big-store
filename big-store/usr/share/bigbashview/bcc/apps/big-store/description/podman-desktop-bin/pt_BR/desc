@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para gerenciar contêineres Podman e outros gerenciadores de contêineres a partir de uma única
+interface e barra de tarefas. Com ele, você pode facilmente criar, gerenciar e remover contêineres sem precisar digitar comandos no terminal. Além disso, ele oferece uma maneira fácil de
+verificar o status de seus contêineres e fazer alterações sem sair da interface do usuário.

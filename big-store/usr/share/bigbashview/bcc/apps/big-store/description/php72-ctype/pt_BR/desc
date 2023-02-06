@@ -1,0 +1,2 @@
+O módulo ctype fornece funções para verificar tipos de caracteres. Ele pode verificar se um caractere é alfabético, numérico, uma
+letra maiúscula, entre outras coisas. Ele é útil para validação de dados de formulários e outras tarefas semelhantes. Este módulo é específico para a versão 7.2 do PHP.

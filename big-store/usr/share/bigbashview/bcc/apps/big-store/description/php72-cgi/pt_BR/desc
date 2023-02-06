@@ -1,0 +1,3 @@
+Esse é um programa especial para usar o PHP 7.2 em um servidor com CGI (Common Gateway Interface) ou FCGI (FastCGI). Ele permite que você
+execute scripts escritos em PHP de forma segura e eficiente nesses tipos de servidores. Isso é útil se você estiver usando um servidor web antigo ou precisar de uma configuração específica 
+para seus scripts PHP. Ele também pode ser usado para melhorar a velocidade e segurança de seus scripts PHP.

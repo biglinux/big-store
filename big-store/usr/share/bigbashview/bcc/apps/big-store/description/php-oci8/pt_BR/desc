@@ -1,0 +1,4 @@
+Esta é uma extensão para o PHP que permite a conexão com o banco de dados Oracle usando o OCI8. Ela é útil para quem precisa trabalhar
+com aplicações PHP e banco de dados Oracle, pois facilita a comunicação entre eles. Com esta extensão, você pode executar consultas, inserir, atualizar e excluir dados no banco de dados
+Oracle, tudo isso usando o PHP.Se você precisa trabalhar com aplicações PHP e banco de dados Oracle, esta extensão é uma ótima opção para você, pois ela é fácil de instalar e usar, e
+oferece uma grande variedade de recursos para ajudá-lo a trabalhar de forma eficiente com o seu banco de dados Oracle.

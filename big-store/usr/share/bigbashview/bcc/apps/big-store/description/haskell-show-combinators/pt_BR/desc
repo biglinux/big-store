@@ -1,0 +1,1 @@
+Os combinadores de Show em Haskell são uma ferramenta útil para exibir dados em formato legível pelo usuário. Eles permitem que você escreva instâncias Show para tipos personalizados de maneira concisa e legível. Isso é útil para depuração e exibição de informações durante o desenvolvimento de programas. 

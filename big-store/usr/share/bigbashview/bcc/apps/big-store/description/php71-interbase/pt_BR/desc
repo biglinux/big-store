@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.1 que permite acessar e trabalhar com bancos de dados Interbase. Ele adiciona recursos e funções 
+específicas para essa base de dados, tornando mais fácil e eficiente trabalhar com ela em aplicações desenvolvidas em PHP.Com este módulo, é possível conectar-se a um banco de dados
+Interbase, executar consultas, gerenciar transações e outras operações comuns usando as funções fornecidas.

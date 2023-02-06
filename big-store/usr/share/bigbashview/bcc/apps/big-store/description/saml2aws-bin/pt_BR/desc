@@ -1,0 +1,4 @@
+Esta é uma ferramenta de linha de comando incrível que permite que você faça login e recupere credenciais temporárias
+da AWS usando um provedor de identidade SAML (SAML IDP).Com ela, você pode acessar facilmente suas contas da AWS sem precisar digitar suas credenciais toda vez. Basta usar suas credenciais 
+de login do provedor de identidade SAML para obter acesso às suas contas da AWS.Além disso, as credenciais temporárias são seguras e só duram por um período limitado de tempo, o que ajuda a
+proteger sua conta da AWS.

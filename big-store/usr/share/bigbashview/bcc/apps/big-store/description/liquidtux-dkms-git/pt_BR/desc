@@ -1,0 +1,1 @@
+Este programa fornece drivers para dispositivos hwmon do kernel Linux, especificamente para refrigeração líquida AIO e outros dispositivos. Ele utiliza o sistema DKMS e está disponível na versão Git. 

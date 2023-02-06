@@ -1,0 +1,3 @@
+Se você está construindo um projeto Django e precisa permitir que outros sites acessem sua API, você pode usar o pacote
+python-django-cors-headers. Ele é uma aplicação do Django que cuida dos cabeçalhos do servidor necessários para o Cross-Origin Resource Sharing (CORS).Com ele, você pode especificar quais
+origens (sites) são permitidos acessar sua API e quais métodos (como GET, POST, etc) são permitidos. Isso é útil para garantir que somente sites confiáveis possam acessar seus dados.

@@ -1,0 +1,1 @@
+Este programa verifica se o compilador está disponível para ser usado com o perl-devel. Ele garante que o compilador necessário para a construção de módulos Perl esteja presente no sistema antes de prosseguir com a instalação. 

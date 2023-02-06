@@ -1,0 +1,1 @@
+O Curator é uma ferramenta que permite gerenciar seus índices do Elasticsearch. Ele pode ser usado para realizar operações como criar, excluir e otimizar índices, além de gerenciar aliases de índice e funcionalidades de snapshot/restauração. 

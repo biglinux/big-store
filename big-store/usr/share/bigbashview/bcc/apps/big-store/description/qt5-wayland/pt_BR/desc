@@ -1,0 +1,1 @@
+ Este programa, chamado qt5-wayland, fornece APIs que permitem que outros programas se comuniquem e usem as funcionalidades do Wayland. Wayland é um sistema de gerenciamento de janelas para sistemas operacionais Linux, e essas APIs tornam mais fácil para os desenvolvedores criarem aplicativos compatíveis com ele.  

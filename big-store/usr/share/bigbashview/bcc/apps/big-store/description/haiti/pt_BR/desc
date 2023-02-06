@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de linha de comando e biblioteca que ajuda a identificar o tipo de hash. Ele pode ser usado para
+verificar se um determinado hash é do tipo MD5, SHA1, SHA256, entre outros. Ele é útil para verificar a integridade de arquivos ou senhas. Ele também possui uma interface simples e fácil de
+usar, mesmo para usuários sem conhecimento técnico.

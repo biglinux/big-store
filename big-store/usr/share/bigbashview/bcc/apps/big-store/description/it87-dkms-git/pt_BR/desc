@@ -1,0 +1,4 @@
+Este é um programa que permite ao seu computador com Linux reconhecer e usar chips LPC da ITE. Ele é conhecido como
+it87-dkms-git e é um driver de código aberto, o que significa que qualquer pessoa pode usá-lo e até mesmo contribuir para melhorá-lo. Ele é especialmente útil se você tiver um computador
+antigo ou customizado com esses chips.Para usar esse driver, você precisará instalá-lo no seu sistema. Isso geralmente pode ser feito usando o gerenciador de pacotes da sua distribuição
+Linux. Certifique-se de ler as instruções e seguir todos os passos corretamente para evitar problemas.

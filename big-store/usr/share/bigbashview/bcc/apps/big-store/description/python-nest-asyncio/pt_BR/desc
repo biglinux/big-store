@@ -1,0 +1,1 @@
+O pacote python-nest-asyncio permite que loops de eventos sejam executados dentro de outros loops de eventos, aprimorando a capacidade de gerenciamento de concorrência do Python. Isso é especialmente útil para aplicações que precisam lidar com múltiplas tarefas simultaneamente. 

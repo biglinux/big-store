@@ -1,0 +1,3 @@
+ Este programa permite que você execute clientes X, como programas gráficos, sob o sistema de janelas Wayland. Ele 
+também suporta resoluções de tela de alta densidade de pixels (HiDPI) para que tudo fique claro e nítido em monitores modernos. Esta é a versão mais recente do programa, obtida diretamente 
+do repositório git.

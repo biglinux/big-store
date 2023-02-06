@@ -1,0 +1,4 @@
+Esta ferramenta é usada para construir o Coreboot, um firmware de código aberto que fornece uma alternativa ao firmware
+proprietário em muitos computadores. Ele é projetado para ser rápido, seguro e fácil de usar, e é ideal para desenvolvedores que desejam personalizar o firmware de seus computadores.A
+ferramenta Coreboot-toolchain-arm é específica para sistemas ARM, o que significa que é projetada para funcionar em dispositivos que usam processadores ARM, como smartphones, tablets e
+computadores com processadores ARM.

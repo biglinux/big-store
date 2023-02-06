@@ -1,0 +1,2 @@
+Esse programa oferece uma interface leve para acesso à memória compartilhada. Ele permite que você crie,
+acesse e gerencie facilmente uma área de memória compartilhada usando o Perl. É útil para quando você precisa compartilhar dados entre processos ou programas de maneira rápida e eficiente.

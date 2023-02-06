@@ -1,0 +1,3 @@
+Este é um módulo chamado python-pyodbc que permite a conexão com banco de dados usando o protocolo ODBC. Ele é escrito em Python e é 
+compatível com várias versões do sistema operacional. Com ele, você pode fazer consultas em bancos de dados e realizar outras operações usando o Python. É fácil de instalar e usar, e há
+muita documentação disponível online para ajudar a entender como funciona. Se você precisa trabalhar com bancos de dados e quer usar o Python para isso, este módulo é uma excelente opção.

@@ -1,0 +1,3 @@
+Este é um programa que gera ligações gRPC para a linguagem Go. gRPC é uma biblioteca de comunicação de mensagens remotas que
+permite que você crie aplicativos de forma rápida e eficiente. Com este gerador, você pode facilmente criar ligações gRPC para o seu aplicativo em Go e ter acesso a todos os recursos que a 
+biblioteca oferece. É simples de usar e permite que você economize tempo e esforço ao desenvolver seu aplicativo.

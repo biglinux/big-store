@@ -1,0 +1,3 @@
+ Este programa é um driver standalone para dispositivos WLAN da Realtek, modelos RTL8188EUS e RTL8188ETV. Ele permite
+que esses dispositivos sejam reconhecidos e utilizados pelo seu computador.Ele é específico para dispositivos RTL8188EUS e RTL8188ETV, então certifique-se de que seu dispositivo é
+compatível antes de instalá-lo. 

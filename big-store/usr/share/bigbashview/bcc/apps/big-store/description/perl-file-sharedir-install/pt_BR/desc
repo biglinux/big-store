@@ -1,0 +1,1 @@
+Este programa, chamado File::ShareDir::Install, permite instalar arquivos de dados somente leitura a partir de uma distribuição. Ele é escrito em Perl e é útil para garantir que os arquivos de dados sejam acessíveis para o usuário final, mesmo que eles não estejam presentes na instalação do programa. 

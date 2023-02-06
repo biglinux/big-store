@@ -1,0 +1,1 @@
+cl-trivial-backtrace é uma biblioteca para trabalhar com backtraces, ou seja, registros das chamadas de função que foram feitas antes de um erro acontecer, em Common Lisp. Com ela, é possível obter informações detalhadas sobre a pilha de chamadas e localizar facilmente a causa de  um erro. 

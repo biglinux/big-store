@@ -1,0 +1,3 @@
+ O Khronos Group OpenCL é um programa que ajuda a carregar os drivers de cliente instaláveis (ICD) do
+OpenCL. Ele é importante para que os programas possam se comunicar com as placas de vídeo e outros dispositivos de processamento de forma correta.Sem ele, os programas podem não funcionar
+corretamente ou não funcionar de forma alguma. É uma ferramenta fundamental para desenvolvedores de jogos e aplicativos gráficos avançados. 

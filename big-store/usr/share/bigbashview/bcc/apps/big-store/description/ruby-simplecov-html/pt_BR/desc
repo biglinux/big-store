@@ -1,0 +1,1 @@
+ruby-simplecov-html é o formatador HTML padrão para a ferramenta de cobertura de código SimpleCov para ruby 2.4+. Ele cria um relatório HTML simples de navegação com as estatísticas de cobertura de código do seu projeto. Este relatório pode ser facilmente integrado ao processo de integração contínua do seu projeto. 

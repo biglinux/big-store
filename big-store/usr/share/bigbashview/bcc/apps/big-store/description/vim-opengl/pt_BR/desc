@@ -1,0 +1,3 @@
+ Este programa adiciona suporte para realce de sintaxe de OpenGL, OpenGLES e EGL no editor Vim. Isso significa que as
+palavras-chave e sintaxe específicas destas linguagens de programação serão destacadas com cores diferentes para facilitar a leitura e escrita de código. Além disso, ele também inclui
+alguns recursos extras para ajudar a navegar e editar o código. 

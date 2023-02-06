@@ -1,0 +1,3 @@
+Este programa permite que os diretórios do GNUnet sejam montados como sistemas de arquivos de
+somente leitura. Isso é feito usando a tecnologia FUSE, que permite que os arquivos e pastas do GNUnet sejam acessados como se estivessem salvos em seu computador. Isso facilita o acesso e 
+a organização dos arquivos armazenados no GNUnet.

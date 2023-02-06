@@ -1,0 +1,1 @@
+Este programa, chamado perl-namespace-autoclean, tem como objetivo manter os imports fora do seu espaço de nomes. Isso significa  que ele remove automaticamente quaisquer imports que você não está usando no seu código. Isso pode ajudar a manter o seu código mais limpo e organizado, além de evitar conflitos de nomes.  

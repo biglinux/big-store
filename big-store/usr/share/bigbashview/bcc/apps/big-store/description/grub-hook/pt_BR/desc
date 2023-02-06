@@ -1,0 +1,3 @@
+Esse programa é um hook para o gerenciador de pacotes 'pacman' que atualiza automaticamente o GRUB sempre que houver uma
+atualização do kernel. Dessa forma, você não precisa se preocupar em fazer isso manualmente e pode continuar usando o seu computador normalmente.Ele é especialmente útil para usuários que
+gostam de manter seus sistemas atualizados com as últimas versões de software. 

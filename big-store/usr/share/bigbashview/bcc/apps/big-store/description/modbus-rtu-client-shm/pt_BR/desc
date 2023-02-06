@@ -1,0 +1,3 @@
+ Este é um programa chamado 'modbus-rtu-client-shm'. Ele é um cliente Modbus RTU, o que significa que ele se
+comunica com outros dispositivos usando o protocolo Modbus. Ele tem uma característica especial que armazena seus dados (registradores) em uma memória compartilhada, o que permite que
+outros programas acessem esses dados facilmente. Isso pode ser útil em sistemas de automação industrial, por exemplo.

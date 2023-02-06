@@ -1,0 +1,1 @@
+Este programa fornece uma camada de compatibilidade para lidar com arquivos CSV usando unicode no Python 3. Ele é chamado de python-csv23 e é uma ferramenta útil para quem precisa trabalhar com dados em formato CSV e precisa garantir a compatibilidade com caracteres unicode. 

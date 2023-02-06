@@ -1,0 +1,1 @@
+O módulo 'perl-inline' permite escrever subrotinas em outras linguagens, como C e Python, diretamente no código Perl. Isso pode ser útil para aproveitar bibliotecas existentes em outras linguagens ou para melhorar o desempenho de trechos críticos de código. É importante notar que essa técnica deve ser usada com cuidado, pois pode tornar o código mais difícil de manter e depurar. 

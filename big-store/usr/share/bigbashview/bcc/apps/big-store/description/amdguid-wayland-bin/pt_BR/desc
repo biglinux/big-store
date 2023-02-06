@@ -1,0 +1,4 @@
+Este programa é uma ferramenta de monitoramento de temperatura e velocidade do ventilador para
+dispositivos AMDGPU. Ele permite que você acompanhe as condições de funcionamento do seu dispositivo AMDGPU e tome medidas para garantir que ele esteja funcionando corretamente. Com este
+programa, você pode verificar a temperatura atual do seu dispositivo e ajustar a velocidade do ventilador para garantir que ele esteja operando dentro de limites seguros.Além disso, ele é
+compatível com o wayland, um sistema de gerenciamento de janelas para Linux.

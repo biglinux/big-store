@@ -1,0 +1,1 @@
+Esse programa adiciona suporte para o protocolo https ao módulo LWP::UserAgent do Perl. Isso permite que as requisições feitas através desse módulo sejam encriptadas e seguras.Com esse suporte, você pode acessar sites que precisam de autenticação ou outras informações confidenciais sem precisar se preocupar com a segurança das suas informações. 

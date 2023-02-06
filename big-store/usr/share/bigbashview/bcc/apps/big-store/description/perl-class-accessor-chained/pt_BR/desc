@@ -1,0 +1,1 @@
+Este programa permite que você crie acessadores para suas classes de maneira encadeada, o que significa que você pode chamar vários métodos de acesso em uma única linha. Isso é útil para acessar dados aninhados em suas classes de maneira mais simples e legível. 

@@ -1,0 +1,2 @@
+ Este programa é chamado de wpa_actiond e ele ajuda a gerenciar suas conexões WiFi. Ele se conecta a outro programa chamado
+wpa_supplicant e faz com que sua conexão WiFi seja estabelecida quando você deseja se conectar a uma rede, e também desconecta quando você deseja sair da rede.

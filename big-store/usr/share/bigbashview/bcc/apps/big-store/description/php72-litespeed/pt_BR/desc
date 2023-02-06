@@ -1,0 +1,3 @@
+Este programa é uma SAPI (Interface de Aplicativo de Servidor) para o PHP 7.2, desenvolvido pelo LiteSpeed. Ele permite que você
+execute scripts PHP no servidor LiteSpeed, o que pode aumentar a velocidade e desempenho do seu site.Além disso, ele também oferece suporte a recursos avançados, como o gerenciamento de
+cache e otimização de SQL.

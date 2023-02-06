@@ -1,0 +1,3 @@
+ROS é um metapacote que agrega vários pacotes. Ele é especialmente útil para desenvolvimento de robôs e outras aplicações
+avançadas. Com este pacote, você terá acesso a uma variedade de ferramentas e recursos para criar projetos incríveis.A versão 'noetic' é a mais recente e atualizada da plataforma ROS, e
+esta versão 'desktop-full' inclui todos os pacotes necessários para usar o ROS em um ambiente de desktop.

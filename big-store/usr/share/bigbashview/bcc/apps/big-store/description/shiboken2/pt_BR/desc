@@ -1,0 +1,1 @@
+Este programa gera vinculações para bibliotecas escritas em C++, usando código fonte CPython. Isso permite que você use essas bibliotecas em seus projetos Python de maneira mais fácil e eficiente.shiboken2 é uma ferramenta importante para desenvolvedores que precisam integrar código C++ e Python. 

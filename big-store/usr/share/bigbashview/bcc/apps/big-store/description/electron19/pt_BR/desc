@@ -1,0 +1,1 @@
+Com o Electron, é possível criar aplicativos de desktop utilizando tecnologias web, como HTML, CSS e JavaScript.  Isso significa que você pode escrever seu aplicativo uma vez e executá-lo em Windows, Mac e Linux. O Electron é baseado no Chromium, o mesmo núcleo do Google Chrome, então você tem acesso a todos os recursos do navegador, como JavaScript moderno e APIs de navegador. 

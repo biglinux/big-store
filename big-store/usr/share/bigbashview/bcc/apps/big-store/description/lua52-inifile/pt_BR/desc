@@ -1,0 +1,1 @@
+Este programa é uma biblioteca para Lua, que permite ler e escrever arquivos no formato ini. Ele suporta comentários, seções e chaves, e é compatível com a versão 5.2 do Lua. Ele é simples de usar e pode ser incluído em qualquer projeto que precise trabalhar com arquivos ini. 

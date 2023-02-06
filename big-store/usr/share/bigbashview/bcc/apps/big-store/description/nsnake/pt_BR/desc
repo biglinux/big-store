@@ -1,0 +1,3 @@
+Este é um jogo da cobra personalizável que pode ser jogado no terminal. Ele usa a biblioteca ncurses para criar a interface do
+jogo, o que permite que você altere as configurações de acordo com suas preferências. O objetivo do jogo é controlar a cobra para comer as maçãs e evitar as paredes ou o próprio corpo da
+cobra. Divirta-se!

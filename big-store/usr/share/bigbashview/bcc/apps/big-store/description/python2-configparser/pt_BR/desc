@@ -1,0 +1,4 @@
+Este é um módulo que permite que você configure seu programa em Python 2 de maneira fácil e intuitiva. Ele é uma
+'backport' do módulo configparser, ou seja, uma versão adaptada para funcionar com a versão 2 do Python.Com este módulo, você pode criar arquivos de configuração simples e fáceis de
+entender, e acessar as informações contidas neles de maneira rápida e fácil. Ele é uma ferramenta muito útil para programadores que desejam tornar seus programas mais flexíveis e fáceis de 
+configurar.

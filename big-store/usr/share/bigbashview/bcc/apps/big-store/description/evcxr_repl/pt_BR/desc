@@ -1,0 +1,3 @@
+Este é um programa chamado evcxr_repl, que é usado para escrever e testar códigos escritos na linguagem de programação Rust. Ele
+funciona como uma interface de linha de comando, onde você pode digitar seu código e ver como ele funciona imediatamente. É baseado em outro programa chamado evcxr, e é útil para
+programadores que desejam testar pequenos trechos de código sem precisar criar um projeto completo. 

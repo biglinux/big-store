@@ -1,0 +1,1 @@
+Esta ferramenta permite criar backups criptografados e eficientes em banda usando o algoritmo rsync. Isso significa que somente as partes do arquivo que foram alteradas serão enviadas, economizando espaço e largura de banda. Além disso, a criptografia garante que seus dados estarão  seguros, mesmo que sejam interceptados.Este programa se chama duplicity. 

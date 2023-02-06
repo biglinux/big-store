@@ -1,0 +1,3 @@
+Este é um módulo específico para a versão 7.1 do PHP, que adiciona recursos de compactação e descompactação de arquivos no formato
+ZIP. Ele permite que os desenvolvedores trabalhem com arquivos zip dentro do seu código PHP, como criar, extrair, listar e manipular arquivos dentro de um arquivo zip.Esse módulo é útil
+para quem precisa trabalhar com arquivos compactados em um sistema que utiliza a linguagem PHP 7.1, e é fácil de usar com uma sintaxe semelhante às funções nativas do PHP.

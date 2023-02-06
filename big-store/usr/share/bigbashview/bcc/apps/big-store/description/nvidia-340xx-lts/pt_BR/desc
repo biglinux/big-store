@@ -1,0 +1,5 @@
+Os drivers da NVIDIA para sistemas Linux são projetados para funcionar com sistemas operacionais baseados em Linux,
+incluindo distribuições como Ubuntu, Debian e Fedora. Eles fornecem suporte para placas de vídeo NVIDIA 340xx, que são consideradas uma linha legada. Estes drivers são desenvolvidos pela
+equipe de suporte da NVIDIA e são projetados para fornecer a melhor performance e estabilidade para os usuários.Esses drivers incluem recursos como suporte para OpenGL, suporte para
+aceleração de vídeo e suporte para a tecnologia NVIDIA Optimus. Eles também incluem ferramentas de gerenciamento de energia para ajudar a economizar bateria em laptops equipados com placas 
+de vídeo NVIDIA.

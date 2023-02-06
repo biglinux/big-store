@@ -1,0 +1,3 @@
+Esta biblioteca é usada para configurar e personalizar como seu computador acessa as fontes. Isso
+pode incluir escolher quais fontes são usadas em diferentes programas ou alterando como as fontes são exibidas em um documento. Ela é especialmente útil para desenvolvedores que estão
+trabalhando com o sistema operacional Windows.A biblioteca é chamada 'mingw-w64-fontconfig' e é compatível com o compilador MinGW-w64.

@@ -1,0 +1,1 @@
+ Essa é uma biblioteca chamada TensorFlow-Opt. Ela é usada para fazer cálculos usando gráficos de fluxo de dados. Isso é muito útil para aprendizado de máquina escalável. Além disso, ela tem otimizações para usar com processadores AVX2. 

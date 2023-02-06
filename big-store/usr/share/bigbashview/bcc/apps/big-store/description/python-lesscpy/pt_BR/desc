@@ -1,0 +1,4 @@
+ Esse programa é chamado python-lesscpy e é usado para compilar arquivos LESS em CSS. LESS é uma linguagem de estilo para
+desenvolvimento web que permite escrever código mais simples e organizado, e esse compilador ajuda a transformá-lo em um formato que os navegadores possam entender.Com esse programa,
+você pode usar recursos avançados do LESS, como variáveis e mixins, sem se preocupar em escrever código CSS complexo. Ele é simples de usar e pode ser integrado facilmente ao seu fluxo de
+trabalho de desenvolvimento web. 

@@ -1,0 +1,1 @@
+O haskell-quickcheck é uma ferramenta que permite realizar testes automatizados em programas escritos em Haskell.  Ele utiliza técnicas estatísticas para gerar casos de teste e verificar se o programa está funcionando corretamente. Isso pode economizar tempo e esforço na verificação manual de cada caso  de teste. 

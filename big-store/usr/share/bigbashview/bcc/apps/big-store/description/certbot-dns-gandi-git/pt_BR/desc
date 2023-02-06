@@ -1,0 +1,2 @@
+Este é um plugin para o Certbot que permite autenticação de DNS com o Gandi. Ele permite que você gerencie facilmente
+certificados SSL/TLS para seus domínios usando o Certbot e o Gandi como provedor de DNS. Esse é a versão GIT do plugin.

@@ -1,0 +1,3 @@
+Mininet é um emulador para a prototipagem rápida de redes definidas por software. Ele permite que você crie e
+teste suas redes em um ambiente de simulação antes de implementá-las em um ambiente real. Com Mininet, é possível criar redes complexas com vários switches, roteadores e controladores em
+poucos minutos, o que economiza tempo e recursos. Além disso, o Mininet é open-source e amplamente utilizado em pesquisas e desenvolvimento de tecnologias de rede.

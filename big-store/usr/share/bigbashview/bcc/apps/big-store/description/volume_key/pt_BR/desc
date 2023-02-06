@@ -1,0 +1,1 @@
+Essa biblioteca é para manipular chaves de criptografia de volumes de armazenamento e armazená-las separadamente dos volumes para lidar com frases-passe esquecidas. Ele permite que os usuários gerencie e proteja as chaves de criptografia usadas para criptografar seus dados, sem precisar  se preocupar com o armazenamento das chaves junto com os volumes de dados criptografados. 

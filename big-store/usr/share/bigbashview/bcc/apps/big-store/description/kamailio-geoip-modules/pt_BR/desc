@@ -1,0 +1,3 @@
+Este é um módulo para o Kamailio, um software de comunicação de voz e mensagens, que permite a localização de usuários
+através do uso de informações de IP. Com ele, é possível identificar de onde os usuários estão se conectando e fornecer uma melhor experiência de comunicação para eles.O módulo utiliza a
+base de dados GeoIP para identificar a localização de usuários e pode ser facilmente integrado ao Kamailio para aumentar suas funcionalidades.

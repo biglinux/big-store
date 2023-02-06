@@ -1,0 +1,4 @@
+ Com o bsp-layout, você pode organizar sua tela de maneira dinâmica usando os modos tall, wide, even, tiled e monocle no
+gerenciador de janelas bspwm.Com o tall, suas janelas ficam empilhadas verticalmente, ocupando toda a largura da tela. Com o wide, as janelas ficam lado a lado, ocupando toda a altura da
+tela. O even divide sua tela de maneira equilibrada entre as janelas abertas. O tiled divide sua tela em pequenos quadrados, cada um com uma janela. E o monocle exibe uma única janela
+ocupando toda a tela.Experimente o bsp-layout e encontre a organização perfeita para suas necessidades de trabalho! 

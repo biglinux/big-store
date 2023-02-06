@@ -1,0 +1,1 @@
+Este programa fornece uma API baseada em GObject para lidar com descoberta  e anúncio de recursos sobre SSDP. Ele fornece uma maneira simples de desenvolver aplicativos que precisam detectar dispositivos e recursos na rede e anunciar seus próprios recursos. A documentação está incluída para ajudar os desenvolvedores a usar a API. 

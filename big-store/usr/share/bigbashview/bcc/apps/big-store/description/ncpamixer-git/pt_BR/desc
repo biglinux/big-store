@@ -1,0 +1,3 @@
+Este é um programa chamado ncpamixer-git que usa a biblioteca ncurses para controlar o volume do som no seu computador. 
+Ele se conecta ao PulseAudio, que é o sistema de som padrão em muitas distribuições Linux.Com este programa, você pode controlar o volume de diferentes aplicações e dispositivos de áudio de
+forma fácil e intuitiva usando o teclado. Ele também mostra informações sobre o som, como o dispositivo atual e as configurações de equalizador.

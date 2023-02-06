@@ -1,0 +1,1 @@
+O programa 'perl-class-autouse' permite que uma classe seja carregada pela primeira vez quando um método nela é chamado. Isso pode ser útil para economizar recursos e melhorar a performance do sistema. 

@@ -1,0 +1,4 @@
+A biblioteca CSS Cascading Style Sheets é um conjunto de ferramentas para ajudar a gerenciar e trabalhar com folhas de 
+estilo em documentos HTML e XML usando o Python. Ele permite que você facilmente parse e manipule arquivos CSS, adicionando, modificando e removendo regras e propriedades. Também fornece
+suporte para validação e serialização de CSS. Com essa biblioteca, você pode automatizar tarefas comuns de estilo, como ajustar a formatação de um site ou aplicativo, e tornar o processo de
+desenvolvimento mais rápido e eficiente. É uma ferramenta valiosa para desenvolvedores e designers que trabalham com estilos em projetos Python.

@@ -1,0 +1,1 @@
+Unhide é uma ferramenta forense para encontrar processos escondidos por rootkits, LKMs ou outras técnicas. É uma ferramenta de linha de comando que pode ser usada para detectar processos escondidos e portas abertas em um sistema Linux. É útil para investigações forenses e resposta a incidentes. 

@@ -1,0 +1,3 @@
+Este é um programa chamado dicomscope-bin, ele serve para ver imagens DICOM. DICOM é um tipo de arquivo de imagem médica, usado
+em hospitais e clínicas. Com este programa, você pode abrir essas imagens e ver detalhes sobre elas, como o nome do paciente, data da imagem e informações sobre o médico que a tirou.Ele é
+desenvolvido pela OFFIS, que é uma instituição de pesquisa na Alemanha especializada em tecnologia da saúde.

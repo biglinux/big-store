@@ -1,0 +1,3 @@
+O osc é um cliente de linha de comando para o openSUSE Build Service. Ele é uma ferramenta útil
+para desenvolvedores que desejam construir pacotes de software personalizados para o openSUSE. Com o osc, você pode facilmente gerenciar projetos, enviar pacotes para o Build Service e
+fazer atualizações no código fonte. Ele também oferece recursos avançados como o gerenciamento de colaboradores e a criação de pacotes binários.

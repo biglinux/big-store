@@ -1,0 +1,3 @@
+zhcon é um console virtual rápido para idiomas CJK. Ele é capaz de exibir e entrada de caracteres CJK em terminais
+que não possuem suporte nativo para esses idiomas. Ele é uma boa opção para usuários que precisam trabalhar com esses idiomas em sistemas operacionais antigos ou sem suporte nativo para
+CJK. Além disso, ele também oferece suporte para fontes TrueType para melhorar a aparência dos caracteres exibidos. 

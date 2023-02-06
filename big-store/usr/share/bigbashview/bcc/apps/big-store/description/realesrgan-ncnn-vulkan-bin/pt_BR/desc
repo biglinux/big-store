@@ -1,0 +1,3 @@
+Real-ESRGAN tem como objetivo desenvolver algoritmos práticos para a restauração de imagens gerais. O
+programa utiliza a tecnologia ESRGAN com o intuito de melhorar a qualidade das imagens restauradas, e também utiliza a tecnologia ncnn-vulkan para otimizar o processo de restauração.Este
+programa é ideal para profissionais de edição de imagem e fotografia, bem como para qualquer pessoa que deseje melhorar a qualidade de suas imagens digitais.

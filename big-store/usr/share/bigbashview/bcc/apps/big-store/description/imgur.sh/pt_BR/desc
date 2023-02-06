@@ -1,0 +1,4 @@
+Este é um script simples feito para facilitar o upload de imagens no Imgur. Ele foi escrito na linguagem de
+programação bash, o que significa que é compatível com sistemas operacionais baseados em Unix, como o Linux e o macOS. Para usá-lo, você precisará de uma conta no Imgur e de uma chave de
+acesso, que pode ser obtida no site do Imgur. Uma vez que você tenha a chave, basta colocá-la no script e usá-lo para fazer upload de imagens diretamente do seu terminal. É uma maneira
+fácil e rápida de compartilhar suas imagens com amigos e familiares.

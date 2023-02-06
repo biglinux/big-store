@@ -1,0 +1,4 @@
+Este programa é uma versão atualizada do módulo de teste de unidade para a versão 2 do Python. Ele permite que você teste seu 
+código de maneira eficiente e garanta que ele esteja funcionando corretamente antes de ser lançado em produção.Com este programa, você pode escrever casos de teste para suas funções e
+classes, e ele irá executá-los automaticamente e informá-lo sobre quais passaram e quais falharam.Isso é útil porque você pode identificar e corrigir problemas antes que eles causem
+problemas para os usuários finais.

@@ -1,0 +1,1 @@
+A libtraceevent é uma biblioteca para rastrear eventos no kernel Linux. Ela permite aos desenvolvedores acompanhar o que está acontecendo no sistema e identificar problemas de desempenho. A biblioteca fornece ferramentas para coletar, filtrar e analisar dados de rastreamento, além de fornecer uma interface para criar novos eventos de rastreamento personalizados. 

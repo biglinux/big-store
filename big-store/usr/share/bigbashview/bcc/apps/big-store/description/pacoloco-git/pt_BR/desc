@@ -1,0 +1,4 @@
+O pacoloco-git é um servidor de cache de pacotes para o gerenciador de pacotes pacman. Ele funciona como um
+intermediário entre o pacman e os repositórios oficiais, armazenando cópias dos pacotes baixados anteriormente e fornecendo-os aos usuários que os solicitam novamente. Isso pode ajudar a
+aumentar a velocidade de download de pacotes e reduzir a carga nos repositórios oficiais.Além disso, o pacoloco-git também pode ser configurado para funcionar como um proxy de pacotes para 
+outros computadores na mesma rede, permitindo que todos os usuários da rede beneficiem do uso do cache.

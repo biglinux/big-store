@@ -1,0 +1,1 @@
+Este é um programa que segue as recomendações do RFC 3454 para preparar cadeias de caracteres para serem usadas em  contextos internacionais. Ele usa o pacote Perl Unicode::Stringprep para fazer isso. 

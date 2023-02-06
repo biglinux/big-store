@@ -1,0 +1,3 @@
+LuxMark é uma ferramenta de benchmark para testar o desempenho de dispositivos OpenCL, como placas gráficas e processadores.
+Ele permite medir a velocidade de processamento de diferentes cenários 3D, como iluminação e sombreamento. É uma ferramenta útil para quem trabalha com computação paralela e deseja comparar
+o desempenho de diferentes dispositivos.

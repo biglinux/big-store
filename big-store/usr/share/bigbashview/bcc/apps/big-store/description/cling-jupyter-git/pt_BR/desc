@@ -1,0 +1,3 @@
+Interpretador C++ interativo construído sobre as bibliotecas LLVM e Clang. Cling-jupyter-git é uma ferramenta útil para
+programadores C++ que desejam testar rapidamente códigos sem a necessidade de compilá-los. Ele permite a execução de códigos C++ de forma interativa, o que facilita a depuração e o
+aprendizado. Além disso, ele é compatível com Jupyter, o que permite a criação de notas de aula e tutoriais interativos.

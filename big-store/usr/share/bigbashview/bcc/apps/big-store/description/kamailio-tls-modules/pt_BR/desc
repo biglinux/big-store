@@ -1,0 +1,3 @@
+Os módulos de segurança para Kamailio, também conhecidos como kamailio-tls-modules, oferecem suporte à criptografia de
+transporte para comunicações seguras entre dispositivos. Isso garante que as informações trocadas entre os dispositivos sejam confidenciais e autenticadas, protegendo contra ataques de
+interceptação de rede. Além disso, esses módulos também fornecem recursos para garantir a integridade dos dados transmitidos.

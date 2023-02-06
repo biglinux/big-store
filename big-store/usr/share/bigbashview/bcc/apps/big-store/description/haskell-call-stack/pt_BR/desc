@@ -1,0 +1,1 @@
+Existe uma biblioteca chamada haskell-call-stack que permite utilizar as pilhas de chamadas do GHC (compilador de Haskell) de uma forma compatível. Isso significa que você pode usar essa biblioteca em projetos antigos e novos sem precisar se preocupar com problemas de compatibilidade. 

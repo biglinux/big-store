@@ -1,0 +1,1 @@
+A biblioteca haskell-lsp-types fornece tipos de dados para a comunicação com o protocolo de linguagem do Microsoft, permitindo que desenvolvedores criem ferramentas de edição de código compatíveis com este protocolo para a linguagem Haskell. 

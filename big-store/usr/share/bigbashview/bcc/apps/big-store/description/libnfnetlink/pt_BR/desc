@@ -1,0 +1,1 @@
+A libnfnetlink é uma biblioteca de baixo nível para comunicação entre o kernel e o usuário relacionada a netfilter. Ela fornece uma interface para trabalhar com mensagens netlink no kernel, permitindo que você configure regras de firewall, controle a tabela de roteamento e faça outras operações de rede avançadas. 

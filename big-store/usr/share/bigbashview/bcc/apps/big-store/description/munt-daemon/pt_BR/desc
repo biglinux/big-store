@@ -1,0 +1,2 @@
+ Este programa é um sintetizador de software que emula dispositivos MIDI pré-GM, como o Roland MT-32, CM-32L,
+CM-64 e LAPC-I. Ele também inclui um daemon para o driver ALSA. 

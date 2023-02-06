@@ -1,0 +1,1 @@
+Este programa gera números aleatórios utilizando entropia de timer/agendamento, também conhecida como entropia de usuário vodu. Ele usa a biblioteca perl-crypt-random-tesha2 para gerar esses números aleatórios. 

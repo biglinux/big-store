@@ -1,0 +1,3 @@
+Existe um programa chamado dislocker-git que é um driver FUSE que permite ler e escrever volumes criptografados pelo
+BitLocker do Windows. Isso significa que, com esse programa, você pode acessar arquivos e pastas dentro de um volume criptografado, sem precisar desbloquear o volume usando a senha
+original. É uma ferramenta útil para recuperar arquivos de um volume criptografado que você não tem mais acesso.

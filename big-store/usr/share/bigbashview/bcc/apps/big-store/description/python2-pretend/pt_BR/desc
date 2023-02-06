@@ -1,0 +1,3 @@
+Esta é uma biblioteca para o Python 2 que permite simular o comportamento de outras bibliotecas ou sistemas. É útil para
+testar códigos que dependem de outras partes sem precisar realmente executá-las. É conhecida como python2-pretend.Com esta biblioteca, você pode criar 'fingimentos' de outras bibliotecas ou
+sistemas e testar seu código sem precisar se preocupar com as dependências reais. Isso é útil para garantir que seu código esteja funcionando corretamente antes de colocá-lo em produção.

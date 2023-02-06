@@ -1,0 +1,1 @@
+cryptsetup é uma ferramenta de linha de comando para configurar criptografia transparente de dispositivos de bloco usando a API de criptografia do kernel. Ele pode ser usado para criar, formatar e montar sistemas de arquivos criptografados, bem como para criar e gerenciar espaço de swap criptografado. É uma ferramenta de configuração de usuário para o módulo kernel dm-crypt. 

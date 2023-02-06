@@ -1,0 +1,2 @@
+ transmission-dlagent é um programa que permite baixar arquivos a partir de links magnéticos. Ele é usado com o
+comando makepkg para fazer o download dos arquivos. É uma ferramenta útil para baixar arquivos grandes e evitar problemas de conexão. 

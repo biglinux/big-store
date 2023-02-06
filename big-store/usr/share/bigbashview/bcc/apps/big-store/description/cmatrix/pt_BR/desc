@@ -1,0 +1,1 @@
+Este programa cria um efeito parecido com o filme Matrix em sua tela, com caracteres deslizando para cima, criando a ilusão  de códigos caindo. Ele usa a biblioteca curses para criar esse efeito em seu terminal. 

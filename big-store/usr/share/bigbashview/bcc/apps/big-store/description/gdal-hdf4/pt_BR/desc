@@ -1,0 +1,3 @@
+A GDAL-HDF4 é uma biblioteca de tradução que permite acessar dados geoespaciais em formatos de raster e vetorial. Ela é
+usada para ler e escrever arquivos HDF4, que são comumente usados em ciências da Terra e observação da Terra.A biblioteca é desenvolvida pelo Open Source Geospatial Foundation (OSGeo) e é
+compatível com vários sistemas operacionais, incluindo Windows, Linux e MacOS.

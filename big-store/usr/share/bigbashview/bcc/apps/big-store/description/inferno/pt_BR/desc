@@ -1,0 +1,4 @@
+Este programa, chamado Inferno, é uma ferramenta para visualizar a performance de código. Ele foi
+desenvolvido como uma porta do Rust para o FlameGraph. Isso significa que ele foi escrito na linguagem de programação Rust e tem as mesmas funcionalidades do FlameGraph. Com Inferno, os
+desenvolvedores podem ver como o código está sendo executado e encontrar pontos de lentidão para otimizar o desempenho. É uma ferramenta valiosa para qualquer pessoa trabalhando com código 
+e deseja melhorar sua performance.

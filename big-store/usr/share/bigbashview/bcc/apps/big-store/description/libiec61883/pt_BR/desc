@@ -1,0 +1,1 @@
+libiec61883 é uma biblioteca que fornece uma API de alto nível para streaming de vídeo, áudio e mídia no Linux. Ela suporta formatos como DV, MPEG-2 e IEEE 1394. Com essa biblioteca, desenvolvedores podem facilmente criar aplicativos para transmitir mídia em dispositivos Linux. 

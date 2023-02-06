@@ -1,0 +1,2 @@
+Este programa permite acompanhar os eventos de acesso de arquivos de todos os processos em execução. Ele é útil para
+identificar programas que estão usando muito disco, ou para rastrear acesso a arquivos específicos. É fácil de usar e fornece informações detalhadas sobre cada acesso de arquivo.

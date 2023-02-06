@@ -1,0 +1,3 @@
+Talosctl é uma ferramenta de linha de comando (CLI) para gerenciar o sistema operacional Talos, um sistema moderno
+projetado especificamente para rodar aplicações em ambientes de Kubernetes. Com ele, é possível fazer tarefas como instalar, atualizar e remover o Talos, além de gerenciar configurações e
+recursos do sistema.Em resumo, o talosctl é uma ferramenta importante para quem trabalha com o Talos e precisa gerenciar seus recursos de forma eficiente.

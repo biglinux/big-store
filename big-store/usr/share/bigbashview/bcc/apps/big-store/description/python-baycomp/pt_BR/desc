@@ -1,0 +1,5 @@
+Esta biblioteca, chamada python-baycomp, foi desenvolvida para ajudar a comparar diferentes
+classificadores usando técnicas bayesianas. Ela permite aos usuários avaliar a performance de diferentes algoritmos de classificação e escolher aquele que melhor se adapta a suas
+necessidades.A biblioteca fornece funções fáceis de usar para calcular métricas de desempenho, como precisão e revocação, e também permite aos usuários definir seus próprios critérios de
+avaliação.Além disso, python-baycomp é compatível com vários formatos de dados, incluindo arquivos CSV e arquivos de saída de outras ferramentas de mineração de dados, tornando-o fácil de
+integrar em fluxos de trabalho existentes.

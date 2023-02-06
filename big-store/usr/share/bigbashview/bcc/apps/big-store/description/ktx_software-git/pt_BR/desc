@@ -1,0 +1,4 @@
+A biblioteca KTX (Khronos Texture) é um conjunto de ferramentas para trabalhar com texturas em jogos e aplicativos gráficos. Ela
+é desenvolvida pela Khronos Group, uma organização sem fins lucrativos que também cria outros padrões importantes para a indústria de jogos e gráficos, como o OpenGL. A biblioteca KTX é
+open-source e pode ser usada gratuitamente em projetos comerciais e não comerciais. Com as ferramentas KTX, os desenvolvedores podem facilmente carregar, manipular e salvar texturas em
+diversos formatos, incluindo JPEG, PNG e muitos outros. Além disso, ele oferece suporte a compressão de textura para acelerar o carregamento e melhorar a performance. 

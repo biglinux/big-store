@@ -1,0 +1,3 @@
+Esse programa é chamado remindme e ele é uma ferramenta simples para adicionar lembretes usando processamento de linguagem natural.
+Isso significa que você pode escrever seu lembrete usando frases e palavras comuns, em vez de ter que seguir uma estrutura específica. Por exemplo, em vez de digitar uma data e hora
+específicas, você pode escrever algo como 'Lembre-me de comprar leite amanhã às 10 da manhã'. O programa então entenderá o que você quer dizer e criará o lembrete para você.

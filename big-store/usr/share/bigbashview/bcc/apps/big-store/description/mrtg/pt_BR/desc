@@ -1,0 +1,4 @@
+ O Multi Router Traffic Grapher, ou MRTG, é um programa que ajuda a monitorar o tráfego de rede em vários roteadores. Ele
+gera gráficos e estatísticas que mostram como a rede está sendo usada e como ela está se comportando. Isso é útil para identificar problemas de largura de banda, pontos de congestionamento 
+e outros problemas de rede. O MRTG é fácil de configurar e usar, e fornece informações valiosas para administradores de rede e engenheiros de suporte. Ele é compatível com vários sistemas
+operacionais e roteadores diferentes, tornando-o uma ferramenta versátil para monitorar a rede.

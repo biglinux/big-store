@@ -1,0 +1,1 @@
+ Um dicionário imutável é como um dicionário normal, mas uma vez criado, ele não pode ser alterado. Isso significa que você não pode adicionar, remover ou mudar as chaves ou valores dentro dele. O python-frozendict é uma biblioteca que permite que você crie esses tipos de dicionários. Ele é útil quando você quer evitar que alguém altere dados importantes acidentalmente. 

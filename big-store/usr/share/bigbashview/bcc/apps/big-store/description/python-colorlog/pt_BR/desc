@@ -1,0 +1,1 @@
+python-colorlog é um módulo para dar formatos de cor aos logs gerados pelo módulo de logging do python. Isso permite que os logs sejam mais fáceis de ler e identificar.Com esse módulo, é possível destacar mensagens de erro, alertas e outros tipos de informação, tornando o rastreamento de problemas em seu código mais simples. 

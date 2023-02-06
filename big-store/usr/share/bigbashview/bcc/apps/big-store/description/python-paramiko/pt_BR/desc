@@ -1,0 +1,1 @@
+O módulo python-paramiko implementa o protocolo SSH2, o que permite a conexão segura e autenticação de dispositivos remotos através de uma conexão criptografada. Ele também oferece recursos adicionais, como transferência de arquivos e execução de comandos remotos. Este módulo é amplamente utilizado em automação  de tarefas e administração de sistemas. 

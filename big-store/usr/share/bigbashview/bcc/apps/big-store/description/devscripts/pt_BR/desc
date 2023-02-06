@@ -1,0 +1,3 @@
+Existem diversas ferramentas que podem ser usadas para tornar a vida de quem mantém pacotes Debian mais fácil. 
+Esses scripts, chamados de devscripts, incluem ferramentas para verificar se o pacote está em conformidade com as normas Debian, criar novos pacotes a partir de código fonte e muito mais.
+Se você é um desenvolvedor que trabalha com Debian, essas ferramentas podem ser uma grande ajuda para manter seus pacotes atualizados e corretos.

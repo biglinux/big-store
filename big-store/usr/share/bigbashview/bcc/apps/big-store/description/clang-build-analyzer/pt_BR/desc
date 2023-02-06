@@ -1,0 +1,2 @@
+Esta é uma ferramenta que ajuda a analisar como o programa clang está sendo construído. Ele usa uma opção chamada
+-ftime-trace para rastrear o tempo gasto em cada passo do processo de construção.Isso pode ser útil para identificar problemas de desempenho ou otimizar a construção para ser mais rápida.

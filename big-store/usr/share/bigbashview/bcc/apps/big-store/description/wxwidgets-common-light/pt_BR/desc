@@ -1,0 +1,2 @@
+wxWidgets é uma biblioteca para desenvolvimento de aplicações multiplataforma. Ela permite que você crie programas para Windows,
+Mac e Linux com uma única base de código. Essa versão específica, chamada 'wxwidgets-common-light', é livre de dependências do GNOME e GStreamer.

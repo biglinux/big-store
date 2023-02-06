@@ -1,0 +1,1 @@
+Este programa é capaz de ler e escrever dados codificados em formato bencoded. É escrito em Haskell e é útil para quem precisa trabalhar com arquivos torrent. 

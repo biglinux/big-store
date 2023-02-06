@@ -1,0 +1,1 @@
+libxnvctrl é uma biblioteca para controlar as configurações da placa gráfica NVIDIA. Com ela, é possível ajustar as configurações de desempenho, tais como taxa de quadros e resolução, bem como monitorar o uso de recursos da GPU. Ela é compatível com sistemas Unix e Windows, e é usada em aplicativos de terceiros para gerenciar configurações da GPU NVIDIA. 

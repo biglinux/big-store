@@ -1,0 +1,4 @@
+ O KeepMenu é um programa que ajuda você a gerenciar suas senhas de forma segura. Ele usa uma interface chamada dmenu/rofi para
+mostrar as suas senhas armazenadas em um banco de dados do KeePass. Isso significa que você pode acessar suas senhas facilmente, sem precisar digitar todas elas manualmente. Além disso, o
+KeepMenu também oferece a opção de criptografar suas senhas para que elas fiquem ainda mais seguras.Em resumo, o KeepMenu é uma ferramenta prática e segura para gerenciar suas senhas e
+ajuda a mantê-las protegidas contra invasões.

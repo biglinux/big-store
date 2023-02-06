@@ -1,0 +1,1 @@
+Essa é uma biblioteca de websocket assíncrono que foi construída usando a biblioteca websocket-driver. Ela permite que você crie conexões websocket de forma assíncrona, o que significa que você pode fazer outras coisas enquanto aguarda uma resposta do websocket. Isso é útil para aplicações que precisam de alta performance e escalabilidade. A biblioteca foi escrita em Ruby. 

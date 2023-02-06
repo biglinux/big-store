@@ -1,0 +1,4 @@
+O nvimpager é um programa que permite visualizar manpages, diferenças entre arquivos e outros tipos de
+conteúdo usando a sintaxe de destaque do nvim. Ele é útil para desenvolvedores e administradores de sistemas que precisam visualizar arquivos de configuração, documentação técnica e outros 
+conteúdos técnicos. Com o nvimpager, você pode facilmente identificar seções importantes, erros e outras informações importantes no conteúdo que está visualizando. Além disso, ele permite
+navegar facilmente entre as páginas usando os atalhos de teclado e as ferramentas de navegação do nvim.

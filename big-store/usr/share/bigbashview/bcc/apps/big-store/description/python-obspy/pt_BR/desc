@@ -1,0 +1,4 @@
+Este programa é uma ferramenta escrita em Python, chamada Obspy, que tem como objetivo facilitar o
+processamento de dados sismológicos. Ele fornece uma estrutura para ler, escrever e processar dados de sismos de diversos formatos, além de possuir diversas funcionalidades já
+implementadas, como por exemplo, a detecção de eventos sísmicos. Ele é utilizado por pesquisadores e profissionais da área de sismologia para analisar dados sismológicos e extrair
+informações importantes. É uma ferramenta de código aberto e tem uma comunidade ativa de desenvolvedores e usuários que contribuem para melhorar e ampliar as funcionalidades do programa.

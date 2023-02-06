@@ -1,0 +1,2 @@
+Este programa é um visualizador de páginas que usa o Neovim como base e foi inspirado pelo Neovim-remote. Ele permite navegar 
+e ver arquivos no seu repositório Git de forma fácil e rápida. Com ele, você pode ver o conteúdo de arquivos sem precisar sair do terminal, tornando seu fluxo de trabalho mais eficiente.

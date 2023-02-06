@@ -1,0 +1,1 @@
+Este programa é uma implementação de referência em C da função de criptografia de senhas argon2. Ele é usado para proteger as senhas armazenadas em sistemas, garantindo que elas não possam ser facilmente descriptografadas em caso de invasão. 

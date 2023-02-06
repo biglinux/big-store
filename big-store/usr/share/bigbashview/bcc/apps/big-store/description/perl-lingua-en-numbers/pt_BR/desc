@@ -1,0 +1,1 @@
+Este programa usa a biblioteca Perl Lingua::EN::Numbers para converter números inteiros em sua forma escrita em extenso, como 407 se tornando quatrocentos e sete. Isso pode ser útil em aplicações como geração de relatórios ou documentos legais. 

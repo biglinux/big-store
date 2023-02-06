@@ -1,0 +1,1 @@
+O pacote haskell-storable-tuple fornece uma instância Storable para pares e triplos, permitindo que esses tipos sejam armazenados e lidos de forma eficiente em arquivos binários ou em memória compartilhada. Isso é útil para aplicações que precisam armazenar grandes quantidades de dados em formato binário. 

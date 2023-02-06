@@ -1,0 +1,1 @@
+Esse programa é uma versão de GHC.Records, que estará disponível em versões futuras do compilador GHC. Ele tem como objetivo fornecer uma maneira mais fácil e intuitiva de trabalhar com registros em Haskell. Ele possui uma função 'hasfield' que verifica se um determinado campo existe em um registro, facilitando a escrita de código e tornando-o mais legível. 

@@ -1,0 +1,1 @@
+Este é um módulo Python que contém arquivos verilog para a CPU picorv32. Ele é projetado para ser usado  com o LiteX. Ele permite que você use essa CPU específica em seus projetos. 

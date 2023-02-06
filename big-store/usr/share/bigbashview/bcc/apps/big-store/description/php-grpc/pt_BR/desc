@@ -1,0 +1,1 @@
+O módulo gRPC para PHP é uma biblioteca que permite a criação de aplicações baseadas em gRPC utilizando a linguagem PHP. Ele segue as especificações do protocolo gRPC e fornece uma maneira fácil de implementar recursos como chamadas de método remoto, fluxos de dados bidirecionais e autenticação. 

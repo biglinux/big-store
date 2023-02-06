@@ -1,0 +1,5 @@
+Esse programa é chamado de Xenstore-xcp-ng e é uma versão modificada do XenServer Tools. Ele ajuda a
+gerenciar os dados do seu servidor Xen. Ele é especialmente útil se você estiver usando o XCP-NG, que é uma versão de código aberto do XenServer. Com ele, você pode facilmente acessar e
+gerenciar informações importantes do seu servidor, como configurações de rede, armazenamento e recursos de máquina virtual. Além disso, o Xenstore-xcp-ng é fácil de usar e pode ser acessado
+através de linha de comando ou de uma interface gráfica de usuário. Ele também oferece recursos avançados para usuários mais experientes, como scripts automatizados e opções de
+gerenciamento de recursos avançadas.

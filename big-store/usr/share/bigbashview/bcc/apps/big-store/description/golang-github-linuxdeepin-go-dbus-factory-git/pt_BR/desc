@@ -1,0 +1,1 @@
+Este programa é uma fábrica de DBus escrita em Go para o sistema operacional DDE. Ele permite que os desenvolvedores criem facilmente aplicativos DBus utilizando a linguagem Go.O pacote golang-github-linuxdeepin-go-dbus-factory-git contém o código fonte e as instruções para compilar e usar a fábrica DBus. 

@@ -1,0 +1,1 @@
+O módulo Test::Differences do Perl/CPAN é um utilitário para comparar saídas de teste. Ele permite aos desenvolvedores ver as diferenças entre a saída esperada e a saída atual de seus testes de forma clara e fácil de ler. Isso ajuda a encontrar erros e garantir que o código está funcionando  corretamente.  

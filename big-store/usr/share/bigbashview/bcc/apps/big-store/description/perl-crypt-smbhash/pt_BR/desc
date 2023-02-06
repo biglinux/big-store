@@ -1,0 +1,1 @@
+Este é um módulo Perl/CPAN chamado Crypt::SmbHash. Ele fornece uma implementação Perl-only das funções lanman e nt md4 hash, que são usadas para criar entradas smbpasswd no estilo Samba. Isso é útil para quem precisa trabalhar com sistemas de arquivos compartilhados em redes Windows. 

@@ -1,0 +1,3 @@
+ Este programa é chamado de cppo, ele é um pré-processador estilo C para OCaml. Ele permite que você use algumas
+características do C em seus programas OCaml, como #define e #ifdef. Isso pode ser útil se você estiver trabalhando em um projeto grande e precisar de algumas dessas características. Além
+disso, ele também tem algumas opções avançadas para ajudá-lo a personalizar ainda mais seu pré-processamento. 

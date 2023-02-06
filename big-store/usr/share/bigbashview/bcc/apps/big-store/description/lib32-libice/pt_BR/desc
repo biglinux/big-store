@@ -1,0 +1,1 @@
+ lib32-libice é uma biblioteca para troca de clientes X11 (32 bits). Ela é usada para permitir que os programas se comuniquem entre si no sistema X Window. Isso permite que os programas compartilhem recursos como clipboards, seleções de texto e arquivos. Esta biblioteca é essencial para programas que precisam se comunicar com outros programas no sistema X Window. 

@@ -1,0 +1,3 @@
+Este programa é uma interface de linha de comando (CLI) para cartões RAID LSI MegaRAID. Ele também funciona com alguns
+cartões RAID Dell PERC. Com ele, você pode gerenciar as configurações do seu cartão RAID, como criar, excluir e verificar o status de arrays de discos. Além disso, você pode realizar
+tarefas de manutenção, como verificar a integridade dos discos e configurar alertas. 

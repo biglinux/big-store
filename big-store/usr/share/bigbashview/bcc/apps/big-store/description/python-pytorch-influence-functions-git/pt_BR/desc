@@ -1,0 +1,4 @@
+Este é um programa feito usando PyTorch, uma biblioteca de inteligência artificial. Ele tem a função de calcular a
+influência de cada exemplo em uma previsão de um modelo de aprendizado de máquina. Isso é útil para entender como o modelo chegou a uma determinada previsão e como mudar o modelo para
+melhorar suas previsões. Ele é uma reimplementação de uma técnica chamada Influence Functions, que já foi usada antes em outros programas. Este programa foi escrito em Python, e usa PyTorch
+para fazer as contas de influência.

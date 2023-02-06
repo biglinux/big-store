@@ -1,0 +1,3 @@
+Este é um programa chamado klee-uclibc. Ele usa algo chamado uclibc, que é uma biblioteca de sistema. Ele é construído
+sobre algo chamado LLVM, que é uma estrutura de compilador. O objetivo desse programa é criar uma máquina virtual simbólica para ajudar os desenvolvedores a testar e encontrar problemas em 
+seus códigos.

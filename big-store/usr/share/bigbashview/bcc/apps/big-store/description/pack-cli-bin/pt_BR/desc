@@ -1,0 +1,3 @@
+Esta é uma ferramenta chamada pack-cli-bin. Ela é usada para construir aplicativos usando algo chamado Cloud Native
+Buildpacks. Isso significa que ela ajuda a juntar todas as peças de um aplicativo, como o código e as bibliotecas, para que tudo funcione juntinho. É uma ferramenta muito útil para
+desenvolvedores de aplicativos.

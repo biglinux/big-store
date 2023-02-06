@@ -1,0 +1,3 @@
+Os arquivos de cabeçalho Vulkan são arquivos importantes que contêm informações sobre como usar a API Vulkan. Eles incluem
+coisas como definições de tipos de dados, funções e constantes que você precisa usar quando escreve um programa que usa Vulkan. Este repositório contém uma cópia desses arquivos de
+cabeçalho, que você pode usar em seu próprio projeto.

@@ -1,0 +1,4 @@
+Este programa foi criado para evitar que o sistema desligue, reinicie, entre outras ações, enquanto o pacman
+estiver atualizando o sistema. Desta forma, você pode garantir que as atualizações sejam instaladas corretamente sem interrupções.Ele funciona com o gerenciador de pacotes pacman, que é
+usado em algumas distribuições Linux, e inibe as ações do sistd, que é o gerenciador de sistema. Assim, você pode usar o programa com confiança, sabendo que o sistema não será desligado ou 
+reiniciado sem sua permissão.

@@ -1,0 +1,1 @@
+Este programa é um pacote de containers escrito em Haskell para uso com a biblioteca STM (Software Transactional Memory). Ele fornece uma variedade de tipos de dados para armazenar informações de forma segura e confiável dentro de transações STM. 

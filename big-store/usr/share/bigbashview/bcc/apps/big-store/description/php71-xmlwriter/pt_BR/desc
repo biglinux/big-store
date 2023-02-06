@@ -1,0 +1,4 @@
+Este programa é um módulo para o PHP 7.1 que adiciona recursos para escrever arquivos XML. Ele permite que você crie
+documentos XML e adicione elementos e atributos a eles de maneira fácil e eficiente. Ele também suporta a criação de documentos XML com codificação UTF-8 e outras codificações de
+caracteres. Com este módulo, você pode criar arquivos XML para diversas finalidades, como por exemplo feeds RSS, arquivos de configuração, entre outros. Além disso, ele é compatível com
+outros módulos do PHP, o que torna sua utilização ainda mais flexível.

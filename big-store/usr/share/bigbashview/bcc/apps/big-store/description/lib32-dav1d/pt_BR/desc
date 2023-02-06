@@ -1,0 +1,3 @@
+Este é um decodificador de AV1 desenvolvido para ser rápido e preciso. Ele é específico para sistemas de 32
+bits e é uma ótima opção para reproduzir arquivos de vídeo em formatos AV1 em dispositivos com essa arquitetura.Este programa é uma biblioteca compartilhada e pode ser facilmente integrado 
+a outros aplicativos de reprodução de vídeo para suporte ao formato AV1.

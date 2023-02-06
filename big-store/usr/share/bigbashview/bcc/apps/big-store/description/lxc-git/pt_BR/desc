@@ -1,0 +1,3 @@
+O LXC é uma tecnologia de virtualização de sistemas operacionais que permite criar vários ambientes isolados, chamados de
+containers, em um único sistema físico. Esses containers podem ser usados para executar diferentes aplicações ou versões de sistemas operacionais sem interferir uns com os outros. Esta é a 
+versão git do LXC, que é uma versão de desenvolvimento e pode conter recursos novos e correções de bugs.

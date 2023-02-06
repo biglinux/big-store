@@ -1,0 +1,3 @@
+Este é um driver específico para usuários que possuem placas de vídeo da AMD. Ele é projetado para funcionar com a tecnologia
+Vulkan, que é uma especificação de interface de programação de aplicativo (API) para gráficos 3D. Este driver específico é para usuários que possuem sistemas operacionais de 32 bits. Com
+esse driver, você pode obter uma melhor performance em jogos e aplicativos que usam a tecnologia Vulkan, além de corrigir problemas de compatibilidade com esses programas.

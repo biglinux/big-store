@@ -1,0 +1,4 @@
+ Esta é uma biblioteca em Python chamada python-pyemf3. Ela é usada para criar e editar arquivos de metafile, que
+são tipos especiais de arquivos usados para armazenar imagens e gráficos. A biblioteca é escrita inteiramente em Python, o que significa que não é necessário instalar nenhum outro software 
+para usá-la. Além disso, ela oferece uma variedade de recursos avançados para trabalhar com arquivos de metafile, como suporte para vários tipos de imagens e gráficos, e opções de
+personalização.

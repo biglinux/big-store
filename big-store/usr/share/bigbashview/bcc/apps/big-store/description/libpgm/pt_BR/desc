@@ -1,0 +1,1 @@
+OpenPGM é uma implementação do protocolo Pragmatic General Multicast (PGM, RFC3208). Ele permite a transmissão de pacotes para múltiplos destinatários simultaneamente, otimizando a entrega de mensagens em redes com erros. A biblioteca libpgm é utilizada para a implementação do protocolo. 

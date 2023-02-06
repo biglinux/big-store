@@ -1,0 +1,3 @@
+Este programa é chamado de k3s e sua versão atual é 1.23. Ele é especialmente projetado para ser leve e fácil de usar, o que o
+torna ideal para ambientes com recursos limitados. Ele permite gerenciar containers, que são como pequenos programas dentro de outros programas, de maneira fácil e eficiente. Ele também usa
+o Kubernetes, um popular sistema de gerenciamento de containers, para ajudar a garantir que tudo funcione corretamente.

@@ -1,0 +1,3 @@
+Esta é uma biblioteca de cabeçalhos C++ para ANTLR, um gerador de analisador de linguagem livre. Ela fornece as
+declarações e definições necessárias para usar a biblioteca ANTLR em aplicativos C++. Com ela, é possível criar facilmente analisadores sintáticos e léxicos para diversas linguagens de
+programação.A biblioteca é compatível com as versões mais recentes do ANTLR e é fácil de usar, basta incluir os cabeçalhos na sua aplicação e seguir as instruções de uso fornecidas.

@@ -1,0 +1,1 @@
+O aircrack-ng é um programa para quebrar senhas dos protocolos 802.11 WEP e WPA-PSK. Ele pode recuperar as senhas quando há captura de pacotes suficientes. Ele implementa o ataque padrão FMS, junto com algumas otimizações como os ataques KoreK e o novo ataque PTW. 

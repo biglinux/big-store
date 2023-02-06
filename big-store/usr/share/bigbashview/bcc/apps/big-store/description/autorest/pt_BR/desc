@@ -1,0 +1,3 @@
+O programa AutoRest é uma ferramenta que cria bibliotecas para ajudar a acessar serviços web que usam o
+padrão REST. Isso significa que ele faz o trabalho de escrever códigos complexos para você, de modo que você possa se concentrar em criar seu próprio programa.Por exemplo, se você quiser
+criar um aplicativo que acesse uma API (uma forma de acessar dados de outro site), o AutoRest pode gerar as bibliotecas de código que você precisa para fazer isso de forma fácil e rápida.

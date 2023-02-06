@@ -1,0 +1,1 @@
+Este programa é uma implementação pura em Python do protocolo HTTP/1.1, ou seja, ele permite que você use sua própria entrada e saída ao trabalhar com esse protocolo. Ele é chamado de python-h11. 

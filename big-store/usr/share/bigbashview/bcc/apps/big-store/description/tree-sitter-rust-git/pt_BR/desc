@@ -1,0 +1,3 @@
+Este programa é uma gramática para o idioma Rust, que é usada no parser Tree-Sitter. Isso permite que o Tree-Sitter entenda e
+analise corretamente o código escrito em Rust. Com isso, outras ferramentas que usam o Tree-Sitter, como editores de código e IDEs, também podem fornecer recursos de inteligência de código 
+e outras funcionalidades para código Rust.

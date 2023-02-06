@@ -1,0 +1,3 @@
+Este programa é um lançador para o jogo Minecraft, mas com a habilidade de gerenciar várias instâncias do jogo ao mesmo 
+tempo. Isso significa que você pode ter várias versões diferentes do jogo abertas e jogando ao mesmo tempo, sem precisar alternar entre elas. Além disso, ele foi desenvolvido usando a
+biblioteca Qt5, o que garante uma boa performance e facilidade de uso.

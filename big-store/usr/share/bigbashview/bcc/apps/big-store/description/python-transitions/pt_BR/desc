@@ -1,0 +1,3 @@
+O python-transitions é uma implementação leve e orientada a objetos de máquina de estado finito em Python. Ele permite que
+você crie facilmente máquinas de estado finito para gerenciar o fluxo de seus programas. Com ele, você pode definir estados, transições e ações de forma simples e intuitiva.Além disso, o
+python-transitions fornece recursos avançados, como o suporte a eventos, condições e validação de transições, permitindo que você construa sistemas complexos com facilidade.

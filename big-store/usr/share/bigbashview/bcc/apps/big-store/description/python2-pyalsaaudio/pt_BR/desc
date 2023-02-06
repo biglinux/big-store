@@ -1,0 +1,3 @@
+A biblioteca python2-pyalsaaudio é um conjunto de wrappers para o ALSA, uma biblioteca de áudio para Linux. Ela
+permite que você controle dispositivos de áudio no seu sistema Linux usando o Python 2. Com essa biblioteca, você pode acessar e controlar configurações de áudio, como volume, equalização e
+entrada/saída de áudio. Ela é útil para desenvolvedores que estão criando aplicativos de áudio ou que precisam automatizar tarefas relacionadas ao áudio no Linux.

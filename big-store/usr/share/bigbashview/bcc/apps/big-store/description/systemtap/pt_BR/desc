@@ -1,0 +1,3 @@
+Systemtap é uma ferramenta que ajuda a simplificar a coleta de informações sobre o sistema Linux em
+execução. Ele permite que você escreva scripts para coletar dados do kernel, sem a necessidade de parar o sistema ou escrever código em C.Com Systemtap, é possível obter informações sobre
+processos, memória, rede e muito mais. Ele também permite criar gráficos e relatórios para facilitar a análise dos dados coletados.

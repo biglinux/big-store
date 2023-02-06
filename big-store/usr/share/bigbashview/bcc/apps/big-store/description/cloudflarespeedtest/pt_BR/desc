@@ -1,0 +1,3 @@
+Esse é um programa que permite testar a velocidade de conexão com o Cloudflare. Ele é útil para verificar se está tudo
+funcionando corretamente e para identificar possíveis problemas de velocidade. Ele testa vários endereços IP do Cloudflare ao mesmo tempo, o que permite obter uma visão geral rápida do
+desempenho.Ele é fácil de usar e é uma boa opção para quem precisa testar a velocidade de conexão com o Cloudflare frequentemente. 

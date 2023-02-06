@@ -1,0 +1,1 @@
+A libmemcached-awesome é uma biblioteca cliente para o servidor memcached, escrita em C/C++. Ela fornece uma maneira fácil de trabalhar com o servidor memcached a partir de sua aplicação. Com ela você pode armazenar e recuperar informações rapidamente e facilmente. Além disso, ela oferece ferramentas adicionais para gerenciamento e monitoramento do servidor memcached. 

@@ -1,0 +1,2 @@
+Este programa é um gerador de miniaturas para arquivos no formato AppImage. Ele funciona com gerenciadores de
+arquivos como o nautilus, nemo, etc. Ele é uma versão modificada do appimage-thumbnailer, que adiciona suporte para arquivos AppImage.

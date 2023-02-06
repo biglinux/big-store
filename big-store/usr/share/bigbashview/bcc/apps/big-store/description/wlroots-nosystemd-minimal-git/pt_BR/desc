@@ -1,0 +1,3 @@
+ Este programa é uma biblioteca de compositor modular para o protocolo Wayland. Ele foi projetado para ser utilizado
+em sistemas sem o gerenciador de inicialização systemd, o que o torna ideal para sistemas mais leves e minimalistas. Ele é baseado na biblioteca wlroots e é mantido no formato de código
+aberto. Com ele, é possível desenvolver aplicativos e programas customizados para sistemas operacionais que utilizam o protocolo Wayland.

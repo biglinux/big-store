@@ -1,0 +1,2 @@
+Essa é uma biblioteca para Python 3 que ajuda a lidar com dados no formato JSON5. Ela foi escrita em Cython e é útil para quem
+precisa fazer serialização e parse de dados nesse formato.

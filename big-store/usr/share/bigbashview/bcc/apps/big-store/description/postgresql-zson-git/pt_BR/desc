@@ -1,0 +1,3 @@
+Este programa é uma extensão para o banco de dados PostgreSQL que permite uma compressão transparente dos dados armazenados no 
+formato JSONB. Isso significa que os dados serão automaticamente compactados e descompactados sem que você precise fazer nada especial.Isso pode ser útil se você estiver trabalhando com
+grandes quantidades de dados em formato JSON e quiser economizar espaço no seu banco de dados, sem perder a facilidade de acesso e trabalho com esses dados.

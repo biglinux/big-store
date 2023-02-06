@@ -1,0 +1,3 @@
+Este é um módulo de kernel para placas de rede Realtek r8125. Ele permite que essas placas sejam reconhecidas e
+utilizadas pelo sistema operacional. Sem ele, a placa de rede não funcionaria corretamente.Este módulo é essencial para quem tem uma placa de rede Realtek r8125 e deseja usá-la em seu
+computador.

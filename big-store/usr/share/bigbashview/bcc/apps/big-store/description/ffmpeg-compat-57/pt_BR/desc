@@ -1,0 +1,2 @@
+Este pacote é para garantir a compatibilidade entre o ffmpeg e as versões 57 do libavcodec, libavdevice e libavformat. 
+Ele não é mais fornecido pelo pacote ffmpeg.

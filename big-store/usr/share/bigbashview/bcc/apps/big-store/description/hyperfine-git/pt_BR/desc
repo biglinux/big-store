@@ -1,0 +1,3 @@
+ Hyperfine-git é uma ferramenta de benchmarking de linha de comando que permite medir o desempenho de comandos
+e scripts. Ele é fácil de usar e fornece resultados precisos e detalhados. Com Hyperfine-git, você pode comparar diferentes versões de um comando ou script, ou comparar diferentes maneiras 
+de executar a mesma tarefa. É uma ferramenta útil para desenvolvedores e administradores de sistemas que desejam melhorar o desempenho de suas aplicações.

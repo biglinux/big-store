@@ -1,0 +1,6 @@
+Com o python-streamz, é possível processar fluxos de dados em tempo real de forma fácil e eficiente. Esse
+programa é escrito em Python e é perfeito para quem precisa trabalhar com grandes quantidades de informações e precisa de resultados imediatos. Ele é capaz de lidar com fluxos de dados em
+vários formatos, incluindo CSV, JSON e parquet.Além disso, o python-streamz é escalável e pode ser usado em aplicações distribuídas, o que significa que é possível processar grandes
+quantidades de dados em uma estrutura de cluster. Ele também oferece suporte a várias bibliotecas de processamento de fluxo, como Apache Kafka e Apache Storm.Em resumo, o python-streamz é
+uma excelente escolha para quem precisa de uma solução de processamento de fluxo em tempo real e está trabalhando com Python. Ele é fácil de usar, escalável e oferece suporte a vários
+formatos e bibliotecas.

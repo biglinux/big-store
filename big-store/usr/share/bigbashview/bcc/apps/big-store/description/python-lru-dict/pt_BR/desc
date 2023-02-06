@@ -1,0 +1,1 @@
+Este é um cache LRU (Least Recently Used) para Python, que é rápido e eficiente em uso de memória. Ele é implementado como um dicionário e mantém os itens menos utilizados fora da memória para liberar espaço para os mais recentes. 

@@ -1,0 +1,1 @@
+python-urllib3 é uma biblioteca para lidar com requisições HTTP no Python. Ela oferece suporte a pooling de conexões seguras, o que significa que pode reutilizar conexões já estabelecidas para economizar tempo e recursos. Além disso, também permite a postagem de arquivos, o que é útil para uploads de arquivos para um servidor. 

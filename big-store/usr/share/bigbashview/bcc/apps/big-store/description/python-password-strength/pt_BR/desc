@@ -1,0 +1,2 @@
+Este programa tem como objetivo verificar a força de uma senha escrita em Python. Ele funciona tanto na versão 2.7
+quanto na 3.X. Ele irá avaliar a senha e fornecer uma classificação da força dela, ajudando você a escolher uma senha mais segura.

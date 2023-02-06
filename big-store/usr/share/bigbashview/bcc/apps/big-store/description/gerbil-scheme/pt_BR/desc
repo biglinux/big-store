@@ -1,0 +1,3 @@
+Gerbil-scheme é um dialeto opinativo de Scheme projetado para programação de sistemas, que roda no
+runtime Gambit. Com ele, você pode criar programas poderosos e eficientes usando a linguagem Scheme, que é conhecida por ser expressiva e fácil de usar. Além disso, o Gerbil-scheme é
+otimizado para trabalhar com sistemas, o que o torna uma ótima escolha para desenvolver aplicativos de baixo nível, como drivers e sistemas operacionais.

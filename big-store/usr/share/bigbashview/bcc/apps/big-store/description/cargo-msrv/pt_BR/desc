@@ -1,0 +1,1 @@
+cargo-msrv é um programa que ajuda você a encontrar a versão mínima de Rust que é suportada pelo seu projeto. Isso é útil porque permite que você saiba qual a versão mais antiga do Rust que você pode usar sem que haja problemas no seu código. Isso também ajuda a garantir que seu projeto seja acessível para o maior número possível de pessoas que usam diferentes versões do Rust. 

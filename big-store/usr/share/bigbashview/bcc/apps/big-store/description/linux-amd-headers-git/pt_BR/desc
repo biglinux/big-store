@@ -1,0 +1,3 @@
+ Este é um pacote de cabeçalhos e scripts para construir módulos para o núcleo Linux com material AMDGPU em desenvolvimento.
+Ele é especialmente útil se você estiver trabalhando com placas gráficas AMD e precisar construir seus próprios módulos de kernel para usar com o Linux. Com este pacote, você poderá
+construir módulos personalizados para aproveitar ao máximo sua placa gráfica AMD. 

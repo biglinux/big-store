@@ -1,0 +1,1 @@
+Biblioteca haskell-primitive-addr fornece acesso a endereços de memória não gerenciados, permitindo a criação de estruturas de dados mais eficientes e acesso direto a memória. É útil para aplicações críticas de desempenho e trabalho com dispositivos externos. 

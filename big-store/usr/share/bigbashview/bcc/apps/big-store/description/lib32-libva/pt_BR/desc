@@ -1,0 +1,1 @@
+ Esta é uma API (Application Programming Interface) para aceleração de vídeo em sistemas Linux de 32 bits. Ela permite que os  desenvolvedores de aplicativos e jogos aproveitem as capacidades de hardware de processamento de vídeo para melhorar a performance e a qualidade de vídeo. O pacote de biblioteca chamado lib32-libva é necessário para usar essa API.  

@@ -1,0 +1,4 @@
+Esse programa permite que você execute aplicativos Java como um serviço no Windows ou como um daemon no
+Unix. Isso significa que o programa pode rodar em segundo plano, sem precisar ficar aberto em uma janela, e continuar funcionando mesmo quando você fecha a janela do terminal ou desconecta 
+da sua sessão. Isso pode ser útil se você quiser que o programa rode o tempo todo em seu computador, sem precisar ficar verificando se ele ainda está funcionando. Além disso, como ele roda 
+como um serviço, você pode configurá-lo para iniciar automaticamente quando o computador iniciar.

@@ -1,0 +1,3 @@
+ Este é um programa chamado torcs-can, que é um simulador de corridas de carros em 3D. Ele usa uma tecnologia chamada
+OpenGL para criar gráficos realistas e é um fork (versão modificada) feito por Enrico Pozzobon com suporte a CAN (Control Area Network). Com este programa, você pode sentir como é dirigir
+um carro de corrida em uma competição, escolhendo entre vários carros e circuitos diferentes. 

@@ -1,0 +1,4 @@
+Esse programa é um atalho para usar o Rofi como substituto do dmenu. Ele funciona como um link simbólico, fazendo com que o Rofi
+possa ser usado no lugar do dmenu de forma fácil e rápida. Assim, você pode usufruir das vantagens do Rofi sem precisar alterar nenhuma configuração do seu sistema. O Rofi é um lançador de 
+aplicativos e programas com recursos adicionais, como pesquisa e navegação por categorias, enquanto o dmenu é um lançador simples de aplicativos. Então, se você quer ter mais opções e
+facilidade na hora de abrir seus programas, este programa é perfeito para você.

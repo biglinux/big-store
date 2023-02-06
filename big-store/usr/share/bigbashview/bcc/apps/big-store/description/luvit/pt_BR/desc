@@ -1,0 +1,3 @@
+Este programa oferece uma maneira fácil de criar APIs no estilo do Node.js usando o luvi, tanto como uma aplicação independente
+quanto como biblioteca. Ele é escrito em Lua e é projetado para ser simples de usar e de entender, mesmo para quem está começando. Com ele é possível desenvolver aplicações web e outras
+soluções com facilidade e agilidade. Além disso, ele é compatível com outras bibliotecas e ferramentas de desenvolvimento, o que permite a criação de soluções robustas e escaláveis.

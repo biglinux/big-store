@@ -1,0 +1,1 @@
+Este programa fornece ferramentas para ajudar a usar bancos de dados temporários do PostgreSQL em testes. Ele é especialmente útil quando você precisa de um banco de dados limpo para cada execução de teste, sem afetar os dados reais. Ele é escrito em Python e é compatível  com a maioria dos frameworks de teste comuns. 

@@ -1,0 +1,4 @@
+O napari é um visualizador de imagens multidimensional para o Python. Ele permite que você visualize
+facilmente várias camadas de imagens e adicione camadas de dados adicionais, como anotações e máscaras. Ele também possui recursos avançados, como suporte para visualizar imagens em tempo
+real e ajustar facilmente as configurações de exibição.O napari é fácil de usar e tem uma interface intuitiva, então mesmo se você não é um especialista em imagens, poderá facilmente
+visualizar e explorar seus dados. Ele é compatível com vários formatos de imagem e é compatível com vários pacotes Python populares, como numpy e matplotlib.

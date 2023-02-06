@@ -1,0 +1,1 @@
+Esse é um programa feito em Python que permite ler e interpretar chaves públicas geradas pelo OpenSSH. Ele é  útil para verificar se uma chave é válida e para extrair informações como o tipo de chave e o endereço de email ou nome de usuário associado à chave.Esse programa é fácil de usar e pode ser integrado em outros projetos que precisam lidar com chaves SSH.  

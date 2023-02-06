@@ -1,0 +1,1 @@
+A API de compra dentro do aplicativo é uma ferramenta para adicionar compras dentro de seu aplicativo. Utilizando essa  API, você pode permitir que os usuários comprem itens dentro do seu aplicativo, como moedas virtuais ou recursos adicionais.Essa API é compatível com o Qt5, o que significa que ela pode ser facilmente integrada a aplicativos desenvolvidos com essa ferramenta. 

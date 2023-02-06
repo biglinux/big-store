@@ -1,0 +1,2 @@
+SysTray-X é uma extensão para o Thunderbird 68+ que adiciona um ícone na bandeja do sistema. O addon usa a API
+WebExtension para controlar uma aplicação externa dependente do sistema na bandeja do sistema.

@@ -1,0 +1,3 @@
+Este programa é capaz de converter arquivos entre o formato Dhall e o formato TOML. Isso significa que, se você tem um arquivo escrito em 
+Dhall e precisa usá-lo em um programa que só aceita TOML, ou vice-versa, este programa pode ajudá-lo a fazer essa conversão rapidamente e facilmente. Ele é fácil de usar, basta selecionar o
+arquivo que você deseja converter e escolher qual formato você deseja que ele seja convertido, e pronto!

@@ -1,0 +1,1 @@
+Este programa é um módulo do kernel que aplica um  patch em dispositivos hid-asus para suportar mais laptops da marca ROG. Ele é conhecido como hid-asus-rog-dkms-git e é utilizado para melhorar a compatibilidade dos dispositivos com o sistema operacional. 

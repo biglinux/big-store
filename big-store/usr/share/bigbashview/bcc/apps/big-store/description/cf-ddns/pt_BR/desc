@@ -1,0 +1,3 @@
+Este programa é simples e útil para atualizar os registros A do Cloudflare, especialmente quando se tem um endereço de IP 
+dinâmico. Ele é chamado cf-ddns e é fácil de usar. Basta configurar as suas credenciais do Cloudflare e o endereço de DNS desejado e ele cuidará do resto, mantendo seu endereço sempre
+atualizado.

@@ -1,0 +1,1 @@
+ A biblioteca ruby-net-ssh é uma implementação pura do protocolo cliente SSH2 feita em Ruby. Ela permite que você se conecte a servidores SSH, execute comandos e rode sessões SFTP. A biblioteca é fácil de usar e oferece uma API simples e orientada a objetos. Ela é compatível com as versões Ruby 1.8 e superiores.  

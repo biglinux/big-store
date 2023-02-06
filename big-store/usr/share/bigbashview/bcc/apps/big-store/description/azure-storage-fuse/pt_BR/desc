@@ -1,0 +1,3 @@
+Este programa é uma adaptação de sistema de arquivos para usar o armazenamento de 'blobs' do Azure.
+Ele permite acessar e gerenciar arquivos armazenados no Azure como se estivessem em seu próprio computador. Com ele, é possível criar, ler, atualizar e excluir arquivos no armazenamento do 
+Azure com facilidade. Além disso, é possível montar uma unidade de armazenamento do Azure como se fosse uma unidade de disco local.

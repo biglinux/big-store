@@ -1,0 +1,2 @@
+Este é um pacote independente do ROS que permite o registro de informações sem interrupções no rosconsole/rosout para
+pacotes dependentes do ROS.Com ele, você pode registrar informações importantes do seu programa sem se preocupar com a integração com outras ferramentas do ROS.

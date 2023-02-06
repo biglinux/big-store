@@ -1,0 +1,3 @@
+ Este programa adiciona suporte ao banco de dados SQLite no PHP 8.1. Isso significa que os desenvolvedores podem usar o
+SQLite em seus projetos que usam a versão 8.1 do PHP. O SQLite é um banco de dados leve e fácil de usar, perfeito para projetos pequenos ou protótipos. Com este módulo, os desenvolvedores
+podem usar o SQLite de forma fácil e rápida no PHP 8.1. 

@@ -1,0 +1,2 @@
+Este é um driver especial para usar com sua placa de vídeo Nvidia. Ele permite que você use a tecnologia VA-API (Video Acceleration API)
+para reproduzir vídeos com melhor qualidade e desempenho. É uma implementação feita pela Nvidia, chamada de NVDEC.

@@ -1,0 +1,4 @@
+Este é um módulo adicional para o PHP 8.2 que permite que você faça solicitações HTTP e HTTPS em seu código PHP. Isso significa que 
+você pode se comunicar com outros sites e serviços na web usando o PHP.Com o módulo curl, você pode fazer coisas como enviar dados para um formulário online, baixar arquivos da web e até
+mesmo enviar solicitações personalizadas para sites específicos.É uma ferramenta útil para qualquer um que desenvolva aplicativos ou sites que precisem se comunicar com outros serviços na
+web.

@@ -1,0 +1,3 @@
+Este programa é chamado de 'xmrig-donateless' e é usado para minerar criptomoedas usando o poder de processamento do seu
+computador. Ele suporta vários tipos de criptomoedas, como CryptoNote, e pode ser usado tanto com processadores quanto com placas de vídeo (OpenCL e CUDA). O que o torna especial é que não 
+há opção de doação incluída, o que significa que todo o poder de mineração é usado para você. 

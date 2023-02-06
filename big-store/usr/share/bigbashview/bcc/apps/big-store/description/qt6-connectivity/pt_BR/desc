@@ -1,0 +1,1 @@
+ Esse programa fornece acesso ao hardware de Bluetooth. Ele é desenvolvido com a biblioteca Qt6 Connectivity, que permite a comunicação entre dispositivos usando o protocolo Bluetooth. Com ele, é possível enviar e receber arquivos, fazer chamadas e até mesmo controlar dispositivos domésticos, tudo isso sem precisar de cabos ou fios.  

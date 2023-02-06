@@ -1,0 +1,3 @@
+Este programa é uma configuração simples do systemd para fornecer suporte a usuários convidados. Ele permite que os visitantes
+usem o seu computador com acesso limitado, sem precisar criar uma conta para eles.Isso pode ser útil em ambientes compartilhados, como escritórios ou escolas, onde é desejável fornecer
+acesso temporário a alguém sem comprometer a segurança do sistema.

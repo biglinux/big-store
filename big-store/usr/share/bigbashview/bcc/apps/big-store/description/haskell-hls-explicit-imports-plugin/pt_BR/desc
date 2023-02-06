@@ -1,0 +1,1 @@
+Esse é um plugin para o Haskell Language Server que permite que as importações de módulos sejam feitas de forma explícita, ou seja, que sejam especificadas explicitamente no código fonte. Isso pode ajudar a tornar o código mais claro e legível, além de evitar problemas com ambiguidade de módulos. 

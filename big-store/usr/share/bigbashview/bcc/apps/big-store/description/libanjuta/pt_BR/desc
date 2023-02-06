@@ -1,0 +1,3 @@
+A libanjuta é uma biblioteca essencial para o funcionamento do programa Anjuta. Ela fornece as funcionalidades básicas
+para que o programa possa ser executado e permitir a criação de aplicativos. Sem ela, o Anjuta não funcionaria.A libanjuta é uma biblioteca de código aberto e está disponível para ser
+baixada e usada gratuitamente. Se você estiver desenvolvendo um aplicativo usando o Anjuta, certifique-se de incluir essa biblioteca no seu projeto.

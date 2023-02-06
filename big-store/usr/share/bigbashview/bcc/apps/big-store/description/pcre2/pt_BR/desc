@@ -1,0 +1,1 @@
+pcre2 é uma biblioteca que implementa expressões regulares estilo Perl 5 na versão 2. Ela é utilizada para procurar padrões de texto em uma determinada string, possibilitando a realização de buscas e substituições com maior precisão e flexibilidade. 

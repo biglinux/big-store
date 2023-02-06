@@ -1,0 +1,1 @@
+png++ é uma biblioteca escrita em C++ que fornece uma forma fácil e conveniente de usar a biblioteca libpng para ler e escrever arquivos PNG. Ele fornece uma interface simples e intuitiva para acessar todas as funcionalidades da biblioteca libpng, incluindo suporte a vários níveis de profundidade de cor, transparência e outros recursos avançados. 

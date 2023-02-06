@@ -1,0 +1,1 @@
+A biblioteca python-eventlet é projetada para lidar com muitas conexões de rede ao mesmo tempo, garantindo alta performance e escalabilidade. Ela é ideal para aplicativos web e outros projetos que necessitam lidar com muitas conexões simultâneas de forma eficiente. 

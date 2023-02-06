@@ -1,0 +1,1 @@
+O pacote haskell-quickcheck-instances oferece uma variedade de instâncias pré-definidas para tipos comuns, como listas, strings e números, que podem ser utilizadas facilmente com o módulo QuickCheck do Haskell. Isso permite que os desenvolvedores testem suas funções de maneira rápida e eficiente sem precisar escrever as instâncias de teste manualmente. 

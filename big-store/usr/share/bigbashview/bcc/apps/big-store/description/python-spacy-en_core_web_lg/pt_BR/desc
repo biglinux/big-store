@@ -1,0 +1,2 @@
+Este pacote é utilizado para processamento de linguagem natural em inglês, ele possui vários componentes
+como transformer, tagger, parser, ner, attribute_ruler e lemmatizer. Ele é baseado na biblioteca roberta-base e é compatível com o Python.

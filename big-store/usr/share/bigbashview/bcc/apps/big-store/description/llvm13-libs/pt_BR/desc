@@ -1,0 +1,1 @@
+As bibliotecas de tempo de execução do LLVM 13 são uma coleção de ferramentas e arquivos que ajudam a garantir que um programa escrito com a linguagem LLVM possa ser executado corretamente. Elas incluem bibliotecas de suporte para operações matemáticas, gerenciamento de memória e outras funcionalidades essenciais para o funcionamento de um programa. 

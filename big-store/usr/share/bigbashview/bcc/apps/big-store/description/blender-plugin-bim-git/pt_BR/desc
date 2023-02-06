@@ -1,0 +1,4 @@
+Este é um programa de código aberto que fornece bibliotecas estáticas, um wrapper em python3 e um
+complemento para o Blender. Ele é a versão GIT. A biblioteca IFC é usada para trabalhar com arquivos de modelagem de informações da construção (Building Information Modeling, BIM). O motor 
+de geometria permite que você manipule e visualize esses modelos de forma eficiente. Com este programa, você pode criar aplicativos de BIM personalizados ou integrar o suporte ao BIM em
+outros programas. Além disso, como é de código aberto, você pode contribuir para o desenvolvimento do programa e aprimorá-lo de acordo com suas necessidades. 

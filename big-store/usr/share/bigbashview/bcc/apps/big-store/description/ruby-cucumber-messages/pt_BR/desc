@@ -1,0 +1,1 @@
+Este é um banco de dados de mensagens de protocolo buffer para comunicação entre processos do Cucumber. Ele é escrito em ruby e é projetado para ser simples e fácil de usar. Ele é usado para enviar e receber informações entre diferentes partes do programa, garantindo que a comunicação seja rápida e precisa. 

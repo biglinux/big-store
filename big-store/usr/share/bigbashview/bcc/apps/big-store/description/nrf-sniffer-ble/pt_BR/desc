@@ -1,0 +1,3 @@
+Este programa é chamado de 'nRF Sniffer for Bluetooth LE' e é usado para capturar dados de dispositivos que usam o protocolo
+Bluetooth LE. Ele inclui um firmware, uma API chamada SnifferAPI e um plugin para o Wireshark, que é um outro programa de análise de rede. Ele pode ser útil para desenvolvedores que
+precisam entender como os dispositivos se comunicam usando o Bluetooth LE.

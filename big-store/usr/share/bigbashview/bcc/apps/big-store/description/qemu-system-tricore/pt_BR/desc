@@ -1,0 +1,1 @@
+O QEMU é um emulador de sistema para a arquitetura tricore. Ele permite que os usuários execute software destinado a um sistema tricore em suas próprias máquinas, sem a necessidade de hardware dedicado. Isso pode ser útil para desenvolvimento de software, testes e execução de aplicativos legados. 

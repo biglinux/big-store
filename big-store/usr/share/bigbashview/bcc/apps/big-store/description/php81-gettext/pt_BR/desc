@@ -1,0 +1,4 @@
+Este é um módulo chamado 'gettext' para o programa PHP 8.1. Ele ajuda a traduzir o texto dentro do seu programa para vários
+idiomas diferentes, para que as pessoas de diferentes países possam entender o que está escrito. Isso é útil se você quer que seu programa seja usado por pessoas de todo o mundo.Com este
+módulo, você pode escrever o texto em uma única linguagem e, em seguida, usar o 'gettext' para traduzi-lo para vários idiomas diferentes. Isso é muito mais fácil do que ter que escrever o
+texto várias vezes, uma para cada idioma que você deseja suportar.

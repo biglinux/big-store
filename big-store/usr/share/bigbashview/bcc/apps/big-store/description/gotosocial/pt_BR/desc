@@ -1,0 +1,4 @@
+Gotosocial é um programa escrito em Golang que permite criar e gerenciar uma rede social usando o protocolo
+ActivityPub. Ele é uma ferramenta poderosa para quem deseja construir um espaço online para conectar com outras pessoas e compartilhar conteúdo.Com gotosocial, é possível criar perfis de
+usuários, publicar postagens, seguir outros usuários e interagir com eles de diversas formas. Além disso, o programa oferece suporte para diversos tipos de conteúdo, incluindo texto,
+imagens, vídeos e áudios.Se você está procurando uma maneira fácil e eficiente de construir sua própria rede social, gotosocial é uma excelente escolha.

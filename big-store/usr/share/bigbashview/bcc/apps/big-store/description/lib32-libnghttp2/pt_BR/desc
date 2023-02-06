@@ -1,0 +1,1 @@
+A biblioteca lib32-libnghttp2 é uma implementação da camada de quadros do protocolo HTTP/2. Ela é escrita em C e pode ser facilmente utilizada em outros projetos, graças a sua natureza de biblioteca reutilizável. Com ela, é possível implementar a comunicação HTTP/2 de maneira eficiente e fácil. 

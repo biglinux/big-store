@@ -1,0 +1,3 @@
+A distribuição Python Anaconda é uma das mais populares entre os desenvolvedores e cientistas de dados. Ela
+inclui muitas bibliotecas e ferramentas úteis, como o Jupyter Notebook. A miniconda3 é uma versão menor da distribuição, que inclui somente o gerenciador de pacotes conda e Python. Isso é
+útil se você já tem as bibliotecas que precisa instaladas no seu computador e só precisa do gerenciador de pacotes conda.

@@ -1,0 +1,1 @@
+Este programa permite controlar o servidor dbus usando o hslogger. Ele torna possível acessar e modificar as configurações do hslogger através do dbus. Isso é útil para automatizar tarefas ou para acessar o hslogger de forma remota.O haskell-dbus-hslogger é uma ferramenta poderosa para aqueles que precisam trabalhar com o hslogger de forma avançada. 

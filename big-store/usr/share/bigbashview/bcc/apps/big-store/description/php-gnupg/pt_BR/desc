@@ -1,0 +1,3 @@
+Esta é uma extensão para o PHP que permite a utilização de criptografia de chave pública através do GnuPG (também conhecido como
+GPGME).Ela é útil para quem precisa proteger informações sensíveis, como senhas ou dados pessoais, ao transmiti-los pela internet.Com esta extensão, é possível criptografar, assinar e
+verificar a autenticidade de mensagens de forma segura e eficiente.

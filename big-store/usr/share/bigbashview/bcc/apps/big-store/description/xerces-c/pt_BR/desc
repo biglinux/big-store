@@ -1,0 +1,1 @@
+xerces-c é um analisador XML escrito em um subconjunto portátil de C++, o que significa que ele pode ser facilmente compilado em vários sistemas operacionais e plataformas. Ele oferece suporte a todas as funcionalidades do W3C XML 1.0 e muitas outras funcionalidades adicionais. Ele também é compatível com muitos outros padrões relacionados ao XML, como DOM, SAX e XInclude. 

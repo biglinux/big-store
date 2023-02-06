@@ -1,0 +1,1 @@
+Este programa coleta métricas de nível de aplicativo para unidades systemd e as exporta para o Prometheus, um sistema de monitoramento de desempenho. Isso permite que você visualize e analise o desempenho de seus aplicativos de forma mais detalhada e precisa. 

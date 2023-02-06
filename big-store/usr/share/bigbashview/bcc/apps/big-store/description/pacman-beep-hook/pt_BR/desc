@@ -1,0 +1,2 @@
+Esse programa é uma 'gancho' (hook) para tocar a música tema do jogo Pac-Man usando a saída de som do computador antes e depois de
+qualquer transação.Assim, sempre que você instalar ou remover algum pacote no seu sistema, por exemplo, ouvirá a música do Pac-Man tocar.

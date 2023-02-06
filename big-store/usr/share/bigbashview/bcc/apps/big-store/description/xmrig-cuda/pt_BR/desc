@@ -1,0 +1,4 @@
+Este programa é um plugin para o minador de criptomoedas XMRig, especificamente projetado para utilizar a tecnologia
+NVIDIA CUDA. Isso significa que ele pode utilizar a potência de processamento de sua placa gráfica NVIDIA para minerar criptomoedas mais rapidamente do que usando apenas o processador de
+seu computador. É importante notar que minerar criptomoedas pode consumir muita energia e pode ser caro, então certifique-se de ter uma compreensão clara dos custos antes de usar este
+programa.

@@ -1,0 +1,1 @@
+Este programa é uma coleção de fixtures (conjuntos de dados de teste) para serem usados em testes com a biblioteca Async::HTTP, em aplicações Ruby. Ele permite que você execute testes de forma automatizada e consistente em suas rotinas de requisições HTTP. 

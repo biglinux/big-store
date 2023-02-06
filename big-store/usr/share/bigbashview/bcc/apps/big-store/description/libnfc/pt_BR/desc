@@ -1,0 +1,1 @@
+libnfc é uma biblioteca NFC independente de plataforma e de código aberto que permite comunicar-se com dispositivos NFC. Com o libnfc, é fácil ler e escrever tags NFC, bem como se comunicar com outros dispositivos NFC, como telefones e leitores. A biblioteca é escrita em C e está disponível para várias plataformas, incluindo Windows, Linux e Mac OS X. 

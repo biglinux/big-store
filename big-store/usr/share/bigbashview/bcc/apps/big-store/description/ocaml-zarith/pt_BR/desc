@@ -1,0 +1,1 @@
+Este programa permite realizar operações aritméticas e lógicas com números inteiros e racionais de precisão arbitrária. Ele é escrito em OCaml e utiliza a biblioteca Zarith para realizar as operações matemáticas. 

@@ -1,0 +1,1 @@
+darkhttpd é um pequeno e simples servidor web estático que tem como objetivo ser seguro. Ele não possui recursos avançados, como suporte a CGI ou PHP, mas é perfeito para servir arquivos estáticos, como HTML, imagens e arquivos de mídia. Ele é fácil de configurar e usar, e é uma ótima opção para quem  precisa de um servidor web simples e seguro. 

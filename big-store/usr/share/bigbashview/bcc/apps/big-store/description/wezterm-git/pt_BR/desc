@@ -1,0 +1,3 @@
+Wezterm é um emulador de terminal criado usando Rust e OpenGL ES 2 para renderização. Ele é projetado para ser rápido e fácil de
+usar, e oferece recursos avançados como suporte a várias guias e janelas.Além disso, o Wezterm é construído com segurança em mente, e conta com recursos adicionais para garantir que sua
+sessão de terminal seja segura e protegida.

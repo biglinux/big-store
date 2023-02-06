@@ -1,0 +1,3 @@
+Este é um editor baseado em wxWidgets para os dados de identificação estendida de exibição (EDID). Ele permite aos usuários ver e editar as
+informações sobre a tela conectada ao seu computador, como a resolução e a taxa de atualização. Isso pode ser útil em casos em que o driver padrão não esteja configurado corretamente ou se 
+você desejar personalizar as configurações da tela.

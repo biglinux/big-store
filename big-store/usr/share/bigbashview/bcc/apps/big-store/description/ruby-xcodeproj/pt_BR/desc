@@ -1,0 +1,4 @@
+Com o ruby-xcodeproj, você pode facilmente criar e modificar projetos Xcode a partir de código Ruby. Isso significa
+que você pode automatizar tarefas comuns, como adicionar arquivos a um projeto ou configurar as definições de construção, sem precisar abrir o Xcode manualmente. Além disso, o
+ruby-xcodeproj é uma biblioteca de código aberto, o que significa que você pode contribuir com o desenvolvimento e personalizar ainda mais as funcionalidades para atender às suas
+necessidades.

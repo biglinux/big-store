@@ -1,0 +1,1 @@
+A biblioteca libabigail é uma biblioteca de análise e instrumentação genérica ABI (Application Binary Interface). Ela é usada para comparar versões de bibliotecas compartilhadas e para gerar relatórios sobre as diferenças encontradas. A libabigail também pode ser usada para instrumentar arquivos objeto para coletar informações de rastreamento de chamadas de função. 

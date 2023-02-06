@@ -1,0 +1,3 @@
+Este programa adiciona uma marca de tempo a cada linha de entrada que você digitar. Por exemplo, se você digitar 'olá,
+mundo' e pressionar enter, o programa vai mostrar 'tempo: [data e hora atual] olá, mundo'. Isso é útil para registrar quando as coisas foram escritas ou para verificar o tempo de execução
+de algo. 

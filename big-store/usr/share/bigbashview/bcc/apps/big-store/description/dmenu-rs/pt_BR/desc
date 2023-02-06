@@ -1,0 +1,3 @@
+Um programa chamado dmenu-rs é uma versão feita em Rust do programa original chamado dmenu. Ele é usado para mostrar uma
+lista de opções para o usuário e deixar ele escolher uma delas rapidamente. Ele é muito útil quando você precisa escolher entre vários programas ou arquivos no computador. Além disso, ele é
+uma versão mais rápida e segura do programa original, pois foi feita em Rust.

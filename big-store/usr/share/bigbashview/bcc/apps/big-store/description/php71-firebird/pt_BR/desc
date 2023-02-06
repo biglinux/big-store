@@ -1,0 +1,3 @@
+Este é um módulo específico para o PHP 7.1 chamado pdo_firebird. Ele permite que você conecte e gerencie bancos de dados
+Firebird usando o PHP. Isso é útil para desenvolvimento de aplicações web que precisam acessar banco de dados Firebird.Este módulo é fácil de usar e fornece várias funções para trabalhar
+com bancos de dados Firebird, como conectar, executar consultas e gerenciar transações.

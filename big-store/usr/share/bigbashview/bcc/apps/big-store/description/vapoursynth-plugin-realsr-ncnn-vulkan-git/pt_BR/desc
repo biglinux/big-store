@@ -1,0 +1,4 @@
+Esse é um plugin para o programa Vapoursynth, que adiciona o efeito RealSR. Ele usa a biblioteca NCNN e o motor
+gráfico Vulkan, o que garante alta velocidade e qualidade de processamento. Essa é a versão GIT, ou seja, é a mais atual e pode conter novas funcionalidades ou correções de bugs. Com esse
+plugin, é possível melhorar significativamente a qualidade de imagem de vídeos, principalmente quando se trata de aumentar a resolução. Ele é ideal para quem busca obter resultados
+profissionais ao editar vídeos. 

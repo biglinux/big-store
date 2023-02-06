@@ -1,0 +1,1 @@
+bemenu-ncurses é um renderizador para bemenu, um utilitário de menu flexível escrito em C e usando a biblioteca ncurses. Ele permite que os usuários naveguem pelos itens usando o teclado e execute ações. Este renderizador fornece uma interface de terminal que permite que os usuários selecionem opções de uma lista de forma simples e rápida. 

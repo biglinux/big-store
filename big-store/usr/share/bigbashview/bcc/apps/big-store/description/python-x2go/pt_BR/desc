@@ -1,0 +1,4 @@
+Este programa é um módulo em Python que fornece uma API para o cliente X2Go. Isso significa que ele permite que você use o X2Go, um
+sistema de acesso remoto, com facilidade através do Python. Ele é útil para quem deseja automatizar tarefas ou integrar o X2Go em outros programas.Com este módulo, você pode conectar-se a
+servidores remotos, iniciar sessões, gerenciar sessões ativas e muito mais. Ele também suporta várias opções de configuração, como ajustes de resolução de tela e qualidade de áudio.Se você 
+precisa de uma maneira fácil e eficiente de usar o X2Go com o Python, este módulo é uma ótima escolha.

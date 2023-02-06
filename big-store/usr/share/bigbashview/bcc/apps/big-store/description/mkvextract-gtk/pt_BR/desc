@@ -1,0 +1,3 @@
+Este programa é uma interface gráfica do usuário (GUI) simples para Linux que permite extrair faixas de arquivos matroska
+(MKV). Ele é chamado de mkvextract-gtk e é fácil de usar, basta abrir o arquivo MKV desejado e escolher as faixas que você deseja extrair. Ele é útil para quem tem arquivos MKV com
+múltiplas faixas de áudio ou legendas e deseja separá-las.

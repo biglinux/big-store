@@ -1,0 +1,1 @@
+Esse é um pacote de serializadores de terceiros para usar com a biblioteca Betamax, que permite gravar e reproduzir sessões HTTP. Com ele, é possível personalizar a forma como os dados são armazenados e lidos durante as gravações e reproduções. O pacote é escrito em Python. 

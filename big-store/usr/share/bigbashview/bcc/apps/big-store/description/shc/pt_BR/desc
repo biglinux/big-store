@@ -1,0 +1,2 @@
+Este programa converte scripts shell em código fonte C e os compila. Ele não deve ser usado para criptografar
+scripts, pois não foi projetado para isso.

@@ -1,0 +1,4 @@
+Este programa é um driver VDPAU para VA API (Video Acceleration API) com suporte a XWayland. Ele permite que
+você use a aceleração de hardware de vídeo em seu computador com o sistema operacional Wayland. Com este driver, você pode assistir vídeos em alta definição e jogar jogos com gráficos
+melhores, sem consumir muita energia do seu dispositivo.Para usar este driver, é necessário ter o libva e o VDPAU instalados em seu sistema. Ele também requer um sistema operacional que
+suporte Wayland, como o Fedora ou o Ubuntu.

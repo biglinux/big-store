@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.2 que permite o acesso à memória compartilhada. Isso significa que vários
+programas podem acessar e compartilhar dados armazenados na memória, o que é útil em aplicações onde vários processos precisam acessar e atualizar os mesmos dados.Este módulo é chamado de
+'shmop' e é fácil de usar. Ele fornece funções para criar, abrir e fechar áreas de memória compartilhada, além de ler e escrever nesses espaços. Ele também permite que você controle as
+permissões de acesso à memória.

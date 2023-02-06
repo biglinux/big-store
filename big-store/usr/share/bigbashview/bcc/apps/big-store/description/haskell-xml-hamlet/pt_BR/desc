@@ -1,0 +1,1 @@
+Esse programa é chamado haskell-xml-hamlet e ele é um 'quasiquoter' (algo que ajuda a criar um código mais fácil de ler) para ajudar a criar conteúdo em XML. Ele usa um estilo semelhante ao famoso texto 'Hamlet' para tornar a escrita do código mais fácil e agradável de ler. 

@@ -1,0 +1,2 @@
+Uma ferramenta para ajudar a encontrar problemas e entender como um programa funciona. Ela mostra as coisas que o
+programa está fazendo, como acessar arquivos e se comunicar com outros programas. O strace-with-colors adiciona cores para ajudar a ver as coisas importantes mais facilmente.

@@ -1,0 +1,1 @@
+Este programa é uma versão semelhante ao XML::Simple, mas usa a biblioteca libxml para processar arquivos  XML. Ele facilita a leitura e escrita de arquivos XML em Perl, tornando-os mais simples e fáceis de entender para os desenvolvedores.O programa é escrito em Perl e pode ser facilmente integrado em outros projetos escritos na mesma linguagem. 

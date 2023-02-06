@@ -1,0 +1,5 @@
+Este programa é um gerenciador de processos que funciona em vários tipos de sistemas operacionais, como Windows,
+Mac e Linux. Ele é chamado de 'cross-plataforma' porque ele pode ser usado em qualquer sistema operacional. Ele é chamado de 'supervisor' porque ele ajuda a gerenciar outros programas,
+garantindo que eles estejam sempre rodando e funcionando corretamente. Ele ajuda a garantir que os programas importantes não parem de funcionar, mesmo que haja problemas no sistema
+operacional ou em outros programas. Ele também pode ser configurado para iniciar programas automaticamente quando o sistema operacional é iniciado e para reiniciá-los automaticamente se
+eles para de funcionar.

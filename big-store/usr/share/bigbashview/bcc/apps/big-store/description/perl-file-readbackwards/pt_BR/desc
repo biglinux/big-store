@@ -1,0 +1,1 @@
+Este programa permite ler um arquivo de trás para frente, linha por linha. Isso pode ser útil em situações onde você precisa ver as últimas linhas de um arquivo muito grande sem precisar abri-lo inteiro. Ele usa a linguagem de programação Perl e o módulo 'File-ReadBackwards' para realizar essa tarefa. 

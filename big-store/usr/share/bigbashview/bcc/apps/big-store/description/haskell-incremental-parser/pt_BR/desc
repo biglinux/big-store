@@ -1,0 +1,1 @@
+Uma biblioteca chamada haskell-incremental-parser que é capaz de fornecer resultados parciais a partir de entrada parcial. Isso é útil quando você precisa analisar grandes quantidades de dados e não quer esperar pela análise completa antes de obter resultados úteis. 

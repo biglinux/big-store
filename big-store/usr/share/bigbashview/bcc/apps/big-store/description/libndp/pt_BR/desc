@@ -1,0 +1,1 @@
+libndp é uma biblioteca para o protocolo de descoberta de vizinhos (NDP) no Linux. Ele permite que  os desenvolvedores adicionem facilmente suporte ao NDP aos seus aplicativos. A biblioteca fornece funções para enviar e receber mensagens NDP, bem como manter o estado da cache NDP local. Ele é escrito em C e é projetado para ser portátil e fácil de usar. 

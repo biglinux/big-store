@@ -1,0 +1,3 @@
+Este programa é uma tentativa de implementar o protocolo QUIC da IETF. O ngtcp2-git é um esforço para tornar isso
+possível, oferecendo uma solução eficiente e confiável para a comunicação de dados na internet.O protocolo QUIC é uma tecnologia avançada que permite a transferência de dados mais rápida e 
+segura, tornando a navegação na web mais agradável para os usuários. Com a implementação deste protocolo, espera-se melhorar a experiência de navegação na web para todos.

@@ -1,0 +1,1 @@
+MonadPrompt é uma biblioteca em Haskell que fornece uma maneira fácil de lidar com a entrada e saída de  dados no console. Ele permite que os desenvolvedores criem prompts personalizados e gerenciem a interação com o usuário de maneira eficiente. Este programa inclui exemplos de como usar a biblioteca MonadPrompt em suas aplicações. 

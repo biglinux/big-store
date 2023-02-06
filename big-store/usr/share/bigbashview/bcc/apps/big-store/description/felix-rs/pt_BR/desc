@@ -1,0 +1,1 @@
+Felix-rs é um gerenciador de arquivos de linha de comando que possui atalhos semelhantes aos do Vim. Isso significa que se você já está acostumado a usar o Vim, vai se sentir em casa ao usar o Felix-rs. Ele é escrito em Rust e tem uma interface do usuário baseada em texto. 

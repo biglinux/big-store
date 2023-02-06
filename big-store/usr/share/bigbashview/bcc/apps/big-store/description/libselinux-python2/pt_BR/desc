@@ -1,0 +1,3 @@
+A biblioteca SELinux é uma ferramenta que ajuda a garantir a segurança do sistema operacional. Ela trabalha com regras
+específicas que controlam o acesso de programas e usuários a diferentes áreas do sistema.Essa versão é específica para o Python 2.x e fornece as ferramentas necessárias para que outros
+programas possam se comunicar com as regras do SELinux.

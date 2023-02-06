@@ -1,0 +1,4 @@
+Este programa permite gerenciar sua GPU usando o python. Ele fornece acesso à biblioteca NVML, que permite monitorar e
+controlar as configurações de sua GPU. Com este programa, você pode ver informações como a temperatura, o uso de memória e a velocidade do clock em tempo real. Além disso, você também pode 
+mudar configurações como a velocidade do ventilador e a tensão da GPU.Em resumo, este programa oferece uma maneira fácil e conveniente de gerenciar sua GPU usando o python. Ele é útil para 
+jogadores, cientistas de dados e qualquer pessoa que precise acompanhar o desempenho de sua GPU.

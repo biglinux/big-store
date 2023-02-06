@@ -1,0 +1,4 @@
+O python-arviz é um programa que ajuda a fazer análise de modelos Bayesianos de uma forma fácil e intuitiva. Ele é
+feito em Python, uma linguagem de programação muito popular entre cientistas de dados e engenheiros. Com esse programa, você pode ver como diferentes parâmetros afetam o resultado final e
+escolher os melhores valores para seu modelo. Ele também permite fazer comparações entre modelos diferentes e ver quais são os melhores para seu problema específico. Além disso, o
+python-arviz é open-source, o que significa que qualquer pessoa pode contribuir para o desenvolvimento dele e usá-lo de graça.

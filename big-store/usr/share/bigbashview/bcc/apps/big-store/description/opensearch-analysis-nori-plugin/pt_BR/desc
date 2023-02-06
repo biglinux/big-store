@@ -1,0 +1,1 @@
+Este plugin de análise nori (coreano) integra o módulo de análise nori do Lucene no opensearch.  Isso permite que os usuários pesquisem e encontrem documentos em coreano de forma mais precisa e eficiente. É importante notar que este plugin requer que o Lucene esteja instalado e configurado corretamente para funcionar corretamente. 

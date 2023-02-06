@@ -1,0 +1,1 @@
+libiptcdata é uma biblioteca para manipulação de metadados IPTC, ela permite ler, escrever e editar metadados IPTC em vários formatos de imagem e vídeo. Essa biblioteca é útil para desenvolvedores que precisam adicionar ou modificar metadados IPTC em seus projetos de software. 

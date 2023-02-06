@@ -1,0 +1,1 @@
+Este programa oferece bindings, ou seja, traduções, para a biblioteca de funções scrypt. Isso permite que o programa se comunique com essa biblioteca e utilize suas funções para derivar chaves. 

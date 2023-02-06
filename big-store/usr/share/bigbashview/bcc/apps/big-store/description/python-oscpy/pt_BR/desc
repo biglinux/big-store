@@ -1,0 +1,1 @@
+python-oscpy é uma implementação de OSC (Open Sound Control) Client/Server para Python. Ele é projetado para ser fácil de usar e eficiente, permitindo que você envie e receba mensagens OSC rapidamente e facilmente. Ele também inclui recursos avançados, como a capacidade de lidar com mensagens OSC bundle. 

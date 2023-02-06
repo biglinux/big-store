@@ -1,0 +1,5 @@
+O programa ebtables é um conjunto de ferramentas de linha de comando que permite a configuração de regras de
+filtragem em uma ponte Ethernet. Ele permite o gerenciamento da camada de rede da ponte Ethernet, permitindo filtrar o tráfego entre as redes e outros dispositivos ligados à ponte.Com
+ebtables, é possível configurar regras de filtragem de pacotes, como permitir ou bloquear pacotes baseados em suas propriedades, como endereço IP, MAC e outros. Além disso, é possível
+modificar as propriedades dos pacotes, como a prioridade ou o endereço MAC de origem.Em resumo, o ebtables é uma ferramenta poderosa para gerenciar o tráfego de rede em uma ponte Ethernet, 
+proporcionando mais segurança e controle na sua rede.

@@ -1,0 +1,5 @@
+Cargo é um gerenciador de pacotes para o Rust. Ele possui subcomandos que permitem invocar as ferramentas LLVM que são enviadas
+junto com a ferramenta de Rust. Isso significa que você pode usar essas ferramentas para desenvolver seus próprios programas com facilidade. Além disso, essas ferramentas são atualizadas
+automaticamente, garantindo que você sempre tenha as versões mais recentes.Essas ferramentas incluem o compilador, o linker, o desmontador e outros. Elas são essenciais para o
+desenvolvimento de aplicativos em Rust. Com essas ferramentas, você pode criar programas eficientes e estáveis com facilidade. Além disso, você pode usar essas ferramentas para depurar e
+otimizar seus programas.

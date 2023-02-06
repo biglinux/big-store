@@ -1,0 +1,1 @@
+haskell-nanospec é uma biblioteca para escrever testes em Haskell, que oferece uma implementação leve de algumas funcionalidades da biblioteca Hspec. Com ela, é possível escrever testes de forma clara e concisa, garantindo que o seu código funcione corretamente. 

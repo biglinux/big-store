@@ -1,0 +1,3 @@
+Este programa é uma implementação do Zig Language Server Protocol (LSP) combinado com um servidor de
+linguagem Zig. Ele ajuda os desenvolvedores a escrever códigos mais facilmente e eficientemente no Zig, uma linguagem de programação moderna e poderosa. Com ele, você pode ter acesso a
+recursos como autocompletar, verificação de erros, navegação de código e muito mais. Tudo isso é feito para tornar o desenvolvimento em Zig mais fácil e agradável.

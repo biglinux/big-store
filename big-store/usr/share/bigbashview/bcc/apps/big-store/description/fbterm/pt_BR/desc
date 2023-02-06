@@ -1,0 +1,4 @@
+fbterm é um emulador de terminal baseado em framebuffer. Ele permite que você use o terminal como uma janela gráfica, em vez
+de como uma janela de texto. Isso significa que você pode usar fontes maiores e mais legíveis, além de usar cores e gráficos. Ele também tem suporte ao UTF-8, o que significa que ele pode
+exibir caracteres de vários idiomas.fbterm é ideal para usuários que precisam de um terminal mais avançado, como administradores de sistema ou desenvolvedores. Ele é fácil de usar e
+configurar, e é compatível com a maioria das distribuições Linux.

@@ -1,0 +1,4 @@
+Esta é uma extensão para o MediaWiki que adiciona destaque de sintaxe ao editor de wikitext. Isso significa
+que o código fonte será exibido com cores diferentes para torná-lo mais fácil de ler e entender. É uma ferramenta muito útil para programadores e editores de páginas que precisam escrever
+códigos com muitos detalhes técnicos.Com a extensão codemirror, será mais fácil escrever e revisar códigos no MediaWiki, tornando a edição de páginas mais eficiente e precisa. Além disso,
+ajuda a evitar erros comuns, como escrever o código incorretamente, o que pode causar problemas na página.

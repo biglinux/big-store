@@ -1,0 +1,5 @@
+ Esta é uma biblioteca C++ experimental desenvolvida pela LLVM (Low Level Virtual Machine)
+com suporte a sanitizadores de memória. O objetivo é ajudar a encontrar e corrigir problemas de segurança relacionados à memória no código.Os sanitizadores de memória são ferramentas que
+monitoram a alocação e liberação de memória em tempo de execução, detectando possíveis violações, como acesso a memória não alocada ou liberação de memória dupla.Esta biblioteca é
+experimental, ou seja, ainda está em desenvolvimento e pode conter bugs ou instabilidade. Se você estiver interessado em usá-la em seu projeto, é recomendável verificar a documentação e
+fazer testes antes de implementá-la em produção. 

@@ -1,0 +1,1 @@
+Este repositório contém uma versão em Rust dos programas do sistema, como o comando 'ls' ou 'cp', que normalmente são fornecidos pelo pacote GNU coreutils. Ele é escrito em Rust para ser compatível com várias plataformas, incluindo Windows, macOS e Linux. 

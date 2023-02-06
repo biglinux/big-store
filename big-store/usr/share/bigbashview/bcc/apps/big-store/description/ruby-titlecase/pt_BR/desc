@@ -1,0 +1,1 @@
+ruby-titlecase é uma versão em Ruby do script TitleCase.pl escrito por John Gruber. Ele é utilizado para convertar títulos de texto para o formato correto de títulos de livros, artigos e outros tipos de textos. Ele funciona convertendo as palavras para maiúsculas, exceto as preposições, artigos e conjunções. 

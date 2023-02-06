@@ -1,0 +1,1 @@
+Este programa é chamado de Tinygo e ele é um compilador para a linguagem de programação Go. Ele foi projetado para funcionar em lugares pequenos, como microcontroladores, WebAssembly e ferramentas de linha de comando. Ele é baseado em outro programa chamado LLVM. 

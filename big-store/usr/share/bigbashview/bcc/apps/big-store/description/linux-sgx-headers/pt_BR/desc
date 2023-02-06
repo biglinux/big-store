@@ -1,0 +1,3 @@
+Os cabeçalhos e scripts do Linux SGX são ferramentas importantes para construir módulos para o kernel Linux. Eles incluem
+arquivos necessários para compilar programas que usam a tecnologia Intel SGX (Software Guard Extensions). Com esses cabeçalhos e scripts, desenvolvedores podem criar programas de forma
+segura, protegendo informações confidenciais e assegurando a integridade dos dados. 

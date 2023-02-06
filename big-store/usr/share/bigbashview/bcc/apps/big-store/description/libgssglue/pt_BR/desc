@@ -1,0 +1,1 @@
+A biblioteca libgssglue fornece uma interface gssapi que permite chamar rotinas gssapi em outras bibliotecas. Isso  é útil para integrar diferentes implementações gssapi em um único programa. 

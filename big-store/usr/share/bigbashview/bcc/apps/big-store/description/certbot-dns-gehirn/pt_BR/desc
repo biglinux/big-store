@@ -1,0 +1,1 @@
+ Este é um plugin de autenticação DNS para Certbot que permite a geração automatizada de certificados SSL/TLS. Ele funciona com o provedor de DNS da Gehirn e pode ser facilmente configurado para funcionar com seu domínio. Com esse plugin, é possível obter um certificado SSL/TLS sem precisar interagir manualmente com o provedor de DNS, tornando o processo mais fácil e rápido.  

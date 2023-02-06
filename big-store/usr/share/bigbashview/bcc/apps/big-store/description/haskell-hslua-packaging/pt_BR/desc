@@ -1,0 +1,1 @@
+Este programa fornece ferramentas para ajudar você a criar módulos Lua, que são pedaços de código que podem ser adicionados ao seu programa Lua para adicionar novas funcionalidades. Ele é escrito em Haskell e usa a biblioteca hslua para se comunicar com o Lua. 

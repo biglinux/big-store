@@ -1,0 +1,3 @@
+DataSpell é um programa que utiliza o JRE (Java Runtime Environment) como base. Esse JRE foi patchado especificamente para o
+funcionamento do DataSpell.JBR (JetBrains Runtime) é uma versão personalizada do JRE criada pela JetBrains, ela é otimizada para garantir uma melhor performance e estabilidade nos programas
+desenvolvidos pela JetBrains.

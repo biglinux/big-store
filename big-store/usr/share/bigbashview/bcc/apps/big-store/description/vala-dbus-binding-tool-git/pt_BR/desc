@@ -1,0 +1,2 @@
+Essa ferramenta cria interfaces GObject a partir de especificações DBus XML. É útil para desenvolvedores que desejam
+utilizar a funcionalidade DBus em seus projetos, sem precisar escrever código em baixo nível.

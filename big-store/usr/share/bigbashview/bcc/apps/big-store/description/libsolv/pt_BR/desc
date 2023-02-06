@@ -1,0 +1,1 @@
+libsolv é uma biblioteca para resolver pacotes e ler repositórios. É utilizado por sistemas de gerenciamento de pacotes como o Zypper e o YaST. A biblioteca pode ser usada para encontrar a melhor solução para um conjunto de pacotes a serem instalados, atualizados ou removidos. Também fornece uma forma flexível de ler repositórios e pacotes em vários formatos. 

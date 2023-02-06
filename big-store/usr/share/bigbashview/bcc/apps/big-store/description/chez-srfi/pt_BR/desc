@@ -1,0 +1,4 @@
+SRFI é uma sigla para 'Scheme Request for Implementation', é uma especificação para programas de computador escritos na linguagem de
+programação Scheme. Este programa específico é uma SRFI para o ChezScheme, ou seja, é uma adição de recursos e funções para o ChezScheme, o que o torna ainda mais poderoso e versátil.
+Alguns exemplos de recursos que podem ser adicionados são funções matemáticas avançadas, suporte para trabalhar com dados de alta precisão, ou até mesmo a capacidade de acessar recursos do 
+sistema operacional. Se você é um usuário do ChezScheme e quer adicionar mais funcionalidades ao seu código, este programa é uma ótima escolha.

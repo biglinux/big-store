@@ -1,0 +1,3 @@
+Este programa fornece ferramentas para acessar e manipular dados do banco de dados MusicBrainz, usando 
+a linguagem de programação Python. Ele permite aos desenvolvedores criar aplicativos que utilizam informações sobre música armazenadas no MusicBrainz, sem precisar lidar com a complexidade 
+do banco de dados diretamente.As funcionalidades incluem busca de artistas, álbuns e faixas, além de possibilidade de adicionar, atualizar e remover informações do banco de dados.

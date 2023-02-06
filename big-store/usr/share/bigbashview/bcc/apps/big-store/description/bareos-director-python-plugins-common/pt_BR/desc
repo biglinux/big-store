@@ -1,0 +1,2 @@
+Bareos é um programa de gerenciamento de backup e arquivamento de código aberto. Ele ajuda a proteger seus arquivos
+importantes, garantindo que você possa recuperá-los em caso de problemas. Este pacote contém arquivos comuns para os plugins do diretor em python 2 e python 3.

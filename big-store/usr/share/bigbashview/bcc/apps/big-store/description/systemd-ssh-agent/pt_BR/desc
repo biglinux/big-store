@@ -1,0 +1,4 @@
+ Este programa é chamado systemd-ssh-agent e é usado para gerenciar as chaves de acesso SSH em um sistema. Ele funciona como um
+serviço do usuário no sistema, o que significa que ele é iniciado automaticamente quando você inicia o seu computador. Ele é responsável por gerenciar as chaves de acesso SSH, garantindo
+que elas estejam sempre disponíveis para uso quando você precisar se conectar a outros computadores. Isso é particularmente útil se você precisar se conectar a vários computadores
+diferentes com frequência, pois você não precisará se preocupar em gerenciar as chaves manualmente. 

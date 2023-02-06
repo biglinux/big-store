@@ -1,0 +1,3 @@
+ Este programa é uma barra de progresso para a consola em Python. Ele é útil para mostrar o progresso de uma tarefa longa,
+como o download de um arquivo grande ou a execução de uma tarefa complexa. Ele funciona adicionando uma barra de progresso na tela, mostrando quanto da tarefa já foi concluída. Ele é fácil 
+de usar e pode ser personalizado de acordo com as suas necessidades. 

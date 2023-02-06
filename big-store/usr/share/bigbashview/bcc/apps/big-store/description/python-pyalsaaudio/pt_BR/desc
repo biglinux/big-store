@@ -1,0 +1,4 @@
+Este programa é chamado de python-pyalsaaudio e ele ajuda a usar o ALSA (Advanced Linux Sound Architecture) com o Python.
+ALSA é um sistema de som para computadores Linux e o python-pyalsaaudio é uma forma de acessá-lo usando a linguagem de programação Python. Isso permite que você crie programas que usem o
+som do seu computador Linux de uma maneira fácil e eficiente.O python-pyalsaaudio é compatível com a versão 3 do Python, o que significa que você pode usá-lo em computadores com essa versão
+do Python instalada. Ele é uma boa opção para desenvolvedores que querem criar programas de som para Linux usando Python.

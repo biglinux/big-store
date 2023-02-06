@@ -1,0 +1,3 @@
+Este é um programa chamado python-pyro5. Ele é um middleware para objetos distribuídos em Python. Isso
+significa que ele ajuda a conectar vários computadores juntos para que possam trabalhar em conjunto e compartilhar informações. Ele também é conhecido como RPC, ou chamadas remotas de
+procedimento. A versão atual deste programa é a 5.

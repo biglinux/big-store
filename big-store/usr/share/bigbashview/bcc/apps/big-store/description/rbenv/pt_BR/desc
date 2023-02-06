@@ -1,0 +1,4 @@
+O rbenv é um gerenciador de versão simples para a linguagem de programação Ruby. Ele permite que você instale e
+gerencie facilmente diferentes versões do Ruby em seu computador, sem afetar as outras aplicações que você já possui. Com o rbenv, você pode facilmente mudar entre versões do Ruby para
+testar seu código e garantir a compatibilidade com outros sistemas.Além disso, o rbenv também fornece ferramentas para desenvolvedores, como o comando 'ruby-build', que permite instalar
+facilmente novas versões do Ruby. Ele é simples de usar e é uma ótima opção para quem precisa gerenciar várias versões do Ruby em seu computador.

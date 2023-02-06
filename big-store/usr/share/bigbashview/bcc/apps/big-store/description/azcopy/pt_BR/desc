@@ -1,0 +1,4 @@
+ Azcopy é uma ferramenta de linha de comando projetada para copiar dados para e a partir do Microsoft Azure. Ele é
+fácil de usar e pode ser usado para transferir grandes quantidades de dados de forma rápida e segura. Com ele, você pode copiar arquivos e pastas inteiras, selecionar arquivos específicos e
+até mesmo programar transferências automatizadas. Além disso, ele oferece suporte a vários protocolos, incluindo HTTPS e SMB.Se você precisa mover dados para o Azure, o Azcopy é uma
+excelente opção para considerar. 

@@ -1,0 +1,3 @@
+ Esta é uma biblioteca de programação geral para plataformas cruzadas em C++. Ela foi projetada usando programação por
+contrato e técnicas modernas de C++. O dlib-cuda é uma implementação da biblioteca dlib com suporte a GPU, permitindo que os usuários aproveitem aceleração por hardware para operações de
+computação intensivas. 

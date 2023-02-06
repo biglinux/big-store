@@ -1,0 +1,4 @@
+Este é um programa chamado quiterss, ele é um leitor de RSS e Atom, o que significa que ele pode ajudá-lo a acompanhar as
+notícias de seus sites favoritos. Ele é escrito em Qt/C++, o que significa que é rápido e leve, o que significa que não vai fazer seu computador ficar lento enquanto você usa ele.É fácil de
+usar, você só precisa adicionar os endereços dos sites que deseja acompanhar e ele vai mostrar as notícias para você. Ele também tem algumas opções avançadas, como a possibilidade de
+filtrar notícias por palavra-chave e de personalizar a aparência.

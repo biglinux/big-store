@@ -1,0 +1,4 @@
+Este é um programa chamado GDB, que é uma ferramenta de depuração criada pela GNU. Ele é especialmente projetado para
+trabalhar com sistemas que usam o processador ARM e usam o formato de ponto flutuante 'hard float'. Isso significa que ele é útil para encontrar e corrigir erros em sistemas embarcados ou
+dispositivos móveis que usam esse tipo de processador. Ele pode ajudar a encontrar erros de programação, como loops infinitos ou acesso a memória ilegal, e permite que você execute o seu
+código passo a passo para entender melhor como ele está funcionando.

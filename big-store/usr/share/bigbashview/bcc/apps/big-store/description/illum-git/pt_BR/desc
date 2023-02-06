@@ -1,0 +1,3 @@
+ Illum-git é um programa que ajuda você a controlar o brilho do seu computador. Ele age como um 'daemon', ou seja, um
+programa que fica rodando em segundo plano e responde quando você pressiona as teclas de brilho. Assim, ele muda automaticamente o nível de iluminação da tela, de acordo com as suas
+necessidades. 

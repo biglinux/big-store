@@ -1,0 +1,3 @@
+ Esta biblioteca permite a leitura e escrita de arquivos Quicktime. É útil para programadores que desejam trabalhar
+com esse tipo de arquivo em seus projetos. Com ela, é possível acessar e manipular os dados dentro do arquivo de forma fácil e rápida.Além disso, a libquicktime também suporta uma
+variedade de codecs de áudio e vídeo, o que a torna uma escolha versátil para muitos tipos de aplicações. 

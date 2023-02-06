@@ -1,0 +1,2 @@
+Este é um programa criado para encontrar diretórios e nomes de arquivos em servidores web/aplicativos. Ele funciona
+tentando várias combinações possíveis até encontrar o que procura. É útil para encontrar coisas escondidas ou que não são facilmente acessíveis.

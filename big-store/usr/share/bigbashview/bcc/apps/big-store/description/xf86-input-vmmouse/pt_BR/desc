@@ -1,0 +1,1 @@
+Este driver permite que o mouse funcione corretamente quando utilizado dentro de um ambiente VMWare usando o gerenciador de tela X.org. Ele se chama xf86-input-vmmouse. 

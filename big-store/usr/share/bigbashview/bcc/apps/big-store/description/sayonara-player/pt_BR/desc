@@ -1,0 +1,2 @@
+O Sayonara é um player de áudio para Linux escrito em C++, suportado pelo framework Qt. Ele usa o Gstreamer como motor de
+áudio. Ele é pequeno, claro e rápido.

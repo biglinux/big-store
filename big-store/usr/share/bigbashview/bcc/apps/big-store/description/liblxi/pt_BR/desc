@@ -1,0 +1,4 @@
+A liblxi é uma biblioteca para controlar instrumentos através da comunicação LXI. Ela é usada para se comunicar com 
+os instrumentos de forma automatizada e pode ser usada em várias linguagens de programação, como C, C++, Python e Java. Com ela, é possível enviar comandos e receber dados dos instrumentos 
+de forma fácil e rápida. Essa biblioteca é útil para quem precisa automatizar testes ou medidas com vários instrumentos e deseja controlá-los de forma simples e eficiente. Ela é amplamente 
+utilizada em laboratórios de engenharia e ciências.

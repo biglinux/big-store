@@ -1,0 +1,2 @@
+O módulo nss_ldap permite que estações Linux e Solaris encontrem usuários e outras entidades definidas no RFC 2307
+através de diretórios LDAP. Ele é uma ferramenta importante para gerenciar usuários em uma rede de computadores.

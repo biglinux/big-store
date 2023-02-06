@@ -1,0 +1,1 @@
+Esta biblioteca é utilizada para extrair metadados de arquivos de qualquer tipo. Isso inclui informações como título, autor, data de criação e muito mais. É muito útil para organizar arquivos e encontrar informações específicas rapidamente.É chamada de libextractor e é fácil de usar, basta passar o caminho do arquivo para a função e ela retornará os metadados encontrados. 

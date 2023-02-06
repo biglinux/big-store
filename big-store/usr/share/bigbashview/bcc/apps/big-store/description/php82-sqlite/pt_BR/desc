@@ -1,0 +1,3 @@
+Este é um módulo que adiciona suporte ao banco de dados SQLite ao PHP 8.2. Com ele, você pode criar, ler, atualizar e deletar
+dados em um banco de dados SQLite usando o PHP. É uma ferramenta útil para desenvolvedores que precisam trabalhar com banco de dados em suas aplicações.Para usar esse módulo, você precisa
+ter o PHP 8.2 instalado em seu sistema, bem como a biblioteca SQLite. Ele também pode ser instalado através de gerenciadores de pacotes, como o PECL.

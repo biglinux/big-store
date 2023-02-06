@@ -1,0 +1,4 @@
+gtkperf é um aplicativo que foi projetado para testar o desempenho do GTK+, uma biblioteca de interface gráfica de 
+usuário para sistemas operacionais Linux. Ele permite que os desenvolvedores medem e comparam a velocidade de diferentes operações, como desenhar janelas, menus e caixas de diálogo. Ele
+também pode ser usado para identificar gargalos de desempenho e ajudar a otimizar o código. O gtkperf é uma ferramenta valiosa para qualquer pessoa que esteja trabalhando com aplicativos
+GTK+ e deseja garantir que eles sejam rápidos e responsivos.

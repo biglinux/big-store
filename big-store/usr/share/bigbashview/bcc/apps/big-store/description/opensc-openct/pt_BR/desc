@@ -1,0 +1,1 @@
+OpenSC é um conjunto de ferramentas e bibliotecas para lidar com cartões inteligentes e outros dispositivos de segurança. Neste caso, ele foi compilado com OpenCT  ao invés de PCSC, o que permite o uso com tokens de segurança, como o SafeNet/Aladdin eToken Pro 64k. 

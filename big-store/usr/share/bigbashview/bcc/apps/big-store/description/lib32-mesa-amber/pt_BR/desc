@@ -1,0 +1,1 @@
+Este programa é um conjunto de drivers para o OpenGL antigo, também conhecido como non-Gallium3D. Ele é específico para  sistemas de 32-bits. Ele fornece suporte para placas gráficas antigas e é necessário para jogos e aplicativos que ainda utilizam essa versão do OpenGL. 

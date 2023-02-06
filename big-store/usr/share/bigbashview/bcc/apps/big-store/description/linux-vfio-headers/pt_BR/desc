@@ -1,0 +1,2 @@
+Este repositório contém cabeçalhos e scripts para construir módulos para o kernel Linux. Ele inclui patchs para ACS
+override e i915 VGA arbiter. Isso é útil para quem deseja usar dispositivos de hardware específicos com virtualização.

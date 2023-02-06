@@ -1,0 +1,1 @@
+hdapsd é um daemon que monitora o acelerômetro em ThinkPads da IBM/Lenovo e utiliza esses dados para proteger o disco rígido, estacionando a cabeça em caso de movimentos repentinos. Isso ajuda a reduzir o risco de perda de dados devido a quedas ou batidas acidentais. 

@@ -1,0 +1,1 @@
+A biblioteca xcb-util-errors é uma ferramenta para lidar com erros gerados pela XCB (X protocol C-language Binding) library. Ela fornece uma interface simplificada para gerenciar esses erros, tornando mais fácil para os desenvolvedores lidarem com problemas relacionados à comunicação com o X server. 

@@ -1,0 +1,4 @@
+Esta biblioteca, chamada libwm-git, é usada para manipular janelas no sistema operacional X. Com ela, é possível
+realizar ações como mover, redimensionar e gerenciar janelas de forma automatizada. É uma ferramenta útil para desenvolvedores de aplicativos que precisam controlar a apresentação de
+janelas em seus programas. Além disso, essa biblioteca também pode ser usada para criar scripts personalizados para automatizar tarefas comuns com janelas, como colocá-las em determinadas
+posições na tela, ou configurar atalhos de teclado para controlar suas ações.

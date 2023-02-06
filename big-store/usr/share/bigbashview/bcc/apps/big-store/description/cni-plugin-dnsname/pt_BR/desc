@@ -1,0 +1,3 @@
+ Este programa é um plugin para ajudar com a resolução de nome de contêineres. Ele funciona como uma extensão do sistema
+de gerenciamento de contêineres e permite que os nomes dos contêineres sejam usados ​​em vez de endereços IP para se comunicar entre eles. Isso facilita a criação de aplicativos distribuídos 
+e torna mais fácil gerenciar e escalar a infraestrutura. 

@@ -1,0 +1,1 @@
+sdl_ttf é uma biblioteca que permite você usar fontes TrueType em suas aplicações SDL. Com essa biblioteca, você pode facilmente exibir texto em seus projetos SDL usando qualquer fonte TrueType que desejar. É fácil de usar e funciona bem com outras bibliotecas SDL. Se você estiver trabalhando em um projeto SDL e precisar exibir texto, sdl_ttf é uma ótima escolha. 

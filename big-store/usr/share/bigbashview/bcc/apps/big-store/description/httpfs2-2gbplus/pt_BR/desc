@@ -1,0 +1,2 @@
+Este programa é um sistema de arquivos baseado em FUSE (Sistema de Montagem de Fusão de Usuário) que permite acesso a
+arquivos através de HTTP. Ele foi corrigido para dar suporte a arquivos com mais de 2 GB.

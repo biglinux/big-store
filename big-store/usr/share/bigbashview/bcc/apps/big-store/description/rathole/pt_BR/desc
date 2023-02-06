@@ -1,0 +1,1 @@
+Este programa é conhecido como um 'rathole', ele permite que os usuários acessem uma rede privada de forma remota,  através do uso de um proxy inversa. Isso significa que, em vez de os usuários se conectarem diretamente à rede, eles se conectam ao proxy, que os redireciona para a rede privada. Isso é útil para permitir o acesso remoto seguro em redes com restrições de NAT. 

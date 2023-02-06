@@ -1,0 +1,3 @@
+Esse programa é uma ferramenta de interface gráfica (GUI) para o programa Lua 5.3. Ele permite que você crie
+janelas e botões, e use outros elementos de interface para interagir com o usuário de forma mais amigável.A ferramenta é chamada IUP, e é compatível com o Lua 5.3, ou seja, foi criada
+especificamente para trabalhar com essa versão do programa. Com ela você pode criar aplicações mais bonitas e fáceis de usar para seus projetos com Lua.

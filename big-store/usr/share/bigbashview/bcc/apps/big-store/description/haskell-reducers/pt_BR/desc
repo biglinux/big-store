@@ -1,0 +1,1 @@
+O pacote haskell-reducers fornece uma implementação de semigrupos, que são estruturas matemáticas usadas para combinar elementos de um conjunto de forma eficiente. Além disso, ele oferece contêineres especializados para armazenar esses elementos e uma estrutura geral de map/reduce que permite aplicar funções a eles de forma rápida e eficiente. 

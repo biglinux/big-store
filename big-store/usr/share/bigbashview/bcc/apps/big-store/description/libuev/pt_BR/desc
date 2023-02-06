@@ -1,0 +1,2 @@
+Esta é uma biblioteca chamada libuev, ela ajuda a criar um loop de eventos em seu programa. Isso significa que ela ajuda a
+controlar quando certas coisas acontecem no seu programa, como por exemplo, quando um botão é clicado. Ela é muito leve e fácil de usar, então é perfeita para programas pequenos e simples.

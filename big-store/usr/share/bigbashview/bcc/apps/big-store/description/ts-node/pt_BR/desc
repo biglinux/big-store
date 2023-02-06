@@ -1,0 +1,1 @@
+ts-node é um ambiente de execução de TypeScript para node.js. Ele permite que você execute arquivos TypeScript diretamente, com suporte para mapas de origem para depurar seu código. Ele também inclui um REPL (Read-Eval-Print-Loop) para experimentação interativa com TypeScript. 

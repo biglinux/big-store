@@ -1,0 +1,4 @@
+O programa 'pgbadger' é uma ferramenta que ajuda a analisar os logs do PostgreSQL de forma rápida e eficiente. Com ele, é
+possível identificar problemas e otimizar o desempenho do seu banco de dados.Ele funciona lendo os arquivos de log do PostgreSQL e gerando relatórios detalhados com informações úteis sobre 
+o uso do banco de dados, como as consultas mais lentas, erros frequentes e muito mais.Se você precisa manter o seu banco de dados PostgreSQL em boas condições, o pgbadger é uma excelente
+escolha para ajudar nessa tarefa.

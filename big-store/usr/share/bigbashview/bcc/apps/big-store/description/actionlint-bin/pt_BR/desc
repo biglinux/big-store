@@ -1,0 +1,3 @@
+ actionlint-bin é um programa que ajuda a garantir que seus arquivos de fluxo de
+trabalho do GitHub Actions estejam corretos e sem erros. Ele verifica se tudo está escrito corretamente e se não há nenhum problema que possa impedir que o fluxo de trabalho funcione como
+deveria. É fácil de usar e pode economizar muito tempo e trabalho ao garantir que seus arquivos de fluxo de trabalho estejam sempre em boas condições. 

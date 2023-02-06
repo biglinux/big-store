@@ -1,0 +1,3 @@
+ ha-glue é um conjunto de bibliotecas, ferramentas e utilitários adequados para o cluster Heartbeat/Pacemaker. 
+Ele ajuda a gerenciar e monitorar seus clusters de forma mais fácil e eficiente. Com ele, você pode fazer coisas como configurar recursos de cluster, gerenciar falhas e monitorar o
+desempenho. É uma ferramenta valiosa para quem precisa garantir a disponibilidade de seus sistemas e aplicativos críticos.

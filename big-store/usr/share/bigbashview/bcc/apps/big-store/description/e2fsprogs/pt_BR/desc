@@ -1,0 +1,1 @@
+e2fsprogs é um conjunto de utilitários para gerenciar sistemas de arquivos Ext2, Ext3 e Ext4. Ele fornece várias  ferramentas, incluindo o fsck, para verificar e corrigir erros em um sistema de arquivos, além de outras opções para formatar, redimensionar e gerenciar partições. Esses utilitários são úteis para manter o desempenho e a integridade dos seus sistemas de arquivos. 

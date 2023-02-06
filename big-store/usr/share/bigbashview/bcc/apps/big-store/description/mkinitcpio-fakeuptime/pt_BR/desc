@@ -1,0 +1,2 @@
+ Esse programa é um gancho para o Archlinux chamado mkinitcpio. Ele serve para fingir que seu sistema está ligado por
+mais tempo do que realmente está. Isso pode ser útil se você quiser fazer parecer que seu computador é mais novo do que realmente é, ou se precisar esconder o tempo que passou sem usá-lo. 

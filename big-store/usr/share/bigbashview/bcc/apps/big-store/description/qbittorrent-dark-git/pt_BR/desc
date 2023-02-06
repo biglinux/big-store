@@ -1,0 +1,3 @@
+Este é um programa para baixar arquivos usando o protocolo Bittorrent. Ele é chamado de 'escuro' porque tem uma
+aparência escura, o que pode ser mais agradável para os olhos. Ele é desenvolvido com C++, Qt5 e a biblioteca libtorrent, e é uma versão em desenvolvimento.Ele é específico para sistemas
+Linux e é mantido por uma comunidade de desenvolvedores.

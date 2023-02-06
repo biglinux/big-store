@@ -1,0 +1,1 @@
+Esse programa, chamado quazip-qt6, é um wrapper para o pacote C ZIP/UNZIP em C++. Isso significa que ele permite que você use essas ferramentas de compactação de arquivos em seu código C++ de uma maneira mais fácil e intuitiva. Ele é especialmente útil se você estiver trabalhando em um projeto que precisa lidar com muitos arquivos compactados. 

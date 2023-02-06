@@ -1,0 +1,3 @@
+Este programa é uma ferramenta completa para bater papo com seus amigos online. Ele funciona como um cliente de IRC, mas usa o
+protocolo XMPP (também conhecido como Jabber). Isso significa que você pode se comunicar com pessoas em diferentes redes de bate-papo, como o Google Talk ou o Facebook Messenger. Além
+disso, ele é usado via linha de comando, o que o torna uma boa opção para usuários avançados.

@@ -1,0 +1,3 @@
+Este é um script para alternar o touchpad ligado e desligado usando xinput. Ele é útil para quem precisa desligar o touchpad
+enquanto usa um mouse externo. Ele é simples e fácil de usar, e pode ser adicionado ao sistema de inicialização para que o touchpad seja desligado automaticamente sempre que o computador
+for iniciado.

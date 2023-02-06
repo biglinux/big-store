@@ -1,0 +1,1 @@
+Este programa permite ler metadados de pacotes Python através da biblioteca importlib-metadata. Isso pode ser útil para obter informações sobre versões, dependências e outros detalhes dos pacotes utilizados em um projeto. 

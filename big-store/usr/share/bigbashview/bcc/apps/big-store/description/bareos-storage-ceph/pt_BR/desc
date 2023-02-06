@@ -1,0 +1,4 @@
+Bareos é um software de gerenciamento de backup e arquivamento de código aberto. Ele permite fazer backups de dados
+de forma segura e eficiente, além de garantir a recuperação de arquivos em caso de falhas. O Bareos possui um daemon de armazenamento específico para usar com o backend Ceph, que é um
+sistema de armazenamento distribuído. Com o Bareos-storage-ceph, você pode gerenciar facilmente os backups dos seus dados armazenados no Ceph, garantindo a segurança e a disponibilidade
+deles em caso de falhas ou incidentes.

@@ -1,0 +1,1 @@
+ Este é um módulo do kernel para o Linux chamado Xanmod LTS VHBA. Ele é projetado para emular dispositivos SCSI, permitindo que você use esses dispositivos em sua máquina Linux. Isso é útil em casos em que você precisa usar dispositivos SCSI que não são compatíveis com o Linux nativamente.  

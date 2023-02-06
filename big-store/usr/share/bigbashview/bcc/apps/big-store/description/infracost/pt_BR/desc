@@ -1,0 +1,3 @@
+Com o programa infracost, é possível estimar o custo de usar a nuvem para armazenar seus dados e rodar suas aplicações. Ele 
+é especialmente útil para quem usa o Terraform, uma ferramenta para criar e gerenciar infraestrutura na nuvem.Com o infracost, você pode ver quanto custaria rodar seus projetos antes mesmo 
+de colocá-los em produção, o que ajuda a planejar melhor seu orçamento e evitar surpresas desagradáveis.

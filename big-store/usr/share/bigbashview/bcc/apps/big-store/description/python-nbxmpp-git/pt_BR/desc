@@ -1,0 +1,3 @@
+Uma biblioteca Jabber/XMPP não-bloqueante é usada por um programa chamado Gajim. Ela foi escrita em Python e é chamada 
+python-nbxmpp-git. Essa biblioteca permite que você crie programas que se comuniquem através do protocolo Jabber/XMPP de maneira rápida e fácil. Ela é útil para quem deseja desenvolver
+programas de mensagens instantâneas, como chats.

@@ -1,0 +1,5 @@
+Este programa é um servidor Collabora Online, que é usado para colaborar em documentos e planilhas online. Ele funciona 
+sem usar o Docker, o que significa que não precisa de um container para rodar. Isso torna mais fácil de configurar e gerenciar. Com ele, várias pessoas podem trabalhar juntas em um
+documento ao mesmo tempo, e todas as alterações são salvas automaticamente. Ele também tem recursos como comentários, marcações e revisões, para que você possa trabalhar de forma eficiente 
+em equipe. Este programa é compatível com os formatos de arquivo do Microsoft Office, então é possível trabalhar em documentos do Word, Excel e PowerPoint. Ele também é compatível com o
+formato OpenDocument, então é possível trabalhar em documentos do LibreOffice e OpenOffice.

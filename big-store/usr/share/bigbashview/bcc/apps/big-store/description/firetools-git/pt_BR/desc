@@ -1,0 +1,5 @@
+ Este programa fornece uma interface gráfica para o Firejail, que é um sistema de isolamento de processos que ajuda a
+proteger o sistema contra aplicativos maliciosos. Com este programa, você pode facilmente criar e gerenciar configurações de isolamento para diferentes aplicativos, sem precisar digitar
+comandos no terminal.Além disso, o programa também fornece várias ferramentas úteis, como a capacidade de visualizar e gerenciar arquivos e pastas compartilhadas entre o sistema e o
+ambiente isolado, bem como a capacidade de adicionar ou remover aplicativos da lista de aplicativos isolados.Em resumo, se você estiver procurando por uma maneira fácil e amigável de
+gerenciar o Firejail no seu sistema, este programa é uma excelente escolha. 

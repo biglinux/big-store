@@ -1,0 +1,2 @@
+ codelldb-bin é uma extensão de depuração nativa para o VSCode baseada em LLDB. Ele também é conhecido como vscode-lldb (NÃO
+lldb-vscode).Com ele, você pode realizar a depuração de códigos de forma mais eficiente e fácil dentro do seu ambiente de desenvolvimento VSCode. 

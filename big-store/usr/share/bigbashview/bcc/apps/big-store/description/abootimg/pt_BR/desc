@@ -1,0 +1,3 @@
+ abootimg é uma ferramenta que permite ler, escrever e atualizar imagens iniciais 
+antigas do sistema operacional Android. Ela é útil para quem precisa fazer alterações nas configurações de inicialização do dispositivo, como modificar o kernel ou a ramdisk.A ferramenta
+é fácil de usar e pode ser executada a partir de linha de comando. Ela suporta arquivos de imagem inicial no formato .img e .elf. 

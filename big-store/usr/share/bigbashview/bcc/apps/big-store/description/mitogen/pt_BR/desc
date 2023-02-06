@@ -1,0 +1,3 @@
+Este é um programa feito em Python que permite que outros programas sejam replicados de forma distribuída. Ele é chamado
+mitogen. É útil para garantir que várias cópias de um programa estejam disponíveis em diferentes lugares, para garantir que ele esteja sempre disponível mesmo se algumas cópias
+falharem.Isso é especialmente útil em sistemas grandes e complexos, onde é importante garantir a disponibilidade do programa em todos os lugares.

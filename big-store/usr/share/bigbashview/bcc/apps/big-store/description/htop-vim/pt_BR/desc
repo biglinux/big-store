@@ -1,0 +1,4 @@
+O htop-vim é um visualizador de processos que permite a você ver e gerenciar os processos do seu sistema de maneira
+interativa. Ele vem com um patch de teclado Vim, o que significa que você pode usar os atalhos de teclado que já está acostumado a usar no Vim para navegar pelos processos.Com o htop-vim,
+você pode ver informações detalhadas sobre cada processo, como o uso de CPU, memória e tempo de execução. Ele também permite que você matar ou parar processos, além de poder alterar a
+prioridade de um processo.Além disso, é possível personalizar a visualização dos processos, escolhendo quais informações exibir e como elas serão apresentadas.

@@ -1,0 +1,2 @@
+ O programa é uma ferramenta de compactação desenvolvida pela GNU que utiliza o comando pigz para compactar arquivos. Ele
+funciona criando atalhos para o comando pigz, permitindo que você use a ferramenta de forma mais fácil e rápida. 

@@ -1,0 +1,5 @@
+A Camada de Abstração de Hardware, ou HAL, é um componente importante que ajuda a gerenciar comunicação entre o sistema
+operacional e o hardware do computador. Ela funciona como uma ponte entre as aplicações e os dispositivos, permitindo que os programas possam se comunicar com o hardware sem precisar saber 
+os detalhes específicos sobre como ele funciona.Isso significa que, se você quer usar uma nova impressora, por exemplo, você não precisa saber como ela funciona internamente, basta instalar
+o driver correto e a HAL se encarrega de fazer a comunicação entre a impressora e o software.Além disso, a HAL também é responsável por gerenciar recursos comuns do sistema, como memória e 
+espaço em disco, e pode ser usada para detectar e gerenciar dispositivos plug-and-play.

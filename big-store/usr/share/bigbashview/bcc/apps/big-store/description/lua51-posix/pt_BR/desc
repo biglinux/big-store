@@ -1,0 +1,1 @@
+Esse programa fornece uma ligação para o sistema POSIX para o interpretador de script Lua. Isso permite que você acesse recursos do sistema operacional, como arquivos e pastas, diretamente a partir de seus scripts Lua. 

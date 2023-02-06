@@ -1,0 +1,3 @@
+Este programa é uma barra de volume leve para uso com o sistema operacional Wayland. Ele pode ser usado para mostrar o
+volume atual, ajustar o brilho e exibir informações de progresso. É uma ferramenta útil para quem deseja ter mais controle sobre sua experiência de usuário no Wayland. Como é uma barra
+leve, ele não irá consumir muitos recursos do sistema e pode ser usado com facilidade em computadores antigos ou com configurações mais básicas.

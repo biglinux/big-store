@@ -1,0 +1,1 @@
+Este programa adiciona a capacidade de agrupar exceções em Python. Isso permite que você lidar com várias exceções de uma só vez, tornando o código mais limpo e fácil de gerenciar. Com esse recurso, você pode agrupar exceções relacionadas e tratá-las de maneira semelhante, em vez de lidar com cada uma delas individualmente. 

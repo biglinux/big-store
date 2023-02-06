@@ -1,0 +1,1 @@
+O synthv1 é um sintetizador polifônico subtrativo de estilo antigo com 4 osciladores e efeitos estéreo. Ele é um cliente puro stand-alone JACK com suporte a JACK-session, NSM e entrada MIDI tanto do JACK quanto do ALSA. Ele também é um plugin de instrumento LV2. URI: http://synthv1.sourceforge.net/lv2 

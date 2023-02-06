@@ -1,0 +1,4 @@
+ Python-pyhanko é um conjunto de ferramentas que permite carimbar e assinar arquivos PDF de maneira
+simples e eficiente. Com ele, é possível adicionar marcas d'água, selos e assinaturas digitais aos seus documentos, garantindo a autenticidade e integridade do conteúdo.Além disso, o
+python-pyhanko é compatível com diversos formatos de arquivo, incluindo PDF/A, e possibilita a criação de assinaturas avançadas, como assinaturas com certificado digital.Se você precisa 
+garantir a segurança e validade de seus documentos em formato PDF, o python-pyhanko é a escolha certa. 

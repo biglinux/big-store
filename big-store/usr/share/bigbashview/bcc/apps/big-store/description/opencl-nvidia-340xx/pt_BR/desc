@@ -1,0 +1,4 @@
+Este é um programa específico para usuários que possuem placas de vídeo NVIDIA. Ele permite que esses usuários utilizem a
+tecnologia OpenCL em suas placas, o que pode aumentar a velocidade e desempenho em tarefas específicas. É importante notar que este programa só é compatível com placas NVIDIA e não
+funcionará em outros tipos de placas.Para usar este programa, é necessário ter a versão 340xx do driver NVIDIA instalado em seu computador. Ele também pode ser compatível com versões mais
+recentes, mas é importante verificar antes de instalar.

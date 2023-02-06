@@ -1,0 +1,1 @@
+Esta é uma coleção de padrões LPEG (Parsing Expression Grammars) para a linguagem de programação Lua 5.3. LPEG é uma biblioteca para escrever expressões regulares em Lua de forma mais fácil e eficiente. Esses padrões podem ser usados para fazer análise de texto, validação de dados e outras tarefas relacionadas à processamento de linguagem natural. 

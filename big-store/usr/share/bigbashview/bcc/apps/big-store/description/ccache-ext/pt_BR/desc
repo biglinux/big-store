@@ -1,0 +1,4 @@
+O ccache-ext é um pacote para o gerenciador de pacotes pacman que permite adicionar mais links ao compilador ccache.
+Isso ajuda a acelerar o processo de compilação, especialmente em sistemas que compilam muitos programas. Ao usar o ccache-ext, as compilações anteriores ficam armazenadas em cache, o que
+significa que o compilador não precisa recompilar tudo do zero a cada vez que um programa é compilado.Além disso, o ccache-ext também permite que você configure vários diretórios de cache, 
+o que é útil para diferentes configurações de compilação ou usuários em um sistema compartilhado.

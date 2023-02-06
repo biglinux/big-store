@@ -1,0 +1,4 @@
+ipmiview é uma ferramenta de gerenciamento criada pela Supermicro. Ela permite que você gerencie seus servidores usando o
+protocolo IPMI (Interface de Gerenciamento de Plataforma Independente). Com essa ferramenta, você pode controlar recursos como energia, monitoramento de temperatura e gerenciamento de
+rede.Além disso, você também pode usar ipmiview para acessar a console remotamente, reiniciar o sistema e atualizar firmware. É uma ferramenta muito útil para garantir que seus servidores
+estejam sempre funcionando corretamente.

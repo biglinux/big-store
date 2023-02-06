@@ -1,0 +1,4 @@
+A ferramenta iverilog-git é usada para simular e sintetizar projetos Verilog. Ele é baseado no Icarus Verilog e é
+mantido como um projeto Git. Com ele, você pode simular seus projetos de hardware para testar seu comportamento antes de construí-los fisicamente. Além disso, também pode ser usado para
+sintetizar seus projetos, ou seja, transformá-los em uma linguagem de descrição de hardware que pode ser usada para construir dispositivos reais. É uma ferramenta poderosa para
+desenvolvimento de projetos de hardware.

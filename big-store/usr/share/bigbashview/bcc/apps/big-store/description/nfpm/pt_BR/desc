@@ -1,0 +1,3 @@
+Este programa é chamado nfpm e é escrito em Go. Ele é usado para criar pacotes deb e rpm de maneira simples e fácil. Ele
+é útil para quem deseja distribuir seus programas de forma organizada e profissional.Com nfpm, você pode criar pacotes para diferentes sistemas operacionais como Ubuntu, Debian e Fedora.
+Além disso, ele suporta diversas opções de configuração para personalizar seus pacotes.

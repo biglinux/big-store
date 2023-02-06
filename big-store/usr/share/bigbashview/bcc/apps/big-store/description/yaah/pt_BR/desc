@@ -1,0 +1,4 @@
+Este programa é um gerenciador de pacotes para o sistema operacional Arch Linux. Ele permite que você instale, atualize e gerencie
+pacotes do Arch User Repository (AUR) de forma fácil e simples. Com este programa, você pode procurar e baixar pacotes do AUR diretamente do seu terminal, sem precisar sair da sua linha de 
+comando.Além disso, ele também fornece recursos adicionais, como a verificação de dependências e a resolução de conflitos de pacotes, para garantir que sua instalação seja suave e sem
+problemas.

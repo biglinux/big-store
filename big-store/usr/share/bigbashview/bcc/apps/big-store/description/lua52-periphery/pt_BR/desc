@@ -1,0 +1,3 @@
+Este programa é uma biblioteca para a linguagem de programação Lua que permite controlar periféricos de entrada e saída, como
+GPIOs, LEDs, PWM, SPI, I2C, MMIO e Serial, usando Linux.Isso significa que você pode usar Lua para escrever programas que controlam dispositivos externos, como sensores, atuadores e
+dispositivos de comunicação.

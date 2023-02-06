@@ -1,0 +1,1 @@
+SOQT é um projeto que liga o Coin, uma biblioteca para construção de aplicativos 3D, e o Qt, uma biblioteca para construção de interfaces gráficas de usuário. Ele permite que desenvolvedores criem aplicativos 3D ricos e interativos usando a conveniência do Qt para gerenciar elementos da interface do usuário, enquanto aproveitando as capacidades avançadas de renderização do Coin. 

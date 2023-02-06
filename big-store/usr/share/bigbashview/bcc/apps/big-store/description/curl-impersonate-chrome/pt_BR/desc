@@ -1,0 +1,3 @@
+Este programa é uma versão especial do curl que permite que ele se passe por Chrome. Isso significa que, quando você usa o curl com essa 
+configuração, os sites que você acessa acreditam que você está usando o Chrome como seu navegador. Isso pode ser útil em algumas situações, como quando você precisa acessar conteúdo que só 
+está disponível para usuários de Chrome.

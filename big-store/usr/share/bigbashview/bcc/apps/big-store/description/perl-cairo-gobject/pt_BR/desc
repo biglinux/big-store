@@ -1,0 +1,1 @@
+Este programa permite integrar o Cairo no sistema de tipos Glib, o que permite que você use recursos do Cairo de forma mais simples e eficiente em seus projetos em Perl. 

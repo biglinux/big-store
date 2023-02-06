@@ -1,0 +1,3 @@
+A biblioteca libglademm é um wrapper escrito em C++ para a biblioteca libglade. Ela permite que
+desenvolvedores criem interfaces gráficas de usuário de forma mais simples e rápida. Com ela, é possível carregar arquivos XML do Glade, que contém a descrição da interface, e gerenciar os 
+widgets da interface sem precisar escrever muito código. Além disso, a biblioteca também oferece suporte a sinais e slots, o que facilita a comunicação entre os widgets e o código.

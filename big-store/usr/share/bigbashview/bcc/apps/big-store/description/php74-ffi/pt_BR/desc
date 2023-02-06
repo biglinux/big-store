@@ -1,0 +1,4 @@
+Este é um módulo para o PHP74 que permite que você use funções de biblioteca de outras linguagens de programação diretamente no seu
+código PHP. Isso significa que você pode acessar recursos que não estão disponíveis nativamente no PHP, como bibliotecas específicas de sistema ou outras linguagens de programação. Usando
+este módulo, você pode escrever códigos mais rápidos e eficientes, já que você não precisa passar por camadas extras de software para acessar esses recursos. Ele também permite que você
+reutilize códigos já existentes, economizando tempo e esforço.

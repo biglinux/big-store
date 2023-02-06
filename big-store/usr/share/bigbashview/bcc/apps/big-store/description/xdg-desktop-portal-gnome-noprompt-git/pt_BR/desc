@@ -1,0 +1,3 @@
+Este é um programa que faz parte do ambiente de trabalho GNOME. Ele é um backend para o portal do desktop, ou seja, ele
+ajuda a controlar como as janelas de outros programas se comportam e se comunicam com o GNOME. A diferença desse programa específico é que ele não irá pedir permissão para acessar arquivos 
+ou outras coisas do seu computador.

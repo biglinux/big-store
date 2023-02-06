@@ -1,0 +1,3 @@
+Este é um programa chamado nullfs-dkms-git. Ele cria um sistema de arquivos virtual que age como se fosse o famoso
+'/dev/null'. Isso significa que qualquer coisa que você colocar nele simplesmente desaparece, sem deixar rastro. É como jogar coisas fora em um buraco negro. Ele é instalado usando o DKMS, 
+o que significa que ele é atualizado automaticamente quando você atualiza o seu sistema.

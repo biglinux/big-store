@@ -1,0 +1,4 @@
+Este programa é uma ponte que permite que você conecte dispositivos Zigbee a um servidor MQTT. Isso significa que você pode controlar 
+seus dispositivos inteligentes em casa de forma mais fácil e centralizada. Por exemplo, você pode usar um aplicativo para ligar e desligar as luzes, ajustar a temperatura do
+ar-condicionado, etc. Tudo sem precisar se preocupar com a rede Zigbee.Se você já tem dispositivos inteligentes em casa e quer ter mais controle sobre eles, este programa é perfeito para
+você! Além disso, ele é aberto e gratuito, o que significa que você pode personalizá-lo e adaptá-lo às suas necessidades.

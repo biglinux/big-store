@@ -1,0 +1,4 @@
+O nginx-quic é um servidor HTTP leve e também um proxy para os protocolos IMAP e POP3. Ele possui uma versão
+específica para o protocolo HTTP/3 QUIC, que oferece uma conexão mais rápida e segura para transferência de dados.Este programa é ideal para ambientes de alta demanda, onde a velocidade de 
+carregamento de páginas é essencial. Além disso, o suporte ao protocolo QUIC torna a comunicação entre o servidor e o cliente mais segura, protegendo contra ataques de interceptação de
+rede.

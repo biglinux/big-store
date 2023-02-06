@@ -1,0 +1,3 @@
+Este programa ajuda a manter seus pacotes atualizados automaticamente. Ele faz isso comparando a lista de pacotes
+instalados no seu computador com uma lista salva em um arquivo. Quando ele encontra pacotes que precisam ser atualizados, ele os baixa e os instala automaticamente. Isso significa que você 
+não precisa se preocupar em verificar e atualizar manualmente seus pacotes, o programa cuida disso para você.

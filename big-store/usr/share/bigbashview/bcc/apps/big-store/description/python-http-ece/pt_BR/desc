@@ -1,0 +1,5 @@
+Esse programa é chamado de python-http-ece e tem como objetivo fornecer Encrypted Content Encoding (ECE) para o 
+protocolo HTTP. Isso significa que ele adiciona uma camada adicional de segurança às suas comunicações na internet, protegendo as informações transmitidas contra possíveis interceptações.
+Ele é escrito em Python e é fácil de ser integrado a outros aplicativos. Como funciona? Ele utiliza a criptografia de chave pública para cifrar o conteúdo e uma chave privada para decifrar.
+Assim, somente os destinatários autorizados podem ler as informações transmitidas, mantendo sua privacidade e segurança. Em resumo, esse programa é uma ótima opção para quem deseja aumentar
+a segurança das comunicações na internet e proteger as informações transmitidas.

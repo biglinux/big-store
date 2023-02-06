@@ -1,0 +1,3 @@
+Esse programa permite que você acesse outros sistemas de arquivos diretamente pelo seu sistema atual, usando a
+tecnologia FUSE (File System in Userspace). Isso significa que você pode acessar arquivos de outros dispositivos, como dispositivos de armazenamento externos ou até mesmo outros
+computadores, sem precisar sair do seu ambiente de trabalho atual.Ele foi escrito em OCaml, uma linguagem de programação de alto nível com suporte para programação funcional.

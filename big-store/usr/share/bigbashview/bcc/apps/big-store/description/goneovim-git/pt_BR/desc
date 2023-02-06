@@ -1,0 +1,4 @@
+Este é um programa chamado Goneovim-git, ele é um editor de código para programadores. Ele é baseado no Neovim, que é um
+editor de código poderoso, mas ele foi escrito usando a linguagem de programação Golang e usa uma biblioteca chamada qt backend. Este é uma versão em desenvolvimento, então é chamado de git
+build. Com o Goneovim-git, você pode escrever e editar seus códigos de maneira fácil e rápida, ele é uma excelente opção para aqueles que estão acostumados a trabalhar com o Neovim e
+gostariam de experimentar uma versão diferente. Além disso, como ele foi escrito em Golang, ele é rápido e confiável.

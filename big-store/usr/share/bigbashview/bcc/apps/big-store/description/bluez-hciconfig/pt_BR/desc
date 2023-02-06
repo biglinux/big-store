@@ -1,0 +1,3 @@
+A ferramenta de configuração Bluetooth é um programa que ajuda a configurar e gerenciar dispositivos Bluetooth no seu
+computador. Ele é chamado de 'bluez-hciconfig' e é fornecido pelo projeto BlueZ. Infelizmente, essa ferramenta é considerada obsoleta e não é mais recomendada para uso. Se você precisar
+gerenciar dispositivos Bluetooth, recomendamos procurar outras opções de software.

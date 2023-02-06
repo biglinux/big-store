@@ -1,0 +1,1 @@
+fcgiwrap é um simples servidor para rodar aplicações CGI via FastCGI. Ele foi projetado para servir scripts CGI para qualquer servidor web que suporte FastCGI. É destinado a ser uma substituição direta para SCGI ou CGI e pode ser usado com qualquer servidor web que suporte FastCGI. Ele é  escrito em C e foi projetado para ser o menor e mais simples possível. 

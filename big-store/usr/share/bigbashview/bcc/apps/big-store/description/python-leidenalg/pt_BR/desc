@@ -1,0 +1,3 @@
+O algoritmo de Leiden é um método para encontrar grupos ou comunidades em redes sociais ou outros tipos de dados. Ele foi
+desenvolvido na Universidade de Leiden, na Holanda, e é amplamente utilizado em estudos de ciência de dados.Este algoritmo é especialmente útil para analisar grandes conjuntos de dados e
+pode ser implementado usando a biblioteca Python chamada python-leidenalg.

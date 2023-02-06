@@ -1,0 +1,1 @@
+Este programa, chamado perl-dist-checkconflicts, ajuda a garantir que as versões das suas dependências estejam corretas e evite conflitos ao instalar pacotes em sua distribuição. Ele verifica as versões de todas as dependências de um pacote e garante que não haja problemas de compatibilidade antes da instalação. 

@@ -1,0 +1,3 @@
+ Este é o kernel Linux G14. Ele é o núcleo que faz o sistema operacional funcionar. Ele gerencia todos os recursos do computador, como
+memória, processadores e dispositivos de armazenamento. Ele também é responsável por controlar o acesso a esses recursos, garantindo que vários programas possam trabalhar juntos sem
+problemas. Além disso, ele inclui módulos, que são pequenos programas adicionais que podem ser carregados e descarregados conforme necessário para fornecer funcionalidades adicionais. 

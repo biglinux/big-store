@@ -1,0 +1,3 @@
+Este programa fornece ferramentas para gerenciar pacotes no sistema operacional. Ele é especificamente projetado
+para trabalhar com o gerenciador de pacotes Alpm e com o gerenciador de pacotes Octopi.Com ele, é possível instalar, atualizar e remover pacotes de forma fácil e rápida, além de verificar
+as dependências dos pacotes e resolvê-las quando necessário.

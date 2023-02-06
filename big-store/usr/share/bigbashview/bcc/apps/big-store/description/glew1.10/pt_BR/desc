@@ -1,0 +1,1 @@
+A biblioteca GLEW (OpenGL Extension Wrangler) é uma ferramenta para ajudar a carregar extensões de OpenGL em diferentes sistemas operacionais e plataformas de computador. Ele é especialmente útil para desenvolvedores de jogos e aplicativos gráficos que precisam garantir que  seu código funcione corretamente em diferentes configurações. A versão atual disponível é a 1.10. 

@@ -1,0 +1,1 @@
+Este programa adiciona suporte a L2TP (Layer 2 Tunneling Protocol) no NetworkManager. Isso permite que você conecte-se a redes privadas virtuais (VPNs) usando L2TP com facilidade e estabilidade. Ele também oferece configurações avançadas para personalizar sua conexão VPN. 

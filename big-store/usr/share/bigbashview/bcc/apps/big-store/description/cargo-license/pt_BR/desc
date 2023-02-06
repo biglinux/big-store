@@ -1,0 +1,4 @@
+Este programa é um comando adicional do Cargo, que permite verificar as licenças das dependências de um projeto. Ele
+fornece informações sobre quais licenças estão sendo utilizadas pelas bibliotecas e pacotes externos utilizados pelo projeto. Isso é útil para garantir que o projeto esteja cumprindo as
+regras de licenciamento e para evitar problemas legais.Com este comando, é possível verificar rapidamente se há alguma dependência com licença incompatível ou se é necessário incluir alguma
+nota de crédito no projeto.

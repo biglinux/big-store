@@ -1,0 +1,1 @@
+Este programa utiliza Python puro para desmanchar o formato de ABI (Application Binary Interface) do Itanium C++, permitindo que os usuários vejam a estrutura interna de bibliotecas compiladas em C++ no formato Itanium. 

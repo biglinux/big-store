@@ -1,0 +1,4 @@
+Essas ferramentas são projetadas para ajudar desenvolvedores a trabalhar com a linguagem TLA+2. Elas incluem o SANY, TLC, 
+um tradutor PlusCal e o TLATeX.O SANY é um compilador para a linguagem TLA+, ele traduz o código escrito em TLA+ para outra linguagem de programação. O TLC é uma ferramenta para verificar a
+corretude dos modelos TLA+ e o PlusCal Translator é uma ferramenta para traduzir código PlusCal para TLA+. Por fim, o TLATeX é uma extensão LaTeX para escrever documentos que incluem código
+TLA+.

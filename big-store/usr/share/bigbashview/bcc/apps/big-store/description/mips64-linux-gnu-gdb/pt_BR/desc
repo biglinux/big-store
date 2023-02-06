@@ -1,0 +1,4 @@
+O GNU Debugger é uma ferramenta poderosa que ajuda a encontrar erros em programas. Ele foi especialmente desenvolvido
+para trabalhar com o alvo MIPS64 e funciona com o conjunto de ferramentas que inclui a biblioteca C do GNU e o ABI multilib.Com o GDB, você pode parar o programa em um determinado ponto e
+verificar o valor de variáveis, rastrear a execução do código e até mesmo alterar o comportamento do programa enquanto ele está sendo executado.Se você estiver desenvolvendo software para o
+alvo MIPS64, o GDB é uma ferramenta indispensável para garantir que seu código esteja funcionando corretamente.

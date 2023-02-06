@@ -1,0 +1,3 @@
+Esse programa é um servidor de colaboração online, ele permite que várias pessoas trabalhem juntas em um documento 
+ou projeto ao mesmo tempo. Ele é diferente de outros programas similares pois não precisa ser instalado dentro de um container Docker. Isso significa que é mais fácil de configurar e usar
+em sua máquina. Com esse programa, você pode trabalhar em equipe de forma eficiente e sem complicações.

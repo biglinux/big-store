@@ -1,0 +1,1 @@
+Este programa é uma substituição para o comando 'cut' do Linux. Ele permite que você use um delimitador baseado em  expressão regular ao invés de uma string fixa. Isso significa que você pode dividir arquivos de texto de forma mais flexível e precisa. 

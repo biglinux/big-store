@@ -1,0 +1,3 @@
+Este é um programa em Python que ajuda a controlar os ventiladores de placas de vídeo AMDGPU. Ele funciona como um daemon,
+ou seja, fica rodando em segundo plano, monitorando e ajustando a velocidade dos ventiladores conforme necessário.Dessa forma, é possível manter a temperatura da placa de vídeo em níveis
+seguros e garantir um bom desempenho, sempre que for necessário.

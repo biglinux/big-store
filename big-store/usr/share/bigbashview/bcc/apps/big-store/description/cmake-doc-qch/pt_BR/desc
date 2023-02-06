@@ -1,0 +1,3 @@
+Este programa oferece a documentação do CMake em um formato chamado Qt Help. Isso significa que você pode ler a
+documentação como se fosse um livro eletrônico, com índice e busca. É uma maneira fácil e prática de acessar informações sobre como usar o CMake.Além disso, como a documentação está no
+formato Qt Help, ela pode ser adicionada à sua biblioteca de ajuda do Qt Creator, tornando ainda mais fácil encontrar as informações de que você precisa.

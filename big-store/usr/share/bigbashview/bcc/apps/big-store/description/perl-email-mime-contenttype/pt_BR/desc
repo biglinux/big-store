@@ -1,0 +1,1 @@
+Este programa usa a linguagem Perl para analisar e interpretar o cabeçalho de tipo de conteúdo MIME em uma mensagem de e-mail. Isso permite que o destinatário saiba como lidar com o conteúdo anexado, como abrir arquivos de imagem ou reproduzir música. É uma ferramenta útil para garantir que o conteúdo da mensagem seja exibido corretamente. 

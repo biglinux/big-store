@@ -1,0 +1,1 @@
+Esse programa é uma extensão para o framework de testes minitest, ele permite que os testes sejam executados em  paralelo usando forks. Isso aumenta a velocidade de execução dos testes e, consequentemente, otimiza o processo de desenvolvimento.  

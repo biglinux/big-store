@@ -1,0 +1,3 @@
+Icecream é um programa que pega as tarefas de compilação do seu projeto e as distribui para máquinas remotas. Isso
+permite que você faça a compilação em várias máquinas ao mesmo tempo, o que acelera o processo. É uma ótima opção se você precisa construir projetos grandes ou se trabalha em equipe e
+precisa dividir as tarefas de compilação.

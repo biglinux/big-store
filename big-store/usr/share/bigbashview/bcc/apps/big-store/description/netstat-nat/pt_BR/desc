@@ -1,0 +1,1 @@
+Este é um pequeno programa escrito em C que mostra as conexões NAT gerenciadas pelo netfilter. Ele é útil para verificar e gerenciar as conexões de rede em um sistema. O programa é simples de usar e fornece informações valiosas sobre as conexões atuais. 

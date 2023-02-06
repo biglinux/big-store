@@ -1,0 +1,3 @@
+Esse é um programa chamado guile-hall-git, ele é um gerenciador de projetos e uma ferramenta de construção 
+para o Guile, que é um software livre desenvolvido pela GNU. Ele funciona com uma versão snapshot do Git, o que significa que ele usa a versão mais recente do código disponível. Com ele, é 
+possível gerenciar seus projetos e construí-los de forma fácil e rápida.

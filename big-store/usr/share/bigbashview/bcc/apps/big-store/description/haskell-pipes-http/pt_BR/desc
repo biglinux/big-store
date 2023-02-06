@@ -1,0 +1,1 @@
+O haskell-pipes-http é um cliente HTTP que utiliza uma interface de tubos para facilitar a criação de fluxos de dados e a manipulação de requisições e respostas. Ele é escrito em Haskell, uma linguagem de programação funcional, e é compatível com diversos protocolos, incluindo HTTP/1.1 e HTTP/2. 

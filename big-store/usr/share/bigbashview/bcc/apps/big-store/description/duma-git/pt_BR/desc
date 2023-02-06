@@ -1,0 +1,4 @@
+O D.U.M.A. é um alocador de memória com zona vermelha que detecta acessos não intencionais à memória. Ele é útil
+para identificar erros de programação e garantir a integridade dos dados. O nome D.U.M.A. significa Detect Unintended Memory Access (Detectar Acesso Não Intencional à Memória).Com o
+D.U.M.A., você pode ter mais confiança na segurança e estabilidade do seu código, já que ele avisa quando há acessos à memória que não foram planejados. Assim, você pode corrigir esses
+erros antes que causem problemas maiores.

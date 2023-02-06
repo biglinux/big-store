@@ -1,0 +1,1 @@
+Este programa é uma ferramenta para cálculo de checksum da família Keccak, incluindo o algoritmo SHA-3. Ele é utilizado para garantir a integridade dos arquivos, detectando qualquer alteração que possa ter ocorrido durante a transferência ou armazenamento. Ele gera um código único a partir do conteúdo de um arquivo, permitindo que você verifique se ele foi alterado ou não. 

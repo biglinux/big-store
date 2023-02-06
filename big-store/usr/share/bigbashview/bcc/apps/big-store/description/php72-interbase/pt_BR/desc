@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.2 que permite o acesso a banco de dados Interbase. Ele permite que você execute consultas e
+gerencie o banco de dados diretamente a partir do seu código PHP.Ele é fácil de usar e tem uma boa documentação, então mesmo que você não tenha muita experiência com Interbase, ainda pode
+usar esse módulo para criar aplicações robustas e eficientes.

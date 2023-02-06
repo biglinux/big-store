@@ -1,0 +1,1 @@
+O pacote haskell-mmap permite o uso de arquivos mapeados para memória no sistema operacional POSIX e no Windows, o que pode ser útil para acelerar o acesso a grandes arquivos ou para compartilhar dados entre processos. Ele é fácil de usar e possui uma interface simples e consistente em ambos  os sistemas operacionais. 

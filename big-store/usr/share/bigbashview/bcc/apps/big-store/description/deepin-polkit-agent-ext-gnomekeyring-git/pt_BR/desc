@@ -1,0 +1,1 @@
+Esta é uma extensão para o agente dde-polkit, que permite que o GNOME keyring seja usado para armazenar senhas do sistema. Ele foi criado especificamente para o sistema operacional Deepin e é baseado no repositório Git. Com esta extensão, você pode facilmente gerenciar suas senhas do sistema  usando o GNOME keyring, que é um gerenciador de senhas seguro e confiável. 

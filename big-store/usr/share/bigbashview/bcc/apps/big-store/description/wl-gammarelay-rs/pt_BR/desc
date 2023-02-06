@@ -1,0 +1,2 @@
+Este programa é uma versão melhorada do wl-gammarelay, escrito em rust. Ele roda em apenas uma thread, possui três vezes 
+menos linhas de código e usa o DBus para simplificar o processo. Ele é útil para redes sem fio.

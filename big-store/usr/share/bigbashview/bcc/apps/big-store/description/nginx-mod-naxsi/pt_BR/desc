@@ -1,0 +1,1 @@
+Esse programa é um módulo para o Nginx que oferece proteção contra ataques de Cross-Site Scripting (XSS) e Injeção SQL. Ele ajuda a manter sua aplicação web segura, bloqueando tentativas maliciosas de injetar códigos maliciosos na sua página.Esse módulo é fácil de configurar e integrar com o Nginx, e é uma excelente opção para garantir a segurança da sua aplicação. 

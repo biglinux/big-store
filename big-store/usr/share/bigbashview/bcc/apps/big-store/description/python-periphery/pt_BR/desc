@@ -1,0 +1,1 @@
+A biblioteca python-periphery é uma biblioteca pura Python 2/3 para I/O de periféricos (GPIO, LED, PWM, SPI, I2C, MMIO, Serial) no Linux. Ela fornece uma API simples e consistente para interagir com os GPIOs, LEDs, canais PWM, barramentos SPI, barramentos I2C, registradores MMIO e portas seriais em um sistema Linux. 

@@ -1,0 +1,1 @@
+Utilize o Snapper para criar snapshots (instantâneos) do seu sistema e sincronize esses backups com um  disco externo. Dessa forma, você pode ter uma cópia segura dos seus arquivos e pastas importantes e restaurá-los caso algo dê errado. O comando snap-sync ajuda na sincronização dos backups  com o disco externo.  

@@ -1,0 +1,3 @@
+Com a biblioteca python-dpath, é possível acessar e pesquisar informações em dicionários de maneira semelhante ao que é
+feito com xpath. Isso significa que é possível utilizar caminhos '/slashed/paths' para encontrar informações específicas dentro de um dicionário.Essa biblioteca é útil para trabalhar com
+grandes conjuntos de dados, facilitando a localização de informações específicas e tornando o código mais legível.

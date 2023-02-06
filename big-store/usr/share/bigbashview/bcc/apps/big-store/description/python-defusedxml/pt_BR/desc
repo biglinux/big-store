@@ -1,0 +1,1 @@
+O módulo python-defusedxml fornece uma forma segura de parsear XML e evitar ataques de bomba de XML. Ele foi projetado para ser usado como uma substituição segura para os módulos stdlib do Python, como xml.etree.ElementTree e xml.dom.minidom. Ele impede que o conteúdo malicioso do XML cause problemas de segurança, como consumo excessivo de memória ou CPU. 

@@ -1,0 +1,5 @@
+O liquidprompt é um programa útil que ajuda a melhorar a sua experiência ao usar o terminal. Ele adiciona informações úteis 
+na sua linha de comando, como o tempo que você está logado, o uso de memória e CPU, entre outras. Ele também ajusta automaticamente o tamanho da linha de comando de acordo com o tamanho da 
+janela do terminal, tornando a navegação mais fácil e intuitiva. Além disso, o liquidprompt é compatível tanto com o Bash quanto com o Zsh, o que significa que você pode usá-lo em
+diferentes sistemas operacionais. Ele também é fácil de personalizar, você pode escolher quais informações deseja exibir e como deseja que elas sejam exibidas. Em resumo, o liquidprompt é
+uma ferramenta útil para qualquer pessoa que use o terminal com frequência e deseja aumentar sua produtividade e eficiência.

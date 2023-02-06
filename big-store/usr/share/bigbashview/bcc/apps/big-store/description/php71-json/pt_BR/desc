@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.1 que permite que você trabalhe com dados no formato JSON. Ele fornece funções para ler e escrever
+dados em JSON, além de permitir que você converta dados PHP em JSON e vice-versa.Com este módulo, você pode facilmente lidar com dados complexos, como arrays e objetos, e enviá-los e
+recebê-los em seus aplicativos PHP.

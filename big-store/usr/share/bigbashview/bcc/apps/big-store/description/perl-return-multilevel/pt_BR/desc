@@ -1,0 +1,1 @@
+Este programa permite que você retorne valores de múltiplos níveis de chamada em um script em Perl. Isso pode ser útil em situações em que você precisa retornar de uma função ou subrotina para um ponto específico em um script mais alto. Ele é fácil de usar e pode economizar tempo e linhas de código. 

@@ -1,0 +1,3 @@
+O Toga II é um motor de xadrez derivado que inclui um livro de aberturas e suporte para a biblioteca de
+endgames bitboard (egbb). Ele é projetado para ser rápido e preciso, e pode ser usado tanto para jogar contra humanos quanto para auxiliar em análises de partidas.Além disso, o Toga II
+possui uma variedade de opções de configuração, permitindo que você otimize suas jogadas de acordo com seus objetivos e estilo de jogo.

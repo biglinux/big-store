@@ -1,0 +1,1 @@
+Esse programa trabalha com funções em Haskell que possuem argumentos opcionais. Isso significa que os argumentos não são obrigatórios quando a função é chamada, o que permite maior flexibilidade na utilização da função. Dessa forma, é possível fornecer apenas alguns argumentos, enquanto outros serão definidos com valores padrão. 

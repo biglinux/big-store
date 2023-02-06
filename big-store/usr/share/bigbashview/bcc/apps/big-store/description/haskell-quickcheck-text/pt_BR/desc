@@ -1,0 +1,1 @@
+Este programa é escrito em Haskell e é utilizado para gerar testes automatizados para o tipo de dado Texto. Ele utiliza a biblioteca QuickCheck para isso. 

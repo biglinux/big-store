@@ -1,0 +1,1 @@
+Arquivos de informação do núcleo do Libretro são usados para descrever e identificar os jogos compatíveis com esse sistema. Eles contêm informações como o nome, a descrição, a versão e as imagens do jogo, entre outras coisas. Essas informações são usadas pelo frontend Libretro para exibir a lista de jogos e permitir aos usuários selecionar e iniciar os jogos. 

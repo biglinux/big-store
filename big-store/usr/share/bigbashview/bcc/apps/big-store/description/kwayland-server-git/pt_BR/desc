@@ -1,0 +1,3 @@
+Este programa é composto por componentes do servidor Wayland construídos sobre o KDE Frameworks. Ele é usado para gerenciar a
+comunicação entre aplicativos e o sistema gráfico no sistema operacional.Ele permite que aplicativos enviem instruções para o sistema gráfico e recebam respostas de volta, garantindo uma
+boa performance e estabilidade.

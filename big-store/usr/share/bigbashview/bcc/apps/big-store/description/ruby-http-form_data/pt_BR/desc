@@ -1,0 +1,1 @@
+O ruby-http-form_data é uma ferramenta útil para construir corpos de solicitação de dados de formulário. Ele é fácil de usar e fornece uma maneira simples de adicionar campos e arquivos a uma solicitação HTTP. Ele também suporta vários métodos de codificação, como multipart/form-data e application/x-www-form-urlencoded, para que você possa escolher o melhor para sua aplicação.  

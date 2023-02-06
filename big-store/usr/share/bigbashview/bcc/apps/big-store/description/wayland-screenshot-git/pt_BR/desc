@@ -1,0 +1,4 @@
+Este programa permite que você capture screenshots no ambiente gráfico Wayland. Ele é uma versão em desenvolvimento do
+programa de captura de screenshots padrão, com algumas funcionalidades adicionais. Ele foi criado usando a linguagem de programação C e é baseado no projeto Wayland. Ele é compatível com
+sistemas operacionais que usam o Wayland como gerenciador de janelas, como o Fedora e o Ubuntu.Com esse programa você pode tirar screenshots de toda a tela, de uma janela específica ou de
+uma área selecionada. Ele também oferece opções para salvar a imagem em diferentes formatos, incluindo PNG, JPG e BMP.

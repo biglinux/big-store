@@ -1,0 +1,3 @@
+Este programa oferece serviços Systemd para rodar o Kodi sem precisar de um ambiente gráfico. Isso permite que você use o Kodi como
+um serviço de fundo em seu sistema, sem precisar abrir uma janela ou interface gráfica. Ele é especialmente útil em dispositivos como o Raspberry Pi, onde você pode querer usar o Kodi como 
+um centro de mídia sem precisar de uma tela.

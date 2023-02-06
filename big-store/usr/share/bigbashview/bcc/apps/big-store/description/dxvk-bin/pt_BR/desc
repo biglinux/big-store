@@ -1,0 +1,4 @@
+Este programa é chamado de dxvk-bin e é usado para rodar jogos que são feitos para o Windows no Linux. Ele
+funciona como uma camada de compatibilidade, usando a tecnologia Vulkan para fazer a comunicação entre o jogo e o sistema operacional Linux. Assim, você pode jogar seus jogos favoritos no
+seu computador Linux, sem precisar mudar para o Windows.A dxvk-bin é baseada em Direct3D 9/10/11 e funciona em conjunto com o Wine, que é um programa que permite rodar aplicativos do
+Windows no Linux. Com o dxvk-bin e o Wine juntos, você pode jogar seus jogos do Windows no Linux sem problemas.

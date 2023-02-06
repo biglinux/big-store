@@ -1,0 +1,1 @@
+ Com o Curator, você pode gerenciar facilmente seus índices do Elasticsearch usando a API em Python. Ele permite que você execute ações como excluir índices antigos ou desativar índices não utilizados. É uma ferramenta útil para manter seus dados organizados e livres de desordem.  

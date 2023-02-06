@@ -1,0 +1,4 @@
+Esse programa é uma ferramenta para colar imagens que você copiou para a área de transferência do seu computador diretamente em
+uma página da web. Ele foi desenvolvido especificamente para trabalhar com o GTK, que é uma biblioteca de interface gráfica para sistemas operacionais Linux. Ele usa o motor de conteúdo
+webkit2gtk para fazer isso e vem com algumas modificações especiais para permitir a colagem de imagens. Isso significa que, se você estiver usando um computador com Linux e precisar colar
+imagens em páginas da web, esse programa pode ser uma boa opção.

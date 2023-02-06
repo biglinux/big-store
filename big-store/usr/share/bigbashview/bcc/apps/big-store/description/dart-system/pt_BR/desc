@@ -1,0 +1,3 @@
+O Dart é uma linguagem de programação criada pela Google. Com ela, é possível desenvolver aplicações para web e dispositivos
+móveis de forma rápida e fácil. O kit de desenvolvimento (SDK) é uma ferramenta essencial para quem quer começar a programar com Dart, pois ele contém todos os arquivos e bibliotecas
+necessários para o funcionamento da linguagem.Existe um bug relacionado ao SDK do Dart no ArchLinux (https://bugs.archlinux.org/task/77107), mas ele pode ser facilmente resolvido.

@@ -1,0 +1,1 @@
+Esta ferramenta, chamada haskell-hspec-expectations-lifted, é uma versão generalizada do hspec-expectations para ser usada com MonadIO em Haskell. Ela permite que você especifique e teste seus programas Haskell de maneira fácil e clara, garantindo que eles funcionem como esperado. 

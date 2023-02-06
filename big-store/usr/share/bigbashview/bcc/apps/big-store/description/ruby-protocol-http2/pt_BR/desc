@@ -1,0 +1,1 @@
+Este programa é uma implementação de baixo nível do protocolo HTTP/2, escrito em Ruby. Ele permite que desenvolvedores trabalhem com o protocolo de uma maneira mais acessível, permitindo a criação de aplicativos e serviços que utilizem as funcionalidades avançadas do HTTP/2. 

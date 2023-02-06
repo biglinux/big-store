@@ -1,0 +1,3 @@
+Este é um programa chamado Beancount-language-server, ele é usado para ajudar a escrever e organizar arquivos de Beancount de
+forma mais fácil. Ele segue o protocolo Language Server Protocol (LSP) e é projetado para ser usado com arquivos Beancount. Isso significa que ele fornece recursos adicionais, como
+sugestões de escrita e verificação de erros, para tornar a escrita e organização de seus arquivos Beancount mais simples e eficiente. 

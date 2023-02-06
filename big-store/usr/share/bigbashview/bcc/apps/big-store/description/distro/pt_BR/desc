@@ -1,0 +1,2 @@
+ Este programa é uma substituição para o utilitário python-distro, escrito em Go. Ele permite que você obtenha
+informações sobre a distribuição do Linux que você está usando, como o nome e a versão. É fácil de usar e fornece informações precisas. 

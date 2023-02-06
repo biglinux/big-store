@@ -1,0 +1,5 @@
+O SimpleITK é uma camada construída em cima do ITK, que é uma biblioteca de imagens médicas de código aberto. Ele foi projetado para
+tornar a utilização do ITK mais fácil e acessível para usuários que não possuem conhecimentos avançados em programação. Com o SimpleITK, é possível realizar tarefas comuns de processamento 
+de imagens, como redimensionamento, corte e filtragem, com apenas algumas linhas de código. Além disso, o SimpleITK possui uma interface de programação Python, tornando ainda mais fácil
+para os usuários escreverem seus próprios scripts para automatizar tarefas de processamento de imagens. O SimpleITK é uma ferramenta útil para médicos, cientistas e desenvolvedores de
+software que trabalham com imagens médicas e precisam de uma forma fácil e eficiente de processá-las.

@@ -1,0 +1,1 @@
+jose é um conjunto de especificações que define como assinar e criptografar  objetos utilizando o Javascript. Ele permite que os dados sejam protegidos contra alterações não autorizadas e garante a autenticidade dos dados. A implementação em C-language permite que essas funcionalidades sejam utilizadas em aplicações de baixo nível, como sistemas embarcados e dispositivos de IoT. 

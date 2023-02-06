@@ -1,0 +1,1 @@
+A biblioteca python-pytz fornece a base de dados tz do Olson para python. Ela permite cálculos de fuso horário usando  objetos datetime. É compatível tanto com python 2 quanto com python 3 e está disponível no pypi. 

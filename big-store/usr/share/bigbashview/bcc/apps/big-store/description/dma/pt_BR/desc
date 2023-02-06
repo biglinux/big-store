@@ -1,0 +1,5 @@
+ Este programa é conhecido como DMA e é usado para gerenciar e enviar e-mails em sistemas operacionais
+DragonFly BSD. Ele é projetado para ser confiável e eficiente, garantindo que suas mensagens cheguem aos seus destinos rapidamente e sem problemas. Além disso, ele oferece recursos
+avançados de gerenciamento de correio, como filtragem de spam e encaminhamento automático.O DMA é compatível com vários protocolos de correio, incluindo SMTP, POP3 e IMAP, e pode ser
+facilmente integrado com outros programas de correio e ferramentas de gerenciamento de rede. Se você precisa de um agente de transporte de correio confiável e poderoso para seu sistema
+DragonFly BSD, o DMA é uma ótima escolha. 

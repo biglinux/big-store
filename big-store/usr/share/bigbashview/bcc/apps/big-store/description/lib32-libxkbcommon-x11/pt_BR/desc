@@ -1,0 +1,1 @@
+Esta é a biblioteca lib32-libxkbcommon-x11, ela ajuda a manipular o teclado em sistemas X11 XCB usando dados XKB. Ela é específica para sistemas de 32-bits. 

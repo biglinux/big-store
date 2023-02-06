@@ -1,0 +1,3 @@
+Este programa é um módulo específico para o PHP74, chamado de pdo_firebird. Ele permite que o PHP74 se conecte e acesse
+bancos de dados Firebird. Com ele, você pode realizar várias operações no banco de dados, como adicionar, remover, atualizar e ler informações.Este módulo é importante para desenvolvedores 
+web que desejam trabalhar com aplicações que utilizam o banco de dados Firebird.

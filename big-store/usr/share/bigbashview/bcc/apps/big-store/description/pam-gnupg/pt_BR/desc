@@ -1,0 +1,4 @@
+Este programa é uma extensão para o sistema de autenticação do Linux, PAM (Pluggable Authentication Modules). Ele permite
+que as chaves GnuPG sejam desbloqueadas automaticamente quando o usuário faz login no sistema. Isso é útil se você quiser usar chaves GnuPG para criptografar arquivos ou assinar mensagens
+eletrônicas, mas não quer digitar a senha da chave todas as vezes que você iniciar sessão.Para usar este programa, você precisará configurá-lo corretamente no arquivo de configuração do
+PAM. Ele também requer que você tenha o GnuPG instalado e configurado no seu sistema.

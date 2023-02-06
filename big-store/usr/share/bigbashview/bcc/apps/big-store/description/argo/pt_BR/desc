@@ -1,0 +1,3 @@
+ Argo é um programa que ajuda a gerenciar os fluxos de trabalho dentro do Kubernetes. Ele é útil para automatizar tarefas
+e fazer com que elas aconteçam na ordem certa. Por exemplo, você pode usá-lo para fazer com que uma tarefa só aconteça depois que outra tarefa foi concluída com sucesso. Isso torna o
+processo mais organizado e confiável. Além disso, o Argo permite que você acompanhe o status de cada tarefa e veja o que está acontecendo a qualquer momento.

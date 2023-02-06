@@ -1,0 +1,3 @@
+XGBoost é um algoritmo de aprendizado de máquina popular usado para tarefas de classificação e regressão. Este pacote é um wrapper para
+usar o XGBoost com o Python 3. Ele permite que você construa modelos de aprendizado de máquina de alta performance usando dados de treinamento e ajuste facilmente os parâmetros para
+melhorar a precisão do modelo.Este programa é útil para cientistas de dados, engenheiros de machine learning e outros profissionais que desejam usar o XGBoost em seus projetos de Python.

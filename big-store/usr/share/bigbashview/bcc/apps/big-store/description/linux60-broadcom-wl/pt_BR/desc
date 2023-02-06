@@ -1,0 +1,1 @@
+Este programa é um driver para dispositivos de conectividade wireless que usam o chip BCM43142 da Broadcom. Ele é específico para sistemas Linux e foi desenvolvido para funcionar com a versão 6.0 do sistema operacional. Com este driver, você poderá conectar-se a redes wireless usando o protocolo 802.11. 

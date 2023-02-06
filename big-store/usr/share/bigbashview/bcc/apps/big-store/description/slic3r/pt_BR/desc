@@ -1,0 +1,2 @@
+Slic3r é um programa que ajuda a preparar arquivos para serem impressos em uma impressora 3D. Ele traduz
+arquivos STL para GCODE, que é o tipo de arquivo que a impressora entende. O objetivo do Slic3r é ser uma alternativa moderna e rápida para outros programas semelhantes, como o Skeinforge.

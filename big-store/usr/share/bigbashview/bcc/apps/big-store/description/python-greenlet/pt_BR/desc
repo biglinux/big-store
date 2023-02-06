@@ -1,0 +1,1 @@
+O python-greenlet é um programa que permite a execução de tarefas de forma concorrente dentro do mesmo processo. Isso significa  que várias tarefas podem ser executadas ao mesmo tempo, otimizando o uso dos recursos do computador e melhorando o desempenho do programa. 

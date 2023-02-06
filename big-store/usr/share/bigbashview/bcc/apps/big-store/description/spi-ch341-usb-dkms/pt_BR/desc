@@ -1,0 +1,3 @@
+Este programa é um driver para dispositivos CH341 que utilizam a interface SPI ou GPIO. Ele permite que o sistema operacional
+reconheça e utilize esses dispositivos de maneira correta. Ao instalar esse driver, você pode acessar as funcionalidades do dispositivo CH341, como ler e escrever dados, configurar pinos,
+entre outros.

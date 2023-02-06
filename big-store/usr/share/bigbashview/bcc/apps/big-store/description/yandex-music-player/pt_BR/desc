@@ -1,0 +1,3 @@
+ O reprodutor de música Yandex é um aplicativo desktop desenvolvido com a plataforma Electron e suporta o protocolo MPRIS. Ele
+permite aos usuários ouvir música de sua conta Yandex diretamente do computador, com recursos como listas de reprodução, pesquisa de música e personalização de equalizador. Além disso, o
+aplicativo também suporta o controle de reprodução através de atalhos de teclado e teclas de mídia. 

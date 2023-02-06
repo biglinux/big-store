@@ -1,0 +1,4 @@
+O Pikaur é um gerenciador de pacotes para o Arch Linux que torna a instalação de pacotes do AUR (Arch User Repository)
+mais fácil. Ele é inspirado em outros gerenciadores de pacotes como o pacaur, yaourt e yay. O que o diferencia é que ele pergunta todas as perguntas antes de instalar ou construir um
+pacote, o que torna o processo mais fácil e seguro. Se você é usuário do Arch Linux e já se sentiu frustrado com a instalação de pacotes do AUR, o Pikaur é uma excelente opção para
+facilitar esse processo.

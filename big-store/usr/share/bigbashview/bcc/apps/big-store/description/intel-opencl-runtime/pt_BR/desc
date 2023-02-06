@@ -1,0 +1,4 @@
+Este é um runtime do OpenCL para processadores Intel Core e Xeon. Ele permite que seus programas aproveitem as
+capacidades de processamento paralelo dos processadores Intel para melhorar o desempenho. Com ele, você pode criar aplicativos mais rápidos e eficientes usando a linguagem OpenCL.Este
+runtime é compatível com vários sistemas operacionais, incluindo Windows, Linux e macOS. Ele também é compatível com diferentes arquiteturas de processadores, garantindo que você possa
+aproveitar todo o potencial dos seus processadores Intel.

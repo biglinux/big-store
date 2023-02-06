@@ -1,0 +1,2 @@
+Este programa é um servidor HTTP leve, ligado estaticamente contra LibreSSL. Ele é ideal para sistemas com recursos limitados
+e é capaz de lidar com altas cargas de tráfego.Ele é fácil de configurar e gerenciar, e oferece recursos avançados como balanceamento de carga e proxy reverso.

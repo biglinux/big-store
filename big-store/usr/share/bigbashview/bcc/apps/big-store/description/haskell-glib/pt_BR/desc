@@ -1,0 +1,1 @@
+O haskell-glib é um programa que faz a ligação com a biblioteca GLIB para Gtk2Hs. GLIB é uma biblioteca para desenvolvimento de aplicações GTK, que é uma biblioteca para desenvolvimento de interfaces gráficas para Linux. Com o haskell-glib, os desenvolvedores podem criar aplicativos GTK usando a linguagem de programação Haskell. 

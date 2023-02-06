@@ -1,0 +1,1 @@
+O xorg-server é o servidor de exibição padrão para sistemas Unix, incluindo sistemas operacionais como o Linux e o  BSD. Ele é responsável por gerenciar o acesso à tela, teclado e mouse e fornece suporte para vários monitores e dispositivos de entrada. Ele também permite que vários usuários acessem a tela simultaneamente, através de recursos como o XDMCP e o Xephyr. 

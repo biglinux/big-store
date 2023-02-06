@@ -1,0 +1,2 @@
+Este programa é uma interface gráfica para emuladores de linha de comando. Ele esconde o sistema
+operacional subjacente e é projetado para ser controlado com um joystick ou gamepad.

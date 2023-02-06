@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.3 que permite acessar banco de dados SQLite. Ele adiciona recursos para trabalhar com o SQLite
+diretamente no seu código PHP, sem a necessidade de outros programas ou bibliotecas externas. Com esse módulo, você pode criar, modificar e consultar banco de dados SQLite usando comandos
+PHP.Esse módulo é útil para desenvolvedores que precisam armazenar e manipular dados de forma rápida e simples, sem precisar de um banco de dados completo como o MySQL ou PostgreSQL. Ele é 
+especialmente útil para aplicações web pequenas ou projetos com poucos usuários.

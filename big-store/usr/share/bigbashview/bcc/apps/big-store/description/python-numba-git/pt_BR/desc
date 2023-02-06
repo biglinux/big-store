@@ -1,0 +1,2 @@
+ Este é um programa chamado python-numba-git. Ele é um compilador dinâmico para Python que é especialmente consciente
+do NumPy. Ele usa uma ferramenta chamada LLVM para ajudar a tornar seu código mais rápido. Essa é a versão Git dele. 

@@ -1,0 +1,4 @@
+Este programa é uma implementação completa da linguagem Lisp comum na plataforma JVM. Isso significa
+que ele permite que você use o Lisp, uma linguagem de programação antiga e poderosa, em computadores e dispositivos que rodam o Java. Isso pode ser útil para desenvolvedores que já estão
+familiarizados com o Lisp e desejam usá-lo em projetos modernos.Além disso, essa implementação específica do Lisp na JVM pode oferecer desempenho e recursos adicionais em comparação com
+outras versões do Lisp.

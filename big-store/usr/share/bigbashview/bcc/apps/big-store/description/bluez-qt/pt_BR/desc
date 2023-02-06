@@ -1,0 +1,1 @@
+ bluez-qt é um wrapper Qt para a API DBus Bluez 5. Ele permite que os desenvolvedores criem interfaces gráficas do usuário baseadas em Qt para aplicativos Bluetooth usando a API DBus Bluez 5. Essa biblioteca é útil para criar aplicativos Bluetooth em Linux e outras plataformas que suportam a API DBus Bluez 5. 

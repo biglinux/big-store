@@ -1,0 +1,4 @@
+ Este é um módulo POSIX para a versão 8.1 do PHP. Ele permite que você use funções POSIX em seu código PHP, como funções de
+processos, arquivos e usuários. Isso pode ser útil se você precisar trabalhar com sistemas operacionais ou se precisar de recursos avançados que não estão disponíveis nativamente no PHP.
+Para usar este módulo, você precisará instalá-lo no seu sistema e habilitá-lo no seu arquivo de configuração PHP. Depois disso, você poderá usar as funções POSIX em seu código PHP
+normalmente. 

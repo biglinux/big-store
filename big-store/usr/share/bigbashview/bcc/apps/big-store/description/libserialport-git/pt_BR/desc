@@ -1,0 +1,2 @@
+Esta é uma biblioteca minimalista e multiplataforma para o sigrok, com o objetivo de cuidar dos detalhes específicos do
+sistema operacional ao escrever software que utiliza portas seriais. (versão git)

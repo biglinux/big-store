@@ -1,0 +1,3 @@
+O Clean-chroot-manager é um programa que ajuda a criar e gerenciar ambientes de construção chroot limpos. Ele permite que você 
+construa pacotes dentro de um ambiente isolado, sem a necessidade de instalar todas as dependências no seu sistema. Além disso, ele também possibilita a criação de repositórios locais
+dentro do chroot, facilitando a instalação de pacotes personalizados.

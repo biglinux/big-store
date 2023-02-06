@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.1 que adiciona várias funções úteis para trabalhar com caracteres. Ele permite verificar se um
+caractere é alfabético, numérico, entre outros tipos. Isso pode ser útil ao validar dados de formulários, por exemplo. Com esse módulo, você pode facilmente verificar se os dados fornecidos
+são válidos antes de processá-los.

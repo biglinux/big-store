@@ -1,0 +1,1 @@
+Esse programa é uma versão independente do django.utils.feedgenerator, projetado especificamente para funcionar com a versão 3 do Python. Ele é usado para criar feeds RSS ou Atom para seu website, blog ou aplicativo. É fácil de usar e personalizar, permitindo que você crie um feed com o conteúdo e formato que desejar. 

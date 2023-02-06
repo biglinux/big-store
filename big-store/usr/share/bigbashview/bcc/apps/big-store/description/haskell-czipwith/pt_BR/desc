@@ -1,0 +1,1 @@
+A classe CZipWith é uma ferramenta para trabalhar com listas em Haskell. Ela permite combinar duas listas de maneira simples e eficiente. Além disso, é possível derivar novas classes a partir da CZipWith utilizando Template Haskell (TH). 

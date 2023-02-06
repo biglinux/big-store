@@ -1,0 +1,1 @@
+ bmake é uma versão portátil da ferramenta de construção make do NetBSD. Ele foi projetado para funcionar em uma ampla variedade de plataformas, incluindo aquelas que não são suportadas pela versão padrão do make. Isso torna uma ferramenta útil para construir software em vários sistemas. É fácil de usar e fornece uma interface simples, mas poderosa, para construir software. 

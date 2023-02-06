@@ -1,0 +1,4 @@
+Este programa é chamado de pacman-expire-cache e é usado para deletar arquivos antigos do cache de pacotes do seu
+computador. Isso é útil para liberar espaço em disco e manter seu sistema rodando sem problemas. Ele funciona verificando quais arquivos do cache são velhos e então remove esses arquivos,
+mantendo apenas os pacotes mais recentes e necessários no seu computador. É fácil de usar e pode ser configurado para executar automaticamente em intervalos regulares, garantindo que seu
+sistema esteja sempre limpo e otimizado.

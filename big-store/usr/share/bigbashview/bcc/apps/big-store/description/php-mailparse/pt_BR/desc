@@ -1,0 +1,4 @@
+Esta é uma extensão para o PHP que permite que você analise e trabalhe com mensagens de e-mail. Ela suporta
+os padrões RFC822 e RFC2045, o que significa que você pode ler e manipular mensagens de e-mail de uma forma fácil e eficiente.Com esta extensão, você pode extrair informações importantes de
+mensagens de e-mail, como destinatários, remetentes, assuntos, corpos e anexos. Além disso, você pode modificar essas informações antes de enviar uma mensagem de e-mail ou armazená-las em
+um banco de dados para uso posterior.

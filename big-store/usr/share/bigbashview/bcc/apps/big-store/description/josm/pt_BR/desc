@@ -1,0 +1,1 @@
+O JOSM é um editor de mapas offline para o OpenStreetMap escrito em Java. Ele suporta carregar trilhas GPX independentes e dados de trilhas GPX do banco de dados OSM, além de carregar e editar nós, caminhos, tags de metadados e relações existentes do banco de dados OSM. 

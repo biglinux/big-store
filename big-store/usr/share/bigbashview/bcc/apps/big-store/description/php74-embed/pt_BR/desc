@@ -1,0 +1,3 @@
+ Esta é uma biblioteca chamada PHP Embutido para a versão 74 do PHP. Ela permite que você execute códigos PHP diretamente no seu
+sistema, sem precisar de um servidor web. É útil para quem precisa automatizar tarefas ou criar scripts para serem executados diretamente no sistema operacional.Para usar essa biblioteca,
+é necessário ter a versão 74 do PHP instalada no seu computador. Ela pode ser baixada e instalada a partir do site oficial do PHP. 

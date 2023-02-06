@@ -1,0 +1,3 @@
+Jupyter LSP é uma ferramenta que ajuda a tornar o trabalho com o Jupyter Notebook/Lab mais fácil. Ele é um proxy para
+um servidor de linguagem multi-idioma, o que significa que permite que você trabalhe com várias linguagens de programação dentro do Jupyter. Isso é útil se você precisar trabalhar com
+diferentes linguagens em um único projeto ou se precisar alternar entre elas com frequência. Com Jupyter LSP, você pode economizar tempo e esforço ao trabalhar com o Jupyter.

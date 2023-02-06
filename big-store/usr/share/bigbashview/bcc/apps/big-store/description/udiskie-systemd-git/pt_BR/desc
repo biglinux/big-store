@@ -1,0 +1,3 @@
+Esse programa é um serviço do systemd que ajuda a montar automaticamente dispositivos externos usando o udiskie. Ele
+torna mais fácil e rápido acessar arquivos em dispositivos como pendrives e discos externos sem precisar fazer isso manualmente.Ele é especialmente útil em sistemas Linux, pois o systemd 
+é um gerenciador de inicialização e serviços comumente usado nesses sistemas. 

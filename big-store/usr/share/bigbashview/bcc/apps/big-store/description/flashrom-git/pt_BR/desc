@@ -1,0 +1,3 @@
+ Flashrom é uma ferramenta útil que pode ser usada para detectar, ler, apagar ou escrever chips BIOS (DIP, PLCC, SPI).
+Ele é especialmente útil para atualizar ou personalizar a BIOS de um computador. Com ele, é possível fazer backup da BIOS atual, gravar uma nova versão ou até mesmo limpar completamente o
+chip. 

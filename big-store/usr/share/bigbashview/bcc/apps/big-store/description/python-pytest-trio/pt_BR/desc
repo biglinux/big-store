@@ -1,0 +1,1 @@
+Esse é um plugin para Pytest, uma ferramenta de testes automatizados para Python, que permite que você use o Trio, uma biblioteca para escrever códigos assíncronos de maneira mais fácil e clara. Com esse plugin, você pode escrever testes de maneira mais simples e organizada, garantindo que seu código funcione corretamente mesmo em situações assíncronas. 

@@ -1,0 +1,4 @@
+Esse programa é um módulo para o PHP 7.3, especificamente para o pdo_dblib. Ele permite que você use o pdo_dblib com suas
+aplicações PHP. O pdo_dblib é um driver de banco de dados para acessar bancos de dados Microsoft SQL Server e Sybase usando o PHP.Com esse módulo, você pode se conectar a bancos de dados
+Microsoft SQL Server e Sybase usando as funções do PHP PDO (PHP Data Objects). Isso é útil se você já usa ou planeja usar o PHP para desenvolver aplicações que acessam esses tipos de bancos
+de dados.

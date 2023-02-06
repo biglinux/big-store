@@ -1,0 +1,1 @@
+Com o haskell-safecopy, você pode salvar seus dados em formato binário e ter controle de versão, o que é útil para manter diferentes versões do seu programa. Dessa forma, se precisar voltar a uma versão anterior, você pode facilmente fazer isso. Além disso, salvar os dados em formato binário é mais eficiente em termos de espaço do que outros formatos, como texto. 

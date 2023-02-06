@@ -1,0 +1,1 @@
+Uma biblioteca chamada libnetfilter_conntrack fornece uma API para acessar a tabela de estado de rastreamento de conexão no kernel. Isso permite que outros programas possam consultar e gerenciar informações de conexão no sistema operacional. 

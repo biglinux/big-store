@@ -1,0 +1,5 @@
+Esse programa é uma biblioteca e conjunto de ferramentas de linha de comando
+para lidar com arquivos comprimidos no formato XZ e LZMA. Ele é específico para o sistema operacional Windows e é compatível com a arquitetura de 64 bits (mingw-w64). Com ele, é possível
+comprimir e descomprimir arquivos nesses formatos, além de realizar outras operações avançadas.Algumas das principais funcionalidades incluem a compressão em lote de arquivos, a
+possibilidade de criar arquivos auto-extraíveis, suporte a dicionários personalizados e a capacidade de trabalhar com arquivos muito grandes.Esse programa é uma excelente opção para quem
+precisa lidar com arquivos comprimidos no formato XZ ou LZMA e está utilizando o Windows com arquitetura de 64 bits.

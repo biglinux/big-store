@@ -1,0 +1,1 @@
+fwupd-efi é um aplicativo utilizado pelo plugin uefi-capsule em fwupd. Ele é responsável por gerenciar atualizações de firmware para dispositivos compatíveis com a interface EFI. 

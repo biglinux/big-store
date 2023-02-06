@@ -1,0 +1,1 @@
+Esta biblioteca permite que você use filas (FIFO) em seus programas escritos em Lua 5.4. Ela fornece funções para adicionar e remover elementos da fila, bem como verificar se a fila está vazia ou cheia. 

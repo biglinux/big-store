@@ -1,0 +1,3 @@
+Com o python-pystray, é possível criar ícones na bandeja do sistema. Essa biblioteca facilita a criação de ícones
+personalizados, que podem ser usados para acessar rapidamente determinadas funções do seu programa. Além disso, é possível criar menus e submenus para esses ícones, tornando ainda mais
+fácil para os usuários acessarem as funcionalidades do seu programa.

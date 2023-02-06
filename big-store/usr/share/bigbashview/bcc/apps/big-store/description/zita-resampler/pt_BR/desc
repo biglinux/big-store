@@ -1,0 +1,1 @@
+zita-resampler é uma biblioteca escrita em C++ que permite reamostrar sinais de áudio. Isso significa  que ela pode mudar a taxa de amostragem de um arquivo de áudio, o que pode ser útil em várias situações, como ajustar a taxa de amostragem de um arquivo para combinar com outro ou mudar a velocidade de reprodução de um arquivo sem alterar a sua tonalidade.  

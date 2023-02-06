@@ -1,0 +1,1 @@
+telepathy-logger-qt é uma biblioteca que permite que você acesse e gerencie registros de conversas do Telepathy,  uma infraestrutura de comunicação para aplicativos de mensagens instantâneas, usando a biblioteca Qt. Ele é projetado para ser usado em aplicativos de desktop, como clientes de mensagens instantâneas. 

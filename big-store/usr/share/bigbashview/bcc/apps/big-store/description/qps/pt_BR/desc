@@ -1,0 +1,3 @@
+ O qps é um gerenciador de processos visual, semelhante ao 'top' ou 'ps' mas para usuários do X11. Ele permite ao usuário
+visualizar os processos ativos em sua máquina e gerenciá-los de forma fácil e intuitiva. Com o qps, é possível ver informações detalhadas sobre cada processo, como uso de CPU, memória e
+tempo de atividade. Além disso, é possível ordenar e filtrar processos de acordo com diferentes critérios, o que facilita encontrar e gerenciar processos específicos. 

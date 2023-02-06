@@ -1,0 +1,3 @@
+O AppArmor é um conjunto de perfil de segurança para aplicativos que ajuda a proteger o sistema contra ameaças e
+vulnerabilidades. Ele permite que você defina regras para aplicativos específicos, limitando o que eles podem fazer no sistema. Este repositório contém um conjunto completo de perfis do
+AppArmor, que podem ser usados para proteger seus aplicativos.

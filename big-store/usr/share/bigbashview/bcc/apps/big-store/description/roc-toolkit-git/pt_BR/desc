@@ -1,0 +1,2 @@
+Essa ferramenta permite que você transmita áudio em tempo real pela rede. Ela foi compilada sem os módulos do 
+PulseAudio, o que significa que você pode usá-la sem precisar desse programa específico.

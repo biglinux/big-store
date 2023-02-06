@@ -1,0 +1,1 @@
+Este programa é uma fila segura e compatível com asyncio para ser usado com o Python. Ele é projetado para garantir que as tarefas sejam executadas de forma segura e eficiente, mesmo em ambientes de programação assíncronos. 

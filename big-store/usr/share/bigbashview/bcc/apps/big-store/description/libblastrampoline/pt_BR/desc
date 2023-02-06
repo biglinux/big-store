@@ -1,0 +1,1 @@
+Esta biblioteca é usada para fornecer BLAS e LAPACK em conjunto com o uso de trampolines PLT. Ela é chamada de 'libblastrampoline' e é uma ferramenta importante para quem trabalha com matemática computacional avançada. 

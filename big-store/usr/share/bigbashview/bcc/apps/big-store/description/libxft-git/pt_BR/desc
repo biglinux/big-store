@@ -1,0 +1,4 @@
+Esta é uma biblioteca chamada libxft-git que permite desenhar fontes no sistema operacional X. Ela é baseada em outra
+biblioteca chamada FreeType, que é muito utilizada para desenhar fontes em vários sistemas operacionais. Com esta biblioteca, você pode facilmente adicionar novas fontes ao seu sistema e
+usá-las em seus programas.É importante notar que esta é uma versão 'git', o que significa que é uma versão em desenvolvimento e pode conter erros ou bugs. No entanto, é uma boa opção se
+você precisa de recursos avançados ou deseja contribuir com o desenvolvimento da biblioteca.

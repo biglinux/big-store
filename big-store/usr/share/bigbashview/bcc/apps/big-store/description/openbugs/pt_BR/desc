@@ -1,0 +1,3 @@
+OpenBUGS é um pacote de software que permite realizar inferência Bayesiana utilizando o método de amostragem de Gibbs. Ele
+é utilizado para estimar parâmetros em modelos estatísticos complexos e pode ser aplicado em diversas áreas, como biologia, economia e engenharia.Com o OpenBUGS, é possível obter
+estimativas precisas de parâmetros desconhecidos e avaliar a incerteza dessas estimativas, o que é fundamental para tomada de decisões baseadas em dados.

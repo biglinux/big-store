@@ -1,0 +1,3 @@
+ Este é um programa de processamento de nuvem de pontos (e malha triangular) em 3D. Ele é chamado de cloudcompare-git e é usado para 
+editar e analisar nuvens de pontos, que são conjuntos de dados tridimensionais coletados a partir de sensores como lasers e câmeras. Com esse software, você pode fazer coisas como remover
+pontos indesejados, medir distâncias e áreas, e até mesmo criar modelos 3D. É uma ferramenta útil para profissionais em campos como engenharia, arquitetura e topografia. 

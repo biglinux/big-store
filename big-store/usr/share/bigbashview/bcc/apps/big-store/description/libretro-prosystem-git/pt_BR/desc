@@ -1,0 +1,3 @@
+Este programa é um emulador do Atari 7800. Ele permite que você jogue jogos desse console antigo em seu computador atual. Ele foi
+criado usando a biblioteca libretro e se chama libretro-prosystem-git.Com este emulador, você pode experimentar jogos clássicos como 'Asteroids', 'Missile Command' e 'Dig Dug' novamente, ou
+descobrir jogos que você nunca jogou antes.

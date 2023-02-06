@@ -1,0 +1,3 @@
+Com a biblioteca libdigidocpp, é possível criar, assinar e verificar documentos digitais de acordo com os
+padrões XAdES e XML-DSIG. Isso permite garantir a autenticidade e integridade dos documentos eletrônicos, o que é importante em muitos setores, como o jurídico, financeiro e governamental.A
+biblioteca é desenvolvida em C++ e é compatível com vários sistemas operacionais, incluindo Windows, Linux e MacOS. Ela também suporta vários formatos de documentos, como PDF e BDOC.

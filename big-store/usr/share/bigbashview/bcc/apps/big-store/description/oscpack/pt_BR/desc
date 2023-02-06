@@ -1,0 +1,1 @@
+A biblioteca oscpack é uma ferramenta para manipular pacotes Open Sound Control (OSC). OSC é um protocolo de comunicação utilizado para controlar dispositivos e aplicativos de áudio e vídeo. Com a biblioteca oscpack, é possível criar e enviar pacotes OSC de forma fácil e eficiente. Além disso, também é possível receber e processar pacotes OSC de forma simples e eficiente. 

@@ -1,0 +1,1 @@
+Esse programa permite a comunicação com o gerenciador de janelas i3 através do uso da linguagem de programação Perl e da biblioteca AnyEvent. 

@@ -1,0 +1,1 @@
+libxml++ é uma biblioteca C++ para trabalhar com arquivos XML. Ela usa a biblioteca libxml2 como base e fornece uma interface amigável para programadores C++. A versão atual é a 2.6. Ela permite ler, escrever e manipular arquivos XML de forma fácil e eficiente. 

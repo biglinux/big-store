@@ -1,0 +1,3 @@
+Este programa é um baixador de dados de mercado da Yahoo! Finance. Ele é construído com o uso da biblioteca
+python-yfinance e é mais rápido do que o Pandas Datareader. Com ele, você pode obter informações como cotações de ações, histórico de preços e muito mais. Ele é fácil de usar e é útil para 
+quem precisa de dados de mercado para análise financeira.

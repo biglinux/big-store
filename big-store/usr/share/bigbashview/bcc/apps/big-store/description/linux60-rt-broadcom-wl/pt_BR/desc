@@ -1,0 +1,1 @@
+Este é um driver específico para dispositivos Broadcom BCM43142, compatível com sistemas operacionais Linux. Ele permite uma conexão sem fio estável e confiável para dispositivos compatíveis com o padrão 802.11. Este driver é especificamente otimizado para o kernel Linux versão 6.0 e também inclui suporte para real-time (RT). 

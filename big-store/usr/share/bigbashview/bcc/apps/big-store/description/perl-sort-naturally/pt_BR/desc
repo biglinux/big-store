@@ -1,0 +1,1 @@
+Esse programa é capaz de ordenar os dados de forma alfabética, mas também leva em conta as partes numéricas dos dados ao ordená-las de forma numérica. Isso significa que, por exemplo, ao invés de ordenar os números '10' e '2' como '10' e '2', eles serão ordenados como '2' e '10', como deveriam ser. É escrito  em Perl. 

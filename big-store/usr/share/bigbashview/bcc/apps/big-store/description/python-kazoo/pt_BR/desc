@@ -1,0 +1,1 @@
+Com a biblioteca python-kazoo, você pode controlar o Apache Zookeeper de forma simples e intuitiva. Ele é uma biblioteca de alto nível, o que significa que ele esconde muitos dos detalhes técnicos do Zookeeper e permite que você se concentre em sua aplicação. Com ela, você pode criar, ler, atualizar e excluir dados no Zookeeper, além de gerenciar os nós e as conexões. 

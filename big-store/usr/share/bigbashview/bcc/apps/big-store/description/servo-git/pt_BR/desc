@@ -1,0 +1,2 @@
+Este é um projeto de navegador da web escrito em Rust chamado Parallel Browser Project. Ele é construído com o objetivo de
+ser rápido e seguro, aproveitando as vantagens da linguagem Rust para alcançar esses objetivos. Ele utiliza o servo-git como base para seu código. 

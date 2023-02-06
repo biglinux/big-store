@@ -1,0 +1,1 @@
+ Este é um módulo de kernel para usar com placas de rede Realtek 8723bu. Ele é específico para o sistema  operacional Linux54. Ele permite que o seu computador reconheça e use corretamente a sua placa de rede Realtek 8723bu. Sem ele, você pode ter problemas para se conectar à internet ou compartilhar arquivos na rede.  

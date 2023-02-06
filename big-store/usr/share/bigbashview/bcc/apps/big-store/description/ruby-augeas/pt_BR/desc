@@ -1,0 +1,1 @@
+ruby-augeas é um pacote que fornece vínculos para o programa augeas, o qual permite a edição e manipulação de arquivos de configuração de forma simples e automatizada. Com ruby-augeas, é possível acessar e modificar arquivos de configuração com facilidade usando a linguagem Ruby.  

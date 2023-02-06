@@ -1,0 +1,3 @@
+Esse é um programa chamado libva-headless. Ele serve para acelerar vídeos em sistemas Linux que não possuem tela. 
+Ele usa uma API chamada VA API. Isso significa que ele ajuda a processar os vídeos mais rapidamente e de maneira mais eficiente. Ele é especialmente útil em servidores ou computadores sem
+tela.

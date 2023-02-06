@@ -1,0 +1,1 @@
+Este é um pacote de módulos do kernel para o sistema de arquivos Zettabyte, que é compatível com a versão 61 do Linux. Ele permite que o sistema operacional use o Zettabyte File System, o que oferece várias vantagens, como suporte a snapshots, replicação de dados e gerenciamento de arquivos em grande escala. 

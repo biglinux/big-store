@@ -1,0 +1,4 @@
+Este programa é um gerenciador de kernel para o sistema operacional Arch Linux. Ele permite instalar e gerenciar
+diferentes versões do kernel, o núcleo do sistema operacional, de maneira fácil e eficiente. Com ele, você pode atualizar o kernel sem precisar fazer tudo manualmente e correr o risco de
+quebrar algo no sistema. Ele se chama 'pacman-hook-kernel-install' e funciona como um 'gancho' no gerenciador de pacotes do Arch Linux, o Pacman. Ele se integra ao Pacman e permite que ele 
+gerencie as atualizações do kernel de maneira automática e segura.

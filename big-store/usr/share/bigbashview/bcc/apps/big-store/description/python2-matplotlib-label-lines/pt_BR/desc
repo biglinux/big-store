@@ -1,0 +1,3 @@
+Este programa ajuda a adicionar rótulos nas linhas do gráfico gerado pelo Matplotlib, tornando mais fácil para você
+entender e explicar seus dados. Ele funciona com a versão 2 do Python e é fácil de usar, basta adicionar algumas linhas de código ao seu script e os rótulos serão adicionados
+automaticamente.

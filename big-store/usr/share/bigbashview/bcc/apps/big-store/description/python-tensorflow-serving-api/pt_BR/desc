@@ -1,0 +1,1 @@
+Este é um sistema de serviço para modelos de aprendizado de máquina, projetado especificamente para ambientes de produção. Ele usa a biblioteca TensorFlow do Python para gerenciar e servir modelos de aprendizado de máquina para aplicativos e sistemas em produção. 

@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.1 que permite o uso de SOAP (Simple Object Access Protocol). Ele é utilizado para comunicação entre
+aplicações através de um protocolo de mensagem padrão.Com esse módulo instalado, é possível criar e consumir serviços web baseados em SOAP, além de lidar com erros e exceções relacionadas
+ao uso desse protocolo.

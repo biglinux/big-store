@@ -1,0 +1,1 @@
+haskell-sendfile é uma biblioteca de envio de arquivos para o Haskell. Ela permite que você envie arquivos de maneira rápida e eficiente, sem precisar carregá-los inteiros na memória. Além disso, essa biblioteca é portátil, o que significa que ela pode ser usada em diferentes sistemas operacionais  sem precisar fazer muitas alterações no código. 

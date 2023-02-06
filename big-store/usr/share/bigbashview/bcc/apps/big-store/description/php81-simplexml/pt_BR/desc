@@ -1,0 +1,4 @@
+ Este é um módulo para o PHP 8.1 que permite trabalhar com arquivos XML de maneira fácil e eficiente. Ele permite acessar e
+manipular elementos e atributos em um arquivo XML usando notação de objeto simples. Isso significa que você pode usar sintaxe de objeto para encontrar e alterar informações em um arquivo
+XML, em vez de precisar lidar com a sintaxe complicada do XML.Além disso, o SimpleXML também é capaz de ler e escrever arquivos XML, o que torna mais fácil trabalhar com esses tipos de
+arquivos. Ele é uma opção popular para desenvolvedores que precisam lidar com dados XML em seus aplicativos. 

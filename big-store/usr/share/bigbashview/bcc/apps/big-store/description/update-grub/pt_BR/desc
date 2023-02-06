@@ -1,0 +1,3 @@
+Este programa é um simples envoltório ao redor do grub-mkconfig. Ele ajuda a atualizar a configuração do sistema de
+inicialização GRUB, para garantir que o seu computador inicie corretamente. Ele é especialmente útil em sistemas com múltiplos sistemas operacionais ou configurações avançadas. Ele também
+pode ser usado para adicionar novos sistemas operacionais ou modificar as opções de inicialização existentes.

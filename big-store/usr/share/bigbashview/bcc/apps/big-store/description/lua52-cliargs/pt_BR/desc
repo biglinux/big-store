@@ -1,0 +1,1 @@
+Este programa é um analisador de argumentos de linha de comando escrito em Lua52. Ele permite que você facilmente configure e acesse argumentos passados para um script através da linha de comando, tornando seu código mais flexível e fácil de usar. 

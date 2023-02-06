@@ -1,0 +1,4 @@
+Este programa é um backend para o mdbook, que permite a geração de arquivos EPUB a partir de livros escritos em Markdown. Ele é
+fácil de usar e oferece várias opções de personalização, como a escolha de um tema e a adição de metadados.Com o mdbook-epub-git, você pode criar livros eletrônicos profissionais com muita 
+facilidade, sem precisar se preocupar com a formatação ou a conversão de arquivos. Além disso, ele é totalmente compatível com o mdbook, então você pode continuar usando as mesmas
+ferramentas e workflows que já conhece.

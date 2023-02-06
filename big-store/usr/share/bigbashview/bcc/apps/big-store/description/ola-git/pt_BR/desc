@@ -1,0 +1,3 @@
+ O Open Lighting Architecture (OLA) é uma ferramenta que oferece um framework
+de plugins para distribuir sinais de controle DMX512 em sistemas Mac e Linux. Isso permite que os usuários controlem vários dispositivos de iluminação ao mesmo tempo, como lâmpadas,
+projetores e outros equipamentos de iluminação. Além disso, o OLA também permite que os usuários criem seus próprios plugins para adicionar novas funcionalidades ao sistema. 

@@ -1,0 +1,1 @@
+O pacote haskell-lukko fornece acesso às APIs de bloqueio de arquivos dependentes da plataforma, permitindo que você crie programas em Haskell que possam bloquear e desbloquear arquivos de maneira segura e eficiente. Ele suporta múltiplas plataformas, incluindo Windows, Linux e macOS, e é fácil de usar, mesmo para programadores iniciantes. 

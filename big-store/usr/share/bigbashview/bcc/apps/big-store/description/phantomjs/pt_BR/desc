@@ -1,0 +1,4 @@
+PhantomJS é um navegador web sem interface gráfica, ou seja, ele não tem uma tela para mostrar o que está sendo navegado.
+Ele é controlado por meio de uma API em JavaScript, o que significa que você pode escrever scripts para automatizar tarefas na web. É útil para testes de performance, raspagem de dados e
+muito mais.Com PhantomJS, você pode navegar na web sem que as pessoas vejam o que está acontecendo, o que é útil em muitas situações. Além disso, como ele é controlado por scripts, você
+pode automatizar tarefas que seriam impossíveis de serem feitas manualmente.

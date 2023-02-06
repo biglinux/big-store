@@ -1,0 +1,1 @@
+Este programa utiliza o PyTorch, uma biblioteca em Python para trabalhar com redes neurais dinâmicas e tensores. Ele também possui aceleração forte de GPU com otimizações de CUDA e AVX2 para CPU. 

@@ -1,0 +1,3 @@
+Este programa é um lançador para jogos de tiro em primeira pessoa, baseado na biblioteca de jogos ZDoom. Ele
+foi desenvolvido usando a biblioteca de interface gráfica Qt, e essa é a sua versão mais recente, diretamente do repositório git. Com este lançador, você poderá iniciar e configurar
+facilmente seus jogos favoritos, sem precisar digitar comandos no terminal.

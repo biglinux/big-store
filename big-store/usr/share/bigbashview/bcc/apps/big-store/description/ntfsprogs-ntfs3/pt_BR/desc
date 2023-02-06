@@ -1,0 +1,2 @@
+Este programa oferece ferramentas úteis para gerenciar sistemas de arquivos NTFS sem o uso do driver NTFS-3G. Ele é
+especialmente útil para sistemas com kernels mais recentes, como o 5.15 ou superior.

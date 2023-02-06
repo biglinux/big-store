@@ -1,0 +1,1 @@
+Uma API é uma forma de se comunicar com um banco de dados, como o Redis. O Redis é um banco de dados  key-value, ou seja, ele usa chaves para encontrar valores. Essa API permite que você use essa comunicação para acessar o banco de dados Redis. Ela foi criada usando a linguagem de programação PHP. 

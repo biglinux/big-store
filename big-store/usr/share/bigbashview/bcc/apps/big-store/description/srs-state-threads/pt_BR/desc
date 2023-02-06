@@ -1,0 +1,1 @@
+Este é um fork do state-threads, um conjunto de bibliotecas para gerenciar threads de estado. Ele foi patchado para  funcionar com o SRS, um software de roteamento de streaming. 

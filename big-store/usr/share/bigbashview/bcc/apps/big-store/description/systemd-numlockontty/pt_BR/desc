@@ -1,0 +1,2 @@
+Este programa é um serviço e script do systemd, ele vai ativar automaticamente o teclado numérico quando você estiver
+usando uma tela de terminal. Isso significa que você não precisará pressionar a tecla 'Num Lock' antes de usar o teclado numérico em sua tela de terminal.

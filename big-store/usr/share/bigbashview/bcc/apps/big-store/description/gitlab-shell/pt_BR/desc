@@ -1,0 +1,1 @@
+GitLab Shell é um componente de linha de comando do GitLab, que é usado para se comunicar com o banco de dados do GitLab e com  o sistema de arquivos. Ele é responsável por tarefas como criação e edição de repositórios, autenticação de usuários e validação de acesso. Ele também é usado para executar scripts personalizados no servidor. 

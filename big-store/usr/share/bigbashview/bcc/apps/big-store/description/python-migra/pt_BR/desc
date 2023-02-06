@@ -1,0 +1,4 @@
+O python-migra é uma ferramenta que permite comparar esquemas de bases de dados no PostgreSQL. Ele é útil para detectar 
+diferenças entre esquemas de desenvolvimento e produção, ou entre versões diferentes de um mesmo banco de dados. Com o python-migra, você pode facilmente identificar quais tabelas, colunas 
+e índices precisam ser adicionados, modificados ou removidos.Além disso, o python-migra também gera scripts SQL para atualizar o esquema de acordo com as diferenças encontradas, tornando o 
+processo de migração mais fácil e automatizado.

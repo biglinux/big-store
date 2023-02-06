@@ -1,0 +1,3 @@
+ Essa biblioteca, chamada python-pyrr, é útil para realizar cálculos matemáticos em três dimensões. Ela usa a
+potência do NumPy, que é outra biblioteca de cálculo, para fazer isso. Isso significa que você pode fazer coisas como rotação e translação de objetos 3D de maneira fácil e precisa. Se você 
+estiver trabalhando em um projeto que envolva gráficos 3D, essa biblioteca pode ser muito útil para você. 

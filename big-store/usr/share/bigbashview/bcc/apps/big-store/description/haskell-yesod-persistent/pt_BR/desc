@@ -1,0 +1,1 @@
+ Este programa fornece algumas ferramentas úteis para ajudar a usar o módulo Persistent no framework web Yesod, escrito em Haskell. O Persistent é um módulo que facilita a interação com banco de dados em aplicações construídas com o Yesod. 

@@ -1,0 +1,3 @@
+Este é um aplicativo de mensagens chamado fractal-git, escrito em Rust e projetado para funcionar no ambiente de
+desktop GNOME. Ele permite que você comunique com outras pessoas usando o protocolo Matrix, que é uma rede aberta de comunicação que oferece recursos avançados como criptografia de ponta a 
+ponta e mensagens de vídeo e áudio. Com este aplicativo, você pode conversar com amigos, familiares e colegas de trabalho de forma segura e fácil.

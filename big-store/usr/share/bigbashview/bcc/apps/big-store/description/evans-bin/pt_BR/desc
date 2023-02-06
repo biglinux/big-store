@@ -1,0 +1,3 @@
+Este programa é chamado de evans-bin e ele é um cliente gRPC universal. Isso significa que ele pode se conectar a
+diferentes serviços que usam o protocolo gRPC. Ele é mais expressivo do que outros clientes, o que significa que ele oferece mais opções e recursos para você usar. Ele é útil para
+desenvolvedores que precisam se conectar a serviços e testá-los. 

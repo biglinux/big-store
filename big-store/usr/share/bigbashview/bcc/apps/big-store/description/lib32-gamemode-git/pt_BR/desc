@@ -1,0 +1,3 @@
+O lib32-gamemode-git é um conjunto de programas para Linux que permite que os jogos peçam que algumas otimizações sejam
+temporariamente aplicadas ao sistema operacional. Isso pode fazer com que os jogos rodem melhor e com mais fluidez.Ele é composto por um daemon (um programa que roda em segundo plano) e uma
+biblioteca (uma coleção de códigos que podem ser usados por outros programas). Juntos, eles ajudam a garantir que os jogos possam aproveitar ao máximo o poder do seu computador.

@@ -1,0 +1,3 @@
+ apptainer-git é uma ferramenta que permite criar contêineres de aplicativo para sistemas Linux. Isso significa que você
+pode embalar seu aplicativo e todas as dependências dele em um contêiner, para que ele possa ser executado em qualquer lugar, sem precisar se preocupar com configurações ou dependências
+específicas do sistema. Isso torna mais fácil para você distribuir seu aplicativo e garantir que ele funcione da mesma maneira em todos os ambientes. 

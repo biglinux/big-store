@@ -1,0 +1,1 @@
+A libzim é a implementação de referência da especificação ZIM desenvolvida pelo projeto openZIM. Ela é projetada para ser usada como uma biblioteca para a criação e uso de arquivos ZIM, que são arquivos multiuso para armazenar conteúdo off-line. A libzim é escrita em C++ e é disponível como código aberto sob a licença GPLv3. 

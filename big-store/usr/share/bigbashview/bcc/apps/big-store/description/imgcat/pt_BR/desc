@@ -1,0 +1,3 @@
+Este programa permite que você exiba imagens no seu terminal como gráficos ANSI RGB. Isso significa que, em vez de abrir uma
+imagem em um visualizador de imagem ou navegador, você pode vê-la diretamente no seu terminal.Isso pode ser útil se você estiver trabalhando em um ambiente sem interface gráfica ou se
+quiser visualizar rapidamente uma imagem sem sair do seu terminal.

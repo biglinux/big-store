@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para navegar e gerenciar pacotes no sistema paru. Ele usa a interface TUI (Text User Interface)
+do fzf, tornando fácil e rápido encontrar e instalar pacotes desejados. Além disso, ele oferece opções adicionais de gerenciamento de pacotes, como atualização e remoção. É uma ótima
+escolha para usuários que preferem um método de linha de comando para gerenciar seus pacotes.

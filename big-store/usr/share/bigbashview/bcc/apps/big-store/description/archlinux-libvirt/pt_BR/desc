@@ -1,0 +1,3 @@
+Este programa é um drive de instalação do Arch Linux, que é usado para criar uma máquina virtual (VM) usando o libvirt. O
+libvirt é uma biblioteca que gerencia vários tipos de provedores de virtualização, como KVM, QEMU, etc. Com este programa, você pode facilmente instalar o Arch Linux em uma máquina
+virtual.

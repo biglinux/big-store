@@ -1,0 +1,1 @@
+O ruby-websocket-driver é um controlador de protocolo WebSocket que permite a personalização do I/O. Ele  é projetado para ser usado com a biblioteca de servidor WebSocket Ruby. Ele implementa a especificação WebSocket e fornece uma interface fácil de usar para criar aplicativos WebSocket. 

@@ -1,0 +1,1 @@
+python-pplpy é um wrapper para a biblioteca Parma Polyhedra Library (PPL) em C++, que permite o uso dessa biblioteca em aplicações Python. Isso significa que você pode usar todas as funcionalidades e ferramentas disponíveis na biblioteca PPL diretamente no Python, facilitando a criação de aplicações avançadas com essas funcionalidades. 

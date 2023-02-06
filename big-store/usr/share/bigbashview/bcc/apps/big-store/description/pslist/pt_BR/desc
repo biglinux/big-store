@@ -1,0 +1,1 @@
+Este programa, chamado pslist, permite que você liste todos os processos filhos de um determinado ID de  processo. Isso pode ser útil para entender a hierarquia de processos em execução em seu sistema e identificar quais podem estar causando problemas. 

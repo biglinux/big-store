@@ -1,0 +1,4 @@
+Este programa permite que você escolha uma imagem do Unsplash para ser o papel de parede do seu computador. É
+fácil de usar e oferece uma ampla seleção de imagens incríveis para escolher. Com apenas alguns cliques, você pode ter uma imagem bonita como papel de parede em seu computador. O programa é
+feito com Node.js, uma das linguagens de programação mais populares e fáceis de aprender. Ele se conecta ao banco de dados do Unsplash e permite que você escolha uma imagem para usar como
+papel de parede. Além disso, ele é atualizado constantemente para garantir que você tenha acesso às últimas imagens disponíveis.

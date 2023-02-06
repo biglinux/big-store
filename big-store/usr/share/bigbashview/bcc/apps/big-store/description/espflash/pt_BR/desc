@@ -1,0 +1,1 @@
+Este programa é um comando específico para gravar dispositivos da Espressif através de uma conexão serial. Ele é usado para carregar novos softwares ou atualizar os dispositivos existentes, garantindo que eles funcionem corretamente.Com esse comando, é possível fazer a gravação de maneira rápida e fácil, sem precisar de outros equipamentos ou ferramentas adicionais. 

@@ -1,0 +1,4 @@
+O programa Flexo é uma ferramenta para gerenciar pacotes no sistema operacional. Ele funciona como uma central de
+armazenamento, ou cache, para o gerenciador de pacotes Pacman. Com o Flexo, você pode facilmente instalar, atualizar e remover pacotes em seu sistema.Ele também permite que você visualize
+informações detalhadas sobre os pacotes instalados, como sua versão e tamanho, e buscar por novos pacotes disponíveis.Flexo é fácil de usar e ajuda a manter o seu sistema operacional
+organizado e atualizado.

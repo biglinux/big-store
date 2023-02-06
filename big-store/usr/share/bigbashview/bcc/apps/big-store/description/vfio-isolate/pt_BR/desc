@@ -1,0 +1,4 @@
+Vfio-isolate é uma ferramenta de linha de comando que facilita o isolamento de núcleos de
+CPU. Ele é útil para usuários que precisam alocar recursos de CPU específicos para aplicativos ou tarefas que exigem mais poder de processamento. Com vfio-isolate, você pode garantir que
+seus aplicativos tenham acesso aos recursos de CPU de que precisam, sem afetar o desempenho de outros aplicativos em execução no sistema. Além disso, com o isolamento de núcleos de CPU,
+você pode evitar problemas de conflito de recursos e garantir que seus aplicativos funcionem corretamente.

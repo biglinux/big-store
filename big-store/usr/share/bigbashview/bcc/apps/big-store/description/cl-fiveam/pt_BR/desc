@@ -1,0 +1,1 @@
+cl-fiveam é um framework de teste de regressão para o Common Lisp, uma linguagem de programação de alto nível. Ele é usado para garantir que as mudanças em um código não afetem o comportamento esperado de um programa. Ele é uma ferramenta útil para desenvolvedores que querem manter a qualidade do código e garantir a confiabilidade de seus programas. 

@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.0 que permite que você trabalhe com imagens de maneira fácil e eficiente. Ele fornece funções para
+criar, editar e manipular imagens, além de suportar vários formatos de arquivo. Com este módulo, você pode criar imagens dinamicamente em seu site ou aplicativo, o que é útil para tarefas
+como gerar gráficos ou mostrar imagens de acordo com alguma lógica do seu código. Algumas das funcionalidades incluem: criação de imagens a partir de texto, desenho de formas geométricas,
+redimensionamento e corte de imagens, suporte a vários formatos de arquivo e muito mais.

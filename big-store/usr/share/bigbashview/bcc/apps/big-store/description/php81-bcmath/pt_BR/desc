@@ -1,0 +1,4 @@
+Este é um módulo adicional para o PHP 8.1 que permite realizar operações matemáticas básicas, como adição,
+subtração, multiplicação e divisão. Ele também suporta operações com números de precisão arbitrária, o que significa que você pode trabalhar com números muito grandes ou muito pequenos sem 
+perda de precisão.Algumas funções comuns que você pode realizar com este módulo incluem calcular raízes quadradas, exponenciação, logaritmos e cálculos trigonométricos. Ele também permite
+comparar números com precisão precisa e arredondá-los de acordo com suas necessidades.

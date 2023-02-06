@@ -1,0 +1,1 @@
+Bison é um gerador de analisador léxico e sintático para o sistema operacional GNU. Ele é usado para criar analisadores  para diferentes linguagens de programação, como C, C++ e Java. Ele é compatível com o flex, outra ferramenta de análise léxica. Bison é uma ferramenta poderosa e fácil de usar para desenvolvedores que precisam criar analisadores para seus projetos. 

@@ -1,0 +1,3 @@
+Esse programa é uma biblioteca para usar o banco de dados leveldb com o Python. Ele permite que você armazene e recupere
+dados de forma rápida e fácil usando o Python.Leveldb é um banco de dados chave-valor leve e rápido, perfeito para aplicações que precisam armazenar muitos dados em disco. Com essas
+bibliotecas Python, você pode usar o leveldb em seus projetos Python de forma simples e direta.

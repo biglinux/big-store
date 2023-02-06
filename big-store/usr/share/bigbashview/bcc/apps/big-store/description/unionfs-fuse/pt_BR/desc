@@ -1,0 +1,1 @@
+unionfs-fuse é uma implementação de unionfs que roda no espaço do usuário, ou seja, fora do sistema operacional. Ele permite que várias pastas sejam combinadas em uma só, mostrando o conteúdo de todas elas como se fossem uma única pasta. Isso é útil para criar cópias de segurança, organizar arquivos e muito mais. 

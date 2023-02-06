@@ -1,0 +1,2 @@
+Este pacote é para usar o Samurai em vez do Ninja Build. Ele permite que você troque facilmente entre essas ferramentas
+sem precisar fazer mudanças no seu código ou configurações. Assim, você pode escolher qual ferramenta é melhor para suas necessidades e usá-la de forma transparente.

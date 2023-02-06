@@ -1,0 +1,3 @@
+ O Bareos é um programa de backup aberto. Ele é usado para fazer cópias de segurança de arquivos e dados importantes. Ele também
+pode ser usado para recuperar esses arquivos e dados em caso de perda. Esse programa específico é o Bareos-devel, que inclui cabeçalhos para desenvolvimento. Isso significa que é usado para
+criar novas versões ou modificar a atual. 

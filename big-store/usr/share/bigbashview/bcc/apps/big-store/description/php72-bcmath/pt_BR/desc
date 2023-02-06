@@ -1,0 +1,4 @@
+ Este é um módulo para o PHP 7.2 que adiciona suporte para operações matemáticas avançadas, como arredondamento e precisão de
+números de ponto flutuante. Isso é útil para aplicativos que precisam lidar com números financeiros ou cálculos precisos. O bcmath é uma biblioteca matemática que permite realizar operações
+com números inteiros de precisão arbitrária. Isso significa que você pode trabalhar com números muito grandes ou muito pequenos sem perder precisão. Com esse módulo, você pode usar funções 
+como bcadd, bcsub, bcmul e bcdiv para realizar operações matemáticas precisas em seu código PHP.

@@ -1,0 +1,3 @@
+ Esta é uma biblioteca de código aberto que serve para alocar memória para programas em 32 bits. Ela foi projetada para ser
+escalável e gerenciar a memória de forma eficiente, tornando-a uma ótima escolha para programas que precisam lidar com muitos dados. Além disso, a biblioteca é capaz de trabalhar com várias
+tarefas ao mesmo tempo, o que a torna ainda mais útil. 

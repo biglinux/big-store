@@ -1,0 +1,4 @@
+A biblioteca GNU readline é um pacote que fornece suporte para a leitura e edição de linhas de comando em diferentes programas. Ele
+permite que os usuários naveguem através do histórico de comandos e façam edições rápidas de comandos já digitados. O pacote é desenvolvido para ser compatível com o sistema operacional
+Windows, usando a plataforma mingw-w64. Com essa biblioteca, os desenvolvedores podem incluir recursos avançados de edição de linha de comando em seus programas, tornando a interação do
+usuário mais fácil e intuitiva. Além disso, ela também possibilita a personalização de atalhos de teclado e a criação de novos comandos.

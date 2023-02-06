@@ -1,0 +1,1 @@
+Esta é uma implementação pura em Python da árvore de prioridade HTTP/2. Ela permite que os desenvolvedores gerenciem as prioridades dos cabeçalhos de requisição e resposta, o que pode ajudar a melhorar a performance de suas aplicações. Essa biblioteca é simples de usar e pode ser facilmente integrada a qualquer projeto Python que use o protocolo HTTP/2. 

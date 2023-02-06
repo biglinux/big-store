@@ -1,0 +1,4 @@
+ python-rosinstall é um conjunto de
+ferramentas de linha de comando que ajuda a manter um espaço de trabalho de projetos de vários sistemas de controle de versão. Ele foi criado especificamente para a comunidade ROS (Robot
+Operating System) e é uma ótima opção para quem trabalha com robótica ou inteligência artificial. Com python-rosinstall, você pode gerenciar facilmente seus projetos, mantendo-os
+atualizados e sincronizados entre diferentes computadores. 

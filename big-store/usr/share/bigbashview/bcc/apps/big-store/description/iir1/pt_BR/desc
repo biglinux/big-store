@@ -1,0 +1,4 @@
+Uma biblioteca de filtro IIR (Infinite Impulse Response) em tempo real escrita em C++. Ela permite que você implemente
+filtros digitais em seus programas de maneira fácil e eficiente. Com ela, é possível criar diversos tipos de filtros, como passa-baixas, passa-altas, passa-faixa e rejeita-faixa.A
+biblioteca é otimizada para trabalhar em tempo real, o que significa que ela é capaz de processar sinais de áudio e outros tipos de dados de forma rápida e precisa. Além disso, ela é
+altamente personalizável, permitindo que você ajuste os parâmetros do filtro de acordo com suas necessidades específicas.

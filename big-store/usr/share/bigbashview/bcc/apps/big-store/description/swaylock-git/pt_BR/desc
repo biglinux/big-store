@@ -1,0 +1,4 @@
+Este programa é projetado para bloquear a tela em sistemas operacionais que usam o Wayland. Ele é uma versão modificada do 
+swaylock original e é mantido como um repositório Git. Ele oferece uma maneira fácil e segura de bloquear a tela quando você não estiver usando o seu computador, protegendo suas informações
+privadas.Além de bloquear a tela, ele também pode ser personalizado com planos de fundo e efeitos visuais. Ele é fácil de usar e é uma ótima opção para quem procura um bloqueador de tela
+simples e eficaz para o Wayland.

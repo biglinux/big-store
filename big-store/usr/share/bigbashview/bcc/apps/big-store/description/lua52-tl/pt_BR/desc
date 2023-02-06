@@ -1,0 +1,4 @@
+Este é um compilador para o Teal, uma variedade tipada do Lua. Ele é chamado de 'lua52-tl' porque é baseado na versão 5.2 do Lua. Com 
+este compilador, você pode escrever programas no Teal e convertê-los para código Lua, que pode ser então executado em qualquer ambiente que suporte Lua.O Teal tem algumas características
+adicionais em comparação com o Lua tradicional, como tipos de dados mais avançados e verificação de tipos durante a compilação. Isso ajuda a evitar erros comuns em programas escritos em Lua
+e torna o código mais fácil de manter e depurar.

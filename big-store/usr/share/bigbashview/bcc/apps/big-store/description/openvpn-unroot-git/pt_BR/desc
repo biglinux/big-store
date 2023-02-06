@@ -1,0 +1,2 @@
+Este programa permite que você execute o OpenVPN sem precisar de privilégios de root. Isso significa que você pode usar
+o OpenVPN sem se preocupar com a segurança do seu dispositivo. Ele é baseado no projeto openvpn-unroot-git e é fácil de usar. 

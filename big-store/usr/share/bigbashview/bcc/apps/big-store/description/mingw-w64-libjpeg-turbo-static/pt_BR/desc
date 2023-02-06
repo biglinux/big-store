@@ -1,0 +1,3 @@
+Este programa é uma biblioteca de codificação e decodificação de imagens JPEG com compressão e descompressão
+aceleradas. Ele é especialmente útil para aplicativos que precisam lidar com muitas imagens JPEG de maneira rápida e eficiente. É compatível com o sistema operacional Windows através do
+pacote mingw-w64.

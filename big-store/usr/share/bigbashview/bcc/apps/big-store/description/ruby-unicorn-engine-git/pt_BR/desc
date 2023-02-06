@@ -1,0 +1,4 @@
+Este é um emulador de CPU leve e multi-plataforma baseado no QEMU. Ele é capaz de funcionar em várias arquiteturas e 
+é projetado para ser fácil de usar e personalizar. Ele é desenvolvido usando a linguagem de programação Ruby e utiliza a biblioteca Unicorn Engine, que é uma biblioteca de emulação de baixo
+nível.Com este emulador, você pode criar aplicativos que emulam diferentes sistemas operacionais e arquiteturas de CPU sem precisar de máquinas físicas dedicadas para cada um deles. Isso
+pode ser útil para testes de compatibilidade, desenvolvimento de software e outras tarefas relacionadas à emulação.

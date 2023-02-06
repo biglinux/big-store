@@ -1,0 +1,2 @@
+ Este é um módulo para o PHP 7.2 que adiciona suporte a bases de dados. Com ele, você pode trabalhar com vários formatos de banco de 
+dados, como Berkeley DB, com facilidade. É uma ferramenta útil para qualquer desenvolvedor que precise armazenar e recuperar informações do banco de dados. 

@@ -1,0 +1,2 @@
+ Essa ferramenta é projetada para ser usada com o clang e serve para analisar os #includes em arquivos de código fonte C
+e C++. Ela está na branch clang_13 do git. 

@@ -1,0 +1,3 @@
+Este é um programa chamado gebaar-libinput-git. Ele é um 'daemon' que permite que você use gestos no seu touchpad, mesmo
+se você estiver usando um gerenciador de janelas diferente. É uma versão modificada do programa original, com novos recursos adicionais. Ele é projetado para ser fácil de usar, e funciona
+com o libinput.

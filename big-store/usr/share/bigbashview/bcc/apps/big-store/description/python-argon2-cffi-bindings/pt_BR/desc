@@ -1,0 +1,1 @@
+Este é um programa de criptografia para senhas, ele utiliza o algoritmo Argon2. Ele é especialmente útil para proteger informações confidenciais, como senhas. Ele é escrito em CFFI, o que significa que ele é compatível com várias linguagens de programação, incluindo o Python. Ele é fácil de usar e fornece uma alta segurança para as suas senhas. 

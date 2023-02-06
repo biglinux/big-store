@@ -1,0 +1,1 @@
+Este é um programa chamado python-repoze.lru. Ele é uma implementação de cache de tamanho limitado (LRU) e também é um decorador. Isso significa que ele pode ser usado para melhorar o desempenho de outros programas, mantendo as informações mais usadas em memória para acesso rápido. 

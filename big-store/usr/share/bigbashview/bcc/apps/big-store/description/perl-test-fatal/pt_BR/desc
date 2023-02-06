@@ -1,0 +1,1 @@
+Ferramenta em Perl que ajuda a testar códigos que podem gerar exceções. Ela facilita a verificação de erros e exceções, tornando o processo de teste mais simples e eficiente. Com ela, é possível testar facilmente se uma determinada parte do código está gerando erros ou exceções e, assim, garantir que o programa esteja funcionando corretamente. 

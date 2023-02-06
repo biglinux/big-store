@@ -1,0 +1,4 @@
+ blivet-gui é uma ferramenta gráfica de usuário (GUI) que facilita a configuração de armazenamento em sistemas
+Linux. Ele permite que você gerencie partições, crie e exclua volumes lógicos, configure RAID e muito mais, tudo através de uma interface fácil de usar. Com blivet-gui, você pode fazer
+mudanças complexas em sua configuração de armazenamento sem precisar digitar comandos no terminal. É uma ferramenta útil para administradores de sistemas, desenvolvedores e usuários
+avançados que precisam gerenciar seus sistemas de armazenamento. 

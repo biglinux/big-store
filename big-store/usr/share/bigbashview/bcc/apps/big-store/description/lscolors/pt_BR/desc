@@ -1,0 +1,3 @@
+Uma biblioteca em Rust para colorir caminhos usando LS_COLORS. Com ela, é possível deixar os arquivos e pastas em seu computador 
+com cores diferentes, o que facilita a identificação deles. Por exemplo, arquivos de imagem podem ser vermelhos, enquanto pastas podem ser azuis.Essa biblioteca é simples de usar e pode ser
+integrada facilmente em seus projetos em Rust. Experimente dar uma nova cara à sua linha de comando com ela.

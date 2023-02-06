@@ -1,0 +1,4 @@
+O obfs4proxy é um programa que ajuda a manter sua privacidade na internet. Ele funciona como um proxy, ou seja, ele age 
+como um intermediário entre você e os sites que você visita. Ele foi escrito em Go e é chamado de 'pluggable transport proxy', ou seja, ele pode ser adicionado a outros programas para
+aumentar a segurança. Este pacote foi construído por alguém que vive em países onde o acesso ao Tor é restrito e não é possível baixar a versão original do obfs4proxy. Ele é especialmente
+útil para quem precisa se proteger contra censura na internet.

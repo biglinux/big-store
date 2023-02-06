@@ -1,0 +1,4 @@
+A biblioteca libguess é uma ferramenta que ajuda a identificar o conjunto de caracteres de um
+texto. Ela foi desenvolvida para ser rápida e precisa, permitindo que você identifique o conjunto de caracteres de um texto em poucos segundos. Isso é útil em muitas situações, como
+tradução automática, análise de dados, e processamento de linguagem natural.A libguess suporta uma ampla variedade de conjuntos de caracteres, incluindo UTF-8, UTF-16, ISO-8859-*, e muitos 
+outros. Ela também é compatível com muitas linguagens diferentes, incluindo inglês, espanhol, francês, alemão, chinês, japonês e muito mais.

@@ -1,0 +1,1 @@
+Este é um plugin do Poetry para atualizar as dependências em seu arquivo pyproject.toml e aumentar as versões delas. Ele é específico para projetos Python e facilita a manutenção de suas bibliotecas. 

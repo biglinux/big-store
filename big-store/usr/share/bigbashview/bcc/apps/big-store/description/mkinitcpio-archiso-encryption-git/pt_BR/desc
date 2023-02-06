@@ -1,0 +1,3 @@
+Este é um programa que ajuda a proteger seus dados no Arch Linux, usando criptografia. Ele adiciona suporte para criptografar seu 
+sistema quando você usa o Arch Linux com o comando 'archiso'. Isso significa que seus arquivos serão protegidos com uma senha, para que somente você possa acessá-los. É importante lembrar
+de guardar sua senha em um lugar seguro, pois ela será necessária para desbloquear seus arquivos criptografados.

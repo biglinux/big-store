@@ -1,0 +1,4 @@
+ O Ambiente de Simulação Atômica (ASE) é um conjunto de ferramentas e módulos Python para configurar, manipular,
+executar, visualizar e analisar simulações atômicas. Ele permite que você trabalhe com sistemas atômicos de forma interativa e programática, e fornece uma variedade de métodos para calcular
+propriedades dos sistemas, como energia, forças e estrutura cristalina. Além disso, ele tem suporte para vários métodos de dinâmica molecular, otimização de estrutura e muito mais. O ASE é 
+uma ferramenta poderosa para estudar sistemas atômicos e é amplamente utilizado em pesquisas científicas e desenvolvimento de novos materiais. 

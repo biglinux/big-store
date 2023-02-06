@@ -1,0 +1,1 @@
+drumkv1 é um sintetizador de amostra de bateria clássica com efeitos estéreo. Ele é um cliente stand-alone JACK com suporte a JACK-session, NSM e entrada MIDI tanto do JACK quanto do ALSA. Também é um plugin de instrumento LV2 com URI: http://drumkv1.sourceforge.net/lv2 

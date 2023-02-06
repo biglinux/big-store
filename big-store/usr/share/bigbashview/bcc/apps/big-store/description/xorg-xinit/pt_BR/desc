@@ -1,0 +1,1 @@
+O xorg-xinit é um programa utilizado para inicializar o sistema de exibição X.Org. Ele é responsável por iniciar o servidor X e carregar o gerenciador de janelas padrão do usuário. Ele é comumente usado em sistemas baseados em Unix, como o Linux e o BSD. 

@@ -1,0 +1,3 @@
+Este programa é um wrapper em python para o toml++. Ele permite que você use as funcionalidades do toml++ em seus projetos
+python de maneira fácil e intuitiva. Com ele, é possível carregar e salvar arquivos toml de maneira simples, sem precisar se preocupar com a sintaxe difícil do toml++.Além disso, o
+python-pytomlpp oferece uma série de métodos úteis para acessar e modificar dados no arquivo toml, tornando o processo de trabalhar com arquivos toml muito mais fácil.

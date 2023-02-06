@@ -1,0 +1,1 @@
+A python-libforensic1394 é uma biblioteca para realizar análise de memória ao vivo através da interface IEEE 1394 (também conhecida como FireWire). Ela permite aos usuários coletar e analisar dados em tempo real da memória de um dispositivo conectado através dessa interface. 

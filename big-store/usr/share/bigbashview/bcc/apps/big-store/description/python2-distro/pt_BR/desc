@@ -1,0 +1,3 @@
+Este programa fornece uma API que permite acessar informações sobre a distribuição Linux em que ele está sendo executado. 
+Ele usa a biblioteca python2-distro para coletar essas informações e torná-las disponíveis para outros programas. Isso pode incluir detalhes como nome da distribuição, versão, arquitetura e
+outras informações relevantes. Com essa API, outros programas podem se adaptar automaticamente à distribuição específica do usuário e fornecer uma experiência melhor e mais personalizada. 

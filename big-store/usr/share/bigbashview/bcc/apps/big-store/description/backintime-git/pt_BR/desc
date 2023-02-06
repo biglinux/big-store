@@ -1,0 +1,3 @@
+Este programa foi criado para tornar fácil criar backups de seus arquivos importantes. Ele foi inspirado por outros programas 
+como Flyback e TimeVault e possui uma interface gráfica simples, feita com a biblioteca Qt5. Com ele, você pode facilmente criar snapshots de seus arquivos e pastas importantes e salvá-los 
+em um local seguro, para garantir que você sempre tenha uma cópia de seus arquivos em caso de perda ou problemas.

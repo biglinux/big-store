@@ -1,0 +1,3 @@
+DCFL (DoD Computer Forensics Lab) é um programa que tem a função de fazer cópias de arquivos. Ele é chamado de 'dd' e é
+usado por especialistas em segurança da informação para coletar evidências digitais. O programa que estou te apresentando é uma substituição para o 'dd' normal do DCFL. Ele tem a função
+adicional de adicionar uma espécie de 'assinatura digital' para cada arquivo copiado, chamada de 'hash'. Isso é útil para garantir que a cópia do arquivo não foi alterada de alguma forma. 

@@ -1,0 +1,5 @@
+O fcron é um programa que ajuda você a programar tarefas para serem executadas automaticamente em momentos específicos. Ele 
+é chamado de daemon, ou seja, um programa que fica rodando em segundo plano no seu computador. Ele é útil para fazer coisas como limpar pastas de arquivos temporários, fazer backups de
+arquivos importantes, atualizar programas, etc.Com o fcron, você pode programar tarefas para serem executadas com precisão, seja uma vez por dia, uma vez por semana, uma vez por mês, ou em 
+outro período de tempo que você escolher. Ele também permite que você configure tarefas para serem executadas somente quando determinadas condições forem atendidas, como quando o computador
+estiver ocioso ou conectado à rede.

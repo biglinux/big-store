@@ -1,0 +1,5 @@
+Este programa é um compilador para a linguagem Fortran, usando o GCC como front-end. Ele permite que você escreva códigos em
+Fortran e os converta em códigos de computador que podem ser executados em diferentes sistemas operacionais. Fortran é uma linguagem de programação antiga, mas ainda é amplamente utilizada 
+em cálculos científicos e engenharia. Com este compilador, você pode aproveitar as vantagens do GCC, como a compatibilidade com diferentes sistemas operacionais e a possibilidade de
+otimização de código, enquanto escreve códigos em Fortran. Este programa é especialmente útil para usuários avançados e programadores, mas pode ser usado por qualquer pessoa que queira
+escrever códigos em Fortran e executá-los em diferentes sistemas operacionais.

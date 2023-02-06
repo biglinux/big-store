@@ -1,0 +1,1 @@
+Essa é uma biblioteca para usar dispositivos U2F (Universal 2nd Factor) através de conexão USB. Ela permite a interação entre o dispositivo U2F e o seu computador, tornando mais fácil e seguro usar essa forma de autenticação. A biblioteca é escrita em python e se chama python-pyu2f. 

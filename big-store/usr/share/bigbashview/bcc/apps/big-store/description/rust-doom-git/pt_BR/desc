@@ -1,0 +1,4 @@
+ Este é um pequeno programa escrito em Rust que permite renderizar jogos Doom 1 e 2. Ele é baseado no código fonte
+original dos jogos e foi criado com o objetivo de oferecer uma experiência de jogo mais suave e fluida. Além disso, ele também inclui algumas melhorias gráficas, como iluminação avançada e 
+texturas de alta resolução. Este programa é ideal para jogadores que desejam experimentar esses jogos clássicos com gráficos atualizados e sem problemas de compatibilidade. Ele também é
+útil para desenvolvedores que desejam estudar como os jogos foram criados e como podem ser melhorados.

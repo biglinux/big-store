@@ -1,0 +1,3 @@
+Este programa permite que você monte imagens de disco VirtualBox (VDI, VMDK ou VHD) no seu computador. Ele usa um módulo
+chamado FUSE para fazer isso.Isso significa que você pode acessar os arquivos dentro das imagens de disco como se eles estivessem em pastas normais no seu computador. É útil para acessar 
+dados de backups ou para testar coisas sem precisar iniciar a máquina virtual inteira. 

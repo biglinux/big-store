@@ -1,0 +1,1 @@
+O lib32-libelf é uma biblioteca que permite gerenciar arquivos ELF (Executable  and Linkable Format) e informações de depuração DWARF (Debugging With Arbitrary Record Formats). Ele é específico para sistemas de 32-bits. 

@@ -1,0 +1,1 @@
+libspatialite é uma extensão para o SQLite que fornece suporte a tipos e operações de dados espaciais, permitindo aos usuários trabalhar com dados geográficos de forma eficiente e fácil dentro do banco de dados SQLite. Com esta extensão, é possível realizar consultas espaciais, criar mapas e visualizar dados geográficos de forma simples e intuitiva. 

@@ -1,0 +1,4 @@
+A Suite de Teste de Firmware (FWTS) é uma ferramenta para fazer testes automatizados do firmware de um computador pessoal 
+(PC). Ela fornece uma maneira fácil de verificar se o firmware está funcionando corretamente e detectar problemas potenciais antes que eles causem problemas para o usuário final. A FWTS é
+uma ferramenta de linha de comando que pode ser executada em várias plataformas, incluindo Linux e Windows. Ela é útil para os desenvolvedores de firmware, fabricantes de hardware e
+administradores de sistemas que desejam garantir que o firmware do PC está em boas condições e funcionando corretamente. 

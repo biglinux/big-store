@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de linha de comando e shell para gerenciar o TeXLive no Arch Linux. Ele permite que você instale e
+atualize facilmente pacotes TeXLive, além de gerenciar seus pacotes já instalados. Com ele você pode instalar pacotes TeXLive adicionais, remover pacotes indesejados e atualizar pacotes já 
+instalados. Isso torna a administração do TeXLive no Arch Linux muito mais fácil e eficiente.

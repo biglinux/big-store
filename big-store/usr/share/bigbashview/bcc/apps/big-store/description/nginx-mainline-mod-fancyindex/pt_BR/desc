@@ -1,0 +1,4 @@
+O módulo Fancy Index é uma adição para o servidor web Nginx-mainline. Ele permite que os usuários visualizem
+arquivos e pastas de maneira mais bonita e organizada. Isso é útil para quem precisa compartilhar arquivos ou acessar arquivos em um servidor remoto.Com o Fancy Index, os usuários podem ver
+informações adicionais sobre os arquivos, como data de modificação, tamanho e permissões. Além disso, os arquivos e pastas são exibidos em uma tabela, tornando mais fácil navegar pelo
+conteúdo.Este módulo é uma ótima opção para quem precisa de uma maneira simples e elegante de compartilhar arquivos e pastas no servidor Nginx.

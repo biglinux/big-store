@@ -1,0 +1,4 @@
+Este é o conjunto de documentação para o kernel Linux LTS (Long-Term Support) 5.4. O kernel Linux é o núcleo do sistema 
+operacional Linux, que é responsável por gerenciar os recursos do computador, como memória, processadores e dispositivos de armazenamento. O LTS é uma versão do kernel que recebe
+atualizações de segurança e correções de bugs por um período mais longo do que as versões regulares, geralmente por cerca de cinco anos. Isso é útil para usuários que precisam de
+estabilidade e suporte a longo prazo para seus sistemas.

@@ -1,0 +1,4 @@
+Este é um driver para o dispositivo TBSECP3 que pode ser usado de forma independente, sem precisar de outros programas ou 
+bibliotecas para funcionar. Ele foi criado para ser instalado como um módulo DKMS (Dynamic Kernel Module Support), o que significa que ele será automaticamente atualizado quando novas
+versões do kernel do sistema operacional forem disponibilizadas. Assim, você pode ter certeza de que o seu dispositivo TBSECP3 sempre estará funcionando corretamente, independentemente das 
+atualizações do sistema.

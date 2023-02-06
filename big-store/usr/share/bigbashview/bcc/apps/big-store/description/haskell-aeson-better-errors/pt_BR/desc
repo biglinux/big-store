@@ -1,0 +1,1 @@
+Este programa fornece melhores mensagens de erro quando decodifica valores JSON. Isso ajuda a identificar e corrigir problemas mais rapidamente e facilmente. Ele é escrito em Haskell e usa a biblioteca Aeson. Com ele, você pode ter certeza de que as mensagens de erro são claras e precisas, tornando o processo de depuração mais fácil e eficiente. 

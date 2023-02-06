@@ -1,0 +1,5 @@
+Esta é uma biblioteca de cabeçalho em C++ chamada xbyak-git que ajuda a montar códigos para processadores x86 e 
+x86-64. Ela é chamada de JIT, o que significa que ela gera códigos enquanto o programa está sendo executado. Isso significa que ela pode ser usada para otimizar o desempenho de um programa,
+tornando-o mais rápido e eficiente. Ela é fácil de usar e só precisa ser incluída como um cabeçalho no seu código fonte.Como é uma biblioteca de cabeçalho, você não precisa se preocupar em 
+compilar ou instalar nada antes de usá-la. Basta incluir o arquivo de cabeçalho no seu projeto e você estará pronto para usá-la. Ela é open source, o que significa que você pode contribuir 
+para o desenvolvimento dela ou usá-la para criar seus próprios projetos.

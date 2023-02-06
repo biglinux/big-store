@@ -1,0 +1,3 @@
+Este programa é composto por dois componentes: um cliente e um daemon. O cliente é a parte que você usa para se conectar a um
+servidor e conversar com outras pessoas. O daemon é a parte que fica rodando em segundo plano e gerencia as conexões do cliente.Juntos, esses dois componentes permitem que você use o
+Mumble, um programa de comunicação de voz seguro e de baixa latência, em qualquer lugar e a qualquer hora.

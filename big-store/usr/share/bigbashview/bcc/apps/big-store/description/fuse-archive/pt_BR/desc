@@ -1,0 +1,3 @@
+Este programa é um sistema de arquivos para arquivos compactados, como arquivos ZIP, RAR, 7Z, ISO, TGZ e XZ. Ele 
+usa o FUSE para permitir que você acesse esses arquivos como se fossem pastas normais no seu computador. Isso significa que você pode abrir, editar e salvar esses arquivos sem precisar
+descompactá-los primeiro.

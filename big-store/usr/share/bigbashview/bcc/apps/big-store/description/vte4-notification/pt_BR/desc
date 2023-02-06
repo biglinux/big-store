@@ -1,0 +1,1 @@
+Este programa é um emulador de terminal virtual com patches específicos para o Fedora. Ele é construído utilizando a biblioteca GTK4, o que garante uma interface gráfica amigável e fácil de usar. Ele possui recursos avançados como notificações, que permitem ao usuário ficar sempre informado sobre o que está acontecendo no terminal. 

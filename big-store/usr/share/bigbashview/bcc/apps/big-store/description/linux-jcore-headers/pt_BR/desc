@@ -1,0 +1,4 @@
+Esse é um conjunto de cabeçalhos e scripts que são usados para construir módulos para o kernel Linux-jcore. Ele é
+especificamente projetado para ser usado em sistemas operacionais como Manjaro, EndeavourOS e Arch. Ele inclui um patch ACS override que é importante para o funcionamento correto.Em resumo,
+esse conjunto de cabeçalhos e scripts é essencial para quem deseja desenvolver módulos para o kernel Linux-jcore e é especialmente útil para usuários desses sistemas operacionais
+mencionados.

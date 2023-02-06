@@ -1,0 +1,4 @@
+Esta biblioteca, chamada Libgraph, é semelhante à biblioteca gráfica 'graphics.h' do Turbo C, mas foi adaptada para
+funcionar em sistemas Linux. Com ela, é possível criar desenhos e gráficos de forma fácil e intuitiva, sem precisar se preocupar com detalhes técnicos.Alguns exemplos de coisas que você
+pode fazer com essa biblioteca incluem desenhar linhas, retângulos e círculos, além de exibir imagens e gráficos em geral.Se você estiver interessado em desenvolver programas gráficos para 
+Linux, essa biblioteca pode ser uma ótima opção para começar.

@@ -1,0 +1,3 @@
+Essa é uma biblioteca Python específica para o Sense HAT, que é um acessório para o Raspberry Pi. Ele permite que você use
+os sensores e os recursos do Sense HAT, como o acelerômetro, o giroscópio e a tela LED, em seus projetos com Python.Com essa biblioteca, você pode criar programas que respondam às ações do 
+usuário, como inclinar ou girar o dispositivo, ou que mostrem informações, como a temperatura ou a pressão atmosférica, na tela LED.

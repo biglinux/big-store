@@ -1,0 +1,1 @@
+Este programa é uma ponte entre os tipos GooCanvas2 e Cairo. Ele permite a utilização de recursos do Cairo em conjunto com o GooCanvas2, melhorando assim as funcionalidades e possibilidades de desenho. 

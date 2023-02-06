@@ -1,0 +1,3 @@
+Esse programa é um gancho (hook) para o gerenciador de pacotes pacman. Ele funciona para sincronizar o sistema de arquivos 
+com as atualizações e instalações do pacman.Isso significa que, quando você fizer uma atualização ou instalação usando o pacman, este gancho vai garantir que tudo esteja sincronizado e
+funcionando corretamente no seu sistema.

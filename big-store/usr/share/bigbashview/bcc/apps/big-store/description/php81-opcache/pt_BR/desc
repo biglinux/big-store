@@ -1,0 +1,3 @@
+O opcache é um módulo do Zend que otimiza o código PHP, tornando-o mais rápido e eficiente. Ele funciona armazenando as versões
+compiladas dos scripts em um cache, permitindo que essas versões sejam usadas diretamente ao invés de terem que ser recompiladas toda vez que o script for executado. Isso pode aumentar
+significativamente a velocidade de carregamento de páginas PHP e melhorar a performance do sistema. Este módulo é específico para a versão 8.1 do PHP.

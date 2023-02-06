@@ -1,0 +1,1 @@
+Este programa em Haskell oferece funções úteis para testar seus analisadores attoparsec com a biblioteca hspec. Ele permite que você facilmente verifique se seus analisadores estão funcionando corretamente e identificando erros rapidamente. 

@@ -1,0 +1,2 @@
+Os utilitários de driver NVIDIA são ferramentas desenvolvidas pela NVIDIA para auxiliar na configuração e gerenciamento de suas 
+placas de vídeo. Eles foram patchados para suportar vGPU, desbloquear Rust e permitir saída de DRM no host (32 bits).

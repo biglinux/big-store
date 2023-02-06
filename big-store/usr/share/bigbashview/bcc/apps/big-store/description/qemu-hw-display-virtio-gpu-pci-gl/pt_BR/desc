@@ -1,0 +1,1 @@
+O dispositivo de exibição virtio-gpu-pci-gl é usado no QEMU para permitir que a máquina virtual acesse a GPU do host. Isso permite que a VM exiba gráficos de alta qualidade e melhore o desempenho geral. 

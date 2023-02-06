@@ -1,0 +1,1 @@
+Este é um script Perl que utiliza chamadas ACPI para ThinkPads recentes, como o T420 e W520, cujos limites da bateria não são suportados pelo tp_smapi. Ele permite a você ajustar os limites de bateria, verificar o status da bateria e muito mais. É uma ferramenta útil para gerenciar a bateria do seu ThinkPad. 

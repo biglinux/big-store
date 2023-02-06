@@ -1,0 +1,3 @@
+Este programa é responsável por monitorar os serviços do sistema. Ele é semelhante ao sistema 'init' que gerencia os processos do
+sistema. Ele garante que os serviços estejam funcionando corretamente e, se algum deles parar, ele o reinicia automaticamente. Assim, você não precisa se preocupar em verificar manualmente 
+se os serviços estão funcionando.

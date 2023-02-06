@@ -1,0 +1,1 @@
+Este programa é uma adaptação das funções de serialização e desserialização do PHP para o Python. Isso permite que você converta dados em um formato que pode ser armazenado ou transmitido, e depois convertê-lo de volta em seu formato original. Isso é útil em situações em que você precisa compartilhar ou armazenar dados entre diferentes sistemas ou linguagens de programação. 

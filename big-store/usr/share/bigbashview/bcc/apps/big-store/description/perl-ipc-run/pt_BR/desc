@@ -1,0 +1,1 @@
+ O IPC::Run é um utilitário em Perl que permite a execução de processos em segundo plano, com possibilidade de encadear comandos através de pipes, redirecionamentos de entrada e saída e utilização de pseudoterminais (pty). 

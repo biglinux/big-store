@@ -1,0 +1,4 @@
+Este é um programa chamado php74-phpdbg, que é um depurador interativo para o PHP74. Ele ajuda a encontrar erros no seu código
+PHP, permitindo que você pare o código em um ponto específico e examine o que está acontecendo. Isso pode ser muito útil se você estiver tendo problemas para entender por que o seu código
+não está funcionando como você espera. Para usar o depurador, você precisará configurar o seu código PHP para usá-lo e, em seguida, executá-lo com alguns comandos específicos. Ele também
+pode ser integrado com outras ferramentas, como IDEs, para tornar o processo de depuração ainda mais fácil.

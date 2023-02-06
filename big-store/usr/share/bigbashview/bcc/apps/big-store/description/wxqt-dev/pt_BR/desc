@@ -1,0 +1,4 @@
+wxWidgets é uma biblioteca de interface gráfica que permite a criação de aplicativos multiplataforma, ou seja,
+programas que podem ser executados em diferentes sistemas operacionais como Windows, Linux e Mac. A implementação Qt é uma forma de utilizar essa biblioteca com a ferramenta de
+desenvolvimento Qt, tornando a criação de interfaces gráficas mais fácil e intuitiva. Essa implementação do wxWidgets é chamada de wxqt-dev e é ideal para desenvolvedores que desejam criar 
+programas com interface amigável e funcionais em vários sistemas operacionais.

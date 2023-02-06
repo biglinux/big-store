@@ -1,0 +1,3 @@
+Earthly é uma ferramenta de automação de construção que executa em containers. Com Earthly, você pode ter certeza de
+que seu processo de construção será reproduzível, confiável e rápido. Além disso, com o uso de containers, você garante que o ambiente de construção seja consistente em todas as etapas do
+processo, independentemente de onde você esteja trabalhando. Se você quer ter mais controle sobre sua construção e acelerar seu processo de desenvolvimento, experimente Earthly.

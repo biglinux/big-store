@@ -1,0 +1,1 @@
+fcitx-cloudpinyin é um módulo independente para o fcitx, que é um sistema de entrada de idiomas para o Linux. Ele usa uma API de pinyin (método de entrada de caracteres chinês) na internet para fornecer candidatos de entrada adicionais. Isso permite que o usuário digite caracteres chineses de forma mais rápida e precisa.  

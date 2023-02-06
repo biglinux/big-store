@@ -1,0 +1,3 @@
+Com o programa System Tar and Restore, você pode fazer backups completos do seu sistema e restaurá-los com facilidade. A
+ferramenta usa o comando tar para fazer o backup, e o rsync para transferir os arquivos para outro lugar. Assim, você sempre pode ter uma cópia de segurança do seu sistema, caso alguma
+coisa dê errado. É uma ótima opção para proteger seus arquivos importantes!

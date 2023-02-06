@@ -1,0 +1,3 @@
+Este é um programa chamado qtile-wayland-git. Ele é um gerenciador de janelas em formato de mosaico, ou seja,
+ele organiza as janelas abertas em sua tela de forma a ocupar o mínimo de espaço possível. Ele é escrito em Python e é especificamente projetado para funcionar com o protocolo Wayland. Esta
+é a versão git, o que significa que é uma versão em desenvolvimento ativo e pode conter bugs ou recursos incompletos.

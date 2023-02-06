@@ -1,0 +1,1 @@
+ python-spake2 é uma implementação pura em python do protocolo SPAKE2 (Simple Password-Authenticated Key Exchange). Ele fornece uma API de alto nível para realizar uma troca de chaves segura usando uma senha de baixa entropia. A biblioteca é projetada para ser fácil de usar e altamente segura, e é compatível com Python 2 e Python 3. 

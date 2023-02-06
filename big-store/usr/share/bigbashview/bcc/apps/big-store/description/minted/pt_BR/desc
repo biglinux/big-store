@@ -1,0 +1,1 @@
+minted é um pacote LaTeX que permite incluir código fonte com destaque de sintaxe de forma fácil e elegante. Ele usa o Pygments, um programa Python para destacar a sintaxe, para colorir o código e inclui várias opções de personalização. Com o minted, é possível incluir código de muitas linguagens  diferentes e deixar seus documentos LaTeX mais legíveis e profissionais. 

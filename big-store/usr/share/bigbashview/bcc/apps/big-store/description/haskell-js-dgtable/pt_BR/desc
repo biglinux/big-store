@@ -1,0 +1,1 @@
+Este programa permite obter o código minificado de jquery.dgtable. Isso significa que ele remove espaços em branco  e outras informações desnecessárias para tornar o código mais leve e rápido de carregar. Além disso, ele também utiliza a linguagem Haskell e JavaScript para funcionar. 

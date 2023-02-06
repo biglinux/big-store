@@ -1,0 +1,3 @@
+Com o sshping, você pode medir a latência de eco de caracteres e a largura de banda para uma sessão ssh interativa. Ele usa 
+o protocolo ssh para fazer isso, o que torna mais seguro e confiável do que outros métodos de medição.É uma ferramenta útil para administradores de rede, desenvolvedores e qualquer pessoa
+que precise avaliar o desempenho de uma conexão ssh.

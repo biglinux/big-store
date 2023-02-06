@@ -1,0 +1,2 @@
+Esta é uma biblioteca Python que permite ler e escrever arquivos de áudio usando libsndfile, CFFI e NumPy. Com ela, é possível
+fazer edições e manipulações de arquivos de áudio de forma fácil e prática, sem precisar lidar com códigos complexos.

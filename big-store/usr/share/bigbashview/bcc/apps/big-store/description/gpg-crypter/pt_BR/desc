@@ -1,0 +1,1 @@
+gpg-crypter é uma interface gráfica para  o GnuPG (GPG) que utiliza a biblioteca GTK3 e libgpgme para criptografar e descriptografar arquivos de maneira fácil e segura. 

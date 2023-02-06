@@ -1,0 +1,2 @@
+Esse programa serve para achar os servidores Mullvad que tem a menor latência de acordo com o ping. Ele vai te mostrar uma lista
+dos servidores que respondem mais rápido quando você pede para ele medir a velocidade de resposta.

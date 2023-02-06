@@ -1,0 +1,1 @@
+Os módulos do kernel do host Virtualbox são necessários para que o sistema operacional possa se comunicar com a máquina virtual criada no Virtualbox. Este pacote específico é compatível com o kernel Manjaro. 

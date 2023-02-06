@@ -1,0 +1,1 @@
+lua-yaml é uma biblioteca para Lua que permite trabalhar com arquivos no formato YAML. Ela fornece funções simples para ler e escrever arquivos YAML, além de converter entre YAML e outros formatos de dados suportados pelo Lua, como tabelas. Essa biblioteca é baseada na biblioteca LibYAML, que é  uma implementação eficiente e confiável do formato YAML. 

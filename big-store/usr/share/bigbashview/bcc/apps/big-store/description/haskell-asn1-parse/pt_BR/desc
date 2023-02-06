@@ -1,0 +1,1 @@
+haskell-asn1-parse é uma biblioteca simples de parsers monádicos para tipos de fluxo ASN1. Ele é escrito em Haskell e baseado na gramática ASN1 fornecida pela norma ITU-T X.680. A biblioteca oferece um conjunto de combinadores para parsear fluxos ASN1 e permite a criação fácil de parsers personalizados para estruturas ASN1 específicas. 

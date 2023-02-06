@@ -1,0 +1,4 @@
+A biblioteca libgnunetchat é um recurso para desenvolvedores que desejam adicionar recursos de bate-papo ao seus
+aplicativos utilizando o GNUnet, um sistema de rede descentralizado e seguro. Esta biblioteca fornece as funções necessárias para estabelecer conexões de bate-papo, enviar e receber
+mensagens e gerenciar contatos de bate-papo.Ao usar a libgnunetchat, os desenvolvedores podem confiar em alta segurança e privacidade, pois as mensagens são criptografadas antes de serem
+enviadas através da rede GNUnet. Além disso, a arquitetura descentralizada do GNUnet garante que as mensagens possam ser enviadas mesmo quando partes da rede estiverem offline.

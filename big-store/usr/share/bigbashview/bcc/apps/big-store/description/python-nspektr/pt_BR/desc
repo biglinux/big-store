@@ -1,0 +1,1 @@
+Este programa é um inspecionador de dependências de pacotes de distribuição. Ele foi feito para ajudar os desenvolvedores a entender quais pacotes precisam ser instalados para que um programa funcione corretamente. Ele foi escrito em python e chamado de python-nspektr. 

@@ -1,0 +1,3 @@
+Este é um driver específico para placas de vídeo da AMD que possuem a tecnologia Pro e suportam o OpenGL. Ele é responsável por
+garantir que essas placas funcionem corretamente com os programas que usam essa biblioteca gráfica.Com este driver, os usuários podem desfrutar de uma melhor performance e estabilidade em
+jogos e aplicativos gráficos que utilizam o OpenGL.

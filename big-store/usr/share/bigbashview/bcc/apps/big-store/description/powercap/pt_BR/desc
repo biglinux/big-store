@@ -1,0 +1,3 @@
+Este programa ajuda a controlar o consumo de energia do seu computador. Ele usa as configurações do Linux Power Capping
+Framework para garantir que seu computador não use mais energia do que o necessário.Isso é importante porque quanto menos energia seu computador usa, menos você gasta na conta de luz e
+menos impacto temos no meio ambiente.

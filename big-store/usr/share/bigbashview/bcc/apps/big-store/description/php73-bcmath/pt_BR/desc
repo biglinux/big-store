@@ -1,0 +1,4 @@
+Este é um módulo para o programa PHP 7.3 que adiciona funcionalidades de matemática para o usuário. Com ele, é possível
+realizar operações matemáticas avançadas, como trabalhar com números de precisão dupla e arredondamentos de números. Ele é bastante útil para aplicações que precisam de precisão matemática,
+como sistemas financeiros e científicos.O módulo bcmath é fácil de usar e pode ser instalado com poucos cliques. Ele é compatível com as versões mais recentes do PHP e é atualizado
+regularmente para garantir a segurança e a estabilidade do sistema.

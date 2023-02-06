@@ -1,0 +1,4 @@
+Este programa é responsável por instalar ou remover hooks para imagens do kernel Dracut, que são usadas
+pelo sistema de boot systemd. Com ele, você pode garantir que o seu sistema operacional inicialize corretamente com o kernel Dracut.Este programa é importante para quem precisa de uma
+configuração avançada para o sistema operacional, pois permite a instalação de hooks adicionais para a imagem do kernel, o que pode melhorar o desempenho ou adicionar recursos ao sistema
+operacional.

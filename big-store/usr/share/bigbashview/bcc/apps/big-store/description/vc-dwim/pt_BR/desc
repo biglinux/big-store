@@ -1,0 +1,4 @@
+Este programa fornece ferramentas úteis para ajudá-lo a controlar as versões do seu código e manter arquivos de
+registro de alterações. Ele é compatível com o sistema de controle de versão DWIM, o que significa que ele tenta fazer o que você quer que ele faça. Ele também é parte do projeto GNU, o que
+significa que é livre e de código aberto. Com ele, você pode facilmente rastrear alterações no seu código, reverter alterações indesejadas e colaborar com outros desenvolvedores. Além
+disso, ele também pode ser usado para manter registros detalhados de todas as alterações feitas no código, o que pode ser útil para rastreamento de bugs e solução de problemas.

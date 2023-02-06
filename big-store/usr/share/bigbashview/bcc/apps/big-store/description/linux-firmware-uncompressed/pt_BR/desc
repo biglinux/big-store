@@ -1,0 +1,3 @@
+ Este é um pacote de firmware para sistemas operacionais Linux. Ele inclui arquivos de firmware necessários para o
+funcionamento de diversos dispositivos, como placas de rede, dispositivos de armazenamento e outros. O diferencial deste pacote é que os arquivos de firmware não foram comprimidos, o que
+pode ser útil em algumas situações. 

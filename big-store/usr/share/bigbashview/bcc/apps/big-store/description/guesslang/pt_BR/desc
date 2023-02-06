@@ -1,0 +1,4 @@
+Este programa é capaz de identificar qual é a linguagem de programação utilizada em um código fonte. Isso pode ser 
+útil quando você está trabalhando em um projeto com várias linguagens diferentes ou quando você está tentando entender um código escrito por outra pessoa.Ele funciona analisando as
+características do código, como a estrutura e os comandos utilizados, e comparando-as com as características conhecidas das diferentes linguagens de programação. Dessa forma, ele é capaz de
+fornecer uma resposta precisa sobre qual é a linguagem utilizada.

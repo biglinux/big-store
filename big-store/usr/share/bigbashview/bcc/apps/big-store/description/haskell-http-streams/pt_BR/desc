@@ -1,0 +1,1 @@
+Este programa é um cliente HTTP escrito em Haskell, usando a biblioteca io-streams para lidar com fluxos de entrada e saída de dados. 

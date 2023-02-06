@@ -1,0 +1,2 @@
+ Este programa é uma extensão para o Flake8, um verificador de código para o Python. Ele ajuda a detectar problemas
+em argumentos padrão mutáveis em suas funções. Isso é útil para garantir que o seu código seja seguro e fácil de entender para outros desenvolvedores. 

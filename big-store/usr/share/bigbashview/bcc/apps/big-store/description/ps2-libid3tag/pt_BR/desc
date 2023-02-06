@@ -1,0 +1,3 @@
+Essa é uma biblioteca que permite manipular as informações de ID3 tag, que são usadas para identificar as músicas salvas
+em arquivos de áudio. Ela foi desenvolvida especialmente para ser usada no Playstation® 2, um console de videogame da Sony.Com essa biblioteca, é possível adicionar, editar ou remover
+informações como o título da música, o nome do artista, o álbum em que foi lançada e outras informações importantes sobre a música.

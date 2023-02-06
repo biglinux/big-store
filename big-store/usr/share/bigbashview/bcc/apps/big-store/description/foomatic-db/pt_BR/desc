@@ -1,0 +1,1 @@
+Foomatic é uma coleção de conhecimentos sobre impressoras, drivers e opções de driver armazenados em arquivos XML. Esses arquivos são usados pelo foomatic-db-engine para gerar arquivos PPD. O objetivo é tornar mais fácil a configuração de impressoras para os usuários, fornecendo informações completas sobre as impressoras e seus drivers disponíveis. 

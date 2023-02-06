@@ -1,0 +1,1 @@
+O pacote haskell-wcwidth fornece suporte para a largura de caracteres nativos em seu sistema. Isso significa que ele permite que aplicativos em Haskell lidem corretamente com caracteres largos, como em scripts asiáticos, para que eles possam ser exibidos e processados ​​de forma adequada. 

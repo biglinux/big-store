@@ -1,0 +1,3 @@
+Openstego é um programa para esconder informações. Ele funciona como uma espécie de 'tesoura invisível' para dados,
+permitindo que você coloque informações dentro de arquivos de imagem, audio e outros tipos de arquivos sem que as pessoas possam ver que há algo a mais lá.Além disso, o Openstego também
+possui funcionalidades de marca d'água, o que permite adicionar uma marca invisível em arquivos para saber se eles foram modificados ou não.

@@ -1,0 +1,3 @@
+Este programa é um compilador de C para o sistema operacional Linux mipsel. Ele é conhecido como um compilador cruzado, o que 
+significa que pode ser usado para criar programas em outros sistemas operacionais além do Linux mipsel. Ele também é conhecido como um compilador inicial, o que significa que é usado como
+etapa inicial para criar uma ferramenta de compilação cruzada.

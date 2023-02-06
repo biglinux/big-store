@@ -1,0 +1,3 @@
+A biblioteca rttr é uma biblioteca de reflexão para C++. Ela permite que você acesse informações sobre tipos, propriedades e
+métodos em tempo de execução. Isso pode ser útil para criar ferramentas de desenvolvimento, como depuradores ou geradores de código. A biblioteca é fácil de usar e tem uma boa
+documentação.

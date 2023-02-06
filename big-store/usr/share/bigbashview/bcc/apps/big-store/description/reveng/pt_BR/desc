@@ -1,0 +1,3 @@
+Este programa é uma calculadora de CRC de precisão arbitrária, o que significa que ele pode calcular o número de
+verificação de redundância cíclica (CRC) para arquivos de qualquer tamanho. Além disso, ele também pode encontrar o algoritmo de CRC mais adequado para um determinado arquivo. Isso é útil
+quando você deseja garantir que os arquivos estejam intactos e não foram modificados de alguma forma.

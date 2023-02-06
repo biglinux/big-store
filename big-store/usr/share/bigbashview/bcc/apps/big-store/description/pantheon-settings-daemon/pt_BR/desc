@@ -1,0 +1,1 @@
+ O pantheon-settings-daemon é um programa que gerencia as configurações padrão do ambiente de trabalho Pantheon. Ele é responsável por controlar as configurações como o layout do teclado, o gerenciador de janelas, entre outros. Ele é executado automaticamente quando você inicia o sistema operacional e garante que as configurações sejam aplicadas corretamente.  

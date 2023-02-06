@@ -1,0 +1,4 @@
+Este é um repositório de código para o driver de câmera Intel IPU6, específico para o processador Alder Lake. Ele
+inclui o código para o HAL (Hardware Abstraction Layer), que é uma camada intermediária entre o software e o hardware da câmera. Isso permite que o sistema operacional e outros programas
+possam acessar e controlar a câmera de maneira consistente. Este repositório é projetado para desenvolvedores que trabalham com a câmera Intel IPU6 no Alder Lake, e inclui código-fonte,
+documentação e outros recursos para ajudá-los a implementar e testar sua integração com o sistema. 

@@ -1,0 +1,1 @@
+O qemu-chardev-spice é um controlador de dispositivo de caractere para o QEMU que permite a comunicação entre o QEMU e o agente spice.Isso permite que o QEMU envie informações para o agente spice, como a tela da máquina virtual, teclado e mouse. Isso também permite que o agente  spice envie informações de volta para o QEMU, como ajustes de áudio e vídeo. 

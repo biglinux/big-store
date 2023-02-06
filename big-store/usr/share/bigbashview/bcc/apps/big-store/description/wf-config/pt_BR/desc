@@ -1,0 +1,4 @@
+Com a biblioteca wf-config, você pode facilmente gerenciar seus arquivos de configuração. Ela foi escrita
+especificamente para o programa wayfire, mas pode ser usada para outros propósitos também. Com ela, você pode ler, escrever e modificar seus arquivos de configuração de maneira fácil e
+rápida, sem precisar se preocupar com os detalhes técnicos. Além disso, a biblioteca também oferece recursos avançados como validação de configurações e suporte para arquivos em vários
+formatos, incluindo JSON e INI. Faça o gerenciamento de configuração de sua aplicação de uma forma mais fácil e eficiente com wf-config.

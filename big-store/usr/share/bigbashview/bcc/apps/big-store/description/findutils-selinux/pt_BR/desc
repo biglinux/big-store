@@ -1,0 +1,4 @@
+Ferramentas GNU para encontrar arquivos com suporte a SELinux. O pacote findutils-selinux permite que você localize
+arquivos específicos em seu sistema de arquivos, com suporte ao SELinux, um sistema de segurança adicional para o Linux. Ele inclui comandos como 'find', 'locate' e 'xargs' que são
+comumente usados para buscar arquivos em um sistema de arquivos. Com o suporte a SELinux, você pode ter mais controle sobre como os arquivos são acessados e gerenciados, dando mais
+segurança para o seu sistema. Este pacote é especialmente útil em ambientes comerciais e governamentais que precisam de maior segurança dos dados.

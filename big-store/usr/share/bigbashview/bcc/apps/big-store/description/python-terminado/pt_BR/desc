@@ -1,0 +1,1 @@
+Este programa utiliza o Tornado para servir terminais através de websockets. Ele é escrito em Python e utiliza a biblioteca terminado para gerenciar as sessões de terminal. 

@@ -1,0 +1,4 @@
+ O programa 'makedep' tem como objetivo ajudar a converter dependências opcionais do Pacman em dependências
+reais. Isso significa que, com o uso deste programa, pacotes que antes eram somente recomendados agora se tornarão necessários para o funcionamento correto do sistema.Isso pode ser útil
+em casos em que você deseja ter certeza de que todos os pacotes instalados em seu sistema são realmente necessários e não apenas recomendados. Além disso, isso pode ajudar a liberar espaço 
+em disco e garantir que o sistema funcione de forma mais eficiente. 

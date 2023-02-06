@@ -1,0 +1,1 @@
+Este programa permite extrair e criar arquivos tar usando a biblioteca conduit. Isso significa que ele pode lidar com arquivos grandes de forma eficiente, transmitindo-os em fluxos ao invés de carregá-los inteiros na memória. Além disso, ele é escrito em Haskell, uma linguagem de programação de alto nível e tipada estaticamente. 

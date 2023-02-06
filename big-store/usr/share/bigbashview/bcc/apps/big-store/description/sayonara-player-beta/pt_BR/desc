@@ -1,0 +1,2 @@
+Sayonara é um pequeno, claro e rápido player de áudio para Linux escrito em C++, suportado pelo framework Qt. Ele utiliza o
+Gstreamer como backend de áudio.

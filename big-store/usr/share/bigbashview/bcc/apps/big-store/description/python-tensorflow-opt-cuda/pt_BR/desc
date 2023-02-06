@@ -1,0 +1,1 @@
+ Essa é uma biblioteca para realizar cálculos usando fluxo de dados para aprendizado de máquina escalável. Ela possui otimizações para uso com CUDA e AVX2 em processadores. Essa biblioteca é escrita em Python e se chama python-tensorflow-opt-cuda. 

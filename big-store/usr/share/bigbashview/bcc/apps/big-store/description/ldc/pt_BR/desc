@@ -1,0 +1,1 @@
+Este é um compilador D baseado na infraestrutura de compilador LLVM, incluindo tempo de execução D  e libphobos2. Ele é chamado ldc. 

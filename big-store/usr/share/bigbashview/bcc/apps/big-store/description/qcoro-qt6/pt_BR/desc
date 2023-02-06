@@ -1,0 +1,1 @@
+qcoro-qt6 é uma biblioteca para usar coroutines (rotinas que podem ser suspensas e retomadas) no C++ com a biblioteca de desenvolvimento de interface gráfica Qt. Ela permite escrever código de forma mais simples e organizada, tornando o desenvolvimento de aplicativos mais fácil e eficiente. 

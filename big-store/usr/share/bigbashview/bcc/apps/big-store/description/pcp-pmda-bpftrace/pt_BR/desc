@@ -1,0 +1,1 @@
+ O PCP Performance Metrics Domain Agent (PMDA) para bpftrace é uma ferramenta para coletar métricas de scripts bpftrace. Ele permite usar scripts bpftrace para coletar e medir métricas em sistemas Linux usando a máquina virtual BPF. O PMDA fornece uma maneira de exportar essas métricas para  a infraestrutura do PCP, disponibilizando-as para visualização e alertas.  

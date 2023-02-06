@@ -1,0 +1,1 @@
+ libglib-testing é uma biblioteca que fornece ferramentas de teste e classes simuladas para o GLib, uma biblioteca de sistema usada em aplicativos para sistemas Unix e Unix-like. Essas ferramentas e classes simuladas ajudam desenvolvedores a testar seus aplicativos que usam o GLib de maneira  mais eficiente e precisa.  

@@ -1,0 +1,3 @@
+ Com o nbqa, é possível verificar a qualidade de código de um Jupyter Notebook usando ferramentas padrão de
+Python.basta rodar o programa e ele irá analisar o notebook atual, mostrando quais trechos de código precisam ser melhorados ou corrigidos.É uma ótima maneira de garantir que o seu
+código esteja limpo e de fácil entendimento para todos que trabalham no projeto. 

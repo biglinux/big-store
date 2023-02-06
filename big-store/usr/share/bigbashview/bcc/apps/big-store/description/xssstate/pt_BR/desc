@@ -1,0 +1,1 @@
+Este é um programa simples que permite recuperar o estado atual do protetor de tela X. Ele fornece informações sobre se o protetor de tela está ativo ou inativo e, se estiver ativo, qual é o modo atual. Isso pode ser útil para automatizar tarefas ou criar scripts que dependem do  estado do protetor de tela. O programa é fácil de usar e não requer configuração adicional. 

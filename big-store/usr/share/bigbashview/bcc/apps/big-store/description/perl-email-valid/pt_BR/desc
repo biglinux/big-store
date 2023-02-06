@@ -1,0 +1,4 @@
+Este programa é utilizado para verificar se um endereço de email é válido na internet. Ele faz uma verificação
+completa do endereço, incluindo se o domínio existe e se o endereço de email está registrado nele. Isso é útil para evitar erros de digitação ao enviar emails e garantir que a mensagem
+chegue ao destinatário correto. Além disso, ele pode ser utilizado em aplicativos e sistemas que precisam garantir a validade dos endereços de email fornecidos pelos usuários, como
+formulários de cadastro e processos de recuperação de senha. 

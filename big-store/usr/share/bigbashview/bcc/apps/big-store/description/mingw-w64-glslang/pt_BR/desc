@@ -1,0 +1,3 @@
+Este programa é um compilador de shaders GLSL para uso com as bibliotecas OpenGL e OpenGL ES. Ele é capaz de
+transformar o código escrito em GLSL em uma forma que a placa gráfica possa entender e executar. Além disso, também valida o código para garantir que ele esteja correto antes de ser enviado
+para a GPU. Este programa está disponível na versão para Windows usando o compilador mingw-w64.

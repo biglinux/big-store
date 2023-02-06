@@ -1,0 +1,2 @@
+Hypnotix-wayland é um aplicativo de streaming de IPTV com suporte ao Wayland. Ele é baseado no pacote do Github do Linux Mint
+e foi modificado para funcionar com o Wayland, conforme mencionado no repositório do Hypnotix. Ele funciona muito bem, mesmo se você usar o X11.

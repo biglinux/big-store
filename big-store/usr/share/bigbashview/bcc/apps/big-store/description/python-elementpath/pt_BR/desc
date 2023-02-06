@@ -1,0 +1,1 @@
+Este programa é utilizado para trabalhar com os parsers e selectors do XPath 1.0/2.0. Ele é compatível com as bibliotecas ElementTree e lxml do Python. Com ele é possível realizar buscas e seleções avançadas em arquivos XML e HTML de forma simples e eficiente. 

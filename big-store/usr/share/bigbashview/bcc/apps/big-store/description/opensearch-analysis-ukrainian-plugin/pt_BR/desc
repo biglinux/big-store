@@ -1,0 +1,1 @@
+Este plugin de análise ucraniano integra o Lucene UkrainianMorfologikAnalyzer em opensearch. Isso permite que  o opensearch faça análise gramatical e morfológica do idioma ucraniano, tornando as pesquisas mais precisas e relevantes. 

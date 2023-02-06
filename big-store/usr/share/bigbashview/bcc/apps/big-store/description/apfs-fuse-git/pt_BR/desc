@@ -1,0 +1,3 @@
+Este programa é um driver para o sistema de arquivos APFS (Apple File System) utilizando o FUSE (Filesystem in
+Userspace). Ele permite que o sistema de arquivos APFS seja montado e acessado em sistemas operacionais que não suportam nativamente esse sistema de arquivos, como o Linux. Isso significa
+que você pode acessar arquivos e pastas em um dispositivo APFS sem precisar de um sistema operacional da Apple.

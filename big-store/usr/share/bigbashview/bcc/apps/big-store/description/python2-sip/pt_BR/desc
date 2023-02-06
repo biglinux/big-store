@@ -1,0 +1,4 @@
+Este programa é conhecido como python2-sip e é uma versão antiga dos bindings para bibliotecas em C e
+C++, feitas em Python 2. Ele é importante para quem precisa utilizar bibliotecas antigas que foram escritas para essa versão do Python e não foram atualizadas para versões mais recentes. Se
+você está trabalhando com projetos antigos, esse programa pode ser extremamente útil para você. Além disso, ele é uma boa opção para aqueles que estão aprendendo sobre programação em Python
+e querem explorar o legado da linguagem. 

@@ -1,0 +1,1 @@
+ O pacote perl-locale-gettext permite acesso a partir do Perl para as funções da família gettext(). Isso é útil para programas que precisam exibir mensagens traduzidas para diferentes idiomas. Com esse pacote, é possível utilizar as funções gettext() e ngettext() diretamente em scripts Perl.  

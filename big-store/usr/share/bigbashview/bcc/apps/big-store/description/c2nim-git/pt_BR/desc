@@ -1,0 +1,4 @@
+C2Nim é uma ferramenta para traduzir código em Ansi C para o linguagem de programação Nim. Ele ajuda
+desenvolvedores a reutilizar seu código existente em um novo projeto, sem precisar refazer tudo do zero. Com C2Nim, é possível converter código C para Nim de forma rápida e fácil,
+economizando tempo e esforço.Além disso, C2Nim também oferece suporte para a tradução de código C para outras linguagens como C++ e C#, tornando ainda mais flexível e útil para
+desenvolvedores.

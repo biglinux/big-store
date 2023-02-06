@@ -1,0 +1,1 @@
+Diffutils é um conjunto de programas de linha de comando que ajudam a encontrar diferenças entre arquivos ou entre arquivos e diretórios. Eles são comumente usados para criar arquivos de patch, que contêm as diferenças entre versões antigas e novas de um software. Os programas incluem  'diff', 'cmp' e 'sdiff'. 

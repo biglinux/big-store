@@ -1,0 +1,4 @@
+Com o pipman-git, você pode facilmente gerenciar seus pacotes pip. Ele permite que você gere um arquivo PKGBUILD a
+partir de pacotes pip, tornando o processo de instalação de pacotes muito mais simples e rápido. Ele é especialmente útil para desenvolvedores que precisam gerenciar muitos pacotes
+diferentes em seus projetos. Com o pipman-git, você pode gerar arquivos PKGBUILD de forma automatizada e facilmente instalar pacotes pip. Ele também permite que você faça atualizações e
+desinstale pacotes com facilidade. É uma ferramenta poderosa e fácil de usar para gerenciar seus pacotes pip.

@@ -1,0 +1,1 @@
+Este programa permite adicionar informações úteis, como título, artista e data, aos arquivos de áudio. Ele é escrito em Python e usa a biblioteca python-mediafile para ler e escrever essas informações. 

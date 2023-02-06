@@ -1,0 +1,3 @@
+Com o Qbec, você pode configurar objetos Kubernetes em vários clusters de maneira fácil e rápida, usando a linguagem Jsonnet. 
+Isso significa que você pode controlar vários ambientes, como desenvolvimento, teste e produção, de forma consistente e sem precisar fazer configurações manuais em cada um deles. Além
+disso, o Qbec também permite que você faça rollbacks e versionamento dos seus objetos, garantindo maior segurança e facilidade na gestão do seu cluster Kubernetes.

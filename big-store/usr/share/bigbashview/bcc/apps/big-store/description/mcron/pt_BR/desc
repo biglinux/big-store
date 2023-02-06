@@ -1,0 +1,2 @@
+O mcron é um programa que te ajuda a agendar tarefas para serem realizadas automaticamente no seu computador. Ele é construído com
+o Pure Guile, e é uma alternativa compatível para o programa cron.

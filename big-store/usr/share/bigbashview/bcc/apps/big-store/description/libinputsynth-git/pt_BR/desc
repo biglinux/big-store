@@ -1,0 +1,3 @@
+Este programa é chamado de libinputsynth-git e ele ajuda a criar entradas de desktop para sistemas X11 e Wayland. Isso
+significa que ele pode simular ações do mouse e do teclado, como se você estivesse clicando e digitando coisas na tela. Isso pode ser útil para automatizar tarefas ou criar scripts de
+teste.

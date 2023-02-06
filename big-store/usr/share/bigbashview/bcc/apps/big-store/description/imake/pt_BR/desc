@@ -1,0 +1,1 @@
+O imake é uma ferramenta de construção que é geralmente usada para construir o sistema X Window. Ele usa um  modelo de Makefile e um conjunto de macros cpp para gerar o Makefile final. O imake também é usado para construir outras ferramentas relacionadas que são necessárias para construir o sistema X Window. 

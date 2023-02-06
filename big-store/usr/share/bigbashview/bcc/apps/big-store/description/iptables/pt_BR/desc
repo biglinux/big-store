@@ -1,0 +1,1 @@
+iptables é uma ferramenta de linha de comando que permite configurar as tabelas do kernel do Linux, que são usadas para controlar o tráfego de pacotes de rede. Ele pode ser usado para bloquear ou permitir pacotes específicos baseados em regras configuradas pelo usuário. Ele é baseado em uma interface antiga, mas ainda é amplamente utilizado em sistemas Linux. 

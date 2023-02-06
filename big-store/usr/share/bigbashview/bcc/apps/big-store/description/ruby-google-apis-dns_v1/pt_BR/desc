@@ -1,0 +1,3 @@
+Este programa é chamado de ruby-google-apis-dns_v1 e é um cliente REST simples para a API V1 do Cloud DNS. Ele permite 
+que você faça chamadas para o serviço de DNS do Google usando a linguagem Ruby. Com ele, você pode gerenciar seus registros de DNS de maneira simples e eficiente. Ele é especialmente útil
+para desenvolvedores que precisam automatizar tarefas de gerenciamento de DNS.

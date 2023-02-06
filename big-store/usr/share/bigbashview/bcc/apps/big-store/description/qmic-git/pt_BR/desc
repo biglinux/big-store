@@ -1,0 +1,3 @@
+Este é um programa chamado Qmic-git que tem como função compilar arquivos IDL do QMI. IDL significa Interface Description Language e é uma
+forma de descrever como diferentes programas podem se comunicar entre si. O QMI é um protocolo de comunicação que é usado em dispositivos móveis, como smartphones. Este programa é útil para
+desenvolvedores que precisam trabalhar com arquivos IDL do QMI.

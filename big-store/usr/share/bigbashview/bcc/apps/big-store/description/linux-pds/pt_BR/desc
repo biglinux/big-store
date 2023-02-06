@@ -1,0 +1,2 @@
+Este é um kernel Linux personalizado com o escalonador de CPU PDS desenvolvido por Alfred Chen e reestruturado por TkG. Ele 
+oferece melhorias no gerenciamento de processos para obter um desempenho mais rápido e eficiente em sistemas Linux.

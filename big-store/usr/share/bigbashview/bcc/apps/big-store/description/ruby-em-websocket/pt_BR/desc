@@ -1,0 +1,5 @@
+Este programa é um servidor WebSocket baseado em EventMachine, escrito em Ruby. Ele permite que
+aplicações WebSocket sejam criadas e gerenciadas com facilidade, usando a popular linguagem de programação Ruby. Além disso, ele se integra perfeitamente com outras bibliotecas e
+ferramentas Ruby, como Rails e Sinatra, tornando a criação de aplicações WebSocket ainda mais simples e rápida.O servidor suporta todas as principais funcionalidades do protocolo WebSocket,
+incluindo mensagens de texto e binárias, ping e pong, e muito mais. Ele também é escalável e pode lidar com muitas conexões simultaneamente, tornando-o ideal para aplicações de grande
+porte.

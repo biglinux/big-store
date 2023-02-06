@@ -1,0 +1,1 @@
+Este programa estende a biblioteca Hypothesis, permitindo a realização de testes automáticos completos em funções que possuem anotações de tipo. Isso garante que a função esteja funcionando corretamente e de acordo com as especificações, garantindo  assim que o código seja robusto e confiável. 

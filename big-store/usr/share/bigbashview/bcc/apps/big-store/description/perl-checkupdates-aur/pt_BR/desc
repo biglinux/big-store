@@ -1,0 +1,4 @@
+Este programa é feito para verificar se há atualizações disponíveis nos pacotes do Arch User Repository (AUR). Ele mostra quais 
+pacotes estão desatualizados e a versão mais recente disponível. Desta forma, você pode atualizar facilmente seus pacotes e ter sempre a última versão instalada.Este é especialmente útil se
+você é um usuário avançado do Arch Linux ou outra distribuição baseada no Arch Linux, pois o AUR é um repositório de software comunitário onde qualquer pessoa pode enviar pacotes. Isso
+significa que as atualizações podem não ser lançadas automaticamente pelo gerenciador de pacotes da distribuição.

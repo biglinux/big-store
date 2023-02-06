@@ -1,0 +1,4 @@
+Sirikali é um programa que ajuda a proteger seus arquivos com criptografia. Ele possui uma interface gráfica fácil de
+usar, desenvolvida com a biblioteca Qt e escrita em C++. Ele suporta vários sistemas de criptografia, como sshfs, ecryptfs-simple, cryfs, gocryptfs, securefs, fscrypt e encfs.Com Sirikali, 
+você pode escolher qual sistema de criptografia usar para proteger seus arquivos e pastas, e gerenciá-los facilmente. Ele também permite que você crie senhas fortes e seguras para proteger 
+seus arquivos.

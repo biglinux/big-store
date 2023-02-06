@@ -1,0 +1,4 @@
+Este programa, chamado qt-inspector-qt5-git, é uma ferramenta útil para desenvolvedores de aplicativos
+Qt. Ele permite visualizar a árvore de widgets usada em um aplicativo Qt, o que facilita a identificação de problemas e a criação de novas funcionalidades. Ele é especialmente útil para
+aplicativos complexos com muitos widgets diferentes.Além disso, esse programa é mantido como um repositório git, o que significa que os usuários podem contribuir com correções de bugs e
+novos recursos.

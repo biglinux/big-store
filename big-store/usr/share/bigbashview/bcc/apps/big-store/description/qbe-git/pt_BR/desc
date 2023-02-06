@@ -1,0 +1,3 @@
+Este programa é um compilador C pequeno e embutível. Ele é projetado para ser usado como parte de outros programas, permitindo que eles
+compilam e execute código escrito em C. Ele é chamado de qbe-git e é um backend, ou parte traseira, de um compilador. Isso significa que ele é responsável por transformar o código escrito
+pelo programador em uma forma que a máquina possa entender e executar.

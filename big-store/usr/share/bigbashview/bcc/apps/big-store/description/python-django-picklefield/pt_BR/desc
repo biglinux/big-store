@@ -1,0 +1,1 @@
+Esse programa é um campo de objeto em conserva para uso no framework Django. Ele permite armazenar objetos Python no  banco de dados de forma segura e eficiente, possibilitando a recuperação dos mesmos sempre que necessário.Em outras palavras, é uma maneira de salvar coisas complexas no banco de dados, como listas, dicionários e outros objetos do Python. 

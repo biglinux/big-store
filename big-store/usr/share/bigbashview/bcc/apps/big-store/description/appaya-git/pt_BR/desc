@@ -1,0 +1,4 @@
+ Este é um aplicativo para usuários do Gnome que desejam monitorar e controlar o daemon Syncthing. Ele permite que você
+visualize e gerencie facilmente seus arquivos sincronizados, sem precisar digitar comandos no terminal. Além disso, ele fornece notificações sobre qualquer atividade suspeita no daemon.
+Com esse aplicativo, você pode verificar facilmente o status de seus arquivos sincronizados, ver o uso de banda e até mesmo pausar ou reiniciar o daemon, tudo isso com apenas alguns
+cliques. 

@@ -1,0 +1,1 @@
+Este programa fornece utilitários para trabalhar com a ordem de bytes de rede em Haskell, como conversão de endianness  e operações de leitura e escrita de pacotes de rede. 

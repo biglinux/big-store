@@ -1,0 +1,2 @@
+Este programa cria uma barra de status para usar em compositor Wayland (wlroots). Ele usa blocos para exibir informações
+importantes para você, como hora, data, bateria e muito mais. Ele é fácil de personalizar e usar, e é perfeito para quem quer ter um visual mais organizado na tela.

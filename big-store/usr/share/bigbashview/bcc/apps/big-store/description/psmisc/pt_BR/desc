@@ -1,0 +1,1 @@
+Este programa contém várias ferramentas úteis para gerenciar o sistema usando o procfs, um sistema de arquivos virtual que fornece informações sobre o estado do sistema e do processo. O pacote psmisc inclui comandos como fuser, killall e pstree, entre outros, que permitem gerenciar processos, exibir a árvore de processos e matar processos de forma segura. 

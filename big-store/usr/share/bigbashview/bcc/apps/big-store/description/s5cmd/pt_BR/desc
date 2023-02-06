@@ -1,0 +1,4 @@
+ s5cmd é uma ferramenta poderosa que permite a você executar ações em arquivos e pastas tanto na sua máquina local
+quanto no Amazon S3. Ele é especialmente útil se você precisar fazer backup de arquivos grandes ou transferir arquivos para o armazenamento em nuvem. Com s5cmd, você pode facilmente copiar,
+mover, excluir e sincronizar arquivos entre esses dois sistemas de armazenamento. Ele também suporta a execução paralela, o que significa que várias tarefas podem ser executadas ao mesmo
+tempo, economizando tempo e aumentando a eficiência. 

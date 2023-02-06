@@ -1,0 +1,3 @@
+Este programa é uma versão em desenvolvimento de regras genéricas para o brltty, um software que ajuda
+pessoas com deficiência visual a usarem o computador. Ele se conecta ao sistema de gerenciamento de dispositivos do Linux, o udev, para fornecer suporte para leitores de tela e outros
+dispositivos de acessibilidade.Com este programa, as pessoas com deficiência visual poderão usar o computador de forma mais fácil e acessível.

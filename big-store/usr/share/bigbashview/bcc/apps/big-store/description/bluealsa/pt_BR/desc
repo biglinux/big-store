@@ -1,0 +1,4 @@
+ Bluealsa é um backend de áudio Bluetooth para sistemas operacionais Linux. Isso significa que ele permite que
+dispositivos Bluetooth, como fones de ouvido, alto-falantes e outros dispositivos de áudio, se conectem ao seu computador ou dispositivo Linux e reproduzam áudio. Bluealsa é compatível com 
+a biblioteca de som ALSA, que é amplamente utilizada no Linux. Isso significa que ele é compatível com a maioria das aplicações de áudio e reprodução de mídia no Linux.Bluealsa é uma
+ferramenta útil para quem deseja usar dispositivos Bluetooth de áudio no Linux sem problemas. Ele é fácil de configurar e usar, e oferece uma boa qualidade de áudio. 

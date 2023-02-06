@@ -1,0 +1,1 @@
+Este programa é chamado de prometheus-node-exporter e é utilizado para exportar métricas de máquina para que possam ser acompanhadas e analisadas. Ele permite que você acompanhe o uso de recursos como CPU, memória, disco e rede, entre outros, e ajuda a identificar problemas e otimizar o desempenho da sua máquina. 

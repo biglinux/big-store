@@ -1,0 +1,3 @@
+Este programa oferece suporte OpenCL para drivers Mesa. É uma versão em desenvolvimento constante, por isso é chamada de
+versão 'git'.O objetivo é fornecer uma solução confiável e eficiente para a utilização de OpenCL com drivers Mesa, tornando mais fácil para os usuários aproveitarem todas as funcionalidades
+do OpenCL em seus sistemas.

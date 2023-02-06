@@ -1,0 +1,3 @@
+Este programa permite que você adicione um efeito de câmera lenta aos seus vídeos. Ele funciona através de uma técnica
+chamada de interpolacão, que basicamente adiciona quadros extras entre os quadros existentes do vídeo, fazendo com que a reprodução fique mais devagar. Isso pode ser útil para criar efeitos
+dramáticos ou apenas para dar mais tempo para ver detalhes em cenas rápidas. 

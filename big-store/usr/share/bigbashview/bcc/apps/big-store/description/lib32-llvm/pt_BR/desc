@@ -1,0 +1,1 @@
+Este é um programa que fornece uma infraestrutura de compilação para sistemas de 32 bits. Ele é baseado na biblioteca lib32-llvm e permite que você compile seu código para rodar em sistemas de 32 bits. Com ele, você pode ter certeza de que seu código está sendo compilado corretamente e de forma otimizada para o sistema em questão. 

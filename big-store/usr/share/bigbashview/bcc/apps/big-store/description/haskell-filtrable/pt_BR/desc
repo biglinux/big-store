@@ -1,0 +1,1 @@
+Este programa é escrito em Haskell e fornece uma classe de conteineres filtráveis. Isso significa que ele permite que os usuários filtrem os itens dentro do contêiner de acordo com um determinado critério. Por exemplo, você poderia usar essa classe para filtrar uma lista de números para incluir somente números pares. É uma ferramenta útil para trabalhar com coleções de dados. 

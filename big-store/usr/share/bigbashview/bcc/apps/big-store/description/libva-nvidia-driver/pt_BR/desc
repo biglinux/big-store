@@ -1,0 +1,3 @@
+Este é um programa chamado libva-nvidia-driver. Ele é usado para ajudar outros programas a acessar a VA-API, que é uma
+forma de usar a placa gráfica da Nvidia para reproduzir vídeos. Ele funciona como um tipo de intermediário entre os programas e a placa gráfica.É importante para usuários que possuem uma
+placa gráfica Nvidia e desejam assistir vídeos de alta qualidade.

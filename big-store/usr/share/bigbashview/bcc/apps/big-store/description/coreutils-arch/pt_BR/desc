@@ -1,0 +1,4 @@
+O comando arch do GNU Coreutils é uma ferramenta que permite a você ver qual é a arquitetura da sua máquina. Ele exibe se você 
+está usando um sistema operacional de 32 ou 64 bits. É uma informação útil quando você está instalando programas e precisa saber qual versão baixar.Com esse comando, você pode ver
+rapidamente qual é a arquitetura do seu sistema sem precisar sair do terminal ou abrir as configurações do sistema. É uma ferramenta simples, mas muito útil para usuários avançados ou para 
+quem está começando a trabalhar com sistemas operacionais.

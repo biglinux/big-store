@@ -1,0 +1,3 @@
+Pac-Wrapper é um gerenciador de pacotes para sistemas operacionais como o Arch Linux, que oferece uma sintaxe intuitiva
+semelhante a outros gerenciadores de pacotes como o DNF, APT, Zypper, entre outros. Ele permite instalar, atualizar e remover pacotes de forma fácil e rápida. Além disso, ele possui
+recursos avançados como gerenciamento de dependências e resolução de conflitos.

@@ -1,0 +1,2 @@
+O Comunicador por Scripts é baseado na biblioteca Qt5 e permite a comunicação através de diversos protocolos, como Serial, TCP, UDP, 
+SPI e CAN. É possível escrever scripts para automatizar tarefas e ter uma interface terminal para acompanhar as informações.

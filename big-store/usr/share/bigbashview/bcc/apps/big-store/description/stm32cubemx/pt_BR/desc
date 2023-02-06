@@ -1,0 +1,2 @@
+Ferramenta de configuração gráfica para microcontroladores STM32 chamada STM32CubeMX. Ele
+permite gerar código de inicialização C para esses microcontroladores.

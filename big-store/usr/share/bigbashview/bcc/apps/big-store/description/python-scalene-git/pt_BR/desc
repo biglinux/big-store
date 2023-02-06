@@ -1,0 +1,3 @@
+Scalene é uma ferramenta de perfilamento de desempenho e precisão para Python. Ela permite medir o uso de CPU e
+memória de seu programa e identificar onde ele está consumindo mais recursos. Isso é útil para otimizar o desempenho do seu código e encontrar gargalos de desempenho. Além disso, Scalene é 
+uma ferramenta open-source, o que significa que você pode usá-la gratuitamente e contribuir para o seu desenvolvimento.

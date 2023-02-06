@@ -1,0 +1,3 @@
+ libpdfium-nojs é uma engine de renderização de PDF de código aberto. Ele permite que desenvolvedores incorporem
+visualização e interação com arquivos PDF em seus aplicativos sem precisar de um software de leitor de PDF externo. Além disso, ele é compatível com múltiplas plataformas, incluindo
+Windows, Mac e Linux. 

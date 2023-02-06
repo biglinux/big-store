@@ -1,0 +1,3 @@
+ Este é um pacote chamado python-asciimatics. Ele permite fazer operações semelhantes às do curses, além de
+APIs e widgets de nível mais alto para criar interfaces de texto e animações de arte ASCII. É uma ferramenta útil para quem deseja criar programas de linha de comando ou simples jogos de
+texto. 

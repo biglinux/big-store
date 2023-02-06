@@ -1,0 +1,2 @@
+Este programa é um sistema de módulos de ambiente baseado em Lua que resolve o problema da hierarquia de
+MODULEPATH. Ele também suporta módulos legados em TCL.

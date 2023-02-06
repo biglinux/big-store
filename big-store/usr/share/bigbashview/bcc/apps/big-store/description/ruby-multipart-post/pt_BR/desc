@@ -1,0 +1,1 @@
+ruby-multipart-post é um acessório para o Net::HTTP que permite enviar formulários múltiplos. Com ele, você pode enviar vários arquivos e dados ao mesmo tempo, tornando o processo mais rápido e eficiente. 

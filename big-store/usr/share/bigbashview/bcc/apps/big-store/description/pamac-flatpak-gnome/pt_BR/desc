@@ -1,0 +1,2 @@
+ Pamac é um gerenciador de pacotes para Linux que possui suporte ao AUR (repositório de pacotes para Arch Linux), Flatpak e
+AppIndicator. Além disso, ele também é integrado com o ambiente de desktop GNOME. Ele usa uma interface gráfica feita com Gtk3 e libalpm. 

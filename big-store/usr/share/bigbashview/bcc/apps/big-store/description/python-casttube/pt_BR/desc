@@ -1,0 +1,3 @@
+Este programa é uma API para o Chromecast do YouTube. Ele permite que você controle o Chromecast usando o Python. Isso
+significa que você pode escrever programas que possam fazer coisas como mudar o vídeo que está sendo reproduzido, ajustar o volume, pausar e retomar, entre outras coisas. É útil se você
+quiser automatizar alguma coisa relacionada ao Chromecast ou se quiser escrever um aplicativo personalizado para controlá-lo.

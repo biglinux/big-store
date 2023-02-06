@@ -1,0 +1,3 @@
+ fan2go-git é um programa simples que oferece um controle dinâmico da velocidade do ventilador baseado em
+sensores de temperatura. Ele funciona como um 'daemon', ou seja, um programa que fica rodando em segundo plano, monitorando constantemente a temperatura do sistema e ajustando a velocidade 
+do ventilador de acordo. Isso pode ajudar a manter o seu computador mais fresco e silencioso, além de prolongar a vida útil do seu hardware. 

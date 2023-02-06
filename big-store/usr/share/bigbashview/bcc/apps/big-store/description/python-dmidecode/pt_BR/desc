@@ -1,0 +1,4 @@
+Este é um programa feito em Python que te permite acessar dados DMI (Desktop Management Interface) de seu computador. Ele é útil
+para ver informações sobre a placa-mãe, processador, memória e outros componentes importantes do seu computador. Ele funciona como um módulo Python, o que significa que pode ser facilmente 
+incorporado em outros programas.Com ele você pode ver informações detalhadas sobre o seu computador, como o fabricante, modelo, número de série e muito mais. É uma ferramenta útil para
+administradores de sistemas e desenvolvedores que precisam de informações sobre a configuração de hardware de seus computadores.

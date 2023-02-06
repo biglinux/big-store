@@ -1,0 +1,2 @@
+Este programa é um bootloader USB para o microcontrolador ATTiny, com ênfase na compactibilidade do bootloader. Ele permite
+que você carregue novos programas em seu dispositivo sem precisar de um programador externo. Ele é chamado de micronucleus.

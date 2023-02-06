@@ -1,0 +1,3 @@
+Este programa é uma implementação em Python dos algoritmos de criptografia DES e TRIPLE DES. Ele permite criptografar
+e descriptografar informações de forma segura usando esses algoritmos conhecidos e confiáveis.Com ele, você pode proteger dados sensíveis, como senhas e informações pessoais, de forma
+eficiente e garantir que somente as pessoas autorizadas possam acessá-las.

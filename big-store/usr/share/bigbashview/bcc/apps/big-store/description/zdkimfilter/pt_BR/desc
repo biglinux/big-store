@@ -1,0 +1,2 @@
+Este é um filtro zDKIM para o Courier-MTA, que utiliza a biblioteca do projeto OpenDKIM. Ele ajuda a verificar se as
+mensagens de email recebidas foram enviadas pelo remetente real e não por alguém mal intencionado. Isso garante uma maior segurança para o seu email.

@@ -1,0 +1,2 @@
+Este programa é útil para ver as teclas que estão sendo pressionadas em uma sessão Wayland. Ele pode ser útil para
+diagnosticar problemas ou simplesmente para saber quais teclas foram pressionadas. Ele funciona com todos os teclados e idiomas.

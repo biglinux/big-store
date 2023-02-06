@@ -1,0 +1,1 @@
+Este é um plugin para o pytest, uma ferramenta de teste para o Python, que permite definir variáveis de ambiente no arquivo pytest.ini ou pyproject.toml. Isso pode ser útil para configurar o ambiente de teste de forma rápida e fácil.Por exemplo, você pode definir a variável 'ambiente' como 'teste' para que seus testes saibam em qual ambiente eles estão sendo executados. 

@@ -1,0 +1,1 @@
+ O programa cargo-sort é útil para verificar se as tabelas e itens em um arquivo .toml estão ordenados lexicograficamente. Isso significa que eles estão organizados em ordem alfabética, como se você estivesse olhando para um dicionário. Dessa forma, fica mais fácil encontrar as coisas que você precisa no arquivo.  

@@ -1,0 +1,1 @@
+Este programa tem a função de procurar, de forma recursiva, o arquivo mais recente em uma hierarquia de pastas e imprimir a data e hora de sua criação. Ele é útil quando precisamos encontrar rapidamente um arquivo específico sem precisar navegar manualmente por várias pastas. 

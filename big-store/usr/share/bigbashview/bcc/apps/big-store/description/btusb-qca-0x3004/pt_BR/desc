@@ -1,0 +1,2 @@
+Este programa é uma correção para dispositivos QCA com o id 0x3004. Ele faz com que o btusb funcione corretamente nestes
+dispositivos. É importante que você tenha certeza de que o dispositivo que você possui é compatível antes de instalar este programa. 

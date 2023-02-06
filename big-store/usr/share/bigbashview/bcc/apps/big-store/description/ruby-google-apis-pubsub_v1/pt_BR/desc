@@ -1,0 +1,3 @@
+Este programa é um cliente REST simples para a API Cloud Pub/Sub da Google. Ele utiliza a linguagem Ruby e segue 
+a versão V1 da API. Com ele, é possível enviar e receber mensagens através do Pub/Sub, um serviço de mensagens da nuvem da Google. Ele é fácil de usar e é uma ótima opção para quem precisa 
+de uma solução simples e eficiente para lidar com mensagens na nuvem.

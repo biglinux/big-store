@@ -1,0 +1,1 @@
+ python-gobject é um conjunto de bindings Python para GLib, GObject, GIO e GTK+. Ele permite que você escreva programas Python que usam as bibliotecas GLib, GObject, GIO e GTK+. 

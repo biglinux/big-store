@@ -1,0 +1,1 @@
+Este programa é escrito em Haskell e utiliza a biblioteca hspec para testar instâncias de GenValidity. Ele garante que essas instâncias estejam de acordo com as especificações padrão estabelecidas.  

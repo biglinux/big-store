@@ -1,0 +1,3 @@
+ quictls-openssl é uma biblioteca de segurança e criptografia para conexões online. Ele fornece uma
+alternativa para o OpenSSL, com APIs específicas para o protocolo QUIC. Isso significa que ele pode ser usado para garantir conexões seguras e proteger dados sensíveis durante a
+transmissão. Ele é ideal para desenvolvedores que precisam de uma biblioteca confiável e fácil de usar para garantir a segurança de suas aplicações.

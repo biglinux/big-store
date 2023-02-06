@@ -1,0 +1,1 @@
+O pacote haskell-multimap é uma estrutura de dados que permite mapear várias chaves a um único valor. Isso é  útil em situações em que é necessário armazenar mais de um valor para uma determinada chave, como em um dicionário com valores duplicados. Ele é implementado em Haskell e é fácil de usar e  eficiente. 

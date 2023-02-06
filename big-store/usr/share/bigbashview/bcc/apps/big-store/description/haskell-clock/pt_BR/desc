@@ -1,0 +1,1 @@
+Este programa fornece funções para trabalhar com relógios de alta resolução, como relógios monotônicos, relógios de tempo real e relógios de tempo de CPU. Ele é escrito em Haskell e é uma ferramenta útil para medir o tempo de execução de tarefas em seus programas. 

@@ -1,0 +1,4 @@
+ Easyterm é um programa que imita uma porta serial, ou seja, ele ajuda você a se comunicar com dispositivos que usam
+essa conexão. Com ele, é possível enviar e receber dados através de uma interface de usuário amigável, sem precisar lidar com comandos complexos.Esse emulador é útil para quem precisa
+testar o funcionamento de dispositivos que usam a conexão serial, sem precisar de hardware específico. Além disso, ele pode ser usado para fazer a configuração inicial de dispositivos, como
+impressoras, modems, entre outros. 

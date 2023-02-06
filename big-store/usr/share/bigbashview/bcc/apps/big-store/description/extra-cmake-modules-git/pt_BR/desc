@@ -1,0 +1,4 @@
+Extra-cmake-modules-git é um conjunto de módulos e scripts adicionais para usar com o CMake, uma ferramenta popular para 
+gerenciamento de projetos de software. Esta é a versão do GIT, o que significa que é uma versão em desenvolvimento e pode conter recursos novos e experimentais.Os módulos adicionais incluem
+suporte para vários sistemas operacionais, compiladores e bibliotecas, e os scripts podem automatizar tarefas comuns, como geração de documentação e testes.Se você estiver trabalhando em um
+projeto de software e estiver usando o CMake, esses módulos e scripts podem ser úteis para aumentar a eficiência e a qualidade do seu trabalho.

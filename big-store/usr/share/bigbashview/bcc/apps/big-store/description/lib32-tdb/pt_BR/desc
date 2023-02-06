@@ -1,0 +1,1 @@
+O lib32-tdb é uma biblioteca de banco de dados que é similar ao GDBM, mas permite comits simultâneos (32-bit). 

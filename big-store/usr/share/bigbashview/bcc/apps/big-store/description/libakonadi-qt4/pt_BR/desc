@@ -1,0 +1,3 @@
+Essa é uma biblioteca para ajudar a gerenciar e-mails em um programa. Ela foi feita usando o Qt4 e é chamada de
+'libakonadi-qt4'. Com ela, é possível fazer coisas como ler, enviar e organizar e-mails de forma fácil e rápida.Ela também ajuda a sincronizar e-mails entre vários dispositivos, tornando
+a gestão de sua caixa de entrada mais simples. 

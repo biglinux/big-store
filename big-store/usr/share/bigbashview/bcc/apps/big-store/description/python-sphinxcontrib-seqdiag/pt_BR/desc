@@ -1,0 +1,1 @@
+A extensão sphinx permite incorporar diagramas de seqüência usando seqdiag. É escrita em python e é chamada python-sphinxcontrib-seqdiag. Com ela, você pode criar diagramas de seqüência de forma fácil e clara dentro do seu documento sphinx. 

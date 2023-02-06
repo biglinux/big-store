@@ -1,0 +1,1 @@
+python-django-haystack é uma biblioteca que permite que você adicione facilmente recursos de busca ao seu projeto Django. Ele usa outras bibliotecas de busca, como Elasticsearch ou Solr, para garantir que os resultados sejam precisos e rápidos. Com esse módulo, você pode criar buscas avançadas e personalizadas de  acordo com as necessidades do seu projeto. 

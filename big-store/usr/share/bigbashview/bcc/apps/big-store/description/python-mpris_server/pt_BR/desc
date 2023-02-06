@@ -1,0 +1,4 @@
+ Esse programa adiciona suporte para reprodução de mídia utilizando o protocolo MPRIS. Isso significa que você pode
+controlar a reprodução de música e vídeo em seu aplicativo através de outros programas de mídia compatíveis com MPRIS.Por exemplo, você pode pausar, retomar ou mudar de música
+diretamente a partir do seu desktop sem precisar abrir o seu aplicativo.Esse programa foi escrito em Python, então é uma boa opção se você estiver desenvolvendo seu aplicativo usando
+essa linguagem de programação. 

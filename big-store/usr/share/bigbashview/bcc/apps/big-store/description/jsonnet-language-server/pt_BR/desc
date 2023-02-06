@@ -1,0 +1,3 @@
+Este é um servidor para o Protocolo de Servidor de Linguagem (LSP) chamado Jsonnet. Ele ajuda a fornecer funcionalidades
+adicionais para editores e IDEs quando você estiver escrevendo código Jsonnet.Por exemplo, ele pode dar sugestões de código, mostrar erros e avisos, e permitir que você navegue pelo seu
+código de maneira mais fácil.Em resumo, ele torna a sua experiência de codificação com Jsonnet mais fácil e eficiente.

@@ -1,0 +1,3 @@
+Essa é uma biblioteca de JSON construída sobre o GLib. Ela permite aos desenvolvedores ler e escrever arquivos JSON facilmente,
+utilizando a estrutura de dados do GLib. Isso significa que os dados podem ser facilmente manipulados e lidos em aplicativos GLib e GTK.A biblioteca é open-source e está disponível no
+GitHub para download. Ela é compatível com a maioria das plataformas, incluindo Linux, Windows e Mac.

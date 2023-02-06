@@ -1,0 +1,2 @@
+Este programa é um gerador de pacotes para o sistema operacional ArchLinux. Ele usa o arquivo Cargo.toml para criar os
+pacotes.Isso é útil para quem desenvolve aplicativos em Rust e quer distribuí-los como pacotes para ArchLinux.

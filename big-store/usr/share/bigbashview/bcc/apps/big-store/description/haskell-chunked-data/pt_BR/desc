@@ -1,0 +1,1 @@
+O pacote haskell-chunked-data oferece tipos de dados para lidar com várias representações de  dados divididos. Ele permite ao desenvolvedor trabalhar de forma eficiente com grandes quantidades de dados, dividindo-os em pedaços menores que podem ser processados de forma independente. 

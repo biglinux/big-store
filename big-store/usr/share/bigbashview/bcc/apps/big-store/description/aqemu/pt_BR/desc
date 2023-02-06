@@ -1,0 +1,4 @@
+Este programa é uma interface gráfica para o emulador de sistemas QEMU. Ele foi escrito usando a biblioteca
+Qt5, o que torna sua utilização mais fácil e intuitiva. Com ele, é possível emular diferentes sistemas operacionais, como Windows, Linux e macOS, sem precisar de máquinas virtuais. Além
+disso, ele permite acesso a recursos avançados, como configuração de rede e armazenamento. É uma excelente opção para desenvolvedores, administradores de sistemas e outros profissionais que
+precisam testar diferentes configurações e sistemas operacionais sem precisar de múltiplas máquinas físicas.

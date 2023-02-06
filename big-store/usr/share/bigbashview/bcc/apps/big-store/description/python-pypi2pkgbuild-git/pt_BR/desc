@@ -1,0 +1,4 @@
+Este programa tem como objetivo converter pacotes do PyPI, que é o repositório oficial de pacotes Python, para
+pacotes do Arch Linux, que é uma distribuição Linux baseada em pacotes. Dessa forma, você pode instalar e gerenciar facilmente esses pacotes no seu sistema Arch Linux.O programa é chamado
+python-pypi2pkgbuild-git e é uma ferramenta de linha de comando. Ele funciona criando um arquivo PKGBUILD, que é o formato de pacotes utilizado pelo Arch Linux, a partir de informações
+obtidas na página do pacote PyPI.

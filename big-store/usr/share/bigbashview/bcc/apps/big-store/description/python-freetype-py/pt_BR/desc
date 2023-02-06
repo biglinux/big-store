@@ -1,0 +1,3 @@
+O python-freetype-py é uma biblioteca que permite que você trabalhe com fontes de texto no seu programa Python.
+Com ela, você pode carregar e usar diferentes tipos de fontes, como TrueType ou OpenType, e modificar as características das letras, como tamanho, cor e estilo.Além disso, a biblioteca
+também oferece suporte para a renderização de texto em diferentes formatos de imagem, como PNG ou JPEG, o que a torna útil para a criação de gráficos de texto em seus projetos.

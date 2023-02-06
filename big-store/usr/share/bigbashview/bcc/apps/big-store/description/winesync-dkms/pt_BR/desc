@@ -1,0 +1,3 @@
+Este programa é um driver primitivo de sincronização para o Wine, que é um módulo fora da árvore. Ele permite que você use
+programas do Windows no Linux ou Mac, fazendo com que eles sejam compatíveis com esses sistemas operacionais.A versão dkms deste programa significa que ele está sendo gerenciado pelo
+sistema de gerenciamento de módulos do kernel (dkms). Isso garante que ele esteja sempre atualizado e funcionando corretamente com a versão do kernel do seu sistema.

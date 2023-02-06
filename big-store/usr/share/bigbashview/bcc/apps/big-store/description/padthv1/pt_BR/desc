@@ -1,0 +1,1 @@
+O padthv1 é um sintetizador polifônico aditivo vintage com efeitos estéreo. Ele é um cliente puro stand-alone JACK com suporte a sessão JACK, NSM e entrada MIDI tanto do JACK quanto do ALSA.  Também é um plugin instrumento LV2. URL: http://padthv1.sourceforge.net/lv2 

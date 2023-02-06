@@ -1,0 +1,4 @@
+Este é um programa chamado pop-launcher-git que é um serviço de lançador de programas para o seu computador. Ele é baseado em
+IPC, ou comunicação entre processos, o que o torna muito flexível e fácil de usar. Com ele, você pode facilmente iniciar os programas que você usa com frequência, sem precisar procurá-los
+na lista de programas do seu computador.Além disso, este programa é modular, o que significa que você pode personalizá-lo de acordo com suas necessidades. Ele permite adicionar novos
+módulos e remover os que não são mais necessários, para que você tenha total controle sobre como ele funciona.

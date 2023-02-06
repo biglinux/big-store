@@ -1,0 +1,3 @@
+Gparted-git é um programa para gerenciar partições do disco rígido no sistema operacional Linux. Ele é semelhante ao
+programa chamado Partition Magic, mas é específico para o Linux. Ele é uma interface gráfica para o GNU Parted, que é um utilitário de linha de comando para gerenciar partições. Com o
+Gparted-git, você pode facilmente criar, redimensionar, mover e excluir partições em seu disco rígido sem perder dados.

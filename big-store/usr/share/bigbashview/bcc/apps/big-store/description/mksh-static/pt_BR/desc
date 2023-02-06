@@ -1,0 +1,2 @@
+O mksh-static é um shell (programa que permite ao usuário controlar o computador) com melhorias de performance. Ele é uma 
+versão aprimorada do ksh (public domain korn shell) e é construído de forma estática, ligado com musl.

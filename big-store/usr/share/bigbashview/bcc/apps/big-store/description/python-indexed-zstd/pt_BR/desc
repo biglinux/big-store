@@ -1,0 +1,2 @@
+ Este programa, chamado python-indexed-zstd, é uma ponte para a biblioteca libzstd-seek no Python. Ele ajuda a comprimir e
+descomprimir dados de maneira rápida e eficiente. Isso é útil para armazenar grandes quantidades de informações em espaço limitado ou para enviar dados pela internet mais rapidamente. 

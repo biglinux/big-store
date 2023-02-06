@@ -1,0 +1,1 @@
+mmdblookup é uma ferramenta de linha de comando para procurar a localização de um endereço IP em um banco de dados MaxMindDB. Ele também pode imprimir o registro completo para um endereço IP. Ele é semelhante em funcionalidade à ferramenta de linha de comando GeoIP2 fornecida pela MaxMind, mas é mais rápido e usa menos memória. 

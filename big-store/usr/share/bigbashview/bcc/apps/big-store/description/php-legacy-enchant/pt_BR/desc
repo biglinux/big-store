@@ -1,0 +1,1 @@
+Este é um módulo para PHP chamado Enchant. Ele é usado para adicionar recursos de correção ortográfica e sugestão de palavras em aplicativos PHP. Ele é chamado de módulo 'legado' porque já não é desenvolvido ativamente, mas ainda é usado em muitos projetos antigos. Se você precisar adicionar recursos de correção ortográfica a um aplicativo PHP antigo, este módulo pode ser útil. 

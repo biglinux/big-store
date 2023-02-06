@@ -1,0 +1,1 @@
+O vim-gitgutter é um plugin para o editor de texto Vim que permite visualizar as diferenças do Git diretamente na coluna de sinais (gutter) do seu arquivo. Isso facilita a identificação de linhas modificadas, adicionadas ou removidas sem precisar alternar para outra janela ou programa. Ele é fácil de usar e se integra perfeitamente ao seu workflow de desenvolvimento. 

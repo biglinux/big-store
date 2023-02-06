@@ -1,0 +1,1 @@
+ncspot é um cliente de linha de comando Spotify para Linux, macOS e Windows. Ele foi construído com Rust e é inspirado por outros clientes similares como ncmpc. Ele permite que você reproduza, pause, pule e pesquise músicas e listas de reprodução, além de exibir informações sobre a faixa e o artista atuais. Ele também suporta múltiplos idiomas, incluindo o português. 

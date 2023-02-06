@@ -1,0 +1,1 @@
+Uma biblioteca para lidar com arquivos grandes que precisam ser divididos em vários volumes. Essa biblioteca foi escrita em Python e é chamada python-multivolumefile. 

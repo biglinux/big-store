@@ -1,0 +1,4 @@
+Este programa permite que você tenha saídas de terminal coloridas quando estiver usando o módulo de log do Python. Isso pode
+tornar mais fácil identificar diferentes tipos de mensagens, como erros ou avisos. Ele é simples de usar e pode ser adicionado a qualquer projeto Python existente.Você pode escolher as
+cores que deseja usar para cada tipo de mensagem e até mesmo personalizar as mensagens de log para que sejam mais informativas. Se você está cansado de ver saídas de log sem graça e sem
+cores, esse programa é uma ótima opção.

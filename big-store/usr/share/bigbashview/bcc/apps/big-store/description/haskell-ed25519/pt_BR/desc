@@ -1,0 +1,1 @@
+O pacote haskell-ed25519 fornece suporte para assinaturas criptográficas Ed25519 em Haskell. Ed25519 é uma implementação de assinatura digital baseada em curvas elípticas, projetada para ser segura, rápida e fácil de usar. Com este pacote, você pode usar assinaturas Ed25519 para garantir a autenticidade de mensagens, arquivos e outros dados. 

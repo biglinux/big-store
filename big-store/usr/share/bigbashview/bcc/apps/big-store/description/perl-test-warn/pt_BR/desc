@@ -1,0 +1,1 @@
+A extensão perl-test-warn é um pacote que permite testar se métodos estão emitindo avisos (warnings) corretamente. Ele fornece funções para capturar e comparar avisos esperados com os avisos realmente emitidos durante a execução de um teste. Isso é útil para garantir que seu código esteja  funcionando corretamente e alertando os usuários sobre possíveis problemas.  

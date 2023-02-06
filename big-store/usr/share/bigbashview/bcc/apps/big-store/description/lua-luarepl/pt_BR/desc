@@ -1,0 +1,1 @@
+Este é um componente REPL (Read-Eval-Print Loop) reutilizável escrito em Lua. Ele permite que os usuários experimentem  e testem código Lua diretamente no prompt de comando, sem precisar de uma execução completa do programa. Isso é útil para desenvolvedores que desejam testar pequenos trechos de código sem precisar sair do ambiente de desenvolvimento. 

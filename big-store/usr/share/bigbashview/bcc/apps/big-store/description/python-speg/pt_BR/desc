@@ -1,0 +1,1 @@
+python-speg é um interpretador e analisador de linguagens baseado no sistema PEG (Parsing Expression Grammar). Ele utiliza a técnica de memoização para melhorar a performance ao processar entradas grandes e complexas. Ele é escrito em Python e é fácil de usar, mesmo para aqueles sem experiência prévia em análise de linguagem. 

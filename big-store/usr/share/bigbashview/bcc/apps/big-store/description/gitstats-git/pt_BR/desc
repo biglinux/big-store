@@ -1,0 +1,3 @@
+Este programa é chamado gitstats e ele ajuda a gerar estatísticas para repositórios git. Ele mostra informações
+como o número de arquivos alterados, a quantidade de commits e quem são os contribuidores principais. Ele também gera gráficos para visualizar essas informações de maneira fácil e rápida. É
+uma ferramenta útil para gerenciar e entender melhor o desenvolvimento de um projeto.

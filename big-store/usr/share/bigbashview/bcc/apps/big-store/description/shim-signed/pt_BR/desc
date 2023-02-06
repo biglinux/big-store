@@ -1,0 +1,2 @@
+Este é um programa chamado shim-signed, que é usado como um inicializador UEFI. Ele é responsável por iniciar o sistema
+operacional de forma segura, garantindo que somente programas confiáveis sejam iniciados. Ele vem com pré-construídos binários X64 e IA32 EFI para sistemas Fedora.

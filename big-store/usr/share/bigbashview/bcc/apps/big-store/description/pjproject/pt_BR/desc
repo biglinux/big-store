@@ -1,0 +1,4 @@
+O Projeto Pj é um conjunto de ferramentas de código aberto para comunicação via SIP (Protocolo de Iniciação
+de Sessão). Ele inclui um conjunto de bibliotecas para criar aplicativos de comunicação, como softphones, gateways de voz, servidores de sessão e outros. Além disso, ele também fornece uma 
+pilha de mídia para gerenciar áudio e vídeo em aplicativos de comunicação. Com o Projeto Pj, é possível criar soluções personalizadas para comunicação em redes IP sem precisar pagar por
+licenças ou depender de soluções proprietárias. Ele é amplamente utilizado em aplicativos de comunicação empresarial, comunicação de emergência e outros.

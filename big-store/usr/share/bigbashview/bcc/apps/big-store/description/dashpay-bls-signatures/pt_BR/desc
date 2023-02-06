@@ -1,0 +1,4 @@
+Este é um fork (cópia modificada) do programa de assinaturas BLS (Boneh-Lynn-Shacham) da Chia Networks,
+adaptado para ser usado no Dashpay. Ele permite aos usuários assinar transações de forma segura e eficiente. A tecnologia BLS é amplamente utilizada em criptomoedas e redes blockchain para 
+garantir a segurança das transações e a proteção contra ataques. Com este fork do Dashcore, os usuários do Dashpay podem aproveitar essa tecnologia de ponta para garantir a segurança de
+suas transações.

@@ -1,0 +1,1 @@
+A biblioteca cfitsio é uma coleção de subrotinas escritas em C e Fortran para lidar com arquivos no formato FITS (Flexible Image Transport System). Com ela, é possível ler e escrever arquivos FITS com facilidade, permitindo acesso e manipulação de dados de imagens e outras informações científicas armazenadas neste formato.  

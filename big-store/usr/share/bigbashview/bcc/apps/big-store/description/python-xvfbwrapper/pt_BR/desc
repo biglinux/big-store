@@ -1,0 +1,1 @@
+Xvfb (X virtual framebuffer) é uma ferramenta que permite gerenciar telas sem cabeçalho. Isso é útil quando você precisa executar testes automatizados em um ambiente sem interface gráfica. É possível usar a biblioteca python-xvfbwrapper para controlar o Xvfb de forma mais fácil. 

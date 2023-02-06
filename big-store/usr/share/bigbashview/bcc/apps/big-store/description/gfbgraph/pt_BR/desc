@@ -1,0 +1,1 @@
+gfbgraph é um wrapper GLib/GObject para a API Graph do Facebook. Ele facilita o acesso à API do Facebook a  partir do seu aplicativo baseado em GLib/GObject. Com o gfbgraph, você pode facilmente recuperar informações sobre usuários, páginas, eventos e muito mais. A biblioteca é bem documentada e  é fácil de usar, mesmo para aqueles que são novos na API do Facebook. 

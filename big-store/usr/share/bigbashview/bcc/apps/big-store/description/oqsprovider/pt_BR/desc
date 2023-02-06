@@ -1,0 +1,4 @@
+Este programa é um fornecedor de algoritmos criptográficos pós-quânticos, baseado no OpenSSL 3. Ele contém algoritmos 
+desenvolvidos recentemente que são considerados seguros contra ataques quânticos futuros. Isso significa que ele garante uma maior segurança para suas informações confidenciais, como senhas
+e dados pessoais. Além disso, este programa é compatível com as versões mais recentes do OpenSSL, permitindo que você use esses algoritmos pós-quânticos sem precisar trocar seu software
+atual. 

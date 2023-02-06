@@ -1,0 +1,1 @@
+Esse programa é uma implementação do algoritmo de criptografia MD5, desenvolvida em Haskell. Ele é rápido, puramente funcional e prático de se usar. Ele é útil para verificar a integridade de arquivos e para criptografar senhas, entre outras coisas. 

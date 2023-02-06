@@ -1,0 +1,3 @@
+ xmake-dev-git é uma ferramenta de construção semelhante à make, baseada em Lua. Ela é projetada para ajudar os
+desenvolvedores a automatizar o processo de compilação de seus projetos, tornando-o mais rápido e fácil. Com xmake-dev-git, os desenvolvedores podem criar scripts Lua para descrever como
+seus projetos devem ser construídos, incluindo quais arquivos devem ser compilados, quais bibliotecas devem ser vinculadas e quais opções de compilação devem ser usadas. 

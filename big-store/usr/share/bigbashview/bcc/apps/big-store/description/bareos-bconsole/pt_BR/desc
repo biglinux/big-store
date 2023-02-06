@@ -1,0 +1,2 @@
+Bareos é um programa de código aberto para backup, arquivamento e recuperação de dados. A ferramenta de administração é
+chamada bconsole e é uma interface de linha de comando (CLI). Com ela, é possível gerenciar backups, criar novos trabalhos de backup, verificar o status de backups existentes e muito mais.

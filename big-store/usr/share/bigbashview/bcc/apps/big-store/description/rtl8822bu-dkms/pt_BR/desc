@@ -1,0 +1,2 @@
+Este programa é um módulo de kernel para adaptadores USB Wi-Fi, especificamente para os modelos Edimax EW7822ULC 
+USB3, Asus AC53 Nano USB 802.11ac e TP-Link Archer T4U. Ele foi corrigido para funcionar com a versão 5.12 do Linux.

@@ -1,0 +1,2 @@
+ O Bareos é um software de backup, arquivamento e recuperação de dados de código aberto. Este pacote específico contém
+as bibliotecas e ferramentas necessárias para usar um catálogo de banco de dados PostgreSQL com o Bareos. 

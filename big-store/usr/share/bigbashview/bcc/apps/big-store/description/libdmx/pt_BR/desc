@@ -1,0 +1,3 @@
+A biblioteca libdmx é uma extensão para o sistema de janelas X11 que permite o uso de múltiplos monitores 
+em diferentes computadores como se fossem um único display. Isso significa que você pode estender sua área de trabalho em vários monitores, ou dividir sua tela em várias áreas, cada uma
+mostrando uma janela diferente. Essa biblioteca é especialmente útil em ambientes de trabalho que precisam de muito espaço de tela, como estações de trabalho gráficas ou para jogos.

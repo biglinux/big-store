@@ -1,0 +1,3 @@
+Esta é uma plataforma externa para o Wayland, baseada em EGLStream. É uma versão ainda em
+desenvolvimento, retirada diretamente do repositório git, por isso pode conter bugs ou problemas não resolvidos. É recomendável para usuários avançados ou desenvolvedores que desejam
+experimentar as últimas funcionalidades e ajudar a melhorar o software. 

@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.4 que adiciona suporte para operações matemáticas avançadas, como números grandes e cálculos de funções
+matemáticas. Ele é chamado de GMP (GNU Multiple Precision) e é útil para aplicações que precisam lidar com números muito grandes ou precisão matemática precisa.Com este módulo instalado,
+você pode usar funções como gmp_add, gmp_div e gmp_pow para realizar operações matemáticas avançadas no seu código PHP. Ele também fornece suporte para números de precisão arbitrária, o que
+significa que você pode trabalhar com números muito grandes sem perder precisão.

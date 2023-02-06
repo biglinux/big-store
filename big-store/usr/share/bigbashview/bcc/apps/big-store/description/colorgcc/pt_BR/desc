@@ -1,0 +1,1 @@
+Este programa é uma 'envoltória' para a linguagem de programação Perl, que tem como função colorir a saída dos compiladores com mensagens de aviso/erro de acordo com o formato de saída do gcc. Isso torna mais fácil para os programadores identificarem e corrigirem problemas em seus códigos. 

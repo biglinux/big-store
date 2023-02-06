@@ -1,0 +1,3 @@
+Este é um serviço para manter os segredos de aplicativos. Ele implementa a API de Serviço de Segredo do
+FreeDesktop. Com ele, você pode ter a certeza de que as informações confidenciais do seu aplicativo estarão protegidas. Não é necessário se preocupar com a segurança dos dados, pois este
+serviço cuida disso para você. 

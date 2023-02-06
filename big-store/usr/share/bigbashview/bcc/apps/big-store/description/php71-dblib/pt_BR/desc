@@ -1,0 +1,3 @@
+Este modulo permite que o PHP71 tenha suporte a dblib, uma biblioteca de banco de dados para acesso a bases SQL Server.
+Isso significa que os desenvolvedores podem usar o PHP71 para se conectar e trabalhar com bancos de dados SQL Server.Essa funcionalidade pode ser útil em diversos projetos, como aplicações 
+web, sistemas de gerenciamento de banco de dados e outros que necessitam de acesso a bancos de dados SQL Server.

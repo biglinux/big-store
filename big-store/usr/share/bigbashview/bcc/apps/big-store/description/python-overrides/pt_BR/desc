@@ -1,0 +1,3 @@
+Este programa é um decorador para detectar automaticamente quando há um desencontro ao sobrepor um método. Ele foi
+escrito em Python. Ele é útil para evitar erros comuns quando se está trabalhando com herança e sobrecarga de métodos. Ele verifica se os argumentos de um método sobrescrito correspondem
+exatamente aos argumentos do método original, e se não corresponderem, ele gera um erro, alertando o desenvolvedor de que algo está errado.

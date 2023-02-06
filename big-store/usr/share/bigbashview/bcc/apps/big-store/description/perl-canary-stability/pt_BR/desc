@@ -1,0 +1,1 @@
+O CPAN/Canary-Stability é uma ferramenta usada para verificar a compatibilidade dos módulos Perl desenvolvidos por Schmorp. Ela é chamada de 'canário' porque é usada para testar se esses módulos estão funcionando corretamente antes de serem lançados para uso geral. 

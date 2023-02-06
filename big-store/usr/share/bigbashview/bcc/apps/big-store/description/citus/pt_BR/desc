@@ -1,0 +1,4 @@
+O Citus é um banco de dados escalável baseado em PostgreSQL para cargas de
+trabalho multi-inquilino e em tempo real. Ele permite que você escalar horizontalmente suas consultas SQL usando várias máquinas, sem precisar se preocupar com a fragmentação de dados ou
+com a complexidade de gerenciar uma configuração distribuída.Com o Citus, você pode processar consultas em grandes conjuntos de dados em questão de milissegundos, o que é ideal para
+aplicativos de análise de dados em tempo real e aplicativos de colaboração em tempo real.

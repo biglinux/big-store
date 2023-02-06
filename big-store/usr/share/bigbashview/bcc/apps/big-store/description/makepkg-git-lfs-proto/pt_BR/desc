@@ -1,0 +1,2 @@
+Este programa adiciona suporte ao Git-lfs ao makepkg. Para usar, basta especificar o protocolo 'git-lfs+' na url de origem do 
+pacote.

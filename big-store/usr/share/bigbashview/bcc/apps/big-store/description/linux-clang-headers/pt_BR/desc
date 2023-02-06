@@ -1,0 +1,3 @@
+Os cabeçalhos e scripts neste repositório são usados para construir módulos para o kernel Linux, mas construídos
+com o compilador Clang. Isso é útil se você deseja construir módulos compatíveis com o Linux, mas prefere usar o Clang como compilador em vez do GCC padrão. Ele também pode ser útil se você
+estiver experimentando com o Clang e deseja verificar se os módulos que você está construindo funcionam corretamente no Linux.

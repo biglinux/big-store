@@ -1,0 +1,1 @@
+Este programa é responsável por realizar a rotina de migração do tema Breath para o kconf_update. Ele garante que todos os arquivos e configurações do tema sejam transferidos para a nova versão corretamente, sem causar problemas no seu ambiente de trabalho.Este programa é específico para usuários do ambiente de trabalho Plasma 5 e do tema Breath. 

@@ -1,0 +1,3 @@
+Este programa é chamado danectl-git e é usado para gerenciar a implantação do DNSSEC DANE. Ele permite que você
+configure e gerencie facilmente suas configurações de DNSSEC DANE, para garantir a segurança de seus domínios DNS. Com ele, você pode facilmente ativar e desativar o DNSSEC DANE, além de
+verificar se suas configurações estão corretas. Além disso, este programa é open-source e está disponível no GitHub para que você possa contribuir para o desenvolvimento dele.

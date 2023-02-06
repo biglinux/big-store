@@ -1,0 +1,3 @@
+ Este programa ajuda a tornar o código de suas construções em Go mais difícil de ser entendido por outras pessoas. Isso é útil se
+você não quer que outros desenvolvedores vejam ou copiem o seu código. Ele funciona mudando o nome das variáveis e funções para coisas sem sentido, e também adiciona código adicional que
+não tem nenhuma função real.

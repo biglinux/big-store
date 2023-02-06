@@ -1,0 +1,4 @@
+Pyhoca-cli é um cliente de linha de comando para o protocolo X2Go escrito em Python. Ele permite que você conecte-se a uma
+sessão remota de um computador usando o protocolo X2Go e realize tarefas como iniciar aplicativos, controlar a sessão e transferir arquivos. É fácil de usar e possui uma interface simples e
+intuitiva.Com o pyhoca-cli, você pode acessar seus aplicativos favoritos e arquivos de qualquer lugar, desde que tenha uma conexão com a internet. Além disso, ele é compatível com sistemas 
+operacionais Windows, Linux e MacOS.

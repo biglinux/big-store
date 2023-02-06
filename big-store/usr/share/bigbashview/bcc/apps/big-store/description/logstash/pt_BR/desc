@@ -1,0 +1,4 @@
+ O Logstash é um programa que ajuda a gerenciar eventos e logs. Ele permite que você colete, analise e envie esses dados para
+vários destinos, como bancos de dados, arquivos e outras ferramentas de análise. Com o Logstash, você pode facilmente identificar problemas, encontrar padrões e tomar decisões informadas
+sobre seus dados. Ele é fácil de usar e tem muitos recursos úteis, como filtros para limpar e transformar dados, suporte para vários formatos de entrada e saída, e plugins para integração
+com outras ferramentas. Além disso, ele é altamente escalável e pode lidar com grandes volumes de dados sem problemas.

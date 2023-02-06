@@ -1,0 +1,2 @@
+Este programa é uma ferramenta para gerenciar suas senhas enquanto você trabalha com o Git. Ele se conecta com o pass, um 
+gerenciador de senhas padrão para sistemas unix, para tornar mais fácil e seguro armazenar e usar suas senhas enquanto trabalha com o Git.

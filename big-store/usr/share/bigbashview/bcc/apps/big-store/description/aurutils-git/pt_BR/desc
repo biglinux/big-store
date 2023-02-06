@@ -1,0 +1,4 @@
+ aurutils-git é um conjunto de ferramentas que ajudam os usuários do Repositório de Usuários Arch 
+(AUR) a gerenciar seus pacotes. Ele inclui uma variedade de comandos úteis, como a capacidade de pesquisar, baixar e atualizar pacotes AUR diretamente do terminal.Além disso, o
+aurutils-git também oferece uma interface amigável para gerenciar dependências e conflitos de pacotes, tornando mais fácil para os usuários manterem seus sistemas atualizados e funcionando 
+de maneira eficiente.Em resumo, o aurutils-git é uma ferramenta muito útil para qualquer usuário do Arch Linux que deseja gerenciar facilmente seus pacotes do AUR.

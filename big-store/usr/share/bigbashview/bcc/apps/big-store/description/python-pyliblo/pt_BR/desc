@@ -1,0 +1,1 @@
+python-pyliblo é um pacote Python que fornece uma interface simples para o protocolo Open Sound Control (OSC). Ele permite enviar e receber mensagens OSC usando Python, facilitando a comunicação com outros aplicativos compatíveis com OSC. A biblioteca é compatível tanto com Python 2 quanto com Python 3  e está disponível sob a licença LGPL. 

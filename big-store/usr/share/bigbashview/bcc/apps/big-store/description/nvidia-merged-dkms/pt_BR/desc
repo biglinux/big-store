@@ -1,0 +1,2 @@
+ Este é um pacote de drivers para placas gráficas da Nvidia. Ele inclui fontes de módulos e foi modificado para
+suportar vGPU com desbloqueio de Rust e saída de DRM na máquina hospedeira. 

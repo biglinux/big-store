@@ -1,0 +1,3 @@
+Snyk é uma ferramenta para encontrar e corrigir vulnerabilidades conhecidas em dependências de código aberto. Ele pode ser
+usado tanto na linha de comando quanto durante a construção do seu programa.Com Snyk, você pode garantir que o código utilizado em seu programa não contenha problemas de segurança
+conhecidos, evitando possíveis ataques ou invasões.

@@ -1,0 +1,1 @@
+Este programa é um cliente HTTP minimalista escrito em Python. Ele utiliza a biblioteca httpcore para fazer requisições HTTP de forma simples e eficiente. Com ele, você pode facilmente enviar e receber dados de servidores web sem precisar de muita configuração ou complexidade. 

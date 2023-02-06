@@ -1,0 +1,2 @@
+Este é um programa simples que permite a você usar um dicionário de duas vias, ou seja, você pode buscar tanto
+pelas chaves quanto pelos valores. Além disso, ele mantém a ordem dos itens, o que é útil em muitas situações. Ele foi escrito em Python 2 e está disponível como um repositório Git. 

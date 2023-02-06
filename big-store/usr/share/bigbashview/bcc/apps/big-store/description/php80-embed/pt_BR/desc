@@ -1,0 +1,4 @@
+Esta é uma biblioteca SAPI (Software Application Programming Interface) embutida para o PHP 8.0. Ela permite que o PHP seja
+usado em aplicativos embutidos, como dispositivos eletrônicos, sistemas embarcados e outros. Isso significa que você pode usar o PHP para escrever programas que rodam diretamente no
+hardware, sem precisar de um sistema operacional completo. Isso pode ser útil para aplicativos de baixo consumo de recursos, como dispositivos IoT.A biblioteca SAPI embutida é projetada
+para ser usada com a versão 8.0 do PHP, e pode não funcionar corretamente com versões anteriores ou futuras do PHP.

@@ -1,0 +1,1 @@
+Este programa oferece uma maneira de trocar o backend entre o JupyterLab e o Jupyter Server para sua aplicação web Python. Ele é conhecido como jupyter-notebook-shim e é útil para garantir que a experiência do usuário seja a melhor possível. 

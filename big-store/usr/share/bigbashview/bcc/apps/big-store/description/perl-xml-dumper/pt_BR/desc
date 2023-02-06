@@ -1,0 +1,2 @@
+XML::Dumper é um módulo Perl que facilita a transformação de objetos Perl em formato XML. Com ele, você pode
+salvar informações em um arquivo XML e carregá-las posteriormente, preservando sua estrutura e dados. É uma ótima opção para armazenar dados de maneira organizada e fácil de recuperar. 

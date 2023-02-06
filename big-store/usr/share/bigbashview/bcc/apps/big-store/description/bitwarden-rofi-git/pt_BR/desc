@@ -1,0 +1,3 @@
+ Este programa é uma ferramenta para gerenciar suas senhas de forma segura e fácil. Ele usa o Bitwarden para
+armazenar suas senhas e o Rofi para tornar fácil encontrar e usar as senhas que você precisa. Com ele, você pode criar senhas fortes e únicas para cada conta que você tem, e não precisará
+se preocupar em esquecer ou compartilhar suas senhas. Além disso, você pode sincronizar suas senhas em todos os seus dispositivos, para que você possa acessá-las de qualquer lugar. 

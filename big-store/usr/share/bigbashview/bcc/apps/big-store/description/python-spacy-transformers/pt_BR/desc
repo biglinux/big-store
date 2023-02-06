@@ -1,0 +1,4 @@
+Esse programa é uma ferramenta poderosa para processar linguagem natural. Ele utiliza pipelines
+pré-treinados de BERT e outros transformers, que são modelos de inteligência artificial desenvolvidos para entender e interpretar textos. Com essa ferramenta, é possível realizar tarefas
+como análise de sentimento, identificação de entidades e extração de informações. Ele foi desenvolvido com base na linguagem de programação Python e na biblioteca spaCy, tornando-o fácil de
+usar e personalizar. 

@@ -1,0 +1,1 @@
+procstatd é um daemon que pode ser executado tanto a partir do espaço de usuário quanto pelo inetd. Ele pode ser consultado por meio de uma API simples para analisar vários arquivos em /proc. Isso permite um fácil acesso às informações sobre processos e status do sistema. 

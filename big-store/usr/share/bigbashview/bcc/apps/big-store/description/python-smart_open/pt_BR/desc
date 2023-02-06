@@ -1,0 +1,2 @@
+A biblioteca python-smart_open é útil para eficientemente transmitir arquivos muito grandes de/para S3, HDFS,
+WebHDFS, HTTP ou arquivos locais (compactados).

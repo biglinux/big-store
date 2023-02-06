@@ -1,0 +1,4 @@
+ Esta é uma biblioteca SMB completamente assíncrona escrita em Python puro. Ela permite que você faça operações de rede
+com o protocolo SMB de forma fácil e rápida. Com ela, é possível criar programas que trabalham com compartilhamentos de arquivos e pastas em rede, sem precisar se preocupar com detalhes de 
+baixo nível.A biblioteca é compatível com Python 3 e é open-source, o que significa que qualquer pessoa pode contribuir e melhorá-la. Ela também é fácil de usar e possui uma documentação 
+completa para ajudar os desenvolvedores a entender como funciona e como usá-la. 

@@ -1,0 +1,1 @@
+wpa_supplicant é um utilitário que fornece a negociação de chaves para redes sem fio WPA. Ele funciona como um cliente supplicant e é responsável por estabelecer uma conexão segura com redes WPA, garantindo que somente dispositivos autorizados possam se conectar à rede. 

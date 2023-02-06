@@ -1,0 +1,3 @@
+ Este programa é uma adição para o Polybar, que é uma barra de status personalizável. Ele exibe informações do Spotify, como 
+qual música está tocando, e permite controlar o Spotify diretamente a partir da barra de status. Com ele, você pode ver qual música está tocando, pausar, avançar e retroceder faixas, e
+mudar o volume sem precisar abrir o Spotify. Tudo diretamente na sua barra de status. 

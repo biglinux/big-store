@@ -1,0 +1,1 @@
+ O schroot é um programa que permite aos usuários executar comandos shell em diferentes sistemas de arquivos raiz. Isso pode ser útil para testes e desenvolvimento, bem como para executar programas que dependem de versões específicas de bibliotecas ou outros componentes do sistema. O schroot é o sucessor do programa dchroot e oferece vários recursos adicionais e melhorias. 

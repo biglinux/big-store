@@ -1,0 +1,1 @@
+Essa biblioteca oferece tanto os bindings de nível alto quanto os de nível baixo para a biblioteca SDL (Simple DirectMedia Layer) em Haskell. SDL é uma biblioteca popular de desenvolvimento de jogos e aplicativos gráficos multiplataforma. Com essa biblioteca, os desenvolvedores podem acessar todas as funcionalidades do SDL de maneira simples e eficiente usando Haskell. 

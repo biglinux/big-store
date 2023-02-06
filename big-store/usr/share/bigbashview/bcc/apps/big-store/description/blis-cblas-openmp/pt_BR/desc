@@ -1,0 +1,3 @@
+ BLIS é um software que oferece uma biblioteca de álgebra linear similar ao BLAS, com suporte a OpenMP. 
+Ele é especialmente recomendado para processadores AMD Zen.A biblioteca BLIS é uma estrutura de software de instanciação de biblioteca que permite que os usuários criem facilmente suas
+próprias implementações de biblioteca BLAS e CBLAS. 

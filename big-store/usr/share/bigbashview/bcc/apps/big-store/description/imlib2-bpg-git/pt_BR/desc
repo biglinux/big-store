@@ -1,0 +1,2 @@
+Este programa é um carregador de imagens no formato BPG para o Imlib2. Ele permite que o Imlib2 abra e exiba imagens no
+formato BPG, além de oferecer suporte para funções básicas de edição de imagens. Este programa é útil para desenvolvedores que precisam trabalhar com imagens BPG em seus projetos.

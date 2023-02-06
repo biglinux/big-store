@@ -1,0 +1,4 @@
+Este é um programa que fornece uma implementação em C do codec ITU G729 Annex A/B. Ele é uma ferramenta importante para quem
+precisa trabalhar com áudio em alta qualidade, especialmente em aplicações de comunicação, como telefonia e videoconferência.O codec ITU G729 é um dos mais utilizados em todo o mundo, e
+esta implementação em C o torna acessível para uma ampla gama de sistemas e aplicações. Além disso, como é uma implementação open source, é possível personalizá-la e adaptá-la às suas
+necessidades específicas.

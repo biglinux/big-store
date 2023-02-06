@@ -1,0 +1,2 @@
+Este programa é chamado de 'Inibidor de inatividade Wayland' e ele serve para evitar que o seu dispositivo entre em modo de
+economia de energia enquanto você estiver assistindo a vídeos. Ele usa dispositivos de vídeo abertos como sinal para isso.

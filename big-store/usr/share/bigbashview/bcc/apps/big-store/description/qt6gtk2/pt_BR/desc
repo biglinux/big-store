@@ -1,0 +1,3 @@
+Esse programa permite que você utilize recursos do GTK+2.0 junto com o Qt6. Ele fornece plugins que permitem que
+você integre a interface gráfica do GTK+2.0 com o Qt6, o que significa que você pode criar aplicativos com uma aparência consistente e familiar para os usuários.Isso também significa que
+você pode aproveitar os recursos avançados do Qt6, como suporte a touchscreens e telas de alta resolução, enquanto mantém a familiaridade e a compatibilidade com o GTK+2.0.

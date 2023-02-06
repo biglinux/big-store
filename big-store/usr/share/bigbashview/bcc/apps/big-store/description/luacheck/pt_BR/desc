@@ -1,0 +1,1 @@
+Luacheck é uma ferramenta para verificação de código Lua. Ele verifica erros e problemas comuns no código e também  pode ser usado para impor algumas convenções de codificação e boas práticas. O Luacheck pode ser executado pelo prompt de comando e pode ser integrado a diversos ambientes de desenvolvimento e editores de texto. 

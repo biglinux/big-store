@@ -1,0 +1,2 @@
+Esta é uma biblioteca para o X11 que permite manipular imagens em formato pixmap. É específica para sistemas de 32
+bits.Ela é importante para a exibição de imagens em aplicativos que utilizam o X11, como ambientes gráficos e outros programas que precisam exibir imagens.

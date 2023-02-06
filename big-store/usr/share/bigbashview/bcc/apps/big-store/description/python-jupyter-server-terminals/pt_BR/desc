@@ -1,0 +1,4 @@
+Este programa é uma extensão do Jupyter Server, ele fornece acesso a um terminal dentro da interface do Jupyter. Isso
+permite que você execute comandos diretamente no seu computador, sem precisar sair do ambiente Jupyter.Você pode usar essa extensão para instalar pacotes adicionais, gerenciar arquivos e
+pastas, ou mesmo executar scripts em outras linguagens de programação.É uma ferramenta poderosa para cientistas de dados, engenheiros de aprendizado de máquina e desenvolvedores que usam o 
+Jupyter como sua plataforma principal.

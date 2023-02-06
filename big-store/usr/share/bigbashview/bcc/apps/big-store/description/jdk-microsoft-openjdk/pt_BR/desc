@@ -1,0 +1,4 @@
+Este programa é uma ferramenta de desenvolvimento para a linguagem de programação Java. Ele é chamado de JDK, que
+significa Kit de Desenvolvimento Java. É construído pela Microsoft com base no OpenJDK, que é uma versão livre e aberta do JDK. Com ele, é possível criar aplicações Java para vários
+dispositivos e sistemas operacionais.O JDK inclui várias ferramentas úteis para desenvolvedores, como o compilador Java, a máquina virtual Java e as bibliotecas de classes. Ele também vem
+com uma ferramenta chamada JRE, que é a Execução de Ambiente Java, que é necessário para rodar aplicativos Java.

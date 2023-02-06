@@ -1,0 +1,3 @@
+Este programa permite que você carregue imagens para arrays numpy. É uma biblioteca simples e fácil de usar, e é útil para
+trabalhar com imagens em projetos de Ciência de Dados e Aprendizado de Máquina.Com ele, você pode abrir imagens de diferentes formatos, como JPG, PNG e BMP, e transformá-las em arrays numpy
+para manipulação e análise.

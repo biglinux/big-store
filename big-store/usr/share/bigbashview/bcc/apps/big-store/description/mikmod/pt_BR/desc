@@ -1,0 +1,3 @@
+Este é um programa de reprodução de música chamado MikMod. Ele usa uma biblioteca chamada libmikmod para reproduzir músicas com o
+formato MOD. É baseado em uma interface de linha de comando, mas usa a biblioteca curses para tornar a experiência de usuário mais agradável. Com ele, você pode reproduzir suas músicas
+favoritas no formato MOD sem precisar de outros programas.

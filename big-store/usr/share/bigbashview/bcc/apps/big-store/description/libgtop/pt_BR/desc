@@ -1,0 +1,1 @@
+A libgtop é uma biblioteca para coletar dados de monitoramento de sistema. Ela fornece uma API para recuperar informações sobre o status do sistema, como uso de CPU, uso de memória e uso de rede. A libgtop é comumente usada por ferramentas de monitoramento de sistema e administradores de sistema para reunir informações sobre o desempenho de um computador ou rede. 

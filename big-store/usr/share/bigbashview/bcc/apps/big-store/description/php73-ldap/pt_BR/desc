@@ -1,0 +1,3 @@
+ Este é um módulo de LDAP para a versão PHP73. Ele permite que você se conecte e interaja com um servidor LDAP usando a linguagem
+de programação PHP. Ele inclui funções para buscar, adicionar, modificar e excluir entradas no diretório LDAP, além de outras funcionalidades avançadas.Este módulo é útil para quem deseja
+integrar a autenticação e autorização baseadas em diretório em suas aplicações PHP. Ele é fácil de usar e possui uma documentação detalhada para ajudar os desenvolvedores a começar. 

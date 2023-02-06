@@ -1,0 +1,1 @@
+Este programa fornece uma interface conveniente para imprimir mensagens coloridas baseado na biblioteca ansi-terminal. Ele é escrito em haskell e chamado de haskell-colourista. 

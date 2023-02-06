@@ -1,0 +1,2 @@
+Este é um verificador de código para a linguagem de programação Clojure. Ele é minimalista e tem opiniões próprias, mas ajuda a
+encontrar erros no código e a torná-lo mais bonito. Ele se chama clj-kondo-bin.

@@ -1,0 +1,3 @@
+lazynpm é uma interface de usuário simples para comandos npm. Ele torna mais fácil gerenciar pacotes e depêndencias 
+no seu projeto, sem precisar digitar comandos complexos no terminal.Com lazynpm, você pode instalar, atualizar e desinstalar pacotes com apenas alguns cliques. Ele também exibe informações 
+importantes sobre cada pacote, como a versão atual e se existem atualizações disponíveis.

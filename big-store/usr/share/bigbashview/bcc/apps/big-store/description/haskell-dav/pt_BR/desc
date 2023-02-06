@@ -1,0 +1,1 @@
+Este programa oferece suporte ao protocolo WebDAV no Haskell. Isso significa que ele permite que você trabalhe com arquivos e pastas remotas de maneira semelhante a como faria localmente, como criar, ler, atualizar e excluir arquivos.O WebDAV é um protocolo amplamente usado para compartilhar arquivos na internet,  e essa biblioteca torna fácil trabalhar com ele usando o Haskell. 

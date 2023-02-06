@@ -1,0 +1,4 @@
+Este é um programa que gerencia o dispositivo Virtio-fs, usando o protocolo vhost-user. Ele foi escrito em Rust, uma
+linguagem de programação moderna e segura. Com ele, você pode facilmente gerenciar o seu dispositivo Virtio-fs e ter certeza de que ele está funcionando corretamente. O virtiofsd é uma
+ferramenta essencial para qualquer pessoa que precise gerenciar dispositivos Virtio-fs de forma eficiente e confiável. Se você está procurando uma solução para gerenciar seus dispositivos
+Virtio-fs, este programa é a escolha certa.

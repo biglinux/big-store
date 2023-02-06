@@ -1,0 +1,4 @@
+ Um novo jeito de trabalhar com Protocol Buffers. O Protocol Buffers é um meio de codificar mensagens de forma eficiente e
+compacta, o que o torna ideal para aplicações em que a velocidade e a economia de dados são importantes. Com ele, é possível definir estruturas de dados para serem transmitidas entre
+sistemas, e essas estruturas podem ser lidas e escritas de forma rápida e fácil. Além disso, o Protocol Buffers é compatível com várias linguagens de programação, o que permite que você
+trabalhe com ele em vários projetos diferentes.

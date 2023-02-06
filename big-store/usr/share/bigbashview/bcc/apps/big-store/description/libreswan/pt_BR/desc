@@ -1,0 +1,4 @@
+Este programa é usado para garantir a segurança de conexões virtual privadas (VPN). Ele usa os protocolos IKEv1 e IKEv2 para
+criptografar as informações transmitidas, protegendo-as de acessos não autorizados. Isso significa que, com este programa, você pode navegar na internet ou acessar arquivos remotamente sem 
+se preocupar com invasões de privacidade. Além disso, o programa é baseado na implementação IPsec, o que garante que ele seja compatível com uma ampla variedade de sistemas operacionais e
+dispositivos.

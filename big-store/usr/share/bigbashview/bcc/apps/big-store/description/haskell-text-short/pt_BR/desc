@@ -1,0 +1,1 @@
+O pacote haskell-text-short oferece uma representação eficiente de strings de texto Unicode. Ele usa menos memória do que outras representações comuns, o que o torna ideal para aplicativos que lidam com grandes volumes de texto. Além disso, ele fornece uma série de funções úteis para trabalhar com strings, incluindo suporte para codificação UTF-8 e UTF-16. 

@@ -1,0 +1,1 @@
+Este programa é um servidor LSP (Language Server Protocol) para o compilador GHC (Glasgow Haskell Compiler). Ele permite que outras ferramentas, como editores de código, ofereçam recursos avançados de linguagem para o Haskell, como sugestões de código, navegação de código e verificação de erros. 

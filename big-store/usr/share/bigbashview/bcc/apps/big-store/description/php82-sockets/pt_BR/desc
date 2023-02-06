@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.2 que adiciona recursos de sockets. Isso permite que o seu programa crie e gerencie conexões de 
+rede utilizando o protocolo TCP ou UDP. Com esse módulo, você pode criar aplicativos de rede mais avançados e interagir com outros sistemas e dispositivos.Algumas coisas que você pode fazer
+com esse módulo incluem: enviar e receber dados através de conexões de rede, criar servidores de rede para ouvir e processar conexões de clientes, e configurar opções avançadas de socket
+como timeout e buffers.

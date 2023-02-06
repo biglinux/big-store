@@ -1,0 +1,1 @@
+python-locket é uma biblioteca para Python que fornece bloqueios baseados em arquivos para garantir acesso exclusivo a recursos compartilhados. Ele é fácil de usar e compatível com a maioria das plataformas, incluindo Windows, Linux e Mac OS. Ele também suporta bloqueios recursivos e tem opções  avançadas para lidar com situações de falha de bloqueio. 

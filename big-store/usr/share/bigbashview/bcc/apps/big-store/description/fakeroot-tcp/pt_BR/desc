@@ -1,0 +1,3 @@
+Com o fakeroot-tcp, você pode simular privilégios de superusuário no seu sistema. Ele utiliza IPC via TCP para
+fazer isso. Ele é útil em situações onde você precisa executar comandos com privilégios de superusuário, mas não tem acesso a senha de root ou não quer assumir esses privilégios
+permanentemente.

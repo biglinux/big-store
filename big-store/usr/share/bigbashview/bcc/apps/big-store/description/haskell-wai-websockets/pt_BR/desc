@@ -1,0 +1,1 @@
+Este programa funciona como uma ponte entre o pacote WAI e o pacote websockets. Ele permite que você use as funcionalidades dos dois pacotes juntos, fazendo com que seja mais fácil trabalhar com conexões de websocket no seu projeto. 

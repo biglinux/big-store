@@ -1,0 +1,1 @@
+O ocaml-ppx_derivers é um plugin que permite a derivação automática de funções a partir de tipos existentes no código. Isso significa que você pode escrever menos código e deixar que o plugin gere automaticamente funções comuns para você, como comparadores, impressores, etc. Ele é útil para evitar a escrita de código repetitivo e tornar o seu código mais limpo e fácil de manter. 

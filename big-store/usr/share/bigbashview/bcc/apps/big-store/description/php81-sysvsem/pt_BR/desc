@@ -1,0 +1,4 @@
+O módulo sysvsem para o PHP 8.1 é uma ferramenta que permite aos desenvolvedores utilizar recursos de semáforos System V em
+seus projetos. Os semáforos são uma forma de gerenciar o acesso a recursos compartilhados, permitindo que vários processos trabalhem de forma coordenada, evitando conflitos de acesso.Esse
+módulo é especialmente útil em aplicações que precisam gerenciar recursos limitados, como arquivos ou memória, e em situações em que é necessário garantir a integridade de dados
+compartilhados. Além disso, ele também pode ser usado para criar aplicações distribuídas que precisam se comunicar entre si de forma sincronizada.

@@ -1,0 +1,1 @@
+lua-sdl2 é uma biblioteca que permite utilizar a biblioteca SDL 2.0 (Simple DirectMedia Layer) em conjunto com o interpretador Lua. Ela é escrita em C pura, o que garante uma boa performance e facilidade de uso. 

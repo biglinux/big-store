@@ -1,0 +1,1 @@
+Este programa oferece uma interface portátil para bloqueio de arquivos, utilizando as funções flock e LockFileEx. Ele é escrito em Haskell, uma linguagem de programação funcional. 

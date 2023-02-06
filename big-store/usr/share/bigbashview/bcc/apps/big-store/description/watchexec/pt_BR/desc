@@ -1,0 +1,1 @@
+watchexec é um programa que permite a você executar comandos automaticamente sempre que houver mudanças em seus arquivos. É uma ferramenta útil para desenvolvedores que desejam automatizar tarefas repetitivas, como compilar o código ou atualizar o site. Basta especificar os arquivos que deseja monitorar e os comandos que deseja executar e o watchexec cuidará do resto. 

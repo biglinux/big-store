@@ -1,0 +1,3 @@
+ hostctl é uma ferramenta de linha de comando que permite gerenciar facilmente seus arquivos host. Com ele, você pode
+adicionar, remover ou editar entradas no arquivo host de forma rápida e fácil. Além disso, o hostctl possibilita criar perfis de host, o que facilita o gerenciamento de vários ambientes
+diferentes.Se você precisa trabalhar com múltiplos arquivos host, o hostctl é uma excelente opção para tornar esse processo mais simples e eficiente. 

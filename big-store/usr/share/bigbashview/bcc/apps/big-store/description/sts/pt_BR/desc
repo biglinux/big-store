@@ -1,0 +1,4 @@
+Este programa é uma versão melhorada do pacote de testes estatísticos NIST (STS). Ele foi desenvolvido
+para ajudar na verificação de aleatoriedade de sistemas de geradores de números pseudo-aleatórios. Ele inclui uma variedade de testes estatísticos que podem ser executados para avaliar se
+um determinado conjunto de dados segue uma distribuição de probabilidade esperada. Isso é importante para garantir a segurança de sistemas criptográficos e outros aplicativos que dependem
+de números aleatórios.

@@ -1,0 +1,1 @@
+O pacote 'perl-net-dns-resolver-mock' é uma ferramenta que permite simular um objeto de resolução de DNS (Domain Name System) para fins de testes. Ele é escrito em Perl e é compatível com as versões mais recentes desse linguagem. Com ele, é possível testar aplicações que fazem uso de consultas DNS sem precisar de uma conexão ativa com a internet ou com um servidor DNS real. 

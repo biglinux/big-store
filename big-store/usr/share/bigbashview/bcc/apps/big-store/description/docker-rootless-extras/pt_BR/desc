@@ -1,0 +1,3 @@
+Com o Docker-rootless-extras, você pode executar o Docker sem privilégios de root. Isso significa que você não
+precisa ser um administrador do sistema para usar o Docker. Isso é útil se você quer evitar dar permissões de administrador para aplicativos e programas que não precisam disso. Além disso, 
+isso também pode ajudar a aumentar a segurança do seu sistema, pois evita que programas maliciosos obtenham privilégios de administrador.

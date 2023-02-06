@@ -1,0 +1,1 @@
+python-tarantool é uma biblioteca que fornece uma API em Python para trabalhar com um banco  de dados Tarantool 1.6. Ele permite que você se conecte facilmente a um servidor Tarantool e execute várias operações, como inserir, atualizar e recuperar dados. A biblioteca é compatível com Python 2 e Python 3 e é de código aberto. 

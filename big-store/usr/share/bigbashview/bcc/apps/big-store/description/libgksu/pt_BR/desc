@@ -1,0 +1,4 @@
+Este programa é uma biblioteca chamada libgksu, ela serve para ajudar outros programas a pedir autorização do usuário. Isso é
+importante para garantir que somente pessoas autorizadas possam realizar determinadas ações no computador. Por exemplo, se você precisa instalar um novo programa no seu computador, é
+necessário que você informe sua senha para garantir que você é a pessoa autorizada a realizar essa ação. Essa biblioteca ajuda outros programas a fazer essa verificação de forma mais fácil 
+e segura. 

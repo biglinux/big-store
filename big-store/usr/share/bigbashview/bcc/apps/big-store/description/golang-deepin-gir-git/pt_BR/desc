@@ -1,0 +1,1 @@
+Este programa gera vinculações estáticas em Golang para GObject. Ele é baseado no repositório git golang-deepin-gir-git e é útil para desenvolvedores que precisam usar bibliotecas GObject em seus projetos em Golang. 

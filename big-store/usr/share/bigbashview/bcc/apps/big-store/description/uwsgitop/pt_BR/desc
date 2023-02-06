@@ -1,0 +1,1 @@
+uwsgitop é uma ferramenta de linha de comando que permite monitorar a atividade do seu servidor uWSGI. Ele mostra o número de solicitações por segundo, o número de trabalhadores ativos e outras informações úteis. Pode ser executado em uma janela de terminal ou em um navegador web. É útil para manter um olho no desempenho do seu servidor e solução de problemas. 

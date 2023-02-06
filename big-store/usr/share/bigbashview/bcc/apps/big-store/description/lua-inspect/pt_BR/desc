@@ -1,0 +1,3 @@
+Esta ferramenta fornece uma representação legível para humanos das tabelas Lua. Ela permite que você visualize e
+navegue facilmente através das tabelas, o que pode ser útil para depurar e entender o seu código. Além disso, a ferramenta também permite que você exporte as tabelas para vários formatos,
+incluindo JSON e CSV, para uso em outras aplicações.

@@ -1,0 +1,1 @@
+Este é um subclasse do módulo Module::Build, específica para construir módulos Alien e suas bibliotecas. É chamado perl-alien-base-modulebuild. 

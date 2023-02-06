@@ -1,0 +1,1 @@
+Este programa fornece um recurso chamado 'quasi-quoter' para usar comandos SQL de forma bruta no Haskell, especificamente com a biblioteca 'persistent'. Isso permite que você escreva consultas SQL diretamente no seu código Haskell, facilitando a comunicação com o banco de dados. 

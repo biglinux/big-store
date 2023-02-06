@@ -1,0 +1,4 @@
+Esta biblioteca para Python é usada para armazenar temporariamente as solicitações de rede. Isso significa que, ao invés de
+fazer uma solicitação de rede toda vez que precisar de uma informação, ela pode ser obtida do cache. Isso é útil porque as solicitações de rede podem ser lentas e consumir recursos. Com o
+cache, as coisas ficam mais rápidas e mais fáceis para o seu programa. Além disso, essa biblioteca é baseada em minq e possui suporte para vários formatos de dados, o que a torna flexível e
+fácil de usar.

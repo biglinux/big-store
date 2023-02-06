@@ -1,0 +1,3 @@
+Esse programa é responsável por processar grandes quantidades de imagens de uma só vez. Ele funciona como uma fila,
+processando as imagens uma de cada vez, para garantir que não haja sobrecarga no sistema. Ele é especialmente útil para profissionais de fotografia ou design que precisam processar grandes 
+conjuntos de imagens, como por exemplo, para criar um álbum de fotos.

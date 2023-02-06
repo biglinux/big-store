@@ -1,0 +1,3 @@
+Este programa é uma extensão para o PHP 7.1 que adiciona suporte ao banco de dados MySQL. Com ele, é possível utilizar comandos
+específicos do MySQL em scripts PHP, facilitando a conexão e interação com o banco de dados.Ele é muito útil para desenvolvimento de aplicações web que precisam acessar e manipular dados 
+armazenados no MySQL. 

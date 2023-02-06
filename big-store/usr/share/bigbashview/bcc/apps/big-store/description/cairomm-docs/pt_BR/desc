@@ -1,0 +1,1 @@
+ Esta é a documentação para os bindings C++ para Cairo. Eles permitem que você use a biblioteca Cairo para desenhar gráficos em seu programa escrito em C++. Cairo é uma biblioteca de desenho de gráficos muito poderosa e flexível, e esses bindings permitem que você a use facilmente em seus projetos C++.  

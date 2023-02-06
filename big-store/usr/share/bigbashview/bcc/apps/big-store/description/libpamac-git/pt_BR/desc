@@ -1,0 +1,3 @@
+Esta é uma biblioteca para o gerenciador de pacotes Pamac. Ela é baseada em libalpm e esta é a versão git. Isso 
+significa que é uma versão em desenvolvimento, que pode ter novos recursos e correções de bugs, mas também pode ser instável. Se você precisar de estabilidade, é melhor usar a versão normal
+da biblioteca.

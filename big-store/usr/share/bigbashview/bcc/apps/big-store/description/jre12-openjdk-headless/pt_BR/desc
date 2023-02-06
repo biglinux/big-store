@@ -1,0 +1,2 @@
+O ambiente de execução Java 12 é uma versão sem interface gráfica do OpenJDK. Ele permite que os programas escritos em Java
+sejam executados sem a necessidade de uma interface gráfica. Isso é útil em servidores ou outros sistemas onde não há necessidade de uma interface gráfica.

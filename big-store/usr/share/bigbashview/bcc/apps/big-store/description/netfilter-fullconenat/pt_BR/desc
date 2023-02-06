@@ -1,0 +1,1 @@
+Esse programa é um módulo do kernel, ou seja, é um pedaço de código que ajuda o sistema operacional a funcionar. Ele faz uma transformação específica, chamada de MASQUERADE em SNAT completo. Isso pode ser útil em algumas configurações de rede para ajudar a proteger a privacidade e segurança dos usuários. 

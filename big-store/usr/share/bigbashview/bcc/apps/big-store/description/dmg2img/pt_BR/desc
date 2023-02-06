@@ -1,0 +1,1 @@
+dmg2img é uma ferramenta de linha de comando para converter arquivos DMG comprimidos da Apple para o formato HFS+ IMG. Isso permite que você acesse facilmente os arquivos dentro do arquivo DMG sem precisar montar a imagem. A ferramenta é de código aberto e disponível para Windows, Linux e macOS. 

@@ -1,0 +1,4 @@
+Este programa é um plugin para o Python que adiciona suporte à criptografia OMEMO. Ele é baseado no pacote Slixmpp e
+permite que os usuários criptografem suas mensagens de forma segura e privada. Com este plugin, é possível garantir que as mensagens trocadas entre usuários sejam protegidas contra
+interceptações e espionagem. Além disso, o plugin também fornece uma interface fácil de usar para gerenciar chaves e verificar a autenticidade dos contatos. Ele é uma ótima escolha para
+qualquer pessoa que deseja garantir a segurança de suas comunicações e proteger sua privacidade.

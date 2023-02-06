@@ -1,0 +1,4 @@
+Este programa imprime informações importantes sobre as implementações SYCL disponíveis. SYCL é uma especificação de
+linguagem para computação de alto desempenho em dispositivos heterogêneos, como CPUs e GPUs. Com ele, você pode obter informações valiosas sobre as implementações SYCL que você possui em
+seu sistema, como versão, provedor e capacidades.Com essas informações, você pode tomar decisões informadas sobre como utilizar a computação de alto desempenho em seus projetos e otimizar o
+desempenho de suas aplicações.

@@ -1,0 +1,4 @@
+Pytaglib é uma biblioteca para Python que permite aos usuários editar e ler informações de tags em arquivos de áudio.
+Essas informações incluem coisas como o nome do artista, o título da música e o ano de lançamento. Com Pytaglib, é fácil de trabalhar com arquivos de áudio e manter suas informações de tags
+organizadas e precisas.Além disso, ele suporta vários formatos de arquivos de áudio, incluindo MP3, Ogg Vorbis e FLAC. Isso permite que você trabalhe com uma variedade de arquivos de áudio 
+sem precisar se preocupar em usar diferentes bibliotecas para cada formato.

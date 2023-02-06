@@ -1,0 +1,1 @@
+Libsass é uma implementação em C do pré-processador Sass CSS. Ele permite que você use a linguagem Sass para escrever suas folhas de estilo CSS e depois as compila para  CSS regular. Ele é rápido, eficiente e fácil de usar. Pode ser usado como biblioteca em outros programas ou como ferramenta de linha  de comando. 

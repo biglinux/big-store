@@ -1,0 +1,2 @@
+Este é um editor de texto leve escrito em Lua (construído com luajit). Ele é fácil de usar e rápido para abrir arquivos, além de 
+possuir recursos básicos de edição como copiar, colar e salvar. Ideal para usuários que precisam de um editor simples e rápido para tarefas diárias.

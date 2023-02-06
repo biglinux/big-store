@@ -1,0 +1,4 @@
+Este é um programa escrito em Python que serve como um parser e gerador de AST (Abstract Syntax Tree) para códigos 
+escritos na linguagem C. Ele é uma ferramenta útil para os desenvolvedores que desejam analisar e compreender o código fonte escrito em C.Com o python2-pycparser, é possível analisar o
+código fonte em C, gerar uma representação em árvore da estrutura do código e, assim, ter uma melhor compreensão do funcionamento do programa. Além disso, ele também pode ser usado para a
+geração automática de código.

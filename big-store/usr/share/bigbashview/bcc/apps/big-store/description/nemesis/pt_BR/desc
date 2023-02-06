@@ -1,0 +1,4 @@
+Esta é uma ferramenta de linha de comando chamada Nemesis. Ela é usada para criar pacotes de rede e
+injetá-los em uma conexão. Isso pode ser útil para testar a segurança de uma rede ou simplesmente brincar com diferentes tipos de tráfego.Algumas das coisas que você pode fazer com Nemesis 
+incluem enviar pacotes personalizados, escanear portas, criar ataques de negação de serviço (DoS) e muito mais. Ele é fácil de usar e tem muitas opções avançadas para quem quiser brincar
+com ele.

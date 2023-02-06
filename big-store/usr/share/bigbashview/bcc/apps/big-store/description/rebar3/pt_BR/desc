@@ -1,0 +1,3 @@
+ rebar3 é uma ferramenta de construção avançada para projetos Erlang que segue os princípios OTP. Ele 
+permite que você gerencie facilmente dependências, compile e distribua seu código, e muito mais. Com suporte para múltiplas plataformas e uma interface amigável, rebar3 torna a criação de
+projetos Erlang mais fácil e eficiente.

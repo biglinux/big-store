@@ -1,0 +1,4 @@
+Este programa é uma biblioteca para ser usada como módulo para o fog. Ele permite que você conecte seu código em Ruby ao
+OVirt, um sistema de gerenciamento de nuvem baseado em software livre. Com ele, você pode automatizar tarefas como criação de máquinas virtuais, gerenciamento de armazenamento e
+gerenciamento de redes.Para usar o ruby-fog-ovirt, você precisará ter uma conta ativa no OVirt e as informações de autenticação necessárias. Depois disso, você pode começar a escrever seu
+código e usar as funcionalidades do módulo para se conectar ao OVirt e gerenciar suas recursos de nuvem.

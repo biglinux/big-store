@@ -1,0 +1,3 @@
+ Este é um programa chamado pipewire-alsa-git. Ele é usado para rotejar e processar áudio e vídeo com
+baixa latência. Ele está disponível na versão GIT e vem com configurações específicas para o ALSA (Advanced Linux Sound Architecture). Ele é útil para quem precisa de um desempenho mais
+rápido e preciso no processamento de áudio e vídeo.

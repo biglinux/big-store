@@ -1,0 +1,3 @@
+Este é um programa chamado sway-im. Ele é um gerenciador de janelas para o sistema operacional Wayland. Ele pode ser usado
+como uma substituição para o gerenciador de janelas i3. A versão do programa que estamos falando é a versão git, que inclui pop-ups de método de entrada. Isso significa que ele facilita a
+digitação de texto em vários idiomas.

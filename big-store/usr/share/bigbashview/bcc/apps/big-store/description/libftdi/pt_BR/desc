@@ -1,0 +1,1 @@
+A biblioteca libftdi é uma ferramenta para se comunicar com chips FTDI. Ela permite controlar e se comunicar com dispositivos que possuem um chip FTDI, como conversores USB para serial. A biblioteca é escrita em C, mas também existem bindings opcionais em python disponíveis. Isso significa que você também pode utilizá-la em seus programas em Python. 

@@ -1,0 +1,3 @@
+Este programa é chamado de jd-tool e serve para comparar arquivos JSON e fazer as alterações necessárias. Ele é útil para
+garantir que duas versões de um mesmo arquivo estejam sincronizadas e para aplicar correções em um arquivo específico. Além disso, o jd-tool também pode criar um arquivo de patch, que é um 
+arquivo especial que contém as informações sobre as alterações feitas em um arquivo.

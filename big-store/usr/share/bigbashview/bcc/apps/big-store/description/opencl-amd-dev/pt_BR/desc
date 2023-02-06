@@ -1,0 +1,2 @@
+Este pacote contém ferramentas para desenvolvimento com OpenCL, incluindo SDK, HIP SDK e compilador ROCM. Ele precisa de pelo
+menos 10GB de espaço em disco para ser instalado.

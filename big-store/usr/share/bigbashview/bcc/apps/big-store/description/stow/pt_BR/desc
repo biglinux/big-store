@@ -1,0 +1,1 @@
+O programa 'stow' permite gerenciar a instalação de vários programas no mesmo diretório. Ele funciona criando links simbólicos dos arquivos do programa para o diretório onde você deseja instalá-lo, dessa forma você pode instalar vários programas no mesmo diretório sem sobrepor arquivos. 

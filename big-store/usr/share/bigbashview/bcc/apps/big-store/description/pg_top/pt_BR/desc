@@ -1,0 +1,2 @@
+ O pg_top é uma ferramenta parecida com o top, que ajuda a monitorar os backends do PostgreSQL. Ele foi conhecido
+anteriormente como ptop. 

@@ -1,0 +1,2 @@
+ Este programa adiciona suporte para C/C++/ObjC ao Neovim usando o clangd. Isso permite que você tenha recursos
+avançados de edição de código, como sugestões de código e navegação de código, enquanto trabalha em projetos C/C++/ObjC no Neovim. 

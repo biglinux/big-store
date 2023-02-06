@@ -1,0 +1,3 @@
+SSMTP é uma ferramenta muito simples que ajuda você a enviar e-mails do seu sistema para um servidor de e-mails. Ele vem com
+algumas correções específicas para o Fedora. Com ele, você pode facilmente configurar o envio de e-mails a partir de sua aplicação ou script sem precisar configurar um servidor completo de 
+e-mails.

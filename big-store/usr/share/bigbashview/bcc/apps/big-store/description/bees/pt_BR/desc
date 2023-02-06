@@ -1,0 +1,1 @@
+Este programa é chamado de Best-Effort Extent-Same, ou BEES para abreviar. Ele é um deduplicador de arquivos para o sistema de arquivos btrfs. Ele funciona em segundo plano para encontrar arquivos duplicados no sistema e remove-los para economizar espaço em disco. Ele é projetado para ser eficiente e não afetar significativamente o desempenho do sistema durante sua execução. 

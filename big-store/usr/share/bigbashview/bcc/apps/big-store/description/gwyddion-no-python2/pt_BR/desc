@@ -1,0 +1,2 @@
+ Gwyddion é uma ferramenta de visualização e processamento de dados para microscopia de varredura de 
+sonda (SPM, ou seja, AFM, STM, MFM, SNOM/NSOM, ...) e profilometria, útil também para análise de imagens e dados 2D em geral. Ele não é baseado em Python 2. 

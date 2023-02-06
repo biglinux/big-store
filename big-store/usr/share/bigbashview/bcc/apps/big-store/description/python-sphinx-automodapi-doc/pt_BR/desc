@@ -1,0 +1,4 @@
+ O programa Sphinx é uma ferramenta poderosa para gerar documentação a partir de código fonte. Com o módulo
+automodapi, é possível gerar automaticamente a documentação dos módulos e classes do seu projeto. Isso pode ser muito útil para manter a documentação sempre atualizada e evitar erros
+humanos.O módulo automodapi é fácil de usar e pode ser integrado facilmente ao seu projeto existente. Ele gera automaticamente a documentação dos módulos e classes com base nas
+docstrings e outras informações disponíveis no código fonte. 

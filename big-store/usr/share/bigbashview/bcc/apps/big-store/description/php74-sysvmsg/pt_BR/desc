@@ -1,0 +1,4 @@
+ Este é um módulo para o PHP 74 que permite acessar as mensagens sysv. Isso significa que ele permite que você crie,
+envie e receba mensagens entre processos no sistema operacional. Isso pode ser útil em várias situações, como comunicação entre processos em um ambiente de cluster ou comunicação entre
+diferentes aplicativos em um sistema. Para usar este módulo, você precisará instalar o PHP 74 e habilitá-lo no seu sistema. Em seguida, você pode usar as funções fornecidas pelo módulo para
+trabalhar com as mensagens sysv.

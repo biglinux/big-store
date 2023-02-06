@@ -1,0 +1,1 @@
+O perl-io-bufferedselect é uma interface de seleção com buffer de linha para Perl. Ele permite que você monitore vários filehandles simultaneamente e tome ações quando algum deles estiver pronto para leitura ou escrita. Isso é útil para aplicações que precisam gerenciar múltiplos fluxos de dados ao mesmo tempo, como servidores de rede ou programas de monitoramento. 

@@ -1,0 +1,1 @@
+drone-runner-docker é um executor de pipeline para Drone que realiza construções dentro  de containers Docker. Ele permite construir, testar e implantar seu código em um ambiente reproduzível e isolado. Este executor pode ser usado em conjunto com outros executores, como o drone-runner-exec ou o drone-runner-kubernetes, para fornecer uma pipeline CI/CD completa. 

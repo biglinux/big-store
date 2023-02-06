@@ -1,0 +1,3 @@
+Este programa é um cliente de música para MPD (Music Player Daemon) que possui um design elegante e intuitivo. Ele é
+desenvolvido com a biblioteca GTK+3, o que garante uma boa aparência e facilidade de uso. Com ele você pode gerenciar sua biblioteca de música, criar playlists e controlar o player. Esta é 
+a versão git, ou seja, é a versão mais recente e pode conter correções de bugs ou novas funcionalidades.

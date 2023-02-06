@@ -1,0 +1,4 @@
+Essa é uma biblioteca para o Python 3.x que permite que você use bibliotecas escritas em C e C++ dentro do seu código Python.
+Ela é chamada de PyQt4 e é especificamente projetada para trabalhar com o SIP, que é outra biblioteca para o Python.Isso significa que você pode usar as funcionalidades e recursos de outras
+bibliotecas C/C++ dentro do seu código Python, tornando-o mais poderoso e flexível. É útil para desenvolvedores que precisam de uma solução fácil de usar para trabalhar com bibliotecas
+C/C++ no Python.

@@ -1,0 +1,1 @@
+A pnetcdf-openmpi é uma biblioteca de I/O paralelo para acesso a arquivos NetCDF, que utiliza a tecnologia openmpi para melhorar a velocidade e eficiência do acesso a esses arquivos. 

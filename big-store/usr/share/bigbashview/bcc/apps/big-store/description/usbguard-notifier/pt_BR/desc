@@ -1,0 +1,4 @@
+Este programa é uma ferramenta para detectar mudanças na política e presença de dispositivos no USBGuard. Ele
+fornece notificações de eventos como dispositivos sendo bloqueados ou liberados, permitindo que você tenha um controle mais preciso e eficiente sobre os dispositivos conectados ao seu
+sistema. Com ele, você pode definir regras para bloquear ou liberar dispositivos específicos, baseado em suas características, como ID de hardware ou fabricante. Além disso, ele também
+permite que você configure ações automatizadas para reagir a eventos específicos, como desconectar um dispositivo malicioso assim que for detectado.

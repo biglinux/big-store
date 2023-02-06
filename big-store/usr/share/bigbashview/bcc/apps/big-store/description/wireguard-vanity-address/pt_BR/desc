@@ -1,0 +1,3 @@
+Este programa é usado para criar chaves de segurança para o aplicativo Wireguard. Ele permite que você adicione um prefixo
+personalizado na chave gerada, tornando-a mais fácil de reconhecer e gerenciar.Wireguard é uma ferramenta de VPN (Virtual Private Network) que oferece alta velocidade e segurança, é uma
+alternativa a outras ferramentas como OpenVPN e IPSec.

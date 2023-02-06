@@ -1,0 +1,1 @@
+Este programa é um parser SAX XML que é baseado na biblioteca Expat. Ele é usado para interpretar arquivos XML e transformá-los em dados que podem ser lidos e manipulados pelo seu aplicativo. Ele também é compatível com a linguagem de programação Lua51. 

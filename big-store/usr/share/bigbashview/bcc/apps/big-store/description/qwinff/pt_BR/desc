@@ -1,0 +1,2 @@
+Este programa é chamado qwinff e ele é usado para converter vídeos de um formato para outro. Ele tem uma interface gráfica
+fácil de usar feita com Qt4/5. Ele usa o ffmpeg para fazer as conversões.

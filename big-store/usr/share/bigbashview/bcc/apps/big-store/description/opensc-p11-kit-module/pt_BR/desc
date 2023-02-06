@@ -1,0 +1,4 @@
+Este programa é um módulo de configuração para o OpenSC, que é um conjunto de ferramentas e bibliotecas para trabalhar com
+cartões de criptografia. Ele permite que você use seus cartões de criptografia em aplicativos que suportam o p11-kit, que é um sistema para gerenciar cartões de criptografia.Com este
+módulo, você pode facilmente configurar e usar seus cartões de criptografia em aplicativos compatíveis com p11-kit, sem precisar se preocupar com configurações complexas. Ele é simples de
+usar e é uma ótima opção para quem precisa trabalhar com cartões de criptografia.

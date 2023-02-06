@@ -1,0 +1,2 @@
+Com esse programa, você pode fazer backups automáticos usando o restic e os timers do systemd, armazenando os arquivos no
+Backblaze B2. Assim, você não precisa se preocupar em lembrar de fazer backup manualmente, e os seus arquivos estarão sempre seguros.

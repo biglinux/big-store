@@ -1,0 +1,1 @@
+A classe de tipos MonadUnliftIO permite desmontar monadas para o IO.Este é um pacote Haskell chamado unliftio-core. 

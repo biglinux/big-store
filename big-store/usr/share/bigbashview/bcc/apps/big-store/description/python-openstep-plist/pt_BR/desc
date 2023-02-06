@@ -1,0 +1,3 @@
+Este programa é capaz de ler e escrever arquivos no formato .plist, que é usado para armazenar dados em sistemas
+operacionais da Apple. Ele foi escrito em Cython e é compatível com o formato OpenStep. Ele é muito útil para quem desenvolve aplicativos para MacOS ou iOS.Com ele você pode facilmente
+acessar e manipular os dados armazenados em arquivos .plist, sem precisar lidar com a complexidade de outros formatos de arquivos.

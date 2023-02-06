@@ -1,0 +1,1 @@
+Este é um módulo Python que permite abrir o gerenciador de arquivos do seu sistema e selecionar arquivos nele. Ele é útil para quem precisa selecionar arquivos sem precisar sair do programa Python. Para usar este módulo, basta importá-lo e chamar a função 'show_in_file_manager' passando o caminho do arquivo desejado como parâmetro. 

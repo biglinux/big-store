@@ -1,0 +1,3 @@
+Esse programa permite que você gerencie as variáveis de ambiente através de arquivos YAML. Isso significa que você
+pode criar e editar suas variáveis de ambiente usando arquivos YAML, em vez de fazê-lo manualmente. Isso pode ser útil para garantir que suas configurações sejam consistentes em diferentes 
+sistemas e para tornar o gerenciamento de configurações mais fácil.

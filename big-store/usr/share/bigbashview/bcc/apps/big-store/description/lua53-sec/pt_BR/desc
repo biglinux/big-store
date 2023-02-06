@@ -1,0 +1,1 @@
+Este programa permite que você tenha comunicação segura (TLS/SSL) para o seu código escrito em Lua 5.3, usando a biblioteca OpenSSL. Isso significa que você pode proteger informações sensíveis, como senhas e dados pessoais, enquanto elas são transmitidas pela internet. Com esse programa, você pode adicionar segurança extra ao seu projeto Lua. 

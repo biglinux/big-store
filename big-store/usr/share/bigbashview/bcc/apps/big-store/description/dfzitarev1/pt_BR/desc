@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para adicionar um efeito de reverbação a arquivos de áudio. Ele é compatível com os formatos
+LV2 e VST3 e usa uma técnica chamada 'feedback-delay-network' para criar o som de eco. Com ele você pode ajustar a intensidade e o tempo do efeito de reverbação, para que o som fique
+exatamente como você deseja. É uma ferramenta útil para quem trabalha com edição de áudio e produção musical.

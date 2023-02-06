@@ -1,0 +1,4 @@
+ Este programa ajuda a verificar se um remetente de e-mail está autorizado a enviar mensagens de um determinado domínio.
+Ele utiliza o protocolo chamado Sender Policy Framework (SPF) e foi escrito em Python.Isso é importante para evitar que mensagens de spam ou phishing sejam enviadas de um endereço falso,
+fazendo com que pareçam vir de uma fonte confiável.Ao usar este programa, você pode ter mais segurança na caixa de entrada do seu e-mail, sabendo que as mensagens que você recebe
+realmente vieram de onde dizem que vieram. 

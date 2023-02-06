@@ -1,0 +1,3 @@
+ Este programa é um 'daemon', ou seja, um programa que funciona em segundo plano. Ele é chamado de 'greeter' pois é usado para dar
+boas-vindas a alguém, assim que eles entram em algum lugar. Ele é genérico, o que significa que pode ser usado em vários lugares e situações diferentes. Ele é muito útil para automatizar
+saudações e tornar a experiência do usuário mais agradável. 

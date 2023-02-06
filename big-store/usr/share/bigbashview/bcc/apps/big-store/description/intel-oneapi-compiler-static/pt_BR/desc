@@ -1,0 +1,3 @@
+O Intel® oneAPI Compiler é uma ferramenta poderosa para desenvolvimento de aplicativos. Ele permite
+compilar código em várias linguagens, como C, C++ e Fortran, e otimizá-lo para diferentes processadores e dispositivos. Esta versão inclui bibliotecas estáticas, o que significa que as
+funções e procedimentos utilizados no seu código são incluídos diretamente no arquivo executável, tornando-o mais rápido e independente de outras bibliotecas.

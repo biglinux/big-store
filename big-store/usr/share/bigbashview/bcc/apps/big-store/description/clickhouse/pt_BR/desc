@@ -1,0 +1,3 @@
+Este é um programa de banco de dados aberto, chamado ClickHouse. Ele é especialmente bom para fazer relatórios de
+dados analíticos e pode mostrar esses relatórios em tempo real. Isso significa que você não precisa esperar para ver os resultados, eles aparecem imediatamente.Ele é diferente dos outros
+bancos de dados comuns, pois é orientado a colunas. Isso significa que ele organiza os dados de uma maneira diferente, o que o torna mais rápido e fácil de usar para relatórios analíticos.

@@ -1,0 +1,5 @@
+ O Stressful Application Test, ou stressapptest, é um programa de teste de estresse para sistemas operacionais. Ele foi
+projetado para testar a estabilidade e desempenho de um sistema, ajudando a identificar falhas e limitações. Ele pode ser executado em sistemas Linux, Unix e MacOS, e pode ser usado para
+testar vários componentes do sistema, como CPU, memória, disco e rede.O stressapptest é uma ferramenta valiosa para administradores de sistemas e desenvolvedores, pois ajuda a garantir que 
+os sistemas sejam capazes de lidar com cargas de trabalho intensas e evitar falhas indesejadas. Ele também pode ser usado para simular cenários de carga de trabalho em ambientes de teste
+antes de implementar em produção.

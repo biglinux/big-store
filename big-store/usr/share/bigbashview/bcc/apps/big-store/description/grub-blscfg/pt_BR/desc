@@ -1,0 +1,3 @@
+Este é um programa para configurar o inicializador de sistemas operacionais em seu computador. É conhecido como GRUB 2 e vem 
+com um módulo adicional, chamado blscfg, já compilado. Assim, você pode facilmente escolher qual sistema operacional inicializar em sua máquina e personalizar outras configurações do GRUB
+2. É uma ferramenta importante para garantir que você possa usar o sistema operacional que precisa, quando precisar. 

@@ -1,0 +1,1 @@
+Esse é um plugin para o py.test, um framework de testes para Python. Ele tem a função de reexecutar testes que falharam anteriormente com o objetivo de eliminar falhas intermitentes. Isso pode ser útil em casos em que um teste falha ocasionalmente devido a problemas externos, como lentidão na rede ou outros fatores imprevisíveis. 

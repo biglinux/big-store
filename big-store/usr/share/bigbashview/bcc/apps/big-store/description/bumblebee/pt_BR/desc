@@ -1,0 +1,1 @@
+O Bumblebee é uma ferramenta que permite usar o sistema NVIDIA Optimus em sistemas Linux. Ele usa o Primus ou o VirtualGL para permitir que os aplicativos usem a GPU dedicada NVIDIA sem precisar inicializar a sessão completa do X com ela. Isso permite economizar bateria e evitar problemas de compatibilidade com aplicativos que não funcionam bem com a GPU dedicada. 

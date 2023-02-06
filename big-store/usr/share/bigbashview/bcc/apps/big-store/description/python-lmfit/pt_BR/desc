@@ -1,0 +1,3 @@
+Este programa é chamado python-lmfit e ele ajuda a ajustar curvas com dados não lineares. Ele usa uma técnica chamada 
+minimização de mínimos quadrados não lineares e permite que você configure os parâmetros de forma flexível. Além disso, ele possui muitas outras classes e métodos para ajudar a ajustar as
+curvas.

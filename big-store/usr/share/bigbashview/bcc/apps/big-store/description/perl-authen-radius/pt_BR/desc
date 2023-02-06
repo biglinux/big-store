@@ -1,0 +1,1 @@
+Este programa é um cliente de RADIUS escrito em Perl. Ele fornece autenticação através do protocolo RADIUS, que é comumente utilizado em redes de computadores para controlar o acesso a recursos. 

@@ -1,0 +1,2 @@
+Este programa permite que você receba notificações sem precisar usar o Daemon. Ele funciona sem o D-Bus, o que significa que é
+mais simples e fácil de usar. Com este programa, você pode receber notificações de vários aplicativos sem precisar se preocupar com configurações complexas.

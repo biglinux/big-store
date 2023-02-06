@@ -1,0 +1,1 @@
+Os plugins são adições que podem ser feitas ao motor gráfico Magnum C++11/C++14. Eles permitem adicionar novas funcionalidades e melhorar a performance do programa. Alguns exemplos de plugins incluem suporte a novos formatos de arquivos de imagem, suporte a novos dispositivos de entrada e melhorias na iluminação e sombras. 

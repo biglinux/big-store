@@ -1,0 +1,3 @@
+ Este é um programa chamado wl-clipboard-x11. Ele serve como uma ferramenta para usar a área de transferência do
+wl-clipboard no lugar das ferramentas de área de transferência do X11. Isso significa que você pode copiar e colar coisas entre programas como de costume, mas agora usando essa ferramenta
+específica.É útil para quem precisa de compatibilidade com o wl-clipboard em vez das ferramentas padrão do X11. 

@@ -1,0 +1,1 @@
+efibootmgr é uma ferramenta de linha de comando para gerenciar entradas do gerenciador de inicialização EFI no Linux. Ele permite que você crie, modifique e exclua entradas, além de alterar a ordem de inicialização. Ele é útil para configurar o sistema para inicializar a partir de uma unidade USB ou disco rígido externo, entre outras coisas. 

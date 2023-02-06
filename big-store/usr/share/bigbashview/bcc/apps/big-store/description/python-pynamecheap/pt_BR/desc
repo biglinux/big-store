@@ -1,0 +1,1 @@
+Esse programa é um cliente da API Namecheap, escrito em Python. Ele permite que você faça diversas operações com seus domínios registrados na Namecheap, como gerenciar DNS, comprar novos domínios e muito mais. É uma ótima ferramenta para quem precisa automatizar tarefas relacionadas a domínios. O nome desse programa é python-pynamecheap. 

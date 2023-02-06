@@ -1,0 +1,4 @@
+A ferramenta de construção C-Sky é um conjunto de ferramentas utilizadas para desenvolver aplicativos para processadores 
+C-Sky 800 series. Ela inclui compiladores, bibliotecas e outras ferramentas que ajudam a transformar o código fonte em um arquivo executável que pode ser carregado em um dispositivo
+C-Sky.Esta ferramenta é especialmente útil para desenvolvedores de sistemas embarcados e IoT, pois permite criar aplicativos eficientes e otimizados para esses dispositivos com recursos
+limitados.

@@ -1,0 +1,5 @@
+mxnet-mkl é uma biblioteca de aprendizado profundo que oferece flexibilidade e eficiência para
+desenvolvimento de modelos de inteligência artificial. Ela utiliza o Intel Math Kernel Library (MKL) para otimizar o desempenho em processamento de matrizes, o que a torna ideal para
+projetos grandes e complexos. Além disso, a biblioteca é compatível com várias plataformas, como Windows, Linux e Mac, e possui uma ampla comunidade de desenvolvedores que contribuem com
+novos recursos e correções de bugs.A biblioteca é de fácil utilização e possui uma documentação completa para ajudar os desenvolvedores a implementar seus projetos de forma rápida e
+eficiente. Ela também oferece suporte para várias linguagens, incluindo Python, R, Julia e Perl.

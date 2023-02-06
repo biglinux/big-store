@@ -1,0 +1,1 @@
+poppler-data é um pacote que contém dados de codificação necessários para a biblioteca poppler funcionar corretamente. Ele permite que a biblioteca leia e exiba arquivos PDF de forma eficiente. Esse pacote deve ser instalado junto com a biblioteca poppler para garantir que ela possa funcionar corretamente. 

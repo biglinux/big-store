@@ -1,0 +1,2 @@
+Este programa é uma ferramenta de depuração para o código escrito em Python. Ele é conhecido como pdb++, e é uma
+substituição direta para outra ferramenta chamada pdb. Ele permite que você visualize o código enquanto ele está sendo executado, ajudando você a encontrar e corrigir erros.

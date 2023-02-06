@@ -1,0 +1,1 @@
+terragrunt é um pacote simples para o Terraform que oferece ferramentas adicionais para trabalhar com múltiplos módulos do Terraform. Ele é projetado para tornar mais fácil gerenciar configurações de infraestrutura complexas e fornecer recursos adicionais como dependências entre módulos e varredura automatizada de configurações. 

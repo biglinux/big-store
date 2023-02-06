@@ -1,0 +1,1 @@
+Este programa permite limitar o uso da CPU de um processo em porcentagem. Ele envia sinais SIGSTOP/SIGCONT  POSIX para os processos, o que permite controlar o uso da CPU de cada um deles.Com este programa, você pode garantir que nenhum processo consuma mais recursos do que o necessário, o que é útil em sistemas com recursos limitados. 

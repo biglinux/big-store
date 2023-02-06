@@ -1,0 +1,4 @@
+ Este programa permite que você ative um ambiente virtual para o shell atual. Isso é útil quando você está
+trabalhando com vários projetos Python diferentes e precisa garantir que você está usando as versões corretas das bibliotecas. Com ele, você pode facilmente alternar entre os ambientes
+virtuais sem precisar sair do seu shell atual.Ele é baseado no Dephell e é compatível com o Python 3. Ele também suporta o gerenciamento de dependências, o que permite que você instale e
+gerencie facilmente as bibliotecas que você precisa para cada projeto. 

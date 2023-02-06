@@ -1,0 +1,4 @@
+ O sistema de impressão CUPS é um software que permite que você envie documentos para impressoras de forma fácil e
+rápida. Este pacote inclui as bibliotecas e cabeçalhos de cliente do CUPS, mas com a opção GSSAPI (kerberos) habilitada. Isso permite que você use autenticação segura quando envia
+documentos para impressão.Com o sistema de impressão CUPS e GSSAPI, você pode garantir que somente usuários autorizados possam enviar documentos para impressão, e que esses documentos
+sejam transmitidos de maneira segura. 

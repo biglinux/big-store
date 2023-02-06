@@ -1,0 +1,4 @@
+Este é um módulo que adiciona recursos de transferência de arquivos para o php73. Ele permite fazer solicitações HTTP e HTTPS e
+trabalhar com arquivos remotos. Com esse módulo, você pode baixar arquivos, enviar informações para um site, obter informações de uma página e muito mais. Alguns exemplos de uso incluem:
+baixar imagens de um site, enviar dados para um formulário online, obter informações de um feed RSS e muito mais. O módulo curl é amplamente utilizado e é uma ferramenta poderosa para
+trabalhar com arquivos remotos.

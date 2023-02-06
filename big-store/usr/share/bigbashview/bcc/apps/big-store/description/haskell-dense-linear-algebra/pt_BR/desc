@@ -1,0 +1,1 @@
+ Esta é uma implementação simples e incompleta de algebra linear escrita em Haskell. O objetivo deste projeto é fornecer uma biblioteca simples para operações de algebra linear, como resolução de sistemas lineares, cálculo de autovalores e autovetores, entre outros. É importante notar que essa implementação é pura, ou seja, ela não usa bibliotecas externas. 

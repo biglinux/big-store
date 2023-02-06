@@ -1,0 +1,3 @@
+ Este é um plugin para o DeaDBeeF player que permite controlar o player usando as teclas multimídia do
+teclado, como o botão de play/pausa e o de avançar música. Ele é específico para o ambiente de trabalho Gnome e se comunica com o player através do DBus, que é uma interface de comunicação 
+usada para aplicativos se comunicarem no Gnome. Com este plugin, você pode controlar a sua música sem precisar abrir a janela do player.

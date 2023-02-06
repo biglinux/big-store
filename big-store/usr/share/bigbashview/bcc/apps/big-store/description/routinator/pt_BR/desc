@@ -1,0 +1,3 @@
+ Esta é uma ferramenta chamada Routinator, ela é usada para validar a autenticidade de informações no protocolo RPKI. Ela foi
+escrita em Rust, uma linguagem de programação de alto desempenho. Isso significa que ela é rápida e confiável ao verificar informações no RPKI. Além disso, é fácil de usar e mantém seu
+banco de dados atualizado automaticamente. Se você precisa garantir a segurança e a confiabilidade das informações no RPKI, esta é a ferramenta perfeita para você. 

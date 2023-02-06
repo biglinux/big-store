@@ -1,0 +1,3 @@
+mycli é um cliente de terminal para MySQL que possui recursos de auto completar e destacar sintaxe. Ele é uma ferramenta útil 
+para quem trabalha com banco de dados MySQL e precisa de uma interface de linha de comando mais amigável. Com mycli, é possível navegar, gerenciar e executar comandos no banco de dados de
+forma rápida e eficiente. Além disso, ele suporta histórico de comandos, sugestões de comandos e muito mais.

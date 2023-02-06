@@ -1,0 +1,4 @@
+O runtime .NET Core é o que permite a execução de aplicativos feitos com a tecnologia .NET. Este é o pacote binário que 
+você precisa instalar em seu computador para poder rodar esses programas.Ele é responsável por gerenciar a memória, realizar a comunicação com outros programas e bibliotecas, e garantir que
+tudo funcione da maneira correta.Sem o runtime .NET Core, você não conseguirá rodar aplicativos feitos com essa tecnologia, por isso é importante instalá-lo em seu computador se você deseja
+usar esses programas.

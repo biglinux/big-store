@@ -1,0 +1,3 @@
+Este programa é chamado de cfddns e é usado para atualizar automaticamente o endereço de IP de sua conexão com a internet 
+em seu nome de domínio. Ele funciona com o Cloudflare, um provedor de serviços de DNS.Isso é útil se você deseja acessar sua rede doméstica ou servidor de forma remota, mas seu endereço de 
+IP muda frequentemente. Com o cfddns, você não precisa se preocupar em atualizar manualmente o DNS, pois ele cuida disso automaticamente.

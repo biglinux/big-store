@@ -1,0 +1,1 @@
+openntpd é uma implementação gratuita e fácil de usar do Protocolo de Tempo de Rede (Network Time Protocol - NTP). Ele é projetado para sincronizar o relógio de um computador com outros relógios de tempo precisos na Internet. Ele é uma ótima opção para sistemas que precisam de tempo preciso, mas não têm recursos para configurar e manter um servidor de tempo próprio. 

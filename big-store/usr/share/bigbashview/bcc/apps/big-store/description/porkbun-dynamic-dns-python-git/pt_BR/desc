@@ -1,0 +1,2 @@
+Este programa é uma versão modificada do cliente de DNS dinâmico oficial do Porkbun, escrito em Python. Ele permite
+atualizar automaticamente o endereço IP associado a um nome de domínio, garantindo que sempre aponte para o dispositivo atual.

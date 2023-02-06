@@ -1,0 +1,4 @@
+Esse programa é um módulo para o PHP 8.1 que adiciona suporte para o acesso a memória compartilhada. Ele permite que você crie,
+abra e gerencie segmentos de memória compartilhada para comunicação entre processos. É uma ferramenta útil para aplicações que precisam compartilhar dados rapidamente entre processos, sem
+precisar de arquivos ou outras formas de IPC.Com esse módulo, você pode criar segmentos de memória compartilhada, escrever e ler dados neles, controlar permissões de acesso e muito mais. 
+Ele é fácil de usar e tem uma documentação completa para ajudá-lo a começar. 

@@ -1,0 +1,4 @@
+Este programa é uma interface de linha de comando para a biblioteca JMESPath, que permite fazer buscas
+avançadas em arquivos JSON de forma simples e rápida. Ele é útil para quem precisa encontrar e extrair informações específicas de grandes conjuntos de dados em formato JSON.Com ele, é
+possível criar expressões de busca usando uma sintaxe simples e intuitiva, baseada em caminhos de objetos e campos. Ele também suporta operações como filtragem, agrupamento, ordenação e
+projeção de dados.O programa é fácil de usar e é compatível com diversas plataformas, incluindo Windows, Linux e MacOS.

@@ -1,0 +1,4 @@
+ Este é um programa escrito em Python que ajuda a atualizar os registros de DNS da Freenom. Ele é útil para quem tem um domínio
+gratuito da Freenom e precisa atualizar o endereço IP do servidor frequentemente. Com este programa, você pode automatizar esse processo e não precisa se preocupar em fazer manualmente a
+cada vez que o endereço IP mudar.Ele é fácil de usar e basta fornecer suas informações de login da Freenom e o endereço IP desejado, e o programa cuidará do resto. Além disso, ele pode
+ser configurado para rodar automaticamente em um determinado intervalo de tempo, garantindo que seus registros de DNS estejam sempre atualizados. 

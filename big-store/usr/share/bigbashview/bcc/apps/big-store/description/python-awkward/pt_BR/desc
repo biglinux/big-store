@@ -1,0 +1,1 @@
+Este programa chamado python-awkward permite manipular arrays de forma fácil, parecida com a biblioteca Numpy. Ele é capaz de lidar com arrays 'jagged', 'chunky' e/ou com máscaras de bits. 

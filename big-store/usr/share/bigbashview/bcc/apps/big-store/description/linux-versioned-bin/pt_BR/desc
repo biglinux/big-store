@@ -1,0 +1,3 @@
+Este é um pacote chamado linux-versioned-bin, ele é um pacote metapackage, ou seja, ele depende de outro pacote chamado
+linux6.1.7.arch1-1-bin.Isso significa que ele precisa desse outro pacote para funcionar corretamente. Ele é usado para fornecer uma versão específica do sistema operacional Linux com uma
+binária incluída.

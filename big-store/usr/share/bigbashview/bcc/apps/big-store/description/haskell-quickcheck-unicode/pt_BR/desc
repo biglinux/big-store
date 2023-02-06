@@ -1,0 +1,1 @@
+Este programa, chamado haskell-quickcheck-unicode, fornece ferramentas para gerar e reduzir casos de teste relacionados ao suporte a caracteres Unicode em software. Isso permite que os desenvolvedores testem seu software com uma variedade de entradas de caracteres, garantindo que ele funcione corretamente com todos os tipos de dados de texto. 

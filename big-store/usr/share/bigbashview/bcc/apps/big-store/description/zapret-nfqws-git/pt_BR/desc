@@ -1,0 +1,3 @@
+Este programa é projetado para ajudar a burlar a inspeção de pacotes profundos em uma rede. Isso pode ser útil em
+situações em que o tráfego da internet é monitorado ou restrito de alguma forma. Ele usa técnicas avançadas para se esconder do sistema de detecção e permitir que os usuários acessem
+conteúdo bloqueado ou evitem a vigilância. Ele é baseado na biblioteca nfqws e é desenvolvido como um projeto open-source.

@@ -1,0 +1,1 @@
+libgusb é um wrapper GObject para libusb1. Ele fornece uma API conveniente para aplicativos C acessarem dispositivos USB. Ele não é uma biblioteca completa e é destinado a ser usado em conjunto com outras bibliotecas, como libusb1, libusb-1.0 ou libusb0. 

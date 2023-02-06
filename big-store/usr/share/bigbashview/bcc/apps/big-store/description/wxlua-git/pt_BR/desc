@@ -1,0 +1,2 @@
+ O programa wxlua-git é uma vinculação entre o Lua (uma linguagem de programação de script) e o wxWidgets (uma
+biblioteca de interface gráfica). Ele permite que os desenvolvedores criem aplicativos com interface gráfica usando o Lua. Este fork específico é compatível com a versão 5.3 do Lua. 

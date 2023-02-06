@@ -1,0 +1,3 @@
+Uma plataforma para inferencia de aprendizado profundo de alta performance em hardware NVIDIA. A TensorRT é 
+uma ferramenta que ajuda a acelerar a inferencia de modelos de aprendizado profundo em GPUs NVIDIA, tornando-os mais rápidos e eficientes. Isso é importante porque permite que os modelos
+sejam executados em tempo real em aplicações que requerem velocidade, como reconhecimento de voz e visão computacional.

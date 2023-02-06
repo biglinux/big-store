@@ -1,0 +1,1 @@
+O pacote haskell-primitive fornece wrappers para operações primitivas de baixo nível, como alocação de memória e operações de bit, permitindo que elas sejam usadas de forma segura e consistente em aplicativos Haskell. 

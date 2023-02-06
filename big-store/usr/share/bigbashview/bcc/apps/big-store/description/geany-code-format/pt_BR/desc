@@ -1,0 +1,4 @@
+ Este é um plugin para o programa Geany que permite formatar o código fonte de maneira automática. Ele utiliza o
+clang-format para realizar essa tarefa.Com ele, você pode garantir que o seu código esteja sempre organizado e fácil de ler, sem precisar fazer isso manualmente.Isso pode aumentar sua
+produtividade e tornar o trabalho com o código mais agradável.Tudo o que você precisa fazer é instalar o plugin, configurá-lo de acordo com suas preferências e usá-lo quando quiser
+formatar o código. 

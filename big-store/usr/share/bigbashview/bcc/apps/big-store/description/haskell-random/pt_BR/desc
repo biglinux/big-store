@@ -1,0 +1,1 @@
+O módulo 'haskell-random' é um gerador de números pseudo-aleatórios para o Haskell. Ele oferece uma variedade de funções para gerar números aleatórios, incluindo geradores de números inteiros e decimais.Ele também permite que você crie sua própria fonte de números aleatórios usando a classe 'RandomGen', o que é útil para aplicações que precisam de reproducibilidade. 

@@ -1,0 +1,1 @@
+Este é um sistema de gerenciamento de cores compatível com ICC, ou seja, ele é capaz de trabalhar com diferentes tipos de equipamentos medidores de cor, como colorímetros. Ele é chamado de argyllcms e é útil para garantir que as cores de um arquivo digital sejam exibidas de forma consistente em diferentes dispositivos. 

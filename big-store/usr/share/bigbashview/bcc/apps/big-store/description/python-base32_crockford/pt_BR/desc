@@ -1,0 +1,2 @@
+Esse programa é uma implementação em Python da codificação base32 de Douglas Crockford. Ele permite que você converta dados em
+uma representação de 32 caracteres, tornando-os mais fáceis de transmitir e armazenar. 

@@ -1,0 +1,4 @@
+Esta é uma implementação em C++ da NIST Special Publication 800-90B. Trata-se de um programa que permite avaliar a entropia de dados,
+ou seja, medir a quantidade de incerteza ou aleatoriedade presente em uma informação. Este programa é importante para garantir a segurança de dados sensíveis em aplicações criptográficas e 
+em outras áreas onde a privacidade é crucial. Se você precisa garantir a segurança de dados importantes, este programa pode ser uma excelente opção para você. Com ele, você pode avaliar
+rapidamente a entropia dos seus dados e tomar medidas para garantir a privacidade e a segurança da sua informação.

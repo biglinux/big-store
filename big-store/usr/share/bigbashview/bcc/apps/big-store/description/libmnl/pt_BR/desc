@@ -1,0 +1,1 @@
+libmnl é uma biblioteca minimalista para desenvolvedores Netlink. Ela fornece uma interface simples e poderosa para a família de protocolos Netlink e é destinada a ser usada como bloco de construção para aplicativos cientes de Netlink. A biblioteca é escrita em C e está disponível sob a licença LGPLv2.1. 

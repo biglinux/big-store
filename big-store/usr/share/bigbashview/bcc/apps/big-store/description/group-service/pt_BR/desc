@@ -1,0 +1,3 @@
+Este programa ajuda a gerenciar grupos de usuários em um sistema. Ele usa serviços do DBUS para emprestar informações e
+fazer alterações nos grupos existentes. Com ele, é possível criar novos grupos, adicionar ou remover usuários de grupos existentes e ver informações sobre os grupos e seus membros. É uma
+ferramenta útil para administradores de sistema que precisam gerenciar usuários e seus acessos. 

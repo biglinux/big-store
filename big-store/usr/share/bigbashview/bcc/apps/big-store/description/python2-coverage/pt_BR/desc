@@ -1,0 +1,3 @@
+Este programa é usado para medir a cobertura de código dos seus programas escritos em Python. Ele é específico para a
+versão 2 da linguagem.Isso significa que ele ajuda a verificar quais partes do seu código foram executadas durante o teste e quais ainda precisam ser testadas. Desta forma, você pode ter
+certeza de que o seu código está funcionando corretamente e está completamente testado.

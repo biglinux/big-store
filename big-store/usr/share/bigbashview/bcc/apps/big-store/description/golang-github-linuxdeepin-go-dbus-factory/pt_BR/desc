@@ -1,0 +1,1 @@
+Este programa é uma fábrica de DBus escrita em GO para o sistema operacional DDE. Ele permite que você crie facilmente aplicativos que se comuniquem com outros programas e serviços no sistema usando o protocolo DBus. É projetado para ser fácil de usar e possui uma documentação completa para ajudar os desenvolvedores a  começar. 

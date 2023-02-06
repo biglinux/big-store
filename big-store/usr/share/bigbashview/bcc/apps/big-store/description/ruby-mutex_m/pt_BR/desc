@@ -1,0 +1,1 @@
+Com o Mixin ruby-mutex_m, você pode estender objetos para que eles possam ser manipulados como um Mutex. O Mutex é uma técnica de programação que garante que apenas uma thread tenha acesso a um recurso por vez, evitando problemas de concorrência. Com esse Mixin, você pode tornar objetos em seu código mais seguros e evitar erros causados por acessos simultâneos.  

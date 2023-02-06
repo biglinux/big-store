@@ -1,0 +1,1 @@
+revive é uma ferramenta de verificação de código para a linguagem Go. Ele é mais rápido, mais rigoroso, configurável, extensível e bonito do que o golint. Ele pode ser usado como uma substituição direta para o golint e melhora a qualidade do seu código Go. 

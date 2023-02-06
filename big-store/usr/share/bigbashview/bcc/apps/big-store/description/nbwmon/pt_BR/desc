@@ -1,0 +1,4 @@
+O programa nbwmon é um monitor de largura de banda que utiliza a biblioteca ncurses para exibir informações sobre o uso
+de rede em tempo real. Ele permite acompanhar a velocidade de download e upload, bem como o total de dados transferidos. Além disso, é possível ver as conexões ativas e configurar alarmes
+para avisar quando o uso de rede ultrapassa um limite específico.O programa é fácil de usar e tem uma interface amigável, com gráficos e números que mostram de forma clara as informações de
+rede. É uma ferramenta útil para quem precisa controlar o uso de largura de banda em servidores ou computadores pessoais.

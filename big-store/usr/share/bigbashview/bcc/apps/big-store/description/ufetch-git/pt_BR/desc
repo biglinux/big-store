@@ -1,0 +1,3 @@
+ufetch-git é um programa pequeno que fornece informações básicas sobre o seu sistema operacional Unix-like. Ele exibe
+informações como a versão do kernel, a data e hora atuais, a arquitetura da CPU e a quantidade de memória RAM disponível. Ele também mostra o nome e a versão do sistema operacional e o nome
+do usuário atualmente logado. Ele é fácil de usar e pode ser executado em uma janela de terminal.

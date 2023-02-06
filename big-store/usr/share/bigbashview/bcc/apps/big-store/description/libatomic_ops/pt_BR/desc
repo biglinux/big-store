@@ -1,0 +1,1 @@
+libatomic_ops é uma biblioteca que fornece acesso semi-portátil às operações de  memória atômica fornecidas pelo hardware. Ele foi projetado para ser usado em programas multi-thread e fornece uma série de operações atômicas que podem ser usadas para implementar estruturas de dados sem trava. 

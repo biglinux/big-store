@@ -1,0 +1,3 @@
+Teamocil é um programa que ajuda a organizar suas janelas no seu computador. Ele usa arquivos de configuração YAML para
+definir como as janelas devem ser divididas e organizadas. Com ele, você pode facilmente alternar entre diferentes layouts de janelas para se adequar a sua tarefa atual.Além disso, o
+Teamocil é compatível com o Tmux, o que significa que você pode usá-lo em conjunto com outros programas de terminal para aumentar a sua produtividade.

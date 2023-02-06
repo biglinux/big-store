@@ -1,0 +1,1 @@
+Os drivers NVIDIA são essenciais para o funcionamento correto de sua placa gráfica NVIDIA em seu computador. Eles fornecem  acesso às funcionalidades avançadas da placa, como suporte para jogos e aplicativos gráficos. O pacote nvidia-390xx-dkms é uma fonte do módulo para esses drivers, permitindo que eles sejam  compilados e instalados no sistema. 

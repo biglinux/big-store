@@ -1,0 +1,3 @@
+Este é um módulo especial para o PHP 8.1 que permite que você use as funções do IMAP (Internet Mail Access Protocol) em seus
+scripts. Isso significa que você pode acessar e gerenciar suas caixas de correio eletrônico diretamente do seu código PHP.Com este módulo, você pode ler, enviar, excluir e organizar
+e-mails, além de fazer buscas e gerenciar pastas. Ele é útil para qualquer pessoa que precise automatizar tarefas relacionadas a e-mails em seus projetos PHP.

@@ -1,0 +1,1 @@
+Esse programa é uma camada de compatibilidade para versões mais novas do Template Haskell, mais especificamente para versões acima de 2.8. Ele permite que você use recursos das versões mais novas do Template Haskell, mesmo que você esteja trabalhando com uma versão antiga. 

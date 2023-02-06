@@ -1,0 +1,1 @@
+git-grab é uma ferramenta de linha de comando que permite clonar facilmente repositórios git para um local padronizado, organizado por domínio e caminho. Isso facilita a manutenção de todo o seu código e colaboração com outros desenvolvedores. git-grab é escrito em Python e está disponível no GitHub. 

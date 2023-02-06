@@ -1,0 +1,3 @@
+Este programa permite que você faça upload de dados para o sprunge.us usando o stdin (entrada padrão). Isso significa que você
+pode enviar dados para o sprunge.us diretamente de seu terminal sem precisar abrir o navegador ou usar outro aplicativo. Para usar esse programa, você precisa ter o stdin disponível em seu 
+sistema. Então, você pode enviar dados para o sprunge.us digitando o comando 'cat arquivo.txt | programa' no seu terminal.

@@ -1,0 +1,1 @@
+A biblioteca ruby-benchmark é uma ferramenta útil para medir o desempenho de seus programas em Ruby. Ele permite que você compare o tempo de execução de diferentes trechos de código e obtenha informações precisas sobre como seus programas estão se comportando. Com essas informações, você pode tomar decisões informadas sobre como otimizar seu código para melhorar o desempenho.  

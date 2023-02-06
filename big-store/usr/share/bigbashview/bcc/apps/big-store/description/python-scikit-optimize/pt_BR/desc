@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de otimização baseada em modelos de sequência. Ele ajuda a encontrar os melhores
+valores para os parâmetros de um modelo, para que ele possa prever com precisão. Ele é especialmente útil em áreas como a ciência de dados e a inteligência artificial. Ele é escrito em
+Python e usa a biblioteca scikit-optimize para realizar as otimizações. Ele é fácil de usar e tem muitas opções para personalizar como as otimizações são realizadas.

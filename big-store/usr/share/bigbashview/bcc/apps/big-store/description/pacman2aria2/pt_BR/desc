@@ -1,0 +1,2 @@
+Este programa ajuda a converter uma lista de URLs de download do pacman para uma lista de entrada para o aria2c, que é outro
+programa para baixar arquivos. Ele também inclui o powerpill-light.

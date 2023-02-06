@@ -1,0 +1,1 @@
+ Este programa é um framework para ajudar a executar e organizar testes em projetos de programação, ele suporta os módulos HUnit e QuickCheck. Isto significa que ele pode ser usado para testar diversos aspectos de um código, garantindo que ele esteja funcionando corretamente antes de ser lançado para uso geral.  

@@ -1,0 +1,1 @@
+O módulo haskell-lens-action fornece uma maneira simples e eficiente de acessar e manipular dados estruturados através da utilização de monadas. Ele permite acessar elementos específicos de uma estrutura de dados e realizar operações de dobra (fold) sobre ela, tudo isso de forma segura e com boa performance. 

@@ -1,0 +1,1 @@
+O perl-mime-tools é um programa que faz o parse de fluxos de dados e cria entidades MIME (Multipurpose Internet Mail Extensions) a partir dele. Isso é útil para trabalhar com e-mails e outras mensagens que contenham anexos e formatos diferentes de dados. 

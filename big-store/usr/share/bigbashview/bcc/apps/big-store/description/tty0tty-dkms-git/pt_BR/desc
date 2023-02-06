@@ -1,0 +1,3 @@
+Esse programa permite criar um cabo serial virtual. Ele funciona tanto no nível do sistema (através do DKMS) quanto no nível
+do usuário. Isso significa que você pode usá-lo para conectar dois programas em sua máquina e fazer com que eles se comuniquem como se estivessem conectados por um cabo serial real.É uma
+ótima opção para quem precisa de uma maneira rápida e fácil de conectar programas sem precisar de hardware adicional.

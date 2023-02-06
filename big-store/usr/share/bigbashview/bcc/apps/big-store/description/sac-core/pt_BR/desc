@@ -1,0 +1,3 @@
+Este é o cliente de autenticação Thales/Gemalto SafeNet para o token 5110/5300 e
+IDPrime. Ele permite que você autentique com segurança em sistemas que requerem esse tipo de autenticação. É importante para proteger suas informações e garantir que somente você tenha
+acesso a elas. Além disso, o cliente usa módulos PKCS#11 em seu núcleo para garantir ainda mais segurança.

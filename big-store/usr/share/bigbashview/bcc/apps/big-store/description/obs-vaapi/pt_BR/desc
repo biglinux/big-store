@@ -1,0 +1,3 @@
+O OBS Studio é um software popular para gravação e transmissão ao vivo de jogos e outros conteúdos. Ele agora tem suporte ao
+VAAPI através do GStreamer, o que significa que você pode aproveitar a aceleração de hardware para melhorar a qualidade de suas gravações e transmissões. Isso significa que você pode gravar
+ou transmitir seus jogos com menos uso da CPU e melhor qualidade de imagem.

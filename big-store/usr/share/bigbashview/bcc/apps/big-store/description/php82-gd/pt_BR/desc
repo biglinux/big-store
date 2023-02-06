@@ -1,0 +1,3 @@
+Este é um módulo chamado gd, que adiciona recursos de gráficos para a versão 8.2 do PHP. Com ele, você poderá criar e
+manipular imagens de diversos formatos, como JPEG, PNG e GIF, diretamente no seu código PHP. Além disso, ele oferece funções para desenhar linhas, círculos, retângulos e outras formas, além
+de suportar textos e fontes personalizadas. Este módulo é uma ótima opção para quem precisa trabalhar com imagens em seus projetos PHP.

@@ -1,0 +1,1 @@
+Este programa é chamado de riscv64-linux-gnu-gcc e é um compilador para RISC-V de 32 e 64 bits. Ele é usado para transformar código fonte escrito em linguagem de programação, como C ou C++, em código executável que pode ser rodado em um processador RISC-V. Ele é especialmente útil para desenvolvedores de sistemas embarcados e sistemas operacionais. 

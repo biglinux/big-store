@@ -1,0 +1,4 @@
+Com a ferramenta de linha de comando Cloudflare Wrangler, você pode trabalhar facilmente com os
+Workers do Cloudflare. Ele permite que você crie, edite e gerencie scripts de Workers diretamente pelo terminal, sem precisar de uma interface web. Além disso, ele fornece recursos úteis
+para desenvolvimento, como testes locais e implantação automatizada. Se você é desenvolvedor e usa os serviços do Cloudflare, essa ferramenta é uma ótima opção para otimizar seu fluxo de
+trabalho.

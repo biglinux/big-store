@@ -1,0 +1,2 @@
+Uma interface leve para interagir com a exibição gráfica do sistema operacional convidado virtualizado. Este pacote 
+contém um patch para remover a barra de título.

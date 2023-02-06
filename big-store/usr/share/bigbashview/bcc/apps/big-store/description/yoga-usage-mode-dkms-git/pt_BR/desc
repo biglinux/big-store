@@ -1,0 +1,1 @@
+Este programa é um módulo do kernel para detectar quando o tablet Yoga C940 está em modo de uso. Ele é chamado yoga-usage-mode-dkms-git e é usado para garantir que o dispositivo tenha as configurações corretas quando estiver sendo usado como um tablet. 

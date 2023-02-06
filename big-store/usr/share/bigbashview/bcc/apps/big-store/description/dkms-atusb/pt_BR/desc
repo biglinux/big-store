@@ -1,0 +1,1 @@
+Este é um controlador de kernel controlado pelo DKMS para o dispositivo ATUSB. Ele permite que o sistema operacional utilize e configure corretamente o dispositivo. 

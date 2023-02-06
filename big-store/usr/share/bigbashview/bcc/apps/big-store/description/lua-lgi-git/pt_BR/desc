@@ -1,0 +1,3 @@
+Esse programa permite que você use a linguagem de programação Lua para controlar o ambiente de trabalho Gnome. Ele faz isso através de
+algo chamado biblioteca de introspecção de objetos GObject, que ajuda a conectar os dois juntos.Isso significa que você pode escrever scripts em Lua para controlar como o Gnome funciona,
+como abrir janelas ou mudar configurações do sistema. É uma forma poderosa de personalizar sua experiência de usuário.

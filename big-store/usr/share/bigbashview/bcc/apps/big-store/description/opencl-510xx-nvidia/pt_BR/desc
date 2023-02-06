@@ -1,0 +1,3 @@
+Este é um programa que permite o uso da tecnologia OpenCL, uma linguagem de computação paralela, em dispositivos NVIDIA.
+Isso significa que você pode usar esse programa para aproveitar ao máximo a capacidade de processamento de sua placa gráfica NVIDIA e executar tarefas de forma mais rápida e eficiente. Além
+disso, essa implementação específica é para a versão 510xx da NVIDIA.

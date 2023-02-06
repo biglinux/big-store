@@ -1,0 +1,1 @@
+haskell-authenticate é um pacote de bibliotecas para Haskell que oferece vários métodos de autenticação para aplicações web. Ele inclui suporte para autenticação baseada em senha, autenticação OAuth2 e autenticação com tokens JWT. Além disso, ele também fornece ferramentas para gerenciamento de usuários e permissões. 

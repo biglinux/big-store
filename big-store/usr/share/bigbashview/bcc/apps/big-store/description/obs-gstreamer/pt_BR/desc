@@ -1,0 +1,3 @@
+Este é um plugin para o OBS Studio que permite usar as funcionalidades do Gstreamer dentro do OBS Studio. Com ele você 
+pode adicionar efeitos, transições e outros recursos a suas transmissões ao vivo ou gravações.O Gstreamer é uma biblioteca de mídia open-source muito poderosa e amplamente utilizada, e essa
+integração permite aproveitar essa potência dentro do OBS Studio.

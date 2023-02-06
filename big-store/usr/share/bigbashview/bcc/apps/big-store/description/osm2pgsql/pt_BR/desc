@@ -1,0 +1,4 @@
+Este programa é chamado osm2pgsql e ele ajuda a colocar os dados do OpenStreetMap dentro de um banco de dados chamado
+PostgreSQL com PostGIS. Assim, os dados do mapa ficam armazenados e podem ser usados para criar mapas e outras coisas legais. É uma ferramenta muito útil para pessoas que trabalham com
+mapas e precisam de uma forma de guardar e acessar esses dados.Além disso, o osm2pgsql é uma ferramenta de linha de comando, ou seja, é usado através de comandos digitados no prompt de
+comando, o que pode ser um pouco desafiador para algumas pessoas, mas existem muitos tutoriais e documentações disponíveis online para ajudar a entender como usá-lo.

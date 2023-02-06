@@ -1,0 +1,2 @@
+Este programa é um plugin para o Qt4, ele transforma todos os ícones de bandeja do sistema em itens StatusNotifier
+(indicadores de aplicativos). Isso permite que os aplicativos usem indicadores de aplicativos nativos do sistema ao invés de ícones de bandeja.

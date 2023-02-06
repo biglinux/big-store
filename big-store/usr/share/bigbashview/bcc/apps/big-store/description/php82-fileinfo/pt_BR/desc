@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.2 que permite ler informações de arquivos de diversos tipos, como imagens e
+vídeos. Ele é útil para quem precisa saber detalhes sobre um arquivo, como seu tamanho, tipo e outras informações. Com esse módulo, você pode verificar se um arquivo é válido antes de fazer
+upload para um site, por exemplo, ou verificar se ele é uma imagem antes de mostrá-lo em uma página. É uma ferramenta útil para programadores que trabalham com arquivos e precisam de
+informações detalhadas sobre eles.

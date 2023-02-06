@@ -1,0 +1,4 @@
+GoLand é um programa de desenvolvimento para a linguagem de programação Go. Ele fornece uma variedade de ferramentas para 
+ajudar os desenvolvedores a escrever, depurar e executar seu código de maneira mais eficiente. Ele também inclui suporte para vários frameworks populares e bibliotecas.Este programa usa
+JBR (JetBrains Runtime), que é uma versão personalizada do Java Runtime Environment (JRE). Isso ajuda a garantir que o programa funcione de maneira estável e segura.GoLand é desenvolvido 
+pela JetBrains, que é conhecida por sua série de IDEs populares, como IntelliJ IDEA e PyCharm. 

@@ -1,0 +1,4 @@
+O Python-cvxpy é uma ferramenta específica para modelagem de problemas de otimização convexa. Ele permite aos
+usuários escrever problemas de otimização em uma linguagem de programação de alto nível, o Python, em vez de uma linguagem de programação de baixo nível como o código de máquina. Isso torna
+mais fácil para os usuários entenderem e modificarem seus modelos de otimização. Além disso, o python-cvxpy fornece uma série de recursos para ajudar na resolução de problemas de
+otimização, incluindo solvers de otimização de terceiros e funções de suporte para trabalhar com expressões matemáticas.

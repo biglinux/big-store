@@ -1,0 +1,1 @@
+O pacote python-sarif-om é um pacote que contém classes Python para o modelo de objeto SARIF (Formato de Intercâmbio de Resultados de Análise Estática). SARIF é um formato para a troca de informações sobre os resultados de ferramentas de análise estática. Essas classes fornecem uma maneira fácil de trabalhar com arquivos SARIF em Python. 

@@ -1,0 +1,3 @@
+Esta é uma biblioteca para o Python que permite cortar formas em um plano 2D. Ela é uma adaptação do trabalho original
+de Angus Johnson, chamado Clipper library, e foi traduzida para o C++. Com ela, é possível fazer operações como união, interseção e diferença entre formas. É uma ferramenta útil para quem
+trabalha com desenho e design gráfico.

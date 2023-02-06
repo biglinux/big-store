@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.1 que permite o uso de XSL (eXtensible Stylesheet Language) em seus scripts. XSL é uma linguagem
+usada para transformar documentos XML em outros formatos, como HTML ou PDF. Com este módulo, você pode facilmente transformar seus dados XML em outros formatos e exibi-los em seu site ou
+aplicativo.Além disso, este módulo também fornece suporte a XPath, que é uma linguagem usada para navegar e selecionar dados em documentos XML. Isso significa que você pode usar XPath para 
+selecionar e extrair dados específicos de seus documentos XML antes de transformá-los com XSL.

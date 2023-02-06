@@ -1,0 +1,4 @@
+O módulo python-pywavelets é uma ferramenta para realizar transformações wavelet em dados. Ele permite aos usuários aplicar
+diferentes tipos de wavelets, como Haar, Daubechies e symlets, para analisar e extrair informações importantes dos dados. Além disso, o módulo também possui uma variedade de funções para
+trabalhar com os resultados da transformação wavelet, como filtragem e reconstrução de sinais. Ele é fácil de usar e é uma ótima opção para quem precisa de uma ferramenta de transformação
+wavelet poderosa e flexível.

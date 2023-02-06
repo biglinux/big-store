@@ -1,0 +1,1 @@
+lua-cldr é uma biblioteca que fornece uma interface para os dados do Common Locale Data Repository (CLDR) da Unicode, que inclui informações sobre localidade, como nomes de regiões, moedas, idiomas, etc. Com essa biblioteca, os desenvolvedores podem facilmente utilizar esses dados para adaptar os  programas de acordo com as preferências locais dos usuários. 

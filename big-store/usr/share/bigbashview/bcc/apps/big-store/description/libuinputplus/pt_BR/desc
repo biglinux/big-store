@@ -1,0 +1,4 @@
+ libuinputplus é uma biblioteca de fácil uso para criar dispositivos virtuais de entrada usando o kernel Linux. Ela permite
+que você crie teclados, mouses, joysticks e outros dispositivos virtuais sem precisar lidar com a complexidade do uinput do kernel Linux. Com esta biblioteca, você pode criar programas que 
+simulem entrada de dispositivos de forma fácil e rápida.A libuinputplus é escrita em C++ e é fácil de integrar em seus projetos. Ela é open-source e possui uma ampla documentação para
+ajudar você a começar. Se você precisa de uma maneira fácil de criar dispositivos virtuais de entrada no Linux, dê uma olhada na libuinputplus.

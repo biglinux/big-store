@@ -1,0 +1,1 @@
+Essa é uma implementação da biblioteca padrão C destinada a ser usada em sistemas embarcados (RISCV32  sem sistema operacional). O nome do programa é riscv32-elf-newlib. 

@@ -1,0 +1,1 @@
+valabind é uma ferramenta que permite transformar arquivos vala ou vapi em arquivos de interface swig, C++, NodeJS-ffi ou GIR. Isso facilita a integração de código escrito em vala com outras linguagens de programação, como C++ e JavaScript. Além disso, valabind também pode ser usado para criar arquivos GIR, que são usados para criar bibliotecas GObject-Introspection para o vala. 

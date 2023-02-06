@@ -1,0 +1,1 @@
+Este programa fornece as APIs (interfaces de programação de aplicativo) para trabalhar com Wayland, um protocolo para comunicação entre programas gráficos e gerenciadores de janelas. Isso permite que os desenvolvedores criem aplicativos gráficos que funcionem em sistemas operacionais compatíveis com Wayland. 

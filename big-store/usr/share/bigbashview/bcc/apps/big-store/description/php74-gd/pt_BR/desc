@@ -1,0 +1,3 @@
+Este é um módulo adicional para a versão 74 do PHP, chamado gd. Ele permite que o PHP trabalhe com imagens de maneira mais fácil 
+e eficiente. Com ele, você pode criar, editar e manipular imagens usando funções prontas dentro do PHP, sem precisar de outros programas ou bibliotecas. É muito útil para desenvolvimento de
+sites e aplicações que precisam lidar com imagens.

@@ -1,0 +1,3 @@
+ Com o python-datalad, você pode manter seu código, dados e contêineres sob controle usando o git e git-annex. Isso significa
+que você pode rastrear as alterações no seu código e dados, colaborar com outros desenvolvedores e facilmente gerenciar versões antigas. Além disso, o git-annex permite que você armazene
+grandes conjuntos de dados de forma eficiente, sem precisar adicioná-los ao seu repositório git. 

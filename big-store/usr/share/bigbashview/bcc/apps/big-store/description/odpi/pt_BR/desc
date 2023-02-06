@@ -1,0 +1,3 @@
+Este programa é chamado de ODBC (Oracle Database Programming Interface) e é usado para conectar drivers e aplicativos 
+a um banco de dados Oracle. Ele permite que os desenvolvedores escrevam aplicativos que se comunicam com um banco de dados Oracle de maneira fácil e eficiente. Isso torna possível acessar
+informações armazenadas no banco de dados e realizar operações como adicionar, atualizar ou excluir dados.

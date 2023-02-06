@@ -1,0 +1,3 @@
+Este é um sistema operacional Linux criado especificamente para funcionar em processadores AArch64. Ele 
+foi modificado para aumentar sua usabilidade e é fornecido pré-compilado pelo ophub. É um fork do kernel Linux original, com o objetivo de otimizá-lo para esse tipo específico de
+processador.

@@ -1,0 +1,3 @@
+A libsepol é uma biblioteca usada para manipular políticas binárias do SELinux. Ela permite que os 
+usuários criem, carreguem e modifiquem políticas binárias, além de fornecer ferramentas para verificar a validade dessas políticas. A libsepol é uma parte importante do sistema de segurança
+SELinux e é amplamente utilizada em sistemas operacionais baseados em Linux.

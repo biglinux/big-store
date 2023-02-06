@@ -1,0 +1,4 @@
+O gnome-mime-data é a base de dados para MIME e Aplicativos usada pelo ambiente de desktop Gnome. Ele é responsável
+por identificar e abrir arquivos de acordo com seus tipos, como por exemplo, abrir um arquivo de imagem com o visualizador de imagens padrão do Gnome. Ele também fornece informações para
+outros programas do Gnome, como o Nautilus, sobre como lidar com diferentes tipos de arquivos.O gnome-mime-data é essencial para o funcionamento correto do Gnome e é instalado
+automaticamente junto com ele.

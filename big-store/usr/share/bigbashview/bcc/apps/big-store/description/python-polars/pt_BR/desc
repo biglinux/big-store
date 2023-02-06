@@ -1,0 +1,3 @@
+Python-polars é uma biblioteca para trabalhar com conjuntos de dados grandes. Ela usa o formato Apache Arrow Columnar para
+armazenar os dados na memória, o que permite uma velocidade incrível ao processar os dados. Com essa biblioteca, você pode fazer análises e visualizações de dados de forma rápida e
+eficiente. 

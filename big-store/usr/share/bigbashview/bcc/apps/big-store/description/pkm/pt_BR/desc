@@ -1,0 +1,4 @@
+Este programa é um gerenciador de pacotes para o Arch Linux. Ele permite instalar e gerenciar pacotes do AUR (Arch User
+Repository) de forma fácil e rápida. Ele é conhecido como um 'wrapper' para o gerenciador de pacotes 'yay'. Com ele, você pode pesquisar, instalar, atualizar e remover pacotes do AUR sem
+precisar usar linhas de comando complicadas. Ele também oferece uma interface amigável e fácil de usar. Se você é usuário do Arch Linux e quer tornar a instalação e gerenciamento de pacotes
+do AUR mais simples, este programa é uma ótima escolha.

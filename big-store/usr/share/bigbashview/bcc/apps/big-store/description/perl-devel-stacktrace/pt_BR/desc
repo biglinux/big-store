@@ -1,0 +1,1 @@
+O módulo perl-devel-stacktrace fornece uma representação de rastreamento de pilha para ajudar a depurar erros no seu código Perl. Ele permite acesso às chamadas de função que levaram a um erro específico, o que é útil para identificar onde o problema está ocorrendo em seu código. 

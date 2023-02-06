@@ -1,0 +1,1 @@
+laszip é uma biblioteca de compressão sem perda ASPRS LAS. Ela é projetada para ser rápida e eficiente, permitindo que os arquivos LAS sejam compactados sem perda de qualidade. Isso significa que todas as informações originais no arquivo LAS serão mantidas, mas em um tamanho menor. 

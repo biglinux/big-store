@@ -1,0 +1,4 @@
+ O programa ananicy-git é uma ferramenta que ajuda a otimizar o uso do seu computador, especialmente quando você está
+rodando muitos programas ao mesmo tempo. Ele faz isso usando regras personalizadas para controlar como o seu sistema aloca recursos de CPU.Essas regras podem ser criadas para programas
+específicos, como o ananicy-cpp, e ajudam a garantir que cada programa tenha acesso aos recursos de CPU de que precisa para funcionar corretamente. Isso pode melhorar a velocidade e
+desempenho geral do seu sistema. 

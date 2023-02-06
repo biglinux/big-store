@@ -1,0 +1,4 @@
+Este é um programa escrito em PHP que ajuda a manter as regras do firewall IPtables no Linux. Ele permite que você
+adicione, edite e remova regras de forma fácil e segura, garantindo que sua rede esteja sempre protegida. Ele é especialmente útil para administradores de rede e usuários avançados que
+precisam gerenciar regras complexas do firewall.Além disso, o Firetable oferece uma interface amigável e intuitiva, tornando fácil para qualquer pessoa usá-lo, mesmo sem conhecimento
+técnico. Ele também possui recursos adicionais, como a capacidade de salvar e restaurar regras, o que é útil em caso de problemas ou mudanças na configuração da rede.

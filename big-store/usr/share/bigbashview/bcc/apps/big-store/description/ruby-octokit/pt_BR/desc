@@ -1,0 +1,1 @@
+Este programa é um wrapper simples para a API do GitHub. Ele permite que você acesse as informações do GitHub de maneira fácil e rápida, sem precisar lidar com a complexidade da API diretamente. Ele é escrito em Ruby, e se chama ruby-octokit. 

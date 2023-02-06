@@ -1,0 +1,3 @@
+O xorg-xfs é um gerenciador de fontes para o sistema Xorg, que é usado em vários sistemas operacionais. Ele permite que as
+fontes sejam compartilhadas entre vários usuários e aplicativos, tornando-as mais eficientes e fáceis de gerenciar. Ele é usado para permitir que os programas possam acessar e usar fontes
+em um servidor separado, em vez de armazená-las em cada máquina individualmente.

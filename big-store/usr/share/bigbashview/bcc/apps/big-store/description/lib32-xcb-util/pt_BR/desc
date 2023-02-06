@@ -1,0 +1,1 @@
+Esta é uma biblioteca de utilidade para o XC Binding (32-bits). Ele fornece funções úteis para trabalhar com a interface de X Window System, como criar janelas e gerenciar eventos de entrada. Ele é projetado para ser usado em conjunto com outras bibliotecas XCB para construir aplicativos para  sistemas operacionais Linux e Unix. 

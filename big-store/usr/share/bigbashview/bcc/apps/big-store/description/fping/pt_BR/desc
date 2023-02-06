@@ -1,0 +1,1 @@
+Este programa é uma ferramenta útil para verificar se vários computadores ou dispositivos estão conectados à internet. Ele envia um sinal 'ping' para cada endereço de IP especificado e retorna a resposta de cada um, mostrando se eles estão online ou offline.Além disso, ele também fornece informações adicionais como o tempo de resposta e a perda de pacotes. 

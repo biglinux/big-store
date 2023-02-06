@@ -1,0 +1,1 @@
+Este programa adiciona suporte para o QuickCheck, uma ferramenta de testes para Haskell, ao pacote fgl. Isso permite que você gere automaticamente casos de teste para as suas funções usando fgl de forma eficiente e precisa. 

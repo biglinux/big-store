@@ -1,0 +1,1 @@
+Este programa é capaz de ler e escrever arquivos no formato YAML. Ele é especialmente útil porque permite preservar comentários, estilo de fluxo de sequência/mapa e ordem das chaves do mapa durante o processo de leitura e escrita. Este programa é chamado de python-ruamel-yaml. 

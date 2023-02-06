@@ -1,0 +1,3 @@
+Este programa permite que você gerencie as configurações da sua placa gráfica NVIDIA. Ele é chamado de 'libxnvctrl' e
+tem a versão 510xx. Ele é uma extensão do X, ou seja, ele funciona com o sistema gráfico X Window.Com este programa, você pode mudar configurações como a frequência de atualização da tela, 
+a resolução, a orientação da tela, entre outras coisas.

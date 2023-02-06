@@ -1,0 +1,4 @@
+Este programa fornece suporte para Protocol Buffers do Google na linguagem de programação Go. Protocol Buffers 
+é uma ferramenta eficiente e flexível para codificação e decodificação de dados. Com o suporte para Go, você pode facilmente trabalhar com esses dados em seus aplicativos Go.Isso significa 
+que você pode escrever e ler mensagens em formato Protocol Buffers em seus aplicativos Go, o que é útil para o armazenamento de dados, a transferência de dados entre servidores e a
+comunicação de dados entre aplicativos diferentes.

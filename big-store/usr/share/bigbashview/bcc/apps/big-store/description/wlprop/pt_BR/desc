@@ -1,0 +1,3 @@
+Esta é uma ferramenta de propriedades para o Wayland, semelhante a xprop para o X11. Ele permite ver e modificar as
+propriedades de janelas e objetos no ambiente Wayland. É útil para desenvolvedores de aplicativos e de ambientes de trabalho que precisam diagnosticar problemas ou personalizar a aparência 
+e comportamento de janelas.

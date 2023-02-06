@@ -1,0 +1,4 @@
+Este é um pacote metaprograma chamado linux-lts-versioned-docs-bin. Ele depende do pacote linux5.15.89-1-lts-docs-bin e fornece a
+documentação oficial do sistema operacional Linux LTS (Long-Term Support). Isso inclui informações sobre como usar o sistema, configurá-lo e solucionar problemas comuns.O Linux LTS é uma
+versão do Linux que é suportada por um período mais longo do que as versões regulares, geralmente por pelo menos 5 anos. Isso significa que as atualizações de segurança e correções de bugs 
+serão fornecidas por um período mais longo, tornando-o uma escolha popular para servidores e outros usos críticos.

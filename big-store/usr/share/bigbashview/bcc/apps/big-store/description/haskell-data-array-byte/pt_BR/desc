@@ -1,0 +1,1 @@
+Este programa é uma camada de compatibilidade para o pacote Data.Array.Byte do Haskell. Ele permite que você use funções e recursos específicos deste pacote de maneira mais fácil e consistente. Com ele, você pode trabalhar com dados em formato de array de bytes de maneira mais eficiente e precisa. 

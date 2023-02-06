@@ -1,0 +1,1 @@
+O python-dotty-dict é um pacote que fornece uma maneira simples de acessar chaves profundamente aninhadas em dicionários. Ele adiciona uma camada de abstração que torna mais fácil e rápido acessar essas chaves sem precisar escrever muito código. É útil para quem trabalha com dados complexos e precisa acessar informações específicas com rapidez. 

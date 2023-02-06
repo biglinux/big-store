@@ -1,0 +1,1 @@
+Este programa utiliza o setuptools_scm para gerar um arquivo de versão e o flit para construir seu projeto. É uma implementação da PEP 518. 

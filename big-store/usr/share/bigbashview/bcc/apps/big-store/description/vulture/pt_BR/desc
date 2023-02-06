@@ -1,0 +1,1 @@
+Vulture é um programa que ajuda a encontrar código morto em projetos Python. Ele verifica seu código fonte e identifica qualquer código que nunca é usado, como funções e variáveis. Isso pode ser útil para manter seu código limpo e organizado, além de tornar mais fácil encontrar bugs. Ele é fácil de usar e pode ser executado diretamente do terminal. 

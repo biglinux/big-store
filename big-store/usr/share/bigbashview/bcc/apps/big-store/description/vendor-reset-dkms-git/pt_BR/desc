@@ -1,0 +1,2 @@
+ Este programa é um módulo do kernel que permite realizar rotinas de reset específicas para o seu hardware de fabricante. Ele
+pode ser útil para resolver problemas relacionados ao hardware e garantir que seu dispositivo funcione corretamente. 

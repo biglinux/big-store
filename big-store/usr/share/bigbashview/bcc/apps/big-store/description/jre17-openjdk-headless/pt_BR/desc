@@ -1,0 +1,1 @@
+Este é um ambiente de tempo de execução para programas Java 17, desenvolvido pela OpenJDK. Ele é  especialmente útil para programas que não precisam de uma interface gráfica e só precisam de recursos de processamento. É chamado de 'headless' porque não tem a interface visual. 

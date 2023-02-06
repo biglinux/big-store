@@ -1,0 +1,3 @@
+Esta biblioteca é usada para juntar o conteúdo do convidado que é consumido pela libkrun. Ela é chamada libkrunfw-git e é
+uma biblioteca dinâmica, o que significa que ela pode ser usada e compartilhada por vários programas ao mesmo tempo.É importante para o funcionamento correto da libkrun e é atualizada
+regularmente para garantir sua compatibilidade com as versões mais recentes do libkrun.

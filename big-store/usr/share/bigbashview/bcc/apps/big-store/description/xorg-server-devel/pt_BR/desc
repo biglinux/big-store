@@ -1,0 +1,1 @@
+Este pacote contém arquivos de desenvolvimento para o servidor X.Org, que é responsável por gerenciar a exibição de gráficos em sistemas baseados em UNIX e Linux. Esses arquivos são necessários para desenvolver programas que utilizam a interface do servidor X.Org. 

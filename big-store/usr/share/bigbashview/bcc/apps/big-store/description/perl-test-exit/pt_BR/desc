@@ -1,0 +1,1 @@
+O pacote perl-test-exit é utilizado para garantir que o código sai corretamente sem precisar terminar todos os  testes. Isso é útil quando você deseja testar apenas uma parte do código ou quando deseja parar os testes caso algum erro seja encontrado. Ele permite que você saia de forma limpa e organizada do seu código, o que é importante para manter a qualidade do software. 

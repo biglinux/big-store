@@ -1,0 +1,1 @@
+ O protocolo SPICE é um protocolo de rede utilizado para acesso remoto de área de trabalho. Ele foi desenvolvido pela Red Hat e é amplamente utilizado em sistemas Linux. Os cabeçalhos para esse protocolo são utilizados para controlar as comunicações entre o cliente e o servidor, permitindo que os dois se comuniquem de forma eficiente.  

@@ -1,0 +1,3 @@
+Este programa ajuda a criar um pacote fonte Debian. Ele é usado para preparar o código-fonte para ser distribuído como um pacote
+Debian. Isso inclui tarefas como adicionar informações de licença, criar um arquivo de controle e embalar tudo em um formato de arquivo específico.Usando este programa, os desenvolvedores
+podem facilmente preparar seus projetos para serem distribuídos como pacotes Debian, o que facilita a instalação e atualização para os usuários finais.

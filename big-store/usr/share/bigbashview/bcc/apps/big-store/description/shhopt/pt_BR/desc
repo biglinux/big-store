@@ -1,0 +1,1 @@
+shhopt é uma biblioteca que permite ao usuário analisar as opções de linha de comando passadas a um programa. Isso é útil para permitir que o programa se comporte de maneira diferente com base nas opções selecionadas pelo usuário. A biblioteca é fácil de usar e pode ser integrada em qualquer programa em linguagem C. 

@@ -1,0 +1,2 @@
+Este programa é baseado em wxWidgets 2.8 e não inclui os módulos GNOME ou GStreamer. Ele é uma versão mais leve e
+simples do wxWidgets, ideal para desenvolvedores que não precisam dessas funcionalidades adicionais.

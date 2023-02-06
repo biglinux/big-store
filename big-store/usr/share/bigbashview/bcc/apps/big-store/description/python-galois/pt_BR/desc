@@ -1,0 +1,5 @@
+Este programa é uma extensão do NumPy, uma biblioteca de código aberto para Python que é usada para
+trabalhar com números e dados científicos. Ele fornece suporte para campos de Galois, que são uma forma especial de números matemáticos que são usados em várias aplicações, como
+criptografia e codificação de erros. Ele também é desenvolvido para ser muito rápido e eficiente, o que significa que ele pode lidar com grandes conjuntos de dados sem problemas.Com esta
+extensão, é possível realizar operações matemáticas comuns, como adição, multiplicação e exponenciação, usando campos de Galois. Também é possível trabalhar com matrizes e vetores de
+números de Galois, o que é útil para várias aplicações científicas e tecnológicas. O programa é fácil de usar e pode ser incorporado em outros projetos de código aberto.

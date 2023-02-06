@@ -1,0 +1,3 @@
+Esta ferramenta ajuda a descobrir se o servidor X em uso é o Xwayland. Ele é usado para verificar se o seu sistema está
+usando o Xwayland, que é uma implementação do Xorg que funciona como um compositor Wayland. Isso é importante para saber se você está usando as últimas tecnologias de gráficos no seu
+sistema e se está obtendo o melhor desempenho possível. 

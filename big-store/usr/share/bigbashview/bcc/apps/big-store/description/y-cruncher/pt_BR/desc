@@ -1,0 +1,4 @@
+O y-cruncher é um programa especializado para medir o desempenho de sistemas multi-core. Ele foi projetado para ser
+escalável, o que significa que ele pode ser usado em computadores de diferentes tamanhos e capacidades. Ele se concentra especificamente na capacidade do sistema de calcular números de Pi, 
+um número matemático que é usado em muitas aplicações científicas e tecnológicas. Com o y-cruncher, você pode ver como o seu sistema se compara com outros e identificar quais componentes
+podem ser melhorados para aumentar o desempenho.

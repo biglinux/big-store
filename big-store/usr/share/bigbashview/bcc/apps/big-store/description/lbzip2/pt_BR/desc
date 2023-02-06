@@ -1,0 +1,1 @@
+lbzip2 é um utilitário de compressão compatível com bzip2 baseado em SMP. Ele é uma substituição para bzip2 e pode ser usado de forma transparente. lbzip2 usa múltiplos núcleos e múltiplos CPUs para comprimir dados muito mais rápido do que o bzip2, que é single-threaded. lbzip2 também  possui melhor uso de memória e pode lidar com arquivos grandes com facilidade. 

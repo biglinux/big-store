@@ -1,0 +1,1 @@
+fbgrab é um programa para capturar imagens da tela. Ele utiliza o framebuffer do sistema operacional, permitindo a captura de imagens independentemente da interface gráfica em uso. É uma ferramenta útil para administradores de sistemas, desenvolvedores e usuários avançados que precisam tirar screenshots sem a necessidade de usar uma interface gráfica. 

@@ -1,0 +1,3 @@
+Este programa é uma pequena ferramenta para visualizar arquivos PDF e DJVU diretamente no framebuffer. Ele usa o backend
+'poppler' para processar os arquivos e exibir suas páginas.É uma excelente opção para usuários que precisam visualizar esses tipos de arquivos em sistemas com recursos limitados, sem a
+necessidade de uma interface gráfica completa.

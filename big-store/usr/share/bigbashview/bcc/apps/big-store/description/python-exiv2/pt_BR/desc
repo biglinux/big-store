@@ -1,0 +1,3 @@
+Este programa é uma ligação em Python 3 para o exiv2, uma biblioteca em C++ para manipulação de metadados de imagens 
+como EXIF, IPTC e XMP. Ele ajuda a você a editar e ler informações sobre as suas fotos, como data de captura, local, entre outros. Com esse programa, você consegue adicionar ou remover
+informações de suas fotos de maneira fácil e rápida.

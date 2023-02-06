@@ -1,0 +1,3 @@
+Este programa é uma ferramenta para comparar duas versões de um preprint no arXiv. Ele usa uma biblioteca chamada
+latexdiff para fazer essa comparação de forma automática e rápida. Com ele, você pode ver as diferenças entre as versões de um texto de forma simples e clara. Ele é escrito em Python, então
+é fácil de usar e personalizar.

@@ -1,0 +1,4 @@
+ O PyFFTW é uma biblioteca para Python que permite aos usuários trabalhar com a biblioteca FFTW (Fastest
+Fourier Transform in the West) de forma mais fácil e intuitiva. Ele fornece uma interface Python para as funcionalidades de processamento de sinais oferecidas pela biblioteca FFTW,
+tornando-as mais acessíveis para desenvolvedores e cientistas de dados.Com o PyFFTW, é possível fazer cálculos de transformada rápida de Fourier (FFT) de maneira mais eficiente e
+precisa. Ele também permite aos usuários otimizar o desempenho das FFTs em seus aplicativos, melhorando a velocidade de processamento e diminuindo o tempo de execução. 

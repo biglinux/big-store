@@ -1,0 +1,1 @@
+A biblioteca librdkafka é uma implementação em C/C++ para o Apache Kafka, um sistema distribuído de streaming de mensagens. Ela é utilizada para desenvolver aplicações que utilizam o protocolo Apache Kafka para se comunicar com os servidores. A biblioteca é altamente escalável e permite que as aplicações sejam executadas em diferentes sistemas operacionais. 

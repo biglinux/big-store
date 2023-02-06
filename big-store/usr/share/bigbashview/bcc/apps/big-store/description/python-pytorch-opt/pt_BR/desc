@@ -1,0 +1,1 @@
+O programa python-pytorch-opt é uma biblioteca em python que permite trabalhar com tensores e redes neurais dinâmicas com aceleração de GPU. Ele também possui otimizações para CPUs AVX2. 

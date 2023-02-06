@@ -1,0 +1,3 @@
+Esta biblioteca permite comprimir e descomprimir arquivos. Ela é chamada mingw-w64-zlib e é específica para o sistema 
+operacional mingw-w64. Isso significa que ela foi projetada para funcionar com aplicativos desenvolvidos usando essa plataforma. Com ela, você pode economizar espaço em disco e aumentar a
+velocidade de transferência de arquivos. Além disso, a biblioteca é fácil de usar e tem uma boa documentação disponível. 

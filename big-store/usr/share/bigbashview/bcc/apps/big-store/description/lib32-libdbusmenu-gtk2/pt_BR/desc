@@ -1,0 +1,1 @@
+ Esta é uma biblioteca chamada lib32-libdbusmenu-gtk2. Ela é usada para passar menus através do DBus (sistema de mensagens entre programas) em sistemas de 32 bits. Ela também usa a biblioteca GTK+ 2 para criar a interface gráfica dos menus.  

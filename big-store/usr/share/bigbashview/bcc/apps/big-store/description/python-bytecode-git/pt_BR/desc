@@ -1,0 +1,4 @@
+Este programa é um módulo Python que permite modificar o código byte de outros programas escritos em Python. Isso pode ser útil 
+para otimizar o desempenho de um programa ou para personalizar sua funcionalidade. Ele é especialmente útil para desenvolvedores de software que trabalham com Python.Ele funciona através 
+da manipulação direta do código byte do programa, permitindo que você faça alterações precisas e controladas. Ele também é fácil de usar, pois é compatível com a maioria das versões atuais 
+do Python.Se você precisa de um programa para modificar o código byte de seus programas Python, este módulo é uma excelente escolha. 

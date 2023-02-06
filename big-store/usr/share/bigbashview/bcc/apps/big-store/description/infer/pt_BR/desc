@@ -1,0 +1,5 @@
+ Esta ferramenta tem como objetivo ajudar os desenvolvedores a encontrar erros e problemas no 
+código de seus programas. Ele faz isso através de uma análise estática, ou seja, ele examina o código sem precisar executá-lo. Ele é compatível com quatro diferentes linguagens de
+programação: Java, C, C++ e Objective-C. Isso significa que ele pode ser usado para verificar a qualidade do código em muitos aplicativos diferentes.Com a ajuda desta ferramenta, os
+desenvolvedores podem encontrar problemas no código antes que eles se tornem um problema maior durante a execução do programa. Isso pode economizar tempo e esforço na correção de erros.
+Além disso, ajuda a garantir que o programa final seja de alta qualidade e funcione corretamente para os usuários. 

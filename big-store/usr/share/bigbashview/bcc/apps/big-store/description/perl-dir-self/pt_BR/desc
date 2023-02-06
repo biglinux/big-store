@@ -1,0 +1,1 @@
+A constante DIR fornece o caminho completo para o diretório em que seu arquivo de origem está localizado. Isso é útil para referências relativas a arquivos e pastas em seu código. Em particular, é muito útil em scripts Perl, onde essa constante é conhecida como 'perl-dir-self'. 

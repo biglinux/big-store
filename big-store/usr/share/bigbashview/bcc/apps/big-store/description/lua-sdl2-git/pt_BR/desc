@@ -1,0 +1,2 @@
+ Essa biblioteca permite que você use a biblioteca SDL 2.0, que é usada para criar jogos e programas de vídeo, junto com o
+programa Lua. Ela é escrita inteiramente em C, o que a torna rápida e eficiente. Essa é a versão mais recente, chamada de 'master branch'.

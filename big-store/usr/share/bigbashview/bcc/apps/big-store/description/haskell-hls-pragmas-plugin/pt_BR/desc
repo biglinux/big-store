@@ -1,0 +1,1 @@
+Este é um plugin para o Haskell Language Server. Ele adiciona suporte a 'pragmas', que são diretivas para o compilador do Haskell. Isso permite que você faça coisas como habilitar características adicionais do idioma ou otimizar o código de uma maneira específica. Com este plugin, você pode usar pragmas de maneira mais fácil e eficiente no seu código Haskell. 

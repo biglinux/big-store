@@ -1,0 +1,3 @@
+Com o jqp-bin, você pode brincar e experimentar com o jq (jquery para json) em um ambiente TUI (interface de linha de comando). O jq 
+é uma ferramenta de linha de comando útil para trabalhar com arquivos json, permitindo filtrar, modificar e transformar dados json facilmente. Com o jqp-bin, você pode experimentar com
+diferentes comandos jq e ver imediatamente o resultado. É uma ótima opção para quem está aprendendo a trabalhar com o jq ou precisa fazer pequenas tarefas rapidamente.

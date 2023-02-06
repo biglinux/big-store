@@ -1,0 +1,3 @@
+O Bareos é um software de backup, arquivamento e recuperação de dados de código aberto. Este pacote adiciona suporte ao
+GlusterFS para o serviço de armazenamento do Bareos. Com ele, é possível armazenar seus backups em sistemas de arquivos distribuídos GlusterFS, o que pode aumentar a disponibilidade e
+desempenho do seu sistema de backup. É importante mencionar que este pacote é apenas uma extensão para o Bareos, para usá-lo é necessário ter uma instalação funcionando do Bareos. 

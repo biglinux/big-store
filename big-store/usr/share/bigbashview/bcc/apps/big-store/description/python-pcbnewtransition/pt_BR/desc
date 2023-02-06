@@ -1,0 +1,1 @@
+Esta biblioteca em Python permite que você suporte tanto o KiCAD 5 quanto o KiCAD 6 em seus plugins. Com ela, você pode facilmente manter seus plugins compatíveis com as duas versões do KiCAD, garantindo assim que seus usuários possam continuar a usá-los sem problemas.  

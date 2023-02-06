@@ -1,0 +1,4 @@
+libselinux é uma biblioteca e ferramentas simples para gerenciamento de segurança avançada. Ele permite que o sistema
+operacional controle acessos de forma mais precisa e segura, garantindo que os programas só possam realizar ações permitidas. Com libselinux, é possível criar políticas de segurança
+personalizadas para diferentes tipos de programas e usuários, garantindo que apenas as ações permitidas sejam executadas. Além disso, libselinux também oferece ferramentas simples para
+gerenciar e entender como as políticas de segurança estão sendo aplicadas no sistema.

@@ -1,0 +1,1 @@
+Este programa é uma coleção de extensões de derivação do GHC (Glasgow Haskell Compiler) que foram adicionadas a versões mais antigas do Haskell. Isso permite que os desenvolvedores usem recursos mais recentes do Haskell em projetos que precisam ser mantidos em versões antigas da linguagem.  

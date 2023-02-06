@@ -1,0 +1,1 @@
+Este programa fornece dados de fuso horário IANA para uso em aplicativos Python. Ele inclui informações sobre a hora atual, as regras de mudança de horário e outros detalhes importantes relacionados aos fusos horários de todo o mundo. Com ele, você pode garantir que suas aplicações estejam sempre sincronizadas com a hora correta, independentemente da localização do usuário. 

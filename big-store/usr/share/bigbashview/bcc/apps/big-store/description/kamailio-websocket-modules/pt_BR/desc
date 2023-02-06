@@ -1,0 +1,5 @@
+O Kamailio é um poderoso servidor de sinalização SIP (Session Initiation Protocol) usado para construir soluções de
+comunicação em tempo real. Os módulos WebSocket fornecem suporte para comunicações WebSocket para o Kamailio, permitindo que os desenvolvedores criem aplicativos de comunicação baseados em 
+WebSocket usando o Kamailio como servidor de sinalização. Os módulos WebSocket para o Kamailio incluem recursos como suporte para WebSocket em protocolo, manipulação de mensagens WebSocket,
+autenticação de usuário e muito mais. Isso permite que os desenvolvedores criem aplicativos de comunicação avançados, como softphones baseados em Web, sistemas de bate-papo em tempo real e 
+muito mais.

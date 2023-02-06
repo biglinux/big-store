@@ -1,0 +1,1 @@
+python-astroid é uma biblioteca que fornece uma representação base comum de código fonte Python. Isso permite a análise e modificação de código Python de forma fácil e precisa. Com ela, você pode facilmente navegar pelo código, encontrar erros e refatorar seu código. É amplamente utilizada por ferramentas de desenvolvimento de software, como linters e formatadores de código. 

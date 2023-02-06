@@ -1,0 +1,1 @@
+Este programa é um componente do gambas3 que permite acessar e manipular dados armazenados no Memcached através de sua interface de programação de aplicativos (API). Ele é simples de usar e pode ser incorporado em outros projetos para adicionar recursos de cache dinâmico. 

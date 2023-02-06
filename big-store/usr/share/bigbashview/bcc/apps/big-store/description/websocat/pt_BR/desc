@@ -1,0 +1,1 @@
+websocat é um cliente de linha de comando para web sockets, semelhante a ferramentas como netcat, curl e socat,  mas específico para protocolo ws://. Ele permite que você conecte e se comunique com servidores web socket de forma rápida e fácil, diretamente pelo terminal. 

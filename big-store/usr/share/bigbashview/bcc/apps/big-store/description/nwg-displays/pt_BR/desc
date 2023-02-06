@@ -1,0 +1,4 @@
+Este programa é uma ferramenta útil para gerenciar as saídas de tela quando você estiver usando o compositor
+Wayland chamado Sway. Ele permite que você configure facilmente suas telas, como definir qual é a principal ou estender sua área de trabalho para várias telas. Além disso, ele também
+oferece recursos adicionais, como ajustar o brilho ou o contraste.É fácil de usar e pode ser executado a partir do terminal. Ele é especialmente útil se você estiver usando múltiplas telas 
+e precisar ajustar sua configuração com frequência.

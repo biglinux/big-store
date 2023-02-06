@@ -1,0 +1,2 @@
+Este é um ambiente de execução para rodar programas Java sem precisar de uma interface gráfica. Ele usa a biblioteca
+OpenJDK e é compatível com a versão 13 da linguagem Java. É ideal para rodar programas em servidores ou em outros dispositivos sem interface gráfica.

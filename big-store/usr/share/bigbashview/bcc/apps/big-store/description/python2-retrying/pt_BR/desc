@@ -1,0 +1,3 @@
+Esta é uma biblioteca de retentativas geral para o Python 2. Ela permite que você tente executar uma tarefa até que 
+ela seja concluída com sucesso ou até que se atinja o número máximo de tentativas.Com esta biblioteca, você pode evitar erros temporários e garantir que suas tarefas sejam executadas com
+sucesso sem ter que escrever código adicional para lidar com esses erros.

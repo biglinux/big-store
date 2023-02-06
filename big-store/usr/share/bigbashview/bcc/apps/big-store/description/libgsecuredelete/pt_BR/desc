@@ -1,0 +1,4 @@
+ Esta é uma biblioteca que fornece segurança adicional para excluir arquivos no seu computador. Ela é um
+'wrapper' (envoltório) para outra biblioteca chamada 'nautilus-wipe'. Isso significa que ela usa as funcionalidades do 'nautilus-wipe' e as torna mais fáceis de usar. Com ela, você pode
+excluir arquivos de forma segura, garantindo que as informações não possam ser recuperadas. Isso é útil se você quiser garantir que suas informações confidenciais permaneçam seguras mesmo
+depois de excluir arquivos. 

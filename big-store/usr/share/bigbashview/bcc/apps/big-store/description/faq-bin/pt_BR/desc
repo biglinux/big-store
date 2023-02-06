@@ -1,0 +1,2 @@
+Esta ferramenta é projetada para processar diferentes tipos de arquivos, como BSON, Bencode, JSON, TOML, XML e YAML. 
+Ela é mais flexível que o jq e é útil para quem precisa lidar com vários formatos de dados diferentes.

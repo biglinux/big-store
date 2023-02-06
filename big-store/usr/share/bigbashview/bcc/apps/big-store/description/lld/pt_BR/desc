@@ -1,0 +1,1 @@
+lld é um linker do projeto LLVM. Ele foi projetado para ser rápido e eficiente, e pode ser usado para ligar arquivos objeto ou bibliotecas juntos para criar um único executável ou biblioteca. Ele é totalmente compatível com os formatos de arquivo ELF, COFF e Mach-O e pode ser usado em uma ampla gama de plataformas, incluindo Linux, Windows e macOS. 

@@ -1,0 +1,1 @@
+Uma fila dupla-extremidade, também conhecida como deque (abreviação de double-ended queue), é uma estrutura de dados que permite inserir e remover elementos tanto no início quanto no final da fila. Isso difere de uma fila normal, onde é possível inserir elementos apenas no final e remover apenas do início. A biblioteca haskell-deque implementa essa estrutura de dados em Haskell. 

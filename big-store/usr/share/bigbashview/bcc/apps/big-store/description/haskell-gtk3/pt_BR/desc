@@ -1,0 +1,1 @@
+ O gtk é uma biblioteca para construir interfaces gráficas de usuário. Ela é usada para construir programas  no Haskell usando a biblioteca Gtk2Hs. Esta biblioteca adiciona suporte para a biblioteca gtk, permitindo que você construa programas com interfaces gráficas bonitas e fáceis de usar.  

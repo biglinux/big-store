@@ -1,0 +1,1 @@
+Este programa, chamado lib32-libstrangle, tem como objetivo limitar a taxa de quadros em sistemas Linux que utilizam a biblioteca OpenGL. Ele é específico para sistemas de 32-bits e pode ser útil para jogos ou aplicações que precisam de um controle preciso da taxa de quadros para evitar problemas de desempenho.  

@@ -1,0 +1,1 @@
+Essa ferramenta é usada para rodar testes com relatórios XML, similar ao que é feito no Ant ou no JUnit. Ela  é baseada na biblioteca unittest do Python e é chamada python-unittest-xml-reporting. 

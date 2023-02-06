@@ -1,0 +1,1 @@
+Este programa fornece tipos e analisadores para números de versão de software. Ele é escrito em Haskell e é projetado para ser fácil de usar e flexível. Com ele, é possível trabalhar com diferentes formatos de números de versão e realizar comparações entre versões. Além disso, possibilita a criação de scripts para automatizar a atualização de versões de software. 

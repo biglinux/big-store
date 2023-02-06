@@ -1,0 +1,1 @@
+O python-designateclient é um cliente para o serviço de DNS do OpenStack, chamado de DNS-as-a-Service. Ele permite que você gerencie e configure seus registros de DNS usando a API do OpenStack. Com ele, você pode criar, atualizar e excluir registros de DNS, além de gerenciar zonas de DNS. 

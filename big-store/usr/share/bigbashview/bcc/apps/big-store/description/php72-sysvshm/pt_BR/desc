@@ -1,0 +1,4 @@
+Esse programa é um módulo para o PHP 7.2 que permite compartilhar dados entre diferentes processos usando 
+memória compartilhada. Isso pode ser útil para aumentar a performance de aplicações que precisam acessar rapidamente dados comuns, como contadores ou configurações. Ele é baseado no sistema
+SYSV, que é amplamente suportado em diferentes sistemas operacionais, incluindo Linux, Unix e MacOS. Ele também é fácil de usar e configurar, permitindo que os desenvolvedores adicionem
+essa funcionalidade sem precisar de muito conhecimento específico.

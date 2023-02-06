@@ -1,0 +1,2 @@
+Ferramentas para desenvolver aplicações e interfaces de usuário para várias plataformas (como Windows e Linux)
+usando o Qt6 e o compilador mingw-w64. Essas ferramentas são compiladas de forma estática, o que significa que elas não precisam de bibliotecas externas para funcionar.

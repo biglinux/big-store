@@ -1,0 +1,3 @@
+O Jupyter-metakernel é um template de kernel para o Jupyter/IPython. Ele permite que você crie seus próprios comandos 
+e funções personalizadas dentro do ambiente do Jupyter, tornando a programação mais fácil e eficiente. Ele também oferece suporte para metaprogramação, ou seja, a habilidade de escrever
+programas que geram ou modificam outros programas. Isso pode ser muito útil em aplicações avançadas de ciência de dados e inteligência artificial. 

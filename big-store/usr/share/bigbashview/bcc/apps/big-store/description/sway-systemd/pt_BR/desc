@@ -1,0 +1,4 @@
+Este programa permite que a sessão do Sway seja integrada ao gerenciador de sistemas Systemd. Isso significa que as
+configurações do Sway podem ser gerenciadas de forma semelhante às do sistema operacional como um todo, como inicialização automática e gerenciamento de serviços. Além disso, é possível
+usar comandos do Systemd para controlar a sessão do Sway, como iniciar, parar e reiniciar.Isso torna mais fácil gerenciar a sessão do Sway em sistemas operacionais que usam o Systemd, como 
+Arch Linux e Fedora.

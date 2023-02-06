@@ -1,0 +1,1 @@
+sqlcipher é uma extensão do SQLite que fornece criptografia AES transparente de 256-bits para arquivos de banco de dados. Isso significa que os arquivos do banco de dados são automaticamente criptografados e descriptografados sem que você precise fazer nada além de usar o SQLite normalmente. Isso ajuda a proteger seus dados de acessos não autorizados. 

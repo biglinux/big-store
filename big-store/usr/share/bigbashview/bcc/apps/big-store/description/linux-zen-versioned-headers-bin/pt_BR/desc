@@ -1,0 +1,3 @@
+Este é um pacote chamado linux-zen que depende de outro pacote chamado linux6.1.7.zen1-1-zen-headers-bin. Ele é 
+usado para fazer o gerenciamento de cabeçalhos de arquivos em sistemas operacionais Linux.Os cabeçalhos são arquivos importantes que contêm informações sobre outros arquivos no sistema.
+Eles são usados para ajudar o sistema a entender como lidar com esses arquivos. Este pacote é específico para a versão Zen do Linux.

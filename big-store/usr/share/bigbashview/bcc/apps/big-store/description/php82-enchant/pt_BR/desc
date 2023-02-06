@@ -1,0 +1,4 @@
+Este programa é um módulo adicional para o PHP 8.2. Ele adiciona a funcionalidade de correção ortográfica ao seu
+site ou aplicativo. Isso significa que, se alguém digitar uma palavra incorretamente, o programa sugerirá a palavra correta. Isso pode ser útil em formulários de contato ou campos de busca.
+Além disso, ele é fácil de instalar e usar. Este módulo é baseado em uma biblioteca de código aberto chamada Enchant. Ele suporta vários idiomas e você pode escolher quais usar em sua
+aplicação. Isso significa que você pode ter certeza de que as sugestões de correção ortográfica são precisas e relevantes para seus usuários. 

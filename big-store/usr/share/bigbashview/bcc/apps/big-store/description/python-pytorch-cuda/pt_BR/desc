@@ -1,0 +1,1 @@
+Esse programa utiliza o Pytorch em Python para criar redes neurais dinâmicas com aceleração de GPU através do CUDA. Isso permite processamento mais rápido e eficiente das redes neurais. 

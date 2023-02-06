@@ -1,0 +1,1 @@
+A biblioteca webp-pixbuf-loader permite carregar arquivos de imagem WebP no formato GdkPixbuf. Isso permite  usar as imagens em vários aplicativos GTK+, como aplicativos GNOME e o editor de imagem GIMP. A biblioteca é construída sobre a biblioteca libwebp, que fornece a funcionalidade de decodificação para o formato de imagem WebP. 

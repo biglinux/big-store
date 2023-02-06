@@ -1,0 +1,3 @@
+ Ferramentas de linha de comando do SDK Android é um pacote de ferramentas para desenvolvedores de aplicativos
+Android. Ele inclui ferramentas como o ADB (Android Debug Bridge), que permite aos desenvolvedores depurar e testar seus aplicativos, e o Android Emulator, que permite aos desenvolvedores
+testar seus aplicativos em um ambiente simulado de dispositivo Android. Este pacote é a versão mais recente disponível. 

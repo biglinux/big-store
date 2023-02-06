@@ -1,0 +1,4 @@
+Este é o Octopi, um poderoso gerenciador de pacotes para o sistema operacional Linux. Ele usa bibliotecas Qt para fornecer uma 
+interface amigável para instalar, atualizar e remover programas no seu computador. Com o Octopi, você pode gerenciar facilmente todos os seus pacotes e mantê-los atualizados sem precisar
+digitar comandos complexos no terminal.Além disso, o Octopi possui uma interface de usuário fácil de usar e intuitiva, permitindo que mesmo iniciantes possam gerenciar seus pacotes com
+facilidade. Ele também oferece recursos avançados para usuários mais experientes, como gerenciamento de dependências e instalação de pacotes em lote.

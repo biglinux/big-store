@@ -1,0 +1,1 @@
+ O colord é um programa que ajuda a gerenciar as cores do seu computador. Este pacote adiciona suporte específico para o  GTK, que é uma biblioteca usada para criar interfaces gráficas. Isso significa que se você usa o GTK em seu sistema, este pacote vai ajudar o colord a funcionar melhor com ele.  

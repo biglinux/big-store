@@ -1,0 +1,1 @@
+O certbot-dns-route53 é um plugin para o Certbot que permite usar o Amazon Web Services (AWS) Route 53 como provedor de DNS para obter e renovar certificados SSL do Let's Encrypt. É uma forma simples de usar o Certbot com o Route 53 sem precisar criar manualmente registros DNS. 

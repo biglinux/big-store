@@ -1,0 +1,3 @@
+Este programa é uma substituição para o módulo csv do python que oferece suporte a strings unicode. Isso significa que
+ele permite trabalhar com caracteres especiais e acentos de forma correta, sem causar erros. É uma ferramenta útil para trabalhar com arquivos de dados que contenham esses caracteres. O uso
+é simples e semelhante ao módulo csv original, basta importar o python-unicodecsv ao invés do csv e utilizá-lo como faria normalmente.

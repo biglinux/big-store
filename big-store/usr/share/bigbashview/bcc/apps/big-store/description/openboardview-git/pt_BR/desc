@@ -1,0 +1,4 @@
+Este é um programa chamado openboardview-git, ele é especialmente feito para funcionar em sistemas Linux. Ele permite que você 
+visualize arquivos com a extensão .brd, que são usados para desenhar e guardar projetos eletrônicos. Ele é feito com SDL/ImGui, o que significa que ele é rápido e fácil de usar.Com ele,
+você pode abrir arquivos .brd e ver todos os detalhes do projeto, como as posições das peças e as conexões entre elas. Além disso, ele também permite que você faça anotações e marcações no 
+projeto, o que pode ser útil para quem está trabalhando em uma equipe.

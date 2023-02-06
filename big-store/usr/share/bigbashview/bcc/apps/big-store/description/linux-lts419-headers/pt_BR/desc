@@ -1,0 +1,3 @@
+Este pacote fornece os cabeçalhos e scripts necessários para construir módulos para o kernel Linux LTS 4.19. O LTS
+significa Long-Term Support, ou Suporte de Longo Prazo, o que significa que este kernel receberá atualizações de segurança e correções de bugs por um período mais longo do que as versões
+regulares do kernel Linux. Isso o torna uma boa escolha para usuários que precisam de estabilidade e segurança em seus sistemas.

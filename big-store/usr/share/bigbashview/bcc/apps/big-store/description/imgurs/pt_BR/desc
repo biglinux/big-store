@@ -1,0 +1,3 @@
+Este é um programa que permite que você interaja com a API do Imgur diretamente pelo seu terminal. Ele foi escrito 
+em Rust, uma linguagem de programação de baixo nível que é rápida e segura. Com esse utilitário, você pode fazer coisas como enviar imagens para o Imgur, pesquisar imagens e gerenciar sua
+conta. Ele é útil para quem usa o Imgur com frequência e deseja automatizar algumas tarefas.

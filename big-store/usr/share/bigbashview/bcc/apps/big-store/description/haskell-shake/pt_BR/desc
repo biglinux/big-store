@@ -1,0 +1,1 @@
+Este é um programa chamado haskell-shake. Ele é parecido com o programa 'Make', mas ele tem dependências mais precisas. Ele é usado para ajudar a construir bibliotecas de código, ou seja, grupos de arquivos de código que podem ser usados ​​em outros projetos. 

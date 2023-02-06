@@ -1,0 +1,1 @@
+O vde2 é um software que cria uma rede virtual distribuída para ser usada com emuladores como o qemu. Ele permite que várias máquinas virtuais se conectem entre si em uma rede, como se estivessem na mesma rede física. Isso facilita a comunicação entre as máquinas virtuais e torna mais fácil configurar cenários de teste e desenvolvimento. 

@@ -1,0 +1,3 @@
+Esse programa é uma versão específica do PHP 8.1, projetada para ser usada com CGI (Common Gateway Interface) e FCGI (FastCGI). Ele permite 
+que você execute scripts PHP em um servidor web usando essas tecnologias.CGI e FCGI são dois modos diferentes de rodar scripts PHP em um servidor web. Eles funcionam de maneiras
+ligeiramente diferentes, mas ambos permitem que você crie páginas dinâmicas usando o PHP.

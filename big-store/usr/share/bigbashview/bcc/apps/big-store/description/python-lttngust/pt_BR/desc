@@ -1,0 +1,1 @@
+Este é um pacote de biblioteca de ligação para usar o LTTng-UST (Linux Trace Toolkit Next Generation - User Space Tracer) com Python. Ele permite que você rastreie seu aplicativo Python e colete informações de desempenho e de rastreamento de eventos. Isso pode ser útil para depurar problemas de desempenho e entender como o seu aplicativo está sendo executado. 

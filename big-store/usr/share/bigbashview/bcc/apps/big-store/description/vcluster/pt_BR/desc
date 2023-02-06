@@ -1,0 +1,4 @@
+ O vcluster é uma ferramenta que permite criar clusters Kubernetes completamente funcionais de forma virtual.
+Isso significa que você pode simular um ambiente de produção em sua máquina local, sem precisar de recursos adicionais. Ele é ideal para desenvolvedores, pois permite testar e depurar seus 
+aplicativos antes de levá-los para produção. Além disso, também é útil para administradores de sistemas, pois permite criar cenários de teste para avaliar o desempenho e escalabilidade de
+sua infraestrutura. 

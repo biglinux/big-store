@@ -1,0 +1,5 @@
+Esta é uma biblioteca em Python para que você possa trabalhar com arquivos TOML de maneira fácil e
+eficiente. Com ela, você pode fazer o parsing de arquivos TOML existentes e também criar novos arquivos nesse formato. É uma ferramenta útil para qualquer pessoa que precise trabalhar com
+dados estruturados e precisa de uma maneira de armazená-los de forma clara e organizada. Se você já ouviu falar de arquivos TOML, sabe que eles são uma ótima opção para armazenar
+informações de configuração ou outros dados estruturados. E se você ainda não conhece, agora é a hora de conhecer! Com a biblioteca Python2-TOML, você pode começar a trabalhar com arquivos 
+TOML de maneira fácil e eficiente.

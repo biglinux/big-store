@@ -1,0 +1,3 @@
+Este programa é uma implementação alternativa da NVAPI (biblioteca de interface de programação de aplicativos da 
+Nvidia), baseada no DXVK (biblioteca de interface DirectX para Wine).O objetivo é fornecer uma solução alternativa para jogos e aplicativos que usam a NVAPI, sem precisar recorrer ao uso do
+Wine. Isso pode ajudar a melhorar a performance e a compatibilidade de tais aplicativos em sistemas que não são nativos para o Windows.

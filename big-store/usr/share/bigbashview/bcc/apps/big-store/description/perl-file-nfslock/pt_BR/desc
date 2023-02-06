@@ -1,0 +1,1 @@
+O perl-file-nfslock é uma utilidade de bloqueio segura compatível com o sistema de arquivos NFS (Network File System). Ele permite que você evite conflitos de acesso a arquivos em sistemas distribuídos, garantindo que somente uma pessoa possa fazer alterações em um arquivo de cada vez. 

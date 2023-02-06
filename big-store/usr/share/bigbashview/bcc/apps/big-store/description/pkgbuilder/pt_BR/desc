@@ -1,0 +1,3 @@
+O pkgbuilder é um programa que ajuda na criação e gerenciamento de pacotes no Arch Linux. Ele é escrito em Python e permite que
+você facilmente gerencie pacotes que estão no Arch User Repository (AUR). Com ele, é possível instalar, atualizar e remover pacotes de forma simples e rápida. Além disso, o pkgbuilder
+também é uma biblioteca, então pode ser usado em outros programas para gerenciar pacotes do AUR.

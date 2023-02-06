@@ -1,0 +1,1 @@
+ruby-net-http é uma biblioteca para Ruby que permite que você faça requisições HTTP de forma fácil e simples. Com ela, você pode enviar solicitações GET, POST, PUT e DELETE para qualquer endereço da web, e receber a resposta em formato de objeto Ruby. É uma ótima opção para desenvolvedores que precisam integrar suas  aplicações Ruby com outros sistemas através da internet. 

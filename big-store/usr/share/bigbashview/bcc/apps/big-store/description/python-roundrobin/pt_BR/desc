@@ -1,0 +1,3 @@
+Essa é uma pequena coleção de utilitários para gerenciar a técnica de Round Robin. Com eles, você poderá alternar de
+maneira justa entre diferentes tarefas ou recursos. Por exemplo, pode ser usado para distribuir equamente o tráfego em servidores ou para escalonar tarefas em um sistema de filas. O código 
+é escrito em Python, uma linguagem de programação de alto nível e fácil de aprender. Ele é aberto e disponível para ser modificado e adaptado para as suas necessidades específicas. 

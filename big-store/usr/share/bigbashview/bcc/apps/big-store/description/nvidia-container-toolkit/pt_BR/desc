@@ -1,0 +1,4 @@
+A ferramenta de gerenciamento de contêineres NVIDIA é um conjunto de ferramentas desenvolvido pela NVIDIA
+para ajudar a gerenciar contêineres com facilidade. Ele permite que você use contêineres para executar aplicativos com aceleração de GPU, e também oferece recursos para gerenciar e
+monitorar esses contêineres.Com ele, é possível garantir que sua aplicação esteja usando a GPU correta e o driver mais recente, além de garantir que o contêiner tenha acesso às bibliotecas 
+de aceleração necessárias. Ele também oferece recursos para gerenciar recursos de GPU, como a alocação de memória, e para monitorar o uso de GPU dos contêineres.

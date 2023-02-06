@@ -1,0 +1,1 @@
+Este programa fornece uma implementação simples do msgpack para uso com linguagem C e Lua 5.1. Ele permite a  serialização e deserialização de dados de forma eficiente e fácil de usar. 

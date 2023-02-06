@@ -1,0 +1,3 @@
+Este programa é uma ferramenta de backup para distribuições Linux. Ele é projetado para ser fácil de usar, com uma interface 
+de linha de comando intuitiva (TUI). Ele é escrito em bash, o que significa que é compatível com a maioria das distribuições Linux. Com ele você pode fazer backup de seus arquivos
+importantes e restaurá-los facilmente em caso de perda de dados. Ele também oferece várias opções avançadas, como agendamento de backups e criptografia de arquivos.

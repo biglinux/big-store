@@ -1,0 +1,1 @@
+Este programa é uma integração simples entre o framework Flask e o pacote WTForms para o Python. Ele permite que você crie formulários web de maneira fácil e rápida, usando o Flask como gerenciador de requisições e o WTForms para validação de dados de entrada. 

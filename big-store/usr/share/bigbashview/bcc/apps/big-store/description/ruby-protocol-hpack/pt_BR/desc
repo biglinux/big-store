@@ -1,0 +1,1 @@
+Este programa é um compressor e descompressor para o HTTP 2.0 HPACK, escrito em ruby. Ele é projetado para ajudar a otimizar a transferência de dados entre um servidor e um cliente, tornando-a mais eficiente. É compatível com a especificação do protocolo HTTP 2.0 e é uma ferramenta valiosa para  desenvolvedores de aplicações web. 

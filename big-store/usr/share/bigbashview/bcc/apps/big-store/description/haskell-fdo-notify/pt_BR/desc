@@ -1,0 +1,1 @@
+Este programa é um cliente de notificações para o sistema de arquivos do desktop. Ele foi escrito em Haskell e usa a biblioteca FDO (Desktop Notifications) para exibir notificações na área de trabalho quando determinados eventos ocorrem no sistema de arquivos. 

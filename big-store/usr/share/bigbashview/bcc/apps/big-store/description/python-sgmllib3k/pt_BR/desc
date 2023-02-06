@@ -1,0 +1,1 @@
+Esta é uma biblioteca para trabalhar com arquivos HTML e XML no Python 3. Ela permite que você parseie (ou interprete) esses tipos de arquivos e extraia informações deles de forma fácil e rápida. Com ela, você pode navegar pelo documento, procurar por tags específicas e modificar o conteúdo. É uma ferramenta útil para desenvolvimento web e automação de tarefas. 

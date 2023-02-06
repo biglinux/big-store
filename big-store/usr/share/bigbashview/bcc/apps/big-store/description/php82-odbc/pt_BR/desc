@@ -1,0 +1,3 @@
+Os módulos de conexão ODBC (Open Database Connectivity) para PHP 8.2 permitem que o seu programa se conecte a bancos de 
+dados utilizando o padrão ODBC.Isso significa que, com esses módulos, você pode acessar e manipular dados de diversos tipos de bancos de dados, como MySQL, MS SQL e Oracle, diretamente a
+partir do seu código PHP.Eles são fáceis de usar e oferecem uma grande flexibilidade para acessar e trabalhar com dados em seu programa.

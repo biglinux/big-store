@@ -1,0 +1,3 @@
+Este programa cria um dispositivo de loopback de vídeo V4L2, o que significa que ele permite que você use uma saída de vídeo como
+uma entrada de vídeo. Isso é útil para aplicativos que precisam usar a câmera do seu computador como uma entrada de vídeo virtual. Por exemplo, você pode usá-lo para transmitir a tela do
+seu computador para outros dispositivos ou para gravar vídeos de sua tela.

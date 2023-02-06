@@ -1,0 +1,3 @@
+Este programa ajuda a visualizar as dependências de bibliotecas de forma organizada, como uma árvore. Ele usa a
+ferramenta 'ldd' para mostrar as dependências e as organiza em um formato fácil de entender. Isso pode ser útil para desenvolvedores que precisam entender as dependências de seus programas 
+e como elas estão relacionadas.

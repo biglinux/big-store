@@ -1,0 +1,3 @@
+ O liri-cmake-shared-git é uma ferramenta que oferece mais recursos e funções para ajudar na criação de
+projetos usando o CMake. Ele inclui macros e funções adicionais que tornam o processo de construção de projetos mais fácil e eficiente. Com ele, você pode automatizar tarefas comuns, como
+configuração de dependências e geração de arquivos de configuração.

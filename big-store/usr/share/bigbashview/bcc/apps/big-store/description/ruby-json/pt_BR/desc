@@ -1,0 +1,1 @@
+ruby-json é uma biblioteca para usar a notação JavaScript Object (JSON) no Ruby. Isso permite que você leia e escreva arquivos JSON em seus scripts Ruby e também permite que você converta dados Ruby em JSON para enviar através de uma API ou armazenar em um arquivo. É uma maneira fácil e rápida de lidar com dados estruturados em seus projetos Ruby. 

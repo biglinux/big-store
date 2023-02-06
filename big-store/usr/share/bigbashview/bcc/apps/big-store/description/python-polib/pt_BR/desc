@@ -1,0 +1,4 @@
+A biblioteca python-polib permite trabalhar facilmente com arquivos gettext, um formato usado para traduções em vários 
+idiomas. Com ela, é possível abrir, editar e salvar esses arquivos de forma simples e eficiente. Além disso, a biblioteca também oferece recursos avançados como a possibilidade de ordenar
+as entradas do arquivo e procurar por strings específicas.Em resumo, se você precisa trabalhar com traduções em diversos idiomas no seu projeto, a python-polib é uma excelente opção para te
+ajudar a gerenciar seus arquivos gettext com facilidade.

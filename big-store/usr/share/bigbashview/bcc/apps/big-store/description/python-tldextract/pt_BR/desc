@@ -1,0 +1,1 @@
+Este programa tem como objetivo separar de forma precisa o TLD (Top-level domain), o domínio registrado e os  subdomínios de uma URL, utilizando a Public Suffix List. Isso é útil para identificar e classificar URLs de acordo com suas estruturas e informações.Este programa foi escrito em Python e se chama python-tldextract. 

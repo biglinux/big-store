@@ -1,0 +1,3 @@
+Este programa é projetado para ajudar a otimizar a memória de máquinas virtuais, especificamente as que usam o
+qemu KVM. Ele funciona controlando e ajustando o uso da memória compartilhada (KSM) do kernel, para garantir que a memória seja usada de forma eficiente e sem desperdício.Em resumo, ele
+ajuda a garantir que suas máquinas virtuais funcionem de forma mais suave e rápida, sem precisar de mais recursos do que realmente precisam.

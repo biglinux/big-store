@@ -1,0 +1,4 @@
+ O python-onnxruntime é um motor de pontuação cross-platform que oferece alta performance para modelos de
+aprendizado de máquina. Ele é projetado para ser compatível com várias plataformas, incluindo Windows, Linux e MacOS. Ele permite que os desenvolvedores executem modelos de aprendizado de
+máquina treinados em várias linguagens e ferramentas, como Python, C # e TensorFlow, com facilidade e precisão. Além disso, ele fornece suporte para modelos ONNX, um formato padrão aberto
+para representar modelos de aprendizado de máquina. 

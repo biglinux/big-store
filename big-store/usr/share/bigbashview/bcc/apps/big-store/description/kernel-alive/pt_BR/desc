@@ -1,0 +1,1 @@
+Este programa tem como objetivo fazer o backup dos módulos atuais do kernel antes de atualizá-lo. Isso é feito para evitar possíveis problemas após a atualização do kernel.O nome do programa é kernel-alive 

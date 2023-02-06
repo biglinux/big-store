@@ -1,0 +1,3 @@
+Este programa é um cliente de banco de dados SQL construído com Vala e GTK3. Ele permite a você gerenciar facilmente seus
+dados armazenados em um banco de dados SQL. Com ele, você pode executar consultas, adicionar, atualizar ou excluir registros, e muito mais. É uma ferramenta poderosa e fácil de usar para
+qualquer pessoa que precise gerenciar dados em um banco de dados SQL.

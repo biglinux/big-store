@@ -1,0 +1,1 @@
+ Esse programa permite a realização de transformações Unicode, como a normalização NFC, NFD, NFKC e NFKD. Ele é escrito em Haskell e é útil para garantir que os caracteres Unicode sejam exibidos de forma consistente em diferentes sistemas.  

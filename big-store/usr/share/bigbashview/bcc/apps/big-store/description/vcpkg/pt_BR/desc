@@ -1,0 +1,3 @@
+O vcpkg é um gerenciador de biblioteca C++ para Windows, Linux e MacOS. Ele facilita a instalação e gerenciamento de
+bibliotecas em seu projeto, economizando tempo e esforço. Com o vcpkg, você pode instalar facilmente as bibliotecas de que precisa e mantê-las atualizadas com apenas alguns comandos
+simples. Além disso, o vcpkg oferece suporte a várias plataformas, tornando-o uma escolha flexível e conveniente para desenvolvedores de todos os níveis de habilidade.

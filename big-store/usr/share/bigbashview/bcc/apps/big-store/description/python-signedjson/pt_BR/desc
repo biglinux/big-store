@@ -1,0 +1,1 @@
+Este programa permite que você assine arquivos JSON usando a criptografia Ed25519. Isso garante a autenticidade e integridade dos dados presentes no arquivo JSON, uma vez que qualquer alteração nos dados será detectada pelo sistema de verificação de assinatura. O programa foi escrito em Python e é chamado de python-signedjson. 

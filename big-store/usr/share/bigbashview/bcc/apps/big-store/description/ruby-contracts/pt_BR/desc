@@ -1,0 +1,1 @@
+ruby-contracts é uma biblioteca para programação com contratos em Ruby. Ele permite que desenvolvedores especifiquem contratos, ou um conjunto de regras e condições, para as funções e métodos em seu código. Esses contratos são usados para garantir que o código seja usado corretamente e que qualquer erro seja detectado cedo. 

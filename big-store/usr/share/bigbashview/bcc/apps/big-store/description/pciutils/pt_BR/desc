@@ -1,0 +1,1 @@
+Este é um pacote de utilitários que fornece acesso ao espaço de configuração do barramento PCI em sistemas Linux, Unix e Windows. Ele inclui uma biblioteca compartilhada que pode ser usada por outros programas, além de ferramentas de linha de comando para exibir e gerenciar dispositivos PCI. 

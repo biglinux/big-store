@@ -1,0 +1,1 @@
+ O ssh-key-confirmer é um programa que permite testar se uma chave de login ssh é aceita sem  precisar ter acesso à chave privada. Isso é útil para garantir que somente as chaves desejadas tenham acesso a um servidor ou dispositivo. Além disso, também é possível utilizá-lo para verificar se uma chave específica foi revogada ou não.  

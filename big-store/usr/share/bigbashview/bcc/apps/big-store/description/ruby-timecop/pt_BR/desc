@@ -1,0 +1,1 @@
+Existe uma ferramenta chamada ruby-timecop que ajuda a testar códigos que dependem do tempo. Ela permite  viajar no tempo e congelar o tempo, tornando o processo de teste muito mais fácil. 

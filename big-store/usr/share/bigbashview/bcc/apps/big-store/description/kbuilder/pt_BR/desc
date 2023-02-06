@@ -1,0 +1,4 @@
+Este programa é um script em Bash que ajuda a construir kernels personalizados. Um kernel é o núcleo do sistema
+operacional que gerencia comunicação entre o hardware e o software do computador. Com este script, você pode criar uma versão específica do kernel para atender às suas necessidades.Usando o
+kbuilder, você pode escolher quais recursos incluir ou excluir do seu kernel, para obter um desempenho melhor ou para economizar espaço no disco. Além disso, você pode personalizar as
+configurações do kernel para melhorar a segurança ou para adicionar novos recursos.

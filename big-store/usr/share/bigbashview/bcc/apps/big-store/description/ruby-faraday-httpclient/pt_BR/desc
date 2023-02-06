@@ -1,0 +1,1 @@
+O ruby-faraday-httpclient é um adaptador para o Faraday, uma biblioteca de cliente HTTP para Ruby. Ele permite que você use o Faraday com o HTTPClient, que é uma biblioteca de cliente HTTP para Ruby. Ele é útil para acessar APIs da web e outros recursos HTTP. 

@@ -1,0 +1,3 @@
+Este é um programa que permite a serialização de dados no formato MessagePack para a linguagem de programação Python.
+Com ele, é possível transformar dados em um formato compacto e fácil de armazenar ou transmitir, o que é útil em muitos casos, como em aplicações de rede ou armazenamento de dados. O
+programa é específico para a versão 2 do Python, e é uma boa opção para quem precisa desta funcionalidade em seus projetos. 

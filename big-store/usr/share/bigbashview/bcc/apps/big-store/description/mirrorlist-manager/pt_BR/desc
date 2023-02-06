@@ -1,0 +1,3 @@
+Este é um programa para gerenciar facilmente a sua lista de mirrors (servidores espelhos) no seu sistema operacional. Ele
+possui uma interface gráfica amigável construída com a biblioteca Qt. Com ele, você pode adicionar, remover e organizar os mirrors disponíveis, para garantir que você esteja sempre usando o
+melhor e mais rápido mirror para baixar atualizações e programas. 

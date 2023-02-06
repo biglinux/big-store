@@ -1,0 +1,1 @@
+scaleway-cli é uma interface de linha de comando para interagir com a nuvem Scaleway. Ele permite que você gerencie facilmente seus servidores virtuais, imagens e IPs a partir da linha de comando. Com o scaleway-cli, você pode criar, listar e excluir servidores, instantâneos e IPs, além de gerenciar sua conta e informações de faturamento. 

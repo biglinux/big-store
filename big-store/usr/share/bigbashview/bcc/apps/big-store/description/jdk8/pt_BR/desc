@@ -1,0 +1,4 @@
+O Oracle Java Development Kit 8 é um conjunto de ferramentas que ajuda os desenvolvedores a criar programas
+utilizando a linguagem de programação Java. É uma versão LTS, ou seja, com suporte de longo prazo, garantindo atualizações de segurança e correções de bugs por um período prolongado. Com
+ele, é possível construir aplicações para desktop, web e dispositivos móveis.Entre as funcionalidades disponíveis no JDK 8 estão a inclusão de novos recursos da linguagem, como lambdas e
+streams, melhorias na performance e na segurança, e ferramentas para desenvolvimento, como o compilador javac e o utilitário de linha de comando java.

@@ -1,0 +1,2 @@
+Este programa é um plugin para o setuptools que encontra todos os arquivos rastreados pelo git, incluindo
+submódulos.

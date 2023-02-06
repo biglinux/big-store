@@ -1,0 +1,3 @@
+Esse programa é chamado de babashka-bin, é uma ferramenta que te ajuda a automatizar tarefas que normalmente seriam feitas
+no Bash. Ele foi feito com Clojure, uma linguagem de programação similar ao Java. Com ele, você pode fazer coisas como automatizar tarefas de linha de comando, criar scripts e muito mais. É
+uma ótima opção para quem precisa de ajuda com tarefas repetitivas ou difíceis de serem feitas manualmente.

@@ -1,0 +1,4 @@
+Este é um módulo para o PHP74 que permite acessar e gerenciar informações em servidores LDAP (Lightweight Directory Access Protocol). 
+Ele fornece uma série de funções que permitem trabalhar com entradas de diretório, como adicionar, editar e excluir entradas. Além disso, ele também oferece suporte para autenticação e
+autorização baseadas em LDAP. Com esse módulo, os desenvolvedores podem facilmente integrar aplicações PHP com sistemas de gerenciamento de diretórios, como o Microsoft Active Directory ou 
+o OpenLDAP.

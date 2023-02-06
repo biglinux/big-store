@@ -1,0 +1,1 @@
+Este programa é uma implementação rápida de Markdown, um formato de texto fácil de ler e escrever que é convertido para HTML para ser exibido em sites. Ele foi criado por Gruber e este programa usa a linguagem C para executar essa conversão.Ele é baseado no ruby-rdiscount, um pacote ruby para a implementação de Markdown. 

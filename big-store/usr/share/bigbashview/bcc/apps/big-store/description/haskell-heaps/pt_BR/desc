@@ -1,0 +1,1 @@
+Este programa é especializado em heaps, que são estruturas de dados usadas para organizar elementos em ordem específica. Ele se  baseia em dois métodos, o Brodal e o Okasaki, para tornar a sua performance o mais eficiente possível, ou seja, atingir o melhor desempenho possível. Ele foi escrito em Haskell.  

@@ -1,0 +1,3 @@
+Essa biblioteca é uma cópia de outra chamada Aesara e é usada para definir, otimizar e avaliar
+de forma eficiente expressões matemáticas envolvendo arrays multidimensionais. Ela é escrita em Python e é conhecida como python-pytensor. Com ela, é possível realizar cálculos complexos de
+forma simples e rápida.

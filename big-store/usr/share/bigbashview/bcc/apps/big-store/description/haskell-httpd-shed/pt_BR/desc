@@ -1,0 +1,1 @@
+Este programa é um servidor web simples, mas com uma API interativa. Ele foi escrito em Haskell e chama-se haskell-httpd-shed.  Ele permite que os usuários acessem e alterem dados através da internet de uma forma fácil e intuitiva. 

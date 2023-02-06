@@ -1,0 +1,3 @@
+Este programa é responsável por garantir a compatibilidade entre o PHP 8.0 e o servidor web Apache. Ele é conhecido como
+SAPI (Server Application Programming Interface) e é essencial para que aplicações escritas em PHP possam ser executadas no Apache. Com ele, é possível utilizar todas as funcionalidades do
+PHP 8.0, tais como novos recursos de linguagem, melhorias de performance e correções de bugs, juntamente com a estabilidade e segurança do Apache.

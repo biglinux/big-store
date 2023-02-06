@@ -1,0 +1,1 @@
+Snapper é uma ferramenta que ajuda você a gerenciar snapshots de sistemas de arquivos BTRFS e LVM. Com ela, você pode criar, comparar e restaurar snapshots, além de ter a opção de criar snapshots automáticos ao longo do tempo. 

@@ -1,0 +1,3 @@
+Este programa é um plugin que permite a autenticação no Azure para usar o Kubernetes. Ele é chamado de
+'azure-kubelogin' e é usado como uma ferramenta para acessar os recursos do Kubernetes de forma segura usando suas credenciais do Azure.Ele funciona como um plugin de execução, o que
+significa que é executado como um comando separado e fornece as credenciais necessárias para acessar os recursos do Kubernetes.

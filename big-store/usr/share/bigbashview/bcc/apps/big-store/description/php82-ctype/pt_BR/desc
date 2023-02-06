@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.2 que adiciona funções para verificar o tipo de caracteres. Ele é útil para validação de dados, como 
+verificar se um email está escrito corretamente ou se uma senha tem os caracteres corretos. É fácil de usar e pode ser incluído no seu código PHP com um simples comando.Algumas das funções 
+incluídas neste módulo são isalpha(), isdigit() e isalnum(). Elas verificam se os caracteres passados são letras, números ou ambos, respectivamente. Há também funções para verificar se os
+caracteres são maiúsculas ou minúsculas, se são símbolos, entre outras.

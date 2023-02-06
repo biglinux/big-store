@@ -1,0 +1,5 @@
+Quimup é um programa simples que permite controlar a reprodução de música em seu computador através de uma
+interface amigável. Ele usa o MPD, o Music Player Daemon, como sua base de reprodução de música, e adiciona uma interface Qt5 para facilitar o uso. Com ele, você pode adicionar músicas à
+sua lista de reprodução, controlar o volume, mudar as faixas e muito mais, tudo através de uma interface gráfica fácil de usar. Além disso, ele também oferece suporte a várias funções
+avançadas, como o acesso às informações sobre as músicas, o gerenciamento de biblioteca de música, etc. Quimup é uma excelente escolha para usuários que procuram um programa simples e fácil
+de usar para controlar a reprodução de música em seu computador.

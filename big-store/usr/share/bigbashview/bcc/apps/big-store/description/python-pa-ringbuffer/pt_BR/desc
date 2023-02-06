@@ -1,0 +1,3 @@
+Este programa é uma ferramenta escrita em Python que permite acessar um buffer de áudio chamado 'ringbuffer' que é usado pelo PortAudio.
+Ele cria uma camada de abstração para que você possa usar esse buffer de forma mais fácil e intuitiva, sem precisar se preocupar com detalhes técnicos.O ringbuffer é útil para aplicações de
+áudio em tempo real, como gravação e reprodução, pois ele permite que você adicione e remova amostras de áudio sem precisar se preocupar com sobrecarga de memória.

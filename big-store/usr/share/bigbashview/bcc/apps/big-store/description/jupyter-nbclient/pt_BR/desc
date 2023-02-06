@@ -1,0 +1,1 @@
+jupyter-nbclient é uma ferramenta que permite executar notebooks Jupyter em diferentes contextos de execução. Isso é útil quando você quer rodar o mesmo notebook em diferentes ambientes, como localmente em sua máquina, em um cluster de computação ou em nuvem. Ele também permite que você gerencie e organize seus notebooks de maneira mais eficiente. 

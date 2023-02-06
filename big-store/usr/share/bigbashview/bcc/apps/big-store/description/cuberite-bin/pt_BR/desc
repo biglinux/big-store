@@ -1,0 +1,2 @@
+ Este é um servidor de jogo multiplayer que é compatível com o jogo Minecraft. Ele foi escrito em C++ e
+projetado para ser eficiente com memória e CPU. Ele também tem uma API de plugin Lua flexível. Ele é compatível com o cliente Minecraft original.

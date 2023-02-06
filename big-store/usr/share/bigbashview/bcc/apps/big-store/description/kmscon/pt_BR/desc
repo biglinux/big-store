@@ -1,0 +1,1 @@
+ kmscon é um emulador de terminal baseado em Kernel Mode Setting (KMS). É um emulador de terminal completo projetado para trabalhar com o suporte KMS embutido no kernel Linux. kmscon pode ser usado como substituto para a console virtual padrão do Linux ou como uma forma de executar um terminal em um sistema Linux sem usar uma interface gráfica de usuário. 

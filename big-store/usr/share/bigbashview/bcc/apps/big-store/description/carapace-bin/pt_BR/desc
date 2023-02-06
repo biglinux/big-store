@@ -1,0 +1,3 @@
+ Carapace-bin é um programa que ajuda você a completar argumentos de vários comandos em várias shells. Isso significa que,
+quando você estiver digitando um comando no seu terminal, o programa pode sugerir automaticamente o que você pode digitar a seguir, baseado no que você já digitou. Isso pode economizar
+tempo e evitar erros de digitação. Além disso, ele suporta vários shells diferentes, então ele funciona independentemente do sistema operacional que você estiver usando.

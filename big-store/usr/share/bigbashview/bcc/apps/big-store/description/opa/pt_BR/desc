@@ -1,0 +1,4 @@
+Este programa é uma ferramenta de linha de comando e REPL para o Open Policy Agent. Ele permite que
+você gerencie e aplique políticas de segurança para suas aplicações e serviços de forma eficiente. Com ele, você pode criar, editar e testar políticas, além de obter relatórios e
+visualizações sobre como as políticas estão sendo aplicadas. Além disso, ele suporta várias linguagens de política, como Regra, Rego e o JSON, e é compatível com vários sistemas de
+gerenciamento de configuração, como Kubernetes, Docker e Terraform.

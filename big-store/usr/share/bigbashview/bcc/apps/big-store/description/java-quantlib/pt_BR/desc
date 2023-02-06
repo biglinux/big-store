@@ -1,0 +1,4 @@
+Essa biblioteca, chamada java-quantlib, permite que desenvolvedores utilizem as funcionalidades do QuantLib, uma biblioteca 
+popular para finanças, em aplicações Java. Com ela, é possível fazer cálculos avançados como valoração de ativos e análise de risco.Ao utilizar essa biblioteca, os desenvolvedores podem
+economizar tempo e esforço, já que muitas das funções já estão prontas para uso. Além disso, a compatibilidade com o Java permite que a biblioteca seja usada em uma ampla variedade de
+sistemas e plataformas.

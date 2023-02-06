@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.3 que permite obter informações sobre arquivos, como tipo de arquivo e suas
+permissões. Ele é útil para validação de arquivos enviados por usuários em aplicações web, por exemplo.Este módulo é fácil de usar e possui uma série de funções prontas para serem
+utilizadas no seu código. Ele é compatível com a maioria dos sistemas operacionais e pode ser instalado com facilidade.

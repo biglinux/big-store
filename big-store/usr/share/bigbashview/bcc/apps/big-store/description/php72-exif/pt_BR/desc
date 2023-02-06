@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.2 que permite trabalhar com informações de imagens, como data e hora de captura, câmera usada, entre
+outras informações. Ele é útil para quem trabalha com galerias de imagens ou qualquer outra aplicação que necessite de informações adicionais sobre as imagens.Com esse módulo, é possível
+ler e escrever informações de metadados nos formatos de imagem mais comuns, como JPEG e TIFF. Ele também suporta a manipulação de tags IPTC e XMP.

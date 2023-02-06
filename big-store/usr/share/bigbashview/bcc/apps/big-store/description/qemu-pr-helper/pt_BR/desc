@@ -1,0 +1,1 @@
+qemu-pr-helper é uma ferramenta que ajuda a gerenciar reservas persistentes em sistemas que usam o QEMU. Isso permite  que você faça reservas em discos virtuais, garantindo que eles só possam ser acessados ​​por máquinas virtuais específicas. Isso é útil para garantir que os dados críticos estejam sempre disponíveis e seguros. 

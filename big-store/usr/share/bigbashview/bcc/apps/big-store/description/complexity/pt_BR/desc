@@ -1,0 +1,3 @@
+Esse programa foi criado para medir a complexidade do código escrito em C. Ele analisa o código fonte e fornece uma
+pontuação, permitindo que os desenvolvedores identifiquem áreas do código que podem ser simplificadas ou otimizadas. Isso pode ajudar a tornar o código mais fácil de entender e manter, além
+de melhorar o desempenho. É uma ferramenta útil para qualquer pessoa que trabalhe com código em C.

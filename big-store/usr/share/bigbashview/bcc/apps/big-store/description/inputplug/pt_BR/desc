@@ -1,0 +1,4 @@
+Este programa é um 'daemon' que monitora eventos de plug-in de dispositivos Xinput. Ele permite que você configure ações
+específicas para serem executadas automaticamente quando um dispositivo Xinput é conectado ou desconectado do seu computador. Isso pode incluir a ativação ou desativação de recursos,
+alteração de configurações de dispositivos, entre outros.Com este programa, você pode automatizar tarefas relacionadas a dispositivos Xinput sem precisar realizá-las manualmente toda vez
+que um dispositivo é conectado ou desconectado.

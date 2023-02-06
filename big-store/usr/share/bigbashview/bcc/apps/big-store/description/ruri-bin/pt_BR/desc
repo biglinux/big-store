@@ -1,0 +1,2 @@
+Este programa tem como objetivo verificar a integridade de arquivos, calculando o CRC-32 deles e comparando com o nome
+do arquivo. Ele já vem pré-construído, bastando apenas selecionar o arquivo desejado e iniciar a verificação.

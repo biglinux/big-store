@@ -1,0 +1,5 @@
+Este é um plugin para o SoapySDR, uma biblioteca de software que permite que os desenvolvedores escrevam programas que se
+comuniquem com vários dispositivos de rádio SDR (Software Defined Radio) de diferentes fabricantes. Este plugin específico é projetado para funcionar com o dispositivo PlutoSDR, um
+transceptor SDR de baixo custo que é popular entre os entusiastas de rádio e os desenvolvedores.Com esse plugin, os desenvolvedores podem facilmente acessar as funções do PlutoSDR e
+controlar suas configurações através do SoapySDR. Isso torna mais fácil criar programas que utilizam o PlutoSDR sem precisar lidar com detalhes de baixo nível da comunicação com o
+dispositivo.

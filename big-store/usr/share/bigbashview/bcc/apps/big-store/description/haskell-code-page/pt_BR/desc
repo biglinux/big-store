@@ -1,0 +1,1 @@
+A biblioteca haskell-code-page fornece suporte para diferentes páginas de código no Windows. Isso permite que você trabalhe com arquivos que contêm caracteres especiais e outros símbolos que não estão disponíveis na página de código padrão. Isso é útil para quem trabalha com arquivos em diferentes idiomas ou que precisa lidar com dados de outras plataformas. 

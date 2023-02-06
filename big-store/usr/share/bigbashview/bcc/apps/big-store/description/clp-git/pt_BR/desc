@@ -1,0 +1,4 @@
+Este programa é uma ferramenta útil para destacar a sintaxe de arquivos de entrada. Ele escreve esses arquivos para a saída
+padrão com destaques específicos para diferentes tipos de código, como comentários e strings. Isso pode tornar mais fácil para os programadores ler e entender o código.Além disso, essa
+ferramenta é especialmente útil para aqueles que trabalham com várias linguagens de programação diferentes, pois ela pode adaptar automaticamente seus destaques para corresponder à
+linguagem do arquivo de entrada.

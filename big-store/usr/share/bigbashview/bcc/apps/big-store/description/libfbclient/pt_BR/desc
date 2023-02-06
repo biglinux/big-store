@@ -1,0 +1,1 @@
+libfbclient é uma biblioteca de cliente para Firebird. Ela permite que outros programas conectem-se a um banco de dados Firebird e execute comandos nele. Por exemplo, você pode usar esta biblioteca para criar um programa que adicione, edite ou exclua dados em um banco de dados Firebird. 

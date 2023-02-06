@@ -1,0 +1,1 @@
+Este programa permite que você use afirmações HUnit como propriedades QuickCheck. Isso é útil quando você deseja testar a saída de uma função de entrada/saída usando a biblioteca QuickCheck, mas precisa especificar as saídas esperadas de forma mais detalhada do que o QuickCheck normalmente permite. 

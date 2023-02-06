@@ -1,0 +1,3 @@
+cfn-guard-git é um conjunto de ferramentas que ajudam a verificar se os
+modelos AWS CloudFormation estão de acordo com as políticas estabelecidas. Ele utiliza uma sintaxe simples e declarativa, chamada de 'política como código', para fazer essa verificação.
+Isso permite que você tenha maior segurança e conformidade em seus modelos CloudFormation.

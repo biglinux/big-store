@@ -1,0 +1,3 @@
+Este é um programa chamado Xen que é um gerenciador de máquinas virtuais. Ele é considerado um tipo 1 ou
+hipervisor baremetal. Isso significa que ele roda diretamente no hardware do seu computador, sem precisar de outro sistema operacional. Ele é open-source, o que significa que qualquer
+pessoa pode ver e modificar o código fonte. Ele é usado para criar várias máquinas virtuais em um único computador, cada uma com seu próprio sistema operacional.

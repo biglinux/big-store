@@ -1,0 +1,4 @@
+O PHP 8.0 é uma versão atualizada do popular linguagem de programação PHP. Este módulo específico, chamado 'gettext',
+permite que seu programa PHP 8.0 traduza automaticamente o idioma exibido para seus usuários baseado na configuração do navegador deles. Isso significa que seus usuários verão seu site ou
+aplicativo em seu idioma nativo, melhorando a experiência do usuário. Para usar esse módulo, você precisará ter o PHP 8.0 instalado e ativá-lo no seu arquivo de configuração do PHP. Então, 
+você pode começar a usar as funções de tradução fornecidas pelo gettext em seu código. 

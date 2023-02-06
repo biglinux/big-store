@@ -1,0 +1,1 @@
+ Este é um plugin de ingestão de anexos para o programa opensearch. Ele usa a biblioteca Apache Tika para extrair  os conteúdos dos arquivos anexados. Isso permite que os dados sejam facilmente indexados e pesquisados no futuro. É uma ferramenta útil para qualquer pessoa que precise armazenar e gerenciar grandes quantidades de dados de diversos tipos de arquivos. 

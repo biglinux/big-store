@@ -1,0 +1,1 @@
+O python-persistent é um módulo para trabalhar com objetos persistentes em Python. Ele permite que os objetos sejam armazenados e recuperados de forma transparente, sem precisar se preocupar com detalhes de armazenamento. Isso facilita a construção de aplicações que precisam armazenar dados em banco de dados ou em outros tipos de armazenamento. 

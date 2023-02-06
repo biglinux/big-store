@@ -1,0 +1,1 @@
+python-ansiwrap é uma ferramenta de quebra de texto para o Python que é inteligente o suficiente para entender e preservar as cores e estilos ANSI em seu texto. Isso significa que, ao usar essa biblioteca, você pode criar textos coloridos e formatados em seus programas sem se preocupar em quebrar a formatação ao fazer ajustes de tamanho de tela ou outras operações. 

@@ -1,0 +1,1 @@
+Este programa permite que você controle vários dispositivos USB ao mesmo tempo. Ele se chama USB Multiplex Daemon, ou libusbmuxd em inglês. Ele é útil quando você tem muitos dispositivos USB conectados ao seu computador e precisa gerenciá-los de maneira fácil e rápida. 

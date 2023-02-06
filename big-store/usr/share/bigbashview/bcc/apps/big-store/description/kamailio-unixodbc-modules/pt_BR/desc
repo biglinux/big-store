@@ -1,0 +1,4 @@
+Os módulos Kamailio unixODBC são um conjunto de ferramentas que permitem que o Kamailio se conecte a bancos de dados usando o
+unixODBC. Esses módulos são especialmente úteis para quem precisa armazenar e recuperar informações de chamadas e usuários em um banco de dados. Eles são fáceis de usar e se integram
+perfeitamente com o Kamailio. Com esses módulos, você pode facilmente configurar o Kamailio para se conectar a qualquer banco de dados compatível com o unixODBC, como MySQL, PostgreSQL,
+Oracle, entre outros. Isso significa que você pode escolher o banco de dados que melhor se adapta às suas necessidades e usá-lo com o Kamailio.

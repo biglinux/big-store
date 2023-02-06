@@ -1,0 +1,4 @@
+Os módulos ODBC para o PHP 7.4 são um conjunto de ferramentas que permitem acessar bancos de dados usando o protocolo ODBC. Isso 
+significa que, se você tem um aplicativo PHP e precisa se conectar a um banco de dados, esses módulos podem ajudá-lo a fazer isso de forma fácil e rápida.Eles são compatíveis com vários
+tipos de bancos de dados, como MySQL, SQL Server e Oracle, entre outros. Além disso, eles são open source, o que significa que você pode usá-los gratuitamente e modificá-los de acordo com
+suas necessidades.

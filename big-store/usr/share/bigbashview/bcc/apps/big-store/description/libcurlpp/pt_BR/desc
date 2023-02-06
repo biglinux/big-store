@@ -1,0 +1,3 @@
+ cURLpp é um wrapper em C++ para a biblioteca libcURL. Ele é projetado para tornar o uso do cURL mais fácil e amigável para
+programadores que estão trabalhando em projetos escritos em C++. Ele fornece uma interface orientada a objeto para as funcionalidades do cURL, permitindo que você faça solicitações HTTP de 
+uma forma mais simples e intuitiva. Além disso, ele também fornece suporte para vários protocolos, incluindo HTTP, HTTPS, FTP, SFTP e muito mais. 

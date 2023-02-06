@@ -1,0 +1,1 @@
+pgpdump é uma ferramenta para exibir informações de pacotes PGP de forma legível para humanos. É útil para analisar a estrutura dos pacotes PGP e pode ser usado para depurar outros softwares PGP. A ferramenta exibe o formato do pacote, incluindo quaisquer sub-pacotes e seus conteúdos. É escrito em C e pode ser compilado e  executado em a maioria dos sistemas operacionais. 

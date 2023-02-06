@@ -1,0 +1,1 @@
+O mkinitcpio-busybox é um conjunto de ferramentas utilizadas para criar a imagem initramfs, que é usada durante o processo de inicialização do sistema. Ele inclui o BusyBox, um conjunto de utilitários de linha de comando minificados, e o mkinitcpio, um script que gera a imagem initramfs. Essas ferramentas são essenciais para garantir que o sistema inicialize corretamente. 

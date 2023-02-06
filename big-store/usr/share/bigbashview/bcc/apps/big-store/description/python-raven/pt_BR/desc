@@ -1,0 +1,3 @@
+Este programa é um cliente para o Sentry, um serviço de rastreamento de erros. Ele foi escrito em Python e permite que
+desenvolvedores integrem facilmente o Sentry em suas aplicações Python. Isso significa que, se algo der errado em sua aplicação, o Sentry será notificado e você poderá verificar o que
+causou o erro. Dessa forma, você pode corrigir o problema rapidamente e garantir que sua aplicação esteja sempre funcionando corretamente.

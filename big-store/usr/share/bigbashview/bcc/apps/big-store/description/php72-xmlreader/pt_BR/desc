@@ -1,0 +1,2 @@
+ Este é um módulo para o PHP 7.2 que permite a leitura de arquivos XML. Ele fornece uma interface para navegar e ler os dados
+dentro de um arquivo XML. É uma ferramenta útil para qualquer projeto que precise lidar com dados em formato XML. 

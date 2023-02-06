@@ -1,0 +1,3 @@
+Esta é uma ferramenta de desenvolvimento para o toolkit wxWidgets, que é usado para criar aplicativos para várias
+plataformas. Ela é baseada na biblioteca GTK3, que é comumente usada no ambiente de desktop GNOME. Esta é uma versão da branch de desenvolvimento, o que significa que pode conter recursos
+não testados e bugs. Além disso, esta versão não inclui dependências do GNOME ou GStreamer, o que significa que pode ser usada em sistemas que não os possuem.

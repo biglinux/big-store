@@ -1,0 +1,1 @@
+Esse programa é útil para quem trabalha com o Haskell, uma linguagem de programação de  tipagem estática. Ele permite que você gere implementações padrão para funções dentro de classes de tipos complexos, o que pode economizar muito tempo e esforço durante o desenvolvimento. Esse recurso é conhecido como 'haskell-flexible-defaults'. 

@@ -1,0 +1,1 @@
+wxsqlite3 é uma biblioteca em C++ que utiliza as bibliotecas wxWidgets e SQLite3 para fornecer uma interface conveniente e fácil de usar para trabalhar com bancos de dados SQLite3. Ele permite que você crie, modifique e consulte bancos de dados SQLite3 usando uma API simples e intuitiva, e também inclui suporte para trabalhar com controles e widgets da biblioteca wxWidgets. 

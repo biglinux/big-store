@@ -1,0 +1,1 @@
+s2n-tls é uma implementação C99 dos protocolos de segurança TLS/SSL. Ela foi projetada para ser simples de usar, ocupar pouco espaço, ser rápida e ter segurança como prioridade. Isso significa que o código é limpo e fácil de  entender, e que as medidas de segurança são tomadas para garantir que os dados transmitidos sejam seguros e confidenciais. 

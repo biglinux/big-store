@@ -1,0 +1,1 @@
+Este programa é escrito em Perl e permite fazer comparações numéricas para tamanhos de arquivos humanos. Isso significa que ele pode entender unidades de medida como KB, MB, GB e TB e fazer comparações corretas entre elas. Ele é útil para trabalhar com arquivos grandes e garantir que  eles tenham o tamanho esperado. 

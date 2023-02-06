@@ -1,0 +1,3 @@
+Este programa permite obter e armazenar credenciais AWS STS para interagir com os serviços da Amazon,
+autenticando-se através do G Suite SAML. Dessa forma, é possível acessar vários recursos e ferramentas da Amazon de forma segura e autorizada, sem precisar inserir manualmente suas
+informações de login a cada vez.Com esse programa, você pode aproveitar ao máximo os recursos da Amazon, sem se preocupar com questões de segurança ou autenticação. 

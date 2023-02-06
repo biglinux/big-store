@@ -1,0 +1,1 @@
+Enjarify é uma ferramenta que permite a tradução do código Dalvik, usado no sistema operacional Android, para o equivalente em código Java. Isso possibilita a execução de aplicativos Android em sistemas que não suportam nativamente o formato Dalvik. Além disso, a tradução para Java pode tornar o código mais fácil de ser entendido e modificado por desenvolvedores. 

@@ -1,0 +1,3 @@
+Este programa é um wrapper, ou seja, uma forma de usar uma coisa dentro de outra. Ele é específico para configurações do Qt,
+uma ferramenta de desenvolvimento de programas. Ele permite que você configure seus programas de uma forma parecida com o Qt.Ele é baseado em outra ferramenta chamada GSettings, que é usada
+para configurações no sistema operacional. Com esse programa, você pode usar as configurações do GSettings de uma forma mais parecida com o Qt, tornando mais fácil para você trabalhar.

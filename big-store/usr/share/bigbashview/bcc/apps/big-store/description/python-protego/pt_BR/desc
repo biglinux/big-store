@@ -1,0 +1,1 @@
+Esse programa é um parser de arquivos robots.txt escrito em Python. Ele é capaz de entender as convenções modernas desse tipo  de arquivo, que é usado para indicar aos mecanismos de busca quais páginas ou seções de um site não devem ser rastreadas.Ele é escrito em Python puro, o que significa que não depende de nenhuma biblioteca ou módulo externo. 

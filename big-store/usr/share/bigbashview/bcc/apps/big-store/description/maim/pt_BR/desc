@@ -1,0 +1,1 @@
+maim é uma ferramenta de linha de comando para tirar capturas de tela. Ele usa a biblioteca imlib2 para capturar a imagem e salvar no formato especificado. É possível especificar uma região específica da tela para ser capturada, bem como adicionar opções adicionais como adicionar setas e texto à imagem  capturada.  

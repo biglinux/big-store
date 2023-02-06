@@ -1,0 +1,1 @@
+O or1k-elf-gcc é um compilador da coleção de compiladores GNU, específico para o alvo OpenRISC 1000 (bare-metal). Ele permite a compilação de código para esse tipo de processador, tornando possível a execução de aplicações nesse ambiente. 

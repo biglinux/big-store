@@ -1,0 +1,2 @@
+ flyctl-bin é um conjunto de ferramentas de linha de comando para gerenciar serviços em fly.io. Com elas, é
+possível fazer tarefas como criar e gerenciar aplicações, escalar recursos, monitorar o desempenho e muito mais. É uma forma fácil e rápida de gerenciar seus projetos na nuvem.

@@ -1,0 +1,4 @@
+Concourse é uma ferramenta de automação de fluxo de trabalho para construção, implantação e testes de aplicativos. Ele
+possui vários tipos de recursos que podem ser utilizados para automatizar tarefas.Os tipos básicos de recursos do Concourse incluem:git: para gerenciamento de código fontedocker-image: para
+construção e implantação de imagens Dockertime: para definição de intervalos de tempo para execução de tarefasEsses tipos de recursos são fundamentais para construir fluxos de trabalho
+automatizados e eficientes com o Concourse.

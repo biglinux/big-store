@@ -1,0 +1,1 @@
+A biblioteca python-jarowinkler permite fazer correspondência rápida de strings usando as medidas de similaridade Jaro e Jaro-Winkler. Elas são úteis para comparar nomes de pessoas ou endereços, por exemplo, e encontrar possíveis duplicatas. É uma ferramenta útil para limpeza de dados e melhoria da qualidade dos dados em um banco de dados. 

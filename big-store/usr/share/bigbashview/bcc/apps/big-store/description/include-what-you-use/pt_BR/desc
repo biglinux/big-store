@@ -1,0 +1,3 @@
+Esta ferramenta, chamada include-what-you-use, é utilizada junto com o compilador clang para analisar as linhas de
+código #includes nos arquivos de fonte C e C++. Ela ajuda a identificar quais arquivos de cabeçalho são realmente necessários e quais podem ser removidos, otimizando assim o desempenho e a 
+manutenção do código.Além disso, a ferramenta também pode ajudar a encontrar erros de compilação e problemas de compatibilidade entre diferentes versões de bibliotecas.

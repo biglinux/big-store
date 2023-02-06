@@ -1,0 +1,1 @@
+ O opencl-nvidia é uma implementação do OpenCL para dispositivos NVIDIA. Ele permite que os desenvolvedores utilizem a potência dos processadores gráficos NVIDIA em suas aplicações, o que pode aumentar significativamente a velocidade de processamento. Este programa é especialmente útil para tarefas de computação paralela, como renderização de gráficos e modelagem científica.  

@@ -1,0 +1,3 @@
+ Este é um programa que ajuda você a gerenciar seus dispositivos Bluetooth usando uma interface de linha de comando (TUI). Ele
+permite que você conecte e desconecte dispositivos, veja quais dispositivos estão conectados e até mesmo alterar as configurações de dispositivos.É fácil de usar, mesmo para aqueles que
+nunca usaram um gerenciador de Bluetooth antes. Ele é útil para quem prefere gerenciar seus dispositivos sem precisar usar uma interface gráfica.

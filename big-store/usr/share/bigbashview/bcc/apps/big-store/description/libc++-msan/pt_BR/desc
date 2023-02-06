@@ -1,0 +1,3 @@
+Esta é uma biblioteca de padrão C++ LLVM com suporte a sanitizadores de memória. Isso significa que ele
+tem ferramentas adicionais para detectar problemas de memória, como vazamentos ou acesso a memória inválida, enquanto o programa está sendo executado. Isso pode ajudar a identificar e
+corrigir problemas de segurança e estabilidade no código.libc++-msan é uma opção importante para desenvolvedores de software que desejam garantir a qualidade e segurança do seu código. 

@@ -1,0 +1,3 @@
+Com o pigpio, é possível controlar os pinos de entrada e saída (GPIOs) de um Raspberry Pi de forma fácil e eficiente. Ele
+é uma biblioteca escrita em C e Python, além de um serviço do sistema, o que permite que você gerencie os pinos diretamente no sistema operacional. Com ela, é possível criar projetos mais
+avançados e interativos usando o Raspberry Pi.

@@ -1,0 +1,3 @@
+O módulo mbstring é uma extensão para o PHP 8.1 que adiciona suporte a strings multibyte. Isso significa que ele permite
+trabalhar com caracteres de vários bytes, como os usados em alguns idiomas asiáticos, de forma mais eficiente.Este módulo é útil para quem trabalha com conteúdo multilíngue ou precisa lidar
+com caracteres especiais em seus projetos PHP.

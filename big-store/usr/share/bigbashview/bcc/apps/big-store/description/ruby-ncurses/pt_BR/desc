@@ -1,0 +1,1 @@
+O ruby-ncurses é um módulo para aplicativos de console de texto interativo. Ele fornece uma interface  para o pacote ncurses, que permite a criação de aplicativos de console com interface gráfica do usuário (GUI) em linha de comando. Com o ruby-ncurses, é possível criar menus, caixas de diálogo, janelas e outros elementos de interface gráfica em aplicativos de console. 

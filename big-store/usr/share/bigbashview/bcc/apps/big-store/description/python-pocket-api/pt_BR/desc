@@ -1,0 +1,3 @@
+Este programa é um 'wrapper' da API do Pocket, criado em Python. Ele permite que você acesse e gerencie sua lista de
+conteúdos salvos no Pocket de forma fácil e rápida, usando comandos em Python. Ele segue a versão V3 da API do Pocket, então você pode fazer coisas como adicionar, remover e buscar itens na
+sua lista. É uma ótima ferramenta para quem usa o Pocket frequentemente e deseja automatizar algumas tarefas.

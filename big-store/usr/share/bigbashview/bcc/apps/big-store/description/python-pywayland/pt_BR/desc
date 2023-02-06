@@ -1,0 +1,1 @@
+Este programa fornece ligações para a biblioteca libwayland em Python. Isso permite que os desenvolvedores escrevam aplicativos usando a linguagem Python que se comunicam com o gerenciador de janelas Wayland. Isso pode ser útil para criar aplicativos que se integram de maneira eficiente e consistente com o ambiente de exibição do usuário. 

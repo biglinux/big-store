@@ -1,0 +1,2 @@
+Este é um módulo para o PHP que adiciona suporte à biblioteca Tidy. Com ele, é possível limpar e formatar código HTML, XML e XHTML de
+forma automatizada, corrigindo erros e melhorando a estrutura do código. Ele é compatível com a versão 5.6 do PHP e é fácil de usar.

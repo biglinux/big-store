@@ -1,0 +1,1 @@
+docker-machine é uma ferramenta que facilita a criação, uso e gerenciamento de máquinas virtuais que rodam Docker. Com ela, é possível criar uma nova máquina virtual em poucos segundos e, em seguida, usá-la para executar vários contêineres. Ele funciona no Windows, Mac e Linux e é ótimo para ambientes de desenvolvimento, teste e produção. 

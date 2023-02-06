@@ -1,0 +1,1 @@
+A biblioteca python-agate-dbf permite a leitura de arquivos dbf usando a biblioteca agate.  Ela adiciona a capacidade de ler arquivos dbf à biblioteca agate, permitindo maior flexibilidade ao trabalhar com dados. Essa biblioteca é útil para qualquer pessoa que trabalhe com arquivos dbf e precise usar a biblioteca agate para análise de dados. 

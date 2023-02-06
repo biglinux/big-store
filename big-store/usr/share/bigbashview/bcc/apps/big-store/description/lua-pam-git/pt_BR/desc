@@ -1,0 +1,4 @@
+Este é um módulo para o programa LUA que permite que você use a biblioteca PAM (Pluggable Authentication Modules). Isso significa que
+você pode adicionar funcionalidades de autenticação ao seu programa LUA de forma fácil e segura. Por exemplo, você pode usar esse módulo para verificar se um usuário está autenticado no
+sistema antes de permitir que ele acesse certas funcionalidades do seu programa.Esse módulo foi desenvolvido usando o repositório git, então você pode facilmente atualizá-lo quando novas
+versões forem lançadas.

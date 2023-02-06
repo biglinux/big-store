@@ -1,0 +1,1 @@
+haskell-iospec é uma biblioteca para programação em Haskell que especifica a monad IO, que é usada para fazer operações de entrada e saída, como ler e escrever arquivos, interagir com usuários e acessar rede. Ela fornece uma forma segura e controlada de lidar com essas operações, garantindo que efeitos colaterais sejam gerenciados de maneira adequada. 

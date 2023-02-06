@@ -1,0 +1,2 @@
+Este programa permite sincronizar seus dados do Firefox, como favoritos, histórico e senhas, entre dispositivos.
+Ele utiliza um servidor de token embutido para rodar um servidor de sincronização do Firefox hospedado por você mesmo.

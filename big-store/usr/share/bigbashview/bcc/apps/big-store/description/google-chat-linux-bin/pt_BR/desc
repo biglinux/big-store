@@ -1,0 +1,4 @@
+Este é um cliente de bate-papo não oficial para o Google Chat feito com o Electron. Ele permite que você use o
+Google Chat no seu computador Linux, sem precisar abrir um navegador. Ele já vem com o Electron incluso, então você não precisa se preocupar em instalá-lo separadamente. Com este programa, 
+você pode conversar com seus amigos e colegas de trabalho diretamente do seu desktop, sem precisar alternar entre abas do navegador. Ele também oferece suporte para notificações push, então
+você nunca perderá uma mensagem importante.

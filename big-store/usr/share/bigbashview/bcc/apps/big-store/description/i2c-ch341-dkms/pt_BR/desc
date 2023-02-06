@@ -1,0 +1,3 @@
+Este programa é um driver para o adaptador USB-I2C CH341. Ele permite que você use dispositivos que possuem a interface
+I2C através de uma conexão USB. Isso é útil quando você precisa conectar dispositivos sem fio ou outros dispositivos de pequeno porte ao seu computador.Com este driver instalado, você pode 
+facilmente comunicar-se com dispositivos I2C usando qualquer software que suporte essa interface.

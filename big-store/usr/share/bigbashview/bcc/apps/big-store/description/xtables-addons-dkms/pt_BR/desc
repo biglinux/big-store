@@ -1,0 +1,3 @@
+Esse programa é um conjunto de extensões adicionais para o filtro de pacotes Xtables presente no kernel Linux. Ele é
+instalado usando o DKMS, o que significa que ele é automaticamente compilado e instalado quando o kernel é atualizado.Algumas das extensões incluídas são suporte para protocolos de rede
+adicionais, como SCTP e DCCP, e também suporte para matchs e targets adicionais.

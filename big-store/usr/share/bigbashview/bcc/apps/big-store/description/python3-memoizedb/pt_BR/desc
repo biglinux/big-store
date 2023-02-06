@@ -1,0 +1,3 @@
+Este é um programa chamado Memoizedb, ele é feito para ajudar a guardar informações em um banco de dados. Ele usa o sqlite
+para guardar os dados de forma rápida e fácil, assim a próxima vez que você precisar dessa informação, ele já estará lá, prontinho para ser usado. É uma ótima ferramenta para ajudar a
+tornar seus programas mais rápidos e eficientes. 

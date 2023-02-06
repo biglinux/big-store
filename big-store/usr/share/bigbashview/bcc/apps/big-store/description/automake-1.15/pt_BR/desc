@@ -1,0 +1,4 @@
+Automake é uma ferramenta da GNU que ajuda a criar arquivos Makefile de forma automática. Ele é útil para
+projetos de software que precisam ser compilados em diferentes sistemas operacionais e plataformas. Com Automake, é possível escrever regras de compilação uma vez e usá-las em diferentes
+ambientes sem precisar se preocupar com detalhes específicos de cada plataforma. Ele é compatível com o Autoconf, outra ferramenta da GNU, que ajuda a configurar projetos de software antes 
+da compilação.

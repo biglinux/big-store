@@ -1,0 +1,4 @@
+Este é um programa que ajuda você a usar o Git com mais facilidade. Ele se chama git-credential-kwallet e foi
+feito especialmente para funcionar com o KWallet. O KWallet é uma ferramenta que guarda suas informações de login de forma segura e organizada, e o git-credential-kwallet ajuda a integrar
+essas informações com o Git, tornando mais fácil para você trabalhar com seus projetos. Se você usa o Git e o KWallet, este programa é uma ótima opção para tornar sua vida mais fácil e mais
+organizada. 

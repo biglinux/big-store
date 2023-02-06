@@ -1,0 +1,1 @@
+Esse programa adiciona falhas de teste se avisos forem capturados. Ele é escrito em Perl e tem como objetivo garantir que esses avisos sejam tratados corretamente e não sejam ignorados.Isso é importante porque avisos podem indicar problemas no código e, se não forem tratados, podem levar  a bugs ou erros no futuro. 

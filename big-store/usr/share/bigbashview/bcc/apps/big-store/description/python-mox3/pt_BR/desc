@@ -1,0 +1,1 @@
+python-mox3 é um framework para criar objetos simulados (mock objects) em Python. Ele permite que você crie facilmente objetos simulados para testar suas aplicações, sem precisar depender do comportamento real de outras partes do seu sistema. Isso é útil para testar comportamentos isolados de sua aplicação e garantir que ela esteja funcionando corretamente. 

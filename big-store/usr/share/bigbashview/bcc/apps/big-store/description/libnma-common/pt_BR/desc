@@ -1,0 +1,1 @@
+A biblioteca libnma-common é uma biblioteca comum utilizada pelo cliente gráfico do NetworkManager. Ela fornece arquivos e recursos compartilhados que são necessários para o funcionamento do cliente. Com ela, é possível gerenciar e configurar facilmente sua rede sem precisar digitar comandos no terminal. 

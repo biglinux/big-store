@@ -1,0 +1,2 @@
+Este programa permite a automação da instalação do kernel utilizando o kernel-install com o dracut. Isso facilita o
+processo de instalação e garante que o sistema inicialize corretamente.

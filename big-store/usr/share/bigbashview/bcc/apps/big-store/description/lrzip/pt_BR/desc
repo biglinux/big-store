@@ -1,0 +1,1 @@
+lrzip é um programa de compressão de arquivos que utiliza vários threads para aumentar a velocidade de compressão. Ele suporta vários algoritmos de compressão, como rzip, lzma, lzo e zpaq, e pode ser usado para compactar arquivos de qualquer tamanho. Ele também possui recursos adicionais, como a capacidade de proteger arquivos com senha e de reparar arquivos danificados. 

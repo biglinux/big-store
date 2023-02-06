@@ -1,0 +1,2 @@
+Ananicy é um programa escrito em C++ que foi redesenhado para usar menos recursos de CPU e memória. Ele é
+específico para sistemas que não utilizam o systemd, e ajuda a gerenciar o uso de recursos como CPU e memória por diferentes processos no sistema. 

@@ -1,0 +1,3 @@
+Os utilitários NVIDIA foram patchados para suportar vGPU, incluindo desbloqueio com Rust e saída de DRM no host. Estes 
+utilitários são essenciais para o funcionamento correto dos drivers NVIDIA em sistemas com GPU virtualizado. Com eles, é possível aproveitar todo o desempenho das GPUs NVIDIA em máquinas
+virtuais.

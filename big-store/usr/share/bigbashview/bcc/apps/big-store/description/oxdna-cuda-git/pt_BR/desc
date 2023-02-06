@@ -1,0 +1,3 @@
+Este programa é um simulador de DNA, RNA e outros tipos de moléculas biológicas. Ele foi desenvolvido a partir do
+trabalho de lorenzo-rovigatti/oxDNA e adicionou suporte CUDA, o que permite que ele rode mais rápido em computadores equipados com placas gráficas NVIDIA. Além disso, ele possui ferramentas
+de análise para ajudar a interpretar os resultados da simulação.

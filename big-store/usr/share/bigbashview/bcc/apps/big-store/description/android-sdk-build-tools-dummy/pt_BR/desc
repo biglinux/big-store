@@ -1,0 +1,3 @@
+As ferramentas de construção para o Google Android SDK (aapt, aidl, dexdump, dx, llvm-rs-cc) são essenciais para
+desenvolver aplicativos para dispositivos Android. Esse pacote é chamado de 'dummy' porque ele não contém nenhum arquivo real, mas serve como uma referência para outros pacotes que precisam
+dessas ferramentas.

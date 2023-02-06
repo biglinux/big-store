@@ -1,0 +1,1 @@
+umockdev é uma biblioteca e conjunto de ferramentas para gravar e reproduzir chamadas de sistema que programas fazem para dispositivos de hardware. Pode ser usado para criar ambientes de teste realistas, depurar e consertar problemas relacionados a hardware e detectar regressões. A biblioteca é escrita em C e pode ser usada em programas em C e Python. 

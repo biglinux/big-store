@@ -1,0 +1,1 @@
+Este programa é chamado de ruby-tilt e ele funciona como uma interface genérica para vários motores de template Ruby. Isso significa que ele permite que você use diferentes tipos de templates, como ERB e Haml, com facilidade. Ele é útil para quem precisa trabalhar com vários tipos de templates em um projeto Ruby. 

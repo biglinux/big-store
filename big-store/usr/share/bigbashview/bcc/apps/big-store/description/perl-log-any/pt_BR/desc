@@ -1,0 +1,1 @@
+O perl-log-any é um pacote para o Perl que permite que você use diferentes backends de log (como syslog, file, etc) de forma consistente. Ele também permite que você adicione listeners (ou seja, outras rotinas que serão chamadas quando um log é adicionado) de forma simples e consistente. 

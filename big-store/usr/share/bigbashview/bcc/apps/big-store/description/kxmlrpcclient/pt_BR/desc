@@ -1,0 +1,3 @@
+Esta é uma biblioteca cliente para comunicação com servidores que usam o protocolo XML-RPC. Ela permite que você envie requisições
+e receba respostas de um servidor de maneira fácil e organizada.Com ela, é possível acessar recursos remotos, como banco de dados e arquivos, através de uma única interface de programação. 
+Isso é útil para a criação de aplicativos distribuídos e para integração entre sistemas.

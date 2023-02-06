@@ -1,0 +1,2 @@
+Este é um sistema operacional baseado no Linux, projetado especialmente para jogos. Ele inclui o kernel do Linux e módulos
+adicionais. O escalonador padrão é o BFQ (um escalonador bastante básico, mas que pode ser atualizado com patches quando necessário).

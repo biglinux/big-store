@@ -1,0 +1,2 @@
+'cp' e 'mv' são utilitários comuns usados para copiar e mover arquivos. Esses utilitários foram patchados para
+incluir uma barra de progresso, o que mostra o quanto do arquivo já foi copiado ou movido.Isso permite que você veja o progresso da operação e saiba quando ela será concluída.

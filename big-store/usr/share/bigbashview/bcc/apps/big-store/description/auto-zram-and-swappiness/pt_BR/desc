@@ -1,0 +1,1 @@
+Este programa utiliza o arquivo sysctl para ajustar configurações avançadas de rede no sistema, como auto-zram-and-swappiness, melhorando assim a performance e estabilidade da conexão de rede. 

@@ -1,0 +1,1 @@
+O talloc é um alocador de memória hierárquico que permite a criação de objetos com destrutores. Isso significa que quando um objeto é liberado, todos os seus filhos também são liberados automaticamente. Isso facilita a gestão de memória em aplicações complexas e ajuda a evitar vazamentos de memória. 

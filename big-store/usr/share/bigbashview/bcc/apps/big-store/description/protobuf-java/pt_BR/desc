@@ -1,0 +1,4 @@
+O protobuf-java é um utilitário de formato de intercâmbio de dados criado pelo Google. Ele
+permite que você converta dados em um formato compacto e fácil de transmitir, para que eles possam ser compartilhados entre aplicativos. Este utilitário está disponível como uma API Java, o
+que significa que você pode integrá-lo facilmente a aplicativos Java. Se você precisa compartilhar dados entre aplicativos, o protobuf-java é uma opção poderosa e confiável. Além disso, ele
+é compatível com vários sistemas operacionais e linguagens de programação, o que significa que você pode usá-lo em uma ampla gama de projetos. 

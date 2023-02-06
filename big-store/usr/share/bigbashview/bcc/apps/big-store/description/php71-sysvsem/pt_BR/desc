@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.1 que permite acessar recursos de semáforos SysV. Ele é útil para garantir que vários processos
+possam acessar informações de forma segura e controlada, evitando conflitos e erros. Com este módulo, é possível criar semáforos, controlar o acesso a recursos compartilhados e liberar
+esses recursos quando não forem mais necessários.É importante lembrar que este módulo só é compatível com sistemas operacionais que suportam semáforos SysV, e que ele pode ser instalado
+como uma extensão adicional do PHP.

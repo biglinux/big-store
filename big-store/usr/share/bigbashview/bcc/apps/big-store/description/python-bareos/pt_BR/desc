@@ -1,0 +1,3 @@
+O Bareos é um sistema de backup e arquivamento de dados de código aberto. O python-bareos é um módulo em
+Python que permite acessar esse sistema de backup. Ele é útil para garantir a segurança dos seus arquivos importantes e pode ser usado tanto em ambientes pessoais quanto em empresas. Com
+ele, você pode fazer cópias de segurança dos seus dados e restaurá-las caso necessário.

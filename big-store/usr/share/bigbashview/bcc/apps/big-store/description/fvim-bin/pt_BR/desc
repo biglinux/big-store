@@ -1,0 +1,3 @@
+Este programa é uma interface para o editor de código Neovim, desenvolvida com F# e Avalonia. Ele é projetado para
+funcionar em várias plataformas, o que significa que você pode usá-lo em seu computador Windows, Mac ou Linux.Além disso, ele foi construído com Avalonia, uma biblioteca de interface do
+usuário cross-platform, o que significa que ele tem um design bonito e fácil de usar em qualquer dispositivo. 

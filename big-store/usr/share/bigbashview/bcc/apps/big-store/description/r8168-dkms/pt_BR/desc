@@ -1,0 +1,2 @@
+ Este é um módulo para usar as placas de rede Realtek 8168. Ele é uma versão DKMS, o que significa que é feito para funcionar com
+diferentes versões do sistema operacional. Ele é usado para fazer a comunicação entre a placa de rede e o computador. 

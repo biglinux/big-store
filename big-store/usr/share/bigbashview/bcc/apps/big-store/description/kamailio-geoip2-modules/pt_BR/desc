@@ -1,0 +1,4 @@
+O módulo GeoIP2 para Kamailio permite ao usuário identificar a localização geográfica dos usuários, baseado em sua IP. Isso é
+útil para aplicativos que precisam saber de onde os usuários estão se conectando, como, por exemplo, para direcionar chamadas telefônicas para o escritório mais próximo. Além disso, também 
+pode ser usado para bloquear acesso a conteúdo específico de acordo com a localização do usuário.Este módulo utiliza o banco de dados MaxMind GeoIP2 para identificar a localização
+geográfica dos usuários e é compatível com todas as versões do Kamailio.

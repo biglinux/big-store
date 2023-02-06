@@ -1,0 +1,1 @@
+O pacote python-ipython-genutils contém utilidades genéricas que são úteis para os desenvolvedores do IPython. Ele inclui várias funções e classes como traçar módulos, gerar exceções, gerar código de saída, e muito mais. Esse pacote é usado internamente pelo IPython e é fornecido para uso geral. 

@@ -1,0 +1,1 @@
+Este é um módulo do kernel Linux que permite chamadas a métodos ACPI através do caminho /proc/acpi/call. Ele foi desenvolvido especificamente para a versão 4.19 do kernel Linux. 

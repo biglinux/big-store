@@ -1,0 +1,3 @@
+Este módulo fornece suporte para manipulação de informações de arquivos, como tipos MIME e extensões, no PHP
+7.1. Ele permite que você verifique e modifique essas informações sem a necessidade de usar comandos do sistema operacional. Ele também adiciona a capacidade de ler e escrever informações
+de arquivos em formatos específicos, como a marcação de arquivos de imagem. Isso pode ser útil para aplicativos web que lidam com uploads de arquivos.

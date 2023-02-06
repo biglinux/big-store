@@ -1,0 +1,1 @@
+Essa é a documentação da biblioteca de plugins GObject, chamada libpeas. Ela é usada para adicionar novas funcionalidades a aplicativos sem precisar fazer alterações no código-fonte original. Isso é útil para desenvolvedores que querem criar extensões para programas existentes, sem precisar fazer modificações permanentes no código. 

@@ -1,0 +1,2 @@
+ O GNU Compiler Collection é um conjunto de compiladores para diferentes linguagens de programação. Este compilador
+específico é usado para construir a primeira etapa da ferramenta de construção (toolchain) para o sistema Mipsel-PS2-ELF. 

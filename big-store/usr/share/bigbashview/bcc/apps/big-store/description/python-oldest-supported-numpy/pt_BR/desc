@@ -1,0 +1,3 @@
+Este é um pacote meta que fornece a versão mais antiga do Numpy suportada para a versão do Python especificada. Ele é útil
+para garantir a compatibilidade com outros pacotes ou sistemas que possam exigir uma versão específica do Numpy. O pacote é projetado para ser fácil de instalar e usar, e fornece acesso às 
+últimas funcionalidades e melhorias de desempenho disponíveis na versão mais antiga do Numpy.

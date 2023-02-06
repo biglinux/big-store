@@ -1,0 +1,5 @@
+Com esse programa, você pode escrever seu código Arduino com mais facilidade e rapidez. Ele se baseia em um recurso
+chamado Clangd, que ajuda a completar automaticamente o código que você está digitando. Isso significa que você não precisa se preocupar em digitar todos os nomes de funções ou variáveis
+manualmente, o programa já faz isso por você. Além disso, o programa também ajuda a encontrar erros no seu código, o que significa que você pode corrigi-los antes de carregar o código para 
+o Arduino. Isso economiza tempo e ajuda a evitar problemas desnecessários. Em resumo, esse programa é uma excelente ferramenta para quem deseja escrever código Arduino de forma mais
+eficiente e sem erros.

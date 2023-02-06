@@ -1,0 +1,1 @@
+pesign é uma ferramenta que permite assinar binários PE-COFF no Linux. Isso é útil para garantir que os  arquivos executáveis foram criados por fontes confiáveis e não foram alterados. Ele usa a infraestrutura de chaves públicas do sistema para assinar e verificar as assinaturas dos binários. 

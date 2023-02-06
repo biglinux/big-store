@@ -1,0 +1,3 @@
+Este programa ajuda a gerenciar as dependências do seu projeto python. Ele é capaz de ler as dependências especificadas 
+em seu arquivo 'requirements.txt' e gerenciá-las de forma eficiente. Além disso, ele também pode ajudar a encontrar e resolver problemas de dependências que possam surgir.É uma ferramenta
+útil para qualquer desenvolvedor python que deseja manter seu projeto organizado e funcionando corretamente. 

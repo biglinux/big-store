@@ -1,0 +1,4 @@
+Este programa é chamado de python-bdfr e é usado para baixar vários posts e comentários do Reddit de uma só vez. Ele é útil para 
+quem quer salvar uma grande quantidade de conteúdo do Reddit ou para quem quer estudar como as pessoas estão discutindo um determinado assunto. Com o python-bdfr, você pode escolher uma
+sub-reddit específica ou uma palavra-chave para buscar, e o programa fará o download de todos os resultados correspondentes. Ele também permite que você escolha o número de resultados que
+deseja baixar e onde deseja salvar os arquivos.

@@ -1,0 +1,1 @@
+libpipeline é uma biblioteca em C que permite manipular pipelines  de subprocessos de maneira flexível e conveniente. Ela oferece uma variedade de funções para criar, gerenciar e controlar os subprocessos em um pipeline, permitindo que você construa aplicativos mais avançados e sofisticados. 

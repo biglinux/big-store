@@ -1,0 +1,1 @@
+Este programa é um analisador léxico completo para a linguagem de programação Haskell 98. Ele é projetado para dividir o código em unidades menores chamadas de tokens, o que é essencial para o processo de compilação e interpretação de código. 

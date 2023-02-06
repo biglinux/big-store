@@ -1,0 +1,3 @@
+ Parfive é um módulo Python que facilita o download de arquivos grandes. Ele divide o arquivo em várias partes e as baixa ao mesmo
+tempo, tornando o processo mais rápido. Além disso, ele também fornece recursos para retomar downloads interrompidos e verificar a integridade dos arquivos baixados. Este é o guia de
+documentação para o uso do Parfive. 

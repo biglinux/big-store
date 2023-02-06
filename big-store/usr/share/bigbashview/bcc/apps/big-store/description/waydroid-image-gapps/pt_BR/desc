@@ -1,0 +1,3 @@
+Com o waydroid-image-gapps, você pode iniciar um sistema Android completo em um sistema Linux
+regular. Ele utiliza um método baseado em containers para fazer isso, incluindo a imagem do Android e o GAPPS (pacote de aplicativos do Google). Isso permite que você execute aplicativos e 
+jogos Android no seu computador Linux sem precisar de um dispositivo Android específico. 

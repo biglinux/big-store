@@ -1,0 +1,4 @@
+Este é um módulo Perl chamado WWW::Curl que permite fazer transferências de dados na web de maneira fácil e
+rápida. Ele é distribuído através do CPAN, o que significa que você pode instalá-lo facilmente em seu sistema para usar em seus projetos. O módulo é muito útil para quem precisa fazer
+requisições HTTP e HTTPS para outros sites e recuperar informações a partir da web, como dados de preços, notícias, entre outros. Se você é um desenvolvedor Perl, definitivamente deve dar
+uma olhada neste módulo e ver como ele pode ajudá-lo em seus projetos.

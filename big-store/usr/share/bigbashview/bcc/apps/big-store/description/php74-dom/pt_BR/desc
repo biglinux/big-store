@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.4 que adiciona recursos para trabalhar com Document Object Model (DOM). O DOM é uma interface de
+programação de aplicativos (API) para HTML e XML, que permite que você manipule e navegue por elementos e atributos de um documento. Com este módulo, você pode criar, ler, modificar e
+excluir elementos e atributos de um documento HTML ou XML de maneira fácil e eficiente.Algumas das principais funcionalidades do módulo DOM incluem:Criação de novos elementos e
+atributosAcesso e modificação de elementos e atributos existentesBusca e navegação por elementos e atributosManipulação de eventos

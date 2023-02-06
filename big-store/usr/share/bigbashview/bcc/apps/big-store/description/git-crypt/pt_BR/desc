@@ -1,0 +1,1 @@
+git-crypt é um ferramenta que permite criptografar arquivos secretamente dentro de um repositório Git. Isso é útil quando você precisa compartilhar um repositório com outras pessoas, mas não deseja compartilhar arquivos confidenciais. Com git-crypt, esses arquivos confidenciais ficam criptografados e só podem ser decriptados por pessoas com acesso à chave de criptografia. 

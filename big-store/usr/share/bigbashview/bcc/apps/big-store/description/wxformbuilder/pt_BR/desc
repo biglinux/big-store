@@ -1,0 +1,4 @@
+Esta é uma ferramenta chamada wxformbuilder que ajuda a criar interfaces gráficas para programas usando a biblioteca wxWidgets.
+Ele é chamado de RAD (Rapid Application Development) porque permite criar interfaces de usuário rapidamente e facilmente.Com ele, você pode arrastar e soltar elementos de interface, como
+botões e caixas de texto, e personalizar suas propriedades sem escrever código. Isso torna o processo de criação de interfaces muito mais fácil e rápido do que escrevendo o código
+manualmente.

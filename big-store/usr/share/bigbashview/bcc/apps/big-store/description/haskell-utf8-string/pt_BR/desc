@@ -1,0 +1,1 @@
+Este programa oferece suporte para a leitura e escrita de strings no formato UTF8. Isso significa que ele é capaz de lidar com caracteres especiais e acentos de diferentes idiomas, garantindo a compatibilidade com diferentes sistemas de codificação de caracteres. Ele é escrito em Haskell, uma linguagem de programação funcional, e é projetado para ser fácil de usar e eficiente. 

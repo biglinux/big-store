@@ -1,0 +1,2 @@
+Este programa é um mixer de áudio simples de múltiplos canais. Ele foi compilado com o mingw-w64, o que o torna compatível com
+sistemas Windows. Com ele, você pode misturar diversas faixas de áudio juntas, ajustando o volume e outros parâmetros para criar a trilha perfeita para sua música, jogo ou vídeo. 

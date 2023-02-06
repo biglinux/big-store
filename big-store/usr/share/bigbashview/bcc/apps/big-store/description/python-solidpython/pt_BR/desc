@@ -1,0 +1,1 @@
+python-solidpython é um pacote python que permite criar modelos 3D usando código python. Ele compila o código em OpenSCAD e gera o modelo 3D. Isso facilita a criação de modelos complexos e automatiza tarefas repetitivas. 

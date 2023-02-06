@@ -1,0 +1,3 @@
+Este programa é uma integração do PHP 7.1 com o servidor Apache. Ele permite que você execute scripts PHP no seu servidor Apache,
+tornando possível criar páginas dinâmicas usando esse popular linguagem de programação.É importante notar que é necessário ter o Apache e o PHP 7.1 instalados previamente em sua máquina
+para que essa integração funcione corretamente.

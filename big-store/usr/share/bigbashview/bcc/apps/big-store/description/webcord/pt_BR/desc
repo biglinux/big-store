@@ -1,0 +1,4 @@
+Este programa é um cliente de Discord e Fosscord feito com a Electron API. Isso significa que ele é
+construído usando tecnologia da web, mas pode ser usado como um aplicativo de desktop. Ele permite que você faça login e use o Discord e o Fosscord como se estivesse usando o aplicativo
+oficial, mas com algumas funcionalidades adicionais. É fácil de usar e é uma ótima opção para aqueles que preferem usar o Discord e o Fosscord em um aplicativo de desktop ao invés de uma
+janela do navegador.

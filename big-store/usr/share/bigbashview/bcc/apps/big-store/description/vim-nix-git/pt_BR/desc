@@ -1,0 +1,3 @@
+O Vim é um editor de texto muito popular entre programadores. Agora, com o suporte para Nix, é possível gerenciar facilmente as
+dependências do seu projeto dentro do Vim.Isso significa que você pode instalar e gerenciar pacotes de forma mais fácil e rápida, sem precisar sair do seu editor de texto.Além disso, o
+suporte para Git também está incluído, o que permite que você gerencie facilmente seus repositórios diretamente dentro do Vim.

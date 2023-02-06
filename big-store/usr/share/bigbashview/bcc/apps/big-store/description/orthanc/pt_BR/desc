@@ -1,0 +1,4 @@
+Orthanc é um servidor DICOM de código aberto e leve. Ele permite armazenar, visualizar e gerenciar imagens
+médicas em um formato padrão chamado DICOM. Ele é fácil de instalar e configurar, e pode ser usado tanto em ambientes pequenos quanto em grandes redes de hospitais.Com o Orthanc, é possível
+compartilhar imagens com outros profissionais de saúde de forma segura e controlada. Ele também fornece ferramentas avançadas para gerenciamento de arquivos, como busca e recuperação de
+imagens, e suporte para plugins de terceiros.

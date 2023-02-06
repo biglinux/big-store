@@ -1,0 +1,1 @@
+Este módulo fornece uma camada adicional sobre o regex-tdfa, permitindo que ele seja utilizado como uma alternativa ao Text.Regex. Ele é compatível com o Haskell e facilita a utilização de expressões regulares em seus projetos. 

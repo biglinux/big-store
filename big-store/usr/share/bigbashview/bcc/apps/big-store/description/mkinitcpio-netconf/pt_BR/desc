@@ -1,0 +1,1 @@
+mkinitcpio-netconf é um gancho para a ferramenta mkinitcpio do Archlinux que permite configurar a rede cedo. Ele foi projetado para funcionar com uma variedade de interfaces de rede e pode ser usado para configurar endereços IP DHCP ou estáticos. Ele também pode configurar conexões sem fio usando o wpa_supplicant. 

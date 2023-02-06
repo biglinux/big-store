@@ -1,0 +1,1 @@
+O pacote ruby-rspec-support é utilizado como base para outros pacotes RSpec. Ele não deve ser usado diretamente, mas sim como dependência para outros pacotes que precisem dele. 

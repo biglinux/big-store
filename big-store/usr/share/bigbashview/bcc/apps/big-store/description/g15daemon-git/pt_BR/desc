@@ -1,0 +1,2 @@
+Este programa é conhecido como g15daemon-git e ele serve para gerenciar os botões G15. Com ele, é possível usar os botões e
+desenhar na tela LCD do G15. Ele funciona como um daemon, ou seja, um programa que fica rodando em segundo plano e ajuda outros programas a funcionar corretamente.

@@ -1,0 +1,3 @@
+Este programa é semelhante ao comando 'less' que é usado para visualizar arquivos de texto no terminal, mas específico para
+arquivos em formato Markdown. Ele permite que você visualize arquivos Markdown de forma fácil e rápida, sem precisar abrir em um editor de texto ou navegador.É escrito em Ruby, uma
+linguagem de programação popular, e é fácil de usar. Basta digitar 'ruby-mdless nome_do_arquivo.md' no terminal e o arquivo será aberto para visualização.

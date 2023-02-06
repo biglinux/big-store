@@ -1,0 +1,2 @@
+Esse é um sanitizador HTML para o Python baseado em lista de permissões e com opiniões bem definidas. Ele pode ser usado tanto
+para fontes não confiáveis quanto para fontes confiáveis.

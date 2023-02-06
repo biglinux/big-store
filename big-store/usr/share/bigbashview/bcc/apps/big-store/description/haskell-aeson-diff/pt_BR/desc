@@ -1,0 +1,1 @@
+haskell-aeson-diff é um programa que permite extrair e aplicar patchs em documentos JSON. Ele é escrito em Haskell e utiliza a biblioteca aeson para manipular os documentos JSON. Com este programa, é possível fazer atualizações precisas e eficientes em grandes arquivos JSON, sem precisar reescrevê-los inteiramente. 

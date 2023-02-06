@@ -1,0 +1,4 @@
+ flux-bin é uma solução de entrega contínua aberta e extensível para Kubernetes. Com ele, você pode automatizar o
+processo de implantação e garantir que suas aplicações estejam sempre atualizadas e funcionando corretamente. Além disso, flux-bin permite que você personalize sua pipeline de entrega de
+acordo com suas necessidades específicas.Com flux-bin, você pode gerenciar facilmente a entrega contínua em ambientes Kubernetes, aumentando a confiabilidade e a eficiência do seu fluxo
+de trabalho de desenvolvimento. 

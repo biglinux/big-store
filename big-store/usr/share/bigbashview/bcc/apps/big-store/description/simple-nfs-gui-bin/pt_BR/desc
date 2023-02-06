@@ -1,0 +1,3 @@
+Este programa é uma interface gráfica para o sistema de arquivos NFS no Linux. Ele permite que você compartilhe
+arquivos facilmente com outras máquinas na sua rede. É simples de usar e possui uma interface amigável.Com ele, você pode definir quais pastas deseja compartilhar e configurar as permissões
+de acesso para outros usuários. Além disso, também é possível acessar arquivos compartilhados de outras máquinas na sua rede.

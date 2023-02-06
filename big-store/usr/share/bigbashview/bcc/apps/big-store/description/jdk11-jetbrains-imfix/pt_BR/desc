@@ -1,0 +1,3 @@
+Este é um kit de desenvolvimento Java 11 específico da JetBrains, com uma correção adicional que permite que a janela do IME
+(Input Method Editor) siga o cursor enquanto você digita. Isso pode ser útil para quem precisa digitar caracteres especiais ou em outros idiomas. Este kit é projetado para ser usado com o
+software da JetBrains, como o IntelliJ IDEA ou o PyCharm, mas também pode ser usado com outros programas de desenvolvimento que suportem Java 11.

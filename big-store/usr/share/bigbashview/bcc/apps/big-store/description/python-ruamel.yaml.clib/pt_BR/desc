@@ -1,0 +1,1 @@
+Este é um programa que foi criado com base em libyaml e é uma versão em C do leitor, analisador  e emissor de arquivos no formato ruamel.yaml. Ele é útil para trabalhar com esses tipos de arquivos em projetos escritos em C ou para quem precisa de uma versão mais rápida e eficiente do que a versão em Python. 

@@ -1,0 +1,4 @@
+Este é um programa que ajuda a gerenciar arquivos e pastas em seu computador
+de acordo com as especificações XDG. É especialmente útil se você estiver usando o sistema operacional Python 2 e precisar garantir que seus arquivos estejam organizados de maneira
+eficiente. Com a biblioteca de suporte, você pode ter certeza de que seus arquivos estarão em sua devida pasta, sem se preocupar em perdê-los ou ficar procurando por horas. Além disso, ela 
+segue as diretrizes do freedesktop.org, garantindo que sua organização de arquivos seja padronizada e fácil de usar. 

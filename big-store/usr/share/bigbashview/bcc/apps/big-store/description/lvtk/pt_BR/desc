@@ -1,0 +1,1 @@
+lvtk é um conjunto de bibliotecas escritas em C++ que envolvem a API e extensões do LV2. Isso permite que os desenvolvedores escrevam plugins de áudio e instrumentos virtuais usando a linguagem de programação C++, em vez de trabalhar diretamente com a API do LV2 escrita em C. Isso torna o desenvolvimento de plugins mais fácil e acessível para os desenvolvedores C++. 

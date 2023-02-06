@@ -1,0 +1,3 @@
+ Este é um programa que permite que você use a linguagem de programação Agda com o Haskell. Ele segue o protocolo
+Language Server, que é uma forma padrão de fazer com que diferentes ferramentas de programação trabalhem juntas.Com este programa, você pode escrever códigos em Agda e usar o Haskell
+para ajudar a organizá-los e encontrar erros. Ele também oferece recursos como sugestões de código e destaques de sintaxe. 

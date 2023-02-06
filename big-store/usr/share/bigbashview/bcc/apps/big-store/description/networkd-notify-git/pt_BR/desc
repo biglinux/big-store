@@ -1,0 +1,3 @@
+Este programa adiciona a integração de notificações de desktop para o systemd-networkd. Isso significa que, quando as
+configurações de rede mudam, você receberá uma notificação no seu desktop, para que você saiba o que está acontecendo. Isso é útil para garantir que você esteja sempre ciente das mudanças
+em sua conexão de rede.Além disso, o programa é baseado no networkd-notify-git, que é um projeto de código aberto e altamente personalizável.

@@ -1,0 +1,4 @@
+SQLPlus é um utilitário de linha de comando para gerenciar e trabalhar com bancos de dados Oracle. Ele permite aos
+usuários criar e executar comandos SQL, gerenciar tabelas e outros objetos do banco de dados, além de exibir os resultados das consultas.O Oracle Instant Client é uma versão leve do
+Oracle Database Client, que inclui somente os arquivos necessários para conectar-se a um banco de dados Oracle. Ao combinar o SQL*Plus com o Instant Client, é possível gerenciar bancos de
+dados Oracle sem precisar instalar todo o software do Oracle Database. 

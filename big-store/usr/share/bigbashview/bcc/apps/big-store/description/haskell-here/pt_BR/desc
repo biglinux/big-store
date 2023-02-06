@@ -1,0 +1,1 @@
+Usando documentação e strings interpoladas com quasiquotation é uma forma de escrever textos dentro do seu código de forma mais organizada e legível. Isso é especialmente útil quando você precisa escrever muito texto dentro do seu código, como documentação ou mensagens de erro. Além disso, usar quasiquotation permite incluir variáveis dentro do seu texto de forma fácil e rápida. 

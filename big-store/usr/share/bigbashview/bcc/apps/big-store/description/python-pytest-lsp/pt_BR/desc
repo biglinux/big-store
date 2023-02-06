@@ -1,0 +1,1 @@
+Este é um plugin para o Pytest que é usado para fazer testes de final a final em servidores de linguagem. Ele permite que você teste se o seu servidor de linguagem está funcionando corretamente e respondendo aos comandos esperados. Este plugin é específico para o Python e é chamado de python-pytest-lsp. 

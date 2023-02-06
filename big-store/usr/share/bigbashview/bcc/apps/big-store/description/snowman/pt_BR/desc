@@ -1,0 +1,3 @@
+ Esse programa é capaz de descompilar código nativo para C/C++. Ele suporta as arquiteturas x86, amd64 e arm. Isso 
+significa que ele pode transformar o código que foi compilado para funcionar em um determinado processador ou sistema operacional de volta para o código fonte original escrito em C/C++.
+Isso pode ser útil para entender como um programa funciona, encontrar erros ou até mesmo modificá-lo. 

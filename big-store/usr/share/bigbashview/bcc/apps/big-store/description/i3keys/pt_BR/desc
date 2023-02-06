@@ -1,0 +1,3 @@
+Este programa é útil para quem usa i3wm ou Sway como gerenciador de janelas. Ele fornece uma lista de todas as teclas 
+configuradas no arquivo de configuração, mostrando quais estão sendo usadas e quais não estão sendo usadas. Isso pode ser útil para limpar a configuração e deixá-la mais organizada. Além
+disso, o programa também permite verificar se há teclas duplicadas ou conflitos de atribuição, o que pode causar problemas ao usar o gerenciador de janelas.

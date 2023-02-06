@@ -1,0 +1,2 @@
+Este programa é usado para verificar a disponibilidade de serviços remotos. Ele envia um 'ping' para os serviços e registra 
+os resultados no Elasticsearch ou envia para o Logstash. Assim, você pode verificar se os serviços estão funcionando corretamente e tomar medidas rapidamente caso algo esteja errado.

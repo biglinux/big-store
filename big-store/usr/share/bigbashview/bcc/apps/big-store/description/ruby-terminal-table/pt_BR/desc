@@ -1,0 +1,4 @@
+Esse programa é uma biblioteca simples, mas com muitas funcionalidades, para a geração de tabelas no terminal. Ele 
+foi escrito em Ruby, uma linguagem de programação popular, e é ideal para quem precisa exibir dados em uma tabela no terminal de forma fácil e rápida. Com essa biblioteca, você pode criar
+tabelas com várias colunas e linhas, e personalizar a aparência da tabela de acordo com suas necessidades. Ele também tem suporte para vários tipos de dados, como números, texto e até mesmo
+imagens. Se você precisa exibir dados em uma tabela no terminal, essa biblioteca é a escolha certa para você.

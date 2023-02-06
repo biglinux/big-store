@@ -1,0 +1,3 @@
+O Bucardo é um sistema de replicação assíncrona para o banco de dados PostgreSQL, permitindo operações
+multi-mestre e multi-escravo. Isso significa que você pode ter vários bancos de dados que funcionam juntos como uma única fonte de dados e todos eles podem ser atualizados ao mesmo tempo.
+Isso é útil em cenários em que você precisa de alta disponibilidade ou escalabilidade para o seu banco de dados.

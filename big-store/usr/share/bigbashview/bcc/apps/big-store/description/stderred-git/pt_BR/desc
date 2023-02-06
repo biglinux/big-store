@@ -1,0 +1,2 @@
+Esse programa é um truque chamado LD_PRELOAD que colore a saída de erros em vermelho. Isso ajuda a destacar os erros quando você
+estiver lendo a saída do seu código. É útil para identificar rapidamente problemas no seu código.

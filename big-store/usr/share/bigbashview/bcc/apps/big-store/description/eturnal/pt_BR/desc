@@ -1,0 +1,3 @@
+Eturnal é um servidor STUN e TURN moderno e simples, com suporte completo para IPv6. Ele permite que dispositivos com
+diferentes endereços IP se comuniquem uns com os outros através de redes privadas ou públicas. É útil para aplicativos de videoconferência, jogos online e outros tipos de aplicativos que
+precisam de comunicação de rede confiável.

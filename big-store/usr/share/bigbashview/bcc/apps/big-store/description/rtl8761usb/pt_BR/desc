@@ -1,0 +1,3 @@
+Este programa é usado para adicionar suporte a dispositivos baseados em USB com o chip RTL8761. Ele inclui módulos Bluetooth da
+Realtek que permitem que esses dispositivos se comuniquem com outros dispositivos Bluetooth, como telefones, computadores e fones de ouvido.Se você tem um dispositivo que usa o chip RTL8761
+e precisa adicionar suporte ao Bluetooth, este programa pode ser útil.

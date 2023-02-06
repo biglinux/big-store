@@ -1,0 +1,1 @@
+kdav é uma implementação do protocolo DAV (WebDAV) usando a biblioteca KJobs. Ele permite acessar e gerenciar arquivos em um servidor WebDAV de forma fácil e eficiente. O protocolo DAV é amplamente utilizado para acessar arquivos remotamente, como em servidores de nuvem, e kdav fornece uma maneira  simples de se conectar a esses servidores e gerenciar arquivos.  

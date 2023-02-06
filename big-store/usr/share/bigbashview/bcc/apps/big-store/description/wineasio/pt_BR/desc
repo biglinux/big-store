@@ -1,0 +1,3 @@
+ Wineasio é um driver ASIO, que é um padrão para a comunicação entre software de áudio e hardware. Ele foi desenvolvido
+especificamente para ser usado no Wine, um software que permite executar aplicativos do Windows em sistemas operacionais Linux e Mac. Com o Wineasio, os usuários podem usar programas de
+áudio que exigem o driver ASIO no Wine, o que significa que eles não precisam mais usar o Windows para esses programas. 

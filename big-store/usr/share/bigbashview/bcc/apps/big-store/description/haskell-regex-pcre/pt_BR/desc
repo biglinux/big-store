@@ -1,0 +1,1 @@
+Este programa é um backend para a biblioteca Text.Regex do Haskell, utilizando PCRE (Perl Compatible Regular Expressions) para o processamento de expressões regulares.Isso significa que é possível utilizar expressões regulares compatíveis com Perl, que são amplamente utilizadas e possuem uma grande variedade de recursos, em conjunto com a biblioteca Text.Regex do Haskell. 

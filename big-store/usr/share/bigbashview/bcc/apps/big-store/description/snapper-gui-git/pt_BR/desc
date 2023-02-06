@@ -1,0 +1,3 @@
+Esta ferramenta é uma interface gráfica para o Snapper, que é usada para gerenciar snapshots de subvolumes Btrfs 
+e volumes LVM. Com ela, você pode criar, visualizar e restaurar snapshots de maneira fácil e intuitiva.Além disso, ela também permite comparar snapshots e ver as diferenças entre eles, o
+que é útil para encontrar e resolver problemas.

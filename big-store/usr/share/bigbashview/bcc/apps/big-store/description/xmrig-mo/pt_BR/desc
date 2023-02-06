@@ -1,0 +1,3 @@
+Este programa é um minerador de criptomoedas de alta performance para uso em CPU e GPU. Ele suporta as
+criptomoedas RandomX, KawPow, CryptoNight e AstroBWT, e possui a opção de troca automática de algoritmo através do MoneroOcean. Isso significa que o programa é capaz de detectar qual é a
+criptomoeda mais rentável para minerar no momento, e alternar entre elas automaticamente para maximizar sua renda.

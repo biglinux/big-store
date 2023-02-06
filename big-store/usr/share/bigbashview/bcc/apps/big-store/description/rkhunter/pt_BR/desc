@@ -1,0 +1,1 @@
+rkhunter (Rootkit Hunter) é um programa de código aberto que ajuda a detectar rootkits e outras ferramentas indesejadas em máquinas Linux. Ele verifica a integridade dos arquivos do sistema, procura por arquivos suspeitos e executa outras verificações para garantir que o sistema está  limpo. Ele também pode ser configurado para enviar alertas quando problemas são detectados. 

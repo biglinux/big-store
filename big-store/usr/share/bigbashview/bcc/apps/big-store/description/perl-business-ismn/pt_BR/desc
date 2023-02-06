@@ -1,0 +1,1 @@
+Este pacote permite trabalhar com números musicais internacionais (ISMN) usando Perl. Ele fornece uma série de funções para validação, formatação e outras operações relacionadas a ISMNs. Ele é útil para qualquer pessoa que precise trabalhar com esses números em aplicativos de software ou sistemas de banco de dados relacionados à música. 

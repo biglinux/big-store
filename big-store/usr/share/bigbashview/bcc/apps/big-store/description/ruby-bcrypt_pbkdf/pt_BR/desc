@@ -1,0 +1,1 @@
+OpenBSD possui uma variante chamada bcrypt_pdkfd, que é baseada em PBKDF2 com PRF (função de mistura de chave) baseado em bcrypt. Isso garante uma cifra de senhas mais segura e protegida contra ataques de força bruta. Além disso, existe uma biblioteca chamada ruby-bcrypt_pbkdf, que permite utilizar  essa cifra de senhas em aplicações Ruby. 

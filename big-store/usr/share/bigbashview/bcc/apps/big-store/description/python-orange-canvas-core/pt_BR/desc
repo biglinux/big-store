@@ -1,0 +1,4 @@
+O Orange Canvas é um programa que permite criar fluxos de trabalho de análise de dados de forma visual. O núcleo
+desse programa é o editor de fluxo de trabalho, que é o que o python-orange-canvas-core representa. Com ele, é possível criar, editar e executar fluxos de trabalho usando vários componentes
+pré-definidos, como filtros de dados, classificadores e gráficos. Além disso, o python-orange-canvas-core permite que você importe e exporte fluxos de trabalho, o que torna mais fácil
+compartilhar seus projetos com outras pessoas.

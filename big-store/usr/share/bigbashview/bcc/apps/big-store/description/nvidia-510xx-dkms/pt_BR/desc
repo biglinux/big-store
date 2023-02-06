@@ -1,0 +1,3 @@
+Esse programa é responsável por garantir que o seu computador tenha acesso às últimas atualizações dos drivers da
+Nvidia. Esses drivers são essenciais para garantir que a placa gráfica da Nvidia funcione corretamente e com todas as suas funcionalidades. Ele é especificamente desenvolvido para trabalhar
+com as versões 510xx da Nvidia e é fornecido como código fonte, ou seja, é necessário compilá-lo antes de poder utilizá-lo. 

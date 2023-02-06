@@ -1,0 +1,4 @@
+cfn-guard é um conjunto de ferramentas que ajuda a verificar se as suas templates do AWS
+CloudFormation estão de acordo com as políticas de segurança. Ele usa uma sintaxe simples e declarativa, chamada 'policy-as-code', para fazer essa verificação.Com cfn-guard, você pode
+garantir que suas templates do CloudFormation estejam de acordo com as melhores práticas de segurança e evitar erros comuns que podem levar a problemas de segurança na sua infraestrutura na
+nuvem.

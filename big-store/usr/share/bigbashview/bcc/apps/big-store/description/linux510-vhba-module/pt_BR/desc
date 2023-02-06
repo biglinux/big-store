@@ -1,0 +1,1 @@
+Este é um módulo de kernel para o sistema operacional Linux, que permite que você emule dispositivos SCSI. Ele é conhecido como linux510-vhba-module e é usado para testar e desenvolver softwares que usam dispositivos SCSI sem precisar de hardware real. 

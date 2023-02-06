@@ -1,0 +1,4 @@
+Esta ferramenta é projetada para ajudar os desenvolvedores a entender como os arquivos de código estão conectados 
+em um projeto escrito em C++. Ele analisa os arquivos de código e mostra quais arquivos estão incluídos em cada um deles, tornando mais fácil entender a estrutura do projeto e encontrar
+erros.Ele também oferece recursos adicionais, como a capacidade de verificar se há arquivos desnecessários incluídos e removê-los para melhorar o desempenho do programa.Em resumo, se 
+você é um desenvolvedor C++ e está procurando uma maneira de melhorar a organização do seu código e encontrar erros, essa ferramenta pode ser muito útil para você. 

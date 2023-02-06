@@ -1,0 +1,1 @@
+Este programa lida com as abstrações de memória, incluindo alocar e liberar espaço na memória do computador e gerenciar acesso a ele. Ele é escrito em Haskell, uma linguagem de programação funcional bastante popular. 

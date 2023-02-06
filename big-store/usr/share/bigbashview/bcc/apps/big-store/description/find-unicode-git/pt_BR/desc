@@ -1,0 +1,3 @@
+Este programa permite que você encontre facilmente caracteres Unicode a partir do conforto do seu terminal. Ele é útil para quem
+precisa encontrar caracteres específicos para usar em programação ou outras tarefas relacionadas à texto.Para usar, simplesmente digite o comando 'find-unicode-git' seguido do caractere que
+você deseja procurar. O programa retornará todas as ocorrências desse caractere encontradas no sistema.

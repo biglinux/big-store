@@ -1,0 +1,4 @@
+Esta é uma biblioteca que fornece suporte para redes ao usar a linguagem de programação Lua. Ele permite que os
+programas escritos em Lua se comuniquem com outros dispositivos e serviços na rede. É projetado para ser fácil de usar e se integra bem com outras bibliotecas Lua.Ele é baseado no projeto
+lua-socket, mas foi atualizado para trabalhar com a versão 5.1 do Lua. Ele também inclui algumas melhorias e correções de bugs. É uma ferramenta útil para desenvolvedores que precisam
+adicionar funcionalidade de rede a seus projetos Lua.

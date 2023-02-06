@@ -1,0 +1,4 @@
+ O Ceph-bin é uma plataforma de armazenamento distribuída e tolerante a falhas que oferece
+suporte a objetos, blocos e sistemas de arquivos. Isso significa que os dados são armazenados em múltiplos computadores e espelhados, para garantir que eles estejam sempre disponíveis mesmo
+em caso de falhas. Além disso, o Ceph-bin é escalável, o que significa que pode lidar com grandes quantidades de dados e usuários, e é flexível, permitindo que os usuários acessem e
+gerenciem seus dados de várias formas diferentes. 

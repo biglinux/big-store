@@ -1,0 +1,1 @@
+O python-rencode é um módulo que é semelhante ao bencode do projeto BitTorrent. Ele permite codificar e decodificar dados de forma eficiente e fácil, e é útil para desenvolvedores que precisam trabalhar com arquivos ou dados no formato bencode. Ele é escrito em Python, e pode ser facilmente incorporado em aplicações Python para adicionar suporte ao bencode. 

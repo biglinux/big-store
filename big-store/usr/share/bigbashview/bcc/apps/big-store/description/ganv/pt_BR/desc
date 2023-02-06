@@ -1,0 +1,1 @@
+O ganv é um widget interativo do Gtkmm canvas que é usado para criar interfaces baseadas em gráficos. Ele permite que os usuários façam interações com os elementos do gráfico, como adicionar, editar e excluir nós e arestas. É uma ferramenta poderosa para desenvolvedores que precisam criar aplicativos que envolvam visualização de dados em formato de grafos.  

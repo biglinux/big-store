@@ -1,0 +1,1 @@
+Este pacote fornece combinadores de análise comumente úteis para o Haskell. Combinadores de análise são uma ferramenta poderosa para construir analisadores sintáticos, que transformam entradas de texto em estruturas de dados significativas. Este pacote torna mais fácil escrever analisadores sintáticos eficientes e confiáveis para suas aplicações. 

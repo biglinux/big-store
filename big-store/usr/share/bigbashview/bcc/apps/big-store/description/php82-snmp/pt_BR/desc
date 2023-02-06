@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 8.2 que permite acessar informações de dispositivos de rede usando o protocolo SNMP. Ele fornece uma
+maneira fácil de ler e escrever informações do dispositivo, como informações de desempenho, configurações e estado. Com este módulo, você pode automatizar tarefas de gerenciamento de rede e
+criar aplicativos personalizados para gerenciar dispositivos de sua rede.

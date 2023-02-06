@@ -1,0 +1,4 @@
+Com o tfenv, você pode gerenciar facilmente as versões do Terraform em seu sistema. Ele foi inspirado no rbenv, um
+gerenciador de versões de Ruby, e torna muito mais fácil alternar entre diferentes versões do Terraform sem afetar outras partes do seu sistema. Com o tfenv, você pode instalar, ativar e
+desativar versões do Terraform com um único comando. Além disso, você pode ver todas as versões instaladas e escolher a que deseja usar com facilidade. Se você trabalha com Terraform em
+diferentes projetos e precisa alternar entre versões diferentes, o tfenv é uma ferramenta valiosa para ter em seu arsenal.

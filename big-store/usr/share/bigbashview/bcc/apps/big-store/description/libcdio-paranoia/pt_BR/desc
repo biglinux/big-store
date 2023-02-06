@@ -1,0 +1,1 @@
+Esta biblioteca permite que você grave CDs usando o libcdio e o recurso de paranoia. Isso significa que ele verifica se todos os dados foram gravados corretamente e, se houver algum problema, tenta gravar novamente até que tudo esteja certo. 

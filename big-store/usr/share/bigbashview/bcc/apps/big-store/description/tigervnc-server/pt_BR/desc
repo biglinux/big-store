@@ -1,0 +1,3 @@
+ Este programa é uma versão modificada do TigerVNC, criada a partir do fork do Archlinux TigerVNC. Ele serve apenas para
+instalar o servidor TigerVNC em sua máquina. Com ele, você pode acessar sua máquina de forma remota e controlá-la como se estivesse sentado diante dela. É uma ferramenta útil para trabalhar
+de forma colaborativa ou para acessar sua máquina de outro lugar.

@@ -1,0 +1,1 @@
+Este repositório contém vínculos em D para a biblioteca de utilidade C GLib. Isso permite que desenvolvedores escrevam aplicativos em D usando as funcionalidades fornecidas pela biblioteca GLib. Ele pode ser usado em conjunto com o GTK para desenvolvimento de aplicativos de interface gráfica de usuário. 

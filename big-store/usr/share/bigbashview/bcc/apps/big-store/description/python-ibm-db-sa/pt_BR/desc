@@ -1,0 +1,1 @@
+O python-ibm-db-sa é um pacote que adiciona suporte para o SQLAlchemy, uma biblioteca de mapeamento de objetos-relacionais para o Python, para os servidores de dados IBM.Isso permite que você use o SQLAlchemy para trabalhar com banco de dados IBM, como o DB2, com a mesma facilidade que você  usaria com outros bancos de dados suportados pelo SQLAlchemy. 

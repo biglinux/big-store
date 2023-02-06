@@ -1,0 +1,1 @@
+Esse programa permite que você integre o filtro OpenSMTPD com a pontuação do remetente. Isso significa que ele usa uma pontuação para determinar se um remetente pode ou não enviar e-mails para você. Assim, você pode ter mais controle sobre quais e-mails estão chegando na sua caixa  de entrada e evitar spam ou e-mails indesejados. 

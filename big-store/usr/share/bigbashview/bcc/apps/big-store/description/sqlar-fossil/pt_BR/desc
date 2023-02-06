@@ -1,0 +1,3 @@
+Este programa permite armazenar arquivos comprimidos em um banco de dados SQLite, incluindo um sistema de
+arquivos fuse. Isso significa que os arquivos serão compactados e armazenados em uma única base de dados SQLite, tornando-os fáceis de gerenciar e transportar. Além disso, a implementação
+do fuse permite acessar esses arquivos diretamente como se estivessem em um sistema de arquivos normal, sem precisar descompactá-los primeiro.

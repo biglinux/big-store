@@ -1,0 +1,2 @@
+O sistema operacional Linux CFS scheduler Kernel é desenvolvido pela equipe CachyOS, com algumas outras melhorias no
+kernel e módulos adicionais. Ele é projetado para ser usado em sistemas de tempo real, onde é importante garantir que os processos críticos sejam executados com precisão e rapidez.

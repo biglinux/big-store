@@ -1,0 +1,4 @@
+Cargo é um gerenciador de pacotes para a linguagem de programação Rust. Ele permite que os desenvolvedores gerem
+facilmente as dependências de seus projetos. A subcomando cargo-web é específico para projetos da web, permitindo gerenciar pacotes para serem usados no lado do cliente.Com cargo-web, é
+possível instalar, atualizar e remover pacotes de forma fácil e rápida, sem precisar lidar com problemas de configuração ou dependências. Além disso, ele também fornece ferramentas para
+gerenciar as versões dos pacotes e garantir a compatibilidade entre eles.

@@ -1,0 +1,3 @@
+O RTags é um programa de cliente/servidor que ajuda a organizar e encontrar informações em códigos escritos em C/C++. Ele funciona 
+criando um índice do código, o que permite que você pesquise rapidamente por determinadas palavras ou trechos de código. Além disso, ele também pode mostrar informações sobre a estrutura do
+código, como onde está uma determinada função ou variável. É uma ferramenta muito útil para programadores que trabalham com essas linguagens.

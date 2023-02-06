@@ -1,0 +1,3 @@
+Esse programa é um plugin para kubectl que permite a autenticação com OpenID Connect para o Kubernetes. Ele é
+chamado de kubelogin e é uma forma segura e fácil de acessar seus clusters Kubernetes.Com esse plugin, você pode usar suas credenciais de login existentes para se autenticar e obter acesso 
+aos recursos do Kubernetes. Isso é especialmente útil em ambientes de trabalho onde é necessário compartilhar acesso aos clusters entre equipes.

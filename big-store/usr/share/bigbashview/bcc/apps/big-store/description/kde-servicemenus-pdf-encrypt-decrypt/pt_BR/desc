@@ -1,0 +1,3 @@
+ Esse programa é uma extensão para o KDE que permite criptografar e descriptografar arquivos PDF diretamente do
+gerenciador de arquivos Dolphin. Com ele, é possível proteger seus documentos importantes com senha sem precisar abrir outro programa.Para usar, basta selecionar o arquivo PDF desejado
+no Dolphin e escolher a opção de criptografar ou descriptografar no menu de contexto. O programa cuida do resto. 

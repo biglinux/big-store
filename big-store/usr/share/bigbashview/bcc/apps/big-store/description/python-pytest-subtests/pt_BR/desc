@@ -1,0 +1,1 @@
+O pytest é uma ferramenta popular para testes automatizados em Python. Ele agora inclui suporte ao recurso subTest() e à funcionalidade de subtests. Isso permite que você divida seus testes em subtestes menores e mais fáceis de gerenciar. Além disso, é possível obter relatórios de resultados mais detalhados sobre cada subteste individualmente.  

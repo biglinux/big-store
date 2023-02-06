@@ -1,0 +1,2 @@
+Esse programa é para ajudar a usar um controle 8bitdo com modo de 2.4GHz. Ele adiciona regras ao sistema chamado udev para
+que o controle funcione corretamente.

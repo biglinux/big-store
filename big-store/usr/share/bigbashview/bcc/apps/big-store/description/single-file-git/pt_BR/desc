@@ -1,0 +1,4 @@
+Uma ferramenta de linha de comando chamada single-file-git que permite baixar uma página web inteira e 
+salvar como um único arquivo HTML. Isso é útil quando você quer salvar uma página para ler offline ou para arquivar uma página que pode desaparecer no futuro. Como usar essa ferramenta é
+simples, basta digitar o comando single-file-git seguido pelo endereço da página desejada no terminal ou prompt de comando e pressionar enter. O arquivo será salvo na pasta atual com o nome
+da página.

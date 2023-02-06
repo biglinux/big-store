@@ -1,0 +1,1 @@
+Este programa é um analisador de fluxo JSON escrito em Python. Ele permite que você analise grandes quantidades de dados JSON de forma eficiente e eficaz, sem precisar carregá-los inteiros em memória. É útil para aplicações como processamento de dados em tempo real e análise de grandes conjuntos de dados. 

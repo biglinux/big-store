@@ -1,0 +1,1 @@
+flatpak-xdg-utils é um conjunto de utilitários que permitem que aplicativos em container, como os que são distribuídos através do Flatpak, iniciem programas fora do container. Isso é útil para acessar recursos no sistema, como arquivos e dispositivos de entrada, que não estão disponíveis dentro do container. 

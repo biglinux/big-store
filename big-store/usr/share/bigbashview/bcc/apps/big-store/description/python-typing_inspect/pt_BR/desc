@@ -1,0 +1,1 @@
+O pacote python-typing_inspect é um pacote que fornece funções de utilidade para inspecionar os tipos definidos no módulo de tipagem Python. Ele permite que você introspecione os tipos, extraia os argumentos de tipo e verifique se um tipo é genérico ou concreto. O pacote é compatível com o Python 3.5 e superior. 

@@ -1,0 +1,1 @@
+ccache é um cache para compiladores. Ele acelera a recompilação armazenando compilações anteriores e detectando quando a mesma compilação está sendo feita novamente. Isso geralmente resulta em um aumento significativo na velocidade em situações comuns, como a recompilação do kernel Linux ou a construção de projetos grandes com muitos arquivos de origem. 

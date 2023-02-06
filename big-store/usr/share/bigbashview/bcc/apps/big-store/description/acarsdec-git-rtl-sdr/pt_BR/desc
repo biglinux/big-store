@@ -1,0 +1,3 @@
+Este programa é um decodificador multi-canal ACARS, que utiliza o backend rtl_sdr. Ele é capaz de decodificar mensagens ACARS
+vindas de vários canais, tornando-o uma ferramenta valiosa para aqueles interessados ​​em rastrear comunicações de aviação. Com ele, é possível monitorar as mensagens ACARS de várias
+aeronaves ao mesmo tempo, o que é útil para entender melhor como a comunicação funciona na aviação.

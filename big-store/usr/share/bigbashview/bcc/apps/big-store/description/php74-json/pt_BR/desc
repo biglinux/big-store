@@ -1,0 +1,3 @@
+Este é um módulo para o programa php74 que permite trabalhar com arquivos no formato json. Ele adiciona recursos específicos para ler 
+e escrever esses tipos de arquivos, facilitando o trabalho com essa estrutura de dados. Algumas funcionalidades incluem a capacidade de decodificar json para arrays e objetos, bem como a
+capacidade de codificar arrays e objetos em json. Este módulo é útil para qualquer pessoa que esteja desenvolvendo aplicações web ou trabalhando com dados em formato json.

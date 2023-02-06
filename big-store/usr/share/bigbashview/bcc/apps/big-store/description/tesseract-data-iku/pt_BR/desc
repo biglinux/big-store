@@ -1,0 +1,1 @@
+Este pacote de dados é utilizado para reconhecimento de caracteres (OCR) em idioma japonês, utilizando o software Tesseract. Ele é específico para o idioma japonês, e é necessário para que o Tesseract possa reconhecer corretamente os caracteres escritos nesta língua. Instalando esse pacote, você pode melhorar a precisão do Tesseract ao processar documentos escritos em japonês. 

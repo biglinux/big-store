@@ -1,0 +1,1 @@
+Este é um módulo do Python usado para monitorar eventos de sistemas de arquivos em plataformas Linux com inotify. Ele permite que você acompanhe mudanças em um diretório e tome ações de acordo com essas mudanças, como criar backups ou enviar notificações. É fácil de usar e pode ser integrado a outros projetos Python. 

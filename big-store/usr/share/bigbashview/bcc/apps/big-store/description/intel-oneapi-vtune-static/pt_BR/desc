@@ -1,0 +1,3 @@
+Este programa, chamado Intel® VTune(TM) Profiler, é uma ferramenta poderosa para ajudar a otimizar o
+desempenho de seus aplicativos. Ele funciona criando relatórios detalhados sobre como seu código está sendo executado, permitindo que você identifique e corrija problemas de desempenho. Ele
+também oferece uma biblioteca estática que pode ser usada para integrar a funcionalidade de perfil em seus próprios aplicativos.

@@ -1,0 +1,4 @@
+Com o programa wine-git, você pode facilmente executar programas feitos para o Windows em seu computador Linux. Isso é
+possível graças ao chamado 'compatibility layer', que simula o ambiente do Windows e permite que os programas funcionem sem problemas. Além disso, esta versão é a mais recente, baseada no
+controle de versão git.Com o wine-git, você pode usar programas do Windows como se estivesse usando no próprio Windows. Não há mais necessidade de mudar para outro sistema operacional só
+para usar algum programa específico. 

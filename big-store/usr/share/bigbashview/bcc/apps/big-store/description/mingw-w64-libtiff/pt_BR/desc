@@ -1,0 +1,4 @@
+Esta é uma biblioteca para ajudar a manipular imagens no formato TIFF. Ela é especialmente útil para quem está
+trabalhando com o sistema operacional Windows, pois foi desenvolvida para ser compatível com o pacote de ferramentas mingw-w64. Com esta biblioteca, é possível abrir, editar e salvar
+imagens TIFF de forma fácil e eficiente. Ela oferece diversas funções para trabalhar com esses arquivos, como redimensionamento, corte e adição de marca d'água, por exemplo. Se você precisa
+trabalhar com imagens TIFF no seu projeto, essa biblioteca é uma excelente opção para facilitar esse processo.

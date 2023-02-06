@@ -1,0 +1,1 @@
+O xcb-util-keysyms é um conjunto de bibliotecas úteis para trabalhar com o  protocolo XCB (X C-language Binding). Ele inclui constantes para as teclas padrão X, como as teclas de seta, letras e números, além de funções para converter essas constantes para códigos de tecla e vice-versa. Isso facilita o desenvolvimento de aplicativos que precisam lidar com entradas de teclado. 

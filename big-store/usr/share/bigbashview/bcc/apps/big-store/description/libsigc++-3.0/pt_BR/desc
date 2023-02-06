@@ -1,0 +1,1 @@
+O libsigc++-3.0 é um framework para criar callbacks, ou seja, funções que são chamadas de volta, em aplicações feitas em C++. Isso é útil para quando você quer que certas ações aconteçam automaticamente quando algo mudar em seu programa, sem precisar escrever o código toda vez que isso acontecer. 

@@ -1,0 +1,4 @@
+A biblioteca StarPU é uma ferramenta poderosa para programação de tarefas em arquiteturas
+híbridas. Ela permite que os desenvolvedores escrevam códigos que podem ser executados tanto em CPUs quanto em GPUs de maneira eficiente. Isso é conseguido através da distribuição
+automática de tarefas entre diferentes núcleos de processamento, o que resulta em melhor desempenho e escalabilidade. Além disso, a biblioteca é fácil de usar e possui uma ampla variedade
+de recursos e funcionalidades.

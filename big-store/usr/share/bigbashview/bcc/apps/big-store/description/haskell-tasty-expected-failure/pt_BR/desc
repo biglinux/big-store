@@ -1,0 +1,1 @@
+Este programa é uma extensão para o Haskell Tasty, um framework de testes para o Haskell. Ele permite marcar testes como fracasso esperado, o que significa que eles falharão, mas não serão contabilizados como erros. Isso é útil quando você tem testes que você sabe que falharão, mas ainda deseja executá-los para verificar se eles continuam falhando. 

@@ -1,0 +1,1 @@
+Este programa é escrito em Haskell e permite que os contêineres associativos mantenham a ordem de inserção ao percorrê-los. Isso é útil para casos onde é importante manter a ordem original dos elementos adicionados ao contêiner. 

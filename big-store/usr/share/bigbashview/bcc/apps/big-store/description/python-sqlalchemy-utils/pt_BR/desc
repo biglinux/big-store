@@ -1,0 +1,1 @@
+SQLAlchemy é uma biblioteca popular para trabalhar com banco de dados em Python. Com  o pacote python-sqlalchemy-utils, você pode adicionar várias funções úteis, novos tipos de dados e helpers para usar em conjunto com o SQLAlchemy. Isso pode tornar seu trabalho com banco de dados mais fácil e eficiente. 

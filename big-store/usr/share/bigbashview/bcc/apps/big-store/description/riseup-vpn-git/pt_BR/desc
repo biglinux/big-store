@@ -1,0 +1,2 @@
+O RiseupVPN é uma versão personalizada do Bitmask VPN. Ele é escrito em golang e atualmente não possui autenticação de
+cliente, sendo configurado para usar apenas um provedor. O objetivo do programa é proteger sua conexão de internet de vigilância e bloqueios. 

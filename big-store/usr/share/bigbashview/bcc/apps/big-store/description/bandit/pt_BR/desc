@@ -1,0 +1,1 @@
+Essa ferramenta é chamada bandit e foi criada pela equipe de segurança do OpenStack. Ela tem como objetivo analisar o código em Python e identificar possíveis problemas de segurança, como senhas hardcoded, uso de funções inseguras e outros. Com ela, é possível garantir que o código desenvolvido esteja seguro e livre de vulnerabilidades. 

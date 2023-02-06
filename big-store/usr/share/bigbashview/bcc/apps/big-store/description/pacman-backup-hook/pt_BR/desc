@@ -1,0 +1,2 @@
+Este programa é um gancho (hook) para o gerenciador de pacotes pacman. Ele vai salvar a lista de pacotes instalados em seu
+computador em um arquivo chamado /etc/pkglist.txt sempre que você instalar ou remover algum pacote. Dessa forma, você sempre tem uma cópia dos pacotes que você possui no seu computador.

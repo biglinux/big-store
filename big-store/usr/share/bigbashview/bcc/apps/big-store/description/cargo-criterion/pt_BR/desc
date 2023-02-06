@@ -1,0 +1,3 @@
+Este programa é um plugin para o Cargo, que ajuda a analisar e criar relatórios sobre os benchmarks feitos com o
+Criterion-rs. Ele é útil para medir o desempenho do seu código e identificar onde ele pode ser melhorado.Com este plugin, você pode facilmente ver como seu código se comporta em diferentes 
+situações e tomar decisões informadas sobre como otimizá-lo. Ele também fornece gráficos e tabelas fáceis de entender para tornar a análise de dados mais simples.

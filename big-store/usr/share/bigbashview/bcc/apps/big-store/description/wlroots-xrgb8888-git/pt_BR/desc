@@ -1,0 +1,3 @@
+Este programa é uma versão do wlroots-git com patches adicionais que permitem o uso do formato de cor
+XRGB8888. Isso significa que ele é capaz de exibir uma gama mais ampla de cores, tornando as imagens e vídeos mais precisos e vibrantes. Além disso, essa versão também pode ser útil para
+jogos e outros aplicativos que requerem uma alta qualidade de visualização.

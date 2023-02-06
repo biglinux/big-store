@@ -1,0 +1,1 @@
+Este programa permite que você adicione facilmente imagens do Gravatar ao seu aplicativo Flask. Ele é pequeno e fácil de usar, basta seguir as instruções de configuração e você estará pronto para adicionar imagens de perfil aos seus usuários.O pacote python-flask-gravatar é usado neste programa para acessar o serviço do Gravatar. 

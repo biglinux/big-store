@@ -1,0 +1,3 @@
+O Zope Interfaces é um pacote para Python 2.x que permite a criação de interfaces de programação de aplicativos. Ele é útil
+para desenvolvedores que precisam garantir que diferentes partes do software trabalhem juntas de maneira consistente. Com o Zope Interfaces, é possível definir a forma como objetos devem se
+comportar e comunicar uns com os outros, o que ajuda a evitar erros e melhora a manutenibilidade do código. 

@@ -1,0 +1,1 @@
+A biblioteca libcdaudio é uma ferramenta que permite controlar CDs de áudio e se comunicar com o  banco de dados CDDB. Com ela, é possível reproduzir músicas, pausar e avançar faixas, entre outras ações. Além disso, a biblioteca também permite acessar informações sobre as músicas contidas no CD, como o nome das faixas e dos artistas, através da comunicação com o CDDB. 

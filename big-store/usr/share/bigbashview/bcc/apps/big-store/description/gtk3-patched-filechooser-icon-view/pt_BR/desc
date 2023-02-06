@@ -1,0 +1,4 @@
+Este é um programa que foi modificado para melhorar a forma como você escolhe arquivos na sua interface
+gráfica. Ele adiciona uma visualização de ícones para a janela de seleção de arquivos, fazendo com que seja mais fácil encontrar o arquivo desejado. Ele foi criado a partir de uma
+bifurcação de outro programa, chamado 'filechooser-icon-view'.Este programa é baseado em GTK3, uma biblioteca para criação de interfaces gráficas. O programa original foi modificado com a
+bifurcação do usuário 'dudemanguy' do patch 'wfr'.

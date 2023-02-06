@@ -1,0 +1,3 @@
+Este programa é um ambiente de execução Java 18 sem interface gráfica. Ele é baseado no OpenJDK e permite 
+que outros programas usem a linguagem Java sem precisar de uma interface gráfica. Isso é útil para programas que precisam rodar em segundo plano, como servidores e aplicações de linha de
+comando. Ele fornece todas as funcionalidades da versão 18 do Java, incluindo novos recursos e correções de segurança. 

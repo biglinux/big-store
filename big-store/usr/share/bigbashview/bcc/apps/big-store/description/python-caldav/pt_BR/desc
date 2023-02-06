@@ -1,0 +1,4 @@
+A biblioteca de cliente CalDAV para Python é uma ferramenta útil para acessar e gerenciar calendários compartilhados
+através do protocolo CalDAV. Ele é baseado na norma RFC4791 e é compatível com a maioria dos serviços de calendário modernos, incluindo o Google Calendar.Com essa biblioteca, é possível
+sincronizar eventos, criar novos eventos, atualizar e excluir eventos existentes e muito mais. É uma ótima opção para desenvolvedores que precisam incluir funcionalidades de calendário em
+seus projetos.

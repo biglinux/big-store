@@ -1,0 +1,4 @@
+ Este programa é projetado para gerenciar automaticamente dispositivos removíveis, como pendrives e
+discos externos, quando conectados ao seu computador. Ele funciona especificamente com o gerenciador de arquivos Thunar, oferecendo recursos como montagem e desmontagem automática, além de 
+acesso rápido às propriedades do dispositivo.Ele é baseado no projeto thunar-volman-git e é uma opção útil para usuários que desejam tornar o gerenciamento de dispositivos removíveis
+mais fácil e eficiente. 

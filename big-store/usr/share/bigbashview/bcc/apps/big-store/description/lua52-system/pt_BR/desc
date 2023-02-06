@@ -1,0 +1,1 @@
+O lua52-system é um programa que permite que você faça chamadas de sistema em várias plataformas, sem precisar se preocupar com diferenças entre elas. Isso significa que você pode escrever o seu código em Lua e usar as mesmas funções em computadores diferentes, sem precisar mudar nada.  Isso é útil quando você quer criar um programa que funcione em vários sistemas operacionais. 

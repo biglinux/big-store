@@ -1,0 +1,5 @@
+Existem ferramentas chamadas Greaseweazle que permitem acessar um drive de disquete no
+nível de fluxo bruto. Isso significa que você pode ler e gravar dados diretamente no disco, sem precisar passar pelo sistema operacional ou pelo gerenciador de arquivos. Isso pode ser útil 
+para recuperar dados de discos antigos ou para fazer backup de arquivos em formatos não suportados pelo sistema operacional atual.Essas ferramentas são especialmente úteis para aqueles que 
+trabalham com sistemas antigos ou que precisam acessar dados em formatos obsoletos. Elas também podem ser úteis para aqueles que desejam criar cópias de segurança de discos rígidos antigos 
+antes de atualizar para novos sistemas.

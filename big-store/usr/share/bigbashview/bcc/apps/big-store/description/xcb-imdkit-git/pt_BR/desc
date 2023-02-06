@@ -1,0 +1,4 @@
+Este programa oferece suporte para o desenvolvimento de métodos de entrada para o xcb, que é um conjunto de
+bibliotecas e protocolos para construir interfaces gráficas de usuário. Ele permite que os desenvolvedores criem e testem facilmente novos métodos de entrada, como teclado virtual,
+reconhecimento de escrita à mão, etc. O xcb-imdkit-git é útil para desenvolvedores de aplicativos, sistemas operacionais, drivers de dispositivos, etc. que desejam incluir suporte para
+métodos de entrada personalizados ou melhorar o suporte existente.

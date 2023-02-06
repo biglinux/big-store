@@ -1,0 +1,2 @@
+Este programa é um subcomando do Cargo e serve para mostrar quando existem versões diferentes de uma mesma
+dependência. Ele é útil para identificar e resolver conflitos de dependências no seu projeto. 

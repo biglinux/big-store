@@ -1,0 +1,3 @@
+Merlin é um servidor e agente de controle de comando multi-plataforma escrito em Go, depois da exploração.Ele permite que você
+execute ações em seus alvos de forma remota e fácil, tudo em uma interface intuitiva e fácil de usar.Com Merlin, você pode ter total controle sobre seus alvos, sem precisar se preocupar com
+problemas técnicos ou limitações de plataforma.

@@ -1,0 +1,1 @@
+Essa é uma interface para programadores Python que permite acessar a biblioteca libmad para processamento de áudio MP3. Com ela, é possível ler arquivos MP3 e obter informações como a duração, taxa de bits e canais de áudio. Além disso, é possível decodificar o áudio e reproduzi-lo ou salvar em outro formato. 

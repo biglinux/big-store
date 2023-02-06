@@ -1,0 +1,3 @@
+O Catalyst é um framework para desenvolvimento de aplicações web em Perl. Ele fornece uma estrutura para criar aplicações web
+escaláveis e modulares, além de ferramentas para facilitar tarefas comuns do desenvolvimento web, como roteamento de URLs e gerenciamento de sessões.A runtime do Catalyst é o núcleo do
+framework, responsável por gerenciar o ciclo de vida da aplicação e fornecer as funcionalidades básicas.

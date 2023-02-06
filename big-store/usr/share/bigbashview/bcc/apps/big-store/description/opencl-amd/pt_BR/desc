@@ -1,0 +1,2 @@
+O ROCr OpenCL stack suporta produtos a partir da Vega 10. Já o Legacy OpenCL stack (Proprietary) suporta produtos antigos
+antes da Vega 10. Este pacote é projetado para trabalhar junto com o stack amdgpu gratuito.

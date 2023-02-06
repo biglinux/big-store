@@ -1,0 +1,1 @@
+A libdbusmenu-glib é uma biblioteca para desenvolvimento de aplicativos que permite a passagem de menus através do DBus. Ela é utilizada para construir menus de contexto e menus de aplicativos em sistemas que utilizam o DBus como meio de comunicação inter-processos. 

@@ -1,0 +1,1 @@
+Esse programa é chamado osv-scanner e foi escrito em Go. Ele utiliza os dados fornecidos por https://osv.dev para verificar possíveis vulnerabilidades em sistemas. Ele é fácil de usar e pode ajudar a proteger a segurança dos seus sistemas. 

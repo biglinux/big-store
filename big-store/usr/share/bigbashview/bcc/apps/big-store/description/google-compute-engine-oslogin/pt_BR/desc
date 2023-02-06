@@ -1,0 +1,3 @@
+A ferramenta OS Login Guest Environment é específica para uso no Google Compute Engine. Ela permite que usuários
+convidados façam login em instâncias sem precisar criar contas separadas. Com essa ferramenta, os administradores podem controlar facilmente quem tem acesso aos recursos de computação, sem 
+precisar gerenciar várias contas e senhas diferentes.

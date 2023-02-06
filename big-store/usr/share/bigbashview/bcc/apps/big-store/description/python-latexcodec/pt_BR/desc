@@ -1,0 +1,1 @@
+Este programa é uma lexer e codec para trabalhar com código LaTeX em Python. Ele permite que você leia e escreva arquivos LaTeX usando a linguagem Python e facilita a integração com outras ferramentas e bibliotecas Python. 

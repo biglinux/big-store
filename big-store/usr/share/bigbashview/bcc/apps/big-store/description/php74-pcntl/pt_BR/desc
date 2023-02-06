@@ -1,0 +1,2 @@
+Esse é um módulo adicional para a versão 74 do PHP, que permite a utilização de funções de controle de processos, como criação,
+execução e finalização de processos.Isso é útil em situações onde é necessário que uma tarefa seja realizada em paralelo com outra, ou para gerenciar vários processos de uma só vez.

@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.0 que permite o uso de mensagens SysV. Ele permite que os programadores criem e gerenciem
+mensagens entre processos no sistema operacional. Essas mensagens podem ser usadas para comunicação entre programas ou para sincronização de tarefas. O módulo é fácil de usar e oferece
+várias funções úteis para trabalhar com mensagens SysV.Com esse módulo, é possível criar, ler, escrever e excluir mensagens, além de controlar as permissões de acesso. Ele é uma ótima opção
+para quem precisa de comunicação interprocessual em sua aplicação PHP 8.0

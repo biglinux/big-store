@@ -1,0 +1,1 @@
+O Pigeonhole é uma implementação de filtro para o Dovecot, um software de gerenciamento de caixa de correio. Ele permite a criação de regras de filtragem avançadas para organizar e classificar e-mails de acordo com critérios específicos. Além disso, o Pigeonhole também oferece suporte a scripts de ação para automatizar tarefas comuns, como encaminhar ou arquivar mensagens. 

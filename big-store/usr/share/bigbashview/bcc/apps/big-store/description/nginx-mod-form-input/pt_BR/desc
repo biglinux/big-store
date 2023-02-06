@@ -1,0 +1,2 @@
+Este é um módulo para o Nginx que permite ler as informações de formulários enviadas através de requisições HTTP POST e 
+PUT, codificadas como 'application/x-www-form-urlencoded'. Ele também permite que os argumentos presentes no corpo da requisição sejam transformados em variáveis do Nginx.

@@ -1,0 +1,1 @@
+O pacote python-lhafile adiciona suporte para arquivos LHA (Lempel-Ziv-Huffman Archive) em aplicativos Python. Isso permite que você abra, extraia e gere arquivos LHA sem precisar de outro software específico. É uma ferramenta útil para quem trabalha com arquivos compactados e precisa de compatibilidade  com este formato específico. 

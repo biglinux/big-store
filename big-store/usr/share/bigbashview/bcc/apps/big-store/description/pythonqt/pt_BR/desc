@@ -1,0 +1,4 @@
+PythonQt é uma biblioteca que permite aos desenvolvedores utilizarem o Python como linguagem de programação para
+aplicações Qt. Ele fornece uma ligação dinâmica entre o Python e o Qt, o que significa que os desenvolvedores podem escrever código Python e acessar todas as funcionalidades do Qt de forma 
+fácil e fluida. Esta biblioteca é útil para desenvolvedores que já estão familiarizados com o Python e desejam usá-lo em conjunto com o Qt, sem precisar aprender uma nova linguagem de
+programação. Além disso, permite aos desenvolvedores aproveitar a potência do Python para criar aplicações com interface gráfica de usuário avançadas.

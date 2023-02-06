@@ -1,0 +1,1 @@
+ Esse programa é um adaptador para o programa Maxima, ele permite que o Maxima se conecte com o ECL (Embeddable Common Lisp). Isso  significa que agora é possível usar as funções e recursos do ECL dentro do Maxima. Isso pode ser útil para quem precisa usar uma linguagem de programação diferente para resolver problemas específicos.  

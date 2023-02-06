@@ -1,0 +1,3 @@
+Existe um programa chamado opendoas-sudo que é uma opção para substituir o comando sudo. Ele funciona como um link simbólico
+para usar o Doas como uma substituição ao sudo. Isso significa que você pode usar o Doas para fazer coisas que normalmente precisaria usar o sudo para fazer, como executar comandos como
+administrador. É uma opção segura e fácil de usar para quem precisa de privilégios de administrador em seu computador.

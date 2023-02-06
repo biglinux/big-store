@@ -1,0 +1,3 @@
+ Este programa é chamado 'ruby-fog-aws' e ele ajuda você a se conectar ao Amazon Web Services (AWS) usando a linguagem de
+programação Ruby. Ele usa uma biblioteca chamada 'fog' que é específica para isso.Com ele você pode fazer coisas como criar máquinas virtuais, armazenar arquivos, gerenciar banco de dados
+e muito mais, tudo diretamente a partir do seu código Ruby.Se você é desenvolvedor Ruby e precisa trabalhar com o AWS, esse programa vai ser muito útil para você!

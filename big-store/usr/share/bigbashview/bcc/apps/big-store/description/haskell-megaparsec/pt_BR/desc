@@ -1,0 +1,1 @@
+Este programa utiliza combinadores de análise monádica para criar analisadores sintáticos no idioma Haskell. O pacote chama-se haskell-megaparsec e é uma ferramenta poderosa para quem trabalha com processamento de linguagem natural ou outros tipos de análise de texto. 

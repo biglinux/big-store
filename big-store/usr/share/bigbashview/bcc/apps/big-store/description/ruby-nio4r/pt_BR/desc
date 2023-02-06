@@ -1,0 +1,1 @@
+Esta é uma API para usar em várias plataformas com Ruby. Ela é chamada de ruby-nio4r e é usada para selecionar I/O, ou seja, para escolher quais dados de entrada e saída serão lidos e escritos. Ela é útil para trabalhar com muitos fluxos de dados ao mesmo tempo. 

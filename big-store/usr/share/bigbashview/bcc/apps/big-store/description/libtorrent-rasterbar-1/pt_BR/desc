@@ -1,0 +1,4 @@
+Libtorrent-rasterbar-1 é uma biblioteca de código aberto escrita em C++ que implementa o protocolo
+BitTorrent. Ela é projetada para ser flexível e escalável, permitindo que desenvolvedores criem aplicativos BitTorrent facilmente. Além disso, ela fornece recursos avançados, como suporte a
+DHT, ltep e Ipv6.A biblioteca é mantida e atualizada regularmente, garantindo a compatibilidade com as últimas especificações do protocolo e correções de bugs. Ela é licenciada sob a
+licença BSD, permitindo que seja usada livremente em projetos comerciais e open-source.

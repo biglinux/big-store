@@ -1,0 +1,2 @@
+Este é um compilador chamado riscv-none-embed-gcc que é usado para criar programas para computadores RISC-V, ele é capaz de compilar
+tanto para versões de 32 bits quanto de 64 bits. Ele é conhecido como xPack GNU RISC-V Embedded GCC.

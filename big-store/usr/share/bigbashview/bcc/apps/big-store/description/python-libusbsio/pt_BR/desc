@@ -1,0 +1,1 @@
+A biblioteca python-libusbsio permite a comunicação USB-HID (Human Interface Device) através de diferentes interfaces de comunicação, como SPI, I2C ou GPIO. Ela é escrita em Python e fornece uma maneira fácil de se comunicar com dispositivos USB em seu projeto. 

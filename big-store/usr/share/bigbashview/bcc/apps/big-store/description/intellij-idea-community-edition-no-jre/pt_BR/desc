@@ -1,0 +1,4 @@
+A edição de comunidade do Intellij Idea é uma versão gratuita do programa de desenvolvimento de software. Ela
+vem sem o Java Runtime Environment (JRE) embutido, o que significa que você precisará baixá-lo separadamente. Isso pode ser útil se você já tiver o JRE instalado em sua máquina ou se quiser
+economizar espaço de armazenamento. Com essa edição, você pode criar aplicativos Java, Groovy, Scala, Kotlin e outros. Ele também oferece recursos como depuração, controle de versão e
+integração com outras ferramentas de desenvolvimento.

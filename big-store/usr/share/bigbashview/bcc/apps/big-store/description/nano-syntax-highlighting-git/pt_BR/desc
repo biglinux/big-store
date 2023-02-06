@@ -1,0 +1,4 @@
+Este programa fornece arquivos de realce de sintaxe melhorados para o editor nano. Isso significa que, ao usar o nano
+para editar arquivos, as palavras-chave e outros elementos do código serão destacados em cores diferentes para tornar mais fácil de ler e entender o que está acontecendo no código. Isso
+pode ser especialmente útil para programadores e desenvolvedores que precisam trabalhar com código regularmente.Além disso, o programa vem com suporte para várias linguagens de programação,
+incluindo C, Python, Java e muito mais, para que você possa usá-lo para destacar código em diferentes linguagens.

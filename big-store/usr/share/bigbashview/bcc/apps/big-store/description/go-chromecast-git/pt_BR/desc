@@ -1,0 +1,4 @@
+Esse programa permite que você use comandos básicos do Google Chromecast. Ele foi escrito usando a linguagem de programação Go, 
+o que o torna rápido e fácil de usar.Com ele, você pode reproduzir, pausar e controlar o volume da música ou vídeos que estão sendo transmitidos no seu Chromecast. Também é possível mudar
+de faixa e verificar o status atual da reprodução.Além disso, o código fonte está disponível no GitHub, o que significa que você pode personalizar o programa de acordo com suas
+necessidades.

@@ -1,0 +1,1 @@
+O haskell-tree-diff é um programa que permite comparar árvores de expressões. Ele é útil para identificar diferenças entre diferentes versões de código ou para encontrar semelhanças entre códigos diferentes. Ele é escrito em Haskell, e pode ser usado para comparar árvores de expressões de qualquer linguagem de programação que permita a representação de código como uma árvore. 

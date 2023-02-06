@@ -1,0 +1,3 @@
+Este programa é uma ferramenta útil para ajudar a encontrar problemas no sistema operacional Android. Ele é específico
+para dispositivos x86_64 e é chamado de strace. Ele funciona como um rastreador de usuário e é útil para depuração e instrução. Ele pode ajudar a identificar problemas no sistema e ajudar a
+solucioná-los. 

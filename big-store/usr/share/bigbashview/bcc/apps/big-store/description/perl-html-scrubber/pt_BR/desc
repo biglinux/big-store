@@ -1,0 +1,1 @@
+A extensão Perl-HTML-Scrubber é uma ferramenta útil para limpar e sanitizar o código HTML de uma página web. Ele remove elementos indesejados ou potencialmente perigosos, como scripts ou atributos de estilo, garantindo que o código seja seguro e confiável para uso em seu projeto. É simples de usar e pode ser integrado facilmente em seu código Perl existente. 

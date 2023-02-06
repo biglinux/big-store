@@ -1,0 +1,1 @@
+libvirt-dbus é um wrapper  para a API libvirt que fornece uma API de alto nível, orientada a objetos que é mais adequada para aplicativos baseados em dbus. O objetivo do libvirt-dbus é tornar fácil para os desenvolvedores criarem e gerenciarem máquinas virtuais, pool de armazenamento e outros recursos gerenciados pelo libvirt através do D-Bus 

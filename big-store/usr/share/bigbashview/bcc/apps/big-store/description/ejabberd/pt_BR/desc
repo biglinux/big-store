@@ -1,0 +1,1 @@
+ ejabberd é um servidor Jabber/XMPP distribuído e tolerante a falhas escrito em Erlang/OTP. Ele suporta muitos recursos, como arquivamento de mensagens, bate-papo com múltiplos usuários e mensagens offline. Ele é altamente extensível e pode ser facilmente integrado a outros sistemas. 

@@ -1,0 +1,4 @@
+O gdb-multiarch é um depurador criado pela GNU que é capaz de funcionar em várias arquiteturas diferentes, como i386, 
+arm e mips. Ele é uma ferramenta poderosa para ajudar os desenvolvedores a encontrar e corrigir erros em seus programas.Com o gdb-multiarch, os desenvolvedores podem facilmente navegar pelo
+código-fonte de um programa, verificar variáveis e entender como o programa está se comportando em diferentes partes do código. Além disso, o depurador também permite que os desenvolvedores
+façam alterações no código enquanto o programa está sendo executado, o que é útil para testar diferentes soluções para problemas.

@@ -1,0 +1,1 @@
+Esta biblioteca é compatível com o padrão POSIX e permite fazer correspondência de expressões regulares. Ela inclui o utilitário 'agrep', que é útil para buscas aproximadas.  

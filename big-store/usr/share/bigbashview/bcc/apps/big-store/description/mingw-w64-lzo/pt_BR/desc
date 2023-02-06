@@ -1,0 +1,2 @@
+Uma biblioteca de compressão de dados sem perda portátil. Ela é usada para compactar arquivos, tornando-os
+menores e mais fáceis de enviar ou armazenar. Essa biblioteca específica é projetada para ser usada com o ambiente de desenvolvimento MinGW-w64.

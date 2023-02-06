@@ -1,0 +1,1 @@
+xcb-proto é um conjunto de descrições de protocolo para o X Window System que usa o XML para descrever os protocolos. Ele é usado para gerar código para várias linguagens e facilitar a implementação de novos clientes e servidores X. 

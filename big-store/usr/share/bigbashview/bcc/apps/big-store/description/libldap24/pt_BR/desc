@@ -1,0 +1,3 @@
+Esta é uma biblioteca que permite acesso a diretórios usando o protocolo LDAP (Lightweight Directory Access
+Protocol). Ela é chamada libldap24 e é utilizada para acessar e gerenciar informações armazenadas em diretórios, como por exemplo, contatos de email, endereços de rede e outras informações 
+de usuários. Com ela, é possível realizar tarefas como buscar, adicionar, editar e excluir informações no diretório.

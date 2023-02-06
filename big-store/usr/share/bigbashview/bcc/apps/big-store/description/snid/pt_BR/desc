@@ -1,0 +1,3 @@
+Este programa é um servidor proxy que usa o protocolo SNI (Server Name Indication) para determinar qual certificado digital
+usar durante a conexão com o cliente. Isso permite que o servidor suporte vários sites hospedados em um único endereço IP, cada um com seu próprio certificado SSL. O SNI-based Proxy Server 
+é útil para empresas que gerenciam vários sites e precisam garantir a segurança e privacidade das informações trocadas entre os usuários e os sites.

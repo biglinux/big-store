@@ -1,0 +1,1 @@
+Este programa é uma biblioteca para passar menus com DBus. Ele é projetado para ser usado com a biblioteca GTK+ 3. Ele é específico para sistemas de 32-bit, o que significa que ele só funcionará em computadores com arquitetura de 32 bits. 

@@ -1,0 +1,1 @@
+O comando lsof permite listar todos os arquivos abertos pelos processos em execução no sistema operacional Unix. Ele mostra informações como o nome do arquivo, o número do processo, o usuário que o abriu e muito mais. É uma ferramenta útil para entender e gerenciar os recursos do sistema. 

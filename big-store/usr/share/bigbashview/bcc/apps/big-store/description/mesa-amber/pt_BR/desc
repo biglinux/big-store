@@ -1,0 +1,1 @@
+Drivers da Mesa para utilizar o OpenGL clássico (não-Gallium3D). Esses drivers são usados para rodar jogos e programas gráficos antigos em sistemas modernos.A versão desse driver é chamada de 'mesa-amber'. Ele é desenvolvido pela comunidade e é compatível com vários sistemas operacionais, incluindo Linux, Windows e macOS. 

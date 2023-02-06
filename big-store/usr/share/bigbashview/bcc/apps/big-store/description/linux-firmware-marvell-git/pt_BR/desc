@@ -1,0 +1,3 @@
+ Esse programa é responsável por atualizar o firmware dos dispositivos Marvell com o sistema operacional
+Linux. O firmware é um conjunto de arquivos que controlam o funcionamento do dispositivo, e mantê-lo atualizado é importante para garantir o bom funcionamento e segurança do dispositivo.
+Este programa utiliza arquivos específicos para dispositivos Marvell, e é compatível com o sistema operacional Linux. 

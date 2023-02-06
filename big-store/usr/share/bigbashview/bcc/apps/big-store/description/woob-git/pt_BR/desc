@@ -1,0 +1,5 @@
+woob-git é uma biblioteca e conjunto de módulos projetados para permitir que os desenvolvedores criem
+aplicativos web que possam ser executados fora dos navegadores. Isso significa que, com woob-git, você pode criar aplicativos web que possam ser executados como programas desktop, sem a
+necessidade de um navegador.A biblioteca é construída com tecnologias baseadas em web, como HTML, CSS e JavaScript, mas é projetada para ser usada fora dos navegadores. Isso significa que
+você pode aproveitar todos os benefícios dessas tecnologias, como facilidade de uso e compatibilidade com diferentes sistemas operacionais, enquanto ainda pode criar aplicativos web que
+sejam executados como programas desktop.

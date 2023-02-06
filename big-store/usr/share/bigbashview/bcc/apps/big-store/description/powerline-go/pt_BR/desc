@@ -1,0 +1,1 @@
+powerline-go é um pacote de prompt para Bash, ZSH e Fish que fornece uma interface semelhante à Powerline. Ele adiciona informações úteis, como o status do Git e o diretório atual, à sua linha de comando, tornando-a mais fácil de navegar e usar. Ele também tem suporte para vários temas e é fácil de personalizar. 

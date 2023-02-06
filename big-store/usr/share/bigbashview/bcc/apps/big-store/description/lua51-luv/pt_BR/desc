@@ -1,0 +1,1 @@
+Este programa é um módulo para o Lua 5.1 que fornece ligações para a biblioteca libuv. Ele permite que você acesse as funcionalidades do sistema operacional, como gerenciamento de arquivos e conexões de rede, diretamente a partir do código Lua. 

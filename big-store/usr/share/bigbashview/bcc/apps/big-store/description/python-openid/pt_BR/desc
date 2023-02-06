@@ -1,0 +1,1 @@
+A biblioteca Python 3 foi portada da biblioteca Python 2-openid. Isso significa que agora é possível usar a biblioteca Python 3 para trabalhar com identidades abertas, como o OpenID, sem precisar usar a versão antiga do Python. 

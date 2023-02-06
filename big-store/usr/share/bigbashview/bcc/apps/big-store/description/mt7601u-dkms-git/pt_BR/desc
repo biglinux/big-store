@@ -1,0 +1,4 @@
+Este é um driver para dispositivos Wi-Fi que usam o chip MT7601U. Ele é construído usando o sistema DKMS, o que
+significa que ele será atualizado automaticamente quando novos kernel são instalados. Isso garante que você sempre tenha a versão mais recente do driver e evita problemas de
+compatibilidade.Com ele, você pode conectar seu dispositivo Wi-Fi a redes sem fio e navegar na internet sem problemas.Este é um software livre, você pode usar e modificar de acordo com 
+suas necessidades.

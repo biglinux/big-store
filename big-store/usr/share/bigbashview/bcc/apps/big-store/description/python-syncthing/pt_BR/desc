@@ -1,0 +1,4 @@
+Com este programa em Python, você pode se conectar à interface REST do Syncthing e aproveitar todos os recursos dele. É
+fácil de usar e permite a você controlar todos os seus dispositivos sincronizados a partir de uma única plataforma, sem precisar se preocupar com configurações complexas. Basta instalar o
+pacote python-syncthing e você estará pronto para começar a usá-lo. Além disso, ele é altamente personalizável, então você pode criar soluções personalizadas de acordo com suas necessidades
+específicas.

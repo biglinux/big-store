@@ -1,0 +1,5 @@
+ Frpc-bin é um programa que ajuda você a expor um servidor local atrás de uma NAT ou firewall para a internet. É um proxy
+reverso rápido, ou seja, ele age como um intermediário entre o seu computador e a internet, permitindo que você acesse seus arquivos e programas de qualquer lugar do mundo. Ele é
+especialmente útil para quem precisa trabalhar remotamente ou acessar seus arquivos de casa ou de viagem. Além disso, ele fornece uma camada adicional de segurança, pois encripta as
+informações trocadas entre o seu computador e a internet.O frpc-bin é o cliente, ou seja, é ele que você instala no seu computador para se conectar ao servidor. Ele é simples de usar e
+possui uma interface intuitiva. 

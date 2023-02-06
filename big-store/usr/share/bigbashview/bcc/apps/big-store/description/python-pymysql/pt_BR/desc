@@ -1,0 +1,1 @@
+ Este é um cliente MySQL escrito inteiramente em Python, sem a necessidade de outras bibliotecas adicionais. Ele se chama python-pymysql e é fácil de usar para conectar e fazer operações em um banco de dados MySQL. Ele é muito útil para projetos em Python que precisam acessar um banco de dados MySQL.  

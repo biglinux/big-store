@@ -1,0 +1,4 @@
+Este programa é uma ferramenta que ajuda a escrever códigos em Python de forma mais fácil e organizada. Ele adiciona
+marcações de tipos ao seu código, o que significa que você pode especificar o tipo de dado que cada variável deve conter (como números, textos ou listas). Isso torna o seu código mais fácil
+de ler e entender, especialmente se outras pessoas precisarem trabalhar com ele no futuro. Além disso, o programa também funciona com a linguagem Markdown, que é usada para formatar textos 
+em muitos sites e plataformas. Isso significa que você pode usar as marcações de tipos não só em seus códigos Python, mas também em suas anotações e documentação.

@@ -1,0 +1,3 @@
+ sngrep é uma ferramenta que permite exibir fluxos de mensagens de chamadas SIP a partir de um
+terminal. Ele é útil para solucionar problemas de chamadas SIP e entender como elas estão sendo processadas. Ele suporta vários formatos de saída, incluindo texto simples, CSV e HTML. Além 
+disso, ele tem recursos avançados de busca e filtragem para ajudar a encontrar informações específicas em um fluxo de mensagens. 

@@ -1,0 +1,1 @@
+Uma lista encadeada rigorosa é uma estrutura de dados em Haskell que garante que todos os elementos da lista estão presentes e não possuem valores nulos ou vazios. Isso é diferente de uma lista encadeada comum, onde alguns elementos podem ser nulos ou vazios. A utilização de uma lista encadeada rigorosa garante maior segurança e previsibilidade no código. 

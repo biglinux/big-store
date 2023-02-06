@@ -1,0 +1,5 @@
+Com o telepresence2, você pode desenvolver seus programas de forma remota, mas com a sensação de
+que está trabalhando diretamente em um cluster Kubernetes ou OpenShift. Isso significa que você pode testar e debugar seus programas como se estivesse em um ambiente local, sem precisar se 
+preocupar com problemas de configuração ou rede. O telepresence2 é uma ferramenta poderosa para equipes de desenvolvimento que precisam trabalhar com clusters remotos de maneira eficiente e
+sem problemas. Além disso, ele permite que você aproveite ao máximo as vantagens de trabalhar com um cluster Kubernetes ou OpenShift, sem precisar lidar com as dificuldades de
+desenvolvimento remoto. 

@@ -1,0 +1,3 @@
+Este programa, chamado makepkg-optimize, é uma ferramenta adicional para otimizar a construção e embalagem de pacotes. Ele 
+oferece algumas funcionalidades extras que podem ajudar a tornar o processo mais rápido e eficiente. Alguns exemplos incluem a possibilidade de compilar pacotes com vários núcleos, ou
+ajustar as configurações de compilação para melhorar o desempenho.

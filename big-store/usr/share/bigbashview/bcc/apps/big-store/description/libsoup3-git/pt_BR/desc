@@ -1,0 +1,4 @@
+Libsoup3 é uma biblioteca para clientes e servidores HTTP desenvolvida para ser utilizada no ambiente GNOME. Ela é responsável por 
+gerenciar as comunicações HTTP entre o programa e o servidor, facilitando o acesso e a troca de informações. Além disso, ela também suporta diversos protocolos, incluindo HTTP, HTTPS e FTP,
+tornando-a uma ferramenta versátil para desenvolvedores.A versão disponível no repositório git é a versão de desenvolvimento, onde é possível acompanhar as atualizações e contribuir com o
+código fonte.

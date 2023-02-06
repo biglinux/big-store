@@ -1,0 +1,1 @@
+python-jwcrypto é uma biblioteca python que implementa as especificações JWK, JWS e JWE da IETF (Internet Engineering Task Force). Ele permite que os desenvolvedores criem e verifiquem facilmente JSON Web Tokens (JWT) usando uma variedade de métodos de criptografia. A biblioteca é compatível com Python 2.7, 3.4, 3.5, 3.6 e 3.7 e pode ser instalada via pip. 

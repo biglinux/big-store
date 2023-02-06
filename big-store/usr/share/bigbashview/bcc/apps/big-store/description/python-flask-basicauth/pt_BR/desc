@@ -1,0 +1,3 @@
+Esse programa permite proteger algumas partes ou toda a sua aplicação usando autenticação básica de acesso HTTP. Isso 
+significa que para acessar certas páginas ou recursos, os usuários precisarão digitar um nome de usuário e uma senha. Isso pode ser útil para proteger informações confidenciais ou
+restringir o acesso a certos usuários.

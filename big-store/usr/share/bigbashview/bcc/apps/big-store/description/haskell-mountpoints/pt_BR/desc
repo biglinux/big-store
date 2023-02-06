@@ -1,0 +1,1 @@
+O programa 'haskell-mountpoints' é usado para listar os sistemas de arquivos que estão atualmente montados  no sistema. Ele mostra informações como o caminho de montagem, o tamanho e o espaço livre do sistema de arquivos. É uma ferramenta útil para gerenciamento de disco e monitoramento de uso de espaço em disco. 

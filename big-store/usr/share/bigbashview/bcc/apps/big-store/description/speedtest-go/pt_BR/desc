@@ -1,0 +1,3 @@
+Com esse programa, você pode medir a velocidade da sua internet de forma rápida e fácil. Ele é chamado de 'speedtest-go' e
+funciona tanto por linha de comando quanto por uma API escrita em Go. Ele usa o serviço speedtest.net para realizar os testes.Você pode usar esse programa para verificar se a velocidade da 
+sua internet está de acordo com o que foi contratado com o seu provedor, ou para verificar se há algum problema que possa estar afetando a sua conexão.

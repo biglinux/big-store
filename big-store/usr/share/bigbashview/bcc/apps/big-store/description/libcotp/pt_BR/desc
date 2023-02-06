@@ -1,0 +1,2 @@
+Este programa é uma biblioteca em C que gera códigos TOTP (Temporary One-Time Passwords) e HOTP (HMAC-Based One-Time
+Passwords). Esses códigos são usados para autenticação em dois fatores, o que aumenta a segurança de sua conta. Com este programa, é possível gerar esses códigos de forma rápida e fácil.

@@ -1,0 +1,3 @@
+Essa ferramenta é chamada de MinGW-w64 CMake. Ela é um wrapper, ou seja, uma camada adicional, para o programa 
+CMake que ajuda a construir projetos no sistema operacional Windows. Com ela, é possível compilar códigos para diversas arquiteturas, como x86 e x64. Além disso, ela é específica para o
+MinGW-w64, um conjunto de ferramentas de desenvolvimento para Windows que suporta várias versões do sistema.

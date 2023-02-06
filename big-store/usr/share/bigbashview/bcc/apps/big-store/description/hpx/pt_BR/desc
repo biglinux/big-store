@@ -1,0 +1,4 @@
+O HPX é um sistema de tempo de execução C++ de propósito geral para aplicações
+paralelas e distribuídas de qualquer escala. Ele permite que os desenvolvedores escrevam aplicativos paralelos de alto desempenho e escaláveis de forma fácil e natural, usando uma linguagem
+de programação de alto nível.O HPX é baseado em padrões C++ modernos e fornece uma variedade de recursos avançados, como paralelismo de fluxo de controle, gerenciamento automático de
+memória, suporte para execução distribuída e muito mais.

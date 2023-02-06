@@ -1,0 +1,1 @@
+Este programa permite que você trabalhe com strings de bytes usando 'handles'. Isso significa que você pode ler, escrever e manipular essas strings como se fossem arquivos, sem precisar carregá-las inteiras na memória do seu computador.A biblioteca 'bytestring-handle' é usada para implementar essa funcionalidade no Haskell, uma linguagem de programação funcional. 

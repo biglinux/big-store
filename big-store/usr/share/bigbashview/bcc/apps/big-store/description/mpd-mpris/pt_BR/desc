@@ -1,0 +1,3 @@
+ Este programa permite controlar o MPD (Music Player Daemon) usando o protocolo MPRIS. Isso significa que você pode usar aplicativos
+de terceiros compatíveis com o MPRIS para controlar o MPD, como o painel de volume do sistema ou o GNOME Music. Além disso, o MPD-MPRIS também adiciona suporte para notificações de mídia e 
+acesso a letras de músicas. 

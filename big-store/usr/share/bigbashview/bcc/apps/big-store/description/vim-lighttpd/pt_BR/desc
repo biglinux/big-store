@@ -1,0 +1,4 @@
+Este programa é uma extensão para o editor de texto Vim, que adiciona realce de sintaxe para
+arquivos de configuração do servidor web lighttpd. Isso significa que as palavras-chave e outros elementos importantes dos arquivos de configuração são destacados com cores diferentes,
+tornando mais fácil para os desenvolvedores identificarem e editarem esses elementos.Além disso, este programa também pode fornecer outras funcionalidades para ajudar a trabalhar com
+arquivos de configuração lighttpd, como sugestões de preenchimento automático e verificação de erros de sintaxe.

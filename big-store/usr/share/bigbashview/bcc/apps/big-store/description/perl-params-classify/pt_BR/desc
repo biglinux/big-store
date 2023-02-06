@@ -1,0 +1,1 @@
+Esse programa, escrito em Perl, é utilizado para classificar os tipos de argumentos passados para ele. Ele utiliza a biblioteca 'perl-params-classify' para identificar os tipos de dados, como números, strings e listas. Isso pode ser útil em diversas situações, como validação de entrada de dados ou tratamento específico para cada tipo de argumento. 

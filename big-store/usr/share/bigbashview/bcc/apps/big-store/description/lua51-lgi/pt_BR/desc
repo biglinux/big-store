@@ -1,0 +1,3 @@
+Este programa permite a integração da linguagem Lua com a biblioteca GObject, usando a biblioteca gobject-introspection. Isso
+significa que você pode usar recursos de GObject, como janelas e botões, ao escrever programas em Lua.A versão específica suportada é a 5.1, mas as versões futuras podem ser compatíveis
+também.

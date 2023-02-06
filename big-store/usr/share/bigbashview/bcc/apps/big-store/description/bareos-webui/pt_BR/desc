@@ -1,0 +1,4 @@
+ O Bareos é um programa de backup de código aberto que permite fazer backups de arquivos e restaurá-los quando necessário. A 
+Webui é a interface de administração do Bareos, onde você pode gerenciar e configurar seus backups.Com o Bareos, você pode criar backups de seus arquivos importantes e salvá-los em
+diferentes locais, para ter certeza de que sempre poderá recuperá-los se algo acontecer. A interface da Webui é fácil de usar e permite que você configure backups automatizados, gerencie
+armazenamento e monitore o status dos backups. 

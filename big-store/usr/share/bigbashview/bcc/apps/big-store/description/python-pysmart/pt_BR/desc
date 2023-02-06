@@ -1,0 +1,4 @@
+Com o programa python-pysmart, você pode verificar o estado dos seus discos rígidos e garantir que eles estejam
+funcionando corretamente. Ele é um Wrapper para o smartctl (smartmontools) e foi desenvolvido a partir do FreeNAS. Com ele, você pode ver informações importantes sobre o desempenho do seu
+disco, como temperatura, número de ciclos de leitura e escrita, entre outros. Além disso, ele também permite que você configure alertas para avisá-lo de possíveis problemas antes que eles
+aconteçam.Com python-pysmart, você pode ter mais tranquilidade sabendo que seus dados estão seguros e seu hardware está funcionando corretamente.

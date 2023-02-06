@@ -1,0 +1,4 @@
+Webkitgtk é um mecanismo de conteúdo web antigo que foi projetado para ser usado com o GTK+ 3. Ele é responsável por
+carregar e exibir conteúdo web em aplicativos que usam a biblioteca GTK+ 3, como navegadores da web, visualizadores de mídia e outros aplicativos similares. Esse mecanismo de conteúdo web é
+chamado de 'antigo' porque existem outros mecanismos mais recentes e avançados que estão sendo usados atualmente. No entanto, ele ainda é usado em alguns aplicativos devido à sua
+compatibilidade com a biblioteca GTK+ 3.

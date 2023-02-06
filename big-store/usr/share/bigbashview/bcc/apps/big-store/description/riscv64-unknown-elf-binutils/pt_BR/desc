@@ -1,0 +1,3 @@
+Este programa é chamado de 'riscv64-unknown-elf-binutils'. Ele ajuda a construir e manipular arquivos binários e
+de objetos para sistemas RISC-V de 32 e 64 bits. Ele é útil para os desenvolvedores de sistemas operacionais e firmware que trabalham com processadores RISC-V. Com ele, eles podem criar
+programas que funcionem com esses tipos de processadores.

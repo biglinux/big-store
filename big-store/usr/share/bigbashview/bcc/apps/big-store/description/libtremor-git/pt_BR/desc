@@ -1,0 +1,4 @@
+Esta é uma biblioteca de decodificação de software inteira, totalmente compatível com Ogg Vorbis. Ela é
+usada para reproduzir arquivos de áudio no formato Ogg Vorbis em aplicativos e dispositivos. A biblioteca é baseada somente em números inteiros, o que significa que ela é mais rápida e
+eficiente em termos de memória do que as bibliotecas de decodificação que usam números de ponto flutuante. Além disso, essa biblioteca é mantida como um projeto Git, o que significa que
+está sempre atualizada e disponível para download gratuito.

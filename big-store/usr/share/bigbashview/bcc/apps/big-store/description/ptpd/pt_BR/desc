@@ -1,0 +1,2 @@
+O programa PTPd (daemon PTP) implementa o protocolo de tempo preciso (PTP), conforme definido pelo padrão IEEE 1588
+relevante. A versão 2 do PTP implementa o IEEE-1588-2008. O PTP foi desenvolvido para fornecer uma coordenação muito precisa do tempo entre computadores conectados em uma rede LAN.

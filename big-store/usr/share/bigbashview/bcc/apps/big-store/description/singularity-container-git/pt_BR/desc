@@ -1,0 +1,4 @@
+Este programa é uma plataforma de container que se concentra em suportar a 'Mobility of Compute' (Mobilidade de Computação). 
+Isso significa que ele permite que você execute seus aplicativos em qualquer lugar, independentemente do sistema operacional ou da infraestrutura. Isso é feito através do uso de containers,
+que são como pequenos pacotes de software que incluem tudo o que é necessário para executar um aplicativo. Com esse programa, você pode facilmente mover seus aplicativos entre diferentes
+sistemas operacionais e infraestruturas, sem precisar se preocupar com problemas de compatibilidade.

@@ -1,0 +1,1 @@
+Existe um programa chamado perl-number-bytes-human que ajuda a transformar números de bytes em um formato fácil de ler para humanos. Por exemplo, em vez de mostrar 1,048,576 bytes, ele mostraria 1MB. Isso é útil quando você está lidando com arquivos grandes e precisa ter uma ideia geral do tamanho deles sem ter que contar os bytes individualmente. 

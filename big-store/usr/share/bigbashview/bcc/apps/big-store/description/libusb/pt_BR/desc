@@ -1,0 +1,1 @@
+Libusb is a library that allows to communicate and access USB devices such as printers, scanners and microcontrollers, it is available for multiple platforms and easy to use, it is written in C, with bindings for other languages like python, perl and ruby. 

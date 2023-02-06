@@ -1,0 +1,1 @@
+O xorg-server-xvfb é um servidor de framebuffer virtual que permite que aplicativos gráficos sejam executados sem uma tela real. Ele é útil para testes automatizados e outras tarefas que requerem acesso aos recursos gráficos sem uma exibição física. 

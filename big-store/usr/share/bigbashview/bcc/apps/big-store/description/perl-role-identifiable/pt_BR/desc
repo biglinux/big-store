@@ -1,0 +1,4 @@
+A biblioteca Perl-Role-Identifiable é uma biblioteca útil para desenvolvedores que precisam identificar
+facilmente os papéis de usuários em seus aplicativos. Ela fornece uma maneira simples e eficiente de adicionar funcionalidades de identificação de papéis a aplicativos Perl. Com esta
+biblioteca, você pode controlar as ações permitidas para cada papel de usuário, garantindo a segurança e a privacidade dos dados do usuário. Além disso, a biblioteca é fácil de usar e
+integrar a aplicativos existentes, tornando-a uma escolha popular entre desenvolvedores Perl. 

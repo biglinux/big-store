@@ -1,0 +1,1 @@
+O Haskell possui uma característica chamada Monad, que permite que você crie loops de maneira diferente do que estamos acostumados. Esses loops são chamados de loops monádicos. 

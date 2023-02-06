@@ -1,0 +1,1 @@
+A biblioteca python-pysrt é uma ferramenta em Python para lidar com arquivos srt (SubRip). Com ela, é  possível extrair informações do arquivo, como o número de legendas, os tempos das legendas e os textos das legendas. Além disso, a biblioteca oferece métodos para manipular o arquivo srt, como adicionar ou remover legendas, mudar a sincronia das legendas e mais. 

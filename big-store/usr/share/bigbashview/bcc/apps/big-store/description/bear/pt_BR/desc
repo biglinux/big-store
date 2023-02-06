@@ -1,0 +1,1 @@
+Existe uma ferramenta chamada bear que ajuda a criar um banco de dados de compilação para ser usado com outras ferramentas do clang. Isso é útil quando se quer usar essas ferramentas para analisar ou modificar o código fonte. Com o banco de dados de compilação, as ferramentas sabem como o código foi compilado e podem agir de forma mais precisa. 

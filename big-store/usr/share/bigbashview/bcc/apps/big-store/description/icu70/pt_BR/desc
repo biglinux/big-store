@@ -1,0 +1,4 @@
+A biblioteca de componentes Unicode, ou ICU, é uma coleção de ferramentas de software para ajudar a trabalhar com texto em 
+vários idiomas e sistemas operacionais. Ela inclui suporte para formatação de data e hora, classificação de caracteres e outras tarefas comuns. A versão atual é a ICU 70.Esta biblioteca é
+amplamente utilizada em aplicativos de software, incluindo sistemas operacionais, aplicativos de escritório e aplicativos móveis. Ele também é usado como uma biblioteca de suporte para
+outras bibliotecas de software.

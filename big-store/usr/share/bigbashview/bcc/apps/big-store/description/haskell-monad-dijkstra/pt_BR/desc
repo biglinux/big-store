@@ -1,0 +1,1 @@
+O haskell-monad-dijkstra é uma biblioteca de busca em grafos ponderados que utiliza o conceito de Monad para facilitar a escrita de código e tornar o algoritmo mais legível. Ela é especialmente útil para aplicações que precisam encontrar o caminho mais curto ou mais rápido em um grafo com pesos variáveis nas arestas. 

@@ -1,0 +1,3 @@
+Este programa é uma interface para o gerenciador de favoritos buku, utilizando o rofi como frontend. Ele permite gerenciar 
+e acessar facilmente seus favoritos através de um menu interativo no terminal. Com ele, é possível adicionar novos favoritos, pesquisar e abrir os já existentes, além de organizá-los de
+diversas maneiras. É uma ótima opção para quem usa o buku e prefere uma interface de linha de comando mais amigável.

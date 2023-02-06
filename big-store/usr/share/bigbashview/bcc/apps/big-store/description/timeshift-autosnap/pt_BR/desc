@@ -1,0 +1,3 @@
+Este programa é um script que permite criar snapshots automáticos antes de atualizar pacotes no sistema. Ele usa um gancho do
+Pacman para funcionar. Com ele, você pode ter uma cópia dos seus arquivos e configurações antes de realizar mudanças no sistema, o que pode ser útil para restaurar o sistema em caso de
+problemas. 

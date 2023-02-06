@@ -1,0 +1,3 @@
+Este programa fornece uma interface web para a tecnologia de container nativa do Linux chamada LXD/LXC. Isso permite que você
+gerencie seus containers de forma fácil e intuitiva através de uma interface gráfica, em vez de precisar usar comandos no terminal.Com essa interface, você pode criar, gerenciar e excluir
+containers, além de configurar as configurações de rede e armazenamento. Também é possível acompanhar o uso de recursos dos containers e garantir que eles estejam rodando sem problemas.

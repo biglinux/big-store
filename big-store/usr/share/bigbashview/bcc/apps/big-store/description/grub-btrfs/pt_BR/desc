@@ -1,0 +1,1 @@
+grub-btrfs é um script que permite incluir snapshots do btrfs nas opções de inicialização do GRUB. Isso significa que você pode facilmente alternar entre diferentes snapshots do seu sistema, sem precisar montá-los e fazer chroot manualmente. O script também suporta subvolumes, então você pode inicializar diretamente em um subvolume específico. 

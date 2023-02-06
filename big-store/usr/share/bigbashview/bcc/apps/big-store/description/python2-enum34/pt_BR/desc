@@ -1,0 +1,4 @@
+Esse programa é uma versão do Enum, uma biblioteca do Python, que foi adaptada para funcionar na versão 2.7 do Python. Ele
+permite que você crie enumerações, ou seja, uma lista de valores pré-definidos, que podem ser usados para representar diferentes estados ou opções em seu código. Dessa forma, você evita
+erros comuns como digitar valores errados ou escrever de forma incorreta as strings.É importante destacar que essa versão do Enum é uma 'backport', ou seja, ela foi adaptada para funcionar 
+na versão 2.7 do Python baseado na versão 3.4 do Enum.

@@ -1,0 +1,3 @@
+Este programa é usado para analisar a expressão gênica em diferentes amostras. Ele usa uma distribuição negativa
+binomial para identificar genes que têm níveis diferentes de expressão entre as amostras. Isso é útil para entender como diferentes condições afetam a atividade dos genes e como isso pode
+afetar a saúde.

@@ -1,0 +1,3 @@
+O Zeus é um gerenciador de pacotes para usuários do Arch Linux que permite instalar programas do AUR (Arch User
+Repository) de forma containerizada. Isso significa que ele mantém os programas isolados uns dos outros e evita conflitos entre as dependências de cada programa. Além disso, o Zeus torna a 
+instalação de programas do AUR mais segura e fácil, pois ele cuida de baixar e compilar os arquivos necessários automaticamente. 

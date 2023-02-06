@@ -1,0 +1,1 @@
+gdbm é uma biblioteca de banco de dados de código aberto, desenvolvida como parte do projeto GNU. Ele permite aos usuários armazenar e recuperar dados em uma estrutura de chave-valor, semelhante ao dicionário. É uma ótima opção para aplicações que precisam de armazenamento de dados simples e rápido.  

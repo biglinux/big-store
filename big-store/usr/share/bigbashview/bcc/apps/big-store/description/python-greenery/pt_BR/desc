@@ -1,0 +1,4 @@
+A biblioteca python-greenery permite manipular expressões regulares como máquinas de estado finito. Isso 
+significa que ela fornece uma maneira de trabalhar com expressões regulares de uma forma mais visual e intuitiva, tornando mais fácil entender e modificar expressões complexas. Além disso, 
+a biblioteca também oferece recursos avançados, como a geração de automatos a partir de expressões regulares e a conversão de automatos em expressões regulares. Em resumo, python-greenery é
+uma ferramenta poderosa para quem trabalha com expressões regulares e deseja ter mais controle e flexibilidade sobre essas expressões.

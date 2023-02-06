@@ -1,0 +1,1 @@
+Este é um módulo para o Perl/CPAN chamado Curses::UI::POE. Ele é uma subclasse que força o CursesUI a usar o POE. 

@@ -1,0 +1,1 @@
+Este é um módulo de espectro simplificado para Python. Ele foi baseado no módulo scipy.signal.spectral, mas foi fortemente simplificado para tornar mais fácil de usar. Ele ajuda a analisar e visualizar dados de sinais, como áudio ou vídeo. 

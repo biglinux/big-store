@@ -1,0 +1,3 @@
+Este é o pacote de destino para o ASP.NET Core 6.0, ele é fornecido em formato binário. Este pacote é necessário para
+que seus aplicativos possam funcionar corretamente no ASP.NET Core 6.0.Se você está desenvolvendo um aplicativo que use o ASP.NET Core, então você precisa deste pacote para garantir que seu
+aplicativo funcione corretamente.

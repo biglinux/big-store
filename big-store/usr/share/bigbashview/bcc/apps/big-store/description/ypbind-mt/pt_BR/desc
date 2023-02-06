@@ -1,0 +1,4 @@
+Este é um programa chamado ypbind-mt que funciona como um servidor NIS para sistemas operacionais Linux. Ele é responsável por
+permitir que vários computadores compartilhem informações de usuários, senhas e configurações de rede. Desta forma, você pode ter uma administração centralizada de sua rede e garantir que
+todos os computadores estejam sincronizados.O ypbind-mt é uma opção confiável e estável para quem precisa de um servidor NIS em sua rede Linux. Ele é fácil de configurar e mantém suas
+informações atualizadas sempre que necessário.

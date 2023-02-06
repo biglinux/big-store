@@ -1,0 +1,2 @@
+Esse programa é capaz de ler arquivos xdot, que são utilizados pelo Graphviz para criar imagens de grafos. Com ele, 
+é possível visualizar esses arquivos de maneira interativa e dinâmica, utilizando as bibliotecas GTK e Cairo.

@@ -1,0 +1,1 @@
+glbinding é uma biblioteca de ligação C++ para a API OpenGL, gerada usando a especificação gl.xml. Ela é uma ligação C++ fina para a API OpenGL que implementa o estilo de modo imediato do OpenGL e foi projetada para ser altamente legível, eficiente e fácil de usar. 

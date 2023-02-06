@@ -1,0 +1,3 @@
+wxbin2c é uma ferramenta de linha de comando que permite a criação de arquivos C a partir de arquivos
+binários. Ele é útil para incluir arquivos binários em projetos de software, como imagens ou arquivos de som, sem precisar incluir os arquivos originais. O arquivo C gerado pode ser
+compilado junto com o seu código fonte, tornando o processo de distribuição e uso dos arquivos binários mais fácil.

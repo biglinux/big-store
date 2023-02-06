@@ -1,0 +1,1 @@
+Este programa é um receptor de audio Scream que utiliza Pulseaudio, ALSA, JACK ou stdout como saída de audio.

@@ -1,0 +1,1 @@
+Existe uma API chamada 'Text.Regex.*' que é usada para fazer buscas de padrões de texto com Regex (Expressões Regulares). Ela é comum em vários programas escritos em Haskell, como o 'haskell-regex-base'. Com ela, é possível encontrar rapidamente padrões específicos em um texto, o que é útil em muitas aplicações. 

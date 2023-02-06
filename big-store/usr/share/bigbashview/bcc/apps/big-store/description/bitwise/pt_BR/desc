@@ -1,0 +1,3 @@
+Este programa é uma calculadora de bitwise que funciona no seu terminal. Ele usa a biblioteca 'curses' para fornecer uma
+interface amigável para realizar cálculos de bitwise, como deslocamentos de bits, operações OR, AND e NOT. Ele é útil para programadores que precisam realizar esses cálculos rapidamente sem
+sair do terminal.

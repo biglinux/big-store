@@ -1,0 +1,1 @@
+Este é um módulo Python que contém arquivos Verilog para a CPU LM32 (Legged MIPS32). Ele pode ser usado com o sistema LiteX para simular e construir sistemas digitais. Com este módulo, é possível escrever código em Verilog para programar a CPU LM32 e testá-lo em simulações  antes de implementá-lo em hardware. 

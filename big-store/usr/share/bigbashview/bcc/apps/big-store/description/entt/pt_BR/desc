@@ -1,0 +1,3 @@
+ Adicione mais facilidade ao gerenciar entidades em seus projetos com o Entt. É um sistema de entidade-componente simples e
+fácil de usar, escrito em C++ moderno. Com ele, você poderá organizar e controlar as entidades de seu projeto de maneira eficiente. E o melhor de tudo, é header-only, ou seja, você só
+precisa incluir o cabeçalho na sua aplicação e já poderá usá-lo. Não perca mais tempo se preocupando com a gestão de entidades, experimente o Entt agora. 

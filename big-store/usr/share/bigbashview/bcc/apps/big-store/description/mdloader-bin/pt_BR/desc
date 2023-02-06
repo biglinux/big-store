@@ -1,0 +1,4 @@
+Este programa é chamado mdloader-bin e é usado para carregar firmware em dispositivos fabricados pela Massdrop. Ele é uma
+ferramenta importante para atualizar o software dos seus dispositivos e garantir que eles funcionem corretamente.Usar o mdloader-bin é simples. Primeiro, faça o download do arquivo de
+firmware correspondente ao seu dispositivo. Em seguida, conecte o dispositivo ao seu computador e execute o mdloader-bin. Ele detectará automaticamente o dispositivo e o firmware correto, e
+iniciará o processo de carregamento.Se você precisar de ajuda para usar o mdloader-bin, consulte o manual do usuário ou entre em contato com o suporte da Massdrop.

@@ -1,0 +1,1 @@
+ O AWS Serverless Application Model (AWS SAM) estabelece regras para expressar aplicações sem servidor na AWS. O python-aws-sam-translator é uma ferramenta que ajuda a traduzir essas regras para outras linguagens de programação. Com ela, é possível escrever aplicações sem servidor usando Python e ainda usufruir das vantagens do AWS SAM.  

@@ -1,0 +1,3 @@
+Este programa permite que você use as notificações do FreeDesktop em seu código python. Ele usa a biblioteca
+python-sdbus para se conectar ao sistema de notificações e enviar mensagens para o usuário. Com ele, você pode criar avisos personalizados e controlar como eles são exibidos no desktop do
+usuário. É uma ótima ferramenta para adicionar recursos de notificação em seu aplicativo. 

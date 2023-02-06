@@ -1,0 +1,3 @@
+Este é um programa chamado m64py que é usado para jogar jogos do Nintendo 64 em um computador. Ele usa algo chamado
+Mupen64Plus, que é um emulador que permite que o programa funcione em vários tipos de computadores. Ele tem uma interface fácil de usar feita com o Qt5 para que você possa jogar seus jogos 
+favoritos facilmente.

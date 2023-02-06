@@ -1,0 +1,2 @@
+Este é um driver de banco de dados NOSQL Redis para o Kamailio. Ele permite que o Kamailio se conecte e utilize o Redis como uma fonte
+de dados, permitindo armazenar e recuperar informações. Com ele, é possível melhorar a escalabilidade e desempenho do Kamailio.

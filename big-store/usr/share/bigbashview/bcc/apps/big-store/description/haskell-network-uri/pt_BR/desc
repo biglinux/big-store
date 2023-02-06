@@ -1,0 +1,1 @@
+Uma biblioteca para ajudar no uso do protocolo HTTP do lado do cliente. Ela é escrita em Haskell e é usada para acessar recursos na internet, como páginas web e arquivos. A biblioteca se chama haskell-network-uri. 

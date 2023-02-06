@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 7.2 que adiciona suporte à biblioteca GMP (GNU Multiple Precision Arithmetic Library). Ele permite que
+você execute operações matemáticas precisas e de alta precisão, como adição, subtração, multiplicação e divisão, com números inteiros e fracionários de tamanho arbitrário. Com este módulo, 
+você pode criar aplicativos e scripts que precisam de precisão matemática muito alta, como cálculos criptográficos, sem precisar se preocupar com problemas de precisão. Além disso, ele é
+compatível com a maioria dos sistemas operacionais e plataformas.

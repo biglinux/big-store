@@ -1,0 +1,4 @@
+Este é um banco de dados para armazenar informações sobre programas. Ele é escrito em uma linguagem chamada JSON, ou JavaScript
+Object Notation. Isso significa que as informações são armazenadas em formato de texto, mas organizadas de uma maneira que é fácil para computadores entenderem e acessarem. O banco de dados
+inclui informações como o nome e a descrição dos programas. Ele tem um limite de 20 palavras para o título curto e 200 palavras para a descrição completa. Isso garante que as informações
+sejam concisas e fáceis de ler.

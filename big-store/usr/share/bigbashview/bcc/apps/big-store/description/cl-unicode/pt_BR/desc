@@ -1,0 +1,1 @@
+cl-unicode é uma biblioteca para suporte a Unicode em Common Lisp. Ele fornece uma variedade completa de funções para trabalhar com caracteres e strings Unicode, incluindo propriedades de caracteres, mapeamentos de caixa e normalização. Além disso, ele inclui suporte para trabalhar com strings codificadas em UTF-8 e UTF-16. 

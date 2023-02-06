@@ -1,0 +1,3 @@
+Este é um conjunto de dados treinados para o motor OCR Tesseract, especificamente para o idioma
+japonês escrito de forma vertical. Com ele, será possível realizar a reconhecimento de caracteres japoneses em imagens e transformá-los em texto digitalizado.Esse pacote de dados é
+importante para quem precisa processar documentos ou imagens escritos em japonês e precisa de uma solução precisa e eficiente para a digitalização desse conteúdo.

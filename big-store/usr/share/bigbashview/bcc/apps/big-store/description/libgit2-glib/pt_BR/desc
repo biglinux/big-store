@@ -1,0 +1,1 @@
+Este programa é um wrapper para GLib em libgit2. Ele permite que você use as funcionalidades do libgit2 em conjunto com o GLib para aplicativos GTK+. Isso é útil para desenvolvimento de aplicativos de desktop que precisam lidar com repositórios git. 

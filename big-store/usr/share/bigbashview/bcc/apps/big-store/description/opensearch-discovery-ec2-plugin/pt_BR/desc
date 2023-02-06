@@ -1,0 +1,1 @@
+O plugin de descoberta EC2 permite usar a API da AWS para o mecanismo de descoberta unicast. Ele é projetado para funcionar com o opensearch-discovery-ec2-plugin, permitindo que você encontre facilmente seus servidores na nuvem da Amazon. Com ele, é possível automatizar a descoberta de instâncias  EC2, tornando mais fácil gerenciar e monitorar seus recursos na nuvem. 

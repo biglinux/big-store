@@ -1,0 +1,1 @@
+Essas camadas permitem que o usuário habilite verificações e registros adicionais para ajudar a depurar problemas no uso do Vulkan. Elas são projetadas para ser usadas com a biblioteca de tempo de execução do Vulkan Mesa, e fornecem uma interface adicional para inspecionar e modificar o comportamento do aplicativo. 

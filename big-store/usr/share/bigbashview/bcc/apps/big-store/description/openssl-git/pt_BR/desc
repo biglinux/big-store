@@ -1,0 +1,4 @@
+Este programa, chamado openssl-git, é uma ferramenta para ajudar a garantir a segurança de comunicações na
+internet. Ele é especialmente útil para os protocolos Transport Layer Security (TLS) e Secure Sockets Layer (SSL). Estes protocolos são usados para criptografar dados que são enviados entre
+dispositivos, como computadores e smartphones, para garantir que somente as pessoas autorizadas possam ler esses dados. Com openssl-git, você pode ter a certeza de que suas informações
+estão seguras enquanto viaja pela internet.

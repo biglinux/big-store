@@ -1,0 +1,4 @@
+Gksu é uma ferramenta gráfica para administração de sistemas. Ela permite que usuários comuns execute comandos com
+privilégios de administrador, sem precisar digitar senhas no terminal. Isso é feito através de uma interface gráfica amigável, similar ao que você encontraria em programas de administração 
+de sistemas tradicionais.Com gksu, é possível instalar programas, realizar ajustes no sistema e executar outras tarefas avançadas sem precisar de conhecimentos profundos de linha de
+comando.

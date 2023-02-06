@@ -1,0 +1,1 @@
+O python-cymem é um módulo que fornece gerenciamento de memória estilo RAII através de um pool de memória Cython. Isso permite um uso mais eficiente e seguro da memória, especialmente quando se trabalha com grandes quantidades de dados. 

@@ -1,0 +1,3 @@
+Este programa permite a integração do PHP 8.2 com o servidor LiteSpeed, tornando a execução de aplicações PHP mais rápida
+e eficiente. Ele funciona como uma extensão do PHP, ou SAPI (Server Application Programming Interface), que é responsável por comunicar o PHP com o servidor web.Ao utilizar o LiteSpeed
+SAPI, é possível obter melhorias significativas na performance e escalabilidade de aplicações PHP, além de recursos adicionais como suporte a HTTP/2 e QUIC.

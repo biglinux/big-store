@@ -1,0 +1,4 @@
+ Este programa é uma implementação simples do padrão de Responsabilidade Encadeada em Python. O padrão de
+Responsabilidade Encadeada é um design pattern que permite que vários objetos tenham a chance de lidar com uma solicitação sem saber quem a está lidando. Isso permite que você tenha uma
+cadeia de objetos que podem lidar com uma solicitação e cada objeto na cadeia tem a chance de lidar com a solicitação ou passá-la para o próximo objeto na cadeia. Isso é útil quando você
+tem várias formas de lidar com uma solicitação e você quer permitir que cada objeto tenha a chance de lidar com a solicitação. 

@@ -1,0 +1,1 @@
+A biblioteca libnma-gtk4 é uma biblioteca cliente do NetworkManager para o desenvolvimento de interfaces gráficas de usuário (GUI) usando a biblioteca GTK4. Ela oferece uma interface simplificada para trabalhar com as funcionalidades do NetworkManager, permitindo que os desenvolvedores criem aplicativos com facilidade para gerenciar conexões de rede. 

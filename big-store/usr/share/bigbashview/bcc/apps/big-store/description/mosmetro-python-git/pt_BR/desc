@@ -1,0 +1,4 @@
+Este é um script para autorização automática nas redes gratuitas de transporte de Moscou 
+(versão git). Ele é escrito em Python e facilita o processo de conexão à essas redes, dispensando a necessidade de fazer login manualmente cada vez que você quer se conectar. Com esse
+programa, você pode economizar tempo e se conectar à internet de forma mais rápida e eficiente enquanto estiver viajando pela cidade. Ele é especialmente útil para quem viaja com frequência
+e precisa se conectar à internet com regularidade.

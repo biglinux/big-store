@@ -1,0 +1,4 @@
+A libcint é uma biblioteca de cálculos químicos que permite a realização de integrais GTO (gaussian-type orbitals) para a
+química quântica. Ela é amplamente utilizada em aplicações de simulação química e é considerada uma ferramenta valiosa para cientistas de química teórica e computacional.A libcint é uma
+biblioteca open-source, ou seja, é gratuita e pode ser modificada e distribuída livremente. Ela suporta uma variedade de sistemas operacionais e arquiteturas de computador, e vem com uma
+série de exemplos e documentação para ajudar os usuários a começar.

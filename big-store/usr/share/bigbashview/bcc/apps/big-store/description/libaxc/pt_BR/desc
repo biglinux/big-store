@@ -1,0 +1,1 @@
+A libaxc é uma biblioteca de cliente para libsignal-c, também conhecida como libaxolotl. Ela permite que outros programas se comuniquem de forma segura e criptografada usando o protocolo libaxolotl. Essa biblioteca é útil para desenvolvedores que querem adicionar recursos de segurança e privacidade a seus aplicativos. 

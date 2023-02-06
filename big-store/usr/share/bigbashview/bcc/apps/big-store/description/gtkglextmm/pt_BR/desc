@@ -1,0 +1,2 @@
+Este programa adiciona suporte ao OpenGL no GTK, uma biblioteca para criar interfaces gráficas. Isso permite que
+desenvolvedores criem aplicativos com gráficos 3D e efeitos visuais mais avançados. Ele é escrito em C++ e possui vinculações para o Cpp, o que facilita a integração com outros códigos. 

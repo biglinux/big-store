@@ -1,0 +1,3 @@
+ O gnurl é um fork do projeto libcurl, que é principalmente utilizado pelo projeto GNUnet. O objetivo desse fork é
+fornecer uma versão mais atualizada e personalizada do libcurl para a utilização no projeto GNUnet. Ele inclui algumas funcionalidades adicionais e correções de bugs que não estão presentes
+na versão original do libcurl. 

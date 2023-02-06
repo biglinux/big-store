@@ -1,0 +1,2 @@
+ Tealdeer-git é um cliente de tldr escrito em Rust. Ele permite acessar resumos de comandos do terminal de forma rápida e
+fácil. Com ele, você pode aprender novos comandos ou relembrar como usar os que já conhece sem precisar ler toda a documentação. 

@@ -1,0 +1,1 @@
+Este programa foi escrito em Python e tem como objetivo extrair o domínio de nível superior (TLD) de uma URL fornecida. Por exemplo, se você digitar 'https://www.google.com', o programa retornaria 'com'. Ele é útil para organizar e classificar links em um banco de dados. 

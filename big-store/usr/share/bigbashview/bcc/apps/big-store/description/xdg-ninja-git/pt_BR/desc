@@ -1,0 +1,3 @@
+Este programa é um script de shell que verifica sua pasta $HOME em busca de arquivos e diretórios indesejados.
+Ele é chamado de xdg-ninja-git e ajuda a manter seu computador limpo e organizado, removendo automaticamente qualquer coisa que você não precise mais. É uma ótima ferramenta para usuários
+avançados ou para aqueles que querem ter mais controle sobre o que está em seu computador.

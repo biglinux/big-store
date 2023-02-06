@@ -1,0 +1,4 @@
+ O Open Sound System é uma arquitetura de áudio para sistemas UNIX. Ele é utilizado para fornecer suporte de áudio para vários
+sistemas operacionais, incluindo Linux, BSD e outros. Ele permite que os desenvolvedores criem aplicativos de áudio de alto desempenho e usuários finais possam desfrutar de áudio de alta
+qualidade. Além disso, ele também é compatível com a maioria dos dispositivos de áudio comuns, incluindo placas de som, dispositivos USB e outros. O OSS é um projeto de código aberto e é
+mantido por uma comunidade ativa de desenvolvedores e usuários. Ele também pode ser integrado com o Git, um sistema de controle de versão, para gerenciar o código fonte do projeto. 

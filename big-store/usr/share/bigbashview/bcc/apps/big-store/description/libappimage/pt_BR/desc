@@ -1,0 +1,1 @@
+libappimage é uma implementação de referência da especificação AppImage. Ele é usado para criar e gerenciar arquivos AppImage, que são pacotes portáveis de aplicativos para Linux. Com ele, é possível embalar um aplicativo e todas as suas dependências em um único arquivo, tornando mais fácil para os usuários instalar e executar o aplicativo em qualquer distribuição Linux. 

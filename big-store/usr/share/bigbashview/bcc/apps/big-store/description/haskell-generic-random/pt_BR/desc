@@ -1,0 +1,1 @@
+Esse programa é escrito em Haskell e fornece geradores randômicos genéricos para serem usados com o QuickCheck. O QuickCheck é uma biblioteca para testes aleatórios em Haskell, que permite gerar casos de teste automaticamente a partir de especificações declarativas. Com esses geradores randômicos genéricos, é possível testar seu código de maneira mais eficiente e completa. 

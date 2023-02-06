@@ -1,0 +1,5 @@
+Este programa é um módulo de cache chamado opcache, que é projetado para ser usado com a versão 8.2 do PHP. Ele ajuda a acelerar
+o desempenho do seu site ou aplicativo, armazenando em cache cópias de scripts PHP que são frequentemente usados. Isso significa que, em vez de o PHP precisar processar esses scripts toda
+vez que eles são solicitados, ele pode simplesmente usar a versão armazenada em cache, o que é muito mais rápido.Usar o opcache pode fazer uma grande diferença no desempenho de seu site ou 
+aplicativo, especialmente se você tem muitos usuários ou se está usando scripts PHP complexos. Ele é fácil de configurar e usar, e pode ser uma boa maneira de melhorar a velocidade e
+desempenho de seu projeto PHP 8.2.

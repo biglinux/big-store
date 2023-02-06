@@ -1,0 +1,1 @@
+libgccjit é uma biblioteca que permite a compilação Just-In-Time (JIT) com GCC como mecanismo de compilação. Isso significa que o código pode ser compilado e executado em tempo de execução, em vez de ser compilado antes da execução. Isso pode ser útil em aplicações que precisam de flexibilidade e performance aprimorada. 

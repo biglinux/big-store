@@ -1,0 +1,3 @@
+Este programa tem como função listar as dependências de pacotes necessárias para outros programas funcionarem
+corretamente. Imagine que você baixou um jogo no seu computador, mas ele não está funcionando. Talvez seja porque ele precisa de outros pacotes instalados antes dele. Este programa vai
+listar todos esses pacotes para você, então você sabe o que precisa baixar e instalar antes de jogar seu jogo.

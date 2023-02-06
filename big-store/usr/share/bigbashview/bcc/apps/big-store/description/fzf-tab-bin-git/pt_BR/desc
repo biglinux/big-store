@@ -1,0 +1,2 @@
+Este programa substitui o menu de seleção de complemento padrão do zsh com o fzf (versão git). Ele é útil para ajudar a
+encontrar e selecionar opções de completamento de comando mais rapidamente e de forma mais intuitiva.

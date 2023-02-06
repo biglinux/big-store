@@ -1,0 +1,1 @@
+Existe uma versão do Hspec que é utilizada para testar o próprio Hspec. Essa ferramenta é chamada haskell-hspec-meta e é utilizada para garantir a qualidade do código do Hspec.  

@@ -1,0 +1,3 @@
+tp_smapi-dkms é um pacote de módulos controlados pelo DKMS (Dynamic Kernel Module
+Support) que fornece funcionalidade SMAPI (System Management API) para laptops ThinkPad. Essa funcionalidade permite aos usuários controlar características avançadas do sistema, como a
+duração da bateria e a velocidade do ventilador.Este pacote é especialmente útil para usuários de sistemas operacionais Linux que desejam aproveitar ao máximo suas laptops ThinkPad.

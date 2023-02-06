@@ -1,0 +1,1 @@
+A biblioteca libpamac é baseada em libalpm e é utilizada pelo gerenciador de pacotes Pamac. Ela permite que o Pamac execute tarefas como instalar, atualizar e remover pacotes de forma eficiente e segura. 

@@ -1,0 +1,1 @@
+libgda-firebird é um provedor para a biblioteca libgda que permite acesso a banco de dados Firebird. Ele usa a API InterBase para acessar o banco de dados e é implementado como um módulo carregável para a biblioteca libgda. 

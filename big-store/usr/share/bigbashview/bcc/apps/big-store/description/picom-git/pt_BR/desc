@@ -1,0 +1,3 @@
+ Este programa é um compositor de janelas chamado picom-git. Ele é um fork do compton, o que significa que foi criado a
+partir dele e tem algumas diferenças. A versão que você está usando é a versão do git, o que significa que é a versão mais recente e pode conter novos recursos. O objetivo do compositor é
+melhorar a aparência e desempenho das janelas em seu ambiente de trabalho. 

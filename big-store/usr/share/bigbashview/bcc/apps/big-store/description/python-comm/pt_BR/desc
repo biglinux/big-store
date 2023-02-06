@@ -1,0 +1,1 @@
+A biblioteca python-comm é uma ferramenta para escrever kernels Jupyter. Ela permite comunicar entre o frontend Jupyter e o seu próprio código, de maneira semelhante aos kernels Jupyter nativos. Essa biblioteca é útil para qualquer pessoa que deseja criar um kernel  Jupyter personalizado para uma linguagem de programação ou caso de uso específico. 

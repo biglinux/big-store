@@ -1,0 +1,3 @@
+Este programa foi criado para automatizar o processo de compilação de projetos feitos com o Qt4. Isso significa que ele vai
+cuidar de todos os passos necessários para transformar o código fonte em um programa executável, sem a necessidade de você fazer isso manualmente.Isso pode poupar muito tempo e esforço,
+especialmente se você estiver trabalhando em projetos grandes ou se precisar compilar o mesmo projeto várias vezes.

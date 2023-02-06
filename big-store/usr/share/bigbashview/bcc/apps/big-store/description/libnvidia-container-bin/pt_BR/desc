@@ -1,0 +1,6 @@
+A biblioteca de tempo de execução de container NVIDIA é uma ferramenta importante para ajudar a garantir 
+que os programas rodando dentro de containers NVIDIA funcionem de forma correta. Ela fornece as funcionalidades necessárias para que os programas possam acessar os recursos de GPU de forma 
+segura e eficiente. Isso é especialmente importante para aplicativos de aprendizado de máquina e outras tarefas que exigem muita potência de processamento.Com a biblioteca de tempo de
+execução de container NVIDIA, os desenvolvedores podem facilmente criar e executar containers que aproveitam ao máximo a potência das GPUs NVIDIA, sem precisar se preocupar com problemas de
+compatibilidade ou configuração complexa. Isso permite que os desenvolvedores se concentrem em escrever código e criar aplicativos incríveis, em vez de lidar com problemas de
+infraestrutura.

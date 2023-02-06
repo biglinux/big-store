@@ -1,0 +1,3 @@
+Este programa é um módulo escrito em Python que ajuda a contornar a página anti-bot do Cloudflare. Ele permite que
+você acesse sites protegidos por essa ferramenta de segurança sem precisar passar por ela.Isso é útil para quem precisa coletar informações de sites que utilizam o Cloudflare para evitar
+acessos automatizados, por exemplo.

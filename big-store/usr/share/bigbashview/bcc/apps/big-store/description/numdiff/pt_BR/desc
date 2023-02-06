@@ -1,0 +1,5 @@
+Este programa foi desenvolvido para comparar arquivos e ignorar pequenas diferenças numéricas. Ele é
+útil quando você precisa verificar se dois arquivos são similares, mas não exatamente iguais. Por exemplo, se você estiver comparando resultados de simulações científicas, é possível que
+haja pequenas variações nos números devido a erros de arredondamento. Com este programa, essas diferenças podem ser ignoradas e os arquivos serão considerados iguais.O programa funciona
+comparando linha por linha dos arquivos e verificando se as diferenças numéricas são menores do que um determinado limite. Se essa condição for atendida, a linha é considerada igual. Assim,
+é possível obter uma comparação precisa dos arquivos sem se preocupar com variações insignificantes.

@@ -1,0 +1,1 @@
+ucarp é uma implementação do protocolo CARP (Common Address Redundancy Protocol) em espaço de usuário. Ele permite que múltiplos hosts compartilhem um único endereço IP virtual, permitindo assim a redundância e a alta disponibilidade desses hosts. 

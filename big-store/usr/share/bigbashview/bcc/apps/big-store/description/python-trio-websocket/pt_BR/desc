@@ -1,0 +1,5 @@
+Se você está procurando por uma maneira de adicionar comunicação em tempo real em seu aplicativo, a biblioteca
+python-trio-websocket pode ser a solução. Ela permite que você crie conexões WebSocket com facilidade usando o Trio, um framework para programação assíncrona em Python. Com ele, você pode
+criar aplicativos que precisam de comunicação em tempo real, como jogos online, chats, entre outros. A biblioteca é fácil de usar e tem uma documentação completa para ajudá-lo a
+implementá-la em seu projeto. Além disso, ela é compatível com vários sistemas operacionais, incluindo Windows, MacOS e Linux. Não perca mais tempo procurando por uma solução de comunicação
+em tempo real para seu aplicativo. Experimente a biblioteca python-trio-websocket hoje mesmo!

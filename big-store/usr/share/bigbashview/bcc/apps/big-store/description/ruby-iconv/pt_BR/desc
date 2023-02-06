@@ -1,0 +1,1 @@
+ruby-iconv é uma biblioteca que permite usar a função iconv no programa Ruby. Ela traduz texto de uma codificação para outra, como de UTF-8 para ISO-8859-1. É uma ferramenta importante para trabalhar com texto em diferentes idiomas e codificações. 

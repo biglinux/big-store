@@ -1,0 +1,1 @@
+gtkmm é um conjunto de ligaduras para usar a biblioteca GTK+ 2 com o C++. Isso permite a você desenvolver aplicativos com interface gráfica usando a facilidade do C++. Ele é uma boa opção para quem já está familiarizado com o C++ e deseja criar aplicativos com interface gráfica sem aprender uma nova linguagem. 

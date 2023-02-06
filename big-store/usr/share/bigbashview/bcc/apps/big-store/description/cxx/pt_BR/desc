@@ -1,0 +1,3 @@
+Este programa é uma ferramenta útil para compilar código escrito em C++ de forma automática. Ele detecta as flags e os includes 
+necessários sem a necessidade de você digitar manualmente. Isso torna o processo de compilação mais rápido e fácil, especialmente se você estiver trabalhando em um projeto grande ou
+complexo. Além disso, ele é compatível com as últimas versões do C++ e pode ser usado em diferentes sistemas operacionais.

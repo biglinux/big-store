@@ -1,0 +1,1 @@
+ Botan é uma biblioteca de criptografia escrita em C++. Ele fornece uma variedade de algoritmos de criptografia, incluindo RSA, AES e SHA-256. Além disso, ele também oferece suporte para protocolos de segurança, como SSL e SSH. A biblioteca é projetada para ser fácil de usar e inclui documentação detalhada para ajudar os desenvolvedores a implementar segurança em seus projetos.  

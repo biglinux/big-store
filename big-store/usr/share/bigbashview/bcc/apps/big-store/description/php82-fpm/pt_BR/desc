@@ -1,0 +1,4 @@
+ Este é um gerenciador de processos específico para a versão 8.2 do PHP. Ele trabalha como intermediário entre 
+o servidor web e o interpretador PHP, garantindo uma comunicação mais rápida e eficiente. Isso significa que ele pode lidar com muitas solicitações de usuários ao mesmo tempo, sem afetar a 
+velocidade do seu site ou aplicativo.Se você estiver usando o PHP 8.2 em seu projeto, é altamente recomendável usar este gerenciador de processos para melhorar a performance. Ele é fácil
+de configurar e usar, e pode realmente fazer uma grande diferença na velocidade e estabilidade do seu sistema. 

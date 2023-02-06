@@ -1,0 +1,5 @@
+ archivemount é um sistema de arquivos baseado em FUSE que permite a montagem de arquivos compactados, como .zip e .rar,
+como se fossem pastas normais no seu computador. Isso significa que você pode abrir, editar e salvar arquivos dentro desses arquivos compactados sem precisar extraí-los antes. Além disso,
+você pode acessar os arquivos compactados diretamente a partir de qualquer programa ou aplicativo sem precisar extraí-los primeiro. archivemount é uma ferramenta útil para quem precisa
+trabalhar com muitos arquivos compactados e quer evitar o processo de extração e compactação constante. Ele é fácil de usar e compatível com a maioria dos sistemas operacionais, incluindo
+Windows, Mac e Linux.

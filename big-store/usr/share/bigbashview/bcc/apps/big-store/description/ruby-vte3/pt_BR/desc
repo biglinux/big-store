@@ -1,0 +1,1 @@
+ruby-vte3 é uma biblioteca para Ruby que fornece acesso ao terminal VTE. Isso permite que você crie programas de terminal personalizados com a linguagem Ruby.Com essa biblioteca, você pode facilmente controlar a saída de texto, alterar as configurações de cor e muito mais. 

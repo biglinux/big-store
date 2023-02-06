@@ -1,0 +1,1 @@
+Os cabeçalhos SPIR-V são um conjunto de arquivos que permitem que programas usem a linguagem de shading SPIR-V. Essa linguagem é utilizada  para escrever shaders, que são programas que rodam na GPU e ajudam a desenhar imagens em um computador. Os cabeçalhos SPIR-V permitem que os programadores escrevam esses shaders de forma mais fácil e eficiente. 

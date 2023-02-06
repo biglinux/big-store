@@ -1,0 +1,4 @@
+A biblioteca libgnomeui é uma biblioteca de interface do usuário para o ambiente de trabalho GNOME. Ela fornece
+vários componentes de interface do usuário comuns para aplicativos GNOME, como janelas, diálogos, caixas de diálogo e caixas de seleção. Isso permite que os desenvolvedores criem
+aplicativos com uma aparência e comportamento consistentes com outros aplicativos GNOME.Além disso, a libgnomeui também fornece suporte para vários recursos avançados, como suporte para
+acessibilidade, tradução de idiomas e gerenciamento de configurações do usuário.

@@ -1,0 +1,3 @@
+ O 'oras' é uma ferramenta de linha de comando que permite empurrar e puxar arquivos de qualquer registro OCI. Isso é
+útil quando você precisa gerenciar imagens de contêiner em um registro remoto e não quer usar a interface web. Com o 'oras', você pode fazer tudo pelo terminal, o que é mais rápido e
+eficiente. Além disso, ele é compatível com vários sistemas operacionais, então você pode usá-lo em qualquer lugar. 

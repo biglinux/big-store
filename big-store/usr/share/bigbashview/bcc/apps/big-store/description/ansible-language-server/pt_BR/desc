@@ -1,0 +1,4 @@
+O Ansible Language Server é um programa que ajuda a gerenciar as configurações de sua rede de forma
+automatizada. Ele funciona através de scripts, chamados de 'playbooks', que podem ser escritos em várias linguagens, como Python e YAML. Com ele, você pode automatizar tarefas comuns, como 
+instalação de software, configuração de serviços e atualizações de segurança. Além disso, ele possibilita a criação de scripts para gerenciamento de múltiplas máquinas ao mesmo tempo, o que
+facilita a administração de grandes redes.

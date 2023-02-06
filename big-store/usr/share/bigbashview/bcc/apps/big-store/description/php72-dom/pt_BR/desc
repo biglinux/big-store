@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.2 que permite que você trabalhe com documentos HTML e XML de uma maneira fácil e intuitiva. Ele
+possibilita acessar e modificar elementos em um documento, bem como adicionar novos elementos e atributos. Além disso, ele possibilita a criação de novos documentos a partir do zero.O
+módulo DOM é útil para qualquer pessoa que precise trabalhar com documentos HTML ou XML, seja para criação de sites ou para processamento de dados em aplicações.

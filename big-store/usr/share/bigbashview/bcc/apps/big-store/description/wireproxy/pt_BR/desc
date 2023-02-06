@@ -1,0 +1,1 @@
+Este programa é um cliente Wireguard que se expõe como um proxy SOCKS5. Isso significa que ele permite que você se conecte a uma rede Wireguard usando uma configuração de proxy SOCKS5. Isso pode ser útil em situações em que o acesso à rede Wireguard está bloqueado por algum motivo, mas você ainda tem acesso a uma conexão com um proxy SOCKS5. 

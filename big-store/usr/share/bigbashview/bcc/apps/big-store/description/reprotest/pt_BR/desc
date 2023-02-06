@@ -1,0 +1,1 @@
+O programa 'reprotest' permite rodar um processo duas vezes e comparar as saídas para garantir a reproducibilidade dos resultados. Isso é importante para garantir que os resultados obtidos sejam confiáveis e precisos. 

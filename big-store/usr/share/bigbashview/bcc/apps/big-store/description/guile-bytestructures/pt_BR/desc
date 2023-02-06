@@ -1,0 +1,1 @@
+guile-bytestructures é uma biblioteca que permite acessar conteúdo de bytevetor de forma estruturada usando o Guile. Ela oferece uma maneira fácil e eficiente de ler e escrever dados em um bytevetor, e suporta diversos tipos de dados, como inteiros, ponteiros e strings. Com essa biblioteca, é possível trabalhar com dados binários de forma simples e intuitiva. 

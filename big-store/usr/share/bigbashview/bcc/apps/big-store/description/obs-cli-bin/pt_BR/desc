@@ -1,0 +1,3 @@
+ O OBS-cli é um programa que permite controlar o OBS (Open Broadcasting Software) através da linha de comando. Isso 
+significa que você pode fazer tudo o que faria normalmente no OBS, como iniciar e parar a transmissão, mudar as fontes e ajustar as configurações, tudo sem precisar abrir a interface
+gráfica do OBS. É uma ferramenta útil para quem precisa automatizar tarefas ou precisa controlar o OBS a partir de outros programas. 

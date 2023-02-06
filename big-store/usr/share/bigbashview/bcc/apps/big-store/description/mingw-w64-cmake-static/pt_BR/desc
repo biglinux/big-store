@@ -1,0 +1,2 @@
+Essa ferramenta é uma espécie de 'envolvimento' para o MinGW (mingw-w64) e é estática. Isso significa que ela é uma versão do
+programa que não precisa de outros arquivos para funcionar. Ela é uma ferramenta que ajuda a construir e gerenciar projetos de software. 

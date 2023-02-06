@@ -1,0 +1,1 @@
+libidn2 é uma implementação livre de IDNA2008, Punycode e TR46. Ele é usado para converter nomes de domínios internacionais para uma forma que os computadores possam entender. Isso permite que os usuários acessem sites com nomes de domínio em outros idiomas, como chinês ou russo, sem problemas. Ele é fácil de usar e pode ser incorporado em outros programas. 

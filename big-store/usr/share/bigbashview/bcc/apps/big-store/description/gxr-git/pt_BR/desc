@@ -1,0 +1,2 @@
+Este programa é um wrapper, ou seja, ele ajuda a usar outros programas. Ele foi feito para facilitar o uso das APIs OpenVR e
+OpenXR. É baseado no glib, que é uma biblioteca comum para programas em C. Se você precisa usar essas APIs, mas acha difícil, esse programa pode ser útil.

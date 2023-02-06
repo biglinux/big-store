@@ -1,0 +1,1 @@
+O physfs é um sistema de arquivos virtuais que permite acessar arquivos em diferentes formatos de arquivos, como zip e iso, como se eles estivessem em pastas normais no seu computador. Ele é útil para desenvolvedores de jogos e aplicativos que precisam lidar com arquivos empacotados  de maneira eficiente. 

@@ -1,0 +1,4 @@
+Este programa é uma implementação em C da função lru_cache do Python 3. Ele permite armazenar em cache os resultados de funções de
+maneira rápida e eficiente, melhorando o desempenho do seu código. Ele é especialmente útil para funções que são chamadas várias vezes com os mesmos argumentos.Ao usar o cache, o programa
+não precisa calcular novamente o resultado da função, economizando tempo e recursos do computador. Ele também remove os resultados mais antigos quando o cache estiver cheio, garantindo que 
+os mais recentes sejam mantidos.

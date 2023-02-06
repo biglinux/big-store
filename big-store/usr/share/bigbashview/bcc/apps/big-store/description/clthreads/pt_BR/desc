@@ -1,0 +1,1 @@
+clthreads é uma biblioteca em C++ que permite que você use as threads POSIX de forma mais fácil e simples. Isso significa que você pode criar e gerenciar múltiplos processos ao mesmo tempo em seu programa, tornando-o mais eficiente e rápido. Com essa biblioteca, você pode escrever código que use threads sem precisar se preocupar com todos os detalhes técnicos envolvidos. 

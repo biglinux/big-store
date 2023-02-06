@@ -1,0 +1,1 @@
+A biblioteca laszip2 é uma biblioteca de compressão sem perda para arquivos LAS, utilizada pelo ASPRS (American Society for Photogrammetry and Remote Sensing). Ela é a versão 2 dessa biblioteca e é usada para compactar e descompactar esses arquivos, sem perda de informação. 

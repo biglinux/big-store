@@ -1,0 +1,3 @@
+Este programa é um script que permite configurar a criptografia transparente de arquivos dentro de um repositório Git.
+Ele funciona adicionando uma camada de segurança extra aos arquivos do seu projeto, garantindo que somente as pessoas autorizadas possam acessá-los. É uma ótima opção para projetos
+sensíveis ou que lidam com dados confidenciais.

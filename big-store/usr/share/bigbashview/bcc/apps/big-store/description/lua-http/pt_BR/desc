@@ -1,0 +1,1 @@
+lua-http é uma biblioteca desenvolvida para o uso de protocolo HTTP dentro do interpretador Lua 5.4. Ela permite ao usuário realizar requisições HTTP e lidar com respostas de forma simples e eficiente, facilitando a integração de aplicações Lua com serviços web. 

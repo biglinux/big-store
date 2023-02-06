@@ -1,0 +1,4 @@
+Este é um script feito em Python que possibilita a autorização automática em
+redes gratuitas de transporte na cidade de Moscou. Com ele, você pode conectar-se à internet sem precisar ficar digitando senhas ou códigos de acesso. Ele é fácil de usar e pode ser
+executado em qualquer dispositivo com Python instalado.Basta fornecer as suas informações de login e o script se encarrega de fazer a conexão para você. Ele também possui uma opção para
+manter a conexão ativa, evitando que você precise se reconectar toda vez que precisar usar a internet.

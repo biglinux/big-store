@@ -1,0 +1,4 @@
+A Ferramenta de Memória e Armazenamento da Intel (MAS) é uma ferramenta de linha de comando
+que ajuda você a gerenciar e atualizar o firmware de seus dispositivos de armazenamento, como SSDs PCIe/NVMe/SATA e Optane. Ela também permite mudar o tamanho dos setores para 4Kn. Com essa
+ferramenta, é possível fazer upgrade de firmware, verificar status de dispositivos, realizar testes de desempenho e muito mais. Ela é uma ótima opção para administradores de sistemas e
+profissionais de TI que precisam gerenciar dispositivos de armazenamento em sua rede. 

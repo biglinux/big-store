@@ -1,0 +1,5 @@
+A libsemanage é uma biblioteca utilizada para manipular as políticas binárias do SELinux. Ela permite
+criar, modificar e excluir regras de segurança, garantindo que os arquivos e programas do sistema operacional fiquem protegidos contra ameaças externas. Além disso, ela também permite
+gerenciar as permissões de usuários e aplicativos de forma eficiente e segura.A libsemanage é uma ferramenta essencial para administradores de sistemas que desejam garantir a segurança dos 
+seus sistemas operacionais e proteger contra ameaças externas. Ela é simples de usar e possui uma documentação completa para ajudar os usuários a entender como funciona e como utilizá-la de
+forma eficiente.

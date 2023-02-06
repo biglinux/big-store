@@ -1,0 +1,4 @@
+Este programa é um gerenciador de histórico de área de transferência para usuários do wayland. Ele permite 
+que você acesse facilmente itens antigos que você já copiou e cole novamente, sem precisar refazer a operação de cópia. Isso pode ser muito útil quando você precisa copiar e colar várias
+vezes a mesma informação, como um endereço de e-mail ou um número de telefone.Além disso, ele também oferece opções adicionais, como a capacidade de pesquisar no histórico de área de
+transferência e salvar itens específicos para uso futuro.

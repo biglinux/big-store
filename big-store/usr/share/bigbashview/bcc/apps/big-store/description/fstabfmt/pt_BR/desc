@@ -1,0 +1,4 @@
+Este programa é usado para formatar arquivos fstab, que são usados para montar sistemas de arquivos automaticamente no sistema
+operacional. Ele irá organizar as informações dentro do arquivo de forma que seja mais fácil para você entender e gerenciar as partições do seu disco. Ele também pode adicionar ou remover
+entradas no arquivo fstab.Usando esse programa, você pode ter certeza de que seu arquivo fstab estará sempre organizado e preciso, o que pode ajudar a evitar problemas de montagem de
+sistemas de arquivos no futuro.

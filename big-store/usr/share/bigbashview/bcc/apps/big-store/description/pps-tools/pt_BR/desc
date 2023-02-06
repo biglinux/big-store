@@ -1,0 +1,1 @@
+Ferramentas do LinuxPPS para acesso ao protocolo PPS (pulso por segundo) via user-space. Essas ferramentas permitem sincronizar o clock de sistemas de tempo real com fontes de tempo externas, como GPS. Elas são muito úteis para aplicações que exigem precisão temporal, como sistemas de navegação, telecomunicações e experimentos científicos. 

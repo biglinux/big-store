@@ -1,0 +1,1 @@
+Essa biblioteca é usada para trabalhar com teclas em aplicações que usam a ligação XC. Ela inclui constantes padrão para teclas X, como as setas do teclado, Enter, e espaço, bem como ferramentas para converter entre códigos de tecla e nomes de tecla.Ela é especialmente útil para desenvolvedores que estão criando aplicativos gráficos e precisam lidar com entrada de teclado. 

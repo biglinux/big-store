@@ -1,0 +1,1 @@
+O haskell-ghc-paths é um pacote que fornece informações sobre os diretórios de instalação do GHC (Glasgow Haskell Compiler) em sistemas operacionais diferentes. Ele pode ser útil para desenvolvedores que precisam programar com o Haskell e precisam saber onde o GHC está instalado em suas máquinas. 

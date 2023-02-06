@@ -1,0 +1,3 @@
+Luau é uma linguagem de script rápida, pequena e segura. Ela foi desenvolvida a partir de Lua e é gradualmente
+tipada. Isso significa que os tipos de dados podem ser inferidos automaticamente pelo programa, o que facilita a escrita de código. Além disso, é uma linguagem embarcável, o que significa
+que pode ser facilmente incorporada em outros projetos.

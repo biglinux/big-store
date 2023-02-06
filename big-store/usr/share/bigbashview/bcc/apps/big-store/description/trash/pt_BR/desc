@@ -1,0 +1,3 @@
+Este programa é um gerenciador de lixeira para linha de comando (CLI). Ele permite que você mova arquivos para a lixeira ao
+invés de excluí-los permanentemente. Isso é útil porque você pode recuperar arquivos excluídos acidentalmente. Além disso, o programa também permite que você limpe a lixeira periodicamente 
+para liberar espaço em disco.

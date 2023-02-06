@@ -1,0 +1,2 @@
+ dxvk-async é uma camada de compatibilidade baseada em Vulkan para Direct3D 9/10/11 que permite executar
+aplicativos 3D no Linux usando Wine. É uma versão da biblioteca DLL do Windows. 

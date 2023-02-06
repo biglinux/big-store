@@ -1,0 +1,3 @@
+Este programa é um script para gerenciar sua rede e seu DNS (sistema de nomes de domínio). Ele funciona com o sistema operacional
+Linux e pode ser usado com o systemd ou o sysvinit. Ele ajuda a garantir que sua conexão com a internet funcione corretamente e que você possa acessar sites e serviços sem problemas.Ele é
+especialmente útil se você tiver problemas com a configuração de sua rede ou DNS e precisar de uma ferramenta fácil de usar para resolvê-los.

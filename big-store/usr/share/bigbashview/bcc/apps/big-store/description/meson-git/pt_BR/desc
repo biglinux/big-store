@@ -1,0 +1,3 @@
+O Meson é um sistema de construção similar ao SCons, que usa o Python como linguagem de frente e o Ninja como mecanismo de
+construção. Ele foi projetado para ser rápido, fácil de usar e escalável para projetos grandes e pequenos. O Meson também se integra facilmente com outras ferramentas de desenvolvimento,
+como o IDE e o VCS. Ele é uma opção poderosa e moderna para gerenciar seus projetos de desenvolvimento de software. 

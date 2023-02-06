@@ -1,0 +1,3 @@
+ cutelyst é um framework web construído com a biblioteca Qt. Ele é projetado para ser rápido, escalável e fácil de usar. Com 
+ele, você pode criar aplicativos web modernos e poderosos usando C++. Além disso, ele suporta vários padrões web, como HTTP/2 e WebSockets, e possui uma arquitetura de plugin flexível. Se
+você está procurando por um framework web para seus projetos em C++, o cutelyst pode ser a escolha perfeita.

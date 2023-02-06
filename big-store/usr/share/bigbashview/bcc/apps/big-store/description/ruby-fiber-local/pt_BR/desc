@@ -1,0 +1,1 @@
+O ruby-fiber-local é um pacote que fornece uma classe de mixin para tornar o uso de estado local  de fibra mais fácil. Com ele, é possível acessar e modificar variáveis de estado local dentro de uma fibra sem precisar se preocupar com questões de sincronização ou outros problemas comuns. É uma ferramenta útil para quem trabalha com programação concorrente em Ruby. 

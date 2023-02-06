@@ -1,0 +1,4 @@
+Este é um programa que oferece bibliotecas para usar junto com o banco de dados PostgreSQL. Com elas, é possível
+desenvolver aplicações que interagem com o banco de forma mais fácil e eficiente. As bibliotecas incluem funções para conectar ao banco, executar comandos SQL e gerenciar os resultados.
+Elas também fornecem recursos para trabalhar com transações e outros recursos avançados do PostgreSQL. Este programa é importante para desenvolvedores que precisam criar aplicações que usam
+o PostgreSQL como banco de dados. Ele é compatível com a versão 13 do banco de dados. 

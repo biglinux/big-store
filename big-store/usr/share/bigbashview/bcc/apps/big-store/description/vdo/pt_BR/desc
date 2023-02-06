@@ -1,0 +1,3 @@
+ Ferramentas de espaço do usuário para gerenciar volumes VDO. Essas ferramentas permitem criar, gerenciar e monitorar 
+volumes VDO no espaço do usuário, sem a necessidade de acesso de administrador. Com elas, é possível obter informações detalhadas sobre os volumes, incluindo o uso de espaço, desempenho e
+status. Além disso, é possível realizar ações como criação, exclusão e redimensionamento de volumes.

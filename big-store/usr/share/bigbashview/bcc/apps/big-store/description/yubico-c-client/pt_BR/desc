@@ -1,0 +1,1 @@
+A biblioteca yubico-c-client é uma biblioteca em C para clientes que desejam se comunicar com dispositivos YubiKey. Ela permite que os desenvolvedores implementem autenticação de dois fatores com a plataforma YubiKey em suas aplicações. A biblioteca oferece suporte a diversas funcionalidades, como autenticação OTP, PIV e U2F. 

@@ -1,0 +1,1 @@
+cppcheck é uma ferramenta para análise estática de código C/C++. Ele verifica o código fonte em busca de erros e problemas de qualidade, como vazamentos de memória, operações inválidas, entre outros. É uma ferramenta  útil para desenvolvedores que desejam garantir que seu código está livre de erros e segue as melhores práticas. 

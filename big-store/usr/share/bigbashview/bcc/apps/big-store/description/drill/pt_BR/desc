@@ -1,0 +1,3 @@
+Este é um programa de teste de carga HTTP escrito em Rust, inspirado na sintaxe do Ansible. Ele ajuda a verificar a
+capacidade de suporte de um site ou aplicativo, simulando vários usuários acessando ao mesmo tempo. Assim, você pode identificar pontos de falha antes que eles aconteçam de verdade,
+garantindo uma melhor performance para seus visitantes. 

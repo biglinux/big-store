@@ -1,0 +1,4 @@
+Este programa tem como objetivo atualizar automaticamente os registros de DNS para o endereço IP local dinâmico. Isso
+é útil quando você tem um endereço IP dinâmico atribuído pelo seu provedor de internet e deseja acessar seu dispositivo em casa usando um nome de domínio personalizado, em vez de precisar
+lembrar o endereço IP.Com o python-ddns, você pode configurar o programa para verificar regularmente seu endereço IP atual e atualizar os registros de DNS de acordo, garantindo que você
+sempre tenha acesso ao seu dispositivo usando o nome de domínio desejado.

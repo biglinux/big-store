@@ -1,0 +1,1 @@
+python-pysvn é uma interface pythonica para o Subversion. Ela permite que os desenvolvedores usem o Subversion, um sistema de controle de versão, diretamente em seus scripts python. Isso facilita a automação de tarefas relacionadas ao controle de versão e permite que os desenvolvedores integrem o Subversion em seus fluxos de trabalho. 

@@ -1,0 +1,3 @@
+Este é um kernel Linux com material de trabalho em andamento (WIP) para suporte de placas de vídeo AMDGPU. Ele inclui módulos
+específicos para esses tipos de dispositivos de gráficos, permitindo que eles funcionem corretamente no sistema operacional. Esse kernel é especialmente útil para usuários que possuem
+placas de vídeo AMDGPU e desejam obter o melhor desempenho possível de seus dispositivos.

@@ -1,0 +1,3 @@
+Este é um programa que permite que você veja o código fonte de outros programas escritos em .NET. Ele é baseado em
+outro programa chamado ILSpy e foi adaptado para funcionar com a biblioteca Avalonia. Isso significa que ele tem uma interface gráfica bonita e fácil de usar, e também é compatível com
+vários sistemas operacionais diferentes, como Windows, Linux e Mac.

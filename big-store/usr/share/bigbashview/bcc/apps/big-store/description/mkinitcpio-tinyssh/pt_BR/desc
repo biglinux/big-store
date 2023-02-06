@@ -1,0 +1,1 @@
+mkinitcpio-tinyssh é um hook para o Arch Linux's mkinitcpio que permite instalar e habilitar o daemon tinyssh no early userspace. Isso significa que você será capaz de se conectar ao seu computador via SSH mesmo antes dele ter completamente iniciado. Isso pode ser útil para solução de problemas e recuperação. 

@@ -1,0 +1,6 @@
+Este é um módulo para o PHP 7.4 que adiciona suporte para trabalhar com arquivos XML de forma simples e eficiente. Ele permite 
+que você carregue, edite e crie arquivos XML usando uma estrutura de objetos fácil de entender. Com este módulo, você pode ler e escrever arquivos XML de forma rápida e fácil, sem precisar 
+se preocupar com detalhes complexos da linguagem. Além disso, o módulo SimpleXML também permite que você valide arquivos XML usando esquemas DTD ou XSD, o que garante que os arquivos
+estejam de acordo com as regras especificadas. Ele também oferece suporte a XPath, o que permite que você encontre facilmente elementos específicos em um arquivo XML. Em resumo, o módulo
+SimpleXML para PHP 7.4 é uma ferramenta poderosa para trabalhar com arquivos XML de forma fácil e eficiente, permitindo que você realize tarefas comuns como carregar, editar e criar
+arquivos XML de forma simples, sem precisar se preocupar com detalhes técnicos da linguagem.

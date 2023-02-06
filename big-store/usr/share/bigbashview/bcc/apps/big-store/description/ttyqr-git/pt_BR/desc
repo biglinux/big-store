@@ -1,0 +1,4 @@
+Esse programa permite que você crie códigos QR diretamente no seu terminal. Isso significa que, em vez de precisar baixar uma
+imagem de um código QR ou usar uma ferramenta online, você pode gerar o código diretamente no seu próprio computador. Isso é útil para quem precisa compartilhar rapidamente informações,
+como links, sem precisar sair do terminal.Além disso, este programa é baseado no Git, o que significa que é fácil de instalar e atualizar, e também é fácil de contribuir para o
+desenvolvimento dele.

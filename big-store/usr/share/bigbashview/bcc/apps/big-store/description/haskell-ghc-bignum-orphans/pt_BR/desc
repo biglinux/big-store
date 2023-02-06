@@ -1,0 +1,1 @@
+Esse pacote proporciona instâncias órfãs compatíveis com versões antigas para ghc-bignum. Isso significa que ele permite que você use funções específicas para trabalhar com números grandes, mesmo se você estiver usando uma versão antiga do compilador Haskell (ghc). Dessa forma,  você pode continuar usando as suas bibliotecas favoritas sem precisar atualizar todo o seu código. 

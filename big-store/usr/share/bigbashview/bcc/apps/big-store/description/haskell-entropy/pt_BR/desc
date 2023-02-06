@@ -1,0 +1,1 @@
+Este programa fornece um método principalmente independente de plataforma (não GHCJS) para obter entropia criptograficamente forte. Ele é escrito em Haskell e é chamado haskell-entropia. 

@@ -1,0 +1,2 @@
+Esse programa oferece suporte para a linguagem Haskell através do uso de um servidor de linguagem (LSP). Ele é o sucessor de
+outros programas como o ghcide e o haskell-ide-engine.

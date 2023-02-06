@@ -1,0 +1,1 @@
+ O Digital Speech Decoder (DSD) foi reescrito como uma biblioteca C++. Isso significa que agora é possível integrar as funcionalidades do DSD em outros programas escritos em C++. A biblioteca também foi projetada para ser fácil de usar e personalizar, tornando-a uma escolha popular para desenvolvedores que precisam de decodificação de fala em seus projetos.  

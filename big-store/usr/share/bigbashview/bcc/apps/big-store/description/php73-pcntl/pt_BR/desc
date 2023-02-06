@@ -1,0 +1,4 @@
+O módulo pcntl para o PHP73 é uma extensão que permite ao usuário controlar processos através de comandos como o fork e
+o exec. Ele é útil para gerenciar tarefas em segundo plano, como envio de e-mails em massa ou processamento de arquivos em lote.Além disso, ele também permite a criação de processos filhos,
+que podem ser usados para dividir tarefas de maneira eficiente e aumentar a velocidade de processamento. Este módulo é compatível com a versão 7.3 do PHP e é fácil de instalar e
+configurar.

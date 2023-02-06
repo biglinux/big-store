@@ -1,0 +1,3 @@
+ Este programa é um módulo para o PHP 7.3 que adiciona funções para a escrita de arquivos XML. Ele permite que você crie
+facilmente documentos XML, adicionando elementos, atributos e conteúdo de texto. Além disso, ele também oferece recursos para editar esses documentos já existentes. É uma ferramenta útil
+para qualquer projeto que precise lidar com dados em formato XML. 

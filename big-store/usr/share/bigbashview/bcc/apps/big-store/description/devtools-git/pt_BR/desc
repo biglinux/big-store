@@ -1,0 +1,3 @@
+devtools-git é um conjunto de ferramentas para ajudar os mantenedores de pacotes Arch Linux a gerenciar e
+construir pacotes para o sistema. Ele inclui scripts para ajudar na construção, testes e implantação de pacotes, além de ferramentas para ajudar a manter a qualidade e compatibilidade dos
+pacotes. Também fornece recursos para gerenciar pacotes AUR (Arch User Repository). Com devtools-git, os mantenedores de pacotes podem economizar tempo e esforço ao gerenciar seus pacotes.

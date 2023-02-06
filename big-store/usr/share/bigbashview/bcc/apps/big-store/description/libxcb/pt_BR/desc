@@ -1,0 +1,1 @@
+libxcb é uma biblioteca do lado do cliente para o protocolo X Window System, usado para comunicar com o gerenciador de janelas X11. Ela oferece uma interface de programação mais moderna e eficiente do que a biblioteca original Xlib, além de suportar a maioria das funcionalidades do X11. libxcb é usada por muitos aplicativos e bibliotecas populares, como o GTK+ e o Qt. 

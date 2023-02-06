@@ -1,0 +1,4 @@
+O PhpStorm é um ambiente de desenvolvimento integrado (IDE) para PHP. Ele é desenvolvido pela JetBrains e oferece uma
+série de recursos para ajudar a escrever e depurar código PHP. O PhpStorm inclui suporte para vários frameworks e bibliotecas PHP, como Laravel, Symfony e Zend Framework. Além disso, ele
+oferece recursos de edição de código avançados, como sugestões de código, verificação de sintaxe e integração com sistemas de controle de versão. O PhpStorm também vem com o JBR (JetBrains 
+Runtime) for PhpStorm - uma JRE (Java Runtime Environment) modificada para garantir o melhor desempenho possível.

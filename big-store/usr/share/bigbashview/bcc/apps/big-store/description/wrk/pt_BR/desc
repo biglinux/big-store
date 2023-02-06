@@ -1,0 +1,3 @@
+ wrk é uma ferramenta de benchmarking HTTP moderna, que permite testar a performance de um site ou aplicação web. Ele
+é capaz de simular vários usuários acessando o site ao mesmo tempo, e fornece informações detalhadas sobre a velocidade e a capacidade de resposta do sistema. Com essas informações, é
+possível identificar problemas de desempenho e tomar medidas para melhorar a experiência do usuário. 

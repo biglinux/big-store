@@ -1,0 +1,1 @@
+Este repositório oferece uma coleção de cabeçalhos em C++ que tornam mais fácil escrever módulos de extensão em Python. Ele fornece uma maneira simples de acessar as funcionalidades do Python a partir de um código em C++, permitindo que você adicione recursos personalizados à sua aplicação Python sem precisar escrever todo o código em Python. 

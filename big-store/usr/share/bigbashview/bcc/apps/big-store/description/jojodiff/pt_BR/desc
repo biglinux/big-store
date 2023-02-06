@@ -1,0 +1,3 @@
+ jojodiff é uma ferramenta de comparação de arquivos binários. Ele funciona comparando dois arquivos e
+mostrando as diferenças entre eles. É útil para verificar se duas versões de um arquivo são iguais ou se houve alguma alteração. Também pode ser usado para encontrar diferenças entre
+backups de arquivos. 

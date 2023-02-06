@@ -1,0 +1,4 @@
+Este é um script chamado nvidia-xrun que permite que você execute um servidor X dedicado com a placa
+gráfica Nvidia. Isso é útil quando você quer usar aplicativos gráficos pesados em segundo plano sem afetar o desempenho do seu sistema. Ele é especialmente útil para jogos e aplicativos de 
+edição de vídeo.Para usar esse script, você precisará ter a placa gráfica Nvidia instalada e configurada corretamente. Ele também requer que você tenha o pacote 'nvidia-xrun' instalado em
+seu sistema.

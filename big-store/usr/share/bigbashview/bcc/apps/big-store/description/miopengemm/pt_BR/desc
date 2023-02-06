@@ -1,0 +1,3 @@
+ Este é um programa chamado miopengemm que é um gerador de kernel GEMM para OpenCL. Ele ajuda a criar kernels GEMM (matriz de
+multiplicação de matrizes) que podem ser usados para acelerar operações matriciais em dispositivos com OpenCL, como GPUs. Ele é útil para pessoas que desenvolvem aplicativos que precisam
+realizar cálculos matriciais rapidamente e eficientemente. 

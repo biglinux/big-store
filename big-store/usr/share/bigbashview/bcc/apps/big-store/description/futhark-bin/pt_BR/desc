@@ -1,0 +1,3 @@
+ Futhark é uma linguagem de programação funcional que foi projetada para trabalhar com dados paralelos. Isso
+significa que ele pode dividir o trabalho em várias partes e executá-las ao mesmo tempo em vários processadores, o que aumenta a velocidade de processamento. Além disso, Futhark é uma
+linguagem simples e fácil de aprender, o que a torna uma boa opção para iniciantes em programação.

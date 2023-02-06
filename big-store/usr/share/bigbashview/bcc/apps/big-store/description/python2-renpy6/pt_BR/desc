@@ -1,0 +1,4 @@
+Esta é a biblioteca base do motor de visual novel Ren'Py, versão antiga 6.x. Ela fornece as ferramentas
+necessárias para criar histórias interativas e jogos visuais usando a linguagem de programação Python. Com ela, você pode criar personagens, cenários e diálogos, além de adicionar imagens, 
+música e efeitos de som para tornar sua história ainda mais envolvente.Este é o pacote python2-renpy6, que é compatível com a versão antiga do Ren'Py. Se você estiver usando uma versão mais
+recente, é recomendado usar o pacote python3-renpy.

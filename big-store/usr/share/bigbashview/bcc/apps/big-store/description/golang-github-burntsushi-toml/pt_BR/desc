@@ -1,0 +1,1 @@
+Este é um programa chamado golang-github-burntsushi-toml. Ele é um analisador TOML (Tom's Obvious, Minimal Language) para a linguagem de programação Golang. Ele também usa reflexão, o que significa que ele pode ler e entender automaticamente os tipos de dados em seu código. 

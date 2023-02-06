@@ -1,0 +1,3 @@
+Krew é o gerenciador de pacotes para plugins do kubectl. Com ele, é possível instalar, gerenciar e remover
+facilmente plugins para o kubectl. Isso torna mais fácil adicionar recursos e funcionalidades ao seu fluxo de trabalho do Kubernetes.Além disso, o Krew é projetado para ser seguro e fácil
+de usar, garantindo que você possa confiar nos plugins que está instalando em seu ambiente. Ele também é compatível com várias plataformas, incluindo Windows, MacOS e Linux.

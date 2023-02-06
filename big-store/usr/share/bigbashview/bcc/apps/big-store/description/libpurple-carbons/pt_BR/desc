@@ -1,0 +1,3 @@
+Este programa é um plugin experimental para programas de bate-papo como Pidgin e Finch. Ele adiciona a
+funcionalidade de troca de mensagens entre dispositivos, chamada de XEP-0280: Message Carbons. Isso significa que você pode receber as mensagens enviadas em outros dispositivos, além do que
+você está usando no momento.Ele é baseado na biblioteca libpurple, uma biblioteca comum para programas de bate-papo.

@@ -1,0 +1,1 @@
+lpsolve é um solucionador de programação linear inteira mista (MILP), que permite encontrar a melhor solução para problemas que incluem variáveis inteiras, além de variáveis reais. Ele é capaz de lidar com restrições e objetivos complexos, e é amplamente utilizado em aplicações como otimização de  recursos, planejamento logístico e programação financeira. 

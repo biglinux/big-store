@@ -1,0 +1,1 @@
+Este é um plugin para Certbot, uma ferramenta de automação de certificados SSL. Ele permite que você gerencie facilmente os  certificados SSL para o seu site usando o Nginx como servidor web.Com este plugin, você pode facilmente configurar e renovação automatica de certificados SSL para o seu site sem precisar se preocupar em fazer isso manualmente. 

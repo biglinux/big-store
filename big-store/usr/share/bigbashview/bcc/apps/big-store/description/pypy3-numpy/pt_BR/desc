@@ -1,0 +1,3 @@
+O PyPy3-Numpy é um pacote de ferramentas científicas para o Python. Ele fornece uma série de funções matemáticas
+avançadas, como álgebra linear, estatísticas e transformações de Fourier, que podem ser usadas para construir aplicativos científicos e de análise de dados. Ele é baseado no popular pacote 
+NumPy e foi otimizado para funcionar com a implementação PyPy do Python, o que geralmente resulta em um desempenho mais rápido do que o uso do NumPy com o Python padrão.

@@ -1,0 +1,1 @@
+Esse programa permite que você eleve um tipo de restrição Typeable para um tipo Template Haskell. Isso é útil quando você quer trabalhar com tipos de forma genérica, mas ainda precisa de algumas informações específicas sobre eles. O haskell-lift-type é uma ferramenta valiosa para qualquer pessoa trabalhando com o Haskell. 

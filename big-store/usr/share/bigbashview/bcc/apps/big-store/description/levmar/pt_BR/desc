@@ -1,0 +1,3 @@
+ Este é um algoritmo de mínimos quadrados não-lineares chamado Levenberg-Marquardt, escrito em C/C++. Ele é usado
+para resolver problemas de otimização não-linear, encontrando a melhor solução para uma equação complexa.É importante destacar que este algoritmo é muito eficiente e tem uma grande
+variedade de aplicações, desde a análise de dados em ciências sociais até a otimização de processos em indústrias. 

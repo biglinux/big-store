@@ -1,0 +1,2 @@
+Este é um navegador baseado no Chromium, mas sem a presença do Google. Ele possui patches Ozone para funcionar com o sistema
+Wayland.

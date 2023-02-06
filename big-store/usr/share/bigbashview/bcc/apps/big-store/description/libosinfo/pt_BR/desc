@@ -1,0 +1,1 @@
+A libosinfo é uma biblioteca API baseada em GObject para gerenciamento de informações sobre sistemas operacionais, hipervisores e dispositivos de hardware virtuais. Ela fornece uma API fácil de usar para consultar e manipular essas informações e é destinada a ser usada por uma ampla variedade de aplicativos e ferramentas. 

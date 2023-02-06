@@ -1,0 +1,1 @@
+Este programa é uma implementação do Control.DeepSeq.rnf usando GHC.Generics. Ele é escrito em Haskell e ajuda a garantir que todos os elementos de um objeto sejam completamente avaliados antes de continuar a avaliar o objeto inteiro. 

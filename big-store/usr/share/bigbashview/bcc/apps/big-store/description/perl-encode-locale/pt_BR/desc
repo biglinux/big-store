@@ -1,0 +1,1 @@
+Este programa é utilizado para determinar a codificação de idioma (locale) utilizada em um arquivo ou sistema. Ele é escrito em Perl e usa a biblioteca Encode para realizar essa tarefa. 

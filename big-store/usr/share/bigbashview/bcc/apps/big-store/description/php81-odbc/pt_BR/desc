@@ -1,0 +1,4 @@
+Este programa adiciona módulos de conexão ODBC (Open Database Connectivity) para a versão 8.1 do PHP. Isso permite que o PHP se
+conecte a diversos bancos de dados, como MS SQL, MySQL e Oracle, usando uma interface padrão. Com esses módulos, você pode criar aplicativos PHP que se conectem a bancos de dados e realizem
+operações como inserir, atualizar e consultar dados.Os módulos ODBC são uma boa opção se você já tem experiência com programação em PHP e precisa se conectar a um banco de dados existente. 
+Eles também são úteis se você precisar se conectar a um banco de dados que não tem suporte nativo no PHP.

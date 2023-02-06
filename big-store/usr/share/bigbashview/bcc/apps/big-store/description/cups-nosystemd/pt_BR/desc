@@ -1,0 +1,3 @@
+Este programa é uma opção para gerenciar suas impressões sem usar o systemd. Ele é chamado de CUPS Printing System e é um pacote de
+daemon. Isso significa que ele é um programa de fundo que ajuda outros programas a se comunicarem com sua impressora.Com ele, você pode adicionar e gerenciar suas impressoras, ver o status 
+das impressões e muito mais. Ele é fácil de usar e é compatível com uma grande variedade de impressoras.

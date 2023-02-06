@@ -1,0 +1,1 @@
+A biblioteca COIN-OR Cut Generation (CGL) é um conjunto de ferramentas para geração de cortes (restrições adicionais) para otimização de programação linear e inteira. Ela é usada como uma extensão do solucionador de programação linear COIN-OR e pode ajudar a encontrar soluções mais precisas e rápidas para problemas de otimização. 

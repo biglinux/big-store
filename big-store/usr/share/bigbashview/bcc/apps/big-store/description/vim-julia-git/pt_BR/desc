@@ -1,0 +1,3 @@
+Este programa adiciona suporte à linguagem Julia para o editor de texto Vim. Isso significa que você pode escrever e executar
+códigos Julia diretamente dentro do Vim, sem precisar alternar para outra janela ou programa.Além disso, ele inclui recursos como destaque de sintaxe, auto-completar e depuração, tornando
+mais fácil e eficiente escrever códigos Julia no Vim.

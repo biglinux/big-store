@@ -1,0 +1,2 @@
+Este programa é um gráfico de fluxo de áudio criado usando a biblioteca QT5. Ele permite visualizar e gerenciar como o áudio
+está sendo transmitido em um sistema. Ele usa o pipewire como meio para transmitir o áudio.

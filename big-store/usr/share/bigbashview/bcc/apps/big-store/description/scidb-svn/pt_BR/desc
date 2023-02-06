@@ -1,0 +1,2 @@
+Este programa é um navegador de banco de dados de xadrez, suporta jogos de xadrez, xadrez960 e outros motores de jogo. Ele permite
+importar dados de Chessbase, PGN e Scid e usar a linguagem de consulta CQL.

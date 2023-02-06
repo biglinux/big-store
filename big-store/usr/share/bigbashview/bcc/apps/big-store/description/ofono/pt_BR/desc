@@ -1,0 +1,4 @@
+O ofono é uma infraestrutura para construir aplicações de telefonia móvel (GSM/UMTS). Ele fornece
+uma interface de programação de aplicativos (API) para desenvolvedores, permitindo que eles criem programas que possam se comunicar com dispositivos de telefonia móvel. Isso inclui
+funcionalidades como fazer e receber chamadas, enviar e receber mensagens de texto, e gerenciar contatos.Com o ofono, os desenvolvedores podem criar aplicativos personalizados para atender 
+às necessidades específicas dos usuários, como aplicativos de rastreamento de chamadas ou aplicativos de gerenciamento de contatos.

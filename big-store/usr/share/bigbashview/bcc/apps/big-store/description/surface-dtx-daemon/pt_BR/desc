@@ -1,0 +1,4 @@
+Este programa é chamado de Gerenciador de Sistema de Detecção de Superfície (DTX) e é usado para ajudar a garantir que
+dispositivos da superfície sejam detectados e conectados corretamente. Ele funciona como um 'serviço' no seu computador, trabalhando continuamente em segundo plano para garantir que tudo
+esteja funcionando corretamente. Ele é especialmente útil em dispositivos como tablets e laptops com tela sensível ao toque, mas também é útil em outros dispositivos como dispositivos de
+entrada como canetas ópticas e stylus.

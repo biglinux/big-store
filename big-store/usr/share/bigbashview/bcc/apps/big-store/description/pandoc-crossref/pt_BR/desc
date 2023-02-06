@@ -1,0 +1,1 @@
+O pandoc-crossref é um filtro do pandoc para numeração de figuras, equações, tabelas e referências cruzadas para elas. Ele também pode adicionar e personalizar a tipografia de legendas e rótulos. O filtro é escrito em Lua e pode ser usado com o pandoc >= 2.0. Ele é lançado sob a GPL, versão 2 ou posterior. 

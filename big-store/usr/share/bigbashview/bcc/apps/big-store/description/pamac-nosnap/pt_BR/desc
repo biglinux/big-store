@@ -1,0 +1,2 @@
+ Pamac-nosnap é um frontend gráfico para o gerenciamento de pacotes no sistema operacional Manjaro Linux. Ele utiliza a
+biblioteca libalpm e possui suporte a pacotes AUR, flatpak e appindicator. Com ele, você pode instalar, atualizar e remover facilmente os programas do seu computador.

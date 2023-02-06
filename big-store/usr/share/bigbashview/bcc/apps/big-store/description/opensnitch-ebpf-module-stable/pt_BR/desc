@@ -1,0 +1,4 @@
+O opensnitch-ebpf-module-stable é um módulo de monitoramento de processos que usa a tecnologia eBPF
+(Berkeley Packet Filter) para rastrear e bloquear acessos de aplicativos indesejados em seu computador. Ele é desenvolvido para ser usado com o opensnitch, um firewall de aplicativos de
+código aberto.Com o opensnitch-ebpf-module-stable, você pode ter mais controle sobre quais aplicativos têm acesso aos recursos do seu computador, como a rede, arquivos e dispositivos de
+entrada, e proteger-se de ameaças de segurança. Ele também permite que você configure regras de bloqueio personalizadas para aplicativos específicos.

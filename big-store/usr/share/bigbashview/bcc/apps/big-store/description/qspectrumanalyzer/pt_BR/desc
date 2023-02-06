@@ -1,0 +1,1 @@
+O qspectrumanalyzer é um analisador de espectro para diversas plataformas SDR. Ele utiliza uma interface gráfica baseada em PyQtGraph e é compatível com ferramentas como soapy_power, hackrf_sweep, rtl_power, rx_power e outros backends. 

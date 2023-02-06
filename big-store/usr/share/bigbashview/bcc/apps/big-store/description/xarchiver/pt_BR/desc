@@ -1,0 +1,1 @@
+Xarchiver é uma interface leve e independente de desktop GTK+ para manipular arquivos xz, 7z, lzma, arj, bzip2, gzip, rar, tar, zip, rpm, lz4, compress, zstd, lzip, lrzip, lzop, lha e deb. Ele permite criar arquivos e adicionar, extrair e excluir arquivos deles. Arquivos protegidos por senha nos formatos arj, 7z, rar, zip e lrzip são suportados. 

@@ -1,0 +1,2 @@
+Este programa é usado para fazer backups automatizados dos snapshots do seu computador usando o software Snapper e
+armazenando-os em um repositório Borg. Ele foi inspirado pelo programa Borgmatic.

@@ -1,0 +1,4 @@
+Este é um programa para ajudar você a usar o .NET Core, uma plataforma de desenvolvimento de software. Ele
+funciona como um 'motor' que permite que você execute comandos no terminal (cmd, bash, etc) e interaja com o .NET Core de forma mais fácil. É importante para programadores que precisam
+criar e testar aplicativos de maneira eficiente e confiável.Este programa é conhecido como 'dotnet-host-bin' e é um driver genérico para a Interface de Linha de Comando do .NET Core. Se
+você está procurando uma maneira de trabalhar com o .NET Core de forma mais simples, este programa pode ser uma boa escolha para você.

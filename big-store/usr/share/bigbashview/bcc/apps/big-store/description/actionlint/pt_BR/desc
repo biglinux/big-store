@@ -1,0 +1,5 @@
+Esse programa é chamado de actionlint e ele serve para verificar os arquivos de
+fluxo de trabalho do GitHub Actions de forma automática. Ele vai analisar seu código e avisar se encontrar algum erro ou problema. Isso é útil para garantir que seu fluxo de trabalho está
+funcionando corretamente e evitar possíveis problemas no futuro. Ele é fácil de usar e pode ser integrado facilmente ao seu fluxo de trabalho existente. Tudo o que você precisa fazer é
+adicionar algumas linhas de código ao seu arquivo de fluxo de trabalho e o actionlint vai cuidar do resto. Ele vai verificar todo o seu código e avisar se encontrar algum problema,
+dando-lhe a chance de corrigi-lo antes que cause problemas reais.

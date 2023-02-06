@@ -1,0 +1,3 @@
+Este é um módulo específico para o PHP 8.0 que permite que você crie e edite arquivos XML de forma fácil e eficiente. Ele
+possui uma variedade de funções úteis para trabalhar com elementos, atributos e namespaces, e também permite que você salve o arquivo XML gerado em um arquivo ou imprima-o diretamente na
+tela.Com este módulo, você pode construir facilmente fluxos XML para uso em aplicativos web, serviços de rede e muito mais.

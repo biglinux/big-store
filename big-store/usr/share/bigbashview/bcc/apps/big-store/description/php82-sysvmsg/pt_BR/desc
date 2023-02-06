@@ -1,0 +1,4 @@
+Este é um módulo para o PHP 8.2 que permite o uso de mensagens de sistema (sysvmsg). Ele fornece funções para criar, enviar,
+receber e gerenciar mensagens de sistema, que podem ser usadas para comunicação entre processos em um sistema operacional.As mensagens de sistema são uma forma de comunicação entre
+processos em um sistema operacional. Elas permitem que os processos troquem informações de forma rápida e eficiente, sem a necessidade de se comunicarem diretamente entre si.Este módulo é
+útil para desenvolvedores que precisam implementar comunicação interprocesso em aplicações PHP.

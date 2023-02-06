@@ -1,0 +1,4 @@
+Este programa é chamado de cliphist-bin e é um gerenciador de histórico do clipboard. Ele foi criado especificamente
+para funcionar com o sistema de janelas Wayland. Ele permite que você visualize e acesse facilmente itens que você já copiou para o clipboard. Isso pode ser útil se você precisar acessar
+algo que você copiou anteriormente e não tem certeza de onde você salvou isso. Ele também pode ser útil se você precisar copiar várias coisas diferentes rapidamente e não quer perder o que 
+você já copiou.

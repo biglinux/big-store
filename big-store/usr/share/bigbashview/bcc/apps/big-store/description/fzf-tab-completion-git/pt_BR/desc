@@ -1,0 +1,4 @@
+Este programa permite completar comandos usando o fzf em sistemas zsh e bash. Também funciona em aplicações que utilizam o
+GNU readline, como o python e o php. Ele é especialmente útil quando você tem muitos arquivos ou comandos para escolher e quer encontrar rapidamente o que precisa.Com esse programa, você
+pode navegar facilmente através de suas opções de completar usando o fzf e selecionar a opção desejada com precisão. Ele também é personalizável, permitindo que você configure as opções de 
+acordo com suas necessidades.

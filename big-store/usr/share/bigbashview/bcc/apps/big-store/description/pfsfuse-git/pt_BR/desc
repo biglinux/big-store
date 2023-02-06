@@ -1,0 +1,3 @@
+Este programa permite que você monte sistemas de arquivos PFS com o uso do FUSE. Ele é útil para acessar
+arquivos em sistemas de arquivos PFS sem precisar instalar qualquer outro software adicional.Com ele, você pode acessar facilmente seus arquivos e pastas em sistemas de arquivos PFS, como
+se estivessem em seu próprio computador.

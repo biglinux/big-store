@@ -1,0 +1,1 @@
+uasm é um assembler compatível com MASM, ou seja, ele é capaz de processar códigos escritos na linguagem de montagem da Microsoft e transformá-los em códigos de máquina. Isso é útil para quem deseja escrever códigos de baixo nível, como drivers ou sistemas operacionais, e precisa de um assembler confiável e  eficiente. 

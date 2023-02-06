@@ -1,0 +1,3 @@
+A mlpack é uma biblioteca de aprendizado de máquina escrita em C++. Ela é projetada para ser rápida,
+flexível e escalável, o que significa que pode lidar com grandes conjuntos de dados e problemas de aprendizado de máquina complexos. Além disso, a mlpack oferece uma variedade de algoritmos
+de aprendizado de máquina, incluindo regressão, classificação, agrupamento e redução de dimensionalidade, tornando-a uma ferramenta poderosa para quem trabalha com dados. 

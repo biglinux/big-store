@@ -1,0 +1,1 @@
+Este programa fornece ligações do Perl para o widget GooCanvas2 usando Glib::Object::Introspection. Isso permite que os desenvolvedores escrevam aplicativos com esse widget em Perl de maneira fácil e eficiente. 

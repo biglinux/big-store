@@ -1,0 +1,3 @@
+ Esta biblioteca permite que aplicações estendam um menu através de indicadores Ayatana no Unity, KDE ou Systray. O
+python2-libappindicator é uma ferramenta poderosa para desenvolvedores que precisam adicionar recursos de indicador de sistema aos seus programas. Com ele, é possível criar ícones e menus
+personalizados que ficam disponíveis na barra de tarefas do usuário, independentemente do ambiente de trabalho. 

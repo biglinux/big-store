@@ -1,0 +1,3 @@
+Esta é uma biblioteca de utilitários projetada para ser usada com a biblioteca GLIB. Ela fornece várias funções úteis que
+podem ser usadas para facilitar o desenvolvimento de aplicativos.Algumas das funções incluem: gerenciamento de memória, manipulação de strings, manipulação de arquivos e diretórios, entre
+outras. Tudo isso é projetado para ser simples de usar e eficiente em termos de recursos.

@@ -1,0 +1,5 @@
+ Este é um plugin para o oh-my-zsh que adiciona sugestões automáticas, semelhantes às do Fish shell. Isso significa que,
+enquanto você digita no seu terminal, ele irá sugerir comandos com base no histórico de seu uso e no contexto do diretório atual. Isso pode ser uma maneira útil de acelerar seu fluxo de
+trabalho e evitar erros comuns de digitação.Para usar este plugin, você precisará ter o oh-my-zsh instalado em seu sistema. Em seguida, você pode instalar o plugin usando um gerenciador 
+de plugins ou baixando o código e colocando-o em sua pasta de plugins do oh-my-zsh. Depois disso, você precisará ativá-lo em seu arquivo de configuração do zsh.Uma vez ativado, você pode
+começar a usufruir das sugestões automáticas enquanto digita. Você também pode personalizar algumas das configurações, como a cor das sugestões e a forma como elas são exibidas. 

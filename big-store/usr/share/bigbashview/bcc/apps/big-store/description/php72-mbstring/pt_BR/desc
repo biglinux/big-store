@@ -1,0 +1,3 @@
+Este é um módulo adicional para a versão 7.2 do PHP, chamado mbstring. Ele ajuda a lidar com diferentes tipos de caracteres em
+diferentes idiomas, garantindo que os textos possam ser lidos e exibidos corretamente. Com ele, você pode lidar com caracteres multibyte facilmente, garantindo que seu programa funcione
+corretamente para todos os usuários, independentemente do idioma deles.

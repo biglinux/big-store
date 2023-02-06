@@ -1,0 +1,1 @@
+O Ruby-Pango é um vínculo entre o Ruby e o Pango. Ele permite que você use o motor de layout de texto Pango em  seus programas Ruby. O Pango fornece um layout de texto avançado, incluindo suporte à internacionalização para vários idiomas e scripts. Com o Ruby-Pango, você pode facilmente adicionar capacidades de layout e renderização de texto aos seus programas Ruby. 

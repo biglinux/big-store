@@ -1,0 +1,1 @@
+Cassowary é um solucionador de restrições. Ele é usado para ajudar a resolver problemas de layout em interfaces gráficas  de usuário e outras aplicações similares. Ele foi criado originalmente para uso no software de design gráfico Kaleidoscope, mas agora é usado em muitos outros projetos. Ele é escrito em Lua e é compatível com a versão 5.3. 

@@ -1,0 +1,2 @@
+ Essa biblioteca é útil para trabalhar com endereços de rede, tanto IPv4 quanto IPv6. Ela permite fazer
+coisas como verificar se um endereço é válido, calcular sub-redes e muito mais. Se você precisa trabalhar com endereços de rede em seu programa, essa biblioteca pode ser útil. 

@@ -1,0 +1,3 @@
+Este programa permite trabalhar com objetos de medida com alta precisão e conscientes de unidades em Python. Isso
+significa que você pode fazer cálculos e comparações com precisão, sabendo exatamente qual é a unidade de medida de cada valor. Além disso, você pode facilmente converter entre diferentes
+unidades de medida, como metros para pés ou quilogramas para libras. Isso é útil em uma variedade de aplicações, desde ciência e engenharia até negócios e finanças.

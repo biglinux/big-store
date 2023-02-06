@@ -1,0 +1,3 @@
+Este programa é um plugin de imagem para o aplicativo Qt. Ele permite carregar arquivos raw, utilizando a biblioteca
+libraw. Isso significa que você pode visualizar e trabalhar com imagens raw diretamente no aplicativo Qt, sem precisar usar outro software.Os arquivos raw são uma forma de salvar imagens
+sem perda de qualidade, o que é útil para fotógrafos e profissionais de imagem. Com este plugin, é possível abrir, editar e salvar esses arquivos diretamente no Qt.

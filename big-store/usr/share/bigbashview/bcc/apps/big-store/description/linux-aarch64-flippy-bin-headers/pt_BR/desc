@@ -1,0 +1,2 @@
+Este programa fornece cabeçalhos e scripts para ajudar na construção de módulos para o kernel
+Linux. É um fork do projeto original, com foco em aumentar a usabilidade para a arquitetura AArch64. Ele foi pré-compilado pelo ophub.

@@ -1,0 +1,1 @@
+Este programa permite a medição de pontos de acesso, conhecidos como 'blackbox', através de protocolos como HTTP, HTTPS, DNS, TCP e ICMP. Ele é usado para coletar dados de desempenho de diferentes partes de uma rede e fornece informações valiosas para ajudar a garantir a disponibilidade e o desempenho dos sistemas. 

@@ -1,0 +1,3 @@
+Este programa adiciona suporte para idiomas ao seu website. Ele é compatível com a versão 7.4 do PHP e se chama
+'php74-intl'. Com ele, você pode exibir conteúdo em diferentes idiomas para os visitantes do seu site e tornar a navegação mais fácil para eles. Além disso, ele também inclui ferramentas
+para gerenciar traduções e formatar números e datas de acordo com as convenções do idioma selecionado.

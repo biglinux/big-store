@@ -1,0 +1,3 @@
+Este programa é útil para quem precisa limitar o tamanho de uma string sem perder sua integridade. Ele faz
+isso de uma forma amigável para os humanos, adicionando reticências (...), caso a string seja muito longa. Dessa forma, é possível visualizar de forma rápida e clara o conteúdo da string,
+sem precisar ler toda ela. Além disso, o comando é fácil de usar e pode ser aplicado em diversos tipos de strings, sejam elas longas ou curtas. 

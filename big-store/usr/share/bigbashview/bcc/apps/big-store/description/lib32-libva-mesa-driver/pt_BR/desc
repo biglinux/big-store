@@ -1,0 +1,1 @@
+Esse programa é uma implementação do VA-API (Video Acceleration API) para o gallium, um software livre de aceleração de gráficos. Ele é específico para sistemas de 32 bits.É importante notar que esse programa é uma extensão de outro chamado libva-mesa-driver, que fornece os drivers para suportar o VA-API no gallium. 

@@ -1,0 +1,3 @@
+Com o python-modbus-tk-git, você pode criar aplicativos Modbus de forma fácil e rápida usando o Python. Este repositório 
+fornece uma biblioteca Python para implementar servidores Modbus TCP, RTU e ASCII, bem como clientes Modbus. Ele também inclui exemplos de código para ajudá-lo a começar.Se você já tem
+conhecimento básico de Python e Modbus, este repositório será uma ótima ferramenta para criar aplicativos Modbus personalizados rapidamente. 

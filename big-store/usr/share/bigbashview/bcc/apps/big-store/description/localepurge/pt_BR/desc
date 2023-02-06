@@ -1,0 +1,3 @@
+Este programa é uma ferramenta que ajuda a remover espaço em disco desperdiçado causado por localizações desnecessárias.
+Ele é útil para liberar espaço em sistemas que possuem pouco espaço livre. Ele funciona examinando o sistema em busca de arquivos de localização que não são utilizados e os remove,
+economizando assim espaço valioso no disco.

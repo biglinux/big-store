@@ -1,0 +1,1 @@
+Este programa é um gerenciador de alocamento de memória experimental, chamado de d-stdx-allocator. Ele tem  como objetivo gerenciar de forma eficiente a alocação de memória em um sistema, tornando-o mais rápido e seguro. Ele é baseado na biblioteca padrão do C++, mas com algumas modificações para melhorar sua performance. 

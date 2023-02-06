@@ -1,0 +1,4 @@
+Este é um programa que ajuda outros programas a funcionar com a versão antiga da biblioteca SDL, a versão 1.2. Ele
+faz isso usando outra versão da biblioteca, a versão 2.0, por trás dos panos. Isso significa que os programas antigos podem continuar funcionando sem precisar ser atualizados.É importante
+notar que este programa não é uma atualização para os programas antigos, e sim um meio de mantê-los funcionando. Ele não adiciona novas funcionalidades ou corrige problemas, mas permite que
+os programas continuem rodando normalmente.

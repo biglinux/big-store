@@ -1,0 +1,3 @@
+Esse programa é uma implementação do protocolo de servidor de linguagem (LSP) para o slint. Isso significa que ele ajuda a melhorar
+a experiência de codificação para desenvolvedores que estão usando o slint. Ele fornece recursos como sugestões de código, detecção de erros e navegação pelo código.Além disso, o programa
+também é compatível com várias ferramentas de desenvolvimento, como o VS Code, o Sublime Text e o Vim, o que torna mais fácil para os desenvolvedores se adaptarem e usá-lo.

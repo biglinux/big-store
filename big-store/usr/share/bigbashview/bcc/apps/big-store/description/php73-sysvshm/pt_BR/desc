@@ -1,0 +1,3 @@
+Este é um módulo para o PHP 7.3 que permite o uso de memória compartilhada entre processos. Isso significa que
+vários programas podem acessar e modificar a mesma informação ao mesmo tempo, sem precisar de uma cópia para cada um deles.Isso pode ser útil em situações em que vários programas precisam
+acessar a mesma informação, como em um aplicativo web que precisa armazenar dados de sessão para vários usuários ao mesmo tempo.

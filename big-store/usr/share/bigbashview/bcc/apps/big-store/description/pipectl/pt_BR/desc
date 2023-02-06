@@ -1,0 +1,2 @@
+ pipectl é uma ferramenta simples para gerenciar pipes (tubos) com nomes. Com ele, você pode criar, deletar e gerenciar pipes 
+facilmente. É útil para comunicação entre programas em sistemas operacionais como Linux e Unix. 

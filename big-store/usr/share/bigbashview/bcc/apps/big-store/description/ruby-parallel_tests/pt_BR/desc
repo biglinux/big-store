@@ -1,0 +1,1 @@
+Este programa permite que você execute testes de unidade, especificação, histórias de usuário e outros tipos de testes em paralelo, o que pode ajudar a economizar tempo e melhorar a eficiência do processo de teste. Ele é especialmente útil para projetos grandes e complexos. Ele é escrito em Ruby e se chama ruby-parallel_tests. 

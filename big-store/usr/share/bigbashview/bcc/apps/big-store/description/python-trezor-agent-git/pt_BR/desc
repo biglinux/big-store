@@ -1,0 +1,3 @@
+ Este programa é um agente de segurança que funciona com dispositivos de armazenamento de chaves Trezor, Keepkey, Ledger,
+OnlyKey e Jade. Ele permite acessar sua conta de SSH ou PGP usando sua chave de hardware, em vez de digitar uma senha. Isso ajuda a proteger sua conta de hackers e outras ameaças de
+segurança. 

@@ -1,0 +1,4 @@
+Este é um programa de código aberto que permite que você use seu Kinect v2 com diferentes dispositivos e sistemas operacionais. Ele
+funciona como um conjunto de drivers, ou instruções, que permitem que o seu computador reconheça e se comunique com o Kinect. Com ele, você pode usar o Kinect para jogos, realidade virtual,
+robótica e muito mais.O libfreenect2 é uma escolha popular entre desenvolvedores e pesquisadores devido à sua flexibilidade e facilidade de uso. Ele é compatível com Windows, Linux e MacOS 
+e pode ser usado com uma variedade de linguagens de programação, como C++, Python e Ruby.

@@ -1,0 +1,3 @@
+Esse programa é chamado librespeed-go e ele é usado para medir a velocidade da sua conexão à internet. Ele é muito leve e foi feito 
+usando tecnologias como Javascript, XMLHttpRequest e Web Workers.Você pode usá-lo para ver quanto tempo leva para carregar páginas da internet ou fazer download de arquivos. Isso pode
+ajudar você a entender se a velocidade da sua conexão está de acordo com o que o seu provedor de internet promete.

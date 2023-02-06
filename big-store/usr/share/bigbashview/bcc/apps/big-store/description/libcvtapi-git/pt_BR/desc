@@ -1,0 +1,5 @@
+Este é o programa oficial da API do VirusTotal, escrito na linguagem de programação C. Ele permite que você integre facilmente
+a funcionalidade do VirusTotal em seus próprios projetos e aplicativos. Com ele, você pode enviar arquivos para análise, verificar o status de uma verificação anterior e obter relatórios
+sobre ameaças detectadas. Além disso, ele é open-source, o que significa que qualquer um pode contribuir e melhorá-lo. A API do VirusTotal é uma ferramenta valiosa para qualquer pessoa
+preocupada com a segurança cibernética e a proteção contra malware e outras ameaças. Com ela, é possível ter acesso a uma grande quantidade de dados e recursos para ajudar a manter sua rede
+segura.

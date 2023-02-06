@@ -1,0 +1,4 @@
+ Este programa fornece uma interface gráfica para o Maestral, facilitando o uso e a configuração desse software. Ele foi
+desenvolvido com a biblioteca Qt, o que garante uma boa aparência e facilidade de uso. Com ele, você pode gerenciar suas sincronizações de forma simples e intuitiva, sem precisar digitar
+comandos no terminal.Além disso, ele oferece recursos avançados como a possibilidade de definir regras de sincronização personalizadas e acompanhar o progresso das sincronizações em
+tempo real. É uma ótima opção para quem quer usar o Maestral de forma mais fácil e agradável. 

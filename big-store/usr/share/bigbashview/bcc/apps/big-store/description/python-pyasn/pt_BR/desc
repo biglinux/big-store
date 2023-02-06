@@ -1,0 +1,3 @@
+ Este programa é um módulo de pesquisa de número de sistema autônomo (ASN) para endereços IP. Ele funciona offline, o que
+significa que não precisa de uma conexão com a internet para funcionar. Ele é escrito em Python e é útil para quem precisa fazer pesquisas de ASN em grandes conjuntos de dados de endereços 
+IP. 

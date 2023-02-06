@@ -1,0 +1,4 @@
+ Este é um módulo para o PHP 7.1 que adiciona recursos para organizar e limpar código HTML, XML e XHTML. Ele pode ser usado para
+corrigir erros de sintaxe, identar o código e remover espaços em branco desnecessários. Com ele, você pode tornar o seu código mais fácil de ler e manter.Este módulo é útil para
+desenvolvedores web que trabalham com código HTML e XML e desejam garantir que ele esteja estruturado corretamente. Ele também pode ser usado em ferramentas de validação de código ou
+integrado em sistemas de gerenciamento de conteúdo. 

@@ -1,0 +1,1 @@
+O programa chamado booster é um gerador rápido e seguro de initramfs. Ele é usado para criar um sistema de arquivos temporário na memória RAM, que é usado durante o processo de inicialização do sistema. Isso garante que o sistema seja inicializado de forma rápida e segura, sem a necessidade de acessar o  disco rígido. 

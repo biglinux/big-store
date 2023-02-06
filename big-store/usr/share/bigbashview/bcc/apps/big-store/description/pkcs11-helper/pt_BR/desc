@@ -1,0 +1,1 @@
+pkcs11-helper é uma biblioteca que simplifica a interação com provedores PKCS11 para aplicações de usuários finais. Ela fornece uma API simples e um motor OpenSSL opcional. A biblioteca é  escrita em C e está licenciada sob a LGPL.  

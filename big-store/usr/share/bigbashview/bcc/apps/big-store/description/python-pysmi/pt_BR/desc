@@ -1,0 +1,1 @@
+A biblioteca python-pysmi foi desenvolvida para converter arquivos ASN.1 MIB em vários formatos. Ela é útil para análise de protocolos de gerenciamento de redes, como o Simple Network Management Protocol (SNMP). Com essa biblioteca, é possível facilmente ler e interpretar arquivos MIB, que são utilizados para descrever objetos gerenciáveis em redes de computadores. 

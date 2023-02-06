@@ -1,0 +1,3 @@
+ Este programa é uma espécie de 'tradução' que permite que você use as ferramentas do Wireguard (um software de 
+VPN) usando o Python. Isso significa que, se você já sabe como escrever códigos em Python, poderá controlar o Wireguard de forma mais fácil e automatizada.Além disso, o programa também
+oferece algumas funções extras, como a possibilidade de gerar chaves de segurança automaticamente. 

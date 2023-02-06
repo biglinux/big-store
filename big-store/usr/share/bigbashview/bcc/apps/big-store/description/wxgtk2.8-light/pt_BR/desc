@@ -1,0 +1,2 @@
+wxWidgets é uma biblioteca que permite criar interfaces gráficas de usuário (GUIs) para programas. Ela é compatível
+com vários sistemas operacionais, incluindo Windows, Mac e Linux. A versão 2.8 é usada com o Toolkit GTK2, que é usado pelo sistema GNOME, mas não requer o uso do GStreamer.

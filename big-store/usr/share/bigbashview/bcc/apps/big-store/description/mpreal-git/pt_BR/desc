@@ -1,0 +1,3 @@
+ Esta é uma biblioteca chamada mpreal-git que ajuda a fazer cálculos com números de precisão dupla
+(MPFR) em C++. Isso significa que você pode trabalhar com números muito grandes ou muito pequenos e ainda obter resultados precisos. É útil em várias áreas, como ciência, engenharia e
+finanças. 

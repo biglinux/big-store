@@ -1,0 +1,1 @@
+ExtUtils::Helpers é um pacote de utilitários de portabilidade para os desenvolvedores de módulos Perl. Ele fornece ferramentas para lidar com tarefas comuns como testes, compilação e instalação de módulos. Isso torna mais fácil para os desenvolvedores criar módulos que funcionem em diferentes sistemas operacionais e versões do Perl. 

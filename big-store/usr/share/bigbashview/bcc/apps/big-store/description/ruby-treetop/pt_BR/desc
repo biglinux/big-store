@@ -1,0 +1,1 @@
+ruby-treetop é uma ferramenta escrita em Ruby que ajuda a analisar e interpretar texto. Ele é baseado  na linguagem de domínio específico (DSL) chamada Treetop, que facilita a criação de gramáticas para a análise de texto. Com ruby-treetop, é possível criar regras para interpretar e extrair  informações de um texto de forma automatizada. 

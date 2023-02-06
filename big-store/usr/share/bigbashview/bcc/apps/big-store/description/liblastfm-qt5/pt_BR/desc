@@ -1,0 +1,1 @@
+ liblastfm-qt5 é uma biblioteca C++ para os webservices da Last.fm. Ele fornece fácil acesso às funções dos webservices da Last.fm e permite que você crie suas próprias aplicações que usam os webservices da Last.fm. A biblioteca é construída sobre o framework Qt5, o que a torna fácil de usar  em uma ampla variedade de aplicações.  

@@ -1,0 +1,1 @@
+Este módulo para Perl permite a leitura de arquivos TNEF. Ele é útil para quem precisa trabalhar com arquivos de e-mail em formato TNEF, que são comumente usados em sistemas de e-mail Microsoft. Com esse módulo, é possível acessar o conteúdo dos arquivos TNEF e extrair informações como anexos, imagens e outros  dados. 

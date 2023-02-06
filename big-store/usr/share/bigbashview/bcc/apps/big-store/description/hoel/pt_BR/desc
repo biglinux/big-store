@@ -1,0 +1,1 @@
+Esta biblioteca facilita o acesso a bancos de dados, permitindo que você escreva suas consultas em json em vez de SQL. Isso torna o código mais fácil de ler e entender, especialmente para programadores que não estão familiarizados com SQL. 

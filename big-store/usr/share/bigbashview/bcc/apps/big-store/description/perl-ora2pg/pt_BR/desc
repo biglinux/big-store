@@ -1,0 +1,3 @@
+Com o Ora2Pg, é possível converter facilmente o esquema de um banco de dados Oracle para o formato do
+PostgreSQL. Esse programa é ideal para quem precisa mudar de plataforma e não quer perder o conteúdo armazenado no banco de dados antigo.Com poucos cliques, é possível migrar todas as
+tabelas, índices, gatilhos, procedimentos armazenados, funções e outros objetos do banco de dados Oracle para o PostgreSQL, sem precisar reescrever manualmente todo o código.

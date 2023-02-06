@@ -1,0 +1,4 @@
+Esse programa é um módulo para o Guile, que é uma linguagem de programação. Ele permite que você use o protocolo SSH 
+(Secure Shell) para se conectar a outros computadores e fazer coisas nele. Ele é baseado na biblioteca libssh, que é uma biblioteca de código aberto que fornece as funcionalidades do
+SSH.Com esse módulo, você pode se conectar a outros computadores de forma segura, sem precisar digitar sua senha ou outras informações pessoais. Além disso, ele também oferece outras
+funcionalidades, como transferência de arquivos e execução de comandos remotamente.

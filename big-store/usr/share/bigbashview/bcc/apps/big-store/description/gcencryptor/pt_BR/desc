@@ -1,0 +1,4 @@
+gcencryptor é um programa com interface gráfica (GUI) que ajuda a proteger seus arquivos usando o gocryptfs. Ele
+permite criptografar arquivos de forma fácil e segura, garantindo que somente pessoas autorizadas possam acessá-los. Com ele, você pode escolher qual pasta deseja criptografar e definir uma
+senha para desbloquear esses arquivos. Além disso, ele também oferece recursos adicionais, como backup automático dos arquivos criptografados e suporte para vários idiomas.Em resumo, o
+gcencryptor é uma excelente opção para quem deseja manter seus arquivos seguros e privados, sem precisar se preocupar com configurações complexas.

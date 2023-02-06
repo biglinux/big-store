@@ -1,0 +1,3 @@
+Este programa é um servidor DNS aberto, o que significa que qualquer pessoa pode usá-lo e modificá-lo. Ele é projetado 
+para garantir a privacidade e a segurança de seus usuários ao gerenciar as solicitações de nomes de domínio. Ele é capaz de funcionar tanto como um servidor autoritativo quanto recursivo, o
+que significa que ele pode responder às perguntas dos usuários diretamente ou encaminhar as perguntas para outros servidores DNS.

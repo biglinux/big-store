@@ -1,0 +1,3 @@
+Este programa ajuda você a gerenciar as dependências do seu projeto Python. Ele trabalha com marcadores de ambiente
+(PEP-496) para garantir que você tenha as versões corretas das bibliotecas que precisa para o seu projeto funcionar.Usando esse programa, você pode facilmente instalar, atualizar e remover 
+dependências, além de gerenciar conflitos entre versões. Ele também ajuda a garantir que você siga as melhores práticas de gerenciamento de dependências.

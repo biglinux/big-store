@@ -1,0 +1,1 @@
+O xorg-smproxy é um programa que permite que aplicativos X que não possuem suporte à gestão de sessão X11R6 participem de uma sessão X11R6. Ele funciona como um intermediário entre a sessão X11R6 e os aplicativos, permitindo que eles se comuniquem e sejam gerenciados dentro da sessão. 

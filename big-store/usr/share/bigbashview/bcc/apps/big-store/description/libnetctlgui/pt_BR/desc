@@ -1,0 +1,2 @@
+Libnetctlgui é uma biblioteca construída com Qt5, ela serve para interagir com o programa netctl. Ela é
+uma parte importante do programa netctl-gui.

@@ -1,0 +1,3 @@
+Este programa é uma variação do editor de texto xemacs com suporte ao versionamento de arquivos pelo git. Ele possibilita a edição
+de arquivos de forma avançada, com recursos adicionais para programadores e desenvolvedores de software. Além disso, é possível fazer o acompanhamento das alterações realizadas nos
+arquivos, revertê-las e trabalhar em equipe com outros desenvolvedores, através do git.

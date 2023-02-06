@@ -1,0 +1,1 @@
+python-pygpgme é um invólucro Python para a biblioteca gpgme GnuPG, que permite criptografar e assinar mensagens, bem como verificar assinaturas e descriptografar dados. Ele foi projetado para ser fácil de usar e fornecer uma interface de alto nível para a biblioteca subjacente. Este pacote é compatível com Python 2 e Python 3. 

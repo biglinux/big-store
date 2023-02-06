@@ -1,0 +1,1 @@
+dbus-sharp é uma implementação do protocolo D-Bus em C#. Ele permite que aplicativos escritos em C# se comuniquem com outros aplicativos em um sistema operacional usando o D-Bus. Isso é útil para a criação de aplicativos que precisam se integrar com outros componentes do sistema, como gerenciadores de janelas ou  gerenciadores de áudio. 

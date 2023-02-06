@@ -1,0 +1,1 @@
+qmdnsengine é uma biblioteca simples de DNS multicast para o framework Qt. Ele permite que você facilmente realize a descoberta de serviços baseados em DNS em uma rede local, sem a necessidade de um servidor central. A biblioteca é totalmente assíncrona e pode ser integrada a qualquer aplicação  baseada em Qt com esforço mínimo. Ele também suporta redes IPv4 e IPv6. 

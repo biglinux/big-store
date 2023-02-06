@@ -1,0 +1,1 @@
+A biblioteca de cliente FastCGI permite que você envie requisições a um servidor FastCGI e receba respostas. É escrita em Perl e é fácil de usar. Com ela, você pode criar aplicativos web mais rápidos e escaláveis. 

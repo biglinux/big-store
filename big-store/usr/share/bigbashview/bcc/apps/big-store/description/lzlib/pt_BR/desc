@@ -1,0 +1,1 @@
+Esta biblioteca fornece funções de compressão e descompressão LZMA na memória, permitindo que arquivos sejam compactados e descompactados sem precisar ser armazenados em disco. O formato LZMA é conhecido por sua alta taxa de compressão e é amplamente utilizado em aplicações de software. 

@@ -1,0 +1,4 @@
+ Este é um sistema de arquivos baseado em FUSE que é suportado pelo Google Drive. Ele foi escrito usando a linguagem de
+programação OCaml.Isso significa que você pode acessar seus arquivos do Google Drive como se eles estivessem armazenados localmente no seu computador. Isso é útil se você precisar
+trabalhar com arquivos grandes ou se você precisar acessá-los sem uma conexão à internet.Além disso, você também pode usar este sistema de arquivos para fazer backup de arquivos em seu
+computador para o Google Drive, garantindo que eles estejam sempre seguros e acessíveis de qualquer lugar. 

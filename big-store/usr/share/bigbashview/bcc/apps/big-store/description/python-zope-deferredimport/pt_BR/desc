@@ -1,0 +1,1 @@
+Este programa permite que você faça importações de nomes que só serão resolvidos quando usados no código. Ele é chamado de 'importação sob demanda' e é útil para otimizar o desempenho do seu código, pois evita o carregamento desnecessário de módulos e pacotes. O pacote utilizado nesse programa é o python-zope-deferredimport. 

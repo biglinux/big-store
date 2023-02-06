@@ -1,0 +1,1 @@
+ruby-parallel é um programa que permite que você execute qualquer tipo de código em processos paralelos. Isso significa que você pode dividir uma tarefa grande em várias partes menores e executá-las ao mesmo tempo, o que aumenta a velocidade de execução. É uma ferramenta útil para tarefas que levam muito tempo para ser concluídas e precisam ser otimizadas. 

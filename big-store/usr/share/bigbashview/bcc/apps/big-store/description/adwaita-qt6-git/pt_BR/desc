@@ -1,0 +1,4 @@
+Este programa é um estilo para fazer com que aplicativos Qt6 pareçam pertencer ao GNOME Shell. Ele está disponível na
+versão git, o que significa que é uma versão em desenvolvimento e pode conter bugs ou faltar recursos.Este estilo muda a aparência dos botões, janelas e outros elementos de interface do
+aplicativo para se parecerem mais com os do GNOME Shell. Isso pode ser útil se você estiver usando o GNOME Shell como sua área de trabalho e deseja que seus aplicativos Qt6 se integrem
+melhor a ela.

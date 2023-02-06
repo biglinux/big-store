@@ -1,0 +1,1 @@
+binutils é um conjunto de ferramentas para trabalhar com arquivos binários e objetos. Ele inclui programas como o as (montador), ld (linker) e objdump (exibidor de objetos). Com essas ferramentas, você pode criar, modificar e analisar arquivos binários e objetos, o  que é útil para desenvolvimento de software e engenharia reversa. 

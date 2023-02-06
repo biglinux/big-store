@@ -1,0 +1,3 @@
+ O ocaml-yojson é uma biblioteca de baixo nível para lidar com dados em formato JSON no OCaml. Ele oferece suporte para
+operações como codificação e decodificação de JSON, manipulação de valores JSON, e mais. É uma ferramenta útil para desenvolvedores que trabalham com aplicativos OCaml que precisam lidar
+com dados em formato JSON. 

@@ -1,0 +1,1 @@
+Este é um componente REPL (Read-Eval-Print Loop) reutilizável para Lua, escrito em Lua. O REPL é uma ferramenta comum para programação interativa, permitindo que você execute comandos e veja os resultados imediatamente. Com este componente, você pode adicionar facilmente a funcionalidade REPL às suas aplicações Lua. 

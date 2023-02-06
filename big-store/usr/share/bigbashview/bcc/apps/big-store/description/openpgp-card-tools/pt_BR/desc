@@ -1,0 +1,1 @@
+ openpgp-card-tools é uma ferramenta de linha de comando que permite inspecionar, gerenciar e usar cartões OpenPGP. Ele pode ser usado para listar o conteúdo de um cartão, ler e escrever dados e realizar outras operações. A ferramenta foi projetada para ser  fácil de usar e entender, mesmo para aqueles com pouca ou nenhuma experiência com cartões OpenPGP. 

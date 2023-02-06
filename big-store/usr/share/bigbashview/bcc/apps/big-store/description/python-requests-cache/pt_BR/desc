@@ -1,0 +1,4 @@
+Este programa é uma adição para a biblioteca de requisições do Python, que permite armazenar em cache as
+respostas das requisições feitas. Isso significa que, se você fizer a mesma requisição novamente, ela será buscada diretamente do cache, em vez de ser feita novamente. Isso pode ajudar a
+economizar tempo e aumentar a velocidade do seu programa.Além disso, o programa é transparente, o que significa que você não precisa se preocupar em gerenciar o cache manualmente. Ele se
+encarrega de tudo automaticamente, permitindo que você continue escrevendo seu código como de costume.

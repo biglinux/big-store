@@ -1,0 +1,4 @@
+Este programa é um gerador de extensões para o Visual Studio Code. Ele permite criar facilmente novas
+extensões que adicionam funcionalidades ao ambiente de desenvolvimento do Visual Studio Code.Com ele, é possível criar novas funcionalidades, como atalhos de teclado, novos comandos,
+painéis de informações, entre outros, sem precisar escrever códigos complexos e demorados.O gerador de extensões para o Visual Studio Code é uma ferramenta poderosa para desenvolvedores que
+desejam aumentar a produtividade e agilidade no desenvolvimento de software.

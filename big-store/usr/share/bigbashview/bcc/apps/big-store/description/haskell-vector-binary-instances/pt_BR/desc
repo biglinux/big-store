@@ -1,0 +1,1 @@
+Este programa fornece instâncias para a classe 'Data.Binary' para uso com vetores em Haskell. Isso permite que os vetores sejam facilmente convertidos para e de uma representação binária, o que é útil em aplicações de serialização e armazenamento de dados. 

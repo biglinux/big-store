@@ -1,0 +1,3 @@
+Este programa é um compilador para a linguagem Fortran, utilizando a versão 10 do GCC (GNU Compiler Collection). Ele é
+responsável por transformar o código escrito em Fortran em código de máquina, possibilitando que o programa seja executado em um computador.O GCC é uma das ferramentas mais utilizadas em 
+computação científica e engenharia, e a versão para Fortran é especialmente importante para esses campos, já que Fortran é uma linguagem comum para programação de alto desempenho. 

@@ -1,0 +1,1 @@
+O lua51-mediator é um programa que permite gerenciar eventos em sua aplicação através do uso de canais. Isso significa que você pode escrever códigos que respondam de maneira específica a diferentes eventos que ocorrem no seu programa, tornando-o mais fácil de entender e manter. Ele é escrito na linguagem Lua e é compatível com a versão 5.1 da mesma. 

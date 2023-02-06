@@ -1,0 +1,3 @@
+ hyprland-hidpi-xprop-git é um compositor dinâmico de tiling baseado em wlroots que não sacrifica a aparência. Ele é
+projetado para funcionar com tela de alta resolução (hidpi) e permite aos usuários personalizar a configuração de sua janela através do xprop. É uma ferramenta poderosa para quem busca um
+ambiente de trabalho personalizado e eficiente.

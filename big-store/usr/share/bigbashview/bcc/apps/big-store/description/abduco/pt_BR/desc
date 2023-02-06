@@ -1,0 +1,1 @@
+A ferramenta 'abduco' permite que um processo execute de forma independente de seu terminal de controle. Ele oferece suporte para 'at' e 'de' tach, o que significa que você pode desconectar e reconectar a sessão sem interromper o processo em execução. Isso é útil quando você quer executar um processo em segundo plano, mas ainda deseja ter a opção de voltar para ele mais tarde. 

@@ -1,0 +1,1 @@
+Uma biblioteca para lidar com arquivos e fluxos Ogg, chamada liboggz. Ela oferece uma interface de programação simples para trabalhar com esses tipos de arquivos, permitindo que você os leia e os escreva facilmente. Com ela, é possível fazer coisas como criar arquivos Ogg a partir de áudios e vídeos, ou reproduzir arquivos Ogg existentes. 

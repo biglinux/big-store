@@ -1,0 +1,1 @@
+O pacote ubuntu-keyring contém as chaves de assinatura de pacotes do arquivo Ubuntu. Ele é usado para garantir a autenticidade dos pacotes quando eles são instalados em um sistema. Isso é importante para garantir que você esteja instalando pacotes confiáveis e seguros, sem a possibilidade de softwares maliciosos ou comprometidos. 

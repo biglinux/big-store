@@ -1,0 +1,4 @@
+Este é um módulo adicional para o PHP 7.1 que permite aos desenvolvedores trabalhar com arquivos XML de maneira mais fácil e
+eficiente. Ele adiciona funções específicas para ler, escrever e manipular esses tipos de arquivos, tornando o processo mais simples e rápido.Com o módulo SimpleXML, é possível acessar e
+modificar os elementos de um arquivo XML de maneira similar à como se faz com arrays, o que facilita a programação. Além disso, ele também suporta a validação de arquivos XML contra
+esquemas.

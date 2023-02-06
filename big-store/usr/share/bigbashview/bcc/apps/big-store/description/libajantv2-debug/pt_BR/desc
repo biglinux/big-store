@@ -1,0 +1,1 @@
+libajantv2-debug é uma biblioteca para depuração de programas. Ela fornece símbolos (informações sobre código) que ajudam os desenvolvedores a entender e corrigir problemas em seus programas. Esses símbolos são desacoplados, ou seja, não estão incluídos no arquivo principal da biblioteca, mas podem ser baixados e usados ​​separadamente. 

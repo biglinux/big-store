@@ -1,0 +1,3 @@
+O systemd-lock-handler é um programa que permite a tradução dos eventos de bloqueio do Logind para alvos do systemd. Ele 
+é responsável por gerenciar as ações tomadas quando o usuário bloqueia ou desbloqueia o sistema, como por exemplo, desligar o monitor ou desconectar da rede. Além disso, ele também pode ser
+configurado para realizar tarefas adicionais, como por exemplo, enviar notificações de bloqueio e desbloqueio.

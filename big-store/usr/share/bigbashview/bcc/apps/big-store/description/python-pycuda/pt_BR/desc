@@ -1,0 +1,1 @@
+Esse programa é um wrapper em Python para a biblioteca Nvidia CUDA. Ele permite que você utilize recursos de processamento paralelo da GPU (placa gráfica) com a linguagem Python. Isso pode ser útil para acelerar aplicativos que precisam de muito poder de processamento, como aprendizado de máquina, renderização  de gráficos, etc.  

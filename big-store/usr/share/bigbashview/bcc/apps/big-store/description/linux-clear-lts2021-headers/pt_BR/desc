@@ -1,0 +1,3 @@
+ Este programa fornece headers e scripts para construir módulos para o kernel Clear Linux lts2021. Com ele, 
+é possível desenvolver extensões e aplicativos para funcionarem perfeitamente com essa versão do kernel. Ele é especialmente útil para desenvolvedores e usuários avançados que desejam
+aproveitar ao máximo o poder do seu sistema.

@@ -1,0 +1,1 @@
+python-soupsieve é uma implementação de seletor CSS4 para a biblioteca Beautiful Soup. Isso permite que você encontre elementos no seu código HTML ou XML usando seletores CSS, tornando a busca mais precisa e fácil de ler. Ele é compatível com versões anteriores do Beautiful Soup e é fácil de  usar, basta instalar o pacote e importá-lo no seu código. 

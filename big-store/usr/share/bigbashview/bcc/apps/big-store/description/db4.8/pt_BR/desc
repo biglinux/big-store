@@ -1,0 +1,3 @@
+O sistema de banco de dados embutido Berkeley DB 4.8 é uma ferramenta poderosa para a criação e gerenciamento de bancos de
+dados. Ele é projetado para ser usado como uma biblioteca embutida em outros programas, permitindo que eles armazenem e recuperem informações de forma rápida e eficiente. Além disso, ele
+oferece recursos avançados como transações, replicação e backup, tornando-o uma escolha confiável para aplicativos críticos. 

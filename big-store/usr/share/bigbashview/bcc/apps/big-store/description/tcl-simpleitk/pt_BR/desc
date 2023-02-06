@@ -1,0 +1,3 @@
+ Este programa é uma camada simplificada construída em cima do ITK (Kit de Ferramentas de Imagem Insight). Ele foi criado para
+tornar mais fácil para os usuários trabalhar com imagens e processamento de imagens sem precisar entender todos os detalhes técnicos do ITK. Ele permite que os usuários façam coisas como
+carregar imagens, aplicar filtros e salvar imagens de forma fácil e intuitiva.

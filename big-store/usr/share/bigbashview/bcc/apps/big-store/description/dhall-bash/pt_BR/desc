@@ -1,0 +1,1 @@
+O programa dhall-bash permite que você converta código Dhall em scripts Bash. Isso significa que você pode usar o poderoso sistema de tipos e outros recursos do Dhall para escrever scripts Bash mais robustos e fáceis de entender. O programa funciona pegando seu código Dhall e convertendo-o em código Bash que pode ser executado no prompt de comando. 

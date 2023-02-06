@@ -1,0 +1,2 @@
+Com o git-annex-standalone, você pode gerenciar seus arquivos com o git sem precisar incluir o conteúdo deles no git. É uma
+versão independente, sem dependência do Haskell.

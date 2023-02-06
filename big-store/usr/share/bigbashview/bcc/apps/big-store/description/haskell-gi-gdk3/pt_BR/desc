@@ -1,0 +1,1 @@
+A biblioteca haskell-gi-gdk3 é um conjunto de bindings para o GTK3, uma biblioteca de interface gráfica para o sistema operacional Linux. Isso permite que desenvolvedores escrevam programas com interface gráfica usando a linguagem de programação Haskell. A biblioteca fornece uma maneira fácil de criar janelas, botões, caixas de diálogo e outros elementos de interface gráfica. 

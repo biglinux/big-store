@@ -1,0 +1,1 @@
+Este programa em Ruby é chamado ruby-minitest-proveit. Ele força todos os testes a provarem o sucesso (através de pelo menos uma assertiva) em vez de confiar na ausência de falha. Isso significa que todos os testes precisam ter pelo menos uma declaração que verifica se algo está funcionando corretamente. 

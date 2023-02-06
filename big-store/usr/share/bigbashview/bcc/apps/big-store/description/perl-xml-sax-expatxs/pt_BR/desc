@@ -1,0 +1,2 @@
+Este é um módulo para o Perl que permite a leitura de arquivos XML. Ele é uma extensão do parser Expat e segue o padrão SAX 2 para
+processamento de arquivos XML.Com esse módulo, você pode facilmente ler e manipular dados em arquivos XML, tornando-o uma ferramenta valiosa para quem trabalha com esses tipos de arquivos.

@@ -1,0 +1,1 @@
+Este aplicativo utiliza a biblioteca OpenGL para criar uma janela com fundo transparente. Ele também possui o MangoHud embutido, que é uma ferramenta para mostrar informações sobre o desempenho do jogo. Ele foi projetado para ser executado dentro de uma instância do gamescope. 

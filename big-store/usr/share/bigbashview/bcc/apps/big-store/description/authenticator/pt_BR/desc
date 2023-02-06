@@ -1,0 +1,3 @@
+ Este é um programa chamado Authenticator. Ele é usado para gerar códigos de autenticação de dois fatores (2FA). Isso significa que,
+além de digitar sua senha, você precisará digitar um código adicional para acessar sua conta. Isso ajuda a proteger sua conta de ataques de hackers. Este programa é projetado para ser usado
+no sistema operacional GNOME. 

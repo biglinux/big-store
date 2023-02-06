@@ -1,0 +1,2 @@
+wxWidgets é uma biblioteca que permite a criação de interfaces gráficas para programas, com suporte a diferentes
+sistemas operacionais. A versão instalada é a 3.0.5, e se encontra em /opt/wxgtk-3.0.5/. Ela é uma implementação GTK+3 da API wxWidgets.

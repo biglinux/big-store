@@ -1,0 +1,3 @@
+Este programa permite manipular as variáveis de ambiente de forma local e reversível. Ele funciona ao criar um diretório
+'shadow' que contém as variáveis de ambiente modificadas, permitindo que você altere facilmente o ambiente sem afetar outros programas ou sistemas.É útil para testes e desenvolvimento de
+software, pois permite que você altere facilmente o ambiente sem afetar outros programas ou sistemas.

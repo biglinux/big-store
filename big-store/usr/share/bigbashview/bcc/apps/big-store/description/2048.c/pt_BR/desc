@@ -1,0 +1,3 @@
+Este é um jogo chamado 2048, que você pode jogar no seu computador através do terminal. Ele foi escrito em uma linguagem de
+programação chamada C. Para jogar, você precisa usar as setas do teclado para mover as peças. Quando duas peças com o mesmo número se encontram, elas se juntam para formar uma peça com um
+número maior. O objetivo é juntar as peças para formar a peça 2048!

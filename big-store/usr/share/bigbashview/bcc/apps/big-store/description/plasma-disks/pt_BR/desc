@@ -1,0 +1,1 @@
+Este programa é projetado para monitorar dispositivos que possuem a capacidade S.M.A.R.T. Ele verifica se há algum problema iminente e avisa o usuário antes que ocorra uma falha. Isso ajuda a prevenir perda de dados e problemas no dispositivo. Ele também é específico para monitorar discos de plasma. 

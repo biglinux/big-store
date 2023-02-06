@@ -1,0 +1,1 @@
+Este programa é um compilador C simples que gera código para o processador 8086. Ele é usado para escrever programas em C e convertê-los em código que pode ser executado em computadores antigos ou emuladores que usam esse tipo de processador. Ele é conhecido como dev86 e é um programa popular entre desenvolvedores de sistemas embarcados e retrocomputação. 

@@ -1,0 +1,2 @@
+ Servidor SFTP com suporte opcional para HTTP, FTP/S e WebDAV. Ele pode servir sistemas de arquivos locais, S3, GCS, Azure Blob e
+SFTP.

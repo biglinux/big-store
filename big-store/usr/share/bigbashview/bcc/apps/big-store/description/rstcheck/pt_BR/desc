@@ -1,0 +1,1 @@
+rstcheck é um programa que verifica a sintaxe de arquivos de texto escritos em reStructuredText, um formato de marcação de texto utilizado para criação de documentação. Ele também verifica se os blocos de código aninhados dentro do arquivo estão escritos corretamente. Isso é útil para garantir que a documentação esteja sempre precisa e fácil de ler. 

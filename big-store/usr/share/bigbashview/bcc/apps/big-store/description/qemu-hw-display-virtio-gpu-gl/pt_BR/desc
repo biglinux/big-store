@@ -1,0 +1,1 @@
+O dispositivo de exibição virtio-gpu-gl do QEMU é uma opção de hardware para exibir gráficos virtuais. Ele usa  o protocolo virtio para se comunicar com a máquina virtual e o driver OpenGL para renderizar os gráficos. Com ele, é possível obter uma performance de exibição melhor em máquinas virtuais,  comparado com outras opções de hardware. 

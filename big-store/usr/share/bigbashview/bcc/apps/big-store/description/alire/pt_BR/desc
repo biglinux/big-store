@@ -1,0 +1,2 @@
+Esse programa é uma coleção de bibliotecas prontas para usar em Ada. Ele também tem uma ferramenta de linha de comando (alr) para
+obter, construir e usar essas bibliotecas em seus próprios projetos. O objetivo é ajudar a ter um papel semelhante ao cargo do Rust ou opam do OCaml.

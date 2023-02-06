@@ -1,0 +1,1 @@
+Este programa permite a interoperabilidade entre as ferramentas hspec e hedgehog, ambas utilizadas para testes em aplicações escritas em Haskell. Isso significa que você pode usar as duas ferramentas juntas para garantir a qualidade do seu código e encontrar erros de maneira mais eficiente. 

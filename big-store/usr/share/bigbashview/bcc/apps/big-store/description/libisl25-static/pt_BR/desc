@@ -1,0 +1,4 @@
+Esta é uma biblioteca para manipular conjuntos e relações de pontos inteiros delimitados por restrições lineares.
+Ela é chamada de 'libisl25-static' e é muito útil para trabalhar com problemas matemáticos e algoritmos que envolvem conjuntos e restrições.Com essa biblioteca, é possível fazer coisas como
+criar conjuntos de números inteiros, adicionar e remover elementos desse conjunto, e até mesmo comparar diferentes conjuntos entre si. Além disso, é possível trabalhar com relações entre
+conjuntos, como união, intersecção e diferença.

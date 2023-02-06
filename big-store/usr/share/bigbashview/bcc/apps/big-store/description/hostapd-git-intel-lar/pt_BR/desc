@@ -1,0 +1,3 @@
+Este programa é especialmente desenvolvido para corrigir problemas de conexão Wi-Fi em dispositivos Intel. Ele é chamado de
+hostapd-git-intel-lar e ajuda a melhorar a estabilidade da conexão, principalmente quando usado com redes sem fio de alta potência. Ele foi criado com a finalidade de contornar problemas de
+prescan LAR para dispositivos Intel NICs, garantindo uma conexão mais estável e confiável.

@@ -1,0 +1,1 @@
+Com o rust-script, você pode facilmente executar arquivos e expressões em Rust sem precisar de nenhuma configuração ou compilação. Isso é útil para testes rápidos e experimentações, sem a necessidade de criar um projeto completo. Basta escrever o código em um arquivo ou uma expressão e executá-lo com o rust-script para ver o resultado. 

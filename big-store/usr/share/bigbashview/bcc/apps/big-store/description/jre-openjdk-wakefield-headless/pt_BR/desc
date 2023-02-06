@@ -1,0 +1,3 @@
+ Este programa é chamado de JRE OpenJDK Wakefield Headless e ele é um ambiente de execução para rodar
+aplicativos Java sem a necessidade de uma interface gráfica. Ele é baseado na versão 19 do Java e é desenvolvido pela equipe Wakefield. Com ele, você pode rodar aplicativos Java sem
+precisar se preocupar com a interface gráfica, o que pode ser útil em servidores ou sistemas embarcados. 

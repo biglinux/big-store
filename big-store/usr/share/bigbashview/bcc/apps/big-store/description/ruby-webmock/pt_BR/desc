@@ -1,0 +1,1 @@
+Este programa permite simular requisições HTTP e estabelecer expectativas nas requisições HTTP. Isso é útil para testar seu código sem precisar se conectar a um servidor real. É escrito em Ruby e chamado de ruby-webmock. 

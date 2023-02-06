@@ -1,0 +1,3 @@
+ afl++ é uma ferramenta de teste de segurança que inclui patches da comunidade, escalonamentos de potência AFLfast,
+atualização do qemu 3.1 com suporte a laf-intel, mutadores MOpt, instrumentação InsTrim, modo unicorn_mode e muito mais! Ele é uma versão melhorada do AFL (American Fuzzy Lop) e é projetado
+para ajudar a encontrar falhas de segurança em software. 

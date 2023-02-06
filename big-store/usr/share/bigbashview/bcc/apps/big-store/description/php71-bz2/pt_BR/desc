@@ -1,0 +1,3 @@
+Este é um módulo de compactação para o PHP 7.1. Ele permite que o PHP comprima e descomprima arquivos usando o formato
+bz2. Isso pode ser útil para economizar espaço em disco ou para enviar arquivos mais rapidamente através da internet.Para usar este módulo, você precisará ter o PHP 7.1 instalado em seu
+sistema e habilitar o módulo bz2 no arquivo de configuração do PHP. Depois disso, você poderá usar as funções do PHP para trabalhar com arquivos bz2, como bzopen, bzread e bzwrite.

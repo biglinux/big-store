@@ -1,0 +1,2 @@
+O navegador de banco de dados SQLite é uma leve ferramenta de edição para bancos de dados SQLite, construída com base no
+Qt (com suporte para sqlcipher). Ele permite que você visualize e edite facilmente seus bancos de dados, crie tabelas e adicione dados sem precisar escrever códigos complexos.

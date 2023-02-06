@@ -1,0 +1,4 @@
+Este programa é uma ferramenta que permite gerar ou atualizar credenciais temporárias para acessar a AWS (Amazon Web
+Services) usando MFA (Autenticação de dois fatores). Isso significa que, além de seu nome de usuário e senha, você precisará fornecer um código gerado por um dispositivo de autenticação
+adicional, como um aplicativo em seu celular ou um token físico, para acessar sua conta AWS. Essa medida adicional de segurança ajuda a garantir que somente você tenha acesso às suas
+informações e recursos na AWS.

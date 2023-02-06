@@ -1,0 +1,4 @@
+Este é um driver para placas wireless que usam o chip Realtek 8821CE. Ele vem com firmware incluído para garantir 
+que a sua placa wireless funcione corretamente. É especialmente útil para quem está usando um computador com sistema operacional Linux.Este driver é mantido como um pacote git, o que
+significa que ele pode ser facilmente atualizado quando novas correções de bugs ou recursos são adicionados. Ele é projetado para ser fácil de instalar e usar, mesmo para aqueles sem muita 
+experiência com Linux.

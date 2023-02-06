@@ -1,0 +1,1 @@
+O Moose é um módulo de Perl que fornece uma sintaxe mais amigável e orientada a objetos para trabalhar com Perl. Ele também adiciona recursos avançados, como herança múltipla e sobrecarga de métodos. Este pacote oferece uma versão do Moose sem os chifres. Isso é útil se você deseja usar as funcionalidades do Moose, mas não deseja usar todos os recursos avançados. 

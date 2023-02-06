@@ -1,0 +1,4 @@
+O nodejs-spago é um gerenciador de pacotes e ferramenta de construção do PureScript que é
+alimentado pelo Dhall e conjuntos de pacotes. Ele permite gerenciar facilmente as dependências do seu projeto e construí-lo de forma rápida e fácil. Com ele, você pode instalar pacotes,
+criar novos pacotes e gerenciar as configurações do seu projeto com facilidade.Além disso, o nodejs-spago também oferece recursos avançados, como suporte para o gerenciamento de pacotes em 
+múltiplos ambientes e integração com outras ferramentas do PureScript.

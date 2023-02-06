@@ -1,0 +1,4 @@
+ python-nbdime é uma ferramenta que ajuda a comparar e unir arquivos de notebooks Jupyter. Isso é útil
+quando você está trabalhando em um projeto com outras pessoas e precisa juntar as alterações feitas por cada um. Com python-nbdime, você pode ver as diferenças entre as versões e decidir
+qual delas manter. Além disso, é possível mesclar as alterações de forma automática ou manual.Este programa é escrito em Python e pode ser instalado através do gerenciador de pacotes
+pip. Ele é compatível com as versões mais recentes do Jupyter Notebook. 

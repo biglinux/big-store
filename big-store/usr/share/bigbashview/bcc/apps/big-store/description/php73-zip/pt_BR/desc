@@ -1,0 +1,3 @@
+Este é um módulo para o PHP73 que permite a utilização de recursos de compactação e descompactação de arquivos no formato ZIP. Ele é
+útil para quem precisa trabalhar com arquivos grandes ou precisa enviar vários arquivos de uma só vez.Com esse módulo, é possível criar, ler e editar arquivos ZIP, além de adicionar ou
+remover arquivos de um arquivo já existente. Ele é fácil de usar e é compatível com as últimas versões do PHP.

@@ -1,0 +1,1 @@
+libidl2 é uma biblioteca que fornece uma interface gráfica para o IDL (Interface Definition Language) do CORBA 2.2 e o XPIDL (XPCOM Interface Definition Language) do Netscape. Com ela, é possível acessar e utilizar recursos de aplicações distribuídas de forma simples e intuitiva,  sem precisar se preocupar com detalhes de implementação. 

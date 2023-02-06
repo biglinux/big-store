@@ -1,0 +1,3 @@
+Esta é uma biblioteca para Python que permite a você trabalhar com bytecode em diferentes versões do Python. Além disso,
+ela também é um desmontador, o que significa que você pode ver o código Python original a partir do bytecode. É uma ferramenta útil para programadores que querem trabalhar com bytecode em
+diferentes versões do Python.

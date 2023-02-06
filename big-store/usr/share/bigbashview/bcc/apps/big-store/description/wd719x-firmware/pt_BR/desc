@@ -1,0 +1,2 @@
+Este é o driver para as placas de SCSI Western Digital WD7193, WD7197 e WD7296. Ele permite que essas placas funcionem
+corretamente com seu computador.Sem ele, você pode ter problemas com dispositivos de armazenamento conectados à placa, como discos rígidos.

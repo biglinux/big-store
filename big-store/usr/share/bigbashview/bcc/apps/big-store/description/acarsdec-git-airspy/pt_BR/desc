@@ -1,0 +1,3 @@
+ Este programa é um decodificador multi-canal ACARS com backend airspy. Ele permite a decodificação de vários canais de ACARS
+ao mesmo tempo, tornando-o uma ferramenta útil para os entusiastas de rádio. Com ele, é possível acessar e interpretar dados de aviões em tempo real, como informações meteorológicas e
+posição. Além disso, o backend airspy permite uma melhor qualidade de recepção, garantindo uma decodificação precisa e confiável. 

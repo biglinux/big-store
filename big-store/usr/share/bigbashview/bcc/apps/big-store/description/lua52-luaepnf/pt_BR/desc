@@ -1,0 +1,1 @@
+O Extended PEG Notation Format (EPNF) é uma biblioteca para o Lua que permite criar gramáticas para o LPeg de forma fácil e intuitiva. Ele fornece uma notação de formato PEG estendida que torna mais simples escrever e compreender as regras de gramática.A biblioteca é compatível com Lua 5.2 e é conhecida como lua52-luaepnf. 

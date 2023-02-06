@@ -1,0 +1,1 @@
+Este é um módulo de ortografia para o PHP. Ele permite que você adicione verificação de ortografia e sugestões de palavras a seus aplicativos PHP. Ele usa o dicionário aspell e é baseado na biblioteca pspell. 

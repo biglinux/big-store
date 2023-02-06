@@ -1,0 +1,1 @@
+O módulo Sort::Versions é uma ferramenta escrita em Perl 5 que permite ordenar números de revisão de forma eficiente. Ele é útil em situações onde é necessário ordenar sequências de números que representam versões de software, por exemplo. Com este módulo, é possível ordenar números de revisão de forma automatizada, sem a necessidade de intervenção humana. 

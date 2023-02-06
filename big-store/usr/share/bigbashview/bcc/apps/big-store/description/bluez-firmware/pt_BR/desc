@@ -1,0 +1,3 @@
+ Este programa é um conjunto de firmwares para os chips Bluetooth Broadcom BCM203x e STLC2300. Ele ajuda a garantir que esses
+chips funcionem corretamente com dispositivos Bluetooth.Os firmwares são arquivos de software que contêm instruções para o hardware do chip executar. Este programa fornece essas
+instruções específicas para esses chips específicos, garantindo assim que eles possam se comunicar com outros dispositivos Bluetooth de forma eficiente. 

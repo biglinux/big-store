@@ -1,0 +1,2 @@
+Kwinft é um substituto avançado para o gerenciador de janelas KWin, ele adiciona recursos adicionais utilizando a
+biblioteca libwayland. Ele é construído como uma biblioteca Qt/C++ chamada Wrapland, permitindo uma integração fácil com outros aplicativos.

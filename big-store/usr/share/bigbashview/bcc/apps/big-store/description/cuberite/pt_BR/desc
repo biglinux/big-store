@@ -1,0 +1,2 @@
+O Cuberite é um servidor de jogos Minecraft compatível, escrito em C++ e projetado para ser eficiente com memória e
+CPU. Além disso, possui uma API de plug-ins Lua flexível. É compatível com o cliente vanilla do Minecraft.

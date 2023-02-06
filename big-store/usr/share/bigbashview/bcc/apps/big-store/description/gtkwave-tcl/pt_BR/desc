@@ -1,0 +1,3 @@
+Este programa é chamado de gtkwave-tcl e é um visualizador de ondas de sinal. Ele pode ler arquivos nos formatos LXT, LXT2,
+VZT, GHW, FST e VCD/EVCD. Além disso, ele tem suporte ao Tcl/Tk, o que significa que ele pode ser usado com outros programas que usam essas ferramentas. Ele é útil para analisar e entender 
+como os sinais mudam ao longo do tempo em sistemas eletrônicos.

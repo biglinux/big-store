@@ -1,0 +1,1 @@
+A biblioteca lib32-libxcb é uma biblioteca do lado do cliente para o protocolo X11, que é usado para se conectar a servidores de exibição X11 e controlar janelas, gráficos, etc. Essa é a versão de 32 bits da biblioteca, o que significa que ela é projetada para ser usada em sistemas operacionais de 32 bits. 

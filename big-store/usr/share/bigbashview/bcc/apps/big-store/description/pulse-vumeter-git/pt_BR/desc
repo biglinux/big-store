@@ -1,0 +1,4 @@
+Este programa é um medidor de volume para o PulseAudio, um software de gerenciamento de som para sistemas Linux. Ele mostra
+o volume atual em forma de barra na linha de comando, de forma que você possa ver facilmente o quanto o som está alto ou baixo. É fácil de usar, basta digitar o comando no terminal e ver a 
+barra de volume em tempo real. É útil para quem gosta de ouvir música ou assistir vídeos enquanto trabalha no computador e quer ter uma noção rápida do volume sem precisar abrir as
+configurações de som.

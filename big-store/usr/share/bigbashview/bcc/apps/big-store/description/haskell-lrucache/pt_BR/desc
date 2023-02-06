@@ -1,0 +1,1 @@
+Este é um programa escrito em Haskell chamado haskell-lrucache. Ele é projetado para ser um cache LRU (Least Recently Used), ou seja, ele armazena itens recentemente usados e remove os menos usados quando precisa de espaço. Ele é simples e puro, o que significa que ele não tem dependências adicionais e é fácil de entender e usar. 

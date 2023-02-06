@@ -1,0 +1,1 @@
+ Este é um pacote em Python que permite a você escrever arquivos Value Change Dump (VCD). VCD é um formato de arquivo usado para registrar a saída de simulações digitais, como simulações de circuitos digitais. Com esse pacote, você pode facilmente criar arquivos VCD a partir de suas simulações e usá-los para visualizar e analisar os resultados. 

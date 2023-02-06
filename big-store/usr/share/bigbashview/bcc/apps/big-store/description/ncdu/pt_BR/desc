@@ -1,0 +1,1 @@
+ncdu é um programa que permite analisar o uso de disco no seu computador. Ele usa uma interface chamada ncurses, que permite navegar através das pastas e ver quanto espaço está sendo usado por cada uma delas. Ele é útil para encontrar arquivos grandes que você não precisa mais e liberar espaço no disco. 

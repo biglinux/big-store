@@ -1,0 +1,4 @@
+O HBase é um banco de dados NoSQL construído sobre o sistema de arquivos Hadoop Distributed File System (HDFS). Ele é projetado
+para lidar com grandes volumes de dados, escalando horizontalmente para centenas de nós de computação e petabytes de armazenamento. O HBase oferece recuperação rápida de falhas, tabelas de 
+alta disponibilidade, e modelo de dados de tabela chave-valor. Além disso, o HBase fornece recursos avançados como filtragem de linhas, verificação de consistência, e ordenação de colunas. 
+Ele é amplamente utilizado por empresas de grande porte, como Facebook, Twitter, e Alibaba, para armazenar e processar grandes volumes de dados de usuários e interações.

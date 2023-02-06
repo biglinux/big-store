@@ -1,0 +1,1 @@
+ Esse é um programa que oferece suporte de baixo nível para a biblioteca padrão C++ LLVM. Ele é conhecido como WASI-libc++abi e é usado para ajudar a garantir que o código C++ possa ser executado de forma consistente em diferentes sistemas operacionais e plataformas. Ele é projetado para ser usado principalmente por desenvolvedores de software. 

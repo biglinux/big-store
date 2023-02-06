@@ -1,0 +1,1 @@
+A biblioteca haskell-xss-sanitize é projetada para ajudar a proteger seu aplicativo web de ataques cross-site scripting (XSS) através da sanitização de HTML não confiável. Ela utiliza uma lista branca de tags e atributos permitidos para filtrar conteúdo potencialmente perigoso. Escrita em Haskell, é fácil de usar e integrar com seu aplicativo. 

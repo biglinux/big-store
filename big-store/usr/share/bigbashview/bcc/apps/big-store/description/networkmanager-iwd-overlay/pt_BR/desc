@@ -1,0 +1,3 @@
+Este programa ajuda a configurar o seu gerenciador de rede para usar o iwd ao invés do wpa_supplicant. Isso pode melhorar a
+conectividade e a segurança da sua rede.O iwd é uma tecnologia de gerenciamento de rede sem fio que foi projetada para ser mais rápida e segura do que outras opções disponíveis. Ele
+também tem suporte para vários dispositivos sem fio diferentes, o que o torna uma boa escolha para usuários com diferentes tipos de equipamentos.

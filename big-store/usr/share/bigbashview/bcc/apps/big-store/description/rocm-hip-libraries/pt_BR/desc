@@ -1,0 +1,3 @@
+Esse programa permite desenvolver alguns aplicativos usando o HIP (Heterogeneous-Compute Interface for
+Portability) e bibliotecas específicas para plataformas da AMD. Isso significa que os desenvolvedores podem escrever código de forma mais fácil e rápida, permitindo que seus aplicativos
+funcionem melhor em computadores com processadores AMD.

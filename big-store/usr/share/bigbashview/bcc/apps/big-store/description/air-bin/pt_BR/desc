@@ -1,0 +1,4 @@
+Este programa permite que você atualize seu aplicativo Go sem precisar reiniciá-lo. Isso é útil quando você está
+desenvolvendo e precisa ver as alterações que fez imediatamente, sem precisar parar e iniciar novamente o aplicativo. Ele se chama air-bin.É fácil de usar, basta seguir as instruções e
+configurar o programa com o seu aplicativo Go. Ele funciona monitorando as alterações no código e, quando detecta uma alteração, ele atualiza automaticamente o aplicativo sem precisar
+reiniciá-lo.

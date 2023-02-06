@@ -1,0 +1,3 @@
+Este programa é um servidor proxy que ajuda a burlar a proteção do Cloudflare. Ele permite acessar sites que estão
+protegidos por esse sistema de segurança, sem precisar se preocupar com bloqueios ou restrições.Ele é especialmente útil para aqueles que precisam acessar conteúdo que está bloqueado em sua
+região ou para desenvolvedores que precisam testar sites protegidos pelo Cloudflare.

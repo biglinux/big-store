@@ -1,0 +1,4 @@
+Este é um banco de dados para um repositório de programas. Ele inclui uma política de referência 
+do SELinux que é modular e possui cabeçalhos e documentação. Além disso, esta política inclui patches específicos do Arch Linux.O SELinux é um sistema de segurança avançado para sistemas
+operacionais Linux, e esta política de referência fornece uma maneira de configurá-lo de forma eficiente e segura. Com os patches do Arch Linux, ela é ainda mais personalizável para as
+necessidades do usuário.

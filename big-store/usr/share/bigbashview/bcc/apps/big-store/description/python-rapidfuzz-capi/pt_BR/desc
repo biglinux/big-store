@@ -1,0 +1,1 @@
+Este programa é uma API, ou uma forma de conectar outros programas, para o RapidFuzz. Ele permite que você adicione novas funcionalidades ao RapidFuzz sem precisar modificar o programa original. Isso é útil quando você quer usar o RapidFuzz em conjunto com outros programas, mas não quer mexer no código do RapidFuzz. 

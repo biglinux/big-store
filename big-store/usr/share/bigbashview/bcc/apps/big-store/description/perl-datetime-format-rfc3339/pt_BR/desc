@@ -1,0 +1,3 @@
+Esse programa ajuda você a entender e formatar datas no padrão RFC3339 usando a linguagem de programação Perl. Isso
+significa que ele pode ler uma data escrita nesse formato e também escrever uma data nesse formato. Isso é útil para trabalhar com sistemas que usam esse padrão de data e hora.Se você
+estiver trabalhando com dados de tempo, esse programa pode ser muito útil para você.

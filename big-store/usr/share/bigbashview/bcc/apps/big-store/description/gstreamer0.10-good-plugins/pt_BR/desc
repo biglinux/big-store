@@ -1,0 +1,3 @@
+Os plugins de mídia para o Gstreamer (gst-plugins-good) são uma coleção de plugins adicionais para o framework Gstreamer.
+Eles fornecem suporte para vários formatos de arquivos de mídia, codecs e outras funcionalidades para ajudar a melhorar a reprodução de mídia em seu aplicativo.Estes plugins incluem suporte
+para arquivos de áudio e vídeo populares, como MP3, H.264 e Ogg, bem como suporte para vários tipos de câmeras e dispositivos de captura de vídeo.

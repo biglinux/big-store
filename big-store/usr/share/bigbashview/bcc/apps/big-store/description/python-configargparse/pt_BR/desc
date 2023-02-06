@@ -1,0 +1,1 @@
+Este programa é uma substituição fácil para o argparse, que é uma biblioteca padrão do Python para lidar com argumentos de linha de comando. Com ele, as opções também podem ser definidas através de arquivos de configuração e/ou variáveis de ambiente. Isso torna mais fácil gerenciar  configurações em diferentes ambientes.  

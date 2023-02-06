@@ -1,0 +1,4 @@
+Este programa é um decodificador de imagens de satélite APT da NOAA. Ele permite que você transforme imagens
+capturadas pelo satélite em um formato que possa ser facilmente visualizado em seu computador. Isso pode ser útil para estudar a Terra a partir de uma perspectiva diferente e para analisar 
+dados meteorológicos.Este decodificador é baseado no projeto 'aptdec' e é desenvolvido como um projeto git, o que significa que as atualizações e melhorias podem ser contribuídas por
+outros desenvolvedores.

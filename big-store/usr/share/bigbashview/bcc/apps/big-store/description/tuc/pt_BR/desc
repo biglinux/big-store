@@ -1,0 +1,3 @@
+Existe um programa chamado tuc que é uma alternativa mais poderosa para o comando cut que já vem pré-instalado em sistemas
+operacionais como o Linux. Ele permite cortar e separar informações de arquivos de maneira mais avançada e flexível.Por exemplo, enquanto o comando cut só permite separar por um delimitador
+específico, o tuc permite criar expressões regulares personalizadas para fazer o corte. Além disso, ele também suporta operações em vários arquivos ao mesmo tempo.

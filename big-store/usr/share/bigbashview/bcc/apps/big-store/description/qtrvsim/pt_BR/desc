@@ -1,0 +1,3 @@
+Este programa é um simulador de CPU RISC-V criado com o objetivo de ser utilizado em sala de aula para ensinar como
+funciona uma CPU. Ele permite que os estudantes vejam como os comandos são executados e como a memória é acessada, dando uma visão mais clara do funcionamento interno de um computador. Com 
+ele, é possível testar diferentes códigos e ver como eles são processados pela CPU.

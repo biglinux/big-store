@@ -1,0 +1,3 @@
+Este é um programa chamado python-blivet. Ele serve para gerenciar a configuração de armazenamento do seu
+sistema. Ele usa algo chamado DBus e um módulo de python para fazer isso. Isso significa que ele pode ser usado para fazer coisas como adicionar novos discos duros, mudar como os arquivos
+são armazenados e muito mais. Se você precisa gerenciar o armazenamento do seu computador, este é um ótimo programa para usar. 

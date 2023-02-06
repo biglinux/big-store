@@ -1,0 +1,4 @@
+ Com o adb-sync-git, você pode facilmente sincronizar arquivos entre seu computador e seu dispositivo Android usando o ADB
+(Android Debug Bridge). Isso significa que você pode transferir arquivos do seu computador para o seu dispositivo Android e vice-versa sem precisar fazer o upload manualmente para a nuvem
+ou usar cabos USB. Tudo o que você precisa é ter o ADB configurado no seu computador e habilitado no seu dispositivo Android. É uma maneira rápida e fácil de gerenciar seus arquivos entre
+dispositivos. 

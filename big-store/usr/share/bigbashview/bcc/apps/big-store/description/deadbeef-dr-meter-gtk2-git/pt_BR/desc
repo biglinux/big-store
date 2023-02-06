@@ -1,0 +1,4 @@
+Este programa é um plugin para o player de áudio DeaDBeeF, que adiciona uma ferramenta para medir a faixa
+dinâmica das músicas. Isso significa que ele mostra quanto os níveis de som variam entre os momentos mais altos e mais baixos de uma música.Com esta ferramenta, é possível ajustar as
+configurações de som de forma que todas as músicas tenham o mesmo nível de volume, ou entender melhor como as músicas foram mixadas e masterizadas.Este plugin é específico para a versão
+GTK2 do DeaDBeeF, então é importante verificar se você tem a versão correta do player antes de instalá-lo.

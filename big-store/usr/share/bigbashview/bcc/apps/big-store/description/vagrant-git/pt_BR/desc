@@ -1,0 +1,4 @@
+Este programa, chamado vagrant-git, ajuda a criar ambientes virtuais de desenvolvimento. Isso significa que ele cria
+uma cópia de um computador dentro de outro, com tudo o que você precisa para trabalhar em um projeto específico. Ele também ajuda a distribuir esses ambientes para outras pessoas que estão 
+trabalhando no mesmo projeto. Isso é útil porque cada pessoa pode ter configurações diferentes em seu próprio computador, mas com vagrant-git, todos trabalharão com as mesmas configurações 
+e ferramentas dentro do ambiente virtual.

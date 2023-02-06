@@ -1,0 +1,4 @@
+Este programa é um alocador de memória projetado especificamente para sistemas atuais. Ele tem medidas de segurança
+adicionais para proteger contra problemas comuns de memória, como vazamentos e corrupção de dados. Além disso, ele foi otimizado para trabalhar de forma eficiente em sistemas modernos,
+garantindo que seu uso não afete significativamente o desempenho do sistema.Ele é baseado no malloc padrão, mas inclui várias melhorias e correções de bugs para torná-lo mais seguro e
+estável. Ele também é open-source, o que significa que qualquer pessoa pode contribuir e melhorá-lo.

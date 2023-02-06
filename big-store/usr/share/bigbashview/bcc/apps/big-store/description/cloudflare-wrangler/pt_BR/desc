@@ -1,0 +1,4 @@
+ A ferramenta de linha de comando Cloudflare-wrangler é uma ferramenta útil para trabalhar com Cloudflare Workers. 
+Ele permite que você gerencie e crie scripts para otimizar o desempenho do seu site, além de gerenciar o acesso à sua conta Cloudflare. Com ele, você pode automatizar tarefas comuns, como
+adicionar ou remover regras de roteamento, gerenciar certificados SSL e muito mais. É fácil de usar e pode ser integrado com outras ferramentas de gerenciamento de sites. Se você precisa de
+um controle mais preciso e avançado sobre seu site, experimente o Cloudflare-wrangler. 

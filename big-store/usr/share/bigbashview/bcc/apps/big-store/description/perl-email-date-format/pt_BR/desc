@@ -1,0 +1,1 @@
+Este programa é escrito em Perl e tem como objetivo produzir strings de data no formato específico RFC 2822. Este formato é comumente usado em mensagens de e-mail e garante que a data e hora sejam exibidas de maneira consistente independentemente do software ou sistema operacional usado. 

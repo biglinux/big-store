@@ -1,0 +1,3 @@
+Este programa é um serviço do Systemd que permite a automatização da limpeza de zpools do ZFS. Isso significa que ele
+verificará automaticamente se há algum problema com os dados armazenados e os corrigirá sem a necessidade de intervenção humana. Isso garante que os dados armazenados sejam sempre seguros e
+precisos, protegendo-os contra possíveis falhas.

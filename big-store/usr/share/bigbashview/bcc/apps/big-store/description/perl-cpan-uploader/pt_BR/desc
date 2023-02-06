@@ -1,0 +1,4 @@
+Este programa é uma ferramenta para facilitar o upload de pacotes para o repositório CPAN (Comprehensive Perl Archive
+Network). Ele permite que você faça o upload de suas bibliotecas e módulos de forma rápida e fácil, sem precisar lidar com configurações complexas. Ele também fornece recursos adicionais,
+como a verificação de dependências e a validação dos metadados dos pacotes.Se você é um desenvolvedor Perl ou utiliza módulos Perl em seus projetos, este programa pode ser uma ótima opção
+para simplificar o processo de compartilhar seu trabalho com a comunidade.

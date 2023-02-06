@@ -1,0 +1,5 @@
+Este é um módulo para o programa PHP 74 que permite a conversão de caracteres entre diferentes codificações.
+Ele é útil para lidar com texto escrito em diferentes idiomas e alfabetos, garantindo que o texto esteja sempre legível e correto.Com esse módulo, é possível converter caracteres de uma
+codificação para outra de forma simples e rápida. Ele é compatível com uma grande variedade de codificações, incluindo UTF-8, ISO-8859-1 e muitas outras.Além disso, ele também oferece
+suporte para a conversão de caracteres em arquivos e strings, facilitando ainda mais o seu uso.Em resumo, este módulo é uma ferramenta valiosa para qualquer pessoa que precise trabalhar
+com texto em diferentes codificações e idiomas no PHP 74.

@@ -1,0 +1,3 @@
+Una librería y herramientas de visualización para la hidrodinámica por partículas suavizadas, conocida
+como SPH. Esta técnica se utiliza para simular el comportamiento de fluidos y medios continuos en un ambiente tridimensional. Con esta librería, es posible crear simulaciones realistas de
+eventos como explosiones, olas y flujos de fluidos. Además, cuenta con herramientas de visualización para ayudar a interpretar los resultados de las simulaciones.

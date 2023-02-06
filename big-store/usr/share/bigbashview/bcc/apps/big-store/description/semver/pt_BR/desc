@@ -1,0 +1,1 @@
+O semver é um analisador de versão semântica usado pelo npm, que é uma plataforma de gerenciamento de pacotes para JavaScript. Ele permite que os desenvolvedores especifiquem as dependências de suas aplicações de maneira clara e concisa, garantindo que as versões certas dos pacotes sejam instaladas e mantidas.  

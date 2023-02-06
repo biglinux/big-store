@@ -1,0 +1,1 @@
+O pacote 'haskell-digest' fornece diferentes tipos de hashes para sequências de bytes. Atualmente, ele suporta os algoritmos CRC32 e Adler32. Estes algoritmos são úteis para verificar a integridade de arquivos e garantir que eles não foram corrompidos durante a transferência.  

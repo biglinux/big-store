@@ -1,0 +1,2 @@
+Uma ferramenta que ajuda a processar arquivos XML e HTML, fornecendo implementações de SAX2, DOM, XPath e XSLT,
+escrita em C++ padrão.

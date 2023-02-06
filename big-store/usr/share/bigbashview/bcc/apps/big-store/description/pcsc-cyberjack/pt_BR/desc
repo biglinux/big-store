@@ -1,0 +1,2 @@
+Este programa é um controlador PCSC (Smart Card Reader) para os leitores de cartão cyberjack da Reiner SCT. 
+Ele permite que o seu computador reconheça e comunique com esses leitores de cartão, possibilitando assim o uso de cartões inteligentes com esses dispositivos.

@@ -1,0 +1,1 @@
+Este programa permite reificar informações de tipos de dados usando o Haskell Template Haskell (TH). Ele funciona de forma recursiva, ou seja, ele pode reificar informações de tipos de dados aninhados.A abreviação TH se refere ao Template Haskell, um mecanismo de geração de código presente na linguagem Haskell. 

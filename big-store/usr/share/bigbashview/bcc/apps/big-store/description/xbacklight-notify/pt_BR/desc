@@ -1,0 +1,4 @@
+Este programa é chamado de xbacklight-notify e é um tipo de assistente para o seu computador. Ele ajuda a avisar quando o
+brilho da tela do seu computador está mudando. Ele é especialmente útil se você gostaria de manter o brilho da tela em um nível específico, mas às vezes esquece de verificar isso. Ele é
+projetado para funcionar com o sistema operacional Xorg, que é um dos sistemas operacionais mais populares para computadores pessoais. Ele é chamado de um daemon, que é um tipo de programa 
+que fica rodando em segundo plano e realiza tarefas para você sem precisar ficar aberto o tempo todo. 

@@ -1,0 +1,2 @@
+Este programa é uma implementação do conversor Real-CUGAN usando a biblioteca ncnn. Ele é otimizado para rodar com
+alta velocidade em computadores com processadores Intel, AMD, Nvidia e Apple-Silicon usando a API Vulkan.

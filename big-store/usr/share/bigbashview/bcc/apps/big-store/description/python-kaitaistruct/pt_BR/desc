@@ -1,0 +1,1 @@
+O python-kaitaistruct é uma biblioteca de tempo de execução para o gerador de analisador declarativo Kaitai Struct. Ele permite que você parseie arquivos binários de acordo com um esquema de dados declarado previamente em formato Kaitai. Isso torna a leitura e escrita de dados binários complexos mais fácil e eficiente em aplicativos Python. 

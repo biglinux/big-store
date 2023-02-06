@@ -1,0 +1,1 @@
+A biblioteca python-gevent-websocket é uma extensão da biblioteca gevent, que adiciona suporte a WebSockets. Ela permite que você crie aplicações web em tempo real com facilidade e eficiência, usando a arquitetura baseada em eventos do gevent. Com esta biblioteca, você pode construir aplicativos como chats, jogos em tempo real e muito mais. 

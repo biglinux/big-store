@@ -1,0 +1,3 @@
+Esse é um banco de dados para guardar informações sobre programas. Você pode encontrar títulos curtos e descrições completas dos 
+programas aqui. O título tem no máximo 20 palavras e a descrição tem no máximo 200 palavras. Por exemplo, temos um programa chamado python-kitchen. Ele contém pedaços úteis de código em
+python.

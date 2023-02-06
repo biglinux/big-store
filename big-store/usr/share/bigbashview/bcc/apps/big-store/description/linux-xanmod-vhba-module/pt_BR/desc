@@ -1,0 +1,1 @@
+Módulo do kernel Xanmod que permite que você crie dispositivos SCSI virtuais (VHBA) no Linux. Com esse módulo, você pode simular discos rígidos, unidades de CD-ROM e outros dispositivos SCSI sem precisar de hardware físico. Isso pode ser útil para testar o sistema ou para usar com outros programas que precisam de dispositivos SCSI. 

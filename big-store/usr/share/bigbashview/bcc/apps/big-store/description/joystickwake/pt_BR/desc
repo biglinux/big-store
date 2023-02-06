@@ -1,0 +1,3 @@
+Este programa permite que você acorde a tela do seu computador usando o joystick. Isso é útil se você quiser usar o joystick
+para jogar jogos ou controlar outros aplicativos sem precisar usar o mouse ou o teclado. Ele funciona monitorando a entrada do joystick e detectando quando algum botão é pressionado. Quando
+isso acontece, a tela é acionada e você pode continuar a usar o joystick.

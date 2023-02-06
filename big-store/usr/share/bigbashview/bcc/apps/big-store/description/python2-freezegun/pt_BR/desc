@@ -1,0 +1,4 @@
+Esse programa é uma ferramenta útil para desenvolvedores de software que precisam criar testes para seus
+projetos. Ele permite que você altere os valores de data e hora de forma controlada, o que é útil quando você precisa testar como seu código se comporta em situações específicas. Isso é
+especialmente útil quando você está trabalhando com a versão antiga do Python, o Python 2.Com esse programa, você pode 'congelar' a data e a hora em um momento específico, e testar seu
+código com base nessa data e hora 'congeladas'. Isso permite que você teste seu código com precisão, sem ter que se preocupar com variações aleatórias na data e hora do sistema.

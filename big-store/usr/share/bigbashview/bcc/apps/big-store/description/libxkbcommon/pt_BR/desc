@@ -1,0 +1,1 @@
+A biblioteca libxkbcommon é usada para gerenciar mapas de teclado em várias plataformas, incluindo sistemas  de janelas e toolkits. Ela permite que os desenvolvedores de aplicativos criem programas que possam funcionar de maneira consistente em diferentes sistemas operacionais e ambientes. 

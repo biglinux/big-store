@@ -1,0 +1,2 @@
+Este programa é uma biblioteca de visualização de dados de alta performance. Ele permite criar visualizações interativas em 2D
+e 3D, tornando mais fácil entender e interpretar grandes conjuntos de dados. É escrito em Python e utiliza a biblioteca Vispy para acelerar a renderização gráfica.

@@ -1,0 +1,2 @@
+ Esse programa permite controlar dispositivos externos como GPIO, LED, PWM, SPI, I2C, MMIO e Serial usando a linguagem Lua.
+Ele funciona especificamente em sistemas Linux. 

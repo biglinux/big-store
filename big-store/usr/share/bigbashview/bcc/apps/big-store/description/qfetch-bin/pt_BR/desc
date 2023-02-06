@@ -1,0 +1,2 @@
+qfetch é uma ferramenta simples de busca inspirada pelo pfetch, mas escrita em rust. Ele é uma ferramenta útil para mostrar
+informações básicas sobre o sistema em uma interface de linha de comando.

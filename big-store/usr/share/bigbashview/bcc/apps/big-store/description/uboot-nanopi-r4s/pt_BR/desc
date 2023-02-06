@@ -1,0 +1,3 @@
+Este programa é chamado de U-Boot e é usado para inicializar o computador FriendlyARM NanoPi R4S. Ele é responsável por 
+carregar o sistema operacional e as configurações do computador antes de iniciar o sistema. É importante ter este programa instalado corretamente para garantir que o NanoPi R4S funcione de 
+forma adequada.

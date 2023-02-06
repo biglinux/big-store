@@ -1,0 +1,3 @@
+ tcllib é um conjunto de extensões Tcl puras que fornecem uma variedade de recursos adicionais para o Tcl. Ele inclui módulos
+para tarefas comuns como manipulação de data e hora, manipulação de arquivos, validação de dados e muito mais. O tcllib é projetado para ser fácil de usar e fazer parte integrante do Tcl,
+tornando-o uma escolha popular entre os desenvolvedores Tcl. 

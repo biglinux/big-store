@@ -1,0 +1,2 @@
+Este programa monitora várias pastas usando padrões glob e ajusta automaticamente a propriedade e as permissões dos arquivos.
+Ele é útil para garantir que os arquivos estejam sempre com as permissões corretas, sem precisar fazer isso manualmente.

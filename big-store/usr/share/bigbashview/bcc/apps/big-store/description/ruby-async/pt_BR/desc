@@ -1,0 +1,1 @@
+ruby-async é um programa que permite a você realizar tarefas de entrada e saída de maneira assíncrona. Isso significa que você pode executar várias tarefas ao mesmo tempo sem precisar esperar por cada uma delas para terminar antes de iniciar a próxima. Isso pode tornar seu código mais rápido e eficiente. 

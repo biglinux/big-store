@@ -1,0 +1,3 @@
+Este programa é uma biblioteca e ferramenta útil para se comunicar com o iBoot e iBSS através de uma conexão USB. Ele
+permite que você envie comandos e receba respostas do dispositivo, o que é útil para vários propósitos, como restaurar o dispositivo ou modificar suas configurações.É fácil de usar e
+funciona com dispositivos iOS, como iPhones e iPads.

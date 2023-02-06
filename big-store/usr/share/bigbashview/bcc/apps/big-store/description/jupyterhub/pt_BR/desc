@@ -1,0 +1,4 @@
+JupyterHub é um servidor que permite que vários usuários acessem e usem notebooks Jupyter. Ele é útil em
+ambientes de trabalho compartilhados, como escolas ou empresas, onde várias pessoas precisam acessar e trabalhar com os mesmos notebooks.Com JupyterHub, os usuários podem criar suas
+próprias instâncias de Jupyter Notebook e personalizá-las de acordo com suas necessidades, sem afetar o trabalho dos outros usuários. Além disso, os administradores podem gerenciar
+facilmente as contas de usuário e acesso, garantindo que os dados e o trabalho dos usuários sejam seguros.

@@ -1,0 +1,3 @@
+Este programa é usado para gerenciar instâncias do IB Gateway, que é uma ferramenta usada para conectar-se ao
+Interactive Brokers. Ele é especialmente útil quando você precisa de múltiplas conexões ou quando precisa rodar em segundo plano sem uma interface gráfica. Ele foi conhecido anteriormente
+como IB Controller.

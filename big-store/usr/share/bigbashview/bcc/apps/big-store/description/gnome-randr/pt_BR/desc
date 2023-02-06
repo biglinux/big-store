@@ -1,0 +1,2 @@
+Este programa tenta reimplementar algumas das funcionalidades do 'xrandr' para o ambiente de trabalho Gnome usando a API
+dbus-mutter. Ele ainda não foi testado com suporte para escalonamento fracionado.

@@ -1,0 +1,1 @@
+Este programa é um banco de dados sem esquema, ou seja, não é necessário definir uma estrutura para os dados antes de inseri-los. Ele também tem funcionalidades semelhantes ao protocolo LDAP, o que facilita a busca e organização dos dados armazenados. Além disso, possui uma API para acesso e manipulação dos dados. 

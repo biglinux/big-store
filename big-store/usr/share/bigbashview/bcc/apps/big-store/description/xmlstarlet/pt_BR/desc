@@ -1,0 +1,1 @@
+ xmlstarlet é um conjunto de ferramentas para trabalhar com documentos XML. Ele permite transformar documentos XML usando XSLT, consultar documentos usando XPath, validar documentos usando DTDs ou XSDs e editar documentos de forma interativa ou usando scripts. É uma ferramenta poderosa para trabalhar com documentos XML em linha de comando. 

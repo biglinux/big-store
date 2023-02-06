@@ -1,0 +1,1 @@
+Esta é uma biblioteca para Haskell que fornece acesso parcial ao OpenSSL. Ele permite que você use algumas das funcionalidades do OpenSSL, como criptografia e verificação de assinatura digital, em seus projetos escritos em Haskell. Ele é chamado de 'haskell-hsopenssl' e é uma opção útil para quem deseja adicionar segurança às suas aplicações escritas em Haskell. 

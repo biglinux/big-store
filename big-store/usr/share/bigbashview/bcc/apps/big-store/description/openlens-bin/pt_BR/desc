@@ -1,0 +1,2 @@
+ O Openlens-bin é um programa para ajudar a desenvolver aplicações para o Kubernetes. Ele é uma versão modificada do programa Lens-bin,
+sem a extensão Lenscloud-lens. Para saber mais, visite o link https://github.com/lensapp/lens/issues/5444 

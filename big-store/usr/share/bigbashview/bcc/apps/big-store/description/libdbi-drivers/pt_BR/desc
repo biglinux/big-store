@@ -1,0 +1,1 @@
+libdbi-drivers é uma biblioteca que fornece uma camada de abstração independente de banco de dados em C, semelhante ao módulo DBI para Perl. O pacote libdbi-drivers inclui drivers para MySQL, PostgreSQL e SQLite. Ele permite que você escreva um conjunto de código que funciona com vários bancos de dados. 
