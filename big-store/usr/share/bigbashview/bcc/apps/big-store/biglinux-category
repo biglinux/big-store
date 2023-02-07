@@ -154,7 +154,7 @@ fi
 if [ "$category" = "devbd" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools mongodb"
+    APPSTREAM_CATEGORY "dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools mongodb-bin percona-server questdb"
     AUR_CATEGORY
 fi
 
@@ -195,7 +195,7 @@ fi
 if [ "$category" = "radio" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "vocal gnome-podcasts gogglesmm gpodder great-little-radio-player radiotray-ng shortwave odio-appimage goodvibes gradio streamtuner2 tuner"
+    APPSTREAM_CATEGORY "vocal gnome-podcasts gogglesmm gpodder great-little-radio-player radiotray-ng shortwave odio-appimage goodvibes streamtuner2 tuner"
     AUR_CATEGORY
 fi
 
@@ -318,7 +318,7 @@ fi
 if [ "$category" = "3d" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "blender wings3d sweethome3d freecad openscad cura librecad qcad godot gb-studio-bin meshroom unity-editor unreal-engine makehuman brlcad"
+    APPSTREAM_CATEGORY "blender wings3d sweethome3d freecad openscad cura-bin librecad qcad godot gb-studio-bin meshroom unity-editor unreal-engine makehuman brlcad"
     AUR_CATEGORY
 
 fi
