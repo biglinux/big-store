@@ -134,7 +134,7 @@ fi
 if [ "$category" = "calendar" ]; then
 
     rm -f /tmp/bigstore/category_aur.txt
-    APPSTREAM_CATEGORY "osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews minetime-bin morgen-bin"
+    APPSTREAM_CATEGORY "osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews morgen-bin"
     AUR_CATEGORY
 fi
 
