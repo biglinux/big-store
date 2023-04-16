@@ -102,6 +102,16 @@ fi
 
 
 #####################
+#Show Audio category
+#####################
+
+if [ "$category" = "audio-plugins" ]; then
+    rm -f /tmp/bigstore/category_aur.txt
+    APPSTREAM_CATEGORY "a2jmidid adljack adlplug-lv2 adlplug-standalone adlplug-vst aeolus aether.lv2 agordejo aj-snapshot aliki ambdec ambix-lv2 ambix-standalone ambix-vst amb-plugins ams ams-lv2 amsynth artyfx aubio avldrums.lv2 bchoppr beatslash-lv2 bespokesynth blop blop.lv2 bsequencer bshapr bslizr calf caps cardinal-clap cardinal-jack cardinal-lv2 cardinal-vst cardinal-vst3 carla chuck cmt csound csound-plugins csoundqt deteriorate-lv2 dexed dgedit din distrho-ports-lv2 distrho-ports-vst distrho-ports-vst3 dpf-plugins-clap dpf-plugins-dssi dpf-plugins-ladspa dpf-plugins-lv2 dpf-plugins-vst dpf-plugins-vst3 dragonfly-reverb-clap dragonfly-reverb-lv2 dragonfly-reverb-vst dragonfly-reverb-vst3 drumgizmo-lv2 drumgizmo-standalone drumkv1-lv2 drumkv1-standalone ebumeter ecasound eq10q eteroj.lv2 fabla faust fil-plugins fluajho fluidsynth fomp.lv2 foxdot g2reverb geonkick-lv2 geonkick-standalone gigedit gmsynth.lv2 guitarix haskell-tidal helm-synth-lv2 helm-synth-standalone helm-synth-vst hexter hydrogen iempluginsuite infamousplugins ir.lv2 jaaa jalv japa jconvolver jnoisemeter jsampler kmidimon laborejo lilypond linuxsampler liquidsfz lsp-plugins-standalone lv2-example-plugins lv2file marsyas mcp-plugins mda.lv2 mellite mephisto.lv2 meterbridge midi_matrix.lv2 midimsg-lv2 moony.lv2 ninjas2-lv2 ninjas2-standalone ninjas2-vst njconnect noise-repellent non-mixer non-sequencer non-timeline ob-xd odin2-synthesizer opl-synth opnplug-lv2 opnplug-standalone opnplug-vst osc2midi osmid padthv1-lv2 padthv1-standalone patroneo polyphone pvoc qmidiarp qmidictl qmidinet qsynth qxgedit rakarrack-plus rev-plugins rubberband-ladspa rubberband-lv2 rubberband-vamp samplv1-lv2 samplv1-standalone sc3-plugins setbfree-lv2 setbfree-standalone sfizz sherlock.lv2 solfege sonic-visualiser sorcer sound-gambit spectmorph-lv2 spectmorph-tools spectmorph-vst ssr surge surge-xt swh-plugins synthv1-lv2 synthv1-standalone tap-plugins tembro timidity++ vamp-aubio-plugins vamp-plugin-sdk vco-plugins vico vm.lv2 vmpk wah-plugins wolf-shaper-dssi wolf-shaper-lv2 wolf-shaper-vst wolf-shaper-vst3 wolf-spectrum x42-plugins-lv2 x42-plugins-standalone xmonk.lv2 yabridge yass yoshimi zam-plugins-clap zam-plugins-ladspa zam-plugins-lv2 zam-plugins-vst zam-plugins-vst3 zita-ajbridge zita-at1 zita-bls1 zita-dc1 zita-dpl1 zita-lrx zita-mu1 zita-njbridge zita-rev1 zynaddsubfx"
+    AUR_CATEGORY
+fi
+
+#####################
 #Show browser category
 #####################
 if [ "$category" = "browser" ]; then

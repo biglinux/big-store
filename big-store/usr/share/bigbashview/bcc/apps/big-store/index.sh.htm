@@ -75,7 +75,7 @@ if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ];then
     ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho"
 #     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
     ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
-    ICON_CATEGORY image-plugins "fas fa-plug" $"Plugins"
+#    ICON_CATEGORY image-plugins "fas fa-plug" $"Imagem Plugins"
     ICON_CATEGORY 3dcad "fas fa-cube" $"Edição 3D e CAD"
     ICON_CATEGORY fontes "fas fa-font" $"Fontes (Tipografia)"
     ICON_CATEGORY diagramacao "fas fa-file-invoice" $"Diagramação e organização de páginas"
@@ -92,7 +92,7 @@ if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ];then
 
     ICON_CATEGORY videoeditors "fas fa-photo-video" $"Editores de video"
     ICON_CATEGORY videoplay "fas fa-film" $"Reprodutores de vídeo"
-    ICON_CATEGORY 2deditor "fas fa-clapperboard" $"Animação e 2D"
+    ICON_CATEGORY 2deditor "fas fa-film" $"Animação e 2D"
     ICON_CATEGORY captura "fas fa-video" $"Captura de tela e video download"
     ICON_CATEGORY videotream "fas fa-tv" $"Stream/transmissão online"
     ICON_CATEGORY dvdvideoconverter "fas fa-compact-disc" $"Conversores de vídeo e gravadores CD/DVD"
@@ -109,12 +109,8 @@ if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ];then
     ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
     ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
     ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
-    ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio"
-    ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo"
-    ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..."
-    ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo"
-    ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD"
-    ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
+    ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio (DAW)"
+    ICON_CATEGORY audio-plugins "fas fa-plug" $"Audio Plugins"
 
     echo '</div></div></div>'
 fi
