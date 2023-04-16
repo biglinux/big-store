@@ -772,3 +772,9 @@ msgstr "AUR의 페이지:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "설치 종속성:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "오디오 편집기(DAW)"
+
+msgid "Audio Plugins"
+msgstr "오디오 플러그인"

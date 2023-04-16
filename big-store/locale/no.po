@@ -776,3 +776,9 @@ msgstr "Side i AUR:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Avhengighet av installasjon:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Lydredigerere (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Lyd Plugins"

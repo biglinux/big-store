@@ -776,3 +776,9 @@ msgstr "דף ב-AUR:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "יחסי תלות בהתקנה:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "עורכי אודיו (DAW)"
+
+msgid "Audio Plugins"
+msgstr "תוספי אודיו"

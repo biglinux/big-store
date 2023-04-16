@@ -772,3 +772,9 @@ msgstr "AUR 中的页面："
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "安装依赖关系："
+
+msgid "Editores de áudio (DAW)"
+msgstr "音频编辑器 （DAW）"
+
+msgid "Audio Plugins"
+msgstr "音频插件"

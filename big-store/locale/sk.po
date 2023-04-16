@@ -776,3 +776,9 @@ msgstr "Stránka v AUR:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Závislosti od inštalácie:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Editory zvuku (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Zvukové doplnky"

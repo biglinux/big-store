@@ -778,3 +778,9 @@ msgstr "Page dans AUR:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Dépendances d’installation :"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Éditeurs audio (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Audio Plugins"

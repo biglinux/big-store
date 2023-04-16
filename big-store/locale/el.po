@@ -777,3 +777,9 @@ msgstr "Σελίδα σε AUR:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Εξαρτήσεις εγκατάστασης:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Επεξεργαστές ήχου (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Πρόσθετα ήχου"

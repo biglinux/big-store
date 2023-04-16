@@ -776,3 +776,9 @@ msgstr "Lehekülg AUR-is:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Paigaldamise sõltuvused:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Heliredaktorid (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Heli pluginad"

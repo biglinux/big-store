@@ -776,3 +776,9 @@ msgstr "AUR'deki sayfa:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Yükleme bağımlılıkları:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Ses Editörleri (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Ses Eklentileri"

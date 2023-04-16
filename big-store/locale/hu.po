@@ -778,3 +778,9 @@ msgstr "Oldal az AUR-ban:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 msgid "Dependências de instalação:"
 msgstr "Telepítési függőségek:"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Hangszerkesztők (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Audio bővítmények"
