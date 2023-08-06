@@ -14,9 +14,10 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
+kdialog --passivepopup "MENSAGEM DE TESTE"
+
 
 if [[ $(ps -aux | grep Big-Store | grep bigbashview) ]]; then
-
     kdialog --passivepopup $"Big-Store está aberta."
     exit
     
