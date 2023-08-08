@@ -782,3 +782,13 @@ msgstr "Äänieditorit (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Audio-laajennukset"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr "Näyttää vain valitut ohjelmat<br>ja piilottaa hyödylliset tulokset <br>Vain kokeneille käyttäjille."
+
+msgid "Vídeo"
+msgstr "Video"

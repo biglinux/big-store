@@ -782,3 +782,15 @@ msgstr "Ses Editörleri (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Ses Eklentileri"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Yalnızca seçili programları görüntüler<br>ve yararlı olan sonuçları gizler <br>yalnızca ileri düzey "
+"kullanıcılara."
+
+msgid "Vídeo"
+msgstr "Video"

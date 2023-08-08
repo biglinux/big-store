@@ -782,3 +782,15 @@ msgstr "Ljudredigerare (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Ljud Plugins"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Visar endast valda program<br>och döljer resultat som är användbara <br>Endast till avancerade "
+"användare."
+
+msgid "Vídeo"
+msgstr "Video"
