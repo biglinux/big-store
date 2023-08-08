@@ -784,3 +784,15 @@ msgstr "Hangszerkesztők (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Audio bővítmények"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Csak a kijelölt programokat jeleníti meg<br>és elrejti a hasznos eredményeket <br>Csak haladó "
+"felhasználók számára."
+
+msgid "Vídeo"
+msgstr "Video"

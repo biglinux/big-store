@@ -782,3 +782,15 @@ msgstr "Heliredaktorid (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Heli pluginad"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Kuvab ainult valitud programmid<br>ja peidab kasulikud tulemused <br>ainult edasijõudnud "
+"kasutajatele."
+
+msgid "Vídeo"
+msgstr "Video"

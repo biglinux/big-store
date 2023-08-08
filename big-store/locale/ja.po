@@ -780,3 +780,13 @@ msgstr "オーディオエディタ(DAW)"
 
 msgid "Audio Plugins"
 msgstr "オーディオプラグイン"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr "選択したプログラムのみを表示します<br>有用な結果を非表示にします <br>上級ユーザーのみ。"
+
+msgid "Vídeo"
+msgstr "ビデオ"

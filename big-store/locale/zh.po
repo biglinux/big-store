@@ -778,3 +778,13 @@ msgstr "音频编辑器 （DAW）"
 
 msgid "Audio Plugins"
 msgstr "音频插件"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr "仅显示选定的程序<br>并隐藏有用的结果 <br>仅供高级用户使用。"
+
+msgid "Vídeo"
+msgstr "视频"

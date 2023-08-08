@@ -782,3 +782,15 @@ msgstr "Edytory audio (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Wtyczki audio"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Wyświetla tylko wybrane programy<br>i ukrywa wyniki, które są przydatne <br>Tylko dla "
+"zaawansowanych użytkowników."
+
+msgid "Vídeo"
+msgstr "Wideo"
