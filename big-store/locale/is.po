@@ -782,3 +782,15 @@ msgstr "Hljóðritstjórar (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Hljóð viðbætur"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Birtir aðeins valin forrit<br>og felur niðurstöður sem eru gagnlegar <br>aðeins fyrir lengra komna "
+"notendur."
+
+msgid "Vídeo"
+msgstr "Myndband"

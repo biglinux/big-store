@@ -782,3 +782,15 @@ msgstr "Аудиоредакторы (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Аудио плагины"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Отображает только выбранные программы<br>и скрывает полезные результаты <br>только для опытных "
+"пользователей."
+
+msgid "Vídeo"
+msgstr "Видео"

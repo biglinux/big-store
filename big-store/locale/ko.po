@@ -778,3 +778,13 @@ msgstr "오디오 편집기(DAW)"
 
 msgid "Audio Plugins"
 msgstr "오디오 플러그인"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr "선택한 프로그램만 표시합니다.<br>유용한 결과를 숨 깁니다. <br>고급 사용자에게만 해당됩니다."
+
+msgid "Vídeo"
+msgstr "비디오"

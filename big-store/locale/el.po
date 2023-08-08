@@ -783,3 +783,15 @@ msgstr "Επεξεργαστές ήχου (DAW)"
 
 msgid "Audio Plugins"
 msgstr "Πρόσθετα ήχου"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Εμφανίζει μόνο επιλεγμένα προγράμματα<br>και αποκρύπτει αποτελέσματα που είναι χρήσιμα <br>μόνο σε "
+"προχωρημένους χρήστες."
+
+msgid "Vídeo"
+msgstr "Βίντεο"
