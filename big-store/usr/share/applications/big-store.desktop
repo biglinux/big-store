@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Settings;
 Exec=big-store
-Icon=/usr/share/bigbashview/bcc/apps/big-store/icon.png
+Icon=/usr/share/icons/biglinux-icons-material/scalable/apps/big-store.svg
 Name=Big Store
 Name[bg]=Магазин за приложения
 Name[cs]=Obchod s aplikacemi
