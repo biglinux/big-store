@@ -5,8 +5,8 @@
 #  /usr/share/bigbashview/bcc/apps/big-store/config.sh.htm
 #  Description: Big Store installing programs for BigLinux
 #
-#  Created: 2022/11/0
-#  Altered: 2023/08/07
+#  Created: 2022/11/01
+#  Altered: 2023/08/11
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230807"
+_VERSION_="1.0.0-20230811"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
 LOGGER='/dev/tty8'
@@ -67,14 +67,14 @@ function sh_config {
 }
 
 function sh_style {
-cat <<-EOF
-	<style>
-		a.waves-effect.waves-light.btn { color: white; margin-right: 16px; min-width: 171px; }
-		.left   { margin-top: auto; margin-bottom: auto; }
-		.right  { margin-top: auto; margin-bottom: auto; }
-		.twodiv { display: flex; }
-	</style>
-EOF
+	cat <<-EOF
+		<style>
+			a.waves-effect.waves-light.btn { color: white; margin-right: 16px; min-width: 171px; }
+			.left   { margin-top: auto; margin-bottom: auto; }
+			.right  { margin-top: auto; margin-bottom: auto; }
+			.twodiv { display: flex; }
+		</style>
+	EOF
 }
 
 function sh_run_action {
@@ -83,16 +83,16 @@ function sh_run_action {
 
 	ACTION="$action" \
 		WINDOW_ID=$xwindow_id \
-			urxvt +sb \
-			-internalBorder 1 \
-			-borderColor rgb:00/22/40 \
-			-depth 32 \
-			-fg rgb:00/ff/ff \
-			-bg rgb:00/22/40 \
-			-fn "xft:Ubuntu Mono:pixelsize=18" \
-			-embed $xwindow_id \
-			-sr \
-			-bc -e ./install_terminal.sh
+		urxvt +sb \
+		-internalBorder 1 \
+		-borderColor rgb:00/22/40 \
+		-depth 32 \
+		-fg rgb:00/ff/ff \
+		-bg rgb:00/22/40 \
+		-fn "xft:Ubuntu Mono:pixelsize=18" \
+		-embed $xwindow_id \
+		-sr \
+		-bc -e ./install_terminal.sh
 }
 
 function sh_main {
@@ -105,47 +105,47 @@ function sh_main {
 			pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/share/bigbashview/bcc/apps/big-store/snap_enable.sh
 			kdialog --title $"Big-Store" --msgbox $MsgSnap
 		fi
-		> "$tmp_file_upgradeable"
-		pacman -Qu | cut -f1 -d" " >> "$tmp_file_upgradeable"
+		>"$tmp_file_upgradeable"
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
 	if [[ -n "$pkg_remove" ]]; then
 		pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $(pwd)/run-pamac-remove $pkg_name
-		> "$tmp_file_upgradeable"
-		pacman -Qu | cut -f1 -d" " >> "$tmp_file_upgradeable"
+		>"$tmp_file_upgradeable"
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
-	[[ "$update_pacman" = "y"       ]] && sh_run_action "update_pacman"
-	[[ "$update_mirror" = "y"       ]] && sh_run_action "update_mirror"
-	[[ "$update_keys" = "y"         ]] && sh_run_action "update_keys"
-	[[ "$force_upgrade" = "y"       ]] && sh_run_action "force_upgrade"
-	[[ "$reinstall_allpkg" = "y"    ]] && sh_run_action "reinstall_allpkg"
-	[[ "$system_upgrade" = "y"      ]] && sh_run_action "system_upgrade"
+	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman"
+	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror"
+	[[ "$update_keys" = "y" ]] && sh_run_action "update_keys"
+	[[ "$force_upgrade" = "y" ]] && sh_run_action "force_upgrade"
+	[[ "$reinstall_allpkg" = "y" ]] && sh_run_action "reinstall_allpkg"
+	[[ "$system_upgrade" = "y" ]] && sh_run_action "system_upgrade"
 	[[ "$system_upgradetotal" = "y" ]] && sh_run_action "system_upgradetotal"
 
-cat <<-EOF
-	<div id=box_index_category>
-	<div id=box_info_index>
-	<div class=info_box>
-	<div class=category_title_index>
-	$Configuracoes
-	</div>
-	<div class="content-section">
-	<div class="content-section-title">
-	$Pacotes_text
-	</div>
-	<ul>
-	<li class="hidemenu">
-	<div class="products"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="border-radius: 0px;">
-	<path fill="currentColor" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z">
-	</path></svg>
-	$Pacotes_flatpak_text
-	</div>
-EOF
+	cat <<-EOF
+		<div id=box_index_category>
+		<div id=box_info_index>
+		<div class=info_box>
+		<div class=category_title_index>
+		$Configuracoes
+		</div>
+		<div class="content-section">
+		<div class="content-section-title">
+		$Pacotes_text
+		</div>
+		<ul>
+		<li class="hidemenu">
+		<div class="products"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="border-radius: 0px;">
+		<path fill="currentColor" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z">
+		</path></svg>
+		$Pacotes_flatpak_text
+		</div>
+	EOF
 
 	#FLATPAK
 	if [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-cat <<EOF
+		cat <<EOF
 		<span class="status"><span class="status-circle true"></span>
 		$Ativado_text
 		</span>
@@ -157,7 +157,7 @@ cat <<EOF
 		</div>
 EOF
 	else
-cat <<EOF
+		cat <<EOF
 		<span class="status"><span class="status-circle false"></span>
 		$Desativado_text
 		</span>
@@ -169,7 +169,7 @@ cat <<EOF
 		</div>
 EOF
 	fi
-cat <<EOF
+	cat <<EOF
 	</li>
 	<li class="any-product">
 	<div class="products">
@@ -182,7 +182,7 @@ EOF
 
 	#SNAP
 	if [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-cat <<EOF
+		cat <<EOF
 		<span class="status"><span class="status-circle true"></span>
 		$Ativado_text
 		</span>
@@ -194,7 +194,7 @@ cat <<EOF
 		</div>
 EOF
 	else
-cat <<EOF
+		cat <<EOF
 		<span class="status"><span class="status-circle false"></span>
 		$Desativado_text
 		</span>
@@ -207,7 +207,7 @@ cat <<EOF
 EOF
 	fi
 
-cat <<EOF
+	cat <<EOF
 	</li></ul></div>
 	<div class="content-section">
 	<div class="content-section-title">
@@ -298,9 +298,9 @@ cat <<EOF
 	<br>
 	<br>
 	<div class="logo">
-	<img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
+	<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
 	</div></div>
-	<script src="./script.js"></script>
+	<script src="./js/script.js"></script>
 	</body>
 	</html>
 EOF

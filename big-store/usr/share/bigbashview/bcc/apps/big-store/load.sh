@@ -51,7 +51,7 @@ function sh_init {
 		case $1 in
 		pkg_not_installed)
 			if paths=$(pacman -Flq "$pacote") && [[ -n "$paths" ]]; then
-			   sed 's|^|/|' <<< "$paths"
+				sed 's|^|/|' <<<"$paths"
 			fi
 			;;
 		pkg_installed)

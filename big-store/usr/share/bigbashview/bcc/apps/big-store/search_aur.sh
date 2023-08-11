@@ -1,12 +1,12 @@
 #!/bin/bash
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/05/09
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -25,8 +25,8 @@ rm -f ${TMP_FOLDER}/aurbuild.html
 # PKG_ICON="$(find icons/ /usr/share/app-info/icons/archlinux-arch-community/64x64/ /usr/share/app-info/icons/archlinux-arch-extra/64x64/ /var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/ -type f -iname "*${TITLE_SIMPLE}*" -print -quit)"
 # echo '<div id=appstream_icon><img class="icon" loading="lazy" src="' "$PKG_ICON" '">' >> ${TMP_FOLDER}/aurbuild.html
 
-LANG=C yay --sortby popularity -Ssa --singlelineresults --topdown $(echo $@ | sed "s| |\n|g") | \
-gawk -v tmpfolder="${TMP_FOLDER}" -v searchterms="$@" -v resultfilter="$resultFilter_checkbox" -v instalar=$"Instalar" -v remover=$"Remover" -- '
+LANG=C yay --sortby popularity -Ssa --singlelineresults --topdown $(echo $@ | sed "s| |\n|g") |
+	gawk -v tmpfolder="${TMP_FOLDER}" -v searchterms="$@" -v resultfilter="$resultFilter_checkbox" -v instalar=$"Instalar" -v remover=$"Remover" -- '
 ### Begin of gawk script
 BEGIN{
 # This OFS allows readable code during printing
@@ -43,8 +43,8 @@ BEGIN{
 
     RS_BAK = RS
     RS = "^$"
-    getline aurlist < "/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt"
-    close("/usr/share/bigbashview/bcc/apps/big-store/aur_list.txt")
+    getline aurlist < "/usr/share/bigbashview/bcc/apps/big-store/list/aur_list.txt"
+    close("/usr/share/bigbashview/bcc/apps/big-store/list/aur_list.txt")
     RS = RS_BAK
 
 # If resultfilter is not set, or package is in aur_list.txt

@@ -19,4 +19,4 @@ for i  in  $(LANG=C flatpak update | grep "^ [1-9]" | awk '{print $2}'); do
 done
 
 
-grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/flatpak_list.txt ~/.bigstore/flatpak.cache > ~/.bigstore/flatpak_filtered.cache
+grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/list/flatpak_list.txt ~/.bigstore/flatpak.cache > ~/.bigstore/flatpak_filtered.cache
