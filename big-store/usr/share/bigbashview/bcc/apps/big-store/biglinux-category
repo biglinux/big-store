@@ -98,9 +98,11 @@ function sh_config {
 }
 
 function sh_main {
-	sh_cleanup
 	local category="$1"
-	local appstream_packages="${CATEGORIES[$category]}"
+	local appstream_packages
+
+	sh_cleanup
+	[[ -n "$category" ]] && appstream_packages="${CATEGORIES[$category]}"
 
 	if [ -n "$appstream_packages" ]; then
 		APPSTREAM_CATEGORY "$appstream_packages"

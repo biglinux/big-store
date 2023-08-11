@@ -122,20 +122,20 @@ function FLATPAK_CATEGORY {
 function sh_main {
 	sh_load_header
 	if [[ -z "$category" ]] && [[ "${#search}" -le "2" ]]; then
-cat <<-EOF
-		<div id="welcome" class="content-wrapper-header" style="display:none;">
-		<div class="content-wrapper-context">
-		<h3 class="img-content">
-		<img class="img-content img" src="icon.png">
-		Big Store
-		</h3>
-		</div>
-		<img class="content-wrapper-img" src="appsbigstore.png" alt="">
-		</div>
-		<br>
-		$(ICON_CATEGORY)
-		<div id=box_index_category>
-EOF
+		cat <<-EOF
+			<div id="welcome" class="content-wrapper-header" style="display:none;">
+			<div class="content-wrapper-context">
+			<h3 class="img-content">
+			<img class="img-content img" src="icons/icon.png">
+			Big Store
+			</h3>
+			</div>
+			<img class="content-wrapper-img" src="icons/appsbigstore.png" alt="">
+			</div>
+			<br>
+			$(ICON_CATEGORY)
+			<div id=box_index_category>
+		EOF
 		if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
 			echo '<div id="xystem" class=category_box>'
 			echo '<div class=category_title_index>'
@@ -343,30 +343,30 @@ EOF
 	if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
 		source xiva-category
 	else
-#		source biglinux-category
+		#		source biglinux-category
 		source /usr/share/bigbashview/bcc/apps/big-store/biglinux-category
 	fi
 
 	if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
-cat <<-EOF
-		<div class="logo">
-		<img id="btn-big" src="xiva.png" class="logo-biglinux" onclick="biglinux();">
-		</div>
-		</div>
-		<script src="./script.js"></script>
-		</body>
-		</html>
-EOF
+		cat <<-EOF
+			<div class="logo">
+			<img id="btn-big" src="icons/xiva.png" class="logo-biglinux" onclick="biglinux();">
+			</div>
+			</div>
+			<script src="./js/script.js"></script>
+			</body>
+			</html>
+		EOF
 	else
-cat <<-EOF
-		<div class="logo">
-		<img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
-		</div>
-		</div>
-		<script src="./script.js"></script>
-		</body>
-		</html>
-EOF
+		cat <<-EOF
+			<div class="logo">
+			<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
+			</div>
+			</div>
+			<script src="./js/script.js"></script>
+			</body>
+			</html>
+		EOF
 	fi
 }
 

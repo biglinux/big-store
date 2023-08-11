@@ -1,12 +1,12 @@
 #!/bin/bash
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/05/09
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -21,15 +21,15 @@ REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
 PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
 
 if [ "$PACKAGE_ID" = "" ]; then
-    PACKAGE_ID="$pkg_name"
+	PACKAGE_ID="$pkg_name"
 fi
 
 if [ "$pkg_install" = "y" ]; then
-    ACTION="install_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+	ACTION="install_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 if [ "$pkg_remove" = "y" ]; then
-    ACTION="remove_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
+	ACTION="remove_flatpak" REPOSITORY="$REPOSITORY" PACKAGE_ID="$PACKAGE_ID" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
 fi
 
 # Loading
@@ -37,7 +37,6 @@ fi
 echo "<div id=box_progress_flatpak_cancel><button class=\"btn btnSpace waves-effect waves-light grey darken-2\" type=\"submit\" name=\"action\" onclick=\"disableButtonFlatpakInstall();_run('killall flatpak')\">"
 echo $"Cancelar"
 echo '</button></div>'
-
 
 # Loading
 #echo '<div id=box_progress_flatpak_remove>'
@@ -57,22 +56,22 @@ rm -f ~/.bigstore/flatpak-verification-fault
 
 echo '<div id=box_flatpak_install>'
 echo '<div id=title_flatpak_install>'
-    echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
-        echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left:5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg></div><div style="margin-right: 5px;">'                            
-        echo $"Programas Flatpak"
-    echo '</div></div>'
+echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
+echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left:5px;"><path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/></svg></div><div style="margin-right: 5px;">'
+echo $"Programas Flatpak"
+echo '</div></div>'
 echo '</div>'
 
-./view_flatpak_pamac.py "$pkg_name" > /tmp/flapak_pamac_temp.txt
+./view_flatpak_pamac.py "$pkg_name" >/tmp/flapak_pamac_temp.txt
 if [ -e "$HOME/.bigstore/flatpak-verification-fault" ]; then
-  cat /tmp/flapak_pamac_temp.txt
+	cat /tmp/flapak_pamac_temp.txt
 else
-  ./view_flatpak.sh "$pkg_name"
+	./view_flatpak.sh "$pkg_name"
 fi
 
 #kdialog --msgbox "$pkg_name"
 echo "<script>runAvatarFlatpak();</script>"
-        
+
 echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
 echo '<div id="files_in_package">
 <div id="preloader-align">
@@ -90,18 +89,18 @@ echo '<div id="files_in_package">
 </div>
 </div>'
 echo '</div><div class="modal-footer"><a href="#!" class="modal-close btn-flat">' $"Fechar" '</a></div></div>'
-  
+
 echo "<script>\$(document).ready(function(){
     \$('.modal').modal();
   });</script>"
 
 # Finish him
-cat << EOF
+cat <<EOF
   <div class="logo">
-    <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">
+    <img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
   </div>
 </div>
-  <script src="./script.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
 EOF
