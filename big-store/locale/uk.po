@@ -792,3 +792,6 @@ msgstr "Відображає лише вибрані програми<br>і пр
 
 msgid "Vídeo"
 msgstr "Відео"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Помилка доступу до каталогу:"

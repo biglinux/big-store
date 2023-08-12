@@ -792,3 +792,6 @@ msgstr "Viser bare valgte programmer<br>og skjuler resultater som er nyttige <br
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Feil ved tilgang til katalog:"

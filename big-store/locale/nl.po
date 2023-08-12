@@ -795,3 +795,6 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Fout bij het openen van de map:"
