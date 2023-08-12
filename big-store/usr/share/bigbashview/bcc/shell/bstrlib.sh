@@ -155,6 +155,42 @@ function sh_run_pamac_installer {
 }
 export -f sh_run_pamac_installer
 
+function sh_run_pamac_remove {
+	PKGS=""
+	for i in $(echo n | LC_ALL=C pacman -Rc $@ 2>/dev/null | grep ^Packages | cut -f3- -d" "); do
+		PKGS="$PKGS $(echo "$i" | sed 's|-[0-9].*||g')"
+	done
+
+	pamac-installer --remove $@ $(LC_ALL=C timeout 10s pamac remove -odc $PKGS | grep "^  " | cut -f3 -d" ") &
+
+	PID="$!"
+
+	if [ "$PID" = "" ]; then
+		exit
+	fi
+
+	CONTADOR=0
+	while [ $CONTADOR -lt 100 ]; do
+		if [ "$(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ")" != "" ]; then
+			xsetprop -id=$(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ") --atom WM_TRANSIENT_FOR --value $(wmctrl -p -l -x | grep Big-Store$ | cut -f1 -d" ") -f 32x
+			wmctrl -i -r $(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ") -b add,skip_pager,skip_taskbar
+			wmctrl -i -r $(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ") -b toggle,modal
+			break
+		fi
+
+		sleep 0.1
+		let CONTADOR=CONTADOR+1
+	done
+	wait
+}
+export -f sh_run_pamac_remove
+
+function sh_run_pamac_mirror {
+	pacman-mirrors --geoip
+	pacman -Syy
+}
+export -f sh_run_pamac_mirror
+
 function sh_category_aur {
 	[[ -e ${TMP_FOLDER}/aurbuild.html ]] && rm -f ${TMP_FOLDER}/aurbuild.html
 	#PKG="$@"
@@ -424,6 +460,23 @@ function sh_category_flatpak {
 }
 export -f sh_category_flatpak
 
+function sh_count_snap_list {
+	local snap_count=$(snap list | wc -l)
+	((snap_count -= 1))
+	echo "$snap_count"
+}
+export -f sh_count_snap_list
+
+function sh_count_snap_cache_lines {
+	wc -l < "$HOME_FOLDER/snap.cache"
+}
+export -f sh_count_snap_cache_lines
+
+function sh_SO_installation_date {
+#	ls -lct /etc | tail -1 | awk '{print $6, $7, $8}')
+	expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | head -n 1
+}
+export -f sh_SO_installation_date
 
 #sh_debug
 sh_main "$@"

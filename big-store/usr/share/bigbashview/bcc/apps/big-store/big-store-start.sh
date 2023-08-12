@@ -38,30 +38,29 @@ _VERSION_="1.0.0-20230812"
 BOOTLOG="/tmp/bigstore-$(date +"%d%m%Y").log"
 LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-	declare -g HOME_FOLDER="$HOME/.bigstore"
-	declare -g TMP_FOLDER="/tmp/bigstore"
-	declare -g TITLE=$"Big-Store"
+	export HOME_FOLDER="$HOME/.bigstore"
+	export TMP_FOLDER="/tmp/bigstore"
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
 	declare -g snap_cache_file="$HOME/.bigstore/snap.cache"
 	declare -g flatpak_cache_file="$HOME/.bigstore/flatpak.cache"
 	declare -g bigstore_icon_file='icons/icon.svg'
+	declare -g TITLE=$"Big-Store"
 	declare -gA Amsg=([error_open]=$(gettext $"Big-Store está aberta.")
 	                  [error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
-
 }
 
 function sh_check_big_store_is_running {
 	if pgrep -f 'Big-Store'; then
 		kdialog --passivepopup "$Amsg[error_open]}"
-		exit
+		exit 1
 	fi
 }
 
@@ -82,12 +81,11 @@ function sh_main {
 	    sh_update_cache_flatpak &
 	fi
 
-	cmdlogger mkdir -p "$TMP_FOLDER"
-
-	# Save dynamic screenshot resolution
+	mkdir -p "$TMP_FOLDER"
 
 	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
 	half_resolution=$((resolution / 2))
+	# Save dynamic screenshot resolution
 	echo "$half_resolution" > "${TMP_FOLDER}/screenshot-resolution.txt"
 
 	sh_update_cache_flatpak &

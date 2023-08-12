@@ -84,11 +84,9 @@ if [[ -n "$ACTION" ]]; then
 		fi
 		;;
 	"update_pacman")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Syy --noconfirm ;;
-#	"update_mirror")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY ./run-pacman-mirror ;;
 	"update_mirror")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_run_pacman_mirror ;;
 	"update_keys")         pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --fix-keys ;;
 	"force_upgrade")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --upgrade-now ;;
-#	"reinstall_allpkg")    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY ./reinstall_allpkg.sh ;;
 	"reinstall_allpkg")    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_reinstall_allpkg ;;
 	"system_upgrade")      pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update --no-confirm ;;
 	"system_upgradetotal") pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu --noconfirm ;;

@@ -87,7 +87,7 @@ function AUR_CATEGORY {
 	#Loading icon
 	echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
 	# Search
-	sh_category_aur "$(tr -s '\n' ' ' < /tmp/bigstore/category_aur.txt)" >/dev/null 2>&1 &
+	sh_category_aur "$(tr -s '\n' ' ' < $TMP_FOLDER/category_aur.txt)" >/dev/null 2>&1 &
 	# async load
 	echo "<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>"
 	echo '</div>'
@@ -95,7 +95,7 @@ function AUR_CATEGORY {
 }
 
 function FLATPAK_CATEGORY {
-	rm -f "${TMP_FOLDER}/flatpak_number.html"
+	[[ -e "${TMP_FOLDER}/flatpak_number.html" ]] && rm -f "${TMP_FOLDER}/flatpak_number.html"
 	echo '<div id=box_flatpak>'
 	echo '<div id=title_flatpak>'
 	echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
