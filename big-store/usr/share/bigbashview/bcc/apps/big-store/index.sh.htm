@@ -38,13 +38,15 @@ _VERSION_="1.0.0-20230812"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 LOGGER='/dev/tty8'
-[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
+	export TMP_FOLDER="/tmp/bigstore"
+	export HOME_FOLDER="$HOME/.bigstore"
 }
 
 function sh_load_header {
@@ -53,7 +55,21 @@ function sh_load_header {
 }
 
 function ICON_CATEGORY {
-	echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"$2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
+#	echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"$2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
+cat <<-EOF
+	<a onclick="disableBody();" href=index.sh.htm?category=$1>
+	<div class="icon_background">
+	<div class="vertical_align_center">
+	<div class="icon">
+	<span class="category_font_icon">
+	<i class="$2"></i>
+	</span>
+	</div>
+	<div class="icon_text">
+	<div class="icon_text_vertical_align">
+	$3
+	</div></div></div></div></a>
+EOF
 }
 
 function APPSTREAM_CATEGORY {
@@ -74,50 +90,58 @@ function APPSTREAM_CATEGORY {
 }
 
 function AUR_CATEGORY {
-	rm -f "${TMP_FOLDER}/aur_number.html"
-	echo '<div id=box_aur>'
-	echo '<div id=title_aur>'
-	echo "<div id=button_aur class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_AUR\">"
-	echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'
-	echo $"Programas AUR"
-	echo '</div></div>'
-	echo '</div>'
-	echo '<div id=content_aur>'
-	[[ -e "${TMP_FOLDER}/aur.html" ]] && rm -f "${TMP_FOLDER}/aur.html"
-	#Loading icon
-	echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
-	# Search
-	sh_category_aur "$(tr -s '\n' ' ' < $TMP_FOLDER/category_aur.txt)" >/dev/null 2>&1 &
-	# async load
-	echo "<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>"
-	echo '</div>'
-	echo '</div>'
+	[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
+	[[ -e "${TMP_FOLDER}/aur.html"        ]] && rm -f "${TMP_FOLDER}/aur.html"
+cat <<-EOF
+	<div id="box_aur">
+	<div id="title_aur">
+	<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
+	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+	<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+	<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
+	</svg>
+	</div>
+	<div style="margin-right: 5px;">
+	$"Programas AUR"
+	</div></div></div>
+	<div id="content_aur">
+	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+	$(sh_category_aur "$(tr -s '\n' ' ' < $TMP_FOLDER/category_aur.txt)" ) >/dev/null 2>&1 &
+	<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
+	</div></div>
+EOF
 }
 
 function FLATPAK_CATEGORY {
+	local i
+
 	[[ -e "${TMP_FOLDER}/flatpak_number.html" ]] && rm -f "${TMP_FOLDER}/flatpak_number.html"
-	echo '<div id=box_flatpak>'
-	echo '<div id=title_flatpak>'
-	echo "<div id=button_flatpak class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_FLATPAK\">"
-	echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'
-	echo $"Programas Flatpak"
-	echo '</div></div>'
-	echo '</div>'
-	echo '<div id=content_flatpak>'
-	[[ -e "${TMP_FOLDER}/flatpak.html"      ]] && rm -f "${TMP_FOLDER}/flatpak.html"
-	[[ -e "${TMP_FOLDER}/flatpakbuild.html" ]] && rm -f "${TMP_FOLDER}/flatpakbuild.html"
-	#Loading icon
-	echo '<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>'
-	# Search
-	#kdialog --msgbox "$@"
-	for i in "$@"; do
+	[[ -e "${TMP_FOLDER}/flatpak.html"        ]] && rm -f "${TMP_FOLDER}/flatpak.html"
+#	[[ -e "${TMP_FOLDER}/flatpakbuild.html"   ]] && rm -f "${TMP_FOLDER}/flatpakbuild.html"
+	[[ -e "${TMP_FOLDER}/flatpakbuild.html"   ]] && mv -f "${TMP_FOLDER}/flatpakbuild.html" "${TMP_FOLDER}/flatpak.html"
+
+cat <<-EOF
+	<div id="box_flatpak">
+	<div id="title_flatpak">
+	<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
+	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+	<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+	<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
+	</svg>
+	</div>
+	<div style="margin-right: 5px;">
+	$"Programas Flatpak"
+	</div></div></div>
+	<div id="content_flatpak">
+	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+EOF
+	for i in $@; do
 		sh_category_flatpak "$i"
 	done
-	[[ -e "${TMP_FOLDER}/flatpakbuild.html" ]] && mv -f "${TMP_FOLDER}/flatpakbuild.html" "${TMP_FOLDER}/flatpak.html"
-	# async load
-	echo "<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>"
-	echo '</div>'
-	echo '</div>'
+cat <<-EOF
+	<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
+	</div></div>
+EOF
 }
 
 #Show category in first page
@@ -346,7 +370,6 @@ function sh_main {
 	if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
 		source xiva-category
 	else
-		#		source biglinux-category
 		source /usr/share/bigbashview/bcc/apps/big-store/biglinux-category
 	fi
 

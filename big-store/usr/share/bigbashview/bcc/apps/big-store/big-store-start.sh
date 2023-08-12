@@ -35,8 +35,8 @@
 
 APP="${0##*/}"
 _VERSION_="1.0.0-20230812"
-BOOTLOG="/tmp/bigstore-$(date +"%d%m%Y").log"
-LOGGER='/dev/tty8'
+export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
@@ -89,7 +89,7 @@ function sh_main {
 	echo "$half_resolution" > "${TMP_FOLDER}/screenshot-resolution.txt"
 
 	sh_update_cache_flatpak &
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 cmdlogger bigbashview -n \"$TITLE\" -w maximized "
 	if [[ -n "$1" ]]; then
 		 eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\" -i $bigstore_icon_file"
 		case "$1" in

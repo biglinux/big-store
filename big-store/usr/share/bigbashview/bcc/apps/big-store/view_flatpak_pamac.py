@@ -162,7 +162,6 @@ if __name__ == "__main__":
     db = Pamac.Database(config=config)
     pkgname = '^'+sys.argv[1]+'$'
 
-
     # To multi packages
     #db.enable_appstream()
     #pkgs = db.search_pkgs (pkgname)
