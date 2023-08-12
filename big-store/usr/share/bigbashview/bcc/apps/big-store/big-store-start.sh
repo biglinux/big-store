@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/11
+#  Altered: 2023/08/12
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,34 +34,33 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230805"
-BOOTLOG="/tmp/bigcontrolcenter-$(date +"%d%m%Y").log"
-LOGGER='/dev/tty8'
+_VERSION_="1.0.0-20230812"
+export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-	declare -g HOME_FOLDER="$HOME/.bigstore"
-	declare -g TMP_FOLDER="/tmp/bigstore"
-	declare -g TITLE=$"Big-Store"
+	export HOME_FOLDER="$HOME/.bigstore"
+	export TMP_FOLDER="/tmp/bigstore"
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
 	declare -g snap_cache_file="$HOME/.bigstore/snap.cache"
 	declare -g flatpak_cache_file="$HOME/.bigstore/flatpak.cache"
 	declare -g bigstore_icon_file='icons/icon.svg'
+	declare -g TITLE=$"Big-Store"
 	declare -gA Amsg=([error_open]=$(gettext $"Big-Store está aberta.")
 	                  [error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
-
 }
 
 function sh_check_big_store_is_running {
 	if pgrep -f 'Big-Store'; then
 		kdialog --passivepopup "$Amsg[error_open]}"
-		exit
+		exit 1
 	fi
 }
 
@@ -82,16 +81,15 @@ function sh_main {
 	    sh_update_cache_flatpak &
 	fi
 
-	cmdlogger mkdir -p "$TMP_FOLDER"
-
-	# Save dynamic screenshot resolution
+	mkdir -p "$TMP_FOLDER"
 
 	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
 	half_resolution=$((resolution / 2))
+	# Save dynamic screenshot resolution
 	echo "$half_resolution" > "${TMP_FOLDER}/screenshot-resolution.txt"
 
 	sh_update_cache_flatpak &
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 cmdlogger bigbashview -n \"$TITLE\" -w maximized "
 	if [[ -n "$1" ]]; then
 		 eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\" -i $bigstore_icon_file"
 		case "$1" in

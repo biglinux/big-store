@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2023/08/11
+#  Altered: 2023/08/12
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,11 +34,12 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230811"
+_VERSION_="1.0.0-20230812"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
+BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 LOGGER='/dev/tty8'
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
@@ -100,27 +101,25 @@ function sh_main {
 	source /usr/share/bigbashview/bcc/apps/big-store/header.sh.htm
 
 	if [[ -n "$pkg_install" ]]; then
-		./run_pamac_installer $pkg_name
+		sh_run_pamac_installer "$pkg_name"
 		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
-			pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /usr/share/bigbashview/bcc/apps/big-store/snap_enable.sh
-			kdialog --title $"Big-Store" --msgbox $MsgSnap
+			pkexec env DISPLAY="$DISPLAY" XAUTHORITY="$XAUTHORITY" sh_snap_enable 
+			kdialog --title $"Big-Store" --msgbox "$MsgSnap"
 		fi
-		>"$tmp_file_upgradeable"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
 	if [[ -n "$pkg_remove" ]]; then
-		pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $(pwd)/run-pamac-remove $pkg_name
-		>"$tmp_file_upgradeable"
+		pkexec env DISPLAY="$DISPLAY" XAUTHORITY="$XAUTHORITY" sh_run_pamac_remove "$pkg_name"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
-	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman"
-	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror"
-	[[ "$update_keys" = "y" ]] && sh_run_action "update_keys"
-	[[ "$force_upgrade" = "y" ]] && sh_run_action "force_upgrade"
-	[[ "$reinstall_allpkg" = "y" ]] && sh_run_action "reinstall_allpkg"
-	[[ "$system_upgrade" = "y" ]] && sh_run_action "system_upgrade"
+	[[ "$update_pacman" = "y"       ]] && sh_run_action "update_pacman"
+	[[ "$update_mirror" = "y"       ]] && sh_run_action "update_mirror"
+	[[ "$update_keys" = "y"         ]] && sh_run_action "update_keys"
+	[[ "$force_upgrade" = "y"       ]] && sh_run_action "force_upgrade"
+	[[ "$reinstall_allpkg" = "y"    ]] && sh_run_action "reinstall_allpkg"
+	[[ "$system_upgrade" = "y"      ]] && sh_run_action "system_upgrade"
 	[[ "$system_upgradetotal" = "y" ]] && sh_run_action "system_upgradetotal"
 
 	cat <<-EOF

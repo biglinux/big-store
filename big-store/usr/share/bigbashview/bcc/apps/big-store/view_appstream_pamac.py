@@ -284,6 +284,6 @@ if __name__ == "__main__":
 
 
     # To single package
-    db.enable_appstream()
+#   db.enable_appstream()
     pkg = db.get_pkg(sys.argv[1])
     print_pkg_details (pkg)

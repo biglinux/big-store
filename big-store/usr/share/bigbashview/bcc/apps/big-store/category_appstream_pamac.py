@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
 
     # To single package
-    db.enable_appstream()
+#   db.enable_appstream()
     for app_list in sys.argv[1].split():
         pkg = db.get_pkg(app_list)
         if pkg:

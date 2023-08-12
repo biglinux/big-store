@@ -1,102 +1,195 @@
-#!/bin/bash
-##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
-#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
-#  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09
-#
+#!/usr/bin/env bash
+#shellcheck disable=SC2155,SC2034
+#shellcheck source=/dev/null
+
+#  /usr/share/bigbashview/bcc/apps/big-store/info.sh.htm
 #  Description: Big Store installing programs for BigLinux
 #
-#  Licensed by GPL V2 or greater
-##################################
+#  Created: 2020/01/11
+#  Altered: 2023/08/12
+#
+#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
+#                2022-2023, Rafael Ruscher <rruscher@gmail.com>
+#  All rights reserved.
+#
+#  Redistribution and use in source and binary forms, with or without
+#  modification, are permitted provided that the following conditions
+#  are met:
+#  1. Redistributions of source code must retain the above copyright
+#     notice, this list of conditions and the following disclaimer.
+#  2. Redistributions in binary form must reproduce the above copyright
+#     notice, this list of conditions and the following disclaimer in the
+#     documentation and/or other materials provided with the distribution.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+#  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+#  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+#  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+#  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+#  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+#  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+#  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+#  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+#  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#Translation
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=big-store
+APP="${0##*/}"
+_VERSION_="1.0.0-20230812"
+LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
+BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
+LOGGER='/dev/tty8'
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-source header.sh.htm
+function sh_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	export TMP_FOLDER="/tmp/bigstore"
+	export HOME_FOLDER="$HOME/.bigstore"
+	declare -gA AInfoMsg=(
+		[Sistema]=$(gettext $"Sistema")
+		[notify-title]=$(gettext $"Big-Store")
+		[notify-msg]=$(gettext $"Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos...")
+		[Instalado_na_particao]=$(gettext $"Instalado na partição:")
+		[Tamanho_da_particao]=$(gettext $"Tamanho da partição:")
+		[Espaco_utilizado]=$(gettext $"Espaço utilizado:")
+		[Espaco_livre]=$(gettext $"Espaço livre:")
+		[Data_SO_instalado]=$(gettext $"Data aproximada que o sistema foi instalado:")
+		[Pacotes_nativos_e_AUR]=$(gettext $"Pacotes nativos e AUR")
+		[Pacotes_flatpak]=$(gettext $"Pacotes Flatpak")
+		[Repositorios_configurados]=$(gettext $"Repositórios configurados:")
+		[Pacotes]=$(gettext $"Pacotes Snap")
+		[Instalados]=$(gettext $"Instalados:")
+		[Disponiveis]=$(gettext $"Disponíveis:")
+	)
+}
 
-#####################
-#Show category in first page
-#####################
+function sh_main {
+	notify-send "${AInfoMsg[notify-title]}" "${AInfoMsg[notify-msg]}" --expire-time=2000
 
-echo '<div id=box_index_category>'
-echo '<div id=box_info_index>'
-
-echo '<div class=info_box>'
-echo '<div class=category_title_index>'
-echo $"Sistema"
-echo '</div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Instalado na partição:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $1}')" '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Tamanho da partição:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $2}')" '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Espaço utilizado:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $3}')" '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Espaço livre:" '</div><div class="gridRightInfo">' "$(LANG=C df -h / | grep '/dev/' | awk '{print $4}')" '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Data que o sistema foi instalado:" '</div><div class="gridRightInfo">' "$(ls -lct /etc | tail -1 | awk '{print $6, $7, $8}')" '</div></div>'
-echo '</div>'
-
-echo '<div class=info_box>'
-echo '<div class=category_title_index>'
-echo $"Pacotes nativos e AUR"
-echo '</div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Instalados:" '</div><div class="gridRightInfo">' $(pacman -Qq | wc -l) '</div></div>'
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Disponíveis:" '</div><div class="gridRightInfo">' $(pacman -Sl | wc -l) '</div></div>'
-echo '</div>'
-
-echo '<div class=info_box>'
-echo '<div class=category_title_index>'
-echo $"Pacotes Flatpak"
-echo '</div>'
-
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Instalados:" '</div><div class="gridRightInfo">' $(flatpak list | wc -l) '</div></div>'
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Disponíveis:" '</div><div class="gridRightInfo">' $(cat ~/.bigstore/flatpak.cache | wc -l) '</div></div>'
-echo '<div class="grid-container">'
-echo '<div class="gridLeft">'
-echo $"Repositórios configurados:" '</div><div class="gridRightInfo">' $(flatpak remotes | cut -f1) '</div></div>'
-echo '</div>'
-
-if [[ $(ps -e | grep snapd) ]]; then
-	echo '<div class=info_box>'
-	echo '<div class=category_title_index>'
-	echo $"Pacotes Snap"
-	echo '</div>'
-	echo '<div class="grid-container">'
-	echo '<div class="gridLeft">'
-	echo $"Instalados:" '</div><div class="gridRightInfo">' "$(echo "$(snap list | wc -l) - 1" | bc)" '</a></div></div>'
-	echo '<div class="grid-container">'
-	echo '<div class="gridLeft">'
-	echo $"Disponíveis:" '</div><div class="gridRightInfo">' "$(cat ~/.bigstore/snap.cache | wc -l)" '</div></div>'
-	#echo '<div class="info_link"><a href="info_snap.sh.htm">' $"Clique aqui para ver a lista dos pacotes instalados." '</div>'
-	echo '</div>'
-fi
-
-# Finish him
-cat <<EOF
-</div>
-  <script src="./js/script.js"></script>
-</body>
-</html>
+	source header.sh.htm
+	#Show category in first page
+	############################
+cat <<-EOF
+	<div id="box_index_category">
+	<div id="box_info_index">
+	<div class="info_box">
+	<div class="category_title_index">
+	${AInfoMsg[Sistema]}
+	</div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Instalado_na_particao]}
+	</div>
+	<div class="gridRightInfo">
+	$(LANG=C df -h / | grep '/dev/' | awk '{print $1}')
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Tamanho_da_particao]}
+	</div>
+	<div class="gridRightInfo">
+	$(LANG=C df -h / | grep '/dev/' | awk '{print $2}')
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Espaco_utilizado]}
+	</div>
+	<div class="gridRightInfo">
+	$(LANG=C df -h / | grep '/dev/' | awk '{print $3}')
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Espaco_livre]}
+	</div>
+	<div class="gridRightInfo">
+	$(LANG=C df -h / | grep '/dev/' | awk '{print $4}')
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Data_SO_instalado]}
+	</div>
+	<div class="gridRightInfo">
+	$(sh_SO_installation_date)
+	</div></div></div>
+	<div class="info_box">
+	<div class="category_title_index">
+	${AInfoMsg[Pacotes_nativos_e_AUR]}
+	</div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Instalados]}
+	</div>
+	<div class="gridRightInfo">
+	$(pacman -Qq | wc -l)
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Disponiveis]}
+	</div>
+	<div class="gridRightInfo">
+	$(pacman -Sl | wc -l)
+	</div></div>
+	</div>
+	<div class="info_box">
+	<div class="category_title_index">
+	${AInfoMsg[Pacotes_flatpak]}
+	</div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Instalados]}
+	</div>
+	<div class="gridRightInfo">
+	$(wc -l < <(flatpak list --columns=application))
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Disponiveis]}
+	</div>
+	<div class="gridRightInfo">
+	$(wc -l < "$HOME_FOLDER/flatpak.cache")
+	</div></div>
+	<div class="grid-container">
+	<div class="gridLeft">
+	${AInfoMsg[Repositorios_configurados]}
+	</div>
+	<div class="gridRightInfo">
+	$(flatpak remotes | cut -f1)
+	</div></div></div>
 EOF
+
+	if pgrep -f snapd >/dev/null; then
+cat <<-EOF
+		<div class=info_box>
+		<div class=category_title_index>
+		${AInfoMsg[Pacotes]}
+		</div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AInfoMsg[Instalados]}
+		</div>
+		<div class="gridRightInfo">
+		$(sh_count_snap_list)
+		</a></div></div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AInfoMsg[Disponiveis]}
+		</div><div class="gridRightInfo">
+		$(sh_count_snap_cache_lines)
+		</div></div></div>
+EOF
+	fi
+
+	# Finish him
+cat <<-EOF
+	</div>
+	<script src="./js/script.js"></script>
+	</body>
+	</html>
+EOF
+}
+
+#sh_debug
+sh_config
+sh_main

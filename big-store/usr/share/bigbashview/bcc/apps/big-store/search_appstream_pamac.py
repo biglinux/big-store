@@ -79,7 +79,7 @@ if __name__ == "__main__":
     #for pkg in pkgs:
         #print_pkg_details (pkg)
 
-    db.enable_appstream()
+#   db.enable_appstream()
     pkgs = db.search_pkgs(pkgname)
     num = 0
     pkg_filter=" "+sys.argv[1].split()[0].lower()+" "
