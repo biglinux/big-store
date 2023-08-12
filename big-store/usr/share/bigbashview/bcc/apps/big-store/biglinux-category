@@ -106,7 +106,7 @@ function sh_main {
 	[[ -n "$category" ]] && appstream_packages="${CATEGORIES[$category]}"
 
 	if [ -n "$appstream_packages" ]; then
-		APPSTREAM_CATEGORY "$appstream_packages"
+		eval APPSTREAM_CATEGORY "$appstream_packages"
 		AUR_CATEGORY
 	fi
 }
