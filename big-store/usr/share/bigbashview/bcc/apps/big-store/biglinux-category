@@ -49,8 +49,8 @@ function sh_cleanup {
 
 function sh_config {
 	declare -gA CATEGORIES
-	CATEGORIES["browser"]="firefox-i18n-\$(echo \${LANG,,} | cut -f1 -d\".\" | sed 's|_|-|g') brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
-	CATEGORIES["mail"]="thunderbird-i18n-\$(echo \${LANG,,} | cut -f1 -d\".\" | sed 's|_|-|g') evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
+	CATEGORIES["browser"]="firefox-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g') brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
+	CATEGORIES["mail"]="thunderbird-i18n-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g') evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
 	CATEGORIES["download"]="kget gwget uget steadyflow jdownloader2 clipgrab youtubedl-gui xdman flareget"
 	CATEGORIES["torrent"]="qbittorrent torrential deluge-gtk ktorrent fragments transmission-qt amule tixati frostwire"
 	CATEGORIES["messages"]="telegram-desktop discord teamspeak3 mumble signal-desktop element-desktop caprine gajim murmur mattermost jami-gnome pidgin polari hexchat wire-desktop quassel-client zoom skypeforlinux-stable-bin slack-desktop teams viber icq-bin"
@@ -60,7 +60,7 @@ function sh_config {
 	CATEGORIES["news"]="newsflash akregator gfeeds pan liferea rssguard quiterss"
 	CATEGORIES["book"]="okular foliate evince atril gnome-books bookworm fbreader coolreader calibre peruse"
 	CATEGORIES["pdf"]="pdfarranger diffpdf pdfmod pdftricks pdfmixtool pdfslicer gscan2pdf mupdf masterpdfeditor masterpdfeditor-free"
-	CATEGORIES["office"]="libreoffice-fresh-\$(echo \${LANG,,} | cut -f1 -d\".\" | sed 's|_|-|g') libreoffice-still-\$(echo \${LANG,,} | cut -f1 -d\".\" | sed 's|_|-|g') freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office wps-office-mui-\$(echo \${LANG,,} | cut -f1 -d\".\" | sed 's|_|-|g')"
+	CATEGORIES["office"]="libreoffice-fresh-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g') libreoffice-still-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g') freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office wps-office-mui-$(echo ${LANG,,} | cut -f1 -d"." | sed 's|_|-|g')"
 	CATEGORIES["calendar"]="osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews morgen-bin"
 	CATEGORIES["deveditor"]="atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition intellij-idea-community-edition codeblocks kdevelop kdevelop-python kdevelop-php android-studio eclipse-java-bin goland visual-studio-code-bin sublime-text-3 sublime-text-4-dev okteta phpstorm webstorm cudatext-gtk2-bin cudatext-qt5-bin vscodium-bin"
 	CATEGORIES["devbd"]="dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools mongodb-bin percona-server questdb"
@@ -106,7 +106,7 @@ function sh_main {
 	[[ -n "$category" ]] && appstream_packages="${CATEGORIES[$category]}"
 
 	if [ -n "$appstream_packages" ]; then
-		eval APPSTREAM_CATEGORY "$appstream_packages"
+		APPSTREAM_CATEGORY "$appstream_packages"
 		AUR_CATEGORY
 	fi
 }
