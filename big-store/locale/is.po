@@ -797,3 +797,22 @@ msgstr "Myndband"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Villa við opnun möppu:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Innfædd forrit hafa öflugri samþættingu við stýrikerfið.<br>Þeir gangast undir umfangsmiklar "
+"prófanir áður en þeir eru gerðir aðgengilegir, sem tryggir meiri áreiðanleika.<br>Af þessum ástæðum "
+"er sérstaklega mælt með því að velja innbyggt forrit þegar viðkomandi hugbúnaður er fáanlegur í "
+"mörgum uppsetningarvalkostum.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Bíddu á meðan við söfnum kerfisupplýsingum. Það gæti tekið smá stund..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Áætluð dagsetning þegar kerfið var sett upp:"

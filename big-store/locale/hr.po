@@ -797,3 +797,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Pogreška pri pristupu imeniku:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Izvorni programi imaju robusniju integraciju s operativnim sustavom.<br>Podvrgavaju se opsežnim "
+"ispitivanjima prije nego što postanu dostupni, osiguravajući veću pouzdanost.<br>Iz tih razloga, "
+"odabir izvornog programa posebno se preporučuje kada je željeni softver dostupan u više mogućnosti "
+"instalacije.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Pričekajte dok ne prikupimo podatke o sustavu. To bi moglo potrajati nekoliko trenutaka..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Približan datum instalacije sustava:"

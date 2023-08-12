@@ -791,3 +791,18 @@ msgstr "视频"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "访问目录时出错："
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr "本机程序与操作系统具有更强大的集成。<br>它们在上市前经过广泛的测试，确保更高的可靠性。<br>由于这些原因，当所需的软件在多个安装选项中可用时，特别建议选择本机程序。<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "我们正在收集系统信息，请稍候。这可能需要一些时间..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "系统安装的大致日期："

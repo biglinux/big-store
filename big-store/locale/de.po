@@ -798,3 +798,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Fehler beim Zugriff auf das Verzeichnis:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native Programme haben eine robustere Integration mit dem Betriebssystem.<br>Sie werden vor der "
+"Markteinführung umfangreichen Tests unterzogen, um eine höhere Zuverlässigkeit zu "
+"gewährleisten.<br>Aus diesen Gründen empfiehlt sich die Entscheidung für ein natives Programm vor "
+"allem dann, wenn die gewünschte Software in mehreren Installationsoptionen verfügbar ist.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Bitte warten Sie, während wir Systeminformationen sammeln. Das kann ein paar Augenblicke dauern..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ungefähres Datum der Installation des Systems:"

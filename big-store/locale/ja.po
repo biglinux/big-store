@@ -793,3 +793,20 @@ msgstr "ビデオ"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "ディレクトリへのアクセスエラー:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"ネイティブプログラムは、オペレーティングシステムとのより堅牢な統合を備えています。<br>これらは、利用可能になる前に広範なテストを受け、より高い信頼性を保証します。<br>これらの理由から、目的のソ"
+"フトウェアが複数のインストールオプションで利用できる場合は、ネイティブプログラムを選択することをお勧めします。<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "システム情報を収集するまでしばらくお待ちください。それには少し時間がかかるかもしれません..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "システムがインストールされたおおよその日付:"

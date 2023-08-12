@@ -795,3 +795,21 @@ msgstr "וידאו"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "שגיאה בגישה לספריה:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"תוכניות מקוריות יש שילוב חזק יותר עם מערכת ההפעלה.<br>הם עוברים בדיקות מקיפות לפני שהם הופכים "
+"לזמינים, מה שמבטיח אמינות רבה יותר.<br>מסיבות אלה, בחירה בתוכנית מקורית מומלצת במיוחד כאשר התוכנה "
+"הרצויה זמינה במספר אפשרויות התקנה.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "אנא המתן בזמן שאנו אוספים מידע מערכת. זה עשוי לקחת כמה רגעים..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "תאריך משוער להתקנת המערכת:"

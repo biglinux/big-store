@@ -795,3 +795,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Virhe hakemistoa käytettäessä:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Natiiviohjelmilla on vankempi integrointi käyttöjärjestelmään.<br>Ne testataan perusteellisesti "
+"ennen niiden saataville asettamista, mikä takaa paremman luotettavuuden.<br>Näistä syistä "
+"natiiviohjelman valitseminen on erityisen suositeltavaa, kun haluttu ohjelmisto on saatavana "
+"useissa asennusvaihtoehdoissa.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Odota, kunnes keräämme järjestelmätietoja. Se voi kestää hetken..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Arvioitu päivämäärä, jolloin järjestelmä asennettiin:"
