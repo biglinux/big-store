@@ -796,3 +796,6 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Vídeo"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Erro ao acessar o diretório:"

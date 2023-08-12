@@ -792,3 +792,6 @@ msgstr "Näyttää vain valitut ohjelmat<br>ja piilottaa hyödylliset tulokset <
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Virhe hakemistoa käytettäessä:"

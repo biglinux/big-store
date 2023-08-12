@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2023/08/11
-#  Altered: 2023/08/11
+#  Altered: 2023/08/12
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #  All rights reserved.
@@ -31,54 +31,73 @@
 #  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=big-store
+export TMP_FOLDER="/tmp/bigstore"
+export HOME_FOLDER="$HOME/.bigstore"
+
 function sh_update_cache_snap {
 	# Seleciona e cria a pasta para salvar os arquivos para cache da busca
-	FOLDER_TO_SAVE_FILES="$HOME/.bigstore/snap_list_files/snap_list"
-	FILE_TO_SAVE_CACHE="$HOME/.bigstore/snap.cache"
-	FILE_TO_SAVE_CACHE_FILTERED="$HOME/.bigstore/snap_filtered.cache"
+	folder_to_save_files="$HOME/.bigstore/snap_list_files/snap_list"
+	file_to_save_cache="$HOME/.bigstore/snap.cache"
+	file_to_save_cache_filtered="$HOME/.bigstore/snap_filtered.cache"
+	path_snap_list_files="$HOME/.bigstore/snap_list_files/"
 
-	rm -R ~/.bigstore/snap_list_files/
-	mkdir -p ~/.bigstore/snap_list_files/
+	[[ -d "$path_snap_list_files" ]] && rm -R "$path_snap_list_files"
+	mkdir -p "$path_snap_list_files"
 
 	# Anotação com as opções possíveis para utilizar na API
 	#https://api.snapcraft.io/api/v1/snaps/search?confinement=strict,classic&fields=anon_download_url,architecture,channel,download_sha3_384,summary,description,binary_filesize,download_url,last_updated,package_name,prices,publisher,ratings_average,revision,snap_id,license,base,media,support_url,contact,title,content,version,origin,developer_id,developer_name,developer_validation,private,confinement,common_ids&q=office&scope=wide:
 
 	# Anotação com a busca por wps-2019-snap em cache
-	# jq -r '._embedded."clickindex:package"[]| select( .package_name == "wps-2019-snap" )' $FOLDER_TO_SAVE_FILES*
+	# jq -r '._embedded."clickindex:package"[]| select( .package_name == "wps-2019-snap" )' $folder_to_save_files*
 
 	# Faz o download da página inicial
-	curl "https://api.snapcraft.io/api/v1/snaps/search?confinement=strict&fields=architecture,summary,description,package_name,snap_id,title,content,version,common_ids,binary_filesize,license,developer_name,media,&scope=wide:" >${FOLDER_TO_SAVE_FILES}
+	curl --silent "https://api.snapcraft.io/api/v1/snaps/search?confinement=strict&fields=architecture,summary,description,package_name,snap_id,title,content,version,common_ids,binary_filesize,license,developer_name,media,&scope=wide:" >${folder_to_save_files}
 
-	# Lê na pagina inicial quantas paginas devem ser baixadas e salva o valor na variavel $NUMBER_OF_PAGES
-	NUMBER_OF_PAGES="$(jq -r '._links.last' ${FOLDER_TO_SAVE_FILES} | sed 's|.*page=||g;s|"||g' | grep [0-9])"
+	# Lê na pagina inicial quantas paginas devem ser baixadas e salva o valor na variavel $numbe_of_pages
+	number_of_pages="$(jq -r '._links.last' ${folder_to_save_files} | sed 's|.*page=||g;s|"||g' | grep [0-9])"
 
 	# Inicia o download em paralelo de todas as paginas
-	PAGE=2
-	while [ "$PAGE" -lt "$NUMBER_OF_PAGES" ]; do
-		echo "Downloading $PAGE of $NUMBER_OF_PAGES"
-		curl "https://api.snapcraft.io/api/v1/snaps/search?confinement=strict,classic&fields=architecture,summary,description,package_name,snap_id,title,content,version,common_ids,binary_filesize,license,developer_name,media,&scope=wide:&page=$PAGE" >>${FOLDER_TO_SAVE_FILES}$PAGE &
-		let PAGE=PAGE+1
+	page=2
+	while [[ "$page" -lt "$number_of_pages" ]]; do
+		echo "Downloading $page of $number_of_pages"
+		curl --silent "https://api.snapcraft.io/api/v1/snaps/search?confinement=strict,classic&fields=architecture,summary,description,package_name,snap_id,title,content,version,common_ids,binary_filesize,license,developer_name,media,&scope=wide:&page=$page" >>${folder_to_save_files}$page &
+		((page++))
 	done
 
 	# Aguarda o download de todos os arquivos
 	wait
 
 	# Filtra o resultado dos arquivos e cria um arquivo de cache que será utilizado nas buscas
-	jq -r '._embedded."clickindex:package"[]| .title + "|" + .snap_id + "|" + .media[0].url + "|" + .summary + "|" + .version + "|" + .package_name + "|"' ${FOLDER_TO_SAVE_FILES}* | sort -u >$FILE_TO_SAVE_CACHE
-	grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/list/snap_list.txt "$FILE_TO_SAVE_CACHE" >"$FILE_TO_SAVE_CACHE_FILTERED"
+	jq -r '._embedded."clickindex:package"[]| .title + "|" + .snap_id + "|" + .media[0].url + "|" + .summary + "|" + .version + "|" + .package_name + "|"' ${folder_to_save_files}* |
+		sort -u >$file_to_save_cache
+	grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/list/snap_list.txt "$file_to_save_cache" >"$file_to_save_cache_filtered"
 }
 export -f sh_update_cache_snap
 
 function sh_update_cache_flatpak {
 	rm -f "$HOME/.bigstore/flatpak.cache"
-	flatpak search --arch x86_64 "" | sed '/\t/s//|/; /\t/s//|/; /\t/s//|/; /\t/s//|/; /\t/s//|/; /$/s//|/'  | grep '|stable|' | rev | uniq --skip-fields=2 | rev > "$HOME/.bigstore/flatpak.cache"
+	flatpak search --arch x86_64 "" |
+		sed '/\t/s//|/; /\t/s//|/; /\t/s//|/; /\t/s//|/; /\t/s//|/; /$/s//|/' |
+		grep '|stable|' |
+		rev |
+		uniq --skip-fields=2 |
+		rev >"$HOME/.bigstore/flatpak.cache"
 
-	for i  in  $(LANG=C flatpak update | grep "^ [1-9]" | awk '{print $2}'); do
-		sed -i "s/|${i}.*/&update|/" ~/.bigstore/flatpak.cache 
+	for i in $(LANG=C flatpak update | grep "^ [1-9]" | awk '{print $2}'); do
+		sed -i "s/|${i}.*/&update|/" ~/.bigstore/flatpak.cache
 	done
-	grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/list/flatpak_list.txt ~/.bigstore/flatpak.cache > ~/.bigstore/flatpak_filtered.cache
+	grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/list/flatpak_list.txt ~/.bigstore/flatpak.cache >~/.bigstore/flatpak_filtered.cache
 }
 export -f sh_update_cache_flatpak
+
+function sh_update_cache_complete {
+	[[ ! -d ~/.bigstore ]] && mkdir -p ~/.bigstore
+	[[ -e "/usr/lib/libpamac-flatpak.so" ]] && sh_update_cache_flatpak
+	[[ -e "/usr/lib/libpamac-snap.so" ]] && sh_update_cache_snap
+}
+export -f sh_update_cache_complete
 
 function sh_run_pacman_mirror {
 	pacman-mirrors --geoip
@@ -86,12 +105,325 @@ function sh_run_pacman_mirror {
 }
 export -f sh_run_pacman_mirror
 
+function sh_reinstall_allpkg {
+	pacman -Qnq | pacman -Sy --noconfirm -
+}
+export -f sh_reinstall_allpkg
 
 function sh_main {
 	local execute_app="$1"
 	eval "$execute_app"
 	return
 }
+
+function sh_snap_enable {
+	systemctl start snapd
+	systemctl enable snapd
+	systemctl start apparmor
+	systemctl enable apparmor
+}
+export -f sh_snap_enable
+
+function sh_run_pamac_installer {
+	LangFilter="${LANG%%.*}"
+	LangFilterLowercase="${LangFilter,,}"
+	LangClean="${LangFilterLowercase%%_*}"
+	LangCountry="${LangFilterLowercase#*_}"
+	AutoAddLangPkg="$(pacman -Ssq $1.*$LangClean.* | grep -m1 [_-]$LangCountry)"
+
+	pamac-installer $@ $AutoAddLangPkg &
+
+	PID="$!"
+
+	if [ "$PID" = "" ]; then
+		exit
+	fi
+
+	CONTADOR=0
+	while [ $CONTADOR -lt 100 ]; do
+		if [ "$(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ")" != "" ]; then
+			xsetprop -id=$(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ") --atom WM_TRANSIENT_FOR --value $(wmctrl -p -l -x | grep Big-Store$ | cut -f1 -d" ") -f 32x
+			wmctrl -i -r $(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ") -b add,skip_pager,skip_taskbar
+			wmctrl -i -r $(wmctrl -p -l | grep -m1 " $PID " | cut -f1 -d" ") -b toggle,modal
+			break
+		fi
+
+		sleep 0.1
+		let CONTADOR=CONTADOR+1
+	done
+	wait
+}
+export -f sh_run_pamac_installer
+
+function sh_category_aur {
+	[[ -e ${TMP_FOLDER}/aurbuild.html ]] && rm -f ${TMP_FOLDER}/aurbuild.html
+	#PKG="$@"
+
+	LANGUAGE=C yay -a -Si $@ |
+		gawk -v tmpfolder=${TMP_FOLDER} -v instalar=$"Instalar" -v remover=$"Remover" -- '
+	### Begin of gawk script
+
+	BEGIN {
+	    OFS = "\n"
+	}
+
+	# Following block runs when blank line found, i.e., on the transition between packages
+	!$0 {
+	    title = version = description = not_installed = idaur = button = skipping = ""
+	}
+
+	# Skips lines between packages
+	skipping {
+	    next
+	}
+
+	/^Name/ {
+	    title = gensub(/^Name +: /,"",1)
+	    not_installed = system("pacman -Q " title " 2> /dev/null 1> /dev/null")
+	    if ( not_installed ) {
+	        idaur = "AurP2"
+	        button = "<div id=aur_not_installed>" instalar "</div></a></div></div>"
+	    } else {
+	        idaur = "AurP1"
+	        button = "<div id=aur_installed>" remover "</div></a></div></div>"
+	    }
+	}
+
+	/^Version/ {
+	    version = gensub(/^Version +: /,"",1)
+	}
+
+	/^Description/ {
+	    description = gensub(/^Description +: /,"",1)
+	}
+
+	# When all variables are set
+	title && version && description && idaur && button {
+	    if ( system("[ ! -e icons/" title ".png ]") ) {
+	        icon = "<img class=\"icon\" src=\"icons/" title ".png\">"
+	    } else {
+	        icon = "<div class=avatar_aur>" substr(title,1,3) "</div>"
+	    }
+
+	# Checking custom localized description
+	    shortlang = gensub(/\..+/,"",1,ENVIRON["LANG"])
+	    summaryfile = "description/" title "/" shortlang "/summary"
+	# Double negative because system() returns exit status of shell command inside ()
+	    if ( !system("[ -e " summaryfile " ]") ) {
+	        RS_BAK = RS
+	        RS = "^$"
+	        getline description < summaryfile
+	        close(summaryfile)
+	        RS = RS_BAK
+	    }
+
+	# Writes html of current package on aurbuild.html
+	# Do not worry, file redirector ">" works different in awk: only the first interaction deletes file content
+	    print(\
+	"<a onclick=\"disableBody();\" href=\"view_aur.sh.htm?pkg_name=" title "\">",
+	"<div class=\"col s12 m6 l3\" id=" idaur ">",
+	"<div class=\"showapp\">",
+	"<div id=aur_icon><div class=icon_middle>" icon "</div>",
+	"<div id=aur_name><div id=limit_title_name>" title "</div>",
+	"<div id=version>" version "</div></div></div>",
+	"<div id=box_aur_desc><div id=aur_desc>" description "</div></div>",
+	button) > tmpfolder "/aurbuild.html"
+
+	    count++
+	    skipping++
+	# Getting ready for next package
+	    title = version = description = not_installed = idaur = icon = button = ""
+	}
+
+	END{
+	    if (count) {
+	        print(\
+	"<script>$(document).ready(function() {$(\"#box_aur\").show();});</script>",
+	"<script>document.getElementById(\"aur_icon_loading\").innerHTML = \"\";</script>",
+	"<script>runAvatarAur();</script>") > tmpfolder "/aurbuild.html"
+	    } else {
+	        print(\
+	"<script>document.getElementById(\"aur_icon_loading\").innerHTML = \"\";</script>",
+	"<script>runAvatarAur();</script>") > tmpfolder "/aurbuild.html"
+	    }
+	}
+
+
+	'
+	# End of gawk script
+
+	mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
+}
+
+function sh_category_flatpak {
+	# Read installed packages
+	## portuguese
+	# Le os pacotes instalados em flatpak
+	FLATPAK_INSTALLED_LIST="|$(flatpak list | cut -f2 -d$'\t' | tr '\n' '|')"
+
+	VERSION=$"Versão: "
+	PACKAGE=$"Pacote: "
+	NOT_VERSION=$"Não informada"
+	HOME_FOLDER="$HOME/.bigstore"
+	TMP_FOLDER="/tmp/bigstore"
+
+	# Read parameter and use as $search
+	## portuguese
+	# Le o parametro passado via terminal e cria a variavel $search
+	search="$*"
+
+	# Change delimiter
+	## portuguese
+	# Muda o delimitador para somente quebra de linha
+	OIFS=$IFS
+	IFS=$'\n'
+
+	# Start function to turn possible uses assincronous mode
+	## portuguese
+	# Inicia uma função para possibilitar o uso em modo assíncrono
+	parallel_filter() {
+
+		readarray -t -d"|" myarray <<<"$1"
+
+		PKG_NAME="${myarray[0]}"
+		PKG_DESC="${myarray[1]}"
+		PKG_ID="${myarray[2]}"
+		PKG_VERSION="${myarray[3]}"
+		PKG_STABLE="${myarray[4]}"
+		PKG_REMOTE="${myarray[5]}"
+		PKG_UPDATE="${myarray[6]}"
+
+		# Select xml file to work
+		## portuguese
+		# Seleciona o arquivo xml para filtrar os dados
+
+		PKG_XML_APPSTREAM="/var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/appstream.xml"
+
+		PKG_VERSION_ORIG="$PKG_VERSION"
+		if [ "$PKG_VERSION" = "" ]; then
+			PKG_VERSION="$NOT_VERSION"
+		fi
+
+		# ICON
+		# Example to run
+		# awk /\<id\>com.eduke32.EDuke32\<\\/id\>/,/\<\\/component\>/ /var/lib/flatpak/appstream/flathub/x86_64/active/appstream.xml | grep -m1 -e icon -e cached | sed 's|.*">||g;s|</icon>||g'
+		PKG_ICON=""
+
+		# Search icon
+		PKG_ICON="$(find /var/lib/flatpak/appstream/ -type f -iname "$PKG_ID.png" -print -quit)"
+
+		# If not found try another way
+		if [ "$PKG_ICON" = "" ]; then
+
+			# If cached icon not found, try online
+			PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+
+			# If online icon not found, try another way
+			if [ "$PKG_ICON" = "" ]; then
+				PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
+			fi
+
+		fi
+
+		# Improve order of packages
+		PKG_NAME_CLEAN="${search% *}"
+
+		# Verify if package are installed
+		if [ "$(echo "$FLATPAK_INSTALLED_LIST" | LC_ALL=C grep -i -m1 "|$PKG_ID|")" != "" ]; then
+			if [ "$(echo "$PKG_UPDATE" | tr -d '\n')" != "" ]; then
+				PKG_INSTALLED=$"Atualizar"
+				DIV_FLATPAK_INSTALLED="flatpak_upgradable"
+				PKG_ORDER="FlatpakP1"
+			else
+				PKG_INSTALLED=$"Remover"
+				DIV_FLATPAK_INSTALLED="flatpak_installed"
+				PKG_ORDER="FlatpakP1"
+			fi
+		else
+			PKG_INSTALLED=$"Instalar"
+			DIV_FLATPAK_INSTALLED="flatpak_not_installed"
+
+			if [ "$(echo "$PKG_NAME $PKG_ID" | grep -i -m1 "$PKG_NAME_CLEAN")" != "" ]; then
+				PKG_ORDER="FlatpakP2"
+
+			elif [ "$(echo "$ID" | grep -i -m1 "$PKG_NAME_CLEAN")" != "" ]; then
+				PKG_ORDER="FlatpakP3"
+			else
+				PKG_ORDER="FlatpakP4"
+			fi
+		fi
+
+		# If all fail, use generic icon
+		if [ "$PKG_ICON" = "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 'type=')" != "" ] || [ "$(echo "$PKG_ICON" | LC_ALL=C grep -i -m1 '<description>')" != "" ]; then
+			cat >>${TMP_FOLDER}/flatpakbuild.html <<-EOF
+				<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><div class=icon_middle><div class=avatar_flatpak>${PKG_NAME:0:3}</div></div></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
+			EOF
+		else
+			cat >>${TMP_FOLDER}/flatpakbuild.html <<-EOF
+				<a onclick="disableBody();" href="view_flatpak.sh.htm?pkg_name=$PKG_ID"><div class="col s12 m6 l3" id="$PKG_ORDER"><div class="showapp"><div id=flatpak_icon><div class=icon_middle><img class="icon" loading="lazy" src="$PKG_ICON"></div><div id=flatpak_name>$PKG_NAME<div id=version>$PKG_VERSION_ORIG</div></div></div><div id=box_flatpak_desc><div id=flatpak_desc>$PKG_DESC</div></div><div id=$DIV_FLATPAK_INSTALLED>$PKG_INSTALLED</div></a></div></div>
+			EOF
+		fi
+	}
+
+	if [ "$resultFilter_checkbox" = "" ]; then
+		cacheFile="${HOME_FOLDER}/flatpak.cache"
+	else
+		cacheFile="${HOME_FOLDER}/flatpak_filtered.cache"
+	fi
+	COUNT=0
+	case "$(echo "$search" | wc -w)" in
+
+	1)
+		for i in $(grep -i -m 60 -e "$(echo "$search" | cut -f1 -d" " | sed 's|"||g')" $cacheFile); do
+			let COUNT=COUNT+1
+			parallel_filter "$i" &
+			if [ "$COUNT" = "60" ]; then
+				break
+			fi
+		done
+		;;
+
+	2)
+		for i in $(grep -i -e "$(echo "$search" | cut -f1 -d" " | sed 's|"||g')" $cacheFile | grep -i -m 60 -e "$(echo "$search" | cut -f2 -d" ")"); do
+			let COUNT=COUNT+1
+			parallel_filter "$i" &
+			if [ "$COUNT" = "60" ]; then
+				break
+			fi
+		done
+		;;
+
+	*)
+		for i in $(grep -i -e "$(echo "$search" | cut -f1 -d" " | sed 's|"||g')" $cacheFile | grep -i -e "$(echo "$search" | cut -f2 -d" ")" | grep -i -m 60 -e "$(echo "$search" | cut -f3 -d" ")"); do
+			let COUNT=COUNT+1
+			parallel_filter "$i" &
+			if [ "$COUNT" = "60" ]; then
+				break
+			fi
+		done
+		;;
+
+	esac
+
+	wait
+
+	if [ "$COUNT" -gt "0" ]; then
+		echo '<script>
+	runAvatarFlatpak();
+	$(document).ready(function () {
+	$("#box_flatpak").show();});
+	</script>' >>${TMP_FOLDER}/flatpakbuild.html
+	fi
+
+	echo "$COUNT" >"${TMP_FOLDER}/flatpak_number.html"
+
+	# mv -f ${TMP_FOLDER}/flatpakbuild.html ${TMP_FOLDER}/flatpak.html
+	# cat "${TMP_FOLDER}/flatpakbuild.html" >> ${TMP_FOLDER}/flatpak.html
+
+	IFS=$OIFS
+}
+export -f sh_category_flatpak
+
 
 #sh_debug
 sh_main "$@"

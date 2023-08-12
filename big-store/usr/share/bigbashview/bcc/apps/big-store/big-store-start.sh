@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/11
+#  Altered: 2023/08/12
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230805"
-BOOTLOG="/tmp/bigcontrolcenter-$(date +"%d%m%Y").log"
+_VERSION_="1.0.0-20230812"
+BOOTLOG="/tmp/bigstore-$(date +"%d%m%Y").log"
 LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"

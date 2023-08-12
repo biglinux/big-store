@@ -792,3 +792,6 @@ msgstr "Displays only selected programs<br>and hides results that are useful <br
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Error accessing directory:"

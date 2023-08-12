@@ -108,9 +108,7 @@ echo "</div></div><div id=content_flatpak_install>
 <img class=\"icon_view\" src=\"$PKG_ICON\">"
 
 echo "<div id=titleName>$PKG_NAME</div></div></div>"
-
 echo "<div id=description>$PKG_DESC</div></div>"
-
 echo '<div class="row center">'
 
 # Verify if package are installed

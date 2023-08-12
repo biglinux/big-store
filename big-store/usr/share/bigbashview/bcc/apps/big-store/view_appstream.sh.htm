@@ -18,7 +18,7 @@ HOME_FOLDER="$HOME/.bigstore"
 TMP_FOLDER="/tmp/bigstore"
 
 if [ "$pkg_install" = "y" ]; then
-	./run_pamac_installer ${pkg_name,,}
+	sh_pamac_installer ${pkg_name,,}
 	echo "" >${TMP_FOLDER}/upgradeable.txt
 	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
 fi

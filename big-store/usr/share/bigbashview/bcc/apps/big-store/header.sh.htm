@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2020/11/01
-#  Altered: 2023/08/11
+#  Altered: 2023/08/12
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,9 +34,10 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230811"
+_VERSION_="1.0.0-20230812"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
@@ -44,14 +45,19 @@ function sh_config {
 	export TEXTDOMAIN=big-store
 
 	# folders
-	declare -g HOME_FOLDER="$HOME/.bigstore"
-	declare -g TMP_FOLDER='/tmp/bigstore'
+	export HOME_FOLDER="$HOME/.bigstore"
+	export TMP_FOLDER='/tmp/bigstore'
+
+#	declare -g ABOUT_APPSTREAM=$"
+#Programas Nativos são melhor integrados ao sistema, e <br>
+#passam por mais testes antes de serem disponibilizados,<br>
+#portanto é a melhor opção quando o programa que você<br>
+#deseja está disponível em mais de um tipo de instalação.<br>"
 
 	declare -g ABOUT_APPSTREAM=$"
-Programas Nativos são melhor integrados ao sistema<br>
-e passam por mais testes antes de serem disponibilizados,<br>
-portanto é a melhor opção quando o programa que você<br>
-deseja está disponível em mais de um tipo de instalação.<br>"
+Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>
+Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior confiabilidade.<br>
+Por essas razões, optar por um programa nativo é especialmente recomendado quando o software desejado está disponível em várias opções de instalação.<br>"
 
 	declare -g ABOUT_AUR=$"
 Programas AUR são scripts criados por usuários<br>
