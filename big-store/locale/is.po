@@ -794,3 +794,6 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Myndband"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Villa við opnun möppu:"

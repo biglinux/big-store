@@ -794,3 +794,6 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Pogreška pri pristupu imeniku:"

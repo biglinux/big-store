@@ -790,3 +790,6 @@ msgstr "選択したプログラムのみを表示します<br>有用な結果�
 
 msgid "Vídeo"
 msgstr "ビデオ"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "ディレクトリへのアクセスエラー:"

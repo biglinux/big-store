@@ -792,3 +792,6 @@ msgstr "Zobrazí pouze vybrané programy<br>a skryje užitečné výsledky <br>P
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Chyba při přístupu k adresáři:"

@@ -795,3 +795,6 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Βίντεο"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Σφάλμα κατά την πρόσβαση στον κατάλογο:"

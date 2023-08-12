@@ -788,3 +788,6 @@ msgstr "仅显示选定的程序<br>并隐藏有用的结果 <br>仅供高级用
 
 msgid "Vídeo"
 msgstr "视频"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "访问目录时出错："

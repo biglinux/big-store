@@ -788,3 +788,6 @@ msgstr "선택한 프로그램만 표시합니다.<br>유용한 결과를 숨 �
 
 msgid "Vídeo"
 msgstr "비디오"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "디렉토리에 액세스하는 동안 오류가 발생했습니다."

@@ -792,3 +792,6 @@ msgstr "הצגת תוכניות נבחרות בלבד<br>ומסתיר תוצאו
 
 msgid "Vídeo"
 msgstr "וידאו"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "שגיאה בגישה לספריה:"
