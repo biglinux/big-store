@@ -49,7 +49,7 @@ if [[ -n "$ACTION" ]]; then
 	MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$"	WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
 
 	case "$ACTION" in
-	"reinstall_pamac") pamac reinstall $PACKAGE_NAME --no-confirm ;;
+	"reinstall_pamac") pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac reinstall $PACKAGE_NAME --no-confirm ;;
 	"install_flatpak")
 		flatpak install --or-update $REPOSITORY $PACKAGE_ID -y
 		if [ ! -e "$HOME/.bigstore/disable_flatpak_unused_remove" ]; then
