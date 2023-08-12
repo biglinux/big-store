@@ -797,3 +797,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Fel vid åtkomst till katalogen:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Inbyggda program har en mer robust integration med operativsystemet.<br>De genomgår omfattande "
+"tester innan de görs tillgängliga, vilket garanterar större tillförlitlighet.<br>Av dessa skäl "
+"rekommenderas särskilt att välja ett inbyggt program när önskad programvara är tillgänglig i flera "
+"installationsalternativ.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Vänta medan vi samlar in systeminformation. Det kan ta några ögonblick ..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ungefärligt datum då systemet installerades:"

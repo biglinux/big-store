@@ -795,3 +795,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Chyba při přístupu k adresáři:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Nativní programy mají robustnější integraci s operačním systémem.<br>Před zpřístupněním procházejí "
+"rozsáhlým testováním, což zajišťuje větší spolehlivost.<br>Z těchto důvodů se volba nativního "
+"programu doporučuje zejména v případě, že je požadovaný software k dispozici ve více možnostech "
+"instalace.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Počkejte prosím, než budeme shromažďovat informace o systému. To může chvíli trvat..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Přibližné datum instalace systému:"
