@@ -1,77 +1,113 @@
-#!/bin/bash
-##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
-#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
-#  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#!/usr/bin/env bash
+#shellcheck disable=SC2155,SC2034
+#shellcheck source=/dev/null
+
+#  /usr/share/bigbashview/bcc/apps/big-store/big-store-start.sh
 #  Description: Big Store installing programs for BigLinux
-#  
-#  Licensed by GPL V2 or greater
-##################################
+#
+#  Created: 2020/01/11
+#  Altered: 2023/08/11
+#
+#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
+#                2022-2023, Rafael Ruscher <rruscher@gmail.com>
+#  All rights reserved.
+#
+#  Redistribution and use in source and binary forms, with or without
+#  modification, are permitted provided that the following conditions
+#  are met:
+#  1. Redistributions of source code must retain the above copyright
+#     notice, this list of conditions and the following disclaimer.
+#  2. Redistributions in binary form must reproduce the above copyright
+#     notice, this list of conditions and the following disclaimer in the
+#     documentation and/or other materials provided with the distribution.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+#  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+#  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+#  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+#  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+#  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+#  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+#  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+#  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+#  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#Translation
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=big-store
+APP="${0##*/}"
+_VERSION_="1.0.0-20230805"
+BOOTLOG="/tmp/bigcontrolcenter-$(date +"%d%m%Y").log"
+LOGGER='/dev/tty8'
+LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-if [[ $(ps -aux | grep Big-Store | grep bigbashview) ]]; then
-    kdialog --passivepopup $"Big-Store está aberta."
-    exit
-fi
+function sh_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	declare -g HOME_FOLDER="$HOME/.bigstore"
+	declare -g TMP_FOLDER="/tmp/bigstore"
+	declare -g TITLE=$"Big-Store"
+	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
+	declare -g snap_cache_file="$HOME/.bigstore/snap.cache"
+	declare -g flatpak_cache_file="$HOME/.bigstore/flatpak.cache"
+	declare -g bigstore_icon_file='icons/icon.svg'
+	declare -gA Amsg=([error_open]=$(gettext $"Big-Store está aberta.")
+	                  [error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
+	)
 
-cd /usr/share/bigbashview/bcc/apps/big-store/
+}
 
-HOME_FOLDER="$HOME/.bigstore"
-TMP_FOLDER="/tmp/bigstore"
+function sh_check_big_store_is_running {
+	if pgrep -f 'Big-Store'; then
+		kdialog --passivepopup "$Amsg[error_open]}"
+		exit
+	fi
+}
 
+function sh_main {
+	local resolution
+	local half_resolution
 
-if [[ $(find "$HOME/.bigstore/snap.cache" -mtime +1 -print) ]] || [ ! -e "$HOME/.bigstore/snap.cache" ] ; then
-  ./update_cache_snap &
-fi
+	cd "$bigstorepath" || {
+		kdialog --passivepopup "$Amsg[error_access_dir]}\n$bigstorepath"
+		return 1
+	}
 
-if [[ $(find "$HOME/.bigstore/flatpak.cache" -mtime +1 -print) ]] || [ ! -e "$HOME/.bigstore/flatpak.cache" ] ; then
-  ./update_cache_flatpak &
-fi
+	if [[ ! -e "$snap_cache_file" ]] || [[ $(find "$snap_cache_file" -mtime +1 -print) ]]; then
+	    sh_update_cache_snap &
+	fi
 
+	if [[ ! -e "$flatpak_cache_file" ]] || [[ $(find "$flatpak_cache_file" -mtime +1 -print) ]]; then
+	    sh_update_cache_flatpak &
+	fi
 
-TITLE=$"Big-Store"
+	cmdlogger mkdir -p "$TMP_FOLDER"
 
-mkdir -p "$TMP_FOLDER"
+	# Save dynamic screenshot resolution
 
-# Save dynamic screenshot resolution
-echo "$(xrandr | grep primary | sed 's|.*primary ||g;s|+.*||g;s|.*x||g') / 2" | bc > ${TMP_FOLDER}/screenshot-resolution.txt
+	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
+	half_resolution=$((resolution / 2))
+	echo "$half_resolution" > "${TMP_FOLDER}/screenshot-resolution.txt"
 
-/usr/share/bigbashview/bcc/apps/big-store/update_cache_flatpak &
+	sh_update_cache_flatpak &
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
+	if [[ -n "$1" ]]; then
+		 eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\" -i $bigstore_icon_file"
+		case "$1" in
+		"category")  eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
+		"appstream") eval "$COMMON_OPTIONS view_appstream.sh.htm?pkg_name=\"$2\" -i $bigstore_icon_file" ;;
+		"aur")       eval "$COMMON_OPTIONS view_aur.sh.htm?pkg_name=\"$2\"       -i $bigstore_icon_file" ;;
+		"flatpak")   eval "$COMMON_OPTIONS view_flatpak.sh.htm?pkg_name=\"$2\"   -i $bigstore_icon_file" ;;
+		"snap")      eval "$COMMON_OPTIONS view_snap.sh.htm?pkg_id=\"$2\"        -i $bigstore_icon_file" ;;
+		*)           eval "$COMMON_OPTIONS index.sh.htm?search=\"$1\"            -i $bigstore_icon_file" ;;
+		esac
+	else
+		eval "$COMMON_OPTIONS index.sh.htm -i $bigstore_icon_file"
+	fi
+}
 
-if [ "$1" != "" ]; then
-    if [ "$1" = "category" ]; then
-      QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized index.sh.htm?category="$2" -i icon.svg
-    elif [ "$1" = "appstream" ]; then
-      QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized view_appstream.sh.htm?pkg_name="$2" -i icon.svg
-    elif [ "$1" = "aur" ]; then
-      QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized view_aur.sh.htm?pkg_name="$2" -i icon.svg
-    elif [ "$1" = "flatpak" ]; then
-      QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized view_flatpak.sh.htm?pkg_name="$2" -i icon.svg
-    elif [ "$1" = "snap" ]; then
-      QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized view_snap.sh.htm?pkg_id="$2" -i icon.svg
-    else
-      QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized index.sh.htm?search="$1" -i icon.svg
-    fi
-else
-    QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview  -n "$TITLE" -w maximized index.sh.htm -i icon.svg
-fi
-
-# Open Store searching for gimp
-# big-store gimp
-
-# Show Native page of gimp
-# big-store appstream gimp
-
-# Show AUR page of jre8
-# big-store aur jre8
-
-# Show Snap page of Gimp
-# big-store snap KDHYbyuzZukmLhiogKiUksByRhXD2gYV
-
-# Show Flatpak page of Gimp
-# big-store flatpak org.gimp.GIMP
+#sh_debug
+sh_config
+sh_check_big_store_is_running
+sh_main

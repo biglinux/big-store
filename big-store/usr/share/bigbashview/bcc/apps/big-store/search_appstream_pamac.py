@@ -92,7 +92,7 @@ if __name__ == "__main__":
                 desc_filter = ' '+pkg.get_desc().lower()+' '
                 if desc_filter.find(pkg_filter) != -1 or pkg.get_id().find(sys.argv[1].split()[0]) != -1:
                     #Remove from list
-                    blocklist = open("blocklist.txt", "r")
+                    blocklist = open("list/blocklist.txt", "r")
                     if pkg.get_id()+'\n' not in blocklist.read():
                             #Remove duplicate
                             if pkg not in without_duplicates:

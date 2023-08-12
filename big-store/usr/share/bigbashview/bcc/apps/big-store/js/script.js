@@ -48,11 +48,11 @@ const toggleButton = document.querySelector(".dark-light");
 
 toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
-//	_run('/usr/share/bigbashview/bcc/shell/setbgcolor.sh "' + document.body.classList.contains('light-mode') + '"');
-	_run('sh_setbgcolor "' + document.body.classList.contains('light-mode') + '"');
+  //	_run('/usr/share/bigbashview/bcc/shell/setbgcolor.sh "' + document.body.classList.contains('light-mode') + '"');
+  _run(
+    'sh_setbgcolor "' + document.body.classList.contains("light-mode") + '"',
+  );
 });
-
-
 
 var modals = document.getElementsByClassName("modal");
 var modalOpenBtn = document.getElementsByClassName("modalOpenBtn");
@@ -61,7 +61,7 @@ var currentModal = null;
 // Function to open modal by id
 function openModal(id) {
   for (i = 0; i < modals.length; i++) {
-    if (modals[i].getAttribute('id') == id) {
+    if (modals[i].getAttribute("id") == id) {
       currentModal = modals[i];
       currentModal.style.display = "block";
       break;
@@ -70,35 +70,36 @@ function openModal(id) {
 }
 
 // When the user clicks the button, open modal with the same id
-modalOpenBtn.onclick = function() {
-  let currentID = modalOpenBtn.getAttribute('id');
+modalOpenBtn.onclick = function () {
+  let currentID = modalOpenBtn.getAttribute("id");
   openModal(currentID);
-}
+};
 
 // When the user clicks anywhere outside of the modal or the X, close
-window.onclick = function(event) {
-  if (event.target == currentModal || event.target.getAttribute('class') == 'modalClose') {
+window.onclick = function (event) {
+  if (
+    event.target == currentModal ||
+    event.target.getAttribute("class") == "modalClose"
+  ) {
     currentModal.style.display = "none";
   }
-}
-
+};
 
 //Fecha welcome
 $(function () {
   $(".content-wrapper-header .close").click(function () {
     $("#welcome").css("display", "none");
-  }); 
+  });
 });
 
-
 var bigcount = 1;
-$('#btn-big').click(function(){
-    if (bigcount >= 3 && bigcount <= 3) {
-      $('#welcome').css('display','flex');
-    } else if (bigcount >= 6 && bigcount <= 6) {
-      $('body').css('background-image', 'url("img/body-bg.jpg")');
-    } else if (bigcount >= 9) {
-      window.location = ".javascript-racer-master/racer.sh.htm";
-    }
-    ++bigcount;
+$("#btn-big").click(function () {
+  if (bigcount >= 3 && bigcount <= 3) {
+    $("#welcome").css("display", "flex");
+  } else if (bigcount >= 6 && bigcount <= 6) {
+    $("body").css("background-image", 'url("img/body-bg.jpg")');
+  } else if (bigcount >= 9) {
+    window.location = ".javascript-racer-master/racer.sh.htm";
+  }
+  ++bigcount;
 });

@@ -1,12 +1,12 @@
 #!/bin/bash
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/05/09
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -18,37 +18,37 @@ HOME_FOLDER="$HOME/.bigstore"
 TMP_FOLDER="/tmp/bigstore"
 
 if [ "$pkg_install" = "y" ]; then
-    ./run_pamac_installer --build $pkg_name
-    echo "" > ${TMP_FOLDER}/upgradeable.txt
-    pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
+	./run_pamac_installer --build $pkg_name
+	echo "" >${TMP_FOLDER}/upgradeable.txt
+	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
 fi
 
 if [ "$pkg_remove" = "y" ]; then
-    ./run_pamac_installer --remove $pkg_name $(LC_ALL=C timeout 10s pamac remove -od "$pkg_name" | grep "^  " | cut -f3 -d" ")
-    echo "" > ${TMP_FOLDER}/upgradeable.txt
-    pacman -Qu | cut -f1 -d" " >> ${TMP_FOLDER}/upgradeable.txt
+	./run_pamac_installer --remove $pkg_name $(LC_ALL=C timeout 10s pamac remove -od "$pkg_name" | grep "^  " | cut -f3 -d" ")
+	echo "" >${TMP_FOLDER}/upgradeable.txt
+	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
 fi
 
 source header.sh.htm
 
-LANG=C pacman -Qi $pkg_name > "${TMP_FOLDER}/pacman_pkg_cache.txt"
+LANG=C pacman -Qi $pkg_name >"${TMP_FOLDER}/pacman_pkg_cache.txt"
 # Run script with complementary content
-    
+
 echo '<div id=box_aur_install>'
 echo '<div id=title_aur_install>'
-    echo "<div id=button_aur class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_AUR\">"
-        echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'                            
-        echo $"Programas AUR"
-    echo '</div></div>'
+echo "<div id=button_aur class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_AUR\">"
+echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/></svg></div><div style="margin-right: 5px;">'
+echo $"Programas AUR"
+echo '</div></div>'
 echo '</div>'
 
 ./view_aur.py "$pkg_name"
 
 echo "<script>runAvatarAur();</script>"
 echo '<div class="logo">'
-echo '    <img id="btn-big" src="logo.png" class="logo-biglinux" onclick="biglinux();">'
+echo '    <img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">'
 echo '</div>'
-        
+
 echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
 echo '<div id="files_in_package">
 <div id="preloader-align">
@@ -66,16 +66,16 @@ echo '<div id="files_in_package">
 </div>
 </div>'
 # # echo '</div><div class="modal-footer"><a href="#!" class="modal-close btn-flat">' $"Fechar" '</a></div></div>'
-  
+
 echo "<script>\$(document).ready(function(){
     \$('.modal').modal();
   });</script>"
 
 # Finish him
 
-cat << EOF
+cat <<EOF
 </div>
-  <script src="./script.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
 EOF

@@ -1,12 +1,12 @@
 #!/bin/bash
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/05/09
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -20,9 +20,8 @@ rm -f ${TMP_FOLDER}/aurbuild.html
 
 #PKG="$@"
 
-
-LANGUAGE=C yay -a -Si $@ | \
-gawk -v tmpfolder=${TMP_FOLDER} -v instalar=$"Instalar" -v remover=$"Remover" -- '
+LANGUAGE=C yay -a -Si $@ |
+	gawk -v tmpfolder=${TMP_FOLDER} -v instalar=$"Instalar" -v remover=$"Remover" -- '
 ### Begin of gawk script
 
 BEGIN {
@@ -115,4 +114,3 @@ END{
 # End of gawk script
 
 mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
-
