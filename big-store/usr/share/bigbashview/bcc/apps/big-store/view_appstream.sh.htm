@@ -19,7 +19,7 @@ TMP_FOLDER="/tmp/bigstore"
 
 if [ "$pkg_install" = "y" ]; then
 	sh_run_pamac_installer ${pkg_name,,}
-	echo "" >${TMP_FOLDER}/upgradeable.txt
+# cho "" >${TMP_FOLDER}/upgradeable.txt
 	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
 fi
 
@@ -31,7 +31,7 @@ if [ "$pkg_reinstall" = "y" ]; then
 fi
 
 if [ "$pkg_remove" = "y" ]; then
-	pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $(pwd)/run-pamac-remove ${pkg_name,,}
+	sh_run_pamac_remove ${pkg_name,,}
 	echo "" >${TMP_FOLDER}/upgradeable.txt
 	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
 fi
