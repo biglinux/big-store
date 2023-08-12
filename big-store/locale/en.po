@@ -795,3 +795,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Error accessing directory:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programs have a more robust integration with the operating system.<br>They undergo extensive "
+"testing before being made available, ensuring greater reliability.<br>For these reasons, opting for "
+"a native program is especially recommended when the desired software is available in multiple "
+"installation options.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Please wait while we collect system information. That might take a few moments..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Approximate date the system was installed:"

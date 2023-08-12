@@ -798,3 +798,22 @@ msgstr "Βίντεο"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Σφάλμα κατά την πρόσβαση στον κατάλογο:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Τα εγγενή προγράμματα έχουν μια πιο ισχυρή ενοποίηση με το λειτουργικό σύστημα.<br>Υποβάλλονται σε "
+"εκτεταμένες δοκιμές πριν διατεθούν, εξασφαλίζοντας μεγαλύτερη αξιοπιστία.<br>Για αυτούς τους "
+"λόγους, η επιλογή ενός εγγενούς προγράμματος συνιστάται ιδιαίτερα όταν το επιθυμητό λογισμικό είναι "
+"διαθέσιμο σε πολλές επιλογές εγκατάστασης.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Περιμένετε όσο συλλέγουμε πληροφορίες συστήματος. Αυτό μπορεί να διαρκέσει λίγα λεπτά..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Κατά προσέγγιση ημερομηνία εγκατάστασης του συστήματος:"

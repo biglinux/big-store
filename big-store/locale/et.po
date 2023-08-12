@@ -797,3 +797,22 @@ msgstr "Video"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Viga kataloogi pääsemisel:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Natiivsetel programmidel on operatsioonisüsteemiga tugevam integratsioon.<br>Enne kättesaadavaks "
+"tegemist läbivad need ulatusliku testimise, tagades suurema usaldusväärsuse.<br>Nendel põhjustel on "
+"natiivse programmi valimine eriti soovitatav, kui soovitud tarkvara on saadaval mitmes "
+"installimisvalikus.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Oodake, kuni kogume süsteemiteavet. Selleks võib kuluda mõni hetk..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ligikaudne kuupäev, millal süsteem installiti:"

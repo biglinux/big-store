@@ -797,3 +797,22 @@ msgstr "Видео"
 
 msgid "Erro ao acessar o diretório:"
 msgstr "Ошибка доступа к каталогу:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Нативные программы имеют более надежную интеграцию с операционной системой.<br>Они проходят "
+"тщательное тестирование, прежде чем стать доступными, что обеспечивает большую надежность.<br>По "
+"этим причинам выбор собственной программы особенно рекомендуется, когда желаемое программное "
+"обеспечение доступно в нескольких вариантах установки.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Пожалуйста, подождите, пока мы соберем системную информацию. Это может занять несколько минут..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ориентировочная дата установки системы:"
