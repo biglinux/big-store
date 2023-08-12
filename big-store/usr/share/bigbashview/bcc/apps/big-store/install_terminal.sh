@@ -46,19 +46,19 @@ IFS=$'\n'
 
 if [[ -n "$ACTION" ]]; then
 	SNAP_CLEAN_SCRIPT="./snap_clean.sh"
-	cmd="MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$"	WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh" &
+	MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$"	WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
 
 	case "$ACTION" in
-	"reinstall_pamac") eval "$cmd" & pamac reinstall $PACKAGE_NAME --no-confirm ;;
+	"reinstall_pamac") pamac reinstall $PACKAGE_NAME --no-confirm ;;
 	"install_flatpak")
-		eval "$cmd" & flatpak install --or-update $REPOSITORY $PACKAGE_ID -y
+		flatpak install --or-update $REPOSITORY $PACKAGE_ID -y
 		if [ ! -e "$HOME/.bigstore/disable_flatpak_unused_remove" ]; then
 			flatpak uninstall --unused -y
 		fi
 		sh_update_cache_flatpak
 		;;
 	"remove_flatpak")
-		eval "$cmd" & flatpak remove $PACKAGE_ID -y
+		flatpak remove $PACKAGE_ID -y
 		if [ ! -e "$HOME/.bigstore/disable_flatpak_unused_remove" ]; then
 			flatpak uninstall --unused -y
 		fi
@@ -66,25 +66,25 @@ if [[ -n "$ACTION" ]]; then
 		;;
 	"install_snap")
 		if [ ! -e "$HOME/.bigstore/disable_snap_unused_remove" ]; then
-			eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $SNAP_CLEAN_SCRIPT install $PACKAGE_NAME
+			pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $SNAP_CLEAN_SCRIPT install $PACKAGE_NAME
 		else
-			eval "$cmd" & snap install $PACKAGE_NAME
+			snap install $PACKAGE_NAME
 		fi
 		;;
 	"remove_snap")
 		if [ ! -e "$HOME/.bigstore/disable_snap_unused_remove" ]; then
-			eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $SNAP_CLEAN_SCRIPT remove $PACKAGE_NAME
+			pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $SNAP_CLEAN_SCRIPT remove $PACKAGE_NAME
 		else
-			eval "$cmd" & snap remove $PACKAGE_NAME
+			snap remove $PACKAGE_NAME
 		fi
 		;;
-	"update_pacman")       eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Syy --noconfirm ;;
-	"update_mirror")       eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_run_pacman_mirror ;;
-	"update_keys")         eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --fix-keys ;;
-	"force_upgrade")       eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --upgrade-now ;;
-	"reinstall_allpkg")    eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_reinstall_allpkg ;;
-	"system_upgrade")      eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update --no-confirm ;;
-	"system_upgradetotal") eval "$cmd" & pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu --noconfirm ;;
+	"update_pacman")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Syy --noconfirm ;;
+	"update_mirror")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_run_pacman_mirror ;;
+	"update_keys")         pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --fix-keys ;;
+	"force_upgrade")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --upgrade-now ;;
+	"reinstall_allpkg")    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_reinstall_allpkg ;;
+	"system_upgrade")      pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update --no-confirm ;;
+	"system_upgradetotal") pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu --noconfirm ;;
 	esac
 fi
 
