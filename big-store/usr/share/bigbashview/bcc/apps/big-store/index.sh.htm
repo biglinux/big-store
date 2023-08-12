@@ -47,6 +47,8 @@ function sh_config {
 	export TEXTDOMAIN=big-store
 	export TMP_FOLDER="/tmp/bigstore"
 	export HOME_FOLDER="$HOME/.bigstore"
+	declare -g Programas_AUR=$"Programas AUR"
+	declare -g Programas_Flatpak=$"Programas Flatpak"
 }
 
 function sh_load_header {
@@ -102,7 +104,7 @@ cat <<-EOF
 	</svg>
 	</div>
 	<div style="margin-right: 5px;">
-	$"Programas AUR"
+	$Programas_AUR
 	</div></div></div>
 	<div id="content_aur">
 	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
@@ -130,7 +132,7 @@ cat <<-EOF
 	</svg>
 	</div>
 	<div style="margin-right: 5px;">
-	$"Programas Flatpak"
+	$Programas_Flatpak
 	</div></div></div>
 	<div id="content_flatpak">
 	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
