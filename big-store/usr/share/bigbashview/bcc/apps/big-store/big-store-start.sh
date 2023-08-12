@@ -59,7 +59,7 @@ function sh_config {
 
 function sh_check_big_store_is_running {
 	if pgrep -f 'Big-Store'; then
-		kdialog --passivepopup "$Amsg[error_open]}"
+		kdialog --passivepopup "${Amsg[error_open]}"
 		exit 1
 	fi
 }
