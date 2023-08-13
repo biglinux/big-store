@@ -159,6 +159,7 @@ if __name__ == "__main__":
     config.set_enable_aur(False)
     config.set_enable_flatpak(True)
     config.set_enable_snap(False)
+    config.set_enable_appstream(False)
     db = Pamac.Database(config=config)
     pkgname = '^'+sys.argv[1]+'$'
 
