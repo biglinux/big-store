@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/13
+#  Altered: 2023/08/14
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230813"
+_VERSION_="1.0.0-20230814"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -53,24 +53,26 @@ function sh_config {
 }
 
 function sh_load_header {
-	#source header.sh.htm
 	source /usr/share/bigbashview/bcc/apps/big-store/header.sh.htm
 }
 
 function ICON_CATEGORY {
-#	echo "<a onclick=\"disableBody();\" href=index.sh.htm?category=$1><div class=icon_background><div class=vertical_align_center><div class=icon><span class=category_font_icon><i class=\"$2\"></i></span></div><div class=icon_text><div class=icon_text_vertical_align>$3</div></div></div></div></a>"
+	local category="$1"
+	local classe="$2"
+	local cname="$3"
+
 cat <<-EOF
-	<a onclick="disableBody();" href=index.sh.htm?category=$1>
+	<a onclick="disableBody();" href=index.sh.htm?category=$category>
 	<div class="icon_background">
 	<div class="vertical_align_center">
 	<div class="icon">
 	<span class="category_font_icon">
-	<i class="$2"></i>
+	<i class=$classe"></i>
 	</span>
 	</div>
 	<div class="icon_text">
 	<div class="icon_text_vertical_align">
-	$3
+	$cname
 	</div></div></div></div></a>
 EOF
 }
