@@ -1,87 +1,133 @@
-#!/bin/bash
-##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
-#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
-#  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09
+#!/usr/bin/env bash
+#shellcheck disable=SC2155,SC2034
+#shellcheck source=/dev/null
+
+#  /usr/share/bigbashview/bcc/apps/big-store/view_appstream.sh.htm
+#  Description: Control Center to help usage of BigLinux
 #
-#  Description: Big Store installing programs for BigLinux
+#  Created: 2022/02/28
+#  Altered: 2023/08/14
 #
-#  Licensed by GPL V2 or greater
-##################################
+#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
+#                2022-2023, Rafael Ruscher <rruscher@gmail.com>
+#  All rights reserved.
+#
+#  Redistribution and use in source and binary forms, with or without
+#  modification, are permitted provided that the following conditions
+#  are met:
+#  1. Redistributions of source code must retain the above copyright
+#     notice, this list of conditions and the following disclaimer.
+#  2. Redistributions in binary form must reproduce the above copyright
+#     notice, this list of conditions and the following disclaimer in the
+#     documentation and/or other materials provided with the distribution.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+#  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+#  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+#  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+#  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+#  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+#  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+#  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+#  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+#  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#Translation
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=big-store
+APP="${0##*/}"
+_VERSION_="1.0.0-20230814"
+export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
+LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-HOME_FOLDER="$HOME/.bigstore"
-TMP_FOLDER="/tmp/bigstore"
+function sh_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	Programas_Nativos=$"Programas Nativos"
+	Fechar=$"Fechar"
+}
 
-if [ "$pkg_install" = "y" ]; then
-	sh_run_pamac_installer ${pkg_name,,}
-	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
-fi
+function sh_main {
+	if [ "$pkg_install" = "y" ]; then
+		sh_run_pamac_installer ${pkg_name,,}
+		pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
+	fi
 
-if [ "$pkg_reinstall" = "y" ]; then
-	# Using terminal
-	ACTION="reinstall_pamac" REPOSITORY="$REPOSITORY" PACKAGE_NAME="${pkg_name,,}" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
-	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
-fi
+	if [ "$pkg_reinstall" = "y" ]; then
+		# Using terminal
+		ACTION="reinstall_pamac"
+		REPOSITORY="$REPOSITORY"
+		PACKAGE_NAME="${pkg_name,,}"
+		WINDOW_ID=$(sh_get_window_id)
+		urxvt +sb										\
+			-internalBorder 1							\
+			-borderColor rgb:00/22/40				\
+			-depth 32									\
+			-fg rgb:00/ff/ff							\
+			-bg rgb:00/22/40							\
+			-fn "xft:Ubuntu Mono:pixelsize=18"	\
+			-embed $WINDOW_ID							\
+			-sr											\
+			-bc -e "${LIBRARY}/bstrlib.sh" sh_install_terminal "$ACTION" "$WINDOW_ID"
+		pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
+	fi
 
-if [ "$pkg_remove" = "y" ]; then
-	sh_run_pamac_remove ${pkg_name,,}
-	pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
-fi
+	if [ "$pkg_remove" = "y" ]; then
+		sh_run_pamac_remove ${pkg_name,,}
+		pacman -Qu | cut -f1 -d" " >>${TMP_FOLDER}/upgradeable.txt
+	fi
 
-source header.sh.htm
+	source header.sh.htm
 
-cat <<EOF
-    <link rel="stylesheet" type="text/css" href="css/appstream_install.css">
-EOF
+	cat <<-EOF
+		<link rel="stylesheet" type="text/css" href="css/appstream_install.css">
+		<div id="box_appstream_install">
+		<div id="title_appstream_install">
+		<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
+		<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+		<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
+		<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
+		</svg>
+		</div><div style="margin-right: 5px;">
+		$Programas_Nativos
+		</div></div></div>
+	EOF
 
-# Run script with complementary content
+	./view_appstream_pamac.py "${pkg_name,,}"
 
-echo '<div id=box_appstream_install>'
-echo '<div id=title_appstream_install>'
-echo "<div id=button_appstream class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_APPSTREAM\">"
-echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/></svg></div><div style="margin-right: 5px;">'
-echo $"Programas Nativos"
-echo '</div></div>'
-echo '</div>'
+	cat <<-EOF
+		<script>runAvatarAppstream();</script>
+		<div id="modal1" class="modal modal-fixed-footer">
+		<div class="modal-content">
+		<div id="files_in_package">
+		<div id="preloader-align">
+		<div class="preloader-wrapper big active">
+		<div class="spinner-layer spinner-blue-only">
+		<div class="circle-clipper left">
+		<div class="circle"></div>
+		</div><div class="gap-patch">
+		<div class="circle"></div>
+		</div><div class="circle-clipper right">
+		<div class="circle"></div>
+		</div></div></div></div></div>
+		</div><div class="modal-footer">
+		<a href="#!" class="modal-close btn-flat">
+		$Fechar
+		</a></div></div>
+		<script>$(document).ready(function(){$('.modal').modal(); });</script>
+		<div class="logo">
+		<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
+		</div></div>
+		<script src="./js/script.js"></script>
+		</body>
+		</html>
+	EOF
+}
 
-./view_appstream_pamac.py "${pkg_name,,}"
-
-echo "<script>runAvatarAppstream();</script>"
-
-echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
-echo '<div id="files_in_package">
-<div id="preloader-align">
-  <div class="preloader-wrapper big active">
-    <div class="spinner-layer spinner-blue-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>'
-echo '</div><div class="modal-footer"><a href="#!" class="modal-close btn-flat">' $"Fechar" '</a></div></div>'
-
-echo "<script>\$(document).ready(function(){
-    \$('.modal').modal();
-  });</script>"
-
-# Finish him
-cat <<EOF
-  <div class="logo">
-    <img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
-  </div>
-</div>
-  <script src="./js/script.js"></script>
-</body>
-</html>
-EOF
+#sh_debug
+sh_config
+sh_main

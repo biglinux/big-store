@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2023/08/11
-#  Altered: 2023/08/12
+#  Altered: 2023/08/13
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #  All rights reserved.
@@ -33,15 +33,15 @@
 
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
-export TMP_FOLDER="/tmp/bigstore"
 export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 
 function sh_update_cache_snap {
 	# Seleciona e cria a pasta para salvar os arquivos para cache da busca
-	folder_to_save_files="$HOME/.bigstore/snap_list_files/snap_list"
-	file_to_save_cache="$HOME/.bigstore/snap.cache"
-	file_to_save_cache_filtered="$HOME/.bigstore/snap_filtered.cache"
-	path_snap_list_files="$HOME/.bigstore/snap_list_files/"
+	folder_to_save_files="$HOME_FOLDER/snap_list_files/snap_list"
+	file_to_save_cache="$HOME_FOLDER/snap.cache"
+	file_to_save_cache_filtered="$HOME_FOLDER/snap_filtered.cache"
+	path_snap_list_files="$HOME_FOLDER/snap_list_files/"
 
 	[[ -d "$path_snap_list_files" ]] && rm -R "$path_snap_list_files"
 	mkdir -p "$path_snap_list_files"
@@ -77,23 +77,27 @@ function sh_update_cache_snap {
 export -f sh_update_cache_snap
 
 function sh_update_cache_flatpak {
-	rm -f "$HOME/.bigstore/flatpak.cache"
-	flatpak search --arch x86_64 "" |
-		sed '/\t/s//|/; /\t/s//|/; /\t/s//|/; /\t/s//|/; /\t/s//|/; /$/s//|/' |
-		grep '|stable|' |
-		rev |
-		uniq --skip-fields=2 |
-		rev >"$HOME/.bigstore/flatpak.cache"
+	# Defina os caminhos dos arquivos
+	local LIST_FILE="/usr/share/bigbashview/bcc/apps/big-store/list/flatpak_list.txt"
+	local CACHE_FILE="$HOME_FOLDER/flatpak.cache"
+	local FILTERED_CACHE_FILE="$HOME_FOLDER/flatpak_filtered.cache"
+
+	[[ -e "$CACHE_FILE" ]] && rm -f "$CACHE_FILE"
+
+	# Realiza a busca de pacotes Flatpak, filtra e armazena no arquivo de cache
+	flatpak search --arch x86_64 "" | awk -F'\t' '{ print $1"|"$2"|"$3"|"$4"|"$5"|"$6"|"}' | grep '|stable|' | sort -u > "$CACHE_FILE"
 
 	for i in $(LANG=C flatpak update | grep "^ [1-9]" | awk '{print $2}'); do
-		sed -i "s/|${i}.*/&update|/" ~/.bigstore/flatpak.cache
+		sed -i "s/|${i}.*/&update|/" "$CACHE_FILE"
 	done
-	grep -Fwf /usr/share/bigbashview/bcc/apps/big-store/list/flatpak_list.txt ~/.bigstore/flatpak.cache >~/.bigstore/flatpak_filtered.cache
+
+	#Realize a busca e filtragem de pacotes Flatpak
+	grep -Fwf "$LIST_FILE" "$CACHE_FILE" > "$FILTERED_CACHE_FILE"
 }
 export -f sh_update_cache_flatpak
 
 function sh_update_cache_complete {
-	[[ ! -d ~/.bigstore ]] && mkdir -p ~/.bigstore
+	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER"
 	[[ -e "/usr/lib/libpamac-flatpak.so" ]] && sh_update_cache_flatpak
 	[[ -e "/usr/lib/libpamac-snap.so" ]] && sh_update_cache_snap
 }
@@ -109,12 +113,6 @@ function sh_reinstall_allpkg {
 	pacman -Qnq | pacman -Sy --noconfirm -
 }
 export -f sh_reinstall_allpkg
-
-function sh_main {
-	local execute_app="$1"
-	eval "$execute_app"
-	return
-}
 
 function sh_snap_enable {
 	systemctl start snapd
@@ -290,6 +288,7 @@ function sh_category_aur {
 
 	mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
 }
+export -f sh_category_aur
 
 function sh_category_flatpak {
 	# Read installed packages
@@ -300,27 +299,17 @@ function sh_category_flatpak {
 	VERSION=$"Versão: "
 	PACKAGE=$"Pacote: "
 	NOT_VERSION=$"Não informada"
-	HOME_FOLDER="$HOME/.bigstore"
-	TMP_FOLDER="/tmp/bigstore"
 
-	# Read parameter and use as $search
-	## portuguese
 	# Le o parametro passado via terminal e cria a variavel $search
 	search="$*"
 
-	# Change delimiter
-	## portuguese
 	# Muda o delimitador para somente quebra de linha
 	OIFS=$IFS
 	IFS=$'\n'
 
-	# Start function to turn possible uses assincronous mode
-	## portuguese
 	# Inicia uma função para possibilitar o uso em modo assíncrono
 	parallel_filter() {
-
 		readarray -t -d"|" myarray <<<"$1"
-
 		PKG_NAME="${myarray[0]}"
 		PKG_DESC="${myarray[1]}"
 		PKG_ID="${myarray[2]}"
@@ -329,10 +318,7 @@ function sh_category_flatpak {
 		PKG_REMOTE="${myarray[5]}"
 		PKG_UPDATE="${myarray[6]}"
 
-		# Select xml file to work
-		## portuguese
 		# Seleciona o arquivo xml para filtrar os dados
-
 		PKG_XML_APPSTREAM="/var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/appstream.xml"
 
 		PKG_VERSION_ORIG="$PKG_VERSION"
@@ -477,6 +463,67 @@ function sh_SO_installation_date {
 	expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | head -n 1
 }
 export -f sh_SO_installation_date
+
+function sh_install_terminal {
+	[[ -z "$ACTION"    ]] && ACTION="$1"
+	[[ -z "$WINDOW_ID" ]] && WINDOW_ID="$2"
+
+	if [[ -n "$ACTION" ]]; then
+		SNAP_CLEAN_SCRIPT="./snap_clean.sh"
+		MARGIN_TOP_MOVE="-90" WINDOW_HEIGHT=12 PID_BIG_DEB_INSTALLER="$$"	WINDOW_ID="$WINDOW_ID" ./install_terminal_resize.sh &
+
+		case "$ACTION" in
+		"reinstall_pamac") pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac reinstall $PACKAGE_NAME --no-confirm ;;
+		"install_flatpak")
+			flatpak install --or-update $REPOSITORY $PACKAGE_ID -y
+			if [ ! -e "$HOME_FOLDER/disable_flatpak_unused_remove" ]; then
+				flatpak uninstall --unused -y
+			fi
+			sh_update_cache_flatpak
+			;;
+		"remove_flatpak")
+			flatpak remove $PACKAGE_ID -y
+			if [ ! -e "$HOME_FOLDER/disable_flatpak_unused_remove" ]; then
+				flatpak uninstall --unused -y
+			fi
+			sh_update_cache_flatpak
+			;;
+		"install_snap")
+			if [ ! -e "$HOME_FOLDER/disable_snap_unused_remove" ]; then
+				pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $SNAP_CLEAN_SCRIPT install $PACKAGE_NAME
+			else
+				snap install $PACKAGE_NAME
+			fi
+			;;
+		"remove_snap")
+			if [ ! -e "$HOME_FOLDER/disable_snap_unused_remove" ]; then
+				pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $SNAP_CLEAN_SCRIPT remove $PACKAGE_NAME
+			else
+				snap remove $PACKAGE_NAME
+			fi
+			;;
+		"update_pacman")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pacman -Syy --noconfirm ;;
+		"update_mirror")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_run_pacman_mirror ;;
+		"update_keys")         pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --fix-keys ;;
+		"force_upgrade")       pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY force-upgrade --upgrade-now ;;
+		"reinstall_allpkg")    pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_reinstall_allpkg ;;
+		"system_upgrade")      pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY pamac update --no-confirm ;;
+		"system_upgradetotal") pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY bigsudo pacman -Syyu --noconfirm ;;
+		esac
+	fi
+
+	if [ "$(xwininfo -id $WINDOW_ID 2>&1 | grep -i "No such window")" != "" ]; then
+		kill -9 $PID_BIG_DEB_INSTALLER
+		exit 0
+	fi
+}
+export -f sh_install_terminal
+
+function sh_main {
+	local execute_app="$1"
+	eval "$execute_app"
+	return
+}
 
 #sh_debug
 sh_main "$@"

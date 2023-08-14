@@ -14,9 +14,11 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
-TMP_FOLDER="/tmp/bigstore"
+#folders
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 
-rm -f ${TMP_FOLDER}/aurbuild.html
+[[ -e ${TMP_FOLDER}/aurbuild.html ]] && rm -f ${TMP_FOLDER}/aurbuild.html
 #  ./search_aur.py $@ >> ${TMP_FOLDER}/aurbuild.html
 # mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
 

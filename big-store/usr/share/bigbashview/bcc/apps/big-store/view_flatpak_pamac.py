@@ -7,6 +7,7 @@
 import gi
 import subprocess
 import sys
+import os
 import locale
 import datetime
 gi.require_version('Pamac', '11')
@@ -18,7 +19,7 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
-
+TMP_FOLDER = os.environ['TMP_FOLDER']
 
 def print_pkg_details (details):
     if  details.get_app_id() is None:
@@ -85,7 +86,7 @@ def print_pkg_details (details):
     if details.get_long_desc() or details.get_screenshots():
         print ('<div id=descriptionbox>')
     if details.get_screenshots():
-        screenshot_resolution = open("/tmp/bigstore/screenshot-resolution.txt", "r")
+        screenshot_resolution = open(TMP_FOLDER + "/screenshot-resolution.txt", "r")
 
         print ('<div id=screenshotPkg><div class="slider"><ul class="slides">')
         for screenshot in details.get_screenshots():
@@ -96,8 +97,8 @@ def print_pkg_details (details):
         print ('<div id=pkgDescriptionBox><div id=pkgDescription>', details.get_long_desc(), '</div></div>')
     if details.get_long_desc() or details.get_screenshots():
         print ('</div></div>')
-        
-    print ('<br>')        
+
+    print ('<br>')
 
     print ('<div class="grid-container">')
     print ('<div class=gridLeft>', _('Pacote:'), '</div>')

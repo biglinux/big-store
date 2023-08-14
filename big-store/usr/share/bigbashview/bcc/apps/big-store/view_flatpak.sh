@@ -22,8 +22,8 @@ FLATPAK_INSTALLED_LIST="|$(flatpak list | cut -f2 -d$'\t' | tr '\n' '|')"
 VERSION=$"Versão: "
 PACKAGE=$"Pacote: "
 NOT_VERSION=$"Não informada"
-HOME_FOLDER="$HOME/.bigstore"
-TMP_FOLDER="/tmp/bigstore"
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 
 # Read parameter and use as $search
 ## portuguese

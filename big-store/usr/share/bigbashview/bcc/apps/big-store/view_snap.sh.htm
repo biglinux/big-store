@@ -1,223 +1,257 @@
-#!/bin/bash
-##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
-#  Author Modify: Rafael Ruscher (rruscher@gmail.com)
-#  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09
+#!/usr/bin/env bash
+#shellcheck disable=SC2155,SC2034
+#shellcheck source=/dev/null
+
+#  /usr/share/bigbashview/bcc/apps/big-store/view_snap.sh.htm
+#  Description: Control Center to help usage of BigLinux
 #
-#  Description: Big Store installing programs for BigLinux
+#  Created: 2022/02/28
+#  Altered: 2023/08/14
 #
-#  Licensed by GPL V2 or greater
-##################################
+#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
+#                2022-2023, Rafael Ruscher <rruscher@gmail.com>
+#  All rights reserved.
+#
+#  Redistribution and use in source and binary forms, with or without
+#  modification, are permitted provided that the following conditions
+#  are met:
+#  1. Redistributions of source code must retain the above copyright
+#     notice, this list of conditions and the following disclaimer.
+#  2. Redistributions in binary form must reproduce the above copyright
+#     notice, this list of conditions and the following disclaimer in the
+#     documentation and/or other materials provided with the distribution.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+#  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+#  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+#  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+#  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+#  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+#  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+#  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+#  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+#  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#Translation
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=big-store
+APP="${0##*/}"
+_VERSION_="1.0.0-20230814"
+export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
+LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-HOME_FOLDER="$HOME/.bigstore"
-TMP_FOLDER="/tmp/bigstore"
-SNAP_INFO_FILE="$TMP_FOLDER/snap_info.txt"
-TXT_EXEC=$"Executar"
-TXT_REMOVE=$"Remover"
-TXT_INSTALL=$"Instalar"
-
-jq -r "._embedded.\"clickindex:package\"[] | select(.snap_id == \"$pkg_id\" )" $(grep -rl $pkg_id "$HOME_FOLDER/snap_list_files/") | jq -s .[0] >"$SNAP_INFO_FILE"
-
-SNAP_INFO() {
-	jq -r .${1} "$SNAP_INFO_FILE"
+function sh_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	declare -g SNAP_INFO_FILE="$TMP_FOLDER/snap_info.txt"
+	declare -g TXT_EXEC=$"Executar"
+	declare -g TXT_REMOVE=$"Remover"
+	declare -g TXT_INSTALL=$"Instalar"
+	declare -gA AviewSnap
+	AviewSnap[Instalando]=$"Instalando"
+	AviewSnap[Cancelar]=$"Cancelar"
+	AviewSnap[Removendo]=$"Removendo"
+	AviewSnap[Programas_Snap]=$"Programas Snap"
+	AviewSnap[Fechar]=$"Fechar"
+	AviewSnap[Pacote]=$"Pacote:"
+	AviewSnap[Versao]=$"Versão disponível:"
+	AviewSnap[Licenca]=$"Licença:"
+	AviewSnap[Repositorio]=$"Repositório:"
+	AviewSnap[Empacotador]=$"Empacotador:"
+	AviewSnap[AUR]=$"AUR"
 }
 
-SNAP_ICON() {
-	jq -r '.media[] | select(.type == "icon" ) | .url' "$SNAP_INFO_FILE"
+function SNAP_INFO() { jq -r .${1} "$SNAP_INFO_FILE"; }
+function SNAP_ICON() { jq -r '.media[] | select(.type == "icon" ) | .url' "$SNAP_INFO_FILE"; }
+function SNAP_SCREENSHOT() { jq -r '.media[] | select(.type == "screenshot" ) | .url' "$SNAP_INFO_FILE" | grep -v banner; }
+
+function execute_snap_action() {
+	ACTION="$1"
+	WINDOW_ID="$2"
+	urxvt +sb \
+		-internalBorder 1 \
+		-borderColor rgb:00/22/40 \
+		-depth 32 \
+		-fg rgb:00/ff/ff \
+		-bg rgb:00/22/40 \
+		-fn "xft:Ubuntu Mono:pixelsize=18" \
+		-embed $WINDOW_ID \
+		-sr \
+		-bc -e "${LIBRARY}/bstrlib.sh" sh_install_terminal "$ACTION" "$WINDOW_ID"
 }
 
-SNAP_SCREENSHOT() {
-	jq -r '.media[] | select(.type == "screenshot" ) | .url' "$SNAP_INFO_FILE" | grep -v banner
+function sh_main {
+	jq -r "._embedded.\"clickindex:package\"[] | select(.snap_id == \"$pkg_id\" )" "$(grep -rl $pkg_id "$HOME_FOLDER/snap_list_files/")" | jq -s .[0] >"$SNAP_INFO_FILE"
+
+	if [[ "$pkg_install" = "y" ]]; then
+		ACTION="install_snap"
+		PACKAGE_NAME="$(SNAP_INFO package_name)"
+		WINDOW_ID=$(sh_get_window_id)
+		execute_snap_action "$ACTION" "$WINDOW_ID"
+	fi
+
+	if [[ "$pkg_remove" = "y" ]]; then
+		ACTION="remove_snap"
+		PACKAGE_NAME="$(SNAP_INFO package_name)"
+		WINDOW_ID=$(sh_get_window_id)
+		execute_snap_action "$ACTION" "$WINDOW_ID"
+	fi
+
+	cat <<-EOF
+		<div id="box_progress_snap_install">
+		<div id="box_progress_snap_bar">
+		${AviewSnap[Instalando]}
+		<div id="box_progress_snap_cancel">
+		<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="_run('snap abort --last=install')">
+		${AviewSnap[Cancelar]}
+		</button>
+		</div></div></div>
+		<div id="box_progress_snap_remove">
+		<div id="box_progress_snap_bar">
+		${AviewSnap[Removendo]}
+		<div id="box_progress_snap_cancel">
+		<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="_run('snap abort --last=remove')">
+		${AviewSnap[Cancelar]}
+		</button>
+		</div></div></div>
+	EOF
+
+	source header.sh.htm
+	SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
+
+	cat <<-EOF
+		<link rel="stylesheet" type="text/css" href="css/appstream_install.css">
+		<div id="box_snap_install">
+		<div id="title_snap_install">
+		<div id="button_snap" class="tooltipped" data-position="right" data-tooltip="$ABOUT_SNAP">
+		<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+		<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+		<path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/>
+		</svg></div><div style="margin-right: 5px;">
+		${AviewSnap[Programas_Snap]}
+		</div></div></div>
+		<div id="content_snap_install">
+		<div id="titleBar">
+		<div id="title">
+	EOF
+
+	TITLE="$(SNAP_INFO title)"
+	if [[ -n "$(SNAP_ICON)" ]]; then
+		echo '<div class=icon_middle><img class="icon_view" src="'
+		SNAP_ICON
+		echo '"></div>'
+	else
+		echo "<div class=icon_middle><div class=avatar_snap>${TITLE:0:3}</div></div>"
+	fi
+
+	cat <<-EOF
+		<div id="titleName">
+		$TITLE
+		</div></div></div>
+		<div id="description">
+		$(SNAP_INFO summary)
+		</div></div>
+		<div class="row center">
+	EOF
+
+	if [[ "$(echo "$SNAP_INSTALLED_LIST" | grep -i -m1 "|$(SNAP_INFO package_name)|")" != "" ]]; then
+		cat <<-EOF
+			<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodySnapRemove();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_remove=y'">
+			$TXT_REMOVE
+			</button>
+		EOF
+	else
+		cat <<-EOF
+			<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodySnapInstall();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_install=y'">
+			$TXT_INSTALL
+			</button>
+		EOF
+	fi
+
+	echo '<div id=descriptionbox>'
+	#Confere se a igualdade é verdadeira
+	if [[ -n "$(SNAP_SCREENSHOT)" ]]; then
+		echo '<div id=screenshotPkg><div class="slider"><ul class="slides">'
+		for i in $(SNAP_SCREENSHOT); do
+			echo "<li><img class=screenshot src=\"$i\"></li>"
+		done
+		echo "<script>jQuery(document).ready(function(){jQuery(\".slider\").slider({width: $(cat $TMP_FOLDER/screenshot-resolution.txt) });});</script>"
+		echo '</ul></div>'
+	fi
+
+	cat <<-EOF
+		<div id="pkgDescriptionBox">
+		<div id="pkgDescription">
+		$(SNAP_INFO description)
+		</div></div></div></div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AviewSnap[Pacote]}
+		</div>
+		<div class="gridRight">
+		$(SNAP_INFO package_name)
+		</div></div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AviewSnap[Versao]}
+		</div>
+		<div class="gridRight">
+		$(SNAP_INFO version)
+		</div></div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AviewSnap[Licenca]}
+		</div>
+		<div class="gridRight">
+		$(SNAP_INFO license)
+		</div></div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AviewSnap[Repositorio]}
+		</div>
+		<div class="gridRight">
+		${AviewSnap[AUR]}
+		</div></div>
+		<div class="grid-container">
+		<div class="gridLeft">
+		${AviewSnap[Empacotador]}
+		</div>
+		<div class="gridRight">
+		$(SNAP_INFO developer_name)
+		</div></div>
+		<script>runAvatarSnap();</script>
+		<div id="modal1" class="modal modal-fixed-footer">
+		<div class="modal-content">
+		<div id="files_in_package">
+		<div id="preloader-align">
+		<div class="preloader-wrapper big active">
+		<div class="spinner-layer spinner-blue-only">
+		<div class="circle-clipper left">
+		<div class="circle"></div>
+		</div><div class="gap-patch">
+		<div class="circle"></div>
+		</div><div class="circle-clipper right">
+		<div class="circle"></div>
+		</div></div></div></div></div></div>
+		<div class="modal-footer">
+		<a href="#!" class="modal-close btn-flat">
+		${AviewSnap[Fechar]}
+		</a></div></div>
+		<script>$(document).ready(function(){$('.modal').modal();});</script>
+		<div class="logo">
+		<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
+		</div>
+		</div>
+		<script src="./js/script.js"></script>
+		</body>
+		</html>
+	EOF
 }
 
-if [ "$pkg_install" = "y" ]; then
-	ACTION="install_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
-fi
-
-if [ "$pkg_remove" = "y" ]; then
-	ACTION="remove_snap" REPOSITORY="$REPOSITORY" PACKAGE_NAME="$(SNAP_INFO package_name)" WINDOW_ID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" urxvt +sb -internalBorder 1 -borderColor rgb:00/22/40 -depth 32 -fg rgb:00/ff/ff -bg rgb:00/22/40 -fn "xft:Ubuntu Mono:pixelsize=18" -embed $(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2) -sr -bc -e ./install_terminal.sh
-fi
-
-# Loading
-echo '<div id=box_progress_snap_install>'
-echo '<div id=box_progress_snap_bar>'
-echo $"Instalando"
-echo "<div id=box_progress_snap_cancel><button class=\"btn btnSpace waves-effect waves-light grey darken-2\" type=\"submit\" name=\"action\" onclick=\"_run('snap abort --last=install')\">"
-echo $"Cancelar"
-echo '</button></div>'
-echo '</div></div>'
-
-# Loading
-echo '<div id=box_progress_snap_remove>'
-echo '<div id=box_progress_snap_bar>'
-echo $"Removendo"
-echo "<div id=box_progress_snap_cancel><button class=\"btn btnSpace waves-effect waves-light grey darken-2\" type=\"submit\" name=\"action\" onclick=\"_run('snap abort --last=remove')\">"
-echo $"Cancelar"
-echo '</button></div>'
-echo '</div></div>'
-
-source header.sh.htm
-
-cat <<EOF
-    <link rel="stylesheet" type="text/css" href="css/appstream_install.css">
-EOF
-
-SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
-
-echo '<div id=box_snap_install>'
-echo '<div id=title_snap_install>'
-echo "<div id=button_snap class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_SNAP\">"
-echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;"><path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/></svg></div><div style="margin-right: 5px;">'
-echo $"Programas Snap"
-echo '</div></div>'
-echo '</div>'
-
-echo '<div id=content_snap_install>'
-echo '<div id=titleBar>'
-echo '<div id=title>'
-
-TITLE="$(SNAP_INFO title)"
-
-if [ "$(SNAP_ICON)" != "" ]; then
-	echo '<div class=icon_middle><img class="icon_view" src="'
-	SNAP_ICON
-	echo '"></div>'
-else
-	echo "<div class=icon_middle><div class=avatar_snap>${TITLE:0:3}</div></div>"
-fi
-
-echo '<div id=titleName>'
-echo "$TITLE"
-echo '</div></div></div>'
-echo '<div id=description>'
-SNAP_INFO summary
-echo '</div></div>'
-echo '<div class="row center">'
-
-if [ "$(echo "$SNAP_INSTALLED_LIST" | grep -i -m1 "|$(SNAP_INFO package_name)|")" != "" ]; then
-	cat <<EOF
-<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodySnapRemove();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_remove=y'">$TXT_REMOVE</button>
-EOF
-#<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('snap run $(SNAP_INFO package_name)')">$TXT_EXEC</button>
-
-else
-
-	cat <<EOF
-<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBodySnapInstall();location.href='view_snap.sh.htm?pkg_id=$pkg_id&pkg_install=y'">$TXT_INSTALL</button>
-EOF
-fi
-
-#    pkg_installed = subprocess.run(["pacman", "-Qs", sys.argv[1]], stdout=subprocess.PIPE, text=True)
-#    pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
-#    if pkg_installed.stdout:
-#     <button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>
-#         if pkg_installed_version.stdout.strip() != p['Version'].strip():
-#         <button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Atualizar', '</button>
-#         else:
-#             if 'Version' in p:
-#             <button class="btn btnSpace waves-effect waves-light green darken-3" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Reinstalar', '</button>
-#     else:
-#     <button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_snap.sh.htm?pkg_id=" + sys.argv[1] + "&pkg_install=y'" + '">', 'Instalar', '</button>
-
-OIFS=$IFS
-IFS=$'\n'
-
-echo '<div id=descriptionbox>'
-#Confere se a igualdade é verdadeira
-if [ "$($(SNAP_SCREENSHOT))" != "" ]; then
-	echo '<div id=screenshotPkg><div class="slider"><ul class="slides">'
-	for i in $(SNAP_SCREENSHOT); do
-		echo "<li><img class=screenshot src=\"$i\"></li>"
-	done
-	echo "<script>jQuery(document).ready(function(){jQuery(\".slider\").slider({width: $(cat /tmp/bigstore/screenshot-resolution.txt) });});</script>"
-	echo '</ul></div>'
-	IFS=$OIFS
-fi
-
-echo '<div id=pkgDescriptionBox><div id=pkgDescription>'
-SNAP_INFO description
-echo '</div></div></div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class=gridLeft>' $"Pacote:" '</div>'
-echo '<div class=gridRight>'
-SNAP_INFO package_name
-echo '</div></div>'
-
-#     if pkg_installed_version.stdout:
-#     <div class="grid-container">
-#     <div class=gridLeft>', 'Versão instalada:', '</div>
-#     <div class=gridRight>', pkg_installed_version.stdout.strip(), '</div></div>
-#     if pkg_installed_version.stdout != p['Version']:
-
-echo '<div class="grid-container">'
-echo '<div class=gridLeft>' $"Versão disponivel:" '</div>'
-echo '<div class=gridRight>'
-SNAP_INFO version
-echo '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class=gridLeft>' $"Licença:" '</div>'
-echo '<div class="gridRight">'
-SNAP_INFO license
-echo '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class=gridLeft>' $"Repositório:" '</div>'
-echo '<div class="gridRight">' $"AUR" '</div></div>'
-
-echo '<div class="grid-container">'
-echo '<div class=gridLeft>' $"Empacotador:" '</div>'
-echo '<div class="gridRight">'
-SNAP_INFO developer_name
-echo '</div></div>'
-
-#     if pkg_installed.stdout:
-#     <div class="grid-container">
-#     <div class=gridLeft>', 'Arquivos do pacote:', '</div>
-#     <div class="gridRight">
-#     <a class="modal-trigger" href="#modal1" id="listPgkFiles">', 'Clique aqui para ver os arquivos', '</a><script>
-#         print ("$('#listPgkFiles.click(function(e){$.get('./load.sh','pkg_installed " + sys.argv[1] + "',function(data){$('#files_in_package.html(data);})})")
-#     </script>
-#     </div></div>
-
-#kdialog --msgbox "$pkg_id"
-echo "<script>runAvatarSnap();</script>"
-
-echo '<div id="modal1" class="modal modal-fixed-footer"><div class="modal-content">'
-echo '<div id="files_in_package">
-<div id="preloader-align">
-  <div class="preloader-wrapper big active">
-    <div class="spinner-layer spinner-blue-only">
-      <div class="circle-clipper left">
-        <div class="circle"></div>
-      </div><div class="gap-patch">
-        <div class="circle"></div>
-      </div><div class="circle-clipper right">
-        <div class="circle"></div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>'
-echo '</div><div class="modal-footer"><a href="#!" class="modal-close btn-flat">' $"Fechar" '</a></div></div>'
-
-echo "<script>\$(document).ready(function(){
-    \$('.modal').modal();
-  });</script>"
-
-# Finish him
-cat <<EOF
-  <div class="logo">
-    <img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
-  </div>
-</div>
-  <script src="./js/script.js"></script>
-</body>
-</html>
-EOF
+#sh_debug
+sh_config
+sh_main "$@"
