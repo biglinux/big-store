@@ -816,3 +816,6 @@ msgstr "Počkajte, kým zhromaždíme informácie o systéme. To môže chvíľu
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Približný dátum inštalácie systému:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store už funguje."

@@ -806,3 +806,6 @@ msgstr "我们正在收集系统信息，请稍候。这可能需要一些时间
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "系统安装的大致日期："
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store已经在运行。"

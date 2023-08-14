@@ -816,3 +816,6 @@ msgstr ""
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Data approssimativa di installazione del sistema:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store è già in esecuzione."

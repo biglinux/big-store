@@ -814,3 +814,6 @@ msgstr "Odota, kunnes keräämme järjestelmätietoja. Se voi kestää hetken...
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Arvioitu päivämäärä, jolloin järjestelmä asennettiin:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store on jo käynnissä."

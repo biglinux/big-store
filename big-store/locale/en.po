@@ -814,3 +814,6 @@ msgstr "Please wait while we collect system information. That might take a few m
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Approximate date the system was installed:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store is already running."

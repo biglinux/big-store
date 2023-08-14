@@ -818,3 +818,6 @@ msgstr "Kérjük, várjon, amíg összegyűjtjük a rendszerinformációkat. Ez 
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "A rendszer telepítésének hozzávetőleges dátuma:"
+
+msgid "Big-Store já está em execução."
+msgstr "A Big-Store már fut."

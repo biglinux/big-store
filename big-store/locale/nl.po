@@ -817,3 +817,6 @@ msgstr "Even geduld terwijl we systeeminformatie verzamelen. Dat kan even duren.
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Geschatte datum waarop het systeem is geïnstalleerd:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store draait al."

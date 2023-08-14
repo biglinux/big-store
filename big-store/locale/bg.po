@@ -816,3 +816,6 @@ msgstr "Моля, изчакайте, докато събираме систем
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Приблизителна дата на инсталиране на системата:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store вече работи."

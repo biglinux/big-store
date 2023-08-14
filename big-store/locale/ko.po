@@ -808,3 +808,6 @@ msgstr "시스템 정보를 수집하는 동안 잠시 기다려 주십시오. �
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "시스템이 설치된 대략적인 날짜:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store는 이미 운영 중입니다."
