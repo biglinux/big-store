@@ -27,12 +27,13 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
+TMP_FOLDER = os.environ['TMP_FOLDER']
 
 def print_pkg_details (details):
         print ('<a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name=' + details.get_name() + '">')
         print ('<div class="col s12 m6 l3"')
         if details.get_repo() is None:
-            with open('/tmp/bigstore/category_aur.txt', 'a') as f:
+            with open(TMP_FOLDER + '/category_aur.txt', 'a') as f:
                 print(details.get_name(), file=f)
         if details.get_installed_version() is not None:
             print ('id="AppstreamP1">')
@@ -53,9 +54,11 @@ def print_pkg_details (details):
         print ('<div id=version>', details.get_version(), '</div></div></div>')
 
 
-        if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+#       if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+        if os.path.exists('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary'):
             print ('<div id=box_appstream_desc><div id=appstream_desc>')
-            print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+#           print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+            print(open('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary', "r").read())
             print ('</div></div>')
         else:
             print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
@@ -63,7 +66,7 @@ def print_pkg_details (details):
         if details.get_installed_version() is None:
             print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div></div>')
         else:
-            with open('/tmp/bigstore/upgradeable.txt') as f:
+            with open(TMP_FOLDER + '/upgradeable.txt') as f:
                 if '\n' + details.get_name() + '\n' in f.read():
                     print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div></div>')
                 else:
@@ -93,7 +96,7 @@ if __name__ == "__main__":
         if pkg:
             print_pkg_details(pkg)
         else:
-            with open('/tmp/bigstore/category_aur.txt', 'a') as f:
+            with open(TMP_FOLDER + '/category_aur.txt', 'a') as f:
                 print(app_list, file=f)
 
 

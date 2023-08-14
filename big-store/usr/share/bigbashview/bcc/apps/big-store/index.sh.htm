@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/12
+#  Altered: 2023/08/13
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,10 +34,12 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230812"
+_VERSION_="1.0.0-20230813"
+export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
+export TMP_FOLDER="/tmp/bigstore-$USER"
+export HOME_FOLDER="$HOME/.bigstore"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-LOGGER='/dev/tty8'
 [[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
@@ -45,10 +47,9 @@ function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-	export TMP_FOLDER="/tmp/bigstore"
-	export HOME_FOLDER="$HOME/.bigstore"
 	declare -g Programas_AUR=$"Programas AUR"
 	declare -g Programas_Flatpak=$"Programas Flatpak"
+	declare -g Programas_Nativos=$"Programas Nativos"
 }
 
 function sh_load_header {
@@ -80,7 +81,7 @@ function APPSTREAM_CATEGORY {
 	echo '<div id=title_appstream>'
 	echo "<div id=button_appstream class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_APPSTREAM\">"
 	echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/></svg></div><div style="margin-right: 5px;">'
-	echo $"Programas Nativos"
+	echo "$Programas_Nativos"
 	echo '</div></div>'
 	echo '</div>'
 	echo '<div id=content_appstream>'
@@ -369,7 +370,7 @@ function sh_main {
 	fi
 
 	if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
-		source xiva-category
+		source /usr/share/bigbashview/bcc/apps/big-store/xiva-category
 	else
 		source /usr/share/bigbashview/bcc/apps/big-store/biglinux-category
 	fi

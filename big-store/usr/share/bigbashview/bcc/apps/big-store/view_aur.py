@@ -14,6 +14,7 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
+TMP_FOLDER = os.environ['TMP_FOLDER']
 
 response = requests.get('https://aur.archlinux.org/rpc/', params={'v': '5', 'type': 'info', 'arg': sys.argv[1]})
 data = json.loads(response.text)
@@ -28,9 +29,11 @@ for p in data['results']:
         print ('<div class=icon_middle><div class=avatar_aur>' + sys.argv[1][0:3] + '</div></div>')
     print ('<div id=titleName>', p['Name'], '</div></div></div>')
 
-    if os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary'):
+#   if os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary'):
+    if os.path.exists('description/' + sys.argv[1] + '/' + locale.getlocale()[0] + '/summary'):
         print ('<div id=description>')
-        print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+#       print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+        print(open('description/' + sys.argv[1] + '/' + locale.getlocale()[0] + '/summary', "r").read())
         print ('</div></div>')
     else:
         print ('<div id=description>', p['Description'], '</div></div>')
@@ -48,9 +51,10 @@ for p in data['results']:
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
     screenshot_store = 'description/' + sys.argv[1] + '/screenshot'
-    description_file_store = os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc')
+#   description_file_store = os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc')
+    description_file_store = os.path.exists('description/' + sys.argv[1] + '/' + locale.getlocale()[0] + '/desc')
     if os.path.exists(screenshot_store):
-        screenshot_resolution = open("/tmp/bigstore/screenshot-resolution.txt", "r")
+        screenshot_resolution = open(TMP_FOLDER + "/screenshot-resolution.txt", "r")
         print ('<div id=descriptionbox>')
         if os.path.exists(screenshot_store):
             screenshot_list = open(screenshot_store, "r")
@@ -69,7 +73,8 @@ for p in data['results']:
 
     if description_file_store:
         print ('<div id=pkgDescriptionBox><div id=pkgDescription>')
-        print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
+#       print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
+        print(open('description/' + sys.argv[1] + '/' + locale.getlocale()[0] + '/desc', "r").read())
         print ('</div></div></div></div>')
 
     print ('<br>')

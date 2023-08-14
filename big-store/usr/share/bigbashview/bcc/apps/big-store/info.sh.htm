@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/12
+#  Altered: 2023/08/13
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,19 +34,19 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230812"
+_VERSION_="1.0.0-20230813"
+export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-LOGGER='/dev/tty8'
-[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-	export TMP_FOLDER="/tmp/bigstore"
 	export HOME_FOLDER="$HOME/.bigstore"
+	export TMP_FOLDER="/tmp/bigstore-$USER"
 	declare -gA AInfoMsg=(
 		[Sistema]=$(gettext $"Sistema")
 		[notify-title]=$(gettext $"Big-Store")

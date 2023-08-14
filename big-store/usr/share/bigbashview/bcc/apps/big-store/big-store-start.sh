@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/12
+#  Altered: 2023/08/13
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,9 +34,11 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230812"
+_VERSION_="1.0.0-20230813"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
@@ -45,21 +47,21 @@ function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-	export HOME_FOLDER="$HOME/.bigstore"
-	export TMP_FOLDER="/tmp/bigstore"
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
-	declare -g snap_cache_file="$HOME/.bigstore/snap.cache"
-	declare -g flatpak_cache_file="$HOME/.bigstore/flatpak.cache"
+	declare -g snap_cache_file="$HOME_FOLDER/snap.cache"
+	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
 	declare -g bigstore_icon_file='icons/icon.svg'
-	declare -g TITLE=$"Big-Store"
-	declare -gA Amsg=([error_open]=$(gettext $"Big-Store está aberta.")
+	declare -g TITLE="Big-Store"
+	declare -gA Amsg=([error_open]=$(gettext $"Big-Store já está em execução.")
 	                  [error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
 }
 
 function sh_check_big_store_is_running {
 	if pgrep -f 'Big-Store'; then
-		kdialog --passivepopup "${Amsg[error_open]}"
+#		notify-send -u critical --icon=big-store --app-name "$0" "$TITLE" "${Amsg[error_open]}" --expire-time=2000
+#		kdialog --title "$TITLE" --icon warning --msgbox "${Amsg[error_open]}"
+		yad --title "$TITLE" --image=big-store --text "${Amsg[error_open]}" --button="OK":0
 		exit 1
 	fi
 }
@@ -68,30 +70,24 @@ function sh_main {
 	local resolution
 	local half_resolution
 
+	[[ ! -d "$TMP_FOLDER" ]] && mkdir -p "$TMP_FOLDER"
+
 	cd "$bigstorepath" || {
-		kdialog --passivepopup "$Amsg[error_access_dir]}\n$bigstorepath"
+		notify-send --icon=big-store --app-name "$0" "$TITLE" "${Amsg[error_access_dir]}\n$bigstorepath" --expire-time=2000
 		return 1
 	}
 
-	if [[ ! -e "$snap_cache_file" ]] || [[ $(find "$snap_cache_file" -mtime +1 -print) ]]; then
-	    sh_update_cache_snap &
-	fi
-
-	if [[ ! -e "$flatpak_cache_file" ]] || [[ $(find "$flatpak_cache_file" -mtime +1 -print) ]]; then
-	    sh_update_cache_flatpak &
-	fi
-
-	mkdir -p "$TMP_FOLDER"
+	[[ ! -e "$snap_cache_file"    ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)"    ]] && sh_update_cache_snap &
+	[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak &
 
 	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
 	half_resolution=$((resolution / 2))
 	# Save dynamic screenshot resolution
 	echo "$half_resolution" > "${TMP_FOLDER}/screenshot-resolution.txt"
 
-	sh_update_cache_flatpak &
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 cmdlogger bigbashview -n \"$TITLE\" -w maximized "
+#	sh_update_cache_flatpak &
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
 	if [[ -n "$1" ]]; then
-		 eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\" -i $bigstore_icon_file"
 		case "$1" in
 		"category")  eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
 		"appstream") eval "$COMMON_OPTIONS view_appstream.sh.htm?pkg_name=\"$2\" -i $bigstore_icon_file" ;;

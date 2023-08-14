@@ -26,6 +26,7 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
+TMP_FOLDER = os.environ['TMP_FOLDER']
 
 def print_pkg_details (details):
     print ('<a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name=' + details.get_name() + '">')
@@ -60,7 +61,7 @@ def print_pkg_details (details):
     if details.get_installed_version() is None:
         print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div></div>')
     else:
-        with open('/tmp/bigstore/upgradeable.txt') as f:
+        with open(TMP_FOLDER + '/upgradeable.txt') as f:
             if '\n' + details.get_name() + '\n' in f.read():
                 print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div></div>')
             else:

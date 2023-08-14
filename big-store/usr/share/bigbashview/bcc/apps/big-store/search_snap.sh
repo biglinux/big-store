@@ -21,8 +21,10 @@ SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
 
 VERSION="Versão: "
 PACKAGE="Pacote: "
-HOME_FOLDER="$HOME/.bigstore"
-TMP_FOLDER="/tmp/bigstore"
+
+#folders
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 
 # Uncomment to debug in terminal
 ## portuguese

@@ -30,8 +30,7 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
-
-
+TMP_FOLDER = os.environ['TMP_FOLDER']
 
 def print_pkg_details (details):
     loc = '%d/%m/%Y' if locale.getlocale()[0] == 'pt_BR' else '%Y/%m/%d'
@@ -80,9 +79,11 @@ def print_pkg_details (details):
         print ('<img class="icon_view" src="', details.get_icon(), '">')
     print ('<div id=titleName>', details.get_id(), '</div></div></div>')
 
-    if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+#   if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+    if os.path.exists('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary'):
         print ('<div id=description>')
-        print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+#       print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+        print(open('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary', "r").read())
         print ('</div></div>')
     else:
         print ('<div id=description>', details.get_desc(), '</div></div>')
@@ -93,7 +94,7 @@ def print_pkg_details (details):
         if details.get_launchable():
             print ('<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run(', "'" + 'gtk-launch', details.get_launchable() + "'", ')">', _('Executar'), '</button>')
 
-        with open('/tmp/bigstore/upgradeable.txt') as f:
+        with open(TMP_FOLDER + '/upgradeable.txt') as f:
             if '\n' + details.get_name() + '\n' in f.read():
                 print ('<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Atualizar'), '</button>')
             else:
@@ -103,8 +104,9 @@ def print_pkg_details (details):
         print ('<button class="btn btnSpace waves-effect waves-light green accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_appstream.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_install=y'" + '">', _('Instalar'), '</button>')
 
     screenshot_store = 'description/' + details.get_name() + '/screenshot'
-    if details.get_long_desc() or details.get_screenshots() or os.path.exists(screenshot_store) or os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
-        screenshot_resolution = open("/tmp/bigstore/screenshot-resolution.txt", "r")
+#   if details.get_long_desc() or details.get_screenshots() or os.path.exists(screenshot_store) or os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
+    if details.get_long_desc() or details.get_screenshots() or os.path.exists(screenshot_store) or os.path.exists('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/desc'):
+        screenshot_resolution = open(TMP_FOLDER + "/screenshot-resolution.txt", "r")
         print ('<div id=descriptionbox>')
         if os.path.exists(screenshot_store):
             screenshot_list = open(screenshot_store, "r")
@@ -121,9 +123,11 @@ def print_pkg_details (details):
                 print ('<script>jQuery(document).ready(function(){jQuery(".slider").slider({width:', screenshot_resolution.read(), '});});</script>')
                 print ('</ul></div>')
 
-    if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
+#   if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
+    if os.path.exists('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/desc'):
         print ('<div id=pkgDescriptionBox><div id=pkgDescription>')
-        print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
+#       print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
+        print(open('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/desc', "r").read())
         print ('</div></div></div></div>')
     else:
         if details.get_long_desc():

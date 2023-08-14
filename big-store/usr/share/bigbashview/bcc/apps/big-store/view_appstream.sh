@@ -14,8 +14,8 @@
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=big-store
 
-HOME_FOLDER="$HOME/.bigstore"
-TMP_FOLDER="/tmp/bigstore"
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 DUMP_CACHE_FILE="${TMP_FOLDER}/view_appstream_dumpcache.html"
 APPSTREAM_DESCRIPTION_FILE="${TMP_FOLDER}/appstream_description_cache.html"
 APPSTREAM_DESCRIPTION_FILE_SHOW="${TMP_FOLDER}/appstream_description_cache_show.html"
