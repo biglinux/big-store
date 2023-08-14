@@ -301,6 +301,7 @@ function sh_init {
 	EOF
 
 	# Save search query
+	search="${search//+/ }"
 	echo "$search" >"${TMP_FOLDER}/query.txt"
 
 	if [[ -n "$search" ]]; then
