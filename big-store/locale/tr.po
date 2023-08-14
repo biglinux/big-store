@@ -816,3 +816,6 @@ msgstr "Sistem bilgilerini toplarken lütfen bekleyin. Bu birkaç dakika sürebi
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Sistemin kurulduğu yaklaşık tarih:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store zaten çalışıyor."

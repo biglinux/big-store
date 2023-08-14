@@ -814,3 +814,6 @@ msgstr "Vent, mens vi indsamler systemoplysninger. Det kan tage et øjeblik..."
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Omtrentlig dato systemet blev installeret:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store kører allerede."

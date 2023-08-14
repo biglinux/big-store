@@ -817,3 +817,6 @@ msgstr "Bitte warten Sie, während wir Systeminformationen sammeln. Das kann ein
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Ungefähres Datum der Installation des Systems:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store läuft bereits."

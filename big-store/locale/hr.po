@@ -816,3 +816,6 @@ msgstr "Pričekajte dok ne prikupimo podatke o sustavu. To bi moglo potrajati ne
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Približan datum instalacije sustava:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store već radi."

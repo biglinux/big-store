@@ -816,3 +816,6 @@ msgstr "Bíddu á meðan við söfnum kerfisupplýsingum. Það gæti tekið sm�
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Áætluð dagsetning þegar kerfið var sett upp:"
+
+msgid "Big-Store já está em execução."
+msgstr "Stórverslun er þegar í gangi."

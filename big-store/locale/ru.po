@@ -816,3 +816,6 @@ msgstr "Пожалуйста, подождите, пока мы соберем �
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Ориентировочная дата установки системы:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store уже запущен."

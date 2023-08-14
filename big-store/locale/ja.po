@@ -810,3 +810,6 @@ msgstr "システム情報を収集するまでしばらくお待ちください
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "システムがインストールされたおおよその日付:"
+
+msgid "Big-Store já está em execução."
+msgstr "ビッグストアはすでに稼働しています。"

@@ -817,3 +817,6 @@ msgstr "Περιμένετε όσο συλλέγουμε πληροφορίες 
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Κατά προσέγγιση ημερομηνία εγκατάστασης του συστήματος:"
+
+msgid "Big-Store já está em execução."
+msgstr "Το Big-Store λειτουργεί ήδη."
