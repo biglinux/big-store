@@ -818,3 +818,6 @@ msgstr ""
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Data aproximativă la care a fost instalat sistemul:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store rulează deja."

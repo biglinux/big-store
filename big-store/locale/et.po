@@ -816,3 +816,6 @@ msgstr "Oodake, kuni kogume süsteemiteavet. Selleks võib kuluda mõni hetk..."
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Ligikaudne kuupäev, millal süsteem installiti:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store juba töötab."

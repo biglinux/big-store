@@ -816,3 +816,6 @@ msgstr "Vänta medan vi samlar in systeminformation. Det kan ta några ögonblic
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "Ungefärligt datum då systemet installerades:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store är redan igång."

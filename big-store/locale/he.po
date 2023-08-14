@@ -813,3 +813,6 @@ msgstr "אנא המתן בזמן שאנו אוספים מידע מערכת. זה
 
 msgid "Data aproximada que o sistema foi instalado:"
 msgstr "תאריך משוער להתקנת המערכת:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store כבר פועלת."
