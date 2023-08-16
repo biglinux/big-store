@@ -39,9 +39,9 @@ export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
 export HOME_FOLDER="$HOME/.bigstore"
-LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
-[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
+#LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
+#[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+#[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
@@ -167,7 +167,7 @@ function sh_main {
 			<br>
 			<div id="box_index_category">
 		EOF
-		if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
+		if sh_get_XIVAStudio; then
 			echo '<div id="xystem" class=category_box>'
 			echo '<div class=category_title_index>'
 			echo $"X-Sistema"
@@ -371,13 +371,8 @@ function sh_main {
 		echo '</div></div></div>'
 	fi
 
-	if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
+	if sh_get_XIVAStudio; then
 		source /usr/share/bigbashview/bcc/apps/big-store/xiva-category
-	else
-		source /usr/share/bigbashview/bcc/apps/big-store/biglinux-category
-	fi
-
-	if [ "$(lsb_release -sd | sed 's/"//g')" = "XIVAStudio" ]; then
 		cat <<-EOF
 			<div class="logo">
 			<img id="btn-big" src="icons/xiva.png" class="logo-biglinux" onclick="biglinux();">
@@ -388,6 +383,7 @@ function sh_main {
 			</html>
 		EOF
 	else
+		source /usr/share/bigbashview/bcc/apps/big-store/biglinux-category
 		cat <<-EOF
 			<div class="logo">
 			<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">

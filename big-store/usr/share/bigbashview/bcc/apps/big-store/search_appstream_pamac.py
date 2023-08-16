@@ -51,9 +51,11 @@ def print_pkg_details (details):
         print ('<div id=appstream_icon><div class=icon_middle><img class="icon" loading="lazy" src="', details.get_icon(), '"></div>')
     print ('<div id=appstream_name><div id=limit_title_name>', details.get_id(), '</div>')
     print ('<div id=version>', details.get_version(), '</div></div></div>')
-    if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+#   if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+    if os.path.exists('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary'):
         print ('<div id=box_appstream_desc><div id=appstream_desc>')
-        print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+#       print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+        print(open('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary', "r").read())
         print ('</div></div>')
     else:
         print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
