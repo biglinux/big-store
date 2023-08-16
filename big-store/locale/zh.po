@@ -809,3 +809,13 @@ msgstr "系统安装的大致日期："
 
 msgid "Big-Store já está em execução."
 msgstr "Big-Store已经在运行。"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr "本机程序与操作系统具有更强大的集成。<br>它们在上市前经过广泛的测试，确保更高的可靠性。<br>由于这些原因，当需要软件时，特别建议选择本机程序<br>提供多种安装选项。<br>"
