@@ -109,11 +109,11 @@ function sh_main {
 		# Verifica se o pacote está instalado
 		#		if [[ "$(echo "$SNAP_INSTALLED_LIST" | grep -i -m1 "|$PKG_CMD|")" != "" ]]; then
 		if [[ "${SNAP_INSTALLED_LIST,,}" == *"|$PKG_CMD|"* ]]; then
-			PKG_INSTALLED="$Remover"
+			PKG_INSTALLED=$"Remover"
 			DIV_SNAP_INSTALLED="appstream_installed"
 			PKG_ORDER="SnapP1"
 		else
-			PKG_INSTALLED="$Instalar"
+			PKG_INSTALLED=$"Instalar"
 			DIV_SNAP_INSTALLED="appstream_not_installed"
 
 			PKG_ORDER="SnapP3"
