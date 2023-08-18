@@ -834,3 +834,9 @@ msgstr ""
 "uitgebreide tests voordat ze beschikbaar worden gesteld, wat zorgt voor een grotere "
 "betrouwbaarheid.<br>Om deze redenen wordt het kiezen voor een native programma vooral aanbevolen "
 "wanneer de gewenste software<br>is beschikbaar in verschillende installatieopties.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Nieuwe pakketten downloaden van de serverdatabase"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Geen pakketten doorgegeven als parameters"

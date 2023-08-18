@@ -819,3 +819,9 @@ msgid ""
 "desejado<br>\n"
 "está disponível em várias opções de instalação.<br>"
 msgstr "本机程序与操作系统具有更强大的集成。<br>它们在上市前经过广泛的测试，确保更高的可靠性。<br>由于这些原因，当需要软件时，特别建议选择本机程序<br>提供多种安装选项。<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "从服务器数据库下载新包"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "没有作为参数传递的数据包"

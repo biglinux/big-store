@@ -825,3 +825,9 @@ msgid ""
 msgstr ""
 "ネイティブプログラムは、オペレーティングシステムとのより堅牢な統合を備えています。<br>これらは、利用可能になる前に広範なテストを受け、より高い信頼性を保証します。<br>これらの理由から、目的のソ"
 "フトウェアの場合は、ネイティブプログラムを選択することが特に推奨されます。<br>は、いくつかのインストール オプションで使用できます。<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "サーバーデータベースからの新しいパッケージのダウンロード"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "パラメータとして渡されるパケットはありません"

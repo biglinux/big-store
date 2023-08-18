@@ -831,3 +831,9 @@ msgstr ""
 "rozsáhlým testováním, což zajišťuje větší spolehlivost.<br>Z těchto důvodů se volba nativního "
 "programu doporučuje zejména tehdy, když je požadovaný software<br>je k dispozici v několika "
 "instalačních možnostech.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Stahování nových balíčků ze serverové databáze"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Žádné pakety předané jako parametry"

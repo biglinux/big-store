@@ -834,3 +834,9 @@ msgstr ""
 "Markteinführung umfangreichen Tests unterzogen, um eine höhere Zuverlässigkeit zu "
 "gewährleisten.<br>Aus diesen Gründen empfiehlt sich die Entscheidung für ein natives Programm vor "
 "allem dann, wenn die gewünschte Software<br>ist in verschiedenen Einbauvarianten erhältlich.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Herunterladen neuer Pakete aus der Serverdatenbank"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Keine Pakete, die als Parameter übergeben werden"

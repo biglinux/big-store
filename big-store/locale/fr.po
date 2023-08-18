@@ -837,3 +837,9 @@ msgstr ""
 "subissent des tests approfondis avant d’être mis à disposition, garantissant une plus grande "
 "fiabilité.<br>Pour ces raisons, opter pour un programme natif est particulièrement recommandé "
 "lorsque le logiciel souhaité<br>est disponible en plusieurs options d’installation.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Téléchargement de nouveaux packages à partir de la base de données du serveur"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Aucun paquet transmis en tant que paramètres"
