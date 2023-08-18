@@ -819,3 +819,17 @@ msgstr "Приблизителна дата на инсталиране на с�
 
 msgid "Big-Store já está em execução."
 msgstr "Big-Store вече работи."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Родните програми имат по-стабилна интеграция с операционната система.<br>Те преминават обширни "
+"тестове, преди да бъдат предоставени, което гарантира по-голяма надеждност.<br>Поради тези причини "
+"изборът на родна програма е особено препоръчителен, когато желаният софтуер<br>се предлага в "
+"няколко опции за инсталиране.<br>"

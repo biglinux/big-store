@@ -819,3 +819,17 @@ msgstr "Ориентировочная дата установки систем�
 
 msgid "Big-Store já está em execução."
 msgstr "Big-Store уже запущен."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Нативные программы имеют более надежную интеграцию с операционной системой.<br>Они проходят "
+"тщательное тестирование, прежде чем стать доступными, что обеспечивает большую надежность.<br>По "
+"этим причинам выбор нативной программы особенно рекомендуется при желаемом программном "
+"обеспечении<br>доступен в нескольких вариантах установки.<br>"
