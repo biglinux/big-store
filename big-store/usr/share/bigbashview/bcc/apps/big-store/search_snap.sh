@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/08/16
+#  Altered: 2023/08/18
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230816"
+_VERSION_="1.0.0-20230818"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -109,11 +109,11 @@ function sh_main {
 		# Verifica se o pacote está instalado
 		#		if [[ "$(echo "$SNAP_INSTALLED_LIST" | grep -i -m1 "|$PKG_CMD|")" != "" ]]; then
 		if [[ "${SNAP_INSTALLED_LIST,,}" == *"|$PKG_CMD|"* ]]; then
-			PKG_INSTALLED="$Remover"
+			PKG_INSTALLED=$"Remover"
 			DIV_SNAP_INSTALLED="appstream_installed"
 			PKG_ORDER="SnapP1"
 		else
-			PKG_INSTALLED="$Instalar"
+			PKG_INSTALLED=$"Instalar"
 			DIV_SNAP_INSTALLED="appstream_not_installed"
 
 			PKG_ORDER="SnapP3"

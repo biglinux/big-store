@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/07/26
+#  Altered: 2023/08/18
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,19 +34,34 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230726"
+_VERSION_="1.0.0-20230818"
+export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_refresh_db {
-	echo "Baixando pacotes novos da base de dados do servidor"
+function sh_load_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	declare -g msgDownload=$"Baixando pacotes novos da base de dados do servidor"
+	declare -g msgNenhumParam=$"Nenhum pacote passado como parâmetro"
+}
+
+function sh_load_refresh_db {
+	echo "$msgDownload"
 	pacman -Fy >/dev/null 2>&-
 }
 
-function sh_init {
+function sh_load_main {
 	local pacote="$2"
 	local paths
 
+	sh_load_config
+	sh_load_refresh_db
 	if [[ -n "$pacote" ]]; then
 		case $1 in
 		pkg_not_installed)
@@ -61,16 +76,12 @@ function sh_init {
 		pkg_installed_flatpak)
 			echo "Folder base: $(flatpak info --show-location "$pacote")"
 			find $(flatpak info --show-location "$pacote") | sed "s|$(flatpak info --show-location "$pacote")||g"
-			#	echo "Folder base: $(flatpak info --show-location "$pacote")"
-			#	location=$(flatpak info --show-location "$pacote")
-			#	find "$location" -exec bash -c 'echo "${1//'$location'/}"' _ {} \;
 			;;
 		esac
 	else
-		echo "Nenhum pacote passado como parâmetro"
+		echo "$msgNenhumParam"
 	fi
 }
 
 #sh_debug
-sh_refresh_db
-sh_init "$@"
+sh_load_main "$@"
