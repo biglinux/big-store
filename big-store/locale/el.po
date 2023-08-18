@@ -820,3 +820,17 @@ msgstr "Κατά προσέγγιση ημερομηνία εγκατάστασ�
 
 msgid "Big-Store já está em execução."
 msgstr "Το Big-Store λειτουργεί ήδη."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Τα εγγενή προγράμματα έχουν μια πιο ισχυρή ενοποίηση με το λειτουργικό σύστημα.<br>Υποβάλλονται σε "
+"εκτεταμένες δοκιμές πριν διατεθούν, εξασφαλίζοντας μεγαλύτερη αξιοπιστία.<br>Για αυτούς τους "
+"λόγους, η επιλογή ενός εγγενούς προγράμματος συνιστάται ιδιαίτερα όταν το επιθυμητό "
+"λογισμικό<br>είναι διαθέσιμο σε διάφορες επιλογές εγκατάστασης.<br>"
