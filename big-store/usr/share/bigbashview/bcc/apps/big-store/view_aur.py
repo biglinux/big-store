@@ -14,7 +14,11 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
+#
 TMP_FOLDER = os.environ['TMP_FOLDER']
+LIBRARY = '/usr/share/bigbashview/bcc/shell'
+script_name = LIBRARY + "/bstrlib.sh"
+#
 
 response = requests.get('https://aur.archlinux.org/rpc/', params={'v': '5', 'type': 'info', 'arg': sys.argv[1]})
 data = json.loads(response.text)
@@ -123,19 +127,31 @@ for p in data['results']:
         print ('<div class=gridLeft>', _('Empacotador:'), '</div>')
         print ('<div class="gridRight">', p['Maintainer'], '</div></div>')
 
-    pkg_build_date = subprocess.run(["./pkg_pacman_build_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    function_name = "sh_pkg_pacman_build_date"
+    package_name = sys.argv[1]
+    command = f'source {script_name} && {function_name} "{package_name}"'
+#    pkg_build_date = subprocess.run(["./pkg_pacman_build_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    pkg_build_date = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
     if pkg_build_date.stdout != '':
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', _('Data do empacotamento:'), '</div>')
         print ('<div class="gridRight">', pkg_build_date.stdout, '</div></div>')
 
-    pkg_install_date = subprocess.run(["./pkg_pacman_install_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    function_name = "sh_pkg_pacman_install_date"
+    package_name = sys.argv[1]
+    command = f'source {script_name} && {function_name} "{package_name}"'
+#    pkg_install_date = subprocess.run(["./pkg_pacman_install_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    pkg_install_date = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
     if pkg_install_date.stdout != '':
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', _('Data de instalação:'), '</div>')
         print ('<div class="gridRight">', pkg_install_date.stdout, '</div></div>')
 
+    function_name = "sh_pkg_pacman_install_reason"
+    package_name = sys.argv[1]
+    command = f'source {script_name} && {function_name} "{package_name}"'
     pkg_install_reason = subprocess.run(["./pkg_pacman_install_reason", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    pkg_install_reason = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
     if pkg_install_reason.stdout != '':
         print ('<div class="grid-container">')
         print ('<div class=gridLeft>', _('Motivo da instalação:'), '</div>')
