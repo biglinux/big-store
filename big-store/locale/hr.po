@@ -833,3 +833,9 @@ msgstr ""
 "ispitivanjima prije nego što postanu dostupni, osiguravajući veću pouzdanost.<br>Iz tih razloga, "
 "odabir izvornog programa posebno se preporučuje kada je željeni softver<br>dostupan je u nekoliko "
 "mogućnosti instalacije.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Preuzimanje novih paketa iz baze podataka poslužitelja"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Kao parametri nisu proslijeđeni paketi"

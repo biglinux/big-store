@@ -835,3 +835,9 @@ msgstr ""
 "teste extinse înainte de a fi puse la dispoziție, asigurând o fiabilitate mai mare.<br>Din aceste "
 "motive, optarea pentru un program nativ este recomandată în special atunci când software-ul "
 "dorit<br>este disponibil în mai multe opțiuni de instalare.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Descărcarea pachetelor noi din baza de date a serverului"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Nu au trecut pachete ca parametri"
