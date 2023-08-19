@@ -1,12 +1,12 @@
 #!/usr/bin/python
 ##################################
-#  Author Create: Bruno Gonçalves (www.biglinux.com.br) 
+#  Author Create: Bruno Gonçalves (www.biglinux.com.br)
 #  Author Modify: Rafael Ruscher (rruscher@gmail.com)
 #  Create Date:    2020/01/11
-#  Modify Date:    2022/05/09 
-#  
+#  Modify Date:    2022/08/18
+#
 #  Description: Big Store installing programs for BigLinux
-#  
+#
 #  Licensed by GPL V2 or greater
 ##################################
 
@@ -26,7 +26,11 @@ lang_translations = gettext.translation('big-store', localedir='/usr/share/local
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
-TMP_FOLDER = os.environ['TMP_FOLDER']
+if "TMP_FOLDER" in os.environ:
+    TMP_FOLDER = os.environ["TMP_FOLDER"]
+else:
+    TMP_FOLDER = "/tmp"
+
 
 def print_pkg_details (details):
     print ('<a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name=' + details.get_name() + '">')
@@ -51,9 +55,11 @@ def print_pkg_details (details):
         print ('<div id=appstream_icon><div class=icon_middle><img class="icon" loading="lazy" src="', details.get_icon(), '"></div>')
     print ('<div id=appstream_name><div id=limit_title_name>', details.get_id(), '</div>')
     print ('<div id=version>', details.get_version(), '</div></div></div>')
-    if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+#    if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
+    if os.path.exists('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary'):
         print ('<div id=box_appstream_desc><div id=appstream_desc>')
-        print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+#        print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
+        print(open('description/' + details.get_name() + '/' + locale.getlocale()[0] + '/summary', "r").read())
         print ('</div></div>')
     else:
         print ('<div id=box_appstream_desc><div id=appstream_desc>', details.get_desc(), '</div></div>')
@@ -61,11 +67,13 @@ def print_pkg_details (details):
     if details.get_installed_version() is None:
         print ('<div id=appstream_not_installed>'+_('Instalar')+'</div></a></div></div>')
     else:
-        with open(TMP_FOLDER + '/upgradeable.txt') as f:
-            if '\n' + details.get_name() + '\n' in f.read():
-                print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div></div>')
-            else:
-                print ('<div id=appstream_installed>'+_('Remover')+'</div></a></div></div>')
+        file_path = TMP_FOLDER + "/upgradeable.txt"
+        if os.path.exists(file_path):
+            with open(file_path, "r") as f:
+                if '\n' + details.get_name() + '\n' in f.read():
+                    print ('<div id=appstream_upgradable>'+_('Atualizar')+'</div></a></div></div>')
+                else:
+                    print ('<div id=appstream_installed>'+_('Remover')+'</div></a></div></div>')
 
 if __name__ == "__main__":
     config = Pamac.Config(conf_path="/etc/pamac.conf")

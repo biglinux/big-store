@@ -22,6 +22,7 @@ import sys
 import os
 import locale
 import datetime
+gi.require_version('Pamac', '11')
 from gi.repository import Pamac
 
 # Import gettext module

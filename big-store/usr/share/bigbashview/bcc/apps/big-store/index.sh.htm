@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/14
+#  Altered: 2023/08/18
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,14 +34,14 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230814"
+_VERSION_="1.0.0-20230818"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
 export HOME_FOLDER="$HOME/.bigstore"
-#LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-#[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
-#[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
+LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
@@ -56,48 +56,46 @@ function sh_load_header {
 	source /usr/share/bigbashview/bcc/apps/big-store/header.sh.htm
 }
 
-function ICON_CATEGORY {
-	local category="$1"
-	local classe="$2"
-	local cname="$3"
+function FLATPAK_CATEGORY {
+	local i
 
-cat <<-EOF
-	<a onclick="disableBody();" href=index.sh.htm?category=$category>
-	<div class="icon_background">
-	<div class="vertical_align_center">
-	<div class="icon">
-	<span class="category_font_icon">
-	<i class="$classe"></i>
-	</span>
+	[[ -e "${TMP_FOLDER}/flatpak_number.html" ]] && rm -f "${TMP_FOLDER}/flatpak_number.html"
+	[[ -e "${TMP_FOLDER}/flatpak.html" ]] && rm -f "${TMP_FOLDER}/flatpak.html"
+	#  [[ -e "${TMP_FOLDER}/flatpakbuild.html"   ]] && rm -f "${TMP_FOLDER}/flatpakbuild.html"
+	[[ -e "${TMP_FOLDER}/flatpakbuild.html" ]] && mv -f "${TMP_FOLDER}/flatpakbuild.html" "${TMP_FOLDER}/flatpak.html"
+
+	cat <<-EOF
+	<div id="box_flatpak">
+	<div id="title_flatpak">
+	<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
+	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+	<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+	<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
+	</svg>
 	</div>
-	<div class="icon_text">
-	<div class="icon_text_vertical_align">
-	$cname
-	</div></div></div></div></a>
-EOF
-}
+	$Programas_Flatpak
+	</div></div></div>
+	<div id="content_flatpak">
+	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+	EOF
 
-function APPSTREAM_CATEGORY {
-	echo '<div class="row center" id="flex">'
-	echo '<div id=box_appstream_category style="border-radius: 0 0 15px 15px;">'
-	echo '<div id=title_appstream>'
-	echo "<div id=button_appstream class=\"tooltipped\" data-position=\"right\" data-tooltip=\"$ABOUT_APPSTREAM\">"
-	echo '<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;"><svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;"><path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/></svg></div><div style="margin-right: 5px;">'
-	echo "$Programas_Nativos"
-	echo '</div></div>'
-	echo '</div>'
-	echo '<div id=content_appstream>'
-	pacman -Qu | cut -f1 -d" " > "${TMP_FOLDER}/upgradeable.txt"
-	./category_appstream_pamac.py "$@"
-	echo "<script>runAvatarAppstream();</script>"
-	echo '</div>'
-	echo '</div>'
+	for i in $@; do
+		sh_search_flatpak "$i"
+	done
+
+	cat <<-EOF
+	<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
+	</div>
+	</div>
+	EOF
 }
+export -f FLATPAK_CATEGORY
 
 function AUR_CATEGORY {
 	[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
-	[[ -e "${TMP_FOLDER}/aur.html"        ]] && rm -f "${TMP_FOLDER}/aur.html"
-cat <<-EOF
+	[[ -e "${TMP_FOLDER}/aur.html" ]] && rm -f "${TMP_FOLDER}/aur.html"
+
+	cat <<-EOF
 	<div id="box_aur">
 	<div id="title_aur">
 	<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
@@ -111,42 +109,63 @@ cat <<-EOF
 	</div></div></div>
 	<div id="content_aur">
 	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-	$(sh_category_aur "$(tr -s '\n' ' ' < $TMP_FOLDER/category_aur.txt)" ) >/dev/null 2>&1 &
+	$(sh_category_aur "$(tr -s '\n' ' ' <$TMP_FOLDER/category_aur.txt)") >/dev/null 2>&1 &
 	<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
-	</div></div>
-EOF
+	</div>
+	</div>
+	EOF
 }
+export -f AUR_CATEGORY
 
-function FLATPAK_CATEGORY {
-	local i
-
-	[[ -e "${TMP_FOLDER}/flatpak_number.html" ]] && rm -f "${TMP_FOLDER}/flatpak_number.html"
-	[[ -e "${TMP_FOLDER}/flatpak.html"        ]] && rm -f "${TMP_FOLDER}/flatpak.html"
-#	[[ -e "${TMP_FOLDER}/flatpakbuild.html"   ]] && rm -f "${TMP_FOLDER}/flatpakbuild.html"
-	[[ -e "${TMP_FOLDER}/flatpakbuild.html"   ]] && mv -f "${TMP_FOLDER}/flatpakbuild.html" "${TMP_FOLDER}/flatpak.html"
-
+function APPSTREAM_CATEGORY() {
 cat <<-EOF
-	<div id="box_flatpak">
-	<div id="title_flatpak">
-	<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
+	<div class="row center" id="flex">
+	<div id="box_appstream_category" style="border-radius: 0 0 15px 15px;">
+	<div id="title_appstream">
+	<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
 	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-	<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
-	<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
+	<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
+	<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
 	</svg>
 	</div>
 	<div style="margin-right: 5px;">
-	$Programas_Flatpak
-	</div></div></div>
-	<div id="content_flatpak">
-	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+	$Programas_Nativos
+	</div>
+	</div>
+	</div>
+	<div id="content_appstream">
 EOF
-	for i in $@; do
-		sh_category_flatpak "$i"
-	done
+
+	pacman -Qu | cut -f1 -d" " >"${TMP_FOLDER}/upgradeable.txt"
+	./category_appstream_pamac.py "$@"
+
 cat <<-EOF
-	<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
-	</div></div>
+	<script>runAvatarAppstream();</script>
+	</div>
+	</div>
 EOF
+}
+export -f APPSTREAM_CATEGORY
+
+function ICON_CATEGORY() {
+	local category="$1"
+	local classe="$2"
+	local cname="$3"
+
+	cat <<-EOF
+		<a onclick="disableBody();" href=index.sh.htm?category=$category>
+		<div class="icon_background">
+		<div class="vertical_align_center">
+		<div class="icon">
+		<span class="category_font_icon">
+		<i class="$classe"></i>
+		</span>
+		</div>
+		<div class="icon_text">
+		<div class="icon_text_vertical_align">
+		$cname
+		</div></div></div></div></a>
+	EOF
 }
 
 #Show category in first page
@@ -167,6 +186,7 @@ function sh_main {
 			<br>
 			<div id="box_index_category">
 		EOF
+
 		if sh_get_XIVAStudio; then
 			echo '<div id="xystem" class=category_box>'
 			echo '<div class=category_title_index>'

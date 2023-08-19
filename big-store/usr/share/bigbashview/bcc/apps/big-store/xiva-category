@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/13
+#  Altered: 2023/08/18
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,17 +34,23 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230813"
+_VERSION_="1.0.0-20230818"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	declare -g lcode=$(sh_get_code_lang)
+	declare -g Programas_AUR=$"Programas AUR"
+	declare -g Programas_Flatpak=$"Programas Flatpak"
+	declare -g Programas_Nativos=$"Programas Nativos"
 	declare -gA xiva_appstream_CATEGORIES
 	declare -gA xiva_flatpak_CATEGORIES
-	declare -g lcode=$(sh_get_code_lang)
 
 	# Dados para a categoria "vetorial"
 	xiva_appstream_CATEGORIES["vetorial"]="gravit-designer gravit-designer-bin gravit-designer-electron inkscape kxstitch sk1"
@@ -167,7 +173,6 @@ function sh_config {
 	# Dados para a categoria "calendar"
 	xiva_appstream_CATEGORIES["calendar"]="osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews minetime-bin"
 	# xiva_flatpak_CATEGORIES["calendar"]="Adicione aqui se necessário"
-
 
 	# Dados para a categoria "deveditor"
 	xiva_appstream_CATEGORIES["deveditor"]="atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition
@@ -306,7 +311,6 @@ function sh_config {
 	# Dados para a categoria "virtualization"
 	xiva_appstream_CATEGORIES["virtualization"]="virtualbox virtualbox-guest-utils virt-manager qemu qemu-guest-agent gnome-boxes"
 	# xiva_flatpak_CATEGORIES["virtualization"]="Adicione aqui se necessário"
-
 }
 
 function sh_cleanup {
@@ -314,22 +318,22 @@ function sh_cleanup {
 }
 
 function sh_main {
-   local category="$1"
-   local appstream_packages
-   local flatpak_packages
-   local aexceptions=(network news book devwebserver gameretroarch          )
+	local category="$1"
+	local appstream_packages
+	local flatpak_packages
+	local aexceptions=(network news book devwebserver gameretroarch)
 
-   sh_cleanup
-   [[ -n "$category" ]] && {
+	sh_cleanup
+	[[ -n "$category" ]] && {
 		appstream_packages="${xiva_appstream_CATEGORIES[$category]}"
 		flatpak_packages="${xiva_flatpak_CATEGORIES[$category]}"
 
 		[[ -n "$appstream_packages" ]] && APPSTREAM_CATEGORY "$appstream_packages"
-		[[ -n "$flatpak_packages"   ]] && FLATPAK_CATEGORY "$flatpak_packages"
+		[[ -n "$flatpak_packages" ]] && FLATPAK_CATEGORY "$flatpak_packages"
 
 		case "$category" in
-			network|news|book|devwebserver|gameretroarch);;
-			*) AUR_CATEGORY;;
+		network | news | book | devwebserver | gameretroarch) ;;
+		*) AUR_CATEGORY ;;
 		esac
 	}
 }

@@ -713,7 +713,7 @@ function sh_init {
 			EOF
 
 			[[ -e ${TMP_FOLDER}/flatpak.html ]] && rm -f ${TMP_FOLDER}/flatpak.html
-			resultFilter_checkbox="$resultFilter_checkbox" ./search_flatpak.sh "${search,,}" &
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${search,,}" &
 
 			cat <<-EOF
 				<script>
@@ -742,7 +742,7 @@ function sh_init {
 				<div id="content_snap">
 			EOF
 			[[ -e ${TMP_FOLDER}/snap.html ]] &&  rm -f ${TMP_FOLDER}/snap.html
-			./search_snap.sh "${search,,}" &
+			sh_search_snap.sh "${search,,}" &
 			cat <<-EOF
 				<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>
 				<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html');</script>
