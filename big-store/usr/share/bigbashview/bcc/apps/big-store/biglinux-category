@@ -52,6 +52,9 @@ function sh_cleanup {
 function sh_config {
 	declare -gA CATEGORIES
 	declare -g lcode=$(sh_get_code_lang)
+	declare -g Programas_AUR=$"Programas AUR"
+	declare -g Programas_Flatpak=$"Programas Flatpak"
+	declare -g Programas_Nativos=$"Programas Nativos"
 	CATEGORIES["browser"]="firefox firefox-i18n-$lcode brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
 	CATEGORIES["mail"]="thunderbird thunderbird-i18n-$lcode evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
 	CATEGORIES["download"]="kget gwget uget steadyflow jdownloader2 clipgrab youtubedl-gui xdman flareget"
