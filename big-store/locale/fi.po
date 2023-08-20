@@ -831,3 +831,9 @@ msgstr ""
 "ennen niiden saataville asettamista, mikä takaa paremman luotettavuuden.<br>Näistä syistä "
 "natiiviohjelman valitseminen on erityisen suositeltavaa, kun haluttu ohjelmisto<br>on saatavana "
 "useina asennusvaihtoehtoina.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Uusien pakettien lataaminen palvelintietokannasta"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Parametreina ei läpäissyt paketteja"

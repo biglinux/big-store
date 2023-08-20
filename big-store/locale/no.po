@@ -831,3 +831,9 @@ msgstr ""
 "testing før de blir gjort tilgjengelige, noe som sikrer større pålitelighet.<br>Av disse grunnene "
 "anbefales det spesielt å velge et innfødt program når ønsket programvare<br>er tilgjengelig i flere "
 "installasjonsalternativer.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Laste ned nye pakker fra serverdatabasen"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Ingen pakker sendt som parametere"

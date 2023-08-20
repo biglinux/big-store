@@ -833,3 +833,9 @@ msgstr ""
 "prechádzajú rozsiahlym testovaním, ktoré zaisťuje väčšiu spoľahlivosť.<br>Z týchto dôvodov sa výber "
 "natívneho programu odporúča najmä vtedy, keď požadovaný softvér<br>je k dispozícii v niekoľkých "
 "možnostiach inštalácie.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Sťahovanie nových balíkov z databázy serverov"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Ako parametre neprešli žiadne pakety"

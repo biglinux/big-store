@@ -833,3 +833,9 @@ msgstr ""
 "tester innan de görs tillgängliga, vilket garanterar större tillförlitlighet.<br>Av dessa skäl "
 "rekommenderas särskilt att välja ett inbyggt program när önskad programvara<br>finns i flera "
 "installationsalternativ.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Hämta nya paket från serverdatabasen"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Inga paket skickas som parametrar"

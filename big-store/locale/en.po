@@ -831,3 +831,9 @@ msgstr ""
 "testing before being made available, ensuring greater reliability.<br>For these reasons, opting for "
 "a native program is especially recommended when the desired software<br>is available in several "
 "installation options.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Downloading new packages from the server database"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "No packets passed as parameters"

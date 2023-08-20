@@ -833,3 +833,9 @@ msgstr ""
 "önce kapsamlı testlere tabi tutulurlar ve daha fazla güvenilirlik sağlarlar.<br>Bu nedenlerden "
 "dolayı, yerel bir program seçmek, özellikle istenen yazılım olduğunda önerilir<br>çeşitli kurulum "
 "seçeneklerinde mevcuttur.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Sunucu veritabanından yeni paketler indirme"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Parametre olarak geçirilen paket yok"

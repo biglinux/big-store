@@ -833,3 +833,9 @@ msgstr ""
 "pruebas exhaustivas antes de estar disponibles, lo que garantiza una mayor fiabilidad.<br>Por estas "
 "razones, optar por un programa nativo es especialmente recomendable cuando el software "
 "deseado<br>está disponible en varias opciones de instalación.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Descarga de nuevos paquetes desde la base de datos del servidor"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "No se pasan paquetes como parámetros"

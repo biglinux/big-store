@@ -833,3 +833,9 @@ msgstr ""
 "tegemist läbivad need ulatusliku testimise, tagades suurema usaldusväärsuse.<br>Nendel põhjustel on "
 "eriti soovitatav valida natiivne programm, kui soovitud tarkvara<br>on saadaval mitmes "
 "installimisvalikus.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Uute pakettide allalaadimine serveri andmebaasist"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Parameetritena ei edastatud ühtegi paketti"

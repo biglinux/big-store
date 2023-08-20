@@ -833,3 +833,9 @@ msgstr ""
 "prófanir áður en þeir eru gerðir aðgengilegir, sem tryggir meiri áreiðanleika.<br>Af þessum ástæðum "
 "er sérstaklega mælt með því að velja innfæddur forrit þegar viðkomandi hugbúnaður er<br>er fáanlegt "
 "í nokkrum uppsetningarvalkostum.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Sæki nýja pakka úr gagnagrunni þjónsins"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Engir pakkar sendir sem færibreytur"

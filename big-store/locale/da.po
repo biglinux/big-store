@@ -831,3 +831,9 @@ msgstr ""
 "test, før de stilles til rådighed, hvilket sikrer større pålidelighed.<br>Af disse grunde anbefales "
 "det især at vælge et indbygget program, når den ønskede software<br>fås i flere "
 "installationsmuligheder.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Download af nye pakker fra serverdatabasen"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Ingen pakker bestået som parametre"

@@ -835,3 +835,9 @@ msgstr ""
 "tesztelésen mennek keresztül, mielőtt elérhetővé válnak, ami nagyobb megbízhatóságot "
 "biztosít.<br>Ezen okok miatt a natív program kiválasztása különösen ajánlott, ha a kívánt "
 "szoftver<br>számos telepítési lehetőségben érhető el.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Új csomagok letöltése a kiszolgáló adatbázisából"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Nincs paraméterként átadott csomag"
