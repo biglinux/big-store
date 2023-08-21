@@ -47,6 +47,9 @@ function sh_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
+	export ACTION
+	export WINDOW_ID
+	export PACKAGE_NAME
 	declare -g Programas_AUR=$"Programas AUR"
 	declare -g Programas_Flatpak=$"Programas Flatpak"
 	declare -g Programas_Nativos=$"Programas Nativos"
@@ -90,6 +93,9 @@ function FLATPAK_CATEGORY {
 	EOF
 }
 export -f FLATPAK_CATEGORY
+
+
+#	./category_aur.sh $(cat $TMP_FOLDER/category_aur.txt | tr "\n" " ") > /dev/null 2>&1 &
 
 function AUR_CATEGORY {
 	[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"

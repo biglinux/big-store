@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/13
+#  Altered: 2023/08/18
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230813"
+_VERSION_="1.0.0-20230818"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -52,16 +52,18 @@ function sh_config {
 	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
 	declare -g bigstore_icon_file='icons/icon.svg'
 	declare -g TITLE="Big-Store"
-	declare -gA Amsg=([error_open]=$(gettext $"Big-Store já está em execução.")
+	declare -gA Amsg=([error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
 	                  [error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
 }
 
 function sh_check_big_store_is_running {
-	if pgrep -f 'Big-Store'; then
+	local PID
+
+	if PID=$(pgrep -f 'Big-Store') && [[ -n "$PID" ]]; then
 #		notify-send -u critical --icon=big-store --app-name "$0" "$TITLE" "${Amsg[error_open]}" --expire-time=2000
 #		kdialog --title "$TITLE" --icon warning --msgbox "${Amsg[error_open]}"
-		yad --title "$TITLE" --image=big-store --text "${Amsg[error_open]}" --button="OK":0
+		yad --title "$TITLE" --image=big-store --text "${Amsg[error_open]}\nPID:$PID" --button="OK":0
 		exit 1
 	fi
 }
