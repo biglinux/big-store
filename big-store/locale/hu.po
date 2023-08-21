@@ -841,3 +841,6 @@ msgstr "Új csomagok letöltése a kiszolgáló adatbázisából"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Nincs paraméterként átadott csomag"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "A Big-Store egy másik példánya már fut."

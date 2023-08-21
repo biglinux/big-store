@@ -839,3 +839,6 @@ msgstr "Изтегляне на нови пакети от базата данн
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Няма пакети, предадени като параметри"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Друг екземпляр на Big-Store вече се изпълнява."

@@ -839,3 +839,6 @@ msgstr "Preuzimanje novih paketa iz baze podataka poslužitelja"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Kao parametri nisu proslijeđeni paketi"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Još jedna instanca Big-Storea već je pokrenuta."

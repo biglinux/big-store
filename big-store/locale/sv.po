@@ -839,3 +839,6 @@ msgstr "Hämta nya paket från serverdatabasen"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Inga paket skickas som parametrar"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "En annan instans av Big-Store körs redan."

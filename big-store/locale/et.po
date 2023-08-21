@@ -839,3 +839,6 @@ msgstr "Uute pakettide allalaadimine serveri andmebaasist"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Parameetritena ei edastatud ühtegi paketti"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Teine Big-Store'i eksemplar juba töötab."

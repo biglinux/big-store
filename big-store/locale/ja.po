@@ -831,3 +831,6 @@ msgstr "サーバーデータベースからの新しいパッケージのダウ
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "パラメータとして渡されるパケットはありません"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store の別のインスタンスが既に実行されています。"
