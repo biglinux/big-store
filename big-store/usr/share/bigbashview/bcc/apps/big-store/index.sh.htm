@@ -97,8 +97,7 @@ function FLATPAK_CATEGORY {
 	</div>
 	<div style="margin-right: 5px;">
 	$Programas_Flatpak
-	</div></div>
-	</div>
+	</div></div></div>
 	<div id="content_flatpak">
 	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 	EOF
@@ -107,15 +106,17 @@ function FLATPAK_CATEGORY {
 	[[ -e "${TMP_FOLDER}/flatpak_build.html" ]] && mv -f "${TMP_FOLDER}/flatpak_build.html" "${TMP_FOLDER}/flatpak.html"
 
 	cat <<-EOF
-	<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
-	<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
-	</div>
-	</div>
+		<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
+		<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
+		</div>
+		</div>
 	EOF
 }
 export -f FLATPAK_CATEGORY
 
 function AUR_CATEGORY {
+	local param_search="$*"
+
 	[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
 	[[ -e "${TMP_FOLDER}/aur.html" ]] && rm -f "${TMP_FOLDER}/aur.html"
 
@@ -133,10 +134,19 @@ function AUR_CATEGORY {
 	</div></div></div>
 	<div id="content_aur">
 	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-	$(sh_category_aur "$(tr -s '\n' ' ' <$TMP_FOLDER/category_aur.txt)") >/dev/null 2>&1 &
-	<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
-	</div>
-	</div>
+	EOF
+
+	if [[ -z "$param_search" ]]; then
+		cat <<-EOF
+			$(sh_search_aur "$(tr -s '\n' ' ' <$TMP_FOLDER/category_aur.txt)") >/dev/null 2>&1 &
+		EOF
+	else
+		resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search}" &
+	fi
+	cat <<-EOF
+		<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
+		</div>
+		</div>
 	EOF
 }
 export -f AUR_CATEGORY

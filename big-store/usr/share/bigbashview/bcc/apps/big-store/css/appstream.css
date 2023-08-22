@@ -144,7 +144,6 @@ div#box_progress_snap_install, div#box_progress_snap_remove, div#box_progress_fl
     height: 100%;
     z-index: 10;
     display: none;
-    
 }
 
 
@@ -378,7 +377,7 @@ div#box_aur {
 }
 
 div#box_flatpak {
-//  display: none;
+/*	 display: none;*/
     background-attachment: fixed;
     margin-bottom: 25px;
     border-radius: 15px;
