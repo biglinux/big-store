@@ -162,4 +162,4 @@ function sh_main {
 
 #sh_debug
 sh_config
-sh_main
+sh_main "$@"

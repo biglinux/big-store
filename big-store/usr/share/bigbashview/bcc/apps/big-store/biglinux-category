@@ -105,18 +105,27 @@ function sh_config {
 }
 
 function sh_main {
-	local category="$1"
-	local appstream_packages
+   local category="$1"
+   local appstream_packages
+   local flatpak_packages
+   local aexceptions=(network news book devwebserver gameretroarch)
 
-	sh_cleanup
-	[[ -n "$category" ]] && appstream_packages="${CATEGORIES[$category]}"
+   sh_cleanup
+   [[ -n "$category" ]] && {
+      appstream_packages="${CATEGORIES[$category]}"
+      flatpak_packages="${CATEGORIES[$category]}"
 
-	if [ -n "$appstream_packages" ]; then
-		APPSTREAM_CATEGORY "$appstream_packages"
-		AUR_CATEGORY
-	fi
+      [[ -n "$appstream_packages" ]] && APPSTREAM_CATEGORY "$appstream_packages"
+      [[ -n "$flatpak_packages"   ]] && FLATPAK_CATEGORY "$flatpak_packages"
+
+      case "$category" in
+      network | news | book | devwebserver | gameretroarch) ;;
+      *) AUR_CATEGORY ;;
+      esac
+   }
 }
 
 #sh_debug
 sh_config
 sh_main "$category"
+

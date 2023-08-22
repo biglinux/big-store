@@ -177,3 +177,6 @@ cat <<-EOF
 EOF
 
 IFS=$OIFS
+
+#sh_debug
+sh_config
