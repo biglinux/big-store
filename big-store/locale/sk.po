@@ -839,3 +839,6 @@ msgstr "Sťahovanie nových balíkov z databázy serverov"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Ako parametre neprešli žiadne pakety"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Ďalšia inštancia Big-Store už beží."

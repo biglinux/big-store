@@ -837,3 +837,6 @@ msgstr "Uusien pakettien lataaminen palvelintietokannasta"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Parametreina ei läpäissyt paketteja"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Toinen Big-Store-esiintymä on jo käynnissä."

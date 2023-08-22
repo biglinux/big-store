@@ -839,3 +839,6 @@ msgstr "Sunucu veritabanından yeni paketler indirme"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Parametre olarak geçirilen paket yok"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store'un başka bir örneği zaten çalışıyor."

@@ -839,3 +839,6 @@ msgstr "Descarga de nuevos paquetes desde la base de datos del servidor"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "No se pasan paquetes como parámetros"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Otra instancia de Big-Store ya se está ejecutando."

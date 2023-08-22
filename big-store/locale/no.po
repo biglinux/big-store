@@ -837,3 +837,6 @@ msgstr "Laste ned nye pakker fra serverdatabasen"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Ingen pakker sendt som parametere"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "En annen forekomst av Big-Store kjører allerede."

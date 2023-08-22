@@ -840,3 +840,6 @@ msgstr "Nieuwe pakketten downloaden van de serverdatabase"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Geen pakketten doorgegeven als parameters"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Een ander exemplaar van Big-Store draait al."
