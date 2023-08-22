@@ -829,3 +829,6 @@ msgstr "서버 데이터베이스에서 새 패키지 다운로드"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "매개 변수로 전달된 패킷이 없습니다."
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store의 다른 인스턴스가 이미 실행 중입니다."

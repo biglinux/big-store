@@ -843,3 +843,6 @@ msgstr "Téléchargement de nouveaux packages à partir de la base de données d
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Aucun paquet transmis en tant que paramètres"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Une autre instance de Big-Store est déjà en cours d’exécution."

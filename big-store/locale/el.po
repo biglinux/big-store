@@ -840,3 +840,6 @@ msgstr "Λήψη νέων πακέτων από τη βάση δεδομένων
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Δεν υπάρχουν πακέτα που πέρασαν ως παράμετροι"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Μια άλλη παρουσία του Big-Store εκτελείται ήδη."

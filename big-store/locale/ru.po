@@ -839,3 +839,6 @@ msgstr "Загрузка новых пакетов из базы данных с
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Пакеты не передаются в качестве параметров"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Еще один экземпляр Big-Store уже запущен."
