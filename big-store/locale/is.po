@@ -839,3 +839,6 @@ msgstr "Sæki nýja pakka úr gagnagrunni þjónsins"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Engir pakkar sendir sem færibreytur"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Annað tilvik af Big-Store er þegar í gangi."

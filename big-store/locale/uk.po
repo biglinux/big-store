@@ -837,3 +837,6 @@ msgstr "Завантаження нових пакетів з бази дани�
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "Жодні пакети не передані як параметри"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Ще один екземпляр Big-Store вже працює."

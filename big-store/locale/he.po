@@ -835,3 +835,6 @@ msgstr "הורדת חבילות חדשות ממסד הנתונים של השרת
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "לא הועברו מנות כפרמטרים"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "מופע נוסף של Big-Store כבר פועל."

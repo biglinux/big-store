@@ -825,3 +825,6 @@ msgstr "从服务器数据库下载新包"
 
 msgid "Nenhum pacote passado como parâmetro"
 msgstr "没有作为参数传递的数据包"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store 的另一个实例已在运行。"
