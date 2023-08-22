@@ -397,6 +397,18 @@ msgstr  "Project-Id-Version: big-store\n"
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
@@ -653,9 +665,29 @@ msgstr  "Project-Id-Version: big-store\n"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 55
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 177
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 64
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 105
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 230
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 123
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 84
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 68
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 55
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 177
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 64
 msgid   "Instalar"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -1263,6 +1295,13 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 76
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 180
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 93
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 233
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 139
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 76
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 76
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 70
 msgid   "Remover"
 msgstr  ""
 
@@ -1282,6 +1321,18 @@ msgstr  ""
 msgid   "Programas Flatpak"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -1857,9 +1908,19 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 74
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 50
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 68
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 100
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 82
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 74
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 50
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 68
 msgid   "Atualizar"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -2049,6 +2110,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 79
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 79
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 96
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 96
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 79
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 96
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 79
 msgid   "Executar"
@@ -2245,6 +2308,12 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
@@ -2338,6 +2407,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 104
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 142
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 142
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 104
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 142
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 104
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
@@ -2409,6 +2481,8 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
@@ -2432,6 +2506,7 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 109
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 109
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 109
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 109
@@ -2444,6 +2519,12 @@ msgstr  ""
 msgid   "Versão disponível:"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -2728,6 +2809,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 134
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 122
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 134
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 122
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 134
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 122
@@ -3067,6 +3151,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
@@ -3160,6 +3248,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 96
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 151
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 155
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 151
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 155
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 96
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 151
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 155
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 96
@@ -3357,6 +3448,12 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
@@ -3450,6 +3547,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 129
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 117
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 129
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 117
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 129
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 117
@@ -3460,6 +3560,10 @@ msgstr  ""
 msgid   "AUR"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -3649,6 +3753,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 127
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 127
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 127
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 127
 msgid   "Empacotador:"
@@ -4118,6 +4224,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
@@ -4180,6 +4290,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 53
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 53
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 53
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 53
 msgid   "Reinstalar"
@@ -4376,6 +4488,12 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
@@ -4469,6 +4587,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 114
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 114
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 114
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
@@ -4602,6 +4723,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
@@ -4664,11 +4789,17 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 117
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 117
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 158
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 158
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 117
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 158
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 117
 msgid   "Uso de armazenamento:"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -4858,6 +4989,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 120
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 120
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 161
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 161
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 120
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 161
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 120
 msgid   "Tamanho do download:"
@@ -5054,6 +5187,12 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
@@ -5147,12 +5286,19 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 124
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 112
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 124
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 112
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 124
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 112
 msgid   "Site:"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -5342,6 +5488,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 137
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 137
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 185
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 185
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 137
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 185
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 137
 msgid   "Data do empacotamento:"
@@ -5538,6 +5686,12 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
@@ -5631,6 +5785,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 139
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 193
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 193
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 139
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 193
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 139
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
@@ -5764,6 +5921,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
@@ -5826,6 +5987,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 157
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 157
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 157
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 157
 msgid   "Motivo da instalação:"
@@ -5958,6 +6121,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
@@ -6020,6 +6187,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 162
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 162
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 207
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 207
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 162
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 207
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 162
 msgid   "Grupos:"
@@ -6152,6 +6321,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
@@ -6214,6 +6387,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 168
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 168
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 220
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 220
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 168
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 220
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 168
 msgid   "Complementos:"
@@ -6346,6 +6521,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
@@ -6408,6 +6587,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 186
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 186
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 239
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 239
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 186
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 239
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 186
 msgid   "Dependências:"
@@ -6540,6 +6721,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
@@ -6602,11 +6787,17 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 204
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 204
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 247
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 247
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 204
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 247
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 204
 msgid   "Remove:"
 msgstr  ""
 
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
@@ -6796,6 +6987,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 213
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 213
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 255
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 255
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 213
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 255
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 213
 msgid   "Substitui:"
@@ -6992,6 +7185,12 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
@@ -7085,6 +7284,9 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 149
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 222
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 262
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 262
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 149
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 222
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 262
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 149
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 222
@@ -7218,6 +7420,10 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
@@ -7280,6 +7486,8 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 151
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 151
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 265
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 265
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 151
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 265
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 151
 msgid   "Clique aqui para ver os arquivos"
@@ -7348,6 +7556,8 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
@@ -7377,6 +7587,7 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 97
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 97
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 97
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 101
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 101
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 101
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 101
@@ -7446,6 +7657,8 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
@@ -7475,6 +7688,7 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 100
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 100
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 100
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 104
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 104
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 104
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 104
@@ -7544,6 +7758,8 @@ msgstr  ""
 #
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 #
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
@@ -7573,6 +7789,7 @@ msgstr  ""
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 179
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 179
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 179
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 195
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 195
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 195
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 195
