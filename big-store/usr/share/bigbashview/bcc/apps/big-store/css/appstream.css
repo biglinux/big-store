@@ -378,12 +378,12 @@ div#box_aur {
 }
 
 div#box_flatpak {
-    display: none;
+//  display: none;
     background-attachment: fixed;
     margin-bottom: 25px;
     border-radius: 15px;
     border: 1px solid var(--border-card-color);
-    background-color: var(--content-bg);     
+    background-color: var(--content-bg);
     padding: 5px;
 }
 

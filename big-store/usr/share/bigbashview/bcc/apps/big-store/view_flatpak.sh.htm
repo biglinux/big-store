@@ -71,7 +71,7 @@ function sh_main {
 		sh_run_action "$ACTION"
 	fi
 
-	sh_catp <<-EOF
+	cat <<-EOF
 		<div id="box_progress_flatpak_cancel">
 		<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="disableButtonFlatpakInstall();_run('killall flatpak')">
 		$Cancelar
@@ -84,7 +84,7 @@ function sh_main {
 	[[ -e $HOME_FOLDER/flatpak-verification-fault ]] && rm -f $HOME_FOLDER/flatpak-verification-fault
 
 	# Run script with complementary content
-	sh_catp <<-EOF
+	cat <<-EOF
 		<div id="box_flatpak_install">
 		<div id="title_flatpak_install">
 		<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
@@ -105,7 +105,7 @@ function sh_main {
 	fi
 
 	#kdialog --msgbox "$pkg_name"
-	sh_catp <<-EOF
+	cat <<-EOF
 		<script>runAvatarFlatpak();</script>
 		<div id="modal1" class="modal modal-fixed-footer">
 		<div class="modal-content">
@@ -123,7 +123,7 @@ function sh_main {
 		<a href="#!" class="modal-close btn-flat">
 		$Fechar
 		</a></div></div>
-		<script>$(document).ready(function(){ $('.modal').modal(); });</script>
+		<script>\$(document).ready(function(){\$('.modal').modal(); });</script>
 		<div class="logo">
 		<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
 		</div></div>
@@ -135,4 +135,4 @@ function sh_main {
 
 #sh_debug
 sh_config
-sh_main
+sh_main "$@"
