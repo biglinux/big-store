@@ -82,7 +82,7 @@ PKG_UPDATE="${myarray[6]}"
 # Seleciona o arquivo xml para filtrar os dados
 PKG_XML_APPSTREAM="/var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/appstream.xml"
 PKG_VERSION_ORIG="$PKG_VERSION"
-[[ -z "$PKG_VERSION" = "" ]] && PKG_VERSION="$Nao_informada"
+[[ -z "$PKG_VERSION" ]] && PKG_VERSION="$Nao_informada"
 
 # ICON
 # Example to run

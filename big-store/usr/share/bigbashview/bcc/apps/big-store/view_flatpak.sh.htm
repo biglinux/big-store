@@ -50,8 +50,8 @@ function sh_config {
 	declare -g Programas_Flatpak=$"Programas Flatpak"
 	declare -g Fechar=$"Fechar"
 	declare -g Cancelar=$"Cancelar"
-	declare -g REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
-	declare -g PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
+	export REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
+	export PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
 }
 
 function sh_main {
@@ -97,9 +97,9 @@ function sh_main {
 		</div></div></div>
 	EOF
 
-	./view_flatpak_pamac.py "$pkg_name" >/tmp/flapak_pamac_temp.txt
+	./view_flatpak_pamac.py "$pkg_name" > $TMP_FOLDER/flatpak_pamac_temp.txt
 	if [[ -e "$HOME/.bigstore/flatpak-verification-fault" ]]; then
-		cat /tmp/flapak_pamac_temp.txt
+		cat $TMP_FOLDER/flatpak_pamac_temp.txt
 	else
 		./view_flatpak.sh "$pkg_name"
 	fi
