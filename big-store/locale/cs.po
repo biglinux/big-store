@@ -840,3 +840,6 @@ msgstr "Žádné pakety předané jako parametry"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Další instance Big-Store je již spuštěna."
+
+msgid "Procurar aplicativo"
+msgstr "Procházet aplikaci"

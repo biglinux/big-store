@@ -828,3 +828,6 @@ msgstr "没有作为参数传递的数据包"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Big-Store 的另一个实例已在运行。"
+
+msgid "Procurar aplicativo"
+msgstr "浏览应用"
