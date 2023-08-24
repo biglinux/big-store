@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/18
+#  Altered: 2023/08/24
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,14 +34,14 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230818"
+_VERSION_="1.0.0-20230824"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
+function sh_config() {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
@@ -121,11 +121,11 @@ function sh_config {
 	# xiva_flatpak_CATEGORIES["audio-plugins"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "browser"
-	xiva_appstream_CATEGORIES["browser"]="firefox firefox-i18n-$code bravebrowser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
+	xiva_appstream_CATEGORIES["browser"]="firefox firefox-i18n-$lcode bravebrowser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
 	# xiva_flatpak_CATEGORIES["browser"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "mail"
-	xiva_appstream_CATEGORIES["mail"]="thunderbird thunderbird-i18n-$code evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
+	xiva_appstream_CATEGORIES["mail"]="thunderbird thunderbird-i18n-$lcode evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
 	# xiva_flatpak_CATEGORIES["mail"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "download"
@@ -166,8 +166,8 @@ function sh_config {
 	# xiva_flatpak_CATEGORIES["pdf"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "office"
-	xiva_appstream_CATEGORIES["office"]="libreoffice-fresh-$code libreoffice-still-$code freeoffice onlyoffice-desktopeditors softmaker-office-2021
-	softmaker-office-2018 calligra wps-office wps-office-mui-$code"
+	xiva_appstream_CATEGORIES["office"]="libreoffice-fresh-$lcode libreoffice-still-$lcode freeoffice onlyoffice-desktopeditors softmaker-office-2021
+	softmaker-office-2018 calligra wps-office wps-office-mui-$lcode"
 	# xiva_flatpak_CATEGORIES["office"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "calendar"
@@ -313,11 +313,11 @@ function sh_config {
 	# xiva_flatpak_CATEGORIES["virtualization"]="Adicione aqui se necessário"
 }
 
-function sh_cleanup {
+function sh_cleanup() {
 	[[ -e "$TMP_FOLDER/category_aur.txt" ]] && rm -f "$TMP_FOLDER/category_aur.txt"
 }
 
-function sh_main {
+function sh_main() {
 	local category="$1"
 	local appstream_packages
 	local flatpak_packages

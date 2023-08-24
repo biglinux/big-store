@@ -40,7 +40,7 @@ export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
 export TMP_FOLDER="/tmp/bigstore-$USER"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
@@ -64,12 +64,12 @@ function sh_config {
 	declare -g AUR=$"AUR"
 }
 
-function SNAP_INFO() { jq -r ."${1}" "$snap_info_file" ; }
-function SNAP_ICON() { jq -r '.media[] | select(.type == "icon" ) | .url' "$snap_info_file" ; }
-function SNAP_SCREENSHOT() { jq -r '.media[] | select(.type == "screenshot" ) | .url' "$snap_info_file" | grep -v banner ; }
+function SNAP_INFO() { jq -r ."${1}" "$snap_info_file"; }
+function SNAP_ICON() { jq -r '.media[] | select(.type == "icon" ) | .url' "$snap_info_file"; }
+function SNAP_SCREENSHOT() { jq -r '.media[] | select(.type == "screenshot" ) | .url' "$snap_info_file" | grep -v banner; }
 
 function sh_main {
-	jq -r "._embedded.\"clickindex:package\"[] | select(.snap_id == \"$pkg_id\" )" $(grep -rl $pkg_id "$HOME_FOLDER/snap_list_files/") | jq -s .[0] > "$snap_info_file"
+	jq -r "._embedded.\"clickindex:package\"[] | select(.snap_id == \"$pkg_id\" )" "$(grep -rl "$pkg_id" "$HOME_FOLDER/snap_list_files/")" | jq -s .[0] >"$snap_info_file"
 
 	if [[ "$pkg_install" = "y" ]]; then
 		ACTION="install_snap"
@@ -103,7 +103,7 @@ function sh_main {
 	EOF
 
 	source header.sh.htm
-#	SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
+	#	SNAP_INSTALLED_LIST="|$(snap list | cut -f1 -d" " | tail -n +2 | tr '\n' '|')"
 	SNAP_INSTALLED_LIST="|$(awk 'NR>1 {printf "%s|", $1} END {printf "\b\n"}' <(snap list))"
 
 	cat <<-EOF
@@ -155,7 +155,7 @@ function sh_main {
 		EOF
 	fi
 
-#			<script>jQuery(document).ready(function(){jQuery(".slider").slider({width: $(cat $TMP_FOLDER/screenshot-resolution.txt) });});</script>
+	#			<script>jQuery(document).ready(function(){jQuery(".slider").slider({width: $(cat $TMP_FOLDER/screenshot-resolution.txt) });});</script>
 
 	echo '<div id=descriptionbox>'
 	#Confere se a igualdade é verdadeira
@@ -165,7 +165,7 @@ function sh_main {
 			echo "<li><img class=screenshot src=\"$i\"></li>"
 		done
 		cat <<-EOF
-			<script>jQuery(document).ready(function(){jQuery(".slider").slider({width: $(< "$TMP_FOLDER/screenshot-resolution.txt") });});</script>
+			<script>jQuery(document).ready(function(){jQuery(".slider").slider({width: $(<"$TMP_FOLDER/screenshot-resolution.txt") });});</script>
 			</ul></div>
 		EOF
 	fi

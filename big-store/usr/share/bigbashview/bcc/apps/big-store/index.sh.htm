@@ -40,7 +40,7 @@ export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
 export HOME_FOLDER="$HOME/.bigstore"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
@@ -60,28 +60,28 @@ function sh_config {
 function FLATPAK_CATEGORY {
 	local i
 
-	[[ -e ${TMP_FOLDER}/flatpak_number.html ]] && rm -f ${TMP_FOLDER}/flatpak_number.html
-	[[ -e ${TMP_FOLDER}/flatpak.html        ]] && rm -f ${TMP_FOLDER}/flatpak.html
-	[[ -e ${TMP_FOLDER}/flatpak_build.html  ]] && rm -f ${TMP_FOLDER}/flatpak_build.html
+	[[ -e "$TMP_FOLDER/flatpak_number.html" ]] && rm -f "$TMP_FOLDER/flatpak_number.html"
+	[[ -e "$TMP_FOLDER/flatpak.html" ]] && rm -f "$TMP_FOLDER/flatpak.html"
+	[[ -e "$TMP_FOLDER/flatpak_build.html" ]] && rm -f "$TMP_FOLDER/flatpak_build.html"
 
-#xdebug "FLATPAK_CATEGORY : $search : all:$@"
+	#xdebug "FLATPAK_CATEGORY : $search : all:$@"
 	cat <<-EOF
-	<div id="box_flatpak">
-	<div id="title_flatpak">
-	<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
-	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-	<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
-	<path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/>
-	</svg>
-	</div>
-	<div style="margin-right: 5px;">
-	$Programas_Flatpak
-	</div></div></div>
-	<div id="content_flatpak">
-	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+		<div id="box_flatpak">
+		<div id="title_flatpak">
+		<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
+		<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+		<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+		<path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/>
+		</svg>
+		</div>
+		<div style="margin-right: 5px;">
+		$Programas_Flatpak
+		</div></div></div>
+		<div id="content_flatpak">
+		<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 	EOF
 
-	for i in $@; do sh_search_flatpak "$i"; done
+	for i in "$@"; do sh_search_flatpak "$i"; done
 	[[ -e "${TMP_FOLDER}/flatpak_build.html" ]] && mv -f "${TMP_FOLDER}/flatpak_build.html" "${TMP_FOLDER}/flatpak.html"
 
 	cat <<-EOF
@@ -100,24 +100,24 @@ function AUR_CATEGORY {
 	[[ -e "${TMP_FOLDER}/aur.html" ]] && rm -f "${TMP_FOLDER}/aur.html"
 
 	cat <<-EOF
-	<div id="box_aur">
-	<div id="title_aur">
-	<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
-	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-	<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
-	<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
-	</svg>
-	</div>
-	<div style="margin-right: 5px;">
-	$Programas_AUR
-	</div></div></div>
-	<div id="content_aur">
-	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+		<div id="box_aur">
+		<div id="title_aur">
+		<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
+		<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+		<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+		<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
+		</svg>
+		</div>
+		<div style="margin-right: 5px;">
+		$Programas_AUR
+		</div></div></div>
+		<div id="content_aur">
+		<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 	EOF
 
 	if [[ -z "$param_search" ]]; then
 		cat <<-EOF
-			$(sh_search_aur "$(tr -s '\n' ' ' <$TMP_FOLDER/category_aur.txt)") >/dev/null 2>&1 &
+			$(sh_search_aur "$(tr -s '\n' ' ' <"$TMP_FOLDER/category_aur.txt")") >/dev/null 2>&1 &
 		EOF
 	else
 		resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
@@ -153,17 +153,17 @@ function APPSTREAM_CATEGORY() {
 		<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 	EOF
 
-#	pacman -Qu | awk '{print $1}' >"${TMP_FOLDER}/upgradeable.txt"
-#	./category_appstream_pamac.py "$@"
+	#	pacman -Qu | awk '{print $1}' >"${TMP_FOLDER}/upgradeable.txt"
+	#	./category_appstream_pamac.py "$@"
 
-	pacman -Qu | awk '{print $1}' > ${TMP_FOLDER}/upgradeable.txt
+	pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
 	if [[ -n "$resultFilter_checkbox" ]]; then
-#		./search_appstream_pamac_simple.py "${param_search,,}"
+		#		./search_appstream_pamac_simple.py "${param_search,,}"
 		./search_appstream_pamac.py "${param_search,,}"
 	else
-        ./category_appstream_pamac.py "${param_search,,}"
+		./category_appstream_pamac.py "${param_search,,}"
 	fi
-#	echo '</div></div>'
+	#	echo '</div></div>'
 
 	cat <<-EOF
 		<script>runAvatarAppstream();</script>
