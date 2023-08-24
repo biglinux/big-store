@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/08/18
+#  Altered: 2023/08/24
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230818"
+_VERSION_="1.0.0-20230824"
 export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -68,7 +68,7 @@ function sh_main {
 	if [ "$pkg_remove" = "y" ]; then
 		ACTION="remove_snap"
 		PACKAGE_NAME="$pkg_name"
-		sh_run_action "$ACTION"
+		sh_run_action "$ACTION" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	fi
 
 	for i in $(snap list | cut -f1 -d" " | tail -n +2); do

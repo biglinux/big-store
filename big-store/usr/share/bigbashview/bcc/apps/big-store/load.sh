@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/08/18
+#  Altered: 2023/08/24
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230818"
+_VERSION_="1.0.0-20230824"
 export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -60,22 +60,22 @@ function sh_load_main {
 	local pacote="$2"
 	local paths
 
+xdebug "sh_load_main:$LINENO"
+
 	sh_load_config
 	sh_load_refresh_db
 	if [[ -n "$pacote" ]]; then
 		case $1 in
 		pkg_not_installed)
-			if paths=$(pacman -Flq "$pacote") && [[ -n "$paths" ]]; then
-				sed 's|^|/|' <<<"$paths"
-			fi
-			;;
+			pacman -Flq "$2" | sed 's|^|/|'
+		    ;;
 		pkg_installed)
 			pacman -Qk "$pacote"
 			pacman -Qlq "$pacote"
 			;;
 		pkg_installed_flatpak)
 			echo "Folder base: $(flatpak info --show-location "$pacote")"
-			find $(flatpak info --show-location "$pacote") | sed "s|$(flatpak info --show-location "$pacote")||g"
+			find "$(flatpak info --show-location "$pacote")" | sed "s|$(flatpak info --show-location "$pacote")||g"
 			;;
 		esac
 	else

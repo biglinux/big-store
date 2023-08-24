@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-export TMP_FOLDER="/tmp/bigstore-$USER"
-grep "^Build Date " "${TMP_FOLDER}/pacman_pkg_cache.txt" | cut -f2 -d:
