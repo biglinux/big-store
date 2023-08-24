@@ -60,14 +60,15 @@ function sh_load_main {
 	local pacote="$2"
 	local paths
 
-xdebug "sh_load_main:$LINENO"
-
 	sh_load_config
 	sh_load_refresh_db
 	if [[ -n "$pacote" ]]; then
 		case $1 in
 		pkg_not_installed)
-			pacman -Flq "$2" | sed 's|^|/|'
+#			pacman -Flq "$2" | sed 's|^|/|'
+#			pacman -Flq "$2" | while IFS= read -r line; do echo "/$line"; done
+#			while IFS= read -r line; do echo "/$line"; done < <(pacman -Flq "$2")
+			pacman -Flq "$2" | while IFS= read -r line; do printf "/%s\n" "$line"; done  #mais rápido
 		    ;;
 		pkg_installed)
 			pacman -Qk "$pacote"

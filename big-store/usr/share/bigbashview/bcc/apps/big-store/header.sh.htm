@@ -629,33 +629,36 @@ function sh_main {
 
 	# Verifica que alguma palavra foi digitada na busca
 	if [ "${#search}" -ge "2" ]; then
-		echo '<div class="row center" id="flex">'
-		if [ "$appstream_checkbox" = "checked" ]; then
-			[[ -e "${TMP_FOLDER}/appstream_number.html" ]] && rm -f "${TMP_FOLDER}/appstream_number.html"
-			cat <<-EOF
-				<div id="box_appstream">
-				<div id="title_appstream">
-				<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
-				<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-				<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
-				<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
-				</svg>
-				</div><div style="margin-right: 5px;">
-				$Programas_Nativos
-				</div></div></div>
-				<div id="content_appstream">
-			EOF
-
-			# sync mode
-			pacman -Qu | cut -f1 -d" " > ${TMP_FOLDER}/upgradeable.txt
-
-			if [[ -n "$resultFilter_checkbox" ]]; then
-				./search_appstream_pamac_simple.py "${search,,}"
-			else
-				./search_appstream_pamac.py "${search,,}"
-			fi
-			echo '</div></div>'
-		fi
+#		echo '<div class="row center" id="flex">'
+#		if [ "$appstream_checkbox" = "checked" ]; then
+			APPSTREAM_CATEGORY "${search,,}"
+#			[[ -e "${TMP_FOLDER}/appstream_number.html" ]] && rm -f "${TMP_FOLDER}/appstream_number.html"
+#			cat <<-EOF
+#				<div id="box_appstream">
+#				<div id="title_appstream">
+#				<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
+#				<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+#				<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
+#				<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
+#				</svg>
+#				</div><div style="margin-right: 5px;">
+#				$Programas_Nativos
+#				</div></div></div>
+#				<div id="content_appstream">
+#			EOF
+#
+#			# sync mode
+#			pacman -Qu | awk '{print $1}' > ${TMP_FOLDER}/upgradeable.txt
+#
+#			if [[ -n "$resultFilter_checkbox" ]]; then
+##				./search_appstream_pamac_simple.py "${search,,}"
+#				./search_appstream_pamac.py "${search,,}"
+#			else
+##				./search_appstream_pamac.py "${search,,}"
+#				./category_appstream_pamac.py "${search,,}"
+#			fi
+#			echo '</div></div>'
+#		fi
 
 		if [ "$aur_checkbox" = "checked" ]; then
 			AUR_CATEGORY "${search,,}"

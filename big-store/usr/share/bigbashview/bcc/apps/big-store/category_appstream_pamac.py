@@ -22,13 +22,17 @@ import locale
 gi.require_version("Pamac", "11")
 from gi.repository import Pamac
 
-#biblioteca apresenta erro de segmentação ao ser destruido quando o app é finalizado: destroy gettext
+# biblioteca apresenta erro de segmentação ao ser destruido quando o app é finalizado: destroy gettext
 import gettext
-lang_translations = gettext.translation("big-store", localedir="/usr/share/locale", fallback=True)
+
+lang_translations = gettext.translation(
+    "big-store", localedir="/usr/share/locale", fallback=True
+)
 lang_translations.install()
-#define _ shortcut for translations
+# define _ shortcut for translations
 _ = lang_translations.gettext
 TMP_FOLDER = os.environ["TMP_FOLDER"]
+
 
 def print_pkg_details(details):
     print(
@@ -144,6 +148,7 @@ if __name__ == "__main__":
     config.set_enable_flatpak(False)
     config.set_enable_snap(False)
     db = Pamac.Database(config=config)
+    num = 0
 
     # To multi packages
     # db.enable_appstream()
@@ -158,10 +163,23 @@ if __name__ == "__main__":
         pkg = db.get_pkg(app_list)
         if pkg:
             print_pkg_details(pkg)
+            num += 1
         else:
             file_path = TMP_FOLDER + "/category_aur.txt"
             with open(file_path, "a") as f:
                 print(app_list, file=f)
+
+    if num > 0:
+        print(
+            '<script>runAvatarAppstream(); $(document).ready(function () {$("#box_appstream").show();});</script>'
+        )
+        with open(TMP_FOLDER + "/appstream_number.html", "a") as f:
+            f.write(str(num))
+    print(
+        '<script>document.getElementById("appstream_number").innerHTML = "',
+        num,
+        '";</script>',
+    )
 
     # Simple Search
     # for pkg in pkgs:

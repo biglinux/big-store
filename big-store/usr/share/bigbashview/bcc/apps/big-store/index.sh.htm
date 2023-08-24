@@ -120,7 +120,7 @@ function AUR_CATEGORY {
 			$(sh_search_aur "$(tr -s '\n' ' ' <$TMP_FOLDER/category_aur.txt)") >/dev/null 2>&1 &
 		EOF
 	else
-		resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search}" &
+		resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
 	fi
 	cat <<-EOF
 		<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
@@ -132,33 +132,45 @@ function AUR_CATEGORY {
 export -f AUR_CATEGORY
 
 function APPSTREAM_CATEGORY() {
-cat <<-EOF
-	<div class="row center" id="flex">
-	<div id="box_appstream_category" style="border-radius: 0 0 15px 15px;">
-	<div id="title_appstream">
-	<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
-	<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-	<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
-	<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
-	</svg>
-	</div>
-	<div style="margin-right: 5px;">
-	$Programas_Nativos
-	</div></div></div>
-	<div id="content_appstream">
-	<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-EOF
+	local param_search="$*"
 
-	pacman -Qu | cut -f1 -d" " >"${TMP_FOLDER}/upgradeable.txt"
-	./category_appstream_pamac.py "$@"
+	[[ -e "${TMP_FOLDER}/appstream_number.html" ]] && rm -f "${TMP_FOLDER}/appstream_number.html"
 
-cat <<-EOF
-	<script>runAvatarAppstream();</script>
-	<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/aur.html');</script>
-	<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/aur_number.html');</script>
-	</div>
-	</div>
-EOF
+	cat <<-EOF
+		<div class="row center" id="flex">
+		<div id="box_appstream_category" style="border-radius: 0 0 15px 15px;">
+		<div id="title_appstream">
+		<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
+		<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+		<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
+		<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
+		</svg>
+		</div>
+		<div style="margin-right: 5px;">
+		$Programas_Nativos
+		</div></div></div>
+		<div id="content_appstream">
+		<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+	EOF
+
+#	pacman -Qu | awk '{print $1}' >"${TMP_FOLDER}/upgradeable.txt"
+#	./category_appstream_pamac.py "$@"
+
+	pacman -Qu | awk '{print $1}' > ${TMP_FOLDER}/upgradeable.txt
+	if [[ -n "$resultFilter_checkbox" ]]; then
+#		./search_appstream_pamac_simple.py "${param_search,,}"
+		./search_appstream_pamac.py "${param_search,,}"
+	else
+        ./category_appstream_pamac.py "${param_search,,}"
+	fi
+#	echo '</div></div>'
+
+	cat <<-EOF
+		<script>runAvatarAppstream();</script>
+		<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html');</script>
+		</div>
+		</div>
+	EOF
 }
 export -f APPSTREAM_CATEGORY
 
