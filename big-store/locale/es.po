@@ -842,3 +842,6 @@ msgstr "No se pasan paquetes como parámetros"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Otra instancia de Big-Store ya se está ejecutando."
+
+msgid "Procurar aplicativo"
+msgstr "Examinar aplicación"

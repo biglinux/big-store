@@ -842,3 +842,6 @@ msgstr "Kao parametri nisu proslijeđeni paketi"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Još jedna instanca Big-Storea već je pokrenuta."
+
+msgid "Procurar aplicativo"
+msgstr "Pregledavanje aplikacije"

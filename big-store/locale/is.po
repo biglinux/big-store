@@ -842,3 +842,6 @@ msgstr "Engir pakkar sendir sem færibreytur"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Annað tilvik af Big-Store er þegar í gangi."
+
+msgid "Procurar aplicativo"
+msgstr "Skoða forrit"

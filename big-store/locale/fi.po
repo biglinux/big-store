@@ -840,3 +840,6 @@ msgstr "Parametreina ei läpäissyt paketteja"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Toinen Big-Store-esiintymä on jo käynnissä."
+
+msgid "Procurar aplicativo"
+msgstr "Selaa sovellusta"

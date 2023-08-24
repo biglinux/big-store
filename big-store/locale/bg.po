@@ -842,3 +842,6 @@ msgstr "Няма пакети, предадени като параметри"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Друг екземпляр на Big-Store вече се изпълнява."
+
+msgid "Procurar aplicativo"
+msgstr "Преглед на приложението"
