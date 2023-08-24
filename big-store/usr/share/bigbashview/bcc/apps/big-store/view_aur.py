@@ -43,7 +43,12 @@ for p in data['results']:
         print ('<div id=description>', p['Description'], '</div></div>')
     print ('<div class="row center">')
     pkg_installed = subprocess.run(["pacman", "-Q", sys.argv[1]], stdout=subprocess.PIPE, text=True)
-    pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
+
+    function_name = "sh_pkg_pacman_version"
+    package_name = sys.argv[1]
+    command = f'source {script_name} && {function_name} "{package_name}"'
+#	pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
+	pkg_installed_version = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
     if pkg_installed.stdout:
         print ('<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBody();location.href=' + "'view_aur.sh.htm?pkg_name=" + sys.argv[1] + "&pkg_remove=y'" + '">', 'Remover', '</button>')
         if pkg_installed_version.stdout.strip() != p['Version'].strip():
@@ -130,7 +135,7 @@ for p in data['results']:
     function_name = "sh_pkg_pacman_build_date"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-#    pkg_build_date = subprocess.run(["./pkg_pacman_build_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+#   pkg_build_date = subprocess.run(["./pkg_pacman_build_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_build_date = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
     if pkg_build_date.stdout != '':
         print ('<div class="grid-container">')
@@ -140,7 +145,7 @@ for p in data['results']:
     function_name = "sh_pkg_pacman_install_date"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-#    pkg_install_date = subprocess.run(["./pkg_pacman_install_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+#   pkg_install_date = subprocess.run(["./pkg_pacman_install_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_install_date = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
     if pkg_install_date.stdout != '':
         print ('<div class="grid-container">')
