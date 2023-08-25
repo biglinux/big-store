@@ -842,3 +842,6 @@ msgstr "Ako parametre neprešli žiadne pakety"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Ďalšia inštancia Big-Store už beží."
+
+msgid "Procurar aplicativo"
+msgstr "Prehľadávať aplikáciu"

@@ -844,3 +844,6 @@ msgstr "Nu au trecut pachete ca parametri"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "O altă instanță a Big-Store rulează deja."
+
+msgid "Procurar aplicativo"
+msgstr "Răsfoiți aplicația"

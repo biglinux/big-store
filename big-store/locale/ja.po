@@ -834,3 +834,6 @@ msgstr "パラメータとして渡されるパケットはありません"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Big-Store の別のインスタンスが既に実行されています。"
+
+msgid "Procurar aplicativo"
+msgstr "アプリを閲覧する"

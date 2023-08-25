@@ -843,3 +843,6 @@ msgstr "Δεν υπάρχουν πακέτα που πέρασαν ως παρά
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Μια άλλη παρουσία του Big-Store εκτελείται ήδη."
+
+msgid "Procurar aplicativo"
+msgstr "Περιήγηση στην εφαρμογή"

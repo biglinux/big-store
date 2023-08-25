@@ -849,3 +849,6 @@ msgstr "Nenhum pacote passado como parâmetro"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Outra instância do Big-Store já está em execução."
+
+msgid "Procurar aplicativo"
+msgstr "Procurar aplicativo"

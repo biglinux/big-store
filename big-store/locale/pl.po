@@ -842,3 +842,6 @@ msgstr "Żadne pakiety nie zostały przekazane jako parametry"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Kolejna instancja Big-Store jest już uruchomiona."
+
+msgid "Procurar aplicativo"
+msgstr "Przeglądaj aplikację"
