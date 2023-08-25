@@ -54,7 +54,7 @@ function sh_config {
 	declare -g Programas_Flatpak=$"Programas Flatpak"
 	declare -g Programas_Nativos=$"Programas Nativos"
 
-    #variáveis públicas
+	#variáveis públicas
 	export appstream_search_category=0
 	export aur_search_category=0
 	export flatpak_search_category=0
@@ -84,16 +84,19 @@ function FLATPAK_CATEGORY {
 			$Programas_Flatpak
 			</div></div></div>
 			<div id="content_flatpak">
+			<!--
 			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+			-->
 		EOF
 
-	#	xdebug "$param_search"
-	#	xdebug "$flatpak_search_category"
+		#	xdebug "$param_search"
+		#	xdebug "$flatpak_search_category"
 
 		if (( flatpak_search_category )); then
-			for i in "$@"; do sh_search_flatpak "$i"; done
+#			for i in "$@"; do sh_search_flatpak "$i"; done
+			sh_search_flatpak "${param_search,,}" &
 			[[ -e "${TMP_FOLDER}/flatpak_build.html" ]] && mv -f "${TMP_FOLDER}/flatpak_build.html" "${TMP_FOLDER}/flatpak.html"
-	        flatpak_search_category=0
+			flatpak_search_category=0
 		else
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" &
 		fi
@@ -108,8 +111,48 @@ function FLATPAK_CATEGORY {
 }
 export -f FLATPAK_CATEGORY
 
+function SNAP_CATEGORY {
+	local param_search="$*"
+	local i
+
+	if [[ "$snap_checkbox" = "checked" ]]; then
+		[[ -e "$TMP_FOLDER/snap.html" ]] && rm -f "$TMP_FOLDER/snap.html"
+		[[ -e "$TMP_FOLDER/snap_number.html" ]] && rm -f "$TMP_FOLDER/snap_number.html"
+		cat <<-EOF
+			<div id="box_snap">
+			<div id="title_snap">
+			<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_SNAP">
+			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+			<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+			<path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/>
+			</svg>
+			</div><div style="margin-right: 5px;">
+			$Programas_Snap
+			</div></div></div>
+			<div id="content_snap">
+		EOF
+
+		if (( snap_search_category )); then
+			sh_search_snap "${param_search,,}" &
+			snap_search_category=0
+		else
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" &
+		fi
+
+		cat <<-EOF
+			<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>
+			<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html');</script>
+			</div></div>
+		EOF
+	fi
+}
+export -f SNAP_CATEGORY
+
 function AUR_CATEGORY {
 	local param_search="$*"
+
+#	xdebug "$param_search"
+#	xdebug "$aur_checkbox"
 
 	if [[ "$aur_checkbox" = "checked" ]]; then
 		[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
@@ -128,16 +171,22 @@ function AUR_CATEGORY {
 			$Programas_AUR
 			</div></div></div>
 			<div id="content_aur">
+			<!--
 			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+			-->
 		EOF
 
-		if [[ -z "$param_search" ]]; then
-			cat <<-EOF
-				$(sh_search_aur "$(tr -s '\n' ' ' <"$TMP_FOLDER/category_aur.txt")") >/dev/null 2>&1 &
-			EOF
+#		xdebug "$aur_search_category"
+		if ((aur_search_category)); then
+#			cat <<-EOF
+#				$(sh_search_aur "$(tr -s '\n' ' ' <"$TMP_FOLDER/category_aur.txt")") >/dev/null 2>&1 &
+#			EOF
+			sh_search_aur "${param_search,,}" &
+			aur_search_category=0
 		else
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
 		fi
+
 		cat <<-EOF
 			<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
 			<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>
@@ -149,7 +198,7 @@ function AUR_CATEGORY {
 export -f AUR_CATEGORY
 
 function APPSTREAM_CATEGORY() {
-	local param_search="$@"
+	local param_search="$*"
 
 	if [[ "$appstream_checkbox" = "checked" ]]; then
 		[[ -e "${TMP_FOLDER}/appstream_number.html" ]] && rm -f "${TMP_FOLDER}/appstream_number.html"
@@ -168,18 +217,21 @@ function APPSTREAM_CATEGORY() {
 			$Programas_Nativos
 			</div></div></div>
 			<div id="content_appstream">
+			<!--
 			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+			-->
 		EOF
 
 		#	pacman -Qu | awk '{print $1}' >"${TMP_FOLDER}/upgradeable.txt"
 		#	./category_appstream_pamac.py "$@"
 
 		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
-		if [[ -n "$resultFilter_checkbox" ]]; then
+		if ((appstream_search_category)); then
+			./category_appstream_pamac.py "${param_search,,}"
+			appstream_search_category=0
+		else
 			# ./search_appstream_pamac_simple.py "${param_search,,}"
 			./search_appstream_pamac.py "${param_search,,}"
-		else
-			./category_appstream_pamac.py "${param_search,,}"
 		fi
 		#	echo '</div></div>'
 
@@ -438,8 +490,9 @@ function sh_main {
 		echo '</div></div></div>'
 	fi
 
+	source biglinux-category
 	if sh_get_XIVAStudio; then
-		source xiva-category
+#		source xiva-category
 		cat <<-EOF
 			<div class="logo">
 			<img id="btn-big" src="icons/xiva.png" class="logo-biglinux" onclick="biglinux();">
@@ -450,7 +503,7 @@ function sh_main {
 			</html>
 		EOF
 	else
-		source biglinux-category
+#		source biglinux-category
 		cat <<-EOF
 			<div class="logo">
 			<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
