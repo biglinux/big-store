@@ -308,12 +308,12 @@ function sh_main {
 
 	if [[ -n "$search" ]]; then
 		if [[ -n "$resultFilter_checkbox" ]]; then
-			echo "" >"${HOME_FOLDER}/resultFilter"
+			echo "" >"$HOME_FOLDER/resultFilter"
 		else
-			[[ -e "${HOME_FOLDER}/resultFilter" ]] && rm -f "${HOME_FOLDER}/resultFilter"
+			[[ -e "$HOME_FOLDER/resultFilter" ]] && rm -f "$HOME_FOLDER/resultFilter"
 		fi
 	else
-		if [ -e "${HOME_FOLDER}/resultFilter" ]; then
+		if [ -e "$HOME_FOLDER/resultFilter" ]; then
 			resultFilter_checkbox="checked"
 		fi
 	fi
@@ -337,16 +337,16 @@ function sh_main {
 	EOF
 
 	#APPSTREAM
-	if [[ -e "${HOME_FOLDER}/hide_appstream" ]]; then
+	if [[ -e "$HOME_FOLDER/hide_appstream" ]]; then
 		appstream_checkbox=""
 		if [[ "$appstream_change" = "y" ]]; then
-			rm -f "${HOME_FOLDER}/hide_appstream"
+			rm -f "$HOME_FOLDER/hide_appstream"
 			appstream_checkbox="checked"
 		fi
 	else
 		appstream_checkbox="checked"
 		if [[ "$appstream_change" = "y" ]]; then
-			echo "" >"${HOME_FOLDER}/hide_appstream"
+			echo "" >"$HOME_FOLDER/hide_appstream"
 			appstream_checkbox=""
 		fi
 	fi
@@ -355,7 +355,7 @@ function sh_main {
 	if [[ -e "${HOME_FOLDER}/hide_aur" ]]; then
 		aur_checkbox=""
 		if [ "$aur_change" = "y" ]; then
-			rm -f "${HOME_FOLDER}/hide_aur"
+			rm -f "$HOME_FOLDER/hide_aur"
 			aur_checkbox="checked"
 		fi
 	else
@@ -368,16 +368,16 @@ function sh_main {
 
 	#FLATPAK
 	if [[ -e '/usr/lib/libpamac-flatpak.so' ]]; then
-		if [[ -e "${HOME_FOLDER}/hide_flatpak" ]]; then
+		if [[ -e "$HOME_FOLDER/hide_flatpak" ]]; then
 			flatpak_checkbox=""
 			if [[ "$flatpak_change" = "y" ]]; then
-				rm -f "${HOME_FOLDER}/hide_flatpak"
+				rm -f "$HOME_FOLDER/hide_flatpak"
 				flatpak_checkbox="checked"
 			fi
 		else
 			flatpak_checkbox="checked"
 			if [[ "$flatpak_change" = "y" ]]; then
-				echo "" >"${HOME_FOLDER}/hide_flatpak"
+				echo "" >"$HOME_FOLDER/hide_flatpak"
 				flatpak_checkbox=""
 			fi
 		fi
@@ -387,16 +387,16 @@ function sh_main {
 
 	#SNAP
 	if [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		if [[ -e "${HOME_FOLDER}/hide_snap" ]]; then
+		if [[ -e "$HOME_FOLDER/hide_snap" ]]; then
 			snap_checkbox=""
 			if [[ "$snap_change" = "y" ]]; then
-				rm -f "${HOME_FOLDER}/hide_snap"
+				rm -f "$HOME_FOLDER/hide_snap"
 				snap_checkbox="checked"
 			fi
 		else
 			snap_checkbox="checked"
 			if [[ "$snap_change" = "y" ]]; then
-				echo "" >"${HOME_FOLDER}/hide_snap"
+				echo "" >"$HOME_FOLDER/hide_snap"
 				snap_checkbox=""
 			fi
 		fi
@@ -659,7 +659,7 @@ function sh_main {
 		#			echo '</div></div>'
 		#		fi
 
-		if [ "$aur_checkbox" = "checked" ]; then
+		if [[ "$aur_checkbox" = "checked" ]]; then
 			AUR_CATEGORY "${search,,}"
 			#			[[ -e ${TMP_FOLDER}/aur_number.html ]] && rm -f ${TMP_FOLDER}/aur_number.html
 			#			cat <<-EOF
