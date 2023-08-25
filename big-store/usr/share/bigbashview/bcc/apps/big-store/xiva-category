@@ -121,7 +121,7 @@ function sh_config() {
 	# xiva_flatpak_CATEGORIES["audio-plugins"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "browser"
-	xiva_appstream_CATEGORIES["browser"]="firefox firefox-i18n-$lcode bravebrowser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
+	xiva_appstream_CATEGORIES["browser"]="firefox firefox-i18n-$lcode brave-browser opera vivaldi chromium falkon palemoon-bin epiphany google-chrome microsoft-edge-stable-bin"
 	# xiva_flatpak_CATEGORIES["browser"]="Adicione aqui se necessário"
 
 	# Dados para a categoria "mail"
@@ -326,15 +326,19 @@ function sh_main() {
 	sh_cleanup
 	[[ -n "$category" ]] && {
 		appstream_packages="${xiva_appstream_CATEGORIES[$category]}"
+		aur_packages="${xiva_flatpak_CATEGORIES[$category]}"
 		flatpak_packages="${xiva_flatpak_CATEGORIES[$category]}"
+		snap_packages="${xiva_flatpak_CATEGORIES[$category]}"
 
-		[[ -n "$appstream_packages" ]] && APPSTREAM_CATEGORY "$appstream_packages"
-		[[ -n "$flatpak_packages" ]] && FLATPAK_CATEGORY "$flatpak_packages"
+	    [[ -n "$appstream_packages" ]] && appstream_search_category=1 APPSTREAM_CATEGORY "$appstream_packages"
+		[[ -n "$aur_packages"       ]] && aur_search_category=1       AUR_CATEGORY "$aur_packages"
+        [[ -n "$flatpak_packages"   ]] && flatpak_search_category=1   FLATPAK_CATEGORY "$flatpak_packages"
+        [[ -n "$snap_packages"      ]] && snap_search_category=1      SNAP_CATEGORY "$snap_packages"
 
-		case "$category" in
-		network | news | book | devwebserver | gameretroarch) ;;
-		*) AUR_CATEGORY ;;
-		esac
+#		case "$category" in
+#		network | news | book | devwebserver | gameretroarch) ;;
+#		*) [[ -n "$aur_packages" ]] && aur_search_category=1 AUR_CATEGORY "$aur_packages";;
+#		esac
 	}
 }
 

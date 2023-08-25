@@ -115,10 +115,12 @@ function sh_main {
 		appstream_packages="${CATEGORIES[$category]}"
 		aur_packages="${CATEGORIES[$category]}"
 		flatpak_packages="${CATEGORIES[$category]}"
+		snap_packages="${CATEGORIES[$category]}"
 
 		[[ -n "$appstream_packages" ]] && appstream_search_category=1 APPSTREAM_CATEGORY "$appstream_packages"
-		[[ -n "$aur_packages" ]] && aur_search_category=1 AUR_CATEGORY "$aur_packages"
-		[[ -n "$flatpak_packages" ]] && flatpak_search_category=1 FLATPAK_CATEGORY "$flatpak_packages"
+		[[ -n "$aur_packages"       ]] && aur_search_category=1       AUR_CATEGORY "$aur_packages"
+		[[ -n "$flatpak_packages"   ]] && flatpak_search_category=1   FLATPAK_CATEGORY "$flatpak_packages"
+		[[ -n "$snap_packages"      ]] && snap_search_category=1      SNAP_CATEGORY "$snap_packages"
 
 #		case "$category" in
 #		network | news | book | devwebserver | gameretroarch) ;;
