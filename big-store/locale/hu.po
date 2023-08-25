@@ -844,3 +844,6 @@ msgstr "Nincs paraméterként átadott csomag"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "A Big-Store egy másik példánya már fut."
+
+msgid "Procurar aplicativo"
+msgstr "Böngészés az alkalmazásban"

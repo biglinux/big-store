@@ -840,3 +840,6 @@ msgstr "No packets passed as parameters"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Another instance of Big-Store is already running."
+
+msgid "Procurar aplicativo"
+msgstr "Browse app"

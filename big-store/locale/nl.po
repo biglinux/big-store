@@ -843,3 +843,6 @@ msgstr "Geen pakketten doorgegeven als parameters"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Een ander exemplaar van Big-Store draait al."
+
+msgid "Procurar aplicativo"
+msgstr "Door de app bladeren"

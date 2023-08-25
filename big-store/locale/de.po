@@ -843,3 +843,6 @@ msgstr "Keine Pakete, die als Parameter übergeben werden"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Eine weitere Instanz von Big-Store läuft bereits."
+
+msgid "Procurar aplicativo"
+msgstr "App durchsuchen"

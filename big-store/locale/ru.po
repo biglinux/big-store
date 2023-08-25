@@ -842,3 +842,6 @@ msgstr "Пакеты не передаются в качестве параме�
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "Еще один экземпляр Big-Store уже запущен."
+
+msgid "Procurar aplicativo"
+msgstr "Обзор приложения"

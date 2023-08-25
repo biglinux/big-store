@@ -842,3 +842,6 @@ msgstr "Inga paket skickas som parametrar"
 
 msgid "Outra instância do Big-Store já está em execução."
 msgstr "En annan instans av Big-Store körs redan."
+
+msgid "Procurar aplicativo"
+msgstr "Bläddra i appen"
