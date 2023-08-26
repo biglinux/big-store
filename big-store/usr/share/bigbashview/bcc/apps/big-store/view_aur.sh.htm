@@ -51,13 +51,16 @@ function sh_config {
 }
 
 function sh_main {
+
+#	xdebug "$0[$LINENO]: $pkg_install : $pkg_name"
+
 	if [[ "$pkg_install" = "y" ]]; then
-		sh_run_pamac_installer --build "$pkg_name"
+		sh_run_pamac_installer "--build" "$pkg_name"
 		pacman -Qu | cut -f1 -d" " >>"${TMP_FOLDER}/upgradeable.txt"
 	fi
 
 	if [[ "$pkg_remove" = "y" ]]; then
-		sh_run_pamac_installer --remove "$pkg_name" "$(LC_ALL=C timeout 10s pamac remove -od "$pkg_name" | grep "^  " | cut -f3 -d" ")"
+		sh_run_pamac_installer "--remove" "$pkg_name" "$(LC_ALL=C timeout 10s pamac remove -od "$pkg_name" | grep "^  " | cut -f3 -d" ")"
 		pacman -Qu | cut -f1 -d" " >>"${TMP_FOLDER}/upgradeable.txt"
 	fi
 
@@ -115,4 +118,4 @@ function sh_main {
 
 #sh_debug
 sh_config
-sh_main
+sh_main "$@"

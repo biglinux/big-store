@@ -68,7 +68,7 @@ function sh_check_big_store_is_running() {
 	fi
 }
 
-function sh_main() {
+function sh_big_store_start_sh_main {
 	local resolution
 	local half_resolution
 
@@ -88,7 +88,8 @@ function sh_main() {
 	echo "$half_resolution" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
 	#	sh_update_cache_flatpak &
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
+	#	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s 1280x720 "
 	if [[ -n "$1" ]]; then
 		case "$1" in
 		"category") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
@@ -106,4 +107,4 @@ function sh_main() {
 #sh_debug
 sh_config
 sh_check_big_store_is_running
-sh_main "$@"
+sh_big_store_start_sh_main "$@"

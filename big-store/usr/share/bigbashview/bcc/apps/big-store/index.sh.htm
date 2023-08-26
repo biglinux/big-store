@@ -65,12 +65,13 @@ function FLATPAK_CATEGORY {
 	local param_search="$*"
 	local i
 
+#	xdebug "FLATPAK_CATEGORY : $search : all:$@"
+
 	if [[ "$flatpak_checkbox" = "checked" ]]; then
 		[[ -e "$TMP_FOLDER/flatpak_number.html" ]] && rm -f "$TMP_FOLDER/flatpak_number.html"
 		[[ -e "$TMP_FOLDER/flatpak.html" ]] && rm -f "$TMP_FOLDER/flatpak.html"
 		[[ -e "$TMP_FOLDER/flatpak_build.html" ]] && rm -f "$TMP_FOLDER/flatpak_build.html"
 
-		#xdebug "FLATPAK_CATEGORY : $search : all:$@"
 		cat <<-EOF
 			<div id="box_flatpak">
 			<div id="title_flatpak">
@@ -94,19 +95,28 @@ function FLATPAK_CATEGORY {
 
 		if (( flatpak_search_category )); then
 #			for i in "$@"; do sh_search_flatpak "$i"; done
-			sh_search_flatpak "${param_search,,}" &
-			[[ -e "${TMP_FOLDER}/flatpak_build.html" ]] && mv -f "${TMP_FOLDER}/flatpak_build.html" "${TMP_FOLDER}/flatpak.html"
+#			sh_search_flatpak "${param_search,,}" &
+			sh_search_flatpak "${param_search,,}"
+#			[[ -e "${TMP_FOLDER}/flatpak_build.html" ]] && mv -f "${TMP_FOLDER}/flatpak_build.html" "${TMP_FOLDER}/flatpak.html"
 			flatpak_search_category=0
 		else
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" &
+#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" &
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}"
 		fi
 
-		cat <<-EOF
-			<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
-			<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
-			</div>
-			</div>
-		EOF
+		if [[ -e "${TMP_FOLDER}/flatpak_build.html" ]]; then
+			cat <<-EOF
+				<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
+				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
+				</div>
+				</div>
+			EOF
+		else
+			cat <<-EOF
+				</div>
+				</div>
+			EOF
+		fi
 	fi
 }
 export -f FLATPAK_CATEGORY
@@ -118,6 +128,7 @@ function SNAP_CATEGORY {
 	if [[ "$snap_checkbox" = "checked" ]]; then
 		[[ -e "$TMP_FOLDER/snap.html" ]] && rm -f "$TMP_FOLDER/snap.html"
 		[[ -e "$TMP_FOLDER/snap_number.html" ]] && rm -f "$TMP_FOLDER/snap_number.html"
+		[[ -e "$TMP_FOLDER/snap_build.html" ]] && rm -f "$TMP_FOLDER/snap_build.html"
 		cat <<-EOF
 			<div id="box_snap">
 			<div id="title_snap">
@@ -133,17 +144,26 @@ function SNAP_CATEGORY {
 		EOF
 
 		if (( snap_search_category )); then
-			sh_search_snap "${param_search,,}" &
+#			sh_search_snap "${param_search,,}" &
+			sh_search_snap "${param_search,,}"
 			snap_search_category=0
 		else
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" &
+#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" &
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}"
 		fi
 
-		cat <<-EOF
-			<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>
-			<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html');</script>
-			</div></div>
-		EOF
+		if [[ -e "${TMP_FOLDER}/snap_build.html" ]]; then
+			cat <<-EOF
+				<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>
+				<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html');</script>
+				</div></div>
+			EOF
+		else
+			cat <<-EOF
+				</div>
+				</div>
+			EOF
+		fi
 	fi
 }
 export -f SNAP_CATEGORY
