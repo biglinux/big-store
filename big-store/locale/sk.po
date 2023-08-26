@@ -845,3 +845,6 @@ msgstr "Ďalšia inštancia Big-Store už beží."
 
 msgid "Procurar aplicativo"
 msgstr "Prehľadávať aplikáciu"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textové editory príkazového riadka"

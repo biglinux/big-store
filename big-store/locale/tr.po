@@ -845,3 +845,6 @@ msgstr "Big-Store'un başka bir örneği zaten çalışıyor."
 
 msgid "Procurar aplicativo"
 msgstr "Uygulamaya göz atın"
+
+msgid "Editores de texto linha de comando"
+msgstr "Komut satırı metin düzenleyicileri"

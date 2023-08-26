@@ -831,3 +831,6 @@ msgstr "Big-Store 的另一个实例已在运行。"
 
 msgid "Procurar aplicativo"
 msgstr "浏览应用"
+
+msgid "Editores de texto linha de comando"
+msgstr "命令行文本编辑器"

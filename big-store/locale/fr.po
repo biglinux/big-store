@@ -849,3 +849,6 @@ msgstr "Une autre instance de Big-Store est déjà en cours d’exécution."
 
 msgid "Procurar aplicativo"
 msgstr "Parcourir l’application"
+
+msgid "Editores de texto linha de comando"
+msgstr "Éditeurs de texte en ligne de commande"

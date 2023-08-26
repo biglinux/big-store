@@ -845,3 +845,6 @@ msgstr "En annan instans av Big-Store körs redan."
 
 msgid "Procurar aplicativo"
 msgstr "Bläddra i appen"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textredigerare på kommandoraden"

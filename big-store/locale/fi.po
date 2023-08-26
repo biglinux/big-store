@@ -843,3 +843,6 @@ msgstr "Toinen Big-Store-esiintymä on jo käynnissä."
 
 msgid "Procurar aplicativo"
 msgstr "Selaa sovellusta"
+
+msgid "Editores de texto linha de comando"
+msgstr "Komentorivin tekstieditorit"

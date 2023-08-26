@@ -845,3 +845,6 @@ msgstr "Annað tilvik af Big-Store er þegar í gangi."
 
 msgid "Procurar aplicativo"
 msgstr "Skoða forrit"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textaritlar skipanalínu"
