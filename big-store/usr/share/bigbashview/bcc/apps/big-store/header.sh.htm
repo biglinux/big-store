@@ -119,6 +119,7 @@ function sh_refresh_installed_packages {
 }
 
 function sh_include_script_pageshow {
+	return
 	cat <<-EOF
 		<script type="text/javascript">
 			if (document.addEventListener) {
@@ -149,6 +150,7 @@ function sh_include_script_pageshow {
 }
 
 function sh_include_style {
+	return
 	cat <<-EOF
 		<style>
 			div#box_progress_config {
@@ -260,7 +262,7 @@ function sh_include_div_he {
 }
 
 # Carrega o tema e arquivos essenciais
-function sh_main {
+function sh_header_sh_htm_main {
 	cat <<-EOF
 		<meta charset="utf-8">
 		<script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/jquery.js"></script>
@@ -763,4 +765,8 @@ function sh_main {
 #sh_debug
 sh_config
 sh_refresh_installed_packages
-sh_main
+if [[ $# -eq 0 ]]; then
+	sh_header_sh_htm_main
+else
+	eval "$@"
+fi

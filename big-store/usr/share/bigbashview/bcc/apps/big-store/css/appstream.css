@@ -377,7 +377,7 @@ div#box_aur {
 }
 
 div#box_flatpak {
-/*	 display: none;*/
+	display: none;
     background-attachment: fixed;
     margin-bottom: 25px;
     border-radius: 15px;
