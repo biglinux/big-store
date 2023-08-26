@@ -119,7 +119,6 @@ function sh_refresh_installed_packages {
 }
 
 function sh_include_script_pageshow {
-	return
 	cat <<-EOF
 		<script type="text/javascript">
 			if (document.addEventListener) {
@@ -150,7 +149,6 @@ function sh_include_script_pageshow {
 }
 
 function sh_include_style {
-	return
 	cat <<-EOF
 		<style>
 			div#box_progress_config {
@@ -563,18 +561,6 @@ function sh_header_sh_htm_main {
 	else
 		echo '<div class="header-menu">'
 	fi
-
-
-#		<div onchange="disableBody();javascript:location.href='index.sh.htm?aur_change=y&search=$search'" class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_AUR">
-#		<div class="switch">
-#		<label>
-#		<input class="switch" type="checkbox" $aur_checkbox>
-#		<span class="lever">
-#		</span>
-#		Aur
-#		<div id="aur_icon_loading"></div>
-#		<div id="aur_number">
-#		</div></label></div></div>
 
 	cat <<-EOF
 		<div onchange="disableBody();javascript:location.href='index.sh.htm?appstream_change=y&search=$search'" class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_APPSTREAM">

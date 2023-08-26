@@ -247,11 +247,11 @@ function APPSTREAM_CATEGORY() {
 
 		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
 		if ((appstream_search_category)); then
-			./category_appstream_pamac.py "${param_search,,}"
+			python category_appstream_pamac.py "${param_search,,}"
 			appstream_search_category=0
 		else
 			# ./search_appstream_pamac_simple.py "${param_search,,}"
-			./search_appstream_pamac.py "${param_search,,}"
+			python search_appstream_pamac.py "${param_search,,}"
 		fi
 		#	echo '</div></div>'
 
@@ -328,6 +328,7 @@ function sh_main {
 
 			ICON_CATEGORY vetorial "fas fa-bezier-curve" $"Editores Vetorial"
 			ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho"
+			ICON_CATEGORY editortexto "fas fa-paint-brush" $"Editores de texto linha de comando"
 			#     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
 			ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
 			#    ICON_CATEGORY image-plugins "fas fa-plug" $"Imagem Plugins"
@@ -512,7 +513,7 @@ function sh_main {
 
 	source biglinux-category
 	if sh_get_XIVAStudio; then
-#		source xiva-category
+		source xiva-category
 		cat <<-EOF
 			<div class="logo">
 			<img id="btn-big" src="icons/xiva.png" class="logo-biglinux" onclick="biglinux();">

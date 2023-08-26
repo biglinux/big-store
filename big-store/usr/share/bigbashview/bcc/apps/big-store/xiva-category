@@ -60,6 +60,10 @@ function sh_config() {
 	xiva_appstream_CATEGORIES["imageditor"]="darktable gimp hugin LightZone luminancehdr krita rawtherapee digikam mypaint"
 	xiva_flatpak_CATEGORIES["imageditor"]="org.darktable.Darktable org.gimp.GIMP net.sourceforge.Hugin net.sourceforge.qtpfsgui.LuminanceHDR com.rawtherapee.RawTherapee org.kde.digikam"
 
+	# Dados para a categoria "editortexto"
+	xiva_appstream_CATEGORIES["editortexto"]="nano vim neovim emacs ed joe mcedit eddie micro edlin edtext "
+	xiva_flatpak_CATEGORIES["editortexto"]="com.agateau.nanonote org.vim.Vim io.neovim.nvim"
+
 	# Dados para a categoria "imagemconvert"
 	xiva_appstream_CATEGORIES["imagemconvert"]="converseen ciano xnconvert rgb2cmyk"
 	# xiva_flatpak_CATEGORIES["imagemconvert"]="Adicione aqui se necessário"
@@ -69,8 +73,14 @@ function sh_config() {
 	xiva_flatpak_CATEGORIES["3dcad"]="org.blender.Blender com.wings3d.WINGS com.sweethome3d.Sweethome3d org.freecadweb.FreeCAD org.openscad.OpenSCAD org.kde.kxstitch"
 
 	# Dados para a categoria "fontes"
-	xiva_appstream_CATEGORIES["fontes"]="birdfont font-manager ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-anonymous-pro ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons
-	ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-montserrat ttf-opensans ttf-roboto ttf-roboto-mono ttf-ms-fonts ttf-mac-fonts ttf-ms-win10-auto ttf-wps-fonts"
+	xiva_appstream_CATEGORIES["fontes"]="birdfont font-manager ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-anonymous-pro ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons \
+	ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-montserrat ttf-opensans ttf-roboto ttf-roboto-mono ttf-ms-fonts ttf-mac-fonts ttf-ms-win10-auto ttf-wps-fonts \
+	ttf-cascadia-code ttf-comfortaa ttf-cormorant ttf-croscore ttf-dejavu ttf-dejavu-nerd ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-firacode-nerd ttf-font-icons\
+	ttf-hack ttf-ibm-plex ttf-inconsolata ttf-inconsolata-go-nerd ttf-inconsolata-lgc-nerd ttf-inconsolata-nerd ttf-input ttf-jetbrains-mono ttf-jetbrains-mono-nerd\
+	ttf-lato ttf-liberation ttf-linux-libertine ttf-meslo-nerd-font-powerlevel10k ttf-monoid ttf-ms-fonts ttf-nerd-fonts-symbols-1000-em ttf-nerd-fonts-symbols-2048-em\
+	ttf-nerd-fonts-symbols-2048-em-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono ttf-proggy-clean ttf-proggyclean-nerd ttf-roboto\
+	ttf-roboto-mono ttf-sourcecodepro-nerd ttf-space-mono-nerd ttf-tahoma ttf-terminus-nerd ttf-tibetan-machine ttf-ubuntu-font-family ttf-ubuntu-nerd\
+	sdl2_ttf sdl_ttf ttf-anonymous-pro ttf-bitstream-vera ttf-caladea"
 
 	# Dados para a categoria "diagramacao"
 	xiva_appstream_CATEGORIES["diagramacao"]="glabels scribus"
@@ -178,7 +188,7 @@ function sh_config() {
 	xiva_appstream_CATEGORIES["deveditor"]="atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition
 	intellij-idea-community-edition codeblocks kdevelop kdevelop-python kdevelop-php android-studio eclipse-java-bin goland visual-studio-code-bin sublime-text-3 sublime-text-4-dev
 	okteta phpstorm webstorm cudatext-gtk2-bin cudatext-qt5-bin vscodium-bin"
-	# xiva_flatpak_CATEGORIES["deveditor"]="Adicione aqui se necessário"
+	xiva_flatpak_CATEGORIES["deveditor"]="org.codeblocks.codeblocks io.atom.Atom com.visualstudio.code-oss org.freedesktop.Sdk.Extension.freepascal org.geany.Geany io.github.cudatext.CudaText-Qt5"
 
 	# Dados para a categoria "devbd"
 	xiva_appstream_CATEGORIES["devbd"]="dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools-bin mongodb-bin"
