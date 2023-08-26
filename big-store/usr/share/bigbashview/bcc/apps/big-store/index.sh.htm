@@ -328,6 +328,7 @@ function sh_main {
 
 			ICON_CATEGORY vetorial "fas fa-bezier-curve" $"Editores Vetorial"
 			ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho"
+			ICON_CATEGORY editortexto "fas fa-paint-brush" $"Editores de texto linha de comando"
 			#     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
 			ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
 			#    ICON_CATEGORY image-plugins "fas fa-plug" $"Imagem Plugins"
@@ -512,7 +513,7 @@ function sh_main {
 
 	source biglinux-category
 	if sh_get_XIVAStudio; then
-#		source xiva-category
+		source xiva-category
 		cat <<-EOF
 			<div class="logo">
 			<img id="btn-big" src="icons/xiva.png" class="logo-biglinux" onclick="biglinux();">

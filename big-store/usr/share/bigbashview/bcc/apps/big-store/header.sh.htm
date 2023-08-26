@@ -562,18 +562,6 @@ function sh_header_sh_htm_main {
 		echo '<div class="header-menu">'
 	fi
 
-
-#		<div onchange="disableBody();javascript:location.href='index.sh.htm?aur_change=y&search=$search'" class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_AUR">
-#		<div class="switch">
-#		<label>
-#		<input class="switch" type="checkbox" $aur_checkbox>
-#		<span class="lever">
-#		</span>
-#		Aur
-#		<div id="aur_icon_loading"></div>
-#		<div id="aur_number">
-#		</div></label></div></div>
-
 	cat <<-EOF
 		<div onchange="disableBody();javascript:location.href='index.sh.htm?appstream_change=y&search=$search'" class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_APPSTREAM">
 		<div class="switch">
