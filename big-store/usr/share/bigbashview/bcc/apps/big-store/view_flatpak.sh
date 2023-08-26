@@ -75,7 +75,7 @@ function sh_view_flatpak_sh {
 #	xdebug "$0[$LINENO]: $search"
 #	xdebug "$0[$LINENO]: $FLATPAK_INSTALLED_LIST"
 
-	sh_seek_flatpak_parallel_filter "$(grep "$search|" "$cacheFile")"
+	sh_seek_flatpak_parallel_filter "$(grep -i "|$search|" "$cacheFile")"
 
 #	# Inicia uma função para possibilitar o uso em modo assíncrono
 #	readarray -t -d"|" myarray <<<"$(grep "|$search|" $HOME_FOLDER/flatpak.cache)"
@@ -172,7 +172,7 @@ function sh_view_flatpak_sh {
 		$Versao_disponivel
 		</div>
 		<div class="gridRight">
-		${PKG_FLATPAK[PKG_VERSION_ORIG]}
+		${PKG_FLATPAK[PKG_VERSION]}
 		</div></div>
 		<div class="grid-container">
 		<div class="gridLeft">
