@@ -35,6 +35,7 @@ for pkg in $(<$TMP_DIR/aur_package_names_having_icons_in_flatpak.txt); do
 
     icon=$(grep -i -m1 "^$pkg|" $TMP_DIR/flatpak_icons.txt)
     pkgname=${icon%%|*}
+    pkgname=${pkgname,,}
     icon=${icon##*|}
     echo "icone $pkgname $icon"
 
@@ -48,6 +49,7 @@ for pkg in $(<$TMP_DIR/pacman_names_having_icons_in_flatpak.txt); do
 
     icon=$(grep -i -m1 "^$pkg|" $TMP_DIR/flatpak_icons.txt)
     pkgname=${icon%%|*}
+    pkgname=${pkgname,,}
     icon=${icon##*|}
 
     mkdir -p /usr/share/bigbashview/bcc/apps/big-store/description/$pkgname/
