@@ -300,7 +300,7 @@ for p in data["results"]:
                 )
             else:
                 print(
-                    '<div id=optdepends_remove><a onclick="disableBody();" href="view_appstream.sh.htm?pkg_name='
+                    '<div id=optdepends_remove><a onclick="disableBody();" href="view_aur.sh.htm?pkg_name='
                     + optdepends_name
                     + '">'
                 )

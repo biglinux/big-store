@@ -1,0 +1,1 @@
+/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/org.kde.arianna.png
