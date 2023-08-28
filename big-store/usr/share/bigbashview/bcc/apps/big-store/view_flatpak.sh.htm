@@ -102,10 +102,10 @@ function sh_view_flatpak_sh_htm {
 
 	./view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
 
-	if [[ -e "$HOME_FOLDER/flatpak-verification-fault" ]]; then
+	if [[ ! -e "$HOME_FOLDER/flatpak-verification-fault" ]]; then
         grep -ve "^bef flathub" -ve "^aft flathub" "$TMP_FOLDER/flatpak_pamac_temp.txt"
 	else
-		./view_flatpak.sh "$pkg_name"
+		source view_flatpak.sh "$pkg_name"
 	fi
 
 	cat <<-EOF
