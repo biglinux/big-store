@@ -837,3 +837,6 @@ msgstr "Big-Store の別のインスタンスが既に実行されています�
 
 msgid "Procurar aplicativo"
 msgstr "アプリを閲覧する"
+
+msgid "Editores de texto linha de comando"
+msgstr "コマンドラインテキストエディタ"

@@ -845,3 +845,6 @@ msgstr "Un'altra istanza di Big-Store è già in esecuzione."
 
 msgid "Procurar aplicativo"
 msgstr "Sfoglia l'app"
+
+msgid "Editores de texto linha de comando"
+msgstr "Editor di testo da riga di comando"

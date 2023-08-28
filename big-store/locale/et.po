@@ -845,3 +845,6 @@ msgstr "Teine Big-Store'i eksemplar juba töötab."
 
 msgid "Procurar aplicativo"
 msgstr "Sirvi rakendust"
+
+msgid "Editores de texto linha de comando"
+msgstr "Käsurea tekstiredaktorid"

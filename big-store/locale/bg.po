@@ -845,3 +845,6 @@ msgstr "Друг екземпляр на Big-Store вече се изпълня�
 
 msgid "Procurar aplicativo"
 msgstr "Преглед на приложението"
+
+msgid "Editores de texto linha de comando"
+msgstr "Текстови редактори на командния ред"

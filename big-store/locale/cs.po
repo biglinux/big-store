@@ -843,3 +843,6 @@ msgstr "Další instance Big-Store je již spuštěna."
 
 msgid "Procurar aplicativo"
 msgstr "Procházet aplikaci"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textové editory příkazového řádku"
