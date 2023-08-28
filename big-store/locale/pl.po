@@ -845,3 +845,6 @@ msgstr "Kolejna instancja Big-Store jest już uruchomiona."
 
 msgid "Procurar aplicativo"
 msgstr "Przeglądaj aplikację"
+
+msgid "Editores de texto linha de comando"
+msgstr "Edytory tekstu wiersza polecenia"

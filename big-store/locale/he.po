@@ -841,3 +841,6 @@ msgstr "מופע נוסף של Big-Store כבר פועל."
 
 msgid "Procurar aplicativo"
 msgstr "עיון באפליקציה"
+
+msgid "Editores de texto linha de comando"
+msgstr "עורכי טקסט של שורת הפקודה"

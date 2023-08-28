@@ -843,3 +843,6 @@ msgstr "En annen forekomst av Big-Store kjører allerede."
 
 msgid "Procurar aplicativo"
 msgstr "Bla gjennom appen"
+
+msgid "Editores de texto linha de comando"
+msgstr "Tekstredigeringsprogrammer på kommandolinjen"

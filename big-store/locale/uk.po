@@ -843,3 +843,6 @@ msgstr "Ще один екземпляр Big-Store вже працює."
 
 msgid "Procurar aplicativo"
 msgstr "Переглянути додаток"
+
+msgid "Editores de texto linha de comando"
+msgstr "Текстові редактори командного рядка"

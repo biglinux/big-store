@@ -846,3 +846,6 @@ msgstr "Een ander exemplaar van Big-Store draait al."
 
 msgid "Procurar aplicativo"
 msgstr "Door de app bladeren"
+
+msgid "Editores de texto linha de comando"
+msgstr "Teksteditors voor de opdrachtregel"

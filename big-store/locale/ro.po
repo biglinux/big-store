@@ -847,3 +847,6 @@ msgstr "O altă instanță a Big-Store rulează deja."
 
 msgid "Procurar aplicativo"
 msgstr "Răsfoiți aplicația"
+
+msgid "Editores de texto linha de comando"
+msgstr "Editoare de text în linia de comandă"

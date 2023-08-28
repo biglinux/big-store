@@ -845,3 +845,6 @@ msgstr "Još jedna instanca Big-Storea već je pokrenuta."
 
 msgid "Procurar aplicativo"
 msgstr "Pregledavanje aplikacije"
+
+msgid "Editores de texto linha de comando"
+msgstr "Uređivači teksta naredbenog retka"

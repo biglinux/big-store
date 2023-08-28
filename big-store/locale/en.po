@@ -843,3 +843,6 @@ msgstr "Another instance of Big-Store is already running."
 
 msgid "Procurar aplicativo"
 msgstr "Browse app"
+
+msgid "Editores de texto linha de comando"
+msgstr "Command-line text editors"

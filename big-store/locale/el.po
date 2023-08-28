@@ -846,3 +846,6 @@ msgstr "Μια άλλη παρουσία του Big-Store εκτελείται �
 
 msgid "Procurar aplicativo"
 msgstr "Περιήγηση στην εφαρμογή"
+
+msgid "Editores de texto linha de comando"
+msgstr "Προγράμματα επεξεργασίας κειμένου γραμμής εντολών"

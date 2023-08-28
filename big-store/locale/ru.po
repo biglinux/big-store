@@ -845,3 +845,6 @@ msgstr "Еще один экземпляр Big-Store уже запущен."
 
 msgid "Procurar aplicativo"
 msgstr "Обзор приложения"
+
+msgid "Editores de texto linha de comando"
+msgstr "Текстовые редакторы командной строки"
