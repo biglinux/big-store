@@ -50,8 +50,10 @@ function sh_config {
 	declare -g Programas_Flatpak=$"Programas Flatpak"
 	declare -g Button_Fechar=$"Fechar"
 	declare -g Button_Cancelar=$"Cancelar"
-	export REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
-	export PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
+#	export REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
+#	export PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
+	export REPOSITORY="$(echo "${PKG_FLATPAK[PKG_ID]}" | cut -f1 -d"/")"
+	export PACKAGE_ID="$(echo "${PKG_FLATPAK[PKG_ID]}" | cut -f2-90 -d"/")"
 }
 
 function sh_view_flatpak_sh_htm {
@@ -98,12 +100,12 @@ function sh_view_flatpak_sh_htm {
 		</div></div></div>
 	EOF
 
-	python view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
+	./view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
 
-	if [[ -e "$HOME/.bigstore/flatpak-verification-fault" ]]; then
-		cat "$TMP_FOLDER/flatpak_pamac_temp.txt"
+	if [[ -e "$HOME_FOLDER/flatpak-verification-fault" ]]; then
+        grep -ve "^bef flathub" -ve "^aft flathub" "$TMP_FOLDER/flatpak_pamac_temp.txt"
 	else
-		source view_flatpak.sh "$pkg_name"
+		./view_flatpak.sh "$pkg_name"
 	fi
 
 	cat <<-EOF
