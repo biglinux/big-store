@@ -1,0 +1,1 @@
+/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/https://user-images.githubusercontent.com/17271572/66533289-eb697e00-eb6e-11e9-8a93-513056a343f6.png
