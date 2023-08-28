@@ -30,6 +30,11 @@ script_name = LIBRARY + "/bstrlib.sh"
 
 def print_pkg_details(details):
     if details.get_app_id() is None:
+        function_name = "sh_pkg_flatpak_verify"
+        package_name = sys.argv[1]
+        command = f'source {script_name} && {function_name} "{package_name}"'
+        #subprocess.run(["./pkg_flatpak_verify"], stdout=subprocess.PIPE, text=True)
+        subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
         sys.exit()
 
     loc = "%d/%m/%Y" if locale.getlocale()[0] == "pt_BR" else "%Y/%m/%d"
@@ -242,13 +247,6 @@ def print_pkg_details(details):
             ).strftime(loc)
         )
         print("</div></div>")
-
-
-    function_name = "sh_pkg_flatpak_verify"
-    package_name = sys.argv[1]
-    command = f'source {script_name} && {function_name} "{package_name}"'
-#   subprocess.run(["./pkg_flatpak_verify"], stdout=subprocess.PIPE, text=True)
-    subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
 
     if details.get_installed_version():
         print('<div class="grid-container">')
