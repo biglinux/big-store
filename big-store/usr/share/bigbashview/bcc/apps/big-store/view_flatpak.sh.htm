@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2023/08/24
+#  Altered: 2023/08/26
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230824"
+_VERSION_="1.0.0-20230826"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -55,7 +55,7 @@ function sh_config {
 }
 
 function sh_view_flatpak_sh_htm {
-	[[ -z "$PACKAGE_ID" ]] && PACKAGE_ID="$pkg_name"
+	[[ -z "$PACKAGE_ID" ]] && PACKAGE_ID="$pkg_name" || PACKAGE_ID="${FLATPAK[PACKAGE_ID]}"
 
 	if [[ "$pkg_install" = "y" ]]; then
 		ACTION="install_flatpak"
@@ -106,7 +106,6 @@ function sh_view_flatpak_sh_htm {
 		source view_flatpak.sh "$pkg_name"
 	fi
 
-#	xdebug "$pkg_name"
 	cat <<-EOF
 		<script>runAvatarFlatpak();</script>
 		<div id="modal1" class="modal modal-fixed-footer">
