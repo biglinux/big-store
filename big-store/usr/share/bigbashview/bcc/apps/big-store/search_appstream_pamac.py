@@ -30,10 +30,7 @@ lang_translations = gettext.translation(
 lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
-if "TMP_FOLDER" in os.environ:
-    TMP_FOLDER = os.environ["TMP_FOLDER"]
-else:
-    TMP_FOLDER = "/tmp"
+TMP_FOLDER = os.environ["TMP_FOLDER"]
 
 
 def print_pkg_details(details):
@@ -184,7 +181,7 @@ if __name__ == "__main__":
         print(
             '<script>runAvatarAppstream(); $(document).ready(function () {$("#box_appstream").show();});</script>'
         )
-        with open(TMP_FOLDER + "/appstream_number.html", "a") as f:
+        with open(TMP_FOLDER + "/appstream_number.html", "w") as f:
             f.write(str(num))
 
         print(
