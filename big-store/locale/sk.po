@@ -848,3 +848,72 @@ msgstr "Prehľadávať aplikáciu"
 
 msgid "Editores de texto linha de comando"
 msgstr "Textové editory príkazového riadka"
+
+msgid "Multimidia"
+msgstr "Multimédiá"
+
+msgid "Carta"
+msgstr "Písmeno"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Zobrazenie informácií o zariadení na hardvéri systému Linux"
+
+msgid "Processador"
+msgstr "Procesor"
+
+msgid "Placa mãe"
+msgstr "Základná doska"
+
+msgid "Memória"
+msgstr "Pamäť"
+
+msgid "Swap Memória Virtual"
+msgstr "Výmena virtuálnej pamäte"
+
+msgid "Placa de vídeo"
+msgstr "Grafická karta"
+
+msgid "Áudio"
+msgstr "Zvukový"
+
+msgid "Rede"
+msgstr "Sieť"
+
+msgid "Conexões de Rede"
+msgstr "Sieťové pripojenia"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB zariadenia a pripojenia"
+
+msgid "Portas PCI"
+msgstr "Porty PCI"
+
+msgid "Bateria"
+msgstr "Batéria"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Úložné zariadenia"
+
+msgid "Partições montadas"
+msgstr "Namontované priečky"
+
+msgid "Partições desmontadas"
+msgstr "Nenamontované priečky"
+
+msgid "Dispositivos lógicos"
+msgstr "Logické zariadenia"
+
+msgid "Raid"
+msgstr "NÁJAZD"
+
+msgid "Informações de Sistema"
+msgstr "Informácie o systéme"
+
+msgid "Repositórios"
+msgstr "Repozitára"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Teplota"

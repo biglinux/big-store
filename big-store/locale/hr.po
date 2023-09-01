@@ -848,3 +848,72 @@ msgstr "Pregledavanje aplikacije"
 
 msgid "Editores de texto linha de comando"
 msgstr "Uređivači teksta naredbenog retka"
+
+msgid "Multimidia"
+msgstr "Multimedija"
+
+msgid "Carta"
+msgstr "Slovo"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Prikaz informacija o uređaju na Linux hardveru"
+
+msgid "Processador"
+msgstr "Procesor"
+
+msgid "Placa mãe"
+msgstr "Matična ploča"
+
+msgid "Memória"
+msgstr "Memorija"
+
+msgid "Swap Memória Virtual"
+msgstr "Zamjena virtualne memorije"
+
+msgid "Placa de vídeo"
+msgstr "Grafička kartica"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Mreža"
+
+msgid "Conexões de Rede"
+msgstr "Mrežne veze"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB uređaji i veze"
+
+msgid "Portas PCI"
+msgstr "Od zajedničkog interesa: priključci"
+
+msgid "Bateria"
+msgstr "Baterija"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Uređaji za pohranu"
+
+msgid "Partições montadas"
+msgstr "Montirane particije"
+
+msgid "Partições desmontadas"
+msgstr "Nemontirane particije"
+
+msgid "Dispositivos lógicos"
+msgstr "Logički uređaji"
+
+msgid "Raid"
+msgstr "PREPAD"
+
+msgid "Informações de Sistema"
+msgstr "Informacije o sustavu"
+
+msgid "Repositórios"
+msgstr "Repozitorijima"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatura"

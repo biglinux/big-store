@@ -849,3 +849,72 @@ msgstr "Door de app bladeren"
 
 msgid "Editores de texto linha de comando"
 msgstr "Teksteditors voor de opdrachtregel"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brief"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Apparaatinformatie weergeven op Linux-hardware"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Moederbord"
+
+msgid "Memória"
+msgstr "Geheugen"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuele geheugenwissel"
+
+msgid "Placa de vídeo"
+msgstr "Videokaart"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Netwerk"
+
+msgid "Conexões de Rede"
+msgstr "Netwerkverbindingen"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-apparaten en -aansluitingen"
+
+msgid "Portas PCI"
+msgstr "PCI-poorten"
+
+msgid "Bateria"
+msgstr "Batterij"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Opslagapparaten"
+
+msgid "Partições montadas"
+msgstr "Gemonteerde partities"
+
+msgid "Partições desmontadas"
+msgstr "Niet-gekoppelde partities"
+
+msgid "Dispositivos lógicos"
+msgstr "Logische apparaten"
+
+msgid "Raid"
+msgstr "INVAL"
+
+msgid "Informações de Sistema"
+msgstr "Systeeminformatie"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatuur"

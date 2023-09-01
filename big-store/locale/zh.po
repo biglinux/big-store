@@ -834,3 +834,72 @@ msgstr "浏览应用"
 
 msgid "Editores de texto linha de comando"
 msgstr "命令行文本编辑器"
+
+msgid "Multimidia"
+msgstr "多媒体"
+
+msgid "Carta"
+msgstr "信"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "查看 Linux 硬件上的设备信息"
+
+msgid "Processador"
+msgstr "处理器"
+
+msgid "Placa mãe"
+msgstr "母板"
+
+msgid "Memória"
+msgstr "记忆"
+
+msgid "Swap Memória Virtual"
+msgstr "虚拟内存交换"
+
+msgid "Placa de vídeo"
+msgstr "显卡"
+
+msgid "Áudio"
+msgstr "音频"
+
+msgid "Rede"
+msgstr "网络"
+
+msgid "Conexões de Rede"
+msgstr "网络连接"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB 设备和连接"
+
+msgid "Portas PCI"
+msgstr "PCI 端口"
+
+msgid "Bateria"
+msgstr "电池"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "存储设备"
+
+msgid "Partições montadas"
+msgstr "挂载的分区"
+
+msgid "Partições desmontadas"
+msgstr "未挂载的分区"
+
+msgid "Dispositivos lógicos"
+msgstr "逻辑设备"
+
+msgid "Raid"
+msgstr "袭击"
+
+msgid "Informações de Sistema"
+msgstr "系统信息"
+
+msgid "Repositórios"
+msgstr "存储 库"
+
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+msgid "Temperatura"
+msgstr "温度"

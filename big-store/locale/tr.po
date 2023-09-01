@@ -848,3 +848,72 @@ msgstr "Uygulamaya göz atın"
 
 msgid "Editores de texto linha de comando"
 msgstr "Komut satırı metin düzenleyicileri"
+
+msgid "Multimidia"
+msgstr "Multimedya"
+
+msgid "Carta"
+msgstr "Mektup"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Linux Donanımında cihaz bilgilerini görüntüleme"
+
+msgid "Processador"
+msgstr "Işlemci"
+
+msgid "Placa mãe"
+msgstr "Anakart"
+
+msgid "Memória"
+msgstr "Bellek"
+
+msgid "Swap Memória Virtual"
+msgstr "Sanal Bellek Takası"
+
+msgid "Placa de vídeo"
+msgstr "Ekran Kartı"
+
+msgid "Áudio"
+msgstr "Ses"
+
+msgid "Rede"
+msgstr "Ağ"
+
+msgid "Conexões de Rede"
+msgstr "Ağ Bağlantıları"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB aygıtları ve bağlantıları"
+
+msgid "Portas PCI"
+msgstr "PCI bağlantı noktaları"
+
+msgid "Bateria"
+msgstr "Pil"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Depolama Aygıtları"
+
+msgid "Partições montadas"
+msgstr "Takılı bölümler"
+
+msgid "Partições desmontadas"
+msgstr "Bağlanmamış bölümler"
+
+msgid "Dispositivos lógicos"
+msgstr "Mantıksal aygıtlar"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Sistem Bilgisi"
+
+msgid "Repositórios"
+msgstr "Depoları"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Sıcaklık"

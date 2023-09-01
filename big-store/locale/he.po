@@ -844,3 +844,72 @@ msgstr "עיון באפליקציה"
 
 msgid "Editores de texto linha de comando"
 msgstr "עורכי טקסט של שורת הפקודה"
+
+msgid "Multimidia"
+msgstr "מולטימדיה"
+
+msgid "Carta"
+msgstr "אות"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "הצגת פרטי התקן על חומרת Linux"
+
+msgid "Processador"
+msgstr "מעבד"
+
+msgid "Placa mãe"
+msgstr "לוח אם"
+
+msgid "Memória"
+msgstr "זכרון"
+
+msgid "Swap Memória Virtual"
+msgstr "החלפת זיכרון וירטואלי"
+
+msgid "Placa de vídeo"
+msgstr "כרטיס וידאו"
+
+msgid "Áudio"
+msgstr "שמע"
+
+msgid "Rede"
+msgstr "רשת"
+
+msgid "Conexões de Rede"
+msgstr "חיבורי רשת"
+
+msgid "Dispositivos e conexões USB"
+msgstr "התקני USB וחיבורים"
+
+msgid "Portas PCI"
+msgstr "יציאות PCI"
+
+msgid "Bateria"
+msgstr "סוללה"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "התקני אחסון"
+
+msgid "Partições montadas"
+msgstr "מחיצות מותקנות"
+
+msgid "Partições desmontadas"
+msgstr "מחיצות לא מותקנות"
+
+msgid "Dispositivos lógicos"
+msgstr "התקנים לוגיים"
+
+msgid "Raid"
+msgstr "פשיטה"
+
+msgid "Informações de Sistema"
+msgstr "מידע מערכת"
+
+msgid "Repositórios"
+msgstr "מאגרים"
+
+msgid "Bluetooth"
+msgstr "בלוטות'"
+
+msgid "Temperatura"
+msgstr "טמפרטורה"
