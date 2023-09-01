@@ -98,9 +98,7 @@ function APPSTREAM_CATEGORY() {
 			$Programas_Nativos
 			</div></div></div>
 			<div id="content_appstream">
-			<!--
 			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-			-->
 		EOF
 
 		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
