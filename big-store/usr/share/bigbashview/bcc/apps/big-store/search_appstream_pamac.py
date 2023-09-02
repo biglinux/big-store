@@ -189,13 +189,3 @@ if __name__ == "__main__":
             num,
             '";</script>',
         )
-
-# Simple Search
-# for pkg in pkgs:
-# print_pkg_details (pkg)
-# num += 1
-# if num == 50:
-# break
-# if num > 0:
-# print ('<script>$(document).ready(function () {$("#box_appstream").show();});</script>')
-# print ('<script>document.getElementById("appstream_number").innerHTML = "', num, '"</script>')

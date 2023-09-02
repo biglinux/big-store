@@ -16,7 +16,7 @@ export TEXTDOMAIN=big-store
 export HOME_FOLDER="$HOME/.bigstore"
 export TMP_FOLDER="/tmp/bigstore-$USER"
 
-rm -f ${TMP_FOLDER}/aurbuild.html
+rm -f ${TMP_FOLDER}/aur_build.html
 
 #PKG="$@"
 
@@ -78,7 +78,7 @@ title && version && description && idaur && button {
         RS = RS_BAK
     }
 
-# Writes html of current package on aurbuild.html
+# Writes html of current package on aur_build.html
 # Do not worry, file redirector ">" works different in awk: only the first interaction deletes file content
     print(\
 "<a onclick=\"disableBody();\" href=\"view_aur.sh.htm?pkg_name=" title "\">",
@@ -88,7 +88,7 @@ title && version && description && idaur && button {
 "<div id=aur_name><div id=limit_title_name>" title "</div>",
 "<div id=version>" version "</div></div></div>",
 "<div id=box_aur_desc><div id=aur_desc>" description "</div></div>",
-button) > tmpfolder "/aurbuild.html"
+button) > tmpfolder "/aur_build.html"
 
     count++
     skipping++
@@ -101,11 +101,11 @@ END{
         print(\
 "<script>$(document).ready(function() {$(\"#box_aur\").show();});</script>",
 "<script>document.getElementById(\"aur_icon_loading\").innerHTML = \"\";</script>",
-"<script>runAvatarAur();</script>") > tmpfolder "/aurbuild.html"
+"<script>runAvatarAur();</script>") > tmpfolder "/aur_build.html"
     } else {
         print(\
 "<script>document.getElementById(\"aur_icon_loading\").innerHTML = \"\";</script>",
-"<script>runAvatarAur();</script>") > tmpfolder "/aurbuild.html"
+"<script>runAvatarAur();</script>") > tmpfolder "/aur_build.html"
     }
 }
 
@@ -113,4 +113,4 @@ END{
 '
 # End of gawk script
 
-mv ${TMP_FOLDER}/aurbuild.html ${TMP_FOLDER}/aur.html
+mv ${TMP_FOLDER}/aur_build.html ${TMP_FOLDER}/aur.html

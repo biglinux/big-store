@@ -778,8 +778,8 @@ img.img_loading {
     overflow: hidden;
 }
 
-div#aur_icon_loading {
-    display: contents;
+div#aur_icon_loading, div#appstream_icon_loading, div#flatpak_icon_loading, div#snap_icon_loading {
+	display: contents;
 }
 
 div#content_index {
