@@ -103,10 +103,10 @@ function APPSTREAM_CATEGORY() {
 
 		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
 		if ((appstream_search_category)); then
-			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html"
+			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
 			appstream_search_category=0
 		else
-			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html"
+			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
 		fi
 
 		if [[ -e "${TMP_FOLDER}/appstream.html" ]]; then
@@ -157,12 +157,12 @@ function AUR_CATEGORY {
 
 #		xdebug "$aur_search_category"
 		if ((aur_search_category)); then
-##			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
- 			sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt")
+#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
+ 			sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
 			aur_search_category=0
 		else
 #			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
- 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}"
+ 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
 		fi
 
 		if [[ -e "${TMP_FOLDER}/aur.html" ]]; then
@@ -215,12 +215,10 @@ function FLATPAK_CATEGORY {
 		#	xdebug "$flatpak_search_category"
 
 		if (( flatpak_search_category )); then
-#			sh_search_flatpak "${param_search,,}" &
-			sh_search_flatpak "${param_search,,}"
+			sh_search_flatpak "${param_search,,}" & wait
 			flatpak_search_category=0
 		else
-#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" &
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}"
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
 		fi
 
 		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
@@ -266,12 +264,10 @@ function SNAP_CATEGORY {
 		EOF
 
 		if (( snap_search_category )); then
-#			sh_search_snap "${param_search,,}" &
-			sh_search_snap "${param_search,,}"
+			sh_search_snap "${param_search,,}" & wait
 			snap_search_category=0
 		else
-#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" &
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}"
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" & wait
 		fi
 
 		if [[ -e "${TMP_FOLDER}/snap.html" ]]; then
