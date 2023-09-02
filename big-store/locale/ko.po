@@ -838,3 +838,72 @@ msgstr "앱 찾아보기"
 
 msgid "Editores de texto linha de comando"
 msgstr "명령줄 텍스트 편집기"
+
+msgid "Multimidia"
+msgstr "멀티미디어"
+
+msgid "Carta"
+msgstr "편지"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Linux 하드웨어에서 장치 정보 보기"
+
+msgid "Processador"
+msgstr "프로세서"
+
+msgid "Placa mãe"
+msgstr "마더보드"
+
+msgid "Memória"
+msgstr "기억"
+
+msgid "Swap Memória Virtual"
+msgstr "가상 메모리 스왑"
+
+msgid "Placa de vídeo"
+msgstr "비디오 카드"
+
+msgid "Áudio"
+msgstr "오디오"
+
+msgid "Rede"
+msgstr "네트워크"
+
+msgid "Conexões de Rede"
+msgstr "네트워크 연결"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB 장치 및 연결"
+
+msgid "Portas PCI"
+msgstr "PCI 포트"
+
+msgid "Bateria"
+msgstr "배터리"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "저장 장치"
+
+msgid "Partições montadas"
+msgstr "탑재된 파티션"
+
+msgid "Partições desmontadas"
+msgstr "마운트 해제된 파티션"
+
+msgid "Dispositivos lógicos"
+msgstr "논리적 장치"
+
+msgid "Raid"
+msgstr "습격"
+
+msgid "Informações de Sistema"
+msgstr "시스템 정보"
+
+msgid "Repositórios"
+msgstr "저장소"
+
+msgid "Bluetooth"
+msgstr "블루투스"
+
+msgid "Temperatura"
+msgstr "온도"

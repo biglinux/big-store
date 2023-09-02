@@ -848,3 +848,72 @@ msgstr "Sirvi rakendust"
 
 msgid "Editores de texto linha de comando"
 msgstr "Käsurea tekstiredaktorid"
+
+msgid "Multimidia"
+msgstr "Multimeedia"
+
+msgid "Carta"
+msgstr "Kiri"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Vaadake seadme teavet Linuxi riistvaras"
+
+msgid "Processador"
+msgstr "Protsessor"
+
+msgid "Placa mãe"
+msgstr "Emaplaat"
+
+msgid "Memória"
+msgstr "Mälu"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuaalne mäluvahetus"
+
+msgid "Placa de vídeo"
+msgstr "Videokaart"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Võrk"
+
+msgid "Conexões de Rede"
+msgstr "Võrguühendused"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-seadmed ja ühendused"
+
+msgid "Portas PCI"
+msgstr "PCI-pordid"
+
+msgid "Bateria"
+msgstr "Patarei"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Salvestusseadmed"
+
+msgid "Partições montadas"
+msgstr "Paigaldatud vaheseinad"
+
+msgid "Partições desmontadas"
+msgstr "Paigaldamata vaheseinad"
+
+msgid "Dispositivos lógicos"
+msgstr "Loogilised seadmed"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Süsteemi teave"
+
+msgid "Repositórios"
+msgstr "Hoidlates"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatuur"

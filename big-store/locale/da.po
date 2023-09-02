@@ -846,3 +846,72 @@ msgstr "Gennemse app"
 
 msgid "Editores de texto linha de comando"
 msgstr "Kommandolinjeteksteditorer"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brev"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Se enhedsoplysninger om Linux-hardware"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Bundkort"
+
+msgid "Memória"
+msgstr "Hukommelse"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuel hukommelsesudskiftning"
+
+msgid "Placa de vídeo"
+msgstr "Videokort"
+
+msgid "Áudio"
+msgstr "Lyd"
+
+msgid "Rede"
+msgstr "Netværk"
+
+msgid "Conexões de Rede"
+msgstr "Netværksforbindelser"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-enheder og -forbindelser"
+
+msgid "Portas PCI"
+msgstr "PCI-porte"
+
+msgid "Bateria"
+msgstr "Batteri"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Lagerenheder"
+
+msgid "Partições montadas"
+msgstr "Monterede skillevægge"
+
+msgid "Partições desmontadas"
+msgstr "Umonterede partitioner"
+
+msgid "Dispositivos lógicos"
+msgstr "Logiske enheder"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Oplysninger om systemet"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatur"

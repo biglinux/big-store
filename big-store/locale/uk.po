@@ -846,3 +846,72 @@ msgstr "Переглянути додаток"
 
 msgid "Editores de texto linha de comando"
 msgstr "Текстові редактори командного рядка"
+
+msgid "Multimidia"
+msgstr "Мультимедіа"
+
+msgid "Carta"
+msgstr "Буква"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Перегляд інформації про пристрій на обладнанні Linux"
+
+msgid "Processador"
+msgstr "Процесор"
+
+msgid "Placa mãe"
+msgstr "Материнська плата"
+
+msgid "Memória"
+msgstr "Пам'ять"
+
+msgid "Swap Memória Virtual"
+msgstr "Віртуальна заміна пам'яті"
+
+msgid "Placa de vídeo"
+msgstr "відеокарта"
+
+msgid "Áudio"
+msgstr "Аудіо"
+
+msgid "Rede"
+msgstr "Мережа"
+
+msgid "Conexões de Rede"
+msgstr "Мережеві підключення"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-пристрої та підключення"
+
+msgid "Portas PCI"
+msgstr "Порти PCI"
+
+msgid "Bateria"
+msgstr "Батарея"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Пристрої зберігання даних"
+
+msgid "Partições montadas"
+msgstr "Змонтовані перегородки"
+
+msgid "Partições desmontadas"
+msgstr "Незмонтовані розділи"
+
+msgid "Dispositivos lógicos"
+msgstr "Логічні пристрої"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Інформація про систему"
+
+msgid "Repositórios"
+msgstr "Сховищ"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Температура"
