@@ -98,16 +98,15 @@ function APPSTREAM_CATEGORY() {
 			$Programas_Nativos
 			</div></div></div>
 			<div id="content_appstream">
-			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
+			<script>document.getElementById("appstream_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
 		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
 		if ((appstream_search_category)); then
-			python category_appstream_pamac.py "${param_search,,}"
+			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html"
 			appstream_search_category=0
 		else
-			# ./search_appstream_pamac_simple.py "${param_search,,}"
-			python search_appstream_pamac.py "${param_search,,}"
+			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html"
 		fi
 
 		if [[ -e "${TMP_FOLDER}/appstream.html" ]]; then
@@ -115,7 +114,7 @@ function APPSTREAM_CATEGORY() {
 				<script>runAvatarAppstream();</script>
 				<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html');</script>
 				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html');</script>
-				</div>
+			</div>
 				</div>
 			EOF
 		else
@@ -140,7 +139,8 @@ function AUR_CATEGORY {
 		[[ -e "${TMP_FOLDER}/aur_build.html" ]] && rm -f "${TMP_FOLDER}/aur_build.html"
 
 		cat <<-EOF
-			<div id="box_aur">
+			<div class="row center" id="flex">
+			<div id="box_aur" style="border-radius: 0 0 15px 15px;">
 			<div id="title_aur">
 			<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
 			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
@@ -157,8 +157,8 @@ function AUR_CATEGORY {
 
 #		xdebug "$aur_search_category"
 		if ((aur_search_category)); then
-#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
- 			sh_search_aur_category "${param_search,,}"
+##			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
+ 			sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt")
 			aur_search_category=0
 		else
 #			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
@@ -195,7 +195,8 @@ function FLATPAK_CATEGORY {
 		[[ -e "$TMP_FOLDER/flatpak_build.html" ]] && rm -f "$TMP_FOLDER/flatpak_build.html"
 
 		cat <<-EOF
-			<div id="box_flatpak">
+			<div class="row center" id="flex">
+			<div id="box_flatpak" style="border-radius: 0 0 15px 15px;">
 			<div id="title_flatpak">
 			<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
 			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
@@ -207,6 +208,7 @@ function FLATPAK_CATEGORY {
 			$Programas_Flatpak
 			</div></div></div>
 			<div id="content_flatpak">
+			<script>document.getElementById("flatpak_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
 		#	xdebug "$param_search"
@@ -223,6 +225,7 @@ function FLATPAK_CATEGORY {
 
 		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
 			cat <<-EOF
+				<script>runAvatarFlatpak();</script>
 				<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
 				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
 				</div>
@@ -247,7 +250,8 @@ function SNAP_CATEGORY {
 		[[ -e "$TMP_FOLDER/snap_number.html" ]] && rm -f "$TMP_FOLDER/snap_number.html"
 		[[ -e "$TMP_FOLDER/snap_build.html" ]] && rm -f "$TMP_FOLDER/snap_build.html"
 		cat <<-EOF
-			<div id="box_snap">
+			<div class="row center" id="flex">
+			<div id="box_snap" style="border-radius: 0 0 15px 15px;">
 			<div id="title_snap">
 			<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_SNAP">
 			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
@@ -258,6 +262,7 @@ function SNAP_CATEGORY {
 			$Programas_Snap
 			</div></div></div>
 			<div id="content_snap">
+			<script>document.getElementById("snap_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
 		if (( snap_search_category )); then
@@ -269,18 +274,19 @@ function SNAP_CATEGORY {
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}"
 		fi
 
-#		if [[ -e "${TMP_FOLDER}/snap.html" ]]; then
+		if [[ -e "${TMP_FOLDER}/snap.html" ]]; then
 			cat <<-EOF
+				<script>runAvatarSnap();</script>
 				<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>
 				<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html');</script>
 				</div></div>
 			EOF
-#		else
-#			cat <<-EOF
-#				</div>
-#				</div>
-#			EOF
-#		fi
+		else
+			cat <<-EOF
+				</div>
+				</div>
+			EOF
+		fi
 	fi
 }
 export -f SNAP_CATEGORY
