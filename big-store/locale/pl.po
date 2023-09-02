@@ -848,3 +848,72 @@ msgstr "Przeglądaj aplikację"
 
 msgid "Editores de texto linha de comando"
 msgstr "Edytory tekstu wiersza polecenia"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Litera"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Wyświetlanie informacji o urządzeniu w systemie Linux Hardware"
+
+msgid "Processador"
+msgstr "Procesor"
+
+msgid "Placa mãe"
+msgstr "Płyta główna"
+
+msgid "Memória"
+msgstr "Pamięć"
+
+msgid "Swap Memória Virtual"
+msgstr "Wymiana pamięci wirtualnej"
+
+msgid "Placa de vídeo"
+msgstr "Karta graficzna"
+
+msgid "Áudio"
+msgstr "Dźwięk"
+
+msgid "Rede"
+msgstr "Sieć"
+
+msgid "Conexões de Rede"
+msgstr "Połączenia sieciowe"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Urządzenia i połączenia USB"
+
+msgid "Portas PCI"
+msgstr "Porty PCI"
+
+msgid "Bateria"
+msgstr "Bateria"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Urządzenia pamięci masowej"
+
+msgid "Partições montadas"
+msgstr "Zamontowane ścianki działowe"
+
+msgid "Partições desmontadas"
+msgstr "Niezamontowane ścianki działowe"
+
+msgid "Dispositivos lógicos"
+msgstr "Urządzenia logiczne"
+
+msgid "Raid"
+msgstr "NAJAZD"
+
+msgid "Informações de Sistema"
+msgstr "Informacje o systemie"
+
+msgid "Repositórios"
+msgstr "Repozytoriów"
+
+msgid "Bluetooth"
+msgstr "Łączność Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatura"

@@ -840,3 +840,72 @@ msgstr "アプリを閲覧する"
 
 msgid "Editores de texto linha de comando"
 msgstr "コマンドラインテキストエディタ"
+
+msgid "Multimidia"
+msgstr "マルチメディア"
+
+msgid "Carta"
+msgstr "手紙"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Linuxハードウェアでデバイス情報を表示する"
+
+msgid "Processador"
+msgstr "プロセッサー"
+
+msgid "Placa mãe"
+msgstr "マザーボード"
+
+msgid "Memória"
+msgstr "記憶"
+
+msgid "Swap Memória Virtual"
+msgstr "仮想メモリスワップ"
+
+msgid "Placa de vídeo"
+msgstr "ビデオカード"
+
+msgid "Áudio"
+msgstr "オーディオ"
+
+msgid "Rede"
+msgstr "ネットワーク"
+
+msgid "Conexões de Rede"
+msgstr "ネットワーク接続"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB デバイスと接続"
+
+msgid "Portas PCI"
+msgstr "PCI ポート"
+
+msgid "Bateria"
+msgstr "電池"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "ストレージデバイス"
+
+msgid "Partições montadas"
+msgstr "マウントされたパーティション"
+
+msgid "Partições desmontadas"
+msgstr "マウントされていないパーティション"
+
+msgid "Dispositivos lógicos"
+msgstr "論理デバイス"
+
+msgid "Raid"
+msgstr "侵略"
+
+msgid "Informações de Sistema"
+msgstr "システムインフォメーション"
+
+msgid "Repositórios"
+msgstr "リポジトリ"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "温度"

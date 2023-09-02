@@ -849,3 +849,72 @@ msgstr "App durchsuchen"
 
 msgid "Editores de texto linha de comando"
 msgstr "Befehlszeilen-Texteditoren"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brief"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Anzeigen von Geräteinformationen auf Linux-Hardware"
+
+msgid "Processador"
+msgstr "Prozessor"
+
+msgid "Placa mãe"
+msgstr "Hauptplatine"
+
+msgid "Memória"
+msgstr "Gedächtnis"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtueller Speicheraustausch"
+
+msgid "Placa de vídeo"
+msgstr "Grafikkarte"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Netz"
+
+msgid "Conexões de Rede"
+msgstr "Netzwerkverbindungen"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-Geräte und -Anschlüsse"
+
+msgid "Portas PCI"
+msgstr "PCI-Anschlüsse"
+
+msgid "Bateria"
+msgstr "Batterie"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Speichergeräte"
+
+msgid "Partições montadas"
+msgstr "Eingehängte Trennwände"
+
+msgid "Partições desmontadas"
+msgstr "Nicht eingehängte Partitionen"
+
+msgid "Dispositivos lógicos"
+msgstr "Logische Geräte"
+
+msgid "Raid"
+msgstr "RAZZIA"
+
+msgid "Informações de Sistema"
+msgstr "Systeminformationen"
+
+msgid "Repositórios"
+msgstr "Repositorien"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatur"

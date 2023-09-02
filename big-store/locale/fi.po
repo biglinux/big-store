@@ -846,3 +846,72 @@ msgstr "Selaa sovellusta"
 
 msgid "Editores de texto linha de comando"
 msgstr "Komentorivin tekstieditorit"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Kirje"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Tarkastele laitetietoja Linux-laitteistossa"
+
+msgid "Processador"
+msgstr "Prosessori"
+
+msgid "Placa mãe"
+msgstr "Emolevy"
+
+msgid "Memória"
+msgstr "Muisti"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuaalimuistin vaihto"
+
+msgid "Placa de vídeo"
+msgstr "Näytönohjain"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Verkko"
+
+msgid "Conexões de Rede"
+msgstr "Verkkoyhteydet"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-laitteet ja liitännät"
+
+msgid "Portas PCI"
+msgstr "PCI-portit"
+
+msgid "Bateria"
+msgstr "Akku"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Tallennuslaitteet"
+
+msgid "Partições montadas"
+msgstr "Asennetut väliseinät"
+
+msgid "Partições desmontadas"
+msgstr "Asentamattomat väliseinät"
+
+msgid "Dispositivos lógicos"
+msgstr "Loogiset laitteet"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Järjestelmän tiedot"
+
+msgid "Repositórios"
+msgstr "Arkistot"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Lämpötila"

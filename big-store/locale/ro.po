@@ -850,3 +850,72 @@ msgstr "Răsfoiți aplicația"
 
 msgid "Editores de texto linha de comando"
 msgstr "Editoare de text în linia de comandă"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Scrisoare"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Vizualizați informațiile despre dispozitiv pe hardware-ul Linux"
+
+msgid "Processador"
+msgstr "Procesor"
+
+msgid "Placa mãe"
+msgstr "Placa"
+
+msgid "Memória"
+msgstr "Memorie"
+
+msgid "Swap Memória Virtual"
+msgstr "Schimb de memorie virtuală"
+
+msgid "Placa de vídeo"
+msgstr "Placă video"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Rețea"
+
+msgid "Conexões de Rede"
+msgstr "Conexiuni la rețea"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Dispozitive și conexiuni USB"
+
+msgid "Portas PCI"
+msgstr "Porturi PCI"
+
+msgid "Bateria"
+msgstr "Baterie"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Dispozitive de stocare"
+
+msgid "Partições montadas"
+msgstr "Pereți despărțitori montați"
+
+msgid "Partições desmontadas"
+msgstr "Partiții despărțitoare nemontate"
+
+msgid "Dispositivos lógicos"
+msgstr "Dispozitive logice"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Informații despre sistem"
+
+msgid "Repositórios"
+msgstr "Arhive"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatură"

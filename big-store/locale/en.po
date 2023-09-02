@@ -846,3 +846,72 @@ msgstr "Browse app"
 
 msgid "Editores de texto linha de comando"
 msgstr "Command-line text editors"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Letter"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "View device information on Linux Hardware"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Motherboard"
+
+msgid "Memória"
+msgstr "Memory"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtual Memory Swap"
+
+msgid "Placa de vídeo"
+msgstr "Video Card"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Network"
+
+msgid "Conexões de Rede"
+msgstr "Network Connections"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB devices and connections"
+
+msgid "Portas PCI"
+msgstr "PCI ports"
+
+msgid "Bateria"
+msgstr "Battery"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Storage Devices"
+
+msgid "Partições montadas"
+msgstr "Mounted partitions"
+
+msgid "Partições desmontadas"
+msgstr "Unmounted partitions"
+
+msgid "Dispositivos lógicos"
+msgstr "Logical devices"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "System Information"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperature"
