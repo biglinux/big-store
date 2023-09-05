@@ -846,3 +846,72 @@ msgstr "Bla gjennom appen"
 
 msgid "Editores de texto linha de comando"
 msgstr "Tekstredigeringsprogrammer på kommandolinjen"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brev"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Se enhetsinformasjon på Linux-maskinvare"
+
+msgid "Processador"
+msgstr "Prosessor"
+
+msgid "Placa mãe"
+msgstr "Hovedkort"
+
+msgid "Memória"
+msgstr "Hukommelse"
+
+msgid "Swap Memória Virtual"
+msgstr "Bytte av virtuelt minne"
+
+msgid "Placa de vídeo"
+msgstr "Skjermkort"
+
+msgid "Áudio"
+msgstr "Lyd"
+
+msgid "Rede"
+msgstr "Nettverk"
+
+msgid "Conexões de Rede"
+msgstr "Nettverkstilkoblinger"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-enheter og -tilkoblinger"
+
+msgid "Portas PCI"
+msgstr "PCI-porter"
+
+msgid "Bateria"
+msgstr "Batteri"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Lagringsenheter"
+
+msgid "Partições montadas"
+msgstr "Monterte partisjoner"
+
+msgid "Partições desmontadas"
+msgstr "Umonterte partisjoner"
+
+msgid "Dispositivos lógicos"
+msgstr "Logiske enheter"
+
+msgid "Raid"
+msgstr "RAZZIA"
+
+msgid "Informações de Sistema"
+msgstr "Informasjon om systemet"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "Blåtann"
+
+msgid "Temperatura"
+msgstr "Temperatur"

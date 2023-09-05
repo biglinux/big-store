@@ -849,3 +849,72 @@ msgstr "Περιήγηση στην εφαρμογή"
 
 msgid "Editores de texto linha de comando"
 msgstr "Προγράμματα επεξεργασίας κειμένου γραμμής εντολών"
+
+msgid "Multimidia"
+msgstr "Πολυμέσα"
+
+msgid "Carta"
+msgstr "Γράμμα"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Προβολή πληροφοριών συσκευής στο Linux Hardware"
+
+msgid "Processador"
+msgstr "Επεξεργαστής"
+
+msgid "Placa mãe"
+msgstr "Μητρική κάρτα"
+
+msgid "Memória"
+msgstr "Μνήμη"
+
+msgid "Swap Memória Virtual"
+msgstr "Εναλλαγή εικονικής μνήμης"
+
+msgid "Placa de vídeo"
+msgstr "Κάρτα γραφικών"
+
+msgid "Áudio"
+msgstr "Ήχου"
+
+msgid "Rede"
+msgstr "Δίκτυο"
+
+msgid "Conexões de Rede"
+msgstr "Συνδέσεις δικτύου"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Συσκευές και συνδέσεις USB"
+
+msgid "Portas PCI"
+msgstr "Θύρες PCI"
+
+msgid "Bateria"
+msgstr "Μπαταρία"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Συσκευές αποθήκευσης"
+
+msgid "Partições montadas"
+msgstr "Προσαρτημένα διαμερίσματα"
+
+msgid "Partições desmontadas"
+msgstr "Μη προσαρτημένα διαμερίσματα"
+
+msgid "Dispositivos lógicos"
+msgstr "Λογικές συσκευές"
+
+msgid "Raid"
+msgstr "ΕΠΙΔΡΟΜΉ"
+
+msgid "Informações de Sistema"
+msgstr "Πληροφορίες συστήματος"
+
+msgid "Repositórios"
+msgstr "Αποθετήρια"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Θερμοκρασία"

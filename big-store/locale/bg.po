@@ -848,3 +848,72 @@ msgstr "Преглед на приложението"
 
 msgid "Editores de texto linha de comando"
 msgstr "Текстови редактори на командния ред"
+
+msgid "Multimidia"
+msgstr "Мултимедия"
+
+msgid "Carta"
+msgstr "Буква"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Преглед на информация за устройството в Linux Hardware"
+
+msgid "Processador"
+msgstr "Процесор"
+
+msgid "Placa mãe"
+msgstr "Дънна платка"
+
+msgid "Memória"
+msgstr "Памет"
+
+msgid "Swap Memória Virtual"
+msgstr "Размяна на виртуална памет"
+
+msgid "Placa de vídeo"
+msgstr "Видеокарта"
+
+msgid "Áudio"
+msgstr "Аудио"
+
+msgid "Rede"
+msgstr "Мрежа"
+
+msgid "Conexões de Rede"
+msgstr "Мрежови връзки"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB устройства и връзки"
+
+msgid "Portas PCI"
+msgstr "PCI портове"
+
+msgid "Bateria"
+msgstr "Батерия"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Устройства за съхранение"
+
+msgid "Partições montadas"
+msgstr "Монтирани прегради"
+
+msgid "Partições desmontadas"
+msgstr "Немонтирани прегради"
+
+msgid "Dispositivos lógicos"
+msgstr "Логически устройства"
+
+msgid "Raid"
+msgstr "РЕЙД"
+
+msgid "Informações de Sistema"
+msgstr "Системна информация"
+
+msgid "Repositórios"
+msgstr "Хранилища"
+
+msgid "Bluetooth"
+msgstr "Блутут"
+
+msgid "Temperatura"
+msgstr "Температура"

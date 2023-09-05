@@ -850,3 +850,72 @@ msgstr "Böngészés az alkalmazásban"
 
 msgid "Editores de texto linha de comando"
 msgstr "Parancssori szövegszerkesztők"
+
+msgid "Multimidia"
+msgstr "Multimédia"
+
+msgid "Carta"
+msgstr "Levél"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Eszközinformációk megtekintése Linux-hardveren"
+
+msgid "Processador"
+msgstr "Processzor"
+
+msgid "Placa mãe"
+msgstr "Alaplap"
+
+msgid "Memória"
+msgstr "Emlékezet"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuális memória csere"
+
+msgid "Placa de vídeo"
+msgstr "Videokártya"
+
+msgid "Áudio"
+msgstr "Hanganyag"
+
+msgid "Rede"
+msgstr "Hálózat"
+
+msgid "Conexões de Rede"
+msgstr "Hálózati kapcsolatok"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-eszközök és -csatlakozók"
+
+msgid "Portas PCI"
+msgstr "PCI portok"
+
+msgid "Bateria"
+msgstr "Akkumulátor"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Tárolóeszközök"
+
+msgid "Partições montadas"
+msgstr "Szerelt partíciók"
+
+msgid "Partições desmontadas"
+msgstr "Leválasztott partíciók"
+
+msgid "Dispositivos lógicos"
+msgstr "Logikai eszközök"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Rendszerinformáció"
+
+msgid "Repositórios"
+msgstr "Tárolók"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Hőmérséklet"
