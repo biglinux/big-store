@@ -285,4 +285,11 @@ if __name__ == "__main__":
     # To single package
     # db.enable_appstream()
     pkg = db.get_app_by_id(sys.argv[1])
+    if pkg is None:
+        print('===========================================================')
+        print('pkgname     : ', pkgname)
+        print('sys.argv[1] : ', sys.argv[1])
+        print('pkg         : ', pkg)
+        print('===========================================================')
+
     print_pkg_details(pkg)

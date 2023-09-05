@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/09/01
+#  Altered: 2023/09/02
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230901"
+_VERSION_="1.0.0-20230902"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -215,10 +215,12 @@ function FLATPAK_CATEGORY {
 		#	xdebug "$flatpak_search_category"
 
 		if (( flatpak_search_category )); then
-			sh_search_flatpak "${param_search,,}" & wait
+#			sh_search_flatpak "${param_search,,}" & wait
+			sh_search_flatpak "${param_search,,}"
 			flatpak_search_category=0
 		else
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
+#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}"
 		fi
 
 		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
