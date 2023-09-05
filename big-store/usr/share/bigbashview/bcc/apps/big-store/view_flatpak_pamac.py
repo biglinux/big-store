@@ -29,7 +29,7 @@ script_name = LIBRARY + "/bstrlib.sh"
 
 
 def print_pkg_details(details):
-    if details.get_app_id() is None:
+    if details is None:
         function_name = "sh_pkg_flatpak_verify"
         package_name = sys.argv[1]
         command = f'source {script_name} && {function_name} "{package_name}"'
