@@ -8,7 +8,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/09/01
+#  Altered: 2023/09/02
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -36,7 +36,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230901"
+_VERSION_="1.0.0-20230902"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
