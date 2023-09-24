@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/08/26
+#  Altered: 2023/09/24
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,11 +34,12 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230826"
+_VERSION_="1.0.0-20230924"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
 export TMP_FOLDER="/tmp/bigstore-$USER"
+export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
@@ -52,10 +53,17 @@ function sh_config() {
 	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
 	declare -g bigstore_icon_file='icons/icon.svg'
 	declare -g TITLE="Big-Store"
-	declare -gA Amsg=([error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
-	[error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
+	declare -gA Amsg=(
+			[error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
+			[error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
 }
+
+function sh_big_store_check_dirs {
+	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER" "$TMP_FOLDER"
+	[[ ! -d "$TMP_FOLDER" ]] && mkdir -p "$TMP_FOLDER"
+}
+export -f sh_big_store_check_dirs
 
 function sh_check_big_store_is_running() {
 	local PID
@@ -72,15 +80,19 @@ function sh_big_store_start_sh_main {
 	local resolution
 	local half_resolution
 
-	[[ ! -d "$TMP_FOLDER" ]] && mkdir -p "$TMP_FOLDER"
-
+	sh_big_store_check_dirs
 	cd "$bigstorepath" || {
 		notify-send --icon=big-store --app-name "$0" "$TITLE" "${Amsg[error_access_dir]}\n$bigstorepath" --expire-time=2000
 		return 1
 	}
 
-	[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap &
-	[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak &
+	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap &
+	fi
+
+	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak &
+	fi
 
 	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
 	half_resolution=$((resolution / 2))

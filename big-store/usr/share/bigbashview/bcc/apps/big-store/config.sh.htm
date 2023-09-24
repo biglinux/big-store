@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2023/08/24
+#  Altered: 2023/09/24
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,11 +34,14 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230824"
+_VERSION_="1.0.0-20230924"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-LOGGER='/dev/tty8'
-[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
+export TMP_FOLDER="/tmp/bigstore-$USER"
+export HOME_FOLDER="$HOME/.bigstore"
+export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
+[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
@@ -64,6 +67,7 @@ function sh_config {
 	declare -g Repositorios_nativos_text=$"Repositórios nativos"
 	declare -g Configuracoes=$"Configurações"
 	declare -g MsgSnap=$"Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
+	declare -g MsgFlatpak=$"Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 	declare -g tmp_file_upgradeable="${TMP_FOLDER}/upgradeable.txt"
 }
 
@@ -82,27 +86,47 @@ function sh_main {
 	sh_style
 	source header.sh.htm
 
-	if [[ -n "$pkg_install" ]]; then
-		sh_run_pamac_installer "$pkg_name"
-		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
-			pkexec env DISPLAY="$DISPLAY" XAUTHORITY="$XAUTHORITY" sh_snap_enable 
-			kdialog --title $"Big-Store" --msgbox "$MsgSnap"
+	# param $1 pkg_name	libpamac-flatpak-plugin
+	# 					libpamac-snap-plugin
+
+	if [[ -n "$pkg_install" ]] && [[ "$pkg_name" == "libpamac-snap-plugin" ]]; then
+		if ! sh_package_is_installed "$pkg_name"; then
+			sh_run_pamac_installer "$pkg_name" 'apparmor' 'snapd'
 		fi
+#		pkexec env DISPLAY="$DISPLAY" XAUTHORITY="$XAUTHORITY" sh_enable_snapd_and_apparmor
+		sh_run_action "enable_snapd"
+		tini.write_value "$INI_FILE_BIG_STORE" "snap" "active" '1'
+		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor)\n\n$(systemctl status snapd)"
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+	fi
+
+	if [[ -n "$pkg_install" ]] && [[ "$pkg_name" == "libpamac-flatpak-plugin" ]]; then
+		if ! sh_package_is_installed "$pkg_name"; then
+			sh_run_pamac_installer "$pkg_name" 'flatpak'
+		fi
+		tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1'
+		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
 	if [[ -n "$pkg_remove" ]]; then
-		sh_run_pamac_remove $pkg_name
+		if [[ "$pkg_name" = "libpamac-flatpak-plugin" ]]; then
+			tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "active" '0'
+		fi
+		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
+			tini.write_value "$INI_FILE_BIG_STORE" "snap" "active" '0'
+		fi
+#		sh_run_pamac_remove $pkg_name
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
-	[[ "$update_pacman" = "y"       ]] && sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$update_mirror" = "y"       ]] && sh_run_action "update_mirror" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$update_keys" = "y"         ]] && sh_run_action "update_keys" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$force_upgrade" = "y"       ]] && sh_run_action "force_upgrade" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$reinstall_allpkg" = "y"    ]] && sh_run_action "reinstall_allpkg" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER" 
-	[[ "$system_upgrade" = "y"      ]] && sh_run_action "system_upgrade" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$system_upgradetotal" = "y" ]] && sh_run_action "system_upgradetotal" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER" 
+	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$update_keys" = "y" ]] && sh_run_action "update_keys" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$force_upgrade" = "y" ]] && sh_run_action "force_upgrade" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$reinstall_allpkg" = "y" ]] && sh_run_action "reinstall_allpkg" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$system_upgrade" = "y" ]] && sh_run_action "system_upgrade" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$system_upgradetotal" = "y" ]] && sh_run_action "system_upgradetotal" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 
 	cat <<-EOF
 		<div id=box_index_category>
@@ -125,166 +149,166 @@ function sh_main {
 	EOF
 
 	#FLATPAK
-	if [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		cat <<EOF
-		<span class="status"><span class="status-circle true"></span>
-		$Ativado_text
-		</span>
-		<div class="button-wrapper">
-		<div class="switch"><label for="f1">
-		<input id="f1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-flatpak-plugin';">
-		<span class="lever"></span></label>
-		</div>
-		</div>
-EOF
+	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+		cat <<-EOF
+			<span class="status"><span class="status-circle true"></span>
+			$Ativado_text
+			</span>
+			<div class="button-wrapper">
+			<div class="switch"><label for="f1">
+			<input id="f1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-flatpak-plugin';">
+			<span class="lever"></span></label>
+			</div>
+			</div>
+		EOF
 	else
-		cat <<EOF
-		<span class="status"><span class="status-circle false"></span>
-		$Desativado_text
-		</span>
-		<div class="button-wrapper">
-		<div class="switch"><label for="f1">
-		<input id="f1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-flatpak-plugin';">
-		<span class="lever"></span></label>
-		</div>
-		</div>
-EOF
+		cat <<-EOF
+			<span class="status"><span class="status-circle false"></span>
+			$Desativado_text
+			</span>
+			<div class="button-wrapper">
+			<div class="switch"><label for="f1">
+			<input id="f1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-flatpak-plugin';">
+			<span class="lever"></span></label>
+			</div>
+			</div>
+		EOF
 	fi
-	cat <<EOF
-	</li>
-	<li class="any-product">
-	<div class="products">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="border-radius: 0px;">
-	<path fill="currentColor" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z">
-	</path></svg>
-	$Pacotes_Snap_text
-	</div>
-EOF
+	cat <<-EOF
+		</li>
+		<li class="any-product">
+		<div class="products">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="border-radius: 0px;">
+		<path fill="currentColor" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z">
+		</path></svg>
+		$Pacotes_Snap_text
+		</div>
+	EOF
 
 	#SNAP
-	if [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		cat <<EOF
-		<span class="status"><span class="status-circle true"></span>
-		$Ativado_text
-		</span>
-		<div class="button-wrapper">
-		<div class="switch"><label for="s1">
-		<input id="s1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-snap-plugin';">
-		<span class="lever"></span></label>
-		</div>
-		</div>
-EOF
+	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+		cat <<-EOF
+			<span class="status"><span class="status-circle true"></span>
+			$Ativado_text
+			</span>
+			<div class="button-wrapper">
+			<div class="switch"><label for="s1">
+			<input id="s1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-snap-plugin';">
+			<span class="lever"></span></label>
+			</div>
+			</div>
+		EOF
 	else
-		cat <<EOF
-		<span class="status"><span class="status-circle false"></span>
-		$Desativado_text
-		</span>
-		<div class="button-wrapper">
-		<div class="switch"><label for="s1">
-		<input id="s1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-snap-plugin';">
-		<span class="lever"></span></label>
-		</div>
-		</div>
-EOF
+		cat <<-EOF
+			<span class="status"><span class="status-circle false"></span>
+			$Desativado_text
+			</span>
+			<div class="button-wrapper">
+			<div class="switch"><label for="s1">
+			<input id="s1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-snap-plugin';">
+			<span class="lever"></span></label>
+			</div>
+			</div>
+		EOF
 	fi
 
-	cat <<EOF
-	</li></ul></div>
-	<div class="content-section">
-	<div class="content-section-title">
-	$Repositorios_nativos_text
-	</div>
-	<ul>
-	<li class="hidemenu">
-	<div class="products">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;">
-	<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
-	</path></svg>
-	$Atualizar_cache_text
-	</div>
-	<span class="status">
-	<!-- <span class="status-circle green"></span> -->
-	$Atualizar_text
-	</span>
-	<div class="button-wrapper">
-	<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pacman=y';">
-	$Executar_text
-	</button>
-	</div>
-	</li>
-	<li class="any-product">
-	<div class="products">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="border-radius: 0px;" >
-	<path fill="currentColor" d="M112 0C85.49 0 64 21.49 64 48V96H16C7.163 96 0 103.2 0 112C0 120.8 7.163 128 16 128H272C280.8 128 288 135.2 288 144C288 152.8 280.8 160 272 160H48C39.16 160 32 167.2 32 176C32 184.8 39.16 192 48 192H240C248.8 192 256 199.2 256 208C256 216.8 248.8 224 240 224H16C7.163 224 0 231.2 0 240C0 248.8 7.163 256 16 256H208C216.8 256 224 263.2 224 272C224 280.8 216.8 288 208 288H64V416C64 469 106.1 512 160 512C213 512 256 469 256 416H384C384 469 426.1 512 480 512C533 512 576 469 576 416H608C625.7 416 640 401.7 640 384C640 366.3 625.7 352 608 352V237.3C608 220.3 601.3 204 589.3 192L512 114.7C499.1 102.7 483.7 96 466.7 96H416V48C416 21.49 394.5 0 368 0H112zM544 237.3V256H416V160H466.7L544 237.3zM160 464C133.5 464 112 442.5 112 416C112 389.5 133.5 368 160 368C186.5 368 208 389.5 208 416C208 442.5 186.5 464 160 464zM528 416C528 442.5 506.5 464 480 464C453.5 464 432 442.5 432 416C432 389.5 453.5 368 480 368C506.5 368 528 389.5 528 416z">
-	</path></svg>
-	$Servidor_mais_rapido_text
-	</div>
-	<div class="button-wrapper">
-	<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_mirror=y';">
-	$Executar_text
-	</button>
-	</div></li></ul></div>
-	<div class="content-section">
-	<div class="content-section-title">
-	$Cautela_text
-	</div>
-	<ul>
-	<li class="hidemenu">
-	<div class="products">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="border-radius: 0px;">
-	<path fill="currentColor" d="M224 180.4V32c0-17.67-14.31-32-32-32S160 14.33 160 32v144h40C208.5 176 216.5 177.7 224 180.4zM128 176V64c0-17.67-14.31-32-32-32S64 46.33 64 64v112.8C66.66 176.5 69.26 176 72 176H128zM288 192c17.69 0 32-14.33 32-32V64c0-17.67-14.31-32-32-32s-32 14.33-32 32v96C256 177.7 270.3 192 288 192zM384 96c-17.69 0-32 14.33-32 32v64c0 17.67 14.31 32 32 32s32-14.34 32-32.02V128C416 110.3 401.7 96 384 96zM350.9 246.2c-12.43-7.648-21.94-19.31-26.88-33.25C313.7 219.9 301.3 223.9 288 223.9c-7.641 0-14.87-1.502-21.66-3.957C269.1 228.6 272 238.1 272 248c0 39.77-32.25 72-72 72H128c-8.836 0-16-7.164-16-16C112 295.2 119.2 288 128 288h72c22.09 0 40-17.91 40-40S222.1 208 200 208h-128C49.91 208 32 225.9 32 248v63.41c0 33.13 16 64.56 42.81 84.13L128 434.2V512h224v-85.09c38.3-24.09 64-66.42 64-114.9V247.1C406.6 252.6 395.7 256 384 256C371.7 256 360.5 252.2 350.9 246.2z">
-	</path></svg>
-	$Reinstalar_forcado_text
-	</div>
-	<span class="status">
-	<!-- <span class="status-circle green"></span> -->
-	$Reinstalar_text
-	</span>
-	<div class="button-wrapper">
-	<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?reinstall_allpkg=y';">
-	$Executar_text
-	</button></div></li>
-	<li class="any-product">
-	<div class="products">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="border-radius: 0px;" >
-	<path fill="currentColor" d="M282.3 343.7L248.1 376.1C244.5 381.5 238.4 384 232 384H192V424C192 437.3 181.3 448 168 448H128V488C128 501.3 117.3 512 104 512H24C10.75 512 0 501.3 0 488V408C0 401.6 2.529 395.5 7.029 391L168.3 229.7C162.9 212.8 160 194.7 160 176C160 78.8 238.8 0 336 0C433.2 0 512 78.8 512 176C512 273.2 433.2 352 336 352C317.3 352 299.2 349.1 282.3 343.7zM376 176C398.1 176 416 158.1 416 136C416 113.9 398.1 96 376 96C353.9 96 336 113.9 336 136C336 158.1 353.9 176 376 176z">
-	</path></svg>
-	<div class="txt">
-	$Reinstalar_chaves
-	</div></div>
-	<!-- <span class="status"> -->
-	<!-- <span class="status-circle"></span> -->
-	<!-- Atualização total</span>-->
-	<div class="button-wrapper">
-	<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_keys=y';">
-	$Executar_text
-	</button>
-	</div></li>
-	<li class="any-product">
-	<div class="products">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;" >
-	<path fill="currentColor" d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM476.7 324.7L416 385.4L387.3 356.7C381.1 350.4 370.9 350.4 364.7 356.7C358.4 362.9 358.4 373.1 364.7 379.3L404.7 419.3C410.9 425.6 421.1 425.6 427.3 419.3L499.3 347.3C505.6 341.1 505.6 330.9 499.3 324.7C493.1 318.4 482.9 318.4 476.7 324.7H476.7z">
-	</path></svg>
-	<div class="txt">
-	$Forcar_atualizacao_text
-	</div></div>
-	<!-- <span class="status"> -->
-	<!-- <span class="status-circle"></span> -->
-	<!-- Atualização total</span>-->
-	<div class="button-wrapper">
-	<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?force_upgrade=y';">
-	$Executar_text
-	</button>
-	</div></li></ul></div>
-	<br>
-	<br>
-	<div class="logo">
-	<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
-	</div></div>
-	<script src="./js/script.js"></script>
-	</body>
-	</html>
-EOF
+	cat <<-EOF
+		</li></ul></div>
+		<div class="content-section">
+		<div class="content-section-title">
+		$Repositorios_nativos_text
+		</div>
+		<ul>
+		<li class="hidemenu">
+		<div class="products">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;">
+		<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
+		</path></svg>
+		$Atualizar_cache_text
+		</div>
+		<span class="status">
+		<!-- <span class="status-circle green"></span> -->
+		$Atualizar_text
+		</span>
+		<div class="button-wrapper">
+		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pacman=y';">
+		$Executar_text
+		</button>
+		</div>
+		</li>
+		<li class="any-product">
+		<div class="products">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="border-radius: 0px;" >
+		<path fill="currentColor" d="M112 0C85.49 0 64 21.49 64 48V96H16C7.163 96 0 103.2 0 112C0 120.8 7.163 128 16 128H272C280.8 128 288 135.2 288 144C288 152.8 280.8 160 272 160H48C39.16 160 32 167.2 32 176C32 184.8 39.16 192 48 192H240C248.8 192 256 199.2 256 208C256 216.8 248.8 224 240 224H16C7.163 224 0 231.2 0 240C0 248.8 7.163 256 16 256H208C216.8 256 224 263.2 224 272C224 280.8 216.8 288 208 288H64V416C64 469 106.1 512 160 512C213 512 256 469 256 416H384C384 469 426.1 512 480 512C533 512 576 469 576 416H608C625.7 416 640 401.7 640 384C640 366.3 625.7 352 608 352V237.3C608 220.3 601.3 204 589.3 192L512 114.7C499.1 102.7 483.7 96 466.7 96H416V48C416 21.49 394.5 0 368 0H112zM544 237.3V256H416V160H466.7L544 237.3zM160 464C133.5 464 112 442.5 112 416C112 389.5 133.5 368 160 368C186.5 368 208 389.5 208 416C208 442.5 186.5 464 160 464zM528 416C528 442.5 506.5 464 480 464C453.5 464 432 442.5 432 416C432 389.5 453.5 368 480 368C506.5 368 528 389.5 528 416z">
+		</path></svg>
+		$Servidor_mais_rapido_text
+		</div>
+		<div class="button-wrapper">
+		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_mirror=y';">
+		$Executar_text
+		</button>
+		</div></li></ul></div>
+		<div class="content-section">
+		<div class="content-section-title">
+		$Cautela_text
+		</div>
+		<ul>
+		<li class="hidemenu">
+		<div class="products">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="border-radius: 0px;">
+		<path fill="currentColor" d="M224 180.4V32c0-17.67-14.31-32-32-32S160 14.33 160 32v144h40C208.5 176 216.5 177.7 224 180.4zM128 176V64c0-17.67-14.31-32-32-32S64 46.33 64 64v112.8C66.66 176.5 69.26 176 72 176H128zM288 192c17.69 0 32-14.33 32-32V64c0-17.67-14.31-32-32-32s-32 14.33-32 32v96C256 177.7 270.3 192 288 192zM384 96c-17.69 0-32 14.33-32 32v64c0 17.67 14.31 32 32 32s32-14.34 32-32.02V128C416 110.3 401.7 96 384 96zM350.9 246.2c-12.43-7.648-21.94-19.31-26.88-33.25C313.7 219.9 301.3 223.9 288 223.9c-7.641 0-14.87-1.502-21.66-3.957C269.1 228.6 272 238.1 272 248c0 39.77-32.25 72-72 72H128c-8.836 0-16-7.164-16-16C112 295.2 119.2 288 128 288h72c22.09 0 40-17.91 40-40S222.1 208 200 208h-128C49.91 208 32 225.9 32 248v63.41c0 33.13 16 64.56 42.81 84.13L128 434.2V512h224v-85.09c38.3-24.09 64-66.42 64-114.9V247.1C406.6 252.6 395.7 256 384 256C371.7 256 360.5 252.2 350.9 246.2z">
+		</path></svg>
+		$Reinstalar_forcado_text
+		</div>
+		<span class="status">
+		<!-- <span class="status-circle green"></span> -->
+		$Reinstalar_text
+		</span>
+		<div class="button-wrapper">
+		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?reinstall_allpkg=y';">
+		$Executar_text
+		</button></div></li>
+		<li class="any-product">
+		<div class="products">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="border-radius: 0px;" >
+		<path fill="currentColor" d="M282.3 343.7L248.1 376.1C244.5 381.5 238.4 384 232 384H192V424C192 437.3 181.3 448 168 448H128V488C128 501.3 117.3 512 104 512H24C10.75 512 0 501.3 0 488V408C0 401.6 2.529 395.5 7.029 391L168.3 229.7C162.9 212.8 160 194.7 160 176C160 78.8 238.8 0 336 0C433.2 0 512 78.8 512 176C512 273.2 433.2 352 336 352C317.3 352 299.2 349.1 282.3 343.7zM376 176C398.1 176 416 158.1 416 136C416 113.9 398.1 96 376 96C353.9 96 336 113.9 336 136C336 158.1 353.9 176 376 176z">
+		</path></svg>
+		<div class="txt">
+		$Reinstalar_chaves
+		</div></div>
+		<!-- <span class="status"> -->
+		<!-- <span class="status-circle"></span> -->
+		<!-- Atualização total</span>-->
+		<div class="button-wrapper">
+		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_keys=y';">
+		$Executar_text
+		</button>
+		</div></li>
+		<li class="any-product">
+		<div class="products">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;" >
+		<path fill="currentColor" d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM476.7 324.7L416 385.4L387.3 356.7C381.1 350.4 370.9 350.4 364.7 356.7C358.4 362.9 358.4 373.1 364.7 379.3L404.7 419.3C410.9 425.6 421.1 425.6 427.3 419.3L499.3 347.3C505.6 341.1 505.6 330.9 499.3 324.7C493.1 318.4 482.9 318.4 476.7 324.7H476.7z">
+		</path></svg>
+		<div class="txt">
+		$Forcar_atualizacao_text
+		</div></div>
+		<!-- <span class="status"> -->
+		<!-- <span class="status-circle"></span> -->
+		<!-- Atualização total</span>-->
+		<div class="button-wrapper">
+		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?force_upgrade=y';">
+		$Executar_text
+		</button>
+		</div></li></ul></div>
+		<br>
+		<br>
+		<div class="logo">
+		<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
+		</div></div>
+		<script src="./js/script.js"></script>
+		</body>
+		</html>
+	EOF
 }
 
 #sh_debug
