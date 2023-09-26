@@ -917,3 +917,9 @@ msgstr "Bluetooth"
 
 msgid "Temperatura"
 msgstr "Temperatuur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Flatpaki programmide ilmumiseks süsteemi menüüsse logige välja ja logige uuesti sisse."
+
+msgid "Atualizado em"
+msgstr "Uuendatud"
