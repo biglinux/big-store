@@ -87,6 +87,9 @@ function sh_big_store_start_sh_main {
 		return 1
 	}
 
+	# reformat pretry .ini
+	[[ -e "$INI_FILE_BIG_STORE" ]] && tini_pretty "$INI_FILE_BIG_STORE"
+
 	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap "$processamento_em_paralelo" &
 	fi
