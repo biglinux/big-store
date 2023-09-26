@@ -909,3 +909,9 @@ msgstr "Bluetooth"
 
 msgid "Temperatura"
 msgstr "温度"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Flatpakプログラムをシステムメニューに表示するには、ログアウトしてから再度ログインします。"
+
+msgid "Atualizado em"
+msgstr "更新日"
