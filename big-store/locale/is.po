@@ -920,3 +920,6 @@ msgstr "Hitastig"
 
 msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Til að Flatpak forrit birtist í kerfisvalmyndinni skaltu skrá þig út og skrá þig inn aftur."
+
+msgid "Atualizado em"
+msgstr "Uppfært á"

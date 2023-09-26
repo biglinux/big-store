@@ -916,3 +916,6 @@ msgstr "טמפרטורה"
 
 msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "כדי שתוכניות Flatpak יופיעו בתפריט המערכת, התנתק והיכנס שוב."
+
+msgid "Atualizado em"
+msgstr "עודכן בתאריך"

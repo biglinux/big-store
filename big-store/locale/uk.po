@@ -918,3 +918,6 @@ msgstr "Температура"
 
 msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Щоб програми Flatpak відображалися в системному меню, вийдіть із системи та ввійдіть знову."
+
+msgid "Atualizado em"
+msgstr "Оновлено"

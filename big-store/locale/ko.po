@@ -910,3 +910,6 @@ msgstr "온도"
 
 msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Flatpak 프로그램이 시스템 메뉴에 나타나게 하려면 로그아웃했다가 다시 로그인하십시오."
+
+msgid "Atualizado em"
+msgstr "업데이트 날짜"

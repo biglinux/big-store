@@ -921,3 +921,6 @@ msgstr "Θερμοκρασία"
 
 msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Για να εμφανιστούν τα προγράμματα Flatpak στο μενού συστήματος, αποσυνδεθείτε και συνδεθείτε ξανά."
+
+msgid "Atualizado em"
+msgstr "Ενημερώθηκε στις"

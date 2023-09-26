@@ -918,3 +918,6 @@ msgstr "Teplota"
 
 msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
 msgstr "Aby se programy Flatpak zobrazily v systémové nabídce, odhlaste se a znovu se přihlaste."
+
+msgid "Atualizado em"
+msgstr "Aktualizováno dne"

@@ -924,3 +924,6 @@ msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessã
 msgstr ""
 "Ahhoz, hogy a Flatpak programok megjelenjenek a rendszermenüben, jelentkezzen ki és jelentkezzen be "
 "újra."
+
+msgid "Atualizado em"
+msgstr "Frissítve"

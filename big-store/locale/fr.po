@@ -926,3 +926,6 @@ msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessã
 msgstr ""
 "Pour que les programmes Flatpak apparaissent dans le menu système, déconnectez-vous et "
 "reconnectez-vous."
+
+msgid "Atualizado em"
+msgstr "Mis à jour le"
