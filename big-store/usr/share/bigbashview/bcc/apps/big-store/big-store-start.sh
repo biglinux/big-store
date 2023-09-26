@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/09/24
+#  Altered: 2023/09/25
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230924"
+_VERSION_="1.0.0-20230925"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -79,6 +79,7 @@ function sh_check_big_store_is_running() {
 function sh_big_store_start_sh_main {
 	local resolution
 	local half_resolution
+	local processamento_em_paralelo=1
 
 	sh_big_store_check_dirs
 	cd "$bigstorepath" || {
@@ -86,12 +87,12 @@ function sh_big_store_start_sh_main {
 		return 1
 	}
 
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap &
+	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap "$processamento_em_paralelo" &
 	fi
 
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak &
+	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
 	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
@@ -99,7 +100,6 @@ function sh_big_store_start_sh_main {
 	# Save dynamic screenshot resolution
 	echo "$half_resolution" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
-	#	sh_update_cache_flatpak &
 	#	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
 	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s 1280x720 "
 	if [[ -n "$1" ]]; then
