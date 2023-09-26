@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2020/11/01
-#  Altered: 2023/09/24
+#  Altered: 2023/09/25
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230924"
+_VERSION_="1.0.0-20230925"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -372,20 +372,20 @@ function sh_header_sh_htm_main {
 	fi
 
 	#FLATPAK
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 #		if [[ -e "$HOME_FOLDER/hide_flatpak" ]]; then
-		if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "hide" '1'; then
+		if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'; then
 			flatpak_checkbox=""
 			if [[ "$flatpak_change" = "y" ]]; then
 #				rm -f "$HOME_FOLDER/hide_flatpak"
-				tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "hide" '0'
+				tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '0'
 				flatpak_checkbox="checked"
 			fi
 		else
 			flatpak_checkbox="checked"
 			if [[ "$flatpak_change" = "y" ]]; then
 #				echo "" >"$HOME_FOLDER/hide_flatpak"
-				tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "hide" '1'
+				tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'
 				flatpak_checkbox=""
 			fi
 		fi
@@ -394,20 +394,20 @@ function sh_header_sh_htm_main {
 	fi
 
 	#SNAP
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 #		if [[ -e "$HOME_FOLDER/hide_snap" ]]; then
-		if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "hide" '1'; then
+		if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'; then
 			snap_checkbox=""
 			if [[ "$snap_change" = "y" ]]; then
 #				rm -f "$HOME_FOLDER/hide_snap"
-				tini.write_value "$INI_FILE_BIG_STORE" "snap" "hide" '0'
+				tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_hide" '0'
 				snap_checkbox="checked"
 			fi
 		else
 			snap_checkbox="checked"
 			if [[ "$snap_change" = "y" ]]; then
 #				echo "" >"$HOME_FOLDER/hide_snap"
-				tini.write_value "$INI_FILE_BIG_STORE" "snap" "hide" '1'
+				tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'
 				snap_checkbox=""
 			fi
 		fi

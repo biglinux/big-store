@@ -10,6 +10,7 @@ pkgdesc="A friendly interface using bigbashview and that uses a large part of pa
 depends=('bc'
 	'bigbashview'
 	'bigcontrolcenter-base'
+	'bigsudo'
 	'curl'
 	'force-upgrade'
 	'gawk'

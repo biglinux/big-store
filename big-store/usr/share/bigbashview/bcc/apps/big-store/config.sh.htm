@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2023/09/24
+#  Altered: 2023/09/25
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230924"
+_VERSION_="1.0.0-20230925"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
@@ -56,9 +56,10 @@ function sh_config {
 	declare -g Atualizacoes_text=$"Atualizações"
 	declare -g Atualizar_sistema_text=$"Atualizar seu sistema"
 	declare -g Atualizar_text=$"Atualizar"
+	declare -g Atualizado_text=$"Atualizado em"
 	declare -g Atualizar_cache_text=$"Atualizar cache dos repositórios nativos"
 	declare -g Servidor_mais_rapido_text=$"Procurar servidor de repositórios nativos mais rápidos"
-	declare -g Cautela_text=$"Utilize as opções a seguir com cautela"
+	declare -g Utilize_as_opcoes_a_seguir_com_Cautela_text=$"Utilize as opções a seguir com cautela"
 	declare -g Reinstalar_text=$"Reinstalação"
 	declare -g Reinstalar_forcado_text=$"Forçar reinstalação de todos os pacotes instalados"
 	declare -g Reinstalar_chaves=$"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
@@ -82,6 +83,10 @@ function sh_style {
 	EOF
 }
 
+function sh_vilmar {
+	xdebug $0
+}
+
 function sh_main {
 	sh_style
 	source header.sh.htm
@@ -93,10 +98,10 @@ function sh_main {
 		if ! sh_package_is_installed "$pkg_name"; then
 			sh_run_pamac_installer "$pkg_name" 'apparmor' 'snapd'
 		fi
-#		pkexec env DISPLAY="$DISPLAY" XAUTHORITY="$XAUTHORITY" sh_enable_snapd_and_apparmor
-		sh_run_action "enable_snapd"
-		tini.write_value "$INI_FILE_BIG_STORE" "snap" "active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor)\n\n$(systemctl status snapd)"
+#		sh_run_action "enable_snapd"
+		sh_run_action_standalone "sh_enable_snapd_and_apparmor"
+		tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
+		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
@@ -104,17 +109,17 @@ function sh_main {
 		if ! sh_package_is_installed "$pkg_name"; then
 			sh_run_pamac_installer "$pkg_name" 'flatpak'
 		fi
-		tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1'
+		tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1'
 		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
 	if [[ -n "$pkg_remove" ]]; then
 		if [[ "$pkg_name" = "libpamac-flatpak-plugin" ]]; then
-			tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "active" '0'
+			tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
 		fi
 		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
-			tini.write_value "$INI_FILE_BIG_STORE" "snap" "active" '0'
+			tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
 		fi
 #		sh_run_pamac_remove $pkg_name
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
@@ -127,6 +132,8 @@ function sh_main {
 	[[ "$reinstall_allpkg" = "y" ]] && sh_run_action "reinstall_allpkg" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$system_upgrade" = "y" ]] && sh_run_action "system_upgrade" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$system_upgradetotal" = "y" ]] && sh_run_action "system_upgradetotal" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$update_flatpak" = "y" ]] && sh_run_action "update_flatpak" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$update_snap" = "y" ]] && sh_run_action "update_snap" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 
 	cat <<-EOF
 		<div id=box_index_category>
@@ -149,7 +156,7 @@ function sh_main {
 	EOF
 
 	#FLATPAK
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 		cat <<-EOF
 			<span class="status"><span class="status-circle true"></span>
 			$Ativado_text
@@ -186,7 +193,7 @@ function sh_main {
 	EOF
 
 	#SNAP
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		cat <<-EOF
 			<span class="status"><span class="status-circle true"></span>
 			$Ativado_text
@@ -214,10 +221,12 @@ function sh_main {
 
 	cat <<-EOF
 		</li></ul></div>
+
 		<div class="content-section">
 		<div class="content-section-title">
 		$Repositorios_nativos_text
 		</div>
+
 		<ul>
 		<li class="hidemenu">
 		<div class="products">
@@ -236,6 +245,7 @@ function sh_main {
 		</button>
 		</div>
 		</li>
+
 		<li class="any-product">
 		<div class="products">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="border-radius: 0px;" >
@@ -248,9 +258,102 @@ function sh_main {
 		$Executar_text
 		</button>
 		</div></li></ul></div>
+	EOF
+
+	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+		cat <<-EOF
+			<!-- BEGIN flatpak repair -->
+			<div class="content-section">
+			<div class="content-section-title">
+			Repositório Flatpak
+			</div>
+			<ul>
+			<li class="hidemenu">
+			<div class="products">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;">
+			<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
+			</path></svg>
+			Reconstruir base de dados Flatpak
+			</div>
+			<span class="status">
+		EOF
+		if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_atualizado" '1'; then
+			local flatpak_data_atualizacao=$(tini.read_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_data_atualizacao")
+			cat <<-EOF
+				<span class="status-circle true"></span>
+				<!-- <span class="status-circle green"></span> -->
+				$Atualizado_text $flatpak_data_atualizacao
+			EOF
+		else
+			cat <<-EOF
+				<span class="status-circle false"></span>
+				<!-- <span class="status-circle green"></span> -->
+				$Atualizar_text
+			EOF
+		fi
+		cat <<-EOF
+			</span>
+			<div class="button-wrapper">
+			<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_flatpak=y';">
+			$Executar_text
+			</button>
+			</div>
+			</li>
+			</ul>
+			</div>
+			<!-- END flatpak repair -->
+		EOF
+	fi
+
+	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+		cat <<-EOF
+			<!-- BEGIN snap repair -->
+			<div class="content-section">
+			<div class="content-section-title">
+			Repositório Snap
+			</div>
+			<ul>
+			<li class="hidemenu">
+			<div class="products">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;">
+			<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
+			</path></svg>
+			Reconstruir base de dados Snap
+			</div>
+			<span class="status">
+		EOF
+		if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_atualizado" '1'; then
+			local snap_data_atualizacao=$(tini.read_value "$INI_FILE_BIG_STORE" "snap" "snap_data_atualizacao")
+			cat <<-EOF
+				<span class="status-circle true"></span>
+				<!-- <span class="status-circle green"></span> -->
+				$Atualizado_text $snap_data_atualizacao
+			EOF
+		else
+			cat <<-EOF
+				<span class="status-circle false"></span>
+				<!-- <span class="status-circle green"></span> -->
+				$Atualizar_text
+			EOF
+		fi
+		cat <<-EOF
+			</span>
+			<div class="button-wrapper">
+			<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_snap=y';">
+			$Executar_text
+			</button>
+			</div>
+			</li>
+			</ul>
+			</div>
+			<!-- END snap repair -->
+		EOF
+	fi
+
+	cat <<-EOF
 		<div class="content-section">
 		<div class="content-section-title">
-		$Cautela_text
+		$Utilize_as_opcoes_a_seguir_com_Cautela_text
 		</div>
 		<ul>
 		<li class="hidemenu">
@@ -268,6 +371,7 @@ function sh_main {
 		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?reinstall_allpkg=y';">
 		$Executar_text
 		</button></div></li>
+
 		<li class="any-product">
 		<div class="products">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="border-radius: 0px;" >
