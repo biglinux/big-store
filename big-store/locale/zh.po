@@ -903,3 +903,6 @@ msgstr "蓝牙"
 
 msgid "Temperatura"
 msgstr "温度"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "要使 Flatpak 程序出现在系统菜单中，请注销并重新登录。"

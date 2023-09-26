@@ -917,3 +917,6 @@ msgstr "Блютуз"
 
 msgid "Temperatura"
 msgstr "Температура"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Чтобы программы Flatpak появились в системном меню, выйдите из системы и войдите снова."

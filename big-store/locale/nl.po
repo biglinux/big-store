@@ -918,3 +918,6 @@ msgstr "bluetooth"
 
 msgid "Temperatura"
 msgstr "Temperatuur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Om Flatpak-programma's in het systeemmenu te laten verschijnen, logt u uit en logt u opnieuw in."
