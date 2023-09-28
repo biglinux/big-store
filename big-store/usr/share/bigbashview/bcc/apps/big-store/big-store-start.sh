@@ -43,6 +43,7 @@ export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
+[[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
 
 function sh_config() {
 	#Translation
@@ -80,6 +81,7 @@ function sh_big_store_start_sh_main {
 	local resolution
 	local half_resolution
 	local processamento_em_paralelo=1
+	local ident_keys=1
 
 	sh_big_store_check_dirs
 	cd "$bigstorepath" || {
@@ -89,12 +91,13 @@ function sh_big_store_start_sh_main {
 
 	# reformat pretry .ini
 	[[ -e "$INI_FILE_BIG_STORE" ]] && tini_pretty "$INI_FILE_BIG_STORE"
+#	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.AlignIniFile "$INI_FILE_BIG_STORE"
 
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap "$processamento_em_paralelo" &
 	fi
 
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
@@ -103,7 +106,6 @@ function sh_big_store_start_sh_main {
 	# Save dynamic screenshot resolution
 	echo "$half_resolution" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
-	#	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -w maximized "
 	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s 1280x720 "
 	if [[ -n "$1" ]]; then
 		case "$1" in

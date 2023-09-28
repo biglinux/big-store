@@ -43,6 +43,7 @@ export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
+[[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
 
 function sh_config {
 	#Translation
@@ -88,12 +89,9 @@ apenas a usuários avançados."
 	declare -g MODE_SIMPLE=$"Modo Simplificado"
 	declare -g Nativos_text=$"Nativos"
 	declare -g ProgressMessage=$"Aplicando - Aguarde"
+	#
 	declare -g Inicio=$"Início"
 	declare -g Configuracoes=$"Configurações"
-	declare -g X_Sistema=$"X-Sistema"
-	declare -g Imagem=$"Imagem"
-	declare -g Video=$"Vídeo"
-	declare -g Audio=$"Audio"
 	declare -g Internet=$"Internet"
 	declare -g Escritorio=$"Escritório"
 	declare -g Graficos=$"Gráficos"
@@ -101,10 +99,16 @@ apenas a usuários avançados."
 	declare -g Jogos=$"Jogos"
 	declare -g Sistema=$"Sistema"
 	declare -g Desenvolvimento=$"Desenvolvimento"
+	declare -g Sobre=$"Sobre"
+	#
 	declare -g Programas_Nativos=$"Programas Nativos"
 	declare -g Programas_AUR=$"Programas AUR"
 	declare -g Programas_Flatpak=$"Programas Flatpak"
 	declare -g Programas_Snap=$"Programas Snap"
+	declare -g X_Sistema=$"X-Sistema"
+	declare -g Imagem=$"Imagem"
+	declare -g Video=$"Vídeo"
+	declare -g Audio=$"Audio"
 	export appstream_checkbox
 	export aur_checkbox
 	export flatpak_checkbox
@@ -372,20 +376,20 @@ function sh_header_sh_htm_main {
 	fi
 
 	#FLATPAK
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 #		if [[ -e "$HOME_FOLDER/hide_flatpak" ]]; then
-		if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'; then
+		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'; then
 			flatpak_checkbox=""
 			if [[ "$flatpak_change" = "y" ]]; then
 #				rm -f "$HOME_FOLDER/hide_flatpak"
-				tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '0'
+				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '0'
 				flatpak_checkbox="checked"
 			fi
 		else
 			flatpak_checkbox="checked"
 			if [[ "$flatpak_change" = "y" ]]; then
 #				echo "" >"$HOME_FOLDER/hide_flatpak"
-				tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'
+				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'
 				flatpak_checkbox=""
 			fi
 		fi
@@ -394,20 +398,20 @@ function sh_header_sh_htm_main {
 	fi
 
 	#SNAP
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 #		if [[ -e "$HOME_FOLDER/hide_snap" ]]; then
-		if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'; then
+		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'; then
 			snap_checkbox=""
 			if [[ "$snap_change" = "y" ]]; then
 #				rm -f "$HOME_FOLDER/hide_snap"
-				tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_hide" '0'
+				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '0'
 				snap_checkbox="checked"
 			fi
 		else
 			snap_checkbox="checked"
 			if [[ "$snap_change" = "y" ]]; then
 #				echo "" >"$HOME_FOLDER/hide_snap"
-				tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'
+				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'
 				snap_checkbox=""
 			fi
 		fi
@@ -542,6 +546,7 @@ function sh_header_sh_htm_main {
 		$Sistema
 		</span>
 		</a>
+
 		<a href="index.sh.htm?#dev">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="flask" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-flask fa-w-14 fa-3x">
 		<path fill="currentColor" d="M437.2 403.5L320 215V64h8c13.3 0 24-10.7 24-24V24c0-13.3-10.7-24-24-24H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h8v151L10.8 403.5C-18.5 450.6 15.3 512 70.9 512h306.2c55.7 0 89.4-61.5 60.1-108.5zM137.9 320l48.2-77.6c3.7-5.2 5.8-11.6 5.8-18.4V64h64v160c0 6.9 2.2 13.2 5.8 18.4l48.2 77.6h-172z" class="">
@@ -549,7 +554,9 @@ function sh_header_sh_htm_main {
 		<span>
 		$Desenvolvimento
 		</span>
-		</a></div></div></div>
+		</a>
+
+		</div></div></div>
 		<div class="main-container">
 		<div class="main-header">
 
