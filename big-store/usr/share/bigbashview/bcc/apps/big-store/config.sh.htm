@@ -43,6 +43,7 @@ export HOME_FOLDER="$HOME/.bigstore"
 export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
+[[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
 
 function sh_config {
 	#Translation
@@ -100,8 +101,8 @@ function sh_main {
 		fi
 #		sh_run_action "enable_snapd"
 		sh_run_action_standalone "sh_enable_snapd_and_apparmor"
-		tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
+		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
+		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd.apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
@@ -109,17 +110,17 @@ function sh_main {
 		if ! sh_package_is_installed "$pkg_name"; then
 			sh_run_pamac_installer "$pkg_name" 'flatpak'
 		fi
-		tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1'
+		TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1'
 		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
 	if [[ -n "$pkg_remove" ]]; then
 		if [[ "$pkg_name" = "libpamac-flatpak-plugin" ]]; then
-			tini.write_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
+			TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
 		fi
 		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
-			tini.write_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
+			TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
 		fi
 #		sh_run_pamac_remove $pkg_name
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
@@ -156,7 +157,7 @@ function sh_main {
 	EOF
 
 	#FLATPAK
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 		cat <<-EOF
 			<span class="status"><span class="status-circle true"></span>
 			$Ativado_text
@@ -193,7 +194,7 @@ function sh_main {
 	EOF
 
 	#SNAP
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		cat <<-EOF
 			<span class="status"><span class="status-circle true"></span>
 			$Ativado_text
@@ -221,12 +222,10 @@ function sh_main {
 
 	cat <<-EOF
 		</li></ul></div>
-
 		<div class="content-section">
 		<div class="content-section-title">
 		$Repositorios_nativos_text
 		</div>
-
 		<ul>
 		<li class="hidemenu">
 		<div class="products">
@@ -236,8 +235,22 @@ function sh_main {
 		$Atualizar_cache_text
 		</div>
 		<span class="status">
-		<!-- <span class="status-circle green"></span> -->
-		$Atualizar_text
+	EOF
+	if TIni.Exist "$INI_FILE_BIG_STORE" "nativo" "nativo_atualizado" '1'; then
+		local nativo_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "nativo" "nativo_data_atualizacao")
+		cat <<-EOF
+			<span class="status-circle true"></span>
+			<!-- <span class="status-circle green"></span> -->
+			$Atualizado_text $nativo_data_atualizacao
+		EOF
+	else
+		cat <<-EOF
+			<span class="status-circle false"></span>
+			<!-- <span class="status-circle green"></span> -->
+			$Atualizar_text
+		EOF
+	fi
+	cat <<-EOF
 		</span>
 		<div class="button-wrapper">
 		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pacman=y';">
@@ -260,7 +273,7 @@ function sh_main {
 		</div></li></ul></div>
 	EOF
 
-	if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 		cat <<-EOF
 			<!-- BEGIN flatpak repair -->
 			<div class="content-section">
@@ -277,8 +290,8 @@ function sh_main {
 			</div>
 			<span class="status">
 		EOF
-		if tini.exist_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_atualizado" '1'; then
-			local flatpak_data_atualizacao=$(tini.read_value "$INI_FILE_BIG_STORE" "flatpak" "flatpak_data_atualizacao")
+		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_atualizado" '1'; then
+			local flatpak_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "flatpak" "flatpak_data_atualizacao")
 			cat <<-EOF
 				<span class="status-circle true"></span>
 				<!-- <span class="status-circle green"></span> -->
@@ -305,7 +318,7 @@ function sh_main {
 		EOF
 	fi
 
-	if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		cat <<-EOF
 			<!-- BEGIN snap repair -->
 			<div class="content-section">
@@ -322,8 +335,8 @@ function sh_main {
 			</div>
 			<span class="status">
 		EOF
-		if tini.exist_value "$INI_FILE_BIG_STORE" "snap" "snap_atualizado" '1'; then
-			local snap_data_atualizacao=$(tini.read_value "$INI_FILE_BIG_STORE" "snap" "snap_data_atualizacao")
+		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_atualizado" '1'; then
+			local snap_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "snap" "snap_data_atualizacao")
 			cat <<-EOF
 				<span class="status-circle true"></span>
 				<!-- <span class="status-circle green"></span> -->
