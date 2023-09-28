@@ -921,3 +921,6 @@ msgstr "Aby se programy Flatpak zobrazily v systémové nabídce, odhlaste se a 
 
 msgid "Atualizado em"
 msgstr "Aktualizováno dne"
+
+msgid "Sobre"
+msgstr "Na"

@@ -923,3 +923,6 @@ msgstr "Aby programy Flatpak pojawiły się w menu systemowym, wyloguj się i za
 
 msgid "Atualizado em"
 msgstr "Zaktualizowano na"
+
+msgid "Sobre"
+msgstr "Na"

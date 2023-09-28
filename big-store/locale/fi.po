@@ -921,3 +921,6 @@ msgstr "Jotta Flatpak-ohjelmat näkyvät järjestelmävalikossa, kirjaudu ulos j
 
 msgid "Atualizado em"
 msgstr "Päivitetty"
+
+msgid "Sobre"
+msgstr "Päälle"

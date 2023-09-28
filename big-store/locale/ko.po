@@ -913,3 +913,6 @@ msgstr "Flatpak 프로그램이 시스템 메뉴에 나타나게 하려면 로�
 
 msgid "Atualizado em"
 msgstr "업데이트 날짜"
+
+msgid "Sobre"
+msgstr "의 위에"

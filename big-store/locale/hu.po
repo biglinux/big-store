@@ -927,3 +927,6 @@ msgstr ""
 
 msgid "Atualizado em"
 msgstr "Frissítve"
+
+msgid "Sobre"
+msgstr "On"

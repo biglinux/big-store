@@ -923,3 +923,6 @@ msgstr "За да се появят програмите на Flatpak в сис�
 
 msgid "Atualizado em"
 msgstr "Актуализиран на"
+
+msgid "Sobre"
+msgstr "При"

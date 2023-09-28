@@ -925,3 +925,6 @@ msgstr "Pentru ca programele Flatpak să apară în meniul sistemului, deconecta
 
 msgid "Atualizado em"
 msgstr "Actualizat pe"
+
+msgid "Sobre"
+msgstr "Pe"

@@ -923,3 +923,6 @@ msgstr "Ak chcete, aby sa programy Flatpak zobrazili v systémovom menu, odhlás
 
 msgid "Atualizado em"
 msgstr "Aktualizované dňa"
+
+msgid "Sobre"
+msgstr "Na"
