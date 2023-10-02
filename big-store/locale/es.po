@@ -925,3 +925,6 @@ msgstr ""
 
 msgid "Atualizado em"
 msgstr "Actualizado el"
+
+msgid "Sobre"
+msgstr "Sobre"

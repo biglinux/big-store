@@ -923,3 +923,6 @@ msgstr "Da bi se Flatpak programi pojavili u izborniku sustava, odjavite se i po
 
 msgid "Atualizado em"
 msgstr "Ažurirano"
+
+msgid "Sobre"
+msgstr "Na"

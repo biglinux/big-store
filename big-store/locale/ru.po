@@ -923,3 +923,6 @@ msgstr "Чтобы программы Flatpak появились в систем
 
 msgid "Atualizado em"
 msgstr "Обновлено"
+
+msgid "Sobre"
+msgstr "На"

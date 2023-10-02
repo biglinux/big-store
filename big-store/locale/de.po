@@ -924,3 +924,6 @@ msgstr "Damit Flatpak-Programme im Systemmenü angezeigt werden, melden Sie sich
 
 msgid "Atualizado em"
 msgstr "Aktualisiert am"
+
+msgid "Sobre"
+msgstr "Auf"

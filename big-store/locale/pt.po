@@ -930,3 +930,6 @@ msgstr "Para os programas Flatpak aparecerem no menu do sistema finalize a sess√
 
 msgid "Atualizado em"
 msgstr "Atualizado em"
+
+msgid "Sobre"
+msgstr "Sobre"

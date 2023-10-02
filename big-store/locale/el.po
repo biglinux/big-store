@@ -924,3 +924,6 @@ msgstr "Για να εμφανιστούν τα προγράμματα Flatpak �
 
 msgid "Atualizado em"
 msgstr "Ενημερώθηκε στις"
+
+msgid "Sobre"
+msgstr "Επάνω"

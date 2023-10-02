@@ -923,3 +923,6 @@ msgstr "Flatpak programlarının sistem menüsünde görünmesi için, oturumu k
 
 msgid "Atualizado em"
 msgstr "Güncelleme tarihi"
+
+msgid "Sobre"
+msgstr "Üzerine"

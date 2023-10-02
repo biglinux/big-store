@@ -924,3 +924,6 @@ msgstr "Om Flatpak-programma's in het systeemmenu te laten verschijnen, logt u u
 
 msgid "Atualizado em"
 msgstr "Bijgewerkt op"
+
+msgid "Sobre"
+msgstr "Op"

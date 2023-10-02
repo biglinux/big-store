@@ -921,3 +921,6 @@ msgstr "For at Flatpak-programmer skal vises i systemmenuen, skal du logge ud og
 
 msgid "Atualizado em"
 msgstr "Opdateret den"
+
+msgid "Sobre"
+msgstr "På"
