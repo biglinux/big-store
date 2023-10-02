@@ -1,4 +1,0 @@
-Este é um programa chamado nvidia-docker-compose. Ele é usado para rodar outros programas dentro de uma espécie
-de caixa chamada 'docker', e essa caixa tem uma coisa especial que permite usar a placa de vídeo da sua máquina, chamada GPU. Isso é útil para programas que precisam de muito poder de
-processamento, como jogos ou programas de inteligência artificial.Para usar esse programa, você precisa ter uma placa de vídeo da Nvidia e algum conhecimento sobre como usar o docker. Ele é
-feito para ser usado junto com o docker-compose, outro programa que ajuda a gerenciar vários programas rodando dentro do docker.

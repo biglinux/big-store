@@ -1,4 +1,0 @@
-Este programa é chamado de Smug e é escrito em Go. Ele ajuda você a gerenciar suas sessões no Tmux de forma fácil e rápida.
-Ele permite que você crie, altere e gerencie suas sessões com apenas alguns comandos simples. Além disso, ele também oferece recursos adicionais como a capacidade de salvar e carregar
-sessões, para que você possa continuar onde parou mesmo depois de fechar sua janela.É uma ferramenta útil para quem trabalha com vários terminais abertos ao mesmo tempo e precisa
-organizá-los de forma eficiente. Se você é um usuário frequente do Tmux, o Smug é uma excelente opção para tornar sua experiência ainda melhor.

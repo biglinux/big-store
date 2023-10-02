@@ -1,4 +1,0 @@
-Este programa permite que você chame código em C a partir de um script em Python. Ele é chamado de Foreign
-Function Interface (Interface de Função Estrangeira) e é útil quando você precisa usar bibliotecas escritas em C em seu código Python. Ele é especialmente útil quando você precisa acessar
-recursos do sistema operacional que não estão disponíveis na linguagem Python nativamente.O programa é compatível com a versão 2 do Python, e é chamado de python2-cffi. Ele é fácil de
-instalar e usar, e a documentação fornecida é clara e completa.

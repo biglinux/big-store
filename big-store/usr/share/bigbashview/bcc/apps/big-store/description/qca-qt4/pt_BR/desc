@@ -1,5 +1,0 @@
-A arquitetura criptográfica Qt4 é um conjunto de ferramentas e bibliotecas que permitem a incorporação de criptografia nas
-aplicações desenvolvidas com o framework Qt. Ela é construída sobre a biblioteca OpenSSL e oferece suporte a vários algoritmos de criptografia, como AES, RSA e SHA. Além disso, ela também
-oferece recursos para trabalhar com certificados digitais e outras funcionalidades relacionadas à segurança de dados.A arquitetura criptográfica Qt4 é uma ótima opção para desenvolvedores
-que precisam incluir segurança em suas aplicações, mas não querem lidar com os detalhes técnicos da criptografia. Ele facilita a incorporação de criptografia nas aplicações Qt4, permitindo 
-que os desenvolvedores se concentrem no desenvolvimento de suas funcionalidades principais.

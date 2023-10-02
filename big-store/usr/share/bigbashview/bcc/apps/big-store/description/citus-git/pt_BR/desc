@@ -1,5 +1,0 @@
- O Citus-git é um programa que permite aos usuários escalar seus bancos
-de dados PostgreSQL para lidar com cargas de trabalho de múltiplos inquilinos e em tempo real. Ele funciona dividindo grandes tabelas em pequenas tabelas distribuídas em vários nós, o que
-permite que o banco de dados lidar com mais dados e usuários simultâneos sem afetar o desempenho. Além disso, o Citus-git também oferece suporte para consultas distribuídas, o que permite
-que os usuários executem consultas em dados em vários nós simultaneamente. Com o Citus-git, os usuários podem escalar seus bancos de dados PostgreSQL para lidar com cargas de trabalho
-crescentes e aumentar a disponibilidade e desempenho geral do banco de dados.

@@ -1,2 +1,0 @@
-Esse programa é chamado hadolint-bin e ele serve para verificar se existem erros em um arquivo Dockerfile. Ele também
-valida o uso de comandos de bash dentro do arquivo. Ele é escrito em Haskell, uma linguagem de programação.

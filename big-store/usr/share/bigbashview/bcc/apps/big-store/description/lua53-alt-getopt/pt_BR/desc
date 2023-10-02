@@ -1,1 +1,0 @@
-Este é um módulo Lua que permite processar opções de maneira similar ao getopt_long(3) no Lua 5.3. Ele é útil para quem precisa lidar com várias opções em seus programas escritos em Lua. 

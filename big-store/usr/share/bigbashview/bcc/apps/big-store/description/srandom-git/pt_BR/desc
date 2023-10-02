@@ -1,2 +1,0 @@
-O srandom é um módulo do kernel Linux que pode ser usado para substituir os arquivos de dispositivo /dev/urandom e
-/dev/random incorporados. Ele é seguro e muito rápido.

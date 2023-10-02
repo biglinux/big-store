@@ -1,3 +1,0 @@
-Este é um programa chamado rtl-wmbus-git. Ele é um receptor de definição de software para o sistema de comunicação sem fio M-Bus.
-Ele utiliza o RTL-SDR, que é uma placa de rádio de baixo custo, para receber e processar sinais. Com este programa, você pode monitorar e coletar dados de dispositivos sem fio M-Bus, como
-medidores de energia elétrica e água.

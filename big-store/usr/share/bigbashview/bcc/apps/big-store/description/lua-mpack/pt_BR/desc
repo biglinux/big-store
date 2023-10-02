@@ -1,1 +1,0 @@
-Este programa é uma implementação simples do msgpack para C Lua 5.4. O msgpack é um formato de serialização de  dados que é usado para tornar os dados mais compactos e eficientes para transportar através de redes ou salvar em arquivos. Com este programa, você pode facilmente usar o msgpack em seus projetos C Lua. 

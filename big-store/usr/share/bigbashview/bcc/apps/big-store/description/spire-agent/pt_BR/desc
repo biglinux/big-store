@@ -1,1 +1,0 @@
-O spire-agent é um componente importante do ambiente de execução SPIFFE. Ele é responsável por emitir e validar certificados de identidade de entidade de segurança para aplicativos em execução. Isso permite que esses aplicativos sejam verificados e autenticados de forma segura em um ambiente distribuído. 

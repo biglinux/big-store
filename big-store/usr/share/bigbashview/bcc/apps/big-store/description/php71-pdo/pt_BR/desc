@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.1 que adiciona suporte para acessar bancos de dados usando o padrão PDO. PDO significa PHP Data Objects
-e é uma maneira de acessar vários tipos de bancos de dados de uma forma consistente. Com esse módulo, você pode se conectar a bancos de dados como MySQL, PostgreSQL, Oracle, entre outros e 
-executar consultas e gerenciar seus dados facilmente.

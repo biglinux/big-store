@@ -1,1 +1,0 @@
-Uma biblioteca de cliente escrita em Perl para se comunicar com o daemon de cache de memória Memcached. Ela permite armazenar e recuperar dados rapidamente a partir da memória, o que pode melhorar significativamente o desempenho de aplicações que dependem de grandes quantidades de  dados dinâmicos. 

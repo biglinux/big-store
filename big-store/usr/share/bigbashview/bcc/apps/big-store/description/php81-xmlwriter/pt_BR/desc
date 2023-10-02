@@ -1,4 +1,0 @@
-O módulo XMLWriter é uma ferramenta que permite a criação e edição de arquivos XML no PHP 8.1. Ele oferece uma série de funções
-para trabalhar com esses arquivos, como criar elementos, atributos e nós, e adicionar conteúdo a eles. Com esse módulo, é possível criar facilmente arquivos XML complexos e estruturados,
-sem precisar escrever código XML manualmente.Algumas funcionalidades que este módulo oferece incluem a capacidade de escrever dados em arquivos XML em tempo real, a capacidade de adicionar 
-ou modificar elementos e atributos e a capacidade de escrever dados em diferentes codificações de caracteres.

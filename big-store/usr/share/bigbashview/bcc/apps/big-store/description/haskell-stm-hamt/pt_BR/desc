@@ -1,1 +1,0 @@
-Essa é uma estrutura de dados especializada para gerenciamento de transações. Ela utiliza o conceito de Hash Array Mapped Trie e é escrita em Haskell. Com ela, é possível garantir a consistência dos dados em situações de alta concorrência. 

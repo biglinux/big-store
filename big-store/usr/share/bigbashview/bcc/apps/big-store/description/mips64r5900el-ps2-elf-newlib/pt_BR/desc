@@ -1,3 +1,0 @@
-Esta é uma biblioteca C projetada para ser usada em sistemas embarcados com o processador mips64r5900el-ps2-elf. Ela é 
-baseada na biblioteca newlib, que é um conjunto de bibliotecas padrão para sistemas embarcados.Essa biblioteca inclui funções como entrada/saída, manipulação de strings, matemática básica e
-outras funções úteis para desenvolvimento em sistemas embarcados.

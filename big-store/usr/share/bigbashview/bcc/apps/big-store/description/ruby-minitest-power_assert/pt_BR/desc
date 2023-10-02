@@ -1,1 +1,0 @@
-Power Assert é uma ferramenta para o Minitest, uma biblioteca de testes para o Ruby. Ele fornece uma maneira de escrever assertivas mais completas e legíveis, mostrando o valor esperado e o valor atual no caso de uma falha de teste. Isso pode ser útil para encontrar rapidamente onde está o erro em seu código. 

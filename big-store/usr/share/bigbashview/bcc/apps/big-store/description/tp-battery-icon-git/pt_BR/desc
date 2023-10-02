@@ -1,3 +1,0 @@
- Este programa é um ícone de bateria simples mas poderoso para o Linux. Ele usa o tp_smapi ou acpi_call para mostrar o estado da 
-bateria no seu computador. Ele aparece na bandeja do sistema e mostra informações como a carga atual, se está carregando ou descarregando, e quanto tempo resta de bateria. Ele é útil para
-saber rapidamente o estado da bateria do seu computador sem precisar abrir configurações ou aplicativos adicionais. 

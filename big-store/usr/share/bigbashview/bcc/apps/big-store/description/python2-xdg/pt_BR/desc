@@ -1,2 +1,0 @@
-Este é um pacote antigo e obsoleto, com o nome Python2-xdg. Tudo o que depende dele deveria depender do pacote
-Python2-pyxdg em vez disso.

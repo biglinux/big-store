@@ -1,1 +1,0 @@
-As bibliotecas de tempo de execução do LLVM são um conjunto de bibliotecas que fornecem funcionalidades para aplicativos que usam o LLVM. Elas incluem bibliotecas como o LLVM Execution Engine, o LLVM JIT (Just-In-Time) e outras. Essas bibliotecas são essenciais para o funcionamento de muitos aplicativos que usam o LLVM, incluindo compiladores, ferramentas de depuração e outros. 

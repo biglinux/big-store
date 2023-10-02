@@ -1,1 +1,0 @@
-Esta é uma extensão para o Sphinx, um gerador de documentação para Python, que permite incluir documentação baseada em templates Jinja na documentação Sphinx. Isso significa que você pode usar o poderoso motor de template Jinja para criar sua documentação  de forma mais fácil e flexível. Além disso, essa extensão também é compatível com o python. 

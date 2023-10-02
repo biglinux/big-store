@@ -1,1 +1,0 @@
-Uma ferramenta que cria um ambiente de desenvolvimento sem privilégios. Isso significa que o usuário não tem permissões especiais e só pode fazer o que é permitido pelo sistema. Isso é útil para evitar erros e problemas de segurança ao desenvolver software. 

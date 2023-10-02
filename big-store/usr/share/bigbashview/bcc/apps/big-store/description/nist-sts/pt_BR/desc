@@ -1,3 +1,0 @@
-A NIST Statistical Test Suite (STS) é um conjunto de ferramentas desenvolvido pelo National Institute of Standards and
-Technology (NIST) para testar a qualidade de geradores de números aleatórios. Ele inclui uma variedade de testes estatísticos que podem ser usados ​​para avaliar se um gerador de números
-aleatórios é adequado para uma determinada aplicação. Estes testes incluem verificações de distribuição, independência, serialidade, entropia e muito mais.

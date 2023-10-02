@@ -1,1 +1,0 @@
-lib32-libxrandr é uma biblioteca que permite que os programas acessem as funcionalidades da extensão RandR do X11. Ela é específica para sistemas de 32-bits e é necessária para que alguns programas funcionem corretamente nestes sistemas. 

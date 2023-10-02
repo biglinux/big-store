@@ -1,4 +1,0 @@
-Este é um programa chamado clojure-lsp-bin. Ele é usado para ajudar a escrever código em uma linguagem chamada Clojure.
-Ele faz isso através de algo chamado Language Server (LSP). Isso significa que ele pode dar sugestões de código enquanto você está escrevendo, ajudar você a encontrar erros e até mesmo
-mostrar a você como uma parte específica do código funciona. É uma ferramenta útil para qualquer pessoa que esteja escrevendo código em Clojure e quer tornar seu trabalho mais fácil e mais 
-rápido.

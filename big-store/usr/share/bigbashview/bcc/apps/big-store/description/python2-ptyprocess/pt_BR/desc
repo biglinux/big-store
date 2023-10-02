@@ -1,4 +1,0 @@
-Com a biblioteca python2-ptyprocess, você pode executar subprocessos em um terminal virtual. Isso
-significa que você pode usar a interface de linha de comando de um programa como se estivesse sendo executado diretamente no seu terminal. É uma ferramenta útil para automatizar tarefas e
-integrar diferentes programas. Esta biblioteca é especialmente útil para programadores que desejam automatizar tarefas que normalmente seriam realizadas manualmente no terminal. Além disso,
-ele permite que você execute programas em segundo plano sem interrupções na interface de usuário. 

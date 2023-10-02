@@ -1,4 +1,0 @@
-Este programa é uma ferramenta para reengenharia de arquivos APK do Android. Ele permite descompactar e
-recompactar arquivos APK, além de permitir acesso às suas partes internas, como arquivos de recurso e código. Isso pode ser útil para personalizar aplicativos ou analisar sua estrutura
-interna.O android-apktool-git é baseado no projeto Apktool e possui suporte a várias versões do Android. Ele é desenvolvido como um projeto Git, então é possível contribuir com o código
-fonte e acompanhar as atualizações.

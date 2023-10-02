@@ -1,3 +1,0 @@
-Este programa é chamado de PPP-GIT e ele ajuda a fazer comunicação entre dois dispositivos. Ele implementa o Protocolo Ponto-a-Ponto 
-(PPP). Isso significa que ele garante que as informações enviadas de um dispositivo para o outro cheguem corretamente e na ordem certa.É usado principalmente em conexões de rede via cabo ou
-modem.

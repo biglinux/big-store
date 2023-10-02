@@ -1,1 +1,0 @@
-Este programa é uma ligacão à biblioteca ALSA API. Isso significa que ele permite que outros programas se comuniquem com dispositivos de áudio usando essa biblioteca específica. Ele também trata exceções que possam ocorrer durante essa comunicação. 

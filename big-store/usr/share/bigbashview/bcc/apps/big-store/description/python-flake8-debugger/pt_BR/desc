@@ -1,4 +1,0 @@
-Esse programa é um plugin para o flake8, que é uma ferramenta para verificar o código Python. Ele adiciona 
-a verificação de statement ipdb/pdb, que é um tipo de depurador para ajudar a encontrar e corrigir erros no seu código. Isso pode ser muito útil se você estiver trabalhando em um projeto
-grande ou complexo, pois pode ajudar a economizar tempo e esforço ao encontrar e corrigir problemas rapidamente.Este plugin é fácil de usar, basta instalá-lo e configurá-lo corretamente,
-então você pode usá-lo com o flake8. Ele também é atualizado regularmente para garantir que funcione bem com as versões mais recentes do Python e do flake8.

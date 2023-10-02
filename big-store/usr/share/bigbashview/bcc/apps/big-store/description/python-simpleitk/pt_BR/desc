@@ -1,5 +1,0 @@
-O programa 'python-simpleitk' é uma camada simplificada construída sobre o ITK (Insight Segmentation and Registration 
-Toolkit). Isso torna mais fácil para os usuários acessarem as funcionalidades do ITK através do Python, sem precisar lidar com a complexidade do ITK diretamente. Com esse programa, os
-desenvolvedores podem realizar tarefas de segmentação e registro de imagens de maneira mais rápida e fácil.Algumas das funcionalidades incluem: segmentação de imagens, transformações
-geométricas, operações aritméticas entre imagens, entre outras. Este programa é útil para qualquer pessoa que precise trabalhar com imagens de maneira automatizada, incluindo pesquisadores,
-médicos, engenheiros e estudantes.

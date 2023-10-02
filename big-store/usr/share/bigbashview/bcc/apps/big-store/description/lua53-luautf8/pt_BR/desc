@@ -1,1 +1,0 @@
-Esse programa adiciona suporte para o formato UTF-8 ao Lua, tornando-o compatível com o módulo de string do Lua. Isso significa que ele será capaz de lidar com caracteres especiais e acentos de uma forma mais eficiente e precisa. 

@@ -1,4 +1,0 @@
-Este programa é chamado qgroundcontrol-git e é um sistema de controle de solo para o piloto automático
-PX4. Ele é usado para monitorar e controlar um veículo voador, como um drone, durante suas missões de voo. Ele permite que você veja dados importantes como a posição do veículo, velocidade 
-e altitude, além de dar comandos para o piloto automático como decolar, pousar e seguir rotas pré-programadas. Ele também pode ser usado para gravar e analisar dados de voo para fins de
-manutenção e melhoria do desempenho do veículo. Este programa é projetado para ser fácil de usar e oferecer uma interface intuitiva para os usuários.

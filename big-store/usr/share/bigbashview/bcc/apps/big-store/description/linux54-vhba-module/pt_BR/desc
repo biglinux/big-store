@@ -1,1 +1,0 @@
-Este é um módulo do kernel para o Linux que emula dispositivos SCSI. Ele é chamado de 'linux54-vhba-module' e permite que outros programas se comuniquem com ele como se fosse um dispositivo real SCSI. Isso pode ser útil em muitas situações, como se você quiser usar um dispositivo SCSI em um sistema que não tem suporte a ele. 

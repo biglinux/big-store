@@ -1,1 +1,0 @@
-O pacote lua51-testmore é uma porta da biblioteca de testes unitários Test::More, originalmente escrita em Perl, para o interpretador Lua. Ele permite que desenvolvedores escrevam e executem testes automatizados para seus aplicativos Lua de forma similar à como é feito com Test::More  em Perl. 

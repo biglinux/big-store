@@ -1,1 +1,0 @@
- Este é um servidor de linguagem para CSS, LESS e SCSS que pode ser usado com o Visual Studio Code. Ele fornece recursos  como sugestões de código, verificação de erros e navegação de código para essas linguagens de folha de estilo. Isso pode ajudar a tornar o desenvolvimento de estilos mais rápido e fácil. Este servidor de linguagem é chamado de vscode-css-languageserver. 

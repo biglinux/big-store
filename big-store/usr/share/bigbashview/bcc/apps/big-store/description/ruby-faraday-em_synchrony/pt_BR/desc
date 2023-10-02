@@ -1,1 +1,0 @@
-Esse é um adaptador para usar com o Faraday, uma biblioteca de Ruby para fazer requisições HTTP. Ele foi criado para trabalhar com o EM::Synchrony, que é uma biblioteca de Ruby para lidar com eventos assíncronos.Isso significa que com esse adaptador, você pode usar o Faraday para fazer requisições HTTP sem bloquear o seu programa enquanto espera a resposta do servidor. 

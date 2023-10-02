@@ -1,3 +1,0 @@
-Este programa é um decorador ou gerenciador de contexto para limitar a taxa de requisições em seu código Python. Ele usa um
-algoritmo chamado 'token bucket' para controlar a taxa de requisições e é seguro para uso em threads e ambientes assíncronos.Ele é útil para evitar que seu sistema fique sobrecarregado
-com muitas solicitações ao mesmo tempo e também pode ser usado para cumprir políticas de rate-limiting de APIs externas. 

@@ -1,4 +1,0 @@
-Este programa é uma implementação de meson escrita em C. Ele é projetado para funcionar com partículas chamadas muons. O objetivo
-do programa é permitir que os usuários analisem dados coletados sobre muons e entendam como eles se comportam. É uma ferramenta valiosa para os cientistas que estudam essas partículas.A
-implementação em C permite que o programa rode de forma rápida e eficiente, tornando-o ideal para trabalhar com grandes conjuntos de dados. Além disso, o uso de C também permite que o
-programa seja facilmente integrado com outras ferramentas de análise de dados.

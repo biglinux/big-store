@@ -1,3 +1,0 @@
-Existe uma versão especial do curl que permite que ele se passe por Firefox. Isso significa que, ao usar essa versão do curl, as
-requisições que você faz parecerão vir de um navegador Firefox, em vez de do curl.Isso pode ser útil em algumas situações, como quando um site só permite o acesso a partir de navegadores
-específicos ou quando você quer ocultar sua identidade enquanto navega na web.

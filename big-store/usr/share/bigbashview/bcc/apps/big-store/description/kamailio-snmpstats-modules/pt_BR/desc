@@ -1,4 +1,0 @@
-O módulo snmpstats é uma ferramenta para o software Kamailio que permite coletar e gerenciar estatísticas do
-sistema através do protocolo SNMP. Ele fornece informações sobre o uso de recursos, como CPU, memória e tráfego de rede, além de outras métricas importantes para o gerenciamento e
-monitoramento do sistema.O módulo é fácil de usar e pode ser integrado facilmente com outras ferramentas de gerenciamento e monitoramento, permitindo uma visão geral completa do desempenho 
-do sistema.

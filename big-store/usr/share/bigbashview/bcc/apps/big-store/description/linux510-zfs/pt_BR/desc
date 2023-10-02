@@ -1,1 +1,0 @@
-Os módulos do núcleo para o sistema de arquivos Zettabyte (ZFS) são uma coleção de arquivos que adicionam suporte para o ZFS ao kernel Linux. Eles permitem que o Linux veja e acesse discos e pastas formatados com o ZFS, e também permitem a criação de novos sistemas de arquivos ZFS. Esses módulos são específicos para a versão 510 do Linux. 

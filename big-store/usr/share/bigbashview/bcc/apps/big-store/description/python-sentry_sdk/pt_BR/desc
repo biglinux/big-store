@@ -1,3 +1,0 @@
-Este é um novo programa para ajudar a encontrar e corrigir erros no seu código Python. Ele se chama
-python-sentry_sdk e é feito pela equipe do Sentry.io. Com ele, você pode ver onde os erros estão acontecendo no seu código e entender melhor como consertá-los. Ele também permite que você
-veja como os erros afetam o desempenho do seu programa. É uma ferramenta muito útil para qualquer pessoa que trabalhe com código Python.

@@ -1,1 +1,0 @@
- Este programa é um exporter de estilo smokeping para o Prometheus. Ele permite monitorar a disponibilidade e velocidade  de redes através do envio de pacotes 'ping' para diferentes alvos de destino. Com isso, é possível criar gráficos e alertas para identificar problemas de conectividade ou lentidão em sua rede. 

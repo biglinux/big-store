@@ -1,1 +1,0 @@
-Esta é uma biblioteca para formatar o código com destaque de sintaxe da biblioteca Skylighting utilizando HTML. Ela é escrita em Haskell e usa o pacote Blaze-html para gerar o código HTML de saída. 

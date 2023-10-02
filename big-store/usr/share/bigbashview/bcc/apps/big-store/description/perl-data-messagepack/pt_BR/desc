@@ -1,1 +1,0 @@
-O Perl Data MessagePack é uma biblioteca para serializar e desserializar dados no formato MessagePack. Ele permite que os dados sejam armazenados e transmitidos de maneira mais eficiente, reduzindo o tamanho dos arquivos e aumentando a velocidade de transmissão. É uma ferramenta útil para aplicações que precisam transmitir grandes quantidades de dados. 

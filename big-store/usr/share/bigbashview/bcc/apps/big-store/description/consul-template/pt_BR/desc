@@ -1,1 +1,0 @@
-consul-template é uma ferramenta para popular valores do Consul e Vault em templates no sistema de arquivos. Ele também pode acompanhar mudanças no Consul ou Vault e acionar um comando, a fim de atualizar automaticamente arquivos ou executar um serviço. Além disso, o consul-template pode atuar como supervisor para outro processo.  

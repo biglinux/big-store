@@ -1,4 +1,0 @@
- O python-onnx é uma ferramenta útil para convertar seus modelos de aprendizado de máquina de uma plataforma 
-para outra. Ele usa o Open Neural Network Exchange (ONNX) como formato padrão para essas conversões, o que garante que seu modelo possa ser usado em vários sistemas diferentes sem perda de 
-desempenho. Com esse programa, você pode treinar seu modelo em uma plataforma e usá-lo facilmente em outra, sem precisar refazer todo o processo de treinamento.Além disso, o python-onnx 
-também oferece suporte para vários tipos de redes neurais, incluindo redes neurais profundas, o que o torna uma ferramenta versátil para trabalhar com modelos de aprendizado de máquina. 

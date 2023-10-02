@@ -1,1 +1,0 @@
-O gst-plugins-espeak é um plugin para o gstreamer que permite usar o espeak como fonte de som. Isso significa que você pode usar a síntese de voz do espeak para ler textos em seus aplicativos gstreamer.Isso é útil para acessibilidade, para ler notícias, livros eletrônicos, etc. Além disso, também é útil para criar aplicativos de reconhecimento de voz ou assistentes de voz. 

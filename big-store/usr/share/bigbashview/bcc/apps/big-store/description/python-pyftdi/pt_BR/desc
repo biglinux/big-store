@@ -1,4 +1,0 @@
- Este é um programa escrito em Python que serve como driver para dispositivos FTDI. Ele permite que você se comunique
-com esses dispositivos usando a linguagem Python, o que facilita muito a automação de tarefas e o desenvolvimento de projetos que envolvam esses dispositivos.O driver é escrito
-completamente em Python, o que significa que você não precisa de nenhuma biblioteca adicional ou software para usá-lo. Ele é fácil de instalar e configurar, e vem com uma documentação
-detalhada para ajudá-lo a começar. 

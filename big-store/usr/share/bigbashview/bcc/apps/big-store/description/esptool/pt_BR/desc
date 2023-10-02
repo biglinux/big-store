@@ -1,1 +1,0 @@
- esptool é uma ferramenta útil escrita em Python que permite comunicar-se com o  bootloader ROM do Espressif ESP8266. Ele permite fazer coisas como gravar firmware no dispositivo, ler e gravar configurações de flash, e muito mais. É uma ferramenta poderosa para desenvolvedores que trabalham com esses dispositivos. 

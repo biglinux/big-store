@@ -1,1 +1,0 @@
-python-potr é uma implementação OTR (Off-the-Record Messaging) em Python puro, sem a necessidade de usar a biblioteca libotr. Isso significa que você pode criptografar suas mensagens de forma segura sem depender de bibliotecas externas. É uma opção simples e eficiente para quem precisa de privacidade na comunicação online. 

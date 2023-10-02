@@ -1,1 +1,0 @@
-Este programa é específico para o uso em projetos Haskell e é capaz de gerar arquivos de configuração, como 'hie-bios' e 'hie.yaml', de forma automatizada. Ele é conhecido como 'haskell-implicit-hie' e é uma ferramenta valiosa para desenvolvedores que trabalham com esse tipo de projeto. 

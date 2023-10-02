@@ -1,2 +1,0 @@
-Você quer saber quantas linhas de código tem em seu projeto? E quanto tempo vai levar para desenvolvê-lo? O scc-bin pode 
-te ajudar com isso! É um contador de código muito rápido e preciso que também faz cálculos de complexidade e estimativas COCOMO. E o melhor de tudo: ele é escrito em Go puro!

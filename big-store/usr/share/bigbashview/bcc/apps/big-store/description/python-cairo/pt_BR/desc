@@ -1,1 +1,0 @@
-python-cairo é um conjunto de vínculos em Python para a biblioteca de gráficos Cairo. Cairo é uma poderosa biblioteca de gráficos 2D com suporte a vários backends, incluindo buffers de imagem, PNG, PostScript, PDF e saída de arquivo SVG. Os vínculos python-cairo fornecem uma maneira conveniente de usar Cairo a partir do Python, com uma API de alto nível e Pythonica. 

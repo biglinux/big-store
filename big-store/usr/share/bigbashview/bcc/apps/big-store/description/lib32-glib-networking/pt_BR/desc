@@ -1,1 +1,0 @@
-lib32-glib-networking é uma biblioteca que fornece extensões para GLib, que é uma biblioteca de suporte para desenvolvimento de aplicativos em C. Essas extensões incluem suporte para redes, como gerenciamento de proxy e resolução de nomes de host. Essa versão é específica para sistemas de 32 bits. 

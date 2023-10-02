@@ -1,4 +1,0 @@
-Esta é uma biblioteca de algoritmo paralelo chamada ROCm. Ela foi desenvolvida para ser usada no port de outra
-biblioteca chamada Thrust. Isso significa que ela foi adaptada para funcionar em um ambiente específico chamado HIP/ROCm.Essa biblioteca foi projetada para ajudar desenvolvedores a criar
-programas que possam aproveitar o poder de múltiplos processadores ou GPUs (placas de vídeo) ao mesmo tempo, o que pode aumentar significativamente a velocidade de processamento de algumas 
-tarefas.

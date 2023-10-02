@@ -1,1 +1,0 @@
-O Snorenotify é um sistema de notificações multiplataforma escrito em C++ e baseado na biblioteca Qt5. Ele permite que outros programas enviam notificações com vários estilos visuais e interajam com elas, além de fornecer uma biblioteca para criação de notificações e uma interface de linha de comando para enviá-las. 

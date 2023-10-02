@@ -1,1 +1,0 @@
- Este programa é uma solução de identificação de usuário que segue o padrão RFC1413. Ele funciona como um 'daemon', ou seja, um programa que fica rodando em segundo plano, e ajuda a identificar quem está acessando o sistema. Ele é chamado 'oidentd' e é uma ferramenta importante para garantir a segurança e privacidade dos usuários.  

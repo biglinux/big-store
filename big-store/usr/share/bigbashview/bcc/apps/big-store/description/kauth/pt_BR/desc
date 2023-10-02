@@ -1,1 +1,0 @@
-Este programa fornece uma abstração para recursos de políticas de sistema e autenticação. Ele se chama kauth e é projetado para ajudar a garantir a segurança dos dados e dos usuários do sistema. Ele faz isso verificando as informações de login e garantindo que somente usuários autorizados tenham acesso a certas áreas e recursos do sistema. 

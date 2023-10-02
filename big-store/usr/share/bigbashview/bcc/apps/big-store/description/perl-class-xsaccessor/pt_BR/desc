@@ -1,3 +1,0 @@
- O perl-class-xsaccessor é um módulo Perl que permite gerar acessores XS (acesso às variáveis
-em C) de forma rápida e sem necessidade de compilação em tempo de execução. Isso torna o código mais eficiente e rápido, pois os acessores são gerados uma única vez e usados ​​durante toda a 
-execução do programa. Além disso, o módulo é fácil de usar, basta importá-lo e usar as funções fornecidas para gerar os acessores desejados. 

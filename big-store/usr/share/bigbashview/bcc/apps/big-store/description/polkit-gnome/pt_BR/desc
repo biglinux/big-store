@@ -1,1 +1,0 @@
-Polkit-gnome é um agente de autenticação para PolicyKit que se integra com o ambiente de trabalho GNOME. Ele é usado para lidar com ações privilegiadas que exigem autenticação, como instalar software ou mudar configurações do sistema. É considerado um agente legado e pode não estar incluído em algumas versões mais novas do GNOME. 

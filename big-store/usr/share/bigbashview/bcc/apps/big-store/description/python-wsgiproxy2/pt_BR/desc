@@ -1,1 +1,0 @@
-Este programa é um proxy WSGI (Web Server Gateway Interface) que oferece suporte a vários backends de cliente  HTTP, permitindo que você use diferentes bibliotecas e configurações para se comunicar com outros servidores web. Ele é escrito em Python e é baseado na biblioteca wsgiproxy2. 

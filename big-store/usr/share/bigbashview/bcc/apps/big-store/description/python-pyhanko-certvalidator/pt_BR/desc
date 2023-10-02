@@ -1,3 +1,0 @@
- Este programa é responsável por validar certificados X.509 e suas cadeias de confiança. Ele utiliza a biblioteca
-python-pyhanko para realizar essas verificações e garantir que os certificados sejam válidos e confiáveis. Com ele, é possível garantir a segurança das comunicações e autenticidade dos
-participantes envolvidos. 

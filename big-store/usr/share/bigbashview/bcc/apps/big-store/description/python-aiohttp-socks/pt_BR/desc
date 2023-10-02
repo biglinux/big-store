@@ -1,1 +1,0 @@
-Este programa é um conector de proxy SOCKS para o aiohttp, que é uma biblioteca Python para criar aplicativos web assíncronos. Ele suporta ambos os protocolos SOCKS4(a) e SOCKS5, permitindo que você use um proxy SOCKS para conectar-se a URLs específicas. Isso é útil quando você precisa acessar conteúdo bloqueado ou navegar na web de forma anônima. 

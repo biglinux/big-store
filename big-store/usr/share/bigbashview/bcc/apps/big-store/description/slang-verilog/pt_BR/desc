@@ -1,4 +1,0 @@
-Este programa oferece serviços para a linguagem SystemVerilog, que é amplamente utilizada na indústria de
-semicondutores. Ele ajuda a escrever e verificar o código em SystemVerilog de maneira mais fácil e eficiente. Além disso, ele também pode ser usado para simular e testar o comportamento do 
-código antes de ser implementado em um dispositivo físico.O programa suporta várias características avançadas, como o uso de interface, class, e program. Ele também fornece recursos para a 
-verificação formal do código, garantindo que ele seja escrito de acordo com as boas práticas e padrões.

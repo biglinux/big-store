@@ -1,1 +1,0 @@
-Uma biblioteca apenas de arquivo header para lista encadeada tipada em C. Esta biblioteca permite que você crie e gerencie facilmente listas encadeadas usando tipos de dados específicos, tornando o código mais organizado e fácil de ler. Além disso, ela oferece diversas funções úteis para trabalhar com  a lista, como adicionar, remover e percorrer elementos. 

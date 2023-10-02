@@ -1,4 +1,0 @@
-bcunit é um sistema leve para escrever, administrar e executar testes de unidade em programas escritos em C. Ele é fácil de
-usar e permite que os desenvolvedores testem seu código com precisão, garantindo assim que as modificações não afetem as funcionalidades existentes.Com bcunit, é possível criar testes
-automatizados que podem ser executados rapidamente e facilmente, economizando tempo e esforço. Além disso, ele oferece recursos avançados, como relatórios de teste detalhados e suporte para
-testes de múltiplas bibliotecas.

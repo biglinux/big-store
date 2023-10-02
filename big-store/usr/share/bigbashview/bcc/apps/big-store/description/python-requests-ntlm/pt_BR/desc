@@ -1,1 +1,0 @@
-Este programa permite autenticação NTLM utilizando a biblioteca requests em Python. Ele é uma extensão da biblioteca requests, o que significa que ele pode ser usado como uma simples biblioteca Python, sem necessidade de configuração adicional. Ele é fácil de usar e compatível com a maioria dos sistemas operacionais. 

@@ -1,3 +1,0 @@
- Bareos é um sistema de backup e arquivamento open source. Ele permite que você faça cópias de segurança dos seus arquivos e os
-armazene em outro lugar, como em um disco externo ou em nuvem. Assim, caso algo aconteça com seus arquivos originais, você sempre poderá recuperá-los.O python-bareos é um módulo Python2 
-que permite acessar o sistema Bareos. Isso significa que você pode usar o Python para automatizar tarefas de backup, como agendar backups e verificar o status deles. 

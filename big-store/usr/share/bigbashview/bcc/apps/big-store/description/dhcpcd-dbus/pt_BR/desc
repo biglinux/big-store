@@ -1,3 +1,0 @@
- dhcpcd-dbus é um programa que permite a comunicação com o gerenciador de endereços DHCP através do sistema de mensagens
-DBus. Isso significa que outros programas podem se comunicar com o dhcpcd e obter informações sobre conexões de rede, como endereços IP, gateways e DNS. Isso é útil para garantir que sua
-rede esteja configurada corretamente e para solucionar problemas de conectividade.

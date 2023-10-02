@@ -1,1 +1,0 @@
-Este pacote fornece vínculos para acessar as ferramentas e bibliotecas do BPF Compiler Collection (BCC) usando Python 3. Ele permite que desenvolvedores escrevam scripts e aplicativos usando Python para coletar e analisar dados de desempenho do kernel Linux. 

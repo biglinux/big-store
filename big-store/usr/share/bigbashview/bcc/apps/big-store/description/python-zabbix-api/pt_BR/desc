@@ -1,1 +1,0 @@
-Esta é uma API escrita em Python que permite acessar o Zabbix, um sistema de monitoramento de servidores, e realizar diversas operações, como adicionar, editar e remover hosts, gerenciar alertas e visualizar dados de monitoramento. Ela é simples de usar e possibilita a automação de tarefas de monitoramento.  

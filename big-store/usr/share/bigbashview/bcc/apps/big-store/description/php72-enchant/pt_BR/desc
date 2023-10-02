@@ -1,3 +1,0 @@
- Este programa adiciona o módulo de corretor ortográfico ao PHP72. Isso significa que, quando você escrever algo no seu
-website ou sistema feito com PHP72, ele vai verificar se as palavras estão escritas corretamente.Ele vai mostrar sugestões de correções quando você digitar algo errado. Isso é útil para
-evitar erros ortográficos e garantir que seus usuários vejam uma escrita correta.Esse programa é simples de usar, basta instalar e ativar o módulo, e ele estará pronto para uso.

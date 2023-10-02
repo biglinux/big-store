@@ -1,3 +1,0 @@
-Esta é uma biblioteca moderna em Python para trabalhar com o protocolo D-Bus. Ele permite que você envie e receba mensagens do
-sistema de bus de nome D-Bus, que é usado para comunicação entre programas no Linux. Com esta biblioteca, você pode facilmente integrar seus programas Python com outros programas no
-sistema.Além disso, ele é compatível com o Python 3, o que significa que pode ser usado em sistemas mais recentes.

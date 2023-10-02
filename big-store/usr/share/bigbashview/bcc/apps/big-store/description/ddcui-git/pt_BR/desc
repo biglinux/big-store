@@ -1,2 +1,0 @@
-ddcui é uma versão beta de uma interface gráfica para o programa ddcutil, desenvolvida usando a biblioteca Qt. Ela permite que
-você configure facilmente as configurações do monitor, como brilho e contraste, sem precisar digitar comandos no terminal. Com a ddcui, essa tarefa fica muito mais simples e intuitiva. 

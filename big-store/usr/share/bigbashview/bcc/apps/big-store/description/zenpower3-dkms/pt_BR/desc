@@ -1,4 +1,0 @@
-Este programa é um driver para o kernel Linux que permite a leitura de sensores em CPUs da família AMD Zen. Ele é
-chamado de zenpower3-dkms e é importante para garantir que os dados de temperatura e outras informações do processador sejam corretamente lidos e exibidos no sistema.Este driver é
-específico para a família Zen da AMD e não funcionará em outros tipos de processadores. Ele é instalado como um módulo dinâmico do kernel (DKMS) e é atualizado automaticamente quando novos 
-kernels são instalados.

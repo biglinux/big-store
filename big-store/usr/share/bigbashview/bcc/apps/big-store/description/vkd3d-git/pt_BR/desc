@@ -1,3 +1,0 @@
-Esta biblioteca traduz códigos D3D12 para o formato Vulkan. Essa versão específica é a versão do GIT, o que
-significa que é uma versão de desenvolvimento mais recente e pode incluir novos recursos e correções de bugs.Ela é útil para desenvolvedores que querem utilizar o poder da API Vulkan em
-seus projetos, mas já possuem códigos escritos em D3D12.

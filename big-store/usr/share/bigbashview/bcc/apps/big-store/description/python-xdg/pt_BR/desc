@@ -1,4 +1,0 @@
-Essa é uma biblioteca escrita em Python que implementa a especificação XDG Base Directory. Ela é útil para
-desenvolvedores que precisam lidar com arquivos e diretórios em sistemas operacionais compatíveis com essa especificação. Com ela, é possível acessar diretórios de configuração, dados e
-cache de maneira simplificada e consistente. Além disso, a biblioteca python-xdg fornece uma maneira fácil de lidar com caminhos de arquivos e diretórios no sistema operacional, tornando
-mais fácil escrever programas multiplataforma. 

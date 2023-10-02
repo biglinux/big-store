@@ -1,1 +1,0 @@
- Este programa é um parser de arquivos CSV que funciona bem com a biblioteca Cassava para Haskell. Ele usa a  biblioteca Megaparsec para analisar os arquivos CSV e tornar a leitura dos dados mais fácil e eficiente.  

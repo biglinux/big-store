@@ -1,1 +1,0 @@
-O pacote Haskell Vector Stream fornece uma implementação eficiente de streams para o idioma de programação Haskell. Com ele,  é possível trabalhar com grandes conjuntos de dados de forma rápida e eficiente, sem precisar carregar tudo na memória de uma só vez. Além disso, o pacote possui uma série de funções úteis  para manipular esses streams de forma simples e intuitiva. 

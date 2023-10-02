@@ -1,3 +1,0 @@
- Um monitor de atividade baseado em terminal inspirado por gtop e vtop. Ele exibe informações sobre o uso do CPU,
-memória, disco e rede em tempo real. Ele também mostra processos e permite interagir com eles. É uma ferramenta útil para entender o que está acontecendo no seu sistema e tomar decisões
-informadas sobre o uso dos recursos. 

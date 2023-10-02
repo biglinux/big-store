@@ -1,4 +1,0 @@
-Este programa é um conjunto de drivers para câmeras Intel IPU6. Ele permite que as câmeras funcionem corretamente em sistemas 
-operacionais compatíveis. Ele utiliza o sistema DKMS, o que significa que ele se adapta automaticamente às atualizações do kernel do sistema operacional. Isso garante que os drivers sempre 
-estejam funcionando corretamente e sejam compatíveis com a versão mais recente do sistema operacional.Esses drivers são especialmente úteis para usuários que possuem câmeras Intel IPU6 e
-estão executando sistemas operacionais compatíveis. Eles garantem que as câmeras funcionem corretamente e fornecem recursos avançados para a captura de imagens e vídeo.

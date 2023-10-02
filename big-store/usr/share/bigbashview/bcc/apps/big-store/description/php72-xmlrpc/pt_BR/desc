@@ -1,5 +1,0 @@
-O módulo xmlrpc para PHP 7.2 é uma extensão que permite aos desenvolvedores criar aplicações que se comunicam com outros sistemas 
-usando o protocolo XML-RPC. Ele fornece uma maneira fácil de realizar chamadas de procedimento remoto (RPC) entre diferentes sistemas. Esse módulo é útil para integrar diferentes sistemas, 
-como sites, aplicativos e serviços, permitindo que eles compartilhem dados e funcionalidades. Ele também é útil para acessar recursos e serviços em outros sistemas, como bancos de dados e
-aplicativos de terceiros. Este módulo é compatível com as versões mais recentes do PHP e é fácil de instalar e configurar. Ele também tem uma ampla documentação e suporte da comunidade,
-tornando-o uma escolha popular para desenvolvedores.

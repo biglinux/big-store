@@ -1,3 +1,0 @@
-Este programa é usado para construir, encontrar e usar binários do wxWidgets. É escrito em Perl e é
-conhecido como perl-alien-wxwidgets. Com ele, você pode facilmente construir aplicativos que utilizem a biblioteca wxWidgets sem precisar se preocupar com a instalação manual de todos os
-componentes necessários. Além disso, você pode facilmente encontrar e usar binários prontos, tornando o desenvolvimento de aplicativos mais fácil e rápido. 

@@ -1,1 +1,0 @@
-Este programa é projetado para ambientes de produção e suporta GPUs. Ele permite que você sirva seus modelos de aprendizado de máquina, tornando-os acessíveis a outros programas e sistemas. Ele é escrito em Python e usa a API TensorFlow Serving. 

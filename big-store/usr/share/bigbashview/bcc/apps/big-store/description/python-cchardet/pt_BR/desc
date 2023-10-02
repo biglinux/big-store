@@ -1,1 +1,0 @@
-O python-cchardet é um detector de codificação universal para arquivos de texto. Ele é mais rápido do que outras ferramentas como o chardet e pode identificar a codificação de vários tipos de arquivos, incluindo arquivos de texto simples e arquivos HTML. Ele é uma ferramenta útil  para desenvolvedores que precisam lidar com dados em diferentes codificações. 

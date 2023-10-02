@@ -1,3 +1,0 @@
- Esse programa é um decorador para a execução de funções síncronas de forma assíncrona. Isso significa que ele permite que
-outras tarefas sejam realizadas enquanto a função está sendo executada, aumentando assim a eficiência do código. Ele é escrito em Python e é fácil de usar, basta adicioná-lo antes da
-declaração da função que deseja tornar assíncrona. 

@@ -1,4 +1,0 @@
-Este é um pacote de utilitários de driver para placas de vídeo NVIDIA, específico para sistemas de 32
-bits. É uma versão beta, o que significa que ainda está sendo testada e pode conter erros ou instabilidades. Se você estiver usando uma placa NVIDIA em um sistema de 32 bits, este pacote
-pode ser útil para garantir que seu hardware funcione corretamente.Lembre-se de que, como é uma versão beta, é importante fazer backup de seus dados antes de instalar este pacote, caso algo
-dê errado. Além disso, verifique se o seu sistema atende aos requisitos de hardware e software antes de instalar o pacote.

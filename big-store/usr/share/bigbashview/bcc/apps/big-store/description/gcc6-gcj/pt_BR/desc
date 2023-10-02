@@ -1,4 +1,0 @@
-Este programa é um compilador para a linguagem de programação Java, usando a tecnologia GCC. Ele permite que você converta o código
-escrito em Java em um formato executável no seu computador. Com ele, é possível criar aplicativos e jogos para muitas plataformas diferentes.Ele é chamado de 'front-end' porque é a parte do
-compilador que entende a linguagem Java e traduz para o código de máquina. O GCC é uma tecnologia amplamente utilizada e confiável, então você pode ter certeza de que seus programas serão
-compilados com qualidade.

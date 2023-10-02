@@ -1,3 +1,0 @@
- Essa biblioteca, chamada iir1-git, é especializada em filtros IIR (Infinite Impulse Response) em tempo real. Ela foi
-escrita em C++ e é perfeita para uso em projetos de processamento de sinais digitais. Com ela, é possível criar diversos tipos de filtros, como passa-baixa, passa-alta e passa-faixa, entre 
-outros. Além disso, essa biblioteca é fácil de usar e possui uma boa documentação para ajudar os desenvolvedores a implementá-la em seus projetos.

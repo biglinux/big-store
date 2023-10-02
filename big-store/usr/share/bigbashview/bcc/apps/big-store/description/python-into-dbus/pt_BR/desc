@@ -1,1 +1,0 @@
-Esse programa oferece ferramentas para converter objetos que habitam os tipos básicos do Python, como listas, inteiros e dicionários, para objetos que habitam os tipos do dbus, como dbus.Array, dbus.UInt32 e dbus.Dictionary. Isso é feito com base em uma assinatura dbus especificada. 

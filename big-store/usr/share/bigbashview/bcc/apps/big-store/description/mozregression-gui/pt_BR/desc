@@ -1,3 +1,0 @@
- O mozregression-gui é um programa que ajuda a encontrar qual versão do Firefox está causando problemas. Ele
-faz isso verificando várias versões do navegador e encontrando qual delas está causando a regressão (ou seja, um problema que não existia antes).Com esse programa, você pode facilmente
-encontrar qual versão do Firefox você deve voltar para resolver o problema. 

@@ -1,1 +1,0 @@
-ruby-stackprof é um perfilador de amostragem para código Ruby. Ele possui amostradores de CPU, relógio de parede e alocação de objeto, que permitem medir com precisão o desempenho do seu código. Com ruby-stackprof, você pode identificar rapidamente quais partes do seu código estão consumindo mais recursos e otimizá-las para melhorar o desempenho geral do seu aplicativo. 

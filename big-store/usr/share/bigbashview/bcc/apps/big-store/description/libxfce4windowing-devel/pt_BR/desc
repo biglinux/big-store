@@ -1,3 +1,0 @@
-Este é um programa desenvolvido para ser usado com sistemas X11 e Wayland. Ele fornece uma 
-biblioteca de abstração de conceito de janelas, o que significa que ele permite que os desenvolvedores criem programas com janelas de forma mais fácil e consistente. Este é o pacote de
-desenvolvimento, o que significa que é destinado a ser usado por desenvolvedores para criar e testar seus programas.

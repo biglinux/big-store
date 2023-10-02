@@ -1,4 +1,0 @@
-Com o cdk8s-cli, você pode criar aplicativos e abstrações nativas do Kubernetes usando programação orientada a
-objetos. Isso torna mais fácil para desenvolvedores criarem e gerenciarem suas aplicações no Kubernetes sem precisar aprender a sintaxe difícil do Kubernetes.Com o cdk8s-cli, você pode usar
-a programação que você já conhece para criar aplicativos Kubernetes de forma rápida e fácil. Além disso, ele permite a automação de tarefas comuns, como criação de recursos e escalonamento 
-de aplicativos.

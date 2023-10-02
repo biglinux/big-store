@@ -1,3 +1,0 @@
- Pamac-aur é uma interface gráfica com base em Gtk3 para gerenciar pacotes. Ele usa libalpm como base e
-possui suporte para o AUR (Arch User Repository) e Appstream. Isso significa que você pode instalar pacotes não oficiais do AUR e também verificar as informações dos pacotes através do
-Appstream. É uma ótima opção para usuários de Arch Linux que desejam ter um gerenciador de pacotes fácil de usar e completo. 

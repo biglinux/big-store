@@ -1,1 +1,0 @@
-Este é um banco de dados de localização que usa dados do GeoLite2 criados pela MaxMind. Ele contém informações sobre cidades e ASNs (Autonomous System Number). É uma versão antiga desse tipo de banco de dados, por isso é chamado de 'legacy'. Ele pode ser útil para identificar a localização de usuários ou  dispositivos em aplicações ou sistemas. 

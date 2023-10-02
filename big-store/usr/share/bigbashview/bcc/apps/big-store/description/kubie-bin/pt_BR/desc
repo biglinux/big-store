@@ -1,3 +1,0 @@
- kubie-bin é uma ferramenta poderosa para gerenciar contextos e espaços de nomes no Kubernetes. Ele é
-uma alternativa a outras ferramentas como kubectx e kubens, mas com mais recursos e facilidade de uso. Com kubie-bin, você pode rapidamente alternar entre diferentes clusters, contas e
-espaços de nomes, o que o torna ideal para desenvolvedores e administradores de sistemas que lidam com múltiplos ambientes Kubernetes. 

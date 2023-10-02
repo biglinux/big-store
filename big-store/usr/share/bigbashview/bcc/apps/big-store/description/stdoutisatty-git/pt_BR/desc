@@ -1,2 +1,0 @@
- Este programa faz com que os outros programas pensem que o stdout (saída padrão) é um terminal, chamado tty. Isso
-pode ser útil em algumas situações específicas, como quando você quer que um programa produza saídas diferentes dependendo se ele está sendo executado em um terminal ou não. 

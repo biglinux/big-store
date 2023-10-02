@@ -1,1 +1,0 @@
-Este repositório contém uma biblioteca de funções escritas em Haskell que são seguras (livres de exceções). Isso significa que  essas funções não geram exceções quando utilizadas corretamente, tornando seu código mais confiável e seguro. 

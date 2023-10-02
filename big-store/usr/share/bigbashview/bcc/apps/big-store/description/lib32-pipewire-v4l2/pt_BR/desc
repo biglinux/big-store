@@ -1,1 +1,0 @@
-Este programa é uma biblioteca de cliente de 32 bits que permite roteamento e processamento de áudio  e vídeo com baixa latência. Ele também inclui um interceptador V4L2, que é uma interface de vídeo para Linux. Esse programa é ideal para aplicações que precisam de alta qualidade e velocidade de processamento de áudio e vídeo. 

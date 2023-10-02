@@ -1,4 +1,0 @@
- O kealib é um formato de arquivo raster baseado em HDF5. Ele foi desenvolvido para armazenar grandes quantidades
-de dados de imagem em um único arquivo. Ele também tem um plugin GDAL para permitir que os usuários abram e trabalhem com esses arquivos usando aplicativos compatíveis com GDAL.O kealib 
-é uma escolha popular para aplicativos de processamento de imagem, como a criação de mapas e análise de imagens de satélite. Ele também é amplamente utilizado em aplicativos de modelagem e 
-análise de dados. 

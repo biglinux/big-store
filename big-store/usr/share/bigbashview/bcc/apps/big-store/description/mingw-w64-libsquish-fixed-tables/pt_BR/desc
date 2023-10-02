@@ -1,4 +1,0 @@
-Essa é uma biblioteca de compressão DXT com tabelas de busca de
-cores sólidas fixas desenvolvida por Rich Geldreich. Ela foi adaptada para ser usada com o mingw-w64, um conjunto de ferramentas de desenvolvimento para Windows.A biblioteca é útil para
-aplicativos que precisam comprimir imagens no formato DXT para melhorar o desempenho e economizar espaço de armazenamento. Ela utiliza algoritmos avançados de compressão para obter alta
-qualidade de imagem com tamanhos de arquivo menores.

@@ -1,4 +1,0 @@
-Este programa é um agente de autorização que permite que os usuários autorizem ações de privilégios elevados em sistemas que
-utilizam o polkit. Ele é construído sobre o Qt, uma biblioteca de interface gráfica para usuários, o que o torna fácil de usar e personalizar. Ele é usado principalmente em ambientes de
-desktop, como o Gnome, KDE, Xfce e outros. Ele é responsável por garantir que somente os usuários autorizados possam realizar tarefas com privilégios elevados, como instalar programas ou
-alterar configurações do sistema.

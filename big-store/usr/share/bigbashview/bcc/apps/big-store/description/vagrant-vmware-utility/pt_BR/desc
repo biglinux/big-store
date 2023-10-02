@@ -1,3 +1,0 @@
-Este é um plugin para o provedor vmware do Vagrant. Ele permite gerenciar máquinas virtuais (VMs) de forma
-fácil e rápida. Com ele, é possível criar, iniciar, pausar e parar VMs com apenas alguns comandos simples. Além disso, ele também fornece recursos avançados, como a configuração de rede e
-armazenamento, para personalizar completamente sua VM.O plugin é fácil de instalar e configurar, e é compatível com as últimas versões do Vagrant e do VMware.

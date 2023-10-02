@@ -1,3 +1,0 @@
-O programa netdiscover é uma ferramenta de linha de comando que ajuda na descoberta de dispositivos em uma rede. Ele usa o 
-protocolo ARP (Address Resolution Protocol) para identificar dispositivos ativos em uma rede. Ele é útil para quem precisa encontrar dispositivos que não possuem endereço IP fixo ou para
-identificar dispositivos conectados a uma rede sem autorização. Ele é muito fácil de usar e pode ser executado em diversos sistemas operacionais, como Windows, Linux e macOS.

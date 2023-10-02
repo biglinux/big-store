@@ -1,3 +1,0 @@
-Este programa é um visualizador de ondas que pode ler arquivos de extensões LXT, LXT2, VZT, GHW e
-VCD/EVCD. Ele usa a versão gtk3 do GTK para exibir as ondas.Com este programa, você pode analisar e entender melhor como os sinais elétricos se comportam em diferentes circunstâncias. Ele é
-útil para engenheiros e estudantes de áreas relacionadas à eletrônica e engenharia elétrica.

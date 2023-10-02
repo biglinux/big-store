@@ -1,1 +1,0 @@
-A biblioteca ruby-mapping permite mapear objetos de um modelo para outro modelo específico. Isso pode ser útil quando você quer transformar dados de um formato para outro, ou quando você precisa combinar dados de diferentes fontes em um único modelo. Com ruby-mapping, você pode definir regras de mapeamento simples ou avançadas, dependendo da sua necessidade. 

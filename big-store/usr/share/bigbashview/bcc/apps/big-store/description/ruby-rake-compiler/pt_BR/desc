@@ -1,1 +1,0 @@
-O ruby-rake-compiler é um gerador de tarefas para extensões Ruby escrito em C e Java. Ele utiliza o Rake, um gerenciador de tarefas para projetos Ruby, para automatizar tarefas comuns como a compilação e implantação de extensões.Com ele, é possível simplificar o processo de criação de extensões  Ruby, tornando-o mais eficiente e fácil de gerenciar.  

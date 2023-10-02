@@ -1,4 +1,0 @@
-Com este programa, você pode controlar o MPV, um reproductor de vídeo, usando a linguagem de programação Python. Ele se comunica
-com o MPV através de algo chamado JSON IPC, o que significa que ele usa uma maneira especial de trocar mensagens entre o seu código Python e o MPV. Isso permite que você faça coisas como
-mudar o vídeo que está sendo reproduzido, ajustar o volume e muito mais.Isso é útil se você estiver criando um aplicativo ou script que precisa controlar o MPV de alguma forma. Por exemplo,
-você pode criar um aplicativo que automatize a reprodução de uma lista de vídeos, ou um script que mude o vídeo de acordo com a hora do dia.

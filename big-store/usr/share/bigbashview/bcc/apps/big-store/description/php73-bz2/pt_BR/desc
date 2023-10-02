@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 7.3 que permite a compressão e descompressão de arquivos usando o formato BZ2. Ele é útil para economizar
-espaço em disco e para transferir arquivos maiores mais rapidamente. Com esse módulo, você pode criar, abrir, ler e escrever arquivos BZ2 com facilidade em seu código PHP.Para usar esse
-módulo, você precisará instalá-lo e habilitá-lo no seu servidor. Ele é compatível com as versões mais recentes do PHP e pode ser usado em conjunto com outros módulos de compressão, como o
-GZIP.

@@ -1,4 +1,0 @@
-As Ferramentas de Linha de Comando (CLI) para Azure Functions são um conjunto de ferramentas de linha de
-comando que permitem a criação, implantação e gerenciamento de funções do Azure. Com elas, é possível criar e gerenciar projetos de funções, implantar funções no Azure e gerenciar
-configurações de funções. Essas ferramentas também permitem a depuração e teste de funções localmente antes de implantá-las.Elas são compatíveis com Windows, MacOS e Linux, e podem ser
-instaladas como um pacote global NPM. 

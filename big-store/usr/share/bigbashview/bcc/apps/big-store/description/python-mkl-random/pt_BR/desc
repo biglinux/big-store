@@ -1,4 +1,0 @@
-Este programa é uma interface em Python baseada em NumPy para a funcionalidade de geração de números aleatórios Intel
-MKL. Ele permite que você utilize a potência da biblioteca Intel MKL para gerar números aleatórios de alta qualidade e precisão para seus aplicativos Python.Ao usar este programa, você pode
-gerar números aleatórios de várias distribuições, incluindo normal, uniforme e exponencial, além de outras. Ele também fornece recursos avançados, como geração de números aleatórios em
-paralelo e suporte a várias precisões.

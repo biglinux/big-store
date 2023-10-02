@@ -377,18 +377,15 @@ function sh_header_sh_htm_main {
 
 	#FLATPAK
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-#		if [[ -e "$HOME_FOLDER/hide_flatpak" ]]; then
 		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'; then
 			flatpak_checkbox=""
 			if [[ "$flatpak_change" = "y" ]]; then
-#				rm -f "$HOME_FOLDER/hide_flatpak"
 				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '0'
 				flatpak_checkbox="checked"
 			fi
 		else
 			flatpak_checkbox="checked"
 			if [[ "$flatpak_change" = "y" ]]; then
-#				echo "" >"$HOME_FOLDER/hide_flatpak"
 				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'
 				flatpak_checkbox=""
 			fi
@@ -399,18 +396,15 @@ function sh_header_sh_htm_main {
 
 	#SNAP
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-#		if [[ -e "$HOME_FOLDER/hide_snap" ]]; then
 		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'; then
 			snap_checkbox=""
 			if [[ "$snap_change" = "y" ]]; then
-#				rm -f "$HOME_FOLDER/hide_snap"
 				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '0'
 				snap_checkbox="checked"
 			fi
 		else
 			snap_checkbox="checked"
 			if [[ "$snap_change" = "y" ]]; then
-#				echo "" >"$HOME_FOLDER/hide_snap"
 				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'
 				snap_checkbox=""
 			fi
@@ -679,8 +673,4 @@ function sh_header_sh_htm_main {
 #sh_debug
 sh_config
 sh_refresh_installed_packages
-# if [[ $# -eq 0 ]]; then
-	sh_header_sh_htm_main
-# else
-# 	eval "$@"
-# fi
+sh_header_sh_htm_main

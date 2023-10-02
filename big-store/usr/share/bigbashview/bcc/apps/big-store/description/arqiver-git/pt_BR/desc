@@ -1,3 +1,0 @@
-Este é um gerenciador de arquivos simples baseado no libarchive e no Qt. Ele permite compactar e descompactar arquivos, além 
-de gerenciar arquivos de forma fácil e intuitiva. Com ele, você pode criar arquivos compactados em vários formatos, como .zip, .tar e .rar, e extrair arquivos de arquivos compactados. Além 
-disso, ele tem uma interface amigável que é fácil de usar para pessoas de todas as idades. 

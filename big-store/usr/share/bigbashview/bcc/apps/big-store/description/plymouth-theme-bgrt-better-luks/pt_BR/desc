@@ -1,3 +1,0 @@
-Esse é um tema modificado para o Plymouth, que é usado para mostrar animações enquanto o sistema operacional carrega. Ele
-mantém o logo original do fabricante no prompt de senha do LUKS, que é usado para criptografar o disco rígido. Dessa forma, você ainda pode ver o logo do fabricante do seu computador
-enquanto digita a senha para desbloquear o disco rígido.

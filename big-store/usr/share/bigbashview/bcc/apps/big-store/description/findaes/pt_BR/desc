@@ -1,3 +1,0 @@
-Este programa ajuda a encontrar chaves AES usando agendas de chaves. Ele é útil para quem precisa descobrir chaves de criptografia para 
-acessar arquivos protegidos. Ele funciona examinando o cronograma de chaves para encontrar padrões que possam indicar a chave correta.É fácil de usar e pode ser útil para profissionais de
-segurança, pesquisadores e outros interessados em descobrir chaves AES.

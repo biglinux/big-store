@@ -1,1 +1,0 @@
-Este pacote oferece uma classe para acessar e ler informações do sistema a partir do sistema de arquivos /proc do Linux em python. Ele permite acessar informações como processos, memória e configurações de kernel de maneira simples e intuitiva. 

@@ -1,4 +1,0 @@
-O Python-zimports é uma ferramenta que ajuda a reescrever as importações em seu código Python. Ele pode ajudar a
-deixar seu código mais organizado e fácil de entender, especialmente em projetos grandes ou complexos. Ele funciona verificando seus imports existentes e sugerindo mudanças para torná-los
-mais claros e consistentes.Além disso, o Python-zimports também pode ajudar a evitar conflitos de nomes de pacotes e a tornar as importações mais eficientes, o que pode melhorar o
-desempenho do seu código. Ele é fácil de usar e pode ser integrado à sua configuração de desenvolvimento existente para que você possa usá-lo facilmente em seus projetos.

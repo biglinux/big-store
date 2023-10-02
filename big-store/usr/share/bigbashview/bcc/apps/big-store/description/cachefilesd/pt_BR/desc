@@ -1,4 +1,0 @@
-Este programa é um 'daemon' que atua como um 'backend' para o FS-Cache. Ele é responsável por gerenciar o cache de
-arquivos no sistema, o que pode ajudar a aumentar a velocidade de acesso aos arquivos e economizar espaço em disco. Em outras palavras, ele guarda cópias dos arquivos mais usados na memória
-para que eles possam ser abertos mais rapidamente, sem precisar carregá-los do disco toda vez. Além disso, ele também remove arquivos que não são mais necessários do cache para liberar
-espaço. 

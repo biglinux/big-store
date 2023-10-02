@@ -1,1 +1,0 @@
-python-binary-memcached é um módulo python puro para acessar o memcached via protocolo binário. Ele suporta o protocolo binário completo, incluindo a autenticação SASL. Ele é compatível com python 2.7 e 3.4+ e funciona tanto no Linux quanto no Windows. Ele fornece uma API simples e fácil de usar e está bem documentado. 

@@ -1,1 +1,0 @@
-borg é um programa de backup deduplicando que permite armazenar arquivos de forma eficiente, sem armazenar cópias desnecessárias. Ele também usa compressão para reduzir o tamanho dos arquivos armazenados e criptografia autenticada para proteger os dados. Com borg, você pode ter certeza de que seus arquivos estão seguros e ocupando menos espaço no armazenamento. 

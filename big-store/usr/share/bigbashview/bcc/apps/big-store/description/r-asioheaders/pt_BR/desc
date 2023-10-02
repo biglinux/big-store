@@ -1,3 +1,0 @@
-Asio é uma biblioteca de headers em C++ que fornece uma interface simples e consistente para diversas operações de rede, 
-como sockets TCP e UDP. Ela é projetada para ser utilizada em aplicações assíncronas, o que a torna útil para programas que precisam lidar com muitas conexões simultaneamente. Os headers do
-Asio são fáceis de usar e possuem uma documentação completa, o que os torna uma boa opção para qualquer programador que precise trabalhar com rede.

@@ -1,1 +1,0 @@
-Este é um banco de dados de fuso horário oficial para o Python. Ele contém informações precisas sobre fusos horários de todo o mundo e é usado para garantir que as horas exibidas pelo seu aplicativo Python estejam corretas. Com este pacote, você pode facilmente converter horas entre diferentes fusos horários e exibir horas corretas para os usuários de diferentes locais. 

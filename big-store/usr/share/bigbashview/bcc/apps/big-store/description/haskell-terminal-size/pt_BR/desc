@@ -1,1 +1,0 @@
-Este programa, escrito em Haskell, permite que você obtenha as medidas (altura e largura) da janela do seu terminal. Isso pode ser útil se você quiser que o seu programa se adapte automaticamente às dimensões da janela, ou se você quiser limitar o tamanho da saída para evitar que ela seja cortada.  

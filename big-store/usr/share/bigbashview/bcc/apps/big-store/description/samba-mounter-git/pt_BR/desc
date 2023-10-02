@@ -1,4 +1,0 @@
-Essa é uma ferramenta de montagem criada para ser utilizada com o protocolo Samba, que permite acesso 
-a arquivos e pastas compartilhados em redes. Ela foi desenvolvida como um projeto open-source e está disponível no GitHub. Com essa ferramenta, é possível montar pastas compartilhadas do
-Samba como unidades de disco no sistema operacional, facilitando o acesso e a manipulação de arquivos. Além disso, essa ferramenta possui suporte a várias opções de configuração, como
-autenticação e cifragem de dados, permitindo que seja adaptada às necessidades específicas de cada usuário. 

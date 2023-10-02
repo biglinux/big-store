@@ -1,1 +1,0 @@
-O perl-file-pushd é um módulo que permite alterar o diretório de trabalho atual de forma temporária. Isso é útil quando você precisa acessar arquivos ou pastas em outro local sem precisar mudar permanentemente o diretório atual. Depois que o trabalho necessário é concluído, o diretório original é restaurado  automaticamente. 

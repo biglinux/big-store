@@ -1,1 +1,0 @@
-Este é um plugin para o gerenciador de pacotes Pamac, que permite gerenciar pacotes snaps (pacotes especiais para aplicativos do Linux). Ele utiliza a biblioteca libpamac para se comunicar com o gerenciador de pacotes e adicionar suporte para snaps. 

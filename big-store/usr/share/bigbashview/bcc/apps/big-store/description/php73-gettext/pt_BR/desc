@@ -1,4 +1,0 @@
-O módulo gettext para o PHP73 permite que você traduza o seu programa para vários idiomas. Isso é útil quando você quer que o
-seu programa seja utilizado por pessoas que falam idiomas diferentes. Ele usa arquivos de texto externos para armazenar as traduções, o que facilita a manutenção e atualização das
-traduções.Além disso, este módulo é compatível com a maioria das versões do PHP, incluindo a 7.3, e é fácil de usar. Ele oferece uma série de funções que permitem que você especifique as 
-traduções para suas strings, além de suportar pluralização e contexto. 

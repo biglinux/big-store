@@ -1,1 +1,0 @@
-O pacote haskell-numinstances fornece instâncias de classes numéricas para funções e tuplas, permitindo que esses tipos possam ser usados com operadores matemáticos comuns como +, -, * e /. 

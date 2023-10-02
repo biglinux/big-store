@@ -1,2 +1,0 @@
-Uma biblioteca Python independente para o sistema de pacotes catkin. Com ela, você pode criar, gerenciar e trabalhar com pacotes
-catkin sem precisar do ambiente completo do ROS. É uma ferramenta útil para desenvolvedores que desejam usar recursos do catkin sem precisar do ROS inteiro.

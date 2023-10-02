@@ -1,1 +1,0 @@
-Este programa fornece compatibilidade para citações e tipos de código tanto para trás quanto para frente. Isso significa que ele é capaz de lidar com códigos antigos e novos de maneira eficiente, sem causar problemas ou erros. Ele é escrito em Haskell e usa o pacote 'th-compat' para garantir essa compatibilidade. 

@@ -1,3 +1,0 @@
-Este programa adiciona suporte à transferência de arquivos através da biblioteca curl no PHP 8.1. Ele permite
-que você faça requisições HTTP e HTTPS, e é útil para fazer upload de arquivos, baixar arquivos e enviar informações para um servidor.Com este módulo, você pode facilmente enviar ou receber
-dados usando vários protocolos, como FTP, FTPS, SCP, SFTP, HTTP, HTTPS, Telnet, DICT, FILE e LDAP.

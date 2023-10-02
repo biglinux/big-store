@@ -1,1 +1,0 @@
- Com o programa python-pycontracts, é possível declarar restrições nos parâmetros e valores de retorno  de funções. Isso ajuda a garantir que os dados passados para a função estejam dentro dos limites esperados, evitando erros no código. Além disso, torna o código mais fácil de entender e manter.  

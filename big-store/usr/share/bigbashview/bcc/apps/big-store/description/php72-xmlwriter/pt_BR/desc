@@ -1,4 +1,0 @@
-Esse é um módulo para a versão 7.2 do PHP, que permite criar e editar arquivos XML de maneira fácil e rápida. Ele fornece uma
-série de funções para escrever e formatar o conteúdo do arquivo, além de oferecer suporte para namespaces e outras características avançadas. Com esse módulo, é possível criar documentos
-XML completos e complexos com poucas linhas de código.Além disso, o xmlwriter oferece uma interface simples e intuitiva, tornando-o fácil de usar tanto para programadores iniciantes quanto 
-para os mais experientes. Ele também é altamente eficiente e performático, permitindo a criação de arquivos XML de grande porte sem problemas.

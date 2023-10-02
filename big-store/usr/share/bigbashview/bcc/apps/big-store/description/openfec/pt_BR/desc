@@ -1,4 +1,0 @@
-Open Forward Erasure Codes (OpenFEC) é uma ferramenta que permite codificar dados de forma a protegê-los contra erros de
-transmissão ou armazenamento. Isso é útil em situações em que os dados precisam ser transmitidos ou armazenados em condições adversas, como conexões de rede instáveis ou discos rígidos com 
-falhas.OpenFEC fornece diversos algoritmos de codificação de erros, incluindo Reed-Solomon e Low-Density Parity-Check, para ajudar a garantir que os dados sejam recuperados mesmo em caso de
-falhas. Ele também oferece uma interface simples e fácil de usar para que os usuários possam configurar e gerenciar a codificação de erros.

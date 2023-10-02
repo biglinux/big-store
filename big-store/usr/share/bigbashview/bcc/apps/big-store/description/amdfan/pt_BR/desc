@@ -1,4 +1,0 @@
-Este programa é chamado 'amdfan' e ele é escrito em Python. Ele serve para controlar os ventiladores das placas de vídeo AMD.
-Isso significa que ele ajuda a regular a velocidade dos ventiladores de acordo com a temperatura da placa, para mantê-la fresca e evitar superaquecimento.Além disso, ele também pode ser
-configurado para atuar de acordo com suas necessidades específicas, como ajustar a velocidade máxima dos ventiladores ou até mesmo desativá-los completamente se você prefere trabalhar com
-menos barulho.

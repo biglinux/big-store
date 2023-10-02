@@ -1,1 +1,0 @@
-O programa em questão trabalha com números de ponto flutuante de precisão reduzida, também conhecidos como half-precision floating-point. Esses números possuem uma precisão menor do que os números de ponto flutuante comuns, mas ocupam menos espaço na memória e podem ser processados mais rapidamente. O programa é escrito na linguagem Haskell. 

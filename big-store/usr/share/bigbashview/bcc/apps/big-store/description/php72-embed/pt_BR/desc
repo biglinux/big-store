@@ -1,4 +1,0 @@
-A biblioteca SAPI (Systems Application Programming Interface) embutida para PHP 7.2 é uma ferramenta que permite a
-integração do PHP com outras aplicações. Isso significa que você pode usar o PHP como uma linguagem de programação para criar scripts ou programas que possam ser executados dentro de outras
-aplicações, como servidores web ou aplicativos de desktop. Essa biblioteca específica é projetada para ser usada com a versão 7.2 do PHP, então é importante garantir que você esteja usando 
-essa versão antes de tentar usar essa biblioteca.

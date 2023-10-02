@@ -1,4 +1,0 @@
-Este é um programa chamado Prometheus-postfix-exporter. Ele serve como um exportador para métricas do Postfix.
-Isso significa que ele ajuda a coletar dados sobre o funcionamento do Postfix e os envia para o Prometheus, que é um sistema de monitoramento de desempenho. Assim, você pode ter uma visão
-geral do desempenho do Postfix e identificar problemas rapidamente. Em resumo, o Prometheus-postfix-exporter é uma ferramenta útil para quem precisa monitorar o desempenho do Postfix e
-garantir que tudo esteja funcionando corretamente. 

@@ -1,3 +1,0 @@
-Este pacote contém cabeçalhos do kernel específicos para o sistema operacional Linux, adaptados para serem
-utilizados em espaço de usuário. Estes cabeçalhos foram limpos de informações que não são necessárias ou apropriadas para o uso em espaço de usuário, tornando-os seguros para uso em
-aplicações de usuário. Eles são específicos para a arquitetura arm-linux-gnueabihf.

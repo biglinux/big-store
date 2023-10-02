@@ -1,1 +1,0 @@
-haskell-http-conduit é um pacote para Haskell que permite fáceis interações de cliente HTTP.  Ele inclui uma interface de conduto, que permite uma transmissão eficiente de grandes corpos de requisição e resposta, além de suporte HTTPS para conexões seguras. É uma escolha popular para construir aplicativos e serviços web em Haskell. 

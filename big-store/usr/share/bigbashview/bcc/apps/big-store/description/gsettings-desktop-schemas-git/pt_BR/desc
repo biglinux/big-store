@@ -1,3 +1,0 @@
-Esse programa é um gerenciador de configurações para o seu ambiente de trabalho. Ele permite que você altere as
-configurações do seu desktop, como o plano de fundo, ícones e outras opções. Ele usa o sistema GSettings, o que significa que as configurações são compartilhadas entre os diferentes
-programas instalados no seu computador. Isso garante uma experiência consistente e fácil de usar.

@@ -1,3 +1,0 @@
- Este é um módulo chamado pcntl para a versão 7.2 do PHP. Ele permite que você controle processos dentro do seu código
-PHP. Isso é útil para tarefas como criar processos filhos, enviar sinais para processos, e esperar pelo término de processos. Com este módulo, você pode criar aplicativos mais avançados e
-robustos.Ele é fácil de usar e se integra perfeitamente com o PHP. Faça o download e experimente hoje mesmo! 

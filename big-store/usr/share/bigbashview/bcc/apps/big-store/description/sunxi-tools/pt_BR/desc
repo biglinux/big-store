@@ -1,1 +1,0 @@
-Essas ferramentas de linha de comando são específicas para dispositivos ARM que possuem SoCs Allwinner. Elas permitem que você faça coisas como configurar o sistema de arquivos, testar a memória, e muito mais. São úteis para desenvolvedores e administradores de sistemas que trabalham com esses tipos de dispositivos. 

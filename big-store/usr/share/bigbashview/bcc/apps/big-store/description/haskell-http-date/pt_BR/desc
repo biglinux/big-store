@@ -1,1 +1,0 @@
-Este programa em Haskell é projetado para interpretar e formatar as datas presentes em requisições e respostas HTTP. Ele pode converter as datas para o formato de data/hora local ou para o formato UTC, e também pode formatar datas no formato especificado pelo HTTP. 

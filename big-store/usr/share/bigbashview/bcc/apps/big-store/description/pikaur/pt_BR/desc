@@ -1,4 +1,0 @@
-O pikaur é um assistente para gerenciar pacotes no AUR (Arch Linux User Repository) que pergunta todas as perguntas 
-antes de instalar ou construir. Ele foi inspirado em outros gerenciadores de pacotes como o pacaur, o yaourt e o yay.Com o pikaur, você pode facilmente instalar, atualizar e gerenciar
-pacotes do AUR sem precisar se preocupar em responder perguntas durante o processo. Ele também oferece recursos adicionais, como a capacidade de procurar pacotes no AUR e verificar se há
-atualizações disponíveis.

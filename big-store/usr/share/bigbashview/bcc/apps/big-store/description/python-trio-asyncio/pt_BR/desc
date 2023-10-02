@@ -1,1 +1,0 @@
-Este programa é uma re-implementação do loop principal asyncio, que é uma ferramenta utilizada para gerenciar tarefas assíncronas em Python, para funcionar no Trio. O Trio é uma biblioteca que fornece uma maneira simples e confiável de escrever códigos assíncronos em Python. Com esta re-implementação, é possível utilizar o asyncio com as vantagens e funcionalidades do Trio. 

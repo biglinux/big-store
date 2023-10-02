@@ -1,4 +1,0 @@
-Esta é uma ferramenta de gerenciamento de Advanced Configuration and Power Interface (ACPI) para sistemas operacionais
-Linux e Unix. Ela é usada para acessar informações sobre o hardware e configurar opções de energia. É uma alternativa ao utilitário apm, que é usado para gerenciar Advanced Power Management
-(APM).Com esta ferramenta, você pode ver informações sobre a bateria, o estado da rede, o uso da CPU e outras informações importantes do sistema. Além disso, você pode usá-lo para mudar
-configurações de energia, como desativar a tela quando a tampa do laptop é fechada ou ajustar a intensidade da iluminação do display.

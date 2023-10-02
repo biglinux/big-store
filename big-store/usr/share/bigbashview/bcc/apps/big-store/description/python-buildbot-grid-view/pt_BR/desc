@@ -1,1 +1,0 @@
-Este é um plugin para o Buildbot, um sistema de automação de construção de software. Ele permite a você visualizar  as tarefas em andamento e finalizadas em uma grade, tornando mais fácil de navegar e gerenciar. Ele é escrito em Python e pode ser facilmente integrado à sua configuração existente do Buildbot. 

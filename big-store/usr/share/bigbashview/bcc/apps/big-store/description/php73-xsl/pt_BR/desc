@@ -1,4 +1,0 @@
-Este é um módulo adicional para a versão PHP73 que permite a utilização de extensões XSLT (eXtensible Stylesheet Language
-Transformations) dentro do código PHP. Com ele, é possível transformar documentos XML em outros formatos, como HTML ou outros tipos de XML, usando folhas de estilo.Isso pode ser útil em
-muitos casos, como a geração de relatórios ou a apresentação de informações em diferentes formatos. O módulo XSL é uma ferramenta poderosa para trabalhar com dados estruturados e pode ser
-facilmente integrado às aplicações PHP existentes.

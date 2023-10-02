@@ -1,1 +1,0 @@
-glibmm é um conjunto de ligações C++ para GLib, um conjunto de bibliotecas de código aberto comum utilizado em muitos sistemas operacionais, incluindo Linux. Ele permite que os desenvolvedores escrevam aplicativos em C++ usando as mesmas funcionalidades e recursos disponíveis em GLib, mas com uma sintaxe mais familiar e amigável para programadores C++. 

@@ -1,3 +1,0 @@
-O pacote de destino .NET Core (binário) permite que você execute aplicativos .NET Core 6.0 em seu computador. Ele inclui as
-bibliotecas e arquivos necessários para executar esses aplicativos. Com ele, você pode desenvolver e testar suas aplicações sem precisar instalar o .NET Core em seu sistema. Este pacote é
-ideal para desenvolvedores que precisam testar seus aplicativos em diferentes versões do .NET Core sem precisar instalar cada uma delas em seu computador. 

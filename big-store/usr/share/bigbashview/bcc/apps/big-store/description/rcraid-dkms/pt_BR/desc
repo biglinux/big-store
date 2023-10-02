@@ -1,2 +1,0 @@
-Este programa é um driver para controladores RAID de motherboards com chipset X370 e socket AM4 da AMD. Ele suporta NVMe e
-SATA e é instalado como um módulo DKMS (Dynamic Kernel Module Support). Isso significa que ele é atualizado automaticamente quando a versão do kernel do sistema operacional é atualizada.

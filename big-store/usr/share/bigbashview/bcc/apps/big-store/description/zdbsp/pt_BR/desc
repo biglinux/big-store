@@ -1,4 +1,0 @@
-Este programa é uma versão independente do construtor de nós interno do ZDoom. Ele permite criar nós, que são estruturas utilizadas
-para otimizar a renderização de cenários 3D em jogos, de forma autônoma. Isso significa que você não precisa do jogo ZDoom instalado para usá-lo.Com este programa, os desenvolvedores de
-jogos podem criar nós para seus cenários sem precisar usar recursos do próprio jogo, o que pode ser útil em cenários de grande porte ou para testar mudanças antes de implementá-las no
-jogo.

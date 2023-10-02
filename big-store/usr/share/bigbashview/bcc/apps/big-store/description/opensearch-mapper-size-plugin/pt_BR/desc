@@ -1,1 +1,0 @@
-O plugin Mapper Size permite que os documentos registrem seu tamanho descomprimido no momento do índice. Ele é útil para acompanhar o tamanho real dos dados armazenados e garantir que o espaço de armazenamento seja utilizado de forma eficiente. Ele é específico para o OpenSearch e é integrado ao processo de indexação. 

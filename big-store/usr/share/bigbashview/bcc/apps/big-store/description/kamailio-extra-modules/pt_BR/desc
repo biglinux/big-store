@@ -1,2 +1,0 @@
-Os módulos gzcompress, ev, uuid, jansson e http_async são adicionais para o Kamailio, um software de roteamento de mensagens de 
-voz e de vídeo. Eles fornecem funcionalidades adicionais para o programa, como a capacidade de compactar arquivos e realizar operações assíncronas com o protocolo HTTP.

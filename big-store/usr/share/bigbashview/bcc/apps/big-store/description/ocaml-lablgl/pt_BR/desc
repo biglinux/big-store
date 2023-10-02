@@ -1,1 +1,0 @@
-OCaml-lablgl é uma interface para a biblioteca de desenho gráfico OpenGL, que permite aos desenvolvedores escrever programas de computador que criam imagens 3D complexas. Com essa interface, é possível acessar todas as funcionalidades do OpenGL a partir do OCaml, uma linguagem de programação de alto nível. 

@@ -1,1 +1,0 @@
-O programa em Haskell possui tipos de dados estritos, o que significa que ele não permite que dados de diferentes tipos sejam usados juntos sem uma conversão explícita. Além disso, ele possui suporte para entrada e saída de texto de maneira simples e intuitiva. 

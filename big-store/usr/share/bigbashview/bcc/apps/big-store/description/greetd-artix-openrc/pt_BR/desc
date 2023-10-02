@@ -1,3 +1,0 @@
-Este programa fornece scripts de inicialização do OpenRC para o greetd. Isso permite que o greetd inicie junto com o
-sistema operacional, garantindo que esteja sempre disponível e funcionando corretamente. Além disso, os scripts também garantem que o greetd seja encerrado corretamente quando o sistema
-operacional é desligado, evitando problemas de corrupção de dados ou outros problemas.

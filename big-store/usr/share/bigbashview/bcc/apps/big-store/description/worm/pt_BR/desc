@@ -1,3 +1,0 @@
-Este programa é um gerenciador de janelas flutuante que é escrito em Nim. Ele usa tags para organizar as janelas, o que
-significa que você pode colocar várias janelas juntas em um grupo, com base em como você as utiliza. Isso facilita a navegação e o gerenciamento de várias tarefas ao mesmo tempo.Além disso,
-ele é projetado para ser leve e rápido, então você não precisa se preocupar com problemas de desempenho enquanto usa este programa.

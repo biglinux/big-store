@@ -1,3 +1,0 @@
-Esse programa é chamado rocsparse e é uma biblioteca de cálculos matemáticos. Ele é projetado especificamente para
-computações envolvendo dados esparsos, ou seja, conjuntos de dados com muitos valores faltantes. Ele funciona sobre a plataforma ROCm, que é uma tecnologia de computação de alto desempenho.
-Com esse programa, é possível realizar cálculos matemáticos de forma mais rápida e eficiente quando se trabalha com dados esparsos.

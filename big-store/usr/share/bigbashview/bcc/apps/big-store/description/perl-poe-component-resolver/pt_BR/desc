@@ -1,1 +1,0 @@
-O módulo POE::Component::Resolver é um módulo Perl/CPAN que permite a resolução de nomes em aplicações POE. Ele é usado para realizar operações de resolução de nomes de forma assíncrona, o que significa que as operações de resolução de nomes não bloqueiam o fluxo principal da aplicação. 

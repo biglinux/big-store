@@ -1,1 +1,0 @@
-Os dados OCR Tesseract (kat) são uma coleção de dados utilizada para reconhecimento óptico de caracteres (OCR) em idiomas específicos. Esses dados são necessários para que o programa Tesseract possa reconhecer e processar texto em idiomas específicos.Para usar esses dados, é preciso instalar o programa Tesseract e incluir esses dados na pasta de dados do programa. 

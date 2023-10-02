@@ -1,3 +1,0 @@
-Esta é uma biblioteca para o Python que fornece suporte para a criação de hashes usando o algoritmo MurmurHash2. Ela é feita
-com Cython, o que a torna mais rápida do que outras bibliotecas similares.Com ela, é possível criar hashes rapidamente e de forma segura para proteger dados sensíveis. Além disso, ela é
-compatível com a maioria das versões do Python e é fácil de usar. 

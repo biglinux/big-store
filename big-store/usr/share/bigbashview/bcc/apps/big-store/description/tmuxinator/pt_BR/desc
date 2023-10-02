@@ -1,5 +1,0 @@
-Você sabe o que é tmux? É um programa que permite dividir a tela do seu terminal em várias janelas e abas, para que
-você possa trabalhar com vários programas ao mesmo tempo. E o tmuxinator é uma ferramenta que ajuda a gerenciar as sessões do tmux de forma mais fácil e organizada. Com ele, você pode criar
-perfis pré-configurados para as suas sessões, como por exemplo, abrir determinadas janelas e abas automaticamente, ou atribuir nomes para cada janela. Isso facilita muito a organização e
-aumenta a produtividade. Além disso, o tmuxinator permite salvar e carregar esses perfis, o que significa que você pode usá-los em outros computadores também. Ele é uma ferramenta muito
-útil para quem trabalha com vários programas ao mesmo tempo e quer manter a organização.

@@ -1,4 +1,0 @@
-Este programa é um daemon, ou seja, um programa que roda em segundo plano no sistema, e tem como função restaurar as
-condições de segurança no SELinux. Ele é responsável por verificar se os arquivos no sistema estão com as permissões corretas e, caso contrário, corrigi-las automaticamente. Isso garante
-que o sistema esteja sempre seguro e protegido contra ameaças externas.Este programa é especialmente útil em sistemas que sofreram alterações, como instalação de novos aplicativos ou
-atualizações de software, pois ele garante que essas alterações não afetem a segurança do sistema.

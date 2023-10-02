@@ -1,1 +1,0 @@
- Esse módulo permite que você implemente algumas das macros do AutoConf em Perl puro. O AutoConf é uma ferramenta que ajuda a configurar softwares C e C++, e essas macros permitem que você use essas ferramentas de configuração sem precisar escrever código em C ou C++. Ao usar esse módulo, você pode escrever scripts de configuração em Perl e aproveitar as vantagens do AutoConf.  

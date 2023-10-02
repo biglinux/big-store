@@ -1,4 +1,0 @@
-sdl2pp é uma biblioteca que permite trabalhar com a biblioteca de jogos SDL2 usando o C++. Ela fornece uma camada de
-abstração para o SDL2, tornando mais fácil e agradável escrever jogos ou aplicativos gráficos em C++. Com sdl2pp, você pode usar recursos avançados do SDL2, como renderização de gráficos,
-áudio, entrada de teclado e mouse, sem se preocupar com detalhes técnicos. Além disso, a biblioteca é altamente otimizada, o que significa que seus jogos ou aplicativos serão executados
-rapidamente e sem problemas. 

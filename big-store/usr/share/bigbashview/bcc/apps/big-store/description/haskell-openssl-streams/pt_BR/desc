@@ -1,1 +1,0 @@
-Este programa oferece suporte de rede OpenSSL para io-streams em Haskell. Ele permite que os desenvolvedores usem as  funcionalidades de segurança do OpenSSL em suas aplicações Haskell, como criptografia e autenticação de conexões de rede. 

@@ -1,1 +1,0 @@
-Este programa é escrito em Haskell e utiliza a biblioteca Polysemy para criar monads de ordem superior sem necessidade de muito código ou custo adicional. Isso permite que o desenvolvedor crie lógicas complexas de forma mais organizada e eficiente. 

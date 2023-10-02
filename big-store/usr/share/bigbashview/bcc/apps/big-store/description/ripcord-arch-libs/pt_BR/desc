@@ -1,2 +1,0 @@
-Este é um cliente de mensagens para Discord e Slack baseado em Qt. Ele foi modificado para funcionar com as
-bibliotecas do sistema para suporte a Wayland.

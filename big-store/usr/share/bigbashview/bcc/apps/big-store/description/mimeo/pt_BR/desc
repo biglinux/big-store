@@ -1,4 +1,0 @@
-O Mimeo é um programa que ajuda a abrir arquivos de acordo com o tipo de arquivo (MIME) ou com o nome do arquivo, usando expressões 
-regulares. Isso significa que você pode configurar o Mimeo para abrir automaticamente arquivos de imagem com o visualizador de imagens padrão, arquivos de música com o player de música,
-etc. Além disso, você pode criar regras personalizadas para abrir arquivos com programas específicos de acordo com seus nomes ou tipos de arquivo. O Mimeo é uma ferramenta útil para
-organizar melhor seus arquivos e evitar a necessidade de abrir manualmente cada arquivo com o programa certo.

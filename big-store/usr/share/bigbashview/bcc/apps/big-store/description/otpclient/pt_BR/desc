@@ -1,4 +1,0 @@
-Este programa é chamado de otpclient e ele é usado para gerar códigos de segurança temporários. Esses códigos são
-chamados de TOTP (Temporary One-Time Passwords) ou HOTP (HMAC-based One-Time Passwords). Eles são gerados usando um algoritmo específico e só são válidos por um curto período de tempo. O
-programa é feito usando a biblioteca GTK+ v3, que é uma biblioteca de interface gráfica para usuário. Isso significa que ele tem uma interface amigável e fácil de usar, e é simples de
-entender mesmo para uma criança. Com ele, você pode gerar códigos de segurança rapidamente e facilmente, garantindo a segurança de suas contas e informações pessoais.

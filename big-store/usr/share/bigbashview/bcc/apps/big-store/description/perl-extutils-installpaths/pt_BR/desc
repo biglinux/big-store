@@ -1,1 +1,0 @@
-O módulo ExtUtils::InstallPaths fornece uma forma fácil de lidar com os caminhos de instalação no arquivo Build.PL do  Perl. Ele garante que os caminhos de instalação sejam configurados corretamente para o sistema em que o programa está sendo instalado. 

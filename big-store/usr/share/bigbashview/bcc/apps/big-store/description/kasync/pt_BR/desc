@@ -1,1 +1,0 @@
-Esta é uma biblioteca escrita em C++ que permite controlar tarefas assíncronas. Isso significa que você pode executar várias tarefas ao mesmo tempo, sem precisar esperar que uma delas termine antes de começar a próxima. Isso é útil quando você está trabalhando com muitos dados ou quando precisa realizar várias tarefas ao mesmo tempo, como baixar arquivos ou processar imagens.  

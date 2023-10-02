@@ -1,1 +1,0 @@
-Esse programa é um conjunto de ferramentas chamadas 'shims' que ajudam a tornar possível que versões antigas do gerenciador de pacotes pip funcionem com versões mais recentes do Python. Ele é especialmente útil se você precisar usar pacotes que só funcionam com versões mais antigas do pip, mas também deseja usar as novas funcionalidades do Python. 

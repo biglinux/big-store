@@ -1,3 +1,0 @@
-Este programa é escrito em POSIX Shell script e tem como objetivo ajudar o usuário a descobrir as variáveis 
-de ambiente do seu display, independentemente de onde ele esteja ou em qual TTY ele esteja usando.Ele é simples de usar e pode ser executado a partir de qualquer lugar, basta digitar o
-comando xpub e ele exibirá as informações desejadas. 

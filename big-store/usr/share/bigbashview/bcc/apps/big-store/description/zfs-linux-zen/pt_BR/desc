@@ -1,6 +1,0 @@
-O ZFS (Zettabyte File System) é um sistema de arquivos criado pela Sun Microsystems (agora Oracle) que
-oferece muitas vantagens em relação aos sistemas de arquivos tradicionais, como o ext4. Ele é projetado para lidar com grandes quantidades de dados e garantir a integridade dos dados. O
-zfs-linux-zen é um conjunto de módulos de kernel que permitem que o sistema operacional Linux use o ZFS como seu sistema de arquivos. Isso significa que você pode usar as vantagens do ZFS
-sem precisar mudar para outro sistema operacional.Algumas das vantagens do ZFS incluem:Suporte nativo para snapshots (instantâneos) e clones (cópias);Compressão e deduplicação de 
-dados;Integridade de dados verificada automaticamente;Escalabilidade horizontal (suporte para muitos terabytes ou petabytes de dados);Se você precisa lidar com grandes quantidades
-de dados e quer garantir a integridade dos seus dados, o zfs-linux-zen é uma ótima opção para considerar. 

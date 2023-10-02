@@ -1,5 +1,0 @@
-Este programa é chamado de wdfs e é um sistema de arquivos baseado em WebDAV. Isso significa que ele permite que você
-acesse e gerencie arquivos usando o protocolo WebDAV, que é comumente usado para compartilhar arquivos na internet. Ele usa a biblioteca FUSE para se conectar ao sistema de arquivos do seu 
-computador, permitindo que você acesse seus arquivos de forma fácil e intuitiva.Com o wdfs, você pode fazer coisas como criar, excluir e renomear arquivos e pastas, além de compartilhar
-arquivos com outras pessoas na internet. Também é possível acessar arquivos remotamente, desde que você tenha acesso à rede e autorização. É uma ferramenta útil para trabalhar com arquivos 
-de forma colaborativa ou para acessar arquivos de seu computador a partir de outros dispositivos.

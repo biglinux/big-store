@@ -1,1 +1,0 @@
-Clazy é um verificador de código orientado a Qt que utiliza o framework clang para encontrar problemas e melhorias no seu código. Ele ajuda a encontrar problemas comuns de programação, como vazamentos de memória e problemas de performance, e fornece sugestões para melhorar o código. Com o Clazy, você pode escrever código mais seguro e eficiente facilmente. 

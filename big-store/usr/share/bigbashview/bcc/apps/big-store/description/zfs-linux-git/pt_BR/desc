@@ -1,4 +1,0 @@
-Este programa fornece módulos do kernel para o sistema de arquivos Zettabyte (ZFS). Ele é especialmente útil para usuários
-do Linux que desejam usar essa tecnologia avançada de gerenciamento de arquivos. ZFS oferece recursos como snapshots, replicação e verificação de integridade dos dados, tornando-o ideal
-para uso em ambientes de dados empresariais. Além disso, o ZFS-linux-git é projetado para ser compatível com a maioria das distribuições Linux, tornando fácil para os usuários adotarem essa
-tecnologia em suas máquinas.

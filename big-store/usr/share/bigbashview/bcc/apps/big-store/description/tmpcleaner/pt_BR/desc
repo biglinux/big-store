@@ -1,4 +1,0 @@
-Este programa é um script simples e uma entrada para a rotina diária do cron que serve para limpar arquivos antigos em
-/tmp. Ele é útil para manter o espaço em disco limpo e garantir que o sistema operacional funcione de forma eficiente.Ele verifica a pasta /tmp e remove quaisquer arquivos que tenham sido
-criados há mais de x dias. Você pode ajustar esse número de dias para atender às suas necessidades específicas.Além disso, ele também verifica se há arquivos temporários que não foram
-modificados há muito tempo e os remove. Isso é útil para evitar que arquivos desnecessários ocupem espaço em disco. 

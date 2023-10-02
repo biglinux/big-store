@@ -1,2 +1,0 @@
-O script debtap é um programa que ajuda a converter pacotes .deb para pacotes do Arch Linux. Ele é focado em
-precisão, por isso é importante não usá-lo para converter pacotes que já existem nos repositórios oficiais ou podem ser construídos a partir do AUR!

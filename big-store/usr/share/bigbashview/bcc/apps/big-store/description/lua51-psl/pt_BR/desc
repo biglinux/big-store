@@ -1,1 +1,0 @@
-Este programa permite que você use a biblioteca libpsl em seus projetos escritos em Lua 5.1. Isso significa que você pode trabalhar com restrições de domínio de segundo nível, verificar se um endereço de email é válido e muito mais, tudo diretamente dentro do seu código Lua. 

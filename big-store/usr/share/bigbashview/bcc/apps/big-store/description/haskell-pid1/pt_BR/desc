@@ -1,1 +1,0 @@
-Este programa, escrito em Haskell, cuida do gerenciamento de  sinais e do reaproveitamento de processos órfãos para processos init PID1 em sistemas operacionais Unix. 

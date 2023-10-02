@@ -1,4 +1,0 @@
-Este programa permite criar interfaces gráficas para aplicações usando a linguagem Lua. Ele utiliza o toolkit IUP para
-facilitar a construção das janelas e botões, tornando o processo mais simples e intuitivo. Com ele, é possível criar interfaces com botões, caixas de texto, menus e outros elementos comuns 
-em aplicações gráficas.Este programa é compatível com a versão 5.4 do Lua, e é uma ótima opção para quem deseja criar aplicações com interface amigável sem precisar aprender uma nova
-linguagem.

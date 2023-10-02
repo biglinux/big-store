@@ -1,1 +1,0 @@
-Este programa, chamado haskell-decimal, permite trabalhar com números decimais de precisão variável. Isso significa que você pode escolher quantas casas decimais deseja usar para representar um número, o que é útil em situações onde precisão extrema não é necessária. Além disso, ele é escrito em Haskell, uma linguagem de programação funcional. 

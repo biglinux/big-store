@@ -1,1 +1,0 @@
-lib32-p11-kit é um programa que ajuda a carregar e listar módulos PKCS#11, que são bibliotecas usadas para trabalhar com chaves criptográficas. Ele é específico para a versão de 32 bits desses módulos, o que significa que ele só será útil em sistemas operacionais de 32 bits. 

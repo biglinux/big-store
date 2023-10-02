@@ -1,1 +1,0 @@
-Este programa adiciona suporte ao HUnit ao framework de testes Tasty em Haskell. Isso permite que você execute testes HUnit em seu código usando o Tasty como interface. Dessa forma, você pode desfrutar da facilidade de uso do Tasty ao mesmo tempo em que mantém sua capacidade de executar testes HUnit.  

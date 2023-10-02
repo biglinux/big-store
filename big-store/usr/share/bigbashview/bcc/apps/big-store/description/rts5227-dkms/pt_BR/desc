@@ -1,3 +1,0 @@
-Este é um driver que ajuda a suportar o leitor de cartão SD Realtek RTS5227/5229. Ele é chamado de rts5227-dkms e é
-importante para garantir que o seu computador possa ler cartões SD corretamente.Sem ele, o seu computador pode ter problemas para reconhecer ou ler cartões SD. Se você precisar usar um
-cartão SD no seu computador, é importante ter este driver instalado.

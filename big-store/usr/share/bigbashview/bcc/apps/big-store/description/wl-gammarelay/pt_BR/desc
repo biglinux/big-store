@@ -1,3 +1,0 @@
-Este programa ajuda você a controlar a temperatura de cor e o brilho de sua tela enquanto você está usando o Wayland. Ele
-funciona através de atalhos de teclado, então você pode fazer ajustes rapidamente e facilmente.É composto por dois componentes: um cliente e um daemon. Juntos, eles permitem que você altere
-a configuração da tela sem precisar sair do seu ambiente de trabalho atual.

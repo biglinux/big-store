@@ -1,1 +1,0 @@
-O pacote Jupyter core é a base para todos os projetos Jupyter. Ele fornece as ferramentas e recursos essenciais para que outros pacotes possam funcionar corretamente. É escrito em Python e é necessário para rodar qualquer projeto Jupyter. 

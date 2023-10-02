@@ -1,1 +1,0 @@
-Este é um pacote de certificados da Mozilla em formato PEM, que utiliza o sistema de armazenamento de certificados do sistema. Ele é usado principalmente com o software Perl, para garantir a segurança e autenticidade das conexões com outros sites e serviços. 

@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite o uso de semáforos de sistema (sysvsem) em seus scripts. Isso pode ser útil para
-garantir que apenas uma instância de um script esteja sendo executada ao mesmo tempo, ou para controlar o acesso a recursos compartilhados, entre outras coisas. Para usar este módulo, você 
-precisará ter acesso ao código fonte do PHP 8.0 e compilá-lo com suporte a sysvsem habilitado. Instruções detalhadas podem ser encontradas na documentação do módulo.

@@ -1,1 +1,0 @@
-Este programa utiliza TH para descobrir automaticamente casos de teste saborosos para o seu código escrito em Haskell. TH é uma biblioteca para Haskell que permite a geração de código em tempo de compilação. Com essa ferramenta, você pode facilmente encontrar e corrigir problemas em seu código, garantindo que ele funcione corretamente. 

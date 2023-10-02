@@ -1,1 +1,0 @@
-Esse programa é um armazenamento persistente para valores de tipos arbitrários. Ele é escrito em  Haskell e é chamado de 'haskell-vault'. Ele permite que você salve valores de diferentes tipos, como números, texto e objetos, e os recupere mais tarde. É uma ferramenta útil para salvar informações importantes que você quer usar novamente. 

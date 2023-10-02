@@ -1,4 +1,0 @@
-Com o programa Dive, é possível explorar cada camada de uma imagem Docker. Isso permite ver o tamanho e a data de 
-cada camada, bem como quais arquivos foram adicionados ou removidos em cada camada. Além disso, é possível comparar duas imagens diferentes e ver as diferenças entre elas.O Dive também
-fornece uma visão geral de como uma imagem foi construída, mostrando quais comandos foram executados em cada camada e quais pacotes foram instalados.Com este programa, é possível
-identificar e remover camadas desnecessárias para diminuir o tamanho da imagem, aumentando a velocidade de carregamento e melhorando a segurança.

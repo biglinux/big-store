@@ -1,3 +1,0 @@
-Este é um programa chamado stm32flash. Ele é usado para atualizar os processadores STM32 ARM. Ele é de código aberto e usa o
-carregador de inicialização ST serial através da comunicação UART ou I2C. Ele é útil para quem precisa manter seus dispositivos atualizados com as últimas funcionalidades e correções de
-bugs.

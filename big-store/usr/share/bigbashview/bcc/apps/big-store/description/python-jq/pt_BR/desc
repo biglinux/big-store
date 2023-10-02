@@ -1,1 +1,0 @@
-Python-jq is a library that allows you to easily parse and manipulate JSON data in Python using jq's powerful filter language. It is useful for working with API responses, log files, and any other kind of JSON data. 

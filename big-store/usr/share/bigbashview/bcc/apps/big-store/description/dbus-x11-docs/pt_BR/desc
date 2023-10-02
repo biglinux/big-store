@@ -1,3 +1,0 @@
-Este é um sistema de mensagens chamado D-Bus, desenvolvido pela freedesktop.org. Ele permite que 
-diferentes programas se comuniquem entre si de maneira organizada e eficiente. Além disso, ele possui uma funcionalidade de inicialização automática quando o sistema operacional X11 é
-iniciado. Este pacote contém a documentação sobre o uso desse sistema.

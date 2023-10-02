@@ -1,4 +1,0 @@
-Este é um programa de navegador que foi desenvolvido para remover a dependência dos serviços da Google, sem criar uma
-pasta inútil de ~/.pki. Ele é leve e rápido, e foi projetado para manter sua privacidade e segurança enquanto você navega na internet.Este programa é baseado no código fonte do Chromium,
-mas foi modificado para remover qualquer rastreamento ou coleta de dados por parte do Google. Ele oferece a mesma experiência de navegação que o Chrome, mas sem as preocupações de
-privacidade.

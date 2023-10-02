@@ -1,1 +1,0 @@
-Este programa é chamado de php-legacy-odbc e é usado para conectar aplicativos PHP a bancos de dados usando o protocolo ODBC. Ele é especialmente útil se você precisar acessar bancos de dados antigos ou legados que não são compatíveis com outros protocolos de conexão. 

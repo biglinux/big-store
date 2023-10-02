@@ -1,3 +1,0 @@
-Este é um driver para dispositivos que utilizam o chipset rtl8812AU. Ele foi desenvolvido com a versão 5.13.6 do firmware, para
-garantir compatibilidade e estabilidade no funcionamento do dispositivo.Este driver é importante para que o dispositivo possa se comunicar corretamente com o sistema operacional e assim,
-poder ser utilizado para diversas finalidades.

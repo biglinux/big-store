@@ -1,4 +1,0 @@
-Este é um programa escrito em Perl que permite gerenciar arquivos de forma fácil e eficiente. Ele
-possui uma função especial chamada unget, que permite voltar e ler novamente uma quantidade específica de bytes em um arquivo. Isso é útil quando você precisa ler um arquivo em partes ou
-quando deseja fazer uma verificação rápida antes de continuar a ler o arquivo. Além disso, este programa também é capaz de lidar com arquivos multi-byte, o que significa que ele pode ler e 
-escrever caracteres em diferentes codificações de caracteres, como UTF-8 e UTF-16.

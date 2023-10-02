@@ -1,4 +1,0 @@
-Este programa é chamado climan-bin e ele é usado para gerenciar arquivos através de uma conexão HTTP. Ele é baseado em
-arquivos, o que significa que você pode usá-lo para enviar ou baixar arquivos de um servidor usando a linguagem de programação JavaScript.Além disso, ele também pode ser usado para fazer
-solicitações HTTP, como GET, POST, PUT e DELETE, permitindo que você acesse e modifique dados em um servidor remoto. Com ele, você pode automatizar tarefas de gerenciamento de arquivos e
-garantir que os arquivos estejam sempre atualizados.

@@ -1,1 +1,0 @@
-Este programa fornece uma integração entre o WebTest e aplicações aiohttp.web, permitindo testar facilmente  sua aplicação web escrita em Python usando o aiohttp. 

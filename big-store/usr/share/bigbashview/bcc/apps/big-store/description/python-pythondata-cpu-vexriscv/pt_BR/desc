@@ -1,1 +1,0 @@
- Este é um módulo Python que contém arquivos Verilog para a CPU Vexriscv. É projetado para ser usado com o LiteX. Ele permite que você trabalhe com essa CPU em seus projetos de FPGA.  

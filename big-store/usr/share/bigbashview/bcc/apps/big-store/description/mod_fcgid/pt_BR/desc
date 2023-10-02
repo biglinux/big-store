@@ -1,3 +1,0 @@
-O mod_fcgid é um módulo para o servidor Apache HTTP que permite a execução de aplicações CGI escritas em linguagens diferentes do 
-que a linguagem nativa do servidor, como PHP ou Perl, através do protocolo FastCGI. Ele é uma alternativa ao mod_cgi, que é utilizado para a execução de scripts CGI, e ao mod_fastcgi, que
-também utiliza o protocolo FastCGI. O mod_fcgid oferece melhor desempenho e segurança em relação a esses módulos.

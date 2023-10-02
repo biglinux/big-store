@@ -1,1 +1,0 @@
-Esta extensão do PHP permite que você use o memcached, um sistema de armazenamento de dados  em memória, com a ajuda da biblioteca libmemcached. Isso pode ser útil para aumentar a velocidade e desempenho de seu aplicativo PHP. 

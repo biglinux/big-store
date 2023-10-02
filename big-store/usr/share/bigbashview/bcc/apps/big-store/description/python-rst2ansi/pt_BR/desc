@@ -1,2 +1,0 @@
-Este é um módulo para o Python que permite renderizar RST (reStructuredText) em strings adequadas para um terminal. Ele é
-útil para quem precisa exibir texto formatado de maneira elegante e fácil de ler em linha de comando.

@@ -1,1 +1,0 @@
-Um filho de rxvt-unicode que lida com pty/tty/utmp/wtmp/lastlog de maneiras principalmente independentes do sistema operacional

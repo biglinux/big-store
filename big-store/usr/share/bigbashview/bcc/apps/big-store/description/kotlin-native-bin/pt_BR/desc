@@ -1,3 +1,0 @@
-Este programa é um compilador Kotlin específico para sistemas nativos. Ele utiliza o backend LLVM e possui uma
-implementação nativa da biblioteca padrão Kotlin. Isso significa que o código compilado com esse programa é executado diretamente pelo sistema operacional, sem a necessidade de uma máquina 
-virtual de Java. Isso pode resultar em um desempenho melhor para aplicativos específicos.

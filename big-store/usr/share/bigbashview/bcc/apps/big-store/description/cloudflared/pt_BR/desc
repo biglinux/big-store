@@ -1,1 +1,0 @@
-cloudflared é uma ferramenta de linha de comando que permite conectá-lo de forma segura a recursos internos criando uma conexão direta à rede do Cloudflare. Com o cloudflared, você pode expor recursos internos, como servidores web, bancos de dados e APIs à internet sem a necessidade de uma VPN ou outras configurações de rede complexas. 

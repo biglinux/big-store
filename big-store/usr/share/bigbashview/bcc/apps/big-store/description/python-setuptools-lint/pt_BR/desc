@@ -1,3 +1,0 @@
-Este programa ajuda a garantir que o código Python esteja escrito de acordo com boas práticas e padrões. Ele faz
-isso expondo a ferramenta pylint como um comando de verificação dentro do arquivo setup.py. Dessa forma, é possível verificar o código antes de fazer o upload ou distribuição do seu
-projeto.

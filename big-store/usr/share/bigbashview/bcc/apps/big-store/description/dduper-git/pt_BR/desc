@@ -1,2 +1,0 @@
-Ferramenta de deduplicação BTRFS de nível de bloco out-of-band. Ela ajuda a remover arquivos duplicados no sistema de
-arquivos BTRFS, economizando espaço em disco. É especialmente útil em sistemas com muitos arquivos grandes, como backups ou repositórios de mídia.

@@ -1,4 +1,0 @@
-Este programa é um servidor proxy DNS-over-HTTPS que é executado com o Firejail. Ele permite que você navegue na
-internet com segurança e privacidade, pois encripta as suas solicitações DNS. Isso significa que não é possível para outros ver o que você está acessando na internet. Além disso, o Firejail
-ajuda a isolar o programa e evitar que ele afete outros programas no seu computador.Para usar este programa, você precisa ter o Firejail instalado e configurado corretamente. Em seguida,
-você pode iniciá-lo e configurar suas preferências de acordo com suas necessidades. Ele é fácil de usar e oferece uma boa segurança e privacidade enquanto você navega na internet.

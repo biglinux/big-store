@@ -1,1 +1,0 @@
-A biblioteca python-brotli é um algoritmo de compressão genérico sem perda, ou seja, ele não causa nenhuma perda de qualidade nos arquivos comprimidos. Ele é útil para reduzir o tamanho dos arquivos para armazenamento ou transferência de dados. A biblioteca é escrita em python e pode ser facilmente integrada em outros projetos desenvolvidos nessa linguagem. 

@@ -1,3 +1,0 @@
-Este programa, chamado arti-git, é uma ferramenta para gerenciar seus arquivos e pastas no seu repositório Git. Ele permite 
-que você faça coisas como criar novos arquivos, enviar alterações para o repositório e ver o histórico de suas alterações. Ele foi desenvolvido usando a linguagem Rust, que é conhecida por 
-sua segurança e desempenho. Além disso, ele também implementa o protocolo Tor, o que significa que suas ações no repositório são mantidas em segredo.

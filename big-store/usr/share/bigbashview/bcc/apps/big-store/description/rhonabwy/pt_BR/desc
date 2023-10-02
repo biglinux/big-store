@@ -1,1 +1,0 @@
-JWK, JWKS, JWS, JWE e JWT são todos protocolos diferentes usados ​​para segurança de autenticação e autorização na web. Essa biblioteca é uma ferramenta de código aberto que ajuda desenvolvedores a trabalhar com esses protocolos de forma fácil e eficiente. Ela permite criar, analisar e assinar tokens JWT e outros tipos de dados seguros na web. 

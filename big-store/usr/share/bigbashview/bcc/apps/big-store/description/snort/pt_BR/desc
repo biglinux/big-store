@@ -1,5 +1,0 @@
-Snort é um sistema de detecção de intrusão de rede leve (IDS/IPS) que tem suporte a OpenAppID. Ele é capaz de monitorar o
-tráfego de rede em busca de comportamentos maliciosos ou indesejados e alertar o administrador de sistema quando algo suspeito é detectado. Snort é uma ferramenta popular entre
-administradores de segurança de rede devido a sua eficiência e flexibilidade.Com o suporte a OpenAppID, snort é capaz de identificar aplicativos em execução em sua rede, o que ajuda a
-melhorar a precisão das detecções de intrusão. Ele também suporta uma variedade de regras e plugins, permitindo aos administradores personalizar a detecção de acordo com as necessidades de 
-sua rede.

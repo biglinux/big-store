@@ -1,2 +1,0 @@
-Este programa é uma implementação em C++ de um mapa e conjunto de hash usando o algoritmo de hopscotch
-hashing. Isso significa que ele é rápido e eficiente na busca e inserção de dados. É útil para aplicações que precisam lidar com grandes quantidades de dados e desejam uma busca rápida.

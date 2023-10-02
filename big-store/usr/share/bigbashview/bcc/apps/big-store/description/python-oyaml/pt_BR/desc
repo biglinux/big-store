@@ -1,1 +1,0 @@
- python-oyaml é uma biblioteca para Python que é projetada para substituir o PyYAML. Ele preserva a ordem dos dicionários, o que pode ser útil em algumas situações. Além disso, ele é compatível com a maioria das funcionalidades do PyYAML, tornando a transição para ele fácil e sem problemas. 

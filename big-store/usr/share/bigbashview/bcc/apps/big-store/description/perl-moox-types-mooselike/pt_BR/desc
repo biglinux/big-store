@@ -1,1 +1,0 @@
-Este pacote permite que você adicione tipos personalizados semelhantes ao Moose ao seu código em Perl. Ele inclui um construtor de tipos que facilita a criação de novos tipos de acordo com suas necessidades. Com ele, você pode tornar seu código mais robusto e evitar erros comuns causados por tipos incorretos. 

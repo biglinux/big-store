@@ -1,1 +1,0 @@
-Este programa é utilizado para controlar o acesso ao servidor X. Ele é chamado xorg-xhost e é usado para definir quais usuários e computadores têm permissão para acessar o servidor. Ele é importante para garantir a segurança do servidor e dos dados nele armazenados. 

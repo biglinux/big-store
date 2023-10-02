@@ -1,2 +1,0 @@
-Este programa é uma ferramenta genérica para produzir e consumir dados do Apache Kafka, sem precisar de uma JVM. 
-É como se fosse o netcat para o Kafka.

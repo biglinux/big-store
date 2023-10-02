@@ -1,3 +1,0 @@
- yay-bin é um gerenciador de pacotes para o Arch Linux que é escrito em Go. Ele é especialmente útil para gerenciar
-pacotes AUR (Arch User Repository). Ele é pré-compilado, o que significa que já vem pronto para ser usado assim que você o baixa. Ele é uma boa opção para aqueles que querem gerenciar
-pacotes de forma fácil e rápida no Arch Linux. 

@@ -1,3 +1,0 @@
-Uma biblioteca para emular o sistema V Release 4.0 curses. Ela é compatível com a ABI 5, ou seja, é uma versão mais nova e
-atualizada da biblioteca original.A biblioteca ncurses5-compat-libs é importante para garantir a compatibilidade de programas antigos com sistemas mais novos. Isso permite que esses
-programas continuem funcionando corretamente sem precisar de modificações.

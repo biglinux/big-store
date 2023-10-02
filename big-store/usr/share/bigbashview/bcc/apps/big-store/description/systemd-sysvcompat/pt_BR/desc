@@ -1,1 +1,0 @@
-Este programa fornece compatibilidade com o sysvinit para o sistema de gerenciamento de inicialização systemd. Isso permite que os usuários executem e gerenciem programas usando comandos e arquivos de configuração compatíveis com o sysvinit em um sistema que usa o systemd como gerenciador de inicialização. 

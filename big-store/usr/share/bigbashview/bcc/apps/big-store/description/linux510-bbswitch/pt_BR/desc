@@ -1,1 +1,0 @@
-Este módulo do kernel é específico para sistemas Linux e permite alternar entre a placa gráfica dedicada e a placa gráfica integrada em laptops com tecnologia Optimus. Ele é conhecido como linux510-bbswitch. 

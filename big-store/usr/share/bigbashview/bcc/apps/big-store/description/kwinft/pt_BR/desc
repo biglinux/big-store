@@ -1,1 +1,0 @@
-kwinft é uma biblioteca de substituição para KWin, que adiciona suporte à biblioteca libwayland e é escrita em Qt/C++. Ela é projetada para ser uma opção fácil e direta para aqueles que desejam usar as funcionalidades adicionais oferecidas pelo Wrapland. Com ele, é possível ter mais opções de personalização, melhor desempenho e recursos extras para o seu gerenciador de janelas. 

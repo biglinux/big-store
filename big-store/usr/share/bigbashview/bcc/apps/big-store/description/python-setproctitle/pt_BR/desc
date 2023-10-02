@@ -1,1 +1,0 @@
-Com o python-setproctitle, é possível mudar o título do processo Python. Isso pode ser útil para identificar o processo mais facilmente na lista de processos do sistema ou em logs. 

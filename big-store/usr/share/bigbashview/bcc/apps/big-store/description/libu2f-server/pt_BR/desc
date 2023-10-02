@@ -1,1 +1,0 @@
-A biblioteca libu2f-server é uma implementação do protocolo U2F (Universal 2nd Factor) para servidores. Ela permite que os desenvolvedores adicionem autenticação de 2 fatores em seus aplicativos usando dispositivos U2F, como o Yubico. A biblioteca é escrita em C e é compatível com várias plataformas. 

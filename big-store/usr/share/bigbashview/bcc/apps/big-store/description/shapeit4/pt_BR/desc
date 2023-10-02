@@ -1,4 +1,0 @@
-O programa shapeit4 é uma ferramenta para estimar e imputar haplótipos segmentados. Ele pode
-ser usado para melhorar a precisão de inferências genéticas, como associações de doenças e traços complexos, ao utilizar informações de haplótipos em vez de apenas genótipos.shapeit4 usa
-técnicas de inferência estatística para reconstruir os haplótipos a partir de genótipos de indivíduos, incluindo dados de sequenciamento de nova geração. Ele também pode ser usado para
-imputar dados genéticos faltantes em estudos de associação genética.

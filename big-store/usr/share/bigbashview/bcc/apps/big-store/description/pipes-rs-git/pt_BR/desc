@@ -1,3 +1,0 @@
-Esta é uma ferramenta de encanamento escrita em Rust, ela é uma versão melhorada da ferramenta pipes.sh. Ela permite que
-você conecte comandos juntos, como se fossem tubos, para automatizar tarefas. Por exemplo, você pode usá-la para pegar informações de um arquivo, filtrá-las e enviá-las para outro comando. 
-Com essa ferramenta, você pode criar scripts poderosos e automatizar tarefas de forma fácil.

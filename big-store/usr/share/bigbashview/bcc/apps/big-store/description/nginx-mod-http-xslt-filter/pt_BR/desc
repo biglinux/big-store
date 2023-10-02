@@ -1,4 +1,0 @@
-Este programa permite transformar as respostas em XML do nginx usando folhas de estilo XSLT. Isso significa que você
-pode modificar a maneira como as informações são exibidas ao visitar um site que usa o nginx como servidor web. Isso pode ser útil para adaptar a visualização de dados para dispositivos
-móveis, por exemplo.O módulo é fácil de usar e pode ser configurado diretamente no arquivo de configuração do nginx. Isso significa que você pode personalizar a saída sem precisar mexer no 
-código-fonte do seu aplicativo.

@@ -1,5 +1,0 @@
-Existem ferramentas para usuários disponíveis para o servidor SMB do kernel ksmbd. Essas ferramentas ajudam a
-gerenciar e configurar o servidor de forma mais fácil. Elas foram desenvolvidas especificamente para serem compatíveis com o ksmbd, garantindo assim que tudo funcione sem problemas. Com
-essas ferramentas é possível fazer tarefas como criar e gerenciar compartilhamentos, configurar permissões de acesso e monitorar o status do servidor. Elas também fornecem relatórios
-detalhados sobre o uso do servidor, permitindo assim que você tenha uma visão geral do que está acontecendo. Essas ferramentas são uma ótima opção para administradores de rede que precisam 
-gerenciar um servidor SMB usando o ksmbd. Elas tornam o processo muito mais fácil e rápido, permitindo que você se concentre em outras tarefas importantes.

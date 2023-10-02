@@ -1,3 +1,0 @@
- Pulseview-git é uma ferramenta de análise lógica para sigrok, desenvolvida com a biblioteca Qt. Ela fornece uma
-interface gráfica amigável para visualizar e interpretar sinais e dados capturados por um analisador lógico. Essa é a versão do git, ou seja, a versão mais recente e atualizada do programa.
-Com ela, você pode facilmente ver e entender como os sinais estão se comportando em seu circuito, ajudando a identificar problemas e melhorar o desempenho. 

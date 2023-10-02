@@ -1,1 +1,0 @@
-qjackctl é uma aplicação simples escrita em C++ com o framework Qt para controlar o servidor JACK. Ela fornece uma interface gráfica fácil de usar para configurar vários parâmetros do servidor JACK e controlar o status do servidor de áudio. Com o tempo, essa interface primordial se tornou mais rica incluindo recursos avançados de patchbay e controle de conexões. 

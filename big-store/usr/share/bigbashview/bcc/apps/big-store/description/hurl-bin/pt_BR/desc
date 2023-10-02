@@ -1,3 +1,0 @@
-Hurl é uma ferramenta para executar e testar requisições HTTP. Com ele, é possível enviar solicitações para um servidor e verificar
-se a resposta é a esperada. É uma ótima opção para testar APIs e verificar se elas estão funcionando corretamente.Além disso, o Hurl permite que você customize as requisições, incluindo
-cabeçalhos e corpo da mensagem, para simular diferentes cenários de uso. Tudo isso em uma interface fácil de usar, ideal para desenvolvedores e testadores.

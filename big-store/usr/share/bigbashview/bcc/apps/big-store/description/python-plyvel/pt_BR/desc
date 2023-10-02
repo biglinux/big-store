@@ -1,1 +1,0 @@
-Uma interface rápida e rica em recursos para LevelDB usando Python. python-plyvel é uma biblioteca que permite acessar facilmente o banco de dados LevelDB usando Python. Ele fornece uma interface limpa e intuitiva para trabalhar com o LevelDB, incluindo suporte para transações e outros recursos avançados. 

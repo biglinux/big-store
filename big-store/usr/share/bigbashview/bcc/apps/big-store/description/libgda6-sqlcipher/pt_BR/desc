@@ -1,1 +1,0 @@
-Este programa é um provedor para libgda6 que permite a criptografia de banco de dados com SQLCipher. Isso garante  maior segurança para as informações armazenadas no banco de dados, pois impede que elas sejam lidas por pessoas não autorizadas. Além disso, o SQLCipher é um software open-source, o que significa que ele pode ser usado de forma livre e gratuita. 

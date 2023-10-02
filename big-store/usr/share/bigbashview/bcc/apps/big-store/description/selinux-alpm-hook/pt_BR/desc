@@ -1,3 +1,0 @@
-Este é um gerenciador de segurança para pacotes, chamado SELinux ALPM Hook. Ele ajuda a manter a segurança dos pacotes 
-instalados em seu sistema, garantindo que apenas fontes confiáveis sejam usadas e evitando ameaças de segurança. Além disso, ele também pode ser configurado para bloquear pacotes com
-vulnerabilidades conhecidas, o que ajuda a proteger seu sistema contra ataques cibernéticos.

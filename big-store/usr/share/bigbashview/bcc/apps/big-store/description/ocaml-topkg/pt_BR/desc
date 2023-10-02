@@ -1,1 +1,0 @@
-ocaml-topkg é um pacote para distribuir software escrito na linguagem de programação OCaml. Ele permite que você crie pacotes para diferentes sistemas operacionais e gerencie as dependências do seu software. Isso torna mais fácil para outros desenvolvedores usarem e contribuírem para o seu projeto. 

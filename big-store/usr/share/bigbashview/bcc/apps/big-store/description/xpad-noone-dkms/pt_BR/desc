@@ -1,4 +1,0 @@
- Este é um driver de kernel para o controle Xpad sem suporte para o controle Xbox One. Ele é projetado
-para ser usado com sistemas operacionais Linux e foi criado usando a ferramenta DKMS (Dynamic Kernel Module Support). Com este driver, você pode usar seu controle Xpad sem problemas no seu 
-computador.Ele é fácil de instalar e configurar, e não requer habilidades avançadas de programação. Basta seguir as instruções fornecidas e você estará pronto para usar seu controle Xpad 
-em poucos minutos. 

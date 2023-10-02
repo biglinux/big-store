@@ -1,4 +1,0 @@
-Este é um módulo que adiciona suporte ao OpenSSL para a versão 8.2 do PHP. Ele permite que você use recursos de criptografia,
-assinatura digital e outras funcionalidades relacionadas à segurança de dados ao desenvolver suas aplicações PHP.Com este módulo, você pode criptografar dados sensíveis, como senhas e
-informações pessoais, para garantir que eles não possam ser lidos por pessoas não autorizadas. Além disso, você também pode usá-lo para verificar a autenticidade de arquivos e assinar
-documentos eletrônicos.

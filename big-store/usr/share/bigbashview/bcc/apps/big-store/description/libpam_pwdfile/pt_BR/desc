@@ -1,4 +1,0 @@
-Esse programa é um módulo da PAM (Pluggable Authentication Modules) que permite a autenticação de usuários através de um
-arquivo semelhante ao /etc/passwd. Ele é chamado de libpam_pwdfile e é uma ferramenta útil para sistemas que precisam de autenticação simples e rápida.Com esse módulo, você pode criar um
-arquivo com informações de usuários, como nome de usuário e senha, e configurar o sistema para usar esse arquivo como fonte de autenticação. Isso é útil, por exemplo, em ambientes de teste 
-ou pequenos grupos de trabalho.

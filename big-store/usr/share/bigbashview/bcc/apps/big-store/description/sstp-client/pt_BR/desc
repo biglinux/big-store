@@ -1,1 +1,0 @@
-O sstp-client é um protocolo de túnel VPN seguro usado para estabelecer um link criptografado entre um cliente remoto e um servidor de empresa privada. Ele é baseado no protocolo SSL/TLS e é considerado um dos protocolos VPN mais seguros disponíveis. A revisão estável do sstp-client garante  que ele está livre de erros e é confiável para uso em ambientes de produção. 

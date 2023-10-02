@@ -1,1 +1,0 @@
-A biblioteca haskell-pretty-hex é uma ferramenta útil para visualizar dados em formato hexadecimal. Ela permite que  você converta cadeias de bytes em uma representação hexadecimal legível, o que facilita a depuração e a análise de dados binários. Essa biblioteca é especialmente útil para desenvolvedores  de software que trabalham com arquivos binários ou protocolos de rede. 

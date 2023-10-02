@@ -1,4 +1,0 @@
-Esta ferramenta, chamada git-makepkg-templates-git, é usada para criar pacotes de fontes para projetos que utilizam
-o controle de versão Git. Ela oferece modelos prontos para serem usados na criação dos pacotes, facilitando o processo e garantindo que tudo esteja de acordo com as especificações
-necessárias.Com ela, é possível criar pacotes de maneira rápida e fácil, sem precisar se preocupar com detalhes técnicos. Além disso, a ferramenta é atualizada frequentemente para garantir 
-sua compatibilidade com as últimas versões do Git e outras ferramentas relacionadas.

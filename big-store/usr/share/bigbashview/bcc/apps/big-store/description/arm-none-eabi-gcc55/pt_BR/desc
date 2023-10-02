@@ -1,3 +1,0 @@
-Esse é um compilador chamado arm-none-eabi-gcc55. Ele é usado para criar programas para computadores com processadores ARM. Ele é
-chamado de 'cross compiler' porque ele é capaz de criar programas para rodar em diferentes tipos de sistemas, como o seu computador de mesa ou um dispositivo móvel. Além disso, ele é
-específico para o 'bare-metal' target, o que significa que ele é usado para criar programas que rodarão diretamente no hardware sem precisar de um sistema operacional.

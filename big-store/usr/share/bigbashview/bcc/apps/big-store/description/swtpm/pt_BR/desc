@@ -1,1 +1,0 @@
-swtpm é um emulador de software para um Módulo de Plataforma Confiável (TPM). Ele pode ser usado para emular a funcionalidade de um TPM em um computador regular, permitindo o uso de software dependente de TPM sem a necessidade de hardware real. O emulador é baseado em libtpms e fornece interfaces como socket, dispositivo de caractere e interface Linux CUSE.  

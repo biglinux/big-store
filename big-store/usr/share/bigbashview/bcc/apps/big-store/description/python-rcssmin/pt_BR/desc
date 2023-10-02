@@ -1,1 +1,0 @@
-O python-rcssmin é um minificador de CSS rápido para Python. Ele pode ser usado como uma biblioteca ou como uma ferramenta de linha de comando. Ele é baseado na biblioteca rcssmin, escrita em C e é muito mais rápido do que outros minificadores de CSS para Python. Ele também suporta todas as funcionalidades do CSS3, incluindo consultas de mídia e regras aninhadas. 

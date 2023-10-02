@@ -1,4 +1,0 @@
-Este programa é chamado hurl-rs e é um cliente HTTP. Ele permite que você faça requisições para outros sites e veja como
-eles respondem. Isso é útil para testar seu próprio site ou ver como outros sites funcionam. Ele é escrito em linguagem de programação Rust e é open source, o que significa que qualquer
-pessoa pode usá-lo e contribuir com o código. Com ele, você pode enviar diferentes tipos de requisições, como GET, POST, PUT e DELETE, e ver a resposta que recebe de volta. Ele também
-permite que você envie dados junto com a sua requisição e verifique se o site está funcionando corretamente.

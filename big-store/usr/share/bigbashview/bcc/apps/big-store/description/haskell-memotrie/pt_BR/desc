@@ -1,1 +1,0 @@
-Este é um programa escrito em Haskell que utiliza a estrutura de dados Trie para criar funções memo, ou seja, funções que armazenam resultados para evitar recalculá-los quando a mesma entrada é fornecida novamente. Isso pode ajudar a aumentar a eficiência do programa. 

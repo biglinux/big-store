@@ -1,3 +1,0 @@
-Este programa é capaz de monitorar o tráfego de rede de cada programa executável específico utilizando BPF (Berkeley
-Packet Filter). Isso significa que é possível verificar quantos dados estão sendo enviados e recebidos por cada programa em execução em sua máquina. Isso pode ser útil para identificar
-programas que estão consumindo mais recursos de rede do que o necessário e tomar medidas para otimizar o uso da rede.

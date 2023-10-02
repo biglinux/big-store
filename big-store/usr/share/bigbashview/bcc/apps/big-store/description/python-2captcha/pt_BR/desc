@@ -1,3 +1,0 @@
-Este pacote em Python 3 é uma excelente opção para quem precisa integrar sua aplicação com o 
-serviço de resolução de captcha 2captcha. Ele facilita a utilização da API e permite a automatização de tarefas que dependem da validação de imagens.Com esse pacote, é possível enviar
-imagens para serem resolvidas e receber as respostas de forma rápida e eficiente. Além disso, ele oferece suporte para diversos tipos de captchas, incluindo reCAPTCHA e hCAPTCHA.

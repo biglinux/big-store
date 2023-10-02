@@ -1,4 +1,0 @@
-Este é um sistema de introspecção para bibliotecas baseadas em GObject (versão de 32 bits). Ele é uma biblioteca importante 
-que permite aos programadores acessar informações sobre as funcionalidades de outras bibliotecas, o que facilita o desenvolvimento de novos programas. Sem essa biblioteca, seria mais
-difícil e demorado para os programadores criarem aplicações que funcionem bem com outras bibliotecas. Com ela, eles conseguem obter informações detalhadas sobre o que as bibliotecas são
-capazes de fazer e como usá-las de forma correta. 

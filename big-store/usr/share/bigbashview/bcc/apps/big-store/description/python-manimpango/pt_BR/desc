@@ -1,2 +1,0 @@
-Essa biblioteca é usada para adicionar texto às animações criadas com o programa Manim. Ela se conecta ao Pango, outra
-biblioteca, usando Cython, uma ferramenta que permite escrever código Python mais rápido. Ela é usada para renderizar texto que não é escrito em LaTeX.

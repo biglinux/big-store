@@ -1,5 +1,0 @@
- O pkgbuild-introspection é uma ferramenta útil para quem desenvolve programas para o sistema operacional Arch Linux.
-Ele permite gerar arquivos .SRCINFO, que são usados para gerenciar pacotes no sistema. Usando esse programa, é possível automatizar a criação de pacotes, tornando o processo mais rápido e
-eficiente.Ele é muito fácil de usar, basta fornecer as informações do pacote e o programa gera o arquivo .SRCINFO automaticamente. Além disso, ele é altamente configurável, permitindo
-que você personalize sua saída de acordo com suas necessidades.Se você é um desenvolvedor de pacotes para o Arch Linux, certamente encontrará o pkgbuild-introspection muito útil. Ele é
-uma ferramenta essencial para gerenciar seus pacotes de forma eficiente e automatizada. 

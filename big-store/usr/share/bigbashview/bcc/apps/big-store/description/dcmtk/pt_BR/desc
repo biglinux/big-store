@@ -1,3 +1,0 @@
-Esse é um pacote de bibliotecas e aplicações que implementam grande parte do padrão DICOM. Ele é conhecido como dcmtk. Com ele, é
-possível criar programas que lidem com imagens médicas, como radiografias e tomografias, usando o padrão DICOM.Isso significa que é possível compartilhar imagens entre diferentes
-equipamentos e sistemas de forma consistente, garantindo a qualidade e a precisão das informações contidas nelas.

@@ -1,1 +1,0 @@
-libevdev é uma biblioteca que serve como um 'wrapper' para dispositivos evdev. Ela fornece uma interface simples e consistente para acessar recursos de dispositivos de entrada, como teclados, touchpads e dispositivos de jogos. Isso torna mais fácil para os desenvolvedores trabalhar com dispositivos de entrada em suas aplicações.  

@@ -1,1 +1,0 @@
-O protocolo rpcsvc é usado para comunicação entre programas em sistemas operacionais. Ele foi definido na biblioteca  glibc, que é uma das principais bibliotecas de sistemas utilizadas em sistemas Linux. Este protocolo é usado para chamar funções remotamente entre programas, permitindo que eles colaborem e compartilhem recursos de maneira eficiente. 

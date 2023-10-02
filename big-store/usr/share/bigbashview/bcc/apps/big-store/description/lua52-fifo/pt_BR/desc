@@ -1,1 +1,0 @@
-Esta biblioteca permite o uso de filas FIFO (First In, First Out) em aplicações Lua 5.2. Isso significa que o primeiro item a ser adicionado na fila será o primeiro a ser retirado. Isso é útil em situações onde é necessário manter a ordem de processamento de tarefas. 

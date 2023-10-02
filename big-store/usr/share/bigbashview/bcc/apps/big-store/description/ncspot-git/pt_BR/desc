@@ -1,2 +1,0 @@
-O ncspot-git é um cliente de Spotify para o terminal, que funciona em várias plataformas. Ele foi escrito em Rust e
-inspirado em outros programas como o ncmpc. Ele permite que você acesse e controle sua conta do Spotify diretamente no terminal.

@@ -1,3 +1,0 @@
-Este programa é chamado de aksusbd-bin e ele ajuda a gerenciar as chaves USB Sentinel HASP, HASP HL, HASP4 e Hardlock. Ele
-funciona como um 'daemon', ou seja, ele fica rodando no seu computador e ajuda a garantir que as chaves USB estejam funcionando corretamente.Em resumo, este programa é importante para
-garantir que você possa usar suas chaves USB Sentinel de maneira segura e confiável.

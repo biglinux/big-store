@@ -1,1 +1,0 @@
-Este programa fornece propriedades padrão para funções que trabalham com tipos de validade no Haskell.  Ele utiliza a biblioteca 'genvalidity' para gerar automaticamente essas propriedades, tornando o processo mais simples e menos propenso a erros.Além disso, as propriedades geradas são testadas automaticamente, garantindo que elas sejam precisas e confiáveis. 

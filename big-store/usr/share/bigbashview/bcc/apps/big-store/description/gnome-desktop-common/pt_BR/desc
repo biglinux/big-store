@@ -1,1 +1,0 @@
-A biblioteca gnome-desktop-common é uma coleção de arquivos comuns que fornecem uma API comum para vários módulos do GNOME. Isso permite que os desenvolvedores criem aplicativos que se integrem facilmente com o ambiente de desktop GNOME, sem precisar se preocupar em lidar com as diferenças entre as versões do GNOME. 

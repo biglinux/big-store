@@ -1,4 +1,0 @@
- Este programa é um módulo especial para o PHP 8.0, que permite acessar e gerenciar informações armazenadas em um servidor LDAP
-(Lightweight Directory Access Protocol). Isso é útil para aplicações que precisam autenticar usuários através de um diretório centralizado, ou para acessar outras informações armazenadas no
-diretório, como endereços de email ou informações de contato.O módulo LDAP é fácil de usar e se integra perfeitamente com o PHP 8.0, permitindo que os desenvolvedores adicionem
-funcionalidades de autenticação e gerenciamento de diretórios em suas aplicações com pouco esforço. 

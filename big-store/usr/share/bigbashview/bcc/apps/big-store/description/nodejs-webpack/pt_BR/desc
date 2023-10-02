@@ -1,3 +1,0 @@
-Webpack é uma ferramenta que ajuda a agrupar vários arquivos JavaScript em um único arquivo. Isso é útil para que
-o navegador carregue apenas um arquivo ao invés de vários, o que pode tornar seu site mais rápido. Ele suporta vários tipos de arquivos, como CommonJs, AMD, ES6 modules, CSS, Imagens, JSON,
-CoffeeScript e LESS.

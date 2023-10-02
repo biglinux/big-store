@@ -1,1 +1,0 @@
-systemd-ui é o navegador gráfico para unidades do systemd. Ele pode mostrar a lista de unidades, possivelmente filtradas por tipo. Para unidades individuais, o nome, a descrição e as dependências com outras unidades serão mostradas.Essa ferramenta foi largamente obsoleta pelas ferramentas de linha de comando, como systemctl e systemd-analyze. Provavelmente há bugs presentes. 

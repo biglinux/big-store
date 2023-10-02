@@ -1,1 +1,0 @@
-timescaledb-tune é uma ferramenta que ajuda você a otimizar o desempenho do seu banco de dados TimescaleDB. Ela analisa seu banco de dados e sugere mudanças em várias configurações que podem melhorar o desempenho. A ferramenta também fornece uma interface de linha de comando e uma interface web baseada em navegador para uso fácil. 

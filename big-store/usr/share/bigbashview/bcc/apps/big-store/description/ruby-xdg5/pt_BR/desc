@@ -1,3 +1,0 @@
- Este programa fornece uma implementação em Ruby da especificação XDG Base Directory (versão 5.x). Ele ajuda a organizar e
-gerenciar arquivos em seu computador de acordo com as diretrizes estabelecidas pela especificação XDG. Isso significa que os arquivos são armazenados em locais específicos em seu sistema,
-tornando mais fácil encontrá-los e gerenciá-los. Além disso, ele também segue as normas de segurança e privacidade estabelecidas pela especificação XDG. 

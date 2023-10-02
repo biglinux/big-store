@@ -1,3 +1,0 @@
- Este programa permite que você execute o Neovim quando chama o vi ou o vim. Isso é feito criando links simbólicos do Neovim para
-o vi ou o vim, para que o sistema operacional execute o Neovim em vez desses outros programas. Isso é útil para usuários que preferem o Neovim mas ainda querem usar comandos comuns do vi ou
-do vim. 

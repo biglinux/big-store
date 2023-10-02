@@ -1,4 +1,0 @@
-Esta é uma biblioteca escrita puramente em Python que ajuda a entender os dados enviados
-pelos dispositivos HID (Human Interface Device). Ela é útil para desenvolvedores de software que trabalham com dispositivos como teclados, mouses, joysticks, entre outros. A biblioteca é
-chamada de 'python-hid-parser-git' e é um projeto aberto, ou seja, qualquer pessoa pode contribuir para o seu desenvolvimento. Ela é simples de usar e entender, mesmo para quem não tem
-muito conhecimento sobre dispositivos HID. 

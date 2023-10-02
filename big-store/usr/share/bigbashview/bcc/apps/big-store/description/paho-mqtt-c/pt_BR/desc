@@ -1,5 +1,0 @@
- A biblioteca Paho MQTT em C é uma biblioteca desenvolvida pela Eclipse que permite aos desenvolvedores criarem aplicações que se
-comuniquem com o protocolo MQTT. Ele é escrito em C e suporta várias plataformas, incluindo sistemas embarcados e sistemas operacionais de desktop.Com essa biblioteca, é possível criar
-aplicativos que sejam capazes de se conectar a um broker MQTT, publicar e assinar tópicos, e receber e enviar mensagens. Ele também inclui suporte para tópicos Wildcard e recursos de
-segurança, como autenticação e criptografia.A biblioteca Paho MQTT em C é uma escolha popular para desenvolvedores que precisam criar aplicativos IoT, comunicação de dispositivos móveis e
-outros projetos que necessitam de conectividade MQTT confiável e de baixo consumo de recursos.

@@ -1,1 +1,0 @@
-A biblioteca python-pylorcon2 é uma ferramenta para injetar quadros de rede no padrão 802.11. Ela permite que desenvolvedores criem programas que enviem pacotes de dados de forma controlada em redes sem fio.Esta biblioteca é útil para testes de desempenho em redes sem fio, simulação de ataques e outros usos avançados. 

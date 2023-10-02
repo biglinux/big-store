@@ -1,3 +1,0 @@
-Este é um programa simples que permite criar um servidor HTTP sem precisar de configurações complexas. Ele utiliza o
-Node.js, uma plataforma de desenvolvimento para JavaScript, para criar o servidor.Com ele, é possível compartilhar arquivos e pastas na rede local ou na internet, basta usar o endereço IP
-do computador e a porta escolhida para acessar os arquivos.

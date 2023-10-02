@@ -1,1 +1,0 @@
-PAR Packager é um pacote em Perl que permite criar arquivos PAR (Perl Archive). Ele é utilizado para agrupar vários  arquivos Perl em um único arquivo, facilitando o transporte e a instalação de módulos e aplicações Perl. Ele também pode ser usado para criar distribuições auto-extraíveis.  

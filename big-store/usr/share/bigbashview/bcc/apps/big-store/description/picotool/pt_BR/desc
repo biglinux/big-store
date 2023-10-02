@@ -1,3 +1,0 @@
-picotool é uma ferramenta que permite inspecionar binários do RP2040 e interagir com dispositivos RP2040. Ele é
-útil para desenvolvedores que trabalham com esses dispositivos e precisam verificar o código deles de forma detalhada. Além disso, também é possível usar o picotool para fazer upload de
-novo código para os dispositivos RP2040.

@@ -1,1 +1,0 @@
-Este programa em Haskell oferece suporte para a biblioteca libbz2, permitindo a compressão e descompressão de arquivos usando o algoritmo de compressão Burrows-Wheeler. Com isso, é possível trabalhar com arquivos de tamanho grande de forma mais eficiente, sem comprometer a qualidade dos dados. 

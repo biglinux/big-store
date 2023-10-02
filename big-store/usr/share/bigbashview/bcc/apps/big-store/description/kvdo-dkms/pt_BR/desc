@@ -1,3 +1,0 @@
-Existe um par de módulos de kernel chamado kvdo-dkms, que fornecem conjuntos de 
-armazenamento de blocos deduplicados e/ou comprimidos. Isso significa que eles ajudam a otimizar o espaço em disco ao remover as cópias de dados duplicados e reduzir o tamanho dos arquivos.
-Com isso, você pode economizar espaço valioso em seu disco rígido e melhorar o desempenho do sistema. 

@@ -1,1 +1,0 @@
- Esta é uma biblioteca de compatibilidade chamada lib32-libudev0-shim. Ela é usada em sistemas que possuem versões mais recentes do udev, mas precisam usar programas que foram desenvolvidos para trabalhar com versões antigas. Ela funciona  como uma espécie de tradução, permitindo que os programas antigos possam se comunicar com o novo sistema.  

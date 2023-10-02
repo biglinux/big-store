@@ -1,1 +1,0 @@
-A classe de validade Haskell é uma ferramenta usada para garantir que os dados sejam válidos antes de serem usados em um programa. Ela verifica se os dados atendem a certas regras ou especificações, e se não atenderem, gera um erro para alertar o programador. Isso ajuda a evitar problemas de tempo de execução e garante que o programa funcione corretamente. 

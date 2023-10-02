@@ -1,4 +1,0 @@
-Este é um módulo especial para o PHP 8.0 que permite que você use a biblioteca SQLite com seus aplicativos PHP. SQLite é um
-sistema de gerenciamento de banco de dados leve e fácil de usar, perfeito para aplicativos pequenos e médios. Com este módulo, você pode criar, ler, atualizar e excluir registros em um
-banco de dados SQLite usando comandos simples e fáceis de entender. Além disso, o módulo SQLite para PHP 8.0 é altamente seguro e confiável, garantindo que seus dados estejam sempre seguros
-e protegidos. Ele também é fácil de configurar e usar, mesmo para usuários sem conhecimento técnico avançado.

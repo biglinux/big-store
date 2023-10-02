@@ -1,3 +1,0 @@
- Este programa fornece uma interface de alto nível para usar as funcionalidades do lua-cmark. Ele é escrito em Lua e é
-projetado para tornar mais fácil usar as funcionalidades do lua-cmark. Ele é útil para quem deseja trabalhar com marcação de texto, como criar links, cabeçalhos, listas e outras
-formatações. Com este programa, você pode criar documentos formatados rapidamente e facilmente. 

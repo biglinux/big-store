@@ -1,1 +1,0 @@
-Este programa em Perl permite a criação de escalares, arrays e hashes somente leitura. Isso  significa que essas variáveis não podem ser modificadas depois de serem criadas. Isso pode ser útil em situações em que você deseja garantir que determinados valores não sejam alterados acidentalmente em seu código. 

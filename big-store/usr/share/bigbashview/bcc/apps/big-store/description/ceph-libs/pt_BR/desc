@@ -1,5 +1,0 @@
-O Ceph é um plataforma de armazenamento distribuído e tolerante a falhas que oferece suporte a objetos,
-blocos e sistemas de arquivos. Isso significa que ele pode lidar com grandes quantidades de dados e garantir que eles estejam sempre disponíveis, mesmo em caso de falhas. Além disso, ele é 
-escalável, permitindo adicionar mais capacidade de armazenamento à medida que a necessidade cresce.O Ceph é baseado em software livre, o que significa que pode ser usado gratuitamente e 
-modificado para atender às necessidades específicas de uma empresa. Ele também é compatível com uma variedade de sistemas operacionais e dispositivos, tornando-o uma opção flexível para
-armazenamento em nuvem. 

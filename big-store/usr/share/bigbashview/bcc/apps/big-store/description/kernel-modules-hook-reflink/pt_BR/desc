@@ -1,2 +1,0 @@
-Esse programa mantém o seu sistema totalmente funcional depois de uma atualização do kernel. Ele é uma versão
-'forkada' utilizando o comando 'cp --reflink' e pode ser especialmente útil para sistemas com btrfs.

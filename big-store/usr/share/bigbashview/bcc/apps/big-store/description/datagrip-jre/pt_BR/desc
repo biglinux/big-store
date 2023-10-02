@@ -1,3 +1,0 @@
- O JBR (JetBrains Runtime) é um pacote especialmente desenvolvido para o DataGrip, um programa de gerenciamento de banco de dados. Ele é
-baseado no Java Runtime Environment (JRE), mas com algumas modificações para melhorar a performance e a estabilidade do programa.Além disso, o JBR inclui todas as bibliotecas e
-ferramentas necessárias para o funcionamento do DataGrip. Isso significa que você não precisa instalar nenhum outro software para usar o programa. 

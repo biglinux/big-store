@@ -1,1 +1,0 @@
-ruby-toml é uma biblioteca para construção de parser (analisador sintático) escrita em Ruby. Ela é conhecida por ter um excelente relatório de erros, o que facilita na identificação e correção de problemas no código. Com ela, é possível construir parsers para diversas linguagens de programação, incluindo a própria linguagem Ruby. 

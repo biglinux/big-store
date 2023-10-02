@@ -1,1 +1,0 @@
-A biblioteca haskell-dbus é uma ferramenta que permite que desenvolvedores utilizem o sistema de IPC (Inter-Process Communication) D-Bus em suas aplicações escritas em Haskell. Com ela, é possível se comunicar entre processos de maneira simples e eficiente, permitindo a criação de aplicações mais robustas e flexíveis. 

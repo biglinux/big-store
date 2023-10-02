@@ -1,4 +1,0 @@
-Esta ferramenta é projetada para ser usada com o psql e ajuda na paginação de dados tabulares. Ela é conhecida
-como pspg e é muito útil para quem precisa trabalhar com grandes quantidades de informações e precisa navegar de forma mais eficiente. Com ele, é possível ver apenas um pedaço dos dados de 
-cada vez, o que facilita a visualização e a análise dos dados. Além disso, ele também permite a exportação dos dados para outros formatos, o que é útil para quem precisa compartilhar ou
-armazenar as informações de forma mais organizada.

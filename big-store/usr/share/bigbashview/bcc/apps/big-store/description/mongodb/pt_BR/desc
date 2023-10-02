@@ -1,3 +1,0 @@
-MongoDB é um banco de dados de documentos de código aberto de alta performance. Ele não precisa de um esquema, o que significa que
-você pode armazenar dados de vários tipos juntos sem precisar definir como eles se relacionam.Isso torna MongoDB uma boa escolha para aplicações que precisam lidar com grandes quantidades
-de dados não estruturados, como aplicativos de mídia social, jogos e análise de dados.

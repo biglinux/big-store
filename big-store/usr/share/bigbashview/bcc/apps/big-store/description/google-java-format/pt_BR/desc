@@ -1,4 +1,0 @@
-Este programa ajuda a formatar seu código Java de acordo com o estilo da Google. Ele deixa o código mais bonito e fácil 
-de ler, sem que você precise fazer isso manualmente. Ele também ajuda a manter o código consistente entre diferentes pessoas que estão trabalhando no mesmo projeto.Como funciona? Ele
-basicamente organiza as linhas de código, os espaços e os sinais de tabulação de acordo com as regras estabelecidas pela Google. Isso significa que ele pode adicionar ou remover espaços,
-mudar a ordem das linhas, entre outras coisas. Ele também identifica e corrige problemas de estilo comuns.

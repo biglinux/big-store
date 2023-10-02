@@ -1,4 +1,0 @@
-Este é um pacote de destino para o .NET Standard, que está disponível em formato binário. Ele permite que
-você crie aplicativos que sejam compatíveis com o .NET Standard, que é uma especificação de plataforma que define uma lista de APIs que devem estar presentes em todas as implementações do
-.NET.Com esse pacote, você pode ter certeza de que o seu aplicativo será executado em várias plataformas, incluindo Windows, macOS, Linux e outros, sem precisar se preocupar com problemas
-de compatibilidade.

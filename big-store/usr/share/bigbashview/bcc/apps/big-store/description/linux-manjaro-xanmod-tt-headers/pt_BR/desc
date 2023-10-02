@@ -1,5 +1,0 @@
-Este programa fornece headers e scripts para construir módulos personalizados para o kernel Linux
-Xanmod TT. Ele é especificamente projetado para ser usado com a distribuição Manjaro, mas pode ser utilizado em outras distribuições também.Os headers incluem todas as definições de tipos e
-funções necessárias para construir módulos para o kernel, enquanto os scripts fornecem uma maneira fácil e automatizada de compilar e instalar os módulos.Este programa é útil para
-desenvolvedores de kernel e usuários avançados que desejam personalizar ou estender as funcionalidades do seu sistema. Ele é uma excelente ferramenta para quem deseja aproveitar ao máximo
-seu sistema Linux.

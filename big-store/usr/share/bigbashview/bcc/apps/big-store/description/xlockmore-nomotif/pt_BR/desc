@@ -1,3 +1,0 @@
- Este é um programa chamado xlockmore que é usado para bloquear a tela do seu computador enquanto você não está usando-o. Ele é 
-especificamente projetado para funcionar no sistema X Window. Ele não usa o pacote de interface de usuário Motif. Isso significa que ele não precisa de nenhuma biblioteca adicional para
-funcionar. Ele é simples e fácil de usar, basta iniciá-lo e ele bloqueará sua tela.

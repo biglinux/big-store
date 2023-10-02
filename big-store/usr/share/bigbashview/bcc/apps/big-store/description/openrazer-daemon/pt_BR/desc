@@ -1,3 +1,0 @@
-Este programa é um 'daemon' que ajuda outros programas a acessar e controlar dispositivos Razer, como teclados e ratos. Ele 
-usa a linguagem DBus para se comunicar com esses programas e faz a ponte entre eles e o driver do kernel.Isso significa que os programas não precisam se preocupar com os detalhes técnicos
-de como controlar o dispositivo Razer, e podem se concentrar em fornecer uma boa experiência para o usuário.

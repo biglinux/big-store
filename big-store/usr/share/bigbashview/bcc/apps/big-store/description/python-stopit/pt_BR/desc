@@ -1,1 +1,0 @@
-Esta biblioteca em Python, chamada python-stopit, permite que você levante exceções assíncronas em outra thread. Isso significa que você pode interromper outra tarefa que esteja sendo executada em paralelo com a sua. Além disso, ela também permite controlar o tempo limite de blocos ou chamadas (funções). 

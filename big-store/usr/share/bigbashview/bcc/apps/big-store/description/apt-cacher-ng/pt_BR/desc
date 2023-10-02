@@ -1,4 +1,0 @@
-apt-cacher-ng é um proxy de cache especializado para arquivos de pacotes. Ele funciona armazenando cópias dos
-pacotes baixados em um local central, permitindo que múltiplos computadores baixem a partir desse local em vez de diretamente da Internet. Isso pode acelerar significativamente o tempo de
-download e economizar largura de banda. Além disso, o apt-cacher-ng também oferece recursos adicionais, como relatórios de uso e controle de acesso baseado em regras. Ele é fácil de
-configurar e usar, e é uma ótima opção para qualquer pessoa que deseje otimizar a entrega de pacotes em sua rede.

@@ -1,1 +1,0 @@
-Essa extensão em Perl permite ler arquivos que estão sendo constantemente atualizados. É chamada 'perl-file-tail' e é útil em situações em que você precisa acompanhar o progresso de um arquivo em tempo real, sem precisar ficar abrindo e fechando o arquivo manualmente. 

@@ -1,3 +1,0 @@
-Castxml é uma ferramenta útil para desenvolvedores de software que trabalham com
-linguagens da família C, como C, C++, Objective-C e C#. Ele gera uma saída XML da árvore de sintaxe abstrata de um arquivo de código-fonte, permitindo que os desenvolvedores visualizem e
-analisem facilmente a estrutura do código. Além disso, a saída XML pode ser usada como entrada para outras ferramentas de processamento de código.

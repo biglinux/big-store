@@ -1,4 +1,0 @@
-O Android NDK é um conjunto de ferramentas para desenvolvedores que desejam escrever aplicativos para Android
-usando linguagens C/C++. Ele permite acesso a recursos do sistema operacional que não estão disponíveis através da API Java padrão, como acesso direto à memória e bibliotecas nativas. Além 
-disso, o NDK também fornece suporte para compilação de código para diferentes arquiteturas de processadores, como arquitetura ARM, x86 e mips. O NDK é uma opção popular para jogos e
-aplicativos que requerem desempenho gráfico avançado, pois permite acesso direto à GPU e aceleração de hardware. Também é útil para aplicativos que usam código existente escrito em C/C++.

@@ -1,3 +1,0 @@
- gotty-bin é uma ferramenta de linha de comando simples que permite transformar seus programas de linha de
-comando (CLI) em aplicativos web. Isso significa que você pode acessar esses programas através de um navegador, o que é útil se você precisar compartilhar esses programas com outras pessoas
-ou acessá-los remotamente.Além disso, gotty-bin é fácil de usar e configurar, basta executar o comando no terminal e você estará pronto para usar o aplicativo web. 

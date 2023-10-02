@@ -1,4 +1,0 @@
-Este programa fornece arquivos DTB (Device Tree Blob) para utilizar com o kernel AArch64 de flippy em sistemas baseados em
-SoCs (System on a Chip) da Rockchip. Esses arquivos são necessários para que o sistema operacional reconheça e configure corretamente os componentes do hardware.Os arquivos DTB fornecem
-informações sobre a estrutura do hardware do dispositivo para o kernel e outros componentes do sistema operacional. Eles permitem que o sistema operacional use recursos específicos do
-hardware, como portas USB ou dispositivos de rede, sem precisar de código específico para cada dispositivo.

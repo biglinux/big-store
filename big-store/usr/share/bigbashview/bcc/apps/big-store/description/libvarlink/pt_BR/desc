@@ -1,1 +1,0 @@
-libvarlink é uma biblioteca C e uma ferramenta de linha de comando para comunicar com serviços varlink. Ele oferece uma maneira fácil de chamar métodos em serviços varlink e ler suas respostas. Ele também inclui uma ferramenta de linha de comando para chamar métodos e exibir suas respostas diretamente no terminal. 

@@ -1,3 +1,0 @@
-Este programa é útil para gerenciar as identidades SSH de forma automatizada. Ele inicia o agente ssh e carrega as identidades
-conforme necessário. Isso significa que você não precisa se preocupar em carregar suas chaves manualmente toda vez que precisar se conectar a um servidor remoto. Além disso, ele permite que
-você tenha várias identidades e altere facilmente entre elas.Em resumo, este programa facilita a conexão segura com servidores remotos e gerencia suas identidades de forma eficiente.

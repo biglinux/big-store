@@ -1,1 +1,0 @@
-O qemu-ui-curses é um driver de interface gráfica para o QEMU. Ele permite que o usuário interaja com o emulador através de  linhas de comando e menus no modo texto.Este driver é útil para usuários que desejam usar o QEMU em sistemas sem suporte para interface gráfica, ou que preferem uma interface de linha de comando mais simples. 

@@ -1,3 +1,0 @@
-Este é um programa criado para ajudar a escrever expressões regulares de maneira mais fácil e legível. Ele foi
-projetado para manter uma relação 1-1 com as expressões regulares, o que significa que o código escrito nele pode ser convertido facilmente para uma expressão regular padrão. Além disso,
-ele também torna o código mais fácil de manter, o que é útil quando precisamos mudar ou corrigir alguma coisa no futuro.

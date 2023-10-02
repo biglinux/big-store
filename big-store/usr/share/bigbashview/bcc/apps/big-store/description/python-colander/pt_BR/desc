@@ -1,1 +1,0 @@
-Uma biblioteca simples para lidar com a serialização e deserialização de dados com base em esquemas. Isso significa que você pode definir como os dados devem ser estruturados e validados antes de serem lidos ou gravados. A biblioteca se chama python-colander. 

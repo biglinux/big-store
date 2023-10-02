@@ -1,2 +1,0 @@
-Este programa permite construir pacotes para sistemas operacionais ARM utilizando contêineres chroot em computadores x86_64.Isso
-significa que é possível criar pacotes para dispositivos ARM, como smartphones e tablets, mesmo se você estiver usando um computador com processador x86_64.

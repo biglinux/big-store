@@ -1,5 +1,0 @@
- O trivy-bin é um scanner de vulnerabilidades simples e completo para contêineres, adequado para uso em
-integração contínua (CI). Ele permite a detecção de vulnerabilidades em tempo real, fornecendo informações precisas e fáceis de entender sobre as vulnerabilidades encontradas. Além disso, o
-trivy-bin é compatível com vários sistemas de gerenciamento de contêineres, como Docker e rkt.Com o trivy-bin, é possível detectar vulnerabilidades em todas as camadas do contêiner,
-incluindo o sistema operacional, bibliotecas e aplicativos. Ele também oferece suporte a vários formatos de relatórios, como JSON e JUnit, para facilitar a integração com ferramentas de
-CI/CD.Em resumo, o trivy-bin é uma ferramenta poderosa e fácil de usar para ajudar a garantir a segurança dos contêineres em seu ambiente de desenvolvimento e produção.

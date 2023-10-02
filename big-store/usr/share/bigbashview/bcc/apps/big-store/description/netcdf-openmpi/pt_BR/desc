@@ -1,1 +1,0 @@
-O netcdf-openmpi é uma biblioteca que oferece uma interface de acesso de dados array-oriented, ou seja, uma forma de organizar e acessar dados em formato de array. Ele também possui suporte paralelo, o que significa que ele pode ser usado em conjunto com o openmpi para aumentar a velocidade e eficiência na manipulação desses dados. 

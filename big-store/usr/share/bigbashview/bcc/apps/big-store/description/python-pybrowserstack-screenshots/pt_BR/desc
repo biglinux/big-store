@@ -1,3 +1,0 @@
-Este programa permite capturar screenshots de páginas web usando a biblioteca Python-pybrowserstack-screenshots. Ele inclui
-suporte ao phantomCSS, que é uma ferramenta para testar a estética de páginas web.Com este programa, é possível fazer capturas de tela de páginas web automaticamente, o que é útil para
-testes de usabilidade e de design de páginas.

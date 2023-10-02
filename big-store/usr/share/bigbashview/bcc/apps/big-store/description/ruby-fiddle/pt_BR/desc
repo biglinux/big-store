@@ -1,1 +1,0 @@
-Wrapper da libffi para Ruby, é uma biblioteca que permite que você chame funções escritas em outras linguagens a partir do código Ruby. Isso é útil quando você quer usar uma funcionalidade de outra linguagem, mas não quer escrever todo o código em Ruby. Ele é chamado de ruby-fiddle. 

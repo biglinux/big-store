@@ -1,3 +1,0 @@
- Este é um programa chamado grub-silent. Ele é usado para iniciar o seu computador, mas sem mostrar mensagens
-desnecessárias. Ele é uma versão especial do programa chamado GNU GRand Unified Bootloader (ou GRUB, para short). Isso significa que ele ajuda o seu computador a começar a funcionar, mas
-sem mostrar mensagens como 'bem-vindo' ou informações sobre o kernel. É útil se você não quer ser distraído ou se você está automatizando algum processo. 

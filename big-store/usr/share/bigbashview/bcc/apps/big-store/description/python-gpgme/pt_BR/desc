@@ -1,1 +1,0 @@
-A biblioteca python-gpgme permite acesso ao sistema de criptografia GPG (GNU Privacy Guard) através do uso de chamadas de sistema em Python. Isso permite a criação de programas em Python que possam criptografar, assinar e verificar assinaturas digitais de arquivos e mensagens de forma segura e fácil. 

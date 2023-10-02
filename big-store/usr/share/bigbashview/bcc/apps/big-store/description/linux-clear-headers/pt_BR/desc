@@ -1,3 +1,0 @@
-Este programa fornece cabeçalhos e scripts para construir módulos para o kernel Linux Clear. Isso permite que
-desenvolvedores criem novos recursos e personalizem o kernel para atender às necessidades específicas de seus sistemas.Os cabeçalhos incluem informações sobre as funções e estruturas de
-dados disponíveis no kernel, enquanto os scripts ajudam na configuração e compilação do módulo.

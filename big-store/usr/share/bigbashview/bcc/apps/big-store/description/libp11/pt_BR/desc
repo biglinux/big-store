@@ -1,1 +1,0 @@
-libp11 é uma biblioteca que implementa uma camada simples acima da API PKCS11. Ele torna o uso de módulos PKCS11 mais fácil, abstraindo as complexidades da API. Ele pode ser usado em uma variedade de aplicativos, como software de assinatura digital e criptografia. A biblioteca é escrita em C e  está disponível sob a licença MIT. 

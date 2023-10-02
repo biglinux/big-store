@@ -1,2 +1,0 @@
-Este é um conjunto de arquivos de cabeçalho e scripts para a construção de módulos para o kernel Linux, especificamente
-para dispositivos ARMv7 multi-plataforma sunxi.Os arquivos de cabeçalho são essenciais para que os desenvolvedores possam trabalhar com o kernel Linux e criar novos módulos para ele.

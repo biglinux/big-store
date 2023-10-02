@@ -1,3 +1,0 @@
-Este programa é uma ferramenta útil para filtrar endereços de rede IPv4 e IPv6 que combinam com padrões CIDR. Ele permite que
-você facilmente encontre e selecione endereços específicos dentro de uma grande lista de endereços, economizando tempo e esforço.Por exemplo, você pode usá-lo para selecionar todos os
-endereços dentro de um determinado bloco de endereços CIDR, ou para encontrar todos os endereços que correspondem a uma faixa de endereços específica.

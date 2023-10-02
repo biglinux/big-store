@@ -1,3 +1,0 @@
-Este é um módulo de correção ortográfica para a versão 8.2 do PHP. Ele permite que você verifique e corrija a
-ortografia de palavras em seus scripts PHP. É fácil de usar e pode ajudar a evitar erros comuns de digitação em seus projetos.Para usar esse módulo, você precisará ter o PHP 8.2 instalado
-em seu sistema. Em seguida, você pode habilitar o módulo pspell no arquivo de configuração do PHP e começar a usá-lo em seus scripts.

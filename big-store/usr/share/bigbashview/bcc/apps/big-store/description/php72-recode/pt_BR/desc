@@ -1,3 +1,0 @@
-Esse programa é um módulo para o PHP72 que permite a recodificação de arquivos de texto. Ele é útil quando você precisa mudar
-a codificação de um arquivo para que ele possa ser lido corretamente em outro programa ou sistema. Por exemplo, se você tem um arquivo com texto em UTF-8 e precisa abri-lo em um programa
-que só suporta ISO-8859-1, você pode usar esse módulo para mudar a codificação do arquivo para que ele possa ser lido corretamente pelo programa.

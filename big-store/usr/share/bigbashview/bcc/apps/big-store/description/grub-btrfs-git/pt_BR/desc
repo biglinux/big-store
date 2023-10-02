@@ -1,5 +1,0 @@
-Este programa adiciona as opções de snapshots do BTRFS no menu de inicialização do GRUB. Isso significa que, quando você
-inicializar o seu computador, poderá escolher entre diferentes snapshots do sistema para inicializar. Isso é útil se você precisar voltar para uma versão anterior do sistema ou se precisar 
-acessar arquivos que foram excluídos.O programa é chamado grub-btrfs-git e é baseado no sistema de gerenciamento de inicialização GRUB. Ele foi desenvolvido para funcionar com o sistema
-de arquivos BTRFS, que é uma opção avançada de sistema de arquivos para Linux. Com este programa, você pode fazer snapshots do sistema a qualquer momento e acessá-los facilmente a partir do
-menu de inicialização do GRUB.

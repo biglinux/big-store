@@ -1,3 +1,0 @@
- Essa ferramenta, chamada python-sacremoses, é uma versão em Python do tokenizador, truecaser e normalizador Moses.
-Ela permite dividir textos grandes em pequenas partes chamadas tokens, ajustar a capitalização de palavras de acordo com as regras da língua e normalizar o texto para que ele seja mais
-fácil de ler e entender. 

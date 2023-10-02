@@ -1,1 +1,0 @@
-O python-zope-component representa o núcleo da arquitetura de componentes do Zope. Ele é usado para gerenciar os componentes que compõem uma aplicação Zope e permite a criação de componentes reutilizáveis e facilmente substituíveis. 

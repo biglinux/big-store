@@ -1,4 +1,0 @@
-Este programa adiciona módulos XML ao PHP 7.4, o que permite que o PHP trabalhe com arquivos e dados XML de maneira mais
-eficiente. Isso é especialmente útil para aplicativos web que lidam com dados estruturados e para integração com outros sistemas que usam XML. Com esses módulos, você pode ler, criar e
-modificar facilmente arquivos XML usando funções do PHP.Além disso, os módulos incluem suporte para manipulação de namespaces, validação de documentos XML e outros recursos avançados. Eles 
-também fornecem uma interface para trabalhar com o popular biblioteca libxml2. 

@@ -1,1 +1,0 @@
-Este programa é responsável por ajudar a traduzir números para o formato IEEE-754. Isso é importante porque esse formato é  amplamente utilizado em computadores para armazenar valores de ponto flutuante (números com casas decimais). Ele é escrito em haskell e é chamado de haskell-data-binary-ieee754. 

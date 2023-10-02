@@ -1,1 +1,0 @@
-O Hasql agora possui suporte para notificações. Isso significa que é possível ouvir e ser notificado sobre eventos específicos no banco de dados.Isso pode ser útil em aplicações que precisam estar sempre atualizadas com as informações mais recentes do banco de dados, sem precisar ficar constantemente requisitando as informações. 

@@ -1,1 +1,0 @@
-Este pacote fornece datasets, transformações e modelos específicos para a área de visão computacional, utilizando a biblioteca PyTorch. Ele também inclui suporte a GPU, o que permite que os processos sejam realizados de maneira mais rápida e eficiente. 

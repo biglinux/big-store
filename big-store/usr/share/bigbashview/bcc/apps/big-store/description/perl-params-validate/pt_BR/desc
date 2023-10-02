@@ -1,1 +1,0 @@
-Esse programa é usado para validar parâmetros de sub-rotinas em relação a um especificação. Ele é escrito em Perl e é chamado 'perl-params-validate'. Com ele, é possível garantir que os parâmetros passados para uma sub-rotina estão de acordo com o esperado, evitando erros e problemas no código. 

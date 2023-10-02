@@ -1,1 +1,0 @@
-Este é um programa escrito em python que utiliza a técnica de HMAC (Hash-based Message Authentication Code) para criar uma chave a partir de uma outra informação já existente. Ele se chama python-hkdf e é conhecido como uma função de derivar chave HMAC-baseada. Ele é muito seguro e é usado em diversos aplicativos para garantir a privacidade e a integridade das informações. 

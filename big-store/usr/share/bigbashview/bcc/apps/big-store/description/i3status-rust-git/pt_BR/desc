@@ -1,4 +1,0 @@
-Este programa é uma substituição muito amigável e recursos para i3status para usar com
-programas de barra (como i3bar e swaybar), escrito em Rust puro. Ele é projetado para ser leve e rápido, sem comprometer as funcionalidades. Ele pode ser facilmente configurado para exibir 
-informações importantes como hora, data, bateria e muito mais. Além disso, ele suporta múltiplos formatos de saída, permitindo que você use com uma variedade de programas de barra
-diferentes.

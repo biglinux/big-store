@@ -1,3 +1,0 @@
-Este programa é uma biblioteca compartilhada escrita em Python que ajuda a ler metadados de arquivos de mídia, como 
-áudio e vídeo. Ele usa a biblioteca mediainfo para coletar informações como duração, formato, taxa de bits e muito mais. É fácil de usar e pode ser integrado a outros programas escritos em 
-Python.Com ele, você pode facilmente obter informações detalhadas sobre seus arquivos de mídia, sem precisar abri-los em um aplicativo de reprodução ou edição.

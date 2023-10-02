@@ -1,4 +1,0 @@
-Este programa é chamado 'cpuid' e é usado para obter informações sobre a CPU no sistema operacional Linux. Ele
-mostra detalhes sobre a arquitetura da CPU, como a velocidade do clock, a quantidade de núcleos e outras informações úteis. É uma ferramenta útil para os usuários que desejam obter
-informações detalhadas sobre sua configuração de hardware. Ele é específico para sistemas baseados em x86, o que significa que ele não funcionará em outros tipos de processadores. No
-entanto, se você estiver usando um sistema Linux em um computador x86, ele é uma ferramenta valiosa para verificar as informações da CPU.

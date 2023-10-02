@@ -1,1 +1,0 @@
-ddcutil é uma ferramenta de linha de comando para Linux para consultar e alterar configurações de  monitor, como brilho, níveis de cor e fonte de entrada, usando o protocolo DDC/CI via I2C. Ele suporta uma ampla gama de monitores, incluindo aqueles conectados via USB usando uma ponte I2C/USB. A ferramenta também pode ser usada para realizar várias funções de diagnóstico e teste. 

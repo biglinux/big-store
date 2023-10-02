@@ -1,2 +1,0 @@
-Libunwind-carbon é uma interface de programação (API) em C portável e eficiente para determinar a
-cadeia de chamadas de um programa. Ele também dá suporte a exceções C++ para a linguagem Carbon.

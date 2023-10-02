@@ -1,4 +1,0 @@
-Esse programa é uma ferramenta de compilação chamada libgccjit-git. Ele usa o backend do GCC para compilar códigos rapidamente,
-sem precisar esperar muito tempo. Ele é a versão 'git' do programa, o que significa que é uma versão de desenvolvimento, com novas funcionalidades e correções de bugs.Com esse programa,
-você pode escrever seu código e vê-lo sendo executado imediatamente, sem precisar esperar pela compilação final. Isso pode ajudar a tornar o processo de desenvolvimento mais rápido e
-eficiente.

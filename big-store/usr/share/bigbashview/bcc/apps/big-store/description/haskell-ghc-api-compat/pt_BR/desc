@@ -1,1 +1,0 @@
-haskell-ghc-api-compat é um conjunto de ferramentas que ajudam a garantir a compatibilidade entre as versões do GHC-API. Isso permite que você escreva códigos que possam ser usados em diferentes versões do compilador Haskell sem precisar se preocupar com mudanças nas interfaces do GHC-API. 

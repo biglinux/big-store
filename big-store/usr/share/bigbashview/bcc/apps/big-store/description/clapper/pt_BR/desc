@@ -1,3 +1,0 @@
- Este é um reprodutor de mídia criado especificamente para usuários do GNOME, um sistema operacional popular para computadores
-pessoais. Ele foi construído usando GJS, que é uma linguagem de programação baseada em JavaScript, e utiliza a biblioteca de interface gráfica GTK4 para fornecer uma experiência de usuário 
-amigável. Além disso, ele é alimentado pelo GStreamer, que é uma biblioteca de fluxo de mídia, e usa a renderização OpenGL para oferecer gráficos de alta qualidade. 

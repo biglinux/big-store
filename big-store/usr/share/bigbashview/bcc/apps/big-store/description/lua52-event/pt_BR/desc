@@ -1,3 +1,0 @@
-Este programa permite a integração entre a linguagem de programação Lua e a biblioteca libevent. Isso significa que agora é 
-possível utilizar as funcionalidades da libevent, como gerenciamento de eventos, dentro do seu código Lua. Isso pode ser útil para a criação de aplicações que precisam lidar com múltiplas
-conexões de rede ou outros tipos de eventos de maneira eficiente.

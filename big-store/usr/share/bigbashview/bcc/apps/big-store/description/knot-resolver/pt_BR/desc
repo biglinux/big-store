@@ -1,1 +1,0 @@
-O knot-resolver é um programa que ajuda a traduzir nomes de sites para endereços de internet. Ele usa uma técnica chamada DNSSEC para garantir que as respostas que ele dá são seguras e corretas. Isso significa que você pode ter mais confiança nas informações que você recebe quando usa o knot-resolver para acessar um site. 

@@ -1,4 +1,0 @@
-Esse pacote contém cabeçalhos do kernel para uso com o Linux em uma Raspberry Pi. Eles são necessários para
-compilar módulos do kernel para essa plataforma. Esses cabeçalhos são considerados 'legado' porque não são mais mantidos ativamente, mas ainda são necessários para compatibilidade com
-certos software antigo.Observe que esses cabeçalhos podem não ser compatíveis com a versão mais recente do Linux e é recomendado usar a versão mais recente disponível de cabeçalhos do
-kernel para a sua versão específica do Linux.

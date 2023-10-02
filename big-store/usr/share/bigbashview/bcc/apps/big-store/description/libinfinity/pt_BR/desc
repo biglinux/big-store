@@ -1,1 +1,0 @@
- Esta biblioteca é chamada de libinfinity e é usada para criar editores de texto colaborativos. Isso significa que várias pessoas podem editar um documento ao mesmo tempo e ver as alterações dos outros em tempo real. Ela inclui um servidor chamado infinoted que permite a conexão entre os usuários.  

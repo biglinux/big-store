@@ -1,1 +1,0 @@
-Esse programa é uma extensão simples feita em python e cython que tem a função de levantar uma exceção. Ele é útil para  testes e para verificar se outros programas estão lidando corretamente com exceções. 

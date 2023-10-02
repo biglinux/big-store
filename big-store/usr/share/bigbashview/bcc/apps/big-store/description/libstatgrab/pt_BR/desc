@@ -1,1 +1,0 @@
-Esta biblioteca fornece acesso cruzado a estatísticas sobre o sistema no qual ela é executada. O nome dela é libstatgrab. Com ela, você pode coletar informações sobre o uso de memória, disco e CPU, entre outras coisas. É útil para quem desenvolve programas e precisa saber como o sistema está se comportando. Ela é fácil de usar e pode ser útil em vários tipos de projetos. 

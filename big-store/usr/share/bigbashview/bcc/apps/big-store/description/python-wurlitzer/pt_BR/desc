@@ -1,1 +1,0 @@
-O python-wurlitzer é uma biblioteca que permite capturar a saída de stdout e stderr de um programa em C em seu código Python. Isso é útil para testes automatizados e integração de bibliotecas C em aplicativos Python. Ele também pode ser usado para redirecionar a saída de um programa C para um arquivo ou outra saída. 

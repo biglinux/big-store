@@ -1,1 +1,0 @@
-O haskell-tasty-hspec é um pacote que adiciona suporte para o Hspec, um framework de especificação de testes em Haskell, ao Tasty, outro framework de testes popular em Haskell.Isso significa que você pode escrever testes usando a sintaxe do Hspec e usá-los com as ferramentas e recursos do Tasty, tornando sua  vida de teste mais fácil e mais flexível. 

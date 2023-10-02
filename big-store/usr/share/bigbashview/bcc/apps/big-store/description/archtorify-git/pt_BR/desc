@@ -1,4 +1,0 @@
-O Archtorify-git é um programa que permite usar o Tor como um proxy de forma transparente no Arch Linux. Isso significa
-que todo o tráfego de rede do seu computador será redirecionado através do Tor, sem precisar configurar manualmente cada aplicativo.Isso pode ser útil para garantir mais privacidade e
-segurança ao navegar na internet, já que o tráfego passa por diversos relays (pontos de saída) antes de chegar ao destino final.O Archtorify-git é fácil de instalar e configurar, e é
-atualizado frequentemente para garantir compatibilidade com a versão mais recente do Arch Linux. 

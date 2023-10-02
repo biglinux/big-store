@@ -1,4 +1,0 @@
-Esse programa permite a visualização de estruturas de dados ao vivo no GHCi, o interpretador de comandos do
-Haskell. Isso significa que você pode ver como suas variáveis e estruturas de dados estão se comportando em tempo real enquanto você escreve seu código. Isso pode ser muito útil para
-entender melhor como seu programa está funcionando e depurar eventuais erros.Além disso, essa visualização é feita de forma interativa, o que significa que você pode clicar e explorar
-diferentes partes da estrutura de dados para ver mais detalhes. Isso pode ser especialmente útil para entender estruturas de dados complexas.

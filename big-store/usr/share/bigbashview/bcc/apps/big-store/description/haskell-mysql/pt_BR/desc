@@ -1,1 +1,0 @@
-Uma biblioteca cliente MySQL escrita em Haskell, que permite acesso direto ao banco de dados MySQL para aplicações que desejam se conectar diretamente ao banco de dados sem a necessidade de uma camada de abstração adicional. 

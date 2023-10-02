@@ -1,1 +1,0 @@
-O haskell-monad-logger é uma classe de Monads especializada em registrar mensagens. Isso significa que ele pode ser usado para armazenar informações sobre o que acontece durante a execução de um programa escrito em Haskell. Ele é uma ferramenta útil para depuração e rastreamento de erros, pois permite ver o que está acontecendo no código em tempo real. 

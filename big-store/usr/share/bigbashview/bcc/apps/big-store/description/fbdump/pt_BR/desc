@@ -1,1 +1,0 @@
-fbdump é um programa que captura o conteúdo da parte visível do framebuffer Linux e o imprime na saída padrão. Isso significa que ele pode ser usado para tirar screenshots do que está sendo exibido na tela em sistemas Linux. 

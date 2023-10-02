@@ -1,1 +1,0 @@
-Este programa utiliza a função PBKDF2 (Password-based key derivation function) para gerar senhas seguras. Ele é escrito em Python e é fácil de usar. Ele garante que suas senhas sejam difíceis de serem quebradas, aumentando a segurança de suas contas online.A função PBKDF2 é amplamente utilizada e considerada segura, é recomendado para gerar senhas fortes e seguras.  

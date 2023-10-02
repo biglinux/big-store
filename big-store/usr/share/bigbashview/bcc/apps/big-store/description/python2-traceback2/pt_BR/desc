@@ -1,3 +1,0 @@
-Este é um programa que oferece backports do módulo traceback do Python2. Isso significa que ele traz recursos do Python2 para
-versões mais antigas do Python, tornando-os disponíveis para você usar. Se você precisa trabalhar com versões antigas do Python, mas quer usar alguns dos recursos mais recentes, este
-programa pode ser muito útil para você. Com ele, você pode facilmente obter informações sobre erros e exceções, o que pode ajudar a solucionar problemas mais rapidamente. 

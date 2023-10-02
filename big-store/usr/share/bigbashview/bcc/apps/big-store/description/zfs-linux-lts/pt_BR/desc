@@ -1,4 +1,0 @@
-O ZFS é um sistema de arquivos e gerenciamento de banco de dados para armazenamento de dados. Ele foi criado para
-lidar com grandes quantidades de dados e oferece recursos avançados, como snapshots e replicação de dados. O módulo ZFS para Linux LTS é uma versão específica do ZFS que é compatível com as
-versões mais estáveis do kernel Linux. Ele permite que você use o ZFS em seu sistema Linux sem precisar instalar uma versão mais recente do kernel. Com esse módulo você terá garantia de
-estabilidade e segurança para seus arquivos

@@ -1,3 +1,0 @@
-Este é um programa que permite que desenvolvedores de terceiros criem aplicativos que usam o serviço de streaming de música
-Spotify. Ele vem em forma de pacote C API, o que significa que os desenvolvedores podem usar a linguagem C para escrever seus aplicativos. Com este programa, os desenvolvedores podem criar 
-aplicativos personalizados com recursos adicionais para os usuários do Spotify.

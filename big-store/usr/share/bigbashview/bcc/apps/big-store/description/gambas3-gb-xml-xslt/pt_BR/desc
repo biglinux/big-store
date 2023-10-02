@@ -1,1 +1,0 @@
-Este é um componente que permite trabalhar com arquivos XML e XSLT usando a linguagem Gambas3. Ele oferece uma série de funções para carregar, manipular e salvar arquivos XML, além de possibilitar a aplicação de transformações XSLT em documentos XML. Isso facilita muito o trabalho com esses tipos de arquivos em aplicações desenvolvidas com Gambas3. 

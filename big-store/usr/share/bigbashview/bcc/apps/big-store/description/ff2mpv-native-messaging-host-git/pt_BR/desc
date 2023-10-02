@@ -1,3 +1,0 @@
-Esta é uma extensão para o navegador Firefox que permite a comunicação com o programa mpv através de mensagens
-nativas. Ela é chamada de ff2mpv-native-messaging-host-git e é um projeto de código aberto. Ela permite que você controle o mpv através do Firefox, como reproduzir, pausar e mudar de
-vídeo.Para usar essa extensão, você precisará ter o mpv instalado em seu computador e configurá-lo para funcionar com essa extensão.

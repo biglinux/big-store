@@ -1,4 +1,0 @@
- Esta é uma biblioteca para lidar com arquivos WARC (Web ARChive) e ARC (ARChive of Web Pages) usando
-Python. Ela permite que você leia e escreva esses tipos de arquivos de forma eficiente e fácil. É útil para arquivar e analisar páginas da web.Com essa biblioteca, você pode trabalhar
-com esses arquivos de forma similar a como trabalha com arquivos normais, como por exemplo, abrindo, lendo e escrevendo. Além disso, ela suporta várias funcionalidades avançadas, como
-acesso aos cabeçalhos dos arquivos, iteração por recordes, e muito mais. 

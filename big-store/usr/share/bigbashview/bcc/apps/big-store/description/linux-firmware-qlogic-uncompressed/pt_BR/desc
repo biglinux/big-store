@@ -1,4 +1,0 @@
-Este é um pacote de firmware para dispositivos QLogic que rodam Linux. Ele inclui arquivos de firmware sem compressão
-de módulos, o que significa que eles já estão prontos para serem usados. Esse pacote é importante para garantir que os dispositivos QLogic funcionem corretamente no seu sistema
-Linux.Instale esse pacote se você estiver tendo problemas com dispositivos QLogic em seu sistema Linux ou se precisar atualizar o firmware deles. Ele pode ser instalado facilmente através
-do gerenciador de pacotes do seu sistema.

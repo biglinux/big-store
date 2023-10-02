@@ -1,2 +1,0 @@
-Este programa ajuda a deixar o volume das suas músicas no mesmo nível. Ele varre os arquivos de música e calcula os
-valores de ganho e picos de volume de acordo com o padrão EBU R128. Além disso, ele pode adicionar informações adicionais compatíveis com ReplayGain.

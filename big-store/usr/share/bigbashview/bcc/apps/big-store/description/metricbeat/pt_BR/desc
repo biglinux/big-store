@@ -1,2 +1,0 @@
- Com o metricbeat é possível monitorar os servidores e enviar as métricas para o Elasticsearch. Ele é um agente de
-monitoramento que ajuda a manter o controle das atividades dos servidores, garantindo a performance e estabilidade do sistema. 

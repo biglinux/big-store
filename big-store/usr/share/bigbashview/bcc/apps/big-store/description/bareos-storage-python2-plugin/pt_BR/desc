@@ -1,2 +1,0 @@
- O Bareos é um sistema de backup, arquivamento e recuperação de código aberto. Este plugin em específico é
-para o daemon de armazenamento e foi escrito em Python2. Ele permite que o Bareos acesse e gerencie o armazenamento de forma mais eficiente. 

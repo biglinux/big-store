@@ -1,3 +1,0 @@
- Este programa oferece compatibilidade com o sistema sysvinit, utilizado em sistemas operacionais
-antigos, para o sistema systemd, utilizado atualmente em muitos sistemas operacionais modernos. Além disso, ele também possui suporte ao SELinux, um sistema de segurança adicional para o
-sistema operacional. Isso permite que os usuários migrem para sistemas operacionais mais recentes sem perder a compatibilidade com aplicativos antigos e com segurança aprimorada. 

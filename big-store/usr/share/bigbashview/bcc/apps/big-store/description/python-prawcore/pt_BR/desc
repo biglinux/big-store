@@ -1,1 +1,0 @@
-python-prawcore é uma camada de comunicação de baixo nível para a biblioteca PRAW 4+. Ela permite que você  tenha acesso às funcionalidades do Reddit sem precisar lidar com detalhes de comunicação com a API do Reddit diretamente. 

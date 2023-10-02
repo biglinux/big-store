@@ -1,6 +1,0 @@
- A biblioteca cliente HTTP IPFS para Python é uma ferramenta útil para acessar o protocolo IPFS (InterPlanetary File
-System) usando a linguagem de programação Python. Ele permite que os desenvolvedores criem aplicativos e programas que se comunicam com o sistema de arquivos distribuído IPFS. Com ele, é
-possível armazenar, compartilhar e gerenciar arquivos de forma descentralizada e segura.A biblioteca é simples de usar e possui uma interface intuitiva. Ela suporta várias
-funcionalidades, como upload de arquivos, busca de arquivos, gerenciamento de arquivos e outras operações básicas. Além disso, ela é compatível com a maioria das versões do Python,
-tornando-a uma escolha popular entre os desenvolvedores.Em resumo, a biblioteca cliente HTTP IPFS para Python é uma excelente escolha para aqueles que desejam trabalhar com o protocolo
-IPFS e a linguagem Python. Ele oferece uma maneira fácil e segura de armazenar e compartilhar arquivos de forma descentralizada. 

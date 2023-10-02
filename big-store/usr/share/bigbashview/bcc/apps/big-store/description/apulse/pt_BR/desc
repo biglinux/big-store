@@ -1,4 +1,0 @@
-O programa 'apulse' é uma emulação do PulseAudio para o ALSA. Isso significa que ele permite que você use as vantagens do
-PulseAudio (como o controle de volume por aplicativo e a entrada de som múltipla) com aplicativos que normalmente não suportam o PulseAudio. Ele é útil especialmente em sistemas Linux sem o
-PulseAudio instalado.Com o 'apulse' você poderá controlar o volume de cada aplicativo individualmente e usar microfones e outros dispositivos de entrada de som simultaneamente, sem precisar
-fechar outros aplicativos.

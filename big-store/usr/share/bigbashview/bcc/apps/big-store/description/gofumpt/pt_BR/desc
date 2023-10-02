@@ -1,4 +1,0 @@
-Este programa é uma ferramenta de formatação de código Go. Ele é mais rigoroso do que o gofmt padrão e ajuda a manter seu código 
-consistente e legível. Ele corrige automaticamente erros de formatação, como espaços em branco e quebra de linha, e segue as convenções de codificação estabelecidas pelo Go.Isso é útil para
-manter o código fácil de ler e entender, especialmente em projetos de equipe, onde vários desenvolvedores estão trabalhando no mesmo código. Além disso, ele também ajuda a evitar erros
-comuns causados por formatação inconsistente.

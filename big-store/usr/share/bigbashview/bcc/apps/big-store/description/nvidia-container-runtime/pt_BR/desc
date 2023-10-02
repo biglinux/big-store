@@ -1,4 +1,0 @@
-Este é um programa especial que permite que os contêineres usem dispositivos de GPU da NVIDIA. Ele é uma 'fork'
-(cópia com modificações) do runtime opencontainer da NVIDIA. Isso significa que ele foi criado a partir de um programa original, mas foi modificado para atender a um propósito específico,
-que é dar acesso aos dispositivos de GPU dentro dos contêineres. Com esse programa, você pode executar aplicações que necessitam de muito poder de processamento gráfico dentro de
-contêineres, o que é útil para aplicações de inteligência artificial, jogos e outros usos similares.

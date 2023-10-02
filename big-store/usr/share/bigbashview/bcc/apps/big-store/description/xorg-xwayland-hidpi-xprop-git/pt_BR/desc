@@ -1,3 +1,0 @@
-Este programa permite que você execute clientes X em um ambiente Wayland, com suporte para HiDPI. Isso significa que ele 
-pode exibir imagens e textos mais nítidos em dispositivos com alta resolução de tela.Além disso, ele contém uma patch específica (identificada pelo número 733) para melhorar ainda mais a
-exibição em HiDPI.

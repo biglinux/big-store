@@ -1,2 +1,0 @@
- openfpgaloader-bin é uma ferramenta útil para programar dispositivos FPGA (Field-Programmable Gate Array). Ele é capaz de
-carregar arquivos de configuração para a FPGA e garantir que ela funcione corretamente. Com esse programa, você pode facilmente configurar a sua FPGA para realizar as tarefas desejadas. 

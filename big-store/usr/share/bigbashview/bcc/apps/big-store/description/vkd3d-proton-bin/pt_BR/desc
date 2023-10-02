@@ -1,5 +1,0 @@
-Você está prestes a preencher informações sobre uma biblioteca incrível! Esta biblioteca é responsável por
-traduzir o Direct3D 12 para o Vulkan.Mas o que isso significa? Bem, o Direct3D é uma API usada para criar jogos e aplicativos gráficos em dispositivos Windows. Já o Vulkan é outra API de
-baixo nível que tem sido cada vez mais popular nos últimos anos, principalmente por ser mais eficiente e oferecer melhor desempenho.A biblioteca em questão permite que esses aplicativos
-escritos para o Direct3D sejam executados em sistemas que usam o Vulkan, o que é uma ótima notícia para desenvolvedores e jogadores! Os arquivos DLL binários estão disponíveis apenas para
-sistemas Windows.

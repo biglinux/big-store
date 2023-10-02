@@ -1,4 +1,0 @@
- Este programa é uma ferramenta de linha de comando (CLI) que permite gerenciar seu hotspot diretamente no
-terminal. Ele utiliza o nmcli, uma ferramenta de gerenciamento de rede, para criar e controlar sua conexão hotspot. Com ele, você pode facilmente ativar e desativar seu hotspot, verificar o
-status de sua conexão e gerenciar as configurações de sua rede sem a necessidade de usar a interface gráfica. É uma ótima opção para usuários avançados ou para quem precisa gerenciar sua
-conexão hotspot em um ambiente de linha de comando.

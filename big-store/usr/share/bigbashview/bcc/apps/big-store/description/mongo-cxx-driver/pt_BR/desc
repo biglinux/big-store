@@ -1,3 +1,0 @@
-Este é um driver para o MongoDB escrito em C++. Ele permite que você conecte seu aplicativo C++ ao banco de dados MongoDB e execute
-operações de CRUD (criação, leitura, atualização e exclusão) de forma simples. Com ele, é possível inserir, recuperar, atualizar e excluir dados no banco de dados MongoDB com facilidade.
-Além disso, o driver também suporta agregações, índices, transações e outras operações avançadas.

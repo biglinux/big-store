@@ -1,5 +1,0 @@
-Este programa é usado para verificar se os links presentes em documentos da web ou em sites inteiros estão funcionando
-corretamente. Ele varre o código fonte da página procurando por links e os testa para garantir que estejam acessíveis e sem erros. Isso é importante para garantir que os usuários possam
-navegar pelo site sem problemas e que as informações sejam acessíveis.Ele também pode ser configurado para verificar links em intervalos regulares, o que é útil para detectar problemas
-rapidamente e corrigi-los antes que afetem a experiência do usuário. Além disso, ele pode ser usado para verificar links em sites que não são de propriedade do usuário, o que é útil para
-garantir que as informações externas sejam confiáveis. 

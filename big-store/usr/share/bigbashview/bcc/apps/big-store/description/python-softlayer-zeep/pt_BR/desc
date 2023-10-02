@@ -1,1 +1,0 @@
- Este é um cliente SOAP para Python baseado em lxml / requests. Ele é projetado para ser rápido e moderno, permitindo que você faça chamadas SOAP de maneira fácil e eficiente. Ele é construído com o pacote zeep, que é um cliente SOAP Python fácil de usar e altamente configurável. Com esse cliente, você pode acessar os recursos do SoftLayer com facilidade. 

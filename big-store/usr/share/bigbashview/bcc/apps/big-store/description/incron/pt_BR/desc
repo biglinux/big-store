@@ -1,1 +1,0 @@
-O incron é um programa semelhante ao cron comum, mas é acionado por eventos de arquivos em vez de períodos de tempo. Ele é útil para automatizar tarefas baseadas em alterações em arquivos específicos ou diretórios. 

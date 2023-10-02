@@ -1,3 +1,0 @@
-GnuPG é uma implementação completa e gratuita do padrão OpenPGP. Ele é usado para criptografar e assinar digitalmente
-arquivos e mensagens de email. Isso garante que somente as pessoas certas possam ler a informação e garante a autenticidade do remetente. GnuPG é compatível com outras implementações de
-OpenPGP, como PGP e GPG.

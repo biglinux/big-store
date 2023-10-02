@@ -1,1 +1,0 @@
-mkinitcpio-dropbear é um hook para Arch Linux que permite você instalar e habilitar o daemon dropbear no early userspace. Isso pode ser útil para fornecer acesso SSH ao seu sistema antes do daemon SSH regular ser iniciado. Esse pacote é destinado para uso com o gerador de initramfs mkinitcpio. 

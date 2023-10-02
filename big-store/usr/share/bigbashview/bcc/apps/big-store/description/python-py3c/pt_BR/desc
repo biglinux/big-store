@@ -1,1 +1,0 @@
-Esse programa é uma camada de compatibilidade para extensões C, ele permite que os desenvolvedores escrevam códigos para Python 2 e Python 3 sem precisar se preocupar com as diferenças entre essas versões. Assim, é possível garantir que o código funcione corretamente em ambas as versões. 

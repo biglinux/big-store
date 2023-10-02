@@ -1,4 +1,0 @@
-mxnet-cuda é uma biblioteca flexível e eficiente para aprendizado profundo. Ela utiliza a tecnologia CUDA para
-acelerar o processo de treinamento de redes neurais. Isso significa que ela é capaz de processar grandes quantidades de dados rapidamente, tornando-a ideal para aplicações de visão
-computacional, reconhecimento de fala e outras tarefas de aprendizado profundo. mxnet-cuda é projetada para ser fácil de usar e personalizar, permitindo que desenvolvedores e pesquisadores 
-criem modelos de aprendizado profundo personalizados para suas necessidades específicas.

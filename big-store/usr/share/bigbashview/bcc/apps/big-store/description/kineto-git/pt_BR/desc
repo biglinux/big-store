@@ -1,3 +1,0 @@
-O kineto-git é um programa que permite acessar sites na rede Gemini através de requisições HTTP. Isso significa que, em vez de digitar
-endereços na forma gemini://, você pode usar http:// ou https://.Isso pode ser útil se você estiver usando um navegador ou outro programa que não suporte nativamente a conexão com a rede
-Gemini.

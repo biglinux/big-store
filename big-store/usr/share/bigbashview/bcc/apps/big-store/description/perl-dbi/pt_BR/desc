@@ -1,1 +1,0 @@
-O perl-dbi é uma interface independente de banco de dados para o Perl. Isso significa que você pode usar o mesmo código para se conectar a diferentes bancos de dados, como MySQL, PostgreSQL, Oracle, entre outros, sem precisar mudar o código. Isso é muito útil quando você precisa trabalhar com vários bancos de dados diferentes e não quer ficar preso a uma única opção. 

@@ -1,3 +1,0 @@
- O ceph-libs-bin é um plataforma de armazenamento distribuído e tolerante a falhas que oferece suporte a
-objetos, blocos e sistemas de arquivos. Ele é projetado para escalar horizontalmente e fornecer alta disponibilidade, tolerância a falhas e desempenho para aplicações em nuvem e de
-armazenamento de dados. Com ele, você pode construir um sistema de armazenamento escalável e escalável, que pode ser facilmente gerenciado e monitorado. 

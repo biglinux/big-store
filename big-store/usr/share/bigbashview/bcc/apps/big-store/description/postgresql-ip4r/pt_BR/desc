@@ -1,1 +1,0 @@
-Esse programa é uma extensão para o banco de dados PostgreSQL que adiciona um novo tipo de indice, especificamente para armazenar e consultar endereços IPv4 e IPv6.Ele é particularmente útil para aplicações que precisam realizar buscas de faixas de endereços, como por exemplo, para filtrar o acesso a uma rede ou para realizar análise de tráfego. 

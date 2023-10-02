@@ -1,4 +1,0 @@
-Este é um pacote para instalar módulos do Dune Numerics. O Dune Numerics é uma biblioteca de cálculo numérico
-para resolução de problemas de simulação em engenharia e ciências. O pacote dune-core é uma forma fácil de instalar todos os módulos necessários para começar a usar a biblioteca Dune
-Numerics.Com ele, você pode facilmente instalar todos os módulos necessários para começar a usar a biblioteca Dune Numerics, sem precisar se preocupar em instalar cada módulo
-individualmente. Tudo o que você precisa é instalar o pacote dune-core e você estará pronto para começar a usar a biblioteca Dune Numerics.

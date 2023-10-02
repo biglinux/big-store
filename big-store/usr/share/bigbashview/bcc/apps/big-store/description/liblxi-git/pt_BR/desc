@@ -1,4 +1,0 @@
-Essa é uma biblioteca para ajudar no desenvolvimento de programas que precisam se comunicar com equipamentos utilizando o
-protocolo LXI. Ela é chamada de liblxi e foi criada como um projeto do Github. Com ela, é possível enviar e receber dados de forma fácil e rápida para esses equipamentos.Ela é útil para
-desenvolvedores de aplicações que precisam controlar esses equipamentos, como medidores de energia, geradores de sinais, entre outros. Além disso, essa biblioteca é open-source, o que
-significa que qualquer pessoa pode contribuir para o seu desenvolvimento e melhorias.

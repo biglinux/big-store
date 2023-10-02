@@ -1,4 +1,0 @@
-Este é um programa chamado looking-glass. Ele é um aplicativo cliente que permite você acessar o dispositivo LookingGlass 
-IVSHMEM de uma máquina virtual (VM). Isso significa que você pode usá-lo para ver o que está acontecendo dentro da VM e controlá-la. É útil para administradores de sistemas e outros
-profissionais que precisam gerenciar máquinas virtuais.O programa é fácil de usar e tem uma interface amigável. Ele também é seguro, garantindo que suas informações não sejam compartilhadas
-com ninguém sem sua permissão.

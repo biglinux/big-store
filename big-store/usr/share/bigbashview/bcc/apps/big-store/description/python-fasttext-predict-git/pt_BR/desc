@@ -1,2 +1,0 @@
-Este programa permite fazer previsões utilizando o método Fasttext sem precisar de dependências externas. Ele vem em
-formato de roda e o tamanho dele é menor que 1MB, sendo o método de previsão o único disponível. 

@@ -1,1 +1,0 @@
-Este programa é uma ferramenta em Python que ajuda a testar  aplicações WSGI (Web Server Gateway Interface). Ele permite que você envie solicitações para a aplicação e verifique as respostas para garantir que ela esteja funcionando corretamente. 

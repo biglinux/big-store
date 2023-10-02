@@ -1,4 +1,0 @@
-Este programa é uma edição especial para Linux do software openboardview, ele foi desenvolvido para visualizar
-arquivos com a extensão .brd. Ele é baseado nas bibliotecas SDL e ImGui, o que garante uma boa performance e usabilidade. Com ele você pode abrir, visualizar e navegar pelos arquivos .brd
-de maneira fácil e rápida.Além disso, ele possui diversas ferramentas de edição, como zoom, pan, rotação, entre outras, que ajudam a analisar os detalhes do arquivo. Ele é uma ótima opção
-para engenheiros, técnicos e estudantes que precisam trabalhar com esses tipos de arquivos.

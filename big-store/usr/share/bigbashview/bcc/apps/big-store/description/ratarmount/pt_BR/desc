@@ -1,3 +1,0 @@
-Este programa permite montar arquivos tar usando o FUSE, o que permite acesso rápido apenas para leitura e acesso aleatório. Isso
-significa que você pode ver o conteúdo de um arquivo tar sem extraí-lo, e pode navegar pelo conteúdo do arquivo como se estivesse em uma pasta normal no seu computador. É importante notar
-que você não pode modificar os arquivos dentro do arquivo tar enquanto estiver montado, pois é somente para leitura.

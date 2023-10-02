@@ -1,3 +1,0 @@
-Este é um programa escrito em Python que ajuda a extrair as strings de arquivos XML do Babel Glade que podem ser
-traduzidas. Ele é uma biblioteca Python que facilita esse processo, tornando-o mais simples e rápido. Com ele, é possível obter as strings de tradução de forma automatizada, sem precisar
-abrir manualmente cada arquivo.É uma ferramenta útil para desenvolvedores de software que trabalham com aplicações multilíngues e precisam gerenciar as traduções de maneira eficiente.

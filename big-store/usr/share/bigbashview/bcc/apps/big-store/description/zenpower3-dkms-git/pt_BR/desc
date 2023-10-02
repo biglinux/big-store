@@ -1,2 +1,0 @@
-Este é um driver para o kernel Linux, que ajuda na leitura de sensores para CPUs da família AMD Zen. Ele é
-chamado de zenpower3-dkms-git e é importante para que você consiga acessar informações sobre o funcionamento do seu computador. 

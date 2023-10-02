@@ -1,4 +1,0 @@
-Ferramentas de construção para o Google Android SDK (aapt, aidl, dexdump, dx, llvm-rs-cc). Essas ferramentas são
-necessárias para criar e testar aplicativos para dispositivos Android. Elas incluem ferramentas como aapt (Android Asset Packaging Tool), que é usado para criar e gerenciar pacotes de
-recursos de aplicativos, e aidl (Android Interface Definition Language), que é usado para definir interfaces entre aplicativos. Além disso, inclui ferramentas como dexdump, dx e llvm-rs-cc,
-que são usadas para analisar e otimizar códigos de aplicativos.

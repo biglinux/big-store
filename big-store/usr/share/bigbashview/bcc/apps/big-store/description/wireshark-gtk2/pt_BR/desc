@@ -1,3 +1,0 @@
-Wireshark é um programa que ajuda a ver o que está acontecendo em sua rede. Ele é capaz de capturar pacotes e
-mostrar detalhes sobre eles, como quem os enviou e para quem eles foram enviados. Ele é gratuito e pode ser usado tanto em computadores com sistema operacional Linux/Unix quanto em
-Windows.Este é o frontend GTK2 do Wireshark, o que significa que ele usa a biblioteca GTK2 para exibir a interface gráfica do usuário.

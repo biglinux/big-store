@@ -1,4 +1,0 @@
-Este programa fornece os arquivos de cabeçalho do Vulkan para desenvolvimento em ambiente Windows. Ele é específico para o 
-compilador MinGW-w64, que é usado para criar aplicativos para sistemas operacionais Windows. Com esses arquivos, desenvolvedores podem criar aplicativos que usam as funcionalidades
-avançadas do Vulkan, uma API de baixo nível para gráficos 3D.O Vulkan é uma alternativa mais recente e mais eficiente para a API de gráficos DirectX, e tem suporte em várias plataformas,
-incluindo Windows, Linux e Android. Usando esses cabeçalhos, desenvolvedores podem aproveitar as vantagens do Vulkan em seus projetos para Windows.

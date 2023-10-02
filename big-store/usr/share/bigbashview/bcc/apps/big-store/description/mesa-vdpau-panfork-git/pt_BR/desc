@@ -1,3 +1,0 @@
-Este programa é um conjunto de drivers para aceleração de vídeo utilizando o VDPAU. Ele é conhecido como
-'mesa-vdpau-panfork-git' e é voltado para a melhoria da performance de vídeos em sistemas operacionais Linux. Com ele, é possível aproveitar ao máximo a capacidade de processamento gráfico 
-de sua placa de vídeo para reproduzir vídeos de forma mais suave e rápida.

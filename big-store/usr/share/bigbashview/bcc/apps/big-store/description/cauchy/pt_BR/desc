@@ -1,1 +1,0 @@
-Esta biblioteca é útil para transformar arquivos do Matlab ou Octave para o C++ (usando a biblioteca Eigen) e também de volta para o Matlab. Isso pode ser útil se você precisar usar código escrito em Matlab em um projeto em C++ ou se precisar compartilhar código entre essas duas linguagens. 

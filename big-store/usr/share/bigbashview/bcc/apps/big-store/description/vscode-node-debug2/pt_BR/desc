@@ -1,3 +1,0 @@
-Este é um adaptador de depuração para o VS Code que permite depurar o Node usando o Protocolo de Depuração do Chrome. Ele é fácil
-de usar e oferece uma interface intuitiva para que você possa encontrar e corrigir erros rapidamente. Com ele, você pode pausar a execução do seu código, verificar variáveis e passo a
-passo, entre outras coisas. Ele também oferece suporte para depuração remota, para que você possa depurar seus aplicativos em outros dispositivos. 

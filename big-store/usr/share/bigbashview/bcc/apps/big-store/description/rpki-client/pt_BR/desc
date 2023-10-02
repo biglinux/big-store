@@ -1,4 +1,0 @@
-Este programa foi desenvolvido para ajudar as partes interessadas a validar suas rotas de anúncio usando o RPKI (Resource Public
-Key Infrastructure). Ele implementa as especificações RPKI para garantir que as rotas anunciadas sejam precisas e confiáveis. Com ele, as partes interessadas podem ter certeza de que estão 
-usando as rotas corretas e evitando problemas de roteamento.Em resumo, o objetivo é garantir a segurança e a confiabilidade na comunicação de dados, validando as rotas anunciadas através do
-RPKI.

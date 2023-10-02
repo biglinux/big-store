@@ -1,2 +1,0 @@
-Fishnet é um programa que ajuda a analisar jogadas de xadrez usando o algoritmo Stockfish. Ele funciona de forma distribuída,
-ou seja, usa múltiplos computadores para acelerar o processo. Ele é especialmente útil para jogadores do site lichess.org.

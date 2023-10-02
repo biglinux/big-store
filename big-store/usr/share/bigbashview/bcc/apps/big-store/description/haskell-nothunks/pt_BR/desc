@@ -1,1 +1,0 @@
-Este programa em Haskell é projetado para examinar valores de Thunks e identificar se há algum valor inesperado presente. Ele é útil para encontrar e corrigir erros em código Haskell. 

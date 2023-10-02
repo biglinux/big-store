@@ -1,1 +1,0 @@
-Este é um módulo para o sistema operacional Linux chamado Xanmod Edge VHBA. Ele é usado para emular dispositivos SCSI, ou seja, fazer com que o sistema operacional os veja como se eles fossem reais. Isso é útil em algumas situações, como quando você precisa usar um dispositivo virtual em vez de um físico. Este módulo funciona com a versão Xanmod Edge do Linux. 

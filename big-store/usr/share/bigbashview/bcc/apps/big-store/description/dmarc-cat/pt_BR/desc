@@ -1,3 +1,0 @@
-dmarc-cat é um pequeno utilitário que ajuda a decodificar os relatórios enviados por provedores de e-mail
-seguindo a especificação DMARC. Ele é útil para entender quem está enviando e-mails em seu nome e garantir que suas mensagens não sejam marcadas como spam.Com dmarc-cat, você pode verificar
-se há algum problema com sua configuração de e-mail ou identificar remetentes mal-intencionados que estejam usando sua marca para enviar spam.

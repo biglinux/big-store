@@ -1,1 +1,0 @@
-python-copr é um cliente para o serviço Copr, que é um sistema de construção para criar e gerenciar pacotes RPM. Ele permite que você crie e gerencie seus próprios repositórios de pacotes e também use pacotes criados por outros. O cliente python-copr fornece uma maneira fácil de interagir com o serviço Copr usando Python. 

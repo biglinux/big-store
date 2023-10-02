@@ -1,4 +1,0 @@
-Passh é um programa que oferece uma forma segura de acessar computadores remotos através do SSH (Secure Shell). 
-Ele permite que você faça login em outros computadores sem precisar digitar sua senha manualmente. Em vez disso, você usa uma chave de autenticação, que é muito mais segura do que usar uma 
-senha comum. Com passh, você pode acessar seus arquivos e configurações de outros computadores de forma segura, sem precisar se preocupar com invasores tentando descobrir sua senha. Além
-disso, o programa é fácil de usar e não requer nenhum conhecimento técnico avançado. 

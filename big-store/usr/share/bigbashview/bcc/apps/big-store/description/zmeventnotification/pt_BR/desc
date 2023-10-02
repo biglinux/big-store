@@ -1,2 +1,0 @@
-O servidor de notificação de eventos é alimentado por aprendizado de máquina e baseado em websocket & MQTT
-para o ZoneMinder.Ele fornece uma maneira segura de receber alertas sobre eventos importantes registrados pelo ZoneMinder.

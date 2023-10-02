@@ -1,1 +1,0 @@
-libtar é uma biblioteca para manipulação de arquivos tar no formato POSIX. Ele permite criar, extrair e listar o conteúdo de arquivos tar de forma fácil e eficiente. Além disso, ele suporta a adição de novos arquivos e a remoção de arquivos existentes do arquivo tar. É uma ferramenta poderosa para gerenciar arquivos em sistemas operacionais Unix e Linux. 

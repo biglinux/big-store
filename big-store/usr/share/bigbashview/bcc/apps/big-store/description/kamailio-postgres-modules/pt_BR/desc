@@ -1,4 +1,0 @@
-Os módulos Kamailio com banco de dados PostgreSQL permitem que o Kamailio se conecte a um banco de dados
-PostgreSQL. Isso significa que você pode armazenar e recuperar informações como usuários e configurações no banco de dados, em vez de mantê-las no arquivo de configuração do Kamailio. Isso 
-pode ser útil em cenários de alta escalabilidade, onde é necessário gerenciar grandes quantidades de usuários ou configurações. Além disso, usar um banco de dados também permite que você
-faça backup e restauração das informações facilmente.

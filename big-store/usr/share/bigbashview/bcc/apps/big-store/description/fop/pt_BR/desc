@@ -1,1 +1,0 @@
-FOP é uma implementação de XSL-FO (Formatting Objects Processor) em Java. Ele permite que você gere documentos em vários formatos, como PDF, PCL, PS, SVG, etc, a partir de arquivos XML e XSL-FO. Ele é amplamente utilizado para gerar relatórios, documentos de impressão e outros tipos de documentos empresariais. 

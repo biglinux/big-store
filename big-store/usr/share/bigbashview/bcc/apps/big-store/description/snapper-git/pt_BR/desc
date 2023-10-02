@@ -1,2 +1,0 @@
-Com o Snapper-git, você pode facilmente gerenciar snapshots do seu sistema BTRFS e LVM. Ele permite que você crie, veja 
-as diferenças e restaure snapshots, além de oferecer a opção de criar snapshots automaticamente com base em um cronograma.

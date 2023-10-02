@@ -1,1 +1,0 @@
-O módulo Term::ProgressBar permite que você adicione uma barra de progresso em seus scripts Perl usando apenas caracteres ASCII e o módulo Term. Isso pode ser útil para mostrar o progresso de tarefas longas ao usuário, como download de arquivos ou processamento de dados. 

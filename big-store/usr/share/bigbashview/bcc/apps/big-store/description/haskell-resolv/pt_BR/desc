@@ -1,1 +1,0 @@
- O haskell-resolv é um programa que realiza consultas de serviço de nome de domínio (DNS) através das rotinas padrão da biblioteca libresolv. Ele é uma ferramenta útil para obter informações sobre endereços IP e outros detalhes relacionados a um nome de domínio específico.  

@@ -1,3 +1,0 @@
-Os utilitários de núcleo de política SELinux são ferramentas importantes para gerenciar e aplicar políticas de
-segurança no sistema operacional. Eles incluem comandos como semanage, sepolgen, e setools, que permitem aos administradores de sistemas controlar e gerenciar a configuração de segurança do
-SELinux. Estas ferramentas são fundamentais para garantir que o sistema operacional esteja configurado de forma segura e estável.

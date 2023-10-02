@@ -1,3 +1,0 @@
-Essa ferramenta de linha de comando é inspirada nos comandos do kubectl e do docker. Ela permite gerenciar seus tópicos 
-e configurações do Kafka de maneira fácil e rápida, sem precisar entrar no painel web ou utilizar outras ferramentas. Com ela, você pode criar, listar, deletar tópicos, alterar
-configurações, entre outras coisas. É uma opção prática para quem precisa trabalhar com o Kafka de maneira frequente.

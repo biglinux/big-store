@@ -1,2 +1,0 @@
- qBittorrent é um cliente avançado de BitTorrent programado em C++, baseado no conjunto de ferramentas Qt e no
-libtorrent-rasterbar, sem interface gráfica (versão git). Ele é uma ótima opção para baixar arquivos como músicas, vídeos e documentos usando o protocolo de rede BitTorrent.

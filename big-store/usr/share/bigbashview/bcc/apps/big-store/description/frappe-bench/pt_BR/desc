@@ -1,3 +1,0 @@
-O Frappe Bench é uma ferramenta de linha de comando (CLI) que ajuda a gerenciar implantações de aplicativos Frappe para
-múltiplos clientes (multi-tenant). Com ele, é possível fazer coisas como instalar novos aplicativos, atualizar versões existentes e gerenciar usuários e permissões. Ele é especialmente útil
-para equipes de TI que precisam gerenciar várias instâncias de um aplicativo Frappe para diferentes clientes.

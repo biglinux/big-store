@@ -1,5 +1,0 @@
-O MarkdownLint é uma ferramenta para ajudar a manter seus arquivos Markdown limpos e padronizados. Ele
-verifica seu arquivo em busca de erros comuns, como espaços em branco extras ou cabeçalhos incorretamente formatados. Ele também oferece sugestões para melhorar a aparência e a clareza do
-seu texto. O MarkdownLint Command Line Interface é uma forma fácil de usar essa ferramenta diretamente do seu terminal.Com ele, você pode verificar seus arquivos Markdown sem precisar sair 
-do seu ambiente de trabalho atual, tornando mais fácil de integrar em seus fluxos de trabalho existentes. Além disso, ele permite que você configure regras personalizadas para atender às
-suas necessidades específicas.

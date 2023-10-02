@@ -1,3 +1,0 @@
-Este programa é uma versão modificada do JetBrainsRuntime, que foi corrigido para consertar o bug do cursor do fcitx5.
-Este problema causava dificuldade no uso do cursor quando se utilizava o fcitx5 como gerenciador de entrada de texto. Com essa correção, o uso do cursor ficará mais fácil e intuitivo,
-melhorando a sua experiência de uso. Este programa é específico para sistemas Linux x64.

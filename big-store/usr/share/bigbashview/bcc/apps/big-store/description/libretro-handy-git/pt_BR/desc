@@ -1,4 +1,0 @@
-Este é um emulador do Atari Lynx usando a biblioteca libretro. Ele permite que você jogue jogos do Atari Lynx em outras
-plataformas, como PC, celulares e consoles. A libretro é uma interface de programação de aplicativos (API) que permite que diferentes emuladores sejam usados ​​em conjunto como se fossem um
-único aplicativo. Isso significa que você pode usar o mesmo emulador em vários programas e dispositivos. Este emulador é baseado no código fonte do Handy, que é um emulador original do
-Atari Lynx. Ele foi modificado para trabalhar com a libretro, para que possa ser usado em outras plataformas.

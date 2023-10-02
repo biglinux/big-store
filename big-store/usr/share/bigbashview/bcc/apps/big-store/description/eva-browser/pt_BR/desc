@@ -1,3 +1,0 @@
-Este é um programa chamado eva-browser. Ele é um navegador para acessar páginas na internet usando o protocolo Gemini. Ele foi feito
-usando a biblioteca GTK4, que é uma biblioteca para fazer interfaces gráficas no Linux. Com ele você pode navegar pelas páginas do protocolo Gemini, que é uma alternativa ao HTTP. Ele é
-rápido e seguro, e tem algumas características interessantes como suporte ao Markdown e possibilidade de acessar páginas sem precisar de um navegador convencional.

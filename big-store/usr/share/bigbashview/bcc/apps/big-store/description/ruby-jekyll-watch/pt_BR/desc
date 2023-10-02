@@ -1,3 +1,0 @@
- Com o programa ruby-jekyll-watch, é possível atualizar automaticamente seu site Jekyll sempre que
-houver alguma alteração em algum arquivo. Tudo o que você precisa fazer é usar o comando '--watch' e o programa cuidará do resto.Isso é útil para quem trabalha com desenvolvimento web e 
-precisa ver as alterações em tempo real sem precisar atualizar manualmente o site a cada mudança. 

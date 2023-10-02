@@ -1,3 +1,0 @@
-Esphome é uma solução para os seus projetos com ESP8266/ESP32 e Home Assistant. Ele permite que você configure e gerencie
-seus dispositivos ESP de forma fácil e intuitiva, usando uma interface web. Com Esphome, você pode criar automações, monitorar sensores e controlar dispositivos de forma rápida e
-simples.Além disso, ele também oferece suporte ao protocolo MQTT, o que permite integrar seus dispositivos ESP com outros sistemas de automação em sua casa.

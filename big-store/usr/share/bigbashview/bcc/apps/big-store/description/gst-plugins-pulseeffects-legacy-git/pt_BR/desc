@@ -1,3 +1,0 @@
-Este programa adiciona efeitos de áudio para aplicativos que usam o Pulseaudio. Isso é feito através de plugins 
-do Gstreamer, um sistema de processamento de mídia popular.Com esse programa, você pode ajustar o som do seu áudio como quiser, como adicionar um efeito de eco ou mudar a equalização. Ele é
-especialmente útil para quem gosta de ouvir música ou assistir vídeos com qualidade de som melhorada.

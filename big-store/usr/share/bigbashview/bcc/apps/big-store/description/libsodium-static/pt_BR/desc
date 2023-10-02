@@ -1,2 +1,0 @@
-Uma biblioteca criptográfica portátil e embalável baseada no protocolo NaCl. Esta é uma versão estática da
-biblioteca, o que significa que ela pode ser incorporada diretamente ao seu programa sem necessidade de ser carregada dinamicamente.

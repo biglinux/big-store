@@ -1,4 +1,0 @@
-Este programa é chamado Ruffle Nightly Bin e é um emulador de Flash Player escrito em Rust. Isso significa que ele
-permite que você execute jogos e animações feitos em Flash em seu computador, mesmo se o Flash Player original não estiver mais disponível. Isso é útil se você quiser jogar jogos antigos ou
-assistir animações que não estão mais disponíveis na internet.Rust é uma linguagem de programação moderna e segura, o que significa que este emulador é confiável e eficiente. Ele também é
-atualizado regularmente, então você pode ter certeza de que está sempre usando a versão mais recente e estável.

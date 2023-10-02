@@ -1,5 +1,0 @@
-Esse é um repositório de documentação para o módulo Photutils em Python. Ele contém informações sobre como usar
-esse módulo para trabalhar com arquivos TIFF. O Photutils é uma biblioteca Python para processamento de imagens e dados científicos, incluindo a detecção de objetos e a extração de medidas.
-Ele é projetado para ser fácil de usar e flexível, e é compatível com uma variedade de formatos de imagem, incluindo TIFF.Este repositório fornece informações detalhadas sobre como usar o
-Photutils para abrir, ler e escrever arquivos TIFF, bem como como processar e analisar as imagens contidas neles. Ele também inclui exemplos e tutoriais para ajudar a entender melhor como
-usar o módulo.

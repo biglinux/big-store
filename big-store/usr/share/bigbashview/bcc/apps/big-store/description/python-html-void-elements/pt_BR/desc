@@ -1,4 +1,0 @@
-Esse programa fornece uma lista de nomes de tags vazias em HTML que podem ser utilizadas com o Python. Essas tags
-não possuem fechamento e são usadas para marcar elementos como imagens, links e outros tipos de conteúdo.Exemplos de tags vazias incluem: <img>, 
- e <input>.Essa lista pode ser útil ao
-trabalhar com web scraping ou construção de páginas web com Python.

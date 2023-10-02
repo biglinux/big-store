@@ -1,1 +1,0 @@
-ngrep é uma ferramenta que permite buscar pacotes de rede em uma interface. Ele funciona de maneira  semelhante ao comando grep, mas é específico para pacotes de rede. Com ele, você pode buscar por palavras-chave ou expressões regulares em pacotes de rede, o que pode ser útil para solucionar problemas de rede ou entender como seu tráfego está sendo usado. 

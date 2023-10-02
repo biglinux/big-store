@@ -1,3 +1,0 @@
-Uma biblioteca de grafos para Python com alta performance, implementada em Rust. Com ela, é possível
-trabalhar com grafos de maneira fácil e rápida, realizando operações como adição e remoção de vértices e arestas, busca em largura e profundidade, entre outras. Além disso, ela possui uma
-boa performance, tornando-a uma excelente opção para aplicações que precisam lidar com grandes volumes de dados.

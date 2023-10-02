@@ -1,2 +1,0 @@
-A ferramenta btrbk-git é uma ferramenta de backup específica para subvolumes btrfs. Ela utiliza as capacidades
-específicas do btrfs para criar instantâneos atômicos e transferi-los incrementalmente para suas localizações de backup.

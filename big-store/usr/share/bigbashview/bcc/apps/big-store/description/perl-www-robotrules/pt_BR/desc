@@ -1,1 +1,0 @@
-Esse programa é escrito em Perl e tem como função criar um banco de dados com as permissões de rastreamento de sites que são especificadas no arquivo robots.txt. Ele é baseado na biblioteca WWW::RobotRules e ajuda a garantir que os rastreadores de busca respeitem as regras de rastreamento estabelecidas pelos administradores do site. 

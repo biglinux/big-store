@@ -1,3 +1,0 @@
- O onnxruntime-git é um acelerador de inferência e treinamento cross-platform para aprendizado de máquina. Ele é
-projetado para ajudar a tornar a inferência de modelos de aprendizado de máquina mais rápida e eficiente em várias plataformas, incluindo dispositivos móveis, computadores e servidores. Ele
-é baseado no formato ONNX, que permite que os modelos sejam compartilhados e executados entre várias ferramentas de aprendizado de máquina.

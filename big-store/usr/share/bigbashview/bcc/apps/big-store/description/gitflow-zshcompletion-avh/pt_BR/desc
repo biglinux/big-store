@@ -1,3 +1,0 @@
-Este programa adiciona suporte de completar comandos do Gitflow no terminal ZSH. Com ele, você pode escrever comandos
-mais rapidamente e de forma mais fácil, sem se preocupar em lembrar exatamente como escrever cada um. Basta começar a digitar e o programa sugerirá o que você pode escrever a seguir.O
-suporte é baseado na edição AVH do Gitflow, então é importante verificar se você está usando essa versão antes de instalar o programa.

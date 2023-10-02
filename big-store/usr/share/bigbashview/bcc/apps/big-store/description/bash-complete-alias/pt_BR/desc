@@ -1,3 +1,0 @@
-Este programa ajuda a completar os comandos de alias no terminal do bash de forma automática. Isso significa que, quando você digitar
-o início de um comando de alias que você já configurou, o programa automaticamente mostrará as opções possíveis para você escolher. Isso pode economizar tempo e evitar erros ao usar
-comandos frequentes no seu terminal.

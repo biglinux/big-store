@@ -1,2 +1,0 @@
-Este programa garante que o iBus daemon inicie junto com o sistema operacional, seguindo a especificação XDG Autostart. Isso
-significa que todas as vezes que você ligar o computador, o iBus já estará funcionando e pronto para uso.

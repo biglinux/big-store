@@ -1,4 +1,0 @@
- Podman é uma aplicação para desktop que permite gerenciar seus conteiners. Ele é uma alternativa ao Docker e oferece vários 
-recursos para criar, gerenciar e monitorar conteiners. Com ele, você pode facilmente criar novos conteiners, iniciá-los, pará-los e excluí-los. Além disso, ele permite que você gerencie sua
-rede de conteiner e suas imagens, tudo a partir de uma interface fácil de usar.Com o Podman, você pode se beneficiar de uma segurança aprimorada e de uma maior flexibilidade para
-gerenciar seus conteiners.

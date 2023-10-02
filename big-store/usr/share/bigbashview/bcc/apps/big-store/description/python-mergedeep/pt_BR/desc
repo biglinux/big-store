@@ -1,4 +1,0 @@
-Este programa em Python oferece uma função de mesclagem profunda para uso em seus projetos. Ele permite mesclar
-dicionários em Python de forma recursiva, ou seja, ele vai mesclar as chaves e valores de forma que as chaves do dicionário de origem sejam preservadas e as chaves do dicionário de destino 
-sejam atualizadas. Ele também permite especificar regras de mesclagem personalizadas.Isso é útil quando você precisa combinar configurações de diferentes fontes e preservar as
-configurações existentes, ao mesmo tempo em que adiciona novas configurações.

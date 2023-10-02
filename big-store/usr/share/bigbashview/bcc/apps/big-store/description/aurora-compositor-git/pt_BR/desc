@@ -1,3 +1,0 @@
-Este programa é um framework para criar compositors de Wayland baseados em Qt. Ele foi desenvolvido como um projeto de código
-aberto e é distribuído através do Git. Com ele, é possível criar interfaces gráficas personalizadas para sistemas operacionais que utilizam o protocolo Wayland. O Aurora Compositor é uma
-ferramenta poderosa para desenvolvedores que desejam criar suas próprias interfaces gráficas para sistemas operacionais baseados em Wayland.

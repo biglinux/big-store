@@ -1,3 +1,0 @@
- Esta é a biblioteca de tempo de execução de container NVIDIA. Ela permite que os programas utilizem as
-GPUs NVIDIA em um ambiente de container, garantindo que eles possam desfrutar das vantagens de desempenho e escalabilidade que as GPUs oferecem. Isso é especialmente útil em cargas de
-trabalho de aprendizado de máquina e computação de alto desempenho. 

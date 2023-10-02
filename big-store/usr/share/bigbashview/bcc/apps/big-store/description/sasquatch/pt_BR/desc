@@ -1,3 +1,0 @@
- Este programa fornece ferramentas para trabalhar com o sistema de arquivos squashfs, que é altamente
-comprimido e somente leitura para o Linux. Ele permite que você crie, extraia, e manipule arquivos dentro de um arquivo squashfs. Com ele, você pode aproveitar a compressão de arquivos sem 
-perda de qualidade e acessar arquivos de forma rápida e fácil. 

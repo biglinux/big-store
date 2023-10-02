@@ -1,1 +1,0 @@
-Este pacote contém um conjunto de programas para montar e manipular arquivos binários e de objetos para o alvo ARM64, como o aarch64-linux-gnu-ld, o aarch64-linux-gnu-as e o aarch64-linux-gnu-objdump.Ele permite que você crie e edite arquivos de objeto, link e desmonte arquivos de objeto para visualizar sua estrutura interna. 

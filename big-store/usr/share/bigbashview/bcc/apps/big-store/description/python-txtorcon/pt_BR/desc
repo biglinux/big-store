@@ -1,1 +1,0 @@
-Uma biblioteca de controle assíncrono para o Tor baseada em Twisted-Python. Ela se chama python-txtorcon e é usada para controlar conexões com o Tor. 

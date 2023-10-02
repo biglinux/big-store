@@ -1,3 +1,0 @@
-Este programa permite a comunicação com o Chromecast usando a linguagem de programação Python 3. Ele é uma biblioteca, 
-ou conjunto de ferramentas, que possibilita a integração com o dispositivo da Google de maneira fácil e prática. Com ela, é possível enviar mídia para o Chromecast e controlar a reprodução 
-de vídeos e áudios.Além disso, a biblioteca também oferece recursos para obter informações sobre o dispositivo, como o volume atual e o status de reprodução.

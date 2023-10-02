@@ -1,4 +1,0 @@
- Este é um módulo que adiciona suporte à verificação ortográfica para a linguagem de programação PHP74. Ele permite que os
-desenvolvedores criem aplicativos que possam verificar a ortografia de textos digitados pelos usuários, o que é útil em formulários, campos de busca e outros casos em que a precisão da
-escrita é importante.O módulo pspell é fácil de usar e se integra facilmente ao código PHP existente. Ele também é compatível com uma variedade de dicionários ortográficos, incluindo o
-português do Brasil, o que o torna uma opção versátil para desenvolvedores que precisam adicionar essa funcionalidade a seus projetos. 

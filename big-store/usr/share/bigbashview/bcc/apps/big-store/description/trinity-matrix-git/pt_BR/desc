@@ -1,3 +1,0 @@
- Este programa é um cliente de bate-papo Matrix feito com a biblioteca Qt5. Ele permite que você conecte-se a salas de
-bate-papo Matrix e participe de conversas com outras pessoas. Além disso, ele tem uma interface amigável e fácil de usar, escrita em QML, o que a torna fácil de personalizar e estilizar.
-Este programa é construído a partir da trinity-matrix-git, e é um projeto de código aberto. 

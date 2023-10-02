@@ -1,3 +1,0 @@
-Este programa tem como objetivo travar clientes SSH. Conhecido como 'endlessh-git', ele funciona como uma armadilha para
-prender clientes que tentem se conectar a um servidor de forma não autorizada. O programa mantém o cliente ocupado sem permitir que ele estabeleça uma conexão efetiva, tornando mais difícil
-para os invasores invadirem o servidor. É uma ferramenta útil para garantir a segurança de servidores SSH.

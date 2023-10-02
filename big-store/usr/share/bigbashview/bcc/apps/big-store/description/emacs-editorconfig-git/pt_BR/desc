@@ -1,5 +1,0 @@
-Este é um plugin para o editor de código Emacs que adiciona suporte ao arquivo de configuração EditorConfig. Com
-ele, você pode especificar as preferências de formatação do seu código, como a largura da tabulação, o uso de espaços em vez de tabulações, entre outros. Isso ajuda a manter a consistência 
-no estilo de codificação em todo o projeto, independentemente de quem esteja trabalhando nele. Além disso, é uma ótima ferramenta para garantir que o seu código atenda aos padrões de estilo
-da equipe.Este plugin é fácil de usar e permite que você configure rapidamente as preferências de formatação do seu código. Se você é um desenvolvedor que usa o Emacs como editor de código,
-não hesite em experimentar este plugin para obter ainda mais produtividade e consistência em seu trabalho.

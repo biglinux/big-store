@@ -1,3 +1,0 @@
-Este programa é uma bifurcação de outro chamado password-store e usa a biblioteca age como sua base. Ele é projetado para
-armazenar suas senhas de forma segura, para que você possa acessá-las facilmente quando precisar.Com ele, você pode criar entradas de senha únicas para cada conta e acessá-las com uma única
-senha mestra, que é criptografada para proteção adicional. Também é possível adicionar notas e tags para organizar suas senhas.

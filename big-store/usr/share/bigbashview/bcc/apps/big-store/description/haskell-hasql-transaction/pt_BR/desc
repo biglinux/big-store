@@ -1,1 +1,0 @@
-Uma abstração composta para transações retráveis em Hasql é fornecida pelo pacote haskell-hasql-transaction. Ele permite que você escreva transações retráveis de forma simples e intuitiva, garantindo que as operações sejam executadas de forma confiável mesmo em caso de falhas. 

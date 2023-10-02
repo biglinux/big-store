@@ -1,1 +1,0 @@
-Esse programa é um proxy reverso inteligente para o GitLab. Ele é capaz de lidar com grandes requisições HTTP, como downloads de arquivos, uploads de arquivos, git push/pull e downloads de arquivos de arquivo git.Este programa é chamado gitlab-workhorse. 

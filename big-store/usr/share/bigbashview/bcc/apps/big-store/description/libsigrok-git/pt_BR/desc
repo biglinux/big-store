@@ -1,4 +1,0 @@
-Este programa é chamado libsigrok-git e é um software de cliente que suporta vários analisadores lógicos de hardware. 
-Ele é uma biblioteca de núcleo, ou seja, é uma coleção de funções e ferramentas que outros programas podem usar. Essa é a versão do programa que está sendo desenvolvida continuamente, ou
-seja, é a versão mais recente. Ele permite que você analise sinais digitais, ou seja, sinais elétricos que só podem ter dois valores, como 1 e 0. Isso pode ser útil para entender como um
-dispositivo eletrônico funciona, detectar problemas ou desenvolver novos dispositivos.

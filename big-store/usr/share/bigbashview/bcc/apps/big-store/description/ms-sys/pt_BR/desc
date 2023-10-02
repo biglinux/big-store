@@ -1,3 +1,0 @@
-Este programa é capaz de escrever registros de inicialização compatíveis com Microsoft, tanto
-para o Master Boot Record (MBR) quanto para o Partition Boot Record (PBR). Isso é útil quando você precisa restaurar ou criar registros de inicialização em discos rígidos ou pendrives. Ele 
-é simples de usar e pode ser útil em situações de emergência.

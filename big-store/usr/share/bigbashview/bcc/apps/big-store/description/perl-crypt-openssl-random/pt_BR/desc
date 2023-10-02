@@ -1,1 +1,0 @@
-Esse programa é uma biblioteca para o Perl que permite acessar o gerador de números pseudo-aleatórios do OpenSSL. Ele é útil para gerar números aleatórios seguros para criptografia e outras aplicações. Com essa biblioteca, é possível gerar números aleatórios com boa qualidade e segurança, sem precisar de outros programas ou sistemas. 

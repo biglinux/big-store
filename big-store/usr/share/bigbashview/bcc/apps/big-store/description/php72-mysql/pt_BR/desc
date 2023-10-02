@@ -1,3 +1,0 @@
-Este é um pacote de módulos que permite a utilização do banco de dados MySQL com o PHP 7.2. Ele adiciona recursos para que o PHP
-possa se comunicar e interagir com o MySQL, permitindo a criação de aplicações web dinâmicas e interativas. Com este pacote instalado, é possível criar e gerenciar tabelas, inserir, alterar
-e excluir dados, e fazer consultas no banco de dados MySQL utilizando o PHP.

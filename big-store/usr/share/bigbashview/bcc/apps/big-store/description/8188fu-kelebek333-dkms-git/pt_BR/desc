@@ -1,3 +1,0 @@
- Este programa é um driver para adaptadores wireless com os códigos de dispositivo 0bda:f179. Ele é específico para os
-modelos Realtek RTL8188FU e RTL8188FTV que são compatíveis com a tecnologia 802.11n e possuem conexão USB 2.0. Com este driver instalado, seu computador será capaz de reconhecer e utilizar 
-esses adaptadores para se conectar à rede sem fio. 

@@ -1,2 +1,0 @@
- Este programa é usado para gerenciar o teclado G15, ele permite que você configure as teclas adicionais e crie atalhos
-personalizados. Ele também inicia junto com o sistema operacional utilizando o gerenciador de inicialização systemd.

@@ -1,1 +1,0 @@
-cups-pdf é uma impressora virtual para o CUPS em sistemas Linux e Mac OS X que permite você imprimir em arquivos PDF. É um backend para o CUPS, o Sistema de Impressão UNIX Comum, que permite você imprimir em arquivos PDF ao invés de imprimir em uma impressora física. Isso permite você criar facilmente arquivos PDF a partir de qualquer aplicação que possa imprimir. 

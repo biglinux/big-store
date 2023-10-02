@@ -1,1 +1,0 @@
-O programa xorg-xconsole permite que você monitore as mensagens enviadas para a console do sistema, ou seja, aquelas mensagens que aparecem no prompt de comando. Isso pode ser útil para identificar problemas ou verificar o status do sistema. Além disso, ele também pode ser usado para registrar as  mensagens em um arquivo para referência futura. 

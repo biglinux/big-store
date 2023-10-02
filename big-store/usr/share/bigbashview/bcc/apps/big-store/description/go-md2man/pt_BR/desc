@@ -1,1 +1,0 @@
-Este programa é chamado go-md2man e tem a função de criar páginas de manual a partir de arquivos markdown. Isso significa que, se você escreveu uma documentação em markdown, este programa pode transformá-la em uma página de manual legível para o sistema operacional. Isso é útil se você deseja distribuir seu programa com uma documentação completa e fácil de ler. 

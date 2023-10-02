@@ -1,1 +1,0 @@
-A biblioteca python-nbxmpp permite aos desenvolvedores usar redes Jabber/XMPP de forma não-bloqueante em seus projetos Python. Isso significa que os usuários não precisam esperar que uma ação seja concluída antes de realizar outra, melhorando a velocidade e eficiência do aplicativo. 

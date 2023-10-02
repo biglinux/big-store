@@ -1,3 +1,0 @@
-Uma ferramenta completa para obter informações do sistema através de linha de comando. Utiliza o inxi-git para
-coletar dados do hardware, software e configurações do sistema. É útil para solucionar problemas de sistema, monitorar o desempenho e fazer otimizações.Pode ser usado em sistemas Linux, BSD
-e Unix, tanto em modo texto quanto gráfico. Possui muitas opções de saída, incluindo suporte a temas e personalização. É fácil de usar e pode ser executado diretamente no terminal.

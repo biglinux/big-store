@@ -1,1 +1,0 @@
-zensu é uma ferramenta de linha de comando que permite executar comandos com privilégios de administrador sem precisar digitar a senha. Ele é uma alternativa mais simples ao gksu, pois utiliza caixas de diálogo para solicitar a senha, ao invés de abrir uma janela nova. Ele suporta os programas kdialog, yad ou zenity, dependendo do que estiver disponível no sistema. 

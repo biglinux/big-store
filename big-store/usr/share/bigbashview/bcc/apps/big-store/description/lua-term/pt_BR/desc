@@ -1,1 +1,0 @@
-O lua-term é um pacote de extensão para o Lua que permite acessar funções do terminal, como limpar a tela, mover o cursor e mudar a cor do texto. Ele é útil para desenvolvedores que querem criar aplicativos com interface de linha de comando em Lua. 

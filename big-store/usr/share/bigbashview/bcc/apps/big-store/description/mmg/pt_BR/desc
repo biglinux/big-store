@@ -1,4 +1,0 @@
-Este programa é capaz de criar uma nova malha para modelos 3D de forma automática e
-melhorar a qualidade da malha existente. Ele também é capaz de mover a malha enquanto mantém sua qualidade e distribuição de elementos uniforme. Ele utiliza técnicas anisotrópicas, o que
-significa que ele leva em conta as direções principais de variação na geometria do modelo ao gerar a nova malha. Isso resulta em uma malha mais precisa e estável para simulações e
-renderizações.

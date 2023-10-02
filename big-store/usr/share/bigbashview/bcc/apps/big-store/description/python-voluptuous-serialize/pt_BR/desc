@@ -1,1 +1,0 @@
-Este programa permite converter esquemas criados com a biblioteca voluptuous para o formato JSON. Isso é útil quando precisamos armazenar esses esquemas em um banco de dados ou enviá-los em uma API. A biblioteca voluptuous é uma ferramenta em Python para validação de dados, e essa funcionalidade de conversão adiciona mais flexibilidade ao trabalhar com esses esquemas. 

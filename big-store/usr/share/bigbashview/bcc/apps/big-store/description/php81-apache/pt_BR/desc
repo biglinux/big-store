@@ -1,3 +1,0 @@
-Este programa permite que você use o PHP 8.1 em conjunto com o servidor Apache. Isso significa que você pode criar e
-executar scripts PHP em um ambiente web usando o Apache como servidor. Isso é útil para desenvolver e publicar websites e aplicativos web que precisem de suporte ao PHP 8.1. Além disso,
-esta integração é conhecida como SAPI (Server Application Programming Interface) e é uma forma de conectar o PHP com o servidor web Apache.

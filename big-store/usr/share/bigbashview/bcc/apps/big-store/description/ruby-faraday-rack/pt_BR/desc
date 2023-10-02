@@ -1,1 +1,0 @@
-O ruby-faraday-rack é um adaptador para o rack, que é um mecanismo de conexão entre aplicativos Ruby e servidores web. Ele permite que o seu aplicativo Ruby use o Faraday como seu cliente HTTP, o que facilita a comunicação com outros serviços web. 

@@ -1,3 +1,0 @@
-Este programa fornece módulos Bluetooth Realtek para dispositivos baseados em RTL8761 USB. Ele é feito usando o DKMS, ou Sistema de
-Gerenciamento de Módulos de Kernel, para garantir compatibilidade com as atualizações do kernel do sistema operacional.Com este programa, os usuários podem facilmente se conectar a
-dispositivos Bluetooth, como fones de ouvido, alto-falantes e teclados sem fio.

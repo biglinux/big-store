@@ -1,4 +1,0 @@
-Este é um pacote de arquivos binários compilados do ClickHouse. Ele contém os arquivos que são comuns a todas as versões do
-ClickHouse, e é usado para facilitar a instalação e configuração do software.Este pacote é necessário para que o ClickHouse funcione corretamente, e deve ser instalado antes de qualquer
-outra coisa. Ele inclui arquivos como bibliotecas, scripts e configurações padrão.Se você está instalando o ClickHouse pela primeira vez, certifique-se de instalar este pacote antes de
-prosseguir com a instalação do software propriamente dito. 

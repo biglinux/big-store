@@ -1,5 +1,0 @@
-Este programa é um gerenciador de pacotes para a linguagem de programação OCaml/Reason. Ele é projetado para
-facilitar a instalação e gerenciamento de bibliotecas e outros recursos para essas linguagens. Com ele, é possível instalar pacotes com apenas alguns comandos simples, sem precisar se
-preocupar com detalhes técnicos.Além disso, ele também permite que você gerencie as versões dos pacotes instalados, atualizando-os quando novas versões estiverem disponíveis e
-desinstalando-os quando não forem mais necessários.Em resumo, esse programa é uma ferramenta muito útil para qualquer pessoa que desenvolva software usando OCaml/Reason e deseja gerenciar
-facilmente as bibliotecas e recursos necessários para o seu projeto.

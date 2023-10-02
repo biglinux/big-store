@@ -1,3 +1,0 @@
- pyload-ng é um gerenciador de downloads gratuito e de código aberto escrito em Python puro. Ele permite baixar arquivos de
-vários sites de uma só vez e gerenciar suas filas de download. Ele suporta múltiplos protocolos, incluindo HTTP, FTP e BitTorrent, e tem recursos avançados como reconhecimento automático de
-links e limitação de velocidade. Além disso, ele é altamente personalizável e pode ser estendido com plugins.

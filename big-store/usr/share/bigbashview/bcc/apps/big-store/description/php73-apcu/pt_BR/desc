@@ -1,3 +1,0 @@
-Este é um módulo de cache para usuários do PHP 7.3. Ele ajuda a armazenar informações temporariamente para que o sistema possa
-acessá-las mais rapidamente, em vez de sempre buscá-las novamente. Isso pode tornar o seu site ou aplicativo mais rápido e eficiente. Ele é chamado de 'apcu' e é fácil de usar se você já
-estiver trabalhando com PHP 7.3.

@@ -1,3 +1,0 @@
-Este programa adiciona uma opção de 'remover de forma segura' no menu de contexto do Thunar, que é um gerenciador 
-de arquivos. Isso significa que quando você seleciona um arquivo e clica nesta opção, o arquivo é completamente apagado de seu disco rígido, de modo que não pode ser recuperado. Isso é útil
-se você quiser garantir que arquivos confidenciais ou sensíveis sejam completamente apagados e não possam ser recuperados.

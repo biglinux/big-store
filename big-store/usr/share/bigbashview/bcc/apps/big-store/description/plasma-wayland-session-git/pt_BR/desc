@@ -1,3 +1,0 @@
-Este programa é uma sessão do Plasma para usar com o Wayland. Ele permite que você use o ambiente de trabalho Plasma com o Wayland
-como seu gerenciador de janelas. Wayland é uma tecnologia de exibição moderna que melhora a segurança e desempenho em comparação com o antigo gerenciador de janelas X11. A sessão do Plasma 
-Wayland fornece a mesma funcionalidade e facilidade de uso do ambiente de trabalho Plasma que você já conhece, mas com as vantagens do Wayland.

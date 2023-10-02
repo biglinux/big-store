@@ -1,1 +1,0 @@
-python-transaction é uma biblioteca que fornece gerenciamento de transações para Python. Ele permite trabalhar com transações de maneira simples e consistente, independentemente do sistema de banco de dados ou armazenamento subjacente. A biblioteca suporta tanto a API padrão de banco de dados Python quanto o popular ORM SQLAlchemy. 

@@ -1,1 +1,0 @@
-Esse programa é um decodificador SDR, ou seja, ele serve para entender e interpretar sinais de rádio. Ele  suporta diversos formatos de sinais, como pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf e zvei. Isso significa que ele pode ser usado para decodificar mensagens de rádio que sejam transmitidas usando esses formatos. 

@@ -1,2 +1,0 @@
-Esse programa é uma ligação (bindings) para usar a tecnologia LLVM com OCaml. LLVM é um conjunto de ferramentas para otimizar o código de
-computadores e OCaml é uma linguagem de programação. Juntos, eles permitem que você escreva códigos mais rápidos e eficientes usando OCaml.

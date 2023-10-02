@@ -1,4 +1,0 @@
-Box64 é um emulador de usuário x86_64 para Linux, mas com uma diferença. Ele permite que você execute programas x86_64 no
-seu computador Linux sem precisar de uma máquina virtual. Ele funciona de forma semelhante ao WINE, mas é específico para programas x86_64.Com Box64, você pode rodar jogos e aplicativos que
-só funcionam em sistemas x86_64 no seu Linux sem problemas. Ele foi desenvolvido para ser simples e fácil de usar, e com ele você pode aproveitar todos os recursos de seu sistema Linux sem 
-precisar mudar para outro sistema operacional.

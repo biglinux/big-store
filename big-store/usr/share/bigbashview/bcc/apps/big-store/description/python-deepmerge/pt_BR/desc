@@ -1,1 +1,0 @@
-Ferramenta chamada python-deepmerge que permite mesclar duas ou mais estruturas de dados em  Python de forma profunda. Isso significa que ela irá mesclar não apenas as primeiras camadas das estruturas de dados, mas também as camadas internas. Isso é útil quando você precisa combinar vários conjuntos de dados e garantir que todas as informações sejam incluídas. 

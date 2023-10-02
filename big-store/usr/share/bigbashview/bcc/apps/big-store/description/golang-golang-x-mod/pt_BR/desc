@@ -1,1 +1,0 @@
-Este repositório contém pacotes que fornecem ferramentas para escrever código que trabalha diretamente com as mecânicas de módulos do Go. Isso inclui bibliotecas para lidar com arquivos go.mod e go.sum, bem como ferramentas para ajudar a gerenciar dependências e criar pacotes. 

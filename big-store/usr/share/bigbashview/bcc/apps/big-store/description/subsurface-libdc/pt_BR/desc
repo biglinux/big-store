@@ -1,3 +1,0 @@
-Este programa é uma biblioteca que permite a comunicação com computadores de mergulho. Ele é chamado de
-subsurface-libdc e é usado para acessar dados de mergulho armazenados no computador e para configurar as configurações do dispositivo.Com ele, é possível baixar dados de profundidade,
-tempo, temperatura e muito mais. Também é possível atualizar o firmware do computador de mergulho e definir configurações como unidades de medida e limites de segurança.

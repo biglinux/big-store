@@ -1,4 +1,0 @@
-Este é um módulo de compactação para o PHP versão 7.2. Ele permite que você compacte e descompacte arquivos no formato zip
-diretamente no seu código PHP. Isso é útil se você precisar enviar vários arquivos em um único pacote ou descompactar um arquivo recebido de outra aplicação.Para usar este módulo, você
-precisará instalá-lo e ativá-lo no seu servidor PHP. Ele também pode requerer configurações adicionais no arquivo php.ini. Consulte a documentação do módulo para obter mais informações
-sobre como usá-lo corretamente.

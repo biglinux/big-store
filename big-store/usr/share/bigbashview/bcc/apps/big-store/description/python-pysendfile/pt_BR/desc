@@ -1,1 +1,0 @@
-Esta interface é para o uso da chamada de sistema sendfile(2) no Python. Ele permite o envio de arquivos de uma maneira rápida e eficiente, sem a necessidade de carregar os arquivos inteiros em memória.O pacote python-pysendfile é uma ferramenta útil para desenvolvedores que precisam lidar com o envio de grandes arquivos em suas aplicações. 

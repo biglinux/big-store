@@ -1,1 +1,0 @@
-Haskell possui uma classe Monad que permite a criação de monads usando famílias de tipos. Isso permite a construção de  monads de forma mais flexível e genérica, além de proporcionar uma melhor organização do código. 

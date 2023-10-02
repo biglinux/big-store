@@ -1,4 +1,0 @@
- O crosstool-NG tem como objetivo construir cadeias de ferramentas. Ele permite a criação de diferentes
-tipos de ferramentas, como compiladores, bibliotecas e utilitários, de forma rápida e fácil. Com ele, é possível ajustar as configurações de acordo com as necessidades do projeto,
-garantindo que as ferramentas sejam construídas exatamente como desejado. Além disso, ele é atualizado constantemente, garantindo suporte às últimas versões de diferentes sistemas
-operacionais e arquiteturas. 

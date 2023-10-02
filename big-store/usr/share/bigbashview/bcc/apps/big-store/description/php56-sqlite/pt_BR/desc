@@ -1,3 +1,0 @@
-Este programa é um módulo para o PHP que permite que você use o banco de dados SQLite em suas aplicações. Ele é compatível com a
-versão 5.6 do PHP. Com esse módulo instalado, você pode criar, ler, atualizar e excluir dados do banco SQLite diretamente no seu código PHP.O SQLite é um banco de dados leve e fácil de
-usar, perfeito para projetos pequenos e médios. Ele não precisa de um servidor externo para funcionar, o que o torna ideal para aplicações que precisam ser executadas offline.

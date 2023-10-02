@@ -1,3 +1,0 @@
- Rootlesskit é uma ferramenta para o Linux que permite criar containers sem precisar de privilégios de root. Ele funciona
-como um 'root falso' e permite que os containers sejam executados com mais segurança.Com Rootlesskit, os administradores podem limitar o acesso de usuários e aplicativos a recursos do
-sistema, além de evitar problemas de segurança comuns associados às configurações de root. 

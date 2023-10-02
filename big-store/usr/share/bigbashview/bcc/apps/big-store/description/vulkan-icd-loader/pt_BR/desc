@@ -1,1 +1,0 @@
-Este é um carregador de driver de cliente instalável para o Vulkan, uma API de gráficos de baixo nível. Ele permite que múltiplos drivers de dispositivo sejam usados no sistema ao mesmo tempo, permitindo uma maior flexibilidade e compatibilidade. 

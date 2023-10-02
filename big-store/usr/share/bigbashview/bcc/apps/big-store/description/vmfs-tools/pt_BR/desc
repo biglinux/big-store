@@ -1,3 +1,0 @@
-Este é um módulo FUSE para montar sistemas de arquivos VMFS. Com ele, você pode acessar e gerenciar seus
-arquivos de máquina virtual diretamente em seu sistema operacional sem precisar de outro software adicional. É uma ferramenta útil para administradores de sistemas e desenvolvedores que
-trabalham com máquinas virtuais.

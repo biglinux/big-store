@@ -1,3 +1,0 @@
-Este é um banco de dados de programas para dispositivos ARM Cortex-M. Ele inclui informações sobre os Sistemas de
-Descrição de Periféricos (SVDs) da CMSIS (Cortex Microcontroller Software Interface Standard) e ferramentas relacionadas. Isso permite aos desenvolvedores acessar informações detalhadas
-sobre os recursos dos dispositivos Cortex-M e como usá-los de forma eficiente em seus projetos.

@@ -1,4 +1,0 @@
-Este programa é uma QPlatformTheme específica para ajudar a incluir aplicativos Qt6 de forma 
-mais suave no ambiente de trabalho GNOME. Ele fornece suporte para elementos de interface do usuário comuns, como caixas de diálogo e ícones, tornando mais fácil para os desenvolvedores
-criarem aplicativos que se integrem perfeitamente ao ambiente do usuário.Além disso, ele também inclui recursos adicionais para aprimorar a experiência do usuário, como suporte para temas
-personalizados e ajustes de acessibilidade.

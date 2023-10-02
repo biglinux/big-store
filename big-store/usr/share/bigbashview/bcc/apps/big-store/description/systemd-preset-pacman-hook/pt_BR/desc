@@ -1,2 +1,0 @@
-Este programa é um gancho para o gerenciador de pacotes pacman. Ele aplica as configurações padrão do systemd depois de
-qualquer atualização de serviço.

@@ -1,3 +1,0 @@
-Este programa é um módulo para o PHP 8.1 que permite aos usuários gerenciar arquivos de diversos tipos. Ele fornece
-funções para ler, escrever e obter informações sobre arquivos, como o tamanho, tipo e outras informações relevantes. Além disso, ele também oferece suporte a vários formatos de arquivo,
-como JPEG, PNG e PDF. Com este módulo, é possível tornar seus projetos com PHP mais flexíveis e poderosos.

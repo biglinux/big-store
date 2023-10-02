@@ -1,3 +1,0 @@
-Este programa ajuda a entender o tráfego de rede que está acontecendo em sua rede. Ele analisa os pacotes de dados e envia as
-informações para o Elasticsearch. Isso permite ver o que está acontecendo em sua rede e tomar decisões melhores. Ele é útil para encontrar problemas de desempenho ou mesmo para garantir a
-segurança da sua rede.

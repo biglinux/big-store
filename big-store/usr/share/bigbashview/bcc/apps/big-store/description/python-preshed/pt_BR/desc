@@ -1,4 +1,0 @@
-Este programa é uma tabela hash desenvolvida em Cython, especialmente para trabalhar com chaves pré-hashed. Ele oferece uma forma
-eficiente e rápida de armazenar e recuperar dados em Python. Uma tabela hash é uma estrutura de dados que mapeia chaves para valores. Ela é muito útil quando precisamos fazer buscas rápidas
-em um conjunto de dados grande. Esse programa é especial porque confia que as chaves já foram pré-hashed, o que significa que ele não precisa refazer o processo de hash. Isso pode ser
-vantajoso em alguns casos, pois pode economizar tempo e recursos.

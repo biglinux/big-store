@@ -1,1 +1,0 @@
-O programa 'riff' é uma ferramenta que ajuda desenvolvedores de projetos Rust a gerenciar as dependências externas de seus projetos de maneira automatizada. Isso significa que, em vez de adicionar manualmente cada dependência necessária ao seu código, o 'riff' cuida disso automaticamente, garantindo que tudo esteja sempre atualizado e funcionando corretamente. 

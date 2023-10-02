@@ -1,1 +1,0 @@
-Este programa é uma biblioteca moderna para criptografia de senhas. Ele fornece funções de API legadas (32 bits) para garantir a segurança de suas senhas. É compatível com a biblioteca libxcrypt original e é ideal para uso em sistemas antigos. 

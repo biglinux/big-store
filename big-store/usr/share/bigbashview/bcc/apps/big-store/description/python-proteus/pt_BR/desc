@@ -1,4 +1,0 @@
-Existe uma biblioteca chamada python-proteus que permite acessar o servidor Tryton como um cliente. Isso significa que
-você pode usar o Python para se comunicar com o servidor Tryton e fazer coisas como adicionar, atualizar e consultar dados. É muito útil para automatizar tarefas ou construir aplicações
-personalizadas que precisam se integrar com o Tryton. Para usar essa biblioteca, você precisará ter o Python instalado em seu computador e também precisará saber o endereço do servidor
-Tryton e as credenciais de acesso. Depois disso, é só seguir a documentação da biblioteca para ver como fazer as operações desejadas.

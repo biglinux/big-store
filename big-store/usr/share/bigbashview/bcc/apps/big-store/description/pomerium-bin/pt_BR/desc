@@ -1,3 +1,0 @@
- Pomerium é um proxy de acesso baseado em identidade que permite controlar e gerenciar o acesso a recursos da
-web. Ele usa autenticação e autorização para garantir que somente usuários autorizados possam acessar determinados recursos. Além disso, ele fornece uma camada adicional de segurança ao
-criptografar todas as comunicações. Pomerium é fácil de usar e configurar, e pode ser usado em conjunto com outras ferramentas de segurança para proteger sua rede. 

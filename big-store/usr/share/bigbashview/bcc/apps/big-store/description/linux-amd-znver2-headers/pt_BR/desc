@@ -1,4 +1,0 @@
-Este é um pacote de arquivos de cabeçalho e scripts para construir módulos para o kernel Linux AMD Znver2. Ele
-contém todos os arquivos de cabeçalho e scripts necessários para construir módulos personalizados para esse kernel específico.Os arquivos de cabeçalho são utilizados para fornecer
-informações sobre o kernel ao compilador, enquanto os scripts são utilizados para garantir a compatibilidade entre o módulo e o kernel.Esse pacote é especialmente útil para desenvolvedores 
-de sistemas que precisam construir módulos personalizados para o kernel Linux AMD Znver2.

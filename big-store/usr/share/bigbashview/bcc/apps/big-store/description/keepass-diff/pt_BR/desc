@@ -1,3 +1,0 @@
-Essa ferramenta é usada para encontrar diferenças entre arquivos KeePass (*.kdbx). Ela é útil quando você tem duas 
-versões de um banco de senhas e quer saber o que mudou entre elas. Isso pode ajudá-lo a verificar se alguma informação importante foi adicionada ou removida.A ferramenta é fácil de usar e
-pode ser executada a partir do terminal. Tudo o que você precisa fazer é fornecer o caminho para os dois arquivos que deseja comparar e ele mostrará quaisquer diferenças encontradas.

@@ -1,3 +1,0 @@
-Esta é uma biblioteca de emulação System V Release 4.0 curses, projetada para funcionar com a ABI 5. Ela é uma
-biblioteca compatível com 32 bits que fornece recursos para ajudar a criar programas com interface de usuário mais sofisticados.Com esta biblioteca, você pode desenvolver programas que
-possuem recursos avançados, como destaque de texto, cores e outras formas de apresentar informações de maneira clara e atraente para o usuário.

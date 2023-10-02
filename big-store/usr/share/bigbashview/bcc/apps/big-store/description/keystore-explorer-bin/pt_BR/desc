@@ -1,4 +1,0 @@
- O Explorador de arquivos Keystore é um programa gratuito que serve como substituto para as ferramentas de linha de comando
-Java keytool, jarsigner e jadtool. Ele fornece uma interface gráfica fácil de usar para gerenciar chaves e certificados digitais, assinando e verificando arquivos JAR e visualizando
-arquivos JAD.Se você já trabalhou com essas ferramentas de linha de comando antes, sabe o quão difícil é navegar e gerenciar as informações contidas nelas. O Explorador de arquivos
-Keystore facilita esse processo, tornando-o mais amigável e fácil de usar. 

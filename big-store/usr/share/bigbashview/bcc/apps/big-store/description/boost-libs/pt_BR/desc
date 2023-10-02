@@ -1,1 +1,0 @@
-São bibliotecas de código fonte C++ que podem ser usadas em diferentes sistemas operacionais. Elas são revisadas por especialistas e são gratuitas para serem usadas. Essas bibliotecas são chamadas de 'runtime libraries', o que significa que elas precisam estar disponíveis enquanto o programa estiver sendo executado.O pacote boost-libs inclui essas bibliotecas. 

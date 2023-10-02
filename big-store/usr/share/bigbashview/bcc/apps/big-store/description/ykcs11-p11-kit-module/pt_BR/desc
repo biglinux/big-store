@@ -1,2 +1,0 @@
-Este programa é uma configuração do módulo YubiKey PKCS#11 para o p11-kit. Ele permite que você use uma chave YubiKey 
-com diferentes aplicativos que suportam o padrão PKCS#11, como o OpenSSH e o GnuPG. Com ele, você pode fazer login em seus dispositivos e assinar documentos eletrônicos de forma segura.

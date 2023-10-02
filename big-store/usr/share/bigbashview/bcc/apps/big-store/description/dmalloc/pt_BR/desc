@@ -1,3 +1,0 @@
- Essa biblioteca em C é chamada de dmalloc e ela é usada para ajudar a encontrar erros na alocação de memória.
-Ela é útil quando você está desenvolvendo um programa e precisa entender melhor como ele está gerenciando a memória.Como usar: você pode adicionar algumas linhas de código na sua
-biblioteca para habilitar o dmalloc e começar a usá-lo. Existem várias opções disponíveis para personalizar como ele funciona.Exemplo: dmalloc -l logfile.txt -i 100 -a -t programa.c

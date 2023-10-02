@@ -1,1 +1,0 @@
-poppler-glib é uma biblioteca para renderizar documentos PDF. Ela fornece uma API baseada em GObject para renderizar documentos PDF e para extrair informações do documento. Poppler-glib é um conjunto de bindings para a biblioteca de renderização de PDF poppler, escrita em C. 

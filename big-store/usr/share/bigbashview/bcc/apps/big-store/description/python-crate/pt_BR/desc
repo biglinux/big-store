@@ -1,1 +1,0 @@
-python-crate é uma biblioteca cliente Python para CrateDB, um banco de dados SQL distribuído. Ele permite que você interaja com CrateDB usando código Python. Essa biblioteca é projetada para ser fácil de usar e fornece uma interface simples para interagir com CrateDB. 

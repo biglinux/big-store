@@ -1,1 +1,0 @@
-Este programa é uma biblioteca de captura que permite aos usuários criar perfis de desempenho baseados no kernel. Ele  é capaz de coletar dados sobre o uso de recursos do sistema, como CPU, memória e I/O, e apresentá-los de forma fácil de entender. Isso permite que os usuários identifiquem facilmente gargalos de desempenho e tomem medidas para melhorá-lo. 

@@ -1,3 +1,0 @@
-A biblioteca gtsam é uma coleção de classes escritas em C++ que ajudam a desenvolver programas de robótica e visão. Ela
-usa conceitos de grafos de fatores e redes bayesianas para ajudar a calcular informações e fazer mapas. Isso é diferente de outras bibliotecas que usam matrizes esparças. É útil para quem
-trabalha com robôs e câmeras.

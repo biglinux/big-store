@@ -1,4 +1,0 @@
- O Google Compute Engine é um serviço de nuvem da Google que permite criar e gerenciar máquinas virtuais.
-Ele fornece um ambiente de hospedagem Linux para essas máquinas virtuais, o que significa que você pode executar programas Linux em uma máquina virtual criada usando o Compute Engine. Isso 
-é útil se você precisar de um ambiente de desenvolvimento ou teste específico ou se precisar de escalabilidade para aplicativos em execução.Além disso, o Compute Engine também oferece
-recursos avançados como armazenamento e rede, garantindo alta disponibilidade e escalabilidade para suas máquinas virtuais. 

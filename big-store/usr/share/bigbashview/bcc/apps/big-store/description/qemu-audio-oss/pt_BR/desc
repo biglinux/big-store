@@ -1,1 +1,0 @@
-O qemu-audio-oss é um driver de áudio open-source para o QEMU. Ele permite que o QEMU acesse dispositivos de áudio no sistema operacional hospedeiro e os use para reproduzir e gravar áudio no sistema operacional convidado. 

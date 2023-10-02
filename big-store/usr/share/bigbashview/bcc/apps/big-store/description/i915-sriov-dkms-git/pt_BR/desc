@@ -1,3 +1,0 @@
-Este é um módulo para o sistema operacional Linux que foi corrigido com suporte a SR-IOV. SR-IOV é uma técnica que 
-permite que múltiplos usuários compartilhem recursos de hardware, como placas de rede ou placas gráficas, de forma segura e eficiente. Com esse módulo, você pode usar a placa gráfica de seu
-computador de forma mais eficiente e com mais recursos disponíveis para seus aplicativos.

@@ -1,1 +1,0 @@
-O haskell-first-class-families é um recurso do Haskell que permite a criação de famílias de tipos de primeira classe. Isso significa que essas famílias de tipos podem ser tratadas como valores, assim como números ou strings, e podem ser passadas como argumentos para funções e retornadas como resultado. Essa característica adiciona expressividade e flexibilidade para a linguagem. 

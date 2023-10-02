@@ -1,1 +1,0 @@
-O python-genty é um módulo Python que permite que você execute testes com vários conjuntos de dados de entrada. Isso é útil quando você quer testar a mesma função ou método com diferentes entradas e comparar seus resultados. Ele também oferece uma maneira fácil de gerar esses conjuntos de dados de teste, ajudando a garantir que seus testes sejam precisos e abrangentes.  

@@ -1,3 +1,0 @@
-Este é um driver ODBC desenvolvido pela Microsoft para se conectar a um banco de dados SQL Server. Ele permite que outros programas
-acessem os dados armazenados no SQL Server de maneira fácil e rápida. Com ele, é possível realizar consultas, inserir, atualizar e excluir dados, entre outras operações. Este driver é
-compatível com a versão 18 do SQL Server e é indicado para usuários avançados ou desenvolvedores de software que precisam de acesso direto aos dados do banco de dados.

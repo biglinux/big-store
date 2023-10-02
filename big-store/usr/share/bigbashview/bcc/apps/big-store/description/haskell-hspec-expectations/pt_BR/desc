@@ -1,1 +1,0 @@
-Este programa é escrito em Haskell e é projetado para trabalhar com o módulo HUnit. Ele fornece combinadores chamativos que tornam mais fácil escrever e ler testes automatizados. Além disso, ele também trabalha com o módulo hspec-expectations, que permite que os testes tenham expectativas declarativas. 

@@ -1,1 +1,0 @@
-Este programa é uma biblioteca em Haskell que permite a serialização de dados em formato binário de forma rápida e leve. Isso significa que ele é capaz de transformar dados em um formato que pode ser armazenado e transmitido facilmente, e depois convertê-los de volta para seu formato original. Isso é útil para salvar dados em arquivos ou enviá-los pela rede. 

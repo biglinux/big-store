@@ -1,1 +1,0 @@
-Esse programa, escrito em Perl, usa a biblioteca Lingua::EN::Numbers::Ordinate para transformar números cardinais, como 53, em números ordinais, como 53º. É útil para escrever datas e posições em textos formais. 

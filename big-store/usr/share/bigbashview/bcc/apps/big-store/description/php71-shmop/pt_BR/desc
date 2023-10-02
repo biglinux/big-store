@@ -1,5 +1,0 @@
- Este é um módulo para o PHP 7.1 que permite acesso a recursos de compartilhamento de memória. Ele permite
-que vários processos acessem uma área de memória comum, o que é útil para passar informações entre eles. O módulo shmop é especialmente útil em situações em que é necessário compartilhar
-informações rapidamente entre vários processos sem o uso de arquivos ou sockets.Este módulo pode ser usado para criar, abrir, ler, escrever e fechar blocos de memória compartilhada. Ele 
-também fornece funções para obter informações sobre esses blocos, como o tamanho e o ID.A instalação deste módulo é simples e pode ser feita com o gerenciador de pacotes do PHP. Depois
-de instalado, ele estará disponível para ser usado em scripts PHP. 

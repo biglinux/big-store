@@ -1,1 +1,0 @@
- Este programa é usado para visualizar dados de perfil de desempenho, ele é capaz de mostrar informações como o tempo gasto em cada função, chamadas de função e muito mais. É comumente usado em conjunto com o kcachegrind para melhorar o desempenho de seu código.  

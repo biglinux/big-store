@@ -1,3 +1,0 @@
-Este programa é um plugin para o mecanismo de autenticação XOAUTH2 no Cyrus SASL. Ele permite que os usuários se
-autentiquem com suas contas de provedores de serviços como o Google, sem precisar fornecer suas senhas para a aplicação.O plugin é fácil de instalar e configurar, e fornece uma camada
-adicional de segurança para sua aplicação.

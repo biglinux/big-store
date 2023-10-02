@@ -1,1 +1,0 @@
- libmms é uma biblioteca para lidar com o protocolo MMS (Microsoft Media Server) stream. Ele permite que os desenvolvedores de software reproduzam arquivos de mídia de fontes MMS, como servidores de rádio e televisão ao vivo. A biblioteca é escrita em C e é compatível com a maioria dos sistemas operacionais, incluindo Windows, Linux e macOS. 

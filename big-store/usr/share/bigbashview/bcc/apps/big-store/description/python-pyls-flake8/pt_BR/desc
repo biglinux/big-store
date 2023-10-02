@@ -1,4 +1,0 @@
-Este é um plugin para o servidor LSP (Language Server Protocol) do Python. Ele usa a ferramenta Flake8 para verificar
-seu código Python e ajudar a encontrar erros ou problemas. Isso pode ser útil para garantir que seu código segue as convenções de estilo e é fácil de entender para outras pessoas.Ele
-funciona com o programa 'python-pyls-flake8' e é uma forma de melhorar a qualidade do seu código Python. Ajuda a manter a consistência e padronização do código, além de facilitar a detecção
-de erros e problemas. Com ele, é possível garantir que seu código seja limpo, organizado e fácil de entender para outros desenvolvedores.

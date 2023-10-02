@@ -1,3 +1,0 @@
-O util-linux é um conjunto de ferramentas de linha de comando para sistemas Unix-like. As bibliotecas 
-de tempo de execução do util-linux-selinux são um conjunto de arquivos que permitem que outros programas usem as funcionalidades do util-linux enquanto executam. Essas bibliotecas são
-importantes para garantir que os programas funcionem corretamente e com segurança em sistemas que utilizam o SELinux.

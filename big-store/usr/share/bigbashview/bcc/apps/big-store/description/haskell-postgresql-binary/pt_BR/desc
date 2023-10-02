@@ -1,1 +1,0 @@
-Este pacote contém encoders e decoders escritos em Haskell para trabalhar com o formato binário utilizado pelo PostgreSQL. Ele permite que você converta dados do banco de dados para e de um formato que pode ser facilmente manipulado em Haskell. 

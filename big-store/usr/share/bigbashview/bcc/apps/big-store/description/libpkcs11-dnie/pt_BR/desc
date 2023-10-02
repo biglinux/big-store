@@ -1,2 +1,0 @@
- Esta é uma biblioteca que permite utilizar cartões de identidade eletrônica como o DNIe para autenticação e assinatura
-digital. Ela segue o padrão PKCS11, que é comum em sistemas de segurança criptográfica. Com ela, é possível integrar esses cartões a aplicações e sistemas de forma fácil e segura. 

@@ -1,2 +1,0 @@
-Este programa é chamado python-flower e ele serve para monitorar em tempo real tarefas distribuídas usando o Celery. Ele
-também possui uma interface web para administração.

@@ -1,1 +1,0 @@
-haskell-lazysmallcheck é uma biblioteca para testar programas escritos em Haskell de forma demand-driven. Isso significa que os testes são executados somente quando necessário, o que torna o processo mais eficiente e rápido. Essa biblioteca é útil para desenvolvedores que desejam garantir a qualidade do código de seus programas Haskell. 

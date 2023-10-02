@@ -1,4 +1,0 @@
- Chipmunk é uma biblioteca de física de corpos rígidos 2D de alta performance. Ela foi
-projetada para ser rápida, precisa e fácil de usar. Com ela, você pode criar jogos, simulações e outros aplicativos que precisam de física precisa e realista. Chipmunk é escrito em C e tem 
-uma interface simples e direta, o que torna fácil de usar e integrar em seus projetos. Ele também é altamente otimizado para desempenho, o que o torna ideal para aplicativos que precisam de
-muitas colisões e simulações físicas.

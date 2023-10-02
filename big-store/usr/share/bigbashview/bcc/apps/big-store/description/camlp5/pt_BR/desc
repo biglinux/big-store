@@ -1,1 +1,0 @@
-Camlp5 é uma ferramenta que ajuda a formatar o código escrito em OCaml de forma mais clara e legível. Ele funciona como um pré-processador, ou seja, ele analisa o código antes de compilá-lo e faz as modificações necessárias para que fique mais bonito e fácil de entender. Ele também pode ser usado para criar  novos idiomas a partir de OCaml. 

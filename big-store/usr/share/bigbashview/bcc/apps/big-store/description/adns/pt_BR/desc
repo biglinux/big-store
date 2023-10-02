@@ -1,1 +1,0 @@
-Esta biblioteca é uma substituição para o processo de resolução de nomes de domínio. Ela funciona de forma assíncrona, o que significa que não precisa esperar a resposta para continuar a realizar outras tarefas. Isso pode melhorar significativamente a velocidade de suas aplicações.  

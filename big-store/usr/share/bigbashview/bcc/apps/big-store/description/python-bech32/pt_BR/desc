@@ -1,3 +1,0 @@
-Este programa é uma implementação de referência para criação de endereços Segwit, desenvolvido por Pieter Wuille. Ele utiliza a
-linguagem Python e a biblioteca Bech32 para gerar os endereços Segwit.Bech32 é uma codificação específica para endereços Segwit, que oferece vantagens em relação a outros tipos de
-endereços, como maior segurança e menor tamanho. Com este programa, é possível gerar endereços Segwit de forma rápida e simples.

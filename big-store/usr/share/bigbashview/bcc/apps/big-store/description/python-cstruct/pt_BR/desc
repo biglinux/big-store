@@ -1,4 +1,0 @@
-Essa biblioteca permite que você use estruturas de dados semelhantes às do C em seus programas Python. Isso
-significa que você pode definir campos com nomes e tipos específicos, como inteiros ou strings, e trabalhar com eles de forma organizada e fácil de entender. Além disso, é possível fazer
-operações comuns como ler e escrever essas estruturas em arquivos binários.Em resumo, essa biblioteca é uma boa opção se você precisa de uma forma de organizar seus dados de forma
-estruturada e eficiente, semelhante às estruturas de dados do C.

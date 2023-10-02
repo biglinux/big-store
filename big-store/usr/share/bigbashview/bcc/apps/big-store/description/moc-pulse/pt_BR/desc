@@ -1,3 +1,0 @@
-Este programa é um reprodutor de música para usar no console. Ele usa o pulseaudio para tocar as músicas e tem uma interface 
-feita com o ncurses para que você possa navegar pelas suas músicas e controlar o volume. Você pode usar o teclado para controlar o player e ver informações sobre as músicas que estão
-tocando. É uma ótima opção para quem gosta de usar o console e quer um player simples e fácil de usar.

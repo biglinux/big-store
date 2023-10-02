@@ -1,3 +1,0 @@
-Este programa é um EventEmitter que utiliza a biblioteca gevent para gerenciar eventos. Ele permite que você escreva aplicativos
-assíncronos de forma simples e eficiente, sem precisar se preocupar com detalhes de baixo nível como gerenciamento de threads. Com o gevent EventEmitter, você pode escrever código que
-responda de forma rápida e precisa a eventos, como novos dados chegando em uma conexão de rede ou um usuário clicando em um botão.

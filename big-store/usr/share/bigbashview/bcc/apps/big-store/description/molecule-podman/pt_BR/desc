@@ -1,1 +1,0 @@
-O Molecule Podman Driver é uma extensão do Molecule que permite o uso do podman como backend para testes. Ele permite que os testes sejam executados em contêineres podman em vez de máquinas virtuais ou contêineres Docker. Isso pode ser útil para testar configurações locais ou para  automatizar testes em ambientes de produção. 

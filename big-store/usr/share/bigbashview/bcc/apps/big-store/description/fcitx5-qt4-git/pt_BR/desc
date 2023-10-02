@@ -1,4 +1,0 @@
-A biblioteca Qt para Fcitx5 é uma ferramenta importante para quem deseja usar o Fcitx5 em conjunto com o Qt4. Ela permite que o
-Fcitx5 se integre facilmente com aplicativos feitos usando o Qt4, tornando a entrada de texto mais fácil e eficiente.Com essa biblioteca, é possível usar o Fcitx5 como gerenciador de
-entrada de texto padrão para aplicativos Qt4, sem precisar fazer qualquer configuração adicional. Além disso, ela também oferece recursos avançados, como suporte para vários idiomas e
-personalização de teclado.

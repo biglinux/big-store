@@ -1,1 +1,0 @@
-Este programa é uma extensão para o dicionário nativo do Python que adiciona uma função chamada merge(). Ela permite mesclar dois dicionários juntos de forma eficiente e fácil, sem precisar escrever loops ou linhas adicionais de código. Isso pode ser útil em muitas aplicações, como trabalhar com dados de  várias fontes ou combinar configurações de usuário. 

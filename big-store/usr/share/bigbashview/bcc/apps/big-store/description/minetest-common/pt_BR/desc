@@ -1,1 +1,0 @@
-O minetest-common é um pacote que contém arquivos de dados comuns para o jogo Minetest e seu servidor. Ele inclui texturas, sons e outros ativos de jogo que são usados tanto pelo cliente quanto pelo servidor. Este pacote é necessário tanto para o jogo Minetest quanto para o servidor Minetest funcionarem corretamente. 

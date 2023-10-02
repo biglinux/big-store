@@ -1,4 +1,0 @@
-O PHP Extension and Application Repository (PEAR) é um gerenciador de extensões para o PHP que permite instalar e gerenciar
-bibliotecas adicionais para o seu projeto. Ele foi criado especificamente para a versão 8.1 do PHP e facilita a instalação de pacotes de extensões de terceiros, tornando mais fácil
-adicionar novas funcionalidades ao seu projeto.Com o PEAR, você pode instalar pacotes de forma rápida e fácil, sem precisar fazer o download e configuração manual. Além disso, ele também
-fornece uma interface de linha de comando para gerenciar as extensões instaladas e atualizá-las quando necessário.

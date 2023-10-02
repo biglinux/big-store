@@ -1,5 +1,0 @@
-O módulo SimpleXML para PHP 8.2 é uma extensão que permite trabalhar com arquivos XML de forma simples e rápida. Ele oferece
-uma maneira fácil de ler, escrever e manipular dados em arquivos XML usando o PHP.Com o SimpleXML, você pode acessar elementos e atributos em um arquivo XML como se fossem objetos e
-propriedades, respectivamente. Isso torna a manipulação de dados XML muito mais fácil e intuitiva, especialmente se você já estiver familiarizado com a sintaxe do PHP.O SimpleXML também
-oferece uma série de funções úteis para trabalhar com arquivos XML, como a capacidade de adicionar, editar e excluir elementos e atributos. Além disso, ele suporta a validação de arquivos
-XML contra esquemas e a conversão de dados XML em arrays para facilitar a manipulação.

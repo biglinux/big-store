@@ -1,1 +1,0 @@
-O plugin certbot-dns-rfc2136 é uma ferramenta para o Certbot que permite a autenticação usando desafios DNS para domínios gerenciados por um servidor DNS que suporta o protocolo de atualização dinâmica RFC2136. Ele pode  ser usado para obter e renovar automaticamente certificados SSL/TLS da Let's Encrypt para domínios gerenciados pelo servidor DNS. 

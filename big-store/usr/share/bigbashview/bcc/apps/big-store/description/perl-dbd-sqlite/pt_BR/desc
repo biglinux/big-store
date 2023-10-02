@@ -1,1 +1,0 @@
-Este é um programa que permite a você armazenar e gerenciar dados em um formato de banco de dados relacional. Ele é auto-suficiente, o que significa que não precisa de nenhum outro software para funcionar. Ele é construído como um driver DBI para uso com o Perl.Ele é conhecido como 'perl-dbd-sqlite' 

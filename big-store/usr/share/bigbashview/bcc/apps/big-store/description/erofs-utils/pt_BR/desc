@@ -1,1 +1,0 @@
- erofs-utils é um conjunto de utilitários de usuário para o sistema de arquivos erofs do linux. Esses utilitários permitem gerenciar e manipular arquivos e diretórios em um sistema de arquivos erofs. Isso inclui comandos para criar e excluir arquivos, bem como para listar e modificar os atributos de arquivos e diretórios. 

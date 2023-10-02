@@ -1,1 +1,0 @@
-khard é um gerenciador de contatos baseado em console que permite adicionar, excluir e pesquisar contatos facilmente. Ele é escrito em Python e usa a biblioteca vobject para lidar com arquivos vCard. O programa é simples e fácil de usar, tornando-o uma excelente ferramenta para gerenciar seus contatos via linha de comando. 

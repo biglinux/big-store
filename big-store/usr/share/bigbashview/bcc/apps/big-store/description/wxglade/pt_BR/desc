@@ -1,3 +1,0 @@
-O wxGlade é um construtor de interface gráfica escrito em Python para o kit de ferramentas de interface gráfica
-wxWidgets/wxPython. Ele permite criar aparência e funcionalidade de aplicativos de forma rápida e fácil, sem precisar escrever código. Com ele, é possível criar janelas, botões, caixas de
-diálogo e outros elementos comuns de interface gráfica. Além disso, o wxGlade oferece suporte para várias plataformas, incluindo Windows, Linux e MacOS.

@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.2 que adiciona recursos de POSIX (Portable Operating System Interface). Isso significa que ele
-permite que o PHP trabalhe com funções relacionadas ao sistema operacional, como criar e gerenciar processos, lidar com arquivos e pastas, entre outras coisas.Com esse módulo, é possível
-criar scripts PHP que sejam capazes de fazer tarefas avançadas e acessar recursos do sistema operacional de forma mais fácil e eficiente.

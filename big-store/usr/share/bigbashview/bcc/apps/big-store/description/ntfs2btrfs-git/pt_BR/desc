@@ -1,3 +1,0 @@
-Este programa é responsável por converter arquivos do sistema de arquivos NTFS para o BTRFS, mantendo as informações de
-metadados do NTFS.Isso significa que, após a conversão, você ainda poderá acessar as informações antigas, como data de criação e autor, enquanto usufrui das vantagens do BTRFS, como
-snapshots e tolerância a falhas.

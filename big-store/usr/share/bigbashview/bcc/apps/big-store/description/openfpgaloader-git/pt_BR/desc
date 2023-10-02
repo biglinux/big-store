@@ -1,4 +1,0 @@
-Esse programa é chamado openfpgaloader-git, e ele é muito útil para programar circuitos chamados FPGA. FPGA significa
-'circuito programável de porta lógica' e é usado para fazer muitas coisas diferentes, como controlar motores, processar sinais de áudio e vídeo, e até mesmo criar computadores pequenos. O
-openfpgaloader-git é um programa especial que ajuda a colocar o software certo dentro do FPGA, para que ele possa fazer o que precisa ser feito. Ele é universal, o que significa que pode
-ser usado com vários tipos diferentes de FPGA, e é chamado de 'git' porque é disponibilizado através de um sistema chamado Git, que ajuda a gerenciar o código do programa.

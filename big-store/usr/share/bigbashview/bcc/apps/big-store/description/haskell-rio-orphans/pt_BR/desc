@@ -1,1 +1,0 @@
-O pacote rio possui instâncias órfãs para o tipo RIO. Isso significa que essas instâncias não são fornecidas pelo próprio pacote, mas são necessárias para o funcionamento de outros pacotes. 

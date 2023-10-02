@@ -1,4 +1,0 @@
-MCAP é um formato de contêiner modular e biblioteca de log para mensagens de publicação
-e assinatura com serialização de mensagem arbitrária. Ele permite que você gerencie facilmente mensagens de publicação e assinatura em sua aplicação, tornando-a mais organizada e
-escalável.Com a ferramenta MCAP, você pode garantir que suas mensagens sejam enviadas e recebidas corretamente, além de poder personalizar a serialização das mensagens de acordo com suas
-necessidades.

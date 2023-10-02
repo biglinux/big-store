@@ -1,4 +1,0 @@
-O programa python-pex é uma ferramenta que permite criar ambientes executáveis do Python. Isso significa que, com
-ele, é possível colocar todas as dependências de um projeto em um único arquivo, de forma que o projeto possa ser executado em qualquer lugar, sem a necessidade de instalar nenhuma
-biblioteca ou dependência adicional.Além disso, essa ferramenta também oferece suporte a várias versões do Python, permitindo criar ambientes compatíveis com diferentes sistemas
-operacionais. 

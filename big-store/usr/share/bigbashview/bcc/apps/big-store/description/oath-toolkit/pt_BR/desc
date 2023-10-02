@@ -1,1 +1,0 @@
-O oath-toolkit é uma ferramenta de linha de comando para gerar e verificar senhas únicas OATH (Event-based One-Time Password Algorithm). Ele suporta os algoritmos OATH HOTP (HMAC-based One-Time Password Algorithm) e TOTP (Time-based One-Time Password Algorithm) e pode ser usado para implementar autenticação de dois fatores em sistemas de informação.  

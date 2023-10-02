@@ -1,1 +1,0 @@
-Este programa é responsável por analisar e interpretar os metadados presentes em arquivos PEP 621. Esses metadados são informações adicionais sobre o projeto, como autor, licença e dependências. O programa utiliza a biblioteca python-pyproject-metadata para realizar essa tarefa. 

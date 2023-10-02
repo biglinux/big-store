@@ -1,3 +1,0 @@
-Este programa ajuda a encontrar raízes complexas de polinômios de uma variável. Ele é chamado de mpsolve e é capaz de encontrar 
-raízes com precisão de múltiplos dígitos. Isso é útil quando as raízes exatas são difíceis de encontrar usando outros métodos. Em outras palavras, se você tem uma equação matemática com uma
-letra (como x) elevada a vários graus e quer saber os valores dessa letra que fazem a equação ser igual a zero, esse programa pode ajudar.

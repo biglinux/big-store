@@ -1,4 +1,0 @@
-Existem várias ferramentas disponíveis para ajudar a programar na linguagem Rhai, como o rhai-repl, rhai-run e rhai-dbg.
-Essas ferramentas são úteis para testar e depurar seu código, além de permitir que você execute seus programas diretamente da linha de comando. O rhai-repl, por exemplo, é uma ferramenta
-que permite que você teste pequenos trechos de código Rhai diretamente no terminal. Já o rhai-run permite que você execute arquivos de código Rhai completos. E o rhai-dbg é uma ferramenta
-de depuração que ajuda a encontrar erros em seu código.

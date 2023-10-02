@@ -1,3 +1,0 @@
-Este programa é projetado para ajudar a configurar o Xboxdrv de forma automatizada, usando scripts do service runit.
-Isso significa que ele fará com que o Xboxdrv seja iniciado automaticamente quando o sistema for iniciado, e também cuidará de reiniciá-lo se ele parar de funcionar.Isso é útil para
-jogadores que desejam usar seus controles Xbox no Linux sem ter que configurá-los manualmente toda vez que iniciarem o sistema.

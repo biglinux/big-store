@@ -1,1 +1,0 @@
-lib32-libxdamage é uma biblioteca que permite que programas acessem informações sobre regiões da tela que foram danificadas, como janelas que foram movidas ou redimensionadas. Ela é compatível com a extensão X11 chamada Damage, que fornece suporte para isso. Essa biblioteca específica  é para programas de 32 bits. 

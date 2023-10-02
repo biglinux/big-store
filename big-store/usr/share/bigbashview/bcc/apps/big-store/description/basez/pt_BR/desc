@@ -1,2 +1,0 @@
-Este programa ajuda a codificar e decodificar vários tipos de códigos, como base16, base32, base32hex, base64,
-base64url, base64mime, base64pem PEM, base32plain e base64plain. Vale lembrar que o base16 e o base32 não estão incluídos neste pacote, pois eles já fazem parte do coreutils.

@@ -1,1 +1,0 @@
-A biblioteca Lua Vstruct permite manipular dados binários de uma maneira simples e eficiente. Ela fornece funções para ler e escrever dados em uma estrutura de dados, além de ferramentas para trabalhar com números de ponto flutuante e endianness. Esta biblioteca é compatível com a versão Lua 5.2. 

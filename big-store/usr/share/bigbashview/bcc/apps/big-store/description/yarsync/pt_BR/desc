@@ -1,3 +1,0 @@
-Yarsync, ou Yet Another Rsync, é uma ferramenta de sincronização e backup de arquivos. Ele permite manter arquivos iguais 
-em diferentes lugares, como em seu computador e em uma unidade de armazenamento externa, ou em diferentes computadores. Ele também permite fazer cópias de segurança de arquivos para outro
-lugar, para que você possa restaurá-los se algo acontecer com o original.

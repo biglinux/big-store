@@ -1,1 +1,0 @@
-A biblioteca Shim é usada para adicionar suporte às palavras-chave Ruby 2 a módulos antigos. Isso permite que você use novas funcionalidades do Ruby 2 em projetos antigos sem precisar atualizar todo o código. 

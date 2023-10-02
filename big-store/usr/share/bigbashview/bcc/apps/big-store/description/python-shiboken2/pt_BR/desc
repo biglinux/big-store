@@ -1,1 +1,0 @@
-Esse programa é uma ferramenta que permite usar o shiboken2, um gerador de código Python, com facilidade. Ele cria um 'bind' entre o Python e o shiboken2, tornando possível usar as funcionalidades do shiboken2 através do Python. Isso é útil para quem deseja trabalhar com o shiboken2 sem precisar aprender a programar em C++. 

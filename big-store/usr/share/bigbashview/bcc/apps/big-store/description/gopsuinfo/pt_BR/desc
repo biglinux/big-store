@@ -1,2 +1,0 @@
- Este programa mostra informações do seu sistema de maneira personalizada. Ele usa uma biblioteca chamada gopsutil para
-coletar as informações. Ele foi feito para ser usado com o painel nwg-panel ou Tint2. 

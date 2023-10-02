@@ -1,1 +1,0 @@
-lib32-libdrm é uma biblioteca que permite acesso aos serviços do kernel relacionados ao gerenciamento de recursos de dispositivo (DRM) em sistemas operacionais. Ele é projetado para ser usado em aplicações em espaço de usuário e é compatível com sistemas de 32 bits. 

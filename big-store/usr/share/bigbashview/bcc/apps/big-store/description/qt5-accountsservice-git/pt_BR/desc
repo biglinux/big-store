@@ -1,4 +1,0 @@
-Este programa é uma 'envelope' para o serviço de contas, ele permite que você gerencie suas contas de usuário usando o
-estilo de interface gráfica do Qt. Isso significa que ele se parece e se sente como outros programas que você já usa no seu sistema que usam o Qt.Com ele, você pode fazer coisas como mudar 
-a sua senha, adicionar novas contas e gerenciar as permissões das contas existentes. Ele é útil para administradores de sistema ou qualquer pessoa que precise gerenciar contas em seu
-computador.

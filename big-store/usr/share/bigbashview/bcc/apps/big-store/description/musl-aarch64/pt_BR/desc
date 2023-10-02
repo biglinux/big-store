@@ -1,3 +1,0 @@
-Este programa é uma implementação leve da biblioteca de C padrão. Ele é específico para o processador AARCH64. Isso
-significa que ele foi otimizado para funcionar de forma eficiente com esse tipo de processador. Ele é útil para aplicações que precisam de um desempenho rápido, mas não precisam de todas as
-funcionalidades da biblioteca padrão completa. 

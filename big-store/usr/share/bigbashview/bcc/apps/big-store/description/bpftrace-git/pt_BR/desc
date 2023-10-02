@@ -1,4 +1,0 @@
-bpftrace-git é uma ferramenta de rastreamento de alto nível para o sistema operacional Linux eBPF. Ele permite aos
-usuários rastrear e analisar o desempenho e o comportamento de seus sistemas de maneira fácil e intuitiva. Com bpftrace-git, é possível criar scripts personalizados para coletar dados
-específicos e visualizá-los em gráficos e tabelas para facilitar a análise. Além disso, ele suporta uma variedade de linguagens e formatos, tornando-o versátil e fácil de usar para qualquer
-pessoa.

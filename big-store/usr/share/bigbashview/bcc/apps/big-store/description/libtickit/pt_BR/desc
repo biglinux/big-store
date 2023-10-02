@@ -1,4 +1,0 @@
-A biblioteca libtickit é uma ferramenta útil para criar programas de terminal que possuem interface completa 
-e interativa. Com ela, é possível construir aplicativos que possuem menus, janelas, caixas de diálogo e outros elementos comuns em interfaces gráficas, mas que funcionam diretamente no
-terminal.A libtickit é desenvolvida em C e possui uma API simples e intuitiva, permitindo que desenvolvedores com pouca experiência em programação de terminal possam criar aplicativos
-complexos e sofisticados.

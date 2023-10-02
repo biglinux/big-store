@@ -1,1 +1,0 @@
-xorg-xlsatoms é um programa que permite listar todos os átomos internos definidos no servidor. Esses átomos são usados para comunicação entre aplicativos X e o servidor X. Ele mostra os nomes dos átomos e seus respectivos valores, tornando mais fácil para os desenvolvedores entenderem como os aplicativos estão se comunicando com o servidor. 

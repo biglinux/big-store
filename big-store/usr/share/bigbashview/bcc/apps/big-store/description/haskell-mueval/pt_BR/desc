@@ -1,1 +1,0 @@
-haskell-mueval é um programa que permite avaliar expressões puras escritas em Haskell de forma segura. Isso é útil para testar e experimentar pequenos pedaços de código sem precisar escrever um programa completo. Ele é projetado para ser usado com confiança em ambientes de produção e é compatível com a maioria das versões atuais do Haskell. 

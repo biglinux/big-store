@@ -1,2 +1,0 @@
-O sistema de inicialização baseado em dependência é chamado openrc. Ele funciona com sysvinit e systemd ou
-sozinho.

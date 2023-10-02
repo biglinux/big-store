@@ -1,4 +1,0 @@
-Este programa é um simulador de Assembler e Execução para RISC-V. Ele permite a você escrever códigos em
-assembly para o processador RISC-V e simular sua execução. Isso é útil para quem está aprendendo a programar nesta arquitetura ou para desenvolvedores que estão criando software para
-ela.Com este programa, você pode escrever códigos assembly usando instruções RISC-V e ver como eles se comportam em tempo real. Ele também permite que você faça debug de seus códigos e
-verificar o valor das variáveis ​​em diferentes etapas da execução.

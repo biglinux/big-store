@@ -1,3 +1,0 @@
- Este é um módulo para o PHP 7.4 que adiciona recursos de banco de dados ao seu código. Ele permite que você acesse e gerencie bancos
-de dados diretamente a partir do seu código PHP. Isso é útil para criar aplicativos web dinâmicos que precisam acessar informações armazenadas em um banco de dados. Com este módulo, você
-pode facilmente adicionar, ler, atualizar e excluir dados do banco de dados, sem precisar escrever código SQL complexo.

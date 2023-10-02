@@ -1,1 +1,0 @@
-avr-libc é uma biblioteca para a família de microcontroladores AVR. Ele fornece um conjunto de funções para trabalhar com a memória, temporizadores e outros periféricos do AVR. Essa biblioteca é escrita em C e é destinada a ser usada com o compilador GCC. Ela é de código  aberto, então qualquer pessoa pode usar e modificá-la. 

@@ -1,1 +1,0 @@
-A linguagem de marcação de configuração Zope (ZCML) é um recurso utilizado para configurar aplicativos baseados no Zope. Ela permite aos desenvolvedores declarar componentes, como objetos e views, e configurar suas propriedades usando arquivos XML. A biblioteca python-zope-configuration é usada para ler e processar esses arquivos ZCML. 

@@ -1,4 +1,0 @@
- Este é um módulo para o programa php 8.2 que permite conectar-se e trabalhar com bancos de dados firebird. Ele é chamado
-pdo_firebird e é muito útil para desenvolvedores que desejam trabalhar com essa base de dados específica. Ele é fácil de instalar e configurar, e oferece muitas funcionalidades para ajudar 
-a criar aplicativos robustos.Algumas das funcionalidades incluem suporte para transações, consultas preparadas e suporte para parâmetros em consultas. Ele também tem suporte para a
-maioria das funções de banco de dados comuns, como inserir, atualizar e excluir dados. 

@@ -1,3 +1,0 @@
-Este programa é chamado tinyionice e é uma substituição para o ionice do util-linux. Ele tem apenas 300
-linhas de código e serve para gerenciar as prioridades do uso do disco do seu computador. Isso significa que você pode escolher quais programas têm acesso prioritário ao disco e, assim,
-garantir que o seu computador funcione de forma mais rápida e eficiente. Ele é fácil de usar e pode ser útil para usuários avançados que precisam otimizar o desempenho do seu computador.

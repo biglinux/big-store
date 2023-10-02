@@ -1,1 +1,0 @@
-cargo-audit é uma ferramenta de linha de comando que permite verificar seu arquivo Cargo.lock para pacotes com vulnerabilidades conhecidas. Ele funciona comparando as versões dos pacotes no seu arquivo Cargo.lock com as versões dos pacotes no banco de dados crates.io e informando qualquer diferença. 

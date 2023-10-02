@@ -1,3 +1,0 @@
-Este programa permite transformar um único disco em um sistema RAID 1, 4, 5, 6 ou 10. Isso significa que ele cria uma cópia
-exata do disco, permitindo que você tenha uma segurança extra em caso de falha no disco original. Isso é especialmente útil em sistemas de servidor ou em computadores que armazenam muitos
-dados importantes.Além disso, o uso de RAID também pode aumentar o desempenho do sistema, pois permite que múltiplos discos trabalhem juntos para ler e escrever dados.

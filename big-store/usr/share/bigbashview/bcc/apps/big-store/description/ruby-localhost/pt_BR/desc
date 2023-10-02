@@ -1,1 +1,0 @@
-Este programa permite que você gerencie uma autoridade de certificação local para servidores de desenvolvimento localhost com certificados auto-assinados. Com ele, você pode criar, gerenciar e revogar certificados para uso em seus projetos de desenvolvimento.Este programa é escrito em ruby, então é necessário ter o ruby instalado para usá-lo. 

@@ -1,1 +1,0 @@
-A biblioteca python-dockerpty permite que você utilize o pseudo-tty de um container Docker. Isso significa que você pode executar comandos dentro do container e obter o feedback deles, como se estivesse dentro dele usando o terminal. Essa biblioteca é útil para automatizar tarefas dentro do container, sem precisar entrar nele manualmente. 

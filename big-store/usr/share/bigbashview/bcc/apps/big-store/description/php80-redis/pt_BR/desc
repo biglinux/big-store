@@ -1,2 +1,0 @@
-Existe uma API chamada php80-redis que permite comunicar-se com o banco de dados Redis, que é uma ferramenta de armazenamento 
-de chave-valor. Ela não utiliza o igbinary.

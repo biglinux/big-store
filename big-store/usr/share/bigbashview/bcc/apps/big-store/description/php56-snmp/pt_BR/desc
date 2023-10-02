@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 5.6 que permite acessar informações de dispositivos de rede através do protocolo SNMP. Isso significa
-que você pode usar este módulo para coletar informações como endereços IP, nomes de dispositivos e status de dispositivos em sua rede. Como este é um módulo para PHP, você pode usá-lo com
-qualquer aplicação web que esteja sendo executada no PHP 5.6.Alguns exemplos de como você pode usar este módulo incluem criar um script para verificar regularmente o status de dispositivos 
-em sua rede ou criar uma página web que exibe informações sobre dispositivos em sua rede.

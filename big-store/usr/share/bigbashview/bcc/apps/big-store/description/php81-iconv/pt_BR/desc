@@ -1,3 +1,0 @@
- Este é um modulo adicional para a versão 8.1 do PHP. Ele permite a conversão de caracteres de um conjunto de caracteres para
-outro. Isso é útil quando você precisa trabalhar com texto em diferentes idiomas ou codificações. Com este modulo, você pode garantir que o texto será exibido corretamente em seu site ou
-aplicativo.Ele é fácil de instalar e usar, basta ativá-lo em sua configuração do PHP e você já pode começar a usá-lo em suas páginas. 

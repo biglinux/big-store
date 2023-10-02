@@ -1,4 +1,0 @@
- sxhkd-git é um programa simples que permite atribuir ações a teclas específicas no sistema operacional X. Isso
-significa que você pode personalizar seu computador para executar tarefas específicas ao pressionar uma combinação de teclas. Por exemplo, você pode configurar para que a tecla 'Win+E' abra
-seu gerenciador de arquivos ou para que 'Ctrl+Alt+Del' inicie o gerenciador de tarefas.O sxhkd-git é baseado no sxhkd original, mas possui algumas melhorias e correções de bugs. Ele é
-mantido por um desenvolvedor da comunidade e está disponível para download no GitHub. 

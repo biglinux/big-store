@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.1 que permite acesso às informações de gerenciamento de redes utilizando o protocolo SNMP. Ele é útil 
-para quem precisa monitorar dispositivos de rede, como roteadores e switches, e coletar dados como tráfego de rede e uso de recursos.Para usar esse módulo, é preciso ter o PHP 7.1 instalado
-e configurado no seu sistema. Depois disso, é só habilitar o módulo SNMP no PHP e começar a usar as funções específicas dele para acessar as informações de gerenciamento de rede.

@@ -1,3 +1,0 @@
-Esta biblioteca contém uma API comum que pode ser usada por diferentes módulos do GNOME. Ela foi desenvolvida
-usando a biblioteca de interface gráfica GTK4, o que garante compatibilidade com aplicativos modernos e uma boa performance.É uma ferramenta útil para desenvolvedores que desejam criar
-aplicativos para o ambiente de desktop GNOME e precisam de recursos comuns, como janelas, botões e outros elementos de interface.

@@ -1,3 +1,0 @@
- Este programa é escrito em Python e usa o algoritmo de balde com furos para limitar a taxa de requisições. Ele é útil para garantir
-que um determinado número de requisições não seja excedido em um período de tempo específico. Isso é comumente usado para evitar sobrecarga em serviços web e garantir a disponibilidade para
-usuários legítimos. 

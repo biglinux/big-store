@@ -1,1 +1,0 @@
-Uma implementação gratuita do Algoritmo Bidirecional Unicode, chamado fribidi. Este algoritmo permite que o texto seja escrito de forma correta em línguas que são lidas de direita para esquerda, como árabe e hebraico. Ele também garante que os caracteres, números e símbolos sejam exibidos na ordem correta quando misturados com texto de esquerda para direita. 

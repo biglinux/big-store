@@ -1,2 +1,0 @@
-Este é um compilador Python de alto desempenho, sem sobrecarga e extensível. Ele usa LLVM para ajudar a tornar o código 
-mais rápido e eficiente. É uma ferramenta útil para quem trabalha com grandes quantidades de dados ou desenvolve aplicativos de alto desempenho.

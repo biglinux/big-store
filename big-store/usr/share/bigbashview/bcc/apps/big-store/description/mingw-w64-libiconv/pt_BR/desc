@@ -1,3 +1,0 @@
-Esse programa fornece a biblioteca GNU libiconv.so e libcharset.so para usuários do Windows. Ele é conhecido como mingw-w64-libiconv e 
-é especialmente útil para desenvolvedores de software que precisam trabalhar com diferentes conjuntos de caracteres em seus projetos.A biblioteca libiconv é uma ferramenta poderosa para
-converter texto entre diferentes codificações de caracteres, enquanto a libcharset.so ajuda a detectar e identificar conjuntos de caracteres em arquivos de texto.

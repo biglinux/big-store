@@ -1,3 +1,0 @@
- Este programa é um daemon de registro para a plataforma de confiabilidade, disponibilidade e facilidade de manutenção
-(RAS). Ele substitui o mcelog e ajuda a rastrear falhas no sistema. Isso garante que os problemas sejam identificados e corrigidos rapidamente, mantendo o sistema funcionando de forma
-estável. Ele é especialmente útil em ambientes críticos, como data centers, onde é essencial garantir a disponibilidade do sistema. 

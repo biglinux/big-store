@@ -1,1 +1,0 @@
-Este é um programa que permite controlar o som usando o Python. Ele inclui implementações tanto de servidor quanto de cliente do Open Sound Control. Isso significa que você pode usá-lo tanto para enviar quanto para receber comandos de som. 

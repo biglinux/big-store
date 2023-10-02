@@ -1,2 +1,0 @@
-Este programa é um servidor de protocolos HTTP, HTTP2 e WebSocket para ASGI. Ele foi desenvolvido para dar
-suporte ao Django Channels.

@@ -1,3 +1,0 @@
-gdk-pixbuf é uma biblioteca para carregar e manipular imagens. Ela é utilizada em diversos programas,
-como em visualizadores de imagens, editores de imagens, e outros aplicativos gráficos. Com gdk-pixbuf, é possível abrir e salvar imagens em vários formatos, além de fazer edições básicas
-como redimensionamento, rotação e corte. A biblioteca é desenvolvida em linguagem C e é compatível com sistemas operacionais Linux e Windows.

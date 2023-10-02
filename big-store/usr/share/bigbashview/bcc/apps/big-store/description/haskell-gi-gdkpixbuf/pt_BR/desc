@@ -1,1 +1,0 @@
-A biblioteca Haskell-gi-gdkpixbuf é um conjunto de bindings para a biblioteca GDK Pixbuf. Isso significa que ela permite que você use a biblioteca GDK Pixbuf, que é escrita em C, em seu código Haskell. Com essa biblioteca, você pode carregar, salvar e manipular imagens em vários formatos diferentes, como JPEG, PNG e GIF. 

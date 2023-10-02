@@ -1,4 +1,0 @@
-Este programa é um cliente TUI (interface de linha de comando) para o servidor de mídia Jellyfin. Ele usa o player mpv para
-reproduzir arquivos de mídia e oferece uma interface fácil de usar e intuitiva para navegar e controlar sua biblioteca de mídia. Com ele, você pode acessar suas músicas, filmes, séries e
-muito mais através de um terminal, sem precisar de uma interface gráfica. Ele é perfeito para quem prefere trabalhar com o terminal ou para quem tem uma configuração mais simples de
-hardware.

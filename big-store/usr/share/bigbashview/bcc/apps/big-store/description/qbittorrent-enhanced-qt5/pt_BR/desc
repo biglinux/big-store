@@ -1,3 +1,0 @@
- qBittorrent Enhanced Edition é um cliente de bittorrent construído com C++, Qt e a excelente biblioteca libtorrent. Ele 
-foi desenvolvido com a versão 5 do Qt, o que significa que ele tem uma interface mais moderna e ágil. Com ele, você pode baixar arquivos de forma rápida e segura usando o protocolo
-bittorrent. Ele também possui recursos adicionais, como suporte para RSS e filtragem de IP. 

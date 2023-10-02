@@ -1,1 +1,0 @@
-O programa 'perl-path-isdev' ajuda a determinar se uma dada pasta é semelhante à uma árvore de fontes de desenvolvimento. Ele faz isso verificando se a pasta possui uma estrutura comum encontrada em projetos de software. Isso pode ser útil para identificar se uma pasta contém código-fonte ou se é apenas uma pasta de arquivos. 

@@ -1,1 +1,0 @@
-O módulo Perl 'Data::Validate::IP' fornece funções para validação de endereços IPv4 e IPv6. Ele permite verificar se um determinado endereço está no formato correto, se é uma faixa válida de endereços, entre outras validações. É uma ferramenta útil para programadores que precisam trabalhar com endereços de rede em seus projetos. 

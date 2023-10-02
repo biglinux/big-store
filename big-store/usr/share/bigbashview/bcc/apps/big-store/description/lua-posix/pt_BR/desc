@@ -1,1 +1,0 @@
-Este programa fornece ligações para funcionalidades do sistema POSIX, como acesso a arquivos e pastas, dentro do ambiente de programação Lua. Isso permite que os desenvolvedores escrevam scripts e aplicativos utilizando recursos do sistema operacional diretamente no Lua. 

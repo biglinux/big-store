@@ -1,2 +1,0 @@
-Este programa oferece ferramentas eficientes para o processamento de dados LiDAR. Ele contém o LASlib, uma
-API de programação em C++ que permite ler e escrever dados LiDAR armazenados no formato padrão LAS. 

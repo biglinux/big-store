@@ -1,3 +1,0 @@
-Esta é uma biblioteca para compressão e descompressão de arquivos no sistema operacional Android. Ela é específica para
-a arquitetura aarch64 e foi baseada na biblioteca zlib, que é amplamente utilizada em sistemas operacionais e aplicativos.Com esta biblioteca, é possível compactar e descompactar arquivos
-de maneira rápida e eficiente, o que pode ser útil em aplicativos que lidam com grandes quantidades de dados ou que precisam economizar espaço de armazenamento.

@@ -1,1 +1,0 @@
-Este programa fornece utilitários adicionais para escrever plugins de verificação de tipos para o compilador GHC (Glasgow Haskell Compiler) do Haskell. Esses plugins podem ser usados ​​para adicionar novas verificações de tipos ou para modificar o comportamento padrão do verificador de  tipos. 

@@ -1,4 +1,0 @@
-Esta é uma biblioteca chamada PHP Embutida, ela é usada para ajudar a rodar o programa PHP73 de forma mais fácil e rápida. Ela é
-chamada de SAPI, ou seja, uma interface de programação de aplicativo. Isso significa que ela funciona como um intermediário entre o programa PHP73 e outras coisas que você possa querer usar
-com ele, como por exemplo, seu sistema operacional. Em resumo, esta biblioteca ajuda a tornar o programa PHP73 mais fácil de usar e mais rápido, o que é útil para quem desenvolve sites ou
-aplicações.

@@ -1,1 +1,0 @@
-O módulo perl-filesys-df fornece informações sobre o espaço em disco do sistema de arquivos. Ele permite ao programador obter dados como o espaço livre, ocupado e total em unidades de disco específicas. 

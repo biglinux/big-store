@@ -1,3 +1,0 @@
-Com o ruby-git, é possível manipular repositórios Git através de chamadas ao binário Git. Isso significa que você pode
-fazer operações como adicionar arquivos, criar commits e muito mais usando a linguagem de programação Ruby. É uma ótima opção para quem deseja automatizar tarefas relacionadas a
-repositórios Git ou integrar essas funcionalidades em aplicações Ruby.

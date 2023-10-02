@@ -1,3 +1,0 @@
-Esse programa é um gerador de chave PGP (Pretty Good Privacy) baseado em frase-senha, ou seja, ele cria chaves de
-criptografia usando uma frase-senha que você escolhe. Ele é chamado de passphrase2pgp e é previsível, ou seja, sempre gera a mesma chave a partir da mesma frase-senha. Isso é importante
-para que você possa recuperar sua chave caso você a perca.

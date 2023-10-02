@@ -1,4 +1,0 @@
-Este programa é um módulo de internacionalização para o PHP 8.1. Ele adiciona suporte a vários idiomas e formatos 
-de data e moeda para aplicativos desenvolvidos com o PHP 8.1. Isso permite que você crie aplicativos que possam ser facilmente adaptados a diferentes regiões e idiomas. Além disso, ele
-também inclui uma biblioteca ICU, que fornece mais recursos para trabalhar com texto e dados internacionais.Com esse módulo, é possível formatar números, datas e moedas de acordo com as
-convenções de cada país, assim como traduzir mensagens e verificar a validade de cadeias de caracteres como endereços de e-mail e números de telefone.

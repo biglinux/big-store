@@ -1,3 +1,0 @@
-O Bareos é um software de backup de código aberto. Este plugin em particular permite que o daemon de arquivos do 
-Bareos autentique usuários usando o protocolo LDAP. Isso significa que, em vez de usar senhas armazenadas localmente, o plugin pode se comunicar com um servidor LDAP para verificar as
-credenciais de usuário. Isso pode ser útil em ambientes de rede maiores, onde é necessário gerenciar vários usuários e senhas.

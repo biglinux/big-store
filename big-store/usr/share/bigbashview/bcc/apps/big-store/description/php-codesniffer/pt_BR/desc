@@ -1,4 +1,0 @@
-O PHP_CodeSniffer é uma ferramenta que ajuda a manter o seu código limpo e organizado. Ele analisa
-arquivos em PHP, JavaScript e CSS e verifica se estão de acordo com um conjunto de padrões de codificação definidos. Se houver alguma violação, o PHP_CodeSniffer irá alertá-lo e, em alguns 
-casos, até corrigir automaticamente o problema.Com o PHP_CodeSniffer, você pode ter certeza de que o seu código está seguindo as melhores práticas e é fácil de manter e compartilhar com
-outros desenvolvedores. Além disso, ele ajuda a garantir que todos os membros da sua equipe estejam trabalhando de forma consistente e produtiva.

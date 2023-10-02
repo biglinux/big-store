@@ -1,4 +1,0 @@
- O ROCm runtime é uma ferramenta importante para desenvolvedores que trabalham com linguagens de programação em GPU. Ele fornece
-suporte para a execução de códigos em várias linguagens, incluindo C++, Python e OpenCL. Com ele, é possível criar aplicativos altamente performáticos e eficientes para aproveitar ao máximo
-a potência das GPU.Além disso, ele também oferece recursos avançados de depuração e monitoramento para ajudar os desenvolvedores a identificar e corrigir problemas no código.Em
-resumo, o ROCm runtime é uma ferramenta valiosa para quem trabalha com desenvolvimento de aplicações em GPU e quer obter o melhor desempenho possível. 

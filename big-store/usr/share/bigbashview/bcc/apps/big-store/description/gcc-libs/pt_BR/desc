@@ -1,1 +1,0 @@
-As bibliotecas de tempo de execução do GCC são um conjunto de bibliotecas usadas para rodar programas compilados pelo compilador GCC. Elas incluem bibliotecas como a libgcc, libstdc++ e libgomp. Estas bibliotecas são essenciais para a execução de programas compilados pelo GCC e geralmente são incluídas automaticamente quando você instala o GCC em seu sistema. 

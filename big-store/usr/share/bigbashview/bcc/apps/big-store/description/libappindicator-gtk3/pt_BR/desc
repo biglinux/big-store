@@ -1,1 +1,0 @@
-libappindicator-gtk3 é uma biblioteca que permite que os desenvolvedores adicionem menus aos seus programas usando indicadores Ayatana. Isso significa que esses menus serão exibidos na barra de tarefas do Unity, KDE ou Systray. Isso é feito adicionando uma camada extra de funcionalidade à biblioteca GTK+ 3. 

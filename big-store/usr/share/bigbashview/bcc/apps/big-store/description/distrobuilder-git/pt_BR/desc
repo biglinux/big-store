@@ -1,3 +1,0 @@
-distrobuilder-git é um programa que ajuda a construir imagens de sistemas container para usar com LXC e LXD. Ele é
-usado para criar sistemas personalizados e isolados, que podem ser usados para desenvolvimento, testes e implantação. Ele é especialmente útil quando você precisa de vários sistemas
-diferentes para diferentes projetos ou ambientes. Com ele, você pode facilmente criar, gerenciar e distribuir suas próprias imagens de sistemas container.

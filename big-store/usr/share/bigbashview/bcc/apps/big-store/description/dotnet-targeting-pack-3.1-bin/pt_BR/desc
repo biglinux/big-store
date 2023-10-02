@@ -1,3 +1,0 @@
-O pacote de destino do .NET Core é uma coleção de arquivos que permitem que seu aplicativo seja executado em uma versão
-específica do .NET Core. Ele inclui assemblies de biblioteca, ferramentas de linha de comando e outros recursos.Este pacote específico é para a versão 3.1 do .NET Core e é necessário para a
-execução de aplicativos desenvolvidos para essa versão.

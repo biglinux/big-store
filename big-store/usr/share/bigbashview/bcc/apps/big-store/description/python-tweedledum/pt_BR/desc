@@ -1,6 +1,0 @@
-A biblioteca python-tweedledum é uma ferramenta poderosa para trabalhar com circuitos quânticos.
-Com ela, você pode facilmente criar e modificar circuitos, simular sua execução e medir resultados. É uma ótima opção para quem está trabalhando com computação quântica ou apenas deseja
-experimentar com essa tecnologia.Algumas das principais funcionalidades incluem a capacidade de adicionar e remover portas quânticas, aplicar operações lógicas e medir estados quânticos.
-Além disso, a biblioteca também oferece suporte para vários backends de simulação, permitindo que você execute seus circuitos em diferentes plataformas.Se você estiver interessado em
-trabalhar com computação quântica, o python-tweedledum é uma ótima escolha para começar. É fácil de usar e oferece uma grande variedade de recursos para ajudá-lo a criar e testar seus
-circuitos quânticos.

@@ -1,3 +1,0 @@
-Este programa oferece uma interface visual (usando a biblioteca Qt) para realizar a autenticação de sua
-conta Microsoft com o mcpelauncher-msa-daemon. Ele permite que você faça login e gerencie sua conta sem precisar digitar informações de forma manual, tornando o processo mais fácil e
-rápido.Além disso, ele também possui recursos adicionais, como a possibilidade de salvar suas credenciais para não precisar fazer login toda vez que iniciar o programa.

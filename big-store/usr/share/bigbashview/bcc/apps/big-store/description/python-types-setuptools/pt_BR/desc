@@ -1,4 +1,0 @@
-Este pacote fornece stubs de tipos para o Setuptools, tornando mais fácil e seguro para você escrever códigos
-Python. Isso significa que você pode ter certeza de que seu código está correto antes mesmo de rodá-lo, pois o pacote vai verificar se você está usando as funções corretas e se está
-passando os argumentos corretos. Isso é muito útil, especialmente se você estiver trabalhando em um projeto grande ou complexo.Além disso, o pacote também facilita a leitura do código, pois
-você pode ver imediatamente o tipo de dados que uma função espera ou retorna. Isso ajuda a evitar erros e torna o desenvolvimento mais rápido e eficiente.

@@ -1,2 +1,0 @@
-Este programa se chama python-gtts e ele te ajuda a transformar texto em áudio. Ele usa a API do Google Text to Speech (TTS)
-para fazer isso. É possível usá-lo como um módulo ou como uma ferramenta de linha de comando. Ele salva o áudio em formato mp3.

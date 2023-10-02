@@ -1,1 +1,0 @@
-Esta é uma biblioteca de interface de cliente pública para o sistema NIS(YP). Ela permite que os programas se comuniquem com o servidor NIS(YP) para acessar informações como usuários, grupos e configurações de rede. A biblioteca é compatível com a versão 32 bits do sistema operacional. 

@@ -1,3 +1,0 @@
-Este é um driver para dispositivos Nintendo hid. Ele é construído usando o sistema DKMS, o que significa que ele pode ser facilmente
-atualizado quando novas versões do kernel são lançadas. Ele é projetado para funcionar com dispositivos Nintendo hid, como o Joy-Con e o Switch Pro Controller, e ajuda a garantir que eles
-funcionem corretamente no seu sistema.

@@ -1,3 +1,0 @@
-Este programa é um wrapper para usar a biblioteca QuantLib com a linguagem de programação Python. Ele permite utilizar 
-as funcionalidades do QuantLib de forma mais simples e acessível para programadores Python. Ele é chamado de python-pyql-git e foi desenvolvido usando Cython, uma linguagem que permite
-escrever extensões para Python de forma mais rápida e eficiente.

@@ -1,5 +1,0 @@
-O do-agent é um programa que ajuda você a ter uma visão mais clara e detalhada dos seus droplets na
-DigitalOcean. Ele coleta dados e cria gráficos que mostram como seu servidor está se comportando, como a utilização de recursos, tráfego de rede e muito mais. Dessa forma, você pode
-monitorar e otimizar o desempenho do seu servidor de forma fácil e eficiente.O do-agent é fácil de instalar e usar. Ele se integra perfeitamente com a sua conta DigitalOcean e apresenta os 
-dados de forma clara e intuitiva. Além disso, você pode configurar alertas para ser notificado quando algo estiver fora do normal, o que ajuda a garantir que seu servidor esteja sempre
-funcionando corretamente.

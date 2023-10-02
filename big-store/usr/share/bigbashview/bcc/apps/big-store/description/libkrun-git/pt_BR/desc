@@ -1,3 +1,0 @@
-Esse programa fornece capacidades de isolamento de processos baseadas em virtualização, usando a biblioteca
-libkrun-git. Isso significa que ele pode separar diferentes processos uns dos outros, para que eles não interfiram uns nos outros e possam ser executados de forma mais segura. É útil para
-garantir que aplicativos não possam acessar informações ou recursos que não deveriam. 

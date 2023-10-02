@@ -1,3 +1,0 @@
-Este programa é uma versão do kernel Linux (sistema operacional) com suporte adicional para VFIO. Isso significa que ele
-permite que você use dispositivos de hardware de forma mais avançada, como placas de vídeo, com máquinas virtuais. Além disso, ele inclui algumas correções específicas para o sistema, como 
-o ACS override e i915 VGA arbiter patches.

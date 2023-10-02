@@ -1,1 +1,0 @@
-O iio-sensor-proxy é um programa que permite que dispositivos de sensor, como acelerômetros, sejam  usados como entradas para outros programas no sistema. Ele funciona como um intermediário entre o dispositivo de sensor e o programa que o está usando, permitindo que os dados do sensor sejam lidos e interpretados de maneira eficiente. 

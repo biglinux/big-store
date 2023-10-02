@@ -1,1 +1,0 @@
-O python-xapian é um pacote que permite aos desenvolvedores adicionar facilmente funcionalidades de busca aos seus aplicativos Python. Ele fornece uma API simples e pythonica e gerencia todos os detalhes de baixo nível de interação com a biblioteca Xapian. Este pacote contém a versão 3 do python. 

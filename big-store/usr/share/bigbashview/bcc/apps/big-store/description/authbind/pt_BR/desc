@@ -1,3 +1,0 @@
-O programa Authbind permite que outros programas, que não possuem privilégios de root,
-possam se ligar às portas TCP de números baixos (de 0 a 1023). Isso é útil para quem deseja rodar um serviço em uma porta específica sem precisar de privilégios elevados.Com Authbind, é
-possível especificar quais programas podem usar determinadas portas, garantindo maior segurança para o sistema.

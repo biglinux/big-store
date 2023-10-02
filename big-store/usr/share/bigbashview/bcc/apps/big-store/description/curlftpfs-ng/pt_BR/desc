@@ -1,5 +1,0 @@
-curlftpfs-ng é um programa que permite que você monte um sistema de arquivos FTP em seu computador, assim você pode
-navegar e acessar os arquivos em um servidor FTP como se eles estivessem em um disco local. Isso pode ser útil se você precisar acessar arquivos em um servidor remoto sem precisar baixá-los
-para seu computador.Para usar o curlftpfs-ng, você precisará do FUSE (Filesystem in Userspace) instalado em seu sistema. Isso é um software livre que permite que você crie seus próprios
-sistemas de arquivos sem precisar modificar o kernel do sistema operacional. Depois de instalar o FUSE, você pode usar o curlftpfs-ng para montar um sistema de arquivos FTP em qualquer
-ponto do seu sistema de arquivos.

@@ -1,4 +1,0 @@
-Este programa é um módulo adicional para a versão 8.2 do PHP, que permite que você trabalhe com arquivos zip. Com ele, você
-pode criar, abrir, extrair, adicionar ou remover arquivos de um arquivo zip. É uma ferramenta útil para quem precisa gerenciar arquivos em seu site ou aplicativo. Algumas das
-funcionalidades incluem: criar novos arquivos zip, adicionar ou remover arquivos de um arquivo zip existente, extrair arquivos de um arquivo zip, listar os arquivos de um arquivo zip e
-obter informações sobre arquivos zip. O módulo é fácil de usar e se integra perfeitamente com o PHP 8.2. Ele pode ser usado tanto em ambientes Linux quanto Windows.

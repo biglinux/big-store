@@ -1,1 +1,0 @@
-Este programa é responsável por lidar com os módulos de tempo de execução no Perl. Ele garante que os módulos necessários estejam carregados e disponíveis durante a execução do código. 

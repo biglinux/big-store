@@ -1,1 +1,0 @@
-test-unit-rr é um adaptador para o test-unit que permite o uso da biblioteca RR. Isso significa que você pode usar as ferramentas de teste do test-unit juntamente com as ferramentas de gravação e reprodução do RR para ajudar a testar seu código ruby. 

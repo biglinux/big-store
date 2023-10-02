@@ -1,1 +1,0 @@
-Este programa usa o Linux Security Module (LSM) para fornecer um mecanismo de Controle de Acesso Obrigatório (MAC). Isso significa que ele garante que apenas usuários autorizados tenham acesso a determinados arquivos ou recursos. O AppArmor é um exemplo de um módulo LSM que pode ser usado para implementar o MAC. 

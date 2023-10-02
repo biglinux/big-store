@@ -1,1 +1,0 @@
-Este programa é chamado lib32-gpm e ele funciona como um servidor de mouse para a linha de comando e para o  xterm. Ele é específico para sistemas de 32 bits, o que significa que ele só funcionará em computadores com esse tipo de arquitetura. Ele permite que você use o mouse dentro de uma janela de terminal, o que pode ser útil para algumas tarefas. 

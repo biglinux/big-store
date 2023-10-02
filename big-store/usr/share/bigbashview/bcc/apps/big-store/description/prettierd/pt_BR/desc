@@ -1,3 +1,0 @@
-Este programa, chamado Prettier, ajuda a formatar seu código de maneira rápida e fácil. Ele funciona como um 'daemon', ou
-seja, ele fica rodando em segundo plano enquanto você trabalha no seu código. Isso significa que você pode continuar escrevendo seu código enquanto o Prettier cuida da formatação para você,
-sem precisar interromper o seu fluxo de trabalho.Além disso, o Prettier é especialmente útil para projetos de grande escala, pois ele pode formatar seu código com uma velocidade incrível.

@@ -1,4 +1,0 @@
-Este programa adiciona suporte ao módulo bz2 ao PHP 8.1. Isso permite que os desenvolvedores usem as funcionalidades do 
-bz2 para compactar e descompactar arquivos em seus projetos. Isso pode ser útil para reduzir o tamanho de arquivos para upload ou download, ou para armazenar arquivos de forma mais
-eficiente no servidor.Para usar esse módulo, é necessário instalá-lo no servidor e habilitá-lo no arquivo de configuração do PHP. Depois disso, as funções do bz2 estarão disponíveis para
-serem utilizadas no código.

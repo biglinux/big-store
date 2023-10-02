@@ -1,1 +1,0 @@
-Esse programa permite a criação dinâmica de vínculos de linguagem Perl usando a biblioteca Glib Object Introspection. Isso significa que ele permite que outros programas acessem e usem recursos escritos em Perl de forma mais fácil e eficiente. 

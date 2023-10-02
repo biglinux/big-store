@@ -1,5 +1,0 @@
-Jool é um software de código aberto para Linux que oferece suporte para SIIT (Stateless IP/ICMP Translation) e NAT64
-(Network Address Translation de IPv6 para IPv4). Ele é fornecido como um módulo do kernel, o que significa que é facilmente instalável e configurável no seu sistema Linux.Com Jool, você
-pode criar redes mistas de IPv4 e IPv6, permitindo que dispositivos IPv6 se comuniquem com dispositivos IPv4 e vice-versa. Isso é útil em ambientes onde a transição para IPv6 ainda não foi 
-concluída, mas você deseja começar a usar recursos IPv6.Além disso, Jool também oferece recursos avançados de NAT, como o suporte a múltiplas tabelas de tradução de endereço e a capacidade 
-de configurar regras de tradução personalizadas.

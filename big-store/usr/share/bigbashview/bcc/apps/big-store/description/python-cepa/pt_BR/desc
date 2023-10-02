@@ -1,3 +1,0 @@
-Este programa é uma biblioteca para controlar o Tor usando o Python. Ele permite que você facilmente gerencie a conexão e as
-configurações do Tor, tornando mais fácil navegar na web de forma anônima e segura. Além disso, ele também fornece recursos adicionais para trabalhar com o protocolo do Tor, como criar
-circuitos e enviar pacotes. Se você precisa de uma maneira fácil e confiável de controlar o Tor em seus projetos Python, este programa é uma ótima escolha. 

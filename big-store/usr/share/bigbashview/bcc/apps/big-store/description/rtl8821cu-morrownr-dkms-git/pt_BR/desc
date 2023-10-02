@@ -1,2 +1,0 @@
-Este é um driver para o chipset RTL8821CU, criado a partir do fork 'morrownr'. Ele permite que o sistema operacional reconheça 
-e use dispositivos com esse chipset, como adaptadores de rede sem fio. É importante para garantir a conectividade e o desempenho adequados dos dispositivos.

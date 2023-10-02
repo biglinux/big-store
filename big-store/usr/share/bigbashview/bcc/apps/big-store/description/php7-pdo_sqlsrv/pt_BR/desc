@@ -1,3 +1,0 @@
-Este é um driver especial para usar com o PHP 7 e conectar ao banco de dados Microsoft SQL Server. Ele usa a tecnologia
-PDO (PHP Data Objects) para fazer essa conexão de forma segura e fácil. Isso significa que você pode usar as mesmas funções e métodos para se conectar a qualquer banco de dados compatível
-com PDO.Com esse driver instalado, você poderá trabalhar com o banco de dados do SQL Server sem problemas, usando as ferramentas e bibliotecas já conhecidas do PHP.

@@ -1,1 +1,0 @@
-A liblas é uma biblioteca C/C++ para leitura e escrita do formato LAS LiDAR comum. O LiDAR é um  método para medir distâncias iluminando um alvo com um laser e medindo a reflexão com um sensor. O formato LAS é um formato binário padronizado para armazenar essas nuvens de pontos LiDAR.  A liblas é uma ferramenta para trabalhar com dados LAS de forma conveniente e eficiente. 

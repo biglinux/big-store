@@ -1,4 +1,0 @@
-Este programa permite acessar e controlar placas MicroPython de forma remota. Ele funciona como uma 'shell' (ou linha de
-comando) que você pode usar para enviar comandos para a placa e receber respostas. É útil para testar e debugar códigos, além de realizar tarefas avançadas com a placa. Com este programa, é
-possível realizar ações como: ler e escrever arquivos na placa, controlar os pinos de entrada e saída, acessar a internet e muito mais. Ele é especialmente útil para desenvolvedores que
-trabalham com projetos que envolvem MicroPython.

@@ -1,5 +1,0 @@
-Este programa permite que os aplicativos desenvolvidos com a biblioteca Qt se integrem
-perfeitamente com o ambiente de trabalho Liri. Isso significa que os usuários podem desfrutar de uma experiência de usuário mais fluida e consistente enquanto trabalham com esses
-aplicativos. Com a integração, as janelas dos aplicativos Qt seguem o estilo visual do ambiente de trabalho Liri, e as funcionalidades do ambiente, como o gerenciamento de janelas, também
-são aproveitadas. Além disso, os usuários também podem contar com recursos adicionais, como a capacidade de minimizar janelas para a área de notificação, e acesso rápido às configurações de
-aplicativos através do menu do ambiente de trabalho.

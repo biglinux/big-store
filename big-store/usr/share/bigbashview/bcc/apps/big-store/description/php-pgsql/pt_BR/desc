@@ -1,1 +1,0 @@
-Os módulos do PostgreSQL para PHP permitem que você conecte seu programa PHP a um banco de dados PostgreSQL. Isso significa que você pode usar comandos de SQL para acessar e manipular dados armazenados no banco de dados, como adicionar, atualizar ou excluir informações. Esse módulo é específico para o PostgreSQL, então você só pode usá-lo se o seu banco de dados for esse. 

@@ -1,1 +1,0 @@
-libnetfilter_log é uma biblioteca para usuários que fornece uma API para pacotes que foram registrados pelo netfilter. Ele foi projetado para ser flexível, eficiente e fácil de usar. A biblioteca permite que os usuários acessem os dados nos pacotes, além de configurar o processo de registro. A biblioteca é escrita em C e está disponível sob a Licença Pública Geral GNU. 

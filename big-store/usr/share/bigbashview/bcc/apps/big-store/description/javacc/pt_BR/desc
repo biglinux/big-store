@@ -1,4 +1,0 @@
-Este programa é chamado de Javacc e é usado para criar analisadores léxicos e sintáticos para o idioma
-Java. Ele funciona como um gerador de código, ou seja, você fornece uma especificação da linguagem que deseja analisar e ele gera o código fonte para um analisador léxico e sintático
-correspondente. Isso pode economizar muito tempo e esforço ao trabalhar com linguagens de programação complexas.Além disso, o Javacc suporta a criação de analisadores léxicos e sintáticos
-para várias versões do Java, incluindo Java 1.1, 1.2, 1.3 e 1.4.

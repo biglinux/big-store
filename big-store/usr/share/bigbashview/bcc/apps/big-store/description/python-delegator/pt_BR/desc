@@ -1,4 +1,0 @@
-Python-delegator é uma biblioteca em Python que torna o gerenciamento de subprocessos mais fácil e intuitivo. Com
-ela, você pode executar comandos externos, lidar com saídas e erros, e até mesmo encadear vários comandos juntos. É uma ferramenta poderosa para automatizar tarefas e integrar diferentes
-programas juntos.É uma versão atualizada da biblioteca Subprocesses for Humans, trazendo novas funcionalidades e melhorias de desempenho. Se você precisa lidar com subprocessos em seus
-projetos Python, essa biblioteca é uma ótima escolha.

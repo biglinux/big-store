@@ -1,3 +1,0 @@
-Esta é uma ferramenta de processamento de linguagem em inglês. Ela possui uma série de componentes para
-ajudar a entender e trabalhar com textos em inglês. Esses componentes incluem um transformador, um rotulador, um analisador, um reconhecedor de entidades (NER), uma regra de atributos e um 
-lematizador. A ferramenta usa o modelo 'roberta-base' e é baseada no pacote python-spacy.

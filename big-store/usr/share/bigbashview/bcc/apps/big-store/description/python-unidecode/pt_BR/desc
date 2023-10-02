@@ -1,1 +1,0 @@
- O python-unidecode é um pacote que permite a tradução de texto Unicode para ASCII. Isso é útil quando você precisa exibir caracteres que não são suportados em alguns sistemas ou dispositivos. Ele também pode ser usado para remover acentos de palavras em português, tornando-as mais fáceis de serem lidas por outros programas.  

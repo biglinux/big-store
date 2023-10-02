@@ -1,1 +1,0 @@
-A classe Module::Build é utilizada para construir módulos XS (eXternal Subroutine) para o Perl. Esses módulos são utilizados para adicionar funcionalidades escritas em linguagens de baixo nível, como C ou C++, ao Perl. A classe Module::Build é uma forma fácil e eficiente de construir esses  módulos e adicioná-los ao seu código Perl. 

@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite a utilização de SNMP (Simple Network Management Protocol). SNMP é um protocolo utilizado
-para gerenciar dispositivos de rede, como roteadores, switches e outros. Com esse módulo, é possível monitorar e controlar esses dispositivos diretamente do seu código PHP.Algumas
-funcionalidades que esse módulo oferece incluem:Acesso à informações do dispositivo, como uso de CPU e memória.Modificação de configurações do dispositivo, como alteração de senhas.Geração 
-de alertas em caso de problemas detectados no dispositivo.Esse módulo é uma excelente opção para quem precisa realizar gerenciamento de dispositivos de rede em sua aplicação PHP.

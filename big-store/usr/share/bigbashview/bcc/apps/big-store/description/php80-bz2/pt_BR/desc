@@ -1,3 +1,0 @@
-Esse é um módulo para o PHP 8.0 que permite a compactação e descompactação de arquivos usando o formato BZ2. Ele é
-útil para economizar espaço em disco e para melhorar a velocidade de transferência de arquivos, especialmente quando se trata de arquivos grandes.Para usar esse módulo, você precisará
-instalá-lo no seu servidor e habilitá-lo nas configurações do PHP. Depois disso, você poderá usar as funções do PHP para compactar e descompactar arquivos usando o formato BZ2.

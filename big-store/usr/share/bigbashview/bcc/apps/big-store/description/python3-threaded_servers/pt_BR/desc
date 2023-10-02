@@ -1,3 +1,0 @@
-Este repositório contém módulos de servidores multithread para uso em Python3, incluindo ThreadedHTTPSServer,
-ThreadedMulticastServer, Quickserve e Pacserve. Estes módulos permitem que você crie facilmente servidores HTTP e multicast com suporte a thread, tornando seu código mais escalável e
-eficiente.

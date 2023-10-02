@@ -1,6 +1,0 @@
-Esse programa é uma camada simplificada construída sobre o ITK (Insight Segmentation and Registration Toolkit). Ele permite que 
-você use as ferramentas do ITK de forma mais fácil e intuitiva, sem precisar entender todos os detalhes técnicos por trás delas. Isso pode ser útil se você estiver trabalhando com imagens
-médicas ou outros tipos de dados que precisam ser processados e analisados.O ITK é uma biblioteca de código aberto amplamente utilizada em várias áreas, incluindo a medicina, engenharia e
-ciência da computação. Ele fornece uma variedade de algoritmos para processamento de imagem, segmentação e registro de imagens, entre outras coisas. No entanto, pode ser difícil de usar
-para pessoas sem conhecimento técnico avançado.A camada simplificada do r-simpleitk torna mais fácil acessar as funcionalidades do ITK, permitindo que mais pessoas possam usar essas
-ferramentas para resolver seus problemas de processamento de imagem.

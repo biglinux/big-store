@@ -1,4 +1,0 @@
-Com o plugin Docker-zfs, é possível criar volumes persistentes usando o sistema de arquivos ZFS. Isso significa que os dados
-armazenados em volumes criados com esse plugin ficarão seguros, mesmo que o container do Docker seja excluído ou redefinido.Além disso, o plugin Docker-zfs permite a criação de snapshots do
-volume, o que é uma boa opção para backup dos dados.Para usar esse plugin, é necessário ter o ZFS instalado no sistema e configurar o Docker para usar o plugin. Depois disso, é possível
-criar volumes usando o plugin e usá-los nos containers Docker.

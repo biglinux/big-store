@@ -1,4 +1,0 @@
-Este é um módulo de extensão para o PHP 7.1 que adiciona suporte para LDAP (Lightweight Directory Access Protocol) ao seu
-aplicativo. LDAP é um protocolo usado para armazenar e recuperar informações de diretórios, como informações de usuários e contatos. Com este módulo, você pode facilmente se conectar a um
-servidor LDAP e realizar operações, como pesquisar, adicionar, modificar e excluir entradas no diretório.Para usar este módulo, você precisará ter o PHP 7.1 instalado em seu sistema, bem
-como o OpenLDAP ou outra implementação do LDAP. Ele também pode ser compilado com outros módulos de extensão, como o módulo de autenticação do PHP, para fornecer recursos adicionais.

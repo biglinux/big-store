@@ -1,1 +1,0 @@
-libheif é uma biblioteca para ler e escrever arquivos HEIF. Ele suporta codificação e decodificação de dados de  imagem, bem como leitura e escrita de metadados, como Exif e XMP. A biblioteca é escrita em C, mas também tem vínculos para outros idiomas. 

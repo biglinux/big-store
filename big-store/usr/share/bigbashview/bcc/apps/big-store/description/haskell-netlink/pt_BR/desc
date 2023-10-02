@@ -1,1 +1,0 @@
-Este programa é uma biblioteca para Haskell que fornece suporte à comunicação Netlink, um mecanismo de comunicação entre processos no kernel Linux. Ele permite que os desenvolvedores escrevam aplicativos que possam se comunicar com o kernel Linux e realizar tarefas como configurar interfaces de rede, lidar com roteamento e monitorar eventos de sistema. 

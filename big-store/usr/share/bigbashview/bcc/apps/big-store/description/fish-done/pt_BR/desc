@@ -1,3 +1,0 @@
-Com o programa fish-done, você poderá receber notificações quando processos longos terminarem no terminal fish. Isso é
-útil quando você precisa deixar um processo rodando, mas não quer ficar verificando o tempo todo se ele já terminou. Com as notificações, você será avisado assim que o processo terminar e
-poderá continuar com suas tarefas.

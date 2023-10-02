@@ -1,1 +1,0 @@
-Python-pykerberos é uma interface de alto nível para o protocolo de autenticação Kerberos. Ele oferece uma forma simples e fácil de trabalhar com o Kerberos em aplicativos Python. Com ele, você pode facilmente autenticar usuários e serviços em um ambiente seguro e criptografado. Além disso, ele também pode ser usado para criar e gerenciar chaves Kerberos. 

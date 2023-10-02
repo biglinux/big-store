@@ -1,1 +1,0 @@
- O tpm2-abrmd é um daemon que fornece acesso aos recursos TPM2 através do gerenciador de recursos. Ele é uma substituição para o tcsd e é usado para fornecer acesso seguro aos recursos TPM. Ele também inclui um corretor que pode ser usado para fornecer acesso aos recursos TPM para outros softwares. 

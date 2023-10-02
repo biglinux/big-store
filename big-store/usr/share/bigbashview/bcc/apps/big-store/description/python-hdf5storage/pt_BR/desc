@@ -1,2 +1,0 @@
- Este programa permite ler e escrever diversos tipos de dados do Python em arquivos formatados HDF5. Ele é útil para
-armazenar grandes quantidades de dados de maneira organizada e acessí-los facilmente. Com ele, é possível salvar desde números simples até listas e dicionários complexos. 

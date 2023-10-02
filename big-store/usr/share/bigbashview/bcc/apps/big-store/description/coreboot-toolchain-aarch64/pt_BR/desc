@@ -1,4 +1,0 @@
-Este programa é chamado de coreboot-toolchain-aarch64 e é usado para construir o sistema operacional Coreboot. Ele é
-importante para quem quer personalizar o firmware de seu computador ou dispositivo eletrônico. Com ele, é possível criar uma versão personalizada do Coreboot, que é um sistema operacional
-de baixo nível que é responsável por inicializar o dispositivo e carregar o sistema operacional principal. Em resumo, o coreboot-toolchain-aarch64 é uma ferramenta valiosa para quem quer
-ter mais controle sobre o firmware de seu dispositivo eletrônico.

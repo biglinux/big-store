@@ -1,3 +1,0 @@
- O Pushgateway é um programa que permite aos usuários enviar dados de medição de desempenho de jobs temporários e em
-lote para o Prometheus. Ele funciona como um intermediário entre esses jobs e o Prometheus, permitindo que você colete e visualize esses dados de forma eficiente.Ele é fácil de usar e
-configurar, e é uma ótima opção para quem precisa rastrear o desempenho de tarefas que não são executadas continuamente. 

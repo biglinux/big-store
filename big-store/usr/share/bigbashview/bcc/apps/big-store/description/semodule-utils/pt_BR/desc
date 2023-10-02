@@ -1,3 +1,0 @@
- semodule-utils é um conjunto de ferramentas para trabalhar com módulos do SELinux. SELinux é um sistema de segurança
-baseado em políticas que ajuda a proteger o seu dispositivo ou servidor. Com o semodule-utils, você pode gerenciar os módulos SELinux, criar novos módulos e editar os módulos existentes.
-Isso ajuda a aumentar a segurança do seu sistema e proteger os seus dados. Se você está procurando uma maneira de melhorar a segurança do seu sistema, semodule-utils é uma ótima escolha!

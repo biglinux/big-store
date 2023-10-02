@@ -1,3 +1,0 @@
-Este programa é um módulo para a captura de telas em formato vetorial, como PDF, SVG e PostScript. Ele é baseado na biblioteca
-GTK, que é uma biblioteca de interface gráfica para aplicativos em sistemas Linux. Com este programa, você pode capturar a tela inteira ou apenas uma parte específica, e salvar o arquivo
-como um desses formatos vetoriais mencionados. Isso pode ser útil para criar imagens de alta qualidade para documentação ou para compartilhar com outras pessoas.

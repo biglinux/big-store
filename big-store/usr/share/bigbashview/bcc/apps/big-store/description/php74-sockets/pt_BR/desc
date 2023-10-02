@@ -1,3 +1,0 @@
- Este é um módulo de sockets para a versão 7.4 do PHP. Ele permite que você crie e gerencie conexões de rede em seu código
-PHP, o que é útil para a criação de aplicativos de rede ou para se comunicar com outros sistemas através da internet. Ele possui várias funções e classes que ajudam na criação e
-gerenciamento de conexões de socket, como a criação de servidores de socket, conexões de cliente, envio e recebimento de dados e gerenciamento de erros. 

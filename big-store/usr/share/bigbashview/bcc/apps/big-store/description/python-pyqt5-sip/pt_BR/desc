@@ -1,1 +1,0 @@
-O módulo sip é uma ferramenta que permite que o PyQt5, biblioteca para desenvolvimento de interface gráfica com o Qt5, comunique com o Python. Ele é necessário para que as aplicações feitas com PyQt5 possam funcionar corretamente. Ele é instalado automaticamente junto com a biblioteca PyQt5. 

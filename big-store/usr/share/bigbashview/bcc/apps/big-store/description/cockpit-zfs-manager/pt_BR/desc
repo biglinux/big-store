@@ -1,4 +1,0 @@
-Este é um pacote de administração de ZFS no Linux interativo para o Cockpit. Ele permite que você crie, gerencie e monitore
-seus sistemas de arquivos ZFS de dentro do Cockpit, uma interface web amigável e fácil de usar. Com ele, você pode criar pools de armazenamento, volumes e snapshots com apenas alguns
-cliques. Além disso, você pode visualizar estatísticas detalhadas sobre o uso de disco e monitorar a saúde dos seus sistemas de arquivos. É uma ótima ferramenta para administradores de
-sistemas que desejam gerenciar sua infraestrutura ZFS de forma fácil e intuitiva.

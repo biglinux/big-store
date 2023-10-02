@@ -1,4 +1,0 @@
-Este programa é um gerenciador de deduplicação para o sistema de arquivos Btrfs. Ele funciona como um daemon, ou seja,
-fica rodando em segundo plano e realiza a deduplicação de arquivos sempre que possível. Ele é chamado de Best-Effort Extent-Same, ou simplesmente bees-git, e foi criado para ajudar a
-economizar espaço em disco.A deduplicação é o processo de remover cópias de arquivos idênticos, mantendo apenas uma cópia e criando links simbólicos para as outras. Isso pode ser muito útil
-em sistemas de arquivos como o Btrfs, que permite a criação de snapshots, pois os arquivos comuns entre snapshots só precisam ser armazenados uma vez.

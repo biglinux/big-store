@@ -1,1 +1,0 @@
-Uma biblioteca de multithreading nativa e leve, com avaliação lazy. Esse programa se chama lua52-lanes e é especialmente projetado para ser usado com a linguagem Lua, proporcionando aos desenvolvedores a capacidade de executar várias tarefas ao mesmo tempo sem precisar se preocupar com questões de sincronização de thread. 

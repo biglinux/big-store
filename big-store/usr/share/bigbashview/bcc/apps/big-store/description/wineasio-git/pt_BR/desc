@@ -1,4 +1,0 @@
-Este programa é um driver ASIO para o Wine. Ele permite que você use dispositivos de áudio ASIO em aplicativos que rodam no Wine. Isso 
-significa que você pode usar seu software de produção de áudio favorito no Linux ou Mac, sem precisar usar o Windows. O driver é baseado no código do ASIO4ALL, mas foi adaptado para
-funcionar com o Wine. Ele suporta múltiplos dispositivos e tem controles de volume e buffer. Ele também é compatível com a maioria dos aplicativos de produção de áudio que usam o ASIO. Este
-é um projeto de código aberto, o que significa que qualquer pessoa pode contribuir com o desenvolvimento do mesmo.

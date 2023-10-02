@@ -1,3 +1,0 @@
-A ferramenta rfcomm do Bluez é um programa antigo que foi descontinuado. Ele era usado para conectar dispositivos
-Bluetooth através de um protocolo chamado rfcomm. Agora, existem outras ferramentas mais atualizadas disponíveis para fazer essa conexão.Se você estiver usando essa ferramenta em um
-projeto, é recomendável que você mude para uma alternativa mais recente para garantir que tudo funcione corretamente.

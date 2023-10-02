@@ -1,3 +1,0 @@
-Este programa adiciona suporte para a codificação ZStandard ao arquivador de arquivos p7zip. Isso significa que ele
-permite compactar e descompactar arquivos usando essa codificação específica, o que pode ajudar a economizar espaço em disco e aumentar a velocidade de transferência de arquivos.Além disso,
-é uma opção adicional para compactação, então você pode escolher qual codificação usar para cada arquivo individualmente de acordo com suas necessidades.

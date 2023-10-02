@@ -1,2 +1,0 @@
- Este é um plugin para o obs-studio que permite a captura de tela em compositor baseado em wlroots, que é usado por vários
-ambientes de trabalho Wayland.Ele é especialmente útil para quem usa esses tipos de ambientes e precisa gravar ou transmitir sua tela.

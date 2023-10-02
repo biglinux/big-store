@@ -1,2 +1,0 @@
- Este programa fornece um comando para identificar quais processos em execução têm arquivos que foram modificados no
-disco. Ele também fornece um gancho pacman e pacman-ps para mostrar quais pacotes possuem os arquivos que ainda estão abertos. (Forkado a partir do pacman-ps do samcv) 

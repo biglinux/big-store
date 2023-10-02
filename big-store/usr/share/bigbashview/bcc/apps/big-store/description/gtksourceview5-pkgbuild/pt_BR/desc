@@ -1,4 +1,0 @@
- Este programa adiciona suporte ao destaque de sintaxe para arquivos PKGBUILD em editores compatíveis com gtksourceview5.
-Isso significa que as palavras-chave e outros elementos específicos do PKGBUILD serão destacados em cores diferentes, tornando mais fácil para você identificá-los e editá-los. Além disso,
-isso também pode ajudar a evitar erros comuns, como digitar o nome de um pacote incorreto.Em resumo, se você é um usuário frequente de arquivos PKGBUILD e deseja tornar a edição deles
-mais fácil e precisa, este programa é uma excelente opção para você. 

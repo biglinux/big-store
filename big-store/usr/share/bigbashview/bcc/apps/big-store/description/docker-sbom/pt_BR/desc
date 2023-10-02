@@ -1,3 +1,0 @@
-Este programa é um plugin para o Docker CLI, ele permite que você crie um SBOM (Software Bill of Materials) usando o Syft. O
-SBOM é uma lista detalhada dos componentes de software utilizados em um projeto, incluindo suas versões e informações de licenciamento. Com este plugin, você pode facilmente gerar um SBOM
-para seu projeto, ajudando a garantir a segurança e a conformidade com as regulamentações.

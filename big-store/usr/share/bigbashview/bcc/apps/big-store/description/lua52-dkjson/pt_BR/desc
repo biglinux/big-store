@@ -1,1 +1,0 @@
-Este é um módulo para o programa Lua 5.2, desenvolvido por David Kolf. Ele fornece suporte para a codificação e decodificação de dados JSON (JavaScript Object Notation) e também possui suporte para caracteres UTF-8. Além disso, ele não possui dependências externas, o que o torna uma escolha ideal para projetos que buscam simplicidade e eficiência. 

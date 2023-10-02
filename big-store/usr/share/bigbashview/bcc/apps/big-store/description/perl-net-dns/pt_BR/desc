@@ -1,1 +1,0 @@
-Esse é um módulo para o Perl que fornece uma interface para o resolvimento de nomes de domínio (DNS). Ele permite que você faça consultas DNS de forma fácil e eficiente diretamente em seu código Perl, sem precisar de comandos externos. Com esse módulo, você pode realizar diversas operações DNS, como buscar endereços IP, MX, entre outros tipos de registros. 

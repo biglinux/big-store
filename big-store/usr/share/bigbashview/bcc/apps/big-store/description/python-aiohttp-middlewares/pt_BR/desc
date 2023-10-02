@@ -1,4 +1,0 @@
-Este é um pacote de middlewares para aplicações web aiohttp. Ele contém uma variedade de middlewares úteis, como autenticação,
-validação de dados e gerenciamento de erros, que podem ser facilmente adicionados à sua aplicação. Com esses middlewares, você pode tornar sua aplicação mais segura e fácil de usar para os 
-usuários.Este pacote é escrito em Python, e é compatível com as versões mais recentes do aiohttp. Ele é open-source e está disponível no GitHub, então você pode contribuir ou sugerir novos 
-recursos.

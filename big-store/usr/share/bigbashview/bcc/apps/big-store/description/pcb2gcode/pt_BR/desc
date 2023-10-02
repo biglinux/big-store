@@ -1,4 +1,0 @@
- O pcb2gcode é uma ferramenta de linha de comando que 
-ajuda a transformar arquivos gerber de placas de circuito impresso em código gcode, que é o código utilizado para controlar máquinas CNC. Ele é usado para fazer o isolamento, roteamento e
-perfuração de placas de circuito impresso, tornando-o uma ferramenta valiosa para projetistas e fabricantes de PCB. Ele é fácil de usar e possui diversas opções de configuração para se
-adequar às suas necessidades específicas. 

@@ -1,1 +1,0 @@
-Este programa oferece uma melhoria no tratamento de fusos horários para a biblioteca Data.Time do Haskell. Com ele, você poderá manipular datas e horários com mais precisão e facilidade. O nome do pacote é 'haskell-timezone-series' 

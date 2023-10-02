@@ -1,3 +1,0 @@
-Este programa é chamado de 'python-url-normalize'. Ele ajuda a deixar as URLs em um padrão específico, o que é útil para
-evitar problemas ao acessar um site.Por exemplo, se você digitar 'www.google.com' e 'google.com', eles podem levar a lugares diferentes. Com este programa, ambas as URLs serão convertidas
-para 'https://www.google.com', garantindo que você acesse sempre a mesma página.

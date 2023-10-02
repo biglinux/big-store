@@ -1,3 +1,0 @@
-Essa é uma biblioteca de JSON para C++ moderno, chamada nlohmann-json-git. Ela é apenas um cabeçalho, ou seja, você não
-precisa se preocupar com arquivos de fonte ou objeto, basta incluir o cabeçalho na sua aplicação. Com ela, você pode facilmente ler e escrever arquivos JSON, bem como trabalhar com dados
-JSON em sua aplicação.

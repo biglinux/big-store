@@ -1,3 +1,0 @@
-Um gerenciador de arquivos para o Android Debug Bridge (ADB) com interface de usuário de texto (TUI). Com ele, você pode
-navegar, copiar, mover e excluir arquivos no dispositivo Android conectado ao seu computador através do ADB. Ele é fácil de usar e oferece uma alternativa às ferramentas de gerenciamento de
-arquivos tradicionais para dispositivos Android.

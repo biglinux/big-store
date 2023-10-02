@@ -1,4 +1,0 @@
-Este programa é um wrapper de API para o aplicativo de bate-papo Discord, escrito em Python. Ele permite que você
-interaja facilmente com o Discord usando comandos de programação, ao invés de fazer isso manualmente através da interface do usuário. Isso torna mais fácil automatizar tarefas, criar
-scripts personalizados e integrar o Discord com outros aplicativos.Ele é baseado na biblioteca oficial do Discord, que fornece uma série de recursos para construir aplicativos de
-bate-papo. Ele é simples de usar e não requer conhecimento avançado em programação. 

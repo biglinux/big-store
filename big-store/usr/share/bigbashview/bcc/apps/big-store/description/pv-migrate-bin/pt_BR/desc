@@ -1,3 +1,0 @@
- Com o pv-migrate-bin, você pode facilmente migrar seus volumes persistentes do Kubernetes. Ele é uma
-ferramenta de linha de comando (CLI) que torna o processo de migração simples e eficiente. Com ele, você pode garantir que seus dados importantes estejam sempre seguros e acessíveis, mesmo 
-durante a migração. 

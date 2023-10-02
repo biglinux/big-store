@@ -1,4 +1,0 @@
-Este programa é uma ferramenta de linha de comando que permite trabalhar com Cloudflare 
-Workers, um serviço da Cloudflare que permite que você execute scripts em todos os nós de borda da rede de entrega de conteúdo da Cloudflare. Com essa ferramenta, você pode gerenciar seus
-Workers, criar novos scripts e implantá-los na nuvem. Além disso, também é possível gerenciar seus Workers em diversas contas e projetos.É uma ótima opção para desenvolvedores que desejam
-automatizar tarefas relacionadas ao Cloudflare Workers e é fácil de usar, mesmo para usuários sem experiência prévia.

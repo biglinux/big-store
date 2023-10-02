@@ -1,1 +1,0 @@
- O pacote python-unicodedata2 fornece atualizações e backports para a biblioteca unicodedata no Python  3. Ele inclui dados adicionais e correções para caracteres unicode que não estavam presentes na versão original. Isso pode ser útil para aplicações que precisam lidar com diferentes conjuntos de caracteres e idiomas.  

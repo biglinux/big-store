@@ -1,4 +1,0 @@
-Este programa é responsável por gerenciar a saída de energia do sistema quando usando o protocolo Wayland. Isso
-significa que ele controla como a tela e outros dispositivos de saída de vídeo são gerenciados, incluindo ajustes de brilho e outras configurações. Ele trabalha em conjunto com outros
-programas para garantir que o sistema use a menor quantidade de energia possível, sem comprometer a qualidade da imagem ou a experiência do usuário. Ele permite que você faça ajustes de
-acordo com suas necessidades, como desativar a tela quando não estiver usando ou ajustar o brilho automaticamente com base na iluminação ambiente.

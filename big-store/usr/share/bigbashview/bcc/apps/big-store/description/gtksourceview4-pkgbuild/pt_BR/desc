@@ -1,4 +1,0 @@
-Esse programa adiciona suporte para destaque de sintaxe de arquivos PKGBUILD em editores compatíveis com
-gtksourceview4. Isso significa que, ao abrir um arquivo PKGBUILD no editor, as palavras-chave e outros elementos importantes serão destacados com cores diferentes, tornando mais fácil para 
-você ler e entender o código.Isso é útil para desenvolvedores de software que trabalham com pacotes para sistemas baseados em Arch Linux, pois ajuda a identificar rapidamente erros e
-facilitar a escrita de código.

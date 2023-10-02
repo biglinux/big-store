@@ -1,1 +1,0 @@
-ruby-pandoc-ruby é um wrapper de Ruby para o Pandoc, que é uma ferramenta de conversão de documentos. Ele permite que você converta arquivos de vários formatos, como Markdown, HTML, e PDF, usando Ruby. 

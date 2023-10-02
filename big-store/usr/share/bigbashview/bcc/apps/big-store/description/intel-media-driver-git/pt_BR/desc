@@ -1,4 +1,0 @@
-Este programa é um driver de mídia Intel para placas gráficas VAAPI. Ele é específico para placas gráficas Broadwell+ e
-é a versão mais recente disponível através de um repositório git. Ele permite que você use recursos avançados de mídia, como reprodução de vídeo de alta qualidade e codificação, em sistemas
-com essas placas gráficas.Este programa é projetado para desenvolvedores e usuários avançados que desejam obter as últimas funcionalidades e correções de bugs disponíveis antes de serem
-lançadas oficialmente. Ele pode ser instalado manualmente a partir do repositório git e requer alguma configuração adicional para funcionar corretamente.

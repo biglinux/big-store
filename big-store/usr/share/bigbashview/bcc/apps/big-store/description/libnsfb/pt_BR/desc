@@ -1,3 +1,0 @@
-Libnsfb é uma biblioteca que permite que outros programas acessem o framebuffer de maneira abstrata. Isso significa
-que o programa pode usar a libnsfb para desenhar coisas na tela sem se preocupar com os detalhes de como o framebuffer realmente funciona. Isso é útil porque diferentes sistemas
-operacionais e dispositivos têm maneiras diferentes de acessar o framebuffer, então usando a libnsfb permite que o programa funcione em vários sistemas sem precisar ser modificado.

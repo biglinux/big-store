@@ -1,3 +1,0 @@
- Com a biblioteca python-ev3dev2, você pode controlar facilmente dispositivos ev3dev usando o Python3. Essa
-biblioteca implementa uma interface amigável e fácil de usar para esses dispositivos, permitindo que você execute ações como mover motores, ler sensores e muito mais. Se você está
-trabalhando com robótica ou dispositivos ev3dev, essa biblioteca será uma excelente ferramenta para você.

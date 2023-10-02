@@ -1,3 +1,0 @@
- Esta é uma biblioteca que ajuda a criar janelas em programas que usam X11 e Wayland. Ela foi feita para ser
-usada com o libxfce4windowing-git, mas pode ser usada para outros programas também. A versão que você está usando é a versão que está sendo desenvolvida (git checkout), então é possível que
-haja alguns erros ou problemas a serem corrigidos. 

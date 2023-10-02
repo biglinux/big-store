@@ -1,1 +1,0 @@
-Este é um programa escrito em Haskell que implementa a função de hash MurmurHash2. A função de hash é usada para transformar um conjunto de dados em um valor único, chamado 'hash', que pode ser usado para comparar, classificar ou identificar esses dados de maneira rápida e eficiente. 

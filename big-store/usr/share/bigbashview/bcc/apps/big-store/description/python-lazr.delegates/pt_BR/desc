@@ -1,1 +1,0 @@
-python-lazr.delegates é um pacote que permite que você escreva objetos de maneira fácil e eficiente, permitindo que você delegue comportamentos para outros objetos. Isso pode ser útil em muitas situações, como quando você precisa herdar comportamentos de múltiplas classes ao mesmo tempo. 

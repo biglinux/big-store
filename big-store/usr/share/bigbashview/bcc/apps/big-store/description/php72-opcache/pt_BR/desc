@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 7.2 chamado OPCache. Ele ajuda a melhorar o desempenho do seu website, fazendo com que as páginas
-carreguem mais rápido. Ele armazena uma versão compilada das suas páginas PHP na memória, para que elas não precisem ser re-compiladas toda vez que alguém as acessa. Isso pode fazer uma
-grande diferença em sites grandes ou que recebem muito tráfego.Para usar esse módulo, você precisará instalá-lo no seu servidor e ativá-lo no arquivo de configuração do PHP. Depois disso,
-você pode começar a usufruir dos benefícios do OPCache em seu website.

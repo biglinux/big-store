@@ -1,5 +1,0 @@
-Esse programa é uma ferramenta que permite que outros programas vejam como as bibliotecas GObject funcionam. Isso é
-chamado de introspecção. Ele fornece informações sobre as classes e funções disponíveis em uma biblioteca, permitindo que outros programas possam usá-las facilmente. Isso é importante para 
-desenvolvedores de software, pois facilita a criação de programas que possam usar diferentes bibliotecas.Esse programa é uma biblioteca de tempo de execução, o que significa que ele é
-necessário para que outros programas possam usar as informações de introspecção. Ele é usado em conjunto com outras bibliotecas para permitir que as informações sejam acessadas enquanto o
-programa estiver em execução.

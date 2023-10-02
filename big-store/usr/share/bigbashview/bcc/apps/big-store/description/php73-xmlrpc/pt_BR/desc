@@ -1,5 +1,0 @@
- Este é um módulo para o PHP 7.3 que permite a você fazer chamadas remotas usando o protocolo XML-RPC. Isso significa que você
-pode usar essa biblioteca para se comunicar com outros programas ou sites que também usam o protocolo XML-RPC. É uma maneira fácil e segura de compartilhar informações e funcionalidades
-entre diferentes programas.Alguns exemplos de como esse módulo pode ser usado incluem: criar um sistema de comentários para um site, sincronizar dados entre diferentes aplicativos,
-integrar um fórum com um sistema de gerenciamento de conteúdo.Ele é compatível com a maioria dos sistemas operacionais e pode ser facilmente instalado usando gerenciadores de pacotes
-como o PECL. 

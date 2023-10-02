@@ -1,1 +1,0 @@
-Este programa é escrito em Haskell e utiliza a biblioteca Tasty para criar testes automatizados. Ele permite que você verifique vários itens durante um teste, tornando-o mais fácil de gerenciar e entender os resultados. Ele é especialmente útil para projetos grandes e complexos, onde é importante  ter certeza de que todos os componentes estão funcionando corretamente. 

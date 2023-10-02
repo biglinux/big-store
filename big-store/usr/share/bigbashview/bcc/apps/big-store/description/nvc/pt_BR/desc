@@ -1,4 +1,0 @@
- Este programa é um compilador e simulador para a linguagem de descrição de hardware VHDL. Ele permite escrever código em VHDL e 
-testá-lo antes de implementá-lo em um dispositivo de hardware real. Isso torna o desenvolvimento de projetos de hardware mais fácil e eficiente, pois você pode verificar se o seu código
-está funcionando corretamente antes de produzi-lo em grande escala. Além disso, ele também pode ser útil para quem está aprendendo a linguagem VHDL, pois permite experimentar e testar seus 
-conhecimentos de maneira segura e sem precisar de hardware real. 

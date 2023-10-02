@@ -1,3 +1,0 @@
-Essa é uma gem, ou pedaço de código, que permite que você use o OpenStack como provedor de nuvem. Ela é escrita em Ruby e é chamada
-'ruby-fog-openstack'. Com ela, você pode fazer coisas como criar e gerenciar máquinas virtuais, armazenamento e outros recursos do OpenStack de forma fácil e rápida. Se você já trabalha com
-Ruby e precisa usar o OpenStack, essa gem é uma boa opção para você.

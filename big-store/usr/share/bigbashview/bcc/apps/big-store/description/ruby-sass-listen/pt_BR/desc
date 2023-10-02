@@ -1,1 +1,0 @@
-Este programa é capaz de escutar por modificações em arquivos e notificá-lo quando elas acontecerem. Ele é escrito em Ruby e utiliza a biblioteca Sass para acompanhar as alterações. 

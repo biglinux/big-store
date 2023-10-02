@@ -1,1 +1,0 @@
-O programa perl-devel-cycle é utilizado para encontrar ciclos de memória em objetos, o que pode ajudar a identificar e corrigir problemas de desempenho no seu código. Ele funciona verificando as referências entre os objetos e detectando padrões de ciclos. Com este programa, você pode tornar seu código mais  eficiente e evitar erros desnecessários. 

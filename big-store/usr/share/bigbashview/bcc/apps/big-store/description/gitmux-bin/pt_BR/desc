@@ -1,5 +1,0 @@
-Com o gitmux-bin, você pode gerenciar seu repositório Git diretamente na sua barra de status do Tmux. Não precisa mais
-alternar entre as janelas para verificar o status do seu repositório ou fazer commit. O gitmux-bin torna tudo isso muito mais fácil e rápido. Basta instalar o gitmux-bin e ver como ele se
-integra perfeitamente à sua barra de status do Tmux, exibindo informações sobre o status do seu repositório, como branch atual, número de arquivos modificados e muito mais. Além disso, você
-pode realizar ações como commit, push e pull diretamente da barra de status, sem precisar alternar para outra janela. Experimente o gitmux-bin hoje mesmo e veja como ele pode tornar seu
-fluxo de trabalho com Git ainda mais eficiente e produtivo!

@@ -1,1 +1,0 @@
-Esse programa é escrito em Perl e tem como objetivo testar a presença de alertas (warnings) no código. Ele verifica se há algum  alerta presente e, se não houver, o programa informa que não há alertas. 

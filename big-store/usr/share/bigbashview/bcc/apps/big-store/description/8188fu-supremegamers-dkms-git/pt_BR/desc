@@ -1,2 +1,0 @@
-Este programa é um driver para adaptadores wireless da Realtek, modelos RTL8188FU e RTL8188FTV. Ele permite que esses
-dispositivos se conectem à internet através de uma conexão wireless.Este driver é específico para o device id 0bda:f179 e é compatível com a versão 2.0 do padrão USB.

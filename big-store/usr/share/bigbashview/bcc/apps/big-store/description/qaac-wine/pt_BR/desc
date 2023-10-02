@@ -1,4 +1,0 @@
-Este é um programa chamado qaac-wine. Ele é usado para codificar áudios no formato QuickTime AAC/ALAC, mas funciona 
-especificamente na plataforma Wine. Isso significa que ele foi adaptado para funcionar no sistema operacional Windows, mas através do uso do Wine, que é um programa que permite que
-aplicativos do sistema operacional Linux, Mac e Windows sejam executados no Windows.Com este codificador, você pode transformar seus arquivos de áudio em um formato compatível com o
-QuickTime, que é um player de mídia desenvolvido pela Apple. Ele é ideal para quem precisa trabalhar com arquivos de áudio em sistemas Windows e quer usar o formato QuickTime AAC/ALAC.

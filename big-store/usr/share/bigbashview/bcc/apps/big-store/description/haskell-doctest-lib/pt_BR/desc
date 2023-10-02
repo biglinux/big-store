@@ -1,1 +1,0 @@
-A biblioteca Haskell-doctest-lib expõe partes do pacote doctest como uma biblioteca, permitindo que você use suas funcionalidades de testes de documentação em outros projetos. Com essa biblioteca, você pode facilmente criar testes de unidade para sua documentação e garantir que ela esteja sempre atualizada e precisa. 

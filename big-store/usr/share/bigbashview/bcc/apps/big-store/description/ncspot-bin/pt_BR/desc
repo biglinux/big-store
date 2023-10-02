@@ -1,2 +1,0 @@
-Este é um programa chamado ncspot-bin que permite a você controlar o Spotify diretamente de seu terminal. Ele é escrito em Rust
-e foi inspirado por outros programas similares como ncmpc. Ele é compatível com várias plataformas, o que significa que você pode usá-lo em diferentes tipos de computadores.

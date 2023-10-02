@@ -1,3 +1,0 @@
- O firejail-pacman-hook é um programa que ajuda a manter a segurança enquanto você usa o gerenciador de pacotes pacman no 
-seu computador. Ele faz isso atualizando os links simbólicos do firejail sempre que você realiza uma operação com o pacman. Isso garante que o firejail sempre esteja protegendo você, mesmo 
-quando você instala ou atualiza programas. É uma maneira fácil e segura de gerenciar seus programas no Linux. 

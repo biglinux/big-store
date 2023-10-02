@@ -1,1 +1,0 @@
-ruby-msgpack é uma implementação do formato de mensagens MessagePack para a linguagem de programação Ruby. Ele permite a serialização e desserialização de dados em um formato compacto e eficiente, tornando-o útil para a comunicação entre aplicativos e sistemas. Além disso, ele suporta uma ampla variedade de tipos de dados, incluindo números, strings, arrays e objetos. 

@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 8.2 que adiciona suporte para a compressão bz2. Ele permite que você trabalhe com arquivos compactados
-usando este formato de compressão diretamente do seu código PHP.Isso é útil se você precisar enviar ou receber arquivos grandes ou se quiser otimizar o armazenamento de dados em seu
-aplicativo. Com este módulo, você pode facilmente compactar e descompactar arquivos, sem precisar usar ferramentas externas.

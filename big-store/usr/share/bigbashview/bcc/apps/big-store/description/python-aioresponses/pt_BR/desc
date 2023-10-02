@@ -1,1 +1,0 @@
- python-aioresponses é uma biblioteca que permite você simular facilmente solicitações web feitas com o pacote python aiohttp. Ele é útil para fins de teste e desenvolvimento, pois permite simular respostas de um servidor web sem precisar realmente fazer a solicitação. Isso pode economizar tempo e recursos e tornar seus testes mais confiáveis. 

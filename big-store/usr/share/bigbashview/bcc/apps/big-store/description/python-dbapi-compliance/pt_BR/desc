@@ -1,1 +1,0 @@
-Este é um conjunto de testes para garantir que um driver de banco de dados Python seja compatível  com a API de banco de dados Python 2.0. Ele verifica se o driver implementa todos os métodos e comportamentos especificados na API, garantindo assim que o driver possa ser usado com diferentes aplicativos que dependem da API. 

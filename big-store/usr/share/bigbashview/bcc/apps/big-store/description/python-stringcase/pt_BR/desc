@@ -1,3 +1,0 @@
-Este programa ajuda a mudar a forma como as palavras estão escritas em uma string. Por exemplo, ele pode mudar de 'snake_case'
-para 'camelCase'. Isso pode ser útil se você estiver trabalhando com nomes de variáveis ou de funções em seu código. Ele suporta vários tipos diferentes de casos, incluindo 'camelCase',
-'PascalCase', 'snake_case' entre outros.

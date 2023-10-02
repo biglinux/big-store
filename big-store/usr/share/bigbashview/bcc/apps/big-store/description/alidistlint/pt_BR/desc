@@ -1,3 +1,0 @@
-Essa ferramenta, chamada alidistlint, é usada para verificar se os receitas de construção do ALICE estão escritas
-corretamente. Ela é usada pelos desenvolvedores do CERN para garantir que o código seja limpo e fácil de entender. Ao usar alidistlint, os erros de sintaxe e outros problemas comuns são
-automaticamente detectados e corrigidos, o que economiza tempo e esforço para os desenvolvedores. Além disso, a ferramenta também ajuda a manter o código consistente e padronizado.

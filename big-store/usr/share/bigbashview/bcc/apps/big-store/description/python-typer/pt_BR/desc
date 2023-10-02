@@ -1,1 +1,0 @@
-python-typer é uma biblioteca que facilita a criação de ótimas interfaces de linha de comando (CLIs) em Python. Ela é baseada em dicas de tipo Python, o que torna fácil definir os argumentos e opções que sua CLI deve aceitar. Com python-typer, você pode criar CLIs fáceis de codificar, entender e usar. 

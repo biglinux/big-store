@@ -1,1 +1,0 @@
-A ruby-rugged é uma ligação para a biblioteca libgit2, que permite acessar recursos do git de dentro de sua aplicação Ruby. Isso inclui operações como commit, push, pull, merge e muito mais. Com ela é possível criar aplicações de gerenciamento de código fonte, ferramentas de integração contínua e muito mais. 

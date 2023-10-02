@@ -1,1 +1,0 @@
-CBOR é uma representação binária de objetos simples e flexíveis, semelhante ao JSON. Ele é projetado para ser eficiente em termos de espaço e tempo, permitindo que os dados sejam transmitidos e armazenados de forma eficiente. A biblioteca haskell-cborg é uma implementação em Haskell do padrão CBOR. 

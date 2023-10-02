@@ -1,3 +1,0 @@
-A biblioteca oficial ProtonVPN para o NetworkManager, mantida pela equipe ProtonVPN. Ela permite que você configure 
-e gerencie facilmente sua conexão VPN no Linux.Com essa biblioteca, você pode conectar e desconectar facilmente da sua VPN, ver o status de sua conexão e escolher qual servidor VPN quer
-usar. Além disso, ela também inclui recursos adicionais como proteção contra vazamento de DNS e opções avançadas de configuração.

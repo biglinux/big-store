@@ -1,1 +1,0 @@
-O python-numexpr é um avaliador rápido de expressões numéricas para arrays em Python, NumPy, PyTables e pandas. Ele permite que você execute operações matemáticas complexas em grandes conjuntos de dados sem precisar carregá-los inteiros na memória. Isso torna-o ideal para trabalhar com grandes conjuntos de dados, como arquivos de imagem ou tabelas de dados de grande porte. 

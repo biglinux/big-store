@@ -1,3 +1,0 @@
-Kubernetes-cni-bin é um pacote de instalação para a ferramenta de rede CNI (Container Network Interface) no Kubernetes. Ele
-permite que as redes de containers sejam criadas e gerenciadas de forma eficiente dentro do cluster Kubernetes. Com esse pacote, é possível instalar e configurar facilmente a CNI no
-cluster, garantindo que as aplicações em containers possam se comunicar de forma adequada. 

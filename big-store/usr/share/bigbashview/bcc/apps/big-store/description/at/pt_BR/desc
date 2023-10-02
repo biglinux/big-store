@@ -1,1 +1,0 @@
-O programa 'at' é uma ferramenta útil para agendar comandos para serem executados em um momento específico no futuro. Ele também pode ser configurado como um daemon para continuar agendando comandos mesmo quando você não estiver usando o computador. Isso é útil para tarefas automatizadas, como backups regulares ou atualizações de software. 

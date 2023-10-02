@@ -1,1 +1,0 @@
-Pony ORM é uma ferramenta para mapeamento de objetos relacionais em Python. Ele permite acessar banco de dados de forma simples e intuitiva, sem precisar escrever comandos SQL. Ele suporta vários bancos de dados, incluindo MySQL, PostgreSQL e SQLite. Com Pony ORM, você pode criar, ler, atualizar e excluir registros em seu banco de dados de forma fácil e eficiente. 

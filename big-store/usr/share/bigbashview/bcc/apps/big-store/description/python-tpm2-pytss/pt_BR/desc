@@ -1,1 +1,0 @@
-Este programa permite acesso ao TPM2-TSS (Trusted Platform Module 2 - TSS) usando Python. Ele fornece uma interface fácil  de usar para trabalhar com dispositivos TPM2, incluindo operações de criptografia, assinatura e gerenciamento de chaves. Isso é útil para desenvolvedores que desejam incluir recursos de segurança em dispositivos IoT, computadores e outros sistemas. 

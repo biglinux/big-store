@@ -1,4 +1,0 @@
-Este programa é uma ferramenta para gerenciar máquinas virtuais utilizando uma interface gráfica
-amigável, semelhante ao VirtualBox. Ele utiliza a biblioteca Qt5 e se comunica com o QEMU para criar e gerenciar as máquinas virtuais.Com ele é possível criar novas máquinas virtuais,
-iniciá-las, pausá-las e finalizá-las de maneira simples e intuitiva. Além disso, é possível acessar as configurações avançadas do QEMU para personalizar as máquinas virtuais de acordo com
-suas necessidades.

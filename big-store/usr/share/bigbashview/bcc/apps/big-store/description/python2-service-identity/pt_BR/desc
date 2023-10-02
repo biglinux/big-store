@@ -1,5 +1,0 @@
-Este programa é uma verificação de identidade de serviço para o pyOpenSSL. Ele é escrito em Python2 e tem
-como objetivo garantir a segurança de conexões SSL (Secure Socket Layer) durante a transmissão de dados na internet. Isso é feito através da validação da identidade do servidor antes de
-estabelecer uma conexão criptografada. Assim, você pode ter certeza de que está se comunicando com o servidor correto e que suas informações estão seguras. Esta ferramenta é uma escolha
-popular para aplicações web que precisam de segurança na transmissão de dados, como bancos de dados, comunicações financeiras e outras informações confidenciais. Ela é fácil de usar e
-oferece uma camada adicional de segurança para sua aplicação. 

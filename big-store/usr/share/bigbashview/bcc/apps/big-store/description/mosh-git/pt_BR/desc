@@ -1,2 +1,0 @@
-Este programa é uma versão em desenvolvimento de um shell móvel, projetado para sobreviver a desconexões. Ele oferece
-edição de linha e echo local, o que significa que você pode continuar digitando comandos mesmo se a conexão for interrompida.

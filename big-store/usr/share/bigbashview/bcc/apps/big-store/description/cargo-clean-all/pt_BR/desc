@@ -1,4 +1,0 @@
- Este programa é útil para limpar todos os projetos do Cargo de forma recursiva, dentro de um diretório específico. Isso significa
-que ele irá remover todos os arquivos gerados pelo cargo, como arquivos de cache e pacotes baixados, deixando apenas o código-fonte dos projetos. Isso pode ser útil, por exemplo, quando
-você deseja liberar espaço em disco ou deseja garantir que todos os projetos estejam em um estado limpo antes de compilá-los.Para usar este programa, basta fornecer o diretório raiz dos 
-projetos como argumento de linha de comando. O programa então percorrerá todos os subdiretórios procurando projetos do cargo e limpando-os. 

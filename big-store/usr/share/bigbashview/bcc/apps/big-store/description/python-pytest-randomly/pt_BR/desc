@@ -1,1 +1,0 @@
-Esse plugin para o Pytest permite que você ordene os testes de forma aleatória e controle a seed (semente) do gerador de números aleatórios. Isso pode ser útil para encontrar problemas de dependência entre testes que só acontecem em determinadas ordens de execução. 

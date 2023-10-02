@@ -1,1 +1,0 @@
-Uma biblioteca de fila de busca com prioridade pura escrita em Haskell. Ela fornece uma estrutura de dados eficiente para armazenar e gerenciar elementos com prioridade, permitindo operações como inserção, remoção e busca em tempo constante. 

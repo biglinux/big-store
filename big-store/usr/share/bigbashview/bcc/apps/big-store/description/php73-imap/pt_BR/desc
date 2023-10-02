@@ -1,4 +1,0 @@
-Este é um módulo para o PHP73, um software de programação para criar sites e aplicativos. Ele adiciona recursos de e-mail, como ler,
-escrever e gerenciar mensagens usando o protocolo IMAP. Isso permite que os desenvolvedores criem funcionalidades de e-mail em seus projetos, como caixa de entrada, envio de mensagens e
-busca de mensagens antigas.Para usar esse módulo, é preciso ter o PHP73 instalado e configurado em seu computador, e então pode ser instalado adicionando uma linha de código ao arquivo de
-configuração do PHP. Depois disso, as funções do módulo IMAP estarão disponíveis para uso em seus projetos.

@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite aos usuários ler e escrever informações de metadados em arquivos de imagem. Isso inclui 
-informações como a data em que a foto foi tirada, a marca e o modelo da câmera, e a orientação da imagem. Com este módulo, os desenvolvedores podem adicionar recursos de metadados avançados
-aos seus aplicativos.Por exemplo, um site de compartilhamento de fotos pode usar este módulo para exibir automaticamente as informações da câmera e da data de uma imagem ao lado da foto. Ou
-um aplicativo de edição de imagem pode usar as informações de metadados para preencher automaticamente os campos de descrição da imagem.

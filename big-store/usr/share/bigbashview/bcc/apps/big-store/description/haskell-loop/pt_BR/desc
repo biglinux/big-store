@@ -1,1 +1,0 @@
-Esse programa fornece suporte para laços rápidos no Haskell, especialmente quando o GHC não consegue otimizar a função forM_. Isso permite que você execute tarefas de forma mais eficiente e rápida no seu código Haskell. 

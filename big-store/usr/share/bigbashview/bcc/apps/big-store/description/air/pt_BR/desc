@@ -1,3 +1,0 @@
-Esse programa é útil para desenvolvedores que trabalham com a linguagem Go. Ele permite que a aplicação seja
-atualizada automaticamente sem precisar ser reiniciada. Isso economiza tempo e facilita o processo de desenvolvimento.O recarregamento automático é ativado sempre que uma alteração no
-código for detectada. Dessa forma, é possível testar as mudanças imediatamente sem precisar parar e iniciar a aplicação novamente.

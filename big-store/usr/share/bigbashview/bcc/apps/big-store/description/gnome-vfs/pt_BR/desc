@@ -1,3 +1,0 @@
-O gerenciador de arquivos do GNOME, ou gnome-vfs, é um sistema de arquivos virtual desenvolvido especificamente para o
-ambiente de trabalho GNOME. Ele permite que os usuários acessem e gerenciem arquivos em diferentes dispositivos e sistemas de arquivos de forma transparente, sem precisar se preocupar com
-detalhes técnicos. Além disso, o gnome-vfs também oferece suporte a recursos avançados, como acesso a arquivos remotos e criptografia de arquivos.

@@ -1,3 +1,0 @@
-A biblioteca URI::Simple é uma forma simples de analisar urls em Perl. Ela permite que você extraia informações
-importantes de uma url, como o esquema, o host, a porta, o caminho e os parâmetros de query. Com essas informações, você pode facilmente processar e manipular urls em seus aplicativos. Essa
-biblioteca é fácil de usar e é uma ótima opção para desenvolvedores que precisam analisar urls em seus projetos Perl.

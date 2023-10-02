@@ -1,1 +1,0 @@
-cl-clx é uma implementação do protocolo do Sistema X Window em Common Lisp. O Sistema X Window  é um sistema de gerenciamento de janelas que é amplamente utilizado em sistemas operacionais Unix e Linux. A implementação em Common Lisp permite que os desenvolvedores criem aplicações gráficas com facilidade usando essa linguagem de programação. 

@@ -1,3 +1,0 @@
-Este programa foi escrito em Rust e tem como objetivo matar processos quando ocorrem cenários de falta de
-memória. Ele é conhecido como um 'Daemon', ou seja, um programa que fica rodando em segundo plano e realiza tarefas específicas.Ele é útil para evitar que o sistema trave ou fique lento
-devido a falta de memória disponível.

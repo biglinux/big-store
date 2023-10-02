@@ -1,3 +1,0 @@
-Este é um módulo que permite acessar a biblioteca de desenho Cairo, utilizada para criar imagens e gráficos, através da
-linguagem de programação Lua. Ele possibilita aos desenvolvedores criarem gráficos e desenhos complexos dentro de suas aplicações Lua.Com este módulo, é possível criar desenhos vetoriais,
-textos e imagens, além de aplicar efeitos como sombras, transparência e rotação. Ele é uma boa opção para quem deseja adicionar recursos gráficos avançados às suas aplicações Lua.

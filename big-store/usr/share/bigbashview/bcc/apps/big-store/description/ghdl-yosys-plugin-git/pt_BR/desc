@@ -1,3 +1,0 @@
-Este é um plugin de síntese VHDL baseado em dois programas, o ghdl e o yosys. Ele ajuda a transformar o código escrito em VHDL em 
-uma representação física de um circuito digital, permitindo que ele seja implementado em hardware.Com esse plugin, é possível criar projetos digitais mais eficientes e de maneira mais
-rápida, já que ele automatiza muitos dos processos que seriam realizados manualmente.

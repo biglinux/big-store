@@ -1,4 +1,0 @@
-Com a lib32-libglade, você pode carregar arquivos de interface Glade em um programa
-durante a sua execução. Isso significa que você pode mudar a aparência do seu programa sem precisar recompilá-lo. Além disso, a lib32-libglade é uma biblioteca de 32 bits, o que significa
-que ela é compatível com programas que funcionam em computadores com arquitetura de 32 bits.Em resumo, a lib32-libglade é uma ferramenta útil para desenvolvedores de software que desejam
-dar aos seus usuários a capacidade de personalizar a aparência do programa sem precisar fazer mudanças no código-fonte.

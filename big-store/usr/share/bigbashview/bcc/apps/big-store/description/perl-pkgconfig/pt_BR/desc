@@ -1,1 +1,0 @@
-Este programa é uma substituição para o pkg-config, ele é escrito somente com o core do Perl. Isso significa que ele não precisa de nenhuma biblioteca adicional para funcionar.Ele é útil quando você precisa configurar programas escritos em Perl, mas não tem acesso ao pkg-config. 

@@ -1,1 +1,0 @@
-Este programa é um wrapper de baixo nível para o protocolo DBus, escrito inteiramente em Python. Ele permite acesso  aos serviços DBus de forma simples e eficiente, tornando-o uma escolha popular entre desenvolvedores que precisam se comunicar com outros aplicativos no sistema operacional usando esse protocolo. 

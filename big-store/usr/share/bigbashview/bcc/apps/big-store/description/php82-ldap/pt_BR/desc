@@ -1,3 +1,0 @@
-Esse é um programa que adiciona as funcionalidades do LDAP (Lightweight Directory Access Protocol) ao PHP 8.2. Isso significa que
-você poderá usar comandos específicos para se comunicar com um servidor de diretório, como o Active Directory, através do PHP. Ele é útil para quem precisa gerenciar informações de usuários
-e grupos em um ambiente empresarial, por exemplo.Exemplos de uso incluem autenticação de usuários, busca de informações do diretório, adição e remoção de usuários e grupos.

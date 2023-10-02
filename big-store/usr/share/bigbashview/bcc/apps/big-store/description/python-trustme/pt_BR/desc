@@ -1,1 +1,0 @@
-A biblioteca python-trustme é uma ferramenta que permite a geração de certificados de autoridade de certificação (CA) falsos. Esses certificados podem ser usados para testar e desenvolver aplicativos que usam criptografia de transporte seguro (TLS) sem precisar usar certificados verdadeiros. 

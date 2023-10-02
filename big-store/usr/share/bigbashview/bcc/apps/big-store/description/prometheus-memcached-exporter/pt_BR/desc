@@ -1,1 +1,0 @@
-Este programa permite exportar métricas dos servidores memcached para serem consumidas pelo Prometheus. Isso significa que você pode coletar dados sobre o desempenho e uso dos servidores memcached e usá-los para monitorar e entender melhor como sua aplicação está funcionando. 

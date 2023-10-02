@@ -1,1 +1,0 @@
-xcb-util é uma coleção de bibliotecas que fornece uma série de funções úteis para o XCB (X C Binding, um vínculo em C para  o protocolo X11) que faltam na biblioteca principal do XCB. Inclui funções para criar gerenciadores de janelas, lidar com eventos e trabalhar com outros protocolos do X11, como Render, Composite e Damage. 

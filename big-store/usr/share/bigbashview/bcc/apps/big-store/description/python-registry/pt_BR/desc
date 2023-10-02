@@ -1,3 +1,0 @@
- A biblioteca Python-registry é uma ferramenta útil para ler arquivos do Windows Registry, que é um banco
-de dados que armazena configurações e informações do sistema no Windows. Com essa biblioteca, é possível acessar e ler informações contidas nesses arquivos de forma simples e rápida. Além
-disso, ela também pode ser utilizada para modificar ou excluir essas informações, o que é útil para administradores de sistema ou desenvolvedores de software. 

@@ -1,3 +1,0 @@
-Este programa é um script para o Grub2 que permite adicionar entradas de inicialização automaticamente para imagens iso colocadas
-na pasta /boot/images/. Isso significa que você não precisa adicionar manualmente cada entrada de inicialização para cada imagem que você deseja iniciar. Basta colocar a imagem na pasta
-correta e o script cuidará do resto.

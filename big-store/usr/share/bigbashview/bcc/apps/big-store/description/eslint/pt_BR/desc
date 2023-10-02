@@ -1,1 +1,0 @@
-Uma ferramenta chamada ESLint que ajuda a encontrar erros e problemas com o código JavaScript. Ele usa uma técnica chamada AST (Abstract Syntax Tree) para verificar se o código está escrito de acordo com as regras e padrões estabelecidos. Isso pode ajudar a manter o código limpo e organizado, tornando-o mais fácil de entender e manter.  

@@ -1,3 +1,0 @@
-Este é um plugin para o GStreamer que permite avaliar a qualidade do áudio. Ele se baseia na metodologia Perceptual
-Evaluation of Audio Quality (PEAQ), que é amplamente utilizada na indústria de áudio para medir a qualidade de codificadores de áudio. Com este plugin, é possível medir a qualidade do áudio
-em diferentes formatos e configurações, o que ajuda a garantir que o áudio seja reproduzido da melhor forma possível.

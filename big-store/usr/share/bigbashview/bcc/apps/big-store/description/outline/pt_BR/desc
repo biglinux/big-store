@@ -1,4 +1,0 @@
-Este banco de dados é projetado para armazenar informações sobre diferentes programas. Ele inclui um título curto 
-e uma descrição completa de cada programa, para ajudar as pessoas a encontrar o que precisam.O título curto tem no máximo 20 palavras e não inclui o nome do programa. A descrição completa
-tem no máximo 200 palavras e fornece mais detalhes sobre o que o programa faz e como ele pode ser útil.Além disso, este banco de dados também inclui uma Wiki e uma base de conhecimento para
-equipes que estão crescendo, a fim de ajudar a garantir que todos estejam sempre atualizados e informados.

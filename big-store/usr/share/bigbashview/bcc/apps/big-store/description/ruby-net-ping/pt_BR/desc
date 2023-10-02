@@ -1,1 +1,0 @@
-Esse programa fornece uma interface de ping para Ruby. Ele inclui classes separadas para TCP, HTTP, LDAP, ICMP, UDP e ping externo. É uma ferramenta útil para verificar se um determinado endereço está online ou não. 

@@ -1,3 +1,0 @@
-Esta é uma biblioteca chamada libucl. Ela serve para ler e interpretar arquivos de configuração de
-diversos tipos. Isso significa que você pode usá-la para ler configurações em diferentes formatos, como JSON, YAML ou INI, sem precisar se preocupar em escrever códigos diferentes para cada
-formato. Ela é fácil de usar e pode ser incorporada em seu próprio programa para que você possa ler configurações de forma automatizada.

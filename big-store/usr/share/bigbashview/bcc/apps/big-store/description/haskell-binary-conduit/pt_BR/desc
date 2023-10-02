@@ -1,1 +1,0 @@
-Essa é uma biblioteca chamada haskell-binary-conduit. Ela ajuda a transformar dados em um formato que pode ser salvo e depois transformado de volta para seu formato original quando for preciso usá-lo novamente. Isso é útil para salvar informações em um arquivo ou enviá-las pela  internet. 

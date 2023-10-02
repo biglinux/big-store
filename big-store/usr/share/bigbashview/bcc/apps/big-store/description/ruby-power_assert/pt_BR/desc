@@ -1,1 +1,0 @@
-A ferramenta ruby-power_assert é uma biblioteca que fornece assertivas de potência para a linguagem de programação Ruby. Ela permite que os desenvolvedores verifiquem se as suposições em seu código são verdadeiras ou falsas, e fornece informações detalhadas sobre o que está causando uma falha de assertiva. Isso pode ser útil para encontrar e corrigir bugs no código. 

@@ -1,4 +1,0 @@
-Este programa é um módulo de compactação para a versão 74 do PHP. Ele permite que você trabalhe com arquivos no formato ZIP 
-diretamente a partir do seu código PHP. Com ele, você pode criar, extrair, listar e manipular arquivos ZIP sem precisar usar outras ferramentas externas.Algumas das funcionalidades incluem:
-criar arquivos ZIP, adicionar arquivos a um arquivo ZIP existente, extrair arquivos de um arquivo ZIP, listar os arquivos de um arquivo ZIP e modificar arquivos dentro de um arquivo
-ZIP.Este módulo é útil para quem precisa trabalhar com arquivos compactados em seu projeto PHP e deseja incluir essa funcionalidade sem precisar usar ferramentas externas.

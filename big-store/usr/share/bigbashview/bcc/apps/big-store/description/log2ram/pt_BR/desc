@@ -1,2 +1,0 @@
-Este programa permite armazenar os arquivos de log em uma pasta na memória RAM, similar ao programa ramlog. Isso pode melhorar o 
-desempenho do sistema, pois acessar a memória é mais rápido do que acessar o disco rígido. Ele é projetado para ser usado com o sistema systemd.

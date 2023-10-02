@@ -1,1 +1,0 @@
-A plataforma externa Wayland baseada em EGLStream é um mecanismo que permite aos aplicativos usarem a biblioteca EGL para se comunicar com o Wayland compositor. Isso permite que os aplicativos desenhem diretamente na tela, sem precisar passar por uma janela do sistema operacional. Isso pode melhorar o desempenho e dar mais flexibilidade para os desenvolvedores de aplicativos. 

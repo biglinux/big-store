@@ -1,4 +1,0 @@
-Este programa é chamado de 'Live Syncing Daemon', ou simplesmente lsyncd. Ele ajuda a manter arquivos em dois lugares
-diferentes sempre iguais, como se fossem espelhos. Isso significa que, se você salvar um arquivo em um lugar, ele automaticamente será salvo no outro lugar também. É como ter uma cópia de
-segurança dos seus arquivos, mas sem precisar fazer isso manualmente.Isso é útil, por exemplo, se você quiser manter uma cópia dos seus arquivos em um servidor externo ou em outro
-computador. Assim, se algo acontecer com o seu computador, você ainda terá uma cópia dos seus arquivos em outro lugar.

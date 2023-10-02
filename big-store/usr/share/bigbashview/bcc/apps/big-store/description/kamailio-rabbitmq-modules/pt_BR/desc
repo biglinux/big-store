@@ -1,3 +1,0 @@
-Este é um módulo para o Kamailio que permite integrar a funcionalidade de RabbitMQ. Isso significa que o Kamailio pode se
-comunicar e se integrar com o RabbitMQ, o que permite a troca de mensagens entre sistemas. Isso pode ser útil em muitas situações, como a construção de sistemas distribuídos ou a criação de
-fluxos de trabalho automatizados.

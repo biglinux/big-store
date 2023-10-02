@@ -1,1 +1,0 @@
-python-docopt é um módulo python para criar linhas de comando fáceis de usar e intuitivas. Ele usa a documentação do seu programa para definir a sintaxe e exibir ajuda automaticamente. Isso torna o processo de criação de linhas de comando simples e rápido, sem a necessidade de escrever código adicional para lidar com a entrada de argumentos. 

@@ -1,1 +1,0 @@
-O módulo Apache SAPI for PHP é uma adição ao servidor Apache que permite que ele execute scripts PHP. Ele é usado para habilitar o PHP em um servidor Apache e permite que os desenvolvedores criem e executem aplicações dinâmicas com facilidade.Este módulo é especialmente útil para quem trabalha com versões antigas do PHP, pois é compatível com versões legadas do PHP. 

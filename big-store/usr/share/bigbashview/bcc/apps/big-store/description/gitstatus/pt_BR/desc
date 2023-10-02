@@ -1,3 +1,0 @@
-Este programa adiciona informações sobre o status do Git na sua linha de comando, tanto no Bash quanto no Zsh. Isso permite
-que você veja rapidamente se há arquivos modificados, se está em um branch específico e se há commits pendentes para serem enviados.Com ele, você pode saber facilmente se precisa fazer
-commit ou se precisa baixar ou enviar atualizações para o repositório remoto, sem precisar sair da linha de comando.

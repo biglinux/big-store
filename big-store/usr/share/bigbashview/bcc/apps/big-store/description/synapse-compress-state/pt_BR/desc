@@ -1,2 +1,0 @@
-Este programa é uma ferramenta para compactar o estado de uma instância do Synapse no banco de dados.Ele funciona ao
-remover entradas antigas e não utilizadas, liberando espaço no banco de dados e melhorando o desempenho do seu servidor Synapse. 

@@ -1,1 +1,0 @@
-jwt-cli é uma ferramenta de linha de comando que permite decodificar e codificar facilmente JSON Web Tokens (JWTs). Ele é escrito em JavaScript e pode ser usado em qualquer plataforma que suporte o Node.js. Com o jwt-cli, você pode facilmente decodificar e codificar JWTs para uso em seu aplicativo ou para fins de depuração e teste. 

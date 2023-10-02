@@ -1,1 +1,0 @@
- O módulo Inline::Java permite que você coloque o código fonte Java diretamente inline em um script ou módulo Perl. Ele é útil para usar bibliotecas Java existentes em seus scripts Perl ou para chamar métodos Java em objetos Perl.  

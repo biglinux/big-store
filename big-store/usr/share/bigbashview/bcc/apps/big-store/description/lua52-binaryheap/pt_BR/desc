@@ -1,1 +1,0 @@
-Este repositório contém uma implementação de heap binário para a linguagem de programação Lua 5.2. Heap binário é  uma estrutura de dados que pode ser usada para ordenação e para acessar rapidamente o elemento mínimo ou máximo. Esta implementação é compatível com a versão 5.2 do Lua, e pode ser facilmente utilizada em projetos que utilizem essa versão da linguagem. 

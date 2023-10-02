@@ -1,3 +1,0 @@
-O rsync é uma ferramenta de cópia de arquivos que permite copiar arquivos tanto de forma local quanto
-remota. Ele é conhecido por ser rápido e versátil, permitindo a você personalizar várias opções de cópia. Além disso, o rsync também suporta o uso do controle de versão git, permitindo que 
-você faça checkout de versões específicas de arquivos.

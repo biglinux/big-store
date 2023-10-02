@@ -1,4 +1,0 @@
-Com o programa kind-bin, você pode criar clusters locais para testar o Kubernetes. Isso é útil quando você quer testar
-configurações ou aplicativos sem afetar seu ambiente de produção. O kind-bin é baseado no Kubernetes IN Docker (KIND), o que significa que ele usa contêineres para simular um cluster real. 
-Isso é uma ferramenta valiosa para desenvolvedores e administradores de sistemas que trabalham com Kubernetes, pois permite que eles testem suas configurações e aplicativos antes de
-implementá-los em um ambiente de produção. 

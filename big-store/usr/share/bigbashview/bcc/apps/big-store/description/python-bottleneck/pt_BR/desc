@@ -1,1 +1,0 @@
-python-bottleneck é uma biblioteca para otimizar as operações de array NumPy usando Cython para escrever as funções críticas de desempenho. Isso permite que as operações sejam executadas mais rapidamente do que a implementação padrão do NumPy, sem a necessidade de reescrever todo o código em C ou C++. 

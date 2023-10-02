@@ -1,4 +1,0 @@
-Esta é uma ferramenta que torna fácil criar vinculações em Python para bibliotecas em C e C++ (versão 6.5). 
-Com ela, você pode aproveitar as funcionalidades dessas bibliotecas dentro do seu código Python, sem precisar reescrever todo o código. Isso pode ser útil, por exemplo, se você precisar
-usar uma biblioteca específica em um projeto Python, mas não quer lidar com a complexidade de escrever código em C ou C++. Com esta ferramenta, você pode facilmente aproveitar essas
-funcionalidades sem precisar se preocupar com detalhes técnicos.

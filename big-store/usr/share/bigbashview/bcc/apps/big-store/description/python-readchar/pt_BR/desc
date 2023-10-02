@@ -1,3 +1,0 @@
-Este programa é uma biblioteca para Python que permite ler caracteres e teclas pressionadas. Ele é útil para criar programas
-interativos que precisam reconhecer entradas do usuário, como jogos ou ferramentas de linha de comando. Com ele, você pode ler caracteres individualmente, sem precisar esperar que o usuário
-pressione enter, e também ler teclas de função especiais, como setas de direção e teclas de controle.

@@ -1,4 +1,0 @@
-Esse pacote de suporte permite habilitar o gerenciamento de snaps com o Snapper, incluindo suporte para snap-pac e
-grub-btrfs. Ele facilita a criação de snapshots do sistema, permitindo que você volte facilmente para versões anteriores do sistema caso algo dê errado. Além disso, também é possível
-comparar snapshots e usá-los para restaurar arquivos específicos.Em resumo, esse pacote de suporte é uma ferramenta valiosa para garantir a segurança e estabilidade do seu sistema ao usar o
-Snapper.

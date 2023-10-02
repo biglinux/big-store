@@ -1,1 +1,0 @@
-Este repositório contém uma implementação em Perl dos DomainKeys do Yahoo. Os DomainKeys são uma forma de autenticação de email que ajuda a garantir que os emails enviados são de fato originados pelo domínio que afirma ser. Essa implementação em Perl permite que você adicione facilmente a autenticação DomainKeys aos seus scripts de email. 

@@ -1,3 +1,0 @@
-O nvme-cli-git é uma ferramenta de espaço de usuário para Linux que permite gerenciar dispositivos NVM-Express.
-Ele fornece uma interface de linha de comando para realizar tarefas como formatar dispositivos, gerenciar partições e verificar o status de saúde. Ele é desenvolvido como um projeto Git e
-está disponível para usuários avançados que desejam gerenciar dispositivos NVM-Express com maior precisão e flexibilidade.

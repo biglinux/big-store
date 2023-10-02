@@ -1,3 +1,0 @@
-Este programa oferece várias interfaces e módulos Diameter para o Kamailio funcionar como um núcleo IMS. Ele permite ao Kamailio se
-comunicar com outros sistemas usando o protocolo Diameter, que é comumente usado em redes de comunicação móvel e outras redes de telecomunicações.Com esses módulos, o Kamailio pode
-gerenciar sessões de usuários, autenticar e autorizar solicitações, e fornecer informações de contabilidade para outros sistemas.

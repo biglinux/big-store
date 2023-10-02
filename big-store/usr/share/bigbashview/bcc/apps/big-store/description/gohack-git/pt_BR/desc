@@ -1,3 +1,0 @@
- gohack-git é um programa que permite que você faça edições temporárias nas suas dependências de módulo Go.
-Isso é útil quando você precisa testar uma alteração em uma dependência sem afetar permanentemente o código. Com gohack-git, você pode facilmente fazer edições, testá-las e, em seguida,
-desfazê-las quando terminar. É uma ferramenta valiosa para qualquer pessoa que trabalha com Go.

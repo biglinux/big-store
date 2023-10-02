@@ -1,1 +1,0 @@
-Este repositório contém módulos para a funcionalidade SMAPI (System Management API) do ThinkPad. Esses módulos  permitem acessar recursos avançados do sistema, como controle de bateria e gerenciamento de energia, em sistemas Linux. Este pacote é específico para o kernel Linux 5.4. 

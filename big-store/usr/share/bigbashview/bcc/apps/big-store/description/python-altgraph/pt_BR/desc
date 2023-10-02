@@ -1,2 +1,0 @@
-Este é um pacote chamado python-altgraph que ajuda a construir gráficos, como redes. Ele também pode ajudar a fazer
-coisas como percorrer os gráficos usando BFS e DFS, ordenar de forma topológica, encontrar caminhos mais curtos e até mesmo mostrar os gráficos usando a biblioteca graphviz. 

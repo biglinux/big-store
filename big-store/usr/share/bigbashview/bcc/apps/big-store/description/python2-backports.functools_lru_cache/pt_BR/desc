@@ -1,4 +1,0 @@
-Este programa adiciona a funcionalidade de cache ao Python 2.7, através do backport de functools.lru_cache do Python 3.3. Isso
-significa que você pode usar o cache em seus aplicativos Python 2.7, o que ajuda a acelerar seu código e torná-lo mais eficiente. O cache é uma maneira de armazenar resultados de operações 
-para que eles possam ser usados novamente mais tarde, sem precisar ser recalculados. Isso é particularmente útil em aplicativos que realizam a mesma operação várias vezes, pois pode
-economizar tempo e recursos do sistema. 

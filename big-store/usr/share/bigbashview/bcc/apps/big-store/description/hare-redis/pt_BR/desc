@@ -1,3 +1,0 @@
-Este programa é um cliente para o protocolo Redis que é suportado pelo Hare. Ele permite que você conecte-se a um servidor Redis e
-execute operações como salvar, recuperar e deletar dados. Além disso, ele também oferece recursos avançados como transações e mensagens de pub/sub. É uma ferramenta útil para qualquer
-pessoa que precise armazenar e gerenciar dados em tempo real em seus aplicativos. Ele é fácil de usar e tem uma interface intuitiva.

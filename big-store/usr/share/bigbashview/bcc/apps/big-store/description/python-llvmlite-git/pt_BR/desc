@@ -1,2 +1,0 @@
- Essa é uma biblioteca leve para vincular o LLVM com o Python. Ela é útil para escrever compiladores JIT
-(Just-In-Time) usando Python. Ela é baseada na versão do Git. 

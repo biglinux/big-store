@@ -1,3 +1,0 @@
- Este programa é um selecionador de destino para o SYCL. Ele ajuda a escolher qual dispositivo será usado para executar seu
-código. Isso é importante porque diferentes dispositivos têm diferentes capacidades e desempenho. Com o selecionador de destino, você pode escolher o dispositivo que melhor atenda às suas
-necessidades. Além disso, ele também é compatível com o Git, o que permite gerenciar facilmente as versões do seu código. 

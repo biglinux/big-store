@@ -1,3 +1,0 @@
-Este programa é uma solução para sempre mostrar o cursor do mouse no sistema operacional X11. Ele funciona como um
-'workaround', ou seja, uma maneira de contornar um problema. Assim, mesmo em situações em que o cursor do mouse pode sumir, como em jogos ou aplicativos específicos, ele sempre estará
-visível. Isso pode ser útil para usuários que precisam do cursor do mouse sempre visível para usar determinadas ferramentas ou aplicativos.

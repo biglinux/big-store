@@ -1,1 +1,0 @@
-Este é um plugin para o OpenSearch que permite a replicação de dados entre clusters. Ele é útil para garantir a segurança dos dados e a disponibilidade deles mesmo em caso de falha de um cluster. Com este plugin, é possível manter várias cópias dos dados em diferentes clusters, garantindo assim que sempre haja uma cópia disponível. 

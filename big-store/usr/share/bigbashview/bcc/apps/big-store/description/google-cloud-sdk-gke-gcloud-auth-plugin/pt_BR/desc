@@ -1,6 +1,0 @@
-Este programa é uma componente do google-cloud-sdk que fornece um plugin de autenticação kubectl para o GKE
-(Google Kubernetes Engine). Ele permite que você gerencie seus clusters do Kubernetes com segurança e facilidade, usando as ferramentas do GCloud.Com o uso deste plugin, você pode criar e
-gerenciar seus clusters do Kubernetes, sem precisar sair da linha de comando do GCloud. Isso torna o processo muito mais rápido e eficiente. Além disso, ele também oferece recursos de
-segurança adicionais, como autenticação de usuário e controle de acesso.Este programa é ideal para desenvolvedores e administradores de sistemas que desejam automatizar tarefas de
-gerenciamento de clusters do Kubernetes, usando o GCloud. Ele é fácil de usar e oferece uma ampla gama de recursos para garantir que seus clusters estejam sempre seguros e funcionando
-corretamente.

@@ -1,2 +1,0 @@
-Esta biblioteca permite que você use o protocolo HTTP/2 em seus projetos feitos com C++. Ela fornece uma camada para lidar com
-os quadros do HTTP/2 de forma fácil e reutilizável. Além disso, ela tem suporte ao ASIO, uma biblioteca para trabalhar com sockets de forma simples e eficiente.

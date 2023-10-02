@@ -1,1 +1,0 @@
-Esta biblioteca, chamada libcalfbox-lss, permite que você crie música usando MIDI, um tipo de arquivo que contém informações sobre como as notas devem ser tocadas. Ela também permite carregar arquivos de som chamados 'sampler' para usar em sua música.  Desta forma, você pode criar músicas com sons de vários instrumentos e efeitos diferentes, tudo em tempo real. 

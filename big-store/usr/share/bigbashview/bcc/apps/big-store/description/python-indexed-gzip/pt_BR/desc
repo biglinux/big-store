@@ -1,2 +1,0 @@
-Este programa é uma substituição para a classe gzip.GzipFile do python. Ele foi escrito para permitir acesso rápido
-aleatório a arquivos NIfTI comprimidos. Ele é chamado python-indexed-gzip.

@@ -1,2 +1,0 @@
-A biblioteca qjson é baseada no Qt4 e faz a ligação dos dados JSON com objetos QVariant. Ela é útil para ler e escrever
-arquivos JSON e também para converter os dados para um formato que pode ser facilmente usado com outros componentes do Qt.

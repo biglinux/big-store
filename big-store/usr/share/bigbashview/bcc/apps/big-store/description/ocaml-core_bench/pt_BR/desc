@@ -1,3 +1,0 @@
- Esta é uma biblioteca de benchmarking micro para o OCaml. Ela permite medir o desempenho de pedaços de código
-específicos no seu programa OCaml, permitindo comparar diferentes implementações ou otimizações. Com ela, é possível obter informações precisas sobre o tempo de execução, alocamento de
-memória e outras métricas importantes. É uma ferramenta valiosa para quem desenvolve em OCaml e deseja otimizar seu código. 

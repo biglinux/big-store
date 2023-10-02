@@ -1,1 +1,0 @@
-gupnp-av é uma biblioteca para criação de aplicações UPnP (Universal Plug and Play) A/V (Audio e Video). Ele é baseado no framework GUPnP, que fornece uma API de alto nível para criar dispositivos e pontos de controle UPnP. Com gupnp-av, você pode facilmente criar dispositivos e pontos de controle UPnP A/V, como servidores de mídia e renderizadores de mídia. 

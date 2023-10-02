@@ -1,1 +1,0 @@
-Este pacote oferece utilitários para embalar e distribuir extensões do Jupyter em formato Python. Ele facilita o processo de criação de pacotes para serem instalados no Jupyter, tornando-os disponíveis para outros usuários utilizarem e expandirem. 

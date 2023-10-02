@@ -1,3 +1,0 @@
-Este programa é uma ferramenta de monitoramento para o servidor web Apache. Ele mostra informações importantes, como
-solicitações por segundo, bytes por segundo, URLs mais populares e outras. Ele é baseado em curses, o que significa que é fácil de navegar e usar através de linhas de comando. Ele é útil
-para administradores de sistemas que precisam verificar o desempenho do servidor em tempo real e identificar problemas rapidamente.

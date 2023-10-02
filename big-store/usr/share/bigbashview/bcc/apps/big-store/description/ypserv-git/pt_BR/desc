@@ -1,3 +1,0 @@
-Este programa é um servidor NIS (Network Information Service) para sistemas operacionais Linux. Ele permite compartilhar informações 
-de usuários e grupos em rede, facilitando a administração de usuários em ambientes distribuídos. Ele é especialmente útil em redes de computadores com vários sistemas operacionais
-diferentes, já que é compatível com vários tipos de sistemas de arquivos. O código fonte deste programa está disponível no GitHub.

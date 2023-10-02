@@ -1,3 +1,0 @@
-Esse programa tem como função ler instruções de entrada (stdin) e escrever essas instruções 
-em uma memória compartilhada de modbus. Isso significa que, quando uma instrução é lida, ela é enviada para uma área de memória específica onde outros programas podem acessá-la e
-utilizá-la. Isso é útil para comunicação entre diferentes programas e dispositivos.

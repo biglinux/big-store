@@ -1,1 +1,0 @@
-O udp2raw-tunnel é um programa que permite o encaminhamento de tráfego UDP através de conexões TCP falsas ou ICMP, utilizando sockets raw. Ele oferece criptografia, proteção contra reenvio de pacotes (anti-replay) e suporte a multiplexação de várias conexões. 

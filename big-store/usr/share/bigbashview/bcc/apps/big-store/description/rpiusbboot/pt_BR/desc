@@ -1,6 +1,0 @@
-O Raspberry Pi é uma pequena computadora que pode ser usada para diversas tarefas, como programação, jogos e muito mais. 
-Para que você possa usá-lo, é preciso iniciar o sistema operacional nele. Uma das maneiras de fazer isso é usando o inicializador USB, chamado de rpiusbboot.Esse inicializador permite
-que você inicie o sistema operacional no Raspberry Pi a partir de um dispositivo USB, como um pendrive ou um disco rígido externo. Isso é útil se você quiser usar o Raspberry Pi sem
-precisar de um cartão SD ou se você quiser fazer uma atualização do sistema operacional sem perder seus arquivos pessoais.Para usar o rpiusbboot, você precisará de um dispositivo USB com
-o sistema operacional já instalado e configurado. Então, basta conectá-lo ao Raspberry Pi e iniciá-lo. O sistema operacional será iniciado a partir do dispositivo USB e você poderá usar o
-Raspberry Pi normalmente. 

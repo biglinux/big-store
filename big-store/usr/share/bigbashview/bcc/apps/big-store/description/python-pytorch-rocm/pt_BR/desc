@@ -1,3 +1,0 @@
-PyTorch é um pacote de computação científica em Python que permite trabalhar com tensores (como vetores ou matrizes)
-e redes neurais dinâmicas. Com o pacote ROCM, é possível aproveitar a potência dos processadores gráficos (GPUs) para acelerar esses cálculos.Isso significa que, ao usar PyTorch com ROCM, é
-possível processar grandes quantidades de dados de maneira mais rápida e eficiente, o que é útil para tarefas como treinamento de redes neurais ou simulações científicas complexas.

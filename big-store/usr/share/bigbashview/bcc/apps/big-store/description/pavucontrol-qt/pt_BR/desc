@@ -1,1 +1,0 @@
-Este programa é um controlador de volume para o Pulseaudio, desenvolvido utilizando a biblioteca Qt. Ele é uma porta do pavucontrol, um controlador de volume popular para o Pulseaudio no Linux. Com ele, é possível ajustar o volume de diferentes fontes de som e aplicativos de forma fácil e intuitiva. 

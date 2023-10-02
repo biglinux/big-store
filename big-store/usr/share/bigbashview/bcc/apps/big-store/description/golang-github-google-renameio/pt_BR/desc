@@ -1,1 +1,0 @@
-Este programa, escrito em Go, oferece uma maneira de criar ou substituir um arquivo ou link simbólico de forma atômica. Isso significa que o programa garante que a operação seja completada sem interrupção, evitando problemas como arquivos corrompidos ou links quebrados. Ele é mantido no repositório do GitHub da Google. 

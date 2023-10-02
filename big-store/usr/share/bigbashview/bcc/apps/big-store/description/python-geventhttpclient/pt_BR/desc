@@ -1,3 +1,0 @@
-Uma biblioteca para usar no seu código Python, que permite fazer requisições HTTP de forma rápida e segura. Ela usa a biblioteca 
-'gevent' para fazer as requisições, o que a torna ainda mais rápida.Você pode usar essa biblioteca para fazer requisições para outros sites, ou para criar um servidor web para seu próprio
-programa.

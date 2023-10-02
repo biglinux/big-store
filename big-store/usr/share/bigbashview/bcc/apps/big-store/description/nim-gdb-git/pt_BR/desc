@@ -1,3 +1,0 @@
-Esse programa adiciona suporte para o GDB (uma ferramenta de depuração) ao linguagem de programação Nim. Isso permite que
-você visualize melhor o seu código enquanto estiver depurando-o, tornando mais fácil identificar e corrigir problemas. Além disso, ele torna a experiência de depuração mais agradável e
-intuitiva.

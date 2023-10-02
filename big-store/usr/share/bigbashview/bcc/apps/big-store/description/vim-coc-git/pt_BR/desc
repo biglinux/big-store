@@ -1,2 +1,0 @@
-Esse programa adiciona recursos de Intellisense ao seu editor de texto Vim ou Neovim. Ele tem suporte completo ao protocolo
-Language Server, o mesmo utilizado pelo VSCode, o que permite uma melhor navegação e autocompletar código. 
