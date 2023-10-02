@@ -924,3 +924,6 @@ msgstr "Updated on"
 
 msgid "Sobre"
 msgstr "Upon"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Translation of the description of the online packages"

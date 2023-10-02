@@ -926,3 +926,6 @@ msgstr "Zaktualizowano na"
 
 msgid "Sobre"
 msgstr "Na"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Tłumaczenie opisu pakietów online"

@@ -924,3 +924,6 @@ msgstr "Päivitetty"
 
 msgid "Sobre"
 msgstr "Päälle"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Verkkopakettien kuvauksen kääntäminen"

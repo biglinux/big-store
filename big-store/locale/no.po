@@ -924,3 +924,6 @@ msgstr "Oppdatert"
 
 msgid "Sobre"
 msgstr "På"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Oversettelse av beskrivelsen av online-pakkene"

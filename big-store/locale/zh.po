@@ -912,3 +912,6 @@ msgstr "更新于"
 
 msgid "Sobre"
 msgstr "后"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "翻译在线套餐的描述"

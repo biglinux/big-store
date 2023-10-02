@@ -933,3 +933,6 @@ msgstr "Atualizado em"
 
 msgid "Sobre"
 msgstr "Sobre"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Tradução da descrição dos pacotes online"
