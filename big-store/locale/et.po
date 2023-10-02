@@ -923,3 +923,6 @@ msgstr "Flatpaki programmide ilmumiseks süsteemi menüüsse logige välja ja lo
 
 msgid "Atualizado em"
 msgstr "Uuendatud"
+
+msgid "Sobre"
+msgstr "Sisse"

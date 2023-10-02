@@ -921,3 +921,6 @@ msgstr "For Flatpak programs to appear in the system menu, log out and log in ag
 
 msgid "Atualizado em"
 msgstr "Updated on"
+
+msgid "Sobre"
+msgstr "Upon"

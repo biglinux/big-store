@@ -923,3 +923,6 @@ msgstr "Affinché i programmi Flatpak appaiano nel menu di sistema, disconnetter
 
 msgid "Atualizado em"
 msgstr "Aggiornato il"
+
+msgid "Sobre"
+msgstr "Su"

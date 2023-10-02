@@ -923,3 +923,6 @@ msgstr "För att Flatpak-program ska visas i systemmenyn, logga ut och logga in 
 
 msgid "Atualizado em"
 msgstr "Uppdaterad den"
+
+msgid "Sobre"
+msgstr "På"

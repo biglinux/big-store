@@ -909,3 +909,6 @@ msgstr "要使 Flatpak 程序出现在系统菜单中，请注销并重新登录
 
 msgid "Atualizado em"
 msgstr "更新于"
+
+msgid "Sobre"
+msgstr "后"
