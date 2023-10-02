@@ -1,4 +1,0 @@
-Esta ferramenta permite que você faça perguntas sobre arquivos CSV como se estivesse usando uma linguagem de consulta 
-SQL. Isso significa que você pode selecionar, filtrar e ordenar dados em seus arquivos CSV de forma fácil e rápida. É uma ótima opção se você precisar trabalhar com grandes conjuntos de
-dados e não quiser usar uma planilha ou banco de dados.Por exemplo, você pode selecionar todos os registros em que a coluna 'idade' é maior que 30, ou ordenar todos os registros pela coluna
-'nome'. Isso é muito útil se você precisar analisar dados ou prepará-los para outras tarefas.

@@ -1,1 +1,0 @@
-Esse programa é uma ligação (bindings) entre o Golang e o dde-daemon. Ele permite que o Golang se comunique com o dde-daemon, um programa que faz parte do sistema operacional deepin. Isso significa que você pode usar o Golang para controlar o dde-daemon e fazer coisas como mudar configurações do sistema operacional, gerenciar janelas e muito mais. 

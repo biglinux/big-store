@@ -1,4 +1,0 @@
-Este é um pacote de drivers de OpenCL para placas de vídeo NVIDIA de 32-bits. Ele permite que seu computador execute
-aplicativos que usam a tecnologia OpenCL, que é uma linguagem de programação para computação paralela. Com esse pacote de drivers instalado, você poderá aproveitar ao máximo a capacidade de
-processamento de sua placa de vídeo NVIDIA.Esse pacote específico é para usuários de sistemas de 32-bits, então certifique-se de verificar se é compatível com seu sistema antes de
-instalá-lo.

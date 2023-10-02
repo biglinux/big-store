@@ -1,3 +1,0 @@
-Este programa é utilizado para procurar e liberar espaço em disco em sistemas ext2. Ele varre o sistema de arquivos em 
-busca de blocos que ainda contém dados e os preenche com zeros, liberando espaço para outros arquivos.É importante notar que este programa só deve ser utilizado em sistemas ext2 e deve ser 
-usado com cuidado, pois ele pode remover dados importantes.

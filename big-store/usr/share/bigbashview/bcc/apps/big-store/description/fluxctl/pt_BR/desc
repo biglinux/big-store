@@ -1,1 +1,0 @@
-fluxctl é uma ferramenta de linha de comando que ajuda você a implantar seu código em um  cluster Kubernetes. Ele foi projetado para trabalhar com GitOps, o que significa que você pode usar git para gerenciar seus deploys. Com fluxctl, você pode automatizar seus deploys, rollbacks e atualizações. Ele é fácil de usar e pode ajudar a manter seu cluster sincronizado com seu código. 

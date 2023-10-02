@@ -1,4 +1,0 @@
-Este programa é projetado para capturar imagens de um compositor Wayland. Ele funciona usando a biblioteca
-libwayland e permite que você tire screenshots de janelas específicas ou da tela inteira. Além disso, ele oferece opções para salvar as imagens capturadas em diferentes formatos de arquivo,
-como PNG ou JPG.É fácil de usar e pode ser útil em muitas situações, como ajudar a documentar erros ou compartilhar imagens de sua tela com outras pessoas. Ele é especialmente útil se
-você estiver trabalhando com o sistema operacional Wayland e precisar capturar imagens de sua tela. 

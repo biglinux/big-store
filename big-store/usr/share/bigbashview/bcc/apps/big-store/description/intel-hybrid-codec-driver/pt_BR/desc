@@ -1,2 +1,0 @@
-Este driver fornece suporte para encode e decode parcialmente acelerados por hardware para processadores Haswell e mais
-recentes. Ele utiliza a biblioteca Libva para permitir que os codecs funcionem de maneira mais eficiente em seu computador.

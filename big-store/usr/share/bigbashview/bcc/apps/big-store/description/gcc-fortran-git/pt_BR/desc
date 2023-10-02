@@ -1,4 +1,0 @@
-Esse programa é uma ferramenta para ajudar a compilar códigos escritos na linguagem Fortran. Ele usa a tecnologia do
-GCC (compilador de código aberto) e está disponível na versão mais atual do git. Com ele, é possível transformar o código escrito em Fortran em um programa executável que pode ser rodado em
-diferentes sistemas operacionais.É importante notar que esse programa é específico para a linguagem Fortran, então ele não será útil para outras linguagens de programação. Além disso, como 
-ele é a versão mais recente do git, ele pode incluir recursos e correções de bugs que ainda não estão disponíveis nas versões mais antigas.

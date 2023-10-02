@@ -1,1 +1,0 @@
-A biblioteca ruby-gettext é uma ferramenta de Localização (L10n) pura em Ruby que é baseada no pacote GNU gettext. Ela permite que os desenvolvedores traduzam suas aplicações para vários idiomas sem precisar mudar o código fonte. 

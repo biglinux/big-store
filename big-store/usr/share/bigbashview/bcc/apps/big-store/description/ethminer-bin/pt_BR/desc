@@ -1,5 +1,0 @@
-Este programa é um minerador de Ethereum que tem suporte para OpenCL, CUDA e stratum. Ele é
-fornecido como um binário pré-compilado, o que significa que você pode começar a minerar imediatamente sem precisar compilar o código do programa. Ele é projetado para ser fácil de usar e
-oferece recursos avançados para ajudar a maximizar sua eficiência de mineração. Alguns dos recursos incluem suporte para pools de mineração, configuração de dificuldade, suporte a várias
-placas de mineração e suporte a stratum, que é uma forma de comunicação com os pools de mineração que pode ajudar a melhorar a velocidade e a estabilidade da sua mineração. Se você está
-procurando um minerador Ethereum fácil de usar e altamente eficiente, este programa é uma excelente escolha. 

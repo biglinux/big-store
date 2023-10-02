@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite que você se conecte e interaja com servidores de e-mail usando o protocolo IMAP. Isso
-significa que você pode ler, enviar e gerenciar e-mails diretamente do seu aplicativo PHP sem precisar de outro programa. Ele é fácil de usar e funciona bem com diversos tipos de servidores
-de e-mail.O módulo é fácil de instalar e configurar, e a documentação fornecida é clara e completa. Ele também é atualizado regularmente para garantir compatibilidade com as últimas
-versões do PHP e dos servidores de e-mail. 

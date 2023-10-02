@@ -1,1 +1,0 @@
-Uma biblioteca de compressão para Python que utiliza o algoritmo Zstandard. Isso permite aos desenvolvedores compactar e descompactar arquivos e dados de forma rápida e eficiente em seus aplicativos Python. 

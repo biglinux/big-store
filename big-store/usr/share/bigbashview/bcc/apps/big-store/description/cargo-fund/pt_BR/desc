@@ -1,3 +1,0 @@
- cargo-fund é um programa que ajuda a encontrar links de financiamento em dependências de
-projetos escritos em Rust. Ele é útil para quem desenvolve projetos open-source e quer saber se alguma das bibliotecas que está usando tem algum tipo de financiamento. Dessa forma, é
-possível entrar em contato com os desenvolvedores dessas bibliotecas e ver se eles podem oferecer algum tipo de ajuda. 

@@ -1,3 +1,0 @@
-Este programa é um módulo de autenticação para o framework PAM, usando o protocolo LDAP. Ele permite que os usuários se
-autentiquem em sistemas que utilizam PAM, utilizando informações armazenadas em um servidor LDAP. Isso pode incluir senhas, grupos e outras informações de usuário.Esse módulo é útil para
-administradores de sistemas que desejam centralizar a gestão de usuários em um servidor LDAP, em vez de gerenciá-los localmente em cada sistema.

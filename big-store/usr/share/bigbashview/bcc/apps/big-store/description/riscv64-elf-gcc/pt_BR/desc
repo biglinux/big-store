@@ -1,1 +1,0 @@
-O riscv64-elf-gcc é uma coleção de compiladores GNU que permite compilar códigos para o alvo RISCV64 (bare-metal). Ele é utilizado para compilar programas para sistemas embarcados, como microcontroladores, e é uma ferramenta essencial para desenvolvimento de sistemas embarcados. 

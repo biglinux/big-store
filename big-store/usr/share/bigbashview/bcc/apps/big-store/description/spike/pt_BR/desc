@@ -1,1 +1,0 @@
-Spike, o simulador de ISA RISC-V, é uma ferramenta de simulação de baixo nível para desenvolvedores de sistemas embarcados. Ele permite que os desenvolvedores testem seu código em diferentes configurações de hardware sem precisar de uma plataforma física.Além disso, o spike suporta vários sistemas operacionais, incluindo Linux e FreeBSD. 

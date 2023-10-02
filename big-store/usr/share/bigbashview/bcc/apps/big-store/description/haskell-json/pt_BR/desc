@@ -1,1 +1,0 @@
-O pacote haskell-json fornece suporte para serializar dados Haskell para e de arquivos JSON. Isso permite que  você converta dados Haskell em uma representação de texto que pode ser armazenada em arquivos ou transmitida por rede, e também permite que você converta dados JSON de volta para dados Haskell para uso em seu programa. 

@@ -1,4 +1,0 @@
-Esse programa é uma biblioteca de tempo de execução da CPU Intel para aplicações OpenCL. Ele permite que as
-aplicações OpenCL usem as capacidades dos processadores Intel para melhorar o desempenho e a eficiência. Ele também fornece recursos adicionais para garantir que as aplicações funcionem
-corretamente com esses processadores.Se você está desenvolvendo uma aplicação OpenCL, essa biblioteca de tempo de execução é essencial para otimizar o desempenho do seu software no hardware
-Intel.

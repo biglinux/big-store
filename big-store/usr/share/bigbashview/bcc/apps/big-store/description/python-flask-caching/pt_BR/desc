@@ -1,1 +1,0 @@
-Esse programa adiciona suporte de cache à sua aplicação Flask. Isso significa que ele armazena informações em um lugar rápido para que elas possam ser acessadas rapidamente quando precisadas novamente, em vez de precisar ser buscadas do banco de dados ou de outra fonte. Isso pode ajudar a melhorar  o desempenho de sua aplicação e tornar as coisas mais rápidas para seus usuários. 

@@ -1,4 +1,0 @@
-Este programa é um cross-compilador para LoongArch, um sistema operacional de 64 bits. Ele permite compilar códigos
-para funcionar neste sistema operacional específico. É útil para desenvolvedores que precisam criar aplicativos para LoongArch sem precisar usar um computador com o sistema instalado.O
-compilador é baseado no GCC (GNU Compiler Collection) e usa a arquitetura LoongArch 64-bit. Ele foi criado para funcionar no sistema operacional Linux e deve ser usado com o comando
-'loongarch64-linux-gnu-gcc' para compilar seus códigos.

@@ -1,1 +1,0 @@
-Este programa permite iniciar e controlar processos em segundo plano. Ele utiliza a linguagem de programação Perl e o módulo Proc::Simple para realizar esta tarefa. Com ele, é possível iniciar, parar, verificar o status e obter informações sobre os processos em segundo plano. 

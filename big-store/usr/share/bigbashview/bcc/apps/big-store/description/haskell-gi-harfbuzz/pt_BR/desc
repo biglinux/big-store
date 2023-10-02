@@ -1,1 +1,0 @@
-HarfBuzz é uma biblioteca de suporte para acentuação e escrita de texto. Ela ajuda a garantir que os caracteres sejam exibidos corretamente em diferentes fontes e sistemas. A biblioteca haskell-gi-harfbuzz é um pacote que permite acessar as funcionalidades do HarfBuzz a partir do código em Haskell. 

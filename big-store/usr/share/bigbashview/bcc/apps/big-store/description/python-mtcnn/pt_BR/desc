@@ -1,2 +1,0 @@
- Este programa é uma implementação do detector de rostos MTCNN para o Keras. Ele foi escrito do zero, usando como
-referência a implementação do MTCNN de David Sandberg (FaceNet's MTCNN) no Facenet. Ele é baseado no artigo Zhang, K et al. (2016). 

@@ -1,3 +1,0 @@
-Esse programa é um gancho para o gerenciador de pacotes do Arch Linux, o pacman. Ele verifica se existem pacotes
-instalados que estão quebrados e os lista para você.Isso é útil porque pacotes quebrados podem causar problemas no seu sistema, então é bom corrigi-los ou removê-los. Com esse programa,
-você pode facilmente detectar e lidar com esses pacotes.

@@ -1,1 +1,0 @@
-O lua-system é um pacote que fornece chamadas de sistema independentes de plataforma para o Lua. Isso significa que você pode usar as mesmas funções em diferentes sistemas operacionais sem precisar se preocupar com as diferenças entre eles. Isso é útil para desenvolvedores que precisam escrever scripts Lua que funcionem em várias plataformas. 

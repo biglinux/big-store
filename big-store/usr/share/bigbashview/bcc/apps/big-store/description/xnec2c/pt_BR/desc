@@ -1,5 +1,0 @@
- Este programa é chamado xnec2c e ele é um cliente de modelagem de antena que utiliza a biblioteca GTK+. Ele permite que
-você desenhe sua antena, calcule seus parâmetros e visualize como ela se comporta em diferentes situações. É uma ferramenta poderosa para projetistas de antenas e estudantes de rádio.Com 
-ele, você pode desenhar sua antena utilizando vários tipos de elementos, como fios, arames, dipolos e outros. Em seguida, você pode calcular parâmetros como impedância, ganho, fator de
-forma e muito mais. Além disso, você pode visualizar a distribuição de campo elétrico e magnético em torno de sua antena em diferentes frequências e ângulos.Se você estiver interessado em
-projetar e estudar antenas, o xnec2c é uma ferramenta valiosa para você. Ele é fácil de usar e oferece recursos avançados para ajudá-lo a obter o melhor desempenho de sua antena.

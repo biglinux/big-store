@@ -1,1 +1,0 @@
-O Logical Volume Manager (LVM) é um sistema de gerenciamento de armazenamento que permite criar, redimensionar e gerenciar volumes lógicos. Ele é composto por dois utilitários principais: o lvm e o lvcreate. Eles permitem a criação, redimensionamento e gerenciamento de volumes lógicos, bem como a criação de snapshots e a realização de backups dos volumes. 

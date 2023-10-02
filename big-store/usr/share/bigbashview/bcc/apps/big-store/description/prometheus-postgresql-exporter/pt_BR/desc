@@ -1,4 +1,0 @@
-Este programa é um exportador para o Prometheus, que tem como objetivo coletar métricas do banco de dados PostgreSQL.
-Com ele, é possível acompanhar o desempenho do seu banco de dados e tomar medidas para melhorar sua performance. O Prometheus-postgresql-exporter é fácil de usar e configurar, e permite que
-você tenha uma visão completa das métricas do seu banco de dados em tempo real. Se você está procurando uma maneira de acompanhar o desempenho do seu banco de dados PostgreSQL, então o
-Prometheus-postgresql-exporter é a solução ideal para você. Baixe agora e experimente!

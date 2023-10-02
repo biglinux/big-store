@@ -1,3 +1,0 @@
-Este programa é um sistema de gerenciamento de sessão para o JACK (sistema de áudio para Linux). Ele é semelhante ao
-gladish, mas não possui uma interface gráfica.Isso significa que ele é controlado através de comandos de linha, o que pode ser um pouco mais desafiador para algumas pessoas, mas também
-oferece maior flexibilidade e controle.Se você estiver procurando por um gerenciador de sessão JACK sem uma interface gráfica, este programa pode ser uma boa opção.

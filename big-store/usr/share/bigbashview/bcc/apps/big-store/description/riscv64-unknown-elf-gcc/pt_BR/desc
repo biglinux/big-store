@@ -1,3 +1,0 @@
-Este é um compilador chamado GCC, ele é usado para transformar códigos escritos por humanos em linguagem de computador, para que
-possam ser entendidos e executados pelas máquinas. Este compilador específico é para uso em sistemas RISC-V, que são sistemas de processadores de 64 e 32 bits.O compilador é parte da
-coleção de ferramentas de desenvolvimento chamada GNU Compiler Collection (GCC) e é usado para criar programas para sistemas sem sistema operacional, também conhecidos como 'bare-metal'.

@@ -1,1 +1,0 @@
-/var/lib/flatpak/appstream/flathub/x86_64/active/icons/64x64/https://github.com/flathub/org.claws_mail.Claws-Mail/raw/master/share/icons/hicolor/128x128/apps/claws-mail.png

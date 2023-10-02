@@ -1,4 +1,0 @@
-Este programa permite a integração entre a sessão Sway e o gerenciador de inicialização Systemd. Isso significa que, com ele 
-instalado, você poderá gerenciar sua sessão Sway usando comandos e configurações do Systemd. Por exemplo, você poderá iniciar e parar sua sessão Sway usando comandos do Systemd, assim como 
-configurar opções de inicialização.Além disso, essa integração possibilita ao usuário ter mais controle e flexibilidade sobre sua sessão Sway, permitindo personalizar e automatizar
-tarefas.

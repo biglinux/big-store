@@ -1,1 +1,0 @@
-Este programa é uma API não oficial para gerenciamento de pacotes python, usando o gerenciador de pacotes  pip. Ele permite que você importe facilmente o pip em seus projetos e gerencie pacotes de forma programática. Isso pode ser útil para automatizar tarefas de gerenciamento de pacotes, como atualizar pacotes, instalar pacotes específicos e muito mais. 

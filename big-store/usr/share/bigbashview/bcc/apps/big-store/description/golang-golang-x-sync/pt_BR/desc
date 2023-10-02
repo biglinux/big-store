@@ -1,1 +1,0 @@
-Existem algumas primitivas de concorrência adicionais disponíveis para o Go, além das fornecidas pelo próprio idioma e pelos pacotes 'sync' e 'sync/atomic'. Essas primitivas podem ser úteis para ajudar a gerenciar a execução de vários processos ao mesmo tempo e evitar conflitos de dados.  

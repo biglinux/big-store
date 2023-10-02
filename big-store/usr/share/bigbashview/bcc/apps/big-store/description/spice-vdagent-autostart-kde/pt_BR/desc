@@ -1,1 +1,0 @@
-Este programa é um script que ajuda a resolver alguns problemas com o comando sudo no ambiente de desktop KDE. Ele é chamado spice-vdagent-autostart-kde e é projetado para iniciar automaticamente o agente spice-vdagent no KDE, garantindo assim que o compartilhamento de área de trabalho e outras funcionalidades funcionem corretamente. 

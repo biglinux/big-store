@@ -1,2 +1,0 @@
-ivre-docs-git é uma ferramenta de reconhecimento de rede baseada em Nmap, Masscan, Zgrab2, Nuclei, httpx, Zeek (Bro),
-Argus e Netflow. Com ela, é possível construir suas próprias alternativas ao Shodan e GreyNoise, executar seu serviço de DNS passivo e muito mais! (documentação)

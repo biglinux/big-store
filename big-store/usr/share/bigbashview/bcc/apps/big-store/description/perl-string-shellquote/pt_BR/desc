@@ -1,1 +1,0 @@
- O módulo perl-string-shellquote fornece uma maneira fácil de citar strings para uso em comandos do shell. Ele garante que as strings contenham apenas caracteres seguros para uso como argumentos de comando e escapa os caracteres necessários para garantir a segurança. Isso é útil quando você precisa  passar argumentos de string para comandos do shell de forma segura e confiável. 

@@ -1,1 +1,0 @@
-Este programa garante a compatibilidade de interface mro para versões de Perl anteriores a 5.9.5. Ele permite que os desenvolvedores continuem usando determinadas funcionalidades de mro mesmo em versões antigas do Perl.  

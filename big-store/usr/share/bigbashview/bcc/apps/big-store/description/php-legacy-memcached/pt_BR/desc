@@ -1,1 +1,0 @@
-Esta extensão do PHP permite a interface com o serviço memcached usando a biblioteca libmemcached. Ela é  considerada legada, ou seja, já não é mais atualizada ou mantida, mas ainda pode ser utilizada em projetos existentes. 

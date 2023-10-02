@@ -1,4 +1,0 @@
-Este é um programa que ajuda a medir o desempenho do seu código PHP. Ele se chama php-xhprof e ele é um perfilador
-hierárquico, o que significa que ele pode mostrar como cada parte do seu código está se relacionando com as outras. Isso é útil para identificar quais partes do seu código estão consumindo 
-mais tempo e recursos, para que você possa melhorá-las.Se você está procurando uma maneira de melhorar o desempenho do seu site ou aplicativo PHP, o php-xhprof é uma ótima opção a
-considerar. Ele é fácil de usar e pode ajudar a identificar rapidamente problemas de desempenho em seu código.

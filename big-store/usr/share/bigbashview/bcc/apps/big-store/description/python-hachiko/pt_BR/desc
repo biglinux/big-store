@@ -1,4 +1,0 @@
-Esse programa é uma forma simples de acompanhar alterações em arquivos usando a biblioteca Python chamada Hachiko. Ele
-permite que você fique de olho em pastas específicas e seja notificado quando houver mudanças nelas, como novos arquivos sendo adicionados ou arquivos existentes sendo modificados. Ele usa 
-uma biblioteca chamada Watchdog que é baseada em asyncio, o que significa que ele pode lidar com várias alterações de arquivos ao mesmo tempo sem travar o seu computador. Ele é uma
-ferramenta útil para quem precisa manter o controle de vários arquivos e pastas ao mesmo tempo.

@@ -1,3 +1,0 @@
-Este é um programa chamado svgo que serve para deixar os arquivos SVG (Scalable Vector Graphics) mais pequenos e rápidos. Ele
-funciona analisando o arquivo e remove qualquer coisa desnecessária, como espaços em branco, para torná-lo menor. Isso é útil se você quer usar esses arquivos em sites ou aplicativos e quer
-garantir que eles carreguem rapidamente para os usuários. Além disso, ele também pode ajudar a manter os arquivos organizados e fáceis de trabalhar.

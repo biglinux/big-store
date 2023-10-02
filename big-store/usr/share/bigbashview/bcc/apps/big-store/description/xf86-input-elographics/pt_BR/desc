@@ -1,1 +1,0 @@
-Esse é um driver de entrada para dispositivos de tela sensível ao toque Elographics, compatível com o X.org. Ele permite que o usuário use o dispositivo para interagir com o computador, como clicar, arrastar e tocar na tela. Este driver é projetado para ser usado com o sistema operacional X Window. 

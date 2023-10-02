@@ -1,4 +1,0 @@
-Conda é um gerenciador de pacotes e ambientes para Python. Este complemento para o Zsh adiciona autocompletar para comandos e
-argumentos do conda e mamba, tornando mais fácil e rápido utilizar essas ferramentas no terminal. Com ele, você não precisa mais digitar todo o nome de um pacote ou ambiente, basta digitar 
-algumas letras e apertar a tecla de tabulação para ver sugestões.Além disso, ele também fornece dicas sobre os comandos disponíveis e sua sintaxe, o que pode ser útil para quem está
-começando a usar o conda.

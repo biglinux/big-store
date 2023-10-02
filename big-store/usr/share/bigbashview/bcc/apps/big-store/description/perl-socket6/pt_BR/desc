@@ -1,1 +1,0 @@
-Este é um módulo de suporte para a biblioteca de sockets Perl. Ele adiciona suporte para as funções getaddrinfo e getnameinfo, que são usadas para converter entre endereços de rede e nomes de host. Isso é útil para aplicativos que precisam trabalhar com endereços IPv6 e IPv4. Este módulo  é conhecido como perl-socket6. 

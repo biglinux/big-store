@@ -1,3 +1,0 @@
-Esse programa é uma implementação da BIP-0039 do Bitcoin em Python. Ele permite que as palavras mnemônicas sejam usadas 
-como uma forma de armazenar e recuperar chaves privadas. Isso é útil porque as palavras mnemônicas podem ser facilmente memorizadas e escritas, enquanto as chaves privadas normalmente são
-longas sequências de números e letras. Além disso, este programa também fornece ferramentas para gerar e validar palavras mnemônicas, garantindo a segurança das chaves privadas.

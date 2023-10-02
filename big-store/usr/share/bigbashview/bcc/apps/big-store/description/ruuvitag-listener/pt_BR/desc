@@ -1,2 +1,0 @@
-Com este programa, você pode ouvir as medidas do sensor RuuviTag via Bluetooth LE e enviá-las para o InfluxDB usando o
-protocolo de linha. Ele é fácil de usar e é uma ótima opção para quem quer acompanhar os dados de seus sensores de forma simples e precisa.

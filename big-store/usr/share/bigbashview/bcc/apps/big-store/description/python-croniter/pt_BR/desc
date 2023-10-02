@@ -1,5 +1,0 @@
-Este programa, chamado python-croniter, é uma ferramenta que ajuda a programar tarefas para serem realizadas
-automaticamente. Ele é escrito em Python e funciona como um módulo, ou seja, é uma parte de outro programa. Com ele, é possível definir a frequência com que determinadas ações devem ser
-executadas, como por exemplo, enviar um e-mail todos os dias às 9h ou fazer uma limpeza no banco de dados toda quinta-feira às 23h. Ele funciona utilizando uma notação específica, chamada
-cron, que é usada para definir quando as tarefas devem ser realizadas. Além disso, ele também fornece uma maneira de iterar sobre as próximas vezes que uma tarefa deve ser executada, o que 
-pode ser útil para programas que precisam planejar ações futuras.

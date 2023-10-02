@@ -1,1 +1,0 @@
-ruby-sys-proctable é uma interface que fornece informações sobre a tabela de processos. Ela permite acessar informações como nome do processo, ID do processo, usuário dono do processo, entre outros. É uma ferramenta útil para administradores de sistemas e desenvolvedores que precisam monitorar ou gerenciar processos em um sistema operacional. 

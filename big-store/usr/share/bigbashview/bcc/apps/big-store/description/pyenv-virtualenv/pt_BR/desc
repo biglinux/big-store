@@ -1,3 +1,0 @@
-Este programa é um plugin para o pyenv que permite gerenciar ambientes virtuais para o Python. Isso significa
-que você pode criar diferentes ambientes com versões específicas do Python e instalar pacotes neles sem afetar outros ambientes ou a instalação global do Python. Isso é útil para
-desenvolvimento de projetos, pois você pode garantir que sua aplicação funcione corretamente em um ambiente específico, sem afetar outros projetos.

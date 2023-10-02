@@ -1,3 +1,0 @@
-Este programa é uma re-implementação das antigas ferramentas cgvg em perl. Ele permite uma busca avançada de texto
-através de arquivos, incluindo recursos como expressões regulares e opções de busca sensíveis a maiúsculas e minúsculas. É útil para desenvolvedores e administradores de sistemas que
-precisam localizar rapidamente informações em arquivos de log ou código.

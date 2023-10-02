@@ -1,1 +1,0 @@
-jemalloc é uma implementação de malloc (alocação de memória) que é escalável e concorrente. Isso significa que ele é capaz de lidar com muitos programas rodando ao mesmo tempo e usando grandes quantidades de memória sem problemas. Ele também é projetado para ser rápido e eficiente, garantindo que seus programas rodem bem. 

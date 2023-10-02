@@ -1,3 +1,0 @@
-Essa é uma biblioteca escrita em Python que permite criar enumerações (Enum) baseadas em strings. Isso significa que, ao invés de
-usar números inteiros para representar diferentes opções dentro de uma enumeração, você pode usar strings. Isso pode ser útil em situações onde as opções de uma enumeração são expressas
-como palavras ou frases, em vez de números. 

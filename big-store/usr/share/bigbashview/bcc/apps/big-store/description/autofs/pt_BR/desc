@@ -1,6 +1,0 @@
-O Autofs é um utilitário para Linux que permite gerenciar arquivos de forma automática. Ele funciona como um montador de
-sistemas de arquivos, o que significa que ele pode 'montar' (ou seja, tornar acessíveis) arquivos e pastas de forma automática quando você os acessa. Isso é útil, por exemplo, se você tem
-vários discos externos que você gostaria de acessar automaticamente sem precisar montá-los manualmente. Além disso, o Autofs também pode ser configurado para desmontar arquivos e pastas
-quando eles não estão sendo usados, o que pode ajudar a economizar energia e prolongar a vida útil do seu disco rígido. O Autofs é baseado no kernel, o que significa que ele funciona
-diretamente no sistema operacional e é otimizado para funcionar de forma eficiente. Ele é fácil de configurar e usar, e pode ser integrado com outros utilitários de gerenciamento de
-arquivos para aumentar ainda mais sua funcionalidade.

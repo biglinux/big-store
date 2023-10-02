@@ -1,4 +1,0 @@
-Este programa é um servidor UPnP, o que significa que ele ajuda a compartilhar arquivos de mídia, como músicas e
-vídeos, na sua rede local. Ele usa o MediaTomb como base e tem um banco de dados MySQL para armazenar as informações sobre os arquivos compartilhados.Isso significa que você pode usar
-vários dispositivos, como smartphones e tablets, para acessar e reproduzir esses arquivos em sua rede. Além disso, o uso de um banco de dados MySQL permite que você organize e pesquise
-esses arquivos de maneira mais fácil.

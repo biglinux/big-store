@@ -1,2 +1,0 @@
-Este é um programa que ajuda você a assistir arquivos e iniciar tarefas automaticamente. Ele usa uma tecnologia chamada
-inotify para vigiar os arquivos e quando algo mudar, ele começa a tarefa que você configurou. Ele é usado principalmente através de linha de comando.

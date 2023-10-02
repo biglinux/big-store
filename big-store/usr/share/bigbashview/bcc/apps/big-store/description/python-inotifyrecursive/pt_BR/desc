@@ -1,3 +1,0 @@
-Este programa permite monitorar de forma recursiva todos os arquivos dentro de uma pasta específica usando o
-Python. Ele usa a biblioteca inotify para detectar mudanças em tempo real, como adição, exclusão ou modificação de arquivos. É uma ferramenta simples e fácil de usar para quem precisa
-manter um olho constante sobre um grande número de arquivos.

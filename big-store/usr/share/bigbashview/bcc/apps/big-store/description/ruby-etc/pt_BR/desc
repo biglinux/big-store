@@ -1,1 +1,0 @@
-O ruby-etc é um programa que permite acessar informações normalmente armazenadas no diretório UNIX /etc. Ele é escrito em Ruby e pode ser facilmente integrado com outros programas escritos na mesma linguagem. Com ele, você pode ler, escrever e atualizar informações no diretório /etc de forma simples e segura. 

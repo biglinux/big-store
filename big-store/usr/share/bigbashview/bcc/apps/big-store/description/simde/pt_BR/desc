@@ -1,1 +1,0 @@
-O conjunto de instruções SIMD (Single Instruction, Multiple Data) permite que o processador execute uma única instrução em vários dados ao mesmo tempo, o que pode melhorar significativamente a velocidade de processamento. Essas implementações permitem que os desenvolvedores aproveitem essa funcionalidade para melhorar a performance de seus programas. 

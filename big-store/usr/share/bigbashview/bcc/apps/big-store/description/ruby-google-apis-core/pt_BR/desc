@@ -1,3 +1,0 @@
-Com o pacote ruby-google-apis-core, é possível utilizar as funcionalidades de diversas APIs do Google de forma fácil e
-rápida. Ele inclui classes úteis e de base para os clientes REST antigos do Google. Isso significa que você pode acessar dados como contatos, calendários e mensagens do Gmail sem precisar
-escrever muito código. Além disso, essas classes já possuem todas as configurações necessárias para se conectar com a API, então você pode se concentrar em como deseja utilizar os dados.

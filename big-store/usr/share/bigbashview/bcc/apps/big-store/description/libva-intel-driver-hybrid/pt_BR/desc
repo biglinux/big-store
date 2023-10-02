@@ -1,3 +1,0 @@
-Esse programa é um driver específico para placas gráficas Intel G45 e HD Graphics. Ele é uma implementação
-da VA-API, que é uma API de vídeo para aceleração de gráficos. Ele permite que os aplicativos de vídeo aproveitem a capacidade de processamento da placa gráfica para melhorar a qualidade de
-reprodução de vídeo e reduzir o uso de CPU.Esse driver é uma opção para usuários com essas placas gráficas e que desejam melhorar a reprodução de vídeo em seus computadores.

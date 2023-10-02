@@ -1,1 +1,0 @@
-net-tools é um conjunto de ferramentas de linha de comando para configurar e gerenciar redes no Linux. Ele inclui ferramentas como ifconfig, route e arp, que são usadas para configurar endereços IP, rotas e tabelas de arp, respectivamente. Estas ferramentas são úteis para administradores de sistemas e  desenvolvedores para monitorar e gerenciar a rede de seus sistemas Linux. 

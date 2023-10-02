@@ -1,1 +1,0 @@
-python-jsonlines is a library that makes it easy to read, write and process large amounts of JSON data stored in jsonlines file format. It provides helpful functions to work with jsonlines files, including reading and writing data, and working with the data stored in the file. It's simple and efficient. 

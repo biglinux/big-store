@@ -1,3 +1,0 @@
-Esse programa é uma biblioteca escrita em Python3 que ajuda a ler dados do GPS. Ele usa a biblioteca gpsd, que é uma
-interface de baixo nível para dispositivos GPS. Com esse programa, você pode facilmente obter informações como a localização atual, a velocidade e a precisão do sinal GPS. Ele é útil para
-qualquer projeto que precise lidar com dados do GPS, como aplicativos de navegação ou rastreamento de veículos.

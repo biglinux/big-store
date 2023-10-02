@@ -1,3 +1,0 @@
-Este programa foi escrito em Rust e tem como função carregar arquivos do tipo Dotenv (.env). Ele é útil para carregar
-variáveis de ambiente em seu projeto de forma fácil e segura.O zenv é uma ferramenta simples, mas poderosa, que ajuda a gerenciar suas configurações de projeto sem precisar expor
-informações sensíveis no código fonte.

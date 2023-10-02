@@ -1,3 +1,0 @@
-Este programa permite gerenciar o acesso à infraestrutura de forma dinâmica, baseando-se nas identidades dos usuários.
-Isso significa que você pode controlar quem tem acesso a quais recursos, de acordo com suas necessidades específicas. Por exemplo, você pode dar acesso total a um administrador, enquanto
-limita o acesso de outros usuários a certas áreas. Isso ajuda a proteger sua infraestrutura e garantir que apenas as pessoas certas tenham acesso às informações importantes.

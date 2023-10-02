@@ -1,1 +1,0 @@
- A libicns é uma biblioteca para manipulação de arquivos icns/IconFamily, que são usados no macOS para armazenar ícones. Ele pode ser usado para criar, extrair e modificar ícones, bem como para converter entre diferentes formatos de ícone. A biblioteca é escrita em C e está disponível sob a licença LGPL. 

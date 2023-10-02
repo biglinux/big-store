@@ -1,2 +1,0 @@
-O pacote robot_localization fornece uma estimativa de estado não linear através da fusão de sensores para um número
-arbitrário de sensores. Ele é parte do sistema operacional ROS (Robot Operating System) e específico para a versão noetic.

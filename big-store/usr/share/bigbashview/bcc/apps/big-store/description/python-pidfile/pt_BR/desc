@@ -1,4 +1,0 @@
-Este programa é um gerenciador de contexto para arquivos PID em Python. Ele ajuda a garantir que apenas uma instância de 
-um determinado programa esteja em execução ao mesmo tempo, criando e gerenciando arquivos PID. Ele também fornece uma maneira fácil de verificar se um programa já está em execução e, se
-necessário, encerrar essa instância.Em resumo, este programa é útil para garantir que um determinado processo esteja sempre sendo executado de forma controlada e evitar conflitos de
-processos.

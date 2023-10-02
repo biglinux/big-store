@@ -1,1 +1,0 @@
-Um app desenvolvido em Python para lidar de forma elegante com as configurações padrão de apps Django embalados. Ele permite que você configure e altere facilmente as configurações desses apps sem precisar editar o código fonte. Isso torna mais fácil manter e atualizar esses apps. Este app é chamado de python-django-appconf. 

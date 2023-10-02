@@ -1,4 +1,0 @@
- Este programa é uma ferramenta simples para gerenciar backups usando o Restic. Ele permite que você configure facilmente quais
-pastas e arquivos deseja incluir no backup e quando ele deve ser executado. Além disso, ele fornece uma interface amigável para visualizar e gerenciar seus backups existentes.Ele é fácil
-de usar e é perfeito para pessoas que não têm muita experiência em configurar backups. Ele também é útil para aqueles que desejam automatizar o processo de backup sem precisar se preocupar 
-com os detalhes técnicos. 

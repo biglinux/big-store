@@ -1,1 +1,0 @@
-Este programa, chamado perl-hook-lexwrap, é um gerenciador de recursos que usa escopo lexical. Isso significa que ele controla como os recursos são alocados e liberados de acordo com a estrutura de código. Isso pode ajudar a evitar problemas de memória e outros erros relacionados ao gerenciamento de recursos. 

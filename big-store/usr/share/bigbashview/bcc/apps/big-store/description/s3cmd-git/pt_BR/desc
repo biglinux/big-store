@@ -1,4 +1,0 @@
-s3cmd-git é um cliente de linha de comando para o Amazon S3 (versão de desenvolvimento). Ele permite que
-você faça upload, baixe e gerencie arquivos e pastas no S3 de forma fácil e rápida. Além disso, ele também suporta várias outras funcionalidades, como cópia de arquivos entre contas do S3, 
-configuração de políticas de acesso e muito mais. Com s3cmd-git, você pode economizar tempo e esforço ao gerenciar seus arquivos no S3, especialmente se você precisar lidar com grandes
-quantidades de dados. Além disso, ele é open-source, o que significa que você pode contribuir e melhorá-lo.

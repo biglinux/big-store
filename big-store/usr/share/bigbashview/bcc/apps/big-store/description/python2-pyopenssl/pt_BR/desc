@@ -1,4 +1,0 @@
-Este é um módulo wrapper para o OpenSSL, projetado especificamente para a versão antiga do Python 2. 
-Ele permite que você use recursos de criptografia avançados em seus programas escritos em Python 2, tornando-os mais seguros e confiáveis. Com ele, você pode criptografar informações
-sensíveis, como senhas, dados de cartão de crédito e outras informações confidenciais. Além disso, ele também fornece verificação de integridade de dados, garantindo que as informações
-enviadas e recebidas sejam as mesmas. Este módulo é uma escolha sólida para quem precisa de segurança de dados em seus programas escritos em Python 2. 

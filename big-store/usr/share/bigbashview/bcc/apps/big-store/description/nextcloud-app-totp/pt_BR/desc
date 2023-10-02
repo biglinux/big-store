@@ -1,4 +1,0 @@
-Este programa adiciona uma camada extra de segurança para sua conta do Nextcloud, usando autenticação de dois fatores.
-Isso significa que, além de digitar sua senha, você também precisará fornecer um código gerado pelo aplicativo em seu celular. Dessa forma, mesmo que alguém descubra sua senha, eles ainda
-não conseguirão acessar sua conta.Este programa é chamado de 'nextcloud-app-totp' e é um provedor de TOTP (Time-based One-Time Password) para o Nextcloud. Ele é fácil de usar e ajuda a
-proteger suas informações importantes.

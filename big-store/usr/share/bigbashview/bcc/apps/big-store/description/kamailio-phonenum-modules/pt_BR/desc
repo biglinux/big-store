@@ -1,3 +1,0 @@
- Este é um módulo para o Kamailio que permite a validação e formatação de números de telefone. Ele usa a
-biblioteca libphonenumber para realizar essas tarefas. Com este módulo, você pode garantir que os números de telefone em sua aplicação estejam sempre corretos e prontos para uso. Ele é
-fácil de usar e pode ser adicionado facilmente a qualquer projeto Kamailio existente. 

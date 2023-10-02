@@ -1,1 +1,0 @@
-O Snowglobe é uma gem que ajuda a criar e destruir aplicações Rails para uso em testes. Ele é especialmente útil quando você precisa criar cenários de teste que exigem a criação de uma aplicação inteira. Com o Snowglobe, você pode criar e destruir aplicações com facilidade, sem precisar se preocupar com a configuração manual. 

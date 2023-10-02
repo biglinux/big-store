@@ -1,1 +1,0 @@
-phodav é uma implementação de servidor WebDav que utiliza a biblioteca libsoup para seguir o padrão RFC 4918. Ele é uma ferramenta útil para compartilhar arquivos e sincronizar dados em uma rede. 

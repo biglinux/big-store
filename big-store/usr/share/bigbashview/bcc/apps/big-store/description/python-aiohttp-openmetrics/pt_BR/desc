@@ -1,1 +1,0 @@
-Este programa fornece métricas para aplicações web desenvolvidas com a biblioteca aiohttp no Python. Ele se conecta ao provedor OpenMetrics para coletar e enviar dados de métricas para monitoramento e análise. 

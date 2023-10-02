@@ -1,1 +1,0 @@
-libice é uma biblioteca de troca de clientes para o sistema X Window. Ela permite que diferentes programas em um sistema  X compartilhem informações e eventos de entrada. Isso é útil para aplicativos como gerenciadores de janelas e editores de texto que precisam trabalhar juntos de forma integrada. 

@@ -1,4 +1,0 @@
-mxnet-mkl-cuda é uma biblioteca de aprendizado profundo que combina as vantagens do MKL e do
-CUDA para oferecer uma opção flexível e eficiente para desenvolvimento de modelos de aprendizado profundo. Ele permite aos desenvolvedores aproveitar ao máximo a potência dos processadores 
-e das GPUs para acelerar o treinamento e a inferência de modelos. Além disso, a biblioteca é projetada para ser fácil de usar e personalizar, permitindo aos usuários experimentar com
-diferentes arquiteturas e técnicas de aprendizado profundo. 

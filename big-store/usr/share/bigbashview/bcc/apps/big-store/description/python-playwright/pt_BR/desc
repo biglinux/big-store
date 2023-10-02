@@ -1,3 +1,0 @@
- Com a biblioteca python-playwright, é possível automatizar os navegadores Chromium, Firefox e WebKit com apenas uma 
-API. Isso significa que você pode escrever um único código e usá-lo para controlar vários navegadores diferentes, o que é útil para testes automatizados e outras tarefas. Além disso, a
-biblioteca é escrita em Python, uma linguagem de programação popular e fácil de aprender. 

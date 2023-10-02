@@ -1,4 +1,0 @@
-Esta é uma biblioteca chamada lib32-udis86-git. Ela é usada para desmontar programas de computador, ou seja, transformar o
-código de um programa de volta em instruções mais simples, fáceis de entender para humanos. Essa biblioteca especificamente é para programas de 32 bits.É importante mencionar que essa
-biblioteca é compartilhada, o que significa que outros programas podem usá-la também. Além disso, essa biblioteca é um projeto git, o que significa que é um projeto de código aberto e pode 
-ser modificado e compartilhado por qualquer pessoa. 

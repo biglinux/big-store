@@ -1,1 +1,0 @@
-A biblioteca mpfr é uma implementação em C de um número de ponto flutuante com precisão arbitrária. Ela é  projetada para ser compatível com a biblioteca de funções matemáticas do C (libm) e é usada para aplicações como cálculos científicos, engenharia e finanças. 

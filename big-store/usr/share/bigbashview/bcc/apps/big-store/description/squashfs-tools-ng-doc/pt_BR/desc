@@ -1,4 +1,0 @@
-Essas ferramentas e bibliotecas são uma nova versão para trabalhar com imagens SquashFS. Elas possibilitam acesso,
-extração e modificação de arquivos dentro dessas imagens. SquashFS é um sistema de arquivos comprimido, muito útil para armazenar grandes quantidades de dados em dispositivos de
-armazenamento limitados, como discos rígidos externos ou cartões de memória. Com essas ferramentas, você pode facilmente trabalhar com imagens SquashFS, acessando e modificando arquivos
-dentro delas sem precisar extraí-las primeiro.

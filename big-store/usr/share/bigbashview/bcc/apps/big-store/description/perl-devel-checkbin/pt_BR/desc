@@ -1,1 +1,0 @@
-O pacote 'perl-devel-checkbin' permite verificar se um determinado comando está disponível no sistema. Ele é útil para garantir que as dependências de um programa estejam instaladas antes de sua execução. 

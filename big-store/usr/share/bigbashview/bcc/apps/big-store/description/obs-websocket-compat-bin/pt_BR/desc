@@ -1,3 +1,0 @@
-Este programa permite que você controle o OBS Studio, um software para gravação e transmissão de vídeo, através
-de uma conexão WebSocket. Ele é compatível com as versões 4.9.1 e anteriores do OBS Studio. Com ele, você pode ajustar configurações, iniciar e parar gravações e transmissões a partir de
-outro dispositivo, sem precisar estar diante do seu computador. Isso é útil para quem deseja controlar o OBS Studio de forma remota, por exemplo, durante uma transmissão ao vivo.

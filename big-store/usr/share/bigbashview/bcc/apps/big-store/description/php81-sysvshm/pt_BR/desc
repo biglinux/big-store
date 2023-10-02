@@ -1,4 +1,0 @@
-Este programa é um módulo para a versão 8.1 do PHP, chamado sysvshm. Ele permite que o PHP acesse e compartilhe dados de memória 
-compartilhada, o que é útil para otimizar o desempenho de aplicativos web. A memória compartilhada é uma área de armazenamento que pode ser acessada por vários processos ao mesmo tempo,
-permitindo que eles troquem informações rapidamente. Usando o módulo sysvshm, o PHP pode acessar essa memória compartilhada e compartilhar dados com outros programas, melhorando a
-velocidade e eficiência do aplicativo web. 

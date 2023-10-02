@@ -1,1 +1,0 @@
-Este é um módulo do Kernel para o Linux 4.19 que permite que você emule dispositivos SCSI no seu sistema. Isso pode ser útil em várias situações, como testar novos softwares ou acessar dispositivos que seu sistema não suporta nativamente. O nome desse módulo é linux419-vhba-module. 

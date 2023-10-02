@@ -1,1 +1,0 @@
-A biblioteca ruby-term-ansicolor permite colorir strings usando sequências de escape ANSI. Isso significa que é possível mudar a cor de texto, fundo, negrito, sublinhado e outras configurações de formatação em uma string usando códigos ANSI específicos. Essa biblioteca é útil para tornar saídas de terminal mais legíveis e atraentes. 

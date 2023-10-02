@@ -1,1 +1,0 @@
- Este é um plugin de serviços para o framework de testes pytest, escrito em python. Ele adiciona funcionalidades ao pytest, permitindo que você teste seus serviços de maneira fácil e eficiente. Com ele, você pode garantir que seus serviços estejam funcionando corretamente antes de colocá-los em produção.  

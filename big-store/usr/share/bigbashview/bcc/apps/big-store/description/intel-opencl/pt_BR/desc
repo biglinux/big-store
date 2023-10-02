@@ -1,3 +1,0 @@
- Este é um driver OpenCL 2.0 para gráficos Intel HD, Iris e Iris Pro para Linux (pré-Broadwell).
-Ele é considerado uma versão antiga, mas ainda pode ser útil para alguns usuários. Ele permite que os aplicativos utilizem a capacidade de processamento paralelo dos processadores gráficos 
-da Intel para acelerar tarefas de computação. 

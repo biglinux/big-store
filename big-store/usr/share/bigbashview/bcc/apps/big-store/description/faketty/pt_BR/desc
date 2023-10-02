@@ -1,4 +1,0 @@
-Este programa é um 'wrapper' (embrulhador) que permite executar um comando em um terminal virtual, mesmo quando a saída 
-do comando é redirecionada. Isso significa que você pode usar todas as funcionalidades de um terminal, como navegar pelo diretório, mesmo quando o comando está sendo executado em segundo
-plano ou em um script.Além disso, o programa faketty também fornece algumas outras funcionalidades avançadas, como a possibilidade de alternar entre vários terminais virtuais, ou usar um
-terminal virtual para executar comandos com privilégios elevados.

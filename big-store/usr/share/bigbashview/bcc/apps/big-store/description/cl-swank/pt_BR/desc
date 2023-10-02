@@ -1,1 +1,0 @@
- O cl-swank é um servidor Lisp-side para o Emacs. Ele permite que você execute comandos Lisp diretamente no seu editor  de texto, sem precisar sair dele. Isso torna a programação em Lisp muito mais conveniente e eficiente. Além disso, o cl-swank também oferece recursos avançados, como depuração, navegação de código e suporte a múltiplos projetos.  

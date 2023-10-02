@@ -1,1 +1,0 @@
-kubelet é um agente que roda em cada nó em um cluster Kubernetes, garantindo que os containers estejam em execução em um Pod. 

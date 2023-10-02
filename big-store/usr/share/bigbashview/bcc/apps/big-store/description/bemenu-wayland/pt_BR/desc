@@ -1,1 +1,0 @@
-bemenu-wayland é um renderer para o programa bemenu que utiliza a biblioteca wlroots para funcionar no sistema de janelas Wayland. Ele permite que o bemenu seja exibido de forma correta e estável em ambientes que utilizam Wayland como sistema de janelas. 

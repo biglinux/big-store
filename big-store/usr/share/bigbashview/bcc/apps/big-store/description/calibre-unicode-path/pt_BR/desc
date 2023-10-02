@@ -1,3 +1,0 @@
-O calibre é uma aplicação para gerenciamento de livros eletrônicos. Com este programa, você pode organizar sua biblioteca
-digital, converter livros para diferentes formatos, sincronizar com dispositivos de leitura e muito mais. Este patch específico do calibre adiciona suporte a nomes de arquivos e caminhos
-com caracteres unicode.

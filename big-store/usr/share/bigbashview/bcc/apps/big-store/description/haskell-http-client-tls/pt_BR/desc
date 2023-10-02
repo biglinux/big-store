@@ -1,1 +1,0 @@
-Este programa é um cliente HTTP escrito em Haskell que utiliza o pacote de conexão e a biblioteca TLS para estabelecer conexões seguras com servidores. Ele é útil para acessar APIs e outros recursos na web de forma segura. 

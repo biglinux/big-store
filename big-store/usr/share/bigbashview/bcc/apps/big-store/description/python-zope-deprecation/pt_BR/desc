@@ -1,1 +1,0 @@
-O Zope é um sistema de gerenciamento de conteúdo em Python. Ele contém uma infraestrutura de depreciação que permite aos desenvolvedores marcar certos recursos como obsoletos e fornecer informações sobre como os recursos devem ser substituídos. A biblioteca python-zope-deprecation fornece uma maneira fácil de acessar essa infraestrutura de depreciação. 

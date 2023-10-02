@@ -1,3 +1,0 @@
-Este programa é chamado pacman-git e ele é usado para gerenciar pacotes em um computador. Ele funciona como uma 
-biblioteca, o que significa que ele pode ser usado por outros programas para instalar e gerenciar pacotes. Ele também tem suporte a dependências, o que significa que ele pode instalar
-pacotes que outros pacotes precisam para funcionar corretamente. Em resumo, o pacman-git é uma ferramenta poderosa para gerenciar pacotes e manter seu computador organizado e atualizado.

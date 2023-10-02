@@ -1,3 +1,0 @@
- mkinitcpio é uma ferramenta útil para criar imagens iniciais modulares. Ela permite que você personalize facilmente a
-imagem inicial que é usada no início do processo de inicialização do seu sistema. Com ela, você pode adicionar módulos, scripts e outras configurações para que tudo esteja pronto para usar 
-assim que o sistema for iniciado. Essa versão específica é do repositório git, o que significa que é uma versão em desenvolvimento e pode conter erros ou recursos não testados.

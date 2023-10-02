@@ -1,3 +1,0 @@
-mkpdf é uma ferramenta simples que usa dois programas chamados pandoc e latexmk para criar arquivos PDF. Ele é útil para quem precisa
-transformar arquivos de texto em um formato mais profissional e elegante.Com mkpdf, é possível converter arquivos como .docx, .txt, e .md para PDF. Além disso, ele permite a adição de
-imagens e tabelas no arquivo final.mkpdf é fácil de usar e é uma excelente opção para quem precisa criar PDFs rapidamente e sem muita complexidade.

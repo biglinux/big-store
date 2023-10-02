@@ -1,4 +1,0 @@
-O runtime do ASP.NET Core (binário) é uma parte importante do sistema que permite a execução de aplicativos ASP.NET Core. 
-É responsável por gerenciar as solicitações do usuário, processar dados e retornar as respostas para o navegador. Sem ele, os aplicativos ASP.NET Core não funcionariam corretamente.O
-runtime em binário é uma versão compilada e pronta para uso, diferente da versão de código-fonte, que precisa ser compilada antes de ser usada. Isso torna a instalação e a execução dos
-aplicativos ASP.NET Core mais simples e rápida.

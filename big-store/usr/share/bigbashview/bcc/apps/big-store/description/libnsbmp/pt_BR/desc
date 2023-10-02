@@ -1,1 +1,0 @@
-A biblioteca libnsbmp é projetada para decodificar os formatos de arquivo de imagem BMP e ICO. Ela é simples e fácil de usar, com ênfase em fornecer uma API minimalista, mas poderosa, para os desenvolvedores trabalharem. A biblioteca é escrita em C e é totalmente multiplataforma, tornando fácil de integrar em qualquer projeto.  

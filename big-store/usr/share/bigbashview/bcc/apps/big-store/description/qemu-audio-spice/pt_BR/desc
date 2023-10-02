@@ -1,1 +1,0 @@
-Este é um driver de áudio para o programa QEMU, específico para uso com o protocolo spice. Ele permite que áudio seja transmitido  através da conexão spice, permitindo que os usuários ouçam som em suas máquinas virtuais. Este driver é importante para quem precisa de áudio em suas máquinas virtuais e está usando o protocolo spice. 

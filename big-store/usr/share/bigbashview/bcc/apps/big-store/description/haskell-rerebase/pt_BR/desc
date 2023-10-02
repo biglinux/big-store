@@ -1,1 +1,0 @@
-Este programa é um reexportação de bibliotecas padrão do Haskell. Ele permite que você acesse as funções e recursos de várias bibliotecas diferentes através de uma única interface. Isso pode tornar mais fácil para você escrever seu código, pois você não precisa se preocupar em importar várias bibliotecas diferentes. 

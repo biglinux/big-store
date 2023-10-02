@@ -1,4 +1,0 @@
-Este é um tema de cores chamado Gruvbox Material, ele é projetado para ser usado com o plugin Airline no editor
-de código Neovim. Ele tem uma paleta de cores escura e suave, que é fácil de ler e não cansativa para os olhos. Ele também tem alguns estilos adicionais para tornar seu código mais fácil de
-navegar e entender.Para usar esse tema, você precisará ter o plugin Airline instalado no Neovim e configurá-lo para usar o tema Gruvbox Material. Há instruções detalhadas disponíveis na
-documentação do plugin sobre como fazer isso.

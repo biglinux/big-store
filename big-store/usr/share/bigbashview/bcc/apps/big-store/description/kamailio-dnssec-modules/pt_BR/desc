@@ -1,3 +1,0 @@
- Este é um módulo para o Kamailio, um software de roteamento de mensagens, que adiciona suporte para DNSSEC, um sistema de
-segurança para o protocolo DNS. Ele permite que os usuários verifiquem a autenticidade de respostas DNS e garantir que elas não foram alteradas durante a transmissão. Isso ajuda a proteger 
-contra ataques como phishing e redirecionamentos maliciosos. 

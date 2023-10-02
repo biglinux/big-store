@@ -1,4 +1,0 @@
-Este é um módulo para o servidor web Nginx que permite criar índices elaborados para suas pastas. Ele 
-adiciona recursos visuais e interativos aos índices padrão do Nginx, tornando mais fácil para os usuários navegarem e encontrar o que procuram em seu site ou aplicativo.Com o módulo
-nginx-mod-fancyindex, você pode personalizar a aparência dos índices, adicionar miniaturas de imagens e até mesmo criar uma lista de arquivos recentes para ajudar os usuários a encontrar
-rapidamente o que procuram.

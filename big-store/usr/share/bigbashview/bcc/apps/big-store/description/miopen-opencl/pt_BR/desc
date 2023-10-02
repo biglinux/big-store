@@ -1,4 +1,0 @@
-A biblioteca de inteligência artificial da AMD, chamada miopen-opencl, é um conjunto de ferramentas e algoritmos
-desenvolvidos para acelerar o processamento de dados e melhorar a precisão de aplicativos de inteligência artificial. Ela foi projetada para ser compatível com o OpenCL, o que permite que
-ela seja usada em uma variedade de dispositivos, incluindo GPUs, CPUs e APUs. Com a miopen-opencl, os desenvolvedores podem aproveitar a potência da computação paralela para melhorar a
-eficiência e a velocidade dos seus aplicativos de IA.

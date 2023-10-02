@@ -1,3 +1,0 @@
-Este programa verifica se os links presentes em documentos escritos no formato markdown estão funcionando corretamente.
-Ele percorre todos os links presentes no documento e verifica se eles estão acessíveis, ou seja, se estão 'vivos'.Isso é útil para garantir que todos os links presentes em um documento
-estejam funcionando corretamente e não levem a páginas não encontradas, o que pode prejudicar a experiência do usuário.

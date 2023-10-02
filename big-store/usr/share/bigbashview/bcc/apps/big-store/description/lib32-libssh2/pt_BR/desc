@@ -1,1 +1,0 @@
-Esta é uma biblioteca que implementa o protocolo SSH2 como definido pelos rascunhos da Internet (32-bit). Ela é conhecida como lib32-libssh2 e é usada para se conectar a servidores remotos de forma segura e realizar tarefas como transferencia de arquivos e execução de comandos. 

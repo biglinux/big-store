@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 8.1 que permite a manipulação de imagens. Ele fornece funções para criar, modificar e exibir imagens no
-formato JPEG, PNG, GIF e outros. Com este módulo, é possível criar gráficos, desenhar formas, adicionar texto e muito mais. Algumas das funcionalidades incluem: criação de imagens a partir 
-de dados brutos, redimensionamento, rotação, adição de texto, adição de filtros e outros efeitos.

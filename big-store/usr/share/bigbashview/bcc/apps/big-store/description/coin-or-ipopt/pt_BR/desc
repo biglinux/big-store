@@ -1,2 +1,0 @@
- Este programa é chamado de Otimizador de Pontos Internos (IPOPT). Ele é usado para resolver problemas de otimização
-não-linear. Ele usa um método chamado de Ponto Interno para encontrar a melhor solução para o problema. Ele é muito preciso e eficiente em comparacao a outros métodos de otimizacao.

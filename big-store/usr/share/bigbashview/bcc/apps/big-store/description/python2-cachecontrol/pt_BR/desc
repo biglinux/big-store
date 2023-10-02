@@ -1,3 +1,0 @@
-Este programa fornece cache para requisições utilizando o httplib2 para a versão antiga do Python 2. Ele é uma ferramenta
-útil para aumentar a velocidade de carregamento de páginas e economizar dados ao acessar o mesmo conteúdo várias vezes. Com o cache, o programa armazena uma cópia local de um recurso que
-foi acessado previamente, permitindo que ele seja carregado mais rapidamente da próxima vez que for solicitado. 

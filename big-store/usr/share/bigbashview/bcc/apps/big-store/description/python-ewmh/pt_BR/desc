@@ -1,1 +1,0 @@
-Este programa é uma implementação em Python do Extended Window Manager Hints (EWMH), baseado no Xlib. Ele permite aos usuários gerenciar janelas com recursos avançados, como maximizar, minimizar e reorganizar janelas de maneira mais eficiente. 

@@ -1,4 +1,0 @@
-O pacroller é um programa que permite realizar atualizações automáticas no sistema operacional Arch Linux. Ele é
-executado sem intervenção humana e atualiza todos os pacotes instalados no sistema de forma segura e eficiente. Ele também permite configurar regras para evitar atualizações indesejadas ou 
-para incluir pacotes adicionais que não estão presentes na lista padrão do Arch Linux.Dessa forma, o pacroller é uma ferramenta essencial para qualquer usuário do Arch Linux que deseja
-manter seu sistema sempre atualizado e seguro, sem precisar se preocupar com a realização dessas atualizações manualmente.

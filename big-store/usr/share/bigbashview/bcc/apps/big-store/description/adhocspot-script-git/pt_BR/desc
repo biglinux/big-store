@@ -1,3 +1,0 @@
-Este programa é um script bash que facilita a configuração da sua interface para compartilhar a sua conexão de internet.
-Ele também configura um servidor DHCP, DNS e TFTP para ouvir na conexão. As configurações de IP, DHCP e DNS podem ser ajustadas e, para interfaces WiFi, também é possível configurar o modo 
-sem fio e criptografia. 

@@ -1,4 +1,0 @@
-Este programa, chamado passport-git, é um gerenciador de senhas com interface gráfica feita com GTK4. Ele é baseado 
-no programa GNU pass, que é um gerenciador de senhas de linha de comando. Com este programa, você pode armazenar suas senhas de forma segura e acessá-las facilmente com uma interface
-amigável. Além disso, ele oferece recursos como criptografia forte e suporte para sincronização com repositórios remotos, para que você possa acessar suas senhas de qualquer lugar. Se você 
-está procurando uma maneira fácil e segura de gerenciar suas senhas, o passport-git é uma excelente escolha.

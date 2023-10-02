@@ -1,1 +1,0 @@
-Este programa é uma extensão do QuickCheck, um pacote para testes automatizados em Haskell. Ele adiciona suporte para verificações rápidas de tipos comuns, como por exemplo, tipos numéricos, listas e estruturas de dados. 

@@ -1,4 +1,0 @@
-O dbus-broker-git é um programa para Linux que funciona como um gerenciador de mensagens D-Bus. Ele permite que
-diferentes programas no sistema comuniquem entre si de forma eficiente e segura, usando o protocolo D-Bus. Ele é baseado em código aberto e está disponível no GitHub. Ele é particularmente 
-útil em sistemas embarcados e dispositivos móveis, onde o gerenciamento de recursos é crucial. Ele permite que os desenvolvedores criem aplicativos que se comunicam com outros programas e
-componentes do sistema de forma fácil e segura.

@@ -1,3 +1,0 @@
-O nodenv é uma ferramenta que permite gerenciar facilmente várias versões do NodeJS no mesmo computador. Isso é útil quando 
-você precisa trabalhar com projetos que exigem versões específicas do NodeJS, sem afetar outros projetos.Com o nodenv, você pode instalar várias versões do NodeJS e mudar facilmente entre
-elas. Também é possível configurar automaticamente a versão correta para cada projeto, usando o arquivo .node-version.

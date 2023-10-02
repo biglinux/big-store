@@ -1,3 +1,0 @@
-Esse programa funciona como uma ponte entre o Python e o GNU Octave. Ele permite que você execute códigos escritos em Python
-dentro do Octave e vice-versa. Isso é útil quando você precisa usar as funcionalidades de ambos os programas em um único projeto. Com esse programa, você pode aproveitar a facilidade de uso
-do Python e a potência de cálculos do Octave.

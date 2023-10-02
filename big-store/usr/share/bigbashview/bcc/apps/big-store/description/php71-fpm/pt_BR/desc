@@ -1,3 +1,0 @@
-Este programa é conhecido como php71-fpm e é um gerenciador de processos FastCGI para a versão 7.1 do PHP. Ele 
-permite que o PHP seja executado de forma mais eficiente e rápida em um servidor web, melhorando o desempenho do seu site ou aplicativo. Com o php71-fpm, você pode gerenciar vários
-processos PHP simultaneamente, o que permite que múltiplos usuários acessem seu site ou aplicativo ao mesmo tempo sem problemas de desempenho.

@@ -1,4 +1,0 @@
- Este é um driver de gamepad para usuários no Linux. Ele permite que você use seu controle Xbox no seu computador com
-sistema operacional Linux. Ele é especialmente útil para jogos que não suportam o uso de controles de jogo nativamente no Linux. Com esse driver, você pode personalizar as configurações do 
-seu gamepad e usá-lo como quiser.Ele é chamado xboxdrv e é open source, ou seja, é livre para ser usado, modificado e distribuído. Isso significa que qualquer pessoa pode contribuir para
-o desenvolvimento do driver. 

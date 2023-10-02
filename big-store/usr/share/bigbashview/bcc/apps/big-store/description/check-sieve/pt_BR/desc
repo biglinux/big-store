@@ -1,1 +1,0 @@
- check-sieve é uma ferramenta de linha de comando para verificar a sintaxe de scripts Sieve. Ele pode ser usado para verificar um arquivo de script único ou um diretório de scripts. O verificador de sintaxe verificará a sintaxe correta e relatará quaisquer erros encontrados. 

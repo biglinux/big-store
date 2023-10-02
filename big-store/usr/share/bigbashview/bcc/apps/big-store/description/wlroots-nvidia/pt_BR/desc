@@ -1,4 +1,0 @@
-Essa é uma biblioteca de compositor Wayland que é modular e possui uma correção para o problema de flickering da
-NVIDIA. Ela é usada para criar programas que funcionam com o sistema de janelas Wayland no Linux. Com ela, é possível construir programas personalizados e adaptá-los a suas necessidades
-específicas. Além disso, essa biblioteca foi projetada para ser eficiente e fácil de usar. A correção para o problema de flickering da NVIDIA significa que os programas criados com essa
-biblioteca não terão problemas de tela piscando quando usados com placas gráficas NVIDIA. Isso garante uma melhor experiência para o usuário e evita problemas de estabilidade.

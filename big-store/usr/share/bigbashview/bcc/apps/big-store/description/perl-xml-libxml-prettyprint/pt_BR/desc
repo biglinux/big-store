@@ -1,1 +1,0 @@
-Este programa, chamado perl-xml-libxml-prettyprint, ajuda a adicionar espaços em branco de forma organizada em uma árvore DOM. Isso torna mais fácil para os humanos ler e entender o código. Ele é escrito em Perl e usa a biblioteca libxml para fazer isso. Ele é útil para desenvolvedores que trabalham com códigos XML e precisam de uma forma de deixá-los mais legíveis. 

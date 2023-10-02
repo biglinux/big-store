@@ -1,3 +1,0 @@
-Este programa é um depurador interativo para o PHP 8.0. Ele permite que você execute seu código passo a passo e examine as variáveis
-​​e o fluxo de execução. Isso pode ser útil para encontrar e corrigir erros em seu código.Algumas das funcionalidades incluem a capacidade de definir pontos de interrupção, avaliar expressões
-arbitrárias e navegar pelo código-fonte enquanto o programa está em execução.

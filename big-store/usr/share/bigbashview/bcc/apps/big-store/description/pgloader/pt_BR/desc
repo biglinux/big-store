@@ -1,2 +1,0 @@
- pgloader é uma ferramenta para carregar dados em seu banco de dados PostgreSQL. Ele usa o comando COPY para
-fazer isso de forma rápida e eficiente. 

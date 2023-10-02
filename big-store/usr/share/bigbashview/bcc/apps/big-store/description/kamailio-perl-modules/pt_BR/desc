@@ -1,6 +1,0 @@
-Os módulos Perl para o Kamailio são uma coleção de ferramentas escritas em Perl que podem ser utilizadas para estender as
-funcionalidades do Kamailio, um poderoso servidor de comunicação SIP (Session Initiation Protocol). Esses módulos permitem que você adicione recursos personalizados ao seu servidor
-Kamailio, como autenticação, roteamento de chamadas, gerenciamento de sessões e muito mais. Eles são fáceis de usar e permitem que você crie soluções personalizadas para atender às
-necessidades específicas de sua empresa ou organização.Os módulos Perl para o Kamailio são desenvolvidos e mantidos por uma comunidade ativa de desenvolvedores, o que garante que eles
-estejam sempre atualizados e compatíveis com as últimas versões do Kamailio. Além disso, existe uma grande quantidade de documentação e exemplos disponíveis online para ajudá-lo a começar a
-trabalhar com esses módulos.

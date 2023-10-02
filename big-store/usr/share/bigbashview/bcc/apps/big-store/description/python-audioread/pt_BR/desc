@@ -1,2 +1,0 @@
-Esse programa é para decodificar arquivos de áudio usando várias bibliotecas diferentes, como GStreamer, Core Audio, MAD e
-FFmpeg. Isso significa que ele pode abrir e reproduzir muitos tipos diferentes de arquivos de áudio, e é escrito em Python.

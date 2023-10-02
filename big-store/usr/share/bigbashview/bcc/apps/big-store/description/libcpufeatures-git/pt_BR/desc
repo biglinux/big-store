@@ -1,2 +1,0 @@
-Uma biblioteca em C que permite recuperar características da CPU (como instruções disponíveis) em tempo de execução em
-diferentes plataformas. Desenvolvida pela Google.

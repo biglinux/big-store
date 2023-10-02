@@ -1,5 +1,0 @@
-Os módulos de kernel GPU NVIDIA open são um conjunto de ferramentas desenvolvidas pela NVIDIA para permitir acesso ao
-hardware de GPU (placa gráfica) em sistemas Linux. Esses módulos foram desenvolvidos a partir do código fonte disponibilizado pela NVIDIA e são mantidos pela comunidade open-source. Essa é 
-a versão git, o que significa que é uma versão em desenvolvimento constante.Esses módulos permitem aos usuários aproveitar ao máximo o desempenho de suas placas gráficas NVIDIA em sistemas 
-Linux sem a necessidade de drivers proprietários. Eles também são úteis para desenvolvedores que desejam acessar recursos avançados da GPU para aplicativos de computação de alto desempenho 
-e inteligência artificial.

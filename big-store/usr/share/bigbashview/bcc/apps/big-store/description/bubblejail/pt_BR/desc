@@ -1,4 +1,0 @@
-bubblejail é uma ferramenta de sandboxing baseada em bubblewrap. Isso significa que ele cria um ambiente seguro para os
-programas rodarem, impedindo que eles acessem arquivos ou dados importantes do seu computador. Dessa forma, mesmo que o programa contenha vírus ou outros tipos de ameaças, eles ficarão
-isolados e não poderão causar danos. Com bubblejail, você pode rodar programas de fontes desconhecidas sem se preocupar com a segurança do seu sistema. Além disso, ele é fácil de usar,
-basta colocar o nome do programa que deseja rodar dentro do bubblejail e ele cuidará do resto.

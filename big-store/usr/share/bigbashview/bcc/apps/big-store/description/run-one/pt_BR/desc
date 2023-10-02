@@ -1,3 +1,0 @@
-Com o 'run-one' você pode executar apenas uma instância de um comando e seus argumentos por vez. Isso é útil
-quando você precisa garantir que apenas uma instância do mesmo processo esteja em execução ao mesmo tempo.Isso pode ser útil, por exemplo, quando você precisa garantir que apenas um
-processo de backup esteja sendo executado ao mesmo tempo, evitando conflitos e erros no processo de backup.

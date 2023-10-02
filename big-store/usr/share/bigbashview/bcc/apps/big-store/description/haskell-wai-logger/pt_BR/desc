@@ -1,1 +1,0 @@
-Esse programa é um sistema de registro para aplicações web desenvolvidas com WAI, uma biblioteca para construir aplicativos web  em Haskell. Ele permite que você registre informações sobre requisições e respostas, como endereços IP, cabeçalhos e mensagens de erro. Isso pode ser útil para depuração e rastreamento de problemas em sua aplicação. 

@@ -1,4 +1,0 @@
-Este é um módulo chamado DOM (Document Object Model) que é compatível com a versão 8.2 do PHP. Ele permite que você trabalhe com
-documentos HTML e XML de maneira mais fácil e organizada. Com ele, você pode acessar e manipular elementos, atributos e outras partes do documento de forma simples e intuitiva.Por exemplo, 
-você pode usar o DOM para procurar todas as imagens em uma página web e alterar suas URLs, ou para adicionar novos elementos a uma página existente. Ele é uma ferramenta muito útil para
-desenvolvedores web que precisam lidar com documentos HTML e XML.

@@ -1,3 +1,0 @@
-Este programa é usado para garantir a segurança dos dados armazenados em um disco, criptografando todo o disco
-com a ajuda de uma chave Yubico (Yubikey). Isso significa que somente aqueles com acesso à chave Yubico serão capazes de acessar os dados no disco, garantindo uma camada extra de segurança.
-O mkinitcpio-ykfde é especialmente útil para laptops e dispositivos móveis, onde os dados são mais vulneráveis ​​a roubo ou perda. Além disso, o programa é fácil de usar e configurar.

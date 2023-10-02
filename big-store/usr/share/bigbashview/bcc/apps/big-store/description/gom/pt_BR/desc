@@ -1,1 +1,0 @@
-Esse programa é um mapeador de objeto GObject para SQLite. Ele permite que você use objetos GObject como se fossem tabelas do SQLite e facilita a interação entre essas duas tecnologias.Com ele, você pode facilmente armazenar e recuperar dados do SQLite usando objetos GObject, sem precisar escrever muito código ou lidar com a complexidade das consultas SQL. 

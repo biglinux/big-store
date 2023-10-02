@@ -1,3 +1,0 @@
-Este programa é um filtro para o gerenciamento de remetentes no Postfix, usando o Sender Policy Framework (SPF). Ele foi escrito em
-Python e ajuda a garantir que somente remetentes autorizados possam enviar e-mails através do servidor. Isso é útil para evitar spam e phishing, pois impede que pessoas mal-intencionadas
-enviam e-mails com remetentes falsos. Com esse filtro, você pode ter certeza de que somente os remetentes autorizados estarão enviando e-mails através do seu servidor.

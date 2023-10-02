@@ -1,1 +1,0 @@
-ruby-gpgme é uma interface para a biblioteca GnuPG Made Easy (GPGME) no Ruby. Ele permite utilizar a funcionalidade do GPGME em seus programas Ruby. Essa biblioteca fornece uma interface simples e fácil de usar para trabalhar com GPGME, tornando fácil criptografar, descriptografar, assinar e verificar mensagens usando GPG. 

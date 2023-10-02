@@ -1,3 +1,0 @@
-Influence Functions é uma técnica para entender como seu modelo de aprendizado de máquina toma decisões. Ele
-permite que você veja exatamente quais dados de treinamento estão afetando uma previsão específica. Este repositório contém uma reimplementação em PyTorch da técnica de Influence Functions.
-Isso significa que você pode usá-lo facilmente em conjunto com outras bibliotecas PyTorch em seus projetos de aprendizado de máquina.

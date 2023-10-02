@@ -1,1 +1,0 @@
-O JACK é um servidor de áudio de baixa latência que permite que vários programas de áudio se conectem e troquem áudio entre si. Essa versão do JACK inclui integração com o D-Bus, que é um sistema de comunicação interprocesso usado em sistemas operacionais baseados em Linux. Isso permite que o JACK se comunique com outros programas de forma mais fácil e eficiente. 

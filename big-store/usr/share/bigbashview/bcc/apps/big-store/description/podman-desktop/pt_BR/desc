@@ -1,4 +1,0 @@
-Podman-desktop é um programa que permite gerenciar suas imagens e containers do Podman, assim como outros motores de
-container, a partir de uma interface gráfica de usuário e uma área de notificação. Isso significa que você pode facilmente iniciar, parar, excluir e gerenciar seus containers sem precisar
-usar comandos no terminal.Além disso, o Podman-desktop também fornece recursos adicionais como a capacidade de verificar o uso de recursos dos containers, gerenciar configurações de rede e 
-muito mais.

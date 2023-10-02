@@ -1,1 +1,0 @@
-Este programa é uma interface simples de streaming para a biblioteca zlib para Lua 5.2. A biblioteca zlib é usada para compactar e descompactar dados, o que pode ser útil em muitos projetos de programação. Com esta interface, é fácil e rápido usar essas funcionalidades em seu código Lua 5.2. 

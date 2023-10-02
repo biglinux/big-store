@@ -1,4 +1,0 @@
-Este programa é útil para usuários de Linux que desejam converter arquivos no formato .deb, usado em sistemas Debian, 
-para o formato .tar.gz. Isso pode ser útil para instalar pacotes em outras distribuições de Linux ou para compactar arquivos de forma diferente. Para usar este programa, basta fornecer o
-caminho do arquivo .deb que deseja converter e especificar onde deseja salvar o arquivo convertido .tar.gz. O processo de conversão é rápido e fácil, e o arquivo resultante pode ser
-facilmente gerenciado e compartilhado.

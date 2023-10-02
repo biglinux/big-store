@@ -1,1 +1,0 @@
-Gdk-pixbuf-xlib é uma biblioteca que fornece suporte para carregar e salvar imagens usando o Xlib. No entanto, essa integração está obsoleta e não é mais desenvolvida. É recomendado usar outras bibliotecas, como o GIO, para carregar e salvar imagens no lugar. 

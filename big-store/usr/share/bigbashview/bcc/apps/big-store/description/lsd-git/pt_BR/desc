@@ -1,3 +1,0 @@
-Este programa é um comando de listagem avançado para o terminal. Ele é baseado no comando 'ls' padrão, mas adiciona várias
-funcionalidades adicionais, como a exibição de arquivos ocultos e a capacidade de ordenar os arquivos por diversos critérios. Ele também tem suporte a cores para tornar a navegação nos
-arquivos mais fácil. É desenvolvido como um fork do projeto 'lsd' original e mantido através de contribuições de usuários na plataforma GitHub.

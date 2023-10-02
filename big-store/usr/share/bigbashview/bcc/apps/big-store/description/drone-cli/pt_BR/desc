@@ -1,1 +1,0 @@
-Drone-cli é uma interface de linha de comando para o Drone CI. Ele permite que você interaja facilmente com o seu servidor Drone CI e execute tarefas comuns, como acionar builds, gerenciar segredos e gerenciar ambientes. A ferramenta é escrita em Go e é de código aberto. Ele foi projetado para ser fácil de usar e intuitivo para desenvolvedores de todos os níveis de habilidade. 

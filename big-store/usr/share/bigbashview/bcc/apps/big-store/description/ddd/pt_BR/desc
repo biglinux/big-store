@@ -1,3 +1,0 @@
-Esta é uma ferramenta chamada 'ddd' que é um front-end gráfico para depuradores de linha de comando, 
-como o GDB, JDB, pydb e depurador Perl. Isso significa que ele fornece uma interface gráfica amigável para ajudá-lo a encontrar e corrigir erros em seu código. Ele funciona com várias
-linguagens de programação diferentes e pode ser uma ótima ajuda para desenvolvedores que preferem trabalhar com uma interface gráfica ao invés de comandos de linha.

@@ -1,3 +1,0 @@
-Este programa é chamado de 'Desempacotador automático'. Ele fica sempre rodando em segundo plano no seu computador e verifica
-constantemente se você baixou algum arquivo. Se você baixou algum arquivo comprimido, como um zip ou rar, ele o descompacta automaticamente para você. Isso é útil para programas como
-Radarr, Sonarr e Lidarr, que precisam importar arquivos para funcionar corretamente.

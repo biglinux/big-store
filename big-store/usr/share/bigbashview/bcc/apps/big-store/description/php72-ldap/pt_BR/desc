@@ -1,3 +1,0 @@
-Este é um módulo de extensão para o PHP 7.2 que permite acessar e gerenciar servidores LDAP (Lightweight Directory Access Protocol).
-Ele fornece uma maneira fácil de integrar a autenticação e gerenciamento de usuários com servidores LDAP, como o Active Directory. Este módulo é compatível com as versões mais recentes do
-PHP e é fácil de configurar e usar.

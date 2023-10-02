@@ -1,1 +1,0 @@
-O módulo perl-cwd-guard permite alterar o diretório de trabalho temporariamente, sem afetar o diretório original do programa. Isso é útil quando você precisa acessar arquivos em outros diretórios sem afetar o fluxo normal do programa. 

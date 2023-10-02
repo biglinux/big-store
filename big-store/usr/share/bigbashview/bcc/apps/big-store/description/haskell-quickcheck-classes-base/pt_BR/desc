@@ -1,1 +1,0 @@
-Esse programa é uma biblioteca para Haskell que fornece testes automatizados para os tipos comuns encontrados na biblioteca 'base'. Ele usa a biblioteca QuickCheck para gerar dados aleatórios para testar esses tipos e garantir que eles estão funcionando corretamente. 

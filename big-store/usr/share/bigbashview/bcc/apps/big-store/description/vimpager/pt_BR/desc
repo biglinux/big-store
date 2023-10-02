@@ -1,1 +1,0 @@
-Vimpager é um script baseado no VIM que permite usá-lo como um pager, ou seja, como um programa para visualizar arquivos de texto. Ele é especialmente útil para visualizar arquivos grandes e/ou de código-fonte, pois oferece recursos avançados de edição e navegação. Além disso, é possível configurá-lo para usar com outras ferramentas, como o man, o less, o git, entre outros. 

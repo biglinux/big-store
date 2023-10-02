@@ -1,2 +1,0 @@
-Com o programa preload, você pode deixar seus aplicativos mais rápidos. Ele funciona pré-carregando arquivos binários 
-e objetos compartilhados antes mesmo de você precisar usá-los. Dessa forma, quando você abre o programa, tudo já estará pronto para ser usado imediatamente, sem esperas desnecessárias.

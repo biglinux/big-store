@@ -1,1 +1,0 @@
-lib32-pam é uma biblioteca de autenticação plugável. Ela permite que vários métodos de autenticação sejam usados ao mesmo tempo, como senhas, tokens de segurança e reconhecimento de voz. Isso torna a segurança do sistema mais flexível e fácil de gerenciar. 

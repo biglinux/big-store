@@ -1,4 +1,0 @@
-Kubeswitch-bin é uma ferramenta que facilita a troca de contextos e espaços de trabalho no Kubernetes. Ele é projetado
-especificamente para operadores, tornando mais fácil para eles gerenciar vários clusters e contas. Com ele, é possível mudar facilmente entre diferentes ambientes, como desenvolvimento,
-teste e produção, sem precisar digitar comandos longos e complicados.Além disso, o kubeswitch-bin também oferece recursos adicionais, como a exibição de informações sobre o cluster
-atualmente selecionado e a capacidade de criar atalhos personalizados para contextos comuns.

@@ -1,1 +1,0 @@
-Este programa permite adicionar capacidades de console às instâncias IO no Ruby. Isso significa que você pode usar comandos de console, como ler e escrever, em instâncias IO. Isso pode ser útil em várias situações, como quando você precisa ler ou escrever dados em arquivos ou em outras entradas e saídas. 

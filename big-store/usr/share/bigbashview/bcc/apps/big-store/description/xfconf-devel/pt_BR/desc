@@ -1,3 +1,0 @@
- O Xfconf-devel é um sistema simples de armazenamento e consulta de configurações cliente-servidor. Ele é usado para
-gerenciar as configurações do ambiente de trabalho Xfce, como posição e tamanho de janelas, temas de ícones e papel de parede. Ele permite que as configurações sejam acessadas e modificadas
-facilmente por meio de uma interface de linha de comando ou por programas de terceiros. 

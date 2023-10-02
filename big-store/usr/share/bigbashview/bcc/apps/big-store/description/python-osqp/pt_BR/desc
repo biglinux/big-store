@@ -1,4 +1,0 @@
-Este programa é uma interface em Python para o solucionador de problemas de programação quadrática, chamado 
-OSQP (Operator Splitting QP Solver). Ele ajuda a resolver problemas matemáticos complexos de maneira rápida e precisa. Com ele, é possível encontrar a melhor solução para problemas de
-otimização, como encontrar o menor custo ou o maior lucro em uma situação de negócios.Além disso, o programa é fácil de usar e possui uma interface amigável, permitindo que até mesmo
-iniciantes consigam utilizá-lo com facilidade. Ele também é altamente eficiente, tornando-o uma ótima opção para grandes conjuntos de dados e problemas de grande escala.

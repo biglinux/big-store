@@ -1,3 +1,0 @@
-Este programa é um gancho para o Pacman que ajuda a atualizar as entradas do GRUB quando o snap-pac cria snapshots. Isso
-significa que, sempre que você fizer uma nova snapshot do seu sistema, as entradas do GRUB serão automaticamente atualizadas para refletir essas mudanças. Isso é útil especialmente se você 
-estiver usando o grub-btrfs, pois garante que você sempre tenha acesso às suas snapshots a partir do menu do GRUB.

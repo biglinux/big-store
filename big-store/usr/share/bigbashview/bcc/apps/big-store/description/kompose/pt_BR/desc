@@ -1,1 +1,0 @@
-O kompose é uma ferramenta para ajudar os usuários que estão usando o Docker Compose a mudar  para o Kubernetes. Ele leva um arquivo Docker Compose e o traduz para recursos do Kubernetes. A ferramenta pode ser usada para converter uma aplicação que atualmente está sendo executada em um único host Docker para ser executada em um cluster do Kubernetes. 

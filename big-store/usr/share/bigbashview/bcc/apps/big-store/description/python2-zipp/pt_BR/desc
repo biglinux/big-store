@@ -1,3 +1,0 @@
-Este é um programa que permite acessar arquivos dentro de arquivos zip de uma forma
-semelhante a como você acessa arquivos no seu computador. Ele foi desenvolvido para trabalhar com a versão 2 do Python e é compatível com o módulo 'pathlib'.Com esse programa, você pode
-facilmente ler, escrever e gerenciar arquivos dentro de arquivos zip sem precisar extraí-los manualmente.

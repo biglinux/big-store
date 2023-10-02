@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite o uso de memória compartilhada para comunicação entre processos. Ele é chamado de
-Sysvshm e é útil para aumentar a velocidade de aplicações que precisam compartilhar informações em tempo real.Com ele, é possível criar e gerenciar áreas de memória compartilhada, o que
-permite acesso rápido e fácil às informações compartilhadas entre diferentes processos. Ele é especialmente útil para aplicações de alto desempenho e para gerenciamento de sessões.

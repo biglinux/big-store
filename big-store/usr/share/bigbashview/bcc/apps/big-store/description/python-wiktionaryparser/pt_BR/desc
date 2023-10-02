@@ -1,1 +1,0 @@
-Este programa é chamado python-wiktionaryparser e ele é usado para pegar dados  de palavras do site wiktionary.com e colocá-los em um formato de objeto JSON, o que é útil para quem precisa trabalhar com esses dados de forma automatizada. 

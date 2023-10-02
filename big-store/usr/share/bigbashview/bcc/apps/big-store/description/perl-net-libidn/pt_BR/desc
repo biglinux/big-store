@@ -1,1 +1,0 @@
-O módulo Net::LibIDN é uma ferramenta em Perl para trabalhar com nomes de domínio internacionais (IDN). Ele permite codificar e decodificar esses nomes, além de realizar outras operações úteis, como verificar a validade de um nome de domínio IDN.Este módulo é baseado na biblioteca LibIDN, uma implementação de código aberto e de alta qualidade para trabalhar com IDNs. 

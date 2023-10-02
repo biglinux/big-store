@@ -1,4 +1,0 @@
-Esta ferramenta é chamada pipenv e é usada para ajudar na criação de projetos Python. Ela também trabalha com o git,
-outra ferramenta importante para desenvolvimento de software.Com pipenv, é possível gerenciar as dependências do seu projeto de forma mais fácil e organizada. Isso significa que você pode
-instalar e atualizar facilmente as bibliotecas e pacotes que o seu projeto precisa para funcionar corretamente. Além disso, o pipenv também torna mais fácil trabalhar em equipe, pois todos 
-os membros do time podem usar a mesma configuração de dependências.

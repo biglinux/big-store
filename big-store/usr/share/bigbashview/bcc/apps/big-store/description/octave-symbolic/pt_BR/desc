@@ -1,3 +1,0 @@
- Adiciona recursos de cálculo simbólico ao GNU Octave. Isso inclui ferramentas comuns de Sistema de Álgebra
-Computacional, como operações algébricas, cálculo, resolução de equações, transformadas de Fourier e Laplace, aritmética de precisão variável e outros recursos. Internamente, ele usa a
-biblioteca de cálculo simbólico SymPy. 

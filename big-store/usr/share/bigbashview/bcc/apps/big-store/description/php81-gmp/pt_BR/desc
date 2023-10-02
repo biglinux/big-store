@@ -1,3 +1,0 @@
-O GMP (GNU Multiple Precision) é um módulo para o PHP 8.1 que permite trabalhar com números grandes e precisos. Com ele, é possível
-realizar operações matemáticas avançadas, como cálculos de números primos e criptografia. Esse módulo é útil para aplicações que precisam lidar com números grandes e precisos, como sistemas
-financeiros e criptográficos.

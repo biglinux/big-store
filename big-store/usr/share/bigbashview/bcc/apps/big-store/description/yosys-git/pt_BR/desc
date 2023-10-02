@@ -1,3 +1,0 @@
-yosys-git é uma ferramenta que permite a síntese de lógica RTL (lógica de nível de descrição de circuitos). Ele é usado
-para transformar código escrito em uma linguagem de descrição de hardware, como Verilog ou VHDL, em um circuito digital que pode ser implementado em dispositivos reais. É muito útil para
-projetistas de circuitos digitais que desejam automatizar o processo de geração de código para suas aplicações.

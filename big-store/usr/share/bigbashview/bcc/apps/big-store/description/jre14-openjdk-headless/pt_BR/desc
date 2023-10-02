@@ -1,4 +1,0 @@
-Este é um ambiente de execução do Java 14, criado pela OpenJDK. Ele é especialmente útil para aplicações que não precisam de uma
-interface gráfica, mas precisam de recursos de Java para funcionar. O Java é uma linguagem de programação popular usada em muitos sistemas e aplicativos em todo o mundo.Este ambiente de
-execução é chamado de 'headless' porque não inclui nenhum componente de interface gráfica. Isso significa que ele é mais leve e usa menos recursos do sistema, mas também significa que você 
-não pode usá-lo para criar aplicativos com interfaces gráficas.

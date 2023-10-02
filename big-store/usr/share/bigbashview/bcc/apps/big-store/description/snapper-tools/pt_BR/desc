@@ -1,4 +1,0 @@
-snapper-tools é um conjunto de ferramentas para gerenciamento de snapshots de sistemas de arquivos. Ele inclui
-uma interface gráfica (GUI) e uma interface de linha de comando (CLI) altamente personalizada para trabalhar com o Snapper, um utilitário de gerenciamento de snapshots de sistemas de
-arquivos para o Linux. Com ele, você pode facilmente criar, gerenciar e restaurar snapshots de seus arquivos e sistemas de arquivos, o que torna mais fácil proteger e recuperar seus dados
-em caso de problemas ou erros.

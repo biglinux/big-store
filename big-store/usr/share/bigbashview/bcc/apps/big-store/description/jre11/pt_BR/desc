@@ -1,4 +1,0 @@
- Oracle Java 11 é uma versão do ambiente de execução Java da Oracle que é suportada por tempo longo (LTS). Isso
-significa que ele receberá atualizações de segurança e correções de bugs por um período mais longo do que as versões normais do Java. Ele é usado para executar aplicativos Java em seu
-computador e é necessário para usar muitos programas e sites.Ao instalar o Oracle Java 11, você também estará instalando o JavaFX, que é uma biblioteca de interface gráfica para Java. Isso 
-significa que você pode usar o JavaFX para criar aplicativos com gráficos e animações incríveis.

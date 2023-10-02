@@ -1,1 +1,0 @@
-A libmatio é uma biblioteca para ler e gravar arquivos no formato MATLAB MAT. Ela contém uma biblioteca C e uma interface de módulo Fortran 90/95. Foi projetada para ser fácil de usar, eficiente e flexível. A biblioteca é open source e está disponível sob a licença BSD. 

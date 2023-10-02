@@ -1,3 +1,0 @@
-Esse programa permite a autenticação GSSAPI (HTTP Negotiate) para o módulo Urllib do Python. Isso significa que você
-pode acessar recursos protegidos por autenticação com esse módulo, sem precisar digitar manualmente seu nome de usuário e senha. O GSSAPI é um mecanismo de segurança que permite que
-aplicativos deleguem autenticação para outros serviços de segurança. Isso é útil em ambientes empresariais onde vários sistemas precisam compartilhar informações de autenticação.

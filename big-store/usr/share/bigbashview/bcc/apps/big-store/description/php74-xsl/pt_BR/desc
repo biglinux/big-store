@@ -1,4 +1,0 @@
-Este programa é um módulo adicional para o PHP 7.4 que permite a transformação de arquivos XML para outros
-formatos, como HTML ou outros tipos de XML. Ele é útil para trabalhar com dados estruturados e criar documentos dinamicamente a partir deles. Ele é baseado no padrão XSL, que é amplamente
-utilizado na indústria para esses tipos de tarefas. Ele é fácil de usar e se integra facilmente ao PHP, permitindo que desenvolvedores adicionem essa funcionalidade aos seus projetos com
-facilidade.

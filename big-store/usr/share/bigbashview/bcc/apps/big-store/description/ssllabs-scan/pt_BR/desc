@@ -1,4 +1,0 @@
-Esse programa é uma ferramenta de linha de comando que ajuda a verificar a segurança do SSL de um site. Ele usa uma API
-chamada SSL Labs para fazer essa verificação e fornecer informações sobre o nível de segurança do site. Isso é importante porque o SSL é o que protege as informações que você envia para o
-site, como senhas e dados pessoais, de serem vistas por pessoas mal-intencionadas.Usando esse programa, você pode verificar se um site possui uma configuração de segurança adequada e tomar 
-medidas para melhorá-la se necessário. Isso pode incluir atualizar a versão do SSL usada pelo site ou corrigir configurações incorretas.

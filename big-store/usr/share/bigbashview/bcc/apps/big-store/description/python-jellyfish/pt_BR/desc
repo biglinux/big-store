@@ -1,1 +1,0 @@
-A biblioteca python-jellyfish permite a correspondência aproximada e fonética de strings. Isso é útil em casos em que o texto pode estar escrito de forma incorreta ou com variações ortográficas, mas ainda deve ser considerado como correspondência. Ele também é útil em casos em que você deseja encontrar correspondências fonéticas, como nomes de pessoas. 

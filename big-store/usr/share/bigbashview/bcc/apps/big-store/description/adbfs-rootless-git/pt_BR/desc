@@ -1,4 +1,0 @@
-Este programa é uma ferramenta de sistema de arquivos fuse que funciona sobre a ferramenta adb para
-dispositivos Android. Ele permite acessar os arquivos do dispositivo sem precisar de privilégios de root. É útil para gerenciar arquivos no dispositivo sem precisar de acesso completo ao
-sistema. Ele é baseado no projeto adbfs-rootless e é compatível com a maioria dos dispositivos Android modernos. É uma opção segura e fácil de usar para gerenciar arquivos no dispositivo
-sem precisar de privilégios de administrador.

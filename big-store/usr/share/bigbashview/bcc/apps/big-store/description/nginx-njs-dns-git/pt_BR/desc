@@ -1,3 +1,0 @@
-Este programa fornece uma configuração de amostra para usar o DNS sobre HTTPS (DoH/DoT gateway) e GSLB com o NGINX. Isso significa que
-ele ajuda a garantir que as informações de DNS sejam transmitidas de maneira segura e protegida. É uma boa escolha para quem quer garantir a privacidade e segurança de seus dados de
-navegação.

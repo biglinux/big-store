@@ -1,1 +1,0 @@
-Este programa é chamado de daemon de notificação do sistema. Ele é responsável por enviar notificações para outros programas quando algo acontece no sistema. Por exemplo, ele pode avisar outros programas quando um dispositivo USB é conectado ou quando o nível de bateria está baixo. 

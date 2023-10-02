@@ -1,2 +1,0 @@
-mkpkg é uma ferramenta que permite reconstruir pacotes com base em gatilhos de dependência. Isso é útil quando você
-precisa atualizar ou reconstruir um pacote após a instalação de outro pacote. Ele é simples de usar e pode economizar tempo ao gerenciar pacotes no seu sistema.

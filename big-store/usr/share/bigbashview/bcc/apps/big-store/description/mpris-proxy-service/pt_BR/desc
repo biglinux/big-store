@@ -1,5 +1,0 @@
-O mpris-proxy é um serviço criado para permitir que os aplicativos acessem o controle de mídia do sistema de forma consistente. Ele
-funciona como um intermediário entre os aplicativos e o sistema de mídia, fornecendo uma interface padrão para que os aplicativos possam controlar a reprodução de música, ajustar o volume, 
-avançar para a próxima música, etc. Ele é executado como um serviço do systemd, o que significa que é iniciado automaticamente quando o sistema é iniciado.O mpris-proxy é uma ferramenta
-útil para desenvolvedores de aplicativos, pois permite que eles criem aplicativos que controlam a reprodução de música sem precisar se preocupar com as diferenças entre os sistemas de mídia
-diferentes. Também é útil para os usuários finais, pois permite que os aplicativos acessem facilmente o controle de mídia do sistema.

@@ -1,3 +1,0 @@
- O Agente de Convidado do Google Compute Engine é um programa que gerencia configurações e recursos dentro de
-uma máquina virtual do Google Compute Engine. Ele é responsável por coletar informações sobre a máquina virtual, como o sistema operacional e a versão, e enviá-las de volta para o Google
-Compute Engine. Ele também pode ser usado para atualizar o sistema operacional e configurações da máquina virtual. 

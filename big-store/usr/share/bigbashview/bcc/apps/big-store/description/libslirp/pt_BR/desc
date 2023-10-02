@@ -1,1 +1,0 @@
-libslirp é um emulador de TCP-IP para uso geral. Ele permite que você conecte programas que usam a Internet a uma rede privada virtual, sem precisar de uma conexão real com a Internet. Isso é útil para testar programas em ambientes controlados ou para proteção de segurança. 

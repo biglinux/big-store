@@ -1,1 +1,0 @@
-Este é um driver em Perl para conectar com o banco de dados Sybase utilizando a interface DBI. Ele permite que você execute consultas e gerencie sua base de dados Sybase de maneira fácil e eficiente. 

@@ -1,1 +1,0 @@
-O python-aiohttp-apispec é uma ferramenta para construir e documentar suas APIs REST. Ele usa a biblioteca aiohttp para lidar com as requisições e respostas, e o apispec para criar especificações de API em formato OpenAPI. Com ele, você pode facilmente criar suas próprias APIs e garantir que elas estejam documentadas de forma clara e precisa. 

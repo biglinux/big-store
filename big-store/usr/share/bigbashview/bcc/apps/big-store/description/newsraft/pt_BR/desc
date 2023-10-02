@@ -1,4 +1,0 @@
-Este programa é um leitor de notícias que possui uma interface de usuário baseada em ncurses. Ele permite ao usuário
-ver e ler notícias de vários sites em um único lugar, usando uma interface de linha de comando simples e fácil de usar. O programa é projetado para ser rápido e eficiente, e também oferece 
-recursos avançados como marcadores, categorias e filtragem de notícias. Além disso, ele suporta vários formatos de feed, incluindo RSS e Atom, e permite ao usuário adicionar e remover
-fontes de notícias com facilidade. Ele é uma ótima opção para usuários que desejam ter acesso rápido e fácil a notícias de vários sites sem precisar abrir várias janelas do navegador.

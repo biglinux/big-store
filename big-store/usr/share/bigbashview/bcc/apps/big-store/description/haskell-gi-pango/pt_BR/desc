@@ -1,1 +1,0 @@
-A biblioteca haskell-gi-pango é uma biblioteca de ligação para o Pango, que é uma biblioteca de renderização de texto multilíngue. Ela permite que você use o Pango com o Haskell. Com essa biblioteca, você pode criar aplicativos com texto multilíngue e com suporte a vários scripts e idiomas. 

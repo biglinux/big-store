@@ -1,1 +1,0 @@
-A libxft é uma biblioteca para desenhar fontes com base no FreeType. Ela é projetada para ser usada com  o sistema de janelas X e fornece suporte para vários tipos de fontes, incluindo TrueType e OpenType. Com a libxft, é possível desenhar texto com alta qualidade e precisão em aplicativos X,  tornando a exibição de texto mais agradável para o usuário. 

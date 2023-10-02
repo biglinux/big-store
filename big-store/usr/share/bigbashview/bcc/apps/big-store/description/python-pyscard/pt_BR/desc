@@ -1,1 +1,0 @@
- python-pyscard é um módulo Python que adiciona suporte a smart cards ao Python. O pacote smartcard é um framework para construir aplicativos conscientes de smart cards em Python. Ele é construído sobre o PC/SC API. O pacote fornece uma interface unificada para smart cards e leitores de smart cards. 

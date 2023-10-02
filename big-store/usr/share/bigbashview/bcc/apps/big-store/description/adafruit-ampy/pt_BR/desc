@@ -1,3 +1,0 @@
- adafruit-ampy é uma ferramenta para interagir com placas CircuitPython ou MicroPython
-através de uma conexão serial. Com ela, você pode enviar arquivos para a placa, rodar códigos e ler ou escrever dados na placa. É uma ótima opção para quem está trabalhando com projetos de 
-eletrônica e precisa de uma forma fácil de enviar códigos para a placa. 

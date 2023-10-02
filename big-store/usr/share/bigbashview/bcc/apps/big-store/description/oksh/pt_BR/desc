@@ -1,4 +1,0 @@
-Este programa é uma versão portada do ksh, um interpretador de comandos semelhante ao bash, que foi originalmente
-desenvolvido para o sistema operacional OpenBSD. Ele permite que os usuários executem comandos e criem scripts no terminal, assim como outros interpretadores de comandos comuns. Algumas das
-principais características do ksh incluem suporte a vários modos de edição de linha, suporte a histórico de comandos e recursos avançados de gerenciamento de processos. Ele é popular entre 
-administradores de sistemas e desenvolvedores devido à sua flexibilidade e poder.

@@ -1,4 +1,0 @@
-Este programa é projetado para recuperar informações de DPI (pontos por polegada) do sistema X11. Ele pode ser usado
-para obter informações precisas sobre a resolução da tela, o que é útil para ajustar a aparência de aplicativos e outros recursos. O programa é compatível com várias distribuições Linux e
-pode ser instalado através do gerenciador de pacotes da distribuição. Além de recuperar informações de DPI, o programa também oferece suporte a outras funcionalidades, como configuração
-automática de DPI e modos de exibição personalizados. Ele é fácil de usar e possui uma interface amigável para que você possa ajustar as configurações com facilidade.

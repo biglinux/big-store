@@ -1,1 +1,0 @@
-O libwrap é uma biblioteca que permite ao administrador de sistemas controlar e monitorar as conexões TCP recebidas. Ele trabalha com o serviço de rede TCP wrappers, oferecendo recursos adicionais como autenticação de usuário e bloqueio de acesso. 

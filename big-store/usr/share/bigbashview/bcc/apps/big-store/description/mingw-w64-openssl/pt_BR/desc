@@ -1,4 +1,0 @@
-A ferramenta de código aberto SSL e TLS é uma ferramenta útil para garantir a segurança de conexões de rede. Ela é
-conhecida como mingw-w64-openssl e é especificamente projetada para ser usada com o compilador mingw-w64. Com ela, é possível criar aplicações seguras que usam o protocolo SSL ou TLS para
-garantir a privacidade e a integridade de dados transmitidos na rede.Além disso, essa ferramenta também suporta o protocolo HTTPS, o que significa que pode ser usada para criar sites
-seguros. Essa ferramenta é amplamente utilizada em projetos de software livre e é uma excelente escolha para desenvolvedores que precisam de segurança adicional em suas aplicações.

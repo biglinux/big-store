@@ -1,1 +1,0 @@
-Este é um módulo para o PHP que permite a localização de endereços de IP. Ele usa a base de dados do GeoIP para identificar o  país, estado e cidade de um determinado endereço de IP. 

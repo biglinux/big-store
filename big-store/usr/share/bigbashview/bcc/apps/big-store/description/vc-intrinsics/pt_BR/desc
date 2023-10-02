@@ -1,1 +1,0 @@
-vc-intrinsics é um conjunto de novas instruções que se baseiam nas instruções básicas do LLVM IR e que representam a semântica SIMD de um programa alvo de GPU. Elas permitem um melhor desempenho e otimização em dispositivos gráficos. 

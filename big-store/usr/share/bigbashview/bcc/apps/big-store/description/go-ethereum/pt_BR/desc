@@ -1,1 +1,0 @@
-go-ethereum, também conhecido como Geth, é a implementação oficial do protocolo Ethereum em Go. Ele fornece uma linha de comando completa e um serviço de nó completo para interagir com a rede Ethereum. Geth é usado para criar e gerenciar contas, enviar transações, minerar blocos, e muito mais. É  um dos principais clientes de nós utilizados na rede Ethereum. 

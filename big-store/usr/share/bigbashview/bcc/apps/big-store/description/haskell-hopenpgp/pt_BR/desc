@@ -1,1 +1,0 @@
-Essa é uma implementação nativa do OpenPGP (RFC4880) feita em Haskell. O OpenPGP é um protocolo de criptografia de chave pública que permite a criação de assinaturas digitais, criptografia de mensagens e autenticação de remetentes. Com essa implementação, é possível usar as funcionalidades do OpenPGP em aplicações escritas em Haskell. 

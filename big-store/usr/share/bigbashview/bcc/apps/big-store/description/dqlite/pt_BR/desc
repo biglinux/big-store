@@ -1,1 +1,0 @@
-SQLite é um sistema de gerenciamento de banco de dados que é projetado para ser usado em dispositivos embarcados e sistemas embarcados. dqlite é uma implementação distribuída do SQLite, ou seja, ele permite que o banco de dados seja dividido em vários nós, permitindo assim maior escalabilidade e disponibilidade. 

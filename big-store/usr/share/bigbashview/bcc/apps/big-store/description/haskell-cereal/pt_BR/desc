@@ -1,1 +1,0 @@
-haskell-cereal é uma biblioteca para serialização binária em Haskell. Ela permite que você converta dados Haskell para um  formato binário e vice-versa, facilitando a salvar e carregar esses dados em arquivos ou transmiti-los por redes. É uma ferramenta útil para armazenar e compartilhar informações de forma eficiente. 

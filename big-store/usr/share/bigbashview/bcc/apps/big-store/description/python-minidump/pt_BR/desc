@@ -1,1 +1,0 @@
-A biblioteca python-minidump permite que você parse e leia arquivos no formato minidump  do Microsoft. Isso pode ser útil para analisar arquivos de dump gerados por programas que falharam e para obter informações sobre o estado do programa no momento da falha. 

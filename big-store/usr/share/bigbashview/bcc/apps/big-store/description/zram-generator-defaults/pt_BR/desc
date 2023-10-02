@@ -1,3 +1,0 @@
-Este é o arquivo de configurações padrão para o gerador ZRAM no Fedora. O ZRAM é uma ferramenta que permite
-aumentar a velocidade do sistema operacional, criando uma partição de memória virtual comprimida para armazenar dados temporários. Com essas configurações padrão, você pode aproveitar ao
-máximo as vantagens do ZRAM no Fedora.

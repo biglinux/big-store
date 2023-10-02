@@ -1,4 +1,0 @@
-Existem algumas bibliotecas de computador que possuem código que precisa ser executado para funcionar corretamente.
-Esse programa, chamado execstack, permite que você configure a bandeira de pilha executável dessas bibliotecas. Isso significa que ele permite que o código dentro da biblioteca seja
-executado quando ela é usada em um programa.Isso é útil em alguns casos específicos, mas também pode ser perigoso se usado de forma incorreta. Certifique-se de entender as implicações antes
-de usar o execstack em suas bibliotecas.

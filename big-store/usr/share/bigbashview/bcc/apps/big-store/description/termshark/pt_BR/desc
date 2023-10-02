@@ -1,1 +1,0 @@
-termshark é uma interface de usuário de terminal para tshark, inspirada na interface gráfica do Wireshark. Seu objetivo é tornar fácil a interação com capturas de rede e navegação por elas. Ele permite filtrar e pesquisar capturas, visualizar informações detalhadas dos pacotes e muito mais.  

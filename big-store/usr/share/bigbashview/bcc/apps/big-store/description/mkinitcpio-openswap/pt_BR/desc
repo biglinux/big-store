@@ -1,1 +1,0 @@
-mkinitcpio-openswap é um gancho para mkinitcpio que abre a troca de memória na inicialização. Isso é útil para  sistemas que possuem troca de memória criptografada. 

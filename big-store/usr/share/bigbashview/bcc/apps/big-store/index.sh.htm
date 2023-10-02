@@ -103,10 +103,12 @@ function APPSTREAM_CATEGORY() {
 
 		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
 		if ((appstream_search_category)); then
-			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+			sh_search_category_appstream_pamac "${param_search,,}" & wait
 			appstream_search_category=0
 		else
-			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+			sh_search_category_appstream_pamac "${param_search,,}" & wait
 		fi
 
 		if [[ -e "${TMP_FOLDER}/appstream.html" ]]; then

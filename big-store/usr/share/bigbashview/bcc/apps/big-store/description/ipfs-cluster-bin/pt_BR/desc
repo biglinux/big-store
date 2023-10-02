@@ -1,4 +1,0 @@
-O IPFS Cluster é um conjunto de ferramentas para gerenciar clusters de nós IPFS. Ele inclui o ipfs-cluster-service, o
-ipfs-cluster-ctl e o ipfs-cluster-follow. Com essas ferramentas, é possível controlar e monitorar um cluster de nós IPFS, garantindo que os arquivos estejam sempre disponíveis e
-sincronizados. Além disso, o IPFS Cluster permite a adição e remoção de nós de forma fácil e eficiente, tornando-o uma escolha ideal para aplicações que precisam de alta disponibilidade e
-escalabilidade.

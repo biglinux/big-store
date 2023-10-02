@@ -1,3 +1,0 @@
- mbrowse é um navegador gráfico de MIB SNMP baseado em GTK+ e Net-SNMP. Ele permite navegar e gerenciar informações de
-gerenciamento de rede usando o protocolo SNMP. Com ele, é possível visualizar e editar informações de dispositivos de rede, como roteadores, switches e impressoras. mbrowse é fácil de usar 
-e possui uma interface intuitiva, tornando-o uma excelente opção para administradores de rede e técnicos de suporte.

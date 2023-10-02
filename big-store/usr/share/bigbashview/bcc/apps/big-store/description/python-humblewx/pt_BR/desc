@@ -1,5 +1,0 @@
-Existe uma biblioteca chamada python-humblewx que ajuda a simplificar a criação de interfaces gráficas com o python.
-Ela se baseia no wxPython, uma biblioteca de código aberto que permite criar aplicativos multiplataforma com uma interface gráfica de usuário. Com ela, é possível criar janelas, botões,
-menus e outros elementos comuns em aplicativos de computador de maneira fácil e rápida.A biblioteca python-humblewx é uma opção interessante para quem precisa criar interfaces gráficas para
-seus programas em python, pois ela simplifica bastante o processo e permite que você se concentre no desenvolvimento do seu aplicativo em si, em vez de se preocupar com detalhes de
-implementação de interface gráfica.

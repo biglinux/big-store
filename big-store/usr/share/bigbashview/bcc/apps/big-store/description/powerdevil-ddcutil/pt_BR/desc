@@ -1,4 +1,0 @@
-Este programa é responsável por gerenciar a energia do seu computador quando você estiver usando o ambiente de trabalho KDE
-Plasma. Ele usa a tecnologia DDC/CI, que permite que ele ajuste automaticamente as configurações de brilho e contraste da sua tela. Isso significa que você pode economizar energia sem
-precisar ficar ajustando essas configurações manualmente.Com o powerdevil-ddcutil, você pode configurar como o seu computador deve se comportar quando você estiver usando diferentes
-aplicativos ou quando você estiver em modo de espera ou suspensão. Ele também tem recursos avançados, como ajustes de brilho automáticos baseados na hora do dia.

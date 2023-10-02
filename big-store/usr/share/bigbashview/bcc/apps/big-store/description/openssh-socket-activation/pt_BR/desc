@@ -1,3 +1,0 @@
-Você sabe o que é uma ativação de socket? Ela é uma maneira de iniciar um programa somente quando ele é realmente necessário,
-em vez de deixá-lo sempre rodando. Isso pode economizar recursos do seu computador.O OpenSSH é um programa que permite acesso seguro a outros computadores através da internet. Com a
-ativação de socket, o OpenSSH só será iniciado quando você realmente precisar dele, e não precisará ficar sempre rodando.

@@ -1,3 +1,0 @@
- Essa ferramenta é baseada em BPF (Berkeley Packet Filter) e serve para detectar condições de erro no núcleo do
-sistema operacional. É uma ferramenta útil para administradores de sistemas e desenvolvedores, pois permite identificar e solucionar problemas no núcleo do sistema de forma rápida e
-eficiente.

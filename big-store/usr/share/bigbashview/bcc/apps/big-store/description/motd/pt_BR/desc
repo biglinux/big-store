@@ -1,3 +1,0 @@
-Este programa é responsável por gerar as informações do sistema de forma dinâmica para serem exibidas no banner
-MOTD no acesso via SSH. Ele é capaz de mostrar informações como uso de disco, memória, processos rodando e outras informações relevantes do sistema.Ele é uma ótima ferramenta para
-administradores de sistemas, pois permite ter uma visão rápida do estado do sistema sem precisar acessar o console.

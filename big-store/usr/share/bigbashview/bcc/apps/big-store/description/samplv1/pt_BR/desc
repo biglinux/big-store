@@ -1,1 +1,0 @@
-O samplv1 é um sintetizador sampler polifônico com efeitos estéreo de estilo antigo. Ele é capaz de se conectar ao JACK, suporta JACK MIDI e ALSA MIDI, e também está disponível como um plugin LV2. O endereço para o plugin é http://samplv1.sourceforge.net/lv2. 

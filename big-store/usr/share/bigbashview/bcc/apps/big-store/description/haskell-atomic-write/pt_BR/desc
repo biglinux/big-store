@@ -1,1 +1,0 @@
-O pacote haskell-atomic-write permite escrever de forma atômica em um arquivo. Isso significa que, durante o processo de escrita,  o arquivo é bloqueado para outras operações, garantindo que a escrita seja concluída sem interrupções. Isso é útil para evitar problemas como corrupção de arquivos. 

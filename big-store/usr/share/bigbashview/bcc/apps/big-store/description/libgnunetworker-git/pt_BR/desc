@@ -1,4 +1,0 @@
-Este programa é uma biblioteca para ajudar a adicionar recursos de multithreading em outros programas usando a
-plataforma GNUnet. Ele foi criado para ser fácil de usar e possibilitar que os desenvolvedores possam adicionar vários processos em seus programas de maneira simples e eficiente. A
-biblioteca foi criada usando o Git, um sistema de controle de versão, para garantir a qualidade e a segurança do código. Isso também facilita a colaboração entre desenvolvedores em torno do
-mundo.

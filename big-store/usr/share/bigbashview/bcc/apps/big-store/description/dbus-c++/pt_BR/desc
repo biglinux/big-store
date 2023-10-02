@@ -1,1 +1,0 @@
-Uma API para usar o D-BUS, um sistema de comunicação interprocesso, escrito em C++. Com ela, é possível criar programas que se comunicam com outros programas através do D-BUS de forma fácil e rápida. 

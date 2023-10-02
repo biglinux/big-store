@@ -1,4 +1,0 @@
-Este programa é chamado cilium-cli-bin e é usado para observar como as coisas estão funcionando na sua rede, nos seus
-serviços e na segurança. Ele foi projetado especificamente para trabalhar com o Kubernetes, que é um sistema para gerenciar aplicativos dentro de um cluster. Ele usa algo chamado eBPF para 
-ajudar a monitorar e entender o que está acontecendo.Em resumo, este programa ajuda você a entender como sua rede está funcionando e o que pode ser melhorado para garantir que tudo esteja
-funcionando corretamente.

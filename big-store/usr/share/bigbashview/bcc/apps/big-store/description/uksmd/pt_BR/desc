@@ -1,4 +1,0 @@
-Este é um programa chamado uksmd, que é um gerenciador de memória compartilhada para o seu computador. Ele ajuda a
-garantir que a memória do seu computador esteja sendo usada de forma eficiente, ao identificar e combinar áreas de memória semelhantes que estão sendo usadas por múltiplos programas. Isso
-pode ajudar a economizar espaço e aumentar a velocidade do seu computador.Ele funciona no espaço do usuário, o que significa que ele não precisa de privilégios de administrador para
-funcionar. Ele é fácil de usar e pode ser configurado para iniciar automaticamente quando o seu computador é ligado. 

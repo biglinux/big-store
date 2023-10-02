@@ -1,4 +1,0 @@
-Com o cargo-xwin-git, é fácil compilar projetos desenvolvidos com o Cargo para alvo de Windows msvc. Isso permite que 
-você crie aplicativos para Windows usando as ferramentas e bibliotecas do Cargo, sem precisar deixar de lado sua configuração de desenvolvimento existente. Com este programa, é possível
-economizar tempo e esforço ao evitar a necessidade de configurar uma máquina Windows separada para compilação e testes. Além disso, ele é compatível com as últimas versões do Cargo e do
-Rust, garantindo que você possa aproveitar as últimas funcionalidades e melhorias.

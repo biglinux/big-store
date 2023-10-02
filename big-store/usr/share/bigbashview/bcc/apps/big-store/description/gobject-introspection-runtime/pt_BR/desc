@@ -1,1 +1,0 @@
-A biblioteca 'gobject-introspection-runtime' é usada para fornecer introspecção para bibliotecas baseadas em GObject. Ela permite a criação de vínculos para outras linguagens e a criação dinâmica de objetos em tempo de execução. A biblioteca é utilizada pelo projeto de Introspecção GObject para gerar vínculos de linguagem para várias linguagens de programação. 

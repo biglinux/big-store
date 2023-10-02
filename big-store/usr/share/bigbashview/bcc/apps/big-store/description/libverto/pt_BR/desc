@@ -1,1 +1,0 @@
-libverto é uma biblioteca que fornece uma abstração para o loop principal de eventos em aplicativos. Isso significa que ela ajuda a gerenciar quais ações devem ser tomadas em resposta a eventos específicos, como cliques de mouse ou atualizações de rede. Isso pode tornar o desenvolvimento de programas mais fácil e mais organizado. 

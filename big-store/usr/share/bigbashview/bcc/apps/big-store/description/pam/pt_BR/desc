@@ -1,1 +1,0 @@
-A biblioteca PAM (Pluggable Authentication Modules) é um conjunto de módulos que fornecem autenticação para sistemas operacionais. Ela permite que os desenvolvedores criem aplicativos de autenticação personalizados sem precisar lidar com os detalhes técnicos da autenticação. A biblioteca PAM é compatível com vários sistemas operacionais, incluindo Linux, Unix e Mac OS X. 

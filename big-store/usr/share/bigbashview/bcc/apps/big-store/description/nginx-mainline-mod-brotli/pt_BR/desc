@@ -1,4 +1,0 @@
-Este é um módulo adicional para o nginx, o popular servidor web. Ele adiciona suporte à compressão Brotli, um
-algoritmo de compressão de arquivos muito eficiente. Isso significa que os arquivos que são servidos pelo nginx podem ser comprimidos antes de serem enviados aos visitantes do seu site, o
-que pode ajudar a melhorar o tempo de carregamento das páginas.Este módulo é específico para a versão 'mainline' do nginx, que é a versão de desenvolvimento mais recente. Se você estiver
-usando uma versão estável do nginx, talvez precise procurar por um módulo diferente.

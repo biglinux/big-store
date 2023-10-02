@@ -1,4 +1,0 @@
-Este é um módulo para o PHP74 que permite a comunicação com serviços SOAP. Ele é usado para enviar e receber mensagens usando o
-protocolo SOAP, que é um padrão para trocar informações entre aplicativos via internet. Com este módulo, é possível acessar serviços web de forma fácil e rápida.Algumas das principais
-funcionalidades do módulo SOAP incluem suporte a múltiplos formatos de mensagens, como XML e JSON, e capacidade de trabalhar com diferentes tipos de autenticação, como basic auth e digest
-auth. Também é possível fazer chamadas assíncronas e lidar com erros de forma eficiente.

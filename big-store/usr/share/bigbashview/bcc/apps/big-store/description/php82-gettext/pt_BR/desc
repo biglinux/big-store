@@ -1,3 +1,0 @@
-O módulo gettext permite que você traduza mensagens em seu aplicativo PHP 8.2. Ele é útil para tornar seu site ou aplicativo
-disponível em vários idiomas. Ele funciona criando arquivos de tradução separados que podem ser facilmente gerenciados e atualizados. Com o gettext, você pode exibir mensagens traduzidas
-automaticamente para o idioma do usuário sem precisar fazer alterações no código-fonte do seu aplicativo.

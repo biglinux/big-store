@@ -1,1 +1,0 @@
-A biblioteca ocaml-hashcons é uma ferramenta para aumentar a eficiência do OCaml. Ela usa uma técnica chamada 'hash-consing' que permite reutilizar objetos iguais em vez de criar novos. Isso pode economizar muita memória e melhorar a velocidade de execução do programa. 

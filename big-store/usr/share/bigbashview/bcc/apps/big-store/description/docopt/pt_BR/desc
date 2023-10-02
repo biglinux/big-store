@@ -1,1 +1,0 @@
-docopt é um analisador de argumentos de linha de comando para C++11 e versões posteriores. Ele permite que você defina a sintaxe de sua linha de comando usando uma documentação simples e legível, e gera automaticamente código para analisar esses argumentos. Isso torna muito mais  fácil criar aplicativos de linha de comando que sejam fáceis de usar e entender para seus usuários. 

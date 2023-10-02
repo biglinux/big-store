@@ -1,1 +1,0 @@
-Este programa é uma porta dos módulos internos encontrados no sintetizador modular Alsa. Ele permite que você use esses módulos em outros softwares e programas de áudio. Ele é chamado de ams-lv2 e é um plugin compatível com o padrão LV2. 

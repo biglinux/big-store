@@ -1,1 +1,0 @@
-O xdg-desktop-portal-wlr é um backend para o portal de desktop XDG (Desktop Entry Specification) específico para o compositor Wlroots. Ele permite que aplicativos usem recursos do sistema, como arquivos, câmera e áudio, sem precisar de permissões de superusuário. Isso garante maior segurança e privacidade para o usuário. 

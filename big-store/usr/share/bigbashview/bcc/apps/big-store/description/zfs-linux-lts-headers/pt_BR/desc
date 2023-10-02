@@ -1,3 +1,0 @@
-Este é um pacote de cabeçalhos de kernel para o Sistema de Arquivos Zettabyte (ZFS). Ele é necessário para que o ZFS possa
-ser usado em sistemas Linux com suporte a longo prazo (LTS).O ZFS é um sistema de arquivos avançado que oferece recursos únicos, como snapshots, clones, pool de armazenamento, compressão e 
-verificação de integridade de dados. Com os cabeçalhos de kernel corretos, você pode usar o ZFS em seu sistema Linux LTS sem problemas.

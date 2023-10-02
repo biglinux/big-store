@@ -1,1 +1,0 @@
-Este módulo contém APIs não suportadas do Qt 5. Ele é usado para garantir a compatibilidade com versões antigas do software enquanto se migra para a nova versão. É recomendado que essas APIs sejam evitadas, pois podem ser removidas em versões futuras. 

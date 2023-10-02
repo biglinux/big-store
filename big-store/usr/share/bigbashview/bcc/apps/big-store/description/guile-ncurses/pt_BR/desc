@@ -1,4 +1,0 @@
-Este programa permite usar a biblioteca ncurses, que ajuda a criar interfaces de linha de comando mais bonitas e
-fáceis de usar, junto com o Guile. Isso significa que você pode escrever seus programas de linha de comando usando o Guile e ainda ter acesso a todas as funcionalidades do ncurses para
-torná-los mais bonitos e fáceis de usar. Por exemplo, você pode usar o ncurses para criar menus de opções coloridos, janelas de rolagem e outros elementos gráficos que tornariam seu
-programa mais fácil de usar e mais bonito.

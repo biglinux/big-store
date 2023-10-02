@@ -1,1 +1,0 @@
-O python-zc.lockfile é uma das ferramentas de teste disponíveis para o Zope, um framework de desenvolvimento web open-source escrito em Python. Ele permite que você gerencie arquivos de bloqueio de maneira segura e simples, garantindo que somente um processo acesse um arquivo de cada vez. 

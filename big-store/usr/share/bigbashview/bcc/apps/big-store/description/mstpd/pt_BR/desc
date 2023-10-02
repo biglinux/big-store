@@ -1,4 +1,0 @@
-mstpd é um programa que permite gerenciar redes com RSTP e MSTP. Ele funciona como um 'daemon', ou seja, um programa que
-fica rodando em segundo plano no seu computador e cuida de tarefas específicas. Com mstpd, você pode controlar como as redes em sua empresa ou organização se comunicam e evitar problemas de
-conectividade.mstpd é especialmente útil em ambientes com múltiplos segmentos de rede, onde é importante controlar como os dados circulam. Ele é fácil de usar e configurar, e pode ser
-integrado com outros sistemas de gerenciamento de rede.

@@ -1,2 +1,0 @@
-repkg é uma ferramenta para gerenciar a reconstrução de pacotes AUR com base em suas dependências. Isso permite que você
-mantenha seus pacotes sempre atualizados e evite problemas de compatibilidade. É fácil de usar e pode ser integrado ao seu fluxo de trabalho de gerenciamento de pacotes.

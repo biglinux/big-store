@@ -1,3 +1,0 @@
-Este programa permite que você extraia a representação do heap de valores e thunks de Haskell. É útil para entender melhor como o 
-código Haskell está sendo executado e para depurar problemas de desempenho.Ele é baseado na ferramenta GHC, que é a implementação padrão do compilador Haskell. Ele é fácil de usar e pode 
-ser integrado a outras ferramentas de desenvolvimento.

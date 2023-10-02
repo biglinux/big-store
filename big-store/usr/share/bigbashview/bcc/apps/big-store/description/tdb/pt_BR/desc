@@ -1,1 +1,0 @@
- Esse é um banco de dados simples semelhante ao GDBM (GNU Database Manager). Ele permite que várias alterações sejam feitas ao mesmo tempo, o que é chamado de 'commits simultâneos'. Isso é útil quando você precisa garantir que várias pessoas possam acessar e modificar o banco de dados ao mesmo tempo, sem causar problemas. 

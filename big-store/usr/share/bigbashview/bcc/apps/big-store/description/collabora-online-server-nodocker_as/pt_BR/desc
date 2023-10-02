@@ -1,4 +1,0 @@
-O Collabora Online é uma ferramenta de edição de documentos em tempo real, que permite que vários usuários trabalhem em 
-um mesmo arquivo simultaneamente. O servidor Collabora sem Docker é uma versão específica do programa, que não precisa de um container Docker para ser executado.Com essa opção, é possível
-instalar e configurar o Collabora Online de forma mais rápida e simples, sem a necessidade de lidar com as complexidades de um container Docker. Além disso, a instalação sem Docker pode ser
-mais adequada para ambientes com restrições de recursos ou de segurança.

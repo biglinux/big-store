@@ -1,4 +1,0 @@
-Este pacote contém cabeçalhos e scripts para construir módulos para o núcleo Linux TT scheduler, desenvolvido pela CachyOS,
-com outras correções e melhorias. Ele é especialmente útil para desenvolvedores que desejam personalizar o núcleo do sistema operacional para atender às necessidades específicas de sua
-aplicação. Este pacote é projetado para ser usado em conjunto com o kernel Linux TT, e é compatível com as últimas versões desse núcleo. Ele permite aos desenvolvedores criar módulos de
-sistema personalizados e aprimorar o desempenho e as funcionalidades do sistema operacional.

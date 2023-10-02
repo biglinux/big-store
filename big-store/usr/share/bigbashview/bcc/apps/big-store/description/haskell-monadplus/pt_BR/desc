@@ -1,1 +1,0 @@
-Este programa fornece suporte para filtros e mapas parciais em Haskell98, utilizando MonadPlus. Ele permite que você realize operações de filtragem e mapeamento de forma mais eficiente, e é útil para trabalhar com grandes conjuntos de dados. 

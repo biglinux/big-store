@@ -1,2 +1,0 @@
- Go test é uma ferramenta para testar o código escrito na linguagem de programação Go. Com ele, é possível verificar se o código
-está funcionando corretamente antes de publicá-lo. Além disso, o go test também mostra os resultados dos testes com cores, facilitando a identificação de erros. 

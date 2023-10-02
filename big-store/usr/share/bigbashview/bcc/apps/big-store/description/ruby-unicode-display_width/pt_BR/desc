@@ -1,1 +1,0 @@
-Esse programa é escrito em Ruby e tem como função medir a largura de exibição de uma string em um  formato monospace. Isso significa que todos os caracteres ocupam o mesmo espaço na tela, independentemente do seu tamanho. Ele é útil para formatar textos de forma que fiquem alinhados corretamente. 

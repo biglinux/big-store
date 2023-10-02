@@ -1,1 +1,0 @@
-A biblioteca lib32-libtasn1 é utilizada no sistema de segurança criptográfica GNUTLS para lidar com arquivos ASN.1. ASN.1 é uma norma para codificar mensagens e objetos em redes de computadores. Essa biblioteca em específico é projetada para funcionar em sistemas de 32 bits. É importante para garantir a segurança e a privacidade de informações transmitidas através de redes. 

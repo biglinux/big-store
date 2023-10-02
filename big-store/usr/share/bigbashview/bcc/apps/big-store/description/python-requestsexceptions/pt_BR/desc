@@ -1,1 +1,0 @@
-O pacote python-requestsexceptions permite importar exceções de pacotes que podem estar embalados dentro da biblioteca de requisições. Isso pode ser útil para lidar com erros específicos de uma forma mais fácil e organizada. 

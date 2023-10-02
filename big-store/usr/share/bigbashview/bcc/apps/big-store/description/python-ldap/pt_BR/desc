@@ -1,1 +1,0 @@
-python-ldap fornece uma API de cliente LDAP para Python. Ele implementa as operações básicas de CRUD do LDAP e permite a manipulação de um servidor LDAP através do Python. O pacote é ativamente mantido e é compatível com Python 2 e 3. É uma ferramenta útil para interagir com servidores LDAP de uma forma Pythonica. 

@@ -1,3 +1,0 @@
-Este programa é um plugin para o editor de texto Vim, que permite verificar o código escrito em Python usando a
-ferramenta Flake8. Com ele, é possível encontrar erros de sintaxe, problemas de estilo e outros problemas comuns em código Python, diretamente dentro do Vim, sem precisar sair do
-editor.Além disso, o plugin também oferece sugestões de correção para os problemas encontrados, tornando mais fácil a correção de erros e a manutenção do código.

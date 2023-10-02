@@ -1,3 +1,0 @@
-Este programa é um gerador de endereço personalizado para Serviços Onion v3 (ed25519). Ele cria
-endereços personalizados para o seu serviço Onion, permitindo que você tenha um endereço mais fácil de lembrar e compartilhar com outras pessoas. Ele usa a criptografia ed25519 para
-garantir a segurança do seu endereço.Exemplo de uso: mkp224o exampleonionaddress.onion

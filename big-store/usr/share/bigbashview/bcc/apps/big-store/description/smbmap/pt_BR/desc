@@ -1,4 +1,0 @@
-Smbmap é uma ferramenta que permite a você verificar compartilhamentos de arquivos em um computador ou rede. Ele pode mostrar
-quais pastas e arquivos estão disponíveis, bem como informações sobre permissões e usuários. É útil para verificar se há arquivos confidenciais expostos ou para encontrar vulnerabilidades
-em uma rede. Ele funciona com o protocolo SMB, que é comumente usado para compartilhar arquivos e impressoras em redes de computadores. Ele é fácil de usar e tem várias opções avançadas
-para usuários mais experientes. 

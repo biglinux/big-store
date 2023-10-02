@@ -1,3 +1,0 @@
-Este programa fornece suporte a fontes para o sistema X Window, especificamente para o Pango. Isso significa que ele permite
-que as fontes sejam exibidas corretamente em aplicativos que usam o Pango para renderizar texto. Isso inclui muitos aplicativos de escritório, navegadores e outros tipos de software. Com o 
-suporte a fontes do Pango, os usuários podem ter certeza de que o texto será exibido corretamente em suas telas, independentemente do tipo de fonte usado.

@@ -1,4 +1,0 @@
-Este programa permite incluir arquivos em documentos usando o python e o pandoc. Ele é chamado de python-pandoc-include e 
-funciona como um filtro do Panflute. Com ele, você pode adicionar conteúdo de outros arquivos ao seu documento atual de forma fácil e rápida. É útil para quem precisa incluir informações
-adicionais em um documento sem precisar digitar tudo novamente.Ele é fácil de usar, basta aplicá-lo como filtro do pandoc e informar o caminho do arquivo que deseja incluir. Ele é
-compatível com vários formatos de arquivo, como .txt, .md e .html.

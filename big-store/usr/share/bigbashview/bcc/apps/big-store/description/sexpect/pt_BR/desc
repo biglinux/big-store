@@ -1,4 +1,0 @@
-Com o programa sexpect, você pode automatizar tarefas no seu sistema operacional. Ele é especialmente útil para tarefas 
-que precisam ser repetidas várias vezes, como configuração de servidores ou backups. Ele funciona como uma espécie de 'espera' para comandos no shell, o que significa que você pode
-programar uma série de comandos para serem executados automaticamente.É fácil de usar e pode ser integrado com outros programas para criar scripts ainda mais poderosos. Se você precisa
-automatizar tarefas no seu sistema, o sexpect é uma ótima opção.

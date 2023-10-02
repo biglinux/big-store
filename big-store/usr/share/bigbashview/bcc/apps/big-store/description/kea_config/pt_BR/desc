@@ -1,4 +1,0 @@
-Com o programa 'kea_config', é possível gerenciar as configurações do DHCP4 de uma fonte única de configuração. Isso
-significa que você pode controlar facilmente as configurações do seu servidor DHCP sem precisar fazer mudanças em vários lugares diferentes.Este programa é especialmente útil em redes
-maiores, onde a configuração e o gerenciamento de vários servidores DHCP podem ser complicados. Com o 'kea_config', você pode garantir que todos os seus servidores estejam configurados
-corretamente e sincronizados.

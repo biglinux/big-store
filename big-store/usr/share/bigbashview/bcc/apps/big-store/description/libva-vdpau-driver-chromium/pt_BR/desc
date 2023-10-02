@@ -1,3 +1,0 @@
-Este programa é um driver de VDPAU (Video Decode and Presentation API for Unix) para VA API (Video Acceleration API). Ele foi criado
-especialmente para ser usado com o navegador Chromium. Ele permite que o Chromium aproveite a aceleração de hardware para decodificação de vídeo, o que resulta em melhor desempenho e menos 
-carga no processador.

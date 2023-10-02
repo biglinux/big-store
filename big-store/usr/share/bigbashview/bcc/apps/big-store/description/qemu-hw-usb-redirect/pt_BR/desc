@@ -1,1 +1,0 @@
-QEMU é um emulador de hardware que permite que você execute sistemas operacionais em uma máquina virtual. O dispositivo de redirecionamento USB para QEMU, ou qemu-hw-usb-redirect, permite que você conecte dispositivos USB a esta máquina virtual, o que pode ser útil para testar o software em diferentes configurações de hardware.  

@@ -1,3 +1,0 @@
-Este programa é um código experimental de código aberto em C++ para resolver problemas gerais de MINLP. Ele é chamado de
-coin-or-bonmin e foi desenvolvido para ajudar as pessoas a encontrar a melhor solução para seus problemas de otimização.MINLP significa 'Problema de Otimização de Programação Não Linear
-Inteira'. Isso significa que ele tenta encontrar a melhor solução para um problema que tem partes que são não lineares e outras partes que são inteiras.

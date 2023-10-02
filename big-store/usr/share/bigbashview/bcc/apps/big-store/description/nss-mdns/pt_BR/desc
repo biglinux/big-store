@@ -1,1 +1,0 @@
-nss-mdns é um plugin para o glibc que fornece a resolução de nome de host via mDNS. Ele permite que os nomes de host sejam resolvidos em endereços IP na rede local sem a necessidade de um servidor DNS. Isso pode ser útil em situações em que um servidor DNS não está disponível ou não é desejado ser usado. 

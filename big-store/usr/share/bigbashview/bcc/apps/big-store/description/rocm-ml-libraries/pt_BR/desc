@@ -1,4 +1,0 @@
-Esse repositório contém pacotes importantes para bibliotecas de aprendizado de máquina. Ele é projetado para
-ser usado com o ROCm (Plataforma de computação de alto desempenho para dispositivos móveis e de desktop). Com esses pacotes, você pode facilmente utilizar as principais bibliotecas de
-aprendizado de máquina, como TensorFlow e PyTorch, no ROCm. Este repositório é uma boa opção para quem precisa de alta performance para aplicações de aprendizado de máquina e está usando
-dispositivos compatíveis com ROCm.

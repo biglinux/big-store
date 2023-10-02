@@ -1,1 +1,0 @@
-Esses bindings permitem que você use a biblioteca Xlib, que é usada para criar janelas e outros recursos gráficos, com o Haskell. Isso significa que você pode criar programas gráficos com Haskell usando esses bindings. 

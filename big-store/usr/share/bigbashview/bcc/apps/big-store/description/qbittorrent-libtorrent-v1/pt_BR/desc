@@ -1,3 +1,0 @@
- Este é um cliente BitTorrent avançado escrito em C++. Ele usa a biblioteca Qt e libtorrent-rasterbar v1 para funcionar. Com ele,
-você pode baixar arquivos de diversas fontes simultaneamente, sem precisar se preocupar em lidar com problemas de velocidade ou estabilidade. Além disso, ele tem várias opções avançadas,
-como gerenciamento de banda, criptografia e suporte a proxy. 

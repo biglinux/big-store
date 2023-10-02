@@ -1,1 +1,0 @@
-Esta biblioteca é uma implementação em C (32-bits) do formato JSON, que é amplamente utilizado para troca de dados na internet. Ele permite que você facilmente ler e escrever arquivos JSON em seu código C.A biblioteca chama-se lib32-json-c e é compatível com sistemas operacionais de 32-bits. 

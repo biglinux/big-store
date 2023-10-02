@@ -1,1 +1,0 @@
-Este programa contém funções que são úteis para lidar com texto codificado em Latin-1, que é uma codificação de caracteres que inclui os caracteres ASCII. Isso permite que você trabalhe com texto em vários idiomas diferentes, incluindo português, espanhol e francês. Ele é escrito em Haskell, uma linguagem de programação de alta performance. 

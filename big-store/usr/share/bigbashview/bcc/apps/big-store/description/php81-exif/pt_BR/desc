@@ -1,4 +1,0 @@
-Este programa é um módulo para o PHP 8.1 que permite ler e escrever informações de metadados de imagens. Ele é especialmente útil
-para trabalhar com fotos e outros arquivos de imagem, pois permite recuperar informações como a data e hora em que a foto foi tirada, a resolução, o modelo da câmera e outros detalhes.
-Além disso, este módulo é muito fácil de usar e pode ser integrado facilmente em outros projetos de desenvolvimento. Ele é compatível com vários formatos de imagem, incluindo JPEG, TIFF e
-PNG. 

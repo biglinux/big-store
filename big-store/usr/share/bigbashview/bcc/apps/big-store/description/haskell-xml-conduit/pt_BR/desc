@@ -1,1 +1,0 @@
-Esse programa oferece utilitários escritos em Pure-Haskell para lidar com arquivos XML usando o pacote conduit. Ele é especialmente útil para projetos que precisam processar grandes quantidades de dados XML de forma eficiente e escalável. 

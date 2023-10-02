@@ -1,1 +1,0 @@
-Este programa adiciona saída colorida ao framework de testes Bacon, escrito em Ruby. Isso torna mais fácil identificar os resultados dos testes, pois as falhas aparecem em vermelho e os sucessos em verde. Além disso, o código fica mais bonito e fácil de ler.  

@@ -1,4 +1,0 @@
-Ferramentas científicas para Python são construídas com openblas. O openblas é uma biblioteca de código aberto, que
-fornece implementações de alta performance para operações matriciais. É usado como base para a biblioteca numpy, que é uma das principais ferramentas para cálculo científico e análise de
-dados em Python.Com essas ferramentas, os cientistas de dados, engenheiros e desenvolvedores podem realizar operações matriciais de alta performance, como cálculos de álgebra linear,
-transformações de Fourier e outros. Além disso, as ferramentas também incluem recursos para trabalhar com arranjos multidimensionais, operações com números complexos e muito mais.

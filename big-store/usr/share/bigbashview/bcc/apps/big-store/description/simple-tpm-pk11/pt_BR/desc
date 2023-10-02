@@ -1,3 +1,0 @@
-Este programa é uma forma simples de acessar o chip TPM (Trusted Platform Module) através de uma biblioteca PKCS11. Ele permite que
-você use a segurança avançada do TPM em seus aplicativos e sistemas.Com ele, você pode criar e armazenar chaves criptográficas no TPM, assinar documentos eletronicamente e proteger dados
-confidenciais. Ele é fácil de usar e segue padrões de segurança amplamente utilizados.

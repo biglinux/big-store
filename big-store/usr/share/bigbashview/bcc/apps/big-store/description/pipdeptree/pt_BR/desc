@@ -1,3 +1,0 @@
-Este programa é uma ferramenta de linha de comando que ajuda a mostrar como os pacotes Python estão relacionados 
-entre si. Ele usa o pip para encontrar as dependências de cada pacote e organiza essas informações em uma árvore de dependência fácil de entender. Isso é útil para desenvolvedores que
-querem entender melhor como seus pacotes estão se relacionando e para encontrar possíveis problemas de compatibilidade. 

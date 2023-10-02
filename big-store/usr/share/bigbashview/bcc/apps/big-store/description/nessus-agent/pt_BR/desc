@@ -1,4 +1,0 @@
-O Nessus é um programa que ajuda a encontrar problemas de segurança em seu computador ou rede. Ele funciona
-verificando se há alguma falha ou 'buraco' que os criminosos cibernéticos possam explorar. Ele faz isso verificando se as últimas atualizações de segurança foram instaladas e se todos os
-programas estão configurados corretamente.Este programa possui uma versão agente, que é instalada diretamente no computador para escanear vulnerabilidades, e uma versão centralizada, que
-administra os escaneamentos e gera relatórios. A versão agente é utilizada quando não é possível escanear a máquina remotamente.

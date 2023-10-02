@@ -1,1 +1,0 @@
-O pacote nvidia-prime fornece ferramentas para configurar o NVIDIA Prime, que permite desviar tarefas de renderização da GPU integrada para uma GPU NVIDIA discreta em laptops com GPU dupla. Ele inclui a ferramenta de linha de comando 'prime-select' e outros utilitários. 

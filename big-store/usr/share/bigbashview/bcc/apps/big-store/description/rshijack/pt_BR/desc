@@ -1,1 +1,0 @@
-O rshijack é um programa escrito em rust que permite roubar conexões TCP e redirecioná-las para outro endereço e porta. É útil para testes e depuração de conexões de rede. 

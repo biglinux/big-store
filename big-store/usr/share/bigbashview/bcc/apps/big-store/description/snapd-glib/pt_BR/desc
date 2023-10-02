@@ -1,1 +1,0 @@
-Uma biblioteca para permitir que aplicativos baseados em GLib/Qt tenham acesso ao snapd, o daemon que controla os Snaps.

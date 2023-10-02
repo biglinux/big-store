@@ -1,4 +1,0 @@
-O NATS Command Line Interface (CLI) é uma ferramenta de linha de comando fácil de usar para se comunicar com o
-servidor NATS. Ele permite que você publique e assine mensagens, monitore o status do servidor e gerencie suas conexões. Com o NATS CLI, você pode rapidamente testar se sua configuração do 
-NATS está funcionando corretamente e enviar mensagens para o servidor sem precisar escrever código. Ele também é útil para depuração e monitoramento do sistema NATS em produção. O NATS CLI 
-é uma ferramenta essencial para qualquer desenvolvedor ou administrador de sistemas que trabalha com o NATS.

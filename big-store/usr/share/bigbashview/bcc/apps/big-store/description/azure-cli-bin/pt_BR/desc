@@ -1,3 +1,0 @@
- O Azure Command-Line Interface (CLI) é uma ferramenta de linha de comando que permite gerenciar recursos do Azure. Esse pacote
-específico é para usuários do sistema operacional Debian. Com ele, você pode criar e gerenciar máquinas virtuais, armazenamento, redes e muito mais diretamente do terminal. É uma opção
-poderosa para automatizar tarefas e gerenciar recursos do Azure de forma eficiente. 

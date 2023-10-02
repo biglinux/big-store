@@ -1,4 +1,0 @@
-Esta biblioteca é projetada para ler e escrever arquivos usados em calculadoras TI, como arquivos de
-imagem, arquivos de programa e arquivos de dados. Ela é útil para desenvolvedores que trabalham com aplicativos para essas calculadoras ou que precisam importar ou exportar dados para
-elas.A biblioteca suporta vários formatos de arquivo diferentes e fornece uma interface simples para trabalhar com eles. Ela também é compatível com várias plataformas, incluindo Windows,
-MacOS e Linux.

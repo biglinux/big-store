@@ -1,3 +1,0 @@
-Esta biblioteca é chamada libuvc e é usada para acessar dispositivos de vídeo USB em diferentes sistemas
-operacionais. Ela permite que você use seu dispositivo de vídeo USB em seu computador, independentemente do sistema operacional que você está usando. Isso inclui Windows, Mac e Linux. É uma
-biblioteca fácil de usar e é útil para desenvolvedores que desejam adicionar suporte a dispositivos de vídeo USB a seus projetos.

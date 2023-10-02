@@ -1,3 +1,0 @@
-O python-pymanopt é uma ferramenta de otimização em python que possibilita o uso de análise automatizada em mangueiras.
-Ele é útil para problemas de otimização em que a função objetivo e as restrições são definidas em um espaço de dimensão elevada, como redes neurais, sistemas de recomendação e outras
-aplicações. Com o pymanopt, é possível resolver problemas de otimização de forma eficiente e precisa, sem precisar se preocupar com a implementação detalhada dos algoritmos.

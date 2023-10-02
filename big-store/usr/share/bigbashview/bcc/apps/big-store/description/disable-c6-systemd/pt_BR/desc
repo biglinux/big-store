@@ -1,4 +1,0 @@
-Este é um programa que ajuda a desativar o estado C6 em CPUs Ryzen. Ele funciona como um serviço do systemd, o que
-significa que ele é executado automaticamente quando você inicia o seu computador. Isso pode ser útil se você notar problemas de desempenho ou estabilidade com seu processador Ryzen quando 
-o estado C6 está ativado. Usando esse programa, você pode desativar o estado C6 sem precisar fazer alterações manuais no seu sistema. Isso pode ser especialmente útil se você não estiver
-familiarizado com comandos do Linux ou configurações avançadas do sistema.

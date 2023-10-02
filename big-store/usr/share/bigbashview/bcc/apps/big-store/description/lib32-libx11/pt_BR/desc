@@ -1,1 +1,0 @@
-A biblioteca lib32-libx11 é uma biblioteca de software desenvolvida para trabalhar com o protocolo X Window System. Ela é projetada para ser usada como biblioteca do lado do cliente, ou seja, é usada para permitir que os aplicativos se comuniquem com o servidor X11. Ela é específica para sistemas de 32 bits. 

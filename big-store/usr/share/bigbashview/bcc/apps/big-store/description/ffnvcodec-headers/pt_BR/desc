@@ -1,1 +1,0 @@
-Este é um pacote de cabeçalhos do FFmpeg, necessário para se comunicar com as APIs de  codec da Nvidia. Ele fornece as funções e estruturas de dados necessárias para desenvolver aplicativos que usam os codecs da Nvidia. 

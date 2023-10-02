@@ -1,1 +1,0 @@
-A biblioteca python-shellingham é uma ferramenta para detectar qual shell o atual executável Python está rodando. Ela oferece uma API simples para identificar o shell preferido pelo usuário e pode ser usada para personalizar o comportamento dos scripts em Python de acordo com isso. 

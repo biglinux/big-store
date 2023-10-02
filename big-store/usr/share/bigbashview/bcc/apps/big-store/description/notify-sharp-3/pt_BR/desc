@@ -1,1 +1,0 @@
-Esta biblioteca permite enviar notificações para o desktop usando o protocolo D-Bus e a versão GTK+ 3. Ela foi desenvolvida em C# e é fácil de usar para qualquer pessoa que precise enviar notificações para o desktop em sua aplicação. 

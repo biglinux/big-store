@@ -1,1 +1,0 @@
-Essa classe em Perl permite que você defina dados que podem ser herdados e sobrescritos por outras classes. Isso pode ser útil para compartilhar informações entre várias classes de um mesmo projeto, sem precisar escrever o mesmo código várias vezes. 

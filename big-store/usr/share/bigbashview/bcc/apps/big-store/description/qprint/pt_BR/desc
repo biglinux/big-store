@@ -1,1 +1,0 @@
-O qprint é um programa que permite codificar e decodificar arquivos utilizando o formato quoted-printable (RFC1521). Ele é útil para garantir a compatibilidade de arquivos de texto ao enviá-los por e-mail ou transferi-los entre sistemas diferentes. 

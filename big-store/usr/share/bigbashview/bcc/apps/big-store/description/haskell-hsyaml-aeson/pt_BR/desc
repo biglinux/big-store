@@ -1,1 +1,0 @@
-Este programa é um adaptador para converter arquivos JSON em arquivos YAML. Ele é escrito em Haskell e usa as bibliotecas hsyaml e aeson para realizar a conversão. 

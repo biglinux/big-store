@@ -1,1 +1,0 @@
-Este programa adiciona a capacidade de criar atributos preguiçosos em objetos Python. Isso significa que o valor do atributo só é calculado quando é necessário acessá-lo pela primeira vez, economizando recursos e melhorando o desempenho do seu código. 

@@ -1,1 +1,0 @@
-gitprompt-rs é um programa simples que mostra informações sobre o estado do seu repositório Git no terminal. Ele mostra o nome do branch atual, se há modificações não rastreadas e se há commits pendentes para serem enviados. Isso ajuda você a ficar organizado e saber exatamente onde você está no seu fluxo de trabalho. 

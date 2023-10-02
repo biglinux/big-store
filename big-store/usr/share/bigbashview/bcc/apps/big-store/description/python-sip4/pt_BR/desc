@@ -1,4 +1,0 @@
-O programa python-sip4 é uma ferramenta que permite acessar bibliotecas escritas em C e C++ através de código
-Python. Isso é feito através de chamadas de função, o que significa que você pode usar as funcionalidades dessas bibliotecas em seus próprios programas Python.Isso é especialmente útil
-quando você quer usar recursos de outras linguagens em seu código Python, sem ter que reescrever todo o código em Python.Além disso, essa ferramenta é útil para programadores que já possuem
-experiência com C ou C++ e desejam usar essa experiência para escrever programas Python.

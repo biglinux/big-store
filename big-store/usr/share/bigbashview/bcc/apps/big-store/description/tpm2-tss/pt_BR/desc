@@ -1,1 +1,0 @@
-O tpm2-tss é uma implementação da pilha de software TCG Trusted Platform Module 2.0 (TSS2). Ele é usado para gerenciar dispositivos TPM e fornecer uma camada de interface para aplicativos que usam as funcionalidades do TPM. Ele é projetado para ser compatível com as especificações TSS 2.0 e fornecer recursos adicionais para aprimorar a segurança e a privacidade. 

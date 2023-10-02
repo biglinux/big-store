@@ -1,4 +1,0 @@
-O GRML é um sistema operacional baseado em Linux que pode ser usado como entrada do carregador
-systemd-boot. Isso significa que você pode iniciar o GRML a partir do seu sistema existente sem precisar substituí-lo completamente. O GRML vem com muitas ferramentas avançadas e scripts
-pré-configurados para ajudá-lo a solucionar problemas de sistema, recuperação de dados e administração de rede.Usar o GRML como entrada do systemd-boot também permite que você inicie o GRML
-a partir de um dispositivo USB ou DVD, o que é útil para testar o sistema em diferentes máquinas sem precisar instalá-lo em cada uma delas.

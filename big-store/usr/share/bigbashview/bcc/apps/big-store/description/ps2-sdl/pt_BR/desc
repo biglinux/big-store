@@ -1,4 +1,0 @@
-A biblioteca PS2-SDL é projetada para oferecer acesso de baixo nível ao framebuffer
-de vídeo, saída de áudio, mouse e teclado em sistemas de videogame, como o Sony Playstation® 2. Ela foi criada para ser portável, o que significa que você pode usá-la em diferentes sistemas
-sem precisar mudar muito código. Com a PS2-SDL, você pode desenhar na tela, reproduzir som, ler entrada do mouse e teclado e fazer muito mais. É uma ótima escolha para desenvolvedores que
-querem criar jogos ou aplicativos para o PS2 e precisam de um controle preciso sobre a saída de vídeo e áudio, além de interação com o usuário. 

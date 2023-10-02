@@ -1,1 +1,0 @@
-Este programa fornece uma maneira fácil de proteger rotas específicas no seu aplicativo Flask com autenticação básica, resumida e por token. Isso é útil quando você deseja restringir o acesso a partes específicas do seu aplicativo para usuários autenticados. Ele é escrito em Python  e é compatível com o Flask, um framework web popular para aplicativos Python. 

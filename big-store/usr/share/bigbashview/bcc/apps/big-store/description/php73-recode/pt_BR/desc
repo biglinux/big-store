@@ -1,4 +1,0 @@
-Este é um módulo para o programa PHP 7.3 que permite a recodificação de texto. Ele é útil quando você precisa mudar a
-codificação de caracteres de um arquivo ou texto para que possa ser exibido ou processado corretamente. Com esse módulo, você pode facilmente convertar o texto de um conjunto de caracteres 
-para outro, como de ISO-8859-1 para UTF-8.Esse módulo é fácil de usar e possui uma variedade de opções para personalizar a recodificação. Ele é uma ferramenta valiosa para qualquer pessoa
-que trabalhe com texto e precisa fazer ajustes na codificação de caracteres.

@@ -1,1 +1,0 @@
-Este programa é chamado python-aiosignal. Ele fornece uma lista de callbacks assíncronos que foram registrados no  sistema. Isso é útil para garantir que todas as funções que precisam ser chamadas quando um evento específico acontece, são chamadas de forma adequada.  

@@ -1,1 +1,0 @@
-Este programa é um cliente Python para a biblioteca Solr. Ele permite que você interaja com um servidor Solr de forma fácil e rápida. É possível fazer buscas, adicionar, atualizar e excluir documentos no índice Solr usando esse cliente. Ele é uma boa escolha para quem precisa trabalhar com dados estruturados e quer fazer buscas avançadas usando o Solr. 

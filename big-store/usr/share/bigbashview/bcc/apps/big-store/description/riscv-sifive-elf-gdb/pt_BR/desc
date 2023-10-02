@@ -1,2 +1,0 @@
-O debugador GNU é um programa que ajuda a encontrar erros em outros programas. Ele é usado para testar e verificar se os
-programas estão funcionando corretamente. O debugador GNU para o alvo RISC-V é específico para sistemas sem sistema operacional, conhecidos como bare-metal.

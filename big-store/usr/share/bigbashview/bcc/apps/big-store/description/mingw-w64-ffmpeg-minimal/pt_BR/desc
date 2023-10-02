@@ -1,5 +1,0 @@
-Este programa é uma solução completa para gravar, converter e transmitir áudio e vídeo.
-Ele é especialmente útil para aqueles que desejam trabalhar com arquivos de áudio e vídeo em um ambiente de desenvolvimento Windows. Ele inclui todos os recursos necessários para editar,
-criar e transmitir conteúdo de áudio e vídeo de alta qualidade. Ele é baseado no projeto mingw-w64, que é um conjunto de ferramentas de desenvolvimento para Windows que permite compilar
-código nativo do Windows usando o GCC (GNU Compiler Collection). Isso significa que ele é compatível com muitos formatos de arquivos de áudio e vídeo diferentes e oferece uma grande
-variedade de opções de codificação e decodificação.

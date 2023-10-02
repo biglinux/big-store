@@ -1,1 +1,0 @@
-Este é um programa que permite que você use a biblioteca UnRAR em seus projetos Python. Ele funciona como um 'wrapper', ou seja, ele faz uma ponte entre a sua aplicação Python e a biblioteca UnRAR. Isso significa que você pode facilmente extrair arquivos RAR em seus projetos Python sem precisar escrever códigos complexos. 

@@ -1,3 +1,0 @@
-Este programa é usado para compactar arquivos, tornando-os menores e mais fáceis de armazenar ou enviar. Ele utiliza a
-ferramenta pigz, que é uma versão paralela do gzip, para fazer isso mais rapidamente. Além disso, ele também cria links simbólicos para que você possa acessar o programa pigz como se fosse 
-o gzip.Isso significa que você pode usar os mesmos comandos que normalmente usaria para compactar arquivos com o gzip, mas agora eles serão executados mais rapidamente graças ao pigz.

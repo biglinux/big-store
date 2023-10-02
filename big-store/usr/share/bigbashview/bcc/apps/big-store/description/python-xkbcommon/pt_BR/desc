@@ -1,1 +1,0 @@
-Este programa permite utilizar as funcionalidades do libxkbcommon, uma biblioteca para trabalhar com teclados, através de um binding em Python. Ele utiliza o cffi para fazer a ligação entre as duas linguagens. 

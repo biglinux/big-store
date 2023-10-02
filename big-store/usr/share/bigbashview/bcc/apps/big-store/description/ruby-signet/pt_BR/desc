@@ -1,4 +1,0 @@
-Este programa é uma implementação de OAuth 1.0 e OAuth 2.0 criada pelo Google. Ele é conhecido como ruby-signet e é
-usado para autenticar usuários e permitir que eles acessem informações e recursos protegidos. Ele é especialmente útil em ambientes de desenvolvimento, pois facilita a integração com as
-APIs do Google. O ruby-signet é uma biblioteca escrita em Ruby, uma linguagem de programação popular, e é fácil de usar. Ele fornece uma interface simples para lidar com todas as etapas de 
-autenticação OAuth, desde a obtenção de credenciais de cliente até a obtenção de tokens de acesso.

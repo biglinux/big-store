@@ -1,3 +1,0 @@
- O apt-offline é um gerenciador de pacotes APT que permite instalar, atualizar e remover pacotes sem precisar estar
-conectado à internet. Ele é útil em situações em que a conexão à internet é limitada ou não está disponível, como em computadores sem fio ou em áreas remotas. O apt-offline permite que você
-crie arquivos de atualização e instalação offline, que podem ser usados posteriormente em um computador sem conexão. 

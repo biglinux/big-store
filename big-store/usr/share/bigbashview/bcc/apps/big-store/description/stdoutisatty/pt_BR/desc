@@ -1,1 +1,0 @@
-stdoutisatty é um programa que faz com que outros programas pensem que seu stdout (saída padrão) é um tty (terminal) em vez de um arquivo. Isso pode ser útil em determinadas situações, como ao executar programas em um ambiente não interativo, como um script ou uma pipeline.  

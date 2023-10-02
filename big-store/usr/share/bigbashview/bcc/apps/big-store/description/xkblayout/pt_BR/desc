@@ -1,3 +1,0 @@
-Este programa é capaz de identificar qual o layout de teclado que está sendo utilizado no momento. Ele é útil para quem
-precisa saber se está usando o teclado correto, por exemplo, se está escrevendo em inglês ou em português. Ele funciona através de uma função chamada xkblayout, que é responsável por
-identificar qual o layout de teclado atual e exibir essa informação para o usuário.

@@ -1,3 +1,0 @@
-Este programa permite que programas escritos em Python acessem objetos Java de forma dinâmica. Isso significa que você pode usar
-comandos Python para controlar aplicativos Java e acessar suas funcionalidades. É uma ótima opção para quem precisa de interoperabilidade entre essas duas linguagens. Além disso, o
-python-py4j também permite que os programas Java acessem as funcionalidades do Python, ampliando ainda mais as possibilidades de integração entre as duas linguagens.

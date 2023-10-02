@@ -1,1 +1,0 @@
-Esse é um módulo para o Nginx que permite o uso do protocolo Redis 2.0 como upstream. Ele possibilita a comunicação entre o Nginx e o Redis, o que pode ser útil em diversas aplicações.Usando esse módulo, é possível, por exemplo, criar uma configuração de balanceamento de carga entre vários servidores Redis, ou usar o Redis como cache para o Nginx. 

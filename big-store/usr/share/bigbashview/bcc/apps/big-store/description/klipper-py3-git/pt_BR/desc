@@ -1,3 +1,0 @@
-Este é um firmware para impressoras 3D que possui planejamento de movimento no computador host. Isso 
-significa que a inteligência para mover a impressora está no computador e não no dispositivo. Isso pode fornecer uma maior precisão e velocidade de impressão. Este programa é escrito em
-Python 3 e é um projeto de código aberto. 

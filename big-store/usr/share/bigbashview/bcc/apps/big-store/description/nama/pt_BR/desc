@@ -1,3 +1,0 @@
-Este programa facilita a configuração de endereços IP estáticos usando nmcli. Com ele, você pode definir facilmente um
-endereço IP, máscara de sub-rede, gateway e DNS para sua conexão de rede. Isso é útil quando você precisa de uma configuração de rede específica, como em um ambiente de servidor ou em uma
-rede com configurações avançadas.

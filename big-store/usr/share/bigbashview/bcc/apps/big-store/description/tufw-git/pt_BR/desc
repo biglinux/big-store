@@ -1,3 +1,0 @@
-Este programa é chamado de TUFW-GIT e é um gerenciador de firewall para o seu computador. Ele é usado pelo terminal, o 
-que significa que você pode controlar suas configurações de firewall usando comandos no seu prompt de comando. Ele é baseado em outro programa chamado UFW, que é um firewall simples para o 
-Ubuntu. Com o TUFW-GIT, você pode facilmente permitir ou negar acesso a determinados programas ou endereços IP no seu computador.

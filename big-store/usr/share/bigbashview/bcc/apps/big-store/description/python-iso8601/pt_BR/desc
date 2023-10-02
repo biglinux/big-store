@@ -1,1 +1,0 @@
-O python-iso8601 é um módulo simples para parsear datas ISO 8601 no Python. Ele pode lidar com todos os formatos válidos de ISO 8601, incluindo data e hora com deslocamento de fuso horário. Ele é compatível com o Python 2 e o Python 3. 

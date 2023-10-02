@@ -1,1 +1,0 @@
-nilfs-utils é um conjunto de ferramentas de usuário para trabalhar com o sistema de arquivos log-estruturado nilfs. Ele permite ao usuário criar e gerenciar snapshots, verificar e reparar integridade de dados, e muito mais. Com nilfs-utils, é possível tirar vantagem de todas as funcionalidades do nilfs, tornando seu sistema de arquivos mais flexível e confiável. 

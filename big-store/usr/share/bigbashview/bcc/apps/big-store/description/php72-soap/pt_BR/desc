@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.2 que permite usar o protocolo SOAP. Ele permite que você envie e receba mensagens SOAP para e de
-um servidor. Isso é útil para se comunicar com outras aplicações usando o protocolo SOAP, como serviços web. É fácil de usar e instalar, basta adicionar o módulo ao seu PHP e configurá-lo
-para usar o SOAP. Ele oferece suporte a diversas funcionalidades como autenticação, cabeçalhos personalizados e outros. 

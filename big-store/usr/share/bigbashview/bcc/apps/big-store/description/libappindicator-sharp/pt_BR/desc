@@ -1,2 +1,0 @@
-Com o libappindicator-sharp, você pode adicionar menus extras para seus aplicativos no Unity, KDE ou na barra de sistema
-(usando bindings Mono GTK+ 2). Isso é útil para adicionar opções extras sem precisar abrir a janela principal do seu programa.

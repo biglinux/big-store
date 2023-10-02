@@ -1,1 +1,0 @@
- O xsensors é uma interface X11 para o lm_sensors - fork do Mystro256. Ele permite verificar a saúde dos componentes de hardware do seu computador, como temperatura, velocidade do ventilador e tensão. Com ele, você pode monitorar esses dados em tempo real e tomar medidas para manter o seu computador funcionando de forma saudável.  

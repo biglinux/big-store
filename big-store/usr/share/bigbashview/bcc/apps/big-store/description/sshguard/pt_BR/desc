@@ -1,1 +1,0 @@
-Esse é um programa chamado sshguard. Ele serve para detectar tentativas de força bruta em serviços de rede, como o SSH, Exim e VSFTPD. Ele bloqueia os endereços IP que estão tentando invadir, usando o iptables. Isso ajuda a manter a sua rede mais segura, impedindo que pessoas mal intencionadas tenham acesso a ela. 

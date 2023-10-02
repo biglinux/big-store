@@ -1,2 +1,0 @@
-O Sozu é um proxy reverso HTTP construído em Rust, o que o torna rápido e seguro. Ele é configurável em tempo de execução,
-permitindo que você altere sua configuração sem precisar reiniciar o programa. Além disso, ele suporta vários backends simultâneos e balanceamento de carga.

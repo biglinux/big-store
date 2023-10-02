@@ -1,5 +1,0 @@
- Essa ferramenta é usada para inverter os bits de um arquivo completo. Isso significa que cada bit 0 será
-trocado por 1 e cada bit 1 será trocado por 0. Isso pode ser útil para criptografia ou para outros tipos de processamento de arquivos.Para usar essa ferramenta, você precisará abrir o
-prompt de comando ou o terminal e navegar até o diretório onde o arquivo que deseja processar está localizado. Em seguida, você pode usar o comando 'binv' seguido do nome do arquivo que
-deseja processar. Por exemplo: 'binv meuarquivo.txt'.Lembre-se de salvar uma cópia do arquivo original antes de usar essa ferramenta, pois ele alterará permanentemente os bits do
-arquivo. 

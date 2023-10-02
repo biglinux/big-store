@@ -1,4 +1,0 @@
-Libcoap é uma biblioteca de código aberto escrita em C, que implementa o protocolo CoAP (Constrained Application
-Protocol). Ele é projetado para dispositivos conectados a Internet das coisas (IoT) e é usado para comunicação entre dispositivos com recursos limitados. Com libcoap, os desenvolvedores
-podem criar aplicativos que se comunicam de forma segura e eficiente usando o protocolo CoAP.Com a libcoap, os desenvolvedores podem criar aplicativos cliente e servidor, bem como gerenciar
-mensagens CoAP, incluindo o envio e o recebimento de solicitações e respostas. Ele também oferece suporte a segurança, como autenticação e criptografia, além de suporte a IPv6.

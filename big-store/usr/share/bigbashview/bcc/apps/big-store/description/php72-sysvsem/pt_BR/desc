@@ -1,4 +1,0 @@
-Este é um módulo para o PHP7.2 que permite o uso de semáforos SysV. Ele é útil para garantir que apenas uma única instância de um 
-script esteja sendo executada ao mesmo tempo, evitando conflitos e erros. Ele é uma ferramenta importante para garantir a integridade dos dados e o desempenho do sistema.Este módulo é fácil
-de usar e pode ser instalado como qualquer outra extensão do PHP. Ele é compatível com diversas plataformas e sistemas operacionais, incluindo Linux e Windows. Além disso, ele fornece uma
-API simples e consistente para interagir com semáforos SysV, tornando-o uma escolha popular entre desenvolvedores.

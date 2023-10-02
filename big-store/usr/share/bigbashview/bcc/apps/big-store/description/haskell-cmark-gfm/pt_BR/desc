@@ -1,1 +1,0 @@
-Este programa é capaz de ler e mostrar de forma correta o GitHub Flavored Markdown. Ele é rápido e preciso, garantindo que o conteúdo será exibido como o esperado. Ele foi desenvolvido em Haskell e usa a biblioteca cmark-gfm. 

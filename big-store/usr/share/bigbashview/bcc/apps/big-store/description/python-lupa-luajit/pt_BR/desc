@@ -1,3 +1,0 @@
-Este programa é uma espécie de 'tradutor' para ajudar a usar o LuaJIT, um programa de computação, com o Python. Ele é chamado de
-'python-lupa-luajit' e ajuda a fazer com que os dois programas possam trabalhar juntos de forma mais fácil e eficiente.Basicamente, ele permite que você escreva códigos no Python e, em
-seguida, use as ferramentas do LuaJIT para ajudar a executá-los. Isso pode ser útil para várias tarefas, como processamento de dados ou gráficos avançados.

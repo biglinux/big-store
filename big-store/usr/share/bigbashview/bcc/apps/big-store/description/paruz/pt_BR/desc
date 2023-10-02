@@ -1,3 +1,0 @@
-Este programa é uma interface de usuário para o terminal que ajuda a gerenciar pacotes no seu sistema operacional.
-Ele usa a biblioteca 'fzf' para facilitar a busca e seleção dos pacotes desejados. Pode ser usado com o gerenciador de pacotes 'paru' ou o 'pacman'. Com ele, você pode facilmente procurar e
-instalar pacotes no seu sistema, além de gerenciar pacotes já instalados, atualizando-os ou desinstalando-os. Tudo isso de forma rápida e fácil, diretamente no seu terminal.

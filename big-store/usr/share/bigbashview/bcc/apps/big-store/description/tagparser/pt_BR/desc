@@ -1,3 +1,0 @@
-Esta é uma biblioteca em C++ que permite ler e escrever tags de arquivos de música, como MP4/M4A/AAC
-(iTunes), ID3, Vorbis, Opus, FLAC e Matroska.Isso significa que você pode adicionar informações como o título da música, o nome do artista e o álbum em seus arquivos de música e também ler 
-essas informações de arquivos de música que já possuem essas tags.

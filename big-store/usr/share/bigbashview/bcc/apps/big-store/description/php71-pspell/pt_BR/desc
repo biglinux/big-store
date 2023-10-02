@@ -1,4 +1,0 @@
-Este é um módulo de ortografia para a versão 7.1 do PHP. Ele permite que o seu programa verifique e corrija a ortografia de
-palavras digitadas pelos usuários. Isso é útil para formulários de contato, campos de busca e outros locais onde as pessoas digitam texto. Ele é fácil de usar e pode ser adicionado
-facilmente ao seu programa existente.O módulo é compatível com vários dicionários, incluindo o dicionário padrão do PHP e dicionários personalizados que você pode criar. Ele também suporta 
-vários idiomas, então você pode usá-lo para corrigir palavras em diferentes línguas.

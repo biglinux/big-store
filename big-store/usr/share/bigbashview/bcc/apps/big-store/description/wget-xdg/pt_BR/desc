@@ -1,3 +1,0 @@
- O wget-xdg é uma ferramenta útil para baixar arquivos da internet. Ele funciona movendo o arquivo
-~/.wget-hsts para a pasta $XDG_CACHE_HOME/wget/hsts. Isso significa que ele armazena informações de sites visitados recentemente em um local específico em vez de no diretório home do
-usuário. Desta forma, é possível ter mais controle sobre esses dados e gerenciá-los com mais facilidade. 

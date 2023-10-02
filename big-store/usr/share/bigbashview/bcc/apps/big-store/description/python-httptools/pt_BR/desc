@@ -1,1 +1,0 @@
-Este programa é um analisador de HTTP escrito em Python. Ele é projetado para ser rápido e eficiente ao lidar com muitas solicitações de uma só vez. Ele usa a biblioteca httptools para tornar a análise de dados mais fácil e precisa. 

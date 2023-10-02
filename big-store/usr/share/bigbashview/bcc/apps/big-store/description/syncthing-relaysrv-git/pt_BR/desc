@@ -1,4 +1,0 @@
-O Syncthing-relaysrv-git é um servidor de relay para o Syncthing. Ele funciona como um intermediário entre dispositivos que 
-usam o Syncthing, permitindo que eles se conectem e sincronizem dados mesmo quando estão em redes diferentes. Isso é útil quando há bloqueios de firewall ou outras restrições de rede que
-impedem a comunicação direta entre dispositivos. O servidor de relay é fácil de configurar e usar, e pode ser executado em qualquer máquina que possa executar o Syncthing. Ele também é
-open-source, o que significa que qualquer pessoa pode contribuir para o seu desenvolvimento e melhoria. 

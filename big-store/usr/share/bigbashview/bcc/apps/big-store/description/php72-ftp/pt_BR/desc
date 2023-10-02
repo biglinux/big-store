@@ -1,3 +1,0 @@
-Este programa é um módulo de FTP para a versão 7.2 do PHP. Ele permite que você faça conexões e transferências de arquivos usando o
-protocolo FTP diretamente no seu código PHP. É uma ferramenta útil para desenvolvedores web que precisam trabalhar com arquivos em servidores remotos.Com esse módulo, é possível fazer
-upload, download e gerenciar arquivos em um servidor FTP usando as funções do PHP. Ele é fácil de usar e é compatível com as últimas versões do PHP. 

@@ -1,1 +1,0 @@
- O RSpec é um framework de teste para a linguagem de programação Ruby. Ele oferece suporte para criação de 'test doubles', como stubbing e mocking. Isso permite que você teste seus programas de maneira mais eficiente e precisa, garantindo que eles estejam funcionando corretamente antes de serem lançados em produção.  

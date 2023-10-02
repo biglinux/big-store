@@ -1,3 +1,0 @@
-Com o python-thefuzz, você pode realizar comparações de strings de maneira eficiente e precisa. Ele permite
-encontrar correspondências semelhantes entre strings, mesmo quando elas possuem pequenas diferenças.Por exemplo, se você quiser encontrar todas as ocorrências de uma palavra em um texto,
-mesmo que ela esteja escrita de maneira diferente, o python-thefuzz é a ferramenta ideal.

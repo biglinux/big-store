@@ -1,4 +1,0 @@
- Este programa é especialmente projetado para gerenciar o tráfego de DNS. Ele é altamente consciente de DNS, DoS e
-abuso, o que significa que ele pode lidar com problemas de tráfego indesejado de forma eficiente. Ele é capaz de equilibrar a carga entre diferentes servidores, garantindo que o tráfego
-seja distribuído de maneira justa e evitando sobrecarga em um único servidor. Além disso, ele também pode detectar e bloquear ameaças de DoS e outros tipos de abuso, garantindo assim a
-segurança e estabilidade do seu sistema de DNS. 

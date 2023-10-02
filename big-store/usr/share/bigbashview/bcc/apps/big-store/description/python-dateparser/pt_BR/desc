@@ -1,3 +1,0 @@
- Este programa é um analisador de datas escrito em Python. Ele é projetado para entender e interpretar as datas escritas de
-forma legível pelos humanos. Isso significa que ele pode ler e entender frases como 'amanhã', 'dentro de uma semana' ou 'em julho' e convertê-las em uma data específica. Isso é útil em
-aplicativos que precisam lidar com entradas de data do usuário e garantir que elas estejam no formato correto. 

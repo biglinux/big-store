@@ -1,3 +1,0 @@
- Este programa permite a integração do PHP 8.2 com o servidor Apache. Isso significa que você pode usar o PHP 8.2 para criar e 
-gerenciar seus sites e aplicativos, enquanto o Apache cuida da exibição e distribuição desses conteúdos para os usuários finais. Essa combinação é muito comum em ambientes de
-desenvolvimento web e é altamente recomendada para quem precisa de desempenho e estabilidade.

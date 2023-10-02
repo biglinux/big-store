@@ -1,1 +1,0 @@
-O pacote haskell-primitive-unlifted fornece tipos GHC primitivos com tipos não elevados internos, o que  permite uma melhor performance em certas operações. Ele é útil para aplicações que requerem alta performance e usam tipos numéricos primitivos, como números inteiros e de ponto flutuante. 

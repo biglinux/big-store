@@ -1,1 +1,0 @@
-Este é um módulo Perl/CPAN chamado POE::Component::Client::Keepalive. Ele serve para manter conexões ativas e garantir que elas não caiam. Ele é útil em situações em que é necessário garantir que uma conexão seja mantida viva para evitar problemas ou perda de dados. 

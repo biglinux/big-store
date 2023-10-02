@@ -1,4 +1,0 @@
-Este programa, chamado python-compreffor, é uma ferramenta que ajuda a otimizar as tabelas CFF (Compact Font Format)
-em fontes usadas pelo software FontTools. Ele é escrito em Python e pode ser usado para melhorar o desempenho das fontes e reduzir seu tamanho.Ele funciona analisando as tabelas CFF e
-identificando quais partes são desnecessárias ou podem ser compactadas de forma mais eficiente. Em seguida, ele as remove ou as compacta para otimizar a fonte. Isso pode ser útil em
-situações onde o tamanho da fonte precisa ser reduzido, como no uso em dispositivos móveis ou na web. 

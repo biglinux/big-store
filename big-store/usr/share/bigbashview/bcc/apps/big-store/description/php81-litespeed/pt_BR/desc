@@ -1,4 +1,0 @@
-Essa extensão é para uso com o PHP 8.1 e permite utilizar o LiteSpeed como SAPI (Software Application Programming
-Interface). Isso significa que o LiteSpeed pode ser usado como uma forma de se comunicar com o PHP, o que pode aumentar a velocidade e eficiência do seu site. Além disso, essa extensão
-também oferece suporte para vários recursos avançados do LiteSpeed, como cache de paginação e gerenciamento de sessão.É importante notar que essa extensão é específica para o PHP 8.1 e não 
-funcionará com versões anteriores do PHP.

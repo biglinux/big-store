@@ -1,1 +1,0 @@
-Sigstore é um conjunto de ferramentas que permite aos usuários verificar a autenticidade de assinaturas digitais. O cliente pode enviar uma solicitação para o servidor, que então verifica se a assinatura está presente em um registro público. Isso garante que apenas assinaturas válidas sejam aceitas e ajuda a prevenir fraudes. 

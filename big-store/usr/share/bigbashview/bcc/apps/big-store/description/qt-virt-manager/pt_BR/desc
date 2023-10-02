@@ -1,2 +1,0 @@
-O Gerenciador de Máquinas Virtuais Qt5 fornece uma ferramenta gráfica para administrar máquinas virtuais para QEMU/KVM, 
-Xen e LXC e outras entidades virtuais. Utiliza libvirt como API de gerenciamento de backend.

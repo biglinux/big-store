@@ -1,1 +1,0 @@
-Este programa é um QuasiQuoter para strings interpoladas multi-linha, com estilo semelhante ao  do Perl6, para uso em projetos Haskell. Ele permite que você coloque variáveis e expressões dentro de strings de maneira fácil e legível. 

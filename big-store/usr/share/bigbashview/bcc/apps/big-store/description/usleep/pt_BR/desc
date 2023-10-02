@@ -1,1 +1,0 @@
-usleep é uma função que permite que seu programa pare de executar por um período de tempo específico em microssegundos.  Isso é útil em aplicativos em que é necessário esperar antes de continuar a processar ou em loops de espera. Ele é usado passando o número de microssegundos desejados como argumento. 

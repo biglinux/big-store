@@ -1,2 +1,0 @@
-Este programa é chamado pingtunnel-git e ele serve para encobrir o tráfego de rede. Ele faz isso convertendo o tráfego
-TCP/UDP/SOCKS5 em tráfego ICMP, o que o torna mais difícil de ser detectado. Ele é útil para encaminhar o tráfego de forma segura e discreta. 

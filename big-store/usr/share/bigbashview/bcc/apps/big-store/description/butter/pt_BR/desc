@@ -1,3 +1,0 @@
-Butter é um gerenciador de instantâneos para o sistema de arquivos Btrfs. Ele permite criar instantâneos do sistema de
-arquivos e restaurá-los facilmente. Isso é útil para fazer backups do seu sistema e recuperar arquivos excluídos acidentalmente. Além disso, também é possível comparar diferenças entre
-instantâneos e navegar facilmente entre eles. 

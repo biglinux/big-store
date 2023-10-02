@@ -1,3 +1,0 @@
-Este é um módulo para interação entre um nó Erlang e o Kamailio, que é um servidor de comunicação para sistemas de telefonia.
-Ele permite que você use o Kamailio em conjunto com aplicativos escritos em Erlang para criar soluções de telefonia avançadas. Ele é especialmente útil para construir sistemas de
-comunicação distribuídos, como gateways de voz.

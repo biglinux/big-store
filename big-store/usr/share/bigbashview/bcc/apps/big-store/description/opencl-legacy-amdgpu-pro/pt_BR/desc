@@ -1,4 +1,0 @@
-Esse programa é um carregador de ICD (Interface de Controlador de Driver) para OpenCL (Open Computing Language) da AMD. Ele é
-considerado um carregador legado, ou seja, não é mais mantido e atualizado pela empresa. Ele é chamado de PAL (Pro Advanced Linux) e é fornecido como um software não livre.OpenCL é uma
-linguagem de computação aberta que permite que desenvolvedores escrevam programas que possam ser executados em vários tipos de dispositivos, como CPUs, GPUs e outros dispositivos de
-processamento paralelo. Esse carregador específico é projetado para ser usado com hardware da AMD.

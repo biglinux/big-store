@@ -1,3 +1,0 @@
-O pyzor é um programa que ajuda a identificar e bloquear spam. Ele funciona criando 'identificadores' dos e-mails de spam e
-armazenando essas informações em um banco de dados compartilhado. Assim, quando alguém recebe um e-mail que é spam, o pyzor pode comparar o identificador desse e-mail com os identificadores
-do banco de dados e determinar se é spam ou não. Dessa forma, ele ajuda a manter sua caixa de entrada limpa de e-mails indesejados.

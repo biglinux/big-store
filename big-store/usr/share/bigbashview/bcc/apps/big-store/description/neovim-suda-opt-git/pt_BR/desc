@@ -1,3 +1,0 @@
-O neovim-suda-opt-git é uma alternativa ao sudo.vim, um plugin para o editor de código neovim. Ele permite que você
-execute comandos como superusuário sem sair do neovim.Com esse plugin, você pode realizar tarefas administrativas com segurança e eficiência dentro do ambiente do neovim. Ele é fácil de
-usar e oferece recursos adicionais para gerenciar seus arquivos e diretórios.

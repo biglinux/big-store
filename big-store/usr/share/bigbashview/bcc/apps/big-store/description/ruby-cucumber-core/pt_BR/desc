@@ -1,1 +1,0 @@
-A biblioteca principal para o aplicativo BDD Cucumber é chamada de ruby-cucumber-core. Ela é escrita em Ruby e fornece as funções básicas para que o aplicativo funcione corretamente. Com ela, é possível escrever cenários de teste de forma clara e fácil de entender, além de garantir que os testes estejam sempre sincronizados com o código do aplicativo. 

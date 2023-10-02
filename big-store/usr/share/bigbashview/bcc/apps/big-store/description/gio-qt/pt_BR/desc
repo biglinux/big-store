@@ -1,1 +1,0 @@
-gio-qt é um wrapper que permite usar o Gio, um sistema de arquivos e gerenciamento de recursos do Gnome, em aplicativos desenvolvidos com a biblioteca Qt. Isso facilita a interação entre esses programas e o sistema operacional, permitindo que eles acessem e gerencie arquivos de maneira mais eficiente e integrada. 

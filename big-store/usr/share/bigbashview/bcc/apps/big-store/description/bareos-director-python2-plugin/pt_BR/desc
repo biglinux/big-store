@@ -1,3 +1,0 @@
- O Bareos é um programa de código aberto para backups, arquivamento e recuperação de dados. Este plugin específico é
-para uso no daemon do diretor, e foi desenvolvido usando a linguagem de programação Python 2. Ele permite que você gerencie e configure seus backups com mais facilidade, usando o Bareos
-como uma ferramenta poderosa e confiável. 

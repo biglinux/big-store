@@ -1,5 +1,0 @@
- O VLC é um popular reprodutor de mídia que pode reproduzir vários tipos de arquivos de mídia, como vídeo e áudio. Com o pacote
-python-vlc, é possível usar o VLC em seus projetos Python. Isso permite que você faça coisas como reproduzir, pausar e controlar o volume de arquivos de mídia usando o Python. Além disso,
-você pode usar o python-vlc para criar aplicativos personalizados que usam o VLC como base.Para começar a usar o python-vlc, você precisará instalá-lo em seu computador. Isso pode ser
-feito facilmente usando o gerenciador de pacotes pip. Depois de instalado, você pode importá-lo em seus projetos Python e começar a usar as funções fornecidas pelo pacote. Há muitos
-exemplos e documentação disponíveis na internet para ajudá-lo a começar.

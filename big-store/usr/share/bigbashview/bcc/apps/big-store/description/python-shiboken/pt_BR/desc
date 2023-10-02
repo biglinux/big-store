@@ -1,3 +1,0 @@
- python-shiboken é uma biblioteca de suporte para criar ligações entre o Python e outras linguagens de programação. Ela é
-usada para ajudar a criar programas que possam usar código Python juntamente com outras linguagens, como C++.Isso permite que os desenvolvedores aproveitem as vantagens do Python, como
-sua facilidade de uso e expressividade, enquanto ainda podem usar outras ferramentas e bibliotecas que só estão disponíveis em outras linguagens. 

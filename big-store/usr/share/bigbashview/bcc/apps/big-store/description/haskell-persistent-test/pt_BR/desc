@@ -1,1 +1,0 @@
-Esta ferramenta é projetada para testar a persistência de dados no programa haskell-persistent. Ela permite verificar se os dados estão sendo armazenados corretamente e se estão sendo recuperados corretamente quando necessário. 

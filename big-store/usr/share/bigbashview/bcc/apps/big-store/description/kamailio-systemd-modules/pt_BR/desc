@@ -1,3 +1,0 @@
-Os módulos do systemd para Kamailio são uma coleção de ferramentas que permitem gerenciar o Kamailio usando o sistema de
-gerenciamento de inicialização do systemd. Isso inclui recursos como inicialização automática, gerenciamento de dependências e gerenciamento de status. Com esses módulos, é possível
-iniciar, parar, recarregar e verificar o status do Kamailio de forma fácil e eficiente, o que torna o gerenciamento do seu servidor de comunicação mais simples e fácil.

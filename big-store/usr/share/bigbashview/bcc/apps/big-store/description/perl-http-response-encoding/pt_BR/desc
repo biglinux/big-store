@@ -1,1 +1,0 @@
-Este programa em Perl adiciona suporte para codificação de resposta HTTP. Isso significa que ele permite que a resposta a uma solicitação HTTP seja codificada de maneira específica, como UTF-8 ou ISO-8859-1. Isso é útil para lidar com caracteres especiais ou idiomas diferentes na resposta. 

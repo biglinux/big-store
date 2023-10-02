@@ -1,4 +1,0 @@
-rshell é um comando remoto para trabalhar com placas MicroPython. Ele permite que você execute comandos e gerencie arquivos
-em sua placa MicroPython de forma remota, sem precisar conectá-la diretamente ao seu computador. Isso facilita muito o desenvolvimento e teste de seus projetos, pois você pode fazer tudo
-isso sem precisar sair do conforto de sua mesa.Além disso, o rshell também oferece recursos avançados, como o acesso ao REPL (Read-Eval-Print Loop) da placa MicroPython, o que permite que
-você teste e depure seu código rapidamente. Ele também suporta a transferência de arquivos, permitindo que você transfira facilmente seus arquivos para a placa MicroPython.

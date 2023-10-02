@@ -1,3 +1,0 @@
-Este programa é a combinação dos padrões de Registro e Fábrica. Ele permite que você registre classes e as use como fábricas para
-criar novos objetos. Isso é útil quando você tem várias classes que precisam ser tratadas de maneira semelhante e não quer ter que escrever código de criação de objetos repetidamente.É
-fácil de usar e pode ajudar a organizar seu código de maneira eficiente.

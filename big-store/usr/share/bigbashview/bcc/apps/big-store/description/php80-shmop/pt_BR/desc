@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite que você use a função shmop. Essa função é usada para compartilhar dados entre
-processos no seu computador. Ele é útil quando você precisa que múltiplos programas trabalhem com a mesma informação ao mesmo tempo. Com o uso desse módulo você pode criar, abrir, fechar,
-ler, escrever e excluir blocos de memória compartilhada. Ele é uma ótima ferramenta para melhorar a performance e a eficiência de seus programas.

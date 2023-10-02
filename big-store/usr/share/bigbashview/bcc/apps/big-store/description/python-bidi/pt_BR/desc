@@ -1,4 +1,0 @@
-Este programa fornece funções relacionadas ao algoritmo BIDI (Bi-Directional) para uso em aplicativos desenvolvidos em Python. O
-algoritmo BIDI é usado para garantir a exibição correta de texto bidirecional, como é o caso de idiomas como hebraico e árabe. Com este programa, é possível garantir que o texto seja
-exibido corretamente em diferentes plataformas e dispositivos.Além disso, o programa também oferece suporte para outras funcionalidades, como reordenamento de caracteres, detecção de
-direção e formatação de parágrafos.

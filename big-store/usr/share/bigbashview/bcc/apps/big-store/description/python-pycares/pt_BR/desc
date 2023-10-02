@@ -1,1 +1,0 @@
-pycares é uma interface Python para c-ares. c-ares é uma biblioteca de resolução de nomes de domínio asincrônica, que permite ao seu aplicativo realizar várias operações de resolução de nomes de domínio ao mesmo tempo, sem bloquear ou interromper a execução do programa principal. pycares fornece uma maneira fácil  de usar a funcionalidade do c-ares em seus aplicativos Python. 

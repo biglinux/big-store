@@ -1,1 +1,0 @@
-Essa é uma ligadura, ou conexão, entre o Python e o QScintilla2. Isso significa que você pode usar o QScintilla2, um editor de código com várias funcionalidades, dentro de seus programas Python. Além disso, essa ligadura específica é para o Qt5, uma biblioteca para desenvolvimento de interface gráfica. 

@@ -1,1 +1,0 @@
-x11-ssh-askpass é um programa leve que permite ao usuário inserir sua senha de forma segura quando solicitado durante a conexão SSH. Ele é especialmente útil em ambientes gráficos, como o X Window System, onde a entrada de senha não é possível através do terminal. 

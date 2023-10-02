@@ -1,2 +1,0 @@
-Esta é uma biblioteca para resolução de problemas de eigenvalue em grande escala, escrita em C++. Ela é 'header-only', o que
-significa que você só precisa incluir os arquivos de cabeçalho na sua própria aplicação para usar as funções da biblioteca.

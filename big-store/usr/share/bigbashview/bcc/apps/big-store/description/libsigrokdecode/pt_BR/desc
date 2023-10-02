@@ -1,1 +1,0 @@
-libsigrokdecode é uma biblioteca C que fornece decodificação de protocolos para analisadores lógicos, osciloscópios e outros dispositivos de teste e medição. Ele suporta uma ampla variedade de protocolos, incluindo I2C, SPI, UART e muito mais. A biblioteca é projetada para ser fácil de usar e integrar em outros softwares e é desenvolvida e mantida ativamente. 

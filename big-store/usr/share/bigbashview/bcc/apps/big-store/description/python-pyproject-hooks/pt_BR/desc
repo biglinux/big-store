@@ -1,1 +1,0 @@
-Este é um programa chamado 'python-pyproject-hooks'. Ele é uma biblioteca de baixo nível, o que significa que ele faz coisas muito específicas e detalhadas. Ele é usado para chamar diferentes 'build-backends' em projetos que usam o arquivo 'pyproject.toml'. Isso é útil para desenvolvedores que estão criando projetos em Python e precisam de ajuda com a configuração. 

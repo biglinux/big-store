@@ -1,1 +1,0 @@
- Esse programa permite alocar recursos de forma dinâmica para o usuário ativo. Isso significa que, ao invés de alocar uma quantidade fixa de recursos para cada usuário, os recursos são distribuídos de acordo com a necessidade do usuário no momento. Dessa forma, os recursos são usados de forma mais eficiente, garantindo uma melhor performance do sistema.  

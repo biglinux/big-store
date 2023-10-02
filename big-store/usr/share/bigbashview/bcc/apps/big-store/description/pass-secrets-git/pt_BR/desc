@@ -1,4 +1,0 @@
-Este programa é um gerenciador de senhas que usa a ferramenta 'pass' como base para armazenar as informações de forma
-segura. Ele é especificamente desenvolvido para ser compatível com o sistema de segredos do Freedesktop, o que significa que ele pode ser usado em várias distribuições Linux e outros
-sistemas operacionais compatíveis.Com este programa, você pode armazenar suas senhas de forma organizada e segura, e acessá-las facilmente quando precisar. Ele também permite criar senhas
-fortes automaticamente, para que você não precise se preocupar com a segurança de suas informações.

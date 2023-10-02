@@ -1,1 +1,0 @@
-systemd-libs são bibliotecas do sistema que fornecem acesso às funcionalidades do systemd, um gerenciador de sistema para Linux. Elas permitem que outros programas se comuniquem e interajam com o systemd, tornando mais fácil gerenciar e controlar o sistema. 

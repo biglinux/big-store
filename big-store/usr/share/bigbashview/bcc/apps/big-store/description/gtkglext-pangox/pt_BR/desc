@@ -1,3 +1,0 @@
-Essas extensões do OpenGL são desenvolvidas especificamente para a biblioteca GTK2. Elas permitem a utilização de recursos
-avançados de renderização de gráficos, como sombras, iluminação e textura, para melhorar a aparência de aplicativos que utilizam essa biblioteca. Além disso, essas extensões também incluem 
-suporte ao Pangox, que é uma biblioteca de renderização de texto que permite a exibição de texto em aplicativos GTK2 com alta qualidade.

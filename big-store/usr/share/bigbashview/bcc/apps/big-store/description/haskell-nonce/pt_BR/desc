@@ -1,1 +1,0 @@
-Este programa em Haskell é projetado para gerar números aleatórios criptográficos chamados de nonces. Estes nonces são usados para garantir a segurança em operações criptográficas, como assinaturas digitais e criptografia de mensagens. 

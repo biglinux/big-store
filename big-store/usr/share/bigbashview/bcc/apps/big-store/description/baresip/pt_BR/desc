@@ -1,1 +1,0 @@
-baresip é um User-Agent SIP portátil e modular com suporte a áudio e vídeo. Ele é escrito em C puro e projetado para ser fácil de usar, incorporar e estender. Pode ser usado como uma interface de linha de comando ou como uma biblioteca incorporada em outros aplicativos. É compatível com uma ampla gama de plataformas e possui dependências mínimas. 

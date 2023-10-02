@@ -1,3 +1,0 @@
- O spandsp-fs é uma biblioteca DSP (Digital Signal Processing) específica para uso em telefonia. Ela é uma versão da biblioteca 
-spandsp para ser utilizada com o sistema FreeSWITCH. Com ela, é possível realizar diversas operações de processamento de sinais, como por exemplo, detecção de silêncio, eco e ruído, além de
-codificação e decodificação de áudio em diversos formatos. 

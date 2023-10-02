@@ -1,3 +1,0 @@
-Com o GitLab CI Local, você pode rodar pipelines do GitLab em sua própria máquina. Isso é útil quando você quer testar
-suas configurações antes de enviá-las para o GitLab. Você pode escolher entre dois tipos de executor: shell ou docker. Com o executor shell, você pode rodar seus pipelines diretamente no
-seu terminal. Já com o executor docker, você pode rodar seus pipelines em um container isolado, o que pode ser útil para testar aplicações que dependem de ambientes específicos. 

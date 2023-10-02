@@ -1,4 +1,0 @@
-Este é um módulo adicional chamado opcache para a versão 74 do PHP. Ele ajuda a aumentar a velocidade do seu site ou aplicação PHP,
-tornando as páginas carregarem mais rapidamente para os usuários. Ele faz isso armazenando em cache cópias dos scripts PHP, para que eles não precisem ser carregados e processados toda vez 
-que uma página é solicitada.Usar o opcache pode melhorar significativamente o desempenho do seu site, especialmente se você tem muitos usuários acessando ao mesmo tempo. Ele é fácil de
-instalar e configurar, e pode ser usado com outras ferramentas de otimização para aumentar ainda mais a velocidade do seu site.

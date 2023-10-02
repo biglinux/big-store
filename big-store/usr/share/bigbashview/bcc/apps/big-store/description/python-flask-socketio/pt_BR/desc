@@ -1,1 +1,0 @@
-Esse programa permite integrar o Socket.IO, um framework para comunicação em tempo real, com aplicações feitas usando o Flask, um microframework para construir aplicações web com Python.Isso torna possível criar aplicações web que possam se comunicar em tempo real com os clientes, sem precisar recarregar a página. 

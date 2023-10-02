@@ -1,4 +1,0 @@
-Este programa é um plugin de cobertura para o Pytest, um framework de testes para a linguagem de programação
-Python. Ele ajuda a medir a quantidade de código que foi testada durante a execução dos testes, fornecendo informações valiosas para a equipe de desenvolvimento sobre a qualidade do código 
-e a eficiência dos testes.Com esse plugin, é possível verificar quais partes do código foram testadas e quais ainda precisam de mais atenção, ajudando a equipe a tomar decisões informadas
-sobre como melhorar o código e os testes.

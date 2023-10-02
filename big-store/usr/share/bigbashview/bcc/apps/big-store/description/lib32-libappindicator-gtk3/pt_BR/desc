@@ -1,1 +1,0 @@
-Este programa, chamado lib32-libappindicator-gtk3, permite que outros aplicativos adicionem itens a menus especiais, chamados Ayatana Indicators, nos ambientes de trabalho Unity, KDE ou Systray. Isso é feito através da biblioteca GTK+ 3. 

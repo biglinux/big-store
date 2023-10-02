@@ -1,3 +1,0 @@
-Esse programa é uma biblioteca em Python que permite controlar os pinos de entrada e saída do Raspberry Pi,
-chamados de GPIO (General Purpose Input/Output). Ele oferece uma maneira fácil e simples de interagir com os componentes eletrônicos conectados ao Raspberry Pi.Com esse programa, você pode 
-criar projetos como acender e apagar luzes, controlar motores, ler sensores e muito mais. Tudo isso de forma simples e direta, sem precisar escrever muito código.

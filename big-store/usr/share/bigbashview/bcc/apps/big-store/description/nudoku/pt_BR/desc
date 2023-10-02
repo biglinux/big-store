@@ -1,3 +1,0 @@
-Este é um jogo de Sudoku que pode ser jogado no terminal. Ele usa a biblioteca ncurses para fornecer uma interface amigável para
-o usuário.O objetivo do jogo é preencher uma grade 9x9 com números de 1 a 9, de forma que cada coluna, cada linha e cada caixa de 3x3 contenha todos os números de 1 a 9 sem repetição.É um
-jogo divertido e desafiador que pode ser jogado tanto por crianças quanto por adultos.

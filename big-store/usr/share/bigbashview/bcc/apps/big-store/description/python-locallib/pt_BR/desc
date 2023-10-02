@@ -1,3 +1,0 @@
- Este programa garante que a pasta /usr/local/lib/pythonX esteja incluída na lista de bibliotecas do Python, conhecida
-como sys.path. Isso é útil quando você quer adicionar suas próprias bibliotecas personalizadas ou baixadas de fontes externas e usá-las em seus projetos Python. Com esse programa, você pode
-facilmente garantir que suas bibliotecas estejam disponíveis para seus projetos sem precisar configurar manualmente o sys.path toda vez que iniciar um novo projeto. 

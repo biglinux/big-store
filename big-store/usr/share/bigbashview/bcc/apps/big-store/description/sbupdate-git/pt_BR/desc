@@ -1,2 +1,0 @@
-Este programa foi desenvolvido para gerar e assinar imagens do kernel para o UEFI Secure Boot. Isso garante que apenas
-imagens de kernel confiáveis e verificadas sejam usadas em seu sistema, aumentando a segurança do mesmo.

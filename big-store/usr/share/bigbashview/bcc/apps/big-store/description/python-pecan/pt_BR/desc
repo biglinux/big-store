@@ -1,1 +1,0 @@
-Um framework web que usa WSGI para despachar objetos, projetado para ser simples e rápido com poucas dependências.  Ele é escrito em Python e se chama python-pecan. 

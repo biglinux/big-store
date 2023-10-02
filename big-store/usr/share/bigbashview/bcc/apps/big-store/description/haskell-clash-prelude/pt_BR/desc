@@ -1,1 +1,0 @@
-Clash é uma linguagem de descrição de hardware funcional escrita em Haskell. Ela permite que você descreva sistemas digitais em um estilo de programação de alto nível, o que facilita a verificação, a simulação e a síntese do seu projeto. A biblioteca Prelude fornece tipos e funções úteis para se trabalhar com Clash. 

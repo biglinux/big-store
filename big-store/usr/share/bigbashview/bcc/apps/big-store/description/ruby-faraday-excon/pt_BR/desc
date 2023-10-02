@@ -1,1 +1,0 @@
-Este é um adaptador para o Faraday, uma biblioteca de Ruby, que permite usar o Excon como a implementação de transporte. O Excon é uma biblioteca de Ruby que fornece uma interface simples para realizar requisições HTTP. Com o adaptador Faraday-Excon, você pode usar o Faraday para gerenciar suas requisições HTTP e o Excon para realizá-las efetivamente. 

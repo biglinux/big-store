@@ -1,1 +1,0 @@
-Este programa é chamado de vim-ale e é um motor de verificação de código que funciona de forma assíncrona. Ele também tem suporte ao protocolo Language Server, o que significa que ele pode se comunicar com outros programas para ajudar na escrita e verificação do código. 

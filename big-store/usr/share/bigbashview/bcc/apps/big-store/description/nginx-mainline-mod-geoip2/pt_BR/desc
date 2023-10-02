@@ -1,4 +1,0 @@
-Este é um módulo para o nginx que permite identificar a localização geográfica dos usuários baseado em seus endereços IP. Ele usa a 
-base de dados GeoIP2, que é mantida pela MaxMind e é atualizada regularmente. Com este módulo, você pode fazer coisas como redirecionar usuários para conteúdo específico de acordo com sua
-localização, bloquear acesso a certos conteúdos, entre outras coisas.Este módulo é específico para a versão 'mainline' do nginx, que é a versão oficial e atualizada regularmente. Ele não é 
-compatível com outras versões do nginx, como a 'stable' ou a 'legacy'.

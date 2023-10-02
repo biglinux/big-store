@@ -1,1 +1,0 @@
-Este programa é escrito em Perl e tem como objetivo verificar se o código não possui referências circulares. Isso é importante pois referências circulares podem causar problemas de memória e de desempenho no código. O nome do programa é perl-test-memory-cycle. 

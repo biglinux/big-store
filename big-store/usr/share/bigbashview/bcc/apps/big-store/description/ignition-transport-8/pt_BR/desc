@@ -1,2 +1,0 @@
-A biblioteca de transporte combina o ZeroMQ com Protobufs para criar um sistema de passagem de mensagem rápido e eficiente.
-É fornecida a publicação e assinatura assíncrona de mensagens, bem como chamadas de serviço e descoberta. 

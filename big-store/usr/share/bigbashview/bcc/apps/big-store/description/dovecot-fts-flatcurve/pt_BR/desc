@@ -1,4 +1,0 @@
-Este é um plugin para o Dovecot, um gerenciador de email, que permite uma busca mais rápida e eficiente 
-de mensagens de email. Ele se chama Dovecot-FTS-Flatcurve e usa a tecnologia Xapian para indexar e pesquisar as mensagens. Com ele, você pode encontrar rapidamente o email que procura sem
-precisar percorrer todas as suas caixas de entrada e saída.O Dovecot-FTS-Flatcurve é fácil de instalar e usar, e pode ser uma excelente opção para quem precisa de uma busca mais eficiente
-de mensagens de email no Dovecot.

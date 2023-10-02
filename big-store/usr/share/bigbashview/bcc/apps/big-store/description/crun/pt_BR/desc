@@ -1,1 +1,0 @@
-'crun' é uma ferramenta rápida e leve para a execução de containers. Ele é totalmente equipado com recursos para gerenciar sua aplicação dentro do container. Ele fornece uma biblioteca C para desenvolvimento de aplicações e é compatível com a especificação OCI. Com 'crun', é possível executar aplicações isoladas e seguras em qualquer sistema.  

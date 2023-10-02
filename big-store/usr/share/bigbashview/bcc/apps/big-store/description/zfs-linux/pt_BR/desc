@@ -1,4 +1,0 @@
- O ZFS é um sistema de arquivos avançado para gerenciar seus arquivos. Ele é capaz de detectar e corrigir erros de forma
-automática, além de fornecer recursos avançados de snapshots e compressão. Com o zfs-linux, você pode usar esses recursos no seu sistema Linux.Os módulos do kernel incluídos permitem que 
-você crie e gerencie pools de armazenamento ZFS, além de gerenciar arquivos e pastas.Se você precisa de um gerenciamento de arquivos avançado e confiável no Linux, o zfs-linux é uma
-excelente opção.

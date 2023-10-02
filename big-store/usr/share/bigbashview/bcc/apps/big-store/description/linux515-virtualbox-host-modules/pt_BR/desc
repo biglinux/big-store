@@ -1,1 +1,0 @@
-Os módulos do kernel para o Virtualbox são necessários para usar o Virtualbox no Manjaro. Esses módulos permitem que o Virtualbox acesse o kernel do sistema operacional para gerenciar as máquinas virtuais. O pacote linux515-virtualbox-host-modules é específico para o kernel linux515 do Manjaro. 

@@ -1,1 +1,0 @@
-O 'du' é um comando usado para verificar o tamanho de um diretório ou arquivo em sistemas operacionais Linux e Unix. A  versão em Rust é uma reescrita desse comando, com uma interface mais fácil de usar e entender para os usuários. Com ela, será possível verificar o tamanho de arquivos e diretórios de maneira mais rápida e precisa. 

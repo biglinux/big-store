@@ -1,3 +1,0 @@
-Este programa é um cliente Modbus TCP que armazena seus dados (registradores) em memória compartilhada. Ele é
-útil para sistemas de automação industrial que precisam compartilhar informações entre diferentes dispositivos ou processos.A vantagem de usar a memória compartilhada é que os dados ficam
-disponíveis para leitura e escrita de forma rápida e eficiente, sem precisar passar por processos de comunicação adicionais.

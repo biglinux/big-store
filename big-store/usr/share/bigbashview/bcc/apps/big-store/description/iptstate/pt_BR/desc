@@ -1,1 +1,0 @@
-iptstate é um programa que fornece uma interface semelhante ao top para a tabela de rastreamento de conexão do netfilter. Ele mostra informações sobre as conexões atuais e recentes em sua máquina, incluindo protocolos, endereços IP e estados de conexão. Ele é útil para verificar se há conexões suspeitas ou para monitorar o tráfego de rede em sua máquina. 

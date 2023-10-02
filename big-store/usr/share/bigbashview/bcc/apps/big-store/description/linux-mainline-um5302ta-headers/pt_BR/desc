@@ -1,3 +1,0 @@
-Este programa fornece headers e scripts para a construção de módulos para o kernel Linux. Esses headers são específicos para a versão
-'linux-mainline-um5302ta'. Eles permitem que outros programadores criem seus próprios módulos para serem usados no kernel Linux, expandindo suas funcionalidades. Se você é um desenvolvedor 
-de software e deseja criar novos recursos para o Linux, este programa é essencial para você.

@@ -1,3 +1,0 @@
- O LiteSpeed SAPI é uma forma de executar scripts PHP usando o servidor web LiteSpeed. Ele é compatível com a versão 8.0 do PHP. Isso 
-significa que se você estiver usando essa versão do PHP, pode usar o LiteSpeed SAPI para rodar seus scripts. Ele oferece desempenho e segurança melhorados em comparação com outras opções de
-SAPI. 

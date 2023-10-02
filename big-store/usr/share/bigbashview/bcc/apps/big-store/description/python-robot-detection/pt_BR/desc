@@ -1,1 +1,0 @@
-Este programa permite detectar crawlers de sites usando o HTTP User Agent. Ele foi escrito em Python e pode ser facilmente integrado ao seu projeto para garantir a segurança e privacidade de seus dados.Com ele, é possível identificar acessos automatizados e tomar medidas para evitar possíveis problemas, como o uso indevido de informações ou sobrecarga no seu sistema. 

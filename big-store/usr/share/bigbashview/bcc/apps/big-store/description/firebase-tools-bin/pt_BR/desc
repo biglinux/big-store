@@ -1,4 +1,0 @@
-As Ferramentas de linha de comando Firebase (empacotadas binárias oficiais standalone) são um conjunto de
-ferramentas que permitem gerenciar seus projetos do Firebase diretamente pelo terminal. Com elas, você pode fazer tarefas como criar novos projetos, adicionar autenticação e regras de banco
-de dados, e fazer deploy de aplicativos. Essas ferramentas são especialmente úteis se você estiver trabalhando em um projeto de equipe, pois permitem que você gerencie e faça deploy de
-forma automatizada. Além disso, essas ferramentas também são úteis para desenvolvedores individuais que desejam automatizar algumas tarefas de gerenciamento de projeto.

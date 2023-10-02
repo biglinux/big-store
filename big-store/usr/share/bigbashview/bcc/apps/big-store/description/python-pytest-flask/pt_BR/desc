@@ -1,4 +1,0 @@
-Este programa é uma conjunto de ferramentas chamado pytest fixtures que ajuda a testar aplicativos Flask. Ele
-permite criar testes de forma fácil e rápida para garantir que o seu aplicativo esteja funcionando corretamente. Com ele, você pode testar tanto a parte visual quanto a parte de
-funcionamento do seu aplicativo.Além disso, ele é escrito em Python, o que torna ainda mais fácil de usar e entender para aqueles que já possuem conhecimento nesta linguagem de
-programação.

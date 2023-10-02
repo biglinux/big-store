@@ -1,3 +1,0 @@
-As ferramentas de usuário TOMOYO Linux são projetadas para funcionar com o kernel Linux 5.1 e versões posteriores. Elas
-permitem que os administradores de sistemas configurem e gerenciem as políticas de segurança do TOMOYO Linux. Estas ferramentas são úteis para garantir que apenas os aplicativos e programas
-autorizados possam executar ações específicas no sistema, protegendo-o contra ameaças de segurança.

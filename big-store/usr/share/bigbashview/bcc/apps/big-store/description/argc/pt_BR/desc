@@ -1,4 +1,0 @@
-Com esse programa, você pode facilmente parsear argumentos de linha de comando (CLI) em bash. Isso
-significa que você pode definir opções e parâmetros específicos para o seu script, e essas opções serão facilmente lidas e interpretadas pelo programa. Isso é útil quando você quer que o
-seu script se comporte de maneira diferente com base em como é chamado.Por exemplo, você pode criar um script que faz backup de arquivos, e adicionar uma opção para escolher qual tipo de
-arquivo será feito backup. Isso é feito usando argumentos de linha de comando, e esse programa torna isso fácil de fazer.

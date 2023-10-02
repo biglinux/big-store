@@ -1,5 +1,0 @@
- swayidle-git é um daemon, ou seja, um programa que fica rodando em segundo plano, que ajuda a gerenciar o tempo de
-ociosidade do seu computador. Ele foi desenvolvido especificamente para o ambiente gráfico Wayland, que é usado em algumas distribuições Linux.Ele é capaz de detectar quando você não está
-usando o computador e realizar ações específicas, como desligar a tela, desativar o touchpad ou entrar em modo de economia de energia. Isso ajuda a prolongar a vida útil da bateria e evitar
-desperdício de energia.Além disso, swayidle-git é personalizável, então você pode configurá-lo para executar as ações que desejar quando o computador estiver ocioso. Ele é fácil de usar e
-pode ser instalado em poucos minutos. 

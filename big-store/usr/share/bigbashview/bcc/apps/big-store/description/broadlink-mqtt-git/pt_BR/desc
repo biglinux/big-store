@@ -1,3 +1,0 @@
-Este programa permite controlar dispositivos Broadlink usando o protocolo MQTT. Ele funciona como um cliente
-MQTT, enviando e recebendo mensagens para controlar seus dispositivos conectados.Ele é baseado em um repositório do GitHub chamado 'broadlink-mqtt-git' e pode ser facilmente instalado e
-configurado para trabalhar com seus dispositivos Broadlink.

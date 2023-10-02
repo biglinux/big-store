@@ -1,1 +1,0 @@
-Este programa é um verificador de código em rust que roda em segundo plano. Ele funciona verificando o código  enquanto você o escreve, e avisa se encontra algum erro ou problema. Isso ajuda a evitar erros e bugs no código final. Ele é especialmente útil para desenvolvedores que estão começando a trabalhar com rust. 

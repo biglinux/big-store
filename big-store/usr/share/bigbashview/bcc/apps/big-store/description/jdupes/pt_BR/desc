@@ -1,5 +1,0 @@
-O jdupes é um programa que ajuda a identificar arquivos duplicados dentro de pastas específicas. Ele funciona escaneando as
-pastas selecionadas e comparando os arquivos entre si para encontrar os que são iguais. Isso é útil para limpar sua pasta de downloads ou outras pastas que possam acumular arquivos
-desnecessários. Além de encontrar arquivos duplicados, o jdupes também permite excluir os arquivos automaticamente, o que pode ser útil para economizar espaço em disco. Ele também tem
-recursos avançados, como a capacidade de comparar arquivos usando diferentes algoritmos de hash para garantir precisão. O jdupes é uma ferramenta útil para manter sua pasta limpa e
-organizada, sem gastar muito tempo manualmente procurando por arquivos duplicados.

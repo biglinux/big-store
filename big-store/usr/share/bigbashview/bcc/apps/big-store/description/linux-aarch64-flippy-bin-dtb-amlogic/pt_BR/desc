@@ -1,3 +1,0 @@
-Os arquivos DTB são usados para ajudar o sistema operacional a se comunicar com o hardware do dispositivo. Este conjunto de
-arquivos é específico para os SoCs Amlogic e é compatível com o kernel AArch64 do flippy.Eles permitem que o sistema operacional reconheça e use o hardware de forma adequada, sem esses
-arquivos o dispositivo não funcionaria corretamente.

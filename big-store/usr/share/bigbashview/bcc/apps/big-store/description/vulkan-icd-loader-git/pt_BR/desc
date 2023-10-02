@@ -1,3 +1,0 @@
-O carregador de ICD (Vulkan Installable Client Driver) é uma ferramenta importante para o funcionamento de jogos e
-aplicativos que usam a biblioteca gráfica Vulkan. Ele permite que o sistema carregue e utilize os drivers de GPU corretos para executar esses programas. Esta versão é uma versão em
-desenvolvimento, obtida diretamente do repositório git.

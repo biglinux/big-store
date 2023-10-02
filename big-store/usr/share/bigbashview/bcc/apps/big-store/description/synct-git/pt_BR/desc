@@ -1,2 +1,0 @@
-Este programa é um cliente para a API REST do Syncthing, ele é escrito em shell POSIX e tem algumas
-particularidades pessoais. Ele ajuda a sincronizar arquivos entre dispositivos de forma fácil e rápida.

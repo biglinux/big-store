@@ -1,1 +1,0 @@
-O pacote haskell-silently oferece uma maneira de evitar ou capturar escritas em stdout e outros handles. Isso é útil em casos em que você deseja silenciar saídas indesejadas de um programa ou capturar sua saída para processamento posterior.Este pacote é especialmente útil para testes  automatizados, onde você deseja garantir que uma saída específica é gerada pelo seu código. 

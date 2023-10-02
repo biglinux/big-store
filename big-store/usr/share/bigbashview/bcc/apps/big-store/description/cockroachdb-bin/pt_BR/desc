@@ -1,4 +1,0 @@
-O CockroachDB é um banco de dados de código aberto que foi projetado para escalar e se manter
-consistente. Ele usa uma arquitetura de cluster para permitir que múltiplas cópias dos dados sejam mantidas em diferentes locais, o que ajuda a garantir a disponibilidade e a tolerância a
-falhas. Além disso, ele suporta a linguagem SQL, o que facilita a integração com aplicativos existentes. O CockroachDB é uma opção robusta para aplicações que precisam escalar e se manter
-consistentes. 

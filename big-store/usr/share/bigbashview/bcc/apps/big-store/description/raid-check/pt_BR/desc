@@ -1,2 +1,0 @@
-Este programa é uma ferramenta automatizada para verificar seus discos RAID. Ele inclui um script, configurações e um
-agendamento para varrer os dados e garantir a integridade dos dados em seus discos. Ele é projetado para ser usado com o utilitário mdadm.

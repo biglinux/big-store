@@ -1,3 +1,0 @@
-Este programa é um gerenciador de janelas que possui uma característica útil chamada de engolir. Isso significa
-que ele pode incorporar terminais dentro de suas janelas, permitindo que você trabalhe com múltiplas ferramentas ao mesmo tempo sem precisar alternar entre várias janelas. Ele é
-independente do gerenciador de janelas que você usa, então você pode usá-lo com qualquer um que você goste.

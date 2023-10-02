@@ -1,1 +1,0 @@
-Este repositório contém implementações concretas e abstrações de contêineres mutáveis em Haskell. Esses contêineres permitem  que os dados armazenados sejam modificados, diferentemente dos contêineres imutáveis padrão do Haskell. 

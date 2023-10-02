@@ -1,1 +1,0 @@
-xcb-imdkit é um kit de desenvolvimento que ajuda a criar métodos de entrada para o protocolo xcb. O  xcb é um protocolo para comunicação entre programas e servidores gráficos, e o xcb-imdkit fornece ferramentas e bibliotecas para tornar mais fácil criar métodos de entrada personalizados para trabalhar com ele.  

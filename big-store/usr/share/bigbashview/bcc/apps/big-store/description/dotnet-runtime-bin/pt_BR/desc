@@ -1,3 +1,0 @@
-O .NET Core é uma plataforma de desenvolvimento de aplicativos que permite a criação de programas para diferentes sistemas
-operacionais, como Windows, macOS e Linux. O pacote dotnet-runtime-bin contém a versão binária da runtime do .NET Core, que é a parte responsável por executar o código do aplicativo.Com
-esse pacote instalado, você pode rodar aplicativos desenvolvidos com o .NET Core em seu computador, sem precisar instalar o ambiente de desenvolvimento completo.

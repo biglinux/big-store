@@ -1,4 +1,0 @@
-Este programa é um plugin para o Cargo, que é uma ferramenta de gerenciamento de pacotes para linguagem de programação
-Rust. Ele ajuda você a descobrir quais licenças estão sendo usadas em um pacote específico.Com esse plugin, você pode gerar uma lista de todas as licenças que estão sendo usadas em um
-pacote chamado Crate. Isso é útil se você deseja saber mais sobre as licenças que estão sendo usadas em um projeto, ou se você deseja se certificar de que está cumprindo as regras de
-licenciamento. 

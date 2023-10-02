@@ -1,1 +1,0 @@
-O programa pigz é uma implementação paralela do popular compactador de arquivos gzip, o que significa  que ele pode usar mais de um processador ou núcleo para compactar ou descompactar arquivos maiores mais rapidamente. 

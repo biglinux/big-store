@@ -1,4 +1,0 @@
-Esse programa é um conjunto de ferramentas para montar e manipular arquivos binários e de objeto para a arquitetura
-MIPS ELF (bare-metal). Ele inclui utilitários como o 'as' para montagem de código, 'ld' para linkagem de código e 'objdump' para exibição de informações sobre arquivos de objeto.Essas
-ferramentas são úteis para desenvolvedores de sistemas embarcados, especialmente aqueles trabalhando com a arquitetura MIPS. Elas permitem criar código executável e manipular arquivos de
-objeto de forma eficiente.

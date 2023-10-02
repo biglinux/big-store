@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 7.3 que adiciona suporte para semáforos baseados em sistema (sysvsem). Isso permite que vários
-processos acessem e alterem recursos compartilhados de forma segura, evitando conflitos de acesso. Ele é útil em situações onde várias pessoas precisam acessar o mesmo recurso ao mesmo
-tempo, como em um banco de dados ou em uma página web com muitos usuários. Este módulo é essencial para qualquer aplicação que precise de múltiplos acessos simultâneos e precisa ser
-gerenciado com segurança. Ele é fácil de usar e é compatível com a maioria das versões do PHP 7.3.

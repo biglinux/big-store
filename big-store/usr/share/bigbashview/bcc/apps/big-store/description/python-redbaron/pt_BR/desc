@@ -1,1 +1,0 @@
-A biblioteca python-redbaron é uma camada de abstração sobre o baron, um FST (Finite State Transducer) para Python, que torna a escrita de código de refatoração uma tarefa viável. Essa ferramenta permite a manipulação de código Python de forma eficiente e fácil, facilitando a refatoração e otimização do seu código. 

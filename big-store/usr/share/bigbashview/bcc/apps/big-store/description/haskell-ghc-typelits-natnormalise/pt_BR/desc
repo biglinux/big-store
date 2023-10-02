@@ -1,1 +1,0 @@
-Esse é um plugin para o verificador de tipos no GHC, especificamente para tipos do tipo GHC.TypeLits.Nat. Ele ajuda a normalizar esses tipos em seu código Haskell. 

@@ -1,1 +1,0 @@
-Este é um debugger desenvolvido para ser utilizado no alvo RISCV64 (bare-metal). Ele é parte do projeto GNU e é chamado de riscv64-elf-gdb. 

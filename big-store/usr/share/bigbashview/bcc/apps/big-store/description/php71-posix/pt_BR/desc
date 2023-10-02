@@ -1,4 +1,0 @@
-Este programa é um módulo para a versão 7.1 do PHP que adiciona suporte às funções POSIX. Isso permite que o PHP acesse recursos do
-sistema operacional como arquivos, processos e usuários, entre outros. Com este módulo, os desenvolvedores podem criar aplicações mais avançadas e integradas com o sistema
-operacional.Algumas das funcionalidades incluem acesso a informações de usuários e grupos, manipulação de processos e execução de comandos no terminal. Ele é uma ferramenta útil para
-desenvolvedores que precisam criar aplicações que interagem com o sistema operacional.

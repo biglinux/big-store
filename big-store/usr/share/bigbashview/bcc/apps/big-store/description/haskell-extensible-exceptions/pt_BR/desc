@@ -1,1 +1,0 @@
-Este programa fornece exceções extensíveis para ambas as versões antigas e novas do compilador GHC,  o compilador de Haskell. Isso permite que os desenvolvedores lidem com exceções de forma mais flexível e eficiente em seus projetos em Haskell. 

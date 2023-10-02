@@ -1,1 +1,0 @@
- Esse programa é uma biblioteca para gerenciar pacotes no sistema utilizando a tecnologia Qt5. Ele permite a integração com o sistema de gerenciamento de pacotes PackageKit, tornando mais fácil e intuitivo instalar, atualizar e remover pacotes no sistema.  

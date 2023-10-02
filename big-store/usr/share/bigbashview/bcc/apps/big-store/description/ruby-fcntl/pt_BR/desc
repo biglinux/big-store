@@ -1,1 +1,0 @@
-Este programa é usado para carregar as constantes definidas no arquivo de cabeçalho C fcntl.h do sistema operacional. Ele é escrito em Ruby e é uma maneira fácil de acessar essas constantes em seu código Ruby. 

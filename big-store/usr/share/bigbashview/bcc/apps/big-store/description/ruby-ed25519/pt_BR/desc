@@ -1,1 +1,0 @@
-Esta é uma biblioteca escrita em Ruby que permite a utilização da curva elíptica Ed25519 para assinatura de chaves públicas. Ela segue as especificações descritas no RFC 8032. 

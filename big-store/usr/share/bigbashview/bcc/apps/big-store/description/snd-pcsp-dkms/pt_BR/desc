@@ -1,2 +1,0 @@
-Este é um driver para o alto-falante do seu computador. Ele permite que o alto-falante funcione como uma placa de som simples.
-Ele é instalado usando o DKMS, ou Sistema de Gerenciamento de Módulos do Kernel. Isso significa que ele será atualizado automaticamente quando você atualizar seu sistema operacional.

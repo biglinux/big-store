@@ -1,4 +1,0 @@
-Migraphx é o motor de otimização de gráficos da AMD. Ele é projetado para ajudar a acelerar o desempenho dos aplicativos de
-inteligência artificial e aprendizado de máquina, tornando-os mais rápidos e eficientes. Ele é compatível com várias arquiteturas de processadores, incluindo CPUs e GPUs, e é compatível com
-vários frameworks de aprendizado de máquina populares, como TensorFlow e PyTorch. O uso do Migraphx pode ajudar a melhorar significativamente o desempenho dos seus aplicativos de IA e
-aprendizado de máquina.

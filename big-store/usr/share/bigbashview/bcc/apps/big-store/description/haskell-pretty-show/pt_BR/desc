@@ -1,1 +1,0 @@
-O pacote 'haskell-pretty-show' fornece ferramentas úteis para trabalhar com instâncias de 'Show' derivadas e realizar inspeções genéricas de valores. Ele permite formatar saídas de maneira mais legível e fácil de entender para programadores que trabalham com o Haskell. 

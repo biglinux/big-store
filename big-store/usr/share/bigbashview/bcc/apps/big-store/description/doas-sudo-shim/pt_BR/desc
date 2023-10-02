@@ -1,2 +1,0 @@
-Este programa é uma 'shim' para o comando sudo. Ele permite que você utilize o comando doas em vez de sudo. Isso
-pode ser útil em algumas situações específicas, como em sistemas operacionais baseados em BSD.

@@ -1,3 +1,0 @@
-Este é um sistema de arquivos baseado em FUSE que usa o armazenamento na nuvem da Mail.ru como suporte. Ele permite
-que você acesse seus arquivos na nuvem como se estivessem salvos em seu próprio computador.Com esse programa, você pode fazer upload, download, criar e editar arquivos sem sair do seu
-sistema de arquivos local. Além disso, você pode compartilhar arquivos com outras pessoas sem precisar enviá-los por e-mail ou usar outros serviços de compartilhamento.

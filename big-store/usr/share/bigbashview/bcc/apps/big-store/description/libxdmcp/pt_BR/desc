@@ -1,1 +1,0 @@
-A biblioteca libxdmcp implementa o protocolo de gerenciamento de exibição X11 (XDMCP). Este protocolo permite o gerenciamento remoto de exibições X11, incluindo a capacidade de iniciar e encerrar sessões X, além de consultar o status de exibições. Essa biblioteca pode ser usada para construir gerenciadores de exibição habilitados para XDMCP ou clientes que interagem com eles. 

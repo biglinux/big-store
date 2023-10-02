@@ -1,3 +1,0 @@
-O pam_usb é um programa que permite a autenticação de hardware no sistema operacional Linux utilizando
-mídias flash comuns, como pendrives e cartões. Ele adiciona uma camada extra de segurança ao sistema, pois exige que o usuário tenha acesso físico ao dispositivo de armazenamento para poder
-logar no sistema. Além disso, ele é fácil de configurar e usar, tornando-se uma ótima opção para quem deseja aumentar a segurança do seu computador.

@@ -1,1 +1,0 @@
-Este programa oferece suporte para as funções wcwidth e wcswidth, definidas nos padrões POSIX.1-2001 e POSIX.1-2008. Ele permite que você obtenha informações sobre a largura de caracteres em python, o que pode ser útil em muitas aplicações diferentes, como por exemplo, desenhar tabelas e formatar textos. 

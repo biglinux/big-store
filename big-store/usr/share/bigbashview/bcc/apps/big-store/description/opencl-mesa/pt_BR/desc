@@ -1,1 +1,0 @@
-Este programa adiciona suporte a OpenCL usando as bibliotecas Clover e Rusticl para os drivers Mesa. Isso permite que você use aplicativos e jogos que precisam de OpenCL para funcionar corretamente. Além disso, isso também pode melhorar o desempenho em algumas tarefas. 

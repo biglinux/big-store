@@ -1,1 +1,0 @@
-rabbitmqadmin é uma ferramenta de linha de comando para gerenciar o servidor RabbitMQ. Ele requer o plugin 'management' para funcionar. Com ele, é possível criar e gerenciar filas, publicar e consumir mensagens, além de gerenciar usuários e permissões. Fácil de usar e permite automatizar tarefas de administração do RabbitMQ. 

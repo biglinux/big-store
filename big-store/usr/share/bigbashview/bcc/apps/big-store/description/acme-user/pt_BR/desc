@@ -1,1 +1,0 @@
-Este programa oferece arquivos systemd para executar o programa acme-tiny como um usuário dedicado em vez de como root. Isso proporciona uma camada adicional de segurança, pois limita as ações que o programa pode realizar no sistema. Além disso, usar um usuário dedicado pode ser útil para separar as responsabilidades de administração de sistema. 

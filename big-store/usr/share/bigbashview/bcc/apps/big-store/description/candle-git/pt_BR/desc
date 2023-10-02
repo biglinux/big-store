@@ -1,2 +1,0 @@
-Este é um aplicativo para controlar sua máquina usando o protocolo GRBL. Ele também inclui um visualizador de
-código G, o que torna mais fácil ver o que sua máquina está fazendo. Ele foi escrito usando a biblioteca Qt. Esta é a versão de desenvolvimento, então pode haver alguns erros ou problemas.

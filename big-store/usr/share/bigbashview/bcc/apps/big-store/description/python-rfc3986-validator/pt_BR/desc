@@ -1,1 +1,0 @@
-Este programa é um validador de RFC3986 escrito em Python puro. Ele tem como objetivo verificar se uma determinada string está de acordo com as regras definidas na norma RFC3986. Com ele, é possível garantir que as URLs utilizadas em sua aplicação estão corretas e possibilitando assim um melhor funcionamento do sistema.  

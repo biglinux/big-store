@@ -1,1 +1,0 @@
-Este plugin adiciona suporte para repositórios do sistema de arquivos distribuído Hadoop (HDFS). Isso permite que você armazene seus dados em um cluster Hadoop e os acesse diretamente do seu aplicativo de pesquisa. Isso pode ser útil para lidar com grandes conjuntos de dados e garantir alta disponibilidade e escalabilidade. 

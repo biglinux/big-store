@@ -1,1 +1,0 @@
-O core do Arduino AVR é um conjunto de arquivos e bibliotecas que permitem que o software do Arduino seja compilado e carregado em microcontroladores AVR, como o ATmega328p utilizado no Arduino Uno. Ele inclui o avr-gcc, um compilador de código aberto, e o avrdude, um programa para carregar o código compilado para o microcontrolador. 

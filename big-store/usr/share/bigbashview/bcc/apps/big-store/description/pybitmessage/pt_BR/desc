@@ -1,4 +1,0 @@
-PyBitmessage é um protocolo de comunicação descentralizado e sem confiança, que permite o envio de mensagens
-criptografadas para outra pessoa ou para vários assinantes. Isso significa que, diferentemente de outros serviços de mensagens, como o e-mail, as mensagens enviadas através do PyBitmessage 
-não passam por um servidor central, mas são entregues diretamente do remetente para o destinatário. Além disso, como as mensagens são criptografadas, somente o destinatário original pode
-lê-las, garantindo a privacidade e segurança dos dados.

@@ -1,1 +1,0 @@
-Essa é uma implementação puramente em Haskell do algoritmo de digest MD5, também conhecido como hash. Ele foi criado para garantir a integridade de arquivos e outras informações transmitidas e armazenadas. 

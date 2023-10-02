@@ -1,3 +1,0 @@
-Este pacote fornece arquivos de firmware para adaptadores de rede Broadcom NetXtreme II 10Gb usados em sistemas
-Linux. Ele não inclui a compressão de módulos, o que geralmente é usado para economizar espaço em disco. Isso pode ser útil em situações em que o espaço em disco é limitado ou se você
-precisar de acesso direto aos arquivos de firmware.

@@ -1,2 +1,0 @@
-O programa STAR é usado para alinhar leituras de RNA-seq a um genoma de referência usando arrays de sufixos sem
-compressão. Ele é capaz de lidar com leituras de tamanhos variados e pode ser usado para detectar transcritos alternativos e junções de exon.

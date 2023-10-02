@@ -1,1 +1,0 @@
-Este programa é um gerador de sistema de construção para extensões do CPython, como C, C++, Cython e Fortran. Ele melhora a forma como as extensões são construídas e gerenciadas, tornando o processo mais fácil e eficiente. Ele é projetado especificamente para uso com o pacote python-scikit-build. 

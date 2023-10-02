@@ -1,1 +1,0 @@
-Esse programa permite a conversão entre os formatos de data e hora DateTime e RFC2822/822, que são comumente  usados em e-mails. Ele é escrito em Perl e é útil para trabalhar com dados de data e hora em aplicações de e-mail. 

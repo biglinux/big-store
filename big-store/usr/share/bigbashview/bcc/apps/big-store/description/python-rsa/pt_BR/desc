@@ -1,1 +1,0 @@
-python-rsa é uma implementação RSA em Python puro. Ele suporta criptografia e descriptografia, assinatura e verificação de assinaturas e geração de chaves de acordo com o PKCS#1 versão 1.5. A implementação é simples e fácil de entender, mas também eficiente e segura. Ele pode ser usado como uma substituição para a biblioteca pycrypto. O pacote é compatível com Python 2 e 3. 

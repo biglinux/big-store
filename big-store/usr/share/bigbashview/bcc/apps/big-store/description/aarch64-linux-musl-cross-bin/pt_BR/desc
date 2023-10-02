@@ -1,2 +1,0 @@
-Ferramenta de compilação cruzada estática baseada em musl. Ela é fornecida pelo musl.cc e é específica para
-sistemas operacionais Aarch64 Linux.

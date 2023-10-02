@@ -1,4 +1,0 @@
- Este programa é um editor de código para o Vim8 e Neovim, com suporte para o protocolo de linguagem de
-servidor, o que significa que ele possui recursos avançados de Intellisense, como o VSCode. Isso significa que ele ajuda você a escrever código mais rapidamente e com menos erros, pois
-sugere automaticamente código e funcionalidades para você usar. Além disso, ele também possui recursos de navegação de código, como a capacidade de ir diretamente para uma definição de uma 
-função ou variável. 

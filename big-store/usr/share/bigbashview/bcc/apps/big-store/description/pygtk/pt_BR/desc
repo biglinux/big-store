@@ -1,4 +1,0 @@
- pygtk é um conjunto de ferramentas que permite aos desenvolvedores usar recursos do GTK (GIMP Toolkit) em seus
-programas escritos em Python. GTK é uma biblioteca de widgets comummente usada em sistemas Linux e Unix para construir interfaces gráficas de usuário (GUI).Com pygtk, os desenvolvedores 
-podem criar janelas, botões, caixas de diálogo e outros elementos de interface gráfica usando código Python, em vez de ter que escrever código em outra linguagem, como C ou C++. Isso pode
-tornar o processo de desenvolvimento mais rápido e fácil. 

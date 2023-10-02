@@ -1,4 +1,0 @@
- Este programa, chamado storcli, é uma ferramenta de linha de comando (CLI) que ajuda a gerenciar controladores RAID LSI 
-MegaRAID. Ele permite que você veja informações sobre as unidades de armazenamento conectadas, crie e exclua arranjos de RAID e faça outras operações importantes para manter seus dados
-seguros.Com o storcli, você pode verificar o status dos discos, verificar se há erros e substituir discos defeituosos. Além disso, você pode expandir ou reconstruir arranjos de RAID
-existentes sem perder dados.Em resumo, o storcli é uma ferramenta importante para garantir a integridade dos dados em sistemas que utilizam controladores RAID LSI MegaRAID. 

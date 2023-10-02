@@ -1,3 +1,0 @@
- O Linux Kernel Runtime Guard (LKRG) é um programa de segurança para o kernel Linux. Ele foi projetado para detectar e prevenir
-ataques maliciosos que visam explorar vulnerabilidades no kernel. O LKRG usa uma variedade de técnicas avançadas para monitorar o kernel em tempo real e detectar qualquer comportamento
-suspeito. Ele também pode ser usado para lidar com a exploração de vulnerabilidades existentes no kernel, bloqueando ações maliciosas e impedindo que elas causem danos. 

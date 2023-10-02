@@ -1,4 +1,0 @@
-O programa 'python-ecos' é uma interface feita em Python para o solver de otimização de sistemas chamado ECOS. Ele
-ajuda a resolver problemas de programação linear, semidefinida e mista. É uma ferramenta poderosa para a resolução de problemas de otimização em várias áreas, como engenharia, finanças e
-ciência da computação.Com essa interface, é possível escrever scripts em Python para resolver esses problemas de otimização de forma rápida e precisa. Além disso, o python-ecos é
-compatível com várias bibliotecas de otimização em Python, tornando ainda mais fácil e flexível o uso desse solver.

@@ -1,4 +1,0 @@
-Este programa é uma implementação de um serviço de criação de instantâneos para o sistema de arquivos ZFS. Ele permite 
-que você crie instantâneos automaticamente em intervalos regulares, sem precisar se preocupar em fazê-lo manualmente. Isso é útil para garantir a segurança dos seus dados, pois você pode
-sempre voltar para uma versão anterior em caso de problemas. Além disso, também é possível configurar a retenção dos instantâneos, ou seja, quanto tempo eles devem ser mantidos antes de
-serem excluídos.

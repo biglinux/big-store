@@ -1,2 +1,0 @@
-Este programa é especialmente compilado para se passar por outros browsers, como o Firefox e o Chrome, usando a
-biblioteca libcurl. Ele pode ser usado para enviar requisições HTTP e HTTPS, como baixar arquivos ou acessar páginas web. Ele também pode ser usado com scripts para automatizar tarefas.

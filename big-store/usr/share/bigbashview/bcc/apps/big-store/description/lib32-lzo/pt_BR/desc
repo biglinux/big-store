@@ -1,1 +1,0 @@
-lib32-lzo é uma biblioteca de compressão de dados sem perdas que é portátil e projetada para  ser usada em sistemas de 32 bits. Ele permite a compressão e descompressão rápida de arquivos, tornando-o útil para aplicativos que precisam salvar espaço em disco ou transmitir dados de forma eficiente. Além disso, ele é fácil de usar e integrar em outros programas. 

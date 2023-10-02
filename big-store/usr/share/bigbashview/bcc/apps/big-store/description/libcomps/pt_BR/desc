@@ -1,1 +1,0 @@
-A libcomps é uma biblioteca para manipulação de arquivos XML usados para grupos de pacotes em distribuições Linux.  Ela oferece uma API simples para manipulação de grupos, ambientes e opções de grupos. A biblioteca libcomps pode ser usada para criar, analisar e manipular arquivos comps.xml e comps.xml.gz. 

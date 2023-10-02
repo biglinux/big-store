@@ -1,1 +1,0 @@
-O Haskell é uma linguagem de programação que permite trabalhar com threads. Isso significa que você pode criar várias tarefas ao mesmo tempo e esperar que elas terminem antes de continuar com sua próxima ação.Por exemplo, você pode usar threads para fazer várias consultas a um banco de dados ao mesmo tempo, em vez de esperar que cada consulta termine antes de começar a próxima. 

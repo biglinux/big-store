@@ -1,1 +1,0 @@
-libtorrent-rasterbar é uma biblioteca escrita em C++ que tem como objetivo ser uma boa alternativa a todas as outras implementações de BitTorrent disponíveis. Ela é projetada para ser rápida, escalável e fácil de usar. Com libtorrent-rasterbar, você pode criar facilmente aplicativos cliente ou servidor de BitTorrent. 

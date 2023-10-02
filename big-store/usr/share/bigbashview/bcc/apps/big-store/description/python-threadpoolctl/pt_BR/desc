@@ -1,1 +1,0 @@
-Esse programa é uma ajuda do Python para limitar o número de threads usadas em bibliotecas nativas que lidam com sua própria piscina de threads interna. Ele se chama python-threadpoolctl e é muito útil para otimizar o uso de recursos do computador e evitar problemas de sobrecarga. 

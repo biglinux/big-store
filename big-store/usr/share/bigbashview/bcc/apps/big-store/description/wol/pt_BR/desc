@@ -1,1 +1,0 @@
-Esse programa é pequeno, mas tem uma funcionalidade muito útil: acordar dispositivos que são compatíveis com o protocolo  Magic Packet. Isso é útil quando você precisa acessar um computador remotamente, mas ele está desligado. Com esse programa, você pode mandar um pacote especial para o computador e ele vai ligar automaticamente. 

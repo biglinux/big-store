@@ -1,3 +1,0 @@
-Este programa é uma barra de progresso simples e flexível para usar no Jupyter Notebook e no console. Ele é escrito em 
-python e permite acompanhar o andamento de tarefas longas e complexas de maneira fácil e intuitiva. Com ele, é possível ver o progresso em tempo real e ter uma noção mais precisa de quanto 
-tempo falta para a tarefa ser concluída. Além disso, é possível personalizar a aparência da barra de progresso para se adequar ao seu projeto.

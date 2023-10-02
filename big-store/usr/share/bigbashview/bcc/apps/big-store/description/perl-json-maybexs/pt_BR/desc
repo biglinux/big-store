@@ -1,1 +1,0 @@
-Este programa permite que você utilize a biblioteca Cpanel::JSON::XS para trabalhar com dados no formato JSON. Se ela não estiver disponível, ele automaticamente usa as bibliotecas JSON::XS ou JSON::PP como alternativas. Isso garante que você possa trabalhar com dados JSON de forma consistente, independentemente das bibliotecas disponíveis em sua máquina. 

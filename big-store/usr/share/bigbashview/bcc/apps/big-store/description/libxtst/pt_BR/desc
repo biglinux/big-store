@@ -1,1 +1,0 @@
-Biblioteca de extensão de recursos para testar o X11. A biblioteca libxtst fornece acesso às funções de teste do X11,  permitindo que os desenvolvedores automatizem testes de interface do usuário e simulem eventos de entrada de teclado e mouse. 

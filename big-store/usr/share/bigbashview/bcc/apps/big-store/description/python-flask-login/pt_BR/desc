@@ -1,1 +1,0 @@
-O python-flask-login é um pacote para gerenciar sessões de usuários no Flask, uma biblioteca popular de Python  para desenvolvimento web. Ele permite que os usuários façam login e logout, bem como gerencie seus dados de sessão. Ele também fornece funções para proteger rotas e verificar se o usuário está logado antes de permitir o acesso a recursos específicos. 

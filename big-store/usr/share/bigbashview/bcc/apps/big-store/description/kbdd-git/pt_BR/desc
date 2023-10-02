@@ -1,3 +1,0 @@
-Este programa é um daemon e biblioteca simples que permite definir layouts de teclado diferentes para cada janela aberta.
-Isso é útil se você precisar alternar entre idiomas ou configurações de teclado diferentes ao trabalhar em várias janelas ao mesmo tempo. Ele é projetado para ser fácil de usar e integrado 
-com outras ferramentas de gerenciamento de teclado, como o X11.

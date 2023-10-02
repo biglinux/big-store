@@ -1,3 +1,0 @@
-Esse programa é um 'hook' para o mkinitcpio, que permite modificar as cores do console VT durante
-o início do sistema. Isso pode ser útil para tornar a inicialização do sistema mais agradável visualmente. Ele é desenvolvido como um projeto Git, o que significa que é um projeto em
-constante evolução e atualização.

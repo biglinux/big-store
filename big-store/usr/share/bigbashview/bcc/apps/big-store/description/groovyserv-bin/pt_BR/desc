@@ -1,3 +1,0 @@
-Com o groovyserv-bin, você pode iniciar programas em Groovy de maneira rápida e fácil. Ele funciona usando um processo JVM
-que roda em segundo plano, permitindo que você execute seus programas sem precisar carregar a JVM toda vez. Isso significa que você pode iniciar seus programas mais rapidamente e economizar
-tempo e recursos do sistema. Se você desenvolve programas em Groovy, o groovyserv-bin é uma ótima opção para tornar seu fluxo de trabalho mais eficiente.

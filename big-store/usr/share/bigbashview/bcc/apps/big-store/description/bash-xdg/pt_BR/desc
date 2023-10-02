@@ -1,3 +1,0 @@
- O Bash é uma shell popular para sistemas operacionais como o Linux e o macOS. Ele foi desenvolvido pelo projeto GNU e é baseado na 
-shell Bourne. A versão XDG é uma versão melhorada que fornece suporte à especificação de diretório base XDG. Isso significa que ele segue as recomendações para armazenamento de arquivos de 
-configuração e dados do usuário, tornando mais fácil para os desenvolvedores criar aplicativos e para os usuários gerenciar seus arquivos.

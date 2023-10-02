@@ -1,1 +1,0 @@
-python-pg8000 é um driver de banco de dados PostgreSQL escrito inteiramente em Python e não requer nenhuma biblioteca ou módulo externo. Ele suporta todas as funcionalidades padrão do PostgreSQL, incluindo transações, declarações preparadas e consultas assíncronas. Ele também suporta o suporte unicode embutido do Python e pode ser usado com Python 2 e Python 3. 

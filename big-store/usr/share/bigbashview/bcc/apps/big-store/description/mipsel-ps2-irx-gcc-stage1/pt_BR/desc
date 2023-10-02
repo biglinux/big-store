@@ -1,2 +1,0 @@
-O GNU Compiler Collection é uma ferramenta importante para a construção de programas. Este é o stage 1 para a construção de
-uma toolchain específica para o PS2 (mipsel-ps2-irx). Ele ajuda a transformar o código escrito pelo desenvolvedor em um formato que o console entenda e execute.

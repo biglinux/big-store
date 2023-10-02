@@ -1,3 +1,0 @@
-Esse programa permite acessar o repositório de usuários Arch (AUR) usando uma interface em Python. Com ele,
-você pode procurar, baixar e gerenciar pacotes no AUR de forma fácil e rápida.O AUR é um repositório de pacotes adicionais para o sistema operacional Arch Linux, que inclui programas que 
-não estão disponíveis no repositório principal. Ao usar essa interface, você pode aproveitar a vasta variedade de programas disponíveis no AUR sem precisar usar o terminal. 

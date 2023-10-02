@@ -1,4 +1,0 @@
-O programa nvidia-docker permite construir e rodar contêineres Docker usando GPUs NVIDIA. Isso significa que você pode usar as
-poderosas placas gráficas da NVIDIA para acelerar seus aplicativos dentro de um contêiner Docker. Isso é útil para aplicações de inteligência artificial, renderização de jogos e outros usos
-que precisam de muito poder de processamento gráfico.Para usar o nvidia-docker, você precisará ter uma GPU NVIDIA instalada em seu computador e o driver da NVIDIA devidamente configurado.
-Depois disso, você pode instalar o nvidia-docker e começar a construir e executar seus contêineres usando comandos específicos que permitem acesso à GPU.

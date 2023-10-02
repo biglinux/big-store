@@ -1,1 +1,0 @@
-Esta é uma biblioteca para criar modelos (ou 'templates') para serem usados com a biblioteca GLib. Ela permite que você crie modelos de texto com variáveis e outros elementos dinâmicos, que podem ser preenchidos com dados específicos em tempo de execução. 

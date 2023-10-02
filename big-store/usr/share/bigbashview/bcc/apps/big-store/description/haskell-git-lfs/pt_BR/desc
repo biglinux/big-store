@@ -1,1 +1,0 @@
-Este programa é uma implementação do protocolo git-lfs escrito em haskell. Ele permite que arquivos grandes sejam lidos e  escritos de forma eficiente no git. 

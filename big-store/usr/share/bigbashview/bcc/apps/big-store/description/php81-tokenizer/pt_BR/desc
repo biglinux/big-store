@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.1 que permite dividir uma string em pedaços menores chamados tokens. Isso é útil quando você
-deseja analisar ou manipular uma string de uma determinada maneira. Por exemplo, você pode usar o tokenizer para dividir uma string de código em palavras-chave e identificadores, ou para
-dividir uma frase em palavras individualmente.O uso do tokenizer é simples, basta incluir o módulo no seu código e chamar a função de tokenização passando a string desejada. Ele
-retornará uma lista de tokens que você pode então usar para realizar suas operações. 

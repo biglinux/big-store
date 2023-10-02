@@ -1,1 +1,0 @@
-xorg-server-xephyr é um servidor X aninhado, o que significa que ele funciona como uma aplicação dentro de outra sessão do X. Ele permite que você execute múltiplas instâncias do X em um único sistema, o que é útil para testes e desenvolvimento de aplicativos. 

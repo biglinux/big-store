@@ -1,1 +1,0 @@
-O rapidfuzz-cpp é um programa escrito em C++ que permite correspondência rápida de cadeias de caracteres usando a distância de Levenshtein. Ele é útil para encontrar correspondências aproximadas entre strings, como erros de digitação ou variações de escrita. Ele é fácil de usar e pode ser integrado a outros projetos em C++. 

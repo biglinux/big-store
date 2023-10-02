@@ -1,1 +1,0 @@
-O módulo IO::Tee permite que você envie a saída de seu código Perl para múltiplos handles (como arquivos ou dispositivos de rede) ao mesmo tempo. Isso pode ser útil quando você precisa registrar a saída de um script em vários lugares ou enviá-la para múltiplos destinos. 

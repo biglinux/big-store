@@ -1,1 +1,0 @@
-Este programa implementa o protocolo de proxy de meias versão 5, que é usado para encaminhar conexões de rede através de um servidor intermediário. Isso permite que os usuários acessem conteúdo bloqueado ou naveguem de forma anônima, entre outras coisas. Ele foi escrito em Haskell, uma linguagem de programação funcional. 

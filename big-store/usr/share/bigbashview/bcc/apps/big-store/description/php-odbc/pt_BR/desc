@@ -1,1 +1,0 @@
-Os módulos ODBC para PHP permitem que você se conecte a bancos de dados utilizando o protocolo ODBC. Isso significa que você pode acessar vários tipos de bancos de dados, como SQL Server, Oracle, MySQL e muito mais, usando as funções do PHP. É uma ótima opção para quem precisa se conectar a diferentes bancos de dados  em um único projeto. 

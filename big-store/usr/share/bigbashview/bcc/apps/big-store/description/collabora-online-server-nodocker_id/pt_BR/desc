@@ -1,5 +1,0 @@
-Este programa é um servidor de colaboração online que permite que várias pessoas trabalhem juntas em documentos,
-planilhas e outros arquivos de forma simultânea. Ele não precisa ser instalado dentro de um container Docker, o que o torna mais fácil de configurar e gerenciar. Ele suporta vários formatos
-de arquivo e possui recursos avançados de colaboração, como comentários, edição simultânea e controle de versão.Com este programa, é possível criar um ambiente de trabalho colaborativo para
-equipes de todos os tamanhos, permitindo que todos trabalhem juntos de forma mais eficiente e produtiva. Ele é ideal para equipes de projeto, escritórios e outras organizações que precisam 
-compartilhar arquivos e trabalhar juntos em tempo real.

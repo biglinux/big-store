@@ -1,4 +1,0 @@
-Este programa permite que você ajuste automaticamente a velocidade do ventilador da sua placa gráfica NVidia para
-mantê-la fresca e silenciosa. Isso é útil quando você está jogando ou usando outros aplicativos que exigem muito desempenho gráfico. Com este programa, você pode definir temperaturas de
-referência para a GPU e o ventilador irá aumentar ou diminuir a velocidade automaticamente para manter a temperatura dentro do limite desejado. Além disso, ele também fornece uma interface 
-fácil de usar para visualizar informações sobre a temperatura e velocidade do ventilador em tempo real.

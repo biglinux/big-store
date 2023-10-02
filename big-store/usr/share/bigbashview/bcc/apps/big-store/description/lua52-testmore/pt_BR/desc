@@ -1,1 +1,0 @@
-Este é um pacote de teste de unidade para Lua, baseado no framework Test::More para Perl. Ele permite escrever testes automatizados para seu código Lua, ajudando a garantir que ele esteja funcionando corretamente. Com esse pacote, você pode testar seções específicas do seu código e verificar se os resultados estão de acordo com o esperado. 

@@ -1,5 +1,0 @@
-Ferramentas científicas para Python, compiladas com Intel MKL. O pacote python-numpy-mkl inclui a biblioteca NumPy, que é 
-uma das principais bibliotecas de computação científica para Python, além de outras ferramentas importantes para cálculos matemáticos e estatísticos. Com a adição do Intel MKL, o pacote
-oferece desempenho aprimorado e velocidade para operações de alta performance.Algumas das funcionalidades incluem: operações matemáticas avançadas, como álgebra linear, transformadas de
-Fourier e números aleatórios, além de integração com outras bibliotecas científicas populares, como SciPy e Matplotlib. Ele é usado em diversas áreas, como ciência de dados, aprendizado de 
-máquina, engenharia e ciência computacional.

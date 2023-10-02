@@ -1,3 +1,0 @@
- Este programa é um programa de interface gráfica (GUI) para o Pipewire, que é uma tecnologia que permite que você controle e
-compartilhe áudio e vídeo entre diferentes aplicativos e dispositivos. Ele foi desenvolvido usando a biblioteca Qt (Kirigami2) e é fácil de usar. Com ele, você pode mudar facilmente a saída
-de áudio, ajustar o volume, e fazer muitas outras coisas relacionadas a áudio e vídeo. Ele é útil para quem precisa controlar vários dispositivos de áudio e vídeo ao mesmo tempo.

@@ -1,1 +1,0 @@
-tty-solitaire é um jogo de solitário baseado no popular jogo Klondike e construído utilizando a biblioteca ncurses. O objetivo do jogo é ordenar as cartas em ordem crescente e por naipes, começando com as cartas menores e terminando com as cartas maiores. Este jogo é jogado no terminal e é divertido para todas as idades. Divirta-se! 

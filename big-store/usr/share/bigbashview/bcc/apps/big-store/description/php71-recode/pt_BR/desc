@@ -1,3 +1,0 @@
- Este é um módulo de recodificação para a versão 7.1 do PHP. Ele permite que você altere a codificação de caracteres de 
-um texto, para que ele possa ser exibido corretamente em diferentes sistemas. Por exemplo, se você tem um arquivo com caracteres acentuados, mas o seu sistema não consegue exibi-los, você
-pode usar este módulo para mudar a codificação para que os caracteres apareçam corretamente.

@@ -1,1 +1,0 @@
- Este programa oferece suporte de armazenamento para o Redland, uma biblioteca de processamento de dados RDF. Ele permite que você salve e carregue seus dados RDF usando o banco de dados Virtuoso. Isso facilita a gestão e a recuperação de seus dados RDF, além de oferecer recursos adicionais, como consultas SPARQL e indexação.  

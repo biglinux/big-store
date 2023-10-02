@@ -1,4 +1,0 @@
-O plugin Beaker é um middleware WSGI para o Python Bottle que adiciona recursos de sessão e cache. Isso 
-significa que ele permite que você salve informações sobre os usuários enquanto eles navegam pelo seu site, como dados de login e preferências. Além disso, ele também ajuda a acelerar o
-carregamento do seu site armazenando em cache informações que são frequentemente usadas. Em resumo, este plugin é útil para quem deseja adicionar funcionalidades de sessão e cache ao seu
-projeto feito com Python Bottle. 

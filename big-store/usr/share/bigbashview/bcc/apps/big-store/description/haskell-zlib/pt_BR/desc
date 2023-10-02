@@ -1,1 +1,0 @@
-Este programa permite comprimir e descomprimir arquivos nos formatos gzip e zlib, o que é útil para economizar espaço em disco e tempo de transferência de arquivos. Ele foi escrito em Haskell, uma linguagem de programação funcional. 

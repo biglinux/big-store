@@ -1,4 +1,0 @@
-kafkactl é uma ferramenta de linha de comando para gerenciamento do Apache Kafka. Ele
-permite que você crie, gerencie e monitore tópicos, consumidores e outros recursos do Kafka de forma fácil e rápida. Com ele, é possível fazer tarefas comuns como criar tópicos, listar
-tópicos existentes, mudar configurações de tópicos e muito mais.Além disso, o kafkactl fornece uma interface amigável para executar operações avançadas, como balanceamento de carga de
-consumidores, gerenciamento de acesso e administração de schemas.É uma ferramenta simples, mas muito poderosa para quem precisa gerenciar clusters do Apache Kafka.

@@ -1,4 +1,0 @@
-Com o programa quicktype você pode gerar tipos e conversores a partir de arquivos JSON, Schema e GraphQL. Isso significa que
-você pode facilmente transformar dados de uma estrutura para outra sem precisar escrever código manualmente. Isso pode ser útil se você estiver trabalhando com diferentes fontes de dados e 
-precisar compatibilizá-las.Além disso, o quicktype também oferece suporte a várias linguagens de programação, o que significa que você pode usá-lo em seu projeto independentemente da
-linguagem que você estiver usando.

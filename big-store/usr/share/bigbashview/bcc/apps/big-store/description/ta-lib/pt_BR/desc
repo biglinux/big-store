@@ -1,4 +1,0 @@
-A biblioteca TA-Lib fornece funções comuns para a análise técnica de dados de mercado financeiro. Ela é amplamente
-utilizada por traders e investidores para criar indicadores técnicos e sistemas de negociação automatizados.A biblioteca inclui mais de 150 funções diferentes, como médias móveis,
-osciladores, bandas de Bollinger, entre outros. Ela suporta vários tipos de dados, como ações, futuros, opções, entre outros.Além disso, ela é compatível com várias linguagens de
-programação, como C, C++, C#, Java, Perl, Python, entre outras.

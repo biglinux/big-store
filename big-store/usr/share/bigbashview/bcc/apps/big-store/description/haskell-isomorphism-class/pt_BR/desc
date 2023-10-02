@@ -1,1 +1,0 @@
-A typeclass Isomorphism é uma ferramenta poderosa no Haskell para resolver problemas de conversão entre tipos diferentes. Ele permite que você defina como os tipos devem ser convertidos de maneira clara e concisa, e fornece uma maneira de garantir a consistência dessas conversões em todo o seu código. 

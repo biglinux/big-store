@@ -1,2 +1,0 @@
- Este programa tem como função encaminhar o tráfego de rede UDP através de um fluxo TCP. Isso é útil em casos em que o
-tráfego UDP é bloqueado por firewalls ou outras restrições de rede. Ao usar este programa, você pode contornar essas restrições e garantir a comunicação entre dispositivos. 

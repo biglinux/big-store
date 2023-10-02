@@ -1,3 +1,0 @@
-Com o Stgit, você pode facilmente gerenciar patches (arquivos que contêm as modificações que você fez no código) em cima do Git.
-Ele funciona de forma semelhante ao Quilt, permitindo que você empilhe patches e os aplique ou os remova com facilidade. Isso é útil quando você está trabalhando em várias modificações
-diferentes ao mesmo tempo e quer manter tudo organizado.Além disso, o Stgit permite que você gerencie facilmente patches com outras pessoas, compartilhando-os e aplicando-os em conjunto. 

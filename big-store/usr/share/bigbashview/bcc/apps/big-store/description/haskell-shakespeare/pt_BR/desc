@@ -1,1 +1,0 @@
-Ferramenta chamada haskell-shakespeare, ela é utilizada para criar modelos interpolados no tempo de compilação. Isso significa que você pode escrever um modelo com espaços reservados para informações que serão preenchidas apenas quando o programa for compilado. Isso pode ser útil em vários casos, como a geração de código ou a criação de páginas da web. 

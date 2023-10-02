@@ -1,3 +1,0 @@
-Este programa é usado para calibrar a tela de dispositivos usando o sistema X.org. Ele é uma alternativa para o
-xinput_calibrator e é especialmente útil para dispositivos com tela sensível ao toque, como tablets e smartphones. Com ele, é possível ajustar a precisão e o alinhamento da tela, garantindo
-uma melhor experiência de usuário ao interagir com os elementos na tela.

@@ -1,1 +1,0 @@
-Este programa é uma extensão para o pacote 'Data.Vector' no Haskell. Ele adiciona instâncias de tipos adicionais para o 'Data.Vector', permitindo que você use funções específicas para esses tipos de dados com vetores. Isso é útil para tornar o código mais claro e fácil de entender. 

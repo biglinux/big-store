@@ -1,3 +1,0 @@
-Este é um módulo adicional para o PHP 7.4 que permite trabalhar com strings multibyte. Ele adiciona suporte para caracteres
-UTF-8 e outros conjuntos de caracteres.Com este módulo instalado, você pode usar funções específicas para lidar com strings multibyte, como contar caracteres, cortar strings, etc.Este
-módulo é útil se você precisar lidar com conteúdo em idiomas que possuem caracteres especiais ou se você precisar trabalhar com arquivos UTF-8.

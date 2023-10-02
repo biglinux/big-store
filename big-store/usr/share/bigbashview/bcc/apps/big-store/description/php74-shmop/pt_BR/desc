@@ -1,5 +1,0 @@
-Este é um módulo para o php74 que permite o acesso a memória compartilhada. Isso significa que vários programas podem acessar e
-modificar os mesmos dados armazenados na memória, sem precisar de arquivos ou outras formas de comunicação entre eles. Com esse módulo, é possível criar, abrir, ler e escrever em regiões de
-memória compartilhada, o que pode ser útil para vários tipos de aplicações.A memória compartilhada é uma forma de armazenamento de dados que é acessível por vários processos. Isso é
-diferente da memória normal, que só é acessível pelo processo que a criou. Isso significa que o módulo shmop fornece uma forma de comunicação entre diferentes programas, sem precisar de
-arquivos ou outras formas de comunicação.

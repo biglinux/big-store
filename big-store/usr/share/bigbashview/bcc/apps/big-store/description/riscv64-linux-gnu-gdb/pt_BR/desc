@@ -1,1 +1,0 @@
-O riscv64-linux-gnu-gdb é um depurador (debugger) desenvolvido pela GNU para a plataforma RISC-V de 32 e 64 bits. Ele permite que você examine e modifique o comportamento de um programa enquanto ele está sendo executado, o que pode ser útil para encontrar e corrigir erros. Ele pode ser usado tanto em sistemas embarcados quanto em sistemas de desktop. 

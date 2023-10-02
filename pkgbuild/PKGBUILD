@@ -1,4 +1,5 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+# Altered: 2023/10/02
 
 pkgname=big-store
 pkgver=$(date +%y.%m.%d)
@@ -33,7 +34,8 @@ depends=('bc'
 	'xsetprop'
 	'xtermset'
 	'wmctrl'
-	'yay')
+	'yay'
+	'translate-shell')
 optdepends=('libpamac-snap-plugin'
 			'libpamac-flatpak-plugin'
 			'pamac-snap-plugin'

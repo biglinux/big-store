@@ -1,1 +1,0 @@
- Este é um complemento para o Flake8, que é uma ferramenta de verificação de estilo de código para o Python. Ele adiciona verificações para a documentação do código, usando as regras fornecidas pelo pydocstyle. Isso ajuda a garantir que a documentação do seu código  seja consistente e fácil de entender para outros desenvolvedores.  

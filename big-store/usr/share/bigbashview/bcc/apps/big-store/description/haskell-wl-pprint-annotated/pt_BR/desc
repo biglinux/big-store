@@ -1,1 +1,0 @@
-Pretty printer é um programa que ajuda a formatar o texto de maneira mais bonita e fácil de ler. Com o suporte à anotação, ele adiciona informações extras ao texto, tornando-o ainda mais fácil de entender. haskell-wl-pprint-annotated é uma biblioteca específica para o uso do pretty printer com o Haskell, uma linguagem de programação. 

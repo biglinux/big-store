@@ -1,1 +1,0 @@
-Essa coleção inclui o utilitário sstrip, que é usado para remover informações desnecessárias dos arquivos ELF, tornando-os menores  e mais rápidos de carregar. ELF é um formato de arquivo comum para executáveis, bibliotecas e outros arquivos usados em sistemas operacionais baseados em Unix, incluindo Linux e BSD. 

@@ -1,1 +1,0 @@
-O módulo Perl/CPAN IO::Multiplex permite gerenciar a entrada e saída em vários manipuladores de arquivos ao mesmo tempo. É uma ferramenta útil para programadores que precisam lidar com múltiplos arquivos simultaneamente. 

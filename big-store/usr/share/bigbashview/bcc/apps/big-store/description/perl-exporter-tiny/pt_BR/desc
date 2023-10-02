@@ -1,1 +1,0 @@
-Ferramenta de exportação para o Perl com recursos semelhantes ao Sub::Exporter, mas usando apenas dependências básicas. Isso permite que ela seja usada em ambientes com restrições de espaço ou recursos. A ferramenta é chamada de perl-exporter-tiny. 

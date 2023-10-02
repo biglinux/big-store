@@ -1,2 +1,0 @@
-Chromium é um navegador web de código aberto. Este programa é uma versão modificada do Chromium que possibilita a
-decodificação de vídeos utilizando VA-API no backend Ozone Wayland. Isso pode melhorar a performance de reprodução de vídeo em dispositivos que suportam essa tecnologia.

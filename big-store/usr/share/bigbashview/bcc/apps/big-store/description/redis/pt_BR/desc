@@ -1,1 +1,0 @@
-Redis é um banco de dados em memória que também pode ser salvo no disco. Isso significa que os dados são armazenados na memória enquanto o programa está em execução, mas também podem ser salvos permanentemente no disco. Isso permite que os dados sejam recuperados mesmo depois que o programa for fechado ou o computador for desligado. 

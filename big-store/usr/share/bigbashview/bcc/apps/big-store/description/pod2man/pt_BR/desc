@@ -1,1 +1,0 @@
-pod2man é uma ferramenta de linha de comando para converter documentação escrita no formato Plain Old Documentation (POD) em um formato que pode ser lido pelo comando Unix man. É comumente usado para criar páginas de manual para módulos e scripts Perl. 

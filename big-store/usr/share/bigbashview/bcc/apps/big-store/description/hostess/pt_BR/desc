@@ -1,1 +1,0 @@
-hostess é uma ferramenta de linha de comando útil para gerenciar seu arquivo /etc/hosts de forma idempotente. Isso significa que você pode rodar o comando várias vezes e ele sempre vai produzir o mesmo resultado. Com hostess, você pode facilmente adicionar ou remover entradas do seu arquivo /etc/hosts, tornando mais fácil gerenciar seus endereços de IP e nomes de host. 

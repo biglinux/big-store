@@ -1,3 +1,0 @@
-Este é um simples programa que permite comparar dois arquivos PDF de forma visual. Ele é útil quando você precisa ver
-as diferenças entre duas versões de um arquivo ou quando precisa comparar dois arquivos diferentes. Ele funciona através do git, então é necessário ter o git instalado em sua máquina.Com
-ele, é possível ver as diferenças entre dois arquivos PDF lado a lado ou lado a lado com diferenças destacadas. Ele também permite que você salve a saída comparada em um novo arquivo PDF.

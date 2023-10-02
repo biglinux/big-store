@@ -1,1 +1,0 @@
-O driver de áudio D-Bus para QEMU é uma ferramenta que permite ao software QEMU acessar dispositivos de áudio usando o protocolo D-Bus. Isso significa que os programas que rodam no QEMU podem usar dispositivos de áudio do host para reproduzir e gravar áudio. O driver é especificamente projetado para trabalhar com o QEMU, portanto, ele não é compatível com outros emuladores. 

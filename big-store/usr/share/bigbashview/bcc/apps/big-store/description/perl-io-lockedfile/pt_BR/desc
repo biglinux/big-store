@@ -1,2 +1,0 @@
-Este programa em Perl fornece métodos de objeto para bloquear arquivos. Ele é útil para garantir que apenas uma
-pessoa possa fazer alterações em um arquivo de cada vez, evitando conflitos e erros.

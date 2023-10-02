@@ -1,3 +1,0 @@
-Este programa é um driver para banco de dados Oracle, ele é usado com o módulo DBI (Database Independent Interface) e permite
-a conexão com bancos de dados Oracle através de scripts em Perl. Ele é uma ferramenta importante para desenvolvedores que precisam trabalhar com bancos de dados Oracle e usar o Perl como
-linguagem de programação.

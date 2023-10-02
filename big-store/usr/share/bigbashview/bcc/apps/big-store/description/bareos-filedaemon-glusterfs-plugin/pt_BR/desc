@@ -1,4 +1,0 @@
- O Bareos é um software de backup open-source. Este plugin específico é para uso com o GlusterFS, um sistema de
-arquivos distribuído. Ele permite que o Bareos faça backups dos arquivos armazenados no GlusterFS. Assim, você pode ter segurança de que seus dados estão protegidos e podem ser recuperados 
-em caso de necessidade.Com o uso deste plugin, o Bareos pode fazer backups de arquivos em tempo real e garantir que suas cópias de segurança estejam sempre atualizadas. Além disso, ele
-também oferece a capacidade de fazer backups incrementais, o que significa que somente as partes dos arquivos que foram modificadas são salvas, economizando espaço de armazenamento. 

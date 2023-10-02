@@ -1,1 +1,0 @@
-Esta biblioteca fornece troca/acordo de chave através da função Curva Elíptica Diffie-Hellman X25519 (também conhecida como Curve25519) conforme descrito no RFC 7748.A biblioteca é escrita em Ruby e é projetada para ser fácil de usar e segura. 

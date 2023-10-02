@@ -1,4 +1,0 @@
-Este é um robô de Go open source baseado em AlphaZero, construído especificamente para funcionar com AVX2. O Go é um jogo de 
-tabuleiro milenar que tem sido jogado na China, Coreia e Japão há séculos. Este robô foi projetado para jogar contra outros jogadores e melhorar suas habilidades com o tempo.AVX2 é uma
-extensão da arquitetura de processador AVX que permite que os jogos sejam executados mais rápido e eficientemente. Isso significa que o robô pode processar informações e tomar decisões mais
-rapidamente, o que o torna um adversário ainda mais desafiador para jogadores humanos.

@@ -1,3 +1,0 @@
-Este programa é uma implementação rápida da distância de Jaro e Jaro-Winkler. Ele permite comparar duas strings e
-calcular a similaridade entre elas.A distância de Jaro-Winkler é uma variação da distância de Jaro, e é frequentemente usada em aplicações de processamento de linguagem natural e busca de
-similaridade.Este programa é escrito em C++ e é open-source, o que significa que você pode usá-lo e modificá-lo livremente.

@@ -1,3 +1,0 @@
- ngrok é uma ferramenta útil para desenvolvedores que precisam criar e entender serviços de rede baseados
-em HTTP. Ele permite criar túneis para expor sua máquina local para internet, tornando possível testar suas aplicações sem precisar fazer deploy para um servidor. Além disso, também é
-possível usar ngrok para debugar e entender como os serviços de sua aplicação estão se comportando. 

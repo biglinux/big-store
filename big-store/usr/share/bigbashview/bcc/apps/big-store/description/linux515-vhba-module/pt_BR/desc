@@ -1,1 +1,0 @@
-O módulo linux515-vhba é um módulo do kernel Linux que permite a emulação de dispositivos SCSI. Ele é útil para  testes e desenvolvimento de software que utiliza dispositivos SCSI, sem a necessidade de ter um dispositivo físico presente. Além disso, ele também pode ser utilizado para criar dispositivos virtuais para fins de backup e gerenciamento de dados. 

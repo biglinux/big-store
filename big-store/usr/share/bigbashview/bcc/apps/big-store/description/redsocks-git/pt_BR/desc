@@ -1,4 +1,0 @@
-Este programa ajuda a redirecionar qualquer conexão TCP para um proxy usando o firewall do seu computador. Ele é chamado de
-redsocks-git e funciona de forma transparente, o que significa que você não precisa fazer nenhuma configuração adicional para usá-lo. Ele é útil se você precisar acessar conteúdo bloqueado 
-ou proteger sua privacidade enquanto navega na internet. Ele é baseado em git, o que significa que ele tem atualizações constantes e correções de bugs para garantir que ele funcione da
-melhor maneira possível.

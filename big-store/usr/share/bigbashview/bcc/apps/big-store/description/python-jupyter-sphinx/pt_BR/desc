@@ -1,1 +1,0 @@
-O pacote python-jupyter-sphinx adiciona extensões para o Sphinx, que permitem que você crie documentação interativa do Jupyter. Isso inclui recursos como células de código, saída de código e widgets interativos, dentro de sua documentação. Com este pacote, é possível criar documentação mais completa e fácil de usar para seus projetos do Jupyter. 

@@ -1,3 +1,0 @@
-Esta biblioteca, chamada magic_enum, é apenas um cabeçalho (header-only) e foi desenvolvida com a versão C++17. Ela
-fornece reflexão estática para enumerações, ou seja, permite que você acesse as informações dos valores de uma enumeração sem precisar escrever nenhum código adicional ou utilizar macros.
-Essa biblioteca funciona com qualquer tipo de enumeração.

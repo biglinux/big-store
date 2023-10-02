@@ -1,1 +1,0 @@
-teensy_loader_cli é uma ferramenta de linha de comando para  carregamento de firmware em placas microprocessadoras Teensy. Essa ferramenta permite programação fácil da placa sem a necessidade de um IDE separado. Ela suporta uma variedade de formatos  de firmware e pode ser usada em vários sistemas operacionais. 

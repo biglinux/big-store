@@ -1,2 +1,0 @@
- gotestsum é uma ferramenta que ajuda a executar testes escritos em Go com saída formatada e um resumo do resultado
-dos testes. Ele permite verificar facilmente se todos os testes estão passando e se há algum erro. Além disso, a saída formatada é mais fácil de ler e entender do que a saída padrão. 

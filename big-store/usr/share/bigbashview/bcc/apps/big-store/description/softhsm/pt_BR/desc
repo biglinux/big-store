@@ -1,1 +1,0 @@
-Este programa é chamado softhsm e é usado para armazenar chaves criptográficas de forma segura. Ele segue o padrão PKCS#11, que é amplamente utilizado na indústria para garantir a segurança das chaves. Com ele, é possível gerar, armazenar e gerenciar suas chaves de forma segura e eficiente. 

@@ -1,2 +1,0 @@
-O Apache Camel K (também conhecido como Kamel) é um framework de integração leve construído a partir do Apache Camel que roda
-nativamente no Kubernetes. Ele foi especificamente projetado para arquiteturas de serviço sem servidor e microsserviços.

@@ -1,4 +1,0 @@
-Este programa é um módulo de correção ortográfica para a versão 8.0 do PHP. Ele permite que seu código verifique 
-automaticamente a ortografia de textos digitados pelos usuários. Isso pode ser útil para formulários de contato, campos de busca e qualquer outra situação em que você deseje garantir que as
-palavras estejam escritas corretamente.Este módulo é fácil de usar e pode ser integrado facilmente ao seu projeto PHP existente. Ele também suporta vários dicionários e idiomas, então você 
-pode personalizar a verificação ortográfica de acordo com suas necessidades.

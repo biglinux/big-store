@@ -1,1 +1,0 @@
-A biblioteca de compositor Wayland, ou wlc, é uma biblioteca de código aberto que permite a criação de um compositor Wayland. Um compositor é um programa que gerencia a exibição de janelas e outros elementos na tela do usuário. Com essa biblioteca, desenvolvedores podem criar seus próprios compositor Wayland personalizado para atender às necessidades de seus programas. 

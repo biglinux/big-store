@@ -1,1 +1,0 @@
- Este programa permite obter código flot minificado. O flot é uma biblioteca de gráficos JavaScript que permite criar gráficos de linha, barra e outros tipos de gráficos de maneira fácil e rápida. Ao minificar o código, ele é reduzido em tamanho, tornando-o mais rápido de carregar e executar em um navegador. Este programa utiliza haskell-js para minificar o código flot. 

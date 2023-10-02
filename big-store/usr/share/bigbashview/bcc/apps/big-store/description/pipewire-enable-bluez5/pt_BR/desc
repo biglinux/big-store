@@ -1,4 +1,0 @@
-Esse é um pacote de gancho para o gerenciador de pacotes do Arch Linux (Pacman) que permite habilitar automaticamente 
-o suporte ao Bluez5 no Pipewire. Isso significa que você pode usar dispositivos Bluetooth, como fones de ouvido e alto-falantes, com o Pipewire sem precisar configurá-los manualmente.Para
-usar esse pacote, basta instalá-lo no seu sistema Arch Linux usando o comando 'pacman -S pipewire-enable-bluez5' e reiniciar o computador. Depois disso, o suporte ao Bluez5 estará ativado
-no Pipewire e você poderá usar dispositivos Bluetooth normalmente.

@@ -1,1 +1,0 @@
-O haskell-hls-graph é uma API de grafo interna do servidor de linguagem Haskell. Ele permite acesso ao  grafo de símbolos do código Haskell, permitindo operações como navegação, pesquisa e refatoração. É uma ferramenta útil para desenvolvedores que trabalham com código Haskell e precisam de uma maneira eficiente de gerenciar e manipular seus símbolos. 

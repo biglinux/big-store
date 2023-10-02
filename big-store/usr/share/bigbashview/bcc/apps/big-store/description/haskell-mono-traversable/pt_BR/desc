@@ -1,1 +1,0 @@
-O pacote haskell-mono-traversable oferece classes de tipos para realizar operações como mapeamento, dobra e percorrimento em contêineres monomórficos. Essas classes permitem uma escrita mais concisa e segura do código, além de oferecer uma melhor performance. 

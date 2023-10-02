@@ -1,3 +1,0 @@
- Este programa é um plugin do Certbot, que é uma ferramenta para obter certificados SSL. Ele usa o serviço de DNS da Freenom
-para autenticar o seu domínio e emitir o certificado. Isso significa que você pode ter um certificado válido e seguro para o seu site sem precisar pagar nada.Ele é fácil de usar e
-configurar, e é uma ótima opção para quem quer ter um site com um endereço HTTPS mas não quer gastar dinheiro com isso. 

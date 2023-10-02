@@ -1,3 +1,0 @@
-Esta é uma implementação do OpenCL para dispositivos NVIDIA. O OpenCL é uma linguagem de programação paralela aberta que
-permite que os desenvolvedores criem programas que funcionam em vários dispositivos, como CPUs, GPUs e outros tipos de processadores. Com esta implementação específica para NVIDIA, os
-desenvolvedores podem aproveitar ao máximo o poder de processamento desses dispositivos. Ele também possui suporte ao vulkan.

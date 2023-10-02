@@ -1,5 +1,0 @@
-Anbox-git é um programa que permite que você execute aplicativos do Android em um container, ou seja, em um ambiente
-virtualizado. Isso significa que você pode usar apps do Android no seu computador, mesmo que ele não tenha o sistema operacional Android instalado. Além disso, essa ferramenta permite que
-você execute várias instâncias do Android ao mesmo tempo, o que é útil para testes e desenvolvimento.Para usar o anbox-git, é necessário ter o sistema operacional Linux instalado em seu
-computador. Ele também requer algum conhecimento técnico para configurar e usar corretamente. No entanto, é uma ótima opção para quem precisa usar apps do Android no computador e não quer
-ter que instalar o sistema operacional completo.

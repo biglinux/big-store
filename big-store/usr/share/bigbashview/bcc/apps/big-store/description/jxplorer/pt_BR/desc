@@ -1,3 +1,0 @@
-Este programa é chamado de jxplorer e é um explorador e editor de LDAP para Java. Ele permite que você veja e edite facilmente as
-informações armazenadas em um servidor LDAP, que é como um banco de dados para armazenar informações de contato, como nomes e endereços de email.Você pode usar o jxplorer para fazer buscas,
-adicionar novos registros, editar registros existentes e até mesmo apagar registros indesejados. Ele é fácil de usar e tem uma interface amigável.

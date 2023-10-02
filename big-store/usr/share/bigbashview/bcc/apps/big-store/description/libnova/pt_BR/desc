@@ -1,1 +1,0 @@
-libnova é uma biblioteca de propósito geral, precisão dupla, mecânica celeste, astrometria e astrodinâmica. Ela fornece uma variedade de funções para posições, velocidades e acelerações de corpos celestes, bem como conversões entre sistemas de coordenadas e outros cálculos astronômicos úteis. libnova é escrita em C e está disponível sob a licença LGPL. 

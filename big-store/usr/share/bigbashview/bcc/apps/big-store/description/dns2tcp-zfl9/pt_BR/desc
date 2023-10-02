@@ -1,4 +1,0 @@
-Este programa é uma ferramenta que permite converter perguntas DNS de UDP para TCP. Isso pode ser útil em situações em que o acesso
-ao DNS é bloqueado, mas o acesso ao TCP ainda é permitido. Ele permite que você acesse sites e outros recursos que normalmente não seriam possíveis de acessar devido a restrições de rede.
-Ele é fácil de usar e pode ser configurado para funcionar com diferentes servidores DNS e configurações de rede. Ele é compatível com sistemas operacionais Windows, Linux e Mac. Com ele é
-possível acessar conteúdos bloqueados e navegar na internet com mais liberdade.

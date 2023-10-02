@@ -1,1 +1,0 @@
-Este módulo, chamado Locale::PO, é usado para traduzir programas escritos em Perl para outros idiomas. Ele faz  isso lendo arquivos PO, que são usados para armazenar traduções. Com este módulo, é possível facilmente traduzir seus programas Perl para outros idiomas, sem precisar fazer muitas alterações no código fonte. 

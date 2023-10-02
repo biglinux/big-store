@@ -1,1 +1,0 @@
-Esta biblioteca é chamada 'portmidi' e ela ajuda a conectar seu programa com as APIs de MIDI do sistema operacional. Isso significa que você pode usar seu programa em vários tipos de computadores e dispositivos, sem precisar mudar muita coisa. Isso é útil se você estiver criando um aplicativo de música ou outro software que precisa trabalhar com som. 

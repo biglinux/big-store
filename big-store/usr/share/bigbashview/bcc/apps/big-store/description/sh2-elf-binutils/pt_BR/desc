@@ -1,1 +1,0 @@
-Esse é um conjunto de programas criados para trabalhar com arquivos binários e de objetos específicos para a arquitetura SuperH SH 2 (bare-metal). Isso inclui ferramentas como o 'as', 'ld' e 'objdump' que são usadas para montar,  ligar e analisar esses arquivos. Essas ferramentas são essenciais para o desenvolvimento de software embarcado para essa arquitetura. 

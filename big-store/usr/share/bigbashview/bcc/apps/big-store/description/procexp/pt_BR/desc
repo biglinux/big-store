@@ -1,5 +1,0 @@
-Este é um programa para explorar processos em um sistema operacional Linux. Ele permite visualizar informações
-sobre os processos em execução no sistema, como o uso de recursos, informações sobre threads e muito mais. É uma ferramenta útil para administradores de sistemas e desenvolvedores que
-precisam entender como os processos estão funcionando no sistema.Com ele, você pode ver informações detalhadas sobre cada processo, incluindo seu nome, uso de CPU, memória e outros
-recursos. Além disso, você pode ver informações sobre as threads associadas a cada processo, o que pode ser útil para identificar problemas de desempenho e outros problemas relacionados aos
-processos.

@@ -1,4 +1,0 @@
-O Buildbox-casd é um programa que permite armazenar em cache e funcionar como proxy para
-servidores CAS (Content Addressable Storage) remotos. Isso significa que, ao invés de acessar diretamente os arquivos em um servidor remoto, o programa armazena uma cópia dos arquivos em um
-local mais próximo, o que pode aumentar significativamente a velocidade de acesso. Além disso, como o programa funciona como um proxy, ele pode ser usado para acessar vários servidores
-remotos diferentes, tornando mais fácil gerenciar e acessar arquivos em diferentes locais.

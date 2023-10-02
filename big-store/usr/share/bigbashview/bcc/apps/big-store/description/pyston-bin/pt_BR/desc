@@ -1,3 +1,0 @@
-Pyston é uma bifurcação do CPython com otimizações adicionais para melhorar o desempenho. Isso significa que ele foi
-modificado para ser mais rápido do que a versão original do Python, tornando-o uma boa escolha para aplicações que exigem muito desempenho.Além disso, o Pyston também é compatível com a
-maioria dos pacotes e bibliotecas do Python, o que significa que você pode usar suas ferramentas e códigos existentes sem problemas. 

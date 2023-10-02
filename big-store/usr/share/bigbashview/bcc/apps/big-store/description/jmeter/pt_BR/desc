@@ -1,3 +1,0 @@
-Jmeter é uma aplicação feita em Java para testar o comportamento funcional e medir desempenho de um programa. Ele é capaz 
-de simular múltiplos usuários acessando o sistema ao mesmo tempo, o que permite verificar como ele se comporta em situações de alta demanda.Com Jmeter, é possível identificar problemas de
-performance antes que eles ocorram em produção, garantindo assim um melhor funcionamento do sistema para os usuários finais.

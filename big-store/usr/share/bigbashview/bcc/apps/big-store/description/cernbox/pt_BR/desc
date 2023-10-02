@@ -1,3 +1,0 @@
-CERNBox é um serviço de nuvem da CERN que permite sincronizar arquivos entre dispositivos. O cliente CERNBox é
-baseado no ownCloud e é usado para fazer essa sincronização. É importante notar que a CERN não oferece suporte oficial para o sistema operacional Arch Linux, então o uso é feito por conta
-própria.

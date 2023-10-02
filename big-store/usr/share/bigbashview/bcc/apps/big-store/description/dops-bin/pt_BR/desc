@@ -1,2 +1,0 @@
-O dops-bin é uma ferramenta para exibição de containers Docker, ele é uma alternativa ao docker-ps padrão e se 
-esforça muito para se ajustar à largura do seu terminal. Com ele, você pode visualizar de forma clara e organizada todos os containers em execução no seu sistema. 

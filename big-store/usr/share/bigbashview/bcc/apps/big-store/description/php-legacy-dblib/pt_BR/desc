@@ -1,1 +1,0 @@
- O módulo php-legacy-dblib é uma biblioteca para o PHP que permite a conexão e utilização de banco de dados Microsoft SQL Server. Ele é uma opção para quem precisa de compatibilidade com versões antigas do PHP e do SQL Server, pois o módulo mais atualizado para essa finalidade é o sqlsrv.  

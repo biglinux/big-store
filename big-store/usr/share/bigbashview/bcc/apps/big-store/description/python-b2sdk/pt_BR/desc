@@ -1,4 +1,0 @@
- Com o programa python-b2sdk, você pode facilmente acessar seus arquivos no armazenamento na nuvem B2. Ele é uma
-biblioteca escrita em Python que lhe dá acesso completo às funções do B2, incluindo upload e download de arquivos.Além disso, ele fornece uma interface simples e intuitiva para gerenciar
-seus arquivos e pastas no B2, permitindo que você faça tarefas como criar e excluir pastas, compartilhar arquivos com outros usuários e muito mais.Se você precisa armazenar e gerenciar
-arquivos no B2, o python-b2sdk é a escolha perfeita para você. 

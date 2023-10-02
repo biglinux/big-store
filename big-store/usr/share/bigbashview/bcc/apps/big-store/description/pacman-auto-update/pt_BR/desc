@@ -1,2 +1,0 @@
-Este programa instala um serviço do systemd que é acionado por um temporizador para realizar atualizações automáticas de
-pacotes do pacman.

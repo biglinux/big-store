@@ -1,1 +1,0 @@
-O editorconfig-core-c é uma biblioteca escrita em C para ser usada por plugins que suportam a leitura de arquivos EditorConfig. Ela é o coração do EditorConfig e permite que outros programas e ferramentas acessem as configurações de formatação de arquivo contidas em arquivos .editorconfig. 

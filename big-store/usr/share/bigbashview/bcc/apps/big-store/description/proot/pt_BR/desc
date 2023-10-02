@@ -1,3 +1,0 @@
-Proot é uma ferramenta que permite a você isolar o sistema de arquivos e executar programas em um ambiente seguro sem
-precisar de privilégios ou configurações complexas. É semelhante ao chroot e ao mount --bind, mas não requer nenhuma configuração adicional. Além disso, ele também suporta binfmt_misc, o
-que significa que você pode executar programas em diferentes formatos de arquivo sem problemas.

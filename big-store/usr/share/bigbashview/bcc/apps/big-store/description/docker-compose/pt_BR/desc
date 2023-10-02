@@ -1,1 +1,0 @@
-Com o uso do Docker, é possível criar ambientes de desenvolvimento rápidos e isolados. Isso significa que você  pode ter vários projetos rodando ao mesmo tempo, sem se preocupar em conflitar com configurações ou dependências de outros projetos. O docker-compose é uma ferramenta que facilita a configuração e gerenciamento desses ambientes. 

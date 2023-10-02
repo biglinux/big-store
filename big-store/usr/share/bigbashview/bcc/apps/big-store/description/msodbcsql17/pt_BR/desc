@@ -1,4 +1,0 @@
-Este é um programa chamado Microsoft® ODBC Driver 17 for SQL Server®. Ele é usado para ajudar outros programas a se comunicarem
-com um banco de dados SQL Server. Ele é importante porque sem ele, os outros programas não saberiam como falar com o banco de dados e não conseguiriam obter ou enviar informações.
-Basicamente, ele age como um tradutor entre o programa e o banco de dados. Ele entende as instruções do programa e as traduz para o banco de dados entender, e também traduz as respostas do 
-banco de dados de volta para o programa.

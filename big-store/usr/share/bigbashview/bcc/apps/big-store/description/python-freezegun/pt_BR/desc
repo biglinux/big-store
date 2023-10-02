@@ -1,1 +1,0 @@
-Com python-freezegun, você pode controlar a data e hora durante os testes do seu código Python. Isso permite que você teste como seu programa se comportaria em momentos diferentes, sem precisar esperar pelo tempo real. Isso é útil para testar coisas como expirações de sessão, prazos de validade de licenças, e muito mais.  

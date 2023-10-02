@@ -1,1 +1,0 @@
-O lm32-elf-gdb é um depurador para o alvo LatticeMico32 (bare-metal) desenvolvido pela GNU. Ele permite aos desenvolvedores encontrar e corrigir erros de código, além de oferecer recursos avançados de depuração, como o passo a passo do código e a visualização de variáveis. 

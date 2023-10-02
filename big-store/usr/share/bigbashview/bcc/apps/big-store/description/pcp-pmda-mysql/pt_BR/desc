@@ -1,1 +1,0 @@
-Este é um agente de coleta de métricas chamado PMDA para o MySQL. Ele é usado para coletar dados sobre o desempenho do seu banco de dados MySQL e enviá-los para o PCP (Performance Co-Pilot) para análise e visualização. 

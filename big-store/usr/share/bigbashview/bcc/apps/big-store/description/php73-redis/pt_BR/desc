@@ -1,3 +1,0 @@
-Este programa é uma API (Application Programming Interface) para comunicar com o armazenamento de chave-valor 
-Redis. Ele permite que você adicione, altere e obtenha dados do Redis de forma simples e eficiente. Além disso, ele é compatível com a versão 7.3 do PHP. É uma ferramenta útil para qualquer
-projeto que precise armazenar e gerenciar dados de forma rápida e escalável.

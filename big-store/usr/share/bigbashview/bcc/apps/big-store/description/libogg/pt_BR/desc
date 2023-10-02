@@ -1,1 +1,0 @@
-libogg é uma biblioteca para lidar com o formato de fluxo de bits Ogg. O formato de fluxo de bits Ogg é um método de  encapsular pacotes de dados, como áudio e vídeo, em um único arquivo. libogg fornece uma maneira de trabalhar com esses pacotes, incluindo a leitura e gravação de arquivos Ogg e streaming de dados Ogg pela internet. 

@@ -1,3 +1,0 @@
-O programa 'python-dacite' é uma biblioteca para Python que facilita a criação de classes de dados (como
-definido no PEP 557) a partir de dicionários. Ele fornece uma maneira simples e rápida de converter dados brutos em objetos Python estruturados, sem precisar escrever muito código
-adicional.Além disso, o dacite também pode ser usado para validação de dados, garantindo que os valores fornecidos estejam de acordo com o esperado.

@@ -1,1 +1,0 @@
-Pango é uma biblioteca para renderização de texto que fornece suporte para vários idiomas e scripts. Ele é usado em vários aplicativos, como o GTK+, GNOME e Firefox. O pangomm é uma biblioteca para usar o Pango com C++. Ele fornece uma interface orientada a objetos para trabalhar com texto e fontes. A versão atual é 2.48. 

@@ -1,1 +1,0 @@
- Este programa é uma interface para a conversão de códigos de caractere. Ele usa a biblioteca iconv para fazer essa conversão. É escrito em Perl e é chamado de perl-text-iconv. Ele permite que você converta arquivos de texto de um conjunto de caracteres para outro, tornando mais fácil trabalhar com arquivos que contenham caracteres especiais ou idiomas diferentes.  

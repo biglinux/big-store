@@ -1,3 +1,0 @@
-Este programa é uma visualização de arquivos DICOM, desenvolvido pela OFFIS. Ele inclui arquivos JNI (Java Native Interface)
-para permitir que o programa funcione em sistemas Java.Com este visualizador, é possível abrir e visualizar imagens DICOM, além de ter acesso às informações de metadados contidas nessas
-imagens.

@@ -1,3 +1,0 @@
-Este programa é um cliente IRC (Internet Relay Chat) simples e minimalista. Ele funciona com base em FIFO
-(First In, First Out) e sistemas de arquivos, o que significa que ele usa uma fila para gerenciar as mensagens e salva as conversas em arquivos no seu computador. Com este programa, você
-pode se conectar a diversos canais de bate-papo e conversar com outras pessoas ao redor do mundo.

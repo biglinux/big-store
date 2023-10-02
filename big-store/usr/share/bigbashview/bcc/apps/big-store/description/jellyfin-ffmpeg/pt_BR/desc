@@ -1,4 +1,0 @@
-O Jellyfin-FFmpeg é um complemento para o aplicativo de mídia Jellyfin que permite a reprodução de vídeos com formatos e 
-codecs adicionais. Ele usa a biblioteca FFmpeg para decodificar esses formatos de vídeo e codecs. Com o Jellyfin-FFmpeg instalado, você poderá reproduzir arquivos de vídeo que antes não
-eram suportados pelo Jellyfin. Isso inclui formatos como H.265 e codecs como AC3.Além disso, o complemento também melhora a qualidade de reprodução de arquivos de vídeo suportados
-nativamente pelo Jellyfin.

@@ -1,1 +1,0 @@
-Popeye é um programa que ajuda a limpar recursos de um cluster Kubernetes. Ele verifica se há algo que não está sendo usado e remove esses recursos para liberar espaço e melhorar a performance do cluster. 

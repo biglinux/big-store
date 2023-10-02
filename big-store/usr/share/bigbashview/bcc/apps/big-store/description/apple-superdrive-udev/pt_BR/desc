@@ -1,3 +1,0 @@
-Este é um programa que cria uma regra para o gerenciador de dispositivos udev, permitindo que o SuperDrive USB da Apple
-funcione corretamente no sistema. Ele é especificamente projetado para resolver problemas de compatibilidade com esse dispositivo em sistemas Linux. Ao instalar e configurar este programa, 
-você poderá usar o seu SuperDrive da Apple sem problemas, sem precisar se preocupar com conflitos ou erros de compatibilidade.

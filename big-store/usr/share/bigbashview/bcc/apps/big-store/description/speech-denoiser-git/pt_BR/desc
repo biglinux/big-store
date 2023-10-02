@@ -1,3 +1,0 @@
-Este programa é um plugin para remover ruídos indesejados de áudios de voz. Ele é baseado na biblioteca RNNoise e funciona
-como um plugin LV2.Com ele, é possível melhorar a qualidade do áudio, tornando a voz mais clara e fácil de ouvir. Ele é útil em situações como gravações em ambientes barulhentos ou em
-áudios que foram comprometidos por ruídos.

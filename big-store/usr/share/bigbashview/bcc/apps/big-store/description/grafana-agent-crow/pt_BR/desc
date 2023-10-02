@@ -1,1 +1,0 @@
-Esta ferramenta tem como objetivo verificar a correção das métricas coletadas. Ela valida se as métricas coletadas estão sendo entregues corretamente para o endpoint remoto de escrita. O nome desse programa é grafana-agent-crow. 

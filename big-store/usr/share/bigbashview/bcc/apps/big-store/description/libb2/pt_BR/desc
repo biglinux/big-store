@@ -1,1 +1,0 @@
-Essa é uma biblioteca em C que fornece funções de hash BLAKE2b, BLAKE2s, BLAKE2bp e BLAKE2sp. Elas são úteis para garantir a segurança e a integridade dos dados. As funções de hash são como uma impressão digital dos dados, e se algo mudar neles, a impressão digital também  muda. Dessa forma, é possível verificar se os dados foram modificados de alguma forma indesejada.  

@@ -1,3 +1,0 @@
-Esta é uma biblioteca de acesso em espaço de usuário para os dispositivos Phidget. Ela permite que você conecte
-e controle dispositivos Phidget, como sensores e atuadores, usando código em seu aplicativo. A biblioteca fornece uma interface fácil de usar para acessar as funcionalidades dos
-dispositivos, como ler e escrever dados, configurar parâmetros e receber eventos. Ela é compatível com várias linguagens de programação, como C, C++, C#, Java, Python e muito mais. 

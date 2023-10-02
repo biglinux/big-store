@@ -1,3 +1,0 @@
-Se você está desenvolvendo algum programa em C++ e precisa lidar com tokens JWT, essa biblioteca pode ser a solução para você!
-Ela oferece uma forma fácil de criar, ler e validar tokens JWT em seus projetos.JWT, ou JSON Web Token, é uma forma segura de transmitir informações em aplicações web. Com essa biblioteca, 
-você pode integrar facilmente a funcionalidade de tokens JWT em seu código C++.

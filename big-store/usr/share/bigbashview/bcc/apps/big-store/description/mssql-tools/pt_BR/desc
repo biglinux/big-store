@@ -1,5 +1,0 @@
-As ferramentas SQL Server para Linux são uma coleção de ferramentas de linha de comando que permitem trabalhar com o banco 
-de dados SQL Server no Linux. Elas incluem ferramentas como sqlcmd e bcp, que permitem executar comandos SQL e importar e exportar dados, respectivamente. Essas ferramentas são
-desenvolvidas pela Microsoft e são compatíveis com as versões mais recentes do SQL Server.Com elas, é possível realizar tarefas comuns de administração de banco de dados, como criar
-tabelas, inserir dados, atualizar registros e consultar informações. Além disso, as ferramentas também permitem automatizar tarefas e gerenciar o banco de dados remotamente.Essas
-ferramentas são uma boa opção para administradores de banco de dados que trabalham com sistemas Linux e precisam gerenciar o SQL Server.

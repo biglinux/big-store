@@ -1,4 +1,0 @@
-O LTTng é um conjunto de ferramentas de rastreamento de Linux que permite aos desenvolvedores e administradores de sistemas coletar
-informações sobre o desempenho e o comportamento do kernel Linux. Os módulos do kernel LTTng são componentes adicionais que precisam ser carregados no kernel Linux para que o LTTng possa
-funcionar corretamente. Eles permitem que o LTTng colete informações do kernel Linux, como chamadas de sistema, eventos de interrupção e outras informações de baixo nível. Isso é útil para 
-entender como o kernel Linux está funcionando e para encontrar problemas de desempenho.

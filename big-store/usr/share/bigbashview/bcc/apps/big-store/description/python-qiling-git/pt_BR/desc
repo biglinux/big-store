@@ -1,3 +1,0 @@
-O python-qiling-git é um framework de emulação de binários avançado. Ele permite que você execute código binário em diferentes 
-sistemas operacionais e arquiteturas sem precisar ter esses sistemas instalados. Isso é útil para testes de segurança, análise de malware e outras tarefas relacionadas a binários. Ele é
-escrito em Python e é baseado no projeto Qiling.

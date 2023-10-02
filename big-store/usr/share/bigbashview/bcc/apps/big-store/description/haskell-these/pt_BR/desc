@@ -1,1 +1,0 @@
-O tipo de dados 'either-or-both' é uma estrutura de dados presente na linguagem de programação Haskell que permite ao programador escolher entre duas opções ou ambas. Isso é útil em situações em que é necessário trabalhar com dois tipos de dados diferentes e é desejável ter a flexibilidade de escolher entre eles.  

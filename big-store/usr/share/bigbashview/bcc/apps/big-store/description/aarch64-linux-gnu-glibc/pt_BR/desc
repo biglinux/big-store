@@ -1,1 +1,0 @@
-Essa é uma biblioteca C específica para sistemas operacionais que usam o processador ARM64. Ela é chamada de 'aarch64-linux-gnu-glibc' e é parte do projeto GNU. Ela fornece as funções básicas e as rotinas para o desenvolvimento de programas em C para essa arquitetura de processador. 

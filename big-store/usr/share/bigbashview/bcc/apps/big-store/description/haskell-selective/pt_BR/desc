@@ -1,1 +1,0 @@
-O Haskell tem um recurso chamado de functor aplicativo seletivo, que permite aos desenvolvedores escolher quais funções devem ser aplicadas em determinados elementos de uma estrutura de dados. Isso é útil para evitar a aplicação de funções desnecessárias e otimizar o desempenho do programa. 

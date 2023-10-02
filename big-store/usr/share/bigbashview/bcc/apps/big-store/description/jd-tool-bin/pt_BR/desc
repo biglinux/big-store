@@ -1,3 +1,0 @@
- Este programa é chamado de jd-tool-bin e é usado para comparar duas versões de um arquivo JSON e encontrar as
-diferenças entre elas. Ele também pode ser usado para corrigir essas diferenças, ou seja, aplicar as alterações de uma versão para outra.Ele é útil para garantir que os arquivos JSON
-estejam sempre atualizados e corretos, e também pode ser útil para sincronizar dados entre diferentes sistemas. 

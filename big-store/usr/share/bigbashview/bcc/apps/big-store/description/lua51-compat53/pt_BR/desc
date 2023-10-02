@@ -1,1 +1,0 @@
-Este módulo fornece compatibilidade para as APIs do Lua 5.3 para que possam ser usadas com a versão 5.1 do Lua. Isso permite que os desenvolvedores continuem usando suas habilidades e códigos já existentes sem se preocupar com a mudança de versão. 

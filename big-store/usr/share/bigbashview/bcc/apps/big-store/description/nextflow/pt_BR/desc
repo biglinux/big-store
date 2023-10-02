@@ -1,6 +1,0 @@
-Nextflow é um programa que permite criar fluxos de dados de forma fácil e rápida. Ele utiliza uma linguagem específica, 
-chamada DSL, que permite que você defina etapas de processamento para seus dados e faça com que elas sejam executadas de forma automatizada. Isso é útil para quem precisa trabalhar com
-grandes quantidades de dados e quer que tudo seja feito de forma organizada.Com Nextflow, é possível criar pipelines de dados, que são séries de etapas que os dados precisam passar antes de
-serem utilizados. Cada etapa pode ser executada por um programa diferente, mas Nextflow cuida de fazer a comunicação entre eles, de forma que os dados saiam de uma etapa e vão para a
-próxima sem problemas.Além disso, Nextflow permite que você faça o gerenciamento de recursos de forma automatizada. Isso significa que ele cuida de distribuir as tarefas entre diferentes
-máquinas, de forma que elas possam ser executadas de forma paralela e o processamento seja mais rápido.

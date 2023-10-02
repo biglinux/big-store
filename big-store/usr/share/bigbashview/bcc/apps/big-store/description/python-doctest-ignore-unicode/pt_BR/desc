@@ -1,1 +1,0 @@
-Este plugin para o nose permite ignorar os prefixos literais unicode em exemplos de código  dentro de documentação (doctests). Isso pode ser útil em caso de problemas com a codificação de caracteres ou diferenças de plataforma. Ele é especificamente projetado para trabalhar com o  python. 

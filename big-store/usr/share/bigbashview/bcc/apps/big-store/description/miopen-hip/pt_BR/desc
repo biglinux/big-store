@@ -1,4 +1,0 @@
-A biblioteca de inteligência artificial da AMD, chamada miopen-hip, é uma ferramenta poderosa para
-desenvolvedores que trabalham com processadores da AMD. Ela fornece uma variedade de funções e recursos para ajudar a aumentar a eficiência e a velocidade dos seus projetos. Além disso, ela
-é projetada para ser fácil de usar e entender, mesmo para aqueles que não são especialistas em inteligência artificial.A biblioteca é especificamente projetada para funcionar com o HIP, que
-é uma plataforma de computação de alto desempenho da AMD. Isso significa que os desenvolvedores podem aproveitar ao máximo o poder dos processadores AMD ao usar essa biblioteca.

@@ -1,3 +1,0 @@
-Esse programa é uma forma interativa de adicionar novos usuários no sistema operacional Slackware Linux. Ele acessa o comando 
-'/usr/bin/useradd' e facilita o processo de criação de novas contas de usuário.Com ele, é possível criar novas contas de forma rápida e fácil, sem precisar digitar comandos complexos no
-terminal.

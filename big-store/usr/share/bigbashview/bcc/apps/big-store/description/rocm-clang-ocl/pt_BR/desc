@@ -1,5 +1,0 @@
- O programa rocm-clang-ocl é uma ferramenta que permite que você compile seu código OpenCL usando o compilador clang. Isso
-significa que você pode escrever seu código OpenCL da maneira como está acostumado e, em seguida, usar esse programa para transformá-lo em código que pode ser executado em dispositivos
-compatíveis com OpenCL, como placas de vídeo.Além disso, o rocm-clang-ocl também oferece suporte a outros recursos, como otimizações de desempenho, ferramentas de depuração e outras
-ferramentas para ajudar a melhorar seu fluxo de trabalho.Em resumo, se você precisar compilar código OpenCL e deseja fazer isso usando o compilador clang, o rocm-clang-ocl é uma
-excelente opção para considerar. 

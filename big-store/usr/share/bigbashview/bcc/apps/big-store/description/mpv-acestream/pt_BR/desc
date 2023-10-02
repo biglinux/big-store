@@ -1,2 +1,0 @@
-Esse é um script Lua que adiciona suporte para o protocolo AceStream ao reprodutor mpv. Com ele, você pode assistir a 
-vídeos usando o AceStream sem precisar abrir outro programa.Basta usar o mpv normalmente e os links AceStream serão reconhecidos automaticamente.

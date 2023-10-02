@@ -1,1 +1,0 @@
-Essa biblioteca contém várias implementações de mapas de hash, incluindo implementações que otimizam para espaço ou velocidade.A biblioteca se chama sparsehash e é útil para quem precisa de uma estrutura de dados rápida e eficiente para armazenar e recuperar informações. 

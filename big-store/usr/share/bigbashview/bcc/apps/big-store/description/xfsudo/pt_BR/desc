@@ -1,4 +1,0 @@
-Com o xfsudo, você pode executar aplicativos gráficos como superusuário usando o comando 'sudo'. Isso é útil 
-quando você precisa acessar recursos do sistema que só podem ser acessados pelo usuário root, mas não deseja fazer login como root. Isso também permite que você execute aplicativos com
-privilégios de superusuário sem precisar sair da sua sessão de usuário atual.Para usar o xfsudo, basta abrir o terminal e digitar 'xfsudo' seguido pelo nome do aplicativo que você deseja
-executar. Por exemplo, para executar o gerenciador de arquivos como superusuário, você pode digitar 'xfsudo nautilus'.

@@ -1,3 +1,0 @@
- Qddcswitch é um programa simples que permite mudar as entradas de tela usando o Qt. Ele usa o ddcutil, que é uma
-ferramenta de linha de comando, para fazer essa mudança de forma rápida e fácil. Com ele, você pode conectar vários dispositivos, como computadores ou dispositivos móveis, à sua tela e
-alternar entre eles facilmente. Além disso, ele tem uma interface amigável que é fácil de usar, mesmo para aqueles que não são tão familiarizados com a tecnologia. 

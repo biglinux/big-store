@@ -1,3 +1,0 @@
- Este é um módulo para o PHP 8.2 que permite acessar a memória compartilhada. Isso significa que você pode
-compartilhar dados entre diferentes processos em um sistema operacional. Isso é útil quando você precisa compartilhar informações entre scripts ou programas em diferentes linguagens de
-programação.O módulo shmop é fácil de usar e possui muitas funções úteis para manipular a memória compartilhada. Ele é compatível com sistemas operacionais como Linux, Unix e Windows. 

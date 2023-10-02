@@ -1,3 +1,0 @@
-Este é um programa chamado trunk-bin que ajuda a compactar aplicativos web feitos em Rust. Ele é chamado de compactador
-porque ele junta tudo o que é necessário para o aplicativo funcionar em um só lugar, tornando-o mais fácil de usar e distribuir. Ele também usa uma tecnologia chamada WASM para ajudar a
-tornar o aplicativo mais rápido e eficiente.

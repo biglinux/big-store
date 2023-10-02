@@ -1,4 +1,0 @@
-Este programa é um transceptor SDR (Software Defined Radio) Multimodo. Ele é projetado para ser usado com o GNU radio, uma
-plataforma de rádio definida por software livre. Isso significa que ele permite que você transmita e receba sinais de rádio usando seu computador, e pode ser configurado para funcionar com 
-vários modos de transmissão, como AM, FM, SSB e outros. É uma ferramenta poderosa para os entusiastas de rádio e os profissionais que precisam de flexibilidade e controle completo sobre
-suas transmissões.

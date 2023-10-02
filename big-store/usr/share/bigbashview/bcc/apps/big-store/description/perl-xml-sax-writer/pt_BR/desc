@@ -1,1 +1,0 @@
-O módulo perl-xml-sax-writer é um módulo escritor de SAX2 para o Perl. Ele permite que você gere documentos XML usando o padrão SAX2 para controlar o fluxo de geração do documento. Ele fornece uma interface simples e fácil de usar para criar documentos XML, tornando-o uma escolha popular para desenvolvedores  que precisam gerar documentos XML dinamicamente em suas aplicações. 

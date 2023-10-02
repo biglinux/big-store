@@ -1,1 +1,0 @@
-O python-argparse-manpage é uma ferramenta que gera automaticamente man pages para seus programas Python. Ele usa o módulo argparse para analisar argumentos de linha de comando e, em seguida, cria uma man page com base nas informações fornecidas. Isso facilita a criação de man pages profissionais para seus projetos, sem precisar escrever manualmente o texto e a formatação. 

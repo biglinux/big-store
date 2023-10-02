@@ -1,3 +1,0 @@
-A ferramenta de código aberto chamada openssl-static é usada para garantir a segurança de conexões online. Ela
-ajuda a proteger informações sensíveis, como senhas e dados pessoais, ao criptografar essas informações durante a transmissão pela internet. Além disso, essa ferramenta vem com bibliotecas 
-estáticas, o que significa que ela pode ser usada sem precisar de outras bibliotecas adicionais.

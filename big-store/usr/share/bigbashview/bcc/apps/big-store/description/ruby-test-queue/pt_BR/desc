@@ -1,1 +1,0 @@
-ruby-test-queue é um executor de testes paralelos para ambientes de integração contínua. Ele permite que você  execute vários testes de forma simultânea, aumentando a velocidade de execução e melhorando a eficiência do processo de testes. Com ruby-test-queue, você pode economizar tempo e recursos, permitindo que você se concentre em outras tarefas importantes. 

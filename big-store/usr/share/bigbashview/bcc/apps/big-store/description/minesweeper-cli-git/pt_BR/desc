@@ -1,4 +1,0 @@
-Este é um programa chamado minesweeper-cli-git, ele é uma versão do jogo de campo minado que você pode jogar no seu
-terminal. Ele foi feito para sistemas semelhantes ao Unix, como o Linux ou o MacOS. No jogo, você precisa marcar as minas com um bandeira para evitar clicar nelas e perder. Enquanto você
-vai marcando as minas, você também pode descobrir o número de minas em volta de cada espaço vazio. Assim, você pode usar essas informações para adivinhar onde as minas estão e evitá-las. É 
-um jogo divertido e desafiador que você pode jogar diretamente no seu terminal.

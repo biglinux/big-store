@@ -1,1 +1,0 @@
-O pacote 'perl-b-keywords' fornece uma lista de palavras reservadas e nomes de símbolos para o interpretador de linguagem Perl. Essas palavras e símbolos não podem ser usados como nomes de variáveis ou funções e são reservados para uso exclusivo pelo interpretador. 

@@ -1,1 +1,0 @@
-Esta biblioteca permite que você chame métodos remotamente através de HTTP utilizando o formato JSON-RPC. Ela segue  a sintaxe de xmlrpclib, tornando mais fácil para quem já está familiarizado com essa biblioteca. É construída com o framework Pelix. 

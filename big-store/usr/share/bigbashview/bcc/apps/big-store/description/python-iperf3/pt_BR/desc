@@ -1,2 +1,0 @@
- Essa é uma biblioteca para usar com a ferramenta de linha de comando iperf3. Ela permite que você faça testes de velocidade de
-rede usando o python ao invés de usar o comando diretamente. Isso pode ser útil se você quiser automatizar esses testes ou incorporá-los em outros programas. 

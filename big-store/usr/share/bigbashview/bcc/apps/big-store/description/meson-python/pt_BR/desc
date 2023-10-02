@@ -1,1 +1,0 @@
-Meson é uma ferramenta de construção de software que suporta o PEP 517 para construir pacotes Python de forma rápida e eficiente. Ele é projetado para ser simples de usar e integrado com outras ferramentas de construção, como o Ninja. Ele também pode ser usado como um backend para construir outros pacotes além de Python. 

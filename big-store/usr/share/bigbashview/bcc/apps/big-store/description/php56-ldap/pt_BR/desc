@@ -1,3 +1,0 @@
-Este é um módulo que permite a utilização do protocolo LDAP com a versão 5.6 do PHP. Com ele, é possível realizar operações de
-busca, edição e exclusão de informações em diretórios LDAP de forma simples e intuitiva, diretamente a partir do seu código PHP.Se você precisa trabalhar com informações armazenadas em um
-diretório LDAP e está usando a versão 5.6 do PHP, este módulo é uma ótima opção para facilitar o seu trabalho.

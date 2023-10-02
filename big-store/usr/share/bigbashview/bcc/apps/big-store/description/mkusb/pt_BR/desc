@@ -1,2 +1,0 @@
-mkusb é um script de shell que permite criar pendrive USB multiboot com arquivos ISO. Ele suporta tanto o boot legacy
-quanto o EFI. Com ele, é possível inicializar vários sistemas operacionais a partir de um único pendrive.

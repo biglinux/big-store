@@ -1,1 +1,0 @@
-'Haskell-vec' é uma lista indexada por tamanho. Isso significa que ela é organizada de forma que cada elemento tem um índice baseado no tamanho da lista. Isso permite que você acesse elementos específicos com facilidade e eficiência. 

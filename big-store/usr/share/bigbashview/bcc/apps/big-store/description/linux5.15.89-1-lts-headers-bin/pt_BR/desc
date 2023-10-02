@@ -1,4 +1,0 @@
-Este programa é composto por cabeçalhos e scripts que ajudam na construção de módulos para o kernel Linux LTS
-(Long-term Support) versão 5.15.89-1-lts. O kernel Linux é o núcleo do sistema operacional e esses cabeçalhos e scripts são fundamentais para que programadores possam criar novos recursos e
-corrigir bugs no sistema.Este pacote específico é para usuários do Linux que desejam manter sua versão do sistema atualizada por um longo período de tempo, garantindo estabilidade e
-segurança.

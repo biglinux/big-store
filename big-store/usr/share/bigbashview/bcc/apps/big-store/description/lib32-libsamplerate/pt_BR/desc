@@ -1,1 +1,0 @@
-lib32-libsamplerate é uma biblioteca que permite a conversão de taxa de amostragem de áudio. Isso significa que ela pode mudar a velocidade de reprodução de um arquivo de áudio sem afetar sua altura (tom). Isso é útil em situações em que é necessário sincronizar o áudio com outros elementos, como vídeo, ou ajustar a velocidade de reprodução para suas necessidades pessoais. 

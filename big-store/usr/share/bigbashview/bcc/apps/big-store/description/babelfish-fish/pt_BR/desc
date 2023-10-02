@@ -1,4 +1,0 @@
-Este programa é projetado para traduzir scripts escritos em Bash para o idioma Fish. Isso pode ser útil se você estiver
-migrando de um sistema que usa Bash para um que usa Fish como shell padrão, ou se desejar usar uma sintaxe de comando diferente. O programa funciona convertendo cada linha de comando Bash
-em uma linha equivalente em Fish, garantindo que seu script funcione da mesma maneira após a conversão. Ele suporta várias opções de saída para personalizar a conversão de acordo com suas
-necessidades. Além disso, o programa também oferece recursos de depuração para ajudar a identificar e corrigir erros no script original antes da conversão. 

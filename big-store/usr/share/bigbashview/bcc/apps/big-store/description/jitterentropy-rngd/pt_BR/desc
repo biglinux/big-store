@@ -1,3 +1,0 @@
-Este programa é chamado de 'Jitter RNG daemon' e é usado para gerar números aleatórios. Ele usa uma técnica chamada 'jitter
-entropy' para criar números realmente aleatórios, o que é importante para muitas aplicações criptográficas. Ele roda como um daemon, ou seja, um programa que fica rodando em segundo plano e
-esperando ser chamado.

@@ -1,4 +1,0 @@
-Essa é uma biblioteca geral para usuários do ThinkPad. Ela é usada para ajudar os usuários a acessar e controlar diferentes recursos
-do seu ThinkPad, como por exemplo o teclado, touchpad, e até mesmo a bateria. Ela é escrita em linguagem de programação C e é projetada para ser usada em sistemas operacionais baseados em
-Linux.Com essa biblioteca, os usuários podem escrever seus próprios programas para controlar seu ThinkPad de acordo com suas necessidades. Isso inclui funções como desabilitar o teclado
-numérico, mudar a sensibilidade do touchpad, e até mesmo verificar o nível da bateria. Ela é uma ferramenta útil para usuários avançados que querem ter mais controle sobre seu ThinkPad.

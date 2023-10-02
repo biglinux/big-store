@@ -1,1 +1,0 @@
-Esta é uma biblioteca de implementação abstracta para emular um terminal VT220/xterm/ECMA-48. Ela permite que você crie programas que possam se comunicar com terminais virtuais, como se estivessem lidando com terminais reais. Isso é útil para criar aplicativos de terminal, como emuladores de terminal, ferramentas de automação, etc. A biblioteca é chamada libvterm. 

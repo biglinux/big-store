@@ -1,3 +1,0 @@
-Assim como o cURL, mas para gRPC: grpcurl-bin é uma ferramenta de linha de comando que permite interagir com
-servidores gRPC. Ele permite fazer chamadas de método, enviar e receber dados e muito mais. É fácil de usar e é uma ótima opção para desenvolvedores que precisam testar suas aplicações
-gRPC. 

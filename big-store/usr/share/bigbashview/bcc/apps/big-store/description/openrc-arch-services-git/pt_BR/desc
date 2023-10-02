@@ -1,4 +1,0 @@
-Esse programa fornece scripts de serviço para o sistema operacional Arch Linux, que funcionam com o gerenciador de
-inicialização OpenRC. Eles permitem que você gerencie os serviços do seu sistema, como o gerenciamento de redes e a inicialização de programas, de maneira fácil e eficiente.Com os scripts
-de serviço, você pode facilmente iniciar, parar e verificar o status dos serviços do seu sistema, sem precisar digitar comandos complexos. Além disso, eles são desenvolvidos especificamente
-para o Arch Linux, garantindo compatibilidade perfeita com o sistema.

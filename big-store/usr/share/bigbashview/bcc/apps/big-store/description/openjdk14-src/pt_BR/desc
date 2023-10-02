@@ -1,4 +1,0 @@
- O OpenJDK é uma implementação de código aberto do Java Development Kit (JDK). Ele fornece tudo o que é necessário para
-desenvolver e executar aplicativos Java.O pacote openjdk14-src inclui os fontes do Java 14 do OpenJDK. Isso significa que você tem acesso ao código-fonte do Java 14 e pode personalizá-lo
-de acordo com suas necessidades.Este pacote é útil para desenvolvedores de software que desejam compreender como o Java funciona internamente ou precisam fazer modificações específicas
-no código. 

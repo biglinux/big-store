@@ -1,1 +1,0 @@
-O slirp4netns é um programa de rede que permite aos usuários criarem namespaces de rede sem privilégios. Isso significa que você pode ter vários ambientes de rede separados uns dos outros, sem precisar de privilégios administrativos. É uma solução útil para quem precisa de segurança adicional na rede ou para testar configurações de rede sem afetar outros ambientes.  

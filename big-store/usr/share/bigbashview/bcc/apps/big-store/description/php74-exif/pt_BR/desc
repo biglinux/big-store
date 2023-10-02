@@ -1,3 +1,0 @@
-Este é um módulo adicional para o PHP74 que permite ler e escrever informações de metadados de imagens. Ele permite que você extraia
-informações como a data e hora em que a imagem foi tirada, a marca e modelo da câmera, e outras informações úteis. Com este módulo, você pode usar o PHP para processar imagens e obter
-informações valiosas delas.

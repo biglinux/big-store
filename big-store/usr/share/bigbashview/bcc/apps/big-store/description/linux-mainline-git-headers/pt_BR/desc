@@ -1,4 +1,0 @@
-Este programa fornece cabeçalhos e scripts para construir módulos para o kernel Linux de Linus Torvalds. O kernel Linux 
-é o coração do sistema operacional Linux e esses cabeçalhos e scripts ajudam a desenvolver novos recursos e corrigir problemas para a versão principal do kernel.Este programa específico é
-baseado na versão mais recente do kernel, conhecida como 'mainline', e é mantido pela comunidade de desenvolvedores. Ele é constantemente atualizado para incluir as últimas correções de
-segurança e novas funcionalidades.

@@ -1,1 +1,0 @@
-Esta ferramenta permite que você use a API do NetworkManager de forma mais fácil. Ela é chamada de 'networkmanager-qt' e é uma espécie de 'embrulho' para a API, o que significa que ela torna as coisas mais fáceis de usar. Com ela, você pode gerenciar sua conexão à internet e ver informações sobre redes sem fio com mais facilidade. 

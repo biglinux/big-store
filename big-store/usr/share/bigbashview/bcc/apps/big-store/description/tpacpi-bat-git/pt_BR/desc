@@ -1,3 +1,0 @@
-Este programa é um script escrito em Perl que permite gerenciar a bateria de alguns modelos de ThinkPad que não são
-suportados pelo tp_smapi. Ele realiza chamadas ACPI para ajustar configurações como o limite de carga e a duração da bateria.É especialmente útil para usuários que possuem modelos mais
-recentes de ThinkPad e desejam personalizar a gestão de bateria de acordo com suas necessidades.

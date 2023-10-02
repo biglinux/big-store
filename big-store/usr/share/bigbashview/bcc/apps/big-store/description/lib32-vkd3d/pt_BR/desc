@@ -1,1 +1,0 @@
-A biblioteca vkd3d é uma tradução do Direct3D 12 para o Vulkan. Ela é desenvolvida pela WineHQ e tem como objetivo permitir que jogos e aplicativos que usam o Direct3D 12 possam ser executados em sistemas que usam o Vulkan como sua API de gráficos. Dessa forma, os usuários podem desfrutar de uma melhor performance e compatibilidade com esses programas. 

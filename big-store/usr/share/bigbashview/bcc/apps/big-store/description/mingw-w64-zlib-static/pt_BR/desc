@@ -1,3 +1,0 @@
-Esta é uma biblioteca de compressão e descompressão chamada mingw-w64-zlib-static. Ela é usada para reduzir o tamanho 
-dos arquivos, o que torna mais fácil enviá-los ou armazená-los. Também é possível descompactar esses arquivos para recuperar seu conteúdo original. Esta biblioteca específica é desenvolvida
-para ser usada com o software mingw-w64.

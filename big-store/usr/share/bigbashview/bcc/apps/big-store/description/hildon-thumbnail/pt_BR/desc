@@ -1,4 +1,0 @@
-O gerador de miniaturas Hildon é um programa que cria miniaturas de imagens, vídeos e outros tipos de arquivos. Ele é executado
-como um daemon, ou seja, um programa de fundo, e fica sempre ativo no sistema, pronto para criar miniaturas sempre que necessário. Isso torna a visualização dos arquivos mais rápida e
-fácil, já que as miniaturas são exibidas ao invés de ter que abrir cada arquivo para ver o conteúdo. Ele é especialmente útil em dispositivos móveis, como smartphones e tablets, onde a tela
-é menor e precisa de visualizações mais compactas.

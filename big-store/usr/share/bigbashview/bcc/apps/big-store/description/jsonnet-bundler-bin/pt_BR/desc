@@ -1,3 +1,0 @@
-O jsonnet-bundler-bin é um gerenciador de pacotes para o jsonnet, uma linguagem de programação criada para ajudar a configurar
-e manter aplicações de forma clara e organizada. Com ele, é possível instalar, atualizar e remover pacotes jsonnet de forma fácil e rápida. Além disso, ele também permite criar arquivos
-.lock para garantir que a versão dos pacotes utilizados seja sempre a mesma em todos os ambientes.

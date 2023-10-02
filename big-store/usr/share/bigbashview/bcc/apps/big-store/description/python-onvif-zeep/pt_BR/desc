@@ -1,3 +1,0 @@
-Esse programa é uma implementação do protocolo ONVIF em Python, usando a biblioteca zeep. Ele é útil para se conectar a dispositivos 
-de vigilância compatíveis com ONVIF e controlá-los através de código Python.ONVIF é uma padronização para comunicação entre dispositivos de vigilância, como câmeras e gravadores. Com esse
-programa, você pode automatizar tarefas como mudar configurações de câmera, ver imagens ao vivo e gravar vídeos.

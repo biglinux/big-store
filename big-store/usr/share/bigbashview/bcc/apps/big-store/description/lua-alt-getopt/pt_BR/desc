@@ -1,1 +1,0 @@
-Este módulo Lua é semelhante ao getopt_long(3) e é compatível com a versão 5.4 do Lua. Ele permite que você processar e gerenciar opções de linha de comando de maneira fácil e eficiente em seus scripts Lua. 

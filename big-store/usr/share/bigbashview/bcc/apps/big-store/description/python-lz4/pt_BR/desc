@@ -1,1 +1,0 @@
-A biblioteca python-lz4 permite compactar arquivos em Python de forma rápida e eficiente. Ela utiliza o algoritmo LZ4, que é conhecido por sua velocidade e compressão eficiente. Esta biblioteca é útil para quem precisa compactar arquivos grandes em Python, sem afetar significativamente o desempenho do sistema. 

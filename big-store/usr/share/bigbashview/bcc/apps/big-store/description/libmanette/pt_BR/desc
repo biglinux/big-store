@@ -1,1 +1,0 @@
-Libmanette é uma biblioteca simples que ajuda a controlar jogos usando GObject, um sistema para desenvolvimento de aplicativos em C. Ela torna mais fácil trabalhar com entradas de jogos, como controles de joystick e botões, e pode ser usada em várias plataformas, como Linux e Windows. 

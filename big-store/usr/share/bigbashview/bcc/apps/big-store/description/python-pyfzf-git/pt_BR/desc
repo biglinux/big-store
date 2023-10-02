@@ -1,5 +1,0 @@
-Este programa é uma ferramenta que facilita a busca e seleção de arquivos em seu computador. Ele usa o 'fzf', que é
-uma ferramenta de linha de comando, e o envolve em uma interface em python. Isso permite que você encontre e selecione arquivos de forma rápida e fácil, diretamente no seu terminal.Você
-pode usar o programa para encontrar arquivos específicos, selecionando-os por nome ou extensão, ou para navegar através de sua estrutura de arquivos. Ele também oferece suporte à seleção
-múltipla, o que significa que você pode selecionar vários arquivos de uma só vez.Este programa é útil para qualquer pessoa que precisa encontrar e selecionar arquivos rapidamente e
-facilmente, especialmente se você trabalha com muitos arquivos diferentes ou se você precisa frequentemente mudar entre pastas diferentes.

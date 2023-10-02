@@ -1,1 +1,0 @@
-A biblioteca ruby-childprocess é uma ferramenta para gerenciar processos filhos em Ruby. Com ela é possível iniciar novos processos, conectar-se a suas entradas/saídas/erros e obter o status de saída. Ela também possui suporte a timeouts, grupos de processos e manipulação avançada de sinais. Essa biblioteca é multiplataforma e funciona em Windows, Mac e Linux.  

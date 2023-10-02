@@ -1,3 +1,0 @@
-Este programa é uma implementação significativamente estendida e robusta do JSONPath para o Python. Ele permite que 
-você facilmente navegue e extraia informações de documentos JSON de forma similar à XPath para XML. Ele é útil para acessar dados em arquivos JSON grandes ou complexos, sem precisar
-escrever código longo e confuso.

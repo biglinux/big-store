@@ -1,3 +1,0 @@
-Esse programa ajuda a configurar a frequência de PWM (pulso largura modulada) em gráficos Intel HD
-utilizando o módulo modprobe.d. Isso é importante porque a frequência PWM afeta a luminosidade da tela e pode ser ajustada para melhorar a qualidade de imagem e economizar bateria.É fácil
-de usar, basta seguir as instruções e ajustar as configurações de acordo com suas necessidades. Recomendamos testar diferentes configurações para encontrar a melhor opção para você.

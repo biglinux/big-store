@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.3 que permite a manipulação de strings de diversos tipos de encoding, como UTF-8,
-ISO-8859-1, entre outros. Ele é muito útil para trabalhar com conteúdo em diferentes idiomas e pode ser usado para validações, conversões e outras tarefas relacionadas a strings.Ele
-inclui uma série de funções que tornam mais fácil trabalhar com strings multibyte, incluindo funções para contagem de caracteres, corte e substituição, entre outras.

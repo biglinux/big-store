@@ -1,3 +1,0 @@
- Timeshift é uma ferramenta de restauração do sistema para Linux. Ele permite que você crie snapshots do seu sistema em 
-diferentes momentos, permitindo que você volte para esses snapshots se algo der errado com o sistema. Isso é útil para manter seu sistema seguro e estável, pois você pode facilmente voltar 
-para um ponto anterior se algo der errado. Além disso, ele é fácil de usar e pode ser configurado para criar snapshots automaticamente. 

@@ -1,4 +1,0 @@
-Esta é a aplicação de criptografia de ponta a ponta para o Nextcloud. Ela fornece aos usuários a capacidade de
-criptografar seus arquivos de forma que somente eles possam desbloquear e acessá-los. Isso garante que somente as pessoas autorizadas possam ver o conteúdo dos arquivos, mesmo se eles
-caírem em mãos erradas. Com essa aplicação, os usuários também podem compartilhar arquivos de forma segura com outras pessoas, sabendo que somente as pessoas com as chaves corretas poderão 
-acessá-los.

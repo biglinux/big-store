@@ -1,3 +1,0 @@
-Este programa é uma implementação leve da biblioteca de sistema C. Ele é projetado especificamente para o conjunto de 
-instruções RISC-V. Isso significa que ele é otimizado para trabalhar com processadores RISC-V e pode ser usado para construir aplicativos e sistemas operacionais para esses processadores. É
-uma boa escolha para projetos que precisam de desempenho eficiente de recursos.

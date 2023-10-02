@@ -1,3 +1,0 @@
-wxWidgets é uma ferramenta de desenvolvimento de interface que permite criar aplicativos para várias plataformas, 
-como Windows, Mac e Linux, usando uma única fonte de código. Ele é baseado em C++ e é compatível com o Qt5, o que significa que ele pode ser usado para criar aplicativos com uma interface
-gráfica do usuário (GUI) sem depender do GNOME ou do GStreamer.

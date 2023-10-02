@@ -1,2 +1,0 @@
- Go-Task é um programa que ajuda a gerenciar as tarefas que você precisa realizar. Ele é uma alternativa para o Make e
-funciona com arquivos de tarefas. Ele é instalado como Go-Task para evitar conflitos com o Taskwarrior.

@@ -1,3 +1,0 @@
-Este programa é uma forma fácil e intuitiva de gerenciar seus downloads de torrent usando o Transmission. Ele
-oferece uma interface baseada em curses, o que permite a você controlar os torrents de forma rápida e fácil, sem precisar de uma interface gráfica. Além disso, ele é uma versão em Python 3 
-do transmission-remote-cli, o que garante uma compatibilidade total com as últimas versões do Transmission.

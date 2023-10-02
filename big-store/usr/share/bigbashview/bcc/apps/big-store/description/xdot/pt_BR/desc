@@ -1,1 +1,0 @@
-xdot é um visualizador interativo para gráficos escritos na linguagem dot do Graphviz. Ele usa o programa de layout dot do pacote Graphviz para calcular as posições dos nós e arestas e, em seguida, desenha o gráfico usando a biblioteca de gráficos 2D Cairo. 

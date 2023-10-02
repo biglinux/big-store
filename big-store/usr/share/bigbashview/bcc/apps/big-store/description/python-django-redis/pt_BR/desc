@@ -1,4 +1,0 @@
-Este programa permite que você use o Redis como mecanismo de cache em seu projeto Django. Ele é um backend completo, 
-o que significa que ele oferece todas as funcionalidades que o Django já oferece para cache, mas usando o Redis como base. Isso inclui suporte a vários níveis de cache, tempo de expiração
-de chave, bloqueio de cache e outras opções avançadas.Além disso, este programa é compatível com a maioria das versões recentes do Django e do Redis, então é fácil de instalar e
-configurar.

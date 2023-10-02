@@ -1,4 +1,0 @@
-Este é um driver específico para a impressora Brother MFC-1910W. Ele permite que você conecte e use sua impressora em seu
-computador usando o protocolo LPR (Line Printer Remote) ou o CUPS (Common Unix Printing System). Isso significa que você poderá imprimir documentos e outros arquivos diretamente do seu
-computador para a sua impressora.Com esse driver, você também pode acessar e modificar as configurações da sua impressora, como a qualidade da impressão e a escolha do papel, diretamente do
-seu computador.

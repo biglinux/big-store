@@ -1,1 +1,0 @@
-Esta é uma biblioteca para usar a compressão Zstandard (zstd) em seus programas Python. Ela fornece 'bindings' (ligações) para você usar essa biblioteca de compressão diretamente no seu código Python.Isso pode ser útil para comprimir e descomprimir arquivos ou dados, economizando espaço em disco e melhorando a velocidade de transferência de arquivos. 

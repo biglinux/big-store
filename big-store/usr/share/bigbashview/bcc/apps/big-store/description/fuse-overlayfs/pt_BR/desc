@@ -1,1 +1,0 @@
-O fuse-overlayfs é uma implementação do sistema de arquivos overlayfs utilizando o FUSE (File system in Userspace). Ele permite que um usuário monte duas estruturas de arquivos separadas, uma sobre a outra, formando uma única hierarquia de arquivos. Isso é útil para tarefas como ocultar arquivos, modificar arquivos temporariamente, ou adicionar arquivos comuns a várias pastas. 

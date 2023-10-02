@@ -1,3 +1,0 @@
-Este programa é chamado de mingw-w64-corrosion e ele ajuda a juntar o Rust com um projeto CMake existente. Ele é especialmente útil
-para quem está trabalhando com o MinGW-w64. Isso significa que você pode adicionar todas as vantagens do Rust à sua aplicação, enquanto ainda mantém toda a estrutura do CMake. É uma ótima
-opção para desenvolvedores que querem aproveitar o poder do Rust sem precisar mudar tudo o que já está funcionando.

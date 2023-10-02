@@ -1,3 +1,0 @@
- Este programa é uma ferramenta simples que ajuda a inverter as cores de todas as telas conectadas ao computador, usando o 
-XrandR. Ele é útil para pessoas com problemas de visão, ou para quem gosta de um visual diferente. Para usá-lo, basta abrir o terminal e digitar o nome do programa, xrandr-invert-colors.
-Ele irá inverter as cores de todas as telas conectadas automaticamente. Além disso, é possível desinverter as cores de volta ao normal, digitando o comando novamente no terminal.

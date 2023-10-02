@@ -1,2 +1,0 @@
- Este programa é uma bifurcação de rEFIt, criado por Rod Smith. Ele é um gerenciador de inicialização UEFI, ou seja, ele
-ajuda o seu computador a iniciar corretamente. Ele foi construído com as bibliotecas GNU-EFI e já vem pré-compilado, ou seja, já está pronto para uso. 

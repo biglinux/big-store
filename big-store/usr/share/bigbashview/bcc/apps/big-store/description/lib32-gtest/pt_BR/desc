@@ -1,4 +1,0 @@
-Se você está procurando uma forma de realizar testes em seu código C++, a biblioteca lib32-gtest pode ser uma boa
-opção. Ela é baseada no framework xUnit, assim como o JUnit, e foi desenvolvida pela Google. Com a lib32-gtest, você pode criar testes automatizados para verificar se o seu código está
-funcionando corretamente antes de lançá-lo em produção.A lib32-gtest é uma biblioteca fácil de usar e tem recursos avançados para ajudá-lo a garantir a qualidade do seu código. Além disso, 
-ela é compatível com a maioria dos sistemas operacionais e compiladores, o que significa que você pode usá-la em praticamente qualquer projeto C++ que você esteja trabalhando.

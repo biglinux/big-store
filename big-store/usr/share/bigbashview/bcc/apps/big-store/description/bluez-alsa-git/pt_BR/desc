@@ -1,4 +1,0 @@
- Este programa, chamado bluez-alsa-git, é um backend ALSA para áudio Bluetooth no Linux. Isso significa que ele ajuda a fazer com
-que os dispositivos Bluetooth, como fones de ouvido e alto-falantes, funcionem com seu computador Linux. Ele é especialmente útil se você estiver usando uma distribuição Linux avançada,
-pois é um programa desenvolvido de forma independente e não vem incluído em todas as distribuições.Com ele instalado, você pode conectar seus dispositivos Bluetooth com facilidade e
-desfrutar de áudio de alta qualidade. Ele é atualizado regularmente, então você pode esperar suporte para os dispositivos mais recentes e correções de bugs. 

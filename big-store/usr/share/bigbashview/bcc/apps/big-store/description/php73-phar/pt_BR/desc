@@ -1,3 +1,0 @@
-Este programa é um módulo para o PHP 7.3 que adiciona suporte a arquivos Phar. Phar é um formato de arquivo que permite agrupar
-vários arquivos em um único arquivo, facilitando a distribuição e gerenciamento de aplicações PHP. Com este módulo, os desenvolvedores podem criar e trabalhar com arquivos Phar de forma
-fácil e eficiente, garantindo que suas aplicações sejam distribuídas de forma organizada e prática.

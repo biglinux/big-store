@@ -1,4 +1,0 @@
- Este programa é um analisador simples de argumentos e opções para o C++. Ele permite que você facilmente lidar com
-argumentos e opções passadas para seu programa a partir da linha de comando. Isso inclui tarefas como definir valores padrão, marcar argumentos obrigatórios e verificar se os argumentos
-fornecidos são válidos.Utilizando esse programa, você pode tornar seu código mais fácil de entender e manter, tornando a lógica de processamento de argumentos e opções mais clara e
-organizada. Além disso, ele também pode ser útil para criar programas com interface de linha de comando mais amigáveis e fáceis de usar. 

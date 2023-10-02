@@ -1,1 +1,0 @@
- Esse programa é uma biblioteca de runtime para projetos Python desenvolvidos na Amazon Web Services (AWS). Ele fornece uma forma fácil de acessar recursos da AWS, como o Amazon S3 e o Amazon DynamoDB, além de suporte para autenticação e segurança. Com esse runtime, você pode construir aplicativos mais rapidamente e de forma mais segura.  

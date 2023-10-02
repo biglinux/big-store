@@ -1,1 +1,0 @@
-cargo-watch é uma ferramenta de linha de comando para o gerenciador de pacotes Cargo para a linguagem de programação Rust. Ele permite que você recompile automaticamente seu projeto quando qualquer um dos arquivos de origem mudar. Isso pode ser muito útil ao desenvolver e testar seu código, pois economiza a necessidade de recompilar manualmente sempre que você faz uma alteração. 

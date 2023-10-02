@@ -1,4 +1,0 @@
-O OPCache é um módulo para o PHP que melhora a velocidade de carregamento de páginas. Ele armazena as versões compiladas dos
-scripts PHP em cache, permitindo que eles sejam carregados mais rapidamente a cada vez que são requisitados. Este módulo específico é projetado para ser usado com a versão 73 do
-PHP.Instalar esse módulo em seu servidor pode melhorar significativamente a velocidade de carregamento de suas páginas PHP e melhorar o desempenho geral do seu site. Ele é particularmente
-útil em sites com alto tráfego ou que executam muitos scripts PHP.

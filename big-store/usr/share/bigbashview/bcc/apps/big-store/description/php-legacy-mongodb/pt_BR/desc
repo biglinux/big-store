@@ -1,1 +1,0 @@
-Esse programa é um driver para conectar sua aplicação PHP antiga ao banco de dados MongoDB. Ele é útil para quem precisa manter compatibilidade com versões antigas do PHP mas ainda quer utilizar o MongoDB. 

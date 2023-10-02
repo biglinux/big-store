@@ -1,3 +1,0 @@
- smcroute é uma ferramenta de linha de comando que ajuda a manipular o
-roteamento multicast do kernel. Ele permite que você adicione, remova e liste regras de roteamento multicast, além de ajudar a monitorar e depurar problemas relacionados ao roteamento
-multicast. É uma ferramenta útil para administradores de rede e desenvolvedores de sistemas que precisam gerenciar o tráfego multicast em sua rede. 

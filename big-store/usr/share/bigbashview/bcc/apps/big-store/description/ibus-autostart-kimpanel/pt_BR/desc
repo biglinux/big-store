@@ -1,3 +1,0 @@
-Esse programa é responsável por iniciar automaticamente o iBus, que é um daemon (um programa de fundo) que permite a entrada
-de idiomas diferentes no seu computador. Ele utiliza a especificação XDG Autostart, o que significa que ele inicia junto com o sistema operacional.Além disso, ele tem suporte ao kimpanel,
-que é uma interface de entrada de idiomas coreana.

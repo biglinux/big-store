@@ -1,4 +1,0 @@
-Gulkan é uma biblioteca GLib que foi criada para facilitar o uso da API de computação gráfica Vulkan. Ele oferece uma
-camada de abstração para simplificar a programação de aplicativos que utilizam essa tecnologia. Isso significa que, ao invés de trabalhar diretamente com as chamadas complexas da API
-Vulkan, você pode usar as funções fornecidas pela Gulkan para realizar tarefas comuns de forma mais simples e intuitiva.Além disso, essa biblioteca foi desenvolvida como projeto
-open-source, permitindo que desenvolvedores contribuam e melhorem o seu código.

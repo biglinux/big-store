@@ -1,3 +1,0 @@
-Este é um script para o Polybar que permite exibir e controlar sua mídia (não apenas o Spotify) usando o DBus. Ele é
-chamado 'polybar-now-playing-git' e é fácil de configurar e usar. Ele mostrará o nome da música, artista e capa do álbum atualmente reproduzido e também permite controlar as mídias (play,
-pause, etc) diretamente do Polybar.

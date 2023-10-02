@@ -1,1 +1,0 @@
-Este programa fornece acesso às classes de monitoramento de posição, satélite e área. Ele utiliza a biblioteca Qt5 para isso e é muito útil para aplicativos que precisam obter informações sobre a localização do usuário ou monitorar determinadas áreas. Com ele, você pode desenvolver aplicativos mais precisos e personalizados para suas necessidades. 

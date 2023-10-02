@@ -1,4 +1,0 @@
- Este é um programa chamado Mikrotik Netinstall que ajuda a instalar o sistema operacional RouterOS em roteadores Mikrotik.
-Ele tem uma interface gráfica fácil de usar que roda através do wine. Ele é útil para instalar o sistema operacional em muitos roteadores de uma só vez, sem precisar fazer isso manualmente 
-em cada um deles.Com este programa, você pode selecionar vários roteadores ao mesmo tempo e iniciar a instalação do sistema operacional em todos eles de forma automática. Isso é útil
-para redes de grande porte ou para instalar o sistema operacional em vários roteadores remotamente. 

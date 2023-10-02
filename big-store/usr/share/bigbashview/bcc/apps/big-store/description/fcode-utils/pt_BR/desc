@@ -1,2 +1,0 @@
- Ferramentas para processar o byte code do OpenFirmware, o FCODE. Essas ferramentas ajudam a gerenciar e manipular o código 
-FCODE, tornando mais fácil trabalhar com esse tipo de arquivo. Elas podem ser usadas para extrair informações do código, modificá-lo ou até mesmo criar novos arquivos FCODE. 

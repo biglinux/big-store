@@ -1,3 +1,0 @@
-Este programa utiliza modelos treinados para reconhecer rostos usando a biblioteca python face_recognition. Com ele, é
-possível identificar rostos em fotos e vídeos, e até mesmo comparar rostos para verificar se são de uma mesma pessoa.É uma ferramenta poderosa para aplicações de segurança, como acesso
-por reconhecimento facial, ou para organizar suas fotos pessoais. 

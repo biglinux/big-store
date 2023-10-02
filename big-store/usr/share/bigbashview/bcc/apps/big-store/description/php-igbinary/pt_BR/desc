@@ -1,1 +1,0 @@
-Esse programa é uma opção para substituir o serializador padrão do PHP. Ele é conhecido como php-igbinary e é usado para armazenar dados em um formato compacto, o que pode ajudar a economizar espaço e aumentar a velocidade de processamento. Além disso, ele é compatível com a maioria das versões do  PHP, o que facilita a sua implementação em projetos já existentes. 

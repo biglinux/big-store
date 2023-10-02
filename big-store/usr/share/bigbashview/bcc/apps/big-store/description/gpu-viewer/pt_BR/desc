@@ -1,4 +1,0 @@
-Este programa é uma ferramenta para visualizar informações sobre a GPU (placa gráfica) do seu computador. Ele usa outros programas,
-chamados glxinfo e vulkaninfo, para coletar as informações e exibi-las de forma fácil de entender. Com ele, você pode ver detalhes como o modelo da sua GPU, a velocidade do clock, a
-quantidade de memória e muito mais.É uma ferramenta útil para quem quer saber mais sobre o hardware do seu computador, especialmente se você é um jogador ou trabalha com edição de vídeo ou 
-outras tarefas que exigem muito desempenho gráfico.

@@ -1,2 +1,0 @@
- Este programa é uma frente de Rust para o GCC (compilador de C). Ele permite que você use o Rust como a linguagem de programação 
-principal, mas ainda use as ferramentas do GCC. Esta é a versão mais recente do código, disponível através do sistema de controle de versão git. 

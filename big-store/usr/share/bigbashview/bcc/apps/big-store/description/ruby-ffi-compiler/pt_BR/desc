@@ -1,1 +1,0 @@
-Esta biblioteca Ruby é projetada para automatizar o processo de compilação de bibliotecas nativas para uso com o ffi. Ele facilita o uso de código nativo escrito em outras linguagens com seu aplicativo Ruby, sem precisar escrever wrappers complexos. 

@@ -1,1 +1,0 @@
-A biblioteca libgnome-keyring é uma biblioteca desatualizada para armazenar senhas e outras informações sensíveis. Ela era usada no ambiente de trabalho GNOME, mas já não é mais desenvolvida ativamente e foi substituída por soluções mais novas. Programas que ainda dependem da libgnome-keyring precisarão ser atualizados para usar uma biblioteca diferente. 

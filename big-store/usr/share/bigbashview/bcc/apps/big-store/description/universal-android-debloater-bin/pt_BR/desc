@@ -1,3 +1,0 @@
-Este programa é uma ferramenta para remover programas indesejados do seu dispositivo Android. Ele é escrito em Rust 
-e usa o ADB (Android Debug Bridge) para funcionar. Ele é compatível com várias plataformas e pode ser usado em dispositivos não raizados.Com ele, você pode remover aplicativos que vieram
-pré-instalados no seu dispositivo e que você não usa, economizando espaço e melhorando o desempenho do seu dispositivo.

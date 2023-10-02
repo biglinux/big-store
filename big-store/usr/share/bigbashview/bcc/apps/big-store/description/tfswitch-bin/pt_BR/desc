@@ -1,4 +1,0 @@
- O tfswitch-bin é uma ferramenta de linha de comando que permite mudar entre diferentes versões do Terraform. Ele já vem
-compilado, o que significa que você não precisa se preocupar em compilá-lo antes de usá-lo.Com apenas alguns cliques, você pode mudar facilmente de uma versão antiga para a mais recente, 
-ou vice-versa. Isso é útil se você precisar trabalhar com diferentes projetos que exigem versões diferentes do Terraform.Além disso, o tfswitch-bin é fácil de usar, mesmo para aqueles que
-não têm muita experiência com linha de comando. Basta seguir as instruções na tela e você estará mudando de versão em pouco tempo. 

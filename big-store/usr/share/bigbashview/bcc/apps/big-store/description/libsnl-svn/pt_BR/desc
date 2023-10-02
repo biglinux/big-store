@@ -1,5 +1,0 @@
-A libSNL é uma biblioteca de rotinas utilizadas para a manipulação de curvas e superfícies NURBS.
-Ela é desenvolvida em C++ e possui diversas funções que facilitam a criação, edição e visualização de objetos NURBS. O objetivo principal da biblioteca é fornecer uma ferramenta poderosa e 
-fácil de usar para programadores que precisam trabalhar com esses tipos de objetos 3D.Algumas das principais características da libSNL incluem suporte a arquivos de formato IGES e STEP,
-suporte a vários sistemas de coordenadas, e capacidade de trabalhar com curvas e superfícies de qualquer grau. A biblioteca também possui uma interface gráfica, que permite aos usuários
-visualizar e editar objetos NURBS de forma interativa.

@@ -1,3 +1,0 @@
-picotool-git é uma ferramenta desenvolvida para interagir com dispositivos RP2040 em modo BOOTSEL ou com um 
-binário RP2040. Ela permite realizar ações como carregar um firmware no dispositivo ou ler informações do mesmo.É uma ferramenta útil para desenvolvedores e engenheiros que trabalham com
-esses dispositivos, pois facilita as tarefas de interação com os mesmos.

@@ -1,3 +1,0 @@
- Este é um programa que permite controlar o player de música com o gerenciador de sistemas Systemd. Ele é uma unidade de
-usuário do systemd, o que significa que ele é específico para um usuário específico no sistema. Isso significa que ele só pode ser usado e gerenciado por essa pessoa específica. Com este
-programa, você pode iniciar, parar e controlar o player de música facilmente através do Systemd. 

@@ -1,3 +1,0 @@
- Este programa é chamado SimpRead e serve para sincronizar arquivos PDF entre diferentes dispositivos. Isso significa que você
-pode ler um livro no seu computador e continuar lendo exatamente onde parou no seu celular ou tablet. Além disso, você pode marcar as páginas e adicionar anotações, e essas informações
-serão sincronizadas também.Ele usa o servidor Git para fazer a sincronização, o que significa que você precisa ter uma conta no Git para usar esse programa. 

@@ -1,5 +1,0 @@
-Este é um programa que ajuda a instalar outros programas no sistema operacional Arch Linux. Ele tem um sistema
-de comandos semelhante ao que você já está acostumado a usar. Isso significa que você pode usar os mesmos comandos que já conhece para instalar programas, mas agora com mais facilidade e
-rapidez.Por exemplo, se você quiser instalar o programa 'VLC', basta digitar o comando 'aur install vlc' e o programa cuidará de tudo para você. Ele baixará o programa, instalará as
-dependências necessárias e fará todos os passos necessários para deixar o programa pronto para uso. Além disso, ele também permite gerenciar atualizações e remover programas de forma fácil 
-e rápida.

@@ -1,3 +1,0 @@
- Este programa é um módulo ortográfico para o PHP73. Ele adiciona a capacidade de verificar a ortografia de palavras dentro do
-seu código PHP. Isso pode ser útil se você estiver criando um formulário de contato ou qualquer outra coisa que requer entrada de texto do usuário. Com este módulo, você pode garantir que
-as palavras estejam escritas corretamente antes de enviá-las para o banco de dados ou outro lugar. 

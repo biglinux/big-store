@@ -1,1 +1,0 @@
-A intel-opencl-clang é uma biblioteca criada em torno do compilador clang que permite compilar kernels OpenCL C para módulos SPIR-V. Isso significa que é possível usar o código OpenCL C para rodar em dispositivos compatíveis com o SPIR-V, como as GPUs da Intel. A biblioteca é útil para desenvolvedores que precisam otimizar seus aplicativos para rodar em dispositivos da Intel. 

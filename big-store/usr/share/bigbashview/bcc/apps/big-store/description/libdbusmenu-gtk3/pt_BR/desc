@@ -1,1 +1,0 @@
-Esta é uma biblioteca chamada libdbusmenu-gtk3. Ela é usada para passar menus através do protocolo DBus, especificamente para  a biblioteca GTK+ 3. Isso significa que ela é usada para criar e gerenciar menus em aplicativos que usam essa biblioteca. 

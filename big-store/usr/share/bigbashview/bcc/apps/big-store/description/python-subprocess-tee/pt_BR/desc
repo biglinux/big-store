@@ -1,1 +1,0 @@
-Existe um comando no python chamado 'subprocess.run' que funciona de forma semelhante ao comando 'tee' do Linux. Ele permite que você execute um comando externo e envie a saída para vários lugares ao mesmo tempo, como arquivos ou outros processos. Isso é útil quando você quer registrar a saída de um comando enquanto ainda a exibe na tela. 

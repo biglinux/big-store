@@ -1,1 +1,0 @@
-suil é uma biblioteca leve escrita em C que permite carregar e envolver interfaces de plugins LV2. Ela é projetada para ser fácil de usar e integrar em outros aplicativos e sistemas. Com suil, os desenvolvedores podem adicionar facilmente suporte a interfaces de plugins LV2 em seus próprios projetos sem precisar lidar com a complexidade de baixo nível das especificações LV2. 

@@ -1,3 +1,0 @@
- Uma biblioteca escrita em Python 3.7+ para trabalhar com o protocolo XMPP (Extensible Messaging and Presence Protocol). É uma
-fork do projeto SleekXMPP, adaptado para funcionar com o gerenciamento de eventos assíncronos do Python. Com ela, é possível criar aplicativos de mensagens instantâneas, como chats, com
-facilidade. 

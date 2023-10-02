@@ -1,1 +1,0 @@
-luksmeta é uma biblioteca que permite armazenar metadados adicionais no cabeçalho de um disco criptografado LUKSv1. Isso pode ser útil para armazenar informações como o nome do dispositivo ou o usuário proprietário sem comprometer a segurança da criptografia. A biblioteca é fácil de usar e se integra facilmente com outros aplicativos de criptografia. 

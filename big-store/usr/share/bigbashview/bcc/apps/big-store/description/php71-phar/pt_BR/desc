@@ -1,3 +1,0 @@
-Este programa adiciona suporte ao PHAR (PHP Archive) no PHP 7.1. O PHAR é um formato de arquivo especial que permite que 
-você empacote vários arquivos PHP em um único arquivo, facilitando a distribuição e a instalação de aplicativos PHP. Com este módulo instalado, você poderá trabalhar com arquivos PHAR de
-forma nativa no PHP 7.1, sem precisar de bibliotecas adicionais.Além disso, o módulo também oferece recursos adicionais de segurança e gerenciamento de arquivos para arquivos PHAR.

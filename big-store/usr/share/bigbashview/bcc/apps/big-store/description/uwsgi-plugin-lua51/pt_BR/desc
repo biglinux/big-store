@@ -1,1 +1,0 @@
-O uwsgi-plugin-lua51 é um plugin para o uWSGI que permite a utilização do Lua como linguagem de programação para desenvolvimento de aplicações web. Ele é compatível com a versão 5.1 do Lua e oferece recursos como suporte a múltiplos protocolos, escalabilidade e integração com outras ferramentas de desenvolvimento web. 

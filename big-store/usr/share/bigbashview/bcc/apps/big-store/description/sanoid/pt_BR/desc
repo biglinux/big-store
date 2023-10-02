@@ -1,4 +1,0 @@
-Sanoid é um conjunto de ferramentas para gerenciar snapshots, enviar e receber conjuntos de dados (Syncoid) e pesquisar
-snapshots (Findoid) no ZFS. Ele permite que você crie políticas para garantir que os snapshots sejam criados e mantidos de acordo com suas necessidades, tornando o processo de backup e
-recuperação de dados mais fácil e seguro.Além disso, o Syncoid permite que você envie e receba conjuntos de dados para outros sistemas ZFS, enquanto o Findoid oferece uma maneira rápida e
-fácil de encontrar snapshots específicos usando uma variedade de critérios de pesquisa.

@@ -1,1 +1,0 @@
-O pacote python-itsdangerous fornece uma série de ferramentas para ajudar a passar dados confiáveis, como informações de sessão, para ambientes não confiáveis. Ele oferece recursos de assinatura digital e criptografia para garantir a segurança dos dados. 

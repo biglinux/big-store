@@ -1,2 +1,0 @@
-Esta é uma biblioteca para ajudar a criar editores de código. Ela é chamada gtksourceview e é usada pelo GNOME, que é um
-sistema operacional. Ela adiciona mais recursos para o GtkTextView, que é outra biblioteca usada para criar caixas de texto.

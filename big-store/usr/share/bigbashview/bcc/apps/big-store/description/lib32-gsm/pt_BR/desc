@@ -1,3 +1,0 @@
-Essa é uma biblioteca compartilhada que ajuda a comprimir o som da voz de acordo com o padrão GSM 06.10. Ela é usada para
-tornar os arquivos de áudio menores, sem perder muita qualidade. Com essa biblioteca, é possível guardar mais arquivos de áudio em um mesmo espaço, sem precisar se preocupar com o tamanho
-excessivo dos arquivos.

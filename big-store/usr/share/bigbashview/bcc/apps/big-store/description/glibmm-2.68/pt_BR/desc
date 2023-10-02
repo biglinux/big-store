@@ -1,1 +1,0 @@
-glibmm é uma biblioteca C++ que fornece acesso aos recursos do GLib. A versão atual é a 2.68. Esta biblioteca é projetada para ser usada junto com o GTK +, um conjunto de bibliotecas para criar interfaces gráficas de usuário. Com glibmm, os desenvolvedores podem escrever aplicativos GTK + usando a linguagem C++. 

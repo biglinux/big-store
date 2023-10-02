@@ -1,1 +1,0 @@
-Este repositório contém implementações de Bloom Filter, tanto puros quanto impuros, escritas em Haskell.Bloom Filter é uma estrutura de dados utilizada para verificar rapidamente se um determinado elemento está presente em um conjunto grande. Ele é eficiente em termos de espaço e é usado em várias  aplicações, como verificação de spam e filtragem de conteúdo. 

@@ -1,1 +1,0 @@
-Este programa é uma interface gráfica para o utilitário sha1sum do GNU Coreutils. Ele permite aos usuários verificar a integridade dos arquivos através do cálculo do hash SHA1. É uma forma fácil e intuitiva de garantir que os arquivos não foram alterados ou corrompidos.  

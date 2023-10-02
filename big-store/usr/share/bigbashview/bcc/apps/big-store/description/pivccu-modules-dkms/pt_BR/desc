@@ -1,4 +1,0 @@
-Os módulos do kernel são necessários para o funcionamento do Homematic. Esses módulos permitem que o sistema Homematic se
-comunique com os dispositivos conectados em sua rede. Sem esses módulos, o Homematic não funcionará corretamente.O pivccu-modules-dkms é um pacote de módulos do kernel específico para o
-sistema Homematic. Ele é responsável por fornecer as funcionalidades necessárias para que o sistema Homematic possa funcionar de forma correta e se comunicar com os dispositivos
-conectados.

@@ -1,1 +1,0 @@
-Este programa, chamado python-jsonpointer, permite identificar nós específicos em um documento JSON de acordo com a especificação RFC 6901. Isso pode ser útil para acessar informações específicas em um arquivo grande ou complexo sem precisar percorrê-lo inteiro. 

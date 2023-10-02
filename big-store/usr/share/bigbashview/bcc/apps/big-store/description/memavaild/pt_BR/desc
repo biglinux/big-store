@@ -1,3 +1,0 @@
- Este é um programa chamado memavaild que ajuda a melhorar a velocidade e resposta do sistema durante o uso intensivo de 
-troca de memória (swapping).Ele funciona como um daemon, ou seja, um processo em segundo plano que monitora e gerencia a memória do sistema, garantindo que as tarefas sejam executadas de
-forma mais eficiente. 

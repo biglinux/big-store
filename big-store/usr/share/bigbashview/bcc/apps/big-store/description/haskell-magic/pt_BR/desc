@@ -1,1 +1,0 @@
-Essa biblioteca permite que você acesse arquivos C a partir do código escrito em Haskell. Ela se conecta à biblioteca 'magic' para identificar o tipo de arquivo e ler seu conteúdo de forma eficiente. 

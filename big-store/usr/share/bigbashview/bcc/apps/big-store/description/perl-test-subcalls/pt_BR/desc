@@ -1,1 +1,0 @@
-Este programa, escrito em Perl, permite rastrear o número de vezes que uma sub-rotina é chamada. Isso pode ser útil para  entender o desempenho de um código ou identificar possíveis problemas de eficiência. O nome do programa é 'perl-test-subcalls'. Ele foi escrito em Perl e pode ser facilmente integrado a outros projetos escritos na mesma linguagem. 

@@ -1,4 +1,0 @@
-Ananicy Cpp é uma reescrita completa de Ananicy em C++, com menor uso de CPU e RAM. Ele é projetado para ajudar a
-gerenciar o uso de recursos do seu computador, especificamente para programas escritos em C++. Ele funciona monitorando e ajustando dinamicamente a prioridade de processos para garantir que
-eles usem os recursos de forma equilibrada.Além disso, ele possui configurações avançadas para usuários que desejam ajustar o comportamento do programa de acordo com suas necessidades
-específicas.

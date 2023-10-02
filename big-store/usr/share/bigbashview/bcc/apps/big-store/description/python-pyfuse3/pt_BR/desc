@@ -1,3 +1,0 @@
- Este é um programa feito em Python que permite que você use a biblioteca FUSE em seus projetos. Ele é compatível com a 
-versão 3 do Python e possui uma API assíncrona (que funciona bem com o Trio). Isso significa que você pode criar programas que montam sistemas de arquivos virtuais, como se fossem pastas e 
-arquivos normais no seu computador. 

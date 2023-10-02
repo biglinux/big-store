@@ -1,1 +1,0 @@
-amavisd-new é uma interface de alta performance entre o correio (MTA) e verificadores de conteúdo: é um verificador de conteúdo SMTP independente do MTA. Ele se comunica com o MTA via (E)SMTP ou LMTP, ou usando programas auxiliares, como procmail ou maildrop. 

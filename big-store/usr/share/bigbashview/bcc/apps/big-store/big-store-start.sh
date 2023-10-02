@@ -90,7 +90,7 @@ function sh_big_store_start_sh_main {
 	}
 
 	# reformat pretry .ini
-	[[ -e "$INI_FILE_BIG_STORE" ]] && tini_pretty "$INI_FILE_BIG_STORE"
+	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
 #	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.AlignIniFile "$INI_FILE_BIG_STORE"
 
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then

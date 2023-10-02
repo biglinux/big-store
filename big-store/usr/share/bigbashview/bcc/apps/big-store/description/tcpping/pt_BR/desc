@@ -1,4 +1,0 @@
-tcpping é uma ferramenta para medir tempos de resposta de um servidor usando pacotes TCP SYN. Ele é útil para
-identificar problemas de latência em sua rede e para fazer comparações entre diferentes servidores. Com tcpping, você pode ver quanto tempo leva para seu computador enviar um pacote TCP SYN
-para o servidor e receber uma resposta TCP SYN-ACK de volta.Para usar o tcpping, você precisa digitar o comando 'tcpping' seguido pelo endereço IP ou nome de host do servidor que deseja
-testar. O tcpping irá enviar vários pacotes TCP SYN para o servidor e mostrará o tempo de resposta médio, o desvio padrão e o tempo mínimo e máximo.

@@ -1,3 +1,0 @@
-Com o nginx-mainline-mod-http-xslt-filter, é possível transformar as respostas XML do nginx usando folhas de estilo
-XSLT. Isso permite que você altere a aparência dos dados XML sem precisar modificar o próprio arquivo XML. Isso é útil para tornar os dados mais legíveis ou para adaptá-los ao layout de um 
-site.

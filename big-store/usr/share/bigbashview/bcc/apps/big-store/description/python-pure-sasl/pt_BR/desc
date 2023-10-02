@@ -1,1 +1,0 @@
-Este é um programa escrito inteiramente em Python que implementa o mecanismo de autenticação SASL. Ele é útil para quem precisa adicionar autenticação em suas aplicações Python.Com ele, é possível garantir que somente usuários autorizados tenham acesso a determinadas funcionalidades ou dados, protegendo assim a privacidade e a segurança de sua aplicação. 

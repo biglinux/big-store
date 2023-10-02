@@ -1,4 +1,0 @@
-QuickGUI é uma ferramenta de interface gráfica para o uso de outros programas, como o Quickget e o Quickemu.
-Ele permite que você execute esses programas de maneira mais fácil e intuitiva, sem precisar digitar comandos no terminal. Com o QuickGUI, você pode acessar as funcionalidades dos programas
-de emulação de maneira rápida e simples, bastando apenas clicar em botões e selecionar opções. Além disso, ele é construído usando Flutter, o que garante uma boa performance e uma interface
-amigável. 

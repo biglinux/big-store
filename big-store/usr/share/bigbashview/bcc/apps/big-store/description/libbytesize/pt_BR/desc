@@ -1,1 +1,0 @@
-Essa biblioteca fornece uma classe C para trabalhar com tamanhos grandes em bytes. Ela é  útil para programas que lidam com arquivos ou dados muito grandes e precisam de precisão em suas medições de tamanho. Com ela, é possível trabalhar com tamanhos maiores do que o limite de tamanho de memória de um computador, tornando-a útil para aplicações em servidores ou em nuvem. 

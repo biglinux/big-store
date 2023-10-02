@@ -1,1 +1,0 @@
-Este programa foi criado para tratar e interpretar as datas no formato ISO 8601, originariamente a partir do aeson. Ele é escrito em Haskell e utiliza a biblioteca attoparsec para realizar essa tarefa. 

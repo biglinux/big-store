@@ -1,1 +1,0 @@
-python-hiredis é um cliente Redis não-bloqueante para a linguagem de programação Python. Ele fornece uma maneira rápida e eficiente de se comunicar com um banco de dados Redis usando a biblioteca C hiredis. 

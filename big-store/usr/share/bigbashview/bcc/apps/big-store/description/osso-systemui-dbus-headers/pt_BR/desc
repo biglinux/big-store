@@ -1,2 +1,0 @@
-Este programa fornece cabeçalhos para as chamadas D-Bus feitas pela interface do sistema, e os sinais emitidos por ela. Isso
-permite que outros programas se comuniquem com a interface do sistema e realizem tarefas, como mudar configurações ou obter informações.

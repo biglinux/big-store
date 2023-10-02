@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.0 que permite ao usuário controlar processos em seu sistema. Isso inclui funções
-para iniciar, parar e monitorar processos, bem como enviar sinais para eles. Com esse módulo, é possível criar scripts PHP que possam se comunicar com outros processos em execução no
-sistema.Algumas das principais funções incluem pcntl_fork() para criar novos processos, pcntl_wait() para esperar por processos filhos e pcntl_signal() para enviar sinais para processos.
-Com essas funções, é possível criar scripts PHP avançados que possam lidar com tarefas de sistema e gerenciamento de processos.

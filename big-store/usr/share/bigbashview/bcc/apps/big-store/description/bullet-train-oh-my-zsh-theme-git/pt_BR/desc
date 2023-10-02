@@ -1,4 +1,0 @@
-Este é um tema de shell para o oh-my-zsh que foi baseado no plugin Powerline Vim. Ele adiciona
-uma série de recursos visuais úteis para ajudar você a navegar e entender melhor seu diretório atual e sua configuração de terminal. Algumas das características incluem uma barra de status 
-colorida, indicadores de branch Git e suporte para várias linguagens de programação.Para usar este tema, você precisará ter o oh-my-zsh instalado e configurado em seu sistema. Em seguida,
-basta baixar o arquivo de tema e colocá-lo em seu diretório de temas do oh-my-zsh. Por fim, altere sua configuração de shell para usar este tema.

@@ -1,3 +1,0 @@
-rpmlint é uma ferramenta útil para verificar erros comuns em pacotes RPM. Ele verifica se o pacote está de acordo com as 
-boas práticas de construção de pacotes e se ele segue as regras de nomenclatura corretas. Ele também verifica se há problemas com arquivos duplicados ou ausentes, se as dependências estão
-corretas e se os scripts de inicialização estão funcionando corretamente. Usando rpmlint, você pode garantir que seu pacote RPM é de qualidade e está pronto para ser distribuído.

@@ -1,1 +1,0 @@
-grafana-agentctl é uma ferramenta de linha de comando que fornece utilitários para interagir com o Grafana Agent. Ele permite iniciar, parar e reiniciar o agente, além de verificar o status do agente e obter o número da versão. Essa ferramenta é útil para gerenciar o Grafana Agent  em um ambiente de produção. 

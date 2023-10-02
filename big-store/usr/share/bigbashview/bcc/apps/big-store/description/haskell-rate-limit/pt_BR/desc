@@ -1,1 +1,0 @@
-haskell-rate-limit é uma biblioteca que permite limitar a taxa com a qual você realiza ações de IO. Isso é útil quando você está interagindo com uma API que tem limites de taxa ou quando você está fazendo muito IO e deseja evitar sobrecarregar seu sistema. A biblioteca fornece uma API simples que torna fácil de usar. 

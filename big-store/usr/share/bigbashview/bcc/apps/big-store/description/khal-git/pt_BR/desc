@@ -1,3 +1,0 @@
-Este programa é um aplicativo de linha de comando (CLI) que ajuda a organizar seus compromissos e eventos. Ele é 
-construído em torno do protocolo CalDAV, que é um padrão aberto para compartilhar informações de calendário. Ele também usa o Git para gerenciar as informações. Isso significa que você pode
-usá-lo em vários dispositivos e sincronizá-los facilmente. Além disso, você pode colaborar com outras pessoas no gerenciamento de eventos.

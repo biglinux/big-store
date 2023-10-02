@@ -1,4 +1,0 @@
- python-pysodium é uma biblioteca que fornece uma camada de proteção para o Python, permitindo que você criptografe e 
-descriptografe dados facilmente. Ela usa a biblioteca libsodium, que é considerada segura e confiável. Com essa biblioteca, você pode garantir a privacidade de suas informações e
-protegê-las de ataques maliciosos.Além disso, ela é fácil de usar e inclui várias funções prontas para uso. Ela também é compatível com vários sistemas operacionais, como Windows, Linux 
-e Mac OS. 

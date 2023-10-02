@@ -1,3 +1,0 @@
- mkinitcpio-btrfs é um hook para o mkinitcpio que possui recursos avançados para dispositivos root baseados 
-em btrfs. Ele permite que você configure sua máquina de forma mais eficiente e segura para usar o sistema de arquivos btrfs. Com essa ferramenta, você pode garantir que seu sistema
-inicialize corretamente e tenha acesso a todos os seus dados importantes, mesmo em caso de falhas no sistema. 

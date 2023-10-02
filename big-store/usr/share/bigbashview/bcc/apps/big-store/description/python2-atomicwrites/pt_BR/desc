@@ -1,4 +1,0 @@
- Este programa permite que você escreva arquivos de forma atômica no sistema operacional POSIX. Isso significa
-que, enquanto o arquivo estiver sendo escrito, outros programas não conseguirão acessá-lo. Assim, evita-se a possibilidade de corrupção do arquivo. Este recurso é especialmente útil em
-aplicações críticas ou que lidam com grandes quantidades de dados.Ele é compatível com a versão 2 do Python e é fácil de usar. Basta importar a biblioteca e utilizar as funções
-fornecidas para escrever seus arquivos. 

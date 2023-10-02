@@ -1,3 +1,0 @@
-As ferramentas de verificação de inicialização do Chromium OS são usadas para garantir que o
-sistema operacional esteja sendo iniciado com a imagem original do sistema, protegendo contra modificações maliciosas. Elas incluem funções como verificação de assinaturas digitais e
-validação de arquivos de inicialização.

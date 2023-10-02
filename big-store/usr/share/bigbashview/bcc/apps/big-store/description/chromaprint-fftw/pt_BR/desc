@@ -1,2 +1,0 @@
-Esta biblioteca é usada para extrair impressões digitais de qualquer fonte de áudio. Ela utiliza fftw para cálculos FFT 
-em vez de ffmpeg.

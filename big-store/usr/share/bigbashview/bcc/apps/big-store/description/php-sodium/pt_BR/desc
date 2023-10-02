@@ -1,1 +1,0 @@
-O módulo php-sodium é uma biblioteca de criptografia para o PHP que fornece funções de criptografia de alta segurança. Ele é  baseado na biblioteca libsodium, que é considerada uma das mais seguras para criptografia de curto prazo. Com esse módulo, é possível criptografar e descriptografar dados de forma segura, assim como gerar chaves e assinar mensagens. 

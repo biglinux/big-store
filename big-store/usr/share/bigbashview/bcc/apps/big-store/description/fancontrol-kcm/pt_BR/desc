@@ -1,3 +1,0 @@
-Este é um módulo de controle para o script fancontrol e o serviço systemd, especificamente para usuários do KDE. Ele permite
-ajustar as configurações de ventilador do computador para garantir que ele funcione de maneira eficiente e silenciosa. Com este módulo, você pode ajustar a velocidade do ventilador, definir
-temperaturas de referência e muito mais. Tudo isso é feito através de uma interface fácil de usar, que é integrada ao ambiente de trabalho KDE.

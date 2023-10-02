@@ -1,1 +1,0 @@
-O python-aiofiles é um pacote que fornece suporte de arquivo para o asyncio. Ele permite que você abra, leia e escreva arquivos de forma assíncrona, sem bloquear a execução do seu programa. Isso é útil quando você precisa lidar com muitos arquivos ao mesmo tempo ou quando está trabalhando com arquivos grandes. 

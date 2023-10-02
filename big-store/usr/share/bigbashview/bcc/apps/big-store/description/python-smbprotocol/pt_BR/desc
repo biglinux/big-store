@@ -1,1 +1,0 @@
-Esse programa é um cliente para o protocolo SMB, versão 2 e 3. Ele permite que você se conecte a servidores que usam esse protocolo  e acesse arquivos e pastas compartilhados. Ele foi escrito em Python, e é chamado python-smbprotocol. 

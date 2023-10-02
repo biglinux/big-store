@@ -1,3 +1,0 @@
-Este é um programa simples que permite visualizar dispositivos MTP como sistemas de arquivos FUSE. Isso significa que você
-pode acessar e gerenciar arquivos em seu dispositivo MTP, como se eles estivessem armazenados diretamente no seu computador. É uma ferramenta útil para quem precisa gerenciar músicas, fotos
-e outros arquivos em dispositivos como smartphones e câmeras digitais.

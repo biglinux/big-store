@@ -1,1 +1,0 @@
-A biblioteca python-minio é uma biblioteca para armazenamento na nuvem compatível com  Amazon S3. Ela permite que você acesse seus dados na nuvem usando a mesma API que o Amazon S3, tornando fácil mudar entre diferentes provedores de nuvem. A biblioteca é de código aberto e pode ser usada tanto para projetos pessoais quanto comerciais. 

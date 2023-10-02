@@ -1,3 +1,0 @@
-Este plugin adiciona integração com os sistemas de controle de versão SVN e GIT ao gerenciador de arquivos Thunar. Isso
-permite que você faça operações como commit, push e pull diretamente a partir do Thunar, sem precisar abrir outro programa. Com este plugin, você pode facilmente verificar o status dos
-arquivos e pastas, adicionar ou remover arquivos do controle de versão e acompanhar as alterações no histórico. Tudo isso sem precisar sair do seu gerenciador de arquivos.

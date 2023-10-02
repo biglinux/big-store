@@ -1,4 +1,0 @@
-Este é um módulo para o PHP74 que permite acessar bancos de dados de forma fácil e segura. Ele é chamado de PDO, que significa 'PHP
-Data Objects'. Com ele, você pode se conectar a diferentes tipos de bancos de dados, como MySQL, PostgreSQL, Oracle e muitos outros, usando a mesma interface. Isso facilita muito a vida do 
-programador, pois ele não precisa se preocupar em aprender como se conectar a cada tipo de banco de dados.Além disso, o módulo PDO também oferece recursos para proteger seu aplicativo
-contra ataques de injeção SQL, o que é essencial para garantir a segurança dos dados. 

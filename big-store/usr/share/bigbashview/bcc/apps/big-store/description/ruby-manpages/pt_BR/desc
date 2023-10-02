@@ -1,1 +1,0 @@
-Man pages é um tipo de documentação para programas de computador. Com o suporte para man pages em ruby gems, você pode ter acesso a essa documentação diretamente pelo seu terminal quando estiver trabalhando com essas gems.Isso pode ser muito útil quando você precisa saber como usar uma determinada gem, ou se quiser entender como ela funciona internamente. 

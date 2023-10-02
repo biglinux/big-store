@@ -1,3 +1,0 @@
-Esta é uma implementação do Progressive Graphics File (PGF). Ele é usado para armazenar imagens de maneira
-eficiente e compacta, permitindo que elas sejam carregadas e exibidas gradualmente, em vez de precisar carregar toda a imagem de uma vez. Isso pode ser útil em aplicações onde a velocidade 
-de carregamento é importante, como em dispositivos móveis ou em redes de baixa velocidade. 

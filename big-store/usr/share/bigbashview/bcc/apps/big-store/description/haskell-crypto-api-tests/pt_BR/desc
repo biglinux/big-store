@@ -1,1 +1,0 @@
-Este programa é uma ferramenta de teste para operações criptográficas, ele inclui um conjunto de testes conhecidos como KATs (Known Answer Tests). Esses testes ajudam a garantir que as operações criptográficas estão funcionando corretamente. Ele foi escrito em Haskell, uma linguagem de programação popular para aplicações de segurança criptográfica. 

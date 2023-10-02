@@ -1,3 +1,0 @@
-Este programa é uma ferramenta para gerenciar a rotação de discos em sistemas que utilizam a linguagem de
-programação Rust. Ele é uma reimplementação do programa hd-idle, e é projetado para melhorar a eficiência energética e prolongar a vida útil dos discos. Com ele, é possível configurar
-quando os discos devem ser colocados em modo de baixo consumo, o que pode ser útil em ambientes de servidores ou computadores que não precisam de acesso constante aos discos.

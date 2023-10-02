@@ -1,3 +1,0 @@
-Esta é uma biblioteca para Python que permite que você crie programas de forma assíncrona. É uma porta do projeto Tulip e
-utiliza o módulo asyncio e o PEP 3156. É compatível com a versão 2.7 do Python.Com ela, você pode escrever programas que possam executar várias tarefas ao mesmo tempo sem travar ou ficar
-esperando por uma tarefa para terminar antes de começar outra.

@@ -1,3 +1,0 @@
-sysrqd é um pequeno programa com o objetivo de gerenciar o Sysrq do Linux através da rede. Ele permite que você execute
-comandos importantes, como desligar ou reiniciar o sistema, mesmo quando ele está travado ou sem resposta.Esse programa é especialmente útil em ambientes de servidor, onde é importante ter 
-um método confiável para solucionar problemas de forma remota.

@@ -1,5 +1,0 @@
- python-nmrglue é um módulo feito para trabalhar com dados de ressonância magnética nuclear (NMR) usando a linguagem 
-de programação Python. Ele permite ler, escrever e processar dados NMR em um formato comum, facilitando a análise e interpretação dos resultados. Além disso, o módulo também oferece
-recursos para visualização de dados, como gráficos e espectros.Com python-nmrglue, é possível importar dados de diversos formatos, como Bruker, Varian e NMRPipe, e convertê-los para o
-formato interno do módulo. Isso permite trabalhar com dados de diferentes equipamentos e softwares de forma mais fácil e rápida.python-nmrglue é uma ferramenta valiosa para quem trabalha 
-com análise de dados NMR em Python, tornando o processo mais simples e eficiente. 

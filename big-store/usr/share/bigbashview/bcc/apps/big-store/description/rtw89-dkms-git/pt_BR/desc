@@ -1,4 +1,0 @@
-Este é um driver para dispositivos Realtek 8852AE, que são dispositivos 802.11ax. Ele é projetado para ser usado com sistemas 
-operacionais Linux e pode ser instalado como um pacote DKMS (Dynamic Kernel Module Support). Isso significa que ele será atualizado automaticamente quando novos kernels são lançados.Este
-driver é mantido como um projeto Git, o que significa que está sempre sendo atualizado e melhorado por uma comunidade de desenvolvedores. Isso garante que você sempre tenha acesso às
-últimas correções de erros e recursos.

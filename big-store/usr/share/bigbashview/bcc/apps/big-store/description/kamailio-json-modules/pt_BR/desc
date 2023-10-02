@@ -1,2 +1,0 @@
-Esse é um módulo para o programa Kamailio que permite que ele leia e interprete arquivos no formato JSON. Isso significa que o
-Kamailio pode entender e usar informações que estão escritas nesse formato específico. Isso pode ser útil para integrar o Kamailio com outros sistemas que usam o formato JSON.

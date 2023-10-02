@@ -1,3 +1,0 @@
-CVMFS é um sistema de arquivos cliente-servidor desenvolvido para entregar distribuições de software em máquinas virtuais de
-forma rápida, escalável e confiável. Ele é implementado usando FUSE, que é uma biblioteca de sistemas de arquivos genéricos do usuário. Com CVMFS, é possível acessar arquivos em um
-repositório remoto como se estivessem armazenados localmente, o que permite que você trabalhe com arquivos grandes e complexos de forma fácil e eficiente.

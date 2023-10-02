@@ -1,4 +1,0 @@
-Este programa permite que você destaque a sintaxe do arquivo TOML quando estiver usando o editor Vim. Isso ajuda a tornar o
-código mais fácil de ler e entender, especialmente se você trabalha com arquivos TOML frequentemente. Com esse recurso, você pode ver rapidamente onde começam e terminam as chaves, valores 
-e outros elementos importantes no seu arquivo TOML. Além disso, a sintaxe colorida torna mais fácil identificar erros ou problemas no código. Se você é um usuário frequente do Vim e
-trabalha com arquivos TOML, este programa é uma ótima adição à sua configuração. 

@@ -1,3 +1,0 @@
-Os módulos ODBC para PHP 8.0 permitem que aplicativos PHP acessem fontes de dados usando o protocolo ODBC. Isso inclui bancos de
-dados como MySQL, PostgreSQL e Microsoft SQL Server.Esses módulos fornecem funções para se conectar, consultar e gerenciar essas fontes de dados, além de fornecer suporte a transações e
-outras características avançadas.Eles são compatíveis com as versões mais recentes do PHP 8.0 e podem ser instalados facilmente no seu servidor.

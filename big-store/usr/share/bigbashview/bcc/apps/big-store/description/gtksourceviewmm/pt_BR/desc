@@ -1,1 +1,0 @@
-gtksourceviewmm é uma biblioteca que permite acessar a gtksourceview, uma biblioteca de visualização de código, usando C++. Isso significa que você pode criar programas em C++ que usam essa biblioteca sem precisar escrever código em outra linguagem. Isso pode ser útil para desenvolvedores que preferem usar C++ em seus projetos. 

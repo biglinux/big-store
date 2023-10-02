@@ -1,3 +1,0 @@
-Este é um programa chamado concourse-fly-cli, que permite gerenciar construções usando comandos de linha de comando. Ele
-executa uma construção em um recipiente com ATC (Air Traffic Control), o que o torna fácil de usar e eficiente. Com ele você pode controlar as etapas de construção de forma automatizada e
-acompanhar o progresso de cada uma delas. Além disso, ele permite que você faça modificações e ajustes precisos durante o processo de construção.

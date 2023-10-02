@@ -1,1 +1,0 @@
-O pytest é uma ferramenta de teste de unidade para Python que torna a escrita de testes fácil e rápida. Com o pacote python-pytest-datafixtures, você pode criar fixtures de dados (dados de teste) de forma simples e organizada, para que possa testar seu código de maneira mais eficiente. 

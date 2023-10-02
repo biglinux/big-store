@@ -1,1 +1,0 @@
-Este programa é uma ferramenta para ajudar a gerenciar as mudanças no seu banco de dados quando você estiver desenvolvendo uma aplicação Flask. Ele usa o pacote Alembic para fazer as migrações, e é compatível com o SQLAlchemy para trabalhar com diferentes tipos de bancos  de dados. Ele é escrito em Python e fácil de usar.  

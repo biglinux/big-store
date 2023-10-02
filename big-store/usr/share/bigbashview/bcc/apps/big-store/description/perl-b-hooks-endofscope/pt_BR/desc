@@ -1,1 +1,0 @@
-O módulo perl-b-hooks-endofscope permite que você execute códigos personalizados depois de uma compilação de escopo ser concluída. Isso pode ser útil para automatizar tarefas, como limpar variáveis, verificar resultados ou até mesmo fornecer relatórios personalizados. 

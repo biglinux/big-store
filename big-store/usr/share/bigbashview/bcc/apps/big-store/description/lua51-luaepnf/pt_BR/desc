@@ -1,1 +1,0 @@
-O pacote lua51-luaepnf fornece suporte para a notação PEG estendida (Extended PEG Notation Format) na biblioteca LPeg (Lua Parsing Expression Grammar). Isso permite a criação de gramáticas para análise de linguagem de maneira mais clara e concisa. 

@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.1 que permite o uso de funções de xmlrpc. Ele é útil para criar aplicações que precisem se comunicar
-com outros sistemas utilizando o protocolo xmlrpc.xmlrpc é um protocolo simples para a troca de informações entre diferentes sistemas, como por exemplo, entre um site e um aplicativo móvel.
-Com esse módulo, é possível criar facilmente aplicações que se comunicam com outros sistemas usando xmlrpc.

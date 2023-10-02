@@ -1,4 +1,0 @@
-Este programa é uma biblioteca em Python chamada PyAutoGUI. Ela serve para automatizar tarefas na interface gráfica de um 
-computador. Isso significa que você pode escrever um código em Python que faça cliques, digite texto e muito mais em qualquer programa aberto no seu computador. Ele é compatível com vários 
-sistemas operacionais, o que significa que você pode usá-lo em Windows, Mac ou Linux.Além disso, o PyAutoGUI foi desenvolvido especificamente para ser fácil de usar, então mesmo que você
-não tenha muita experiência com programação, você deve ser capaz de usá-lo sem problemas.

@@ -1,1 +1,0 @@
-O componente gambas3-gb-signal fornece suporte para sinais POSIX em seus programas. Os sinais POSIX são uma forma de comunicação entre processos no sistema operacional, permitindo que um processo envie uma notificação para outro processo. Este componente permite que você capture esses sinais em seus programas e execute ações específicas quando eles são recebidos. 

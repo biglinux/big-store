@@ -1,1 +1,0 @@
-Protocol Buffers é uma ferramenta de serialização de dados rápida e eficiente. A implementação em C permite que você use essa ferramenta em aplicações escritas nessa linguagem de programação.protobuf-c é uma biblioteca de implementação de Protocol Buffers em C. Ele foi projetado para ser simples e fácil de usar, mas ao mesmo tempo poderoso e eficiente. 

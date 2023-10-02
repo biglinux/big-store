@@ -1,1 +1,0 @@
-Este serviço foi projetado para ser altamente escalável e ser usado em um ambiente de cluster HPC. Ele é responsável por criar e validar as credenciais dos usuários, garantindo que somente pessoas autorizadas possam acessar as informações e recursos protegidos. Ele é fácil de usar e configurar, e pode ser integrado com outros sistemas de segurança existentes. 

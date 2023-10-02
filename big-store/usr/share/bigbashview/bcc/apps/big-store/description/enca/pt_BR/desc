@@ -1,1 +1,0 @@
-Este programa é capaz de analisar e converter diferentes tipos de conjunto de caracteres (charset) em arquivos de texto. Ele pode detectar automaticamente o charset de um arquivo e convertê-lo para outro charset desejado. Isso é útil para garantir que o texto seja exibido corretamente em diferentes sistemas e aplicativos. 

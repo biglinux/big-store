@@ -1,1 +1,0 @@
-Esse programa permite a comunicação entre diferentes processos utilizando o padrão MPI através de ligações com o Python. Isso significa que você pode escrever seus códigos em Python e ainda usar todos os recursos do MPI para fazer cálculos distribuídos e paralelos. 

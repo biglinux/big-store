@@ -1,4 +1,0 @@
- Este é um módulo para o PHP 8.1 que permite o uso de mensagens SYSV (System V) em seus scripts. As mensagens SYSV são 
-uma forma de comunicação entre processos no sistema operacional, e este módulo fornece uma interface fácil de usar para trabalhar com elas no PHP.Com este módulo, você pode criar, ler,
-escrever e excluir mensagens SYSV de forma eficiente e segura. Ele também fornece funções para gerenciar filas de mensagens e controlar permissões de acesso.Este módulo é útil para
-qualquer projeto que precise de comunicação interprocesso no PHP, especialmente em ambientes de sistemas embarcados e de tempo real. 

@@ -1,1 +1,0 @@
-O módulo perl-mail-spf-query fornece suporte ao protocolo SPF (Sender Policy Framework) em aplicações Perl. Ele permite que você verifique se um endereço de e-mail está autorizado a enviar mensagens de um determinado domínio, o que ajuda a reduzir o spam e o phishing. 

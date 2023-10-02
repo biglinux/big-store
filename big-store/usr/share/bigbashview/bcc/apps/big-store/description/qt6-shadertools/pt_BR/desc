@@ -1,1 +1,0 @@
-Este programa adiciona a funcionalidade de pipeline de shaders em Qt Quick, permitindo que ele funcione com as tecnologias Vulkan, Metal e Direct3D, além do OpenGL. 

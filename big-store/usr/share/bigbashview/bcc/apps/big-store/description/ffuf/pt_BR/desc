@@ -1,3 +1,0 @@
-Esse programa é chamado de ffuf e é usado para testar a segurança de sites. Ele é escrito em Go e é muito rápido.
-Ele pode ajudar a encontrar vulnerabilidades em um site, como links quebrados ou informações sensíveis expostas. É importante usá-lo com cuidado e somente em sites que você tenha permissão 
-para testar. 

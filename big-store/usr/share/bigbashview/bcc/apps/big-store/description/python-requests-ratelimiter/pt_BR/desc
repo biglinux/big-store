@@ -1,4 +1,0 @@
-Este programa é uma extensão para a biblioteca python-requests, que permite limitar a taxa de requisições
-feitas a um determinado servidor. Isso é útil para evitar sobrecarregar o servidor com muitas requisições em um curto período de tempo.Com este programa, você pode definir um limite de
-requisições por minuto, hora ou dia, dependendo das suas necessidades. Ele também oferece suporte para lidar com erros de limite de taxa de forma transparente, para que você não precise se 
-preocupar em gerenciar esses erros em seu código.

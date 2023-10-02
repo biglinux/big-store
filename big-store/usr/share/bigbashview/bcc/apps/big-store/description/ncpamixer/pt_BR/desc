@@ -1,5 +1,0 @@
-Este programa é um mixer de som para usuários avançados. Ele permite que você controle o volume do som em seu computador
-através de comandos de linha de comando. Ele é baseado em ncurses, o que significa que é fácil de usar mesmo se você não tiver um monitor gráfico. Ele também é compatível com o PulseAudio, 
-o que significa que funciona bem em várias distribuições Linux.Com esse programa, você pode aumentar ou diminuir o volume, alterar a saída de áudio e até mesmo mudar a fonte de som. Ele
-também tem recursos adicionais, como a possibilidade de criar atalhos de teclado para acessar as funções rapidamente.Em resumo, esse programa é ideal para usuários avançados que desejam ter
-um maior controle sobre o som em seu computador e preferem usar comandos de linha de comando.

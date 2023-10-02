@@ -1,3 +1,0 @@
-O formato de arquivo eXtensível, ou xar, é uma forma de compactar e organizar vários arquivos em um único arquivo. Ele é semelhante ao
-formato de arquivo ZIP, mas possui algumas funcionalidades adicionais, como a capacidade de armazenar informações de metadata dentro do arquivo compactado. Isso permite que o arquivo xar
-seja usado para distribuir software, juntamente com informações adicionais, como instruções de instalação.

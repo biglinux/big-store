@@ -1,3 +1,0 @@
-Este é um pacote especial chamado metapackage, ele depende de outro pacote chamado linux5.15.89-1-lts-bin. Isso significa que
-ele precisa deste outro pacote para funcionar corretamente. Este pacote é uma versão binária do Linux que foi atualizada para a versão de longo suporte (LTS). Isso significa que ele
-receberá atualizações e correções de segurança por um período de tempo mais longo do que as versões normais.

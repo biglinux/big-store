@@ -1,2 +1,0 @@
-Esse programa fornece suporte para assinaturas de função no Python 2, de acordo com a especificação PEP362. Isso permite que
-você declare e verifique argumentos e valores de retorno de uma função de maneira mais precisa e clara, melhorando a legibilidade e confiabilidade do código.

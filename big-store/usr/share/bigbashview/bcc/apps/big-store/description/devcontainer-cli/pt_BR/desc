@@ -1,4 +1,0 @@
-Esta ferramenta, chamada Devcontainer CLI, permite criar e configurar containers de desenvolvimento 
-a partir de um arquivo devcontainer.json. Isso facilita o processo de configuração de ambientes de desenvolvimento, garantindo que todos os membros da equipe possam trabalhar com as mesmas 
-ferramentas e configurações.Usando essa ferramenta, você pode garantir que todos os desenvolvedores estejam trabalhando com a mesma versão de bibliotecas e ferramentas de desenvolvimento, o
-que pode ajudar a evitar problemas de compatibilidade e erros de configuração.

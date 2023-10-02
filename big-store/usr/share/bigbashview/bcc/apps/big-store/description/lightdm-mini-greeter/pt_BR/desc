@@ -1,4 +1,0 @@
- Este programa é chamado lightdm-mini-greeter e é responsável por mostrar a tela de boas-vindas quando você liga o seu
-computador. Ele é mínimo e configurável, e foi feito especialmente para usuários individuais. Ele utiliza a biblioteca de interface gráfica GTK3 para mostrar a tela de boas-vindas.Isso
-significa que ele é fácil de usar e bonito de ver. Você pode configurar a tela de boas-vindas para mostrar as informações que você deseja, como o horário e a data. Além disso, ele é fácil
-de personalizar com temas diferentes. 

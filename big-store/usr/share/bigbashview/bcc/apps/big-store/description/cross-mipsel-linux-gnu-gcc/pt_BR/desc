@@ -1,5 +1,0 @@
- O GNU Compiler Collection é um conjunto de compiladores desenvolvidos pela comunidade GNU. Ele é usado para compilar
-vários tipos de código fonte em várias arquiteturas diferentes, incluindo MIPS. Isso significa que ele pode transformar o código escrito em uma linguagem de programação, como o C ou o C++, 
-em um código que pode ser entendido e executado por um computador.O compilador específico para a arquitetura MIPS é chamado de cross-mipsel-linux-gnu-gcc. Ele é projetado para funcionar 
-em sistemas operacionais baseados em Linux, como o Debian ou o Ubuntu, e é compatível com a arquitetura MIPS. Isso significa que ele pode ser usado para compilar programas que serão
-executados em processadores MIPS. 

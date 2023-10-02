@@ -1,3 +1,0 @@
- Este programa é chamado de rars-git. Ele é um simulador de Assembler e Tempo de Execução para o
-processador RISC-V. Isso significa que ele permite que você escreva códigos em linguagem de montagem (como o Assembler) e execute esses códigos em um ambiente simulado para ver como eles
-funcionariam em um dispositivo real. É uma ferramenta útil para desenvolvedores que estão trabalhando com processadores RISC-V.

@@ -1,1 +1,0 @@
-Este é um programa chamado xsane. Ele é baseado em GTK e funciona com o X11. Ele é um frontend para SANE, o que significa que ele ajuda a mostrar e gerenciar as imagens que você escaneia. Ele também é um plugin para o Gimp, o que significa que ele pode ser usado dentro do Gimp para editar as imagens  escaneadas. 

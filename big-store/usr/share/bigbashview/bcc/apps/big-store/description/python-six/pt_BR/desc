@@ -1,1 +1,0 @@
-Ferramentas para garantir a compatibilidade entre as versões 2 e 3 do Python. Com elas, é possível escrever códigos que funcionem em ambas as versões sem precisar fazer modificações. O pacote python-six é uma dessas ferramentas, e ele é amplamente utilizado na comunidade Python. 

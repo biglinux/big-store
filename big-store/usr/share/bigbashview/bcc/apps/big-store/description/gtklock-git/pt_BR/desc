@@ -1,4 +1,0 @@
-Este programa é chamado gtklock-git e ele é usado para bloquear a tela do seu computador quando você não está usando. Ele 
-usa algo chamado GTK, que é um tipo de ferramenta para criar a aparência da tela de bloqueio. Ele também é projetado para funcionar em algo chamado Wayland, que é um tipo de sistema
-operacional.Isso significa que, se você estiver usando um computador com o sistema operacional Wayland e quiser bloquear a tela, este programa pode ser útil para você. Ele vai ajudar a
-manter sua privacidade e segurança, garantindo que outras pessoas não possam usar o seu computador sem a sua permissão.

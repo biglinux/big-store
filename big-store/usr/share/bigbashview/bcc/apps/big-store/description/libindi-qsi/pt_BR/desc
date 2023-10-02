@@ -1,3 +1,0 @@
-Este programa é chamado de libindi-qsi e é responsável por fornecer drivers de terceiros para câmeras da marca QSI. Isso significa
-que ele torna possível usar essas câmeras com outros programas compatíveis com INDI, um protocolo comum para controlar dispositivos ópticos.Com esses drivers, você poderá controlar
-configurações como exposição, ganho e outros recursos da sua câmera QSI com facilidade e precisão.

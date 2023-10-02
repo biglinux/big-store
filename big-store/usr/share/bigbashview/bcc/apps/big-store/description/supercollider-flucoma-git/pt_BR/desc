@@ -1,4 +1,0 @@
-Os plugins de manipulação de corpus fluido para Supercollider permitem aos usuários manipular arquivos de som de
-maneira flexível e criativa. Com eles, é possível realizar tarefas como filtragem, segmentação, recombinação e muito mais. Eles são projetados para ser fáceis de usar, mesmo para quem não
-tem experiência em programação.Os plugins são baseados em uma biblioteca chamada Fluid Corpus Manipulation, ou FluCoMa, que foi desenvolvida especificamente para trabalhar com
-Supercollider.

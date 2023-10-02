@@ -1,3 +1,0 @@
-Este é um script chamado xsudo-git que permite que você execute aplicativos com interface gráfica (também conhecidos
-como GUI) usando o comando pkexec. Isso significa que você pode executar esses aplicativos com privilégios de administrador sem precisar digitar sua senha toda vez. Ele é simples de usar e 
-pode ser útil para quem precisa usar aplicativos com privilégios elevados com frequência.

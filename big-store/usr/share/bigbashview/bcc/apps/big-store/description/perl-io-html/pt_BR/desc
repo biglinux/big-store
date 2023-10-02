@@ -1,1 +1,0 @@
-O Perl IO HTML é um módulo que permite a abertura de arquivos HTML com detecção automática de charset.  Isso significa que você não precisa especificar manualmente qual é o charset do arquivo, o módulo irá detectá-lo automaticamente. Além disso, ele também fornece algumas outras funções úteis para trabalhar com arquivos HTML. 

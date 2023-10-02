@@ -1,3 +1,0 @@
-As ferramentas de construção para o SDK do Google Android incluem aapt, aidl, dexdump, dx e llvm-rs-cc. Elas 
-são essenciais para criar e construir aplicativos para dispositivos Android.Essas ferramentas permitem que você execute tarefas como compilar e linkar seus arquivos de recursos e
-código-fonte, além de criar pacotes APK para distribuição e implantação em dispositivos Android.

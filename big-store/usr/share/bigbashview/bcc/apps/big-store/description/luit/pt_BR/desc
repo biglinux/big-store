@@ -1,1 +1,0 @@
-Este programa é um filtro que pode ser executado entre qualquer aplicativo e um emulador de terminal UTF-8. Ele permite que você converta o conjunto de caracteres de entrada ou saída para que possa ser exibido corretamente no terminal. Ele é especialmente útil para lidar com problemas de codificação de caracteres em sistemas que usam diferentes conjuntos de caracteres. 

@@ -1,3 +1,0 @@
-Este é um módulo para o programa PHP74 que adiciona suporte a criptografia OpenSSL. Com ele, você pode criptografar e
-descriptografar informações de forma segura, além de realizar outras operações criptográficas. É importante para a segurança de dados em aplicações web. Além disso, esse módulo também é
-compatível com outras extensões de criptografia, como mcrypt e libressl.

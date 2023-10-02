@@ -1,4 +1,0 @@
-O cronie-selinux é um daemon que permite que você execute programas específicos em horários agendados. Ele
-também vem com ferramentas adicionais para gerenciar essas tarefas programadas, incluindo suporte ao SELinux. Isso significa que o cronie-selinux pode ajudar a garantir que as tarefas
-programadas sejam executadas de maneira segura e seguindo as políticas de segurança estabelecidas no sistema. Ele é uma ferramenta valiosa para automatizar tarefas rotineiras e garantir que
-elas sejam executadas de maneira confiável.

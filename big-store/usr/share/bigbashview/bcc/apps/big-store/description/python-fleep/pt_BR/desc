@@ -1,4 +1,0 @@
-O python-fleep é uma biblioteca que ajuda a identificar o formato de arquivos. Ela faz isso verificando
-as informações presentes no arquivo e comparando com uma lista de formatos conhecidos. Assim, é possível saber se um arquivo é uma imagem, um documento de texto, um áudio, entre outros.
-Além de determinar o formato, a biblioteca também fornece informações adicionais sobre o arquivo, como sua extensão, tamanho e outras especificidades. Ela é fácil de usar e pode ser
-integrada a outros programas ou projetos. 

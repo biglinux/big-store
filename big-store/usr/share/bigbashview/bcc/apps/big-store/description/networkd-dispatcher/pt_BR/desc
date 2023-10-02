@@ -1,3 +1,0 @@
-Este é um programa chamado networkd-dispatcher. Ele ajuda o seu computador a gerenciar eventos de rede, como conectar-se a uma
-rede Wi-Fi ou desconectar-se dela. Ele funciona trabalhando junto com outro programa chamado systemd-networkd. Juntos, eles garantem que sua conexão de rede seja estabelecida e mantida de
-forma eficiente. 

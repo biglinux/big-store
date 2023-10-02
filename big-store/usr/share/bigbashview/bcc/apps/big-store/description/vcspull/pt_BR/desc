@@ -1,1 +1,0 @@
-vcspull é uma ferramenta que permite sincronizar seus projetos usando um arquivo de manifesto no formato yaml ou json. Ele foi construído usando a biblioteca 'libvcs'. 

@@ -1,2 +1,0 @@
-Este programa é o kernel Linux para o dispositivo TQC A01. Ele inclui o núcleo Linux e os módulos necessários para fazer o
-dispositivo funcionar corretamente. O kernel é específico para a arquitetura AArch64.

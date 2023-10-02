@@ -1,3 +1,0 @@
-Este programa é uma ferramenta para diferenciação, compilação e transformação de código Numpy. Ele é escrito em
-Python e usa a biblioteca Jax para realizar essas tarefas. Com ele, é possível facilmente derivar e otimizar código Numpy, tornando-o mais rápido e eficiente. Ele também permite a criação
-de código personalizado, como gradientes e funções de custo, para uso em algoritmos de aprendizado de máquina. 

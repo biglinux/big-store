@@ -1,2 +1,0 @@
-O bindfs é um sistema de arquivos FUSE que permite espelhar um diretório para outro, semelhante ao comando 
-'mount --bind', mas com configurações de permissão. Ele é útil para criar cópias de diretórios com permissões personalizadas, sem precisar modificar os arquivos originais.

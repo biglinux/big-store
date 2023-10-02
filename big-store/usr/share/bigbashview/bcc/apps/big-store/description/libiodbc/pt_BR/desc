@@ -1,1 +1,0 @@
-libiodbc é um projeto que permite a conexão com bancos de dados de forma independente em sistemas Linux. Ele fornece uma implementação de alto nível de interface de banco de dados (DB-API) para aplicativos, permitindo que eles se conectem a qualquer banco de dados que suporte o protocolo ODBC. 

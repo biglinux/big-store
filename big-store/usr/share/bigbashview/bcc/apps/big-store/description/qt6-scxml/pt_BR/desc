@@ -1,1 +1,0 @@
-Este programa permite a integração de modelos SCXML no código Qt6, tanto durante a  compilação (estática) quanto durante a execução do programa (tempo de execução). Isso permite que os desenvolvedores usem modelos SCXML para controlar o fluxo de eventos e estados em sua aplicação Qt6. 

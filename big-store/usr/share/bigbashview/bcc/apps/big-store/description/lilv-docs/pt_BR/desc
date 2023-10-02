@@ -1,1 +1,0 @@
-A biblioteca lilv-docs fornece uma interface em C para o padrão de plugin LV2, permitindo que desenvolvedores criem e gerenciem plugins de áudio de maneira fácil e eficiente. Com essa documentação, é possível entender melhor como utilizar essa biblioteca para o desenvolvimento de seus próprios plugins. 

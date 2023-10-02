@@ -1,3 +1,0 @@
-Este é um fork do programa Kalibrate, adaptado para ser utilizado com dispositivos RTL-SDR. Ele é utilizado para
-sintonizar e testar o desempenho dos dispositivos de rádio de software definido (SDR). Com ele é possível encontrar os canais de rádio disponíveis e medir a potência de sinal, permitindo
-ajustar a configuração do dispositivo para melhorar a recepção.

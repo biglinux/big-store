@@ -1,4 +1,0 @@
-O Django Channels é uma adição ao framework Django que permite lidar com conexões de websocket e outras comunicações em 
-tempo real. Ele pode ser usado com o Redis como uma camada de canal para gerenciar essas conexões.Isso significa que o Redis é usado como um backend para armazenar informações sobre as
-conexões e permitir que as mensagens sejam enviadas entre diferentes clientes. Isso é útil em aplicações que precisam enviar atualizações em tempo real para vários usuários, como chats ou
-jogos online.

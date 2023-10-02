@@ -1,2 +1,0 @@
-Com este programa, você receberá uma notificação quando iniciar em um snapshot no Overlayfs ou quando ocorrer um erro no
-BTRFS a partir do log journalctl.

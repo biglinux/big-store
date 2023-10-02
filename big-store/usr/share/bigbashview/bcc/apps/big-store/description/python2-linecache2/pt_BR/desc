@@ -1,4 +1,0 @@
-O módulo linecache é uma ferramenta que permite acessar linhas específicas de arquivos de forma rápida e fácil. Este módulo
-foi criado para ser compatível com a versão 2 do Python e é uma espécie de 'retrocompatibilidade', ou seja, permite que você use este módulo em versões antigas do Python sem precisar fazer 
-modificações no código fonte.Com ele, você pode facilmente acessar linhas de arquivos sem precisar ler todo o arquivo, o que é útil em muitos casos, especialmente quando você precisa ler
-grandes quantidades de dados.

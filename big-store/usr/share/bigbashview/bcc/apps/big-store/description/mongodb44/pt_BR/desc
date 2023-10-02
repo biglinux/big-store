@@ -1,2 +1,0 @@
-MongoDB é um banco de dados de documentos de código aberto e de alta performance. Ele é esquema-livre, o que significa que você não
-precisa definir o esquema antes de inserir dados. A versão 44 é a última a dar suporte a CPUs que não possuem AVX.

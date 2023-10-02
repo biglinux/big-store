@@ -1,1 +1,0 @@
-O módulo DateTime::Cron::Simple é um pacote para gerenciar horários no Perl através do CPAN. Ele permite criar e gerenciar facilmente regras de horários para tarefas automatizadas, como a execução de scripts ou a programação de backups. 

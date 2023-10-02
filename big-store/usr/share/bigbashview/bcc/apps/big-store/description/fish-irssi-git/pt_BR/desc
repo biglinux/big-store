@@ -1,4 +1,0 @@
- Este é um plugin para o programa Irssi que adiciona suporte à criptografia de mensagens usando o protocolo FiSH.
-Isso significa que, quando você envia uma mensagem para alguém, ela é automaticamente criptografada antes de ser enviada, e somente a pessoa que você enviou pode decifrá-la. Isso ajuda a
-garantir que ninguém mais possa ler suas mensagens, mesmo que eles interceptem a conexão de rede.Para usar este plugin, você precisará ter o Irssi instalado e configurado, e também
-precisará ter acesso às chaves de criptografia de sua contato. Isso pode ser feito através de troca de chave pessoalmente ou usando um serviço de troca de chave na internet. 

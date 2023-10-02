@@ -1,1 +1,0 @@
-enet é uma camada de comunicação de rede simples e robusta, baseada em UDP. Ela é relativamente fina e fácil  de usar, mas ainda assim fornece recursos avançados como fragmentação de pacotes e compressão. É útil para jogos e aplicativos que precisam de comunicação rápida e confiável. 

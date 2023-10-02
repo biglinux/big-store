@@ -1,1 +1,0 @@
-Os drivers de Mesa DRI (Direct Rendering Infrastructure) são responsáveis por fornecer suporte à aceleração de gráficos para  placas de vídeo. Este pacote específico fornece suporte para as placas de vídeo Intel i810, permitindo que elas funcionem corretamente com o sistema operacional Linux. 

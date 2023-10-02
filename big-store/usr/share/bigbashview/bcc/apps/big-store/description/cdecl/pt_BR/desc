@@ -1,4 +1,0 @@
-Este programa é projetado para ajudar os programadores a entender a sintaxe das declarações em C. Ele faz isso
-traduzindo as declarações do código C para uma linguagem semelhante ao inglês. Isso pode ajudar os programadores a entender melhor como as declarações funcionam e ajudar a evitar erros
-comuns.Por exemplo, se você escrever uma declaração C como 'int x;', o programa traduzirá isso para algo como 'x é do tipo inteiro'. Isso pode ser útil para programadores iniciantes que
-estão aprendendo a linguagem C e para programadores experientes que estão tentando entender código complexo.

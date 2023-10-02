@@ -1,5 +1,0 @@
-Se você está usando o Kamailio como seu servidor SIP, você pode querer adicionar alguns módulos extras para melhorar
-suas funcionalidades. Um desses módulos é o kamailio-mono-modules. Ele é uma extensão que permite que você use o Kamailio com módulos Mono, uma plataforma de desenvolvimento de aplicativos 
-para a linguagem de programação C#.Com esse módulo, você pode desenvolver scripts e aplicativos para o Kamailio usando C#. Isso pode tornar o processo de desenvolvimento mais fácil e
-rápido, dependendo do seu conhecimento e experiência com essa linguagem.Se você estiver interessado em adicionar esse módulo ao seu Kamailio, você pode encontrar mais informações sobre como
-instalá-lo e usá-lo em seu site oficial.

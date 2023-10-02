@@ -1,1 +1,0 @@
-Este programa é um pool de conexão genérico para o Ruby. Ele permite que você mantenha uma série de conexões abertas e disponíveis para uso, ao invés de precisar criar uma nova conexão sempre que precisar. Isso pode melhorar significativamente a performance de sua aplicação. Além disso, este programa é compatível com o ruby-maxmind-db. 

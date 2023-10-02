@@ -1,4 +1,0 @@
-mbuffer é uma ferramenta útil para armazenar temporariamente dados em fluxo, permitindo que eles sejam lidos e
-escritos com maior velocidade e eficiência. Ele funciona como um buffer entre diferentes fontes e destinos de dados, como discos rígidos, redes e dispositivos de armazenamento em nuvem. Com
-mbuffer, você pode melhorar a performance de seus fluxos de dados e evitar problemas de congestionamento. Ele é fácil de usar e possui diversas opções de configuração avançadas para atender
-às suas necessidades.

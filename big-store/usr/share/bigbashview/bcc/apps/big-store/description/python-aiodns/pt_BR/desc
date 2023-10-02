@@ -1,1 +1,0 @@
- Este é um programa chamado python-aiodns, ele ajuda a resolver endereços de internet de forma rápida e simples usando  o asyncio. Ele é útil quando você precisa encontrar o endereço de um site ou serviço específico. Ele funciona de forma parecida com o serviço de DNS que você usa normalmente, mas é projetado para ser mais rápido e eficiente. 

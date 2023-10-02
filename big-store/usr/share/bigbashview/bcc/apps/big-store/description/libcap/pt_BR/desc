@@ -1,1 +1,0 @@
-Libcap é uma biblioteca que fornece suporte para o uso de capacidades POSIX 1003.1e para programas em sistemas operacionais Linux. Isso permite que os programas tenham privilégios limitados, aumentando a segurança do sistema. A libcap também fornece uma ferramenta de linha de comando 'setcap' para configurar facilmente as capacidades de um programa. 

@@ -1,4 +1,0 @@
-Este programa permite que uma janela de terminal seja engolida após a execução de uma aplicação bloqueante no i3. Isso significa
-que, em vez de ter uma janela de terminal flutuando na sua área de trabalho, ela será incorporada à janela da aplicação que você está executando. Isso pode ajudar a manter sua área de
-trabalho limpa e organizada.Este programa é especialmente útil para aqueles que usam o gerenciador de janelas i3 e desejam ter um fluxo de trabalho mais suave e eficiente. Ele é fácil de
-usar e pode ser personalizado de acordo com suas necessidades.

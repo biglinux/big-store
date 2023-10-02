@@ -1,4 +1,0 @@
-UnixBench é um benchmark simples cujo objetivo é fornecer um indicador básico do desempenho de um sistema semelhante
-ao Unix. Ele é usado para testar a capacidade de um sistema operacional em vários aspectos, como processamento, memória e disco. Com esse programa, é possível comparar o desempenho de
-diferentes sistemas e identificar gargalos ou problemas de performance.O UnixBench é composto por vários testes que medem a capacidade de um sistema em tarefas comuns, como manipulação de
-arquivos, processamento de texto e operações matemáticas. Ele também inclui testes de desempenho de rede e de processamento paralelo. 

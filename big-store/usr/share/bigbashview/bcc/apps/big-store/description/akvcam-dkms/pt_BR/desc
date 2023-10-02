@@ -1,3 +1,0 @@
- Esse programa é uma câmera virtual para computadores com sistema operacional Linux. Ele cria uma câmera virtual que pode ser usada
-com aplicativos de videoconferência, gravação de vídeo e outros programas que usam câmeras. Ele é instalado como um pacote DKMS, o que significa que ele é atualizado automaticamente quando 
-novos drivers de kernel são instalados. Isso garante que ele sempre funcione com a versão mais recente do seu sistema operacional. 

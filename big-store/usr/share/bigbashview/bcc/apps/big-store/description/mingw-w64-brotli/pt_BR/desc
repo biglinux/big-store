@@ -1,3 +1,0 @@
-Essa é uma biblioteca de compressão chamada Brotli. Ela é usada para compactar arquivos de maneira mais eficiente, o que
-significa que os arquivos ocupam menos espaço em seu computador. Isso é útil quando você precisa enviar arquivos grandes para outras pessoas ou armazená-los em seu próprio computador. A
-biblioteca foi criada usando a ferramenta mingw-w64, que é usada para desenvolver software para sistemas operacionais Windows.

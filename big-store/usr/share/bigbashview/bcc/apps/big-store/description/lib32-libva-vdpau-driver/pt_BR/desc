@@ -1,1 +1,0 @@
-Este é um pacote de driver que permite o uso do VDPAU (Video Decode and Presentation API for Unix) com a VA API (Video Acceleration API). Ele é específico para sistemas de 32-bits, o que significa que ele será útil para quem possui hardware antigo ou limitado. Com ele instalado, é possível assistir vídeos de alta qualidade com menos consumo de recursos do sistema.  

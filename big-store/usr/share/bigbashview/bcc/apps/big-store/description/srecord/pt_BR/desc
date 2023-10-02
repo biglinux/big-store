@@ -1,4 +1,0 @@
-O pacote SRecord é uma coleção de ferramentas poderosas para manipular arquivos de carregamento
-de EPROM. Ele permite que você crie, edite e gerencie esses arquivos de forma fácil e eficiente, o que é útil para desenvolvedores de hardware e engenheiros de sistemas. Algumas das
-características incluem conversão de formatos de arquivo, adição de checksum e compactação de dados. Com o SRecord, é possível trabalhar com arquivos de vários formatos, incluindo Intel
-Hex, Motorola S-Record e Atmel Generic. 
