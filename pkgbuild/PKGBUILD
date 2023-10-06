@@ -35,7 +35,7 @@ depends=('bc'
 	'xtermset'
 	'wmctrl'
 	'yay'
-	'translate-shell')
+	'sqlite')
 optdepends=('libpamac-snap-plugin'
 			'libpamac-flatpak-plugin'
 			'pamac-snap-plugin'
