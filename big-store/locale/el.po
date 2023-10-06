@@ -927,3 +927,6 @@ msgstr "Ενημερώθηκε στις"
 
 msgid "Sobre"
 msgstr "Επάνω"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Μετάφραση της περιγραφής των online πακέτων"

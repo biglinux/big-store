@@ -926,3 +926,6 @@ msgstr "Uppfært á"
 
 msgid "Sobre"
 msgstr "Á"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Þýðing á lýsingu á online pakkar"

@@ -927,3 +927,6 @@ msgstr "Aktualisiert am"
 
 msgid "Sobre"
 msgstr "Auf"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Übersetzung der Beschreibung der Online-Pakete"

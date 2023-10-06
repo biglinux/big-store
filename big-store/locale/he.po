@@ -922,3 +922,6 @@ msgstr "עודכן בתאריך"
 
 msgid "Sobre"
 msgstr "על"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "תרגום תיאור החבילות המקוונות"

@@ -926,3 +926,6 @@ msgstr "Güncelleme tarihi"
 
 msgid "Sobre"
 msgstr "Üzerine"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Çevrimiçi paketlerin açıklamasının çevirisi"

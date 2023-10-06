@@ -924,3 +924,6 @@ msgstr "Aktualizováno dne"
 
 msgid "Sobre"
 msgstr "Na"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Překlad popisu online balíčků"
