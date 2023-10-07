@@ -111,7 +111,7 @@ function sh_big_store_start_sh_main {
 	# Save dynamic screenshot resolution
 	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -t gtk -n \"$TITLE\" -s ${half_width}x${half_height}"
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
 	if [[ -n "$1" ]]; then
 		case "$1" in
 		"category") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
