@@ -926,3 +926,6 @@ msgstr "Uuendatud"
 
 msgid "Sobre"
 msgstr "Sisse"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Veebipakettide kirjelduse tõlge"

@@ -932,3 +932,6 @@ msgstr "Mis à jour le"
 
 msgid "Sobre"
 msgstr "Sur"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Traduction de la description des forfaits en ligne"

@@ -928,3 +928,6 @@ msgstr "Actualizat pe"
 
 msgid "Sobre"
 msgstr "Pe"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Traducerea descrierii pachetelor online"

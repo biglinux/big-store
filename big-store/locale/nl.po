@@ -927,3 +927,6 @@ msgstr "Bijgewerkt op"
 
 msgid "Sobre"
 msgstr "Op"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Vertaling van de beschrijving van de online pakketten"
