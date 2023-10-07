@@ -926,3 +926,6 @@ msgstr "Актуализиран на"
 
 msgid "Sobre"
 msgstr "При"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Превод на описанието на онлайн пакетите"

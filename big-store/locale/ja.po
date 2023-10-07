@@ -918,3 +918,6 @@ msgstr "更新日"
 
 msgid "Sobre"
 msgstr "に"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "オンラインパッケージの説明の翻訳"

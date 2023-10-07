@@ -930,3 +930,6 @@ msgstr "Frissítve"
 
 msgid "Sobre"
 msgstr "On"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Az online csomagok leírásának fordítása"

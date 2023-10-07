@@ -926,3 +926,6 @@ msgstr "Ažurirano"
 
 msgid "Sobre"
 msgstr "Na"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Prijevod opisa online paketa"
