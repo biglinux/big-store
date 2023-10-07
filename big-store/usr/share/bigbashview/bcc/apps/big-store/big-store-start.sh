@@ -78,8 +78,10 @@ function sh_check_big_store_is_running() {
 }
 
 function sh_big_store_start_sh_main {
-	local resolution
-	local half_resolution
+	local height
+	local widht
+	local half_height
+	local half_widht
 	local processamento_em_paralelo=1
 	local ident_keys=1
 
@@ -101,12 +103,15 @@ function sh_big_store_start_sh_main {
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
-	resolution=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
-	half_resolution=$((resolution / 2))
-	# Save dynamic screenshot resolution
-	echo "$half_resolution" >"${TMP_FOLDER}/screenshot-resolution.txt"
+	width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)')
+	height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
+	half_width=$((width / 2))
+	half_height=$((height / 2))
 
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s 1280x720 "
+	# Save dynamic screenshot resolution
+	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
+
+	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -t gtk -n \"$TITLE\" -s ${half_width}x${half_height}"
 	if [[ -n "$1" ]]; then
 		case "$1" in
 		"category") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
