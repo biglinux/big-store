@@ -29,12 +29,11 @@ depends=('bc'
 	'xorg-xwininfo'
 	'xorg-xwininfo'
 	'xorg-xrandr'
-	'xsetprop'
-	'xtermset'
 	'wmctrl'
 	'yay'
 	'sqlite'
 	'translate-shell')
+depends_x86_64=( 'xsetprop' 'xtermset')
 optdepends=('libpamac-snap-plugin'
 			'libpamac-flatpak-plugin'
 			'pamac-snap-plugin'
