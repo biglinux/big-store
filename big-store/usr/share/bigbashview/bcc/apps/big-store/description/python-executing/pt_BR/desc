@@ -1,1 +1,0 @@
-Este programa permite que você obtenha informações sobre o nó AST (Abstract Syntax Tree) que está sendo executado no momento em um quadro específico. Isso pode ser útil para entender melhor como o código está sendo executado e identificar possíveis problemas. Ele é escrito em Python e é fácil de usar. 

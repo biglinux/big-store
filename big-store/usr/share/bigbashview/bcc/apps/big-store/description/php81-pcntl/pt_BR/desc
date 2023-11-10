@@ -1,4 +1,0 @@
-O módulo pcntl para PHP 8.1 permite que você manipule processos no seu sistema operacional de forma semelhante a como o programa
-'bash' o faz. Isso inclui a capacidade de criar novos processos, encerrar processos existentes, enviar sinais para processos e aguardar o término de processos. Esse módulo é útil para
-tarefas de programação que precisam se comunicar com outros programas ou processos, como execução de comandos externos, gerenciamento de processos em segundo plano e gerenciamento de
-tarefas agendadas.

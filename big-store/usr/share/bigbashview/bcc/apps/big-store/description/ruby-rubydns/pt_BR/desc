@@ -1,1 +1,0 @@
-Este programa é um servidor e resolvador DNS assíncrono de alta performance. Ele foi escrito em Ruby e se chama ruby-rubydns. Ele é capaz de lidar com muitas solicitações de DNS ao mesmo tempo sem afetar o desempenho. Isso o torna ideal para uso em ambientes de alta carga, como em provedores de serviços de internet. 

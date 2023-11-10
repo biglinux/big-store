@@ -1,5 +1,0 @@
- Este é um framework TUI (interface de usuário baseada em texto) para o Python, chamado python-scurses-git. Ele permite que
-você crie aplicativos de linha de comando com facilidade e recursos adicionais, como navegação de menu e exibição de dados em tabelas. Ele é baseado no pacote curses do Python, que oferece 
-uma interface para o terminal do sistema operacional.Com este framework, você pode criar aplicativos que funcionam em vários sistemas operacionais e possuem uma interface amigável e fácil
-de usar. Ele é perfeito para criar ferramentas de administração, utilitários de linha de comando e outras aplicações que precisam de uma interface baseada em texto.Se você está procurando
-uma maneira fácil de criar aplicativos de linha de comando com recursos adicionais, o python-scurses-git é uma excelente escolha.

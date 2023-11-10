@@ -1,1 +1,0 @@
-haskell-gi-gtk-hs é um wrapper para gi-gtk, que adiciona algumas partes de API mais idiomáticas no topo. Isso significa que ele oferece uma maneira mais fácil e intuitiva de usar a biblioteca gi-gtk, especialmente se você estiver trabalhando com o Haskell. 

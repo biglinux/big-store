@@ -1,2 +1,0 @@
-Uma ferramenta chamada 'transformers_ocr' que ajuda a ler mangás utilizando a biblioteca 'maim' e os modelos de linguagem
-'Transformers'. Ela é capaz de reconhecer o texto presente nas imagens e transformá-lo em um formato editável, facilitando a leitura e a tradução para outras línguas. 

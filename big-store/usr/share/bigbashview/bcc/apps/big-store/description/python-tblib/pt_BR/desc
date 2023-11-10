@@ -1,1 +1,0 @@
-A biblioteca python-tblib é utilizada para manipulação de tracebacks (mensagens de erro) no Python. Ela permite capturar, serializar e transportar tracebacks gerados em diferentes processos e máquinas, facilitando a análise de erros em aplicações distribuídas. Além disso, ela oferece suporte  a diferentes formatos de serialização, como pickle e json. 

@@ -1,1 +1,0 @@
-Este é um plugin do python-lsp-server que adiciona suporte ao autoformatter black. Ele foi  forkado do pyls-black e permite que você formate seu código python automaticamente seguindo as convenções do black. 

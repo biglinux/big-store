@@ -1,1 +1,0 @@
-Esse programa é um wrapper, ou seja, um programa que ajuda outros programas a funcionar melhor. Ele faz isso usando o estilo de interface do Qt e se conectando ao GSettings, que é uma ferramenta para gerenciar as configurações do sistema operacional. Isso permite que outros programas funcionem de maneira mais fácil e intuitiva no sistema operacional. 

@@ -1,1 +1,0 @@
-Este é um pequeno módulo em Python que ajuda a determinar os diretórios específicos de acordo com a plataforma em que o programa está sendo executado. Por exemplo, ele pode ajudar a encontrar o diretório de dados do usuário.O nome do módulo é python-appdirs. 

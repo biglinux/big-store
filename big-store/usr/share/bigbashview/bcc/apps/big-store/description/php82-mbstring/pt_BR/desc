@@ -1,3 +1,0 @@
-Este programa é um módulo para o PHP 8.2 que permite manipular strings de vários tipos de caracteres, incluindo caracteres
-multibyte. Ele fornece funções para verificar o tamanho de uma string, dividir uma string em pedaços, procurar por partes específicas de uma string, e muito mais. Ele é útil para qualquer
-projeto que precise lidar com texto em vários idiomas ou scripts.

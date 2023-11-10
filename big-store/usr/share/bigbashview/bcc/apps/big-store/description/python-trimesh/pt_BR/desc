@@ -1,4 +1,0 @@
-A biblioteca python-trimesh é uma ferramenta em Python para carregar e utilizar malhas triangulares, com
-ênfase em superfícies vedadas à água. Ela é uma biblioteca pura em Python, o que significa que não requer outras bibliotecas externas para funcionar.Com essa biblioteca, é possível fazer
-tarefas como carregar arquivos de malhas 3D, calcular propriedades da malha como área e volume, e realizar operações de transformação geometrica. Além disso, é possível também realizar
-colisões, intersecções e outras operações para malhas. 

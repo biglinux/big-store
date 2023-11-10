@@ -1,5 +1,0 @@
- O libqtolm é um programa que permite usar a biblioteca libolm em conjunto com a biblioteca de interface gráfica Qt. Isso
-significa que você pode criar aplicativos com uma interface gráfica bonita e fácil de usar, mas com a segurança adicional fornecida pela libolm.A libolm é uma biblioteca de criptografia
-de extremidade a extremidade projetada para ser usada em aplicativos de mensagens instantâneas. Ela garante que as mensagens só possam ser lidas pelo destinatário pretendido, mesmo se
-alguém interceptar as mensagens enquanto elas estiverem sendo transmitidas.O libqtolm é uma ferramenta útil para qualquer desenvolvedor que esteja criando um aplicativo de mensagens
-instantâneas e queira garantir a privacidade e segurança dos usuários. 

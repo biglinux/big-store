@@ -1,2 +1,0 @@
-Este programa é um wrapper para a API do Discord escrito com aiohttp. Ele é rápido e assíncrono, e foi desenvolvido para
-facilitar o uso da API do Discord com o Python. Com ele, você pode criar bots, automatizar tarefas e integrar outras ferramentas com o Discord de forma simples e rápida.

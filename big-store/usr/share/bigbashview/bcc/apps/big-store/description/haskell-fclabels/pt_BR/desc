@@ -1,1 +1,0 @@
-haskell-fclabels é um pacote para acessar e modificar dados de forma segura e eficiente em Haskell. Ele implementa acessores de primeira classe chamados de 'lentes', que permitem acessar e modificar dados em estruturas de dados complexas com uma sintaxe simples e intuitiva.Esse pacote é muito útil para trabalhar com dados aninhados e evitar códigos complicados e verbosos. 

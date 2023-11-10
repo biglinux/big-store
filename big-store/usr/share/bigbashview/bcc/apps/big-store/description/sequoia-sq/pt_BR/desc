@@ -1,1 +1,0 @@
-sequoia-sq é um frontend de linha de comando para o Sequoia, uma biblioteca de código aberto para trabalhar com formatos de arquivo PGP. Ele permite que você crie, gerencie e verifique assinaturas digitais, cifre e decifre arquivos e mensagens, além de gerenciar chaves de criptografia. 

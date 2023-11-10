@@ -1,1 +1,0 @@
-O prometheus-wireguard-exporter é uma ferramenta escrita em Rust que permite você monitorar a performance de sua VPN Wireguard. Ele exporta métricas importantes como o número de peers conectados, número de conexões estabelecidas e outros. Com ele é possível identificar problemas e solucionar possíveis problemas. 

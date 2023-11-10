@@ -1,1 +1,0 @@
-Mocha é uma biblioteca para simulação e teste em aplicações Ruby. Ele permite criar 'stubs' e 'mocks' dos métodos e objetos, o que facilita o teste de unidade e a validação do comportamento do código. Com Mocha, é possível simular situações complexas e garantir que o código esteja funcionando corretamente antes de ser colocado em produção. 

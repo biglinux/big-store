@@ -1,1 +1,0 @@
-iproute2 é um conjunto de ferramentas de linha de comando para gerenciar o roteamento de IP em sistemas operacionais Linux. Ele inclui comandos como ip, tc, ss e muitos outros que permitem configurar e monitorar o roteamento e a filtragem de pacotes de rede. 

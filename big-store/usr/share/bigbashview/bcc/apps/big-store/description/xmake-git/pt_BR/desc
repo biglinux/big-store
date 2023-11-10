@@ -1,3 +1,0 @@
- xmake-git é uma ferramenta de construção semelhante ao make, baseada em Lua. Ele permite criar projetos de software 
-de forma rápida e fácil, usando scripts Lua para automatizar tarefas comuns. Com o xmake, você pode definir dependências, configurar opções de compilação e gerenciar vários sistemas de
-construção. Ele é open-source, o que significa que qualquer pessoa pode contribuir para o desenvolvimento do projeto. 

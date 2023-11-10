@@ -1,4 +1,0 @@
-Este programa é chamado de heifthumbnailer e ele é usado para criar miniaturas de imagens no formato HEIF. Ele é um KIO (KDE
-Input/Output) que funciona como uma extensão do sistema de arquivos, permitindo que as miniaturas sejam criadas automaticamente quando você navega pelas imagens no seu computador.Isso
-significa que, ao invés de você precisar abrir cada imagem individualmente para ver o que ela contém, você pode ver uma miniatura da imagem, tornando mais fácil encontrar a imagem que você 
-está procurando.

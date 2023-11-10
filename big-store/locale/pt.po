@@ -796,3 +796,143 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Vídeo"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Erro ao acessar o diretório:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional. <br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade. <br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação. <br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Data aproximada que o sistema foi instalado:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store já está em execução."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional. <br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade. <br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação. <br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Baixando pacotes novos da base de dados do servidor"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Nenhum pacote passado como parâmetro"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Outra instância do Big-Store já está em execução."
+
+msgid "Procurar aplicativo"
+msgstr "Procurar aplicativo"
+
+msgid "Editores de texto linha de comando"
+msgstr "Editores de texto linha de comando"
+
+msgid "Multimidia"
+msgstr "Multimidia"
+
+msgid "Carta"
+msgstr "Carta"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Ver informações do dispositivo no Linux Hardware"
+
+msgid "Processador"
+msgstr "Processador"
+
+msgid "Placa mãe"
+msgstr "Placa mãe"
+
+msgid "Memória"
+msgstr "Memória"
+
+msgid "Swap Memória Virtual"
+msgstr "Swap Memória Virtual"
+
+msgid "Placa de vídeo"
+msgstr "Placa de vídeo"
+
+msgid "Áudio"
+msgstr "Áudio"
+
+msgid "Rede"
+msgstr "Rede"
+
+msgid "Conexões de Rede"
+msgstr "Conexões de Rede"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Dispositivos e conexões USB"
+
+msgid "Portas PCI"
+msgstr "Portas PCI"
+
+msgid "Bateria"
+msgstr "Bateria"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Dispositivos de Armazenamento"
+
+msgid "Partições montadas"
+msgstr "Partições montadas"
+
+msgid "Partições desmontadas"
+msgstr "Partições desmontadas"
+
+msgid "Dispositivos lógicos"
+msgstr "Dispositivos lógicos"
+
+msgid "Raid"
+msgstr "Raid"
+
+msgid "Informações de Sistema"
+msgstr "Informações de Sistema"
+
+msgid "Repositórios"
+msgstr "Repositórios"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatura"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+
+msgid "Atualizado em"
+msgstr "Atualizado em"
+
+msgid "Sobre"
+msgstr "Sobre"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Tradução da descrição dos pacotes online"

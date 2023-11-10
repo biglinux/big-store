@@ -1,1 +1,0 @@
-Este é um módulo de armazenamento de lista de contatos para o DJabberd, um software de servidor de bate-papo instantâneo. Ele usa o banco de dados SQLite para armazenar as informações de contato. Ele foi escrito em Perl. 

@@ -1,1 +1,0 @@
-Poppler-sharp é um pacote de vinculação que permite acessar as funcionalidades do Poppler, que é uma biblioteca de visualização de PDF, usando C#. Com ele, é possível carregar, renderizar e extrair informações de arquivos PDF em aplicativos C#. É uma ferramenta útil para desenvolvedores que precisam trabalhar com arquivos PDF em seus projetos. 

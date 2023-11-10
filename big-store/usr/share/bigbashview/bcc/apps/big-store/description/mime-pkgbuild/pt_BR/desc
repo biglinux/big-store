@@ -1,4 +1,0 @@
-Este programa adiciona tipos MIME para arquivos PKGBUILD. Isso significa que, quando você abre um arquivo
-PKGBUILD em seu computador, o programa sabe como lidar com ele e como mostrá-lo corretamente. Isso é útil porque os arquivos PKGBUILD são usados ​​para criar pacotes para sistemas Linux.Sem
-esse programa, os arquivos PKGBUILD podem não ser reconhecidos corretamente e pode ser difícil trabalhar com eles. Com ele, você pode facilmente abrir, editar e criar pacotes para seu
-sistema Linux.

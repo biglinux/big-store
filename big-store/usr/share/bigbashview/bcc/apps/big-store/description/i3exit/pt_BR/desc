@@ -1,1 +1,0 @@
-Este script é projetado para ser usado com o gerenciador de janelas i3 e é compatível tanto com o Systemd quanto com o OpenRC. Ele inclui uma função chamada 'blurlock' que adiciona um efeito de desfoque à tela quando o computador é bloqueado. 

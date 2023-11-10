@@ -1,1 +1,0 @@
-O python-sphinx-pytest é um pacote que fornece fixtures úteis para extensões do Sphinx. Essas fixtures ajudam a simplificar o processo de testar extensões do Sphinx, tornando-o mais fácil de entender e manter. Com elas, é possível ter acesso a recursos como o documento Sphinx, a saída HTML e o ambiente do Sphinx. 

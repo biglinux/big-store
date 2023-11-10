@@ -1,1 +1,0 @@
-Pamixer é um misturador de linha de comando para o PulseAudio. Ele permite controlar o volume de áudio de aplicativos individuais, bem como o volume geral do sistema. Ele é semelhante ao amixer, que é um misturador de linha de comando para o ALSA (Advanced Linux Sound Architecture). Pamixer é útil para controlar o volume de áudio em scripts ou a partir do terminal. 

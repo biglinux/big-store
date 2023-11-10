@@ -1,1 +1,0 @@
-Este programa permite armazenar dados de sessão de forma segura em um cookie do lado  do cliente. Isso é útil para manter os usuários logados em um site ou aplicativo, por exemplo.Ele foi escrito em Haskell, uma linguagem de programação funcional popular. Haskell é conhecido por sua segurança e performance, tornando-o uma escolha ideal para essa tarefa. 

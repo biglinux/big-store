@@ -1,2 +1,0 @@
-Este programa é usado para compactar arquivos no formato xz de maneira paralela e indexada. Isso significa que ele pode trabalhar
-com vários arquivos ao mesmo tempo e organizá-los de maneira fácil de encontrar.Ele é útil para reduzir o tamanho de arquivos grandes e torná-los mais fáceis de transportar ou armazenar.

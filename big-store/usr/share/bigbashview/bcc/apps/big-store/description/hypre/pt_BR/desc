@@ -1,3 +1,0 @@
-Este programa é capaz de resolver sistemas lineares esparsos utilizando métodos de multigrid. Ele é chamado de
-'hypre' e é projetado para ser utilizado em ambientes paralelos, o que permite que ele resolva problemas grandes e complexos de forma mais eficiente. Ele é especialmente útil em aplicações 
-científicas e engenharia, como a simulação de fluidos, análise estrutural e processamento de imagens.

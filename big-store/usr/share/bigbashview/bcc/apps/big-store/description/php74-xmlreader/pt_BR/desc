@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.4 que permite ler arquivos XML de forma rápida e fácil. Ele fornece uma interface para navegar
-pelo conteúdo dos arquivos XML, permitindo acessar elementos e atributos com facilidade. Com esse módulo, é possível ler arquivos XML grandes sem precisar carregá-los inteiros na memória, o
-que é útil em aplicações que lidam com grandes quantidades de dados. Além disso, ele é compatível com a maioria dos formatos de arquivos XML, incluindo aqueles que contêm caracteres UTF-8.

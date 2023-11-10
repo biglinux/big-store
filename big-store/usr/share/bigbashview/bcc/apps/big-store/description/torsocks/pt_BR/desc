@@ -1,1 +1,0 @@
-torsocks é um 'wrapper' (envoltório) que permite rodar aplicativos com segurança dentro da rede Tor. Ele faz isso adicionando algumas configurações extras para garantir que as conexões do aplicativo não vazem para fora da rede Tor. Isso é útil para garantir privacidade e anonimato enquanto se usa certos aplicativos. 

@@ -1,3 +1,0 @@
-A biblioteca International Components for Unicode, ou ICU, é um conjunto de ferramentas e bibliotecas
-desenvolvidas para garantir a compatibilidade com diferentes idiomas e sistemas de escrita. Ela é projetada para ser usada em aplicativos e sistemas que precisam lidar com dados
-multilingues. Essa versão é específica para uso com o compilador MinGW-w64.

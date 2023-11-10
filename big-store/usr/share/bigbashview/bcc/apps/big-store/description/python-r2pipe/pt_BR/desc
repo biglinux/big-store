@@ -1,1 +1,0 @@
-Com o python-r2pipe, é possível acessar o radare2, um conjunto de ferramentas para análise de código binário, através de um pipe (uma forma de comunicação entre programas) a partir de qualquer linguagem de programação. Isso permite que você use as funcionalidades do radare2 em suas  próprias aplicações e automatize tarefas de análise de código. 

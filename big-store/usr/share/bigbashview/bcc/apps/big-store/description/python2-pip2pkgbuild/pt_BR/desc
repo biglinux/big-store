@@ -1,3 +1,0 @@
-Este programa é útil para quem deseja criar um arquivo PKGBUILD para um módulo Python a partir do PyPI. PKGBUILD é 
-um formato de arquivo utilizado no sistema de gerenciamento de pacotes Arch Linux. Ele contém informações sobre como o pacote deve ser construído e instalado.Com o python2-pip2pkgbuild,
-você pode facilmente gerar um arquivo PKGBUILD para um módulo Python específico, sem precisar digitar todas as informações manualmente.

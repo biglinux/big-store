@@ -1,4 +1,0 @@
-lnav é uma ferramenta baseada em curses que permite visualizar e analisar arquivos de log de forma
-rápida e fácil. Ele permite navegar pelos arquivos, pesquisar por palavras-chave e aplicar filtros para encontrar informações específicas. Além disso, ele oferece recursos avançados, como a
-capacidade de agrupar entradas de log por data e hora, ou por tipo de evento.lnav é fácil de usar, e é uma ótima opção para qualquer pessoa que precisa analisar arquivos de log
-frequentemente, sejam eles do sistema, da aplicação ou de qualquer outro tipo. Ele é escrito em C++ e é open-source.

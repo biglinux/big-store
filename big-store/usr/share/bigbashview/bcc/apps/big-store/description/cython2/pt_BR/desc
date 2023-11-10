@@ -1,4 +1,0 @@
-Cython é uma ferramenta que permite escrever código Python de alta performance, utilizando extensões C. Ele funciona como uma
-espécie de ponte entre o Python e C, permitindo que você escreva partes do seu código em C, e assim obtenha uma performance melhor. Com Cython, você pode escrever código Python que é tão
-rápido quanto o código escrito diretamente em C. Cython é compatível com Python 2 e é uma ótima opção para quem precisa de performance em aplicações Python antigas. Ele é fácil de usar e
-possui uma sintaxe similar ao Python, o que facilita a transição de código Python para C.

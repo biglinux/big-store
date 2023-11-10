@@ -1,4 +1,0 @@
-Com o python-modbus-tk, você pode criar facilmente aplicativos Modbus usando Python. Ele é um pacote de
-ferramentas que oferece uma interface fácil de usar para trabalhar com dispositivos Modbus. Ele suporta vários protocolos Modbus, incluindo Modbus RTU e Modbus TCP/IP. Além disso, ele tem
-várias funções úteis, como a capacidade de simular dispositivos Modbus para testar seus aplicativos. O python-modbus-tk é uma ótima opção para desenvolvedores que precisam criar aplicativos
-Modbus com rapidez e facilidade.

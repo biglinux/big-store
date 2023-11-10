@@ -1,4 +1,0 @@
-A biblioteca de cliente CIM de pequeno tamanho (Small Footprint CIM Client, ou sblim-sfcc) é uma ferramenta para
-acessar servidores CIM (Common Information Model) de maneira fácil e eficiente. Ela foi projetada para ser usada em dispositivos de baixo poder de processamento e memória, como roteadores e
-dispositivos embarcados, mas também pode ser usada em computadores comuns.A biblioteca sblim-sfcc suporta vários protocolos, incluindo CIM-XML, WS-Management e SFCB, e pode ser usada com
-diferentes sistemas operacionais, como Linux, Unix e Windows.

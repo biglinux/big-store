@@ -1,4 +1,0 @@
- Este é um módulo chamado GMP, que adiciona recursos avançados de matemática para a linguagem de programação PHP. Ele 
-é específico para a versão 7.3 do PHP, então é importante verificar se você tem essa versão antes de instalar. Com esse módulo, você pode fazer coisas como trabalhar com números grandes e
-precisos, e realizar operações matemáticas avançadas.Ele é útil para qualquer projeto que precise de precisão matemática, como cálculos financeiros ou criptografia. Ele também é fácil de
-usar, basta instalar e habilitá-lo no seu PHP e você já pode começar a usá-lo em seu código. 

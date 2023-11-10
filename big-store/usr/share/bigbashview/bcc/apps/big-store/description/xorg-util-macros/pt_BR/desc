@@ -1,1 +1,0 @@
-O pacote xorg-util-macros fornece macros úteis para automatizar tarefas comuns na criação de pacotes para o X.Org. Essas macros incluem ferramentas para gerar arquivos de configuração, scripts de instalação e outros elementos necessários para construir e distribuir pacotes do X.Org. 

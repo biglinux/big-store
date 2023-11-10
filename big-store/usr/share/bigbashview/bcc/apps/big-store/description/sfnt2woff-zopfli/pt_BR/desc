@@ -1,2 +1,0 @@
-Este programa é uma ferramenta de compressão para fontes no formato WOFF. Ele utiliza a técnica de compressão Zopfli
-para reduzir o tamanho dos arquivos, o que pode tornar a página mais rápida para carregar. Além disso, ele também permite converter fontes em outros formatos, como o SFNT.

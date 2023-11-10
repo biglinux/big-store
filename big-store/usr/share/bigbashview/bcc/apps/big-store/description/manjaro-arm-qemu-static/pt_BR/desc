@@ -1,1 +1,0 @@
-Este programa registra intérpretes estáticos do QEMU para vários formatos binários. Ele é específico para a distribuição Manjaro-ARM e é usado para executar programas em outras arquiteturas de computadores.Usando o QEMU-static, você pode emular outros sistemas operacionais dentro do seu computador sem precisar de máquinas virtuais. 

@@ -1,4 +1,0 @@
- mono-simpleitk é uma camada simplificada construída sobre o ITK. Ele foi criado para tornar mais fácil para os desenvolvedores
-trabalhar com imagens em seus programas, sem precisar entender todos os detalhes técnicos do ITK. Com mono-simpleitk, é possível realizar tarefas comuns como redimensionamento, rotação e
-corte de imagens de maneira mais fácil e intuitiva.Além disso, o mono-simpleitk também possui uma interface de programação de aplicativos (API) amigável, o que significa que é fácil de
-usar e implementar em seu projeto. Se você está procurando uma forma mais simples de trabalhar com imagens, mono-simpleitk é uma ótima opção. 

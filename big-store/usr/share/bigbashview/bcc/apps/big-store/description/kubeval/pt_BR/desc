@@ -1,3 +1,0 @@
- Com o Kubeval, você pode validar facilmente suas configurações do Kubernetes através de uma linha de comando. Esse 
-programa é útil para garantir que suas configurações estejam corretas antes de implementá-las em um ambiente de produção. Além disso, ele também pode ser usado para encontrar erros e
-problemas comuns em arquivos de configuração. 

@@ -1,1 +1,0 @@
-python-musicbrainzngs é uma biblioteca em Python para acessar o webservice NGS (Next Generation Schema) do Musicbrainz. Ele permite que você faça consultas e edições no banco de dados do Musicbrainz usando a linguagem Python. Além disso, ele fornece uma interface fácil de usar para trabalhar com os dados retornados pela API. Ele é compatível com Python 2.7 e 3.5+. 

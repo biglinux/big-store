@@ -1,2 +1,0 @@
-Esta biblioteca é usada para trabalhar com arquivos de áudio no formato Ogg. Ela inclui funções para ler e escrever
-arquivos Ogg, bem como para codificar e decodificar áudio. É específica para desenvolvimento com o ambiente MinGW-w64.

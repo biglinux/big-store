@@ -1,3 +1,0 @@
- Esta é uma biblioteca de xadrez para Python com suporte para geração/validação de jogadas, PGN/Polyglot/Gaviota/Syzygy/UCI.
-Com ela, você pode criar programas de xadrez com facilidade, sem precisar se preocupar com detalhes técnicos da jogada. É uma ferramenta útil para quem deseja desenvolver programas de
-xadrez ou simplesmente estudar essa modalidade de jogo. 

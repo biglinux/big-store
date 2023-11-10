@@ -1,1 +1,0 @@
-Este é um programa escrito em Perl que é um clone do POSIX para o Win32::SerialPort. Ele permite que você acesse e controle dispositivos seriais em sistemas operacionais Windows usando as mesmas funções e métodos que você usaria em sistemas operacionais POSIX. 

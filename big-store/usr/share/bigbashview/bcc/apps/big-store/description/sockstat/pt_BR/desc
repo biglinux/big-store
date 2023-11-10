@@ -1,3 +1,0 @@
-Essa ferramenta é chamada de 'sockstat' e é específica para o sistema operacional FreeBSD. Ela serve
-para mostrar informações sobre os sockets abertos em seu computador. Isso inclui detalhes como o endereço IP, a porta e o processo que está usando o socket.Isso pode ser útil se você
-precisar identificar problemas de rede ou gerenciar recursos do sistema.

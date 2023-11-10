@@ -1,3 +1,0 @@
-Este programa é uma substituição para o comando 'ls' padrão do sistema, escrito em Rust. Ele oferece uma interface
-amigável e fácil de usar para listar arquivos e pastas em um diretório. Além disso, ele também possui recursos adicionais, como a capacidade de ordenar os arquivos por tamanho e data de
-modificação. Ele é ideal para usuários que procuram uma maneira mais avançada de gerenciar seus arquivos.

@@ -1,1 +1,0 @@
-Este programa tem como objetivo ativar o dbus-broker automaticamente, garantindo que ele esteja sempre ativo e funcionando corretamente.Além disso, ele também desativa a função fsync, o que pode melhorar o desempenho do sistema em algumas situações. 

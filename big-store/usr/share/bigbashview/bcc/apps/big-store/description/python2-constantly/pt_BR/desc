@@ -1,4 +1,0 @@
- O programa python2-constantly permite que você use constantes simbólicas em seu código Python. Isso significa que você pode 
-atribuir um nome a um valor e usá-lo ao invés de digitar o valor toda vez que precisar dele. Isso facilita a leitura e manutenção do código, pois os nomes das constantes são mais
-significativos e fáceis de entender do que valores numéricos ou sequências de caracteres. Além disso, se você precisar mudar o valor da constante, só precisará fazê-lo em um único lugar no 
-código. 

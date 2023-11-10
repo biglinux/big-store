@@ -1,3 +1,0 @@
-Este programa é um plugin para o Blender que permite que você use o LuxCoreRender para renderizar suas cenas. Ele
-adiciona uma nova opção de exportação no Blender, permitindo que você salve sua cena no formato do LuxCoreRender e então a abra no software de renderização. Isso significa que você pode
-aproveitar as funcionalidades avançadas do LuxCoreRender, como iluminação global e suporte a vários dispositivos de renderização, enquanto continua usando o Blender para criar suas cenas. 

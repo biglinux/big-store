@@ -1,3 +1,0 @@
- Este programa permite aos usuários fazer login com sua digital e senha ao mesmo tempo. Ele usa uma tecnologia chamada PAM
-(Pluggable Authentication Modules) para fazer isso. Isso significa que é possível adicionar mais opções de autenticação no futuro, como reconhecimento facial ou reconhecimento de voz. Além 
-disso, ele também usa uma tecnologia chamada fprintd, que é específica para reconhecimento de impressões digitais. Isso garante que o processo de autenticação seja rápido e preciso. 

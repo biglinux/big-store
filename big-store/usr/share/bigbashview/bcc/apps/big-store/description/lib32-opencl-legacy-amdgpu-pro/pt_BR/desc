@@ -1,3 +1,0 @@
- Este é um programa específico para sistemas de 32 bits que permite a utilização de OpenCL, uma linguagem de
-programação para computação paralela. Ele é desenvolvido pela AMDGPU-PRO e é considerado uma versão antiga e não gratuita. Ele é conhecido como ICD Loaders (PAL) e é usado para melhorar o
-desempenho em aplicações que utilizam OpenCL. 

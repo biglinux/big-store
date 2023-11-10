@@ -1,3 +1,0 @@
-Esta é uma ferramenta chamada checkmake, ela serve para verificar arquivos chamados makefiles. Ela é experimental, ou
-seja, ainda está sendo testada e pode haver erros. Ela ajuda a encontrar problemas no seu código e te ajuda a corrigi-los.Os arquivos make são usados para criar programas, eles dizem ao
-computador como compilar o código fonte e transformá-lo em um programa executável. É importante que eles estejam escritos corretamente para que o programa funcione corretamente.

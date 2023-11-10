@@ -1,4 +1,0 @@
-Este é um módulo de compactação para a versão 8.0 do PHP. Ele permite que você compacte e descompacte arquivos no seu
-código PHP. Isso pode ser útil para economizar espaço em disco ou para enviar arquivos de maneira mais eficiente. Ele é fácil de usar e tem várias opções de configuração para personalizar a
-compactação. Alguns exemplos de uso incluem compactar arquivos de log antes de enviá-los para um servidor remoto, compactar arquivos de imagem antes de enviá-los para um usuário final ou
-compactar arquivos de backup para economizar espaço em disco.

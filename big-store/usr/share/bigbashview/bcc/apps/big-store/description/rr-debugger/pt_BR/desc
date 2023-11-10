@@ -1,5 +1,0 @@
-A ferramenta rr é uma ferramenta leve para gravar, reproduzir e depurar a execução de aplicativos. Ele permite que você grave a
-execução de um programa e depois reproduza-a para encontrar problemas ou bugs. Isso pode ser útil quando você tem um problema que só ocorre em determinadas condições ou quando você precisa 
-analisar o comportamento de um programa em detalhes.Além disso, o rr também pode ser usado para depurar aplicativos em tempo real, enquanto eles estão sendo executados. Isso permite que
-você veja o que está acontecendo dentro do programa enquanto ele está rodando, o que pode ajudar a encontrar e corrigir problemas rapidamente.Em resumo, o rr é uma ferramenta poderosa e
-flexível para ajudar você a depurar seus aplicativos e encontrar e corrigir problemas rapidamente.

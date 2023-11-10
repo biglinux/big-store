@@ -1,3 +1,0 @@
-Este é um módulo de sockets para a versão 8.1 do PHP. Ele permite que você crie e gerencie conexões de rede usando o protocolo
-TCP ou UDP. Isso é útil para criar aplicativos de rede, como chat, jogos e outros programas que precisam se comunicar com outros dispositivos.Com este módulo, você pode criar servidores e
-clientes, enviar e receber dados e gerenciar as conexões de forma fácil e eficiente. Além disso, ele suporta configurações avançadas, como o uso de SSL para criptografar as conexões.

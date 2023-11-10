@@ -1,4 +1,0 @@
- Este programa é um módulo específico para o PHP 7.1, chamado de DOM. Ele permite que os desenvolvedores acessem e manipulem
-documentos HTML e XML de forma mais fácil e eficiente. Ele também fornece uma estrutura de navegação de árvore para esses documentos, facilitando ainda mais a busca e manipulação de
-elementos específicos.Esse módulo é muito útil para desenvolvimento de aplicações web, especialmente aquelas que precisam lidar com dados em formatos HTML ou XML. É recomendado para
-desenvolvedores que já tenham familiaridade com o PHP e queiram aprimorar suas habilidades. 

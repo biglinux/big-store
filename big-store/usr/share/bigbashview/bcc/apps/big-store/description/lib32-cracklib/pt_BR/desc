@@ -1,1 +1,0 @@
-Esta biblioteca é chamada de lib32-cracklib e é usada para verificar a segurança de senhas. Ela funciona verificando a senha inserida contra uma lista de senhas fracas ou comuns, e também verifica se a senha é muito curta ou se contém informações pessoais. Isso ajuda a garantir que as senhas dos usuários sejam fortes e seguras, protegendo assim suas informações pessoais e dados. 

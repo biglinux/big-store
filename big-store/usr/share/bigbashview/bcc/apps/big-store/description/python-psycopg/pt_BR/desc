@@ -1,1 +1,0 @@
-python-psycopg é um adaptador de banco de dados PostgreSQL para a linguagem de programação Python. Ele é usado para se conectar a um banco de dados PostgreSQL e realizar várias operações, como consultas, inserções e atualizações de dados. Ele é compatível com Python 2 e Python 3 e está disponível sob a licença LGPL. 

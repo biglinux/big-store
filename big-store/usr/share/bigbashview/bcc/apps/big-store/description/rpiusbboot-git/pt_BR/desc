@@ -1,3 +1,0 @@
-Este programa permite iniciar o seu Raspberry Pi a partir de um dispositivo USB, em vez de usar uma imagem no cartão SD.
-Isso pode ser útil se você quiser fazer alterações na configuração do sistema ou instalar novos aplicativos sem precisar queimar uma nova imagem no cartão SD. Para usar esse programa, você 
-precisará de um dispositivo USB vazio e acesso à linha de comando do seu computador. Siga as instruções fornecidas para preparar o dispositivo USB e iniciar o Raspberry Pi a partir dele.

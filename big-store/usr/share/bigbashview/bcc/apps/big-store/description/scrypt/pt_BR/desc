@@ -1,1 +1,0 @@
-scrypt é uma função de derivar chave e utilidade de criptografia. Ela é projetada para ser mais segura e  resistente contra ataques de hardware especializado, como o uso de FPGAs ou ASICs. Isso é alcançado através do uso de uma grande quantidade de memória, o que torna mais difícil e caro para  os atacantes construir dispositivos para quebrar a criptografia. 

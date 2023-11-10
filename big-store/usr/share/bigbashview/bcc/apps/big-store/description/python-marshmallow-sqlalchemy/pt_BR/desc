@@ -1,1 +1,0 @@
-O python-marshmallow-sqlalchemy é uma ferramenta que permite integrar o SQLAlchemy com o marshmallow. Isso permite que você facilmente valide e serialize dados de objetos de banco de dados usando o marshmallow. Ele é muito útil para desenvolver aplicações web em Python, pois permite gerenciar facilmente as operações de leitura e escrita no banco de dados. 

@@ -1,1 +1,0 @@
-A libgovirt é uma biblioteca baseada em GObject para acessar a API REST oVirt. Ela fornece uma API conveniente e fácil de usar para interagir com o motor oVirt. A biblioteca é escrita em C e foi projetada para ser fácil de usar para desenvolvedores familiarizados com o modelo de programação GObject. Ela também suporta chamadas de API síncronas e assíncronas. 

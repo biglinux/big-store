@@ -1,1 +1,0 @@
-O ruby-faraday-middleware é uma coleção de middlewares para o Faraday, que é uma biblioteca HTTP client para Ruby. Ele permite que você adicione facilmente funcionalidades como autenticação, gerenciamento de erros, cache e redirecionamento para suas solicitações HTTP. Ele também suporta vários formatos de resposta, como JSON, XML e formulários. 

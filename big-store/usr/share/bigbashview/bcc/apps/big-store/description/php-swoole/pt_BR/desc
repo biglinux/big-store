@@ -1,4 +1,0 @@
-Com a biblioteca php-swoole, você pode adicionar facilmente recursos de concorrência ao seu
-aplicativo PHP. É baseado em coroutines, o que significa que você pode escrever código assíncrono de maneira fácil e clara, sem ter que lidar com threads complicadas. Além disso, o
-php-swoole é altamente otimizado e pode lidar com muitas conexões simultâneas sem comprometer o desempenho.Se você está procurando uma maneira de melhorar a escalabilidade e a eficiência do
-seu aplicativo PHP, dê uma olhada na biblioteca php-swoole.

@@ -1,3 +1,0 @@
-A biblioteca libosmium é uma ferramenta em C++ desenvolvida para trabalhar com
-dados do OpenStreetMap de forma rápida e flexível. Ela permite aos desenvolvedores ler e escrever dados no formato OSM, além de oferecer diversas funcionalidades para manipular e analisar
-esses dados. Com libosmium, é possível criar aplicativos e ferramentas que utilizem os dados do OpenStreetMap de forma eficiente e simples.

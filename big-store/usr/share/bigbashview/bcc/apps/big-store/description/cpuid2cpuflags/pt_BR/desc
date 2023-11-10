@@ -1,4 +1,0 @@
-Você sabia que seu computador possui vários conjuntos de instruções diferentes? Esses conjuntos de instruções
-determinam o que o seu computador é capaz de fazer. Este programa é uma ferramenta que te ajuda a descobrir quais conjuntos de instruções seu computador suporta. Assim, você pode ver se ele
-é capaz de rodar algum jogo ou programa específico.Ele é chamado de 'cpuid2cpuflags' e é fácil de usar. Ele simplesmente mostra os conjuntos de instruções suportados pelo seu computador 
-local.

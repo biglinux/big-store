@@ -1,1 +1,0 @@
-O módulo X11::Protocol fornece uma interface bruta para servidores do sistema X Window. Ele permite que você envie e receba mensagens X11 diretamente, sem precisar de uma biblioteca de cliente X11 separada.Isso pode ser útil para automatizar tarefas ou criar programas  personalizados que se comuniquem com o servidor X11. 

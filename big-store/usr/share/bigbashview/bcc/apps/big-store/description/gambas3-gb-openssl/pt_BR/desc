@@ -1,1 +1,0 @@
-Este é um componente do programa Gambas3 que permite o uso da biblioteca de criptografia OpenSSL. Ele permite que você criptografe e descriptografe arquivos e dados de forma segura, além de realizar outras operações de segurança como criação de certificados digitais. 

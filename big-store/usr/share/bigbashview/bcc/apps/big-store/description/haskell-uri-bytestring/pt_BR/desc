@@ -1,1 +1,0 @@
-O pacote haskell-uri-bytestring permite que você analise URIs (Uniform Resource Identifiers) usando ByteStrings em Haskell. Ele fornece uma maneira fácil de extrair informações de uma URI, como o esquema, o host, a porta, o caminho e os parâmetros de consulta. Isso é útil para construir aplicativos que  precisam lidar com URLs de maneira eficiente. 

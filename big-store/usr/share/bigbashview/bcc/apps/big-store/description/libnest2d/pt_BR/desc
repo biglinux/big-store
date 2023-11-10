@@ -1,1 +1,0 @@
-libnest2d é uma biblioteca C++ para embalagem e aninhamento bin 2D irregular. Ele fornece algoritmos eficientes para embalar formas 2D em retângulos maiores de enclausura, como quando se prepara itens para corte ou impressão. A biblioteca é escrita em C++ moderno e é projetada para ser fácil de usar e integrar a outros projetos. 

@@ -1,1 +1,0 @@
-Este programa permite que você crie mensagens de e-mail no formato MIME. MIME é um padrão que permite que os e-mails contenham arquivos anexos, como imagens ou vídeos, além de texto. Ele é escrito em Haskell, uma linguagem de programação. 

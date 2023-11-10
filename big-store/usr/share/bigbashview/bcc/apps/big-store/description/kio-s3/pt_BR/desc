@@ -1,4 +1,0 @@
-Este programa, chamado kio-s3, é uma ferramenta para armazenar arquivos na nuvem usando o Amazon Simple Storage Service 
-(Amazon S3). Ele é chamado de 'kio slave' porque é usado em conjunto com outro programa chamado kio para tornar o armazenamento de arquivos mais fácil e acessível.Com ele, você pode
-facilmente enviar e baixar arquivos do Amazon S3, além de gerenciar e organizar seus arquivos armazenados na nuvem. É uma ótima opção para quem precisa de mais espaço de armazenamento e
-quer manter seus arquivos acessíveis de qualquer lugar.

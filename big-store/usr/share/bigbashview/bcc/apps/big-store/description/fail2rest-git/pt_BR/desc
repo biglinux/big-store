@@ -1,4 +1,0 @@
- fail2rest-git é um programa que permite que você gerencie seus bloqueios no fail2ban através de uma interface REST. Isso
-significa que você pode criar, ler, atualizar e excluir bloqueios a partir de uma aplicação web ou qualquer outro programa que possa se comunicar com um servidor HTTP.Com esse programa,
-você pode facilmente gerenciar bloqueios em diferentes servidores a partir de um único lugar, sem precisar acessar cada um deles individualmente. Além disso, ele fornece uma interface de
-relatórios para que você possa ver todos os bloqueios ativos e o histórico de bloqueios. 

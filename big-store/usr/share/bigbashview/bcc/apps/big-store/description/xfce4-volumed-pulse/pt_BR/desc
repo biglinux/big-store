@@ -1,1 +1,0 @@
-Este programa é um daemon para o Xfce que permite controlar o volume do som usando as teclas de volume. Ele usa o PulseAudio como sua fonte de som. 

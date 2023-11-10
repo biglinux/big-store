@@ -1,4 +1,0 @@
- O Bertini é um programa que ajuda a resolver sistemas de equações polinomiais. Ele usa uma técnica chamada
-continuidade homotópica para encontrar as raízes dessas equações. Isso significa que ele tenta encontrar soluções para esses sistemas ao longo de caminhos específicos, em vez de procurar
-soluções isoladas. Isso pode ser muito útil quando se trabalha com sistemas complexos e difíceis de resolver. Além disso, o Bertini é capaz de lidar com equações com coeficientes complexos 
-e raízes multiplas.

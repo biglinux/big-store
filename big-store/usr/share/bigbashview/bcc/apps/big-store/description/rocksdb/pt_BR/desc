@@ -1,1 +1,0 @@
-Este programa é uma base de dados chave-valor embutida. Ele é projetado para armazenar dados de forma rápida e eficiente, permitindo que você acesse os dados facilmente usando chaves. Ele é chamado de rocksdb. 

@@ -1,1 +1,0 @@
-nlohmann-json é uma biblioteca para trabalhar com arquivos JSON no C++. Ela é simples de usar e possui recursos avançados para ajudar a desenvolver programas que precisam lidar com dados em formato JSON. Com ela, é fácil ler e escrever arquivos JSON, e também há suporte para conversão de tipos de dados nativos do C++ para JSON e vice-versa. 

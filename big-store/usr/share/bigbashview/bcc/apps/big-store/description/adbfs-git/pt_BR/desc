@@ -1,3 +1,0 @@
-Este programa é um sistema de arquivos Fuse para dispositivos Android. Ele usa a ferramenta adb para se conectar ao
-dispositivo e permitir acesso a arquivos e pastas nele armazenados. É útil para acessar arquivos em dispositivos Android sem precisar usar a interface do usuário do dispositivo ou um
-gerenciador de arquivos.

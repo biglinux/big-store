@@ -1,1 +1,0 @@
-Este programa fornece primitivas de regex embaladas para trabalhar com Texto no Haskell. Ele usa a biblioteca regex-applicative e permite que você facilmente trabalhe com expressões regulares e manipulação de texto. 

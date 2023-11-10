@@ -1,1 +1,0 @@
-arduino-builder é uma ferramenta de linha de comando para compilar esboços Arduino. Ele é criado e mantido pela equipe Arduino e é usado para compilar e fazer upload de esboços para placas Arduino. Ele é escrito em Go e pode ser usado em Windows, Mac e Linux. A ferramenta é projetada para ser fácil de usar e pode ser usada tanto por iniciantes quanto por especialistas. 

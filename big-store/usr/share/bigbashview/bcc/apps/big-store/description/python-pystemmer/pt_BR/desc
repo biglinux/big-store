@@ -1,1 +1,0 @@
-Os algoritmos de stemização Snowball são usados para recuperação de informações. Eles são projetados para remover sufixos e reduzir palavras a seus radicais básicos, o que ajuda a tornar a pesquisa mais precisa. O pacote python-pystemmer inclui uma implementação desses algoritmos, permitindo que você os use facilmente em seus projetos de recuperação de informações. 

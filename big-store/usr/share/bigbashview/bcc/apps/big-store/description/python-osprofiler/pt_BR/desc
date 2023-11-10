@@ -1,1 +1,0 @@
-A biblioteca python-osprofiler é uma ferramenta útil para medir o desempenho de aplicativos OpenStack. Ele coleta informações de desempenho em tempo real e as envia para um banco de dados para análise posterior. Isso permite que os administradores do sistema identifiquem facilmente quais componentes estão causando problemas de desempenho, e tomem medidas para corrigi-los. 

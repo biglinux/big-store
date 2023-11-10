@@ -1,1 +1,0 @@
-Este é um SDK (kit de desenvolvimento de software) para armazenamento de recursos Qiniu em Python. Ele permite que você integre facilmente o armazenamento de recursos Qiniu em seus aplicativos Python. Com ele, você pode fazer upload, gerenciar e recuperar arquivos no Qiniu Resource Storage de forma simples e eficiente. 

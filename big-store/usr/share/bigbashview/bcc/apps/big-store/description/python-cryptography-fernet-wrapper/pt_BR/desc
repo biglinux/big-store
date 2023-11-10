@@ -1,4 +1,0 @@
-Este programa oferece segurança adicional para suas mensagens e arquivos, utilizando a biblioteca Fernet do Python. Ele é 
-uma 'wrapper' ou uma camada adicional para a biblioteca de criptografia, tornando mais fácil utilizar as funções avançadas de criptografia. Com ele, você pode cifrar e decifrar suas
-mensagens e arquivos de maneira simples e segura.Fernet garante que suas informações sejam autênticas e não possam ser modificadas sem a sua permissão. Além disso, ele utiliza uma chave de 
-criptografia forte, garantindo maior segurança para suas informações. 

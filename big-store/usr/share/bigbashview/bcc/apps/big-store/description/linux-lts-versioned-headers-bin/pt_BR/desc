@@ -1,3 +1,0 @@
-Este é um pacote chamado 'linux-lts-versioned-headers-bin' que depende de outro pacote chamado
-'linux5.15.89-1-lts-headers-bin'. Ele é usado para garantir que você tenha as últimas versões dos cabeçalhos do kernel Linux LTS (Long-term Support) instaladas no seu sistema. Isso é
-importante para garantir a compatibilidade e estabilidade do seu sistema.

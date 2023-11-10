@@ -1,4 +1,0 @@
-Você quer testar o Kubernetes sem precisar usar um ambiente real? O KIND (Kubernetes IN Docker) permite que você
-crie clusters de teste dentro do seu próprio computador. Isso é útil para desenvolvedores que desejam experimentar novas configurações ou fazer testes antes de implementar em um ambiente de
-produção.Com o KIND, é possível criar vários clusters diferentes, o que permite testar diferentes versões do Kubernetes ou configurações personalizadas. Além disso, o KIND é fácil de
-instalar e usar, e funciona bem em sistemas operacionais como Linux, MacOS e Windows.

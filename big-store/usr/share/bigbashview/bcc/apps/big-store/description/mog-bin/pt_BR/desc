@@ -1,4 +1,0 @@
-O Mog-bin é uma ferramenta que ajuda a gerenciar os hooks do Git. Hooks são scripts que são executados automaticamente
-quando algum evento específico ocorre no Git, como antes de fazer um commit ou antes de enviar para o repositório remoto. Com o Mog-bin, é possível criar, editar e gerenciar esses scripts
-de forma simples e rápida.A ferramenta foi escrita em Go, uma linguagem de programação de alto desempenho e fácil de aprender, o que a torna ideal para desenvolvedores que desejam
-automatizar tarefas no Git.

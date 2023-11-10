@@ -1,1 +1,0 @@
-go-licenses é uma ferramenta de linha de comando que gera uma lista de todos os pacotes de terceiros usados ​​por um projeto Go, junto com as licenças sob as quais eles são distribuídos. Isso facilita garantir que seu projeto esteja de acordo com as licenças de suas dependências. 

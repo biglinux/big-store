@@ -1,4 +1,0 @@
- O dex2jar é um conjunto de ferramentas que ajuda a trabalhar com arquivos .dex do Android e arquivos
-.class do Java. Ele permite que você converta arquivos .dex em arquivos .jar, o que pode ser útil para análise e modificação de aplicativos Android. Além disso, ele também oferece outras
-funcionalidades, como descompactação de arquivos .dex e conversão de arquivos .class em arquivos .dex. É uma ferramenta valiosa para desenvolvedores e engenheiros de segurança de
-aplicativos.

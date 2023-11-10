@@ -1,4 +1,0 @@
- Este programa é útil para encontrar strings que foram codificadas usando vários bytes em dados binários. 
-Isso é útil quando você precisa procurar por texto em arquivos que não podem ser lidos como texto comum.Ele funciona verificando cada byte dos dados e procurando por padrões que indicam 
-que uma string está presente. Quando uma string é encontrada, ele a exibe para você.Isso pode ser útil para encontrar mensagens ocultas em arquivos, ou para recuperar dados perdidos em
-arquivos danificados. 

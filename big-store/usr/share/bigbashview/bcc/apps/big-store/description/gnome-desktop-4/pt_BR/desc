@@ -1,1 +1,0 @@
- Esta é uma biblioteca que fornece uma API comum para vários módulos do GNOME (GTK4). Isso significa que os desenvolvedores podem usar essa biblioteca para criar aplicativos que funcionem de maneira semelhante em diferentes módulos do GNOME. Isso facilita o desenvolvimento de aplicativos e garante que eles sejam consistentes com o resto do ambiente GNOME.  

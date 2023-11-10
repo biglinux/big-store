@@ -1,1 +1,0 @@
-O redland-storage-mysql é um módulo de armazenamento que permite ao Redland, uma biblioteca de processamento de dados RDF, acessar e gerenciar dados RDF armazenados em um banco de dados MySQL.Isso permite que você utilize a potência do MySQL para gerenciar grandes quantidades de dados RDF e facilita  a integração de dados RDF com outras aplicações que utilizam o MySQL. 

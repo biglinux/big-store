@@ -1,3 +1,0 @@
-Uma carteira segura para guardar suas moedas Decred. Ela foi escrita em uma linguagem chamada Go e é um programa que roda em segundo
-plano no seu computador. Com ela, você pode enviar e receber moedas Decred de forma segura, sem precisar se preocupar com a segurança de suas informações.Além disso, essa carteira é uma
-'daemon', ou seja, é um programa que roda em segundo plano no seu computador, sempre pronto para você usar quando precisar.

@@ -1,3 +1,0 @@
- Ferramentas C-Sky Linux UCLIBC são projetadas especificamente para a série 800. Elas incluem uma variedade de ferramentas,
-como compiladores, utilitários de linha de comando e bibliotecas, que ajudam a desenvolver e executar programas no sistema operacional C-Sky Linux. Essas ferramentas são baseadas em uma
-biblioteca C reduzida chamada UCLIBC, que é projetada para sistemas embarcados com recursos limitados. 

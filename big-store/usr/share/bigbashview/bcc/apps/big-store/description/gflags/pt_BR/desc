@@ -1,1 +1,0 @@
-gflags é uma biblioteca escrita em C++ para processar flags de linha de comando. Ele permite que os desenvolvedores adicionem facilmente opções de linha de comando aos seus programas, além de fornecer recursos para validação e análise dessas opções. gflags é compatível com a maioria dos sistemas operacionais e pode ser facilmente integrado em projetos de vários tamanhos. 

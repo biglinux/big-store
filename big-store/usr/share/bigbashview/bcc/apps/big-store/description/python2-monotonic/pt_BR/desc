@@ -1,2 +1,0 @@
-Esse programa é uma implementação da função time.monotonic() para a versão antiga do Python 2.Ele permite que você acesse o
-tempo decorrido em um relógio que não pode ser alterado, o que é útil para medir a duração de ações no seu código.

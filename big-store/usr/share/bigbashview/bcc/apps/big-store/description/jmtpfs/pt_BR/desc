@@ -1,3 +1,0 @@
-Este programa permite acessar dispositivos que usam o protocolo MTP (Media Transfer Protocol) através do uso de 
-FUSE e libmtp. Isso significa que você pode navegar e gerenciar arquivos em seu dispositivo de armazenamento móvel, como celulares e câmeras digitais, como se fosse uma unidade de disco no 
-seu computador. Isso é útil para fazer backup de arquivos, transferir arquivos grandes e muito mais. 

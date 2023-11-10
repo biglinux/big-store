@@ -792,3 +792,138 @@ msgstr "Displays only selected programs<br>and hides results that are useful <br
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Error accessing directory:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programs have a more robust integration with the operating system.<br>They undergo extensive "
+"testing before being made available, ensuring greater reliability.<br>For these reasons, opting for "
+"a native program is especially recommended when the desired software is available in multiple "
+"installation options.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Please wait while we collect system information. That might take a few moments..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Approximate date the system was installed:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store is already running."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programs have a more robust integration with the operating system.<br>They undergo extensive "
+"testing before being made available, ensuring greater reliability.<br>For these reasons, opting for "
+"a native program is especially recommended when the desired software<br>is available in several "
+"installation options.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Downloading new packages from the server database"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "No packets passed as parameters"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Another instance of Big-Store is already running."
+
+msgid "Procurar aplicativo"
+msgstr "Browse app"
+
+msgid "Editores de texto linha de comando"
+msgstr "Command-line text editors"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Letter"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "View device information on Linux Hardware"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Motherboard"
+
+msgid "Memória"
+msgstr "Memory"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtual Memory Swap"
+
+msgid "Placa de vídeo"
+msgstr "Video Card"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Network"
+
+msgid "Conexões de Rede"
+msgstr "Network Connections"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB devices and connections"
+
+msgid "Portas PCI"
+msgstr "PCI ports"
+
+msgid "Bateria"
+msgstr "Battery"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Storage Devices"
+
+msgid "Partições montadas"
+msgstr "Mounted partitions"
+
+msgid "Partições desmontadas"
+msgstr "Unmounted partitions"
+
+msgid "Dispositivos lógicos"
+msgstr "Logical devices"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "System Information"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperature"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "For Flatpak programs to appear in the system menu, log out and log in again."
+
+msgid "Atualizado em"
+msgstr "Updated on"
+
+msgid "Sobre"
+msgstr "Upon"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Translation of the description of the online packages"

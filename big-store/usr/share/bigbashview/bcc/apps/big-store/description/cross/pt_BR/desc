@@ -1,1 +1,0 @@
-Compilação e teste de crates Rust sem configuração, é possível compilar e testar seu código Rust em diferentes sistemas operacionais sem precisar configurar cada um deles individualmente. Isso é conhecido como 'cross compilation' e 'cross testing'. 

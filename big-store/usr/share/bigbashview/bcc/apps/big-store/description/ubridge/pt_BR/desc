@@ -1,3 +1,0 @@
-uBridge é um programa que cria uma ponte entre túneis UDP, interfaces Ethernet, TAP e VMnet. Ele permite que pacotes de dados sejam
-transmitidos entre redes de forma segura e eficiente.Com uBridage, é possível conectar redes virtuais com redes físicas, o que é útil em muitas situações, como testes de segurança,
-implantação de soluções de nuvem e gerenciamento de infraestrutura.

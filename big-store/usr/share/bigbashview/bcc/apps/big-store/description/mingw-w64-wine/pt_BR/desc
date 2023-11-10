@@ -1,4 +1,0 @@
-Este programa é um wrapper do Wine, um software que permite que você execute programas do Windows em outros sistemas operacionais,
-para o MinGW (Minimalist GNU for Windows). Isso significa que você pode usar esse programa para rodar aplicativos do Windows em computadores com o sistema operacional Windows, mas também em
-outros sistemas como Linux e MacOS. O MinGW é uma coleção de ferramentas que permite que você desenvolva software para Windows usando código aberto. Ao usar o mingw-w64-wine, você pode
-aproveitar as vantagens do MinGW e do Wine juntos, para rodar aplicativos do Windows de forma mais eficiente e estável.

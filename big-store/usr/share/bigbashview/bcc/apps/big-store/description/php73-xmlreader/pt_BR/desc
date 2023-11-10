@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.3 que permite que você leia arquivos XML de forma fácil e eficiente. Ele fornece uma série
-de funções para navegar pelo arquivo e extrair informações dele. É uma ferramenta útil para qualquer projeto que precise trabalhar com dados em formato XML.Com este módulo, você pode abrir 
-arquivos XML, navegar pelos elementos e atributos, e extrair informações deles. Ele também suporta a validação de arquivos XML contra esquemas XSD. 

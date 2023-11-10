@@ -1,3 +1,0 @@
-Este é um pacote híbrido de Coreutils, que mistura programas estáveis da uutils com seus equivalentes da GNU, caso o programa da
-uutils esteja inacabado ou com erros.Ele é parte do projeto GNU Coreutils e uutils-coreutils e oferece uma solução completa para gerenciar arquivos, diretórios e outras tarefas do sistema
-operacional.

@@ -1,1 +1,0 @@
-Os arquivos de cabeçalho do Vulkan são uma coleção de arquivos necessários para desenvolver aplicativos usando a API Vulkan.  Eles incluem definições de tipos, constantes e funções que permitem acessar as funcionalidades do Vulkan, como criação de janelas, renderização de gráficos e outros. 

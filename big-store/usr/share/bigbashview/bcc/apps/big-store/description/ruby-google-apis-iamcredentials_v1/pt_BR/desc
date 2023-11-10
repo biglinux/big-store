@@ -1,3 +1,0 @@
- Esse programa é uma ferramenta simples para gerenciar as credenciais de contas de serviço IAM através da API V1. Ele
-permite criar, excluir e gerenciar credenciais de contas de serviço IAM para acessar recursos do Google. Ele foi escrito em Ruby e se integra com a biblioteca Google APIs para fornecer uma 
-interface fácil de usar para essas operações.Ele é especialmente útil para gerenciar credenciais em ambientes de DevOps e automatizar tarefas de gerenciamento de contas de serviço. 

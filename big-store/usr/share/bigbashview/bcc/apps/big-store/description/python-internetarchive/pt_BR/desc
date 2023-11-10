@@ -1,1 +1,0 @@
-Este é um programa escrito em Python que serve como uma camada de abstração para as APIs da Internet Archive, incluindo a IA-S3 e a Metadata API. Ele permite que você acesse e manipule facilmente os dados armazenados na Internet Archive. 

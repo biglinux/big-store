@@ -1,4 +1,0 @@
-Este programa, chamado ponymix-git, permite controlar o volume do som no seu computador usando a linha de comando. 
-Isso significa que você pode aumentar ou diminuir o volume, mudar de dispositivo de som e muito mais sem precisar abrir configurações visuais. É especialmente útil se você estiver usando o 
-terminal ou scripts para automatizar tarefas. Ele é baseado no PulseAudio, que é uma biblioteca de som comum em sistemas Linux. Ele é fácil de usar e tem uma variedade de opções para
-personalizar sua experiência de som.

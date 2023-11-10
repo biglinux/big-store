@@ -1,1 +1,0 @@
-Este é um driver de entrada para o X.org chamado xf86-input-void. Ele é utilizado para controlar as entradas de dispositivos,  como o teclado e o mouse, no sistema operacional. Ele é importante para garantir que os dispositivos de entrada funcionem corretamente e possam ser usados pelo usuário. 

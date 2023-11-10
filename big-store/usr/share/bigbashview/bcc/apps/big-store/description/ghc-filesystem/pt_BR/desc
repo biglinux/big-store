@@ -1,1 +1,0 @@
-Este programa adiciona suporte à biblioteca std::filesystem do C++17 para versões anteriores do C++, como o C++11, C++14 e C++20. Isso permite que os desenvolvedores acessem recursos avançados de gerenciamento de arquivos e pastas em seus projetos sem precisar atualizar para uma versão mais recente do C++. 

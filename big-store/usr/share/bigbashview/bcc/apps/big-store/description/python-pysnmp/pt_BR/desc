@@ -1,1 +1,0 @@
-A implementação python-pysnmp é uma biblioteca open-source e gratuita do protocolo SNMP, que permite  a comunicação com dispositivos de rede. Ela suporta as versões v1, v2c e v3 do protocolo, e pode ser usada para monitorar e controlar dispositivos como roteadores, switches e outros equipamentos de rede. 

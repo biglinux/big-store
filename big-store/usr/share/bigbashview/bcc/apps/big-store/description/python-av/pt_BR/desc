@@ -1,4 +1,0 @@
-Existe uma maneira de utilizar as funções do FFmpeg, um software de processamento de áudio e vídeo, com o Python. Esse
-método é chamado python-av e ele permite que você acesse as funcionalidades do FFmpeg de maneira fácil e intuitiva, como se estivesse escrevendo código Python.Isso significa que você pode
-fazer coisas como converter arquivos de vídeo, cortar e juntar clipes, adicionar legendas e muito mais usando o Python em vez de precisar escrever comandos complexos no terminal. Além
-disso, como o python-av é baseado no FFmpeg, ele suporta uma grande variedade de formatos de arquivo.

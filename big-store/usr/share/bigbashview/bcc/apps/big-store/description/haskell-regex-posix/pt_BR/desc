@@ -1,1 +1,0 @@
-Este programa, chamado regex-base, é um backend POSIX para Text.Regex. Ele permite que você use expressões regulares POSIX em seu código Haskell. 

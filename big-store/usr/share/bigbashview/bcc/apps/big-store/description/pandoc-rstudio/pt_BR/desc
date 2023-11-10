@@ -1,3 +1,0 @@
-Este programa é chamado pandoc-rstudio e ele serve para converter arquivos de texto de um formato para outro. Por exemplo,
-você pode usá-lo para transformar um arquivo escrito em Microsoft Word em um arquivo PDF. Ele também pode ser usado para transformar arquivos de texto simples em arquivos com formatação
-mais bonita, como um livro.O programa é instalado com o rstudio e os links para os binários já prontos estão localizados em /usr/bin.

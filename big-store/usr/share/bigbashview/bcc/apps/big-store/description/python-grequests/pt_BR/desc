@@ -1,1 +1,0 @@
-O python-grequests permite usar o pacote Requests com Gevent para fazer requisições HTTP de forma assíncrona com facilidade. 

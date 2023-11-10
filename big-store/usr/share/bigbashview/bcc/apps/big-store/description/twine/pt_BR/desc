@@ -1,1 +1,0 @@
-Twine é uma coleção de utilitários para interagir com o Python Package Index (PyPI), o repositório oficial de pacotes Python. Ele permite que você envie pacotes Python para o PyPI de forma rápida e fácil, sem precisar de ferramentas adicionais. Twine também fornece recursos adicionais, como autenticação de pacotes e upload de arquivos de distribuição. 

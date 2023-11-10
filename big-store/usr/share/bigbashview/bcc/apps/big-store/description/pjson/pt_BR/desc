@@ -1,4 +1,0 @@
- Esse programa é chamado pjson e é uma ferramenta de linha de comando. Ele ajuda você a
-verificar se o arquivo JSON ou XML que você tem está correto e também o formata de uma maneira mais bonita para você ler. Isso significa que ele vai colocar as coisas em linhas e colunas
-diferentes e adicionar espaços para ficar mais fácil de ler.É útil quando você está trabalhando com arquivos grandes ou complexos e precisa verificar se eles estão corretos antes de fazer
-algo com eles. Também pode ser útil se você quer compartilhar um arquivo com outras pessoas e quer que ele fique mais fácil de ler. 

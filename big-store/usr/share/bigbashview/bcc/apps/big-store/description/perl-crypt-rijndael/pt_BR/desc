@@ -1,4 +1,0 @@
-Este programa é um módulo de criptografia para o linguagem de programação Perl. Ele implementa o algoritmo AES/Rijndael, 
-que é amplamente utilizado para criptografar dados de forma segura. Com ele, é possível criptografar e descriptografar informações de maneira fácil e rápida.O módulo é muito útil para quem 
-precisa manter dados confidenciais seguros, seja em aplicações web, sistemas de arquivos ou qualquer outra finalidade. Ele é fácil de usar e possui diversas opções de configuração para se
-adequar às suas necessidades.

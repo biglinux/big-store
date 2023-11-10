@@ -1,2 +1,0 @@
-Este programa fornece algumas ferramentas adicionais para o Wayfire, um gerenciador de janelas para sistemas Linux. Ele
-inclui uma interface D-Bus, um utilitário de mensagens chamado wf-msg (inspirado no swaymsg) e algumas outras ferramentas úteis chamadas wf-utils.

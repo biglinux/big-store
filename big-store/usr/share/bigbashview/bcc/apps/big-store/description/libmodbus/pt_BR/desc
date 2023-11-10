@@ -1,4 +1,0 @@
-A biblioteca Modbus é uma ferramenta que permite a comunicação entre dispositivos utilizando o
-protocolo Modbus. Com ela, é possível desenvolver programas para sistemas operacionais como Linux, Mac OS X, FreeBSD, QNX e Windows. É uma opção bastante utilizada na indústria para acesso 
-a dispositivos de automação e controle.A libmodbus é uma implementação open-source da biblioteca Modbus, ou seja, é de código aberto e pode ser utilizada livremente. Ela é desenvolvida por 
-uma comunidade de contribuidores e suporta diversas linguagens de programação.

@@ -1,3 +1,0 @@
-Este programa permite que você gere arquivos de 'stub' (esqueleto) do mypy a partir de especificações protobuf.
-Isso é útil para garantir a compatibilidade entre código escrito em diferentes linguagens, já que o mypy é uma ferramenta de verificação de tipos para o Python. Em resumo, este programa
-ajuda você a manter seu código em diferentes linguagens compatíveis e mais fácil de entender.

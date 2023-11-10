@@ -1,3 +1,0 @@
-Este é um pacote de fontes de driver NVIDIA para sistemas Linux. Ele é projetado especificamente para
-desenvolvedores que estão trabalhando com a tecnologia Vulkan, que é um conjunto de ferramentas para criar jogos e aplicativos gráficos de alta performance. O pacote inclui os arquivos
-necessários para construir e instalar o driver NVIDIA no seu sistema, bem como exemplos e documentação para ajudá-lo a começar a desenvolver seus próprios aplicativos utilizando Vulkan.

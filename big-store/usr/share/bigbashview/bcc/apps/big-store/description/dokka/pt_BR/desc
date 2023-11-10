@@ -1,3 +1,0 @@
-Dokka é uma ferramenta poderosa para gerar documentação de código para projetos escritos em Kotlin. Ele funciona criando 
-uma representação estruturada do código, que é então usada para gerar documentação em vários formatos, incluindo HTML, Markdown e PDF. Além disso, ele também suporta a geração de
-documentação para projetos múltiplos e pode ser integrado facilmente em fluxos de trabalho de desenvolvimento existentes.

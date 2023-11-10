@@ -1,1 +1,0 @@
-O udpxy é um daemon de UNIX/Linux com pouco uso de espaço que permite encaminhar tráfego de UDP multicast para a conexão TCP (HTTP) de um cliente. Isso é útil em redes onde o tráfego UDP multicast não é suportado, mas os clientes ainda precisam acessar esse conteúdo. Ele é fácil de configurar e usar, e pode ser usado com uma variedade de aplicativos e dispositivos. 

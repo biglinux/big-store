@@ -1,1 +1,0 @@
-Este programa fornece uma interface para as funções do Linux 'getppid' e 'getpid', permitindo que você  acesse informações sobre processos no sistema operacional Linux. Ele foi escrito em Perl, uma linguagem de programação popular para tarefas de administração de sistemas e automação. 

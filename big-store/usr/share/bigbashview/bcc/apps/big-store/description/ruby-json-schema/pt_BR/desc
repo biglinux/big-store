@@ -1,1 +1,0 @@
-Este programa é uma interface para validar objetos JSON contra um esquema JSON que segue o rascunho 4 do JSON Schema. Isso significa que ele verifica se o formato dos dados está correto e se eles contêm todas as informações necessárias. Ele é escrito em Ruby, uma linguagem de programação popular usada para desenvolver aplicativos da web e outros programas. 

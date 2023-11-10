@@ -1,3 +1,0 @@
-Este é um programa chamado pacman-sync, que é um gancho para o alpm (Advanced Package Manager). Ele é projetado para 
-sincronizar seus arquivos após a instalação de pacotes usando o Pacman, para evitar corrupção de dados ao usar um disco flash ou reiniciar após uma falha no kernel.Em outras palavras, ele
-ajuda a manter seu sistema organizado e seguro, garantindo que os arquivos estejam sempre atualizados e funcionando corretamente, mesmo em caso de problemas.

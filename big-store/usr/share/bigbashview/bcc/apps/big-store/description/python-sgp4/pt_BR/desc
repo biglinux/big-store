@@ -1,3 +1,0 @@
-Este programa permite rastrear as órbitas de satélites TLE (Two-Line Element) da Terra usando a versão atualizada de 2010
-do SGP4 (Simplified General Perturbations 4). Ele é escrito em Python e utiliza a biblioteca sgp4 para realizar os cálculos. Com ele, é possível obter informações precisas sobre a posição e
-movimento dos satélites em órbita.

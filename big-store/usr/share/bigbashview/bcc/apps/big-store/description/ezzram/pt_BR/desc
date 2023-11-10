@@ -1,3 +1,0 @@
-Este é um script compatível com o Systemd que ajuda a configurar dispositivos de troca zram. Ele é fácil de usar e pode ser 
-executado em muitos sistemas operacionais diferentes. Com ele, você pode aumentar a velocidade do seu dispositivo, pois ele permite que você use a memória RAM como espaço de troca, em vez
-de usar o disco rígido.Além disso, o script também oferece opções avançadas para personalizar a configuração de acordo com suas necessidades específicas.

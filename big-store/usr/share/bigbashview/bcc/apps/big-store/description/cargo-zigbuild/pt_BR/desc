@@ -1,1 +1,0 @@
-cargo-zigbuild é uma ferramenta que permite usar a linguagem de programação Zig como linker para projetos em Rust.  Isso possibilita compilações mais rápidas e eficientes, além de acesso às características únicas do Zig, como testes embutidos e garantias de segurança de memória. 

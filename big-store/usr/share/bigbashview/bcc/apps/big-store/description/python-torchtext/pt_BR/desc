@@ -1,4 +1,0 @@
-python-torchtext é uma ferramenta que ajuda a trabalhar com textos e processamento de linguagem natural (NLP, na
-sigla em inglês). Ele oferece carregadores de dados e abstrações para facilitar a manipulação de textos e aplicar técnicas de NLP.Alguns exemplos de tarefas que você pode realizar com
-python-torchtext incluem tokenização, análise de sentimentos, classificação de textos e muito mais. Ele é compatível com o framework PyTorch, o que facilita a integração com outras
-bibliotecas de aprendizado de máquina.

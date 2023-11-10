@@ -1,3 +1,0 @@
- Com o python-time-machine, você pode viajar através do tempo em seus testes. Isso é útil quando precisa testar códigos que
-dependem da data e hora atuais, mas não quer que os testes falhem devido a mudanças na data e hora. Com este programa, você pode definir uma data e hora específicas para testar seu código e
-garantir que ele funcione corretamente. 

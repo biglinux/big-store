@@ -1,3 +1,0 @@
- O Ocamlnet é uma biblioteca de programação para Web e Internet, escrita em OCaml. Ele fornece vários módulos
-para tarefas comuns, como servidores web, clientes HTTP, e-mails, etc. Além disso, ele também inclui suporte para protocolos comuns, como HTTP, FTP, NNTP, etc. O objetivo do Ocamlnet é
-fornecer uma plataforma para construir aplicativos da Web e da Internet de forma rápida e fácil, sem a necessidade de lidar com detalhes de baixo nível. 

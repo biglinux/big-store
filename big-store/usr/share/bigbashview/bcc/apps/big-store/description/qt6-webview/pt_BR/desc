@@ -1,1 +1,0 @@
-Este programa fornece uma maneira de exibir conteúdo da web em aplicativos QML. Ele usa o framework Qt6 e a ferramenta  WebView para permitir que os desenvolvedores adicionem navegação na web e outros recursos relacionados ao navegador dentro de seus aplicativos. 

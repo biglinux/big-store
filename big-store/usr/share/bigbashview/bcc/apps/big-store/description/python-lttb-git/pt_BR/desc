@@ -1,3 +1,0 @@
-Este programa é uma implementação em python do algoritmo LTTB, desenvolvido por Steinarsson. Ele é usado para reduzir o número de
-pontos em um gráfico, mantendo a aparência geral da curva. Ele é baseado em três conjuntos de 'buckets' e seleciona os pontos mais importantes para manter na representação final.Ele foi
-implementado usando a biblioteca numpy para facilitar a manipulação de dados numéricos. É uma ferramenta útil para visualização de dados e análise estatística.

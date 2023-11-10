@@ -1,1 +1,0 @@
-O 'perl-parse-recdescent' é um gerador de analisador descente recursiva. Ele gera analisadores sintáticos a partir de regras de gramática especificadas em formato EBNF (Extended Backus-Naur Form). Ele é amplamente utilizado para análise de linguagens de programação e processamento de dados. 

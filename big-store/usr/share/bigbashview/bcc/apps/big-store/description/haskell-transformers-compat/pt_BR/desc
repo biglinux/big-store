@@ -1,1 +1,0 @@
-Esse programa é um shim de compatibilidade, ou seja, ele ajuda a tornar possível o uso de novos tipos de transformers 0.3 em plataformas Haskell mais antigas. 

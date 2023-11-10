@@ -1,1 +1,0 @@
-A biblioteca libsemigroups fornece ferramentas para trabalhar com semigrupos e monoides em C++. Ela inclui implementações de algoritmos comuns, como a fatoração de Rees, e permite a criação de novos semigrupos e monoides através da definição de operações. 

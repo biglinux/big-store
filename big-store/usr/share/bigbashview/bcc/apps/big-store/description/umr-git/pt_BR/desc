@@ -1,3 +1,0 @@
- Esta é uma ferramenta de depuração e diagnóstico para GPUs AMD usando o driver do kernel AMDGPU. Ele
-permite que você faça coisas como verificar o status do clock e da temperatura da GPU, além de ajudar a encontrar problemas comuns. É útil para quem trabalha com desenvolvimento de jogos,
-mineração de criptomoedas ou outras tarefas que exigem muito desempenho da GPU. 

@@ -1,2 +1,0 @@
-Esta é uma biblioteca header-only, ou seja, não precisa ser compilada, ela é construída em cima de outra biblioteca chamada rocPRIM ou CUB.
-Ela é útil para quem trabalha com processamento em paralelo de dados.

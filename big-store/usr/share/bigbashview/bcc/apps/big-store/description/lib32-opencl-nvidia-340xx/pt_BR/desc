@@ -1,4 +1,0 @@
-Este é um pacote para ajudar na utilização do OpenCL em computadores com placas de vídeo NVIDIA de 32 bits. Com
-ele, você poderá utilizar aplicativos que precisem desta tecnologia de forma mais eficiente e sem problemas. É importante verificar se a sua placa de vídeo é compatível com este pacote
-antes de instalá-lo.O OpenCL é uma tecnologia que permite a utilização de múltiplos núcleos de processamento para acelerar aplicativos. Com o uso deste pacote, você poderá aproveitar ao
-máximo o poder da sua placa de vídeo NVIDIA.

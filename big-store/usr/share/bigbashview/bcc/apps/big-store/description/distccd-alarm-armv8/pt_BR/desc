@@ -1,4 +1,0 @@
-A ferramenta distccd-alarm-armv8 é a ferramenta oficial para construções ARM no Arch Linux. Ela usa o distcc,
-que permite compartilhar o processamento entre diferentes computadores, para acelerar a compilação dos pacotes. Além disso, ela é específica para plataformas armv8, o que significa que é
-compatível com processadores ARM de 64 bits.O objetivo desta ferramenta é aproveitar a capacidade de processamento de máquinas x86_64 voluntárias para ajudar a construir pacotes para o Arch
-Linux em plataformas ARM. Desta forma, os usuários podem ter acesso a pacotes atualizados mais rapidamente.

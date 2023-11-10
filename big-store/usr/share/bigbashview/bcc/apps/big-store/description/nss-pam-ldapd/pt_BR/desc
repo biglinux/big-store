@@ -1,1 +1,0 @@
-nss-pam-ldapd é um daemon usado para configurar a pilha NSS e PAM para usar informações armazenadas em um diretório LDAP. Ele é uma substituição direta para os módulos nss_ldap e pam_ldap fornecidos com as bibliotecas LDAP NSS e PAM do PADL. 

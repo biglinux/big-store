@@ -1,3 +1,0 @@
-Este é um módulo que adiciona suporte ao protocolo SNMP (Simple Network Management Protocol) ao PHP 8.1. Com ele, é possível
-gerenciar e monitorar dispositivos de rede, como roteadores e switches, diretamente a partir de scripts PHP.O SNMP é um protocolo padrão na indústria de redes de computadores, e com este
-módulo, desenvolvedores PHP agora têm acesso a essa funcionalidade sem precisar utilizar outras ferramentas ou linguagens.

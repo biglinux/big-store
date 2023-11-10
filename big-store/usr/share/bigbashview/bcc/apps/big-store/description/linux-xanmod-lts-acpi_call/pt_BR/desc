@@ -1,1 +1,0 @@
-Este é um módulo do kernel do Linux que permite chamadas para métodos ACPI através do caminho /proc/acpi/call. Ele é parte do pacote linux-xanmod-lts e é útil para ajustar configurações avançadas no sistema, como gerenciamento de energia e configurações de gerenciamento de dispositivos. 

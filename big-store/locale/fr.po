@@ -796,3 +796,142 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Vidéo"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Erreur lors de l’accès au répertoire :"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Les programmes natifs ont une intégration plus robuste avec le système d’exploitation.<br>Ils "
+"subissent des tests approfondis avant d’être mis à disposition, garantissant une plus grande "
+"fiabilité.<br>Pour ces raisons, il est particulièrement recommandé d’opter pour un programme natif "
+"lorsque le logiciel souhaité est disponible dans plusieurs options d’installation.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr ""
+"Veuillez patienter pendant que nous recueillons des informations système. Cela peut prendre "
+"quelques instants..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Date approximative d’installation du système :"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store est déjà en cours d’exécution."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Les programmes natifs ont une intégration plus robuste avec le système d’exploitation.<br>Ils "
+"subissent des tests approfondis avant d’être mis à disposition, garantissant une plus grande "
+"fiabilité.<br>Pour ces raisons, opter pour un programme natif est particulièrement recommandé "
+"lorsque le logiciel souhaité<br>est disponible en plusieurs options d’installation.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Téléchargement de nouveaux packages à partir de la base de données du serveur"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Aucun paquet transmis en tant que paramètres"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Une autre instance de Big-Store est déjà en cours d’exécution."
+
+msgid "Procurar aplicativo"
+msgstr "Parcourir l’application"
+
+msgid "Editores de texto linha de comando"
+msgstr "Éditeurs de texte en ligne de commande"
+
+msgid "Multimidia"
+msgstr "Multimédia"
+
+msgid "Carta"
+msgstr "Lettre"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Afficher les informations sur les périphériques sur le matériel Linux"
+
+msgid "Processador"
+msgstr "Processeur"
+
+msgid "Placa mãe"
+msgstr "Carte mère"
+
+msgid "Memória"
+msgstr "Mémoire"
+
+msgid "Swap Memória Virtual"
+msgstr "Échange de mémoire virtuelle"
+
+msgid "Placa de vídeo"
+msgstr "Carte vidéo"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Réseau"
+
+msgid "Conexões de Rede"
+msgstr "Connexions réseau"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Périphériques et connexions USB"
+
+msgid "Portas PCI"
+msgstr "Ports PCI"
+
+msgid "Bateria"
+msgstr "Pile"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Périphériques de stockage"
+
+msgid "Partições montadas"
+msgstr "Partitions montées"
+
+msgid "Partições desmontadas"
+msgstr "Partitions non montées"
+
+msgid "Dispositivos lógicos"
+msgstr "Périphériques logiques"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Informations système"
+
+msgid "Repositórios"
+msgstr "Dépôts"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Température"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr ""
+"Pour que les programmes Flatpak apparaissent dans le menu système, déconnectez-vous et "
+"reconnectez-vous."
+
+msgid "Atualizado em"
+msgstr "Mis à jour le"
+
+msgid "Sobre"
+msgstr "Sur"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Traduction de la description des forfaits en ligne"

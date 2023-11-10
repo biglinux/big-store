@@ -1,1 +1,0 @@
-O Listen é uma gem do Ruby que permite você ficar de olho em mudanças em arquivos ou pastas. Ele te avisa quando  um arquivo é modificado, adicionado ou deletado. Isso pode ser útil para rodar testes ou outras tarefas automaticamente quando um arquivo é alterado. Ele também pode ser usado para monitorar uma pasta por mudanças e tomar ações baseadas nessas mudanças. 

@@ -1,1 +1,0 @@
-Este é o firmware para o emulador de sistema QEMU para Microblaze. Ele é usado para simular o funcionamento de um sistema Microblaze em um computador.Ele é importante para desenvolvedores que precisam testar seus programas em um ambiente simulado antes de carregá-los em um dispositivo real. 

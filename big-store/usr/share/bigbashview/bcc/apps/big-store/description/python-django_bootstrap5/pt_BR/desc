@@ -1,5 +1,0 @@
-Este programa é uma biblioteca para o framework Django que permite adicionar o suporte ao Bootstrap 5, que é um
-popular framework de design de código aberto. Isso inclui a adição de arquivos CSS e JavaScript para seus projetos Django, tornando mais fácil criar interfaces bonitas e responsivas para
-seus usuários. Além disso, o Bootstrap 5 oferece uma variedade de componentes de interface do usuário, como botões, formulários e tabelas, que podem ser facilmente adicionados à sua
-aplicação.Este programa é fácil de usar e permite economizar tempo e esforço ao desenvolver suas aplicações Django, pois você não precisa escrever código CSS e JavaScript do zero. Além
-disso, o Bootstrap é amplamente utilizado e é compatível com vários navegadores e dispositivos, o que garante que sua aplicação terá uma boa aparência em todos os dispositivos. 

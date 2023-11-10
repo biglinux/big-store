@@ -1,1 +1,0 @@
-O Polly é um otimizador de alto nível e uma infraestrutura de otimização para o LLVM. Ele se concentra em  melhorar a performance de aplicações através de técnicas de otimização de loop e localidade de dados. Isso inclui a análise de dependências, transformações de loop e alocação de memória. 

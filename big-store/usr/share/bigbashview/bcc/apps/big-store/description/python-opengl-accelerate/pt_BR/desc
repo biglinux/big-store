@@ -1,3 +1,0 @@
-Este é o módulo acelerador codificado em Cython para o PyOpenGL 3.x. Ele fornece uma forma rápida e eficiente de usar a
-biblioteca PyOpenGL para desenvolver aplicativos 3D. Com ele, é possível criar jogos, simulações e outros tipos de programas com gráficos 3D de alta qualidade. Ele é escrito em Python, mas 
-usa Cython para acelerar as operações críticas, como desenhar modelos 3D e manipular texturas.

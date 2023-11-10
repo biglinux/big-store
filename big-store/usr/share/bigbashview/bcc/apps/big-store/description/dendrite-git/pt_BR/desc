@@ -1,3 +1,0 @@
- Dendrite-git é um servidor de casa Matrix de segunda geração escrito em Go. Ele foi projetado para ser rápido,
-escalável e fácil de usar. Ele suporta todos os recursos do Matrix, incluindo mensagens, voz e vídeo, e também oferece suporte ao end-to-end encryption. Além disso, ele é open-source, o que
-significa que qualquer pessoa pode contribuir para o desenvolvimento e melhoria do código. 

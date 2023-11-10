@@ -1,1 +1,0 @@
-matrix-appservice-irc é um aplicativo em Node.js que liga Matrix e IRC. Ele permite que os usuários entrem e participem  de canais IRC dentro do Matrix, e também permite que os usuários participem de salas do Matrix dentro do IRC. 

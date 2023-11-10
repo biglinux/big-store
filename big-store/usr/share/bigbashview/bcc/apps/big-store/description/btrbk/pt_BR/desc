@@ -1,2 +1,0 @@
-btrbk é uma ferramenta de backup específica para subvolumes btrfs. Ela aproveita as capacidades específicas do
-btrfs para criar snapshots atômicos e transferi-los de forma incremental para suas localizações de backup.

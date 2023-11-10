@@ -1,3 +1,0 @@
-Este programa é uma interface para o Music Player Daemon (MPD) que permite reproduzir música em dispositivos UPnP. Ele
-funciona como um 'front-end' para o MPD, ou seja, é uma camada adicional que permite controlar a reprodução de música através de dispositivos UPnP.Isso significa que você pode reproduzir
-sua biblioteca de música em qualquer dispositivo compatível com UPnP, como alto-falantes sem fio, TVs e dispositivos móveis.

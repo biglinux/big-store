@@ -1,1 +1,0 @@
-python-cligj é um pacote para uso em programas de  SIG (Sistemas de Informação Geográfica) em Python. Ele fornece decoradores de argumentos e opções baseados em cliques para facilitar a criação de programas de linha de comando. Isso torna mais fácil para os usuários passarem parâmetros para os programas e também torna o código mais organizado e fácil de entender. 

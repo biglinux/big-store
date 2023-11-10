@@ -1,4 +1,0 @@
-O Single Dispatch é uma biblioteca que permite que você escolha uma função específica para ser chamada dependendo do tipo de
-objeto que é passado como argumento. Essa biblioteca foi portada do Python 3.4 para o Python 2, permitindo que você aproveite esse recurso em versões mais antigas do Python.Com o Single
-Dispatch, você pode escrever código mais legível e evitar funções enormes com vários 'ifs' ou 'switchs'. Além disso, é mais fácil de manter e extender o código quando você usa o Single
-Dispatch.

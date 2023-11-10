@@ -1,1 +1,0 @@
-Este programa é capaz de decompilar automaticamente arquivos de classe Java e exibir o código Java correspondente. É usado como plugin do editor de texto Vim, chamado vim-jad. 

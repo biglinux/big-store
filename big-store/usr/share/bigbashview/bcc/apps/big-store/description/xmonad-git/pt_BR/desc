@@ -1,2 +1,0 @@
-Este programa é um gerenciador de janelas leve para o sistema X11, escrito em Haskell. Ele organiza as janelas abertas em
-formato de telha, permitindo que você veja várias janelas ao mesmo tempo sem precisar alternar entre elas. Ele é fácil de usar e se adapta às suas necessidades.

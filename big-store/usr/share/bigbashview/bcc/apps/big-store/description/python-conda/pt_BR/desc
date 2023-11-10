@@ -1,4 +1,0 @@
-O python-conda é um gerenciador de pacotes binários e ecossistema que funciona em qualquer sistema operacional.
-Ele é projetado para gerenciar as dependências do seu projeto de maneira fácil e eficiente. Com o python-conda, você pode instalar, atualizar e remover pacotes de forma rápida e segura.
-Além disso, ele permite criar ambientes isolados para cada projeto, o que evita conflitos entre as versões de pacotes. Para mais informações, visite o site do python-conda em
-https://conda.io

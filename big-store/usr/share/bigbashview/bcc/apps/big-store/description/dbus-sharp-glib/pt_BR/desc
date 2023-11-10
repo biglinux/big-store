@@ -1,1 +1,0 @@
-dbus-sharp-glib é uma implementação do protocolo D-Bus usando C# e GLib. O D-Bus é um sistema de mensagens para aplicativos para comunicação entre processos. Ele permite que diferentes programas troquem informações de forma simples e eficiente. A implementação dbus-sharp-glib é projetada para ser usada em sistemas Linux e outras plataformas Unix-like.  

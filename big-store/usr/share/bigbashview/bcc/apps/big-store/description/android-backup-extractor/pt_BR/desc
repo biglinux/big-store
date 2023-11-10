@@ -1,4 +1,0 @@
- Com este programa, você pode facilmente extrair e repacotar backups do seu dispositivo Android que foram criados com o
-comando adb backup. Isso pode ser útil se você quiser fazer backup de apenas algumas de suas configurações ou arquivos específicos, ou se precisar restaurar seu dispositivo e precisar
-restaurar apenas algumas coisas.Ele também pode ser usado para examinar o conteúdo de um backup antes de restaurá-lo, ou para acessar arquivos de um backup que você não consegue acessar
-de outra maneira.Este programa é fácil de usar e requer apenas alguns cliques simples para extrair ou repacotar seus backups. 

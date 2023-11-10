@@ -1,1 +1,0 @@
-Este programa é um gerenciador de sessão TLS que armazena as informações de sessão em memória, ao invés de armazená-las  em disco. Isso permite uma rápida recuperação de sessões previamente estabelecidas, melhorando o desempenho do aplicativo. Ele é escrito em Haskell, uma linguagem de programação funcional,  o que garante a segurança e estabilidade do código. 

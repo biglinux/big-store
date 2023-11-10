@@ -1,1 +1,0 @@
-O gnome-software-packagekit-plugin é um plugin para o GNOME Software que adiciona suporte ao PackageKit. O PackageKit é um conjunto de ferramentas para lidar com pacotes em sistemas Linux. Esse plugin permite que o GNOME Software use o PackageKit para instalar, atualizar e remover software. 

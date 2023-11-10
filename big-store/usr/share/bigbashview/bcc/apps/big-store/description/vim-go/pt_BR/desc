@@ -1,2 +1,0 @@
- Este programa é um plugin para o editor de código Vim, ele adiciona recursos específicos para desenvolvimento em Go,
-como auto-completar, depuração e gerenciamento de pacotes. Isso facilita o trabalho de programadores que utilizam o Vim como editor principal e trabalham com o Go. 

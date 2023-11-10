@@ -1,2 +1,0 @@
-Este programa é um módulo do kernel para o dispositivo de rede RTL8125. Ele permite que o sistema operacional reconheça e use
-esse dispositivo de rede, possibilitando a conexão de internet e compartilhamento de arquivos. Ele é necessário para o funcionamento correto do dispositivo.

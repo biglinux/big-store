@@ -1,4 +1,0 @@
-A mlibc é uma biblioteca padrão de C portátil. Ela é projetada para ser usada em diferentes sistemas operacionais e arquiteturas
-de computadores, tornando-a uma escolha flexível e confiável para desenvolvedores. A mlibc oferece uma ampla variedade de funções, incluindo operações de entrada e saída, gerenciamento de
-memória, operações matemáticas e muito mais. Com a mlibc, você pode escrever aplicativos que funcionem de maneira consistente em diferentes ambientes, sem precisar se preocupar com
-diferenças de sistemas.

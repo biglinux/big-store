@@ -1,1 +1,0 @@
- Este programa é uma interface de objetos para sockets de domínio AF_INET e AF_INET6. Ele permite que você crie e gerencie facilmente conexões de rede usando esses tipos de sockets. Ele é escrito em Perl e é compatível com a maioria das plataformas de sistemas operacionais. Ele  é fácil de usar e tem recursos poderosos para gerenciar conexões de rede. 

@@ -1,1 +1,0 @@
-O kube-apiserver é um componente importante do plano de controle do Kubernetes. Ele é responsável por expor a API do Kubernetes, permitindo que outras ferramentas e aplicativos se comuniquem e gerenciem os recursos do cluster. Ele é essencial para o funcionamento correto e seguro do cluster, pois garante  a autenticação e autorização de acesso à API. 

@@ -1,3 +1,0 @@
-Esse programa é uma implementação nativa em Python do DBus, que é um sistema de comunicação entre
-processos. Ele foi desenvolvido usando a biblioteca Twisted, que é uma biblioteca para Python que ajuda a construir aplicativos de rede de forma assíncrona e orientada a eventos. Com esse
-programa, você pode facilmente comunicar processos em Python usando o DBus, o que é útil em muitas aplicações, como a comunicação entre aplicativos em um sistema operacional.

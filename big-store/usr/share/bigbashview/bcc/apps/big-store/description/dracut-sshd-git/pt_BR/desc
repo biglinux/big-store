@@ -1,4 +1,0 @@
-Este programa fornece acesso SSH para o initramfs, o que significa que você pode acessar e controlar seu sistema mesmo antes do
-sistema operacional principal ser carregado. É uma ferramenta útil para solucionar problemas e garantir a segurança do sistema.Com esse programa, você pode entrar no sistema antes de tudo
-ser carregado, o que significa que você pode resolver problemas mais rapidamente e de forma mais segura. Além disso, você pode acessar o sistema a partir de qualquer lugar, desde que tenha 
-acesso à internet.

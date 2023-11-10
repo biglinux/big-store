@@ -1,1 +1,0 @@
-Este programa, escrito em Haskell, fornece uma maneira fácil e eficiente de gerenciar a memória ao lidar com arquivos. Ele usa 'handles' (alças) para acessar arquivos em vez de carregá-los completamente na memória, o que economiza espaço e aumenta a velocidade de acesso. 

@@ -1,3 +1,0 @@
-Com o programa btrfs-du, você pode facilmente ver quanto espaço está sendo usado em subvolumes e snapshots do BTRFS. Isso
-é útil para garantir que você tenha espaço suficiente em seu sistema e para planejar a expansão do armazenamento.É simples de usar, basta executar o comando e ver os resultados na tela. É
-uma ferramenta valiosa para administradores de sistemas e usuários avançados.

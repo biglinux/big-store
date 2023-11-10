@@ -1,1 +1,0 @@
-A biblioteca libaio é uma ferramenta para realizar operações de I/O assíncrono no sistema operacional Linux. Isso significa que ela permite que as aplicações realizem várias operações de entrada e saída de dados ao mesmo tempo, sem precisar esperar que cada operação seja concluída antes de continuar. Isso pode melhorar significativamente o desempenho de sua aplicação. 

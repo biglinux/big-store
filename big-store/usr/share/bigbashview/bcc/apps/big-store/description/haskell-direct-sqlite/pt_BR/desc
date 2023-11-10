@@ -1,1 +1,0 @@
-A biblioteca haskell-direct-sqlite é uma biblioteca de baixo nível para usar o banco de dados SQLite3 com o Haskell. Ela inclui suporte para caracteres UTF8 e BLOB, o que significa que você pode armazenar e trabalhar com dados de vários tipos, incluindo textos e arquivos. 

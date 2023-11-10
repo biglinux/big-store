@@ -1,4 +1,0 @@
-Essa é uma biblioteca C específica para sistemas que usam o processador ARM e o sistema operacional Linux. Ela é
-conhecida como arm-linux-gnueabihf-glibc e é desenvolvida pela equipe do GNU. Ela fornece várias funções e bibliotecas para programadores que desejam escrever códigos para esses sistemas.
-Isso inclui funções básicas como ler e escrever arquivos, alocar memória e gerenciar processos, além de outras funções mais avançadas. Usando essa biblioteca, os desenvolvedores podem
-escrever programas mais eficientes e confiáveis para sistemas com o processador ARM e o Linux.

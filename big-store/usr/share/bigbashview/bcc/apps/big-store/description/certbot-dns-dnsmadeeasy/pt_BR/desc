@@ -1,1 +1,0 @@
-Este é um plugin para o Certbot, uma ferramenta para gerar certificados SSL/TLS, que permite a autenticação de DNS no DNS Made Easy.Ele funciona adicionando registros DNS necessários para a validação do certificado automaticamente, sem precisar de intervenção manual.Isso facilita o processo de geração de certificados, tornando-o mais rápido e preciso.  

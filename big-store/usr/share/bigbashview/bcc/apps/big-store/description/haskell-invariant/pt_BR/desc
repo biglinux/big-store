@@ -1,1 +1,0 @@
-O Haskell98 é uma linguagem de programação funcional que possui uma característica chamada funções invariantes. Isso significa que essas funções não alteram o estado de um objeto. Elas apenas o transformam em outro objeto, sem afetar o original. Isso é útil para garantir a segurança de dados em programas  complexos. 

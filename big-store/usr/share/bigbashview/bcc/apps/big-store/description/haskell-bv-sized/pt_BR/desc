@@ -1,1 +1,0 @@
-O haskell-bv-sized é um tipo de dado bitvector que é parametrizado pela largura do vetor. Isso significa que você pode especificar quantos bits devem ser usados ​​para representar cada valor dentro do vetor. Isso pode ser útil em várias situações, como economizar espaço de armazenamento ou aumentar a eficiência de processamento. 

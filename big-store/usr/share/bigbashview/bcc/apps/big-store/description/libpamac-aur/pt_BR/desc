@@ -1,3 +1,0 @@
- Pamac é um gerenciador de pacotes para o sistema operacional Arch Linux. Ele é baseado na biblioteca libalpm e permite
-instalar, remover e gerenciar pacotes facilmente. Além disso, ele fornece suporte para gerenciamento de pacotes AUR (Arch User Repository) e possui uma interface gráfica de usuário simples 
-e fácil de usar. Com Pamac, você pode manter seu sistema atualizado e garantir que você tenha os pacotes certos instalados para suas necessidades. 

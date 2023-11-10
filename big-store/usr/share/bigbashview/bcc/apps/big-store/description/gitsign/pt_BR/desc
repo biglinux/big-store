@@ -1,1 +1,0 @@
-O gitsign é um programa que permite a assinatura de commits no Git sem a necessidade de usar chaves. Ele utiliza  o Sigstore para armazenar as assinaturas de forma segura e verificáveis. Com ele, é possível garantir a autenticidade e integridade dos commits em um repositório Git sem precisar lidar com  chaves complicadas. 

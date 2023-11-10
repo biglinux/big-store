@@ -1,3 +1,0 @@
-Este programa é usado para mesclar arquivos .pacnew, que são criados quando atualizamos pacotes no sistema operacional. Ele
-permite comparar as diferenças entre as versões antigas e novas dos arquivos e decidir como eles devem ser combinados. Isso é útil para garantir que as configurações personalizadas sejam
-preservadas durante as atualizações.É uma ferramenta importante para administradores de sistemas que desejam manter seus sistemas atualizados sem perder as configurações personalizadas.

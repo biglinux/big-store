@@ -1,3 +1,0 @@
-Shorewall é um firewall para sistemas Linux. Ele é projetado para ser fácil de usar e configurar, mas ao mesmo tempo oferece recursos
-avançados para usuários mais experientes. Ele usa regras simples e fáceis de entender para controlar o tráfego de rede, permitindo que você proteja sua rede de ameaças externas. As
-bibliotecas core do Shorewall são os componentes principais do programa, fornecendo as funcionalidades básicas para gerenciar as regras de firewall.

@@ -1,3 +1,0 @@
-Este é um módulo para usar funcionalidades do protocolo LDAP (Language Directory Access Protocol) no PHP 8.1. O LDAP é um protocolo 
-de rede que permite acessar e gerenciar informações de diretórios, como usuários e grupos. Com este módulo, é possível integrar aplicações PHP com servidores de diretórios LDAP.Exemplos de 
-uso incluem autenticação de usuários baseada em diretórios, busca e gerenciamento de informações de contato, e gerenciamento de permissões em aplicações.

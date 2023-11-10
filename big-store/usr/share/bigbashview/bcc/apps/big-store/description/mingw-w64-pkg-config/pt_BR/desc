@@ -1,2 +1,0 @@
-Este programa fornece suporte ao script pkg-config, sem depender de qualquer versão específica dele. Isso é útil para a
-compilação cruzada com mingw-w64, usando pkg-config. Para mais informações, visite o link http://tinyurl.com/pkg-config-cross.

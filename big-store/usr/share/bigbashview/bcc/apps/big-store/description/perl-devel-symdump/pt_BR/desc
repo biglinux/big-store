@@ -1,1 +1,0 @@
- O pacote perl-devel-symdump fornece ferramentas para acessar e dumpar a tabela de símbolos do Perl. Isso é útil  para desenvolvedores que precisam debugar ou entender como o Perl está lidando com variáveis e subrotinas em seu código.  

@@ -1,1 +1,0 @@
-Essa ferramenta é projetada para analisar tabelas em grade no estilo reStructuredText. Ela  é escrita em Haskell e é especializada em lidar com esse tipo específico de tabelas. Ela pode ser usada para extrair informações de tabelas, formatá-las de maneira mais legível, e até mesmo para converter essas tabelas para outros formatos. 

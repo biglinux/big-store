@@ -1,5 +1,0 @@
-Nixpacks é uma ferramenta que junta o código-fonte do seu aplicativo com pacotes Nix e Docker para criar uma 
-imagem final. Isso significa que você pode ter certeza de que sua aplicação funcionará da mesma maneira em qualquer lugar, sem se preocupar com diferenças de configuração ou dependências.
-Além disso, ao usar pacotes Nix, você pode garantir que as versões corretas de bibliotecas e outros recursos sejam usadas, o que pode ajudar a evitar erros e problemas de compatibilidade.
-Em resumo, Nixpacks é uma ferramenta poderosa para desenvolvedores que querem ter certeza de que sua aplicação funcionará corretamente em qualquer lugar, sem se preocupar com configurações 
-ou dependências.

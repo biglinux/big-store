@@ -1,3 +1,0 @@
-Este programa é um controlador de rede leve que usa o protocolo UPnP para ajudar dispositivos na sua rede a se conectarem e se 
-comunicarem uns com os outros. Ele também tem suporte ao nftables, que é uma ferramenta de firewall avançada.Isso significa que ele pode ajudar a gerenciar como os dispositivos na sua rede 
-se comunicam e ajudar a manter sua rede segura.

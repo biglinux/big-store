@@ -1,4 +1,0 @@
-Este é um módulo que permite que você use o SNMP (Simple Network Management Protocol) com o PHP74. O SNMP é um protocolo usado para
-gerenciar dispositivos de rede, como roteadores e switches. Com este módulo, você pode fazer coisas como monitorar o tráfego de rede, verificar o status de dispositivos e configurar
-dispositivos remotamente.Para usar o módulo SNMP, você precisa ter o PHP74 instalado e configurado corretamente. Ele também pode ser necessário instalar bibliotecas adicionais de SNMP no
-seu sistema. Depois de configurado, você pode usar as funções do módulo SNMP no seu código PHP para gerenciar dispositivos de rede.

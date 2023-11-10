@@ -1,4 +1,0 @@
-Essa biblioteca é projetada para te ajudar a gerenciar os ponteiros de função do OpenGL. Ela é
-específica para o sistema operacional mingw-w64, mas pode ser útil para qualquer pessoa que trabalhe com desenvolvimento de jogos ou aplicativos gráficos.Com essa biblioteca, você não
-precisa se preocupar em gerenciar os ponteiros de função do OpenGL manualmente, o que pode ser um trabalho complicado e propenso a erros. Em vez disso, ela cuida disso para você, permitindo
-que você se concentre em outras áreas do seu projeto.

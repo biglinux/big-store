@@ -1,3 +1,0 @@
-Essa ferramenta é chamada mpremote e é usada para controlar o MicroPython de forma remota. Ela funciona como
-um 'wrapper' ou uma camada adicional de facilidade para acessar as funcionalidades do MicroPython. Com essa ferramenta você pode controlar o MicroPython de forma simples e eficiente,
-permitindo que você execute comandos e faça modificações sem precisar estar fisicamente presente no dispositivo.

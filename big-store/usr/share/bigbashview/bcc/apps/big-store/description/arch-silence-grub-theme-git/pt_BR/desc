@@ -1,4 +1,0 @@
- O tema Arch Silence é um tema para o gerenciador de inicialização GRUB2, que é usado para selecionar qual sistema operacional
-iniciar. Este é a versão GIT do tema, o que significa que é a versão mais recente e pode conter correções de bugs ou novos recursos. O tema tem um visual limpo e simples, com um fundo preto
-e texto branco. Ele também inclui o logo Arch Linux no topo da tela.Para usar este tema, você precisará instalá-lo em sua máquina e configurar o GRUB2 para usá-lo. Instruções de
-instalação estão disponíveis no repositório GIT do tema. 

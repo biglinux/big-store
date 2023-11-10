@@ -1,4 +1,0 @@
-Este programa é chamado de python-nbt e é usado para ler e escrever arquivos chamados Named Binary Tag (NBT). NBT é um
-formato de arquivo específico que é usado em jogos como Minecraft para armazenar informações sobre o jogo. Com este programa, você pode abrir arquivos NBT, ver o que está dentro deles e até
-mesmo alterar essas informações. Ele é escrito em python, um popular linguagem de programação.É uma ferramenta útil para jogadores de Minecraft que desejam modificar seus jogos ou para
-desenvolvedores de jogos que desejam entender melhor como o NBT funciona.

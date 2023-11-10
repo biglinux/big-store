@@ -1,2 +1,0 @@
-Este programa é chamado de Trezor Bridge e é usado para comunicação com dispositivos Trezor. Ele foi escrito em
-linguagem Go e é conhecido também como Trezor Communication Daemon. Com ele, é possível se comunicar com seu dispositivo Trezor de maneira segura e fácil.

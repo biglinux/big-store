@@ -1,1 +1,0 @@
-O pacote python-django-guardian fornece suporte para permissões por objeto no framework Django. Isso permite que você atribua permissões específicas a objetos individuais em vez de aplicá-las a toda a classe de objetos. Isso pode ser útil em aplicativos que precisam de um controle de acesso mais granular. 

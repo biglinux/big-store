@@ -1,1 +1,0 @@
-O libx86 é uma biblioteca que oferece uma interface lrmi para sistemas x86, am64 e alpha. Isso permite que os desenvolvedores acessem recursos de baixo nível, como interrupções e gerenciamento de memória, de forma mais fácil e segura. Com essa biblioteca, é possível escrever programas mais eficientes e confiáveis em sistemas baseados nessas arquiteturas. 

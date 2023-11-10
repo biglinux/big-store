@@ -1,4 +1,0 @@
-Esse programa é um daemon, ou seja, um programa que roda em segundo plano no seu computador. Ele foi feito para rodar
-scripts automaticamente quando houver mudanças em arquivos que você está monitorando. Ele usa a tecnologia inotify para detectar essas mudanças e, então, roda os scripts que você
-configurou.É uma ferramenta útil para automatizar tarefas como backup de arquivos, sincronização entre pastas, e muito mais. Ele é fácil de configurar e pode ser personalizado de acordo com
-suas necessidades.

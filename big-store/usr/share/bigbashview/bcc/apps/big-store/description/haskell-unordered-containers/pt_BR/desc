@@ -1,1 +1,0 @@
- O pacote haskell-unordered-containers fornece tipos de contêiner baseado em hash eficientes, como mapas e conjuntos, para o idioma Haskell. Esses tipos são implementados usando técnicas de hash avançadas, o que os torna rápidos e eficientes em termos de memória. Eles são uma escolha popular para aplicações que precisam armazenar e recuperar dados rapidamente.  

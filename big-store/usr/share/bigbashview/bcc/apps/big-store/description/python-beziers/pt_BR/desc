@@ -1,4 +1,0 @@
-Este programa foi criado para ajudar a extrair informações de glifos de fontes. Ele é escrito em Python e usa a
-biblioteca Beziers para isso. Com ele, você pode facilmente obter informações como o tamanho, a posição e a forma dos glifos em uma fonte. Isso é útil para quem trabalha com design gráfico 
-ou desenvolvimento de aplicativos que usam fontes.Além disso, este programa também é fácil de usar e possui uma interface amigável, tornando a extração de informações de glifos de fontes
-uma tarefa simples e rápida.

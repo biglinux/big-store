@@ -1,3 +1,0 @@
-Este programa é um cliente alternativo do Discord, criado com C++ e gtkmm. Ele oferece uma interface de usuário diferente da
-aplicação oficial do Discord, mas mantém as mesmas funcionalidades básicas, como conversas de texto e voz, compartilhamento de arquivos e muito mais. Ele é útil para aqueles que desejam
-experimentar uma nova forma de usar o Discord sem perder as funcionalidades que eles já conhecem e amam. 

@@ -1,4 +1,0 @@
-Samarium é uma linguagem dinâmica interpretada que é transpilada para o Python. Isso significa que o código escrito em
-Samarium é convertido em código Python antes de ser executado, permitindo que os desenvolvedores aproveitem as vantagens de ambas as linguagens. Como linguagem interpretada, o código
-Samarium pode ser escrito e executado rapidamente, sem a necessidade de compilação. Além disso, como é transpilado para Python, os desenvolvedores também podem aproveitar a ampla variedade 
-de bibliotecas e ferramentas disponíveis na comunidade Python.

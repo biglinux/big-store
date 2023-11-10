@@ -1,1 +1,0 @@
-Este programa é um adaptador para usar a biblioteca Log::Log4perl com a biblioteca Log::Any no Perl. Ele permite que os desenvolvedores usem as funções de registro de Log::Any, mas com as configurações avançadas de Log::Log4perl. 

@@ -1,1 +1,0 @@
-Este é um preprocessador para o Haskell que permite utilizar a sintaxe de campos de registros. Isso significa que, em vez de precisar acessar os campos de um registro usando notação de ponto, você pode usar a notação de ponto para acessar os campos de um registro. Isso facilita a leitura  e a escrita de código.  

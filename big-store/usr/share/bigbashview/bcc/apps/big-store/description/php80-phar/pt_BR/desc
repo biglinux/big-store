@@ -1,5 +1,0 @@
-O módulo Phar para PHP 8.0 permite que você crie e gerencie arquivos Phar (PHP Archive) em seus projetos PHP. Um arquivo Phar é
-basicamente um pacote de arquivos PHP compactado e auto-executável, o que o torna fácil de distribuir e usar em outros projetos. Com o módulo Phar, você pode criar arquivos Phar com
-facilidade e gerenciá-los diretamente a partir do PHP.Algumas das principais funcionalidades do módulo Phar incluem a capacidade de adicionar arquivos e pastas a um arquivo Phar existente, 
-extrair arquivos de um arquivo Phar, verificar a integridade de um arquivo Phar e muito mais. É uma ferramenta útil para quem desenvolve projetos PHP e precisa distribuir arquivos de forma 
-eficiente.

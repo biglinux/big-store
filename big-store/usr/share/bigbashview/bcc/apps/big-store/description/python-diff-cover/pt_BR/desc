@@ -1,1 +1,0 @@
-Este programa, chamado python-diff-cover, ajuda a encontrar as linhas de código que precisam de testes adicionais. Ele funciona comparando as linhas de código antigas com as novas e identificando as que foram adicionadas ou modificadas. Dessa forma, você pode ter certeza de que todo o seu código está sendo testado adequadamente. 

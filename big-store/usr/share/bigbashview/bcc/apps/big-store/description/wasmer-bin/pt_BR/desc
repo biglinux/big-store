@@ -1,4 +1,0 @@
-O programa é um runtime universal para WebAssembly, ou seja, ele permite que você execute códigos escritos em WebAssembly em
-diversas plataformas. Isso é útil para rodar aplicativos e jogos em navegadores, mas também em outros sistemas operacionais, como Windows, Linux e MacOS.WebAssembly é uma linguagem de
-baixo nível, ou seja, ela é próxima da linguagem de máquina. Isso a torna muito rápida e eficiente, mas também um pouco mais complexa para programar. O wasmer-bin torna mais fácil trabalhar
-com esse tipo de código, pois ele se encarrega de todos os detalhes técnicos.

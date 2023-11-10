@@ -1,1 +1,0 @@
-python-jupyter_client é uma biblioteca de cliente para o protocolo Jupyter. Ela permite que você  se comunique com um servidor Jupyter e execute comandos nele. Isso é útil se você quer automatizar tarefas ou criar programas personalizados que se integrem com o Jupyter. 

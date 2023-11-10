@@ -1,1 +1,0 @@
-Esse programa ajuda a determinar o tipo de arquivo que você tem. Ele usa as ferramentas mimeopen e mimetype para fazer isso. É escrito em Perl e se chama perl-file-mimeinfo. 

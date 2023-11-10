@@ -1,2 +1,0 @@
- Este programa é uma ferramenta que ajuda a manter a hora certa em seu computador. Ele funciona junto com outro programa
-chamado 'netctl' e ajusta a hora automaticamente usando o serviço 'chrony'. Assim, você nunca precisará se preocupar em configurar a hora manualmente. 

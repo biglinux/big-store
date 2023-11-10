@@ -1,3 +1,0 @@
-Este programa é uma ferramenta e biblioteca para analisar e converter shaders SPIR-V para outras linguagens de shaders. Ele é
-útil para quem desenvolve jogos ou aplicativos gráficos e precisa de compatibilidade com diferentes plataformas ou dispositivos.Com ele, é possível traduzir o código dos shaders escritos em
-SPIR-V para outras linguagens, como GLSL, HLSL e Metal. Isso garante que o seu jogo ou aplicativo possa ser executado em diferentes dispositivos sem problemas.

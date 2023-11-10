@@ -1,2 +1,0 @@
-Este programa permite montar arquivos em formato de arquivo, como por exemplo arquivos .zip ou .tar, como se fossem
-pastas no seu computador. Ele usa a biblioteca libarchive para fazer isso.

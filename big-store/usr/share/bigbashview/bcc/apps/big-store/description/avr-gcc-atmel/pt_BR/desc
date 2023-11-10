@@ -1,2 +1,0 @@
- O Compilador AVR GNU da Atmel é uma coleção de ferramentas de desenvolvimento para microcontroladores AVR. Ele inclui o compilador 
-GCC, o gerenciador de biblioteca avr-libc, ferramentas de depuração e programação. Com ele, é possível escrever e compilar códigos em C ou C++ para rodar em microcontroladores AVR. 

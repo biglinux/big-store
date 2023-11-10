@@ -1,1 +1,0 @@
-udftools é um conjunto de ferramentas para sistemas de arquivos UDF (Universal Disk Format) e unidades de DVD/CD-R(W) no Linux. Ele inclui udflabel para criar e editar rótulos de volume UDF, udfformat para formatar discos UDF, udfinfo para exibir informações sobre discos UDF e udftp para transferir arquivos para e de discos UDF. 

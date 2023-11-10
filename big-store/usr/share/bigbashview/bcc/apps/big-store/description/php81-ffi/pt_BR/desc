@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.1 que permite aos desenvolvedores utilizar funções de bibliotecas externas, como C ou outras
-linguagens, diretamente em seus scripts PHP. Isso significa que você pode aproveitar todo o poder de outras linguagens sem precisar escrever código em outra linguagem além do PHP.Com o
-módulo FFI, é possível acessar recursos de sistemas operacionais, como arquivos e memória, além de acessar outras bibliotecas de software que possam ser úteis para seu projeto. Isso pode
-ajudar a aumentar a velocidade e eficiência do seu código PHP.

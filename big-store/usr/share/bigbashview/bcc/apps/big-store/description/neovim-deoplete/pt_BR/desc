@@ -1,3 +1,0 @@
-Este programa é um complemento para o editor de código Neovim. Ele adiciona uma funcionalidade de autocompletar ao
-software, tornando a escrita de código mais rápida e fácil. Ele é alimentado por uma estrutura assíncrona de completamento escura, o que significa que ele funciona de forma rápida e
-eficiente, mesmo em computadores mais antigos ou com pouca memória.

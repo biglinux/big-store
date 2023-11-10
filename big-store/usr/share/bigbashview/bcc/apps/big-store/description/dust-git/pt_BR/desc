@@ -1,4 +1,0 @@
-Este é um programa chamado dust-git que ajuda você a usar o comando 'du' de uma forma mais fácil e intuitiva. O 
-du é usado para ver o tamanho de arquivos e pastas em seu computador. Com o dust-git, você pode ver essas informações de maneira mais clara e fácil de entender. O dust-git foi feito usando 
-a linguagem de programação Rust, que é conhecida por ser rápida e segura. Então, você pode usar o dust-git sem se preocupar com problemas de performance ou segurança. Em resumo, se você
-quer uma forma mais fácil e intuitiva de ver o tamanho de seus arquivos e pastas, o dust-git é uma ótima escolha. 

@@ -1,3 +1,0 @@
-Esta é uma biblioteca escrita em Python que fornece implementações de tipos ASN.1 e codecs DER/BER/CER (X.208).A biblioteca é
-uma implementação pura em Python, o que significa que não há dependências de outras bibliotecas ou ferramentas externas para funcionar.Com ela, é possível trabalhar com dados codificados de
-forma eficiente e segura, tornando-a uma escolha popular para aplicações que precisam lidar com informações sensíveis ou confidenciais.

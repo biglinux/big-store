@@ -1,3 +1,0 @@
-Este programa é uma saída de vídeo para OBS Studio, chamado obs-v4l2sink. Ele permite que você transmita a saída de vídeo
-diretamente para dispositivos compatíveis com V4L2, como webcams e placas de captura de vídeo.Isso é útil se você deseja transmitir a saída de vídeo do seu jogo ou aplicativo diretamente
-para uma webcam sem precisar passar por outros softwares de edição de vídeo.

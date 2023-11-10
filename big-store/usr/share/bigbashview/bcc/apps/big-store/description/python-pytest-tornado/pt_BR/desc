@@ -1,1 +1,0 @@
-Este é um plugin para o py.test que fornece fixtures e markers para simplificar os testes de aplicações assíncronas  Tornado. Ele permite que você teste sua aplicação Tornado de maneira eficiente e sem problemas. 

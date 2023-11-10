@@ -1,1 +1,0 @@
-O arquivo sysctl é utilizado para melhorar a configuração da rede. Ele permite ajustar diversas configurações, como ajustar  o buffer de rede, habilitar ou desabilitar certos protocolos, entre outras configurações avançadas. Usando esse arquivo, é possível melhorar o desempenho e a segurança da rede. 

@@ -1,4 +1,0 @@
-O goreleaser-bin é um programa que ajuda a entregar arquivos binários do Go de forma rápida e fácil. Ele é útil para desenvolvedores
-de software que precisam distribuir seus programas escritos na linguagem Go para outras pessoas usarem. Com o goreleaser-bin, é possível fazer o upload dos arquivos binários para vários
-lugares diferentes, como GitHub, Amazon S3 e muito mais, tudo com apenas alguns comandos simples. Além disso, ele também permite a criação de pacotes de instalação para diferentes sistemas 
-operacionais, como Windows, Linux e Mac, tornando a distribuição do seu software ainda mais fácil.

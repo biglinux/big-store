@@ -1,1 +1,0 @@
- O programa 'fail2ban' é utilizado para bloquear endereços IPs que apresentam muitas tentativas de autenticação falhas. Ele funciona monitorando arquivos de log de segurança, como o arquivo de log de login do sistema, e aplicando regras para determinar quando um IP deve ser banido. Isso  ajuda a proteger sua rede contra ataques de força bruta e tentativas de adivinhar senhas.  

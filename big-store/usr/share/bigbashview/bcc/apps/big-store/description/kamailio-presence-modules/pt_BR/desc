@@ -1,3 +1,0 @@
-Os módulos de presença para Kamailio são ferramentas adicionais para o software Kamailio, que é um servidor de sinalização 
-SIP. Esses módulos permitem que o Kamailio gerencie e rastreie a presença dos usuários no sistema. Isso inclui informações como disponibilidade, localização e status de presença. Com esses 
-módulos, os desenvolvedores podem criar aplicativos de presença personalizados e melhorar a funcionalidade do Kamailio.

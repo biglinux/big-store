@@ -1,3 +1,0 @@
-Esse é um pacote de firmware para dispositivos Linux, específico para processadores de fluxo Netronome. Ele
-inclui arquivos de firmware que não foram comprimidos, o que significa que eles não precisam ser descomprimidos antes de serem usados. Esse pacote é útil para quem precisa usar
-processadores de fluxo Netronome em sistemas Linux.

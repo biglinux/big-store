@@ -1,1 +1,0 @@
-Este programa é uma implementação em Python puro do protocolo de descoberta de serviços DNS multicast, conhecido como Zeroconf. Ele permite que dispositivos na rede local sejam encontrados e usados sem configuração prévia de endereços IP ou nomes de host. Isso é útil para aplicativos como impressão sem fio, compartilhamento de arquivos e muito mais. 

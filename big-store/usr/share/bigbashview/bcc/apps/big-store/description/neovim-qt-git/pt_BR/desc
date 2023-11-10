@@ -1,3 +1,0 @@
-Este programa é uma interface gráfica para o Neovim, um editor de texto avançado. Ele utiliza a biblioteca Qt5 para
-fornecer uma experiência de usuário amigável e intuitiva, além de se comunicar com o Neovim através de sua API de chamada de procedimento remoto (RPC). Isso permite que você aproveite as
-vantagens do Neovim, como suporte a múltiplas abas e janelas, enquanto ainda tem uma interface fácil de usar.

@@ -1,3 +1,0 @@
-Este é um driver de rasterização de software para o sistema Vulkan. Ele foi desenvolvido pela comunidade Panfork e 
-é distribuído como um código fonte aberto. Com este driver, você pode usar aplicativos e jogos que usam o sistema Vulkan sem precisar de uma placa gráfica específica. Ele é útil para quem
-precisa de compatibilidade com dispositivos móveis ou integrados.

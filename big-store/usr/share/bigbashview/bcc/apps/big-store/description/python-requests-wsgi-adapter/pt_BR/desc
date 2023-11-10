@@ -1,1 +1,0 @@
- Este é um adaptador de transporte WSGI para requisições em python. Ele permite que você use a biblioteca popular de requisições HTTP 'requests' em um ambiente WSGI, como um aplicativo web. Isso facilita a criação de aplicativos web que precisam fazer solicitações HTTP para outros serviços.  

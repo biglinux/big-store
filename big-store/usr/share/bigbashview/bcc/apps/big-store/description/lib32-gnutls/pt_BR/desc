@@ -1,1 +1,0 @@
-A biblioteca lib32-gnutls fornece uma camada de segurança sobre uma camada de transporte confiável (32-bit). Isso  garante que as informações transmitidas sejam protegidas contra acessos não autorizados e garante privacidade e integridade dos dados. 

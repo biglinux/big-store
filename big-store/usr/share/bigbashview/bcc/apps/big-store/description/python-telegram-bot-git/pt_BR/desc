@@ -1,4 +1,0 @@
-Esta é uma biblioteca que permite criar bots para o Telegram usando a linguagem Python. Ela funciona como uma
-'camada' ao redor da API do Telegram Bot, o que torna o processo de criação de bots mais fácil e intuitivo. Com ela, você pode enviar mensagens, gerenciar usuários e realizar outras tarefas
-relacionadas a bots de forma simples e rápida.Esta biblioteca é open-source e está disponível no GitHub para ser baixada e usada livremente. Ela também tem uma comunidade ativa de
-desenvolvedores que contribuem constantemente com novas funcionalidades e correções de bugs.

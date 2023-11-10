@@ -1,3 +1,0 @@
- Este é um módulo para o PHP que adiciona recursos de criptografia ao seu código. Ele é baseado na biblioteca libsodium e é
-compatível com a versão 7.3 do PHP. Com ele, você pode criptografar e descriptografar informações de forma segura e garantir a privacidade dos dados de sua aplicação. Além disso, ele também
-oferece outras funcionalidades como assinatura digital e geração de números aleatórios seguros.

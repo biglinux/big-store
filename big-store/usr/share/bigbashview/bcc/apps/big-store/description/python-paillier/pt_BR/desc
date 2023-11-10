@@ -1,3 +1,0 @@
-Essa biblioteca em Python 3 implementa o algoritmo de criptografia homomórfica parcial de Paillier. Isso significa que
-ela permite realizar operações matemáticas com números criptografados sem precisar decifrá-los antes. Isso é útil em situações em que é preciso manter dados confidenciais, mas ainda
-permitir algum tipo de processamento. 

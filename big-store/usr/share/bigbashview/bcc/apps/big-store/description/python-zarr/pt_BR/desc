@@ -1,3 +1,0 @@
-Este programa é uma implementação de arrays multi-dimensional, divididos e comprimidos para o Python. Ele é chamado de
-python-zarr. Com ele, é possível armazenar grandes quantidades de dados de forma eficiente em termos de espaço e velocidade de acesso. Ele é útil para aplicações científicas e de análise de
-dados.

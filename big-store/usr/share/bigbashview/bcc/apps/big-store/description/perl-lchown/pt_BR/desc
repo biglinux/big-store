@@ -1,1 +1,0 @@
-Este programa em Perl permite o uso da chamada de sistema lchown(2), que permite mudar o dono de um arquivo ou  diretório. Isso é útil para garantir a segurança e acessibilidade corretas dos arquivos em um sistema. 

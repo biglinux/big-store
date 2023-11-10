@@ -788,3 +788,134 @@ msgstr "선택한 프로그램만 표시합니다.<br>유용한 결과를 숨 �
 
 msgid "Vídeo"
 msgstr "비디오"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "디렉토리에 액세스하는 동안 오류가 발생했습니다."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"기본 프로그램은 운영 체제와 보다 강력하게 통합됩니다.<br>사용 가능하기 전에 광범위한 테스트를 거쳐 더 큰 신뢰성을 보장합니다.<br>이러한 이유로 원하는 소프트웨어를 여러 "
+"설치 옵션으로 사용할 수 있는 경우 기본 프로그램을 선택하는 것이 특히 좋습니다.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "시스템 정보를 수집하는 동안 잠시 기다려 주십시오. 몇 분 정도 걸릴 수 있습니다."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "시스템이 설치된 대략적인 날짜:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store는 이미 운영 중입니다."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"기본 프로그램은 운영 체제와 보다 강력하게 통합됩니다.<br>사용 가능하기 전에 광범위한 테스트를 거쳐 더 큰 신뢰성을 보장합니다.<br>이러한 이유로 원하는 소프트웨어가 필요할 "
+"때 기본 프로그램을 선택하는 것이 특히 좋습니다.<br>여러 설치 옵션에서 사용할 수 있습니다.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "서버 데이터베이스에서 새 패키지 다운로드"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "매개 변수로 전달된 패킷이 없습니다."
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store의 다른 인스턴스가 이미 실행 중입니다."
+
+msgid "Procurar aplicativo"
+msgstr "앱 찾아보기"
+
+msgid "Editores de texto linha de comando"
+msgstr "명령줄 텍스트 편집기"
+
+msgid "Multimidia"
+msgstr "멀티미디어"
+
+msgid "Carta"
+msgstr "편지"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Linux 하드웨어에서 장치 정보 보기"
+
+msgid "Processador"
+msgstr "프로세서"
+
+msgid "Placa mãe"
+msgstr "마더보드"
+
+msgid "Memória"
+msgstr "기억"
+
+msgid "Swap Memória Virtual"
+msgstr "가상 메모리 스왑"
+
+msgid "Placa de vídeo"
+msgstr "비디오 카드"
+
+msgid "Áudio"
+msgstr "오디오"
+
+msgid "Rede"
+msgstr "네트워크"
+
+msgid "Conexões de Rede"
+msgstr "네트워크 연결"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB 장치 및 연결"
+
+msgid "Portas PCI"
+msgstr "PCI 포트"
+
+msgid "Bateria"
+msgstr "배터리"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "저장 장치"
+
+msgid "Partições montadas"
+msgstr "탑재된 파티션"
+
+msgid "Partições desmontadas"
+msgstr "마운트 해제된 파티션"
+
+msgid "Dispositivos lógicos"
+msgstr "논리적 장치"
+
+msgid "Raid"
+msgstr "습격"
+
+msgid "Informações de Sistema"
+msgstr "시스템 정보"
+
+msgid "Repositórios"
+msgstr "저장소"
+
+msgid "Bluetooth"
+msgstr "블루투스"
+
+msgid "Temperatura"
+msgstr "온도"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Flatpak 프로그램이 시스템 메뉴에 나타나게 하려면 로그아웃했다가 다시 로그인하십시오."
+
+msgid "Atualizado em"
+msgstr "업데이트 날짜"
+
+msgid "Sobre"
+msgstr "의 위에"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "온라인 패키지에 대한 설명 번역"

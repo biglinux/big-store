@@ -1,1 +1,0 @@
- Utilize a biblioteca 'requests' para se comunicar com a rede HTTP através de um socket UNIX. Essa biblioteca facilita a realização de requisições HTTP, tornando mais simples a integração com aplicações que utilizam esse protocolo de rede. Com ela, é possível enviar e receber dados, realizar autenticações e lidar com erros de forma mais eficiente.  

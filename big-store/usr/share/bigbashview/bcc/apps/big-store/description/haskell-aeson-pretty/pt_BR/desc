@@ -1,1 +1,0 @@
-Essa é uma biblioteca e ferramenta de linha de comando para imprimir arquivos JSON de forma mais legível. Ela é escrita em Haskell e usa a biblioteca Aeson para lidar com arquivos JSON. 

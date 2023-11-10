@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Видео"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Ошибка доступа к каталогу:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Нативные программы имеют более надежную интеграцию с операционной системой.<br>Они проходят "
+"тщательное тестирование, прежде чем стать доступными, что обеспечивает большую надежность.<br>По "
+"этим причинам выбор собственной программы особенно рекомендуется, когда желаемое программное "
+"обеспечение доступно в нескольких вариантах установки.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Пожалуйста, подождите, пока мы соберем системную информацию. Это может занять несколько минут..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ориентировочная дата установки системы:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store уже запущен."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Нативные программы имеют более надежную интеграцию с операционной системой.<br>Они проходят "
+"тщательное тестирование, прежде чем стать доступными, что обеспечивает большую надежность.<br>По "
+"этим причинам выбор нативной программы особенно рекомендуется при желаемом программном "
+"обеспечении<br>доступен в нескольких вариантах установки.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Загрузка новых пакетов из базы данных сервера"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Пакеты не передаются в качестве параметров"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Еще один экземпляр Big-Store уже запущен."
+
+msgid "Procurar aplicativo"
+msgstr "Обзор приложения"
+
+msgid "Editores de texto linha de comando"
+msgstr "Текстовые редакторы командной строки"
+
+msgid "Multimidia"
+msgstr "Мультимедиа"
+
+msgid "Carta"
+msgstr "Письмо"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Просмотр информации об устройстве на оборудовании Linux"
+
+msgid "Processador"
+msgstr "Процессор"
+
+msgid "Placa mãe"
+msgstr "Материнская плата"
+
+msgid "Memória"
+msgstr "Память"
+
+msgid "Swap Memória Virtual"
+msgstr "Подкачка виртуальной памяти"
+
+msgid "Placa de vídeo"
+msgstr "Видеокарта"
+
+msgid "Áudio"
+msgstr "Аудио"
+
+msgid "Rede"
+msgstr "Сеть"
+
+msgid "Conexões de Rede"
+msgstr "Сетевые подключения"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-устройства и соединения"
+
+msgid "Portas PCI"
+msgstr "Порты PCI"
+
+msgid "Bateria"
+msgstr "Батарея"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Устройства хранения данных"
+
+msgid "Partições montadas"
+msgstr "Навесные перегородки"
+
+msgid "Partições desmontadas"
+msgstr "Немонтируемые перегородки"
+
+msgid "Dispositivos lógicos"
+msgstr "Логические устройства"
+
+msgid "Raid"
+msgstr "РЕЙД"
+
+msgid "Informações de Sistema"
+msgstr "Информация о системе"
+
+msgid "Repositórios"
+msgstr "Репозитории"
+
+msgid "Bluetooth"
+msgstr "Блютуз"
+
+msgid "Temperatura"
+msgstr "Температура"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Чтобы программы Flatpak появились в системном меню, выйдите из системы и войдите снова."
+
+msgid "Atualizado em"
+msgstr "Обновлено"
+
+msgid "Sobre"
+msgstr "На"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Перевод описания онлайн-пакетов"

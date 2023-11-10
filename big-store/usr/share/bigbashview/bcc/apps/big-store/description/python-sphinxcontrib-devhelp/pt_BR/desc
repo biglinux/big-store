@@ -1,1 +1,0 @@
-Esta é uma extensão do Sphinx que permite gerar documentos no formato Devhelp, que é usado para criar documentação de programas. Com ela, é possível criar guias de usuário, manuais e outros tipos de documentação de forma simples e eficiente. A extensão é escrita em Python e se chama python-sphinxcontrib-devhelp. 

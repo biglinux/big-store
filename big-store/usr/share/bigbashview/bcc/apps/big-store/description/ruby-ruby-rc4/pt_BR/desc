@@ -1,3 +1,0 @@
-RubyRC4 é uma implementação pura do algoritmo RC4 feita em Ruby. Ele é um algoritmo simétrico de criptografia que é usado para
-garantir a segurança das informações transmitidas. Ele é amplamente utilizado em protocolos de comunicação segura, como o SSL e o TLS. Com o RubyRC4, você pode criptografar e
-descriptografar informações de forma fácil e segura.

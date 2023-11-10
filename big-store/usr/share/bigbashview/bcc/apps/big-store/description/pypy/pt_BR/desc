@@ -1,1 +1,0 @@
-Pypy é uma implementação de Python que utiliza a técnica de otimização Just-in-Time (JIT) para aumentar a  velocidade de execução de seus programas. Isso significa que o código é compilado dinamicamente enquanto é executado, ao invés de ser compilado antes de ser executado, o que pode melhorar significativamente o desempenho. 

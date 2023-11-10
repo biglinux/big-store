@@ -1,1 +1,0 @@
-Este programa é um framework para gráficos multimídia, especificamente um servidor RTSP (Real-Time Streaming Protocol). Ele permite que você transmita áudio e vídeo ao vivo para dispositivos de reprodução compatíveis, como smartphones, tablets e computadores. Ele é baseado no software GStreamer, que é uma biblioteca de código aberto amplamente utilizada para trabalhar com mídia. 

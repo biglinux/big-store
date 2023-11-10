@@ -1,1 +1,0 @@
-tpm2-pkcs11 é uma interface PKCS#11 para hardware TPM 2.0. Ele permite que aplicativos usem o TPM2 para operações criptográficas. Isso pode ser útil para armazenar chaves, certificados e outras informações sensíveis de forma segura. 

@@ -1,4 +1,0 @@
-Este é um módulo para o programa PHP 7.3 que permite acessar e gerenciar dados usando o protocolo SNMP. Ele é útil para monitorar e 
-gerenciar dispositivos de rede, como roteadores e switches, a partir de um aplicativo PHP. Com este módulo, você pode enviar consultas SNMP para dispositivos de rede e receber informações
-sobre sua configuração, status e performance. Ele também permite enviar comandos SNMP para alterar a configuração dos dispositivos. Este módulo é uma ferramenta valiosa para administradores
-de rede e desenvolvedores de aplicativos que desejam gerenciar dispositivos de rede a partir de um aplicativo PHP.

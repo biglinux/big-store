@@ -1,3 +1,0 @@
-Pyxis é um plugin de container para o gerenciador de workload Slurm. Ele permite que você gerencie containers de forma
-eficiente dentro do Slurm, tornando mais fácil gerenciar seus aplicativos e recursos. Com o Pyxis, você pode criar, gerenciar e escalar facilmente seus containers, além de aproveitar todas 
-as funcionalidades do Slurm para garantir que seus aplicativos funcionem de forma otimizada. 

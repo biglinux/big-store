@@ -1,1 +1,0 @@
-Este programa permite que você substitua subrotinas em um módulo específico durante os testes unitários, sem precisar modificar o código original do módulo. Isso facilita a criação de cenários de teste e garante que os resultados dos testes sejam precisos. O programa é escrito em Perl e é conhecido como perl-test-mockmodule. 

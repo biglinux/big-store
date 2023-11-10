@@ -1,3 +1,0 @@
-Esta é uma ferramenta útil para ajudar a encontrar problemas em seu código quando você está trabalhando com
-OpenGL ou Vulkan. Ele permite que você capture quadros da sua aplicação e os examine para encontrar erros. É uma versão binária do programa, o que significa que você pode usá-lo sem
-precisar compilá-lo. Essa ferramenta é especialmente útil para desenvolvedores de jogos e aplicativos 3D, pois ajuda a encontrar problemas de desempenho e erros gráficos.

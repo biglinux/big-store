@@ -1,1 +1,0 @@
-Esse programa é específico para o Haskell e trata-se de um pacote de instâncias Aeson para URI Bytestring. Isso permite  a conversão de dados URI para o tipo Bytestring e vice-versa, facilitando a manipulação de dados URI em aplicações Haskell. 

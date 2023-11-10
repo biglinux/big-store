@@ -1,4 +1,0 @@
- PyVISA é uma biblioteca para Python que permite a comunicação com instrumentos de medição e controle usando
-diferentes interfaces, como GPIB, RS232, USB e Ethernet. Ela é baseada em outras bibliotecas de baixo nível, como VISA, e é compatível com vários sistemas operacionais, incluindo Windows,
-Linux e macOS. A versão pure python do PyVISA, chamada python-pyvisa-py, é uma implementação da biblioteca que não precisa ser compilada e pode ser instalada facilmente usando o gerenciador
-de pacotes pip. Ela fornece a mesma funcionalidade da versão original e é uma boa opção para quem deseja evitar problemas de compatibilidade com as bibliotecas de baixo nível.

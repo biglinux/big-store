@@ -1,5 +1,0 @@
-clblas é uma biblioteca de software que contém funções Basic Linear Algebra Subprograms (BLAS) escritas em OpenCL. O
-OpenCL é uma especificação para programação de computação de alto desempenho que permite que os desenvolvedores escrevam programas que sejam executados em diferentes tipos de processadores,
-como CPUs, GPUs e outros dispositivos de processamento paralelo. Com clblas, os desenvolvedores podem aproveitar o poder de processamento desses dispositivos para acelerar seus aplicativos 
-de computação científica e de análise de dados. clblas é uma biblioteca open-source, o que significa que é gratuita para usar e modificar. Ele é desenvolvido e mantido por uma comunidade de
-desenvolvedores de todo o mundo e é compatível com várias plataformas, incluindo Windows, Linux e macOS.

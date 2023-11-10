@@ -1,4 +1,0 @@
-Esse é um pacote de programa que permite a impressão usando o sistema CUPS, com a habilidade de usar o GSSAPI
-(Kerberos) habilitada. Isso significa que você pode usar esse programa para fazer impressões em redes seguras, como em ambientes corporativos ou universitários.O sistema CUPS é amplamente
-utilizado em sistemas operacionais Linux e macOS, e é uma boa opção para quem precisa de flexibilidade e controle sobre suas impressões. Com esse pacote, você pode usar seu Kerberos para
-autenticar suas impressões e garantir a segurança das suas informações.

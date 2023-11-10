@@ -1,1 +1,0 @@
-Este programa trabalha com dois tipos de números: os números naturais (Nat) e os números finitos (Fin). Os números naturais são aqueles usados para contar, como 1, 2, 3, etc. Já os números finitos são aqueles com um número limitado de valores possíveis, como os dias de uma semana. Este programa foi escrito em Haskell. 

@@ -1,1 +1,0 @@
-Esta é uma biblioteca que permite acessar a biblioteca de compressão Brotli através de bindings em Python. Isso significa que é possível usar a compressão Brotli em seus projetos Python sem precisar escrever código em outra linguagem. É uma ótima opção para melhorar a eficiência de transferência de arquivos em suas aplicações. 

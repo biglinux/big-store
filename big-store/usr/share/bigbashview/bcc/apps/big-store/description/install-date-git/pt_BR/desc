@@ -1,3 +1,0 @@
-Este programa é uma ferramenta útil para determinar a data em que o seu sistema operacional Linux foi instalado. Isso pode ser
-importante para saber quanto tempo você tem usando o sistema e quando foi a última vez que você instalou ou atualizou algo.Ele usa o Git para encontrar a data da primeira confirmação no 
-repositório do sistema e, em seguida, exibe essa data para você. É fácil de usar e fornece informações valiosas sobre a sua instalação do Linux. 

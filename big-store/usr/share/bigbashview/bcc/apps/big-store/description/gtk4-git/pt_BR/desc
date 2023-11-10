@@ -1,3 +1,0 @@
-Esta é uma ferramenta chamada gtk4-git que é usada para criar interfaces gráficas para programas. Ela é
-baseada em um tipo de objeto chamado GObject, o que significa que é flexível e pode ser usada em várias plataformas diferentes. A versão que estamos usando aqui é a que vem direto do
-repositório do GIT, o que significa que é sempre atualizada e possui as últimas funcionalidades.

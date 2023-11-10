@@ -1,4 +1,0 @@
-Os módulos de LDAP e H350 para Kamailio são adições valiosas para o software Kamailio. Eles permitem que o Kamailio se
-conecte a um banco de dados LDAP e use informações de lá para autenticar usuários e fazer outras tarefas. Além disso, o módulo H350 permite que o Kamailio se conecte a servidores H.350, que
-são usados para pesquisar e compartilhar informações de contato entre diferentes sistemas de comunicação.Com esses módulos, o Kamailio fica ainda mais poderoso e capaz de atender às
-necessidades de sua rede de comunicação.

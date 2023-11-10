@@ -1,3 +1,0 @@
- A libpostal é uma biblioteca em C para analisar e normalizar endereços de ruas em todo o mundo. Ela é útil para quem precisa de
-uma forma precisa e consistente de lidar com endereços em seus projetos. Com ela, você pode limpar e formatar endereços, bem como dividi-los em componentes separados, como país, cidade e
-rua. 

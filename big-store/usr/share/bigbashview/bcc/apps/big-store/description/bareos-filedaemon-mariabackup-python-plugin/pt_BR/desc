@@ -1,3 +1,0 @@
-Este é um plugin para o Bareos, um software de backup e arquivamento de código aberto. Ele permite que você faça backups do seu
-banco de dados MariaDB usando o File daemon do Bareos.Com esse plugin, é possível fazer backups completos do seu banco de dados, incluindo tabelas, índices, triggers, stored procedures e
-views. Ele também oferece suporte à compressão e criptografia dos backups.Além disso, o plugin é escrito em Python, o que o torna fácil de instalar e usar.

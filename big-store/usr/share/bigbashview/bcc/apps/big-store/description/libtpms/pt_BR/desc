@@ -1,1 +1,0 @@
-Esta biblioteca fornece uma emulação de software de um módulo de plataforma confiável (TPM 1.2 e TPM 2.0). Ele permite que os desenvolvedores testem seus aplicativos sem precisar de hardware real. Ele também pode ser útil para sistemas que não possuem suporte nativo a TPM. 

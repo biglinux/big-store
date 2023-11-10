@@ -1,1 +1,0 @@
-aj-snapshot é uma ferramenta de linha de comando para conexões de áudio ALSA e/ou JACK. Ele permite que você armazene e restaure conexões de áudio a partir de um arquivo XML. Isso pode ser útil se você frequentemente muda sua configuração de áudio e deseja alternar rapidamente entre diferentes configurações. 

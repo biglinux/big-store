@@ -1,1 +1,0 @@
-Este programa é uma implementação da especificação CBOR (Concise Binary Object Representation) conforme descrito na RFC7049 para a linguagem de programação Python. Ele permite a codificação e decodificação de dados em formato CBOR, o que é útil para a transferência de informações de forma compacta e eficiente.  

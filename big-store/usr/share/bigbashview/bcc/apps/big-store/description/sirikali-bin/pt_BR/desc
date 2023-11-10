@@ -1,3 +1,0 @@
-Sirikali é um programa que permite criptografar arquivos de forma segura, utilizando diferentes métodos, como sshfs,
-ecryptfs-simple, cryfs, gocryptfs, securefs, fscrypt e encfs. Ele tem uma interface gráfica fácil de usar, desenvolvida com Qt/C++, e é ideal para proteger arquivos pessoais ou
-confidenciais. Com Sirikali, você pode ter certeza de que seus dados estarão seguros e acessíveis apenas por você.

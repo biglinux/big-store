@@ -1,5 +1,0 @@
-Este programa faz a conexão entre a biblioteca Pango e o SDL2, permitindo que você possa usar o Pango para renderizar texto 
-em seus aplicativos SDL2. O Pango é uma biblioteca de renderização de texto amplamente utilizada que oferece suporte a muitos idiomas e sistemas de escrita diferentes, tornando-a uma
-escolha popular para aplicativos que precisam exibir texto em vários idiomas.Com a conexão entre o Pango e o SDL2, você pode facilmente adicionar suporte a vários idiomas em seus
-aplicativos SDL2, sem precisar se preocupar com a complexidade de lidar com fontes e codificações de caracteres diferentes. Além disso, o Pango também oferece suporte a recursos avançados, 
-como ligaduras, sombreamento e rotação de texto, que podem ser usados para criar aparências atraentes e profissionais para seus aplicativos.

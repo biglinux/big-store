@@ -1,5 +1,0 @@
-OpenColorIO é um sistema de gerenciamento de cores para produções de efeitos visuais e animação. Ele permite que você
-padronize e automatize as configurações de cores em sua pipeline de produção, garantindo que todos os artistas trabalhem com as mesmas configurações e obtenham resultados consistentes. Ele 
-é compatível com uma variedade de aplicativos de VFX e animação, incluindo o Nuke, Maya e o Adobe Suite. Com OpenColorIO, você pode criar perfis de cores personalizados e compartilhá-los
-com sua equipe. Ele também suporta a conversão entre espacos de cores diferentes e garante que as cores de seus arquivos de trabalho sejam precisas em todos os dispositivos de
-visualização.

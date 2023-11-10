@@ -1,1 +1,0 @@
-Este programa é uma camada de compatibilidade para a base de código do Haskell. Ele ajuda a garantir que outros programas possam funcionar corretamente com o código escrito em Haskell. Ele também permite que o código Haskell seja usado em conjunto com outras linguagens de programação. 

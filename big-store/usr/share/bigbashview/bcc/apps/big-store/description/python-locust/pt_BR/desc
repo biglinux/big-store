@@ -1,5 +1,0 @@
-Python-locust é uma ferramenta de teste de carga para desenvolvedores. Ele permite que você teste a
-capacidade de seu aplicativo de lidar com grandes quantidades de tráfego, simulando vários usuários acessando sua aplicação ao mesmo tempo. Isso é útil para identificar gargalos e problemas
-de desempenho antes de lançar seu aplicativo para um público amplo.Além disso, python-locust é fácil de usar e personalizar, tornando-o uma escolha popular entre desenvolvedores. Ele
-oferece suporte a várias bibliotecas de teste de carga, como o Selenium, e permite que você escreva testes em Python, o que é conveniente para aqueles que já estão familiarizados com essa
-linguagem.

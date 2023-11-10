@@ -1,1 +1,0 @@
-Este é um sistema antigo para PHP, chamado de php-legacy-cgi. Ele usa a API CGI e FCGI para funcionar com o PHP. É importante notar que este sistema pode não ser compatível com versões mais recentes do PHP e pode apresentar problemas de segurança. É recomendado verificar se existem outras opções mais atualizadas antes de usá-lo. 

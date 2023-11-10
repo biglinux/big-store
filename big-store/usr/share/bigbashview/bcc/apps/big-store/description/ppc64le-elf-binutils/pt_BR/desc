@@ -1,1 +1,0 @@
-ppc64le-elf-binutils é um conjunto de ferramentas para trabalhar com arquivos binários e de objetos para o alvo PowerPC 64 LE (bare-metal). Ele permite que você assemble, desmonte, link e faça outras operações em arquivos nesses formatos. Ele é especialmente útil para desenvolvedores de sistemas embarcados e para quem trabalha com sistemas operacionais de baixo nível. 

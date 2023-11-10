@@ -1,3 +1,0 @@
- Este programa é um wrapper simples e assíncrono em torno do CURL, uma biblioteca de transferência de dados, para C++. Ele
-permite que os desenvolvedores façam solicitações de rede de forma fácil e eficiente. Ele é ideal para projetos que precisam de recursos de rede, como baixar arquivos ou acessar APIs. É
-fácil de usar e se integra facilmente a outros projetos. 

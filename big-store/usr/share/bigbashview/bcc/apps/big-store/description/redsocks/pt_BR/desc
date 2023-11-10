@@ -1,4 +1,0 @@
-Este programa é capaz de redirecionar qualquer conexão TCP para um proxy usando seu firewall. Ele é chamado de
-redsocks e funciona de forma transparente, o que significa que você não precisa fazer nenhuma configuração adicional em seus aplicativos para que eles usem o proxy.Isso é útil em situações 
-em que você deseja usar um proxy em sua rede, mas não quer configurar cada aplicativo individualmente. Com redsocks, você pode facilmente redirecionar todas as conexões para o proxy sem
-precisar se preocupar em configurar cada aplicativo.

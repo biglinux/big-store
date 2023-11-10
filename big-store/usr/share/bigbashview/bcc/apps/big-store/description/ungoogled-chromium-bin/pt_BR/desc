@@ -1,4 +1,0 @@
-Este programa é uma versão leve do navegador Chrome sem a dependência de serviços da Google. Ele foi criado para aqueles 
-que desejam uma experiência de navegação mais privada e sem rastreamento.Ele foi criado com base no código do Chromium, que é o projeto open-source do Chrome, mas com várias modificações
-para remover qualquer dependência de serviços da Google. Isso inclui a remoção de rastreamento, anúncios, e outras ferramentas de coleta de dados.Além disso, ele inclui algumas melhorias de
-segurança adicionais, como proteção contra rastreamento de rede e bloqueio de scripts de terceiros.

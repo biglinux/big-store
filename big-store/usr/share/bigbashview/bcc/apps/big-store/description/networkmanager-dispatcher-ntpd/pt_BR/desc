@@ -1,4 +1,0 @@
-Este programa é responsável por gerenciar a conexão de rede do seu computador e também por sincronizar o
-horário do seu sistema com um servidor de horário confiável. Ele usa o protocolo NTP (Network Time Protocol) para garantir que o horário do seu computador esteja sempre preciso. Ele possui 
-uma função chamada 'dispatcher', que é responsável por garantir que a sincronização de horário aconteça sempre que a conexão de rede for modificada. Isso garante que você nunca tenha
-problemas com horários desatualizados devido a mudanças na sua conexão de rede.

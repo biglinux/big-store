@@ -1,1 +1,0 @@
-Este é o compilador GNU para alvo Andes 32 little-endian (bare-metal). Ele é parte da Coleção de compiladores GNU e é usado para compilar códigos para essa plataforma específica. Ele é conhecido como nds32le-elf-gcc. 

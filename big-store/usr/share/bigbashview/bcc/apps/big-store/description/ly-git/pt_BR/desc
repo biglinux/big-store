@@ -1,5 +1,0 @@
- ly-git é um gerenciador de tela TUI (Text User Interface). Ele permite que você faça login e gerencie sessões de usuário através de 
-uma interface baseada em texto, em vez de gráfica. Isso pode ser útil em sistemas embarcados, servidores ou dispositivos com tela limitada. Além disso, ele é leve e fácil de usar.Ele
-possui recursos como: gerenciamento de usuários, gerenciamento de sessões, gerenciamento de grupos e gerenciamento de senhas. Com ele, você pode adicionar, remover e modificar usuários,
-gerenciar as sessões dos usuários, criar e gerenciar grupos de usuários e definir senhas para os usuários. Além disso, ele oferece suporte à autenticação LDAP, o que permite que você
-gerencie usuários e senhas em um sistema centralizado.

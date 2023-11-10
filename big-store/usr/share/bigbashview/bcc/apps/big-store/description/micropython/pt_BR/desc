@@ -1,3 +1,0 @@
- MicroPython é uma versão do Python3 adaptada para funcionar em microcontroladores. Ele possui uma biblioteca 
-padrão (stdlib) e é desenvolvido para funcionar na versão unix. Com ele, é possível programar microcontroladores de forma fácil e intuitiva, utilizando uma linguagem já conhecida por
-muitos. 

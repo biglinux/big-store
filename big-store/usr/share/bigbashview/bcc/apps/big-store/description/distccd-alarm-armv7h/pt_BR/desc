@@ -1,5 +1,0 @@
-A ferramenta distccd-alarm-armv7h é a ferramenta oficial utilizada para construir pacotes do Arch Linux para
-processadores ARM. Ela utiliza o distcc, que permite que o processo de compilação seja dividido entre vários computadores, aumentando a velocidade e eficiência. Além disso, ela é específica
-para a arquitetura armv7h, ou seja, é compatível com processadores ARM de 32 bits.A ferramenta funciona através de voluntários que disponibilizam seus computadores para ajudar na
-compilação, tornando o processo ainda mais rápido e eficiente. Se você é um usuário do Arch Linux e deseja ajudar a melhorar a performance do sistema, considere se tornar um voluntário para
-a ferramenta distccd-alarm-armv7h.

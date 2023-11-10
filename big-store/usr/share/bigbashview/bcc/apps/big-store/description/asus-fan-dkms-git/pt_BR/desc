@@ -1,5 +1,0 @@
- Este programa é um módulo de kernel que permite controlar o ventilador dentro de vários laptops ASUS. Ele é chamado
-de asus-fan-dkms-git e é desenvolvido com o objetivo de ajudar os usuários a manter a temperatura do seu dispositivo sob controle.Ele funciona como uma interface entre o sistema
-operacional e o hardware do laptop, permitindo que você ajuste as configurações do ventilador de acordo com suas necessidades. Isso pode ser útil para evitar superaquecimento e prolongar a 
-vida útil do seu dispositivo.Este programa é projetado para ser fácil de usar e é compatível com vários modelos de laptops ASUS. Ele é desenvolvido como um módulo de kernel, o que
-significa que ele é integrado diretamente ao núcleo do sistema operacional e é carregado automaticamente quando o sistema é iniciado. 

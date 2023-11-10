@@ -1,3 +1,0 @@
- Este programa é um gancho para o gerenciador de pacotes do seu sistema operacional. Ele cria uma cópia do diretório /boot
-antes e depois de fazer atualizações do pacote systemd ou quando o mkinitcpio é acionado. Isso garante que você tenha uma cópia segura dos arquivos necessários para inicializar o sistema
-caso algo dê errado durante a atualização. 

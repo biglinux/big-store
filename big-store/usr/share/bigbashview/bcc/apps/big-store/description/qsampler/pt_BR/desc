@@ -1,1 +1,0 @@
-QSampler é uma aplicação de interface gráfica para o LinuxSampler escrita em C++ com o uso do framework Qt e do Qt Designer. Atualmente, ele apenas envolve a interface de cliente do LinuxSampler Control Protocol (LSCP) (http://www.linuxsampler.org). 

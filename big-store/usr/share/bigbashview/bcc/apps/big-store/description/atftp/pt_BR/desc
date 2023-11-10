@@ -1,1 +1,0 @@
-Esse programa é uma implementação do protocolo TFTP (Trivial File Transfer Protocol) que segue as especificações dos RFCs (Request for Comments) 1350, 2090, 2347, 2348 e 2349. Ele permite o envio e recebimento de arquivos entre dispositivos de forma simples e eficiente. 

@@ -1,3 +1,0 @@
- Este é um módulo chamado pspell que adiciona a capacidade de correção ortográfica para o programa PHP. Ele foi
-desenvolvido especificamente para a versão 8.1 do PHP, então é importante garantir que você esteja usando essa versão ou superior para que ele funcione corretamente. Com este módulo, você
-pode verificar e corrigir palavras escritas no seu código PHP, o que pode ser útil para evitar erros de digitação e garantir a qualidade do seu conteúdo. 

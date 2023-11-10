@@ -1,3 +1,0 @@
-Este pacote Python é projetado para lidar com cabeçalhos HTTP/1.1. Ele permite que você parseie cabeçalhos para
-objetos, o que torna mais fácil trabalhar com eles em seu código.O pacote é chamado 'python-kiss-headers' e é fácil de usar. Ele oferece uma série de métodos úteis para lidar com
-cabeçalhos, como adicionar, remover e atualizar cabeçalhos.Se você precisa lidar com cabeçalhos HTTP em seu projeto Python, este pacote é uma ótima opção para considerar.

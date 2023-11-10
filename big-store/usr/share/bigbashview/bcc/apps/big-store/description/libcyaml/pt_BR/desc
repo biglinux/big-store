@@ -1,4 +1,0 @@
-Esta biblioteca em C é projetada para ajudar desenvolvedores a trabalhar com arquivos YAML de forma fácil e
-eficiente. Ela oferece funções para ler e escrever arquivos YAML, além de outras ferramentas para trabalhar com estes dados.Com a libcyaml, é possível fazer tarefas como carregar arquivos
-YAML em estruturas de dados em memória, editar esses dados e salvar de volta para arquivo, entre outras coisas.Se você precisa trabalhar com arquivos YAML em seus projetos, essa biblioteca 
-pode ser uma boa opção para considerar.

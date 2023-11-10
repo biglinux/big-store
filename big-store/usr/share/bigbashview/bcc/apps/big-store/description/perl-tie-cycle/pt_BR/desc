@@ -1,1 +1,0 @@
-Esse programa, chamado perl-tie-cycle, permite que você navegue em uma lista de valores através de um escalar. Isso significa que você pode percorrer a lista de valores, um de cada vez, e fazer alguma coisa com cada valor. Por exemplo, você pode imprimir cada valor, ou adicioná-lo a outra lista. É uma ferramenta útil para trabalhar com conjuntos de dados. 

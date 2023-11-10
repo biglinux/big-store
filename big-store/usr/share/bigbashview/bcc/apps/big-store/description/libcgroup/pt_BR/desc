@@ -1,3 +1,0 @@
-libcgroup é uma biblioteca para Linux que permite gerenciar recursos do sistema, como CPU, memória e disco. Ela
-fornece uma abstração para o sistema de arquivos de grupos de controle, tornando mais fácil para os desenvolvedores criarem programas que precisam controlar como esses recursos são usados. 
-Por exemplo, um programa pode usar libcgroup para limitar a quantidade de memória que ele usa, ou para garantir que ele tenha acesso a uma certa quantidade de CPU. 

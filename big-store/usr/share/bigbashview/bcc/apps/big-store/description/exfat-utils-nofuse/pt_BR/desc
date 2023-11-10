@@ -1,4 +1,0 @@
-Os utilitários exFAT sem FUSE são ferramentas para o sistema de arquivos exFAT sem a necessidade do uso do módulo FUSE. Com essas
-ferramentas, é possível trabalhar com arquivos exFAT diretamente pelo kernel do sistema, o que pode tornar o processo mais rápido e eficiente.Alguns exemplos de tarefas que podem ser
-realizadas com esses utilitários incluem formatar discos rígidos ou cartões de memória em exFAT, verificar e reparar erros no sistema de arquivos exFAT, e gerenciar partições exFAT. Estes
-utilitários são especialmente úteis em dispositivos com restrições de recursos, como dispositivos embarcados ou sistemas com pouca memória.

@@ -792,3 +792,140 @@ msgstr "Visualizza solo i programmi selezionati<br>e nasconde i risultati utili 
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Errore durante l'accesso alla directory:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"I programmi nativi hanno un'integrazione più robusta con il sistema operativo.<br>Vengono "
+"sottoposti a test approfonditi prima di essere resi disponibili, garantendo una maggiore "
+"affidabilità.<br>Per questi motivi, optare per un programma nativo è particolarmente consigliato "
+"quando il software desiderato è disponibile in più opzioni di installazione.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr ""
+"Si prega di attendere mentre raccogliamo informazioni di sistema. Potrebbe volerci qualche "
+"istante..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Data approssimativa di installazione del sistema:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store è già in esecuzione."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"I programmi nativi hanno un'integrazione più robusta con il sistema operativo.<br>Vengono "
+"sottoposti a test approfonditi prima di essere resi disponibili, garantendo una maggiore "
+"affidabilità.<br>Per questi motivi, optare per un programma nativo è particolarmente consigliato "
+"quando il software desiderato<br>è disponibile in diverse opzioni di installazione.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Download di nuovi pacchetti dal database del server"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Nessun pacchetto passato come parametro"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Un'altra istanza di Big-Store è già in esecuzione."
+
+msgid "Procurar aplicativo"
+msgstr "Sfoglia l'app"
+
+msgid "Editores de texto linha de comando"
+msgstr "Editor di testo da riga di comando"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Lettera"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Visualizzare le informazioni sul dispositivo su hardware Linux"
+
+msgid "Processador"
+msgstr "Processore"
+
+msgid "Placa mãe"
+msgstr "Scheda madre"
+
+msgid "Memória"
+msgstr "Memoria"
+
+msgid "Swap Memória Virtual"
+msgstr "Scambio di memoria virtuale"
+
+msgid "Placa de vídeo"
+msgstr "Scheda video"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Rete"
+
+msgid "Conexões de Rede"
+msgstr "Connessioni di rete"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Dispositivi e connessioni USB"
+
+msgid "Portas PCI"
+msgstr "Porte PCI"
+
+msgid "Bateria"
+msgstr "Batteria"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Dispositivi di archiviazione"
+
+msgid "Partições montadas"
+msgstr "Partizioni montate"
+
+msgid "Partições desmontadas"
+msgstr "Partizioni non montate"
+
+msgid "Dispositivos lógicos"
+msgstr "Dispositivi logici"
+
+msgid "Raid"
+msgstr "RAZZIA"
+
+msgid "Informações de Sistema"
+msgstr "Informazioni di sistema"
+
+msgid "Repositórios"
+msgstr "Repository"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatura"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Affinché i programmi Flatpak appaiano nel menu di sistema, disconnettersi e accedere nuovamente."
+
+msgid "Atualizado em"
+msgstr "Aggiornato il"
+
+msgid "Sobre"
+msgstr "Su"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Traduzione della descrizione dei pacchetti online"

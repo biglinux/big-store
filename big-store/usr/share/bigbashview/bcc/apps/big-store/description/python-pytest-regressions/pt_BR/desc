@@ -1,1 +1,0 @@
-O plugin python-pytest-regressions é usado para realizar testes de regressão no Pytest, que é uma ferramenta de teste popular  para projetos em Python. Ele permite automatizar a verificação de resultados de testes anteriores para garantir que nenhuma funcionalidade foi quebrada durante as alterações no código.  

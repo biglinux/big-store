@@ -1,4 +1,0 @@
-Esta é uma biblioteca para o Python2 que permite trabalhar com arquivos XML de forma fácil e eficiente. Ela é
-baseada nas bibliotecas libxml2 e libxslt e oferece uma ampla gama de recursos para processar, manipular e extrair informações de arquivos XML.Com esta biblioteca, você pode criar, editar e
-ler arquivos XML de forma simples e rápida, além de poder realizar operações avançadas como transformações XSLT e validação de documentos XML.Se você precisa trabalhar com arquivos XML em
-seus projetos Python, esta biblioteca é uma excelente escolha para você.

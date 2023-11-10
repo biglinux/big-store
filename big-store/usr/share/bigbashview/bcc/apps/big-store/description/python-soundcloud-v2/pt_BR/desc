@@ -1,4 +1,0 @@
- Esse programa permite que você acesse a API do SoundCloud usando a linguagem de programação Python. Com ele, você
-pode fazer coisas como procurar músicas, seguir artistas e publicar comentários. Ele usa uma versão específica da API, chamada v2, que fornece mais recursos do que a versão anterior.Ele 
-é chamado de 'python-soundcloud-v2' porque é escrito em Python e se conecta à versão 2 da API do SoundCloud. Ele é útil para desenvolvedores que querem criar aplicativos ou scripts que
-interajam com o SoundCloud. 

@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.4 que adiciona a funcionalidade do tidy, que é uma biblioteca para a limpeza e conserto de código
-HTML, XHTML e XML. Ele ajuda a corrigir erros de sintaxe, organizar melhor o código e torná-lo mais fácil de ler e entender. Com este módulo, os desenvolvedores podem aproveitar as
-vantagens do tidy diretamente no seu código PHP.

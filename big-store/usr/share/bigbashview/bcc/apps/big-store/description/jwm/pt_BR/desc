@@ -1,1 +1,0 @@
-O jwm é um gerenciador de janelas leve para o sistema X11. Ele é escrito em C e usa apenas Xlib em um nível baixo (sem bibliotecas externas). O JWM é escrito por Joe Wingbermuehle. Ele é leve em uso de memória e CPU. Ele é extensível usando programas externos para lidar com certas tarefas. Ele suporta temas e é altamente configurável.  

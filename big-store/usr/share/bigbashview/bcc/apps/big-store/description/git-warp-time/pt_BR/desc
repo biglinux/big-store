@@ -1,1 +1,0 @@
- O programa git-warp-time serve para mudar o horário dos arquivos dentro de um repositório Git para o momento da última modificação feita. Isso pode ser útil em caso de precisarmos verificar quando determinado arquivo foi modificado pela última vez.  

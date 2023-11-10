@@ -1,4 +1,0 @@
-Este programa é um driver genérico para a linha de comando do .NET Core. Ele é uma versão preview e está
-disponível em formato binário. Se você estiver trabalhando com o .NET Core, este driver pode ser útil para você, pois ele permite que você execute comandos na linha de comando de maneira
-mais fácil e rápida. Lembre-se de que esta é uma versão preview, então pode haver alguns erros ou problemas. Mas, ao usá-lo, você pode ajudar a desenvolver o produto final e torná-lo ainda 
-melhor. 

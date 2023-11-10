@@ -1,3 +1,0 @@
-Este programa é responsável por iniciar e desligar scripts para o agente SSH no ambiente de trabalho KDE Plasma. Ele garante
-que o agente esteja sempre funcionando corretamente, para que você possa se conectar a servidores remotos de forma segura e fácil.Ele é especialmente útil se você trabalha com muitos
-servidores diferentes e precisa gerenciar várias chaves SSH. Com este programa, você pode ter certeza de que suas chaves estarão sempre disponíveis quando precisar delas.

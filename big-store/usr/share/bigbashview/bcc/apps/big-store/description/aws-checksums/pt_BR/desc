@@ -1,1 +1,0 @@
-Este programa é capaz de verificar erros em arquivos em diferentes plataformas, usando aceleração de hardware para aumentar a velocidade. Caso não seja possível usar a aceleração, ele usa uma implementação de software eficiente. Este programa se chama aws-checksums. 

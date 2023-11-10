@@ -1,5 +1,0 @@
-O python-django-channels é uma ferramenta desenvolvida para tornar a programação assíncrona no framework Django 
-mais amigável para os desenvolvedores. Ele permite que você trabalhe com canais de comunicação, tornando mais fácil criar aplicações web com fluxo de dados em tempo real, como chats e jogos
-online. Além disso, ele também pode ser usado para melhorar a performance de aplicações que lidam com muitos usuários simultaneamente.Se você já tem experiência com o Django, o
-python-django-channels é fácil de usar e se integra perfeitamente ao seu projeto existente. Ele também é compatível com as principais bibliotecas do Django, como o ORM e o sistema de
-roteamento de URLs.

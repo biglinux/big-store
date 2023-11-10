@@ -1,2 +1,0 @@
-Este é um módulo para o PHP 7.1 que permite o uso de mensagens de sistema (sysvmsg). Ele permite que você crie, envie e receba 
-mensagens entre processos, tornando mais fácil a comunicação entre diferentes partes de um programa. Com esse módulo, você pode construir aplicativos mais avançados e robustos.

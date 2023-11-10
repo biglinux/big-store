@@ -1,5 +1,0 @@
-OpenHMD é uma API e conjunto de drivers que permite acessar dispositivos de tecnologia imersiva, como óculos de 
-realidade virtual e sensores de movimento. Ele foi projetado para ser cross-platform e suporta uma variedade de dispositivos diferentes.A API é escrita em C e fornece uma interface simples 
-para acessar os dados dos dispositivos, como posição, orientação e entrada de botões. Os drivers são escritos para diferentes sistemas operacionais e dispositivos, garantindo a
-compatibilidade com uma variedade de configurações.OpenHMD é uma ferramenta útil para desenvolvedores de jogos e aplicativos imersivos, pois facilita a criação de conteúdo para dispositivos
-de realidade virtual e aumentada.

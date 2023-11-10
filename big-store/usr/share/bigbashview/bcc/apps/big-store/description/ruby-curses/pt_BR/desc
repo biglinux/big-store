@@ -1,3 +1,0 @@
-Este programa é usado para criar interfaces de linha de comando em sistemas operacionais. Ele é construído usando
-a linguagem de programação Ruby e usa a biblioteca 'curses' para controlar a exibição de informações na tela do usuário. Além disso, ele também é compatível com as bibliotecas 'ncurses' e
-'PDCurses'.

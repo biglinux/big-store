@@ -1,4 +1,0 @@
- Este programa é chamado de STGT iSCSI Target e foi desenvolvido especificamente para o sistema operacional Arch
-Linux. Ele permite que você configure seu computador como um alvo iSCSI, o que significa que outros dispositivos podem se conectar a ele e usar o espaço de armazenamento disponível como se 
-fosse um disco rígido local.iSCSI é uma tecnologia que permite compartilhar armazenamento em rede, e o STGT é uma das ferramentas mais populares para fazer isso no Arch Linux. Se você
-está procurando uma maneira fácil de compartilhar arquivos com outros dispositivos em sua rede, o STGT iSCSI Target pode ser uma boa opção para você. 

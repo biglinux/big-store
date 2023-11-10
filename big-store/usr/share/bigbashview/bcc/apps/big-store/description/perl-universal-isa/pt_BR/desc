@@ -1,1 +1,0 @@
-Este programa tenta recuperar quando as pessoas chamam a função UNIVERSAL::isa como uma função. Esse erro pode ocorrer ao usar o código Perl, e este programa ajuda a corrigi-lo. 

@@ -1,1 +1,0 @@
-Esse programa é usado para verificar se arquivos de dados SGML estão de acordo com o conjunto de regras DocBook. Ele utiliza o conceito de Document Type Definitions (DTD) para garantir que o formato dos arquivos esteja correto e seja compreensível para outros sistemas. 

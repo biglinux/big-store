@@ -1,1 +1,0 @@
- Apache ORC é uma biblioteca para armazenamento de dados em colunas que foi otimizada para trabalhar com tarefas do Hadoop. Ele oferece desempenho e compressão melhorados, bem como suporte para tipos de dados complexos, como esquemas aninhados. Além disso, o Apache ORC é compatível com muitas  das ferramentas de análise de dados populares do Hadoop, como Hive e Pig.  

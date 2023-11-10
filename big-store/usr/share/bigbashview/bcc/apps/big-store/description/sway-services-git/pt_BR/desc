@@ -1,4 +1,0 @@
-Este é um pacote de arquivos systemd para o gerenciador de janelas sway e outros programas relacionados. Ele
-fornece uma maneira fácil de gerenciar esses programas como serviços no sistema operacional.Com este pacote, você pode iniciar, parar e verificar o status dos programas diretamente através 
-de comandos systemd, sem precisar se preocupar com detalhes técnicos.Além disso, os arquivos incluídos também configuram automaticamente o início dos programas com o sistema, garantindo que
-eles sempre estejam disponíveis quando você precisar.

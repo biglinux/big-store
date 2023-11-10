@@ -1,1 +1,0 @@
- O ruby-deep_merge é uma biblioteca para mesclar hashes Ruby de forma recursiva. Isso significa que ele irá mesclar não apenas as chaves e valores diretamente no hash principal, mas também irá mergir quaisquer sub-hashes dentro dele. Isso pode ser útil em muitas situações, como combinar configurações de várias fontes em um único hash.  

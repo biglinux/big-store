@@ -1,4 +1,0 @@
-Este programa fornece acesso ao parser HTTP através da linguagem Ruby. Ele se conecta com os repositórios
-https://github.com/ry/http-parser e https://github.com/a2800276/http-parser.java para fornecer funcionalidades de análise e manipulação de requisições e respostas HTTP. Com ele, é possível 
-fazer coisas como extrair informações de cabeçalhos, verificar o tipo de método usado em uma requisição e muito mais. É uma ferramenta poderosa para qualquer projeto que lidar com a
-comunicação HTTP.

@@ -1,2 +1,0 @@
-O programa curl é uma ferramenta e biblioteca para buscar arquivos de uma URL. Essa versão específica foi
-compilada com suporte ao protocolo HTTP/3 (com msquic) e o nome do binário é curl3.

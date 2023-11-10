@@ -1,1 +1,0 @@
-Esse é um programa escrito em Perl, ele é uma implementação em XS (uma extensão escrita em C) de algumas partes  da biblioteca Class::Load. Isso faz com que ele execute mais rapidamente do que a implementação original escrita em Perl. 

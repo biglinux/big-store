@@ -795,3 +795,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Fout bij het openen van de map:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programma's hebben een robuustere integratie met het besturingssysteem.<br>Ze ondergaan "
+"uitgebreide tests voordat ze beschikbaar worden gesteld, wat zorgt voor een grotere "
+"betrouwbaarheid.<br>Om deze redenen wordt het kiezen voor een native programma vooral aanbevolen "
+"wanneer de gewenste software beschikbaar is in meerdere installatieopties.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Even geduld terwijl we systeeminformatie verzamelen. Dat kan even duren..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Geschatte datum waarop het systeem is geïnstalleerd:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store draait al."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programma's hebben een robuustere integratie met het besturingssysteem.<br>Ze ondergaan "
+"uitgebreide tests voordat ze beschikbaar worden gesteld, wat zorgt voor een grotere "
+"betrouwbaarheid.<br>Om deze redenen wordt het kiezen voor een native programma vooral aanbevolen "
+"wanneer de gewenste software<br>is beschikbaar in verschillende installatieopties.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Nieuwe pakketten downloaden van de serverdatabase"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Geen pakketten doorgegeven als parameters"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Een ander exemplaar van Big-Store draait al."
+
+msgid "Procurar aplicativo"
+msgstr "Door de app bladeren"
+
+msgid "Editores de texto linha de comando"
+msgstr "Teksteditors voor de opdrachtregel"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brief"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Apparaatinformatie weergeven op Linux-hardware"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Moederbord"
+
+msgid "Memória"
+msgstr "Geheugen"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuele geheugenwissel"
+
+msgid "Placa de vídeo"
+msgstr "Videokaart"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Netwerk"
+
+msgid "Conexões de Rede"
+msgstr "Netwerkverbindingen"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-apparaten en -aansluitingen"
+
+msgid "Portas PCI"
+msgstr "PCI-poorten"
+
+msgid "Bateria"
+msgstr "Batterij"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Opslagapparaten"
+
+msgid "Partições montadas"
+msgstr "Gemonteerde partities"
+
+msgid "Partições desmontadas"
+msgstr "Niet-gekoppelde partities"
+
+msgid "Dispositivos lógicos"
+msgstr "Logische apparaten"
+
+msgid "Raid"
+msgstr "INVAL"
+
+msgid "Informações de Sistema"
+msgstr "Systeeminformatie"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatuur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Om Flatpak-programma's in het systeemmenu te laten verschijnen, logt u uit en logt u opnieuw in."
+
+msgid "Atualizado em"
+msgstr "Bijgewerkt op"
+
+msgid "Sobre"
+msgstr "Op"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Vertaling van de beschrijving van de online pakketten"

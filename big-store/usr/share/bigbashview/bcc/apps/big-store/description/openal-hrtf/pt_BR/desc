@@ -1,4 +1,0 @@
-Este programa é usado para gerar conjuntos de dados HRTF (Transferência de Resposta de Onda Sonora de Cabeça) para
-o OpenAL. Isso é útil para melhorar a qualidade do som em jogos e aplicativos que usam a biblioteca OpenAL para reprodução de som. O HRTF permite que o som seja reproduzido de forma mais
-precisa, dando a sensação de que ele vem de uma direção específica. O programa pode ser configurado para gerar conjuntos de dados para diferentes ouvintes, permitindo que o som seja
-otimizado para uma experiência de som ideal para cada usuário.

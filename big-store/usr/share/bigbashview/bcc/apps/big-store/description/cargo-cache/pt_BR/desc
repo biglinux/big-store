@@ -1,3 +1,0 @@
-O programa 'cargo-cache' é uma ferramenta útil para quem trabalha com o gerenciamento de pacotes no Rust. Ele permite exibir
-informações sobre o cache do cargo e limpá-lo para liberar espaço em disco. Isso pode ser especialmente útil se você estiver trabalhando em vários projetos ao mesmo tempo e precisar
-garantir que o cache esteja sempre otimizado.

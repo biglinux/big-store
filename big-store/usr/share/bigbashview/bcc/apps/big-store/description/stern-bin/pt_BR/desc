@@ -1,3 +1,0 @@
-Este programa é uma ferramenta para acompanhar os logs de múltiplos pods e contêineres em um cluster Kubernetes.
-Ele permite que você acompanhe vários logs ao mesmo tempo, o que pode ser útil para identificar problemas rapidamente em seus aplicativos em execução no cluster. Com este programa, você
-pode visualizar facilmente os logs de todos os pods e contêineres em seu cluster, o que pode ajudar a diagnosticar problemas rapidamente e a encontrar soluções mais eficazes.

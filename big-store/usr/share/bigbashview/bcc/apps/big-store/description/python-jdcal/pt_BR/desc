@@ -1,1 +1,0 @@
-O python-jdcal é um módulo python que permite trabalhar com datas julianas, tanto do calendário gregoriano quanto juliano proleptico. Ele é útil para quem precisa lidar com datas antigas ou em sistemas que utilizam esse tipo de calendário. Com esse módulo, é possível converter facilmente entre as duas representações de data e realizar cálculos como subtração de datas. 

@@ -1,3 +1,0 @@
-Este programa é um protocolo de comunicação assíncrono para o Python, chamado JSON-RPC 2.0. Ele permite que diferentes
-aplicações troquem informações de forma fácil e rápida usando o formato JSON. Além disso, ele também inclui um servidor, que permite que outros programas se conectem e comuniquem com a
-aplicação.

@@ -1,2 +1,0 @@
-O ClickHouse é um banco de dados de colunas distribuído de alta performance. Ele é projetado para processar grandes
-volumes de dados em tempo real e fornecer análises rápidas e precisas. O pacote clickhouse-server-bin inclui o servidor ClickHouse e a configuração padrão.

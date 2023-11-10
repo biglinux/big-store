@@ -1,3 +1,0 @@
- Esta biblioteca permite que você adicione argumentos e opções aos seus programas em Python de forma 
-fácil e intuitiva. Ela funciona de forma semelhante ao getopt, mas oferece recursos adicionais e uma sintaxe mais amigável. Com ela, você pode definir valores padrão, tipos de dados
-esperados, ajuda e muito mais. Além disso, é fácil personalizar a saída de erro e ajuda para atender às suas necessidades específicas. 

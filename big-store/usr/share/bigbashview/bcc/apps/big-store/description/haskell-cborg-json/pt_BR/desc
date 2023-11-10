@@ -1,1 +1,0 @@
-A biblioteca haskell-cborg-json é uma ferramenta útil para codificar arquivos JSON em CBOR, um formato de dados binário similar ao JSON. Isso pode ser útil para aumentar a eficiência de transferência de dados e reduzir o tamanho dos arquivos. Além disso, a biblioteca é escrita em Haskell, uma linguagem de programação funcional popular. 

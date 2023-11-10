@@ -1,1 +1,0 @@
-Essa é uma extensão para o framework de login que permite a integração com o KWallet. O KWallet é um gerenciador de senhas do sistema que armazena suas senhas de forma segura e as mantém protegidas por uma senha principal. Com essa extensão, é possível acessar e usar as senhas armazenadas  no KWallet diretamente a partir do framework de login. 

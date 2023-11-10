@@ -1,1 +1,0 @@
-java-rhino é uma implementação open-source do JavaScript escrita inteiramente em Java. Ela é conhecida como JAR (Java ARchive) e é usada para rodar scripts JavaScript dentro de aplicações Java. Com ela, é possível acessar recursos Java a partir de scripts JavaScript e também  rodar scripts JavaScript em ambientes que não possuem suporte nativo para esse tipo de linguagem.  

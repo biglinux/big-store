@@ -1,2 +1,0 @@
- Este programa é um sistema de versionamento de arquivos, ou seja, ele ajuda a guardar as versões antigas de um arquivo.
-Ele também compara as versões usando uma coisa chamada 'hash' e remove as partes duplicadas do arquivo. Além disso, ele guarda os dados de forma que eles possam ser deletados facilmente. 

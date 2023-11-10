@@ -1,2 +1,0 @@
-Este programa é usado para recuperar senhas de conexões LEAP ou PPTP. Ele funciona ativamente, o que significa que ele tenta 
-descobrir as senhas ao invés de apenas procurá-las em um banco de dados já existente. Ele é útil para quem precisa descobrir senhas perdidas ou esquecidas.

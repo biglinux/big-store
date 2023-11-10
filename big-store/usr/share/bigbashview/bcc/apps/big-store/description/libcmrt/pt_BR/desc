@@ -1,4 +1,0 @@
-Este programa é chamado de libcmrt e é usado para gerenciar os núcleos da GPU (placa gráfica) quando você está usando
-o Intel C for Media RunTime. Ele ajuda a garantir que sua placa gráfica esteja trabalhando corretamente e de forma eficiente quando você está executando programas que usam muitos
-gráficos.Ele é especialmente útil para jogos e aplicativos de edição de vídeo, que precisam de muito poder gráfico para funcionar bem. Se você estiver tendo problemas com esses tipos de
-programas, o libcmrt pode ser uma boa solução para resolvê-los.

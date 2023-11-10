@@ -1,1 +1,0 @@
-A biblioteca python-d2to1 permite utilizar arquivos de configuração distutils2-like (setup.cfg) para os metadados de um pacote, junto com um script de configuração distribute/setuptools (setup.py). 

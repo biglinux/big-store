@@ -1,1 +1,0 @@
-Este programa é uma abstração de log simples que permite o uso de vários back-ends. Ele é escrito em Haskell e  é chamado de 'haskell-logging-facade'. 

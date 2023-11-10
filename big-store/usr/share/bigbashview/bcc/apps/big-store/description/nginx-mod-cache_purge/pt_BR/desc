@@ -1,1 +1,0 @@
-Este é um módulo do Nginx que permite limpar o conteúdo de caches de diferentes tipos, incluindo FastCGI, proxy, SCGI e uWSGI. Ele é útil para garantir que o conteúdo desatualizado não fique armazenado e seja exibido para os usuários. Com este módulo, é possível garantir que o conteúdo exibido esteja sempre atualizado e preciso. 

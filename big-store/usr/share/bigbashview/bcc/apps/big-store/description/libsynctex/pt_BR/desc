@@ -1,1 +1,0 @@
-A libsynctex é uma biblioteca que permite a sincronização entre arquivos TeX e o arquivo final resultante. Ela foi projetada para facilitar a localização do código fonte correspondente em um determinado local no arquivo de saída. A biblioteca é geralmente usada em conjunto com um editor ou visualizador TeX e pode ser integrada com diversas outras ferramentas. 

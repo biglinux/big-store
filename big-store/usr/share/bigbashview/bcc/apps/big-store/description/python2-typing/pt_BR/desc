@@ -1,4 +1,0 @@
-Este é um módulo de tipagem que foi adaptado para versões antigas do Python, que são as versões anteriores a 3.6. Ele é
-especialmente útil para quem precisa usar o Python 2, mas quer ter acesso às funcionalidades de tipagem que já estão presentes na biblioteca padrão do Python 3.6 e versões posteriores.Este 
-módulo de tipagem é importante porque ajuda a tornar o código mais claro e organizado, além de permitir que você encontre erros de tipagem antes de rodar o programa. Isso pode poupar muito 
-tempo e esforço no desenvolvimento de software.

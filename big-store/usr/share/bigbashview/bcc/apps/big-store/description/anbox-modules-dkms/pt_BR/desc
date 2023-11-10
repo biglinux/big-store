@@ -1,2 +1,0 @@
-Esse programa é uma versão modificada dos drivers do kernel do Android, criada pelo usuário @choff. Ele inclui suporte para
-binder/binderfs e ashmem, e vem em formato DKMS. Isso significa que ele pode ser facilmente instalado e atualizado no sistema operacional, sem a necessidade de compilação manual.

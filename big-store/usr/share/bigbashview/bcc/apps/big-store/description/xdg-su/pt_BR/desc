@@ -1,3 +1,0 @@
-Este programa permite que você execute outro programa com permissões de administrador (também conhecido como 'root').
-Isso significa que o programa terá acesso a mais recursos do sistema e poderá realizar tarefas que normalmente requerem senha. Além disso, ele usa o agente de autenticação gráfico mais
-adequado disponível no seu ambiente para garantir segurança.

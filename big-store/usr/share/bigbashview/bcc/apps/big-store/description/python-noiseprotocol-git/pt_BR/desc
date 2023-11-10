@@ -1,3 +1,0 @@
- Este é um programa escrito em Python que implementa o protocolo de ruído. O protocolo de ruído é uma forma de garantir a
-segurança das comunicações entre dispositivos, garantindo que somente as pessoas autorizadas possam ler as informações trocadas. Ele é usado em diversas aplicações, como chats, chamadas de 
-voz e outros. Com este programa, é possível usar o protocolo de ruído em aplicações escritas em Python.

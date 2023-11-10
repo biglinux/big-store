@@ -1,3 +1,0 @@
-Este programa permite a autenticação através do armazenamento de chaves SSH. Ele usa o módulo PAM (Pluggable Authentication
-Module) para se conectar ao agente SSH encaminhado e verificar se a chave armazenada é válida. Isso é útil para evitar a necessidade de digitar a senha várias vezes ao se conectar a outros 
-servidores através de SSH.É importante notar que este programa só funciona se você já tiver configurado o encaminhamento de agente SSH e armazenado suas chaves nesse agente.

@@ -1,4 +1,0 @@
-Este programa é útil para transformar dados em formato JSON (JavaScript Object Notation) em uma tabela. Isso é útil quando
-você precisa ver os dados de uma maneira mais fácil de ler e entender. Ele funciona no shell, ou seja, na linha de comando do seu computador. Por exemplo, se você tem uma grande quantidade 
-de dados em um arquivo JSON e quer verificar rapidamente algumas informações específicas, esse programa pode ajudá-lo a transformá-los em uma tabela e encontrar as informações que você
-precisa de maneira mais rápida e fácil.

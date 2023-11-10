@@ -1,1 +1,0 @@
-O system76-firmware-daemon é um serviço do systemd da System76 que expõe uma API DBUS para lidar com atualizações de firmware. Isso permite uma atualização fácil de firmware em computadores System76, bem como fornece uma maneira para outros programas verificarem o status das atualizações de firmware. 

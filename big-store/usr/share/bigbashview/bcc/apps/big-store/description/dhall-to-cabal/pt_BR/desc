@@ -1,4 +1,0 @@
-Esse programa tem a função de converter expressões escritas em Dhall para arquivos no formato Cabal. Isso permite que você use
-essas expressões em projetos Cabal de maneira fácil e rápida.Dhall é uma linguagem de programação funcional que permite a criação de expressões de configuração de maneira simples e clara.
-Já o Cabal é um formato de arquivo utilizado para descrever e gerenciar projetos de software escritos em Haskell.Com esse programa, você pode usar expressões Dhall em projetos Cabal sem
-precisar escrever toda a configuração manualmente.

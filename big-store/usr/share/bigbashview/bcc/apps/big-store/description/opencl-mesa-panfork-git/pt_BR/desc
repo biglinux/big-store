@@ -1,3 +1,0 @@
-Este programa é uma extensão para os drivers Mesa, que adiciona suporte a OpenCL para placas de vídeo AMD/ATI Radeon. Com 
-ele, você pode aproveitar a potência de processamento paralelo de sua placa de vídeo para acelerar aplicativos que usam OpenCL, como edição de vídeo, modelagem 3D e muito mais. Este pacote 
-específico é chamado de 'Panfork' e é mantido pelo projeto mesa-panfork-git. Ele é atualizado frequentemente para incluir as últimas correções de bugs e melhorias de desempenho.

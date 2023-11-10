@@ -1,4 +1,0 @@
-Este programa é chamado Tilix-git e é um emulador de terminal que usa a biblioteca GTK+ 3 para funcionar no Linux. Ele
-permite dividir a tela do terminal em várias janelas, chamadas de mosaicos, para que você possa trabalhar com vários comandos ao mesmo tempo. Isso é útil se você precisar fazer várias
-coisas ao mesmo tempo no terminal, como editar arquivos, executar comandos e navegar na internet. Com o Tilix-git, você pode facilmente alternar entre os mosaicos e trabalhar de forma mais 
-eficiente.

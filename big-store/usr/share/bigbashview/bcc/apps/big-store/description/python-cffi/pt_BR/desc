@@ -1,1 +1,0 @@
-Existe uma forma de chamar código escrito em C a partir de um programa em Python. Essa forma é chamada de 'Foreign  Function Interface' ou 'Interface de Função Estrangeira'. Existe um pacote chamado python-cffi que permite essa comunicação entre essas duas linguagens de programação. Com ele, é possível escrever uma biblioteca em C, compilá-la e usá-la em um programa Python. 

@@ -1,3 +1,0 @@
-rosdep é uma ferramenta de abstração de gerenciador de pacotes para o ROS (Robot Operating System). Ele permite que você
-instale as dependências de software de um pacote de forma automatizada, sem precisar se preocupar em encontrar e baixar cada uma delas manualmente. Além disso, o rosdep também pode ajudar a
-garantir que todas as dependências estejam na versão correta e compatíveis entre si. Ele é escrito em python e facil de usar.

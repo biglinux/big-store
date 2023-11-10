@@ -1,5 +1,0 @@
-Dieharder é um conjunto de testes para verificar a qualidade dos números gerados aleatoriamente. Ele foi desenvolvido para
-detectar problemas com geradores de números aleatórios que podem ser usados ​​em criptografia, simulação e outras áreas. Ele contém vários testes diferentes que podem ser usados ​​para avaliar 
-a qualidade dos números gerados.É importante que os números gerados aleatoriamente sejam de alta qualidade, pois eles são usados ​​em muitos aspectos da tecnologia moderna. Um gerador de
-números aleatórios ruim pode comprometer a segurança de sistemas e causar problemas em simulações e modelos estatísticos.Dieharder é uma ferramenta valiosa para garantir que os números
-gerados aleatoriamente sejam de alta qualidade e confiáveis ​​para uso em diversas aplicações. 

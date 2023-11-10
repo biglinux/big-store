@@ -1,1 +1,0 @@
-Este programa permite aos usuários criar tipos genéricos baseados em restrições. Isso significa que os usuários podem  especificar quais tipos de dados podem ser usados em determinadas partes do código, garantindo maior segurança e precisão. Além disso, ele é escrito em Haskell e pode ser usado como uma linha de comando. 

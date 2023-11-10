@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Viga kataloogi pääsemisel:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Natiivsetel programmidel on operatsioonisüsteemiga tugevam integratsioon.<br>Enne kättesaadavaks "
+"tegemist läbivad need ulatusliku testimise, tagades suurema usaldusväärsuse.<br>Nendel põhjustel on "
+"natiivse programmi valimine eriti soovitatav, kui soovitud tarkvara on saadaval mitmes "
+"installimisvalikus.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Oodake, kuni kogume süsteemiteavet. Selleks võib kuluda mõni hetk..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ligikaudne kuupäev, millal süsteem installiti:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store juba töötab."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Natiivsetel programmidel on operatsioonisüsteemiga tugevam integratsioon.<br>Enne kättesaadavaks "
+"tegemist läbivad need ulatusliku testimise, tagades suurema usaldusväärsuse.<br>Nendel põhjustel on "
+"eriti soovitatav valida natiivne programm, kui soovitud tarkvara<br>on saadaval mitmes "
+"installimisvalikus.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Uute pakettide allalaadimine serveri andmebaasist"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Parameetritena ei edastatud ühtegi paketti"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Teine Big-Store'i eksemplar juba töötab."
+
+msgid "Procurar aplicativo"
+msgstr "Sirvi rakendust"
+
+msgid "Editores de texto linha de comando"
+msgstr "Käsurea tekstiredaktorid"
+
+msgid "Multimidia"
+msgstr "Multimeedia"
+
+msgid "Carta"
+msgstr "Kiri"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Vaadake seadme teavet Linuxi riistvaras"
+
+msgid "Processador"
+msgstr "Protsessor"
+
+msgid "Placa mãe"
+msgstr "Emaplaat"
+
+msgid "Memória"
+msgstr "Mälu"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuaalne mäluvahetus"
+
+msgid "Placa de vídeo"
+msgstr "Videokaart"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Võrk"
+
+msgid "Conexões de Rede"
+msgstr "Võrguühendused"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-seadmed ja ühendused"
+
+msgid "Portas PCI"
+msgstr "PCI-pordid"
+
+msgid "Bateria"
+msgstr "Patarei"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Salvestusseadmed"
+
+msgid "Partições montadas"
+msgstr "Paigaldatud vaheseinad"
+
+msgid "Partições desmontadas"
+msgstr "Paigaldamata vaheseinad"
+
+msgid "Dispositivos lógicos"
+msgstr "Loogilised seadmed"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Süsteemi teave"
+
+msgid "Repositórios"
+msgstr "Hoidlates"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatuur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Flatpaki programmide ilmumiseks süsteemi menüüsse logige välja ja logige uuesti sisse."
+
+msgid "Atualizado em"
+msgstr "Uuendatud"
+
+msgid "Sobre"
+msgstr "Sisse"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Veebipakettide kirjelduse tõlge"

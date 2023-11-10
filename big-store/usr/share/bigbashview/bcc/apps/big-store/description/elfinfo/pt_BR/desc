@@ -1,3 +1,0 @@
-Com este programa, você pode detectar qual versão do compilador foi usada para compilar um arquivo ELF. Não precisa se 
-preocupar em fazer isso manualmente, basta executar este programa e ele irá lhe fornecer as informações que você precisa. É fácil e rápido, e pode ser útil se você quiser saber mais sobre
-como um arquivo foi compilado. 

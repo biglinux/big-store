@@ -1,1 +1,0 @@
-Este programa em Perl verifica se todos os requisitos de um objeto CPAN::Meta estão corretamente preenchidos e configurados. Ele é útil para garantir que todas as dependências necessárias para a execução de um determinado software estejam disponíveis antes da instalação. 

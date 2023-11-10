@@ -1,1 +1,0 @@
-Este programa em Perl fornece ferramentas para testar mensagens de saída padrão (STDOUT) e mensagens de erro padrão (STDERR) em seus scripts. Ele ajuda a garantir que as mensagens geradas pelo seu código sejam as esperadas, o que pode ser útil na depuração de problemas e na verificação da qualidade do código. 

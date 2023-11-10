@@ -1,3 +1,0 @@
-Upset_cli é uma ferramenta para criação e aplicação de patches UPS. É uma versão com interface de linha de
-comando (CLI) e é uma bifurcação de outra ferramenta. Com ela, é possível criar patches para arquivos, permitindo que você faça atualizações ou conserte erros sem precisar substituir o
-arquivo inteiro. Além disso, também é possível aplicar patches já criados em outros arquivos.

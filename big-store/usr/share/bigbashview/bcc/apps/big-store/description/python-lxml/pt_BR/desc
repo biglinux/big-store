@@ -1,1 +1,0 @@
-python-lxml é uma biblioteca de vinculação Python para as bibliotecas C libxml2 e libxslt. Ele permite que os desenvolvedores usem essas bibliotecas para trabalhar com documentos XML e HTML de forma pythonica. O pacote é amplamente utilizado na comunidade Python e está bem documentado. É compatível com Python 2 e Python 3. 

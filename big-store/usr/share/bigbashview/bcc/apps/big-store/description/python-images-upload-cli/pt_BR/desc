@@ -1,4 +1,0 @@
-Este programa permite fazer upload de imagens através de APIs. Ele é escrito em Python e é muito fácil de usar. Ele funciona com
-uma linha de comando, o que significa que você pode usá-lo em qualquer lugar, desde que você tenha o Python instalado. Ele é muito útil para quem precisa enviar imagens regularmente, por
-exemplo para um site ou rede social.Para usar o programa, você precisa fornecer as informações da API, como a chave de acesso e a URL, e então você pode selecionar as imagens que deseja
-enviar. Ele tem suporte para várias imagens de uma só vez, o que é útil se você precisar enviar várias imagens de uma vez só.

@@ -1,4 +1,0 @@
-O Elasticsearch-xpack é um motor de busca distribuído baseado em RESTful, construído sobre o Lucene. Ele é projetado para 
-ser escalável e de fácil utilização, fornecendo resultados de busca rápidos e precisos para grandes quantidades de dados. O Elasticsearch-xpack é usado por muitas empresas para gerenciar
-grandes bancos de dados e fornecer resultados relevantes aos usuários. Além disso, ele possui uma série de recursos avançados, como suporte a vários idiomas, capacidade de realizar buscas
-em múltiplos índices e personalização de resultados de busca.

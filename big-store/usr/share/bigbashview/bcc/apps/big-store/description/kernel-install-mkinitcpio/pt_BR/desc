@@ -1,4 +1,0 @@
-Este programa é uma ferramenta para ajudar a automatizar a instalação do kernel usando o método mkinitcpio. Ele é
-especialmente útil quando se está trabalhando com o sistema de inicialização systemd-boot. O kernel é o núcleo do sistema operacional, é ele que controla a comunicação entre o hardware e o 
-software. O mkinitcpio é uma ferramenta que ajuda a configurar o kernel durante a inicialização do sistema. Juntos, essas ferramentas permitem que você instale e configure o kernel de forma
-automatizada e eficiente.

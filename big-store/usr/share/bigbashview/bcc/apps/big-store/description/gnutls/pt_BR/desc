@@ -1,1 +1,0 @@
-A biblioteca gnutls fornece uma camada de segurança adicional sobre uma camada de transporte confiável. Isso garante que as informações transmitidas sejam protegidas contra acesso não autorizado e modificações durante o tráfego. 

@@ -1,2 +1,0 @@
-Este programa fornece suporte de baixo nível para a biblioteca padrão C++ LLVM, incluindo suporte para verificação de
-sanitização de memória. Ele é útil para desenvolvedores que precisam garantir a segurança e a qualidade do código enquanto trabalham com a biblioteca LLVM.

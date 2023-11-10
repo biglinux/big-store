@@ -795,3 +795,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Fehler beim Zugriff auf das Verzeichnis:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native Programme haben eine robustere Integration mit dem Betriebssystem.<br>Sie werden vor der "
+"Markteinführung umfangreichen Tests unterzogen, um eine höhere Zuverlässigkeit zu "
+"gewährleisten.<br>Aus diesen Gründen empfiehlt sich die Entscheidung für ein natives Programm vor "
+"allem dann, wenn die gewünschte Software in mehreren Installationsoptionen verfügbar ist.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Bitte warten Sie, während wir Systeminformationen sammeln. Das kann ein paar Augenblicke dauern..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ungefähres Datum der Installation des Systems:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store läuft bereits."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native Programme haben eine robustere Integration mit dem Betriebssystem.<br>Sie werden vor der "
+"Markteinführung umfangreichen Tests unterzogen, um eine höhere Zuverlässigkeit zu "
+"gewährleisten.<br>Aus diesen Gründen empfiehlt sich die Entscheidung für ein natives Programm vor "
+"allem dann, wenn die gewünschte Software<br>ist in verschiedenen Einbauvarianten erhältlich.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Herunterladen neuer Pakete aus der Serverdatenbank"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Keine Pakete, die als Parameter übergeben werden"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Eine weitere Instanz von Big-Store läuft bereits."
+
+msgid "Procurar aplicativo"
+msgstr "App durchsuchen"
+
+msgid "Editores de texto linha de comando"
+msgstr "Befehlszeilen-Texteditoren"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brief"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Anzeigen von Geräteinformationen auf Linux-Hardware"
+
+msgid "Processador"
+msgstr "Prozessor"
+
+msgid "Placa mãe"
+msgstr "Hauptplatine"
+
+msgid "Memória"
+msgstr "Gedächtnis"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtueller Speicheraustausch"
+
+msgid "Placa de vídeo"
+msgstr "Grafikkarte"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Netz"
+
+msgid "Conexões de Rede"
+msgstr "Netzwerkverbindungen"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-Geräte und -Anschlüsse"
+
+msgid "Portas PCI"
+msgstr "PCI-Anschlüsse"
+
+msgid "Bateria"
+msgstr "Batterie"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Speichergeräte"
+
+msgid "Partições montadas"
+msgstr "Eingehängte Trennwände"
+
+msgid "Partições desmontadas"
+msgstr "Nicht eingehängte Partitionen"
+
+msgid "Dispositivos lógicos"
+msgstr "Logische Geräte"
+
+msgid "Raid"
+msgstr "RAZZIA"
+
+msgid "Informações de Sistema"
+msgstr "Systeminformationen"
+
+msgid "Repositórios"
+msgstr "Repositorien"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Damit Flatpak-Programme im Systemmenü angezeigt werden, melden Sie sich ab und wieder an."
+
+msgid "Atualizado em"
+msgstr "Aktualisiert am"
+
+msgid "Sobre"
+msgstr "Auf"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Übersetzung der Beschreibung der Online-Pakete"

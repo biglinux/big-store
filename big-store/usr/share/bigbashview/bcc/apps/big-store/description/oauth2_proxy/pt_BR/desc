@@ -1,3 +1,0 @@
-Esse é um programa chamado oauth2_proxy. Ele funciona como um proxy reverso e ajuda a garantir a autenticação com provedores
-de serviços como Google e Github. Isso significa que ele verifica se você está autorizado a acessar determinadas coisas antes de deixá-lo passar. Assim, ele ajuda a manter as coisas seguras
-e privadas.

@@ -1,3 +1,0 @@
-Este programa é capaz de decompilar arquivos Java. Isso significa que ele pode transformar o código fonte de um programa de volta em um
-formato mais legível para humanos. Isso pode ser útil se você precisar ver ou entender como um programa funciona. Ele é chamado de 'decompilador' porque ele faz o oposto do que um
-compilador faz - enquanto um compilador transforma código fonte em código de máquina, um decompilador faz o oposto e transforma código de máquina de volta em código fonte.

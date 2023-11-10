@@ -1,3 +1,0 @@
-Este programa é uma versão melhorada do comando 'cp' do Linux. Ele foi escrito em Rust e tem algumas funcionalidades
-adicionais, como a possibilidade de copiar vários arquivos de uma vez e manter os atributos de cada arquivo.É uma ótima opção para quem precisa fazer cópias de segurança ou transferir
-arquivos entre diretórios com facilidade.

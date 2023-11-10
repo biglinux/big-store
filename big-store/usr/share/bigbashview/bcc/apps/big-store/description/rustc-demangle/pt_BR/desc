@@ -1,2 +1,0 @@
-Este programa é usado para desenmascarar símbolos que foram ofuscados em códigos escritos em Rust. Ele fornece uma API em C para 
-que outros programas possam se comunicar com ele e desenmascarar esses símbolos.

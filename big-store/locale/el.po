@@ -795,3 +795,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Βίντεο"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Σφάλμα κατά την πρόσβαση στον κατάλογο:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Τα εγγενή προγράμματα έχουν μια πιο ισχυρή ενοποίηση με το λειτουργικό σύστημα.<br>Υποβάλλονται σε "
+"εκτεταμένες δοκιμές πριν διατεθούν, εξασφαλίζοντας μεγαλύτερη αξιοπιστία.<br>Για αυτούς τους "
+"λόγους, η επιλογή ενός εγγενούς προγράμματος συνιστάται ιδιαίτερα όταν το επιθυμητό λογισμικό είναι "
+"διαθέσιμο σε πολλές επιλογές εγκατάστασης.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Περιμένετε όσο συλλέγουμε πληροφορίες συστήματος. Αυτό μπορεί να διαρκέσει λίγα λεπτά..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Κατά προσέγγιση ημερομηνία εγκατάστασης του συστήματος:"
+
+msgid "Big-Store já está em execução."
+msgstr "Το Big-Store λειτουργεί ήδη."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Τα εγγενή προγράμματα έχουν μια πιο ισχυρή ενοποίηση με το λειτουργικό σύστημα.<br>Υποβάλλονται σε "
+"εκτεταμένες δοκιμές πριν διατεθούν, εξασφαλίζοντας μεγαλύτερη αξιοπιστία.<br>Για αυτούς τους "
+"λόγους, η επιλογή ενός εγγενούς προγράμματος συνιστάται ιδιαίτερα όταν το επιθυμητό "
+"λογισμικό<br>είναι διαθέσιμο σε διάφορες επιλογές εγκατάστασης.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Λήψη νέων πακέτων από τη βάση δεδομένων διακομιστή"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Δεν υπάρχουν πακέτα που πέρασαν ως παράμετροι"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Μια άλλη παρουσία του Big-Store εκτελείται ήδη."
+
+msgid "Procurar aplicativo"
+msgstr "Περιήγηση στην εφαρμογή"
+
+msgid "Editores de texto linha de comando"
+msgstr "Προγράμματα επεξεργασίας κειμένου γραμμής εντολών"
+
+msgid "Multimidia"
+msgstr "Πολυμέσα"
+
+msgid "Carta"
+msgstr "Γράμμα"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Προβολή πληροφοριών συσκευής στο Linux Hardware"
+
+msgid "Processador"
+msgstr "Επεξεργαστής"
+
+msgid "Placa mãe"
+msgstr "Μητρική κάρτα"
+
+msgid "Memória"
+msgstr "Μνήμη"
+
+msgid "Swap Memória Virtual"
+msgstr "Εναλλαγή εικονικής μνήμης"
+
+msgid "Placa de vídeo"
+msgstr "Κάρτα γραφικών"
+
+msgid "Áudio"
+msgstr "Ήχου"
+
+msgid "Rede"
+msgstr "Δίκτυο"
+
+msgid "Conexões de Rede"
+msgstr "Συνδέσεις δικτύου"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Συσκευές και συνδέσεις USB"
+
+msgid "Portas PCI"
+msgstr "Θύρες PCI"
+
+msgid "Bateria"
+msgstr "Μπαταρία"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Συσκευές αποθήκευσης"
+
+msgid "Partições montadas"
+msgstr "Προσαρτημένα διαμερίσματα"
+
+msgid "Partições desmontadas"
+msgstr "Μη προσαρτημένα διαμερίσματα"
+
+msgid "Dispositivos lógicos"
+msgstr "Λογικές συσκευές"
+
+msgid "Raid"
+msgstr "ΕΠΙΔΡΟΜΉ"
+
+msgid "Informações de Sistema"
+msgstr "Πληροφορίες συστήματος"
+
+msgid "Repositórios"
+msgstr "Αποθετήρια"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Θερμοκρασία"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Για να εμφανιστούν τα προγράμματα Flatpak στο μενού συστήματος, αποσυνδεθείτε και συνδεθείτε ξανά."
+
+msgid "Atualizado em"
+msgstr "Ενημερώθηκε στις"
+
+msgid "Sobre"
+msgstr "Επάνω"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Μετάφραση της περιγραφής των online πακέτων"

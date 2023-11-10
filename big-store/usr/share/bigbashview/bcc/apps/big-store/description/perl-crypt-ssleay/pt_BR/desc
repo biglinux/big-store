@@ -1,1 +1,0 @@
-O perl-crypt-ssleay é uma cola do OpenSSL que fornece suporte https para LWP (Library for WWW in Perl). Ele é usado para garantir segurança e autenticação ao acessar sites https com o LWP. 

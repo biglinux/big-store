@@ -1,1 +1,0 @@
-Essa biblioteca é projetada para lidar com arquivos de configuração simples baseados em INI. Ela permite que você carregue e salve arquivos INI, bem como acessar e modificar seus valores. Isso pode ser útil para aplicativos que precisam ler configurações do usuário ou do sistema. 

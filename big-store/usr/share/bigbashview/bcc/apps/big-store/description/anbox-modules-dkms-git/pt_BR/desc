@@ -1,4 +1,0 @@
-Se você está usando o Anbox ou Waydroid, esses módulos do kernel são essenciais para fazer seu aplicativo
-funcionar corretamente. Eles permitem que o sistema operacional do host comunique-se com o sistema operacional dentro do container do Anbox. Esses módulos são instalados usando o DKMS
-(Dynamic Kernel Module Support), o que significa que eles serão automaticamente atualizados quando novos kernels forem instalados no seu sistema.Sem esses módulos, o Anbox ou Waydroid não
-funcionará corretamente, então certifique-se de instalá-los antes de usar esses aplicativos.

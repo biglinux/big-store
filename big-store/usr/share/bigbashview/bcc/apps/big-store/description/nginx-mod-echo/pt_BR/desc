@@ -1,1 +1,0 @@
-nginx-mod-echo é um módulo para o Nginx que fornece diretivas para diferentes tipos de saída, como 'echo', 'sleep', 'time' e outros. Essas diretivas permitem controlar o fluxo de solicitações e respostas no seu servidor Nginx, e podem ser usadas para criar comportamentos personalizados ou para depurar sua configuração. 

@@ -1,1 +1,0 @@
-Este programa é escrito em Python e ajuda a analisar e validar URIs (RFC 3986) e IRIs (RFC 3987). Isso significa que ele pode verificar se uma URL ou endereço de internet está escrita corretamente e segue as regras estabelecidas pelo RFC 3986 e 3987. Isso é útil para garantir que links e endereços sejam válidos antes de usá-los em um aplicativo ou website. 

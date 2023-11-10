@@ -1,1 +1,0 @@
-O gir-to-d é um programa que permite criar ligações D a partir de arquivos de introspecção GObject. Isso significa que ele pega as informações sobre uma biblioteca escrita em C e as transforma em código D que pode ser usado por programadores. Isso torna mais fácil para os programadores escrever programas em D que usam bibliotecas escritas em C. 

@@ -1,2 +1,0 @@
-Esse é um programa que ajuda a usar as credenciais do AWS IAM para se autenticar em um cluster do Kubernetes. Ele é muito útil para
-garantir que apenas pessoas autorizadas tenham acesso ao cluster e possam fazer alterações nele. 

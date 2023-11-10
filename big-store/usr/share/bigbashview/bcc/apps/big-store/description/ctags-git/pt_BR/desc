@@ -1,3 +1,0 @@
-Este programa cria um arquivo de índice, também conhecido como arquivo de 'tags', dos objetos de linguagem
-encontrados em arquivos de código-fonte. Isso permite que você pesquise e navegue facilmente através do seu código, encontrando rapidamente as definições de funções e variáveis. Ele é
-especialmente útil para projetos de código grandes e complexos. Ele é baseado no git, o que significa que ele é capaz de rastrear e gerenciar as alterações no código ao longo do tempo.

@@ -1,3 +1,0 @@
-Este programa é uma alternativa mais rápida ao os.walk() e oferece uma melhor iteração de diretórios. Com
-ele, você pode percorrer de forma mais eficiente as pastas do seu computador e encontrar facilmente o que procura. Não perca mais tempo procurando arquivos, experimente o python2-scandir
-hoje mesmo!

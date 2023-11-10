@@ -1,1 +1,0 @@
-O ruby-concurrent é um pacote de ferramentas de concorrência modernas que incluem agentes, futuros, promessas, pools de  threads, atores, supervisores e muito mais. Ele ajuda a melhorar a performance e escalabilidade do seu código, permitindo que você execute várias tarefas simultaneamente de forma eficiente. 

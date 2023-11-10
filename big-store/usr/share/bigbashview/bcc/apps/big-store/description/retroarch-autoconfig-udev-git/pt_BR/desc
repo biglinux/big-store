@@ -1,3 +1,0 @@
- Este programa é usado para configurar automaticamente o seu joystick quando você o conecta ao seu computador. 
-Ele é especialmente útil para jogos antigos, como o RetroArch. Ele usa o padrão udev para reconhecer o seu joystick e configurá-lo corretamente. Esta é a versão mais recente do programa,
-obtida diretamente do repositório git. 

@@ -1,1 +1,0 @@
-O python-pyvirtualdisplay é um wrapper em Python para Xvfb, Xephyr e Xvnc. Ele permite que você execute navegadores web sem cabeçalho e outros programas gráficos em um servidor X virtual, o que é útil para testes automatizados, raspagem de sites e execução de programas em servidores onde você não deseja instalar um ambiente gráfico completo. 

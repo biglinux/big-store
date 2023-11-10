@@ -1,1 +1,0 @@
-Este pacote de dados é usado para ajudar o programa Tesseract OCR a reconhecer caracteres escritos na língua uzb. Ele é essencial para que o programa possa ler e interpretar corretamente textos escritos nessa língua. Sem este pacote de dados, o Tesseract OCR pode ter dificuldade em reconhecer certos caracteres ou mesmo falhar em ler o texto completamente. 

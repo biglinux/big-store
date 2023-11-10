@@ -1,2 +1,0 @@
-Este programa é uma barra altamente personalizável para usar com o Wayland, um sistema de janelas moderno. Ele funciona com
-outros programas, como o Sway e o Wlroots, e não precisa de depedências do systemd para funcionar.

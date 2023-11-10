@@ -1,4 +1,0 @@
-Esta é uma biblioteca para Python que ajuda a ler e escrever arquivos INI, que são usados para armazenar
-configurações em alguns programas. Ela é chamada python-iniparse e tem algumas funcionalidades adicionais em comparação com outras bibliotecas similares.Por exemplo, ela permite acessar as 
-configurações como se fossem objetos do Python, em vez de precisar lidar com strings. Além disso, ela tem suporte para comentários no arquivo INI e pode lidar com arquivos INI mal
-formatados de maneira mais elegante.

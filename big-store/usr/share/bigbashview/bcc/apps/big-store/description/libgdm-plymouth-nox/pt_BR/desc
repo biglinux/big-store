@@ -1,3 +1,0 @@
-Este é um gerenciador de tela de login e tela de boas-vindas com suporte a plymouth, mas sem suporte ao
-xorg-server. É uma biblioteca de suporte para outros programas.Ele é projetado para fornecer uma experiência de inicialização suave e elegante para o seu sistema operacional, sem a
-necessidade do xorg-server.

@@ -1,4 +1,0 @@
-Este programa adiciona regras UDEV para o programador AVR USBasp. Isso permite que o programador seja facilmente
-reconhecido pelo sistema operacional quando conectado ao computador via USB. Com essas regras, é possível usar o programador sem precisar de permissões de administrador ou ter que digitar
-comandos no terminal.Essas regras são específicas para o Atmel AVR, um tipo de microcontrolador muito comum em projetos de eletrônica. Elas permitem que o programador se comunique com
-esses dispositivos de maneira fácil e precisa. 

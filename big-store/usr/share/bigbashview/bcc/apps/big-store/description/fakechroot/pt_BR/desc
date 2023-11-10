@@ -1,1 +1,0 @@
-O fakechroot é um programa que cria um ambiente de chroot falso, ou seja, ele simula um ambiente de chroot sem necessitar de privilégios de super usuário. Isso pode ser útil para testar programas sem precisar de acesso total ao sistema. 

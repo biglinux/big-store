@@ -1,3 +1,0 @@
-Este programa é chamado pacvis-git e ele ajuda você a visualizar o banco de dados do Pacman, que é o gerenciador de
-pacotes do sistema operacional Arch Linux. Ele usa uma biblioteca chamada Vis.js para mostrar as informações de uma forma fácil de entender. Ele foi inspirado por outro programa chamado
-pacgraph.

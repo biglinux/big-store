@@ -1,1 +1,0 @@
-Esse programa é para uso em Perl e permite o uso de strings de caracteres Unicode (UCS2/UTF16). Isso significa que você pode usar símbolos e caracteres de outros idiomas além do inglês e outros caracteres especiais em seu código Perl. Isso pode ser útil se você estiver trabalhando em um projeto multilingue ou precisar de uma representação mais precisa de caracteres específicos. 

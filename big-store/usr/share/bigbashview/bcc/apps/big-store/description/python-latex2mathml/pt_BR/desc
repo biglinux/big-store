@@ -1,1 +1,0 @@
-Esta biblioteca em Python é projetada para converter fórmulas matemáticas escritas em LaTeX para o formato MathML. Isso permite que essas fórmulas sejam exibidas em aplicativos web e outros sistemas que não suportam diretamente o LaTeX. Ela é fácil de usar e possui suporte para uma ampla variedade de comandos e símbolos matemáticos. 

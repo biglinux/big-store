@@ -1,1 +1,0 @@
-python-pypandoc é um envelope fino para o pandoc. Ele permite que você use o pandoc, um conversor de documentos, diretamente a partir do seu código Python. Com ele, você pode facilmente converter entre diferentes formatos de documentos, como Markdown, HTML, PDF e muito mais. 

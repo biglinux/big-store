@@ -1,4 +1,0 @@
-Uma biblioteca chamada libffi7 é usada para permitir que programas escritos em uma linguagem de
-programação possam chamar funções escritas em outra linguagem de programação. É chamada de 'interface de funções estrangeiras' porque permite que o programa faça chamadas para funções que
-foram escritas em outro idioma. Essa biblioteca específica é a versão 7 da ABI, ou 'Application Binary Interface'. Isso significa que é compatível com a sétima versão do padrão para como as
-funções devem ser chamadas e como os dados devem ser passados entre elas.

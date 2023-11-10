@@ -1,1 +1,0 @@
- waybar é uma barra altamente personalizável para compositor Wayland baseado em Sway e Wlroots. Ele é  escrito em C ++ e pode ser facilmente configurado para exibir várias informações do sistema, como a data e hora atuais, status da bateria e mais. A barra também pode ser configurada para exibir informações de outros programas, como previsão do tempo e players de música. 

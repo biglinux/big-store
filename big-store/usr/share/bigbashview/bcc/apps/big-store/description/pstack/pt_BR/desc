@@ -1,4 +1,0 @@
-Este programa permite que você veja o caminho de execução de um processo em execução, conhecido como pilha de processos. É
-uma ferramenta útil para identificar problemas em programas que estão travados ou não funcionando corretamente. Ao usar esse programa, você pode ver como cada função e método estão sendo
-chamados, o que pode ajudar a encontrar a causa de um problema de software. É uma ferramenta valiosa para desenvolvedores, pois permite que eles entendam como seus programas estão
-funcionando por trás das cenas.

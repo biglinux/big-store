@@ -1,1 +1,0 @@
-cargo-udeps é uma ferramenta de linha de comando para encontrar dependências não utilizadas em um arquivo  Cargo.toml. Ele funciona analisando o código-fonte de um projeto Rust para determinar quais dependências estão realmente sendo usadas e quais não estão. Isso pode ajudar a reduzir o tamanho e a complexidade de um projeto, bem como potencialmente melhorar sua performance. 

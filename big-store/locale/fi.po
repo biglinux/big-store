@@ -792,3 +792,138 @@ msgstr "Näyttää vain valitut ohjelmat<br>ja piilottaa hyödylliset tulokset <
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Virhe hakemistoa käytettäessä:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Natiiviohjelmilla on vankempi integrointi käyttöjärjestelmään.<br>Ne testataan perusteellisesti "
+"ennen niiden saataville asettamista, mikä takaa paremman luotettavuuden.<br>Näistä syistä "
+"natiiviohjelman valitseminen on erityisen suositeltavaa, kun haluttu ohjelmisto on saatavana "
+"useissa asennusvaihtoehdoissa.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Odota, kunnes keräämme järjestelmätietoja. Se voi kestää hetken..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Arvioitu päivämäärä, jolloin järjestelmä asennettiin:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store on jo käynnissä."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Natiiviohjelmilla on vankempi integrointi käyttöjärjestelmään.<br>Ne testataan perusteellisesti "
+"ennen niiden saataville asettamista, mikä takaa paremman luotettavuuden.<br>Näistä syistä "
+"natiiviohjelman valitseminen on erityisen suositeltavaa, kun haluttu ohjelmisto<br>on saatavana "
+"useina asennusvaihtoehtoina.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Uusien pakettien lataaminen palvelintietokannasta"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Parametreina ei läpäissyt paketteja"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Toinen Big-Store-esiintymä on jo käynnissä."
+
+msgid "Procurar aplicativo"
+msgstr "Selaa sovellusta"
+
+msgid "Editores de texto linha de comando"
+msgstr "Komentorivin tekstieditorit"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Kirje"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Tarkastele laitetietoja Linux-laitteistossa"
+
+msgid "Processador"
+msgstr "Prosessori"
+
+msgid "Placa mãe"
+msgstr "Emolevy"
+
+msgid "Memória"
+msgstr "Muisti"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuaalimuistin vaihto"
+
+msgid "Placa de vídeo"
+msgstr "Näytönohjain"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Verkko"
+
+msgid "Conexões de Rede"
+msgstr "Verkkoyhteydet"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-laitteet ja liitännät"
+
+msgid "Portas PCI"
+msgstr "PCI-portit"
+
+msgid "Bateria"
+msgstr "Akku"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Tallennuslaitteet"
+
+msgid "Partições montadas"
+msgstr "Asennetut väliseinät"
+
+msgid "Partições desmontadas"
+msgstr "Asentamattomat väliseinät"
+
+msgid "Dispositivos lógicos"
+msgstr "Loogiset laitteet"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Järjestelmän tiedot"
+
+msgid "Repositórios"
+msgstr "Arkistot"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Lämpötila"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Jotta Flatpak-ohjelmat näkyvät järjestelmävalikossa, kirjaudu ulos ja kirjaudu uudelleen sisään."
+
+msgid "Atualizado em"
+msgstr "Päivitetty"
+
+msgid "Sobre"
+msgstr "Päälle"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Verkkopakettien kuvauksen kääntäminen"

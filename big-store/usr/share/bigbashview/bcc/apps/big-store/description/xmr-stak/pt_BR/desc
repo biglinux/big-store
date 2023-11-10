@@ -1,4 +1,0 @@
-Este programa é um minerador Monero all-in-one, ou seja, ele é capaz de minerar a criptomoeda Monero sem precisar de outros
-programas adicionais. Ele é chamado de 'unified' porque ele é capaz de minerar tanto com CPU quanto com GPU. Ele não precisa de suporte para CUDA, que é um conjunto de ferramentas de
-programação para acelerar aplicativos em GPUs NVIDIA. Com este programa você pode minerar Monero de forma rápida e fácil, sem precisar se preocupar em baixar outros programas ou configurar 
-sua máquina de forma complexa. Ele é simples de usar e pode ser executado em qualquer sistema operacional.

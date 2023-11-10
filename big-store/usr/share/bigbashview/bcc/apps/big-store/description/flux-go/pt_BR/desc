@@ -1,4 +1,0 @@
-Flux-go é uma solução de entrega contínua aberta e extensível para Kubernetes. Ele ajuda a garantir que sua
-aplicação esteja sempre atualizada e funcionando corretamente, automatizando o processo de atualização e implantação.Com Flux-go, você pode facilmente gerenciar suas configurações de
-aplicação e garantir que elas estejam sempre sincronizadas com seu repositório de código. Além disso, ele possui integração com ferramentas de gerenciamento de contêiner, como o Kubernetes,
-o que torna o processo de implantação ainda mais fácil e eficiente.

@@ -1,3 +1,0 @@
-Este programa é um módulo de banco de dados para a versão 7.1 do PHP. Ele permite que você acesse e gerencie bancos de 
-dados diretamente a partir do seu código PHP. Com este módulo, você pode facilmente executar consultas SQL, criar tabelas, inserir dados e realizar outras operações comuns de banco de
-dados. Este módulo é útil para desenvolvedores que precisam trabalhar com bancos de dados em suas aplicações PHP.

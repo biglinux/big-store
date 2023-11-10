@@ -1,3 +1,0 @@
- Este programa é um cliente Node.js e um host de plugin para o editor de código Neovim. Ele permite que você 
-use os recursos do Node.js enquanto edita seu código no Neovim. Além disso, ele também permite que você instale e use plugins escritos em JavaScript dentro do Neovim. É uma ótima opção para
-desenvolvedores que querem aproveitar ao máximo as capacidades do Node.js enquanto trabalham com o Neovim. 

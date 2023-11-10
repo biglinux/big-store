@@ -1,1 +1,0 @@
-python-sqlitedict é uma biblioteca Python que fornece um dicionário persistente, suportado por sqlite3 e pickle. Ele é seguro para múltiplas threads, o que significa que pode ser usado com segurança por múltiplas threads ao mesmo tempo. 

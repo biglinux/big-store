@@ -1,1 +1,0 @@
-Este é um pacote de arquivos comuns para a biblioteca geocode-glib. Ele fornece funcionalidades compartilhadas para outros pacotes que usam serviços de geocodificação, como a conversão de endereços em coordenadas de latitude e longitude. Isso torna mais fácil para os desenvolvedores trabalharem com esses serviços sem precisar escrever códigos redundantes. 

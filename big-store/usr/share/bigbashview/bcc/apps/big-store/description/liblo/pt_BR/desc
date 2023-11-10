@@ -1,1 +1,0 @@
-liblo é uma biblioteca de código aberto que fornece uma implementação leve do protocolo OSC (Open Sound Control). OSC é uma forma de transmitir dados de áudio e outros tipos de mensagens através de uma rede, geralmente utilizado em aplicações de som e música. Com liblo, você pode facilmente enviar e receber mensagens OSC em seu próprio software. 

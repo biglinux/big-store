@@ -1,1 +1,0 @@
-libbloom é uma implementação de bloom filter simples e pequena escrita em linguagem C. Ele é projetado para ser fácil de usar e inclui apenas as funcionalidades essenciais. Com libbloom, você pode adicionar elementos ao filtro, verificar se um elemento está presente no filtro e limpar o filtro. Ele é ideal para projetos que precisam de um filtro de fluxo leve e rápido. 

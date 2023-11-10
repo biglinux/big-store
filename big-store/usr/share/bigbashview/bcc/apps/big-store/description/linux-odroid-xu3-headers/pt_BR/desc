@@ -1,4 +1,0 @@
-Esse programa é um conjunto de cabeçalhos para o sistema operacional Linux, específico para o dispositivo ODROID XU3. Ele 
-inclui informações sobre as bibliotecas e recursos disponíveis para desenvolvedores que querem criar aplicativos para esse dispositivo.Os cabeçalhos são arquivos importantes que contêm
-definições de funções e estruturas de dados utilizadas pelo sistema operacional. Eles são necessários para que os desenvolvedores possam criar programas que se comuniquem corretamente com o
-sistema operacional.

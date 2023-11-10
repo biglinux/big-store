@@ -1,1 +1,0 @@
-Esse programa é escrito em Ruby e estende a classe Dir para gerenciar o caminho do arquivo temporário do sistema operacional. Isso permite que você crie, altere e exclua arquivos temporários de forma fácil e organizada.Ele é útil para quando você precisa armazenar dados temporários enquanto seu programa está rodando, e não quer poluir sua pasta raiz com arquivos desnecessários. 

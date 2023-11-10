@@ -1,1 +1,0 @@
- Este pacote é para trabalhar com números de série internacionais (ISSN) em Perl. Ele fornece funções para verificar a validade de um ISSN, formatar um ISSN e converter entre diferentes formatos de ISSN. Isso é útil para aplicações comerciais que lidam com publicações periódicas e precisam garantir a precisão dos números de série.  

@@ -1,1 +1,0 @@
-Esse programa é uma implementação em Haskell do algoritmo de colação Unicode. O algoritmo de colação Unicode é usado para ordenar caracteres e símbolos em diferentes idiomas e scripts. Essa implementação usa a linguagem Haskell para implementar esse algoritmo, permitindo que ele seja usado em aplicativos e sistemas que precisam ordenar texto em vários idiomas e scripts. 

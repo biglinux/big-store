@@ -1,2 +1,0 @@
-Este programa é uma substituição para o systemd-resolvconf, com suporte a SELinux (para uso com o systemd-resolved).
-Ele ajuda a gerenciar as configurações de DNS em seu sistema, garantindo que as informações estejam sempre atualizadas e corretas.

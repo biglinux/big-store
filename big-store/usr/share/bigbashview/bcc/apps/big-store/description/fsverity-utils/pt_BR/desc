@@ -1,1 +1,0 @@
-fsverity-utils é um conjunto de ferramentas de linha de comando que permite que os usuários trabalhem com arquivos protegidos por verificação de integridade de sistema de arquivos (fs-verity). Ele inclui ferramentas para criar, verificar, assinar e verificar assinaturas de arquivos protegidos. 

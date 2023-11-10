@@ -1,2 +1,0 @@
- Este é um programa chamado xeus-cling que é um kernel para o programa Jupyter. Ele permite que você use o C++ para escrever seus
-códigos no Jupyter. O xeus-cling é baseado em outros dois programas chamados xeus e cling. 

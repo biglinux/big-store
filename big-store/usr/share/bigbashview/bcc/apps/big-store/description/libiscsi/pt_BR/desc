@@ -1,1 +1,0 @@
-A libiscsi é uma biblioteca para clientes que permite interagir com servidores iSCSI. Ela é escrita em C e é open-source. Com a libiscsi, você pode implementar o protocolo iSCSI em sua própria aplicação. Essa biblioteca é usada por vários programas diferentes, incluindo o iniciador Open-iSCSI. 

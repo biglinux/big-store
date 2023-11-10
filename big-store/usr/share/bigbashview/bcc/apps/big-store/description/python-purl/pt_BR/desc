@@ -1,1 +1,0 @@
-A classe URL imutável permite criar e manipular facilmente URLs. Com ela, você pode construir URLs passo a passo, adicionando diferentes componentes como esquema, host, caminho e parâmetros de consulta. Além disso, a classe é imutável, o que significa que uma vez criada, uma URL não pode ser modificada.Para usar essa classe, você precisa importar o pacote python-purl. 

@@ -1,4 +1,0 @@
-Gradle é um sistema de construção poderoso para a plataforma JVM (Java Virtual Machine). Ele é usado para automatizar tarefas comuns
-de desenvolvimento, como compilação, testes, implantação e muito mais. A documentação fornece informações detalhadas sobre como usar o Gradle e suas várias funcionalidades.Com o Gradle,
-você pode escrever scripts de construção em uma variedade de linguagens, incluindo Groovy e Kotlin. Ele também oferece suporte a múltiplas plataformas, incluindo Java, Android e C++. Além
-disso, o Gradle é altamente personalizável e extensível, permitindo que você adicione facilmente novos plugins e ferramentas.

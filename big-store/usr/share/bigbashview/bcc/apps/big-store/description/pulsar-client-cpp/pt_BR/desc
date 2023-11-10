@@ -1,3 +1,0 @@
-A biblioteca de cliente Pulsar em C++ é uma ferramenta desenvolvida para ajudar os desenvolvedores a se conectarem e se
-comunicarem com o Apache Pulsar, um sistema de gerenciamento de mensagens de alta performance. Ela permite que os aplicativos enviem e recebam mensagens de maneira fácil e eficiente.A
-biblioteca foi escrita em C++, o que a torna ideal para aplicativos com alto desempenho, como jogos e aplicativos de tempo real.

@@ -1,3 +1,0 @@
- pmbootstrap-custom-pmaports-git é uma ferramenta sofisticada para desenvolvimento e instalação do
-postmarketOS. Ele permite criar um ambiente isolado (chroot) para construir e instalar o sistema. Ele também possibilita a criação de pacotes e a instalação de pacotes personalizados. Além 
-disso, ele é baseado em git, o que permite acompanhar as últimas atualizações e melhorias.

@@ -1,3 +1,0 @@
-O hipify-clang é um programa que ajuda a converter código escrito em CUDA, uma linguagem de programação para processamento
-paralelo em GPUs, para C++ portátil. Isso significa que o código pode ser executado em diferentes tipos de computadores, sem precisar de uma GPU específica. Com o hipify-clang, é possível
-escrever código que utiliza a potência de processamento de uma GPU sem se preocupar com a compatibilidade com diferentes sistemas.

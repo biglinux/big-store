@@ -1,3 +1,0 @@
-O Pico-TTS é uma biblioteca e ferramenta de linha de comando que permite converter texto em fala. Ele foi desenvolvido a 
-partir do motor de síntese de fala do Android, proporcionando uma qualidade de áudio natural e fluida. Com ele, é possível criar aplicações de fala, como assistentes virtuais e leitores de 
-tela. O Pico-TTS suporta diversos idiomas e vozes, tornando-o uma ótima escolha para projetos que precisam de uma síntese de fala precisa e de qualidade.

@@ -1,3 +1,0 @@
-Este programa é chamado xorg-mkcomposecache e ele é usado para criar um cache dos arquivos Compose do X.Org.
-Isso significa que ele organiza as informações dos arquivos de forma a tornar mais rápido para o sistema acessá-las. Assim, o sistema pode usar essas informações mais rapidamente, tornando 
-o uso do computador mais ágil. Ele é especialmente útil em sistemas com pouca memória ou velocidade de processamento.

@@ -1,1 +1,0 @@
-python-pcapy é um módulo de extensão que se comunica com a biblioteca de captura de pacotes libpcap. Ele permite que os scripts em python capturem pacotes na rede. É uma ferramenta útil para monitoramento e análise de redes. Pode ser usado para escrever sniffers de pacotes, analisadores de rede e outras ferramentas de monitoramento de rede. 

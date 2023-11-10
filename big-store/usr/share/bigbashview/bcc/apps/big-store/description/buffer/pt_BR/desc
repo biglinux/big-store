@@ -1,4 +1,0 @@
-Existe um recurso chamado buffer que pode ajudar a aumentar a velocidade de escrita em fitas remotas. Ele funciona 
-armazenando dados temporariamente em um local de memória antes de enviá-los para a fita. Isso permite que os dados sejam enviados de forma mais rápida e eficiente para a fita, o que resulta
-em uma gravação mais rápida. É importante notar que o tamanho do buffer deve ser otimizado para o melhor desempenho, pois um buffer muito grande pode causar atrasos na gravação e um buffer 
-muito pequeno pode não ter efeito significativo.

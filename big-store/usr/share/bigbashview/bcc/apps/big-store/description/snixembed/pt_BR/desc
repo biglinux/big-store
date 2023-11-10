@@ -1,2 +1,0 @@
- Este programa é responsável por integrar as notificações do sistema com o protocolo XEmbed. Ele funciona como um
-intermediário entre o protocolo de notificação e a barra de sistema, permitindo que as notificações apareçam de forma organizada e fácil de acessar. 

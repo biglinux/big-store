@@ -1,4 +1,0 @@
- O python-pymavlink é uma interface e ferramentas úteis para se comunicar com sistemas autopilot usando o
-protocolo MAVLink. Ele permite que você envie e receba mensagens MAVLink em Python e é compatível com vários sistemas autopilot, incluindo ArduPilot e PX4. Além disso, ele fornece suporte
-para vários sistemas operacionais, como Windows, Linux e MacOS.Com o python-pymavlink, você pode desenvolver facilmente scripts e aplicativos para se comunicar com seu sistema autopilot 
-e automatizar tarefas comuns. Ele é uma ferramenta útil para desenvolvedores que trabalham com sistemas de automação de vôo e robótica. 

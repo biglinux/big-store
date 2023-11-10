@@ -1,3 +1,0 @@
-Este programa é uma ferramenta para tornar a leitura de páginas da internet mais fácil. Ele
-funciona como um 'envolvimento' em volta do mozilla/readability e ajuda a manter o archivebox livre de nodejs.Isso significa que ele ajuda a limpar o layout da página e deixar só o conteúdo
-importante, tornando mais fácil de ler. Ele também pode ajudar a salvar essas páginas limpadas para ler mais tarde. 

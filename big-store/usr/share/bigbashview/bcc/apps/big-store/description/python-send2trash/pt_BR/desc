@@ -1,1 +1,0 @@
- Este programa permite que você envie arquivos diretamente para a lixeira do seu computador, sem precisar deletá-los permanentemente. Isso é feito usando a biblioteca python-send2trash. Com ela, você pode facilmente enviar arquivos para a lixeira ao invés de excluí-los completamente do seu computador. 

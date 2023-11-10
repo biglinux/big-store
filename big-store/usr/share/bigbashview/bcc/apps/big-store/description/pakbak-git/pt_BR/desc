@@ -1,2 +1,0 @@
-Este programa foi criado para fazer backup do banco de dados do pacman quando ele for alterado. Dessa forma, você sempre 
-terá uma cópia segura do seu banco de dados e poderá restaurá-lo caso algo dê errado. Ele é fácil de usar e segue o formato json, JavaScript Object Notation.

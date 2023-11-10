@@ -1,1 +1,0 @@
-Este programa usa as buscas ARP e PTR para descobrir hosts em uma rede. Ele foi escrito em Python e usa a biblioteca 'aiodiscover' para realizar as buscas de forma assíncrona.Isso permite que o programa execute rapidamente e eficientemente, sem bloquear outras tarefas enquanto busca por hosts. 

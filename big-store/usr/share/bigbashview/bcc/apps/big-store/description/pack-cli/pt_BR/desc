@@ -1,3 +1,0 @@
-Este é um programa chamado pack-cli. Ele é uma ferramenta para ajudar a construir aplicativos usando algo chamado Cloud
-Native Buildpacks. Basicamente, isso significa que ele ajuda a preparar o seu aplicativo para ser executado na nuvem, tornando-o mais rápido e fácil de gerenciar. É muito útil se você está 
-construindo um aplicativo grande ou se você precisa de mais controle sobre como o seu aplicativo é construído e executado.

@@ -1,3 +1,0 @@
- O Bareos é um software de backup, arquivamento e recuperação de código aberto. Este plugin é específico para o
-daemon de armazenamento do Bareos e foi desenvolvido em Python3. Ele permite que o Bareos se comunique com dispositivos de armazenamento externos, como discos rígidos ou nuvens, de forma
-mais eficiente e segura. 

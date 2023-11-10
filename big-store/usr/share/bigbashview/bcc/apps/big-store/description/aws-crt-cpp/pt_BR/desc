@@ -1,1 +1,0 @@
-Essa biblioteca é uma 'wrapper' (ou envoltório) para as bibliotecas aws-c-*. Ela fornece protocolos de transporte cross-platform (que funcionam em vários sistemas) e implementações de SSL/TLS para C++. 

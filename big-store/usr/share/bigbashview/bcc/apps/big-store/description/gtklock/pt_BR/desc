@@ -1,4 +1,0 @@
-Este programa é um bloqueio de tela baseado em GTK para usuários do Wayland. Ele permite que você proteja sua tela com uma 
-senha ou padrão de desbloqueio, garantindo que somente você tenha acesso ao seu computador. Além disso, ele oferece uma interface simples e fácil de usar para desbloquear o seu computador. 
-Ele é compatível com o Wayland, que é um sistema de janelas e gerenciamento de exibição para sistemas operacionais modernos. Isso significa que ele funciona bem com sistemas Linux mais
-recentes e oferece suporte a recursos avançados, como acessibilidade e segurança.

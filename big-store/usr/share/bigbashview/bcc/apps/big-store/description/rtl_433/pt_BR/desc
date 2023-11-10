@@ -1,2 +1,0 @@
- Este programa é usado para receber dados genéricos, principalmente nas frequências 433.92 MHz, 868 MHz (SRD), 315 MHz,
-345 MHz e 915 MHz ISM bands. Ele é útil para capturar informações de dispositivos sem fio em sua área, como sensores de temperatura, medidores de energia e outros dispositivos IoT. 

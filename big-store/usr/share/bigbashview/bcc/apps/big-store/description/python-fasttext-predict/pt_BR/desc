@@ -1,2 +1,0 @@
-Com o python-fasttext-predict você pode prever a classificação de textos sem precisar de nenhuma dependência externa. Ele vem com 
-rodas, o que significa que é fácil de instalar e usar. Ele só possui o método de previsão, mas mesmo assim é muito útil e ocupa pouco espaço (menos de 1MB).

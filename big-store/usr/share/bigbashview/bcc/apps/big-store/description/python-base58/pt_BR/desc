@@ -1,3 +1,0 @@
-Esta biblioteca fornece uma implementação compatível com Bitcoin para codificação Base58 e Base58Check. Ela é
-escrita em Python e pode ser facilmente incorporada em projetos que precisem trabalhar com endereços de carteira de Bitcoin ou codificação similar.A biblioteca é fácil de usar e possui uma 
-documentação clara para ajudar os desenvolvedores a implementá-la em seus projetos.

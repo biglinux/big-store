@@ -1,1 +1,0 @@
-Este é um driver de entrada genérico para o servidor X.Org, baseado na biblioteca libinput. Ele permite que  o servidor X.Org reconheça e use dispositivos de entrada, como touchpads e mice, em sistemas operacionais compatíveis com libinput. Ele é uma alternativa ao driver de entrada evdev, que também é compatível com o X.Org. 

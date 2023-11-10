@@ -1,1 +1,0 @@
-Essa biblioteca, chamada lua51-basexx, oferece suporte para decodificar e codificar dados em diferentes bases, como base2 (bitfield), base16 (hexadecimal), base32 (crockford/rfc), base64 (rfc/url) e base85 (z85), usando a linguagem Lua  5.1. 

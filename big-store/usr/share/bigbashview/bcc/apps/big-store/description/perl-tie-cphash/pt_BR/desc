@@ -1,1 +1,0 @@
-O módulo Tie::CPHash do Perl/CPAN é um tipo de hash que preserva as maiúsculas e minúsculas na chave, mas ao mesmo tempo é insensível a elas. Isso significa que você pode usar as mesmas chaves com letras maiúsculas e minúsculas e ainda assim acessar o mesmo valor. 

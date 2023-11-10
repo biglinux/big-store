@@ -1,3 +1,0 @@
-Este é um programa chamado RISC-V Virtual Machine, ou simplesmente RVVM. Ele funciona como uma máquina virtual, o que significa que
-ele permite que outros programas rodem dentro dele. Isso é útil porque permite que diferentes programas funcionem juntos, mesmo que eles tenham sido escritos em diferentes linguagens de
-programação ou para diferentes sistemas operacionais. Além disso, ele é projetado para usar o conjunto de instruções RISC-V, que é uma arquitetura de computador aberta e livre.

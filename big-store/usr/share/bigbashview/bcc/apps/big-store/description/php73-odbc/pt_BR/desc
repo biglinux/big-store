@@ -1,4 +1,0 @@
-Este programa adiciona módulos ODBC (Open Database Connectivity) ao PHP 7.3. Isso permite que o PHP se conecte e execute operações 
-em bancos de dados usando a interface ODBC. Isso pode ser útil para integrar sua aplicação PHP com bancos de dados diferentes como MySQL, MSSQL, etc.Com os módulos ODBC instalados, você
-pode usar as funções do PHP para se conectar e executar operações em bancos de dados usando a interface ODBC. Isso pode ser útil para automatizar tarefas de banco de dados, integrar sua
-aplicação PHP com sistemas externos e muito mais.

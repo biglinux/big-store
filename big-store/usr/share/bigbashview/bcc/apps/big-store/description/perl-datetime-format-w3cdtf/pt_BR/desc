@@ -1,1 +1,0 @@
-Este programa permite que você formate e analise strings de data W3CDTF. Ele usa a biblioteca de data e hora do Perl para garantir precisão e facilidade de uso. Com ele, você pode converter facilmente strings de data em objetos de data e hora e vice-versa, tornando mais fácil trabalhar com dados de data e hora em seus scripts Perl. 

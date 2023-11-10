@@ -1,1 +1,0 @@
-Este programa em perl, chamado App::BorgRestore, é específico para recuperar caminhos de backups criados com o software borg. Ele é capaz de recuperar arquivos e pastas específicos a partir de backups existentes, tornando mais fácil encontrar e restaurar arquivos perdidos ou corrompidos. 

@@ -1,1 +1,0 @@
- Este programa permite que aplicações estendam um menu usando indicadores Ayatana em Unity, KDE ou Systray (32-bit) (biblioteca GTK+ 2).Ele usa a biblioteca lib32-libappindicator-gtk2 para fazer isso.  

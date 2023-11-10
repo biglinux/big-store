@@ -1,1 +1,0 @@
-wasm-bindgen é uma ferramenta que permite a integração de código escrito em JavaScript e Rust. Isso significa que você pode escrever partes de seu código em Rust, que é conhecido por sua performance e segurança, e ainda assim usar essas partes em seu projeto JavaScript. Isso pode trazer melhorias significativas  para a performance e segurança do seu projeto. 

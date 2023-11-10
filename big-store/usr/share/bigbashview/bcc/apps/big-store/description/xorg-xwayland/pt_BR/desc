@@ -1,1 +1,0 @@
-O xorg-xwayland é um programa que permite que os clientes do X sejam executados sob o Wayland. Isso significa que você pode usar aplicativos X antigos em um ambiente Wayland sem problemas. É uma solução para quem precisa usar esses aplicativos mas também quer usufruir dos benefícios do Wayland. 

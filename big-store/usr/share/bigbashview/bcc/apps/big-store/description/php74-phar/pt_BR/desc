@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.4 que permite que você crie, gerencie e use arquivos Phar. Phar é um formato de arquivo que permite
-que você agrupe vários arquivos em um único arquivo, semelhante a um arquivo .zip. Isso é útil para distribuir aplicativos PHP de maneira mais fácil e organizada.Com esse módulo instalado, 
-você pode criar arquivos Phar usando o comando phar, gerenciá-los e carregá-los em seu aplicativo PHP.

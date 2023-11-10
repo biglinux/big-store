@@ -1,1 +1,0 @@
-<p>python-sh é uma biblioteca que permite criar novos processos, conectar aos pipes de entrada/saída/erro e obter códigos de retorno. É destinado a substituir as  funcionalidades dos antigos métodos os.system e os.spawn* da biblioteca padrão. </p> 

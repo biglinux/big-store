@@ -1,4 +1,0 @@
-aria2p é uma ferramenta de linha de comando e biblioteca que permite interagir com um processo de daemon 
-aria2c através de JSON-RPC. Ele é útil para baixar arquivos de vários servidores simultaneamente, o que aumenta a velocidade de download. Ele também permite retomar downloads interrompidos 
-e gerenciar várias filas de download. Além disso, aria2p é altamente personalizável e oferece várias opções avançadas, como suporte para proxy, autenticação e criptografia. Se você precisa 
-baixar arquivos de forma rápida e eficiente, aria2p é uma ótima opção.

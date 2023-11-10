@@ -1,3 +1,0 @@
-Esta é uma biblioteca chamada libusrsctp que permite que os programas usem o protocolo SCTP sem precisar depender de uma
-implementação específica do sistema operacional. Ela é chamada de 'portável' porque pode ser usada em vários sistemas diferentes. O SCTP é um protocolo de camada de transporte que é similar
-ao TCP, mas tem algumas vantagens adicionais. Por exemplo, ele permite que os dados sejam divididos em várias 'streams' diferentes, o que pode ser útil em algumas situações.

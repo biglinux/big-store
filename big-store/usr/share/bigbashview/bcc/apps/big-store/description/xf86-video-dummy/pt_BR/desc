@@ -1,1 +1,0 @@
-Este é um driver de vídeo simulado para o X.org, ele é usado quando nenhum driver de vídeo específico está disponível para o sistema. Ele permite que o sistema inicialize sem problemas, mas não fornece suporte para a exibição de vídeo. 

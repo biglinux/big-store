@@ -1,1 +1,0 @@
-As bibliotecas de tempo de execução LLVM 11 são um conjunto de ferramentas que permitem a execução de programas compilados utilizando a versão 11 do compilador LLVM. Elas incluem bibliotecas como libc++ e libc++abi, além de outras ferramentas de suporte para garantir a compatibilidade e otimização do código gerado. 

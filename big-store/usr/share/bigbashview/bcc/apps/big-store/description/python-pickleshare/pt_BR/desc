@@ -1,1 +1,0 @@
-python-pickleshare é um pequeno banco de dados do tipo 'shelve' com uma API simples baseada em arquivos. Ele é baseado em pickle, então pode armazenar qualquer objeto que possa ser pickleado. Ele é pequeno e muito rápido, e é destinado para situações em que 'shelve' é muito lento ou onde você não quer lidar com um banco de dados real. 

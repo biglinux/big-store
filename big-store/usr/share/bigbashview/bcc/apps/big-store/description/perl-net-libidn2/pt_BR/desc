@@ -1,1 +1,0 @@
-Esse programa é uma ligação entre o Perl e o GNU Libidn2. Isso significa que ele permite que você use as funcionalidades do Libidn2 (um pacote de ferramentas para trabalhar com nomes de domínio internacionalizados) em seus scripts Perl. 

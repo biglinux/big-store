@@ -1,1 +1,0 @@
-Esse programa adiciona uma funcionalidade semelhante à do git, chamada 'você quis dizer', ao pacote python-click. Isso permite que o usuário receba sugestões de comandos possíveis quando digita algo incorretamente no terminal. 

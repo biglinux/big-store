@@ -1,3 +1,0 @@
-A biblioteca AQLPROFILE é uma extensão de suporte à API de tempo de execução AMD HSA. Ela permite aos desenvolvedores de
-aplicativos acessar recursos adicionais do dispositivo AMD, como a capacidade de medir o uso de recursos e otimizar o desempenho.A biblioteca é compatível com aplicativos escritos em C++ 
-e tem uma interface fácil de usar. Ela também pode ser usada em conjunto com outras bibliotecas de suporte à HSA, como a biblioteca AQL. 

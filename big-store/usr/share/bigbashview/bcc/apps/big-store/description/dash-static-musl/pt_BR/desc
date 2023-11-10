@@ -1,3 +1,0 @@
-Este é um programa chamado dash-static-musl. Ele é um shell, ou seja, é um programa que permite que você digite comandos no
-seu computador e execute tarefas. Ele é especial porque é muito pequeno e foi criado para ser compatível com a norma POSIX. Além disso, ele foi ligado estaticamente à biblioteca musl libc, 
-o que significa que ele não precisa de outras bibliotecas para funcionar.

@@ -1,3 +1,0 @@
- O módulo GD é uma extensão para o PHP 7.1 que permite a criação e manipulação de imagens. Ele inclui funções para desenhar formas,
-escrever texto e manipular imagens jpeg, gif e png. Com ele, é possível criar gráficos dinâmicos, como gráficos estatísticos, e também é possível redimensionar e editar imagens.Este
-módulo é uma ótima opção para desenvolvimento de aplicações web que precisem trabalhar com imagens, como sites de e-commerce ou redes sociais. 

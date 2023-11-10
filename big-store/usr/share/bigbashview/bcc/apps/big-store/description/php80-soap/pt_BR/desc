@@ -1,3 +1,0 @@
-Este programa é um módulo adicional para o PHP 8.0, específico para a comunicação SOAP. Ele permite que aplicações PHP se comuniquem
-com serviços SOAP de forma mais fácil e eficiente.SOAP é um protocolo para troca de mensagens entre sistemas, e é comumente usado para integração de aplicações. Com este módulo, o PHP 8.0
-agora tem suporte nativo para comunicação SOAP, sem a necessidade de bibliotecas adicionais.

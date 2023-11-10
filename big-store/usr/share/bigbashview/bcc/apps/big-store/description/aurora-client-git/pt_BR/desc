@@ -1,3 +1,0 @@
- Este é um programa chamado Aurora Client, ele é feito para trabalhar com o protocolo Wayland. Isso significa que ele é usado
-para ajudar outros programas feitos com o Qt a se comunicarem com o sistema operacional. Ele é especialmente útil se você estiver usando um sistema operacional que usa o Wayland como o
-sistema de gerenciamento de janelas. É um programa de código aberto e pode ser facilmente baixado e usado por qualquer pessoa.

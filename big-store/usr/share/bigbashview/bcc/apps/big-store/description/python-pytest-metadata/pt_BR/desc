@@ -1,1 +1,0 @@
-Esse é um plugin para acessar metadados de sessão de teste em python, especificamente para o framework pytest. Ele permite acessar informações como nome do arquivo, linha do teste, etc. Isso pode ser útil para rastreamento e relatórios de teste. 

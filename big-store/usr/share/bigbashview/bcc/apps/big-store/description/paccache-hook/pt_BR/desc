@@ -1,4 +1,0 @@
-Este programa é uma ferramenta útil para manter seu computador limpo e organizado. Ele funciona como um gancho
-configurável que remove automaticamente os pacotes antigos do cache do pacman, o gerenciador de pacotes do Arch Linux. Isso ajuda a liberar espaço em disco e garantir que você tenha sempre 
-a versão mais recente dos seus programas. O pacote paccache é usado para fazer a limpeza, e você pode configurar quantos pacotes antigos você deseja manter no cache, assim como outras
-opções de limpeza.

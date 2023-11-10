@@ -1,1 +1,0 @@
-distcc é um serviço de compilação distribuída para C, C++ e Objective-C. Ele permite que vários computadores trabalhem juntos para compilar um programa, tornando o processo mais rápido. Isso é útil quando você tem vários arquivos grandes para compilar ou quando seu computador sozinho não tem a capacidade de compilar  tudo rapidamente. 

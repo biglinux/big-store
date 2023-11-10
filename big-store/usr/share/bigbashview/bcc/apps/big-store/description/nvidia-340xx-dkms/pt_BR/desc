@@ -1,3 +1,0 @@
-Este é um pacote de drivers para placas gráficas NVIDIA, específico para a versão 340xx. Ele inclui os fontes do
-driver, que são usados para construir o driver em sistemas Linux. Ele é chamado de 'legacy branch', pois é uma versão antiga que não é mais atualizada pela NVIDIA, mas ainda é usada em
-alguns sistemas.Instalando esse pacote, você terá suporte para sua placa gráfica NVIDIA no sistema Linux.

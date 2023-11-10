@@ -1,2 +1,0 @@
-Este programa é um gancho (hook) para o gerenciador de pacotes pacman, que para e desabilita unidades do systemd antes de
-remover pacotes.

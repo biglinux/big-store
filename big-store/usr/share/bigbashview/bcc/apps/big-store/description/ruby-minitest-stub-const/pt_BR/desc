@@ -1,1 +1,0 @@
-Existe uma função semelhante chamada RSpecs stub_const, que cria constantes fictícias (stubs) para serem usadas durante o teste de um bloco específico no MiniTest.Isso é útil quando você deseja testar um código que depende de uma constante específica, mas não deseja afetar o valor real da constante durante o teste.  

@@ -1,3 +1,0 @@
- Litestream é um programa que replica arquivos de uma base de dados SQLite para o Amazon S3, permitindo que você tenha
-uma cópia de segurança dos seus dados em outro local. Isso é útil quando você precisa garantir a disponibilidade dos dados mesmo em caso de falhas no sistema. Além disso, também permite
-você acessar seus dados de qualquer lugar com uma conexão à internet. 

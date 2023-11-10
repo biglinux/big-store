@@ -1,1 +1,0 @@
-Este programa permite capturar a saída padrão (STDOUT) e a saída de erro (STDERR) de códigos Perl, subprocessos ou bibliotecas XS. Isso pode ser útil para debugar seu código ou armazenar informações geradas pelo programa para uso posterior. 

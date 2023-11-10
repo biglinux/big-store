@@ -1,2 +1,0 @@
-Este programa fornece descrições de protocolo para o XML-XCB. Ele é específico para o ambiente de desenvolvimento
-Mingw-w64.Ele permite a utilização de recursos do XCB (X C Binding) com o uso de descrições em XML, tornando mais fácil a implementação de aplicações gráficas com o X Window System.

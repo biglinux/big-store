@@ -1,2 +1,0 @@
- lazydocker é uma interface de usuário simples para gerenciar contêineres do docker e docker-compose, escrita em Go 
-com a biblioteca gocui. Com ele, você pode facilmente gerenciar seus contêineres e aplicações sem precisar digitar comandos complexos no terminal.

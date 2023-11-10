@@ -1,3 +1,0 @@
- littlefs-fuse é um programa que permite acessar o sistema de arquivos littlefs em user-space, através do uso de um wrapper FUSE. 
-Isso significa que você pode acessar os arquivos armazenados no littlefs como se estivessem em um disco local, sem precisar de drivers específicos ou configurações adicionais. Além disso, o
-littlefs-fuse é uma ferramenta muito útil para testar e depurar o littlefs sem precisar de hardware específico.

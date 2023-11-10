@@ -1,2 +1,0 @@
-Esse programa permite que você use o comando makepkg sem precisar digitar a senha de administrador (sudo). Ele faz isso
-usando o comando su ao invés de sudo. Isso é muito conveniente para quem usa o aplicativo Termux.

@@ -1,3 +1,0 @@
-Esta é uma biblioteca chamada mpfr-static, ela ajuda a trabalhar com números de ponto flutuante de
-precisão múltipla. Isso é útil quando precisamos trabalhar com números muito grandes ou muito pequenos, e precisamos de uma precisão maior do que a oferecida pelos números de ponto
-flutuante comuns. Com esta biblioteca, é possível trabalhar com números grandes e precisos, sem preocupações de perda de precisão.

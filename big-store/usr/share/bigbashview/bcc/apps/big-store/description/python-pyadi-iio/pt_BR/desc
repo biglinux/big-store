@@ -1,1 +1,0 @@
-Esse programa fornece interfaces em Python para trabalhar com hardware ADI (Analog Devices Inc.) que tenha drivers IIO (Industrial Input/Output). Isso permite que você faça comunicação e controle desse hardware de maneira simples e fácil, usando a linguagem Python.  

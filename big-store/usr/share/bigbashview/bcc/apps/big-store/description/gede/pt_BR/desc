@@ -1,3 +1,0 @@
-Este programa é uma interface gráfica (GUI) para o GDB. Ele foi escrito utilizando a biblioteca Qt. Isso significa que ele é fácil
-de usar e tem uma aparência moderna. Com este programa, você pode navegar facilmente pelo código e depurar seus programas sem precisar digitar comandos no terminal. Ele também oferece
-recursos adicionais, como a capacidade de salvar configurações de depuração e visualizar variáveis ​​e pilhas de chamadas.

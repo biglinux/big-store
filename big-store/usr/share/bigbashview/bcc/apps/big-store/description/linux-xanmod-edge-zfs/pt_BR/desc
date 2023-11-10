@@ -1,1 +1,0 @@
-Este programa adiciona suporte para o Sistema de Arquivos Zettabyte no Linux. Ele inclui módulos do kernel específicos que permitem ao sistema operacional acessar e gerenciar arquivos armazenados no ZFS. Este é um pacote de código aberto, desenvolvido para funcionar com a distribuição Linux Xanmod Edge. 

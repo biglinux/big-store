@@ -1,1 +1,0 @@
-lua51-dbi é uma biblioteca que permite acessar bancos de dados de forma fácil e rápida usando o Lua. Ela fornece uma interface padronizada para vários sistemas de gerenciamento de banco de dados, incluindo MySQL, PostgreSQL e SQLite. Com ela, é possível realizar operações como inserir, atualizar, recuperar e excluir dados de forma simples e eficiente. 

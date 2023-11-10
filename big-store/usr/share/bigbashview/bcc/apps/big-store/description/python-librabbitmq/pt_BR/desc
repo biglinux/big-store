@@ -1,1 +1,0 @@
-Este programa é um cliente AMQP (Advanced Message Queuing Protocol) que usa a biblioteca rabbitmq-c em Python para se comunicar com servidores AMQP. Ele permite que você envie e receba mensagens de forma rápida e eficiente, além de gerenciar filas e canais de comunicação. 

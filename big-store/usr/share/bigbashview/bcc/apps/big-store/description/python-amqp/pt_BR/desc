@@ -1,1 +1,0 @@
-Este é um cliente AMQP de baixo nível para Python. Ele é um fork do amqplib, um outro cliente AMQP para Python.AMQP significa Advanced Message Queuing Protocol, que é um protocolo usado para trocar mensagens entre sistemas de computador. Esse cliente permite que você se comunique com sistemas que usam esse protocolo, enviando e recebendo mensagens. 

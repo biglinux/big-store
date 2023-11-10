@@ -1,1 +1,0 @@
-O python-mechanize é uma biblioteca em Python que permite a navegação web programática com estado. Isso significa que você pode automatizar tarefas comuns de navegação, como preencher formulários e seguir links, sem precisar se preocupar em gerenciar cookies ou sessões. É uma ferramenta útil  para testes automatizados e raspagem de dados da web. 

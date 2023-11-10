@@ -1,3 +1,0 @@
-Este programa é chamado de 'ttyescape' e é um daemon. O que isso significa é que ele é um tipo de programa que fica rodando no seu
-computador e esperando por comandos. O objetivo desse programa específico é permitir que os usuários escapem para um TTY, que é uma maneira de acessar a linha de comando do seu computador. 
-Isso pode ser útil para resolver problemas ou fazer coisas avançadas que não podem ser feitas através da interface gráfica normal do seu sistema operacional.

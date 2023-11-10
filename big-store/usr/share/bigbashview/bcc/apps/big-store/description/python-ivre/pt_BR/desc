@@ -1,3 +1,0 @@
-O python-ivre é um conjunto de ferramentas para ajudar a descobrir dispositivos e informações em uma rede. Ele usa
-programas como o Nmap, Masscan, Zgrab2, Nuclei, httpx, Zeek (Bro), Argus e Netflow para coletar informações. Com ele, você pode criar suas próprias alternativas a ferramentas como o Shodan 
-e GreyNoise, executar seu próprio serviço de DNS passivo e muito mais! (biblioteca)

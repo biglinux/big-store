@@ -1,5 +1,0 @@
-O Apache Maven é uma ferramenta de gerenciamento de projetos de software. Ele ajuda você a gerenciar as dependências do seu projeto e
-automatizar tarefas comuns, como compilação e implantação. Para começar a usar o Maven, você primeiro precisa baixá-lo e instalá-lo em seu computador. Em seguida, crie um novo projeto
-usando a estrutura de pastas padrão do Maven e adicione suas dependências no arquivo pom.xml. Você também pode usar o Maven para automatizar tarefas comuns, como compilação e implantação do
-seu projeto. Isso é feito através de comandos do Maven, como 'mvn compile' e 'mvn deploy'. A documentação do Apache Maven fornece mais informações sobre como usar essa ferramenta e
-personalizá-la de acordo com suas necessidades de projeto. 

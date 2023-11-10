@@ -1,4 +1,0 @@
-Este é um módulo adicional para a versão 7.3 do PHP, que adiciona várias funções para verificar o tipo de caracteres. Isso inclui
-verificações como se um caractere é uma letra ou um número, entre outras. Com este módulo, você pode fazer validações mais precisas e seguras em seu código.Por exemplo, você pode usar as
-funções fornecidas pelo módulo para garantir que um campo de formulário contenha somente números, ou para verificar se uma string contém somente letras. Isso pode ser útil em várias
-situações, como validação de dados de formulários, verificação de senhas fortes, e assim por diante.

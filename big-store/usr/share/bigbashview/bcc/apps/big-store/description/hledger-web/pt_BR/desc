@@ -1,1 +1,0 @@
- hledger-web é uma interface web para o sistema de contabilidade hledger. Ele permite que os usuários visualizem e manipulem seus dados hledger usando um navegador da web, em vez da interface de linha de comando. Isso o torna mais acessível para usuários não técnicos e permite uma fácil colaboração em contas compartilhadas.  

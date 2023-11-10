@@ -1,1 +1,0 @@
-O xorg-xdm é um gerenciador de exibição para sistemas baseados no X Window System. Ele é responsável por iniciar uma sessão gráfica no sistema, permitindo que o usuário entre com suas credenciais e inicie uma sessão. Ele também fornece um mecanismo para alternar entre várias sessões e usuários sem precisar sair completamente do sistema.  

@@ -1,1 +1,0 @@
-lib32-libtiff é uma biblioteca para manipulação de imagens no formato TIFF (Tagged Image File Format) em sistemas de 32-bit. Ela permite que você abra, edite e salve arquivos TIFF de várias páginas e com diferentes configurações de cor. Além disso, também oferece suporte para compressão de imagem, como LZW e JPEG. 

@@ -1,1 +1,0 @@
-lua-dbi é uma biblioteca que permite que você se conecte a vários bancos de dados diferentes, como MySQL,  PostgreSQL e SQLite, e execute comandos SQL usando a linguagem Lua. Ele é fácil de usar e possui uma sintaxe simples para acessar e manipular seus dados. 

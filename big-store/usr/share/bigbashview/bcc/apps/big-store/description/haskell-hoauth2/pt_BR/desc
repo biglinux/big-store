@@ -1,1 +1,0 @@
-Este programa é um cliente de autenticação OAuth2 escrito em Haskell. Ele permite que você faça login em contas de serviços on-line usando suas credenciais, sem precisar compartilhar sua senha com o aplicativo. Ele é seguro e fácil de usar, e é uma ótima opção para qualquer projeto que precise de autenticação de usuário. 

@@ -1,1 +1,0 @@
-O xorg-mkfontscale é um programa que cria um índice de arquivos de fontes escaláveis para o sistema X. Ele é utilizado para garantir que as fontes sejam exibidas corretamente em diferentes tamanhos na tela. Com ele, é possível criar um índice de fontes escaláveis, garantindo que as fontes sejam exibidas corretamente independentemente do tamanho da tela.  

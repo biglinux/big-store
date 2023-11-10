@@ -1,1 +1,0 @@
-wayvnc é um servidor VNC que permite acessar remotamente a área de trabalho gráfica de um compositor Wayland que está usando a biblioteca wlroots. Com wayvnc, você pode controlar sua área de trabalho Wayland de outro computador ou dispositivo, mesmo que ele esteja executando um sistema operacional diferente. Isso pode ser útil para trabalho remoto ou solução de problemas. 

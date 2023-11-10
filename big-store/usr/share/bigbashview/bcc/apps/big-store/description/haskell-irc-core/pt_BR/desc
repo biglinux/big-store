@@ -1,1 +1,0 @@
-Essa é a biblioteca principal para o programa glirc. Ela foi desenvolvida em Haskell e é responsável por lidar com as principais  funcionalidades do IRC, como conexão a canais, envio de mensagens e gerenciamento de usuários. 

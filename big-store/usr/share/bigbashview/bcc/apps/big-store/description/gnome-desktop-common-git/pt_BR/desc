@@ -1,3 +1,0 @@
-A biblioteca gnome-desktop-common-git é uma biblioteca comum que possui uma API que é utilizada por vários módulos do 
-GNOME. Ela contém arquivos comuns que são compartilhados entre esses módulos, facilitando a criação de aplicativos que usam as funcionalidades do GNOME.Essa biblioteca é desenvolvida como
-um projeto Git, o que permite que os desenvolvedores contribuam com o seu código e corrijam eventuais bugs.

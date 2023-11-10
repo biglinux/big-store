@@ -1,1 +1,0 @@
-Este programa permite que você converta facilmente entre ByteString e Vector.Storable sem precisar copiar os dados. Isso é útil quando você quer trabalhar com grandes quantidades de dados e deseja evitar desperdícios de memória. 

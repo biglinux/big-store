@@ -1,4 +1,0 @@
-Este é um programa de linha de comando que ajuda a excluir ramificações mescladas no Git. Ele é útil para manter o seu 
-repositório limpo e organizado, removendo as ramificações que já foram mescladas com sucesso na ramificação principal. É fácil de usar e economiza tempo ao evitar que você precise excluir
-manualmente cada ramificação.Com este programa, você pode verificar rapidamente quais ramificações foram mescladas e excluí-las com um único comando. Além disso, ele também permite que você
-exclua ramificações específicas selecionadas ou todas as ramificações mescladas de uma só vez. 

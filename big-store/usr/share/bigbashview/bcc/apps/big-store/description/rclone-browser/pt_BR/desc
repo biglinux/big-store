@@ -1,4 +1,0 @@
- Um programa fácil de usar para navegar e gerenciar seus arquivos no armazenamento nuvem, com suporte para diversos
-provedores, como o Google Drive, Dropbox e Amazon S3. Ele é baseado no comando rclone, mas com uma interface gráfica amigável. É compatível com várias plataformas, como Windows, Linux e
-MacOS.Com o rclone-browser, você pode copiar, mover, renomear, excluir arquivos e pastas e fazer upload de arquivos novos. Você também pode criar novas contas de armazenamento nuvem,
-gerenciar as contas existentes e configurar diferentes opções de sincronização. 

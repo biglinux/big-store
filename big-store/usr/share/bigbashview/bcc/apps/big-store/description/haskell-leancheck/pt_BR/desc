@@ -1,1 +1,0 @@
-O haskell-leancheck é uma biblioteca para testar propriedades em seu código usando uma abordagem baseada em enumeração. Ele gera automaticamente casos de teste para verificar se suas funções possuem comportamentos esperados e detecta erros rapidamente. 

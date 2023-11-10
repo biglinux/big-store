@@ -1,1 +1,0 @@
-cargo-geiger é uma ferramenta de linha de comando que detecta o uso de Rust não seguro em uma caixa de Rust e suas dependências. Ele pode ser usado para identificar rapidamente áreas de código que podem precisar de revisão ou refatoração para melhorar a segurança. A ferramenta foi projetada para ser fácil de usar e integrar na sua rotina de desenvolvimento. 

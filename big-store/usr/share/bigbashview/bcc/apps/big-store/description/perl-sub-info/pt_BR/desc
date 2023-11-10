@@ -1,1 +1,0 @@
- Ferramenta para inspecionar e obter informações sobre subrotinas em scripts escritos em Perl. Ele permite verificar o nome, os argumentos e o escopo de uma subrotina, bem como seu comportamento e como ela é chamada em um script. Isso pode ser útil para depuração e manutenção de código.  

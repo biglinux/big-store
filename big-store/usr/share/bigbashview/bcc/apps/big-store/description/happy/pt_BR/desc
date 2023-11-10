@@ -1,1 +1,0 @@
-O happy é um gerador de analisadores sintáticos para a linguagem Haskell. Ele permite que você escreva a gramática da sua linguagem em formato BNF e gera o código para analisar a linguagem. Isso é útil para quem está criando um compilador ou interpretador para uma linguagem personalizada. 

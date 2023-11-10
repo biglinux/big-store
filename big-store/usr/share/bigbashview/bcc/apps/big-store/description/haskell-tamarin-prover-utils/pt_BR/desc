@@ -1,1 +1,0 @@
-Essa biblioteca é projetada para ser usada com o provador Tamarin, um programa usado para verificar a segurança de protocolos criptográficos. Ela fornece uma série de funções úteis para trabalhar com o provador, como carregar arquivos de protocolos, executar verificações e exibir resultados. Ela foi  desenvolvida em Haskell, uma linguagem de programação funcional popular. 

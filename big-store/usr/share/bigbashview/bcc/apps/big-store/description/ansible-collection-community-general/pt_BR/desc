@@ -1,4 +1,0 @@
-A coleção geral de comunidade Ansible Galaxy é um conjunto de módulos Ansible criados e compartilhados pela
-comunidade. Esses módulos podem ser usados para automatizar tarefas em diferentes sistemas operacionais e aplicativos. Com a coleção geral de comunidade Ansible Galaxy, é possível
-aproveitar a sabedoria e as melhores práticas da comunidade para automatizar tarefas de forma rápida e fácil.Esta coleção é mantida pela comunidade e pode ser facilmente instalada usando o 
-comando 'ansible-galaxy collection install community.general'. Depois de instalada, os módulos podem ser usados em seus playbooks Ansible como qualquer outro módulo.

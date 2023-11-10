@@ -1,4 +1,0 @@
-Weasis é um visualizador de imagens DICOM com uma arquitetura altamente modular. Ele é capaz de abrir arquivos de imagem DICOM 
-e exibir várias informações sobre elas, como o nome do paciente, o número de série da imagem e o tipo de imagem. Além disso, ele possui ferramentas de análise de imagem, como medição de
-distâncias e áreas, para ajudar os médicos e outros profissionais da saúde a avaliar as imagens. Ele é fácil de usar e tem uma interface amigável para que qualquer pessoa possa visualizar
-as imagens DICOM.

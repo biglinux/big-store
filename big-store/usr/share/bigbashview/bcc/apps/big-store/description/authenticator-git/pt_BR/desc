@@ -1,3 +1,0 @@
- Este programa é chamado authenticator-git e ele é usado para criar códigos de autenticação de dois fatores (2FA) no sistema
-operacional GNOME. Esses códigos são usados para garantir que somente você tenha acesso às suas contas, mesmo que alguém tenha sua senha. Ele funciona adicionando outra camada de segurança,
-além da senha, para garantir que somente você possa acessar suas contas. 

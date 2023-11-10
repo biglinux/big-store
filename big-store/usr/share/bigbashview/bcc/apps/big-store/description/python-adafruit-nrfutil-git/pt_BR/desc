@@ -1,4 +1,0 @@
-Essa ferramenta é uma versão modificada do nrfutil 0.5.x, desenvolvido pela Nordic. Ela foi projetada especificamente 
-para ser usada com o Adafruit Feather nRF52, que é um dispositivo de comunicação sem fio. Com essa ferramenta, você pode facilmente configurar e gerenciar seu dispositivo Adafruit Feather
-nRF52, sem precisar se preocupar com os detalhes técnicos da comunicação sem fio. Ele é escrito em Python e é open-source, o que significa que você pode contribuir para o desenvolvimento
-dele.

@@ -1,2 +1,0 @@
-Este programa é uma alternativa ao Make e é usado para gerenciar tarefas. Ele é instalado como go-task para evitar
-conflitos com o programa taskwarrior.

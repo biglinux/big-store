@@ -1,1 +1,0 @@
-A biblioteca Fcitx5 Qt é uma biblioteca que fornece uma implementação da classe IMModule, que é necessária para usar o framework de método de entrada fcitx em aplicativos baseados em Qt. Ele permite que os usuários insiram vários idiomas em um programa baseado em Qt usando o fcitx. 

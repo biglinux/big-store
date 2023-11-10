@@ -1,3 +1,0 @@
- O kernel Linux Mainline é o núcleo principal do sistema operacional Linux. Ele gerencia todas as tarefas importantes do sistema, como 
-acesso a memória, entrada e saída de dispositivos e gerenciamento de processos. Além disso, ele também inclui módulos adicionais que podem ser carregados e descarregados dinamicamente para 
-adicionar novas funcionalidades ao sistema. 

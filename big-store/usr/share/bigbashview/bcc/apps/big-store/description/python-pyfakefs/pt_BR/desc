@@ -1,1 +1,0 @@
-pyfakefs é uma biblioteca em Python que permite criar um sistema de arquivos falso. Ele simula os módulos do sistema de arquivos do Python, permitindo que você teste seus aplicativos e scripts sem precisar acessar arquivos reais. 

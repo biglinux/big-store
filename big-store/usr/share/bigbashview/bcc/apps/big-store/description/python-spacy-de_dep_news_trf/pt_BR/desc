@@ -1,2 +1,0 @@
-Essa ferramenta é uma pipeline para processamento de linguagem para o alemão que utiliza o modelo
-BERT. Ela inclui componentes como transformador, tagger, morphologizer, parser e lemmatizer (lemmatizer treinável). O objetivo é ajudar a processar e entender textos escritos em alemão.

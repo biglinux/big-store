@@ -1,5 +1,0 @@
-Esta é uma biblioteca de tempo de execução de container desenvolvida
-pela NVIDIA. Ela inclui ferramentas de linha de comando que ajudam a gerenciar containers que rodam aplicativos NVIDIA. Isso permite que você execute aplicativos de GPU de forma segura e
-eficiente dentro de um container, sem precisar se preocupar com configurações de driver complexas. Essas ferramentas incluem comandos para verificar a compatibilidade de driver, instalar
-drivers, e gerenciar a alocação de recursos de GPU para diferentes aplicativos em execução dentro do container. Elas são projetadas para ser simples e fáceis de usar, mesmo para usuários
-sem conhecimento técnico avançado. 

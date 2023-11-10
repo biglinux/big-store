@@ -1,3 +1,0 @@
-Este programa serve para verificar a integridade de arquivos PNG, JNG e MNG. Ele faz isso checando os
-códigos de verificação (CRCs) e descompactando os dados da imagem.Isso é importante para garantir que as imagens estejam intactas e possam ser abertas corretamente. Se houver algum
-problema com o arquivo, o programa informará o erro.

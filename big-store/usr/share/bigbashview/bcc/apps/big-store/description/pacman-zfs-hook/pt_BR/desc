@@ -1,4 +1,0 @@
- Esse programa é um gancho do Pacman que permite criar snapshots do ZFS durante as transações do Pacman. Isso significa
-que, a cada vez que você instalar ou remover um pacote, um snapshot será criado automaticamente do sistema de arquivos atual. Isso é útil para restaurar o sistema para um estado anterior em
-caso de problemas ou erros.O programa é fácil de usar, basta instalá-lo e ele se encarregará de criar os snapshots automaticamente. Além disso, você pode configurar quantos snapshots
-deseja manter e quais pastas deseja incluir ou excluir do snapshot.Ele é uma ferramenta valiosa para garantir a segurança do seu sistema e fácil de usar. 

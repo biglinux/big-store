@@ -1,2 +1,0 @@
- python-mmcv é uma biblioteca de visão computacional desenvolvida pela OpenMMLab. Ela possui versão para computador sem
-suporte a operações CUDA. É usada para facilitar o desenvolvimento de aplicações de visão computacional em Python. 

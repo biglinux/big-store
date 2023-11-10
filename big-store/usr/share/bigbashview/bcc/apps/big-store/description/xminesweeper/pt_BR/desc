@@ -1,4 +1,0 @@
-Este é um jogo de campo minado para o sistema X Window. O objetivo é encontrar todas as minas escondidas no campo sem
-detoná-las. O jogador clica em células para abri-las e revelar o que está escondido debaixo. Se houver uma mina, ela explode e o jogo acaba. Se não houver, o jogador verá um número que
-indica quantas minas estão nas células adjacentes. Usando essas dicas, o jogador pode marcar as células com bandeiras para indicar onde ele suspeita que as minas estejam. O jogo termina
-quando o jogador encontra todas as minas ou quando ele detonar uma.

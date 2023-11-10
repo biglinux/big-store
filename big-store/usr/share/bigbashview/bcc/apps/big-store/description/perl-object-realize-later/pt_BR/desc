@@ -1,1 +1,0 @@
-Este é um módulo do Perl/CPAN chamado Object::Realize::Later. Ele permite que a construção de dados reais seja adiada até que seja usada. Isso pode ser útil em várias situações, como economizar recursos de processamento ou memória. É importante notar que este módulo requer conhecimentos avançados de Perl para ser usado corretamente.  

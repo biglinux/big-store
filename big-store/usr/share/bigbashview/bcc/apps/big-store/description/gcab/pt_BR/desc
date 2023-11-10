@@ -1,1 +1,0 @@
-gcab é uma biblioteca GObject para criar arquivos de gabinete. Ele permite que você crie, modifique e  extraia arquivos de gabinete no formato MS-CAB, um tipo de arquivo compactado utilizado principalmente no Windows. Ele é fácil de usar e possui uma interface simples, mas poderosa, para lidar com esses arquivos. 

@@ -1,3 +1,0 @@
-Este é um programa que ajuda a evitar a tela preta ao usar o gerenciador de janelas Xmonad. Ele faz isso recompilando
-automaticamente a configuração do Xmonad sempre que você instala ou atualiza algum pacote no seu sistema.Isso garante que sua configuração do Xmonad sempre esteja atualizada e funcionando
-corretamente, sem que você precise se preocupar em fazer isso manualmente.

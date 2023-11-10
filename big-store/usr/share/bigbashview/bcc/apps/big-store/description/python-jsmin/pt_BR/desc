@@ -1,3 +1,0 @@
-Este programa tem como objetivo minificar código JavaScript. Isso significa remover espaços em branco, comentários e outros
-caracteres desnecessários do código, tornando-o menor em tamanho. Isso pode ajudar a tornar o carregamento de páginas web mais rápido, pois os arquivos são menores e levam menos tempo para 
-serem baixados pelo navegador. Ele é escrito em Python e usa a biblioteca jsmin.

@@ -1,1 +1,0 @@
-A biblioteca lib32-libxxf86vm é uma extensão para o modo de vídeo do X11 XFree86, específica para sistemas de 32-bits. Ela permite o uso de recursos avançados, como configurações de tela dividida e suporte para telas widescreen. Esta biblioteca é geralmente utilizada em sistemas Linux e Unix. 

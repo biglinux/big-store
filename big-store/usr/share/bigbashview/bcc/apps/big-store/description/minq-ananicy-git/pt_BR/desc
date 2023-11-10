@@ -1,5 +1,0 @@
-Este programa é um fork de outro chamado Ananicy, ele tem suporte para linha de comando e regras atualizadas com mais
-frequência. Ele é projetado para gerenciar os recursos do seu sistema Linux, como CPU e memória, para garantir que seus outros programas funcionem de forma suave. Ele é especialmente útil
-em sistemas com poucos recursos, como computadores antigos ou dispositivos móveis.Ele é baseado na linguagem de programação Python e pode ser facilmente instalado e configurado para atender
-às suas necessidades específicas. Ele também suporta várias regras para diferentes tipos de programas, para que você possa garantir que os programas mais importantes tenham prioridade de
-recursos.

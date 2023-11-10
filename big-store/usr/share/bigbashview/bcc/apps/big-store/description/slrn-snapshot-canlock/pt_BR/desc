@@ -1,3 +1,0 @@
-Este é um programa chamado slrn-snapshot-canlock, que é um leitor de notícias Usenet/NNTP fácil de usar. Ele é usado 
-para ler e responder às mensagens de grupos de notícias. É uma versão de desenvolvimento e possui a capacidade de cancelar mensagens enviadas. Ele é feito para ser usado em modo texto e é
-thread-safe, o que significa que você pode ler várias conversas ao mesmo tempo.

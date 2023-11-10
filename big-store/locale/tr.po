@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Dizine erişirken hata oluştu:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Yerel programlar işletim sistemiyle daha sağlam bir tümleştirmeye sahiptir.<br>Kullanıma sunulmadan "
+"önce kapsamlı testlere tabi tutulurlar ve daha fazla güvenilirlik sağlarlar.<br>Bu nedenlerden "
+"dolayı, yerel bir programın seçilmesi, özellikle istenen yazılım birden fazla kurulum seçeneğinde "
+"mevcut olduğunda önerilir.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Sistem bilgilerini toplarken lütfen bekleyin. Bu birkaç dakika sürebilir..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Sistemin kurulduğu yaklaşık tarih:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store zaten çalışıyor."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Yerel programlar işletim sistemiyle daha sağlam bir tümleştirmeye sahiptir.<br>Kullanıma sunulmadan "
+"önce kapsamlı testlere tabi tutulurlar ve daha fazla güvenilirlik sağlarlar.<br>Bu nedenlerden "
+"dolayı, yerel bir program seçmek, özellikle istenen yazılım olduğunda önerilir<br>çeşitli kurulum "
+"seçeneklerinde mevcuttur.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Sunucu veritabanından yeni paketler indirme"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Parametre olarak geçirilen paket yok"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store'un başka bir örneği zaten çalışıyor."
+
+msgid "Procurar aplicativo"
+msgstr "Uygulamaya göz atın"
+
+msgid "Editores de texto linha de comando"
+msgstr "Komut satırı metin düzenleyicileri"
+
+msgid "Multimidia"
+msgstr "Multimedya"
+
+msgid "Carta"
+msgstr "Mektup"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Linux Donanımında cihaz bilgilerini görüntüleme"
+
+msgid "Processador"
+msgstr "Işlemci"
+
+msgid "Placa mãe"
+msgstr "Anakart"
+
+msgid "Memória"
+msgstr "Bellek"
+
+msgid "Swap Memória Virtual"
+msgstr "Sanal Bellek Takası"
+
+msgid "Placa de vídeo"
+msgstr "Ekran Kartı"
+
+msgid "Áudio"
+msgstr "Ses"
+
+msgid "Rede"
+msgstr "Ağ"
+
+msgid "Conexões de Rede"
+msgstr "Ağ Bağlantıları"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB aygıtları ve bağlantıları"
+
+msgid "Portas PCI"
+msgstr "PCI bağlantı noktaları"
+
+msgid "Bateria"
+msgstr "Pil"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Depolama Aygıtları"
+
+msgid "Partições montadas"
+msgstr "Takılı bölümler"
+
+msgid "Partições desmontadas"
+msgstr "Bağlanmamış bölümler"
+
+msgid "Dispositivos lógicos"
+msgstr "Mantıksal aygıtlar"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Sistem Bilgisi"
+
+msgid "Repositórios"
+msgstr "Depoları"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Sıcaklık"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Flatpak programlarının sistem menüsünde görünmesi için, oturumu kapatın ve tekrar oturum açın."
+
+msgid "Atualizado em"
+msgstr "Güncelleme tarihi"
+
+msgid "Sobre"
+msgstr "Üzerine"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Çevrimiçi paketlerin açıklamasının çevirisi"

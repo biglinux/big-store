@@ -792,3 +792,138 @@ msgstr "Відображає лише вибрані програми<br>і пр
 
 msgid "Vídeo"
 msgstr "Відео"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Помилка доступу до каталогу:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Рідні програми мають більш надійну інтеграцію з операційною системою.<br>Вони проходять ретельне "
+"тестування, перш ніж стати доступними, забезпечуючи більшу надійність.<br>З цих причин вибір "
+"власної програми особливо рекомендується, коли бажане програмне забезпечення доступне в декількох "
+"варіантах встановлення.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Будь ласка, зачекайте, поки ми зберемо системну інформацію. Це може зайняти кілька хвилин..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Приблизна дата встановлення системи:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store вже працює."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Рідні програми мають більш надійну інтеграцію з операційною системою.<br>Вони проходять ретельне "
+"тестування, перш ніж стати доступними, забезпечуючи більшу надійність.<br>З цих причин вибір рідної "
+"програми особливо рекомендується, коли потрібне програмне забезпечення<br>випускається в декількох "
+"варіантах установки.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Завантаження нових пакетів з бази даних сервера"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Жодні пакети не передані як параметри"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Ще один екземпляр Big-Store вже працює."
+
+msgid "Procurar aplicativo"
+msgstr "Переглянути додаток"
+
+msgid "Editores de texto linha de comando"
+msgstr "Текстові редактори командного рядка"
+
+msgid "Multimidia"
+msgstr "Мультимедіа"
+
+msgid "Carta"
+msgstr "Буква"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Перегляд інформації про пристрій на обладнанні Linux"
+
+msgid "Processador"
+msgstr "Процесор"
+
+msgid "Placa mãe"
+msgstr "Материнська плата"
+
+msgid "Memória"
+msgstr "Пам'ять"
+
+msgid "Swap Memória Virtual"
+msgstr "Віртуальна заміна пам'яті"
+
+msgid "Placa de vídeo"
+msgstr "відеокарта"
+
+msgid "Áudio"
+msgstr "Аудіо"
+
+msgid "Rede"
+msgstr "Мережа"
+
+msgid "Conexões de Rede"
+msgstr "Мережеві підключення"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-пристрої та підключення"
+
+msgid "Portas PCI"
+msgstr "Порти PCI"
+
+msgid "Bateria"
+msgstr "Батарея"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Пристрої зберігання даних"
+
+msgid "Partições montadas"
+msgstr "Змонтовані перегородки"
+
+msgid "Partições desmontadas"
+msgstr "Незмонтовані розділи"
+
+msgid "Dispositivos lógicos"
+msgstr "Логічні пристрої"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Інформація про систему"
+
+msgid "Repositórios"
+msgstr "Сховищ"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Температура"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Щоб програми Flatpak відображалися в системному меню, вийдіть із системи та ввійдіть знову."
+
+msgid "Atualizado em"
+msgstr "Оновлено"
+
+msgid "Sobre"
+msgstr "На"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Переклад опису онлайн-пакетів"

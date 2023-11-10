@@ -1,5 +1,0 @@
-A ferramenta TruffleHog é uma ferramenta poderosa que ajuda a encontrar segredos, como 
-chaves privadas e credenciais, escondidos em seu código. Ela varre seus repositórios de código em busca de padrões de dados sensíveis, como senhas e tokens, e fornece relatórios detalhados 
-sobre quais informações foram encontradas e onde elas foram encontradas. Isso é útil para garantir a segurança de sua aplicação e proteger seus dados sensíveis.Com TruffleHog, você pode
-facilmente verificar se há informações sensíveis expostas em seus repositórios de código e tomar medidas para corrigi-las antes que elas possam ser exploradas por terceiros
-mal-intencionados. Além disso, a ferramenta é fácil de usar e pode ser integrada a outras ferramentas de segurança de código existentes para ajudar a garantir a segurança de sua aplicação.

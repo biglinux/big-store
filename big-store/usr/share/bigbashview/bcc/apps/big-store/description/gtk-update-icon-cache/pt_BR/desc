@@ -1,1 +1,0 @@
-O gtk-update-icon-cache é uma ferramenta de linha de comando que atualiza o cache de ícones para temas de ícones GTK+. O cache é usado para acelerar o processo de pesquisa de ícones em aplicativos GTK+. A atualização do cache é necessária após a instalação de novos ícones ou após a modificação de ícones existentes. A ferramenta deve ser executada com permissões de root. 

@@ -1,1 +1,0 @@
-Este programa é um backend para o Django-Haystack, usando o Xapian. Ele permite aos usuários realizarem buscas avançadas em seus dados usando o poderoso mecanismo de busca Xapian. Ele é escrito em Python e é fácil de usar. 

@@ -1,2 +1,0 @@
-O ivre-web-git é uma ferramenta baseada em Nmap, Masscan, Zgrab2, Nuclei, httpx, Zeek (Bro), Argus e Netflow. Ele
-permite que você construa suas próprias alternativas ao Shodan e GreyNoise, rode seu serviço de DNS passivo e muito mais! Ele é uma aplicação web.

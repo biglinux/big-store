@@ -1,1 +1,0 @@
-O módulo de extensão python-pylibacl permite a você manipular as listas de controle de acesso (ACLs) POSIX.1e. As ACLs são usadas para controlar o acesso a arquivos e pastas em sistemas operacionais que suportam essa funcionalidade. Com esse módulo, é possível ler e modificar as ACLs de arquivos e pastas, permitindo que você ajuste as permissões de acesso de forma precisa. 

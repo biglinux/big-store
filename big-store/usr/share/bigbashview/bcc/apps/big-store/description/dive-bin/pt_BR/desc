@@ -1,3 +1,0 @@
-Você sabia que é possível explorar cada camada de uma imagem Docker? Com o programa dive-bin, isso é possível! Ele é uma
-ferramenta útil para entender como suas imagens Docker são construídas e o que cada camada contém. Além disso, você pode comparar diferentes versões de uma imagem e verificar as diferenças 
-entre elas.Se você trabalha com Docker, ou está apenas curioso sobre como funciona, o dive-bin é uma excelente escolha para explorar as camadas de suas imagens.

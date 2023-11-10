@@ -1,3 +1,0 @@
-Esse programa é um ambiente de execução completo para o Java 11, desenvolvido pela JetBrains. Ele inclui uma correção
-especial que permite que a janela de entrada de texto (IME) siga o cursor enquanto você digita.Isso significa que, ao digitar em um campo de texto em uma janela, a janela de IME se moverá
-junto com o cursor para tornar a digitação mais fácil e precisa.

@@ -1,5 +1,0 @@
-Esse programa é uma ferramenta de validação e testes automáticos para o CLAP (Command Line Argument Parser). Ele
-ajuda a garantir que o seu programa esteja funcionando corretamente ao processar argumentos de linha de comando.Com ele, você pode testar diferentes entradas e verificar se o seu programa
-está retornando os resultados esperados. Além disso, ele também pode detectar erros comuns, como argumentos faltantes ou argumentos inválidos, e alertá-lo para corrigi-los.Em resumo, o
-clap-validator é uma ferramenta útil para qualquer desenvolvedor que esteja trabalhando com argumentos de linha de comando e deseja garantir que seu programa esteja funcionando de forma
-eficiente e correta.

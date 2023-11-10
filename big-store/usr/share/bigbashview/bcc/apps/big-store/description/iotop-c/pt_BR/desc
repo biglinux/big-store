@@ -1,2 +1,0 @@
-Este programa é como o comando 'top' que você pode usar para ver o uso de processadores no seu computador, mas para o uso de entrada e 
-saída (I/O) em vez disso. Ele mostra quais programas estão usando mais a leitura e escrita de arquivos no seu sistema. Ele foi implementado usando a linguagem de programação C.

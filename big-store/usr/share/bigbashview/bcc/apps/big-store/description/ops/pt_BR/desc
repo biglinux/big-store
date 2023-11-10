@@ -1,3 +1,0 @@
-Este programa é usado para construir e executar nanos unikernels. Unikernels são sistemas operacionais minimalistas que só 
-incluem o necessário para rodar uma aplicação específica. Isso os torna mais seguros e eficientes em termos de recursos do que os sistemas operacionais tradicionais. Com esse programa, você
-pode criar esses unikernels e executá-los em sua máquina.

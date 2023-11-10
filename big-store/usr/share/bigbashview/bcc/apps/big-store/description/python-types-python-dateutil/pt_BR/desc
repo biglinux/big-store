@@ -1,3 +1,0 @@
- python-dateutil é uma ferramenta para manipulação de datas em Python. Ele permite que você trabalhe com datas
-de forma fácil e rápida. Com ele, você pode adicionar, subtrair e comparar datas, além de fazer cálculos com horas e minutos. Além disso, python-dateutil suporta vários formatos de data e
-hora, incluindo ISO-8601. Ele é útil para trabalhar com dados de tempo em projetos de desenvolvimento de software.

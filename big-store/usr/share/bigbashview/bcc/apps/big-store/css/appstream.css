@@ -144,7 +144,6 @@ div#box_progress_snap_install, div#box_progress_snap_remove, div#box_progress_fl
     height: 100%;
     z-index: 10;
     display: none;
-    
 }
 
 
@@ -378,12 +377,12 @@ div#box_aur {
 }
 
 div#box_flatpak {
-    display: none;
+	display: none;
     background-attachment: fixed;
     margin-bottom: 25px;
     border-radius: 15px;
     border: 1px solid var(--border-card-color);
-    background-color: var(--content-bg);     
+    background-color: var(--content-bg);
     padding: 5px;
 }
 
@@ -779,8 +778,8 @@ img.img_loading {
     overflow: hidden;
 }
 
-div#aur_icon_loading {
-    display: contents;
+div#aur_icon_loading, div#appstream_icon_loading, div#flatpak_icon_loading, div#snap_icon_loading {
+	display: contents;
 }
 
 div#content_index {

@@ -1,3 +1,0 @@
-Ferramentas ELF para série 800 C-Sky são um conjunto de ferramentas usadas para trabalhar com arquivos ELF (Executable
-and Linkable Format) na plataforma C-Sky. Essas ferramentas permitem que você link, carregue, debugue e examine arquivos ELF gerados pelo compilador C-Sky.Essas ferramentas são específicas 
-para a série 800 da C-Sky e podem não funcionar corretamente em outras plataformas. Elas são distribuídas como binários pré-compilados e podem ser facilmente instaladas em seu sistema.

@@ -1,3 +1,0 @@
-Este programa é capaz de simular eventos de teclado tanto no Windows quanto no Linux. Ele é escrito em Python e é chamado de 
-python-keyboard. Com ele, você pode criar scripts para automatizar tarefas ou simular a digitação de uma pessoa. Ele é útil para testes de software, jogos e outras aplicações que precisam
-de interação com o teclado.Além disso, ele também permite que você capture eventos de teclado, o que pode ser útil para criar ferramentas de monitoramento ou de registro de atividades.

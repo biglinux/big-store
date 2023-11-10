@@ -1,4 +1,0 @@
-Este programa é um driver de MIDI para transmissão de rede. Ele permite que você envie e receba mensagens MIDI
-através de uma rede, usando o protocolo RTP. Ele é executado como um daemon, ou seja, um programa que roda em segundo plano, e é compatível com o sistema operacional Linux. Com este driver,
-você pode conectar dispositivos MIDI, como teclados e controladores, em diferentes computadores em uma rede, e controlá-los remotamente. Ele também permite que você transmita áudio MIDI
-para outros dispositivos na rede.

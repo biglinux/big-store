@@ -1,1 +1,0 @@
-O módulo nginx-mod-ndk adiciona ferramentas genéricas adicionais que os desenvolvedores de módulos podem usar em seus próprios módulos. Isso permite que os desenvolvedores criem módulos personalizados com mais facilidade e eficiência, ajudando a ampliar as funcionalidades do Nginx.  

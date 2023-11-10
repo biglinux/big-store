@@ -1,3 +1,0 @@
-Este programa é uma adição ao módulo contextlib do Python 2. Ele inclui as últimas funcionalidades do
-contextlib, que são compatíveis com versões antigas do Python. Isso torna mais fácil para os desenvolvedores escreverem códigos que sejam compatíveis com versões antigas do Python, sem
-precisar se preocupar com diferenças na sintaxe.Além disso, este programa também oferece novas funcionalidades adicionais, como a possibilidade de trabalhar com contextos aninhados.

@@ -1,4 +1,0 @@
-Este é um programa que ajuda a fazer testes no seu código escrito em Python 2. Ele usa a biblioteca
-'freezegun' para congelar a data durante os testes, assim você pode testar como seu código irá se comportar em diferentes momentos do tempo sem precisar esperar o tempo passar na vida real.
-É uma ferramenta útil para garantir que seu código esteja funcionando corretamente em todas as situações.Este programa é especificamente projetado para ser usado com o framework de testes
-'Pytest', então se você já está familiarizado com ele, será fácil de usar. Se você ainda não conhece o Pytest, não se preocupe, é fácil de aprender e usar.

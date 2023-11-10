@@ -1,2 +1,0 @@
- Este programa é uma versão modificada do driver do kernel Android para uso no Linux. Ele foi criado pelo desenvolvedor
-@choff e está disponível no formato DKMS (Dynamic Kernel Module Support). Ele é específico para a utilização do binder, um componente importante no sistema Android. 

@@ -1,1 +1,0 @@
-A biblioteca libnl1 é uma biblioteca para aplicativos que lidam com soquetes netlink. Ela é  a versão antiga da biblioteca libnl, e é usada para comunicação com o kernel do Linux.A biblioteca fornece uma interface para configurar e operar interfaces de rede, rotas, tabelas de roteamento, e outros aspectos da configuração de rede. 

@@ -1,3 +1,0 @@
-Este é um driver para dispositivos com chip RTL8723DS. Ele é desenvolvido como um pacote DKMS (Dynamic Kernel Module
-Support) e é compatível com várias distribuições Linux. Ele fornece suporte completo ao chip RTL8723DS, incluindo recursos como Wi-Fi e Bluetooth. Este driver é mantido por uma comunidade
-de desenvolvedores e é atualizado regularmente para garantir compatibilidade com as versões mais recentes do kernel Linux.

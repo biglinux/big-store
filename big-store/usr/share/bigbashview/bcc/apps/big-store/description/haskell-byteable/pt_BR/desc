@@ -1,1 +1,0 @@
-O haskell-byteable é uma biblioteca em Haskell que fornece uma classe de tipo para trabalhar com sequências de bytes. Essa classe possibilita acesso aos bytes individuais de uma sequência e permite realizar operações como leitura e escrita de arquivos. 

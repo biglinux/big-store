@@ -1,1 +1,0 @@
-Este é um port do EventEmitter do node.js para python. Com ele, você pode usar as mesmas funcionalidades de emitir e escutar eventos no seu código python. O nome dele é python-pyee. 

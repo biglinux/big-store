@@ -1,1 +1,0 @@
-A biblioteca de serialização Oslo é uma ferramenta para o Python que permite que objetos sejam convertidos em formato de texto para facilitar a salvar, transmitir ou compartilhar esses objetos. Ela é usada como parte do projeto OpenStack e é uma das bibliotecas de suporte oficiais para esse projeto. 

@@ -1,1 +1,0 @@
-A biblioteca nodejs-source-map é um utilitário para trabalhar com mapas de código fonte no formato padrão. Ele permite que você gere mapas de código fonte a partir de seus arquivos JavaScript ou consuma mapas de código fonte gerados por outras ferramentas. Isso é útil para depuração e análise de código JavaScript. 

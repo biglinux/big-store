@@ -1,2 +1,0 @@
-Esse programa ajuda a enviar mensagens do seu computador para outros computadores usando uma coisa chamada syslog. Isso é
-útil para manter os logs de tudo o que acontece na sua rede em um só lugar e para poder ver essas mensagens de qualquer lugar. Ele usa um formato chamado RFC 5424.

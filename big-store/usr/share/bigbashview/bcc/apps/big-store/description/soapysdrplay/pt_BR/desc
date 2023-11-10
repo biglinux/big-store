@@ -1,4 +1,0 @@
-Este é um módulo de suporte para o SDRplay, que é uma ferramenta para rádio software-defined. Ele permite que você
-use o SDRplay com o SoapySDR, que é uma biblioteca comum para diferentes dispositivos SDR. Com este módulo, você pode acessar todos os recursos do SDRplay usando a interface do
-SoapySDR.Isso significa que você pode escrever aplicativos que usam o SDRplay sem precisar lidar com as diferenças de baixo nível entre diferentes dispositivos SDR. Em vez disso, você pode 
-usar uma interface consistente para acessar todos os recursos do SDRplay.

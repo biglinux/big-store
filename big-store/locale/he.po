@@ -792,3 +792,136 @@ msgstr "הצגת תוכניות נבחרות בלבד<br>ומסתיר תוצאו
 
 msgid "Vídeo"
 msgstr "וידאו"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "שגיאה בגישה לספריה:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"תוכניות מקוריות יש שילוב חזק יותר עם מערכת ההפעלה.<br>הם עוברים בדיקות מקיפות לפני שהם הופכים "
+"לזמינים, מה שמבטיח אמינות רבה יותר.<br>מסיבות אלה, בחירה בתוכנית מקורית מומלצת במיוחד כאשר התוכנה "
+"הרצויה זמינה במספר אפשרויות התקנה.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "אנא המתן בזמן שאנו אוספים מידע מערכת. זה עשוי לקחת כמה רגעים..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "תאריך משוער להתקנת המערכת:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store כבר פועלת."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"תוכניות מקוריות יש שילוב חזק יותר עם מערכת ההפעלה.<br>הם עוברים בדיקות מקיפות לפני שהם הופכים "
+"לזמינים, מה שמבטיח אמינות רבה יותר.<br>מסיבות אלה, בחירה בתוכנית מקורית מומלצת במיוחד כאשר התוכנה "
+"הרצויה<br>זמין במספר אפשרויות התקנה.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "הורדת חבילות חדשות ממסד הנתונים של השרת"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "לא הועברו מנות כפרמטרים"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "מופע נוסף של Big-Store כבר פועל."
+
+msgid "Procurar aplicativo"
+msgstr "עיון באפליקציה"
+
+msgid "Editores de texto linha de comando"
+msgstr "עורכי טקסט של שורת הפקודה"
+
+msgid "Multimidia"
+msgstr "מולטימדיה"
+
+msgid "Carta"
+msgstr "אות"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "הצגת פרטי התקן על חומרת Linux"
+
+msgid "Processador"
+msgstr "מעבד"
+
+msgid "Placa mãe"
+msgstr "לוח אם"
+
+msgid "Memória"
+msgstr "זכרון"
+
+msgid "Swap Memória Virtual"
+msgstr "החלפת זיכרון וירטואלי"
+
+msgid "Placa de vídeo"
+msgstr "כרטיס וידאו"
+
+msgid "Áudio"
+msgstr "שמע"
+
+msgid "Rede"
+msgstr "רשת"
+
+msgid "Conexões de Rede"
+msgstr "חיבורי רשת"
+
+msgid "Dispositivos e conexões USB"
+msgstr "התקני USB וחיבורים"
+
+msgid "Portas PCI"
+msgstr "יציאות PCI"
+
+msgid "Bateria"
+msgstr "סוללה"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "התקני אחסון"
+
+msgid "Partições montadas"
+msgstr "מחיצות מותקנות"
+
+msgid "Partições desmontadas"
+msgstr "מחיצות לא מותקנות"
+
+msgid "Dispositivos lógicos"
+msgstr "התקנים לוגיים"
+
+msgid "Raid"
+msgstr "פשיטה"
+
+msgid "Informações de Sistema"
+msgstr "מידע מערכת"
+
+msgid "Repositórios"
+msgstr "מאגרים"
+
+msgid "Bluetooth"
+msgstr "בלוטות'"
+
+msgid "Temperatura"
+msgstr "טמפרטורה"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "כדי שתוכניות Flatpak יופיעו בתפריט המערכת, התנתק והיכנס שוב."
+
+msgid "Atualizado em"
+msgstr "עודכן בתאריך"
+
+msgid "Sobre"
+msgstr "על"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "תרגום תיאור החבילות המקוונות"

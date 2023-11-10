@@ -1,1 +1,0 @@
-Esse programa é uma ferramenta para deriver automaticamente instâncias de tipos de dados para o módulo Data.Vector.Unboxed, usando Template Haskell. Isso permite que você use vetores de tipos primitivos (como inteiros e flutuantes) de maneira mais eficiente, sem precisar escrever código repetitivo manualmente. 

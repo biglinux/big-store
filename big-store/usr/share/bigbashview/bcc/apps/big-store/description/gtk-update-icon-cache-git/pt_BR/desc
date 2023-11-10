@@ -1,4 +1,0 @@
-Este programa é responsável por atualizar o cache de ícones do GTK. Isso garante que os ícones exibidos em sua interface
-gráfica de usuário estejam sempre atualizados e corretos. Ele é especialmente útil quando você adiciona ou remove ícones de seu sistema.Para usar o programa, é necessário fornecer o caminho
-para a pasta que contém os ícones. Ele então atualizará o cache de ícones nessa pasta e em todas as sub-pastas. É uma ferramenta simples, mas importante para manter seu sistema organizado e
-correndo sem problemas.

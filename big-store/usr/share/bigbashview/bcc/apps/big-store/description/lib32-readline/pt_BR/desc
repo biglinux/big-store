@@ -1,1 +1,0 @@
-A biblioteca GNU readline é usada para ler linhas de comando em programas. Ela fornece uma série de funções para facilitar  a escrita de programas que precisam ler linhas de comando do usuário. Essas funções incluem histórico de comandos, edição de linhas e auto-completar. Essa é a versão de 32-bits da biblioteca. 

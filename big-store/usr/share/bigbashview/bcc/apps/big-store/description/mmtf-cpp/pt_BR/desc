@@ -1,1 +1,0 @@
-mmtf-cpp é uma implementação pura em C++ da API MMTF (Macromolecular Transmission Format). Ele inclui um decodificador e um codificador que permitem acessar e modificar dados estruturais de proteínas de forma eficiente. 

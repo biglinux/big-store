@@ -792,3 +792,138 @@ msgstr "Viser kun valgte programmer<br>og skjuler resultater, der er nyttige <br
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Fejl ved adgang til biblioteket:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programmer har en mere robust integration med operativsystemet.<br>De gennemgår omfattende "
+"test, før de stilles til rådighed, hvilket sikrer større pålidelighed.<br>Af disse grunde anbefales "
+"det især at vælge et indbygget program, når den ønskede software er tilgængelig i flere "
+"installationsmuligheder.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Vent, mens vi indsamler systemoplysninger. Det kan tage et øjeblik..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Omtrentlig dato systemet blev installeret:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store kører allerede."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programmer har en mere robust integration med operativsystemet.<br>De gennemgår omfattende "
+"test, før de stilles til rådighed, hvilket sikrer større pålidelighed.<br>Af disse grunde anbefales "
+"det især at vælge et indbygget program, når den ønskede software<br>fås i flere "
+"installationsmuligheder.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Download af nye pakker fra serverdatabasen"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Ingen pakker bestået som parametre"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "En anden forekomst af Big-Store kører allerede."
+
+msgid "Procurar aplicativo"
+msgstr "Gennemse app"
+
+msgid "Editores de texto linha de comando"
+msgstr "Kommandolinjeteksteditorer"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brev"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Se enhedsoplysninger om Linux-hardware"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Bundkort"
+
+msgid "Memória"
+msgstr "Hukommelse"
+
+msgid "Swap Memória Virtual"
+msgstr "Virtuel hukommelsesudskiftning"
+
+msgid "Placa de vídeo"
+msgstr "Videokort"
+
+msgid "Áudio"
+msgstr "Lyd"
+
+msgid "Rede"
+msgstr "Netværk"
+
+msgid "Conexões de Rede"
+msgstr "Netværksforbindelser"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-enheder og -forbindelser"
+
+msgid "Portas PCI"
+msgstr "PCI-porte"
+
+msgid "Bateria"
+msgstr "Batteri"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Lagerenheder"
+
+msgid "Partições montadas"
+msgstr "Monterede skillevægge"
+
+msgid "Partições desmontadas"
+msgstr "Umonterede partitioner"
+
+msgid "Dispositivos lógicos"
+msgstr "Logiske enheder"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Oplysninger om systemet"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "For at Flatpak-programmer skal vises i systemmenuen, skal du logge ud og logge ind igen."
+
+msgid "Atualizado em"
+msgstr "Opdateret den"
+
+msgid "Sobre"
+msgstr "På"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Oversættelse af beskrivelsen af onlinepakkerne"

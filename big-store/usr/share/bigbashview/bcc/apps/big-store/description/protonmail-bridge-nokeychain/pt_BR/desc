@@ -1,2 +1,0 @@
-Este programa é uma ponte para a conta ProtonMail, permitindo acesso via IMAP/SMTP. Ele foi corrigido e armazena segredos
-em um arquivo, sem usar o Keychain. 

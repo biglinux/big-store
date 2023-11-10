@@ -1,1 +1,0 @@
-O módulo IO::File fornece uma interface para lidar com strings armazenadas em memória, como se fossem arquivos. Isso permite ler e escrever strings de forma semelhante à como se faria com arquivos reais. É útil para trabalhar com dados em formato de arquivo sem precisar criar arquivos temporários no  disco. 

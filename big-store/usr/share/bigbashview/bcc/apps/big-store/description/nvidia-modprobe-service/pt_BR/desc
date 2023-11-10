@@ -1,2 +1,0 @@
-Esse programa ajuda a corrigir problemas de desmontagem ao descarregar os módulos NVIDIA antes do desligamento ou
-reinicialização. Ele é específico para resolver problemas relacionados ao /oldroot e garante que o sistema desmonte de forma segura e sem erros.

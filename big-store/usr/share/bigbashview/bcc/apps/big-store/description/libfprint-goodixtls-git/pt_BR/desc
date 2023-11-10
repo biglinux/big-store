@@ -1,2 +1,0 @@
-Esse é um fork da biblioteca libfprint, específico para dispositivos Goodix com tecnologia TLS.
-Atualmente, suporta apenas o modelo 5110. É importante lembrar que é necessário fazer o flash do dispositivo com o programa goodix-fp-dump antes de usar essa biblioteca.

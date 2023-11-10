@@ -1,3 +1,0 @@
-Existem diversas ferramentas úteis em C++ que podem ajudar em seus projetos. Algumas delas incluem: - Argument parser: um meio fácil
-de lidar com argumentos passados para o seu programa. - IO utilities: classes e rotinas para trabalhar com entrada e saída de dados. - Conversion utilities: ferramentas para converter entre
-diferentes tipos de dados. Este repositório contém a documentação da API dessas ferramentas, para ajudar a entender como usá-las.

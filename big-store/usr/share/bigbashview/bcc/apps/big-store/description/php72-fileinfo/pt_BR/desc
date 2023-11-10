@@ -1,4 +1,0 @@
-Este módulo adiciona suporte para ler informações de arquivos, como tipo de arquivo e suas permissões, para a
-versão 7.2 do PHP. Ele permite que você obtenha detalhes sobre arquivos que seu programa está lidando de forma fácil e precisa.Isso é útil em vários cenários, como verificação de tipos de
-arquivo antes de fazer upload ou garantir que um arquivo tem permissões adequadas antes de acessá-lo. Adicionar esse módulo ao seu programa PHP pode aumentar a segurança e a funcionalidade 
-dele.

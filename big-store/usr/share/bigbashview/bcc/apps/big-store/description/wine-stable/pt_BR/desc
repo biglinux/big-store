@@ -1,4 +1,0 @@
-Existe um programa chamado wine-stable que ajuda a rodar programas do Windows no Linux. Ele funciona como uma camada de
-compatibilidade, o que significa que ele traduz as coisas que o programa Windows precisa para funcionar, para que o Linux possa entender. Isso significa que você pode usar seus programas
-favoritos do Windows, mesmo se você estiver usando um computador Linux.Isso é muito útil se você precisa usar algum programa específico que não está disponível para Linux, ou se você
-simplesmente prefere usar um programa do Windows. Com o wine-stable, você pode continuar usando esses programas sem precisar mudar para um computador Windows.

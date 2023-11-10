@@ -1,1 +1,0 @@
-ruby-patience_diff é uma implementação do algoritmo de diferenças Patience em Ruby. Este algoritmo é usado para encontrar as diferenças entre duas sequências de texto, como por exemplo, entre duas versões de um arquivo. Ele é capaz de encontrar diferenças complexas e irregulares, tornando-o uma  escolha popular para muitas aplicações de comparação de arquivos. 

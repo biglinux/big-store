@@ -1,4 +1,0 @@
-Este programa fornece arquivos DTB (Device Tree Blob) para SoCs (Systems on a Chip) da Allwinner. Esses arquivos são
-utilizados pelo kernel flippy's AArch64 para configurar e controlar o hardware do dispositivo. Eles são específicos para a arquitetura AArch64 e o sistema operacional Linux.Os arquivos DTB 
-fornecem informações sobre a estrutura do hardware do dispositivo, como os pinos de entrada/saída, periféricos, clock, entre outros. Isso permite que o kernel e outros programas possam se
-comunicar corretamente com o hardware.

@@ -1,2 +1,0 @@
- Este programa é escrito em Python e tem como objetivo parsear a saída do gdb (Gnu Debugger) em formato de interface de
-máquina. Isso significa que ele ajuda a entender e organizar as informações geradas pelo gdb, tornando-as mais fáceis de serem lidas e entendidas. 

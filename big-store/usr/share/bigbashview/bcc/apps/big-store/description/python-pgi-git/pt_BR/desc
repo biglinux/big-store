@@ -1,2 +1,0 @@
-Esse programa é para ligar o Python com GObject. Ele é chamado de python-pgi-git. Ele é necessário para usar a biblioteca gi com o
-PyPy.

@@ -1,4 +1,0 @@
-A biblioteca C GNU é um conjunto de funções e rotinas que ajudam a programar em C. Ela foi criada para ser usada em 
-sistemas LoongArch, que são sistemas de 64 bits. Isso significa que os programas escritos usando essa biblioteca podem aproveitar toda a potência de um sistema com mais de 4 bilhões de
-bytes de memória.Além disso, essa biblioteca foi projetada para ser fácil de usar e possui muitas funções úteis para desenvolvimento de programas. Por exemplo, ela tem funções para lidar
-com arquivos, cadeias de caracteres, números e muito mais. Isso significa que os programadores precisam escrever menos código para fazer as mesmas tarefas.

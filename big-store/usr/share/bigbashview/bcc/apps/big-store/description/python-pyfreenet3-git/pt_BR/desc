@@ -1,3 +1,0 @@
-Esse programa é uma biblioteca e conjunto de utilitários para o protocolo FCPv2 em Python. Ele permite que você
-se comunique com o Freenet, uma rede de compartilhamento de arquivos descentralizada, de forma fácil e rápida. Com esses recursos, você pode criar aplicativos e scripts para acessar, baixar
-e enviar arquivos na rede Freenet. Além disso, ele é baseado no projeto PyFreenet3.

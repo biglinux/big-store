@@ -1,4 +1,0 @@
-Este programa é chamado de clang-format-all-git e ele ajuda a deixar o seu código fonte mais bonito e organizado. Ele faz
-isso de forma automática, revisando todos os arquivos c/c++ que você tem no seu projeto e formatando-os de acordo com as regras estabelecidas.Isso significa que você não precisa se
-preocupar em formatar o código manualmente toda vez que faz uma alteração, o programa cuida disso para você. Além disso, ele também ajuda a manter o código consistente entre os diferentes
-arquivos e desenvolvedores trabalhando no projeto.

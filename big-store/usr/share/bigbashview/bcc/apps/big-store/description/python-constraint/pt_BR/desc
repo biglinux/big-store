@@ -1,5 +1,0 @@
- Este programa é chamado python-constraint e ele ajuda a resolver problemas de restrições, ou CSPs. Ele trabalha com
-problemas que têm uma lista de regras e limitações, e ajuda a encontrar uma solução que satisfaça todas essas regras e limitações. Ele é especialmente útil em situações onde há muitas
-variáveis e regras diferentes para considerar.Um exemplo de como ele pode ser usado é para encontrar a melhor maneira de alocar recursos, como dinheiro ou tempo, entre diferentes
-projetos. Ele pode ajudar a garantir que cada projeto receba o recurso certo, sem ultrapassar os limites estabelecidos.Este programa é baseado em Python e é fácil de usar, mesmo para
-pessoas sem muita experiência em programação. Ele é uma ótima ferramenta para qualquer pessoa que precisa encontrar soluções para problemas complexos. 

@@ -1,1 +1,0 @@
-python-mysqlclient é um fork do MySQL-python, uma biblioteca para conectar com um banco MySQL usando Python. Essa versão suporta Python 3 e é ativamente mantida. É compatível com a mesma API do MySQL-python, facilitando a mudança entre os dois. Essa biblioteca é uma ótima escolha para trabalhar com bancos MySQL no Python 3. 

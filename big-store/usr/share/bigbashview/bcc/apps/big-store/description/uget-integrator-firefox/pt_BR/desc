@@ -1,6 +1,0 @@
- O uget-integrator-firefox é uma configuração que permite conectar o Firefox com o uget-integrator. Isso significa que você 
-pode baixar arquivos diretamente do Firefox usando o uget-integrator como gerenciador de downloads. Isso é muito útil se você precisar baixar arquivos grandes ou múltiplos arquivos de uma
-só vez, pois o uget-integrator oferece recursos avançados de gerenciamento de downloads, como retomada de downloads interrompidos e suporte a várias conexões. Além disso, com a integração
-com o Firefox, você pode iniciar downloads diretamente a partir da interface do navegador, sem precisar alternar entre várias janelas ou programas.Para configurar a integração do Firefox
-com o uget-integrator, você precisará instalar o uget-integrator e o complemento do Firefox. Depois disso, você pode configurar as opções de download e iniciar downloads diretamente a
-partir do navegador. 

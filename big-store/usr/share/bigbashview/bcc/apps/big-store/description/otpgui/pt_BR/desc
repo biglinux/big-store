@@ -1,2 +1,0 @@
-Este é um programa que gera senhas únicas para acesso a contas online. Ele é compatível com o TOTP (Tempo baseado em um único
-token de usuário) e foi escrito em Python e GTK. Ele é fácil de usar e oferece segurança adicional para suas contas online.

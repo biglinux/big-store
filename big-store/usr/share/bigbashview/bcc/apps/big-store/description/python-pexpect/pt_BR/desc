@@ -1,1 +1,0 @@
- O python-pexpect é um módulo para o Python que permite controlar outros programas automatizando a entrada e saída de dados. Ele é útil para automatizar tarefas como o login em um shell remoto ou o upload de arquivos para um servidor FTP. Ele também pode ser usado para automatizar testes de software.  

@@ -1,5 +1,0 @@
-O x11docker permite que você execute aplicativos gráficos e ambientes de trabalho dentro de um
-container Docker, mantendo a segurança como prioridade. Isso significa que você pode rodar programas de forma isolada, sem afetar o sistema host, e sem se preocupar com possíveis
-vulnerabilidades. Além disso, o x11docker é fácil de usar e configurar, tornando a experiência de usuário agradável.Ao usar o x11docker, você pode rodar programas que precisam de acesso a
-recursos gráficos do sistema, sem precisar instalá-los no seu computador. Isso é especialmente útil se você precisar rodar programas de diferentes sistemas operacionais ou versões, sem
-afetar a compatibilidade do seu sistema host.

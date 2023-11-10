@@ -1,3 +1,0 @@
-Este programa mostra as atualizações feitas em seu sistema desde a última vez que você o atualizou. Ele é útil para verificar se há
-novos pacotes disponíveis para instalar ou se houve algum problema durante a atualização anterior.Para usar, basta digitar 'wat-git' no seu terminal e ele mostrará as atualizações desde a
-última vez que você executou o comando '-Syu' (que é utilizado para atualizar o sistema).

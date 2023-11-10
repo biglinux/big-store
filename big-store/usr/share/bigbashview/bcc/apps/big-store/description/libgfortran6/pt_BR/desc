@@ -1,3 +1,0 @@
-Esta é uma biblioteca de tempo de execução para o Fortran, que é embarcada pelo GCC6. Ela é necessária para executar programas
-escritos em Fortran com o GCC6.A biblioteca libgfortran6 é uma das muitas bibliotecas que compõem o GCC6, um conjunto de ferramentas de desenvolvimento de software livre para a programação 
-em C, C++ e Fortran.

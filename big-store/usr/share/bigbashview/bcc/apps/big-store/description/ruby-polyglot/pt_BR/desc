@@ -1,1 +1,0 @@
-Este programa permite que você adicione carregadores de linguagem personalizados ao require. Isso significa que você pode utilizar outras linguagens além do ruby, como por exemplo JavaScript, no seu projeto.Este é conhecido como ruby-polyglot, onde ele permite a utilização de várias linguagens dentro do ruby. 

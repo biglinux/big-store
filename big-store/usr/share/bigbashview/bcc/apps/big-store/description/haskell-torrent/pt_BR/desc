@@ -1,1 +1,0 @@
-Este programa é escrito em Haskell e tem como objetivo ler e criar arquivos de torrent. Ele é capaz de analisar os metadados de um arquivo de torrent e gerar um novo arquivo com as informações desejadas. É uma ferramenta útil para aqueles que trabalham com arquivos de torrent ou desejam criar seus próprios arquivos. 

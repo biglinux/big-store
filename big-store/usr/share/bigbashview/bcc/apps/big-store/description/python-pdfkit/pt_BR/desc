@@ -1,3 +1,0 @@
-Este programa é um envoltório em Python para a ferramenta Wkhtmltopdf, que permite converter arquivos HTML em arquivos PDF. Ele é 
-útil para salvar páginas web ou gerar relatórios em PDF de maneira automatizada.Para usá-lo, é necessário ter o Wkhtmltopdf instalado em sua máquina e seguir as instruções de uso fornecidas
-pelo pacote python-pdfkit.

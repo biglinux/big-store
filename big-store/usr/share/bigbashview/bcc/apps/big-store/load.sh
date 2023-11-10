@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/07/26
+#  Altered: 2023/08/24
 #
 #  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,43 +34,55 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230726"
+_VERSION_="1.0.0-20230824"
+export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
+export LOGGER='/dev/tty8'
+export HOME_FOLDER="$HOME/.bigstore"
+export TMP_FOLDER="/tmp/bigstore-$USER"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-[[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_refresh_db {
-	echo "Baixando pacotes novos da base de dados do servidor"
+function sh_load_config {
+	#Translation
+	export TEXTDOMAINDIR="/usr/share/locale"
+	export TEXTDOMAIN=big-store
+	declare -g msgDownload=$"Baixando pacotes novos da base de dados do servidor"
+	declare -g msgNenhumParam=$"Nenhum pacote passado como parâmetro"
+}
+
+function sh_load_refresh_db {
+	echo "$msgDownload"
 	pacman -Fy >/dev/null 2>&-
 }
 
-function sh_init {
+function sh_load_main {
 	local pacote="$2"
 	local paths
 
+	sh_load_config
+	sh_load_refresh_db
 	if [[ -n "$pacote" ]]; then
 		case $1 in
 		pkg_not_installed)
-			if paths=$(pacman -Flq "$pacote") && [[ -n "$paths" ]]; then
-				sed 's|^|/|' <<<"$paths"
-			fi
-			;;
+#			pacman -Flq "$2" | sed 's|^|/|'
+#			pacman -Flq "$2" | while IFS= read -r line; do echo "/$line"; done
+#			while IFS= read -r line; do echo "/$line"; done < <(pacman -Flq "$2")
+			pacman -Flq "$2" | while IFS= read -r line; do printf "/%s\n" "$line"; done  #mais rápido
+		    ;;
 		pkg_installed)
 			pacman -Qk "$pacote"
 			pacman -Qlq "$pacote"
 			;;
 		pkg_installed_flatpak)
 			echo "Folder base: $(flatpak info --show-location "$pacote")"
-			find $(flatpak info --show-location "$pacote") | sed "s|$(flatpak info --show-location "$pacote")||g"
-			#	echo "Folder base: $(flatpak info --show-location "$pacote")"
-			#	location=$(flatpak info --show-location "$pacote")
-			#	find "$location" -exec bash -c 'echo "${1//'$location'/}"' _ {} \;
+			find "$(flatpak info --show-location "$pacote")" | sed "s|$(flatpak info --show-location "$pacote")||g"
 			;;
 		esac
 	else
-		echo "Nenhum pacote passado como parâmetro"
+		echo "$msgNenhumParam"
 	fi
 }
 
 #sh_debug
-sh_refresh_db
-sh_init "$@"
+sh_load_main "$@"

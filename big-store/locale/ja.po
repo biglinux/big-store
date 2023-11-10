@@ -790,3 +790,134 @@ msgstr "選択したプログラムのみを表示します<br>有用な結果�
 
 msgid "Vídeo"
 msgstr "ビデオ"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "ディレクトリへのアクセスエラー:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"ネイティブプログラムは、オペレーティングシステムとのより堅牢な統合を備えています。<br>これらは、利用可能になる前に広範なテストを受け、より高い信頼性を保証します。<br>これらの理由から、目的のソ"
+"フトウェアが複数のインストールオプションで利用できる場合は、ネイティブプログラムを選択することをお勧めします。<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "システム情報を収集するまでしばらくお待ちください。それには少し時間がかかるかもしれません..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "システムがインストールされたおおよその日付:"
+
+msgid "Big-Store já está em execução."
+msgstr "ビッグストアはすでに稼働しています。"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"ネイティブプログラムは、オペレーティングシステムとのより堅牢な統合を備えています。<br>これらは、利用可能になる前に広範なテストを受け、より高い信頼性を保証します。<br>これらの理由から、目的のソ"
+"フトウェアの場合は、ネイティブプログラムを選択することが特に推奨されます。<br>は、いくつかのインストール オプションで使用できます。<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "サーバーデータベースからの新しいパッケージのダウンロード"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "パラメータとして渡されるパケットはありません"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store の別のインスタンスが既に実行されています。"
+
+msgid "Procurar aplicativo"
+msgstr "アプリを閲覧する"
+
+msgid "Editores de texto linha de comando"
+msgstr "コマンドラインテキストエディタ"
+
+msgid "Multimidia"
+msgstr "マルチメディア"
+
+msgid "Carta"
+msgstr "手紙"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Linuxハードウェアでデバイス情報を表示する"
+
+msgid "Processador"
+msgstr "プロセッサー"
+
+msgid "Placa mãe"
+msgstr "マザーボード"
+
+msgid "Memória"
+msgstr "記憶"
+
+msgid "Swap Memória Virtual"
+msgstr "仮想メモリスワップ"
+
+msgid "Placa de vídeo"
+msgstr "ビデオカード"
+
+msgid "Áudio"
+msgstr "オーディオ"
+
+msgid "Rede"
+msgstr "ネットワーク"
+
+msgid "Conexões de Rede"
+msgstr "ネットワーク接続"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB デバイスと接続"
+
+msgid "Portas PCI"
+msgstr "PCI ポート"
+
+msgid "Bateria"
+msgstr "電池"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "ストレージデバイス"
+
+msgid "Partições montadas"
+msgstr "マウントされたパーティション"
+
+msgid "Partições desmontadas"
+msgstr "マウントされていないパーティション"
+
+msgid "Dispositivos lógicos"
+msgstr "論理デバイス"
+
+msgid "Raid"
+msgstr "侵略"
+
+msgid "Informações de Sistema"
+msgstr "システムインフォメーション"
+
+msgid "Repositórios"
+msgstr "リポジトリ"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "温度"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Flatpakプログラムをシステムメニューに表示するには、ログアウトしてから再度ログインします。"
+
+msgid "Atualizado em"
+msgstr "更新日"
+
+msgid "Sobre"
+msgstr "に"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "オンラインパッケージの説明の翻訳"

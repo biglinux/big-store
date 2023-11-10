@@ -1,1 +1,0 @@
-O ruby-simplecov é uma ferramenta que ajuda a medir quanto do seu código Ruby está sendo testado. Ele conta quantas linhas de código estão sendo executadas e quantas não estão, e mostra isso de uma forma fácil de entender. Além disso, ele tem uma biblioteca de configuração poderosa e pode mesclar automaticamente as informações de cobertura de testes de diferentes conjuntos. 

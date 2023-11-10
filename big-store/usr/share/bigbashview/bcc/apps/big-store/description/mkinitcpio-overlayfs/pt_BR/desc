@@ -1,3 +1,0 @@
-Este programa é um hook do mkinitcpio que permite o uso de sistemas de arquivos overlayfs. Isso significa que
-ele permite a sobreposição de vários sistemas de arquivos em um único ponto de montagem, permitindo que você combine arquivos de diferentes fontes em uma única estrutura de arquivos. Isso é
-útil para coisas como personalizar uma imagem de sistema sem modificar a imagem original, ou para criar snapshots instantâneos de um sistema de arquivos.

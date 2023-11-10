@@ -1,1 +1,0 @@
-libnetfilter_queue é uma API para usuários de pacotes que foram enfileirados pelo filtro de pacotes do  núcleo. Essa biblioteca permite acessar e manipular pacotes que foram enfileirados pelo filtro de pacotes do núcleo. É útil para criar aplicativos de firewall, ferramentas de formação de tráfego e outros programas de manipulação de pacotes. 

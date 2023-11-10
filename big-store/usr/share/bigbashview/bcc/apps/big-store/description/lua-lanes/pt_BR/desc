@@ -1,1 +1,0 @@
-A biblioteca lua-lanes é uma opção leve e nativa para multithreading, com avaliação preguiçosa, ou seja, somente realiza a operação quando realmente necessário 

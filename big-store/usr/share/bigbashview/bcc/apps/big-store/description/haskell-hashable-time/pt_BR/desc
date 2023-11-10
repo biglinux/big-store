@@ -1,1 +1,0 @@
-Este programa oferece instâncias Hashable para Data.Time, permitindo que você possa usar tipos de data e hora como chaves em tabelas de espalhamento, por exemplo. Ele foi escrito usando a linguagem de programação Haskell. 

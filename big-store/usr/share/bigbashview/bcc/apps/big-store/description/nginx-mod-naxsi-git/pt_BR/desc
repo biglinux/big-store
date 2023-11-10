@@ -1,2 +1,0 @@
- Este é um módulo de segurança para o servidor web Nginx. Ele protege contra ataques de injeção de código XSS e SQL. Ele é
-chamado de nginx-mod-naxsi-git e é mantido através de um repositório git. É uma ferramenta importante para garantir que o seu site esteja seguro contra esses tipos de ataques. 

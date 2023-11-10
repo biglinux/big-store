@@ -1,1 +1,0 @@
-pyqt-builder é um sistema de construção para o PyQt que é compatível com o PEP 517. Ele permite construir e instalar facilmente o PyQt a partir do código-fonte, sem precisar lidar com a configuração complexa. Com ele, você pode criar aplicativos Python com interface gráfica de usuário, usando o PyQt como biblioteca de widgets. 

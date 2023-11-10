@@ -1,2 +1,0 @@
-Esse é um pacote do spaCy para a biblioteca de tokenização em Rust. Ele permite alinhar as tokenizações de
-diferentes idiomas e ferramentas de processamento de linguagem natural. Isso pode ser útil para tarefas como tradução automática e análise de sentimentos em diferentes idiomas.

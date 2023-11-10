@@ -1,1 +1,0 @@
-O pacote haskell-bower-json permite que você leia arquivos bower.json usando a linguagem de programação Haskell. Isso é útil para projetos que precisam interagir com pacotes JavaScript, mas estão escritos em Haskell. 

@@ -1,1 +1,0 @@
-Semigroupoids é uma biblioteca de Haskell que fornece uma implementação de categoria sem id. Ele permite que os usuários definam relações entre tipos e combinem funções de forma consistente e coerente. Com ele, os desenvolvedores podem trabalhar com tipos que não possuem elementos neutros, o que é útil em muitos casos de programação funcional. 

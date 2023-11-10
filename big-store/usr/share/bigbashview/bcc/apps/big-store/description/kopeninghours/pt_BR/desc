@@ -1,1 +1,0 @@
-kopeninghours é uma biblioteca para analisar e avaliar expressões de horários de abertura como as usadas em OSM (OpenStreetMap). Ele suporta uma ampla variedade de sintaxes e permite uma fácil avaliação de horários de abertura para uma data e hora específicas. A biblioteca é escrita em C++ e é destinada para uso em outros projetos de software. 

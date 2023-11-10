@@ -1,4 +1,0 @@
-Este programa permite que você adicione gráficos ao seu notebook Jupyter. Ele faz isso usando uma extensão chamada
-matplotlib. Isso significa que você pode criar gráficos de linha, barras, pizza e muito mais, diretamente no seu notebook, sem precisar sair dele.Para usar essa extensão, você precisa ter o
-Python e o Jupyter instalados em seu computador. Em seguida, você pode instalar a extensão digitando '!pip install python-ipympl' no seu notebook.Depois disso, você pode começar a criar
-seus gráficos usando códigos Python. 

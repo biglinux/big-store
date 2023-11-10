@@ -1,3 +1,0 @@
-Esse é um módulo para o PHP 8.1 que permite aos desenvolvedores trabalhar com arquivos no formato zip. Com ele, é possível criar, ler
-e extrair arquivos zip, além de adicionar e remover arquivos de um arquivo zip existente.Esse módulo é útil para projetos web que precisam lidar com arquivos compactados, como por exemplo, 
-fazer upload de arquivos zip para um servidor e extraí-los posteriormente.

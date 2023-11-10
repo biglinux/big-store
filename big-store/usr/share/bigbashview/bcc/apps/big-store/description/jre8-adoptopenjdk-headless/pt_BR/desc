@@ -1,3 +1,0 @@
-Este programa é um ambiente de execução Java 8 sem interface gráfica, chamado AdoptOpenJDK. Ele é usado
-para rodar aplicativos Java que não precisam de uma interface gráfica, como aplicativos de linha de comando e servidores. Ele é baseado no projeto AdoptOpenJDK, que fornece uma
-implementação gratuita e de código aberto do Java.

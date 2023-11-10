@@ -1,3 +1,0 @@
-Este é um plugin para o krunner que permite recuperar senhas armazenadas no password-store (https://www.passwordstore.org/). Ele
-funciona como uma ferramenta de busca, você pode digitar o nome da senha que deseja recuperar e o plugin buscará no banco de dados.Ele é seguro e fácil de usar, basta instalá-lo e
-configurá-lo com suas senhas. 

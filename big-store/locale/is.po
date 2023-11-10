@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Myndband"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Villa við opnun möppu:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Innfædd forrit hafa öflugri samþættingu við stýrikerfið.<br>Þeir gangast undir umfangsmiklar "
+"prófanir áður en þeir eru gerðir aðgengilegir, sem tryggir meiri áreiðanleika.<br>Af þessum ástæðum "
+"er sérstaklega mælt með því að velja innbyggt forrit þegar viðkomandi hugbúnaður er fáanlegur í "
+"mörgum uppsetningarvalkostum.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Bíddu á meðan við söfnum kerfisupplýsingum. Það gæti tekið smá stund..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Áætluð dagsetning þegar kerfið var sett upp:"
+
+msgid "Big-Store já está em execução."
+msgstr "Stórverslun er þegar í gangi."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Innfædd forrit hafa öflugri samþættingu við stýrikerfið.<br>Þeir gangast undir umfangsmiklar "
+"prófanir áður en þeir eru gerðir aðgengilegir, sem tryggir meiri áreiðanleika.<br>Af þessum ástæðum "
+"er sérstaklega mælt með því að velja innfæddur forrit þegar viðkomandi hugbúnaður er<br>er fáanlegt "
+"í nokkrum uppsetningarvalkostum.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Sæki nýja pakka úr gagnagrunni þjónsins"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Engir pakkar sendir sem færibreytur"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Annað tilvik af Big-Store er þegar í gangi."
+
+msgid "Procurar aplicativo"
+msgstr "Skoða forrit"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textaritlar skipanalínu"
+
+msgid "Multimidia"
+msgstr "Margmiðlun"
+
+msgid "Carta"
+msgstr "Bréf"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Sýna tækjaupplýsingar um Linux vélbúnað"
+
+msgid "Processador"
+msgstr "Örgjörvi"
+
+msgid "Placa mãe"
+msgstr "Móðurborð"
+
+msgid "Memória"
+msgstr "Minni"
+
+msgid "Swap Memória Virtual"
+msgstr "Skipti á sýndarminni"
+
+msgid "Placa de vídeo"
+msgstr "Skjákort"
+
+msgid "Áudio"
+msgstr "Hljóð"
+
+msgid "Rede"
+msgstr "Net"
+
+msgid "Conexões de Rede"
+msgstr "Nettengingar"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB tæki og tengingar"
+
+msgid "Portas PCI"
+msgstr "PCI-tengi"
+
+msgid "Bateria"
+msgstr "Rafhlaða"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Geymslutæki"
+
+msgid "Partições montadas"
+msgstr "Fest skipting"
+
+msgid "Partições desmontadas"
+msgstr "Unmounted skipting"
+
+msgid "Dispositivos lógicos"
+msgstr "Rökleg tæki"
+
+msgid "Raid"
+msgstr "RAID"
+
+msgid "Informações de Sistema"
+msgstr "Upplýsingar um kerfi"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "blátönn"
+
+msgid "Temperatura"
+msgstr "Hitastig"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Til að Flatpak forrit birtist í kerfisvalmyndinni skaltu skrá þig út og skrá þig inn aftur."
+
+msgid "Atualizado em"
+msgstr "Uppfært á"
+
+msgid "Sobre"
+msgstr "Á"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Þýðing á lýsingu á online pakkar"

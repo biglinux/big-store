@@ -1,3 +1,0 @@
-Este programa é uma rede privada virtual (VPN) de camada 2 que usa a tecnologia wireguard-go. Ela funciona como uma rede
-completa, o que significa que todos os dispositivos conectados podem se comunicar entre si sem precisar passar por um servidor intermediário. Isso garante mais segurança e velocidade na
-comunicação entre os dispositivos.Ao usar essa VPN, você pode acessar arquivos e serviços de forma segura e privada, mesmo quando estiver em redes públicas ou sem fio.

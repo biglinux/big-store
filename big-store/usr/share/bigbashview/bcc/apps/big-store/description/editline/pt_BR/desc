@@ -1,1 +1,0 @@
- editline é uma alternativa para a função readline() em sistemas UNIX que não utilizam termcap (ncurses). Ele oferece as mesmas funcionalidades básicas, como o histórico de comandos e a edição de linhas, mas sem a necessidade do uso do termcap. Isso o torna uma opção mais leve e fácil de usar em sistemas sem  recursos avançados de terminal. 

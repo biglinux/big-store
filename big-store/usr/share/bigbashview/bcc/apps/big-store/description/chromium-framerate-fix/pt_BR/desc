@@ -1,2 +1,0 @@
-Este programa é uma versão modificada do Chromium, com uma correção adicionada para ajustar a taxa de quadros. Isso
-corrige o problema de 'engasgamento' do Chromium com os backends EGL e Desktop.

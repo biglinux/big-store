@@ -1,1 +1,0 @@
-Este programa ajuda a encontrar as diferenças entre duas sequências de números ou palavras. Ele usa um algoritmo chamado McIlroy-Hunt longest common subsequence (LCS) para encontrar as diferenças. Isso é útil quando você precisa comparar arquivos ou textos e encontrar as partes que mudaram. 

@@ -1,4 +1,0 @@
-Este programa é um scanner de dispositivos Bluetooth. Ele busca por dispositivos próximos que estejam usando o protocolo
-Bluetooth e os exibe em uma lista. Você pode usá-lo para descobrir quais dispositivos estão conectados à sua rede sem fio e obter informações adicionais sobre eles, como o endereço MAC e o 
-fabricante.Além disso, ele também pode ser usado para identificar dispositivos suspeitos que podem estar tentando se conectar à sua rede sem autorização. Ele é fácil de usar e possui uma
-interface amigável.

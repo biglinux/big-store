@@ -1,4 +1,0 @@
-Este é um programa chamado D-Bus, que é um sistema de mensagens utilizado para comunicação entre programas em um
-computador. Ele foi criado pela equipe do freedesktop.org e está disponível para ser usado em sistemas operacionais Windows através da versão mingw-w64. D-Bus é uma ferramenta poderosa que 
-permite aos programas se comunicarem e compartilharem informações de forma fácil e eficiente. Ele é amplamente utilizado em sistemas Linux e é uma escolha popular para desenvolvedores que
-precisam de uma maneira de conectar seus programas.

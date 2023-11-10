@@ -1,1 +1,0 @@
-Este programa permite processar o XML de introspecção D-Bus, obtido através do protocolo D-Bus, de diversas maneiras. Ele utiliza a biblioteca python-dbus-deviation para fazer isso. 

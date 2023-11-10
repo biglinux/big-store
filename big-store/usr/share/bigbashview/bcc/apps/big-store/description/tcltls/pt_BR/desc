@@ -1,3 +1,0 @@
-Esta extensão adiciona suporte a criptografia ao Tcl, utilizando a biblioteca OpenSSL. Ele permite que os desenvolvedores adicionem
-facilmente recursos de segurança em seus programas, como criptografia de dados, autenticação e verificação de certificados digitais.Ao usar essa extensão, os desenvolvedores podem acessar
-as funcionalidades do OpenSSL sem precisar escrever código complexo ou lidar com detalhes de baixo nível da biblioteca.

@@ -1,3 +1,0 @@
-Este programa adiciona suporte ao protocolo Socks e ao recurso de proxy. É escrito em Perl e usa o módulo LWP para
-funcionar. Agora você pode navegar na internet através de um proxy Socks, o que pode ser útil se você precisar esconder seu endereço IP ou acessar conteúdo restrito. O
-Perl-LWP-Protocol-Socks é uma ferramenta poderosa e fácil de usar para quem precisa de privacidade e segurança na internet. 

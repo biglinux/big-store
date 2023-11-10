@@ -1,1 +1,0 @@
-lib32-libogg é uma biblioteca para lidar com arquivos Ogg. Ogg é um formato de arquivo de áudio e vídeo  aberto e livre de patentes. A biblioteca fornece funções para ler e escrever arquivos Ogg e para acessar os dados de áudio e vídeo dentro deles. Esta é a versão de 32 bits da biblioteca. 

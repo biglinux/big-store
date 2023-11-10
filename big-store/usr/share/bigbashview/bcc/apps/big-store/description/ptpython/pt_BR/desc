@@ -1,3 +1,0 @@
-ptpython é uma ferramenta interativa para o Python que foi construída sobre o prompt_toolkit. Isso significa que você pode
-experimentar com o código Python e ver os resultados imediatamente, sem precisar salvar o arquivo e executá-lo. É uma ótima maneira de aprender ou testar pequenas partes de código. Além
-disso, o ptpython tem recursos adicionais, como sugestões de autocompletar e histórico de comandos, que o tornam ainda mais fácil de usar.

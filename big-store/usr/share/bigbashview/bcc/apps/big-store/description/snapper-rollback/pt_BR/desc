@@ -1,3 +1,0 @@
- Esse programa é chamado de Snapper-rollback e serve para voltar para uma versão anterior do seu
-sistema. Ele usa snapshots, que são como fotos do seu sistema em um momento específico. Assim, você pode escolher voltar para uma foto antiga se algo deu errado com a versão mais recente.
-O programa segue as instruções do link https://wiki.archlinux.org/index.php/Snapper#Suggested_filesystem_layout 

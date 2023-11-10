@@ -1,3 +1,0 @@
- Com este programa, você pode monitorar facilmente eventos em seus arquivos e pastas usando a linguagem de
-programação Python. Ele é especialmente útil para acompanhar mudanças em arquivos importantes ou para criar scripts automatizados que precisam reagir a essas mudanças. É baseado na
-biblioteca 'watchdog' e foi desenvolvido especificamente para a versão 3 do Python. Com ele, você pode monitorar eventos como criação, modificação e exclusão de arquivos e pastas.

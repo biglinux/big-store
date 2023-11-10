@@ -1,4 +1,0 @@
-Este programa, chamado flamegraph-git, é uma ferramenta que ajuda a visualizar traços de pilha de chamadas de
-função em um programa. Ele gera um gráfico chamado flame graph que mostra a relação entre as diferentes funções e como elas estão interconectadas. Isso pode ser útil para entender como um
-programa está funcionando e identificar pontos de melhoria de desempenho.O flamegraph-git é específico para uso com o sistema de controle de versão git, mas existem outras ferramentas
-semelhantes disponíveis para outras linguagens e sistemas de controle de versão.

@@ -1,4 +1,0 @@
-Este programa fornece os cabeçalhos e scripts necessários para construir módulos para o núcleo Linux 6.1.7-arch1-1.
-Ele é específico para essa versão específica do Linux e é importante para desenvolvedores que trabalham com esse sistema operacional.Os cabeçalhos são arquivos que contêm informações sobre 
-as funcionalidades e bibliotecas disponíveis no núcleo Linux. Eles são usados ​​pelo compilador para garantir que seu código possa se comunicar corretamente com o núcleo.Os scripts, por sua
-vez, são programas que automatizam tarefas específicas na construção de módulos. Eles ajudam a garantir que o processo seja o mais simples e eficiente possível.

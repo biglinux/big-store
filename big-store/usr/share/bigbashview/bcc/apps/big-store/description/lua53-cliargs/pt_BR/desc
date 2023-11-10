@@ -1,1 +1,0 @@
-Este programa é um analisador de argumentos de linha de comando. Ele ajuda você a processar os argumentos passados para o seu programa quando ele é executado no terminal. Ele é escrito em Lua e segue as especificações da versão 5.3. 

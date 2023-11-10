@@ -1,2 +1,0 @@
-Este programa é um sniffer, ou seja, ele 'espia' as conexões TCP que acontecem em uma rede. Ele mostra informações sobre essas
-conexões, como quem está se conectando, para onde e por quanto tempo.É útil para saber se há algum problema com a rede, ou se alguém está usando mais do que o devido.

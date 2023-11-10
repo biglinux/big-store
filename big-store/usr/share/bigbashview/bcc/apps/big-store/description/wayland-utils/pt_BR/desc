@@ -1,1 +1,0 @@
-wayland-utils é um conjunto de ferramentas para uso com o sistema Wayland, que permite exibir informações sobre o compositor atualmente em uso, como por exemplo, o tamanho e a posição das janelas, entre outros. Estas ferramentas são úteis para desenvolvedores e usuários avançados que desejam entender melhor como o Wayland está funcionando. 

@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 8.2 que adiciona recursos de controle de processos ao seu código. Isso significa que você pode criar,
-encerrar e gerenciar processos diretamente a partir do seu código PHP. Isso pode ser útil para tarefas como execução de comandos externos, gerenciamento de processos em segundo plano e
-outras tarefas avançadas.Existem várias funções disponíveis no módulo PCNTL, como 'pcntl_fork' para criar novos processos, 'pcntl_wait' para esperar por processos filhos e 'pcntl_signal'
-para definir manipuladores de sinais.

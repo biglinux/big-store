@@ -1,1 +1,0 @@
-O programa 'sudo' permite que usuários específicos tenham a capacidade de executar alguns comandos como se fossem o administrador do sistema (root). Isso é útil para garantir a segurança do sistema, já que apenas usuários confiáveis podem realizar tarefas administrativas. 

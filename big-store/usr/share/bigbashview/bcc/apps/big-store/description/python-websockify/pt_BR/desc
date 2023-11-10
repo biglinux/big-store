@@ -1,2 +1,0 @@
-Este programa permite que qualquer aplicação ou servidor tenha suporte a WebSockets. Isso significa que ele permite que os 
-usuários façam comunicação em tempo real com o servidor. Por exemplo, isso pode ser útil para jogos online ou chats em tempo real. Ele usa a linguagem Python para funcionar.

@@ -1,1 +1,0 @@
-O python-zope-schema é uma extensão para o zope.interface que permite a definição de esquemas de dados. Isso significa que é possível especificar quais campos devem existir em um determinado tipo de dado, bem como quais são os tipos de dados permitidos para cada campo. Isso ajuda a garantir a qualidade dos dados armazenados e a facilitar a validação de entradas. 

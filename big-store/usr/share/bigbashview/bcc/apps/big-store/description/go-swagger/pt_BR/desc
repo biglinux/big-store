@@ -1,1 +1,0 @@
-go-swagger é uma ferramenta para trabalhar com o Swagger 2.0 em Go, incluindo bibliotecas de servidor e cliente, bem como ferramentas de geração de código. Ele permite que você gere facilmente bibliotecas de cliente em várias linguagens a partir de uma definição Swagger. Ele também inclui uma interface web para interagir facilmente com a API. 

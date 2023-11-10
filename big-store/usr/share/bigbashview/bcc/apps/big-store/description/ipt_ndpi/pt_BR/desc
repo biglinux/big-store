@@ -1,3 +1,0 @@
-Este programa adiciona uma extensão para o netfilter, o sistema de filtragem de pacotes do Linux. Ele permite que você use
-o nDPI, uma biblioteca de detecção de protocolos de rede, para identificar e classificar tráfego na sua rede. Com essa extensão, você pode criar regras para bloquear ou permitir certos
-tipos de tráfego, como por exemplo, bloquear o tráfego de torrents ou permitir somente acesso a sites específicos.

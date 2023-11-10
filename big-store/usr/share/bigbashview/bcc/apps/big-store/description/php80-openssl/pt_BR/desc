@@ -1,3 +1,0 @@
- O módulo OpenSSL para o PHP 8.0 é uma adição ao PHP 8.0 que permite a criptografia de dados. Ele é necessário para algumas
-funcionalidades, como o envio de e-mails seguros e a autenticação de usuários. Esse módulo é fácil de instalar e configurar, e é uma ótima opção para garantir a segurança dos dados em sua
-aplicação PHP. 

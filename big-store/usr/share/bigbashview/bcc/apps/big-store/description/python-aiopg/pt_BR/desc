@@ -1,1 +1,0 @@
-O python-aiopg é uma biblioteca que permite utilizar as funcionalidades do asyncio para se comunicar com o banco de dados PostgreSQL. Ele é útil para quem precisa de acesso rápido e eficiente ao banco de dados, sem precisar se preocupar com a sincronização de acesso às informações. 

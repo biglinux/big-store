@@ -1,5 +1,0 @@
- Este programa permite controlar a iluminação e as configurações de desempenho do teclado HP 
-Omen em sistemas operacionais Linux. Ele utiliza o módulo DKMS (Dynamic Kernel Module Support) e o módulo hp-omen-wmi para realizar as configurações. Com ele, é possível ajustar as cores
-das teclas, a velocidade dos efeitos de iluminação e muito mais.Além disso, ele é compatível com várias distribuições Linux, incluindo Ubuntu, Fedora e Arch Linux. Ele é fácil de
-instalar e usar, permitindo que qualquer pessoa com conhecimento básico de Linux possa ajustar as configurações do teclado sem problemas.Em resumo, este programa é uma excelente opção
-para qualquer pessoa que possua um teclado HP Omen e queira aproveitar todas as suas funcionalidades no Linux. 

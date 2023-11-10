@@ -1,1 +1,0 @@
-Este é um driver de vídeo para o X.org framebuffer, ele permite que você use seu computador com sistemas operacionais  baseados em Linux. Ele é chamado de xf86-video-fbdev e é necessário para que você possa usar sua tela corretamente. 

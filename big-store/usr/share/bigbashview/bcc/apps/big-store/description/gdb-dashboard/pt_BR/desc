@@ -1,1 +1,0 @@
-gdb-dashboard é uma ferramenta de visualização modular para GDB em Python. Ele permite um depuração mais eficiente, exibindo várias informações sobre o programa em depuração de maneira clara e organizada. A interface é personalizável e pode ser estendida com novos módulos de acordo com as necessidades do usuário. Ele pode ser usado tanto em ambientes de terminal quanto GUI. 

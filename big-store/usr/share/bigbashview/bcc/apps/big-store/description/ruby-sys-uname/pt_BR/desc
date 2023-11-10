@@ -1,1 +1,0 @@
-Este programa é uma interface para coletar informações sobre sua plataforma atual. Ele é feito em ruby e se chama ruby-sys-uname. Com ele, você pode descobrir detalhes sobre seu sistema operacional, como a versão, arquitetura e nome do kernel.É uma ferramenta útil para desenvolvedores que precisam saber mais sobre o ambiente em que seus programas estão sendo executados. 

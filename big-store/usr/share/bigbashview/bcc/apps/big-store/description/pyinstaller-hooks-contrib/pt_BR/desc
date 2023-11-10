@@ -1,3 +1,0 @@
-Os hooks para PyInstaller são mantidos pela comunidade. Eles ajudam a garantir que seu programa Python seja convertido corretamente em
-um arquivo executável quando você usa o PyInstaller para criar um instalador. Eles são úteis para garantir que todas as bibliotecas e dependências necessárias sejam incluídas no instalador 
-final.Estes hooks são contribuições da comunidade e não são oficialmente suportados pelo PyInstaller, mas ainda assim podem ser úteis para muitos usuários.

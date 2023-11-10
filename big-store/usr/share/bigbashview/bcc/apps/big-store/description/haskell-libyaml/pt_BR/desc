@@ -1,1 +1,0 @@
-Este programa é um interpretador de YAML de baixo nível, o que significa que ele lê e escreve arquivos no formato YAML de  maneira eficiente e simples. É escrito em Haskell e é uma biblioteca, o que significa que pode ser usado em outros programas para adicionar suporte ao YAML. 

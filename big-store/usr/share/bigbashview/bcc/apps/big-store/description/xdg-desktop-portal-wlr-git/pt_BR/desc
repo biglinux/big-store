@@ -1,3 +1,0 @@
-Este programa é um backend para portais de desktop usando o xdg-desktop-portal e o wlroots. Ele permite que aplicativos
-acessem recursos do sistema de forma segura e fácil, como câmera, arquivos e notificações. Este programa é especialmente útil para ambientes de trabalho baseados em Wayland, pois fornece
-suporte completo a esses recursos.

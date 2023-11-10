@@ -1,1 +1,0 @@
-Este programa é destinado a testar exemplos interativos escritos em Haskell. Ele é chamado de haskell-doctest-parallel, pois ele roda testes em paralelo, o que significa que ele pode testar vários exemplos ao mesmo tempo. Isso torna o processo de teste mais rápido e eficiente. 

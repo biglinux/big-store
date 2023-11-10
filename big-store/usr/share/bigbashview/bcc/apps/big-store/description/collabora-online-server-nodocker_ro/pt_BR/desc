@@ -1,4 +1,0 @@
-Este programa é um servidor de colaboração online que não precisa ser instalado dentro de um container Docker. Ele
-permite que usuários acessem e editem documentos juntos, em tempo real, usando aplicativos compatíveis com o protocolo Open Document Format (ODF). É uma excelente opção para equipes que
-desejam trabalhar juntas de forma eficiente e sem complicações técnicas.Com esse programa, é possível criar e editar documentos, planilhas e apresentações, além de compartilhar arquivos e
-trabalhar em projetos em equipe. Ele também oferece recursos avançados, como controle de versão, comentários e rastreamento de mudanças.

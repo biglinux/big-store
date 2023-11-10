@@ -1,1 +1,0 @@
-hcxkeys é um conjunto de ferramentas para gerar chaves mestras simples  (rainbowtables) e hashes para serem usados com os programas hashcat e John the Ripper. Essas ferramentas são úteis para quem trabalha com segurança da informação, pois permitem a criação de tabelas de chaves para facilitar o processo de quebra de senhas. 

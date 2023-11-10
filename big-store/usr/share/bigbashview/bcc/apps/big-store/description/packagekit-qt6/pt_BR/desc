@@ -1,1 +1,0 @@
-Este programa permite a integração do Qt6 com o PackageKit. Isso significa que você pode usar as funcionalidades do PackageKit, como instalar e desinstalar pacotes, diretamente a partir do Qt6.Isso torna mais fácil e rápido gerenciar pacotes em seu sistema, pois você não precisa sair da sua aplicação para usar o PackageKit. 

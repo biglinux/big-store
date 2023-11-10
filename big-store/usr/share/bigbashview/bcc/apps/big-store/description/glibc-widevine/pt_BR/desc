@@ -1,3 +1,0 @@
-A biblioteca glibc-widevine é usada para garantir a segurança de conteúdo em sistemas operacionais. Ela é baseada 
-na biblioteca GNU C Library e foi desenvolvida para trabalhar com o sistema de proteção de conteúdo Widevine. Com ela, é possível garantir que somente usuários autorizados tenham acesso ao 
-conteúdo protegido. Ela é comumente usada em aplicativos de streaming de vídeo e em outros sistemas que lidam com conteúdo digital seguro.

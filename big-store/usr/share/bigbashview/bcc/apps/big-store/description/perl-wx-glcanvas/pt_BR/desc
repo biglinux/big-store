@@ -1,4 +1,0 @@
-Wx::GLCanvas é uma interface para o canvas OpenGL da biblioteca wxWidgets. Com ele, é possível criar aplicativos
-gráficos com recursos avançados de renderização em 3D e animações sofisticadas. É uma ferramenta poderosa para desenvolvedores que precisam de gráficos de alta qualidade em suas
-aplicações.O Perl é uma linguagem de programação popular que permite a criação de aplicativos para vários sistemas operacionais, incluindo Windows, Linux e MacOS. Com Wx::GLCanvas, é
-possível criar aplicativos gráficos avançados com Perl que oferecem uma ótima performance e recursos completos de renderização em 3D.

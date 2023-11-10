@@ -1,3 +1,0 @@
-O scylla-bin é uma base de dados para big data em tempo real que é compatível com a API do Apache Cassandra e
-Amazon DynamoDB. Com ele, você pode armazenar grandes quantidades de informações e acessá-las rapidamente, o que é ideal para aplicações que precisam de alta performance e escalabilidade.
-Além disso, a compatibilidade com as APIs de outras bases de dados torna a migração de dados mais fácil e eficiente.

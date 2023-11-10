@@ -1,1 +1,0 @@
-Esse programa é um cliente da especificação OpenTelemetry escrito em Haskell, é usado para coletar dados de métricas e rastreamento de aplicações e enviá-los para um coletor compatível. 

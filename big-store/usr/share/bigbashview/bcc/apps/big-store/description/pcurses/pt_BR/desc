@@ -1,4 +1,0 @@
-O PCurses é uma ferramenta de gerenciamento de pacotes que utiliza a biblioteca libalpm. Ele permite a você
-instalar, remover e gerenciar pacotes curses de maneira fácil e eficiente. Com ele, você pode garantir que sua aplicação sempre tenha as dependências necessárias para funcionar
-corretamente. Além disso, o PCurses também oferece recursos avançados, como gerenciamento de versões, resolução de conflitos de pacotes e suporte à instalação de pacotes de fontes
-externas.

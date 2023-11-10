@@ -1,5 +1,0 @@
-Este é um módulo especial para o software PHP 8.0 que permite acessar e manipular documentos HTML e XML de forma fácil. Ele é chamado
-de módulo DOM, que significa Document Object Model. Isso significa que ele permite que você trabalhe com documentos de uma forma semelhante a como você trabalharia com objetos em um
-programa. Isso torna muito mais fácil criar programas que possam ler e modificar documentos da web.Por exemplo, você pode usar esse módulo para encontrar todas as imagens em uma página web 
-e salvar cópias delas em seu computador. Ou você pode usar esse módulo para encontrar todos os links em uma página e seguir esses links para outras páginas. Esse módulo é muito útil para
-qualquer pessoa que queira fazer programas que trabalhem com documentos da web.

@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Pogreška pri pristupu imeniku:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Izvorni programi imaju robusniju integraciju s operativnim sustavom.<br>Podvrgavaju se opsežnim "
+"ispitivanjima prije nego što postanu dostupni, osiguravajući veću pouzdanost.<br>Iz tih razloga, "
+"odabir izvornog programa posebno se preporučuje kada je željeni softver dostupan u više mogućnosti "
+"instalacije.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Pričekajte dok ne prikupimo podatke o sustavu. To bi moglo potrajati nekoliko trenutaka..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Približan datum instalacije sustava:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store već radi."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Izvorni programi imaju robusniju integraciju s operativnim sustavom.<br>Podvrgavaju se opsežnim "
+"ispitivanjima prije nego što postanu dostupni, osiguravajući veću pouzdanost.<br>Iz tih razloga, "
+"odabir izvornog programa posebno se preporučuje kada je željeni softver<br>dostupan je u nekoliko "
+"mogućnosti instalacije.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Preuzimanje novih paketa iz baze podataka poslužitelja"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Kao parametri nisu proslijeđeni paketi"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Još jedna instanca Big-Storea već je pokrenuta."
+
+msgid "Procurar aplicativo"
+msgstr "Pregledavanje aplikacije"
+
+msgid "Editores de texto linha de comando"
+msgstr "Uređivači teksta naredbenog retka"
+
+msgid "Multimidia"
+msgstr "Multimedija"
+
+msgid "Carta"
+msgstr "Slovo"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Prikaz informacija o uređaju na Linux hardveru"
+
+msgid "Processador"
+msgstr "Procesor"
+
+msgid "Placa mãe"
+msgstr "Matična ploča"
+
+msgid "Memória"
+msgstr "Memorija"
+
+msgid "Swap Memória Virtual"
+msgstr "Zamjena virtualne memorije"
+
+msgid "Placa de vídeo"
+msgstr "Grafička kartica"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Mreža"
+
+msgid "Conexões de Rede"
+msgstr "Mrežne veze"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB uređaji i veze"
+
+msgid "Portas PCI"
+msgstr "Od zajedničkog interesa: priključci"
+
+msgid "Bateria"
+msgstr "Baterija"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Uređaji za pohranu"
+
+msgid "Partições montadas"
+msgstr "Montirane particije"
+
+msgid "Partições desmontadas"
+msgstr "Nemontirane particije"
+
+msgid "Dispositivos lógicos"
+msgstr "Logički uređaji"
+
+msgid "Raid"
+msgstr "PREPAD"
+
+msgid "Informações de Sistema"
+msgstr "Informacije o sustavu"
+
+msgid "Repositórios"
+msgstr "Repozitorijima"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Temperatura"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Da bi se Flatpak programi pojavili u izborniku sustava, odjavite se i ponovno prijavite."
+
+msgid "Atualizado em"
+msgstr "Ažurirano"
+
+msgid "Sobre"
+msgstr "Na"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Prijevod opisa online paketa"

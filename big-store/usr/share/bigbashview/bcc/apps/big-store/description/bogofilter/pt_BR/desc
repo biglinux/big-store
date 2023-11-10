@@ -1,1 +1,0 @@
-bogofilter é uma ferramenta de filtragem de spam Bayesiana que usa estatísticas de probabilidade para classificar mensagens de e-mail como spam ou não-spam. Ele funciona comparando palavras em uma mensagem de e-mail com um dicionário de palavras conhecidas de spam e não-spam, e então usa as probabilidades para classificar a mensagem. É rápido e eficaz em identificar spam. 

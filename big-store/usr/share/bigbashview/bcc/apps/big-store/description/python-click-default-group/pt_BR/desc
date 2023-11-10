@@ -1,1 +1,0 @@
-Este programa é uma extensão para o pacote 'click' do Python. Ele permite que você execute comandos sem precisar especificar o nome do subcomando explicitamente. Isso pode ser útil se você quiser criar comandos com nomes difíceis de lembrar ou se quiser tornar o processo de chamada de comando mais fácil para os usuários. O pacote se chama python-click-default-group 

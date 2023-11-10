@@ -1,1 +1,0 @@
-A extensão Flask adiciona um decorador para suporte CORS. Isso permite que outros domínios acessem sua aplicação Flask, o que é útil quando você está desenvolvendo aplicativos com diferentes origens. O decorador é fácil de usar e configurar, e ajuda a garantir que sua aplicação seja segura e funcione corretamente. 

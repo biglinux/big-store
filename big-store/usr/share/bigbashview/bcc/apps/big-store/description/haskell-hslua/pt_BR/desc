@@ -1,1 +1,0 @@
-Esse programa é chamado de haskell-hslua e é um interpretador de linguagem Lua embutido no Haskell. Isso significa que ele permite que você execute códigos escritos na linguagem Lua usando a plataforma Haskell. É uma maneira de aproveitar as vantagens de ambas as linguagens em um único projeto.  

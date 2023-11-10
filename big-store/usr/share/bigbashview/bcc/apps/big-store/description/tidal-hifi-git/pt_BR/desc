@@ -1,2 +1,0 @@
-Este programa permite acessar a versão web do Tidal com suporte à qualidade HiFi graças ao Widevine. Ele roda no electron.
-Se ocorrer falha na instalação, utilize o nvm para baixar temporariamente a versão do npm.

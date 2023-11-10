@@ -1,4 +1,0 @@
-Esta é uma biblioteca chamada libquotient-git, ela é feita para ajudar a escrever programas (chamados de clientes)
-que funcionam em vários tipos de computadores. Esses programas são especiais porque eles se conectam ao Matrix, que é uma rede de comunicação. Com essa biblioteca, você pode criar programas
-que usam o Qt5, que é uma ferramenta para desenvolvimento de programas.Isso significa que você pode escrever um programa uma vez e depois usá-lo em vários tipos de computadores sem precisar
-mudar muita coisa. Isso é útil porque é difícil escrever programas que funcionem em vários tipos de computadores. Com a libquotient-git, essa tarefa fica mais fácil.

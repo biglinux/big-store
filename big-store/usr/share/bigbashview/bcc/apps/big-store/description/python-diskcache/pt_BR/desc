@@ -1,3 +1,0 @@
-Python-diskcache é uma biblioteca que permite armazenar dados de forma rápida em arquivos ou disco. Isso é
-útil quando você precisa acessar dados com frequência, mas não quer carregá-los na memória toda vez. A biblioteca é fácil de usar e se integra facilmente a outros projetos em Python.Além
-disso, python-diskcache também oferece recursos avançados, como expiração de dados e bloqueio de arquivos para evitar conflitos de acesso.

@@ -1,1 +1,0 @@
-Essas são as bibliotecas de tempo de execução do compilador clang 14. Elas são usadas para ajudar o compilador a funcionar corretamente enquanto ele traduz o código fonte em código de máquina. Sem essas bibliotecas, o compilador não seria capaz de fazer seu trabalho. 

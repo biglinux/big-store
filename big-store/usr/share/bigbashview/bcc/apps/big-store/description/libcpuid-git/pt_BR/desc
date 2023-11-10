@@ -1,4 +1,0 @@
-Este programa é uma pequena biblioteca em C para detecção e extração de características de processadores
-x86. Ele é útil para obter informações sobre o hardware do seu computador, como o modelo, a velocidade e as características específicas da CPU. Isso pode ser útil para otimizar o desempenho
-de seus aplicativos ou para garantir a compatibilidade com certos recursos.A biblioteca é fácil de usar e fornece informações precisas e confiáveis sobre a CPU. Ela é atualizada
-regularmente para incluir suporte para novos modelos e características.

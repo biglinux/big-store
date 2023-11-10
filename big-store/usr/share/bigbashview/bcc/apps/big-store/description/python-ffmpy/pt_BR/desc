@@ -1,4 +1,0 @@
-Esse programa é uma forma fácil de usar o ffmpeg, que é um software para trabalhar com vídeos e áudios,
-usando a linguagem Python. Ele é chamado de 'wrapper' porque ele 'embrulha' as funções do ffmpeg de forma que fique mais simples de usar. Com esse programa, você pode fazer coisas como
-converter vídeos para outros formatos, cortar trechos de vídeo, adicionar legendas, entre outras coisas.Ele é útil para quem precisa trabalhar com vídeos e áudios de forma automatizada, sem
-precisar digitar comandos no terminal. Ele também é uma boa opção para quem quer aprender a usar o ffmpeg de forma mais fácil.

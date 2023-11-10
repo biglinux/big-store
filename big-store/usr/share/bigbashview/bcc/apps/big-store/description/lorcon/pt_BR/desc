@@ -1,1 +1,0 @@
-lorcon é uma biblioteca que permite a injeção de quadros 802.11 em redes sem fio. Ele é compatível com vários drivers de dispositivos wireless, incluindo o AirJack e o madwifi-ng. Com lorcon, os desenvolvedores podem criar aplicativos personalizados para testes de segurança e outras tarefas  relacionadas à rede sem fio. 

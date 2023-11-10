@@ -1,3 +1,0 @@
-Este programa é uma coleção de bibliotecas para uso em aplicativos que precisam se comunicar com o gerenciador
-de sistema systemd. Ele inclui suporte ao SELinux, um sistema de segurança que ajuda a proteger o sistema contra ameaças. Essas bibliotecas permitem que os desenvolvedores criem programas
-que possam se comunicar com o systemd de maneira segura e eficiente.

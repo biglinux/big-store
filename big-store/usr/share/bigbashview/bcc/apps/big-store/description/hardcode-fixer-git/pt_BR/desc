@@ -1,4 +1,0 @@
-Este programa foi criado para corrigir os ícones que foram codificados diretamente no código. Isso significa que, em vez de usar
-imagens externas para os ícones, eles foram inseridos diretamente no código do programa. Com isso, é mais difícil atualizar ou mudar esses ícones, já que eles estão diretamente ligados ao
-código.O hardcode-fixer-git foi desenvolvido para resolver esse problema, permitindo que os ícones sejam facilmente atualizados ou modificados sem afetar o funcionamento do programa. Ele
-faz isso procurando por ícones codificados no código e os substituindo por imagens externas, o que significa que eles podem ser facilmente modificados sem precisar mexer no código.

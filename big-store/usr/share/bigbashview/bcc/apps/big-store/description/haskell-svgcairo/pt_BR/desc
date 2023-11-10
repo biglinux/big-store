@@ -1,3 +1,0 @@
- Essa biblioteca permite que você desenhe gráficos usando a linguagem de programação Haskell e a biblioteca
-libsvg-cairo. Ela oferece uma maneira fácil de criar imagens vetoriais de alta qualidade, como gráficos, logotipos e diagramas. Com ela, é possível criar arquivos SVG que podem ser usados
-em várias aplicações, como navegadores web, editores de imagem e aplicativos de impressão. 

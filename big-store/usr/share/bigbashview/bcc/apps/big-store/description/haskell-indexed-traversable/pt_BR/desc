@@ -1,1 +1,0 @@
-O FunctorWithIndex, FoldableWithIndex e TraversableWithIndex são bibliotecas em Haskell que permitem acessar elementos de uma estrutura de dados de forma indexada durante as operações de traversabilidade. Estas bibliotecas são úteis para trabalhar com estruturas de dados complexas e permitem uma maior flexibilidade e eficiência no processamento de dados. 

@@ -1,3 +1,0 @@
-Este é um programa chamado otpclient-git que é um cliente TOTP/HOTP para o GTK+ v3. Ele te ajuda a gerar códigos de
-autenticação de um só uso (TOTP) ou códigos baseados em eventos (HOTP) para usar em outros aplicativos e sites que exigem autenticação adicional. Ele é fácil de usar e se integra
-perfeitamente com o sistema.

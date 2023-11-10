@@ -1,1 +1,0 @@
-O python-gast é um programa que ajuda a abstrair a versão do Python que você está usando. Isso é útil porque diferentes versões do Python podem ter comandos e recursos diferentes, mas com esse programa, você pode escrever seu código de forma que ele funcione independentemente da versão do Python que você estiver usando. 

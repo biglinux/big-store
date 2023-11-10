@@ -1,1 +1,0 @@
-Este programa em Perl permite criar e remover diretórios de forma recursiva sem precisar lidar com tanto overhead quanto o módulo File::Path. Ele é útil para quem precisa gerenciar estruturas de arquivos complexas e precisa fazer isso de forma rápida e eficiente. 

@@ -1,3 +1,0 @@
-Este é um kernel Linux seguro e endurecido. Ele inclui cabeçalhos e scripts para construir módulos para o kernel Linux
-seguro 6.1.7-hardened1-1-hardened. Este kernel foi projetado especificamente para aumentar a segurança do sistema, fazendo com que ele seja uma boa opção para ambientes críticos de
-segurança.

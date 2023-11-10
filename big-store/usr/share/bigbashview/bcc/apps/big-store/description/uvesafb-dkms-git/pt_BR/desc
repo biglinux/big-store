@@ -1,2 +1,0 @@
-Este programa é um driver para o uvesafb. Ele ajuda a garantir que o sistema operacional possa comunicar-se corretamente com o
-hardware. Ele é instalado como um pacote DKMS, o que significa que ele será atualizado automaticamente quando novos kernels são instalados.

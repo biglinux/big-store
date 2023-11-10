@@ -1,3 +1,0 @@
-A camada de quadros de HTTP/2 é implementada como uma biblioteca C reutilizável. O nghttp2 é uma
-implementação dessa biblioteca, que permite que desenvolvedores criem aplicações HTTP/2 de forma fácil e rápida.Com essa biblioteca, é possível implementar diversas funcionalidades do
-HTTP/2, como multiplexação de fluxos, compressão de cabeçalhos e gerenciamento de fluxos.

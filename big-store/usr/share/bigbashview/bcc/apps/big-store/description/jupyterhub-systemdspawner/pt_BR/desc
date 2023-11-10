@@ -1,4 +1,0 @@
-Este programa permite que você inicie servidores individuais com o JupyterHub usando o systemd. Isso significa 
-que você pode gerenciar facilmente seus servidores e garantir que eles estejam sempre rodando. Além disso, é possível utilizar recursos avançados do systemd, como garantir que os servidores
-sejam iniciados automaticamente após uma atualização ou falha. É uma ótima opção para quem utiliza o JupyterHub em ambientes de produção e deseja garantir que seus servidores estejam sempre
-disponíveis para seus usuários.

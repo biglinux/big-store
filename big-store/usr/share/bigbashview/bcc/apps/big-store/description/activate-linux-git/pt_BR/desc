@@ -1,3 +1,0 @@
- Este programa foi criado para retirar a marca d'água 'Ativado Windows' que aparece na tela do seu computador Linux.
-Ele foi desenvolvido usando as bibliotecas Xlib e Cairo em linguagem C.Com ele, você pode usar seu sistema sem se preocupar com a presença constante da marca d'água, tornando sua
-experiência de uso mais agradável.Este programa é simples de usar, basta seguir as instruções de instalação e você estará pronto para usá-lo.

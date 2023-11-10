@@ -1,1 +1,0 @@
-O pacote alsa-firmware contém arquivos binários de firmware para serem usados com programas de carregamento, como o alsa-tools e o hotplug firmware loader. Eles são necessários para que certos dispositivos de áudio funcionem corretamente. 

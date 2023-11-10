@@ -1,1 +1,0 @@
-Esse programa é escrito em Python e utiliza a biblioteca pytest-httpx para enviar respostas para o protocolo httpx. Ele é útil para testar aplicações que dependem de comunicação via httpx. 

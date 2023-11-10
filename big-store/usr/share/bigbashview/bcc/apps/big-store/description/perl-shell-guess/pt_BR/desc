@@ -1,1 +1,0 @@
-Este programa ajuda você a adivinhar qual shell está sendo usado no momento. Ele usa as informações disponíveis para fazer uma suposição educada sobre qual shell está em uso. Ele é escrito em Perl e é chamado de 'perl-shell-guess'. 

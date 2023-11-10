@@ -1,1 +1,0 @@
-Este é um programa chamado or1k-elf-gdb, ele é um depurador (um tipo de ferramenta que ajuda a encontrar erros em outros programas) criado especificamente para usar em um tipo específico de processador chamado OpenRISC 100. Ele é usado para ajudar a encontrar e corrigir problemas em programas que rodam neste  tipo de processador. 

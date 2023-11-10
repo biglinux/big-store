@@ -1,3 +1,0 @@
-Este programa é a documentação para o kernel VFIO LTS Linux. Ele é uma versão do kernel Linux com suporte a longo prazo
-(LTS) e suporte para virtualização de dispositivo (VFIO). Com ele, você pode usar seus dispositivos de hardware em máquinas virtuais com mais facilidade e estabilidade. É importante para
-usuários que precisam de suporte a longo prazo e virtualização avançada em suas máquinas Linux.

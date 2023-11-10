@@ -1,3 +1,0 @@
-Este é um módulo de FTP para a versão 8.0 do PHP. Ele permite que você use funções FTP em seus scripts PHP para se conectar e
-interagir com servidores FTP. Isso inclui a capacidade de fazer upload e download de arquivos, criar pastas, mover e excluir arquivos e muito mais. Com esse módulo, você pode automatizar
-tarefas de FTP, tornando seu fluxo de trabalho mais fácil e eficiente.

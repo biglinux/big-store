@@ -1,1 +1,0 @@
-Com o zenity, você pode criar caixas de diálogo gráficas no terminal. Isso é útil para criar scripts em shell que precisam de interação com o usuário, como perguntar por senhas ou escolhas de opções. Ele é fácil de usar e se integra perfeitamente com outras ferramentas de linha de comando. 

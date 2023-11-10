@@ -1,3 +1,0 @@
-Este programa é uma ferramenta para construir aplicativos para o sistema operacional Windows. Ele usa o MinGW (mingw-w64) e
-o Meson para tornar o processo de construção mais fácil e mais rápido. Com ele, você pode criar aplicativos de forma simples e eficiente para o Windows. Ele é especialmente útil para
-desenvolvedores que precisam construir aplicativos para várias versões do Windows, pois ele é compatível com as versões mais recentes e as mais antigas do sistema operacional.

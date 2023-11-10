@@ -1,1 +1,0 @@
- libgit2 é uma biblioteca open-source que permite aos desenvolvedores criar programas que utilizem recursos do Git, como versionamento de código e controle de colaboração. Ela é escrita em C e possui uma API simples e fácil de usar. Com libgit2, é possível criar aplicativos para desktop, web e dispositivos móveis que se integrem com o Git, sem precisar usar linha de comando. 

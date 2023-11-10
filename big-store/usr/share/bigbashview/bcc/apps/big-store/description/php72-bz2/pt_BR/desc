@@ -1,2 +1,0 @@
- Este é um módulo para o PHP72 que permite a compressão e descompressão de arquivos BZ2. Ele é útil para reduzir o tamanho de arquivos 
-grandes antes de enviá-los ou descompactá-los para uso. Com esse módulo, você pode trabalhar com arquivos BZ2 de maneira fácil e rápida no PHP72.

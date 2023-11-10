@@ -1,3 +1,0 @@
-Esse é um módulo para o PHP 7.1 que permite ler arquivos XML de forma mais fácil e rápida. Ele é útil para quem precisa
-trabalhar com dados em formato XML em seus programas escritos em PHP. Com esse módulo, você pode navegar pelos dados em um arquivo XML de forma semelhante a como você navegaria em uma
-estrutura de dados comum, como arrays ou objetos. Isso torna o processo de extrair informações de arquivos XML muito mais simples.

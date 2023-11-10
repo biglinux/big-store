@@ -1,1 +1,0 @@
-fbv é um visualizador de imagem que usa o FrameBuffer. Ele permite visualizar imagens diretamente no console do seu sistema operacional, sem precisar de um programa gráfico.Ele é especialmente útil para sistemas embarcados ou servidores sem interface gráfica. Ele suporta vários formatos de imagem, incluindo JPEG, PNG e GIF. 

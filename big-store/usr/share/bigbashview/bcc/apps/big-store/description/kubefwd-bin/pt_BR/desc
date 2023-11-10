@@ -1,3 +1,0 @@
-A ferramenta kubefwd é uma linha de comando construída para encaminhar alguns ou todos os pods dentro de um
-namespace do Kubernetes. É uma ferramenta útil para desenvolvedores que precisam acessar serviços em pods do Kubernetes sem precisar expô-los publicamente. Com kubefwd, você pode facilmente
-encaminhar as portas dos pods diretamente para o seu ambiente de desenvolvimento, tornando o processo de desenvolvimento e depuração muito mais fácil. 

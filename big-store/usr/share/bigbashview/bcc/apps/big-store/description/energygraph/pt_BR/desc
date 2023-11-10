@@ -1,2 +1,0 @@
-Este programa é responsável por criar gráficos do uso de energia de um dispositivo dentro de um terminal de texto.
-Ele utiliza dados de intel-rapl do sistema de arquivos /sys para determinar o uso de energia de diferentes áreas e mostrá-lo em forma de gráfico no terminal de texto. 

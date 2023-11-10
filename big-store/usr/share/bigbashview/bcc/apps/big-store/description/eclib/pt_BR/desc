@@ -1,1 +1,0 @@
-Este repositório contém dois programas importantes para trabalhar com curvas elípticas. O primeiro é o mwrank, que é usado para realizar cálculos de 2-descent em curvas elípticas sobre o corpo dos números racionais. O segundo é o código de símbolos modulares, que é usado para criar uma base de dados de curvas elípticas.O projeto eclib é necessário para usar essas ferramentas. 

@@ -1,3 +1,0 @@
-O PostgreSQL é um sistema de gerenciamento de banco de dados relacional avançado. Ele é projetado para lidar com grandes
-quantidades de dados e suporta muitos recursos avançados, como armazenamento de objetos, indexação, segurança e gerenciamento de transações.Como desenvolvedor, você pode usar o pacote
-'postgresql-devel' para acessar as ferramentas e bibliotecas necessárias para criar aplicativos e extensões para o PostgreSQL.

@@ -1,1 +1,0 @@
-O módulo ruby-date é uma subclasse de Object que inclui o módulo Comparable. Isso permite que você trabalhe com datas de maneira mais fácil e organizada. Ele possui funções para criar, comparar e formatar datas, além de outras funcionalidades úteis para trabalhar com esses dados. 

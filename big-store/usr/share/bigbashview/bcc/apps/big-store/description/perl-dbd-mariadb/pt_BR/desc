@@ -1,1 +1,0 @@
- Este programa é um driver especial para usar com o MariaDB e MySQL quando se trabalha com a interface de banco de dados Perl5 (DBI). Ele permite que você conecte e faça operações no banco de dados MariaDB e MySQL usando o Perl5. 

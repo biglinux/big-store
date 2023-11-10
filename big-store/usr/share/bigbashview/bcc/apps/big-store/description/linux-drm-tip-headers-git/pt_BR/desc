@@ -1,3 +1,0 @@
-Este pacote contém headers e scripts que são utilizados para construir módulos para o kernel Linux com drivers de GPU 
-de ponta. Isso é útil para quem deseja obter as últimas funcionalidades e correções de bugs para a placa de vídeo em seu sistema.É importante notar que este pacote é destinado a usuários
-avançados e pode apresentar instabilidade se não for utilizado corretamente. Certifique-se de seguir as instruções de instalação e utilização corretamente antes de usá-lo.

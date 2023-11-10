@@ -1,4 +1,0 @@
- lib32-vkbasalt é uma camada de pós-processamento para jogos que usam a biblioteca Vulkan. Ele
-permite adicionar efeitos visuais incríveis, como CAS (Contrast Adaptive Sharpening), FXAA (Fast Approximate Anti-aliasing), SMAA (Subpixel Morphological Anti-aliasing) e deband, que
-melhoram a qualidade gráfica dos jogos.Utilizando essa biblioteca, os desenvolvedores de jogos podem criar jogos com gráficos incrivelmente realistas e detalhados, e os jogadores podem
-desfrutar de uma experiência de jogo mais imersiva e envolvente. 

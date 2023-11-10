@@ -1,4 +1,0 @@
-Você sabia que é possível usar o Chromium, um navegador web de código aberto, ao invés do Chrome quando trabalha com o
-Flutter?Isso é feito através de uma configuração de variáveis de ambiente. Isso significa que você pode personalizar a forma como o navegador é usado em seu projeto Flutter, dando-lhe mais 
-flexibilidade e controle.Se você estiver interessado em experimentar essa opção, é importante notar que o Chromium pode ter algumas diferenças de comportamento em relação ao Chrome, então
-certifique-se de testar cuidadosamente antes de implementar em um projeto de produção.

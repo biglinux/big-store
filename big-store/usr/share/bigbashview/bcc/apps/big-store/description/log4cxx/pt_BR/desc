@@ -1,1 +1,0 @@
-Este programa é uma versão do Log4j escrita em C++, chamada log4cxx. Ele permite que desenvolvedores usem as mesmas funcionalidades de log do Log4j, mas agora em aplicações C++. Isso inclui a capacidade de especificar quais níveis de log devem ser registrados, onde eles devem ser armazenados e como eles devem ser formatados. 

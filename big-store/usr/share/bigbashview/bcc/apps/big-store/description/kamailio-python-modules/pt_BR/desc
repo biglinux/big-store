@@ -1,3 +1,0 @@
-Os módulos Python para Kamailio são uma extensão para o Kamailio, que é um software de roteamento de sinalização SIP. Com estes 
-módulos, você pode escrever scripts Python para serem executados dentro do Kamailio e acessar suas funcionalidades. Isso permite que você faça coisas como criar regras de roteamento
-personalizadas, filtrar chamadas e gerenciar contas de usuário. Os módulos são fáceis de usar e oferecem muitas possibilidades para personalizar o Kamailio de acordo com suas necessidades.

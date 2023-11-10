@@ -1,3 +1,0 @@
-Este é um programa chamado 'Limite de segurança para SuperCollider'. Ele foi criado para ajudar a manter o som em
-níveis seguros enquanto você está usando o programa SuperCollider. Ele é chamado de 'zero-latência', o que significa que ele age rapidamente para evitar que o som fique muito alto. Isso é
-importante para proteger seus ouvidos e equipamentos de som. Ele é um programa adicional para o SuperCollider, então você precisará tê-lo instalado antes de usar esse limite de segurança.

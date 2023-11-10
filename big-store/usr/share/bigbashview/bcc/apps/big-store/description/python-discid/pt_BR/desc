@@ -1,1 +1,0 @@
-Este programa é uma ligação do Python para a biblioteca MusicBrainz libdiscid. Ele permite que você use as funcionalidades da biblioteca MusicBrainz em seus projetos Python, como identificar discos pelo seu ID único (DiscID). Isso é útil para organizar sua coleção de música, adicionar informações de álbum automaticamente e muito mais.  

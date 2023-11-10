@@ -1,3 +1,0 @@
- Esse é um driver para placas de vídeo Nvidia modelo 340xx. Ele é específico para sistemas operacionais linux-lts e pertence à
-ramificação de suporte a versões antigas (legacy branch). Ele é necessário para garantir que as placas de vídeo funcionem corretamente e possam ser utilizadas para jogos, edição de vídeo e 
-outras atividades gráficas. É importante manter esses drivers atualizados para garantir que tudo funcione corretamente. 

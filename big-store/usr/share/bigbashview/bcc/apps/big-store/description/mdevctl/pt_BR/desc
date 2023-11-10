@@ -1,4 +1,0 @@
-mdevctl é uma utilidade de gerenciamento de dispositivos mediado para o sistema operacional Linux. Ele permite
-gerenciar dispositivos conectados ao sistema de forma automatizada e eficiente, sem a necessidade de intervenção manual. Com mdevctl, é possível configurar regras para dispositivos
-específicos e gerenciar permissões de acesso a esses dispositivos. Além disso, ele oferece suporte para dispositivos plug and play, facilitando a conexão e desconexão de dispositivos sem
-interrupções no sistema.

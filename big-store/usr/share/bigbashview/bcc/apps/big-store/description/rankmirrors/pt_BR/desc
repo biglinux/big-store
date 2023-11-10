@@ -1,4 +1,0 @@
-Este programa lê uma lista de espelhos de repositórios de um arquivo e os classifica de acordo com a velocidade de 
-conexão. Isso é útil para garantir que você esteja sempre usando o espelho mais rápido disponível, o que pode acelerar o tempo de download de pacotes e atualizações.Ele é especialmente útil
-em sistemas Linux, onde muitos pacotes são disponibilizados através de repositórios. Ao escolher o espelho mais rápido, você pode garantir que as atualizações e instalações de pacotes
-ocorram de forma rápida e eficiente.

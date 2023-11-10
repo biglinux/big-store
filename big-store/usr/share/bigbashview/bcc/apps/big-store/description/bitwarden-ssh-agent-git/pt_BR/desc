@@ -1,4 +1,0 @@
-O Bitwarden SSH Agent é um programa que carrega as chaves de sua loja Bitwarden para o gerenciador de chaves SSH. Isso
-permite que você use suas chaves de segurança sem precisar digitar sua senha todas as vezes. Ele é útil para automatizar tarefas e evitar digitação constante de senhas.Ele é fácil de usar e
-se integra facilmente com o Bitwarden, uma ferramenta de gerenciamento de senhas segura. Com ele, você pode acessar facilmente suas chaves de segurança sem precisar se preocupar em
-digitá-las incorretamente ou esquecê-las.

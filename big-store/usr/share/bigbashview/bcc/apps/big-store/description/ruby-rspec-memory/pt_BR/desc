@@ -1,1 +1,0 @@
-Esse programa é chamado ruby-rspec-memory e ele é usado para ajudar a verificar como a memória está sendo usada no  seu código. Ele funciona junto com outra ferramenta chamada RSpec, que é usada para testar o código. Com esse programa, você pode verificar se há problemas de memória no seu código e corrigi-los antes que eles causem problemas maiores. 

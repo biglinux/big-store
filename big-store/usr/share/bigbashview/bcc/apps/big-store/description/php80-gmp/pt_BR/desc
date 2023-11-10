@@ -1,3 +1,0 @@
- Este é um módulo para o PHP 8.0 que adiciona suporte à biblioteca GMP (GNU Multiple Precision Arithmetic Library). GMP é uma
-biblioteca de aritmética de precisão múltipla que permite a realização de operações matemáticas com números inteiros e fracionários de tamanho arbitrário. Com este módulo, você pode usar
-funções GMP diretamente no seu código PHP, tornando possível realizar cálculos complexos de forma rápida e precisa. 

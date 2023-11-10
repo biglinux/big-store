@@ -1,3 +1,0 @@
-Este programa é um módulo para o PHP 8.2 que permite a conexão com bancos de dados utilizando o DBLIB. Ele é chamado de 
-'pdo_dblib' e é necessário para que o PHP possa se comunicar com bancos de dados como o SQL Server.Com ele, é possível realizar operações como inserção, atualização e consulta de dados,
-além de outras funções comuns em bancos de dados.

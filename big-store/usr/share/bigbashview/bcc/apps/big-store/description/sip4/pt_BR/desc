@@ -1,5 +1,0 @@
-Sip4 é uma ferramenta que facilita a criação de vínculos Python para bibliotecas C e C++. Com
-ela, é possível acessar as funcionalidades dessas bibliotecas de forma simples e intuitiva, utilizando a sintaxe de programação Python. Com Sip4, é possível criar módulos Python que chamam 
-funções em bibliotecas C e C++, acessam variáveis e objetos, e até mesmo definir novos tipos de dados. Isso tudo de forma rápida e fácil. Além disso, Sip4 possui recursos para ajudar na
-criação de documentação e testes automatizados para as bibliotecas vinculadas. Em resumo, Sip4 é uma ferramenta poderosa e útil para quem precisa acessar bibliotecas C e C++ a partir de
-códigos Python.

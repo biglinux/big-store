@@ -1,4 +1,0 @@
-Existe um programa chamado stegano que é uma ferramenta de linha de comando para esconder mensagens dentro de imagens. Ele
-suporta esconder dados dentro de imagens PNG usando a técnica chamada LSB Encoding. Isso significa que ele coloca as informações escondidas no menor bit de cada pixel da imagem, tornando a 
-mensagem quase invisível para o olho humano.Com esse programa, você pode esconder mensagens secretas dentro de imagens e enviá-las para amigos ou familiares sem que ninguém mais saiba. É
-uma maneira divertida e segura de enviar mensagens.

@@ -1,3 +1,0 @@
- O programa adiciona suporte ao APScheduler ao framework Flask. Isso permite que você agende tarefas para serem
-executadas automaticamente no futuro, sem a necessidade de um usuário interagir com a aplicação. Isso pode ser útil para tarefas de limpeza de dados, envio de e-mails automatizados e outras
-tarefas programadas.O programa é escrito em Python e usa o Flask como base. Ele é fácil de usar e configurar, e pode ser integrado facilmente em aplicações Flask existentes. 

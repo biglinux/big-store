@@ -1,4 +1,0 @@
-O módulo PDO (PHP Data Objects) é uma camada de abstração de acesso a dados que permite trabalhar com diferentes bancos de dados
-usando a mesma interface. Ele é incluído no PHP a partir da versão 5.1, mas pode ser instalado em versões anteriores.Com o módulo PDO, é possível conectar-se a diferentes tipos de banco de 
-dados, como MySQL, PostgreSQL, SQLite, entre outros, sem precisar mudar o código da sua aplicação. Isso facilita muito a manutenção do seu projeto, já que você não precisa se preocupar em
-escrever códigos específicos para cada banco de dados.Esse pacote especificamente é para a versão 8.2 do PHP.

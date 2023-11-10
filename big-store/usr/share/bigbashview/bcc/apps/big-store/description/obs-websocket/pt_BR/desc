@@ -1,4 +1,0 @@
-O programa obs-websocket é uma API de WebSockets que permite a conexão de outros aplicativos ao software
-obs-studio, que é utilizado para transmissão de vídeo ao vivo. Com essa API, é possível controlar aspectos da transmissão, como mudar de cena, adicionar efeitos de transição, e muito mais. 
-Além disso, também é possível receber dados da transmissão, como o número de espectadores, para usar em outros aplicativos.Em resumo, o obs-websocket é uma ferramenta poderosa para quem
-precisa fazer transmissões ao vivo de forma profissional e com muitos recursos extras.

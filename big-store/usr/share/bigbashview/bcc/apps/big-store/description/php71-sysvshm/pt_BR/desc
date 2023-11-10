@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 7.1 que permite o uso de recursos de memória compartilhada do sistema (SysV). Ele é útil para aplicações
-que precisam armazenar e acessar dados rapidamente entre processos diferentes. Este módulo é projetado para ser fácil de usar e compatível com a maioria das configurações de sistema.Para
-usar o módulo, você precisará ter o PHP 7.1 instalado e configurado em seu sistema. Em seguida, você pode instalar o módulo usando o gerenciador de pacotes do seu sistema ou baixando e
-compilando o código fonte manualmente.

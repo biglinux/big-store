@@ -1,3 +1,0 @@
- Grype-bin é um programa que ajuda a encontrar possíveis problemas de segurança em suas imagens
-de contêineres e sistemas de arquivos. Ele verifica se existem vulnerabilidades conhecidas e alerta você para que possa tomar medidas para corrigi-las. É uma ferramenta útil para garantir
-que sua aplicação esteja segura. 

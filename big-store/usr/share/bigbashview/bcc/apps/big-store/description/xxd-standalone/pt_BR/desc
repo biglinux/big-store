@@ -1,4 +1,0 @@
-Esta é uma ferramenta hexdump standalone, ela é uma ferramenta para exibir arquivos em formato hexadecimal. Ela foi retirada do
-editor de texto vim, e agora está disponível como um programa independente. Com ela, você pode ver como os dados estão armazenados em um arquivo, o que é útil para debugar e analisar
-arquivos.Algumas das funcionalidades incluem a capacidade de exibir o arquivo em várias representações, incluindo hexadecimal, decimal e octal, e a capacidade de ver os dados em formato de 
-texto junto com o formato hexadecimal.

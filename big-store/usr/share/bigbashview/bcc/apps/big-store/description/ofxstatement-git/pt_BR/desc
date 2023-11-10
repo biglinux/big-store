@@ -1,3 +1,0 @@
- Este programa tem como objetivo converter extratos bancários de formato proprietário para o formato OFX, que é
-adequado para importação no GnuCash. Ele é baseado em ofxstatement-git, uma ferramenta de código aberto. Com ele, será possível importar suas informações financeiras de forma fácil e
-organizada, facilitando o gerenciamento de suas contas. 

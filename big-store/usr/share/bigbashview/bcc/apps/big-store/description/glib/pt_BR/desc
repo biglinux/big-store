@@ -1,3 +1,0 @@
-Esta é uma biblioteca chamada glib que contém rotinas comuns usadas por outros programas, como o Gtk+. Isso significa que outros
-programas podem usar essas rotinas comuns sem precisar escrever seu próprio código para isso. Isso é útil porque economiza tempo e esforço, e também garante que as rotinas sejam testadas e 
-funcionem bem. 

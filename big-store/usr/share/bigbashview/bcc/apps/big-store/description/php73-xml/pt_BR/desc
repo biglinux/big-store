@@ -1,3 +1,0 @@
-Este programa adiciona módulos de suporte ao XML para a versão 7.3 do PHP. Isso permite que as aplicações PHP lidem com arquivos e
-dados no formato XML de maneira mais eficiente e fácil. Com esses módulos, é possível parsear, criar e manipular arquivos XML com mais facilidade.Além disso, esses módulos também incluem
-suporte ao XPath e XSLT, permitindo que as aplicações PHP naveguem e transformem dados XML de maneira mais simples.

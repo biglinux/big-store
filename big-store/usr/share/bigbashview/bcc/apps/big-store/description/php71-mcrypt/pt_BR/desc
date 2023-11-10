@@ -1,4 +1,0 @@
-Este é um módulo criptográfico para o PHP 7.1. Ele permite que você use funções criptográficas em seus scripts PHP. Algumas
-das coisas que você pode fazer com este módulo incluem criptografar senhas, assinar digitalmente dados e criar códigos de segurança.Para usar este módulo, você precisará ter o PHP 7.1
-instalado em seu computador. Então, você pode habilitá-lo adicionando uma linha de código no seu arquivo de configuração PHP. Depois disso, você poderá usar as funções criptográficas em
-seus scripts PHP.

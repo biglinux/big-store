@@ -1,1 +1,0 @@
-Esse programa é um adaptador de transporte FTP para a biblioteca de requisições em Python. Ele permite que você envie requisições FTP usando a mesma sintaxe que as requisições HTTP/HTTPS da biblioteca Requests. Isso torna mais fácil e conveniente trabalhar com arquivos em um servidor FTP sem precisar de outra biblioteca ou ferramenta. O nome desse programa é python-requests-ftp 

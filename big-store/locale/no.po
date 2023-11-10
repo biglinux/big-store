@@ -792,3 +792,138 @@ msgstr "Viser bare valgte programmer<br>og skjuler resultater som er nyttige <br
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Feil ved tilgang til katalog:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programmer har en mer robust integrasjon med operativsystemet.<br>De gjennomgår omfattende "
+"testing før de blir gjort tilgjengelige, noe som sikrer større pålitelighet.<br>Av disse grunnene "
+"anbefales det spesielt å velge et eget program når ønsket programvare er tilgjengelig i flere "
+"installasjonsalternativer.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Vent mens vi samler inn systeminformasjon. Det kan ta litt tid ..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Omtrentlig dato da systemet ble installert:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store kjører allerede."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Native programmer har en mer robust integrasjon med operativsystemet.<br>De gjennomgår omfattende "
+"testing før de blir gjort tilgjengelige, noe som sikrer større pålitelighet.<br>Av disse grunnene "
+"anbefales det spesielt å velge et innfødt program når ønsket programvare<br>er tilgjengelig i flere "
+"installasjonsalternativer.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Laste ned nye pakker fra serverdatabasen"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Ingen pakker sendt som parametere"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "En annen forekomst av Big-Store kjører allerede."
+
+msgid "Procurar aplicativo"
+msgstr "Bla gjennom appen"
+
+msgid "Editores de texto linha de comando"
+msgstr "Tekstredigeringsprogrammer på kommandolinjen"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brev"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Se enhetsinformasjon på Linux-maskinvare"
+
+msgid "Processador"
+msgstr "Prosessor"
+
+msgid "Placa mãe"
+msgstr "Hovedkort"
+
+msgid "Memória"
+msgstr "Hukommelse"
+
+msgid "Swap Memória Virtual"
+msgstr "Bytte av virtuelt minne"
+
+msgid "Placa de vídeo"
+msgstr "Skjermkort"
+
+msgid "Áudio"
+msgstr "Lyd"
+
+msgid "Rede"
+msgstr "Nettverk"
+
+msgid "Conexões de Rede"
+msgstr "Nettverkstilkoblinger"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-enheter og -tilkoblinger"
+
+msgid "Portas PCI"
+msgstr "PCI-porter"
+
+msgid "Bateria"
+msgstr "Batteri"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Lagringsenheter"
+
+msgid "Partições montadas"
+msgstr "Monterte partisjoner"
+
+msgid "Partições desmontadas"
+msgstr "Umonterte partisjoner"
+
+msgid "Dispositivos lógicos"
+msgstr "Logiske enheter"
+
+msgid "Raid"
+msgstr "RAZZIA"
+
+msgid "Informações de Sistema"
+msgstr "Informasjon om systemet"
+
+msgid "Repositórios"
+msgstr "Repositories"
+
+msgid "Bluetooth"
+msgstr "Blåtann"
+
+msgid "Temperatura"
+msgstr "Temperatur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "For at Flatpak-programmer skal vises i systemmenyen, logger du ut og logger på igjen."
+
+msgid "Atualizado em"
+msgstr "Oppdatert"
+
+msgid "Sobre"
+msgstr "På"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Oversettelse av beskrivelsen av online-pakkene"

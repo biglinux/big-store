@@ -1,1 +1,0 @@
-python-hpack é uma implementação em Python puro do formato de compressão HPACK para cabeçalhos  HTTP/2. Ele é compatível com a especificação HPACK e foi testado com o conjunto oficial de testes HPACK. python-hpack é compatível com Python 2 e 3 e pode ser usado com qualquer biblioteca  HTTP/2 que suporte compressão de cabeçalhos. 

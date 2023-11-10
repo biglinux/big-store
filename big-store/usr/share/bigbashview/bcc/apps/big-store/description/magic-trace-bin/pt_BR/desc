@@ -1,4 +1,0 @@
-Com o magic-trace, é possível coletar e exibir rastros de alta resolução do que um processo está fazendo. Isso
-permite que você veja o que está acontecendo dentro de um programa em detalhes, o que pode ser útil para solucionar problemas ou entender melhor como ele funciona. O magic-trace é
-especialmente útil para programadores e engenheiros de software que precisam depurar seus programas, mas também pode ser útil para administradores de sistemas que desejam monitorar o
-desempenho de seus servidores. 

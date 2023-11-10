@@ -1,4 +1,0 @@
-voro++ é uma biblioteca de software livre para o cálculo de células Voronoi tridimensionais. 
-Isso é útil para muitas aplicações, como análise de microestruturas, simulação de fluidos e estrutura cristalina. Ele possui uma interface fácil de usar e é altamente otimizado para
-garantir velocidade de processamento rápida.Além disso, o voro++ tem recursos avançados, como suporte para cálculos de células Voronoi em ambientes periódicos e a capacidade de lidar com
-grandes conjuntos de dados. Ele também oferece uma variedade de opções de saída, incluindo formatos de arquivo populares como VTK e GMSH.

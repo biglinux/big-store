@@ -1,3 +1,0 @@
-Essa biblioteca, chamada python-tika, ajuda a extrair informações de diversos tipos de arquivos, como PDFs, 
-imagens e documentos de texto. Ela usa a tecnologia Apache Tika para fazer isso, então é muito precisa e confiável. Com essa biblioteca, você pode pegar informações como o texto, imagens e 
-metadados de um arquivo sem precisar abri-lo manualmente. Isso é útil para organizar grandes quantidades de arquivos ou para fazer pesquisas automatizadas em documentos.

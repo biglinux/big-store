@@ -1,2 +1,0 @@
-Este programa permite que você exiba caixas de diálogo gráficas diretamente de scripts de shell. Isso pode ser útil
-para adicionar interação com o usuário em scripts automatizados, como perguntar qual arquivo abrir ou qual configuração usar. O programa é baseado no Zenity e usa a biblioteca GTK4.

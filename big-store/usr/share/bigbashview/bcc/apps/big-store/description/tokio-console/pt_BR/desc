@@ -1,5 +1,0 @@
-O Console Tokio é um depurador para código escrito em Rust com suporte a programação assíncrona. Ele permite
-que você visualize e interaja com seu código enquanto ele está sendo executado, o que facilita a identificação e correção de erros. Além disso, ele é compatível com vários tipos de
-aplicações, incluindo servidores web e jogos.Com o Console Tokio, você pode:Executar comandos no seu código enquanto ele está sendo executadoVisualizar variáveis e estruturas de
-dadosModificar o fluxo de execução do seu códigoRastrear erros e exceçõesO Console Tokio é uma ferramenta valiosa para desenvolvedores de Rust que trabalham com programação assíncrona, pois
-permite que eles depurem seu código de forma eficiente e precisa.

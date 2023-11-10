@@ -792,3 +792,138 @@ msgstr "Zobrazí pouze vybrané programy<br>a skryje užitečné výsledky <br>P
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Chyba při přístupu k adresáři:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Nativní programy mají robustnější integraci s operačním systémem.<br>Před zpřístupněním procházejí "
+"rozsáhlým testováním, což zajišťuje větší spolehlivost.<br>Z těchto důvodů se volba nativního "
+"programu doporučuje zejména v případě, že je požadovaný software k dispozici ve více možnostech "
+"instalace.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Počkejte prosím, než budeme shromažďovat informace o systému. To může chvíli trvat..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Přibližné datum instalace systému:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store již běží."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Nativní programy mají robustnější integraci s operačním systémem.<br>Před zpřístupněním procházejí "
+"rozsáhlým testováním, což zajišťuje větší spolehlivost.<br>Z těchto důvodů se volba nativního "
+"programu doporučuje zejména tehdy, když je požadovaný software<br>je k dispozici v několika "
+"instalačních možnostech.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Stahování nových balíčků ze serverové databáze"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Žádné pakety předané jako parametry"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Další instance Big-Store je již spuštěna."
+
+msgid "Procurar aplicativo"
+msgstr "Procházet aplikaci"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textové editory příkazového řádku"
+
+msgid "Multimidia"
+msgstr "Multimédia"
+
+msgid "Carta"
+msgstr "Dopis"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Zobrazení informací o zařízení v hardwaru Linux"
+
+msgid "Processador"
+msgstr "Procesor"
+
+msgid "Placa mãe"
+msgstr "Základní deska"
+
+msgid "Memória"
+msgstr "Paměť"
+
+msgid "Swap Memória Virtual"
+msgstr "Výměna virtuální paměti"
+
+msgid "Placa de vídeo"
+msgstr "Grafická karta"
+
+msgid "Áudio"
+msgstr "Audio"
+
+msgid "Rede"
+msgstr "Síť"
+
+msgid "Conexões de Rede"
+msgstr "Síťová připojení"
+
+msgid "Dispositivos e conexões USB"
+msgstr "Zařízení USB a připojení"
+
+msgid "Portas PCI"
+msgstr "Porty PCI"
+
+msgid "Bateria"
+msgstr "Baterie"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Úložná zařízení"
+
+msgid "Partições montadas"
+msgstr "Připojené příčky"
+
+msgid "Partições desmontadas"
+msgstr "Nepřipojené příčky"
+
+msgid "Dispositivos lógicos"
+msgstr "Logická zařízení"
+
+msgid "Raid"
+msgstr "NÁJEZD"
+
+msgid "Informações de Sistema"
+msgstr "Systémové informace"
+
+msgid "Repositórios"
+msgstr "Sklady"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Temperatura"
+msgstr "Teplota"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "Aby se programy Flatpak zobrazily v systémové nabídce, odhlaste se a znovu se přihlaste."
+
+msgid "Atualizado em"
+msgstr "Aktualizováno dne"
+
+msgid "Sobre"
+msgstr "Na"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Překlad popisu online balíčků"

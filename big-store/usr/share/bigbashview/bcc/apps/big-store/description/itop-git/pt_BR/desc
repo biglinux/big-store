@@ -1,4 +1,0 @@
-itop-git é um programa que te ajuda a verificar quais processos estão rodando no seu computador com Linux. Ele
-funciona de forma semelhante ao comando 'top' que já vem instalado no sistema, mas com algumas funcionalidades adicionais. Com o itop-git, você pode ver detalhes sobre cada processo, como a
-quantidade de memória e CPU que está sendo usada, e também pode interromper os processos diretamente pelo programa. Ele é uma ótima ferramenta para quem precisa gerenciar os processos do
-seu computador e garantir que tudo está funcionando corretamente.

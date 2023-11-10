@@ -1,3 +1,0 @@
- Essa biblioteca, chamada python-skia-pathops, permite que você faça operações com caminhos usando a
-linguagem de programação Python. Ela é baseada na biblioteca Skia e vem em formato de pacote (wheel). Com ela, você pode desenhar caminhos, uni-los, dividi-los e muito mais, tudo com
-facilidade e precisão. 

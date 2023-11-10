@@ -1,4 +1,0 @@
-Esse programa é uma biblioteca compartilhada para compressão de fala GSM 06.10. Ele é específico
-para o sistema operacional mingw-w64. A compressão de fala é um processo que ajuda a reduzir o tamanho dos arquivos de áudio, sem afetar muito a qualidade do som. Isso é útil quando você
-precisa enviar ou armazenar arquivos de áudio grandes. Essa biblioteca é projetada para ser usada por outros programas e aplicativos para acessar as funcionalidades de compressão de fala
-GSM 06.10. Dessa forma, os desenvolvedores podem incluir essa funcionalidade em seus próprios programas sem precisar escrever todo o código necessário.

@@ -1,1 +1,0 @@
-Este programa é usado para gerar carga em um servidor HTTP, ou seja, ele simula várias solicitações de usuários ao mesmo tempo. Isso é  útil para testar a capacidade de um sistema de suportar muitos usuários ao mesmo tempo e verificar se há algum problema de desempenho. 

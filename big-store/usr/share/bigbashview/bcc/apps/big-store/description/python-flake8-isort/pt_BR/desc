@@ -1,1 +1,0 @@
-Este é um programa para ajudar a verificar se as anotações (comentários explicativos) em seu código  Python estão escritas de maneira simples e fácil de entender. Ele usa o plugin Flake8 e o plugin isort para verificar se tudo está correto. Ele é útil para garantir que outras pessoas possam ler e entender facilmente o seu código.  

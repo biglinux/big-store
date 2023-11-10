@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Video"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Fel vid åtkomst till katalogen:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Inbyggda program har en mer robust integration med operativsystemet.<br>De genomgår omfattande "
+"tester innan de görs tillgängliga, vilket garanterar större tillförlitlighet.<br>Av dessa skäl "
+"rekommenderas särskilt att välja ett inbyggt program när önskad programvara är tillgänglig i flera "
+"installationsalternativ.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Vänta medan vi samlar in systeminformation. Det kan ta några ögonblick ..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Ungefärligt datum då systemet installerades:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store är redan igång."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Inbyggda program har en mer robust integration med operativsystemet.<br>De genomgår omfattande "
+"tester innan de görs tillgängliga, vilket garanterar större tillförlitlighet.<br>Av dessa skäl "
+"rekommenderas särskilt att välja ett inbyggt program när önskad programvara<br>finns i flera "
+"installationsalternativ.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Hämta nya paket från serverdatabasen"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Inga paket skickas som parametrar"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "En annan instans av Big-Store körs redan."
+
+msgid "Procurar aplicativo"
+msgstr "Bläddra i appen"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textredigerare på kommandoraden"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Carta"
+msgstr "Brev"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Visa enhetsinformation om Linux-maskinvara"
+
+msgid "Processador"
+msgstr "Processor"
+
+msgid "Placa mãe"
+msgstr "Moderkort"
+
+msgid "Memória"
+msgstr "Minne"
+
+msgid "Swap Memória Virtual"
+msgstr "Byte av virtuellt minne"
+
+msgid "Placa de vídeo"
+msgstr "Grafikkort"
+
+msgid "Áudio"
+msgstr "Ljud"
+
+msgid "Rede"
+msgstr "Nätverk"
+
+msgid "Conexões de Rede"
+msgstr "Nätverksanslutningar"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB-enheter och anslutningar"
+
+msgid "Portas PCI"
+msgstr "PCI-portar"
+
+msgid "Bateria"
+msgstr "Batteri"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Lagringsenheter"
+
+msgid "Partições montadas"
+msgstr "Monterade partitioner"
+
+msgid "Partições desmontadas"
+msgstr "Omonterade partitioner"
+
+msgid "Dispositivos lógicos"
+msgstr "Logiska enheter"
+
+msgid "Raid"
+msgstr "RÄD"
+
+msgid "Informações de Sistema"
+msgstr "Systeminformation"
+
+msgid "Repositórios"
+msgstr "Databaser"
+
+msgid "Bluetooth"
+msgstr "Blåtand"
+
+msgid "Temperatura"
+msgstr "Temperatur"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "För att Flatpak-program ska visas i systemmenyn, logga ut och logga in igen."
+
+msgid "Atualizado em"
+msgstr "Uppdaterad den"
+
+msgid "Sobre"
+msgstr "På"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Översättning av beskrivningen av onlinepaketen"

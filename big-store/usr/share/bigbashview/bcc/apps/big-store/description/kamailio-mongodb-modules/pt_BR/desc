@@ -1,3 +1,0 @@
- Esse é um pacote de módulos para o Kamailio que permite a conexão com o banco de dados MongoDB. Ele inclui um driver de
-banco de dados e um conector não-db para o Kamailio. Com esses módulos, você pode usar o MongoDB como um backend para armazenar informações de usuário e configurações do Kamailio. Isso pode
-ser útil para sistemas de comunicação de grande escala que precisam de escalabilidade e flexibilidade. 

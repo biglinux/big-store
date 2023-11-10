@@ -1,1 +1,0 @@
-O pangomm é uma biblioteca C++ para o Pango, um sistema de renderização de texto. Ele fornece acesso às funcionalidades do Pango através de uma interface C++ mais fácil de usar e orientada a objetos. Isso significa que os desenvolvedores podem escrever programas em C++ que usam o Pango para exibir texto em uma variedade de idiomas e scripts.  

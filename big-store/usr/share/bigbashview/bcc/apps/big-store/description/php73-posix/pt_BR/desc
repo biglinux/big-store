@@ -1,3 +1,0 @@
-Este é um módulo de extensão para o PHP 7.3 que adiciona suporte para funções POSIX. Isso significa que ele permite acesso a
-recursos do sistema operacional, como manipulação de processos, manipulação de arquivos e permissões, dentre outros. Isso pode ser útil para desenvolvedores que desejam criar aplicações web
-que se comunicam diretamente com o sistema operacional.Este módulo é chamado 'php73-posix' e pode ser instalado para ser usado com o PHP 7.3.

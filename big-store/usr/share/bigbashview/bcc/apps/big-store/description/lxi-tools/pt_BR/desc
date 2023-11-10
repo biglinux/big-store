@@ -1,5 +1,0 @@
-Ferramentas LXI é uma coleção de ferramentas de software para controlar instrumentos LXI. Estas ferramentas
-permitem que você conecte e comunique com os seus instrumentos LXI usando uma variedade de linguagens de programação, incluindo Python, C ++ e LabVIEW.Com essas ferramentas, você pode
-facilmente enviar comandos para os seus instrumentos, ler e gravar dados, e automatizar as suas medidas. Além disso, as ferramentas LXI suportam múltiplos protocolos, incluindo Ethernet /
-IP, USBTMC e VXI-11, para que você possa se conectar a uma ampla variedade de instrumentos.Se você precisa controlar instrumentos LXI em suas aplicações, as ferramentas LXI são uma escolha 
-poderosa e fácil de usar.

@@ -1,3 +1,0 @@
-Este programa é uma implementação leve da biblioteca C padrão. Ele é projetado para funcionar em sistemas x86_64, o que
-significa que é otimizado para ser executado em processadores x86_64. Ele foi criado com o objetivo de ser leve e rápido, sem muitas funcionalidades desnecessárias. Isso torna ele ideal
-para sistemas embarcados ou dispositivos com recursos limitados. 

@@ -1,4 +1,0 @@
-A libaudec é uma biblioteca que ajuda a ler e a mudar a taxa de amostragem de arquivos de áudio.
-Isso significa que ela pode fazer com que os arquivos de áudio sejam reproduzidos com uma taxa de amostragem diferente, o que pode ser útil em algumas situações. Por exemplo, se você tem um
-arquivo de áudio com uma taxa de amostragem muito alta e deseja reduzi-la para economizar espaço no disco, a libaudec pode ajudá-lo a fazer isso. Além disso, esta biblioteca também permite 
-ler arquivos de áudio de vários formatos diferentes, tornando mais fácil trabalhar com arquivos de áudio em seu projeto. 

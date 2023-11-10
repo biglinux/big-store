@@ -1,1 +1,0 @@
-Este programa é um driver para dispositivos que possuem o chip rtl8821AU ou rtl8811AU. Ele inclui uma versão do firmware v5.12.5.2, que é necessário para o  funcionamento correto dos dispositivos. Esse driver é especialmente útil para sistemas Linux, pois permite que esses dispositivos sejam reconhecidos e utilizados sem problemas. 

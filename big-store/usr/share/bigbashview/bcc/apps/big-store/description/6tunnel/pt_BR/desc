@@ -1,1 +1,0 @@
-6tunnel é um programa que permite que aplicações IPv4-only se conectem a redes IPv6. Ele cria um túnel IPv6 que encaminha as conexões para as aplicações, permitindo que elas se comuniquem com outros dispositivos usando IPv6. Isso é útil se você estiver em uma rede que só suporta IPv4, mas deseja  se conectar a dispositivos ou serviços que usam IPv6. 

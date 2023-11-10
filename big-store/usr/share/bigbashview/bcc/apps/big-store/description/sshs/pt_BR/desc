@@ -1,4 +1,0 @@
-Esta é uma ferramenta de interface de usuário para SSH, ou seja, uma forma de se conectar a outros computadores
-usando a linha de comando. Com ela, é possível acessar arquivos e pastas em outras máquinas, bem como executar comandos nelas, tudo isso de forma segura.Para utilizá-la, é necessário ter as
-credenciais de acesso ao computador alvo e conhecimento básico de comandos de linha de comando. Ela é muito útil para administradores de sistemas e desenvolvedores que precisam acessar e
-gerenciar vários servidores de forma rápida e fácil.

@@ -1,3 +1,0 @@
-Esta é uma biblioteca de suporte de rede para o idioma Lua. Ela permite que os desenvolvedores adicionem facilmente
-recursos de rede aos seus programas escritos em Lua. Com ela, é possível conectar-se a servidores, enviar e receber dados e realizar outras operações de rede com facilidade.A biblioteca é
-baseada no protocolo TCP/IP e é compatível com as principais plataformas, incluindo Windows, MacOS e Linux.

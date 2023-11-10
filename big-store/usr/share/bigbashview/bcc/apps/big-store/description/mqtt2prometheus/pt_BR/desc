@@ -1,2 +1,0 @@
- Este programa é usado para pegar dados de tópicos do MQTT e enviá-los para o Prometheus, um sistema de
-monitoramento de desempenho. Isso permite que você veja como seu sistema está se comportando e faça ajustes necessários. Ele é fácil de usar e pode ser configurado rapidamente.

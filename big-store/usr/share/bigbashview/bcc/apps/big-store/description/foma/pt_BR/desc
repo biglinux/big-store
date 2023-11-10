@@ -1,4 +1,0 @@
-Existem vários programas que podem ajudar a construir autômatos finitos e transdutores. Esses programas são
-chamados de 'foma'.Os autômatos finitos são ferramentas matemáticas que podem ser usadas para reconhecer padrões em dados. Eles são usados em várias áreas, como computação, linguística e
-inteligência artificial. Os transdutores são similares aos autômatos finitos, mas eles também podem produzir saídas. Eles são usados em sistemas de reconhecimento de fala, por exemplo.O
-foma é uma coleção de ferramentas que podem ajudar a construir esses tipos de autômatos e transdutores de forma fácil e eficiente.

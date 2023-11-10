@@ -1,1 +1,0 @@
-mmctl é uma ferramenta de linha de comando remota para o Mattermost. Ela permite gerenciar configurações do servidor e  do sistema, além de realizar tarefas administrativas e de diagnóstico. Com mmctl, você pode facilmente controlar seu ambiente Mattermost sem precisar acessar a interface web. 

@@ -1,3 +1,0 @@
-A linguagem de programação Harec é um compilador bootstrapped, ou seja, ele é capaz de compilar a própria linguagem. Isso
-significa que ela é auto-sustentável e não depende de outras ferramentas para funcionar.O objetivo da Harec é ser uma linguagem simples e fácil de aprender, mas ao mesmo tempo poderosa o
-suficiente para realizar tarefas complexas. Ela foi projetada para ser usada em projetos pequenos e médios, mas também pode ser usada em projetos maiores se necessário.

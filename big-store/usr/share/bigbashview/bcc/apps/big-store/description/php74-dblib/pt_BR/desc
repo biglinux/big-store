@@ -1,3 +1,0 @@
-Este é um módulo para o PHP 7.4 que permite acessar bancos de dados Microsoft SQL Server e Sybase através do protocolo
-DB-Library. Ele é baseado no módulo pdo_dblib do PHP e é compatível com as últimas versões do PHP. Com ele, você pode se conectar e executar consultas em bancos de dados MS SQL e Sybase
-usando o PDO (PHP Data Objects).

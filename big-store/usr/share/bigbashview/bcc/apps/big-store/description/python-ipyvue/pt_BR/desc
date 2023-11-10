@@ -1,4 +1,0 @@
-Com o python-ipyvue, você pode adicionar widgets baseados em Vue às suas análises no Jupyter. Isso significa
-que você pode criar gráficos interativos, formulários e outros elementos que podem ser facilmente manipulados pelo usuário, sem precisar sair do seu ambiente de análise de dados.Além disso,
-o python-ipyvue é baseado em tecnologias web comuns, o que significa que você pode aproveitar todo o ecossistema de bibliotecas e ferramentas de desenvolvimento web para criar suas
-interações.

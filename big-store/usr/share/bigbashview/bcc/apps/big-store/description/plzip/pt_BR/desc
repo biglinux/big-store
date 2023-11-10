@@ -1,3 +1,0 @@
-O plzip é um programa que ajuda a compactar arquivos sem perder informações. Ele usa uma biblioteca chamada lzlib
-para fazer isso de forma rápida e eficiente, usando vários processadores ao mesmo tempo. Isso significa que ele é capaz de compactar grandes arquivos em pouco tempo.Se você tem muitos
-arquivos grandes que precisam ser enviados ou armazenados, o plzip pode ser uma ótima opção para ajudar a economizar espaço e tempo. 

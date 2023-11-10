@@ -1,1 +1,0 @@
- Este programa fornece uma abordagem segura para operações atômicas, como CAS (compare-and-swap), em aplicações escritas em Haskell. Ele utiliza primitivas atômicas para garantir a consistência e a segurança das operações, possibilitando uma implementação mais simples e confiável.  

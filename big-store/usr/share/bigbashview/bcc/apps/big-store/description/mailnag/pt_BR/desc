@@ -1,1 +1,0 @@
-O Mailnag é um programa de fundo que verifica servidores POP3 e IMAP para novos e-mails. Quando um novo e-mail chega, ele realiza várias ações fornecidas por plugins. O Mailnag vem com um conjunto de plugins padrão independentes de desktop para notificações visuais/de som, execução de scripts, etc. e pode  ser facilmente estendido com plugins adicionais. 

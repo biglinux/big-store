@@ -1,3 +1,0 @@
-Este programa permite que você controle o reproductor de mídia MPV usando Python. Ele usa uma biblioteca chamada ctypes para se
-conectar ao MPV e controlá-lo. Isso significa que você pode escrever scripts em Python para controlar o reproductor, como reproduzir, pausar e mudar de música. Além disso, você também pode 
-acessar informações sobre o vídeo ou áudio que está sendo reproduzido e personalizar a exibição do reproductor. 

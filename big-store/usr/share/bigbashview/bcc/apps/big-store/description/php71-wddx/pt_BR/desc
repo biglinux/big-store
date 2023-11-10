@@ -1,4 +1,0 @@
-Este é um módulo para o PHP 7.1 que permite a comunicação com arquivos WDDX. WDDX é um padrão aberto que permite a troca de dados
-entre diferentes linguagens de programação, como PHP, JavaScript e ColdFusion. Com este módulo, você pode ler e escrever arquivos WDDX no seu código PHP, facilitando a integração com outras
-plataformas e sistemas.Este módulo é específico para a versão 7.1 do PHP, então certifique-se de que sua instalação esteja atualizada antes de instalá-lo. Ele também pode ser compatível com
-outras versões do PHP, mas isso é algo que você deve verificar antes de usar.

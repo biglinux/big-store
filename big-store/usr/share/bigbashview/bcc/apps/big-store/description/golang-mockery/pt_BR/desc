@@ -1,3 +1,0 @@
-Esse programa é chamado de golang-mockery e ele é um gerador automático de código mock para a linguagem de programação Go. 
-Isso significa que ele cria códigos de exemplo para você, que podem ser usados para testar seu próprio código sem precisar depender de outras partes do sistema. Isso é útil porque permite
-que você teste cada parte do seu código de forma isolada e garanta que ele está funcionando corretamente.

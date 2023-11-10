@@ -1,1 +1,0 @@
- O efitools é um conjunto de ferramentas que permite manipular plataformas de inicialização segura UEFI. Ele inclui ferramentas para gerenciar chaves e certificados, assinar e verificar arquivos, e muito mais. Com essas ferramentas, você pode garantir que o sistema só inicialize com software confiável e proteger contra ameaças de segurança.  

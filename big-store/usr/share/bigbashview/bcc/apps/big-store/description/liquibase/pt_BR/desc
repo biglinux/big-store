@@ -1,5 +1,0 @@
-O Liquibase é um programa especializado em gerenciar bancos de dados através do controle de versão. Ele permite que
-você faça alterações no seu banco de dados de forma organizada, rastreando as mudanças e mantendo um histórico delas. Dessa forma, é possível voltar a versões anteriores ou mesclar mudanças
-feitas por diferentes usuários. Além disso, o Liquibase suporta diversos bancos de dados, incluindo MySQL, PostgreSQL, Oracle e SQL Server.Com o Liquibase, você pode escrever scripts SQL de
-forma simples e clara, e aplicá-los facilmente em diferentes ambientes, sem precisar se preocupar com erros manuais ou diferenças entre os bancos de dados. Ele também permite automatizar
-tarefas de manutenção, como atualizações de tabelas, adição de novas colunas e geração de índices.

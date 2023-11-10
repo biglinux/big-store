@@ -1,1 +1,0 @@
-O Haskell-Either é um transformador de monada que permite trabalhar com valores do tipo 'Either', que é uma estrutura de dados presente na linguagem Haskell. Ele permite trabalhar com dois tipos diferentes de valores, ou um valor 'Right' ou um valor 'Left', permitindo tratar erros de forma mais simples e eficiente. 

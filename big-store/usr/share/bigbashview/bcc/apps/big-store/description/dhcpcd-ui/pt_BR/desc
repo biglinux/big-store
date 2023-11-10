@@ -1,5 +1,0 @@
-Este é um programa chamado dhcpcd-ui que foi criado para monitorar as configurações do DHCP em sua rede. Ele foi
-construído usando a biblioteca GTK+ e é fácil de usar para todos, inclusive para quem não é muito experiente com tecnologia. Com esse programa, você pode verificar rapidamente as
-informações sobre sua conexão à internet, como o endereço IP, o gateway padrão e outras informações importantes. Além disso, ele fornece uma interface amigável que torna o processo de
-monitoramento mais simples e intuitivo.Em resumo, o dhcpcd-ui é uma ferramenta útil para quem quer manter o controle sobre sua conexão à internet e garantir que tudo esteja funcionando
-corretamente.

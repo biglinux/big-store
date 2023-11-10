@@ -1,3 +1,0 @@
-Este programa permite usar o compilador MSVC (Microsoft Visual C++) no sistema operacional Wine. Ele inclui as ferramentas de CMake
-para facilitar o processo de compilação. Isso significa que é possível utilizar o compilador em um ambiente Linux ou Mac, sem precisar usar o Windows.O programa é baseado no Wine64, uma
-versão do Wine que permite rodar aplicativos de 64 bits no sistema operacional.

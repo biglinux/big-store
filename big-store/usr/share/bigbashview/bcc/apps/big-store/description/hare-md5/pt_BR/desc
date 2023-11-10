@@ -1,4 +1,0 @@
-Esse programa é uma implementação do algoritmo MD5 para o software Hare. O MD5 é um tipo de criptografia que gera um código de
-resumo de mensagem, ou seja, um código único que representa a mensagem original. Isso é útil para verificar se a mensagem foi alterada durante a transmissão. O Hare é uma ferramenta para
-gerenciamento de arquivos e pastas.Com essa implementação, o Hare passa a ter a capacidade de gerar códigos de resumo de mensagem para arquivos e pastas, permitindo assim uma verificação
-mais segura de sua integridade.

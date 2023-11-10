@@ -1,5 +1,0 @@
-A ferramenta hidviz é projetada para ajudar a analisar a comunicação de dispositivos USB HID (Human 
-Interface Device) em profundidade. Ele permite que você visualize e registre os dados enviados e recebidos por esses dispositivos, o que pode ser útil para depuração, desenvolvimento de
-dispositivos ou simplesmente entender como eles funcionam.Com hidviz, você pode ver informações detalhadas sobre o dispositivo, como o nome, fabricante e número de série, bem como as
-mensagens enviadas e recebidas em tempo real. Ele também oferece recursos avançados, como a capacidade de salvar sessões para análise posterior e filtrar dados por tipo de mensagem.Em
-resumo, hidviz é uma ferramenta valiosa para qualquer pessoa que trabalhe com dispositivos USB HID e deseje ter um melhor entendimento de sua comunicação.

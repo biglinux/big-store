@@ -1,4 +1,0 @@
- O Bareos é um programa de código aberto para gerenciamento de backup, arquivamento e recuperação de dados. O daemon Director 
-é uma parte importante desse programa, responsável por gerenciar e controlar as tarefas de backup. Ele permite a criação de regras e configurações personalizadas para garantir que os dados 
-importantes sejam protegidos e possam ser recuperados rapidamente em caso de falha. Além disso, ele fornece relatórios detalhados sobre o status dos backups, facilitando o gerenciamento e a
-monitoração dos dados. 

@@ -1,3 +1,0 @@
-Este é um programa chamado php72-fpm, que serve como um gerenciador de processos para o PHP 7.2. Isso significa
-que ele ajuda a gerenciar como o seu código PHP é executado pelo servidor web. Ele usa uma tecnologia chamada FastCGI, que permite que o PHP seja executado de maneira mais rápida e
-eficiente. Com o php72-fpm, você pode garantir que o seu site PHP esteja funcionando de maneira suave e rápida.

@@ -1,1 +1,0 @@
-Esta é uma biblioteca chamada lib32-sqlite. Ela foi criada para ajudar desenvolvedores a criar aplicativos que possam usar bancos de dados SQL. Ela é específica para sistemas de 32 bits, o que significa que só pode ser usada em computadores com esse tipo de arquitetura. Se você precisa criar um aplicativo que use bancos de dados, essa biblioteca pode ser muito útil para você. 

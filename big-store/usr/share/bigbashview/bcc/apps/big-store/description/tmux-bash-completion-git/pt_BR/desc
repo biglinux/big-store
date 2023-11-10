@@ -1,3 +1,0 @@
-Este programa adiciona suporte para completar comandos do tmux no bash, tornando mais fácil e rápido usar o tmux. Ele
-funciona adicionando opções de completar comandos já existentes no bash para comandos do tmux, como 'tmux attach' ou 'tmux list-sessions'.Isso significa que, ao digitar 'tmux att' e
-pressionar a tecla tab, o bash preencherá automaticamente com 'tmux attach', e assim por diante. Isso pode economizar tempo e ajudar a evitar erros de digitação.

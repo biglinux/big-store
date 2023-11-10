@@ -788,3 +788,130 @@ msgstr "仅显示选定的程序<br>并隐藏有用的结果 <br>仅供高级用
 
 msgid "Vídeo"
 msgstr "视频"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "访问目录时出错："
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr "本机程序与操作系统具有更强大的集成。<br>它们在上市前经过广泛的测试，确保更高的可靠性。<br>由于这些原因，当所需的软件在多个安装选项中可用时，特别建议选择本机程序。<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "我们正在收集系统信息，请稍候。这可能需要一些时间..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "系统安装的大致日期："
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store已经在运行。"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr "本机程序与操作系统具有更强大的集成。<br>它们在上市前经过广泛的测试，确保更高的可靠性。<br>由于这些原因，当需要软件时，特别建议选择本机程序<br>提供多种安装选项。<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "从服务器数据库下载新包"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "没有作为参数传递的数据包"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Big-Store 的另一个实例已在运行。"
+
+msgid "Procurar aplicativo"
+msgstr "浏览应用"
+
+msgid "Editores de texto linha de comando"
+msgstr "命令行文本编辑器"
+
+msgid "Multimidia"
+msgstr "多媒体"
+
+msgid "Carta"
+msgstr "信"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "查看 Linux 硬件上的设备信息"
+
+msgid "Processador"
+msgstr "处理器"
+
+msgid "Placa mãe"
+msgstr "母板"
+
+msgid "Memória"
+msgstr "记忆"
+
+msgid "Swap Memória Virtual"
+msgstr "虚拟内存交换"
+
+msgid "Placa de vídeo"
+msgstr "显卡"
+
+msgid "Áudio"
+msgstr "音频"
+
+msgid "Rede"
+msgstr "网络"
+
+msgid "Conexões de Rede"
+msgstr "网络连接"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB 设备和连接"
+
+msgid "Portas PCI"
+msgstr "PCI 端口"
+
+msgid "Bateria"
+msgstr "电池"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "存储设备"
+
+msgid "Partições montadas"
+msgstr "挂载的分区"
+
+msgid "Partições desmontadas"
+msgstr "未挂载的分区"
+
+msgid "Dispositivos lógicos"
+msgstr "逻辑设备"
+
+msgid "Raid"
+msgstr "袭击"
+
+msgid "Informações de Sistema"
+msgstr "系统信息"
+
+msgid "Repositórios"
+msgstr "存储 库"
+
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+msgid "Temperatura"
+msgstr "温度"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "要使 Flatpak 程序出现在系统菜单中，请注销并重新登录。"
+
+msgid "Atualizado em"
+msgstr "更新于"
+
+msgid "Sobre"
+msgstr "后"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "翻译在线套餐的描述"

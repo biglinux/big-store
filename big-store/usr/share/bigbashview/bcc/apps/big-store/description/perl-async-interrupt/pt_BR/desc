@@ -1,1 +1,0 @@
-Este programa permite que bibliotecas escritas em C ou XS possam interromper o Perl de forma  assíncrona. Isso significa que a biblioteca C/XS pode enviar uma interrupção para o Perl sem precisar esperar por uma resposta. Isso pode ser útil em situações onde é necessário executar tarefas de forma rápida e eficiente. 

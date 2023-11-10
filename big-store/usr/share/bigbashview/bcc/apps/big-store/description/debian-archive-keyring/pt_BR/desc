@@ -1,1 +1,0 @@
-O pacote 'debian-archive-keyring' contém as chaves de assinatura do arquivo do Debian. Ele é usado para verificar a autenticidade dos pacotes de software do Debian. Ele é atualizado regularmente para incluir as chaves mais recentes e remover as antigas. É importante mantê-lo atualizado para garantir a segurança dos pacotes que você instala no seu sistema. 

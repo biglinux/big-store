@@ -1,3 +1,0 @@
-Longview é um agente de monitoramento de sistema para clientes Linode. Ele coleta dados de desempenho do seu
-servidor e fornece relatórios detalhados sobre o uso de recursos, como CPU, memória, disco e rede. Isso permite que você entenda como o seu servidor está funcionando e tome medidas para
-otimizar seu desempenho. Além disso, o Longview também fornece alertas em tempo real para possíveis problemas, permitindo que você resolva-os rapidamente. 

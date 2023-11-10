@@ -1,4 +1,0 @@
- Este é um programa chamado journald-broker que ajuda a gerenciar os logs do seu computador. Ele funciona junto com outro
-programa chamado systemd para organizar e enviar os logs para os lugares certos, para que você possa facilmente encontrá-los e entender o que está acontecendo com o seu computador.Ele é 
-útil porque os logs podem ficar muito grandes e confusos, mas com o journald-broker eles ficam organizados e fáceis de encontrar. Além disso, ele também ajuda a enviar os logs para outros
-programas, como programas de segurança, para que você possa manter o seu computador seguro. 

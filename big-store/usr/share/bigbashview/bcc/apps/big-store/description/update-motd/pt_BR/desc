@@ -1,3 +1,0 @@
-Este programa ajuda a atualizar a mensagem de boas-vindas que aparece quando você entra no seu computador. Ele trabalha
-junto com outro programa chamado pam_motd, que faz parte das bibliotecas libpam-modules.Com este programa, você pode personalizar a mensagem de boas-vindas com informações úteis, como o
-tempo atual, o uso de memória e disco, entre outras informações.

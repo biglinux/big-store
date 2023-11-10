@@ -1,1 +1,0 @@
-Os arquivos comuns para pacotes fuse2/3 são usados para permitir que diferentes programas acessem arquivos e pastas de forma segura e fácil. Eles incluem bibliotecas e outros recursos que ajudam a gerenciar as permissões de acesso e outras configurações importantes. Sem esses arquivos, muitos programas não  funcionariam corretamente. 

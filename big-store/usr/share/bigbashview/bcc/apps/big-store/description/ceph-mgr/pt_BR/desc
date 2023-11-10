@@ -1,4 +1,0 @@
- Este programa é uma plataforma de armazenamento distribuída e tolerante a falhas que oferece suporte a
-objetos, blocos e sistemas de arquivos. Ele é conhecido como Ceph-mgr e é uma ótima opção para empresas que precisam garantir a disponibilidade e integridade de seus dados. Com ele, é
-possível armazenar grandes quantidades de informações em vários locais ao mesmo tempo, o que aumenta a segurança contra falhas de hardware ou problemas de conectividade. Além disso, ele
-também oferece recursos avançados de gerenciamento e monitoramento para garantir que tudo esteja funcionando corretamente.

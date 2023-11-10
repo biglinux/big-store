@@ -1,3 +1,0 @@
-Coredns é um servidor de DNS que funciona com plugins encadeados. Isso significa que ele pode ser personalizado com
-vários plugins para realizar diferentes tarefas, como redirecionar solicitações de nome de domínio para endereços IP diferentes ou filtrar solicitações indesejadas. O servidor é fácil de
-usar e configurar, tornando-o uma escolha popular para muitos administradores de rede. 

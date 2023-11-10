@@ -1,3 +1,0 @@
-Esta ferramenta é projetada para interagir com o aplicativo PIV (Cartão de Identidade de Chave 
-Pública) presente no dispositivo YubiKey NEO. Ele permite que você gerencie chaves criptográficas, certificados e outros dados armazenados no dispositivo, além de realizar operações como
-assinar e criptografar dados. É uma ferramenta poderosa para segurança da informação e autenticação de usuários.

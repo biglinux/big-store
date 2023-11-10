@@ -1,3 +1,0 @@
-A rocm-dbgapi é uma biblioteca de suporte essencial para um depurador de GPUs da AMD. Ela fornece as ferramentas 
-necessárias para rastrear e solucionar problemas em aplicativos que utilizam a tecnologia AMD. Com essa biblioteca, é possível identificar e corrigir erros de forma mais rápida e eficiente,
-o que garante um melhor desempenho dos aplicativos. Além disso, ela é fácil de usar e compatível com diversas plataformas.

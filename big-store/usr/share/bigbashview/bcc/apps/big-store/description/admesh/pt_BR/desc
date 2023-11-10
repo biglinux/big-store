@@ -1,4 +1,0 @@
-O programa admesh é uma ferramenta poderosa para processar malhas sólidas trianguladas em
-formato STL. Ele possui uma variedade de recursos para ajudar a limpar, consertar e otimizar suas malhas, tornando-as prontas para impressão 3D. Algumas das funcionalidades incluem a
-remoção de buracos, a consolidação de vértices duplicados e a otimização da malha para reduzir o número de triângulos. Além disso, ele também oferece a capacidade de salvar sua malha em
-vários formatos diferentes, incluindo STL, OFF e PLY. admesh é uma ferramenta útil para qualquer pessoa trabalhando com malhas 3D.

@@ -1,1 +1,0 @@
-O python-mimeparse é um módulo que fornece funções básicas para analisar nomes de tipos MIME e compará-los com uma lista de faixas de mídia. Ele é útil para trabalhar com cabeçalhos HTTP Accept e Content-Type e pode ser usado em aplicações  web e outros projetos que lidam com tipos de mídia. 

@@ -1,1 +1,0 @@
- O ruby-rb-fsevent é uma biblioteca que permite acessar as funcionalidades da API FSEvents do sistema operacional MacOS.  Ele permite que os desenvolvedores monitorem as alterações em um determinado diretório e recebam sinais quando essas alterações ocorrem, sem precisar utilizar a biblioteca RubyCocoa.  

@@ -1,1 +1,0 @@
-ruby-sd_notify é uma implementação pura em Ruby do sd_notify(3) do systemd. Ele permite que os programas Ruby envie notificações para o sistema de inicialização e responda a vários eventos. Isso pode ser útil para daemons, trabalhadores em segundo plano e outros processos de longa duração que precisam comunicar seu status para o sistema.  

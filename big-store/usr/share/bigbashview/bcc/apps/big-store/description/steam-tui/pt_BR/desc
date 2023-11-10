@@ -1,3 +1,0 @@
-Este é um programa chamado Steam-TUI, ele é feito em Rust e é um cliente TUI (Text User Interface) para o Steamcmd. Isso significa que
-ele permite que você use o Steamcmd através de uma interface de texto, em vez de uma interface gráfica. É útil para quem prefere trabalhar com comandos de texto ou tem dificuldade em usar
-interfaces gráficas. Com este programa, você pode instalar, atualizar e gerenciar jogos na sua biblioteca Steam, tudo através de comandos de texto simples.

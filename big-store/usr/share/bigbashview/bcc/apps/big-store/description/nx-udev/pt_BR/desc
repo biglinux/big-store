@@ -1,4 +1,0 @@
-Este programa permite que você faça comunicação com o seu Nintendo Switch sem precisar de privilégios de administrador
-(root). Ele funciona criando uma regra no sistema de gerenciamento de dispositivos do Linux (udev) que reconhece o Switch como um dispositivo conectado e permite que você o use
-normalmente.Isso é especialmente útil para quem deseja usar ferramentas de desenvolvimento ou outros aplicativos avançados que precisam de acesso ao dispositivo sem precisar de privilégios 
-de administrador.

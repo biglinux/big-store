@@ -1,3 +1,0 @@
-Este é um plugin para o pytest que facilita a captura e verificação de estados do seu código escrito em Python. Ele é
-conhecido como python-syrupy devido ao seu uso de comparações de texto 'doces' para tornar a verificação de estado mais fácil de ler e entender. Com ele, você pode facilmente salvar o
-estado de saída de suas funções ou variáveis ​​e compará-las com resultados esperados em testes futuros. Isso é útil para detectar mudanças indesejadas no comportamento do seu código. 

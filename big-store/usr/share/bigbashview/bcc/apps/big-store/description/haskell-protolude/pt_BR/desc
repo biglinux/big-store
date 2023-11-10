@@ -1,1 +1,0 @@
-Haskell-protolude é um conjunto de padrões sensíveis para escrever seus próprios Preludes,  ou seja, um conjunto de importações e definições que você costuma usar em seus projetos em Haskell. Isso ajuda a manter seu código limpo e organizado, além de evitar a necessidade de importar e definir as mesmas coisas em todos os seus arquivos. 

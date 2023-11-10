@@ -1,4 +1,0 @@
-wxWidgets 2.8 é um conjunto de ferramentas para desenvolvimento de aplicações multiplataforma. Ele permite criar janelas,
-menus, botões e outros elementos de interface gráfica de usuário (GUI) de forma fácil e rápida. Essa versão específica não possui dependências do GNOME ou GStreamer, o que a torna mais leve
-e fácil de usar em diferentes sistemas operacionais. Além disso, o wxWidgets 2.8 é compatível com diversas linguagens de programação, como C++, Python, Perl, e Lua, entre outras. Isso
-significa que você pode escrever seu código em sua linguagem de programação favorita e ainda assim usar o wxWidgets para criar a interface gráfica.

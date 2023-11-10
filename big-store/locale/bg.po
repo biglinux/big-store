@@ -794,3 +794,138 @@ msgstr ""
 
 msgid "Vídeo"
 msgstr "Видео"
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Грешка при достъп до директорията:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Родните програми имат по-стабилна интеграция с операционната система.<br>Те преминават обширни "
+"тестове, преди да бъдат предоставени, което гарантира по-голяма надеждност.<br>Поради тези причини "
+"изборът на естествена програма е особено препоръчителен, когато желаният софтуер е наличен в "
+"множество опции за инсталиране.<br>"
+
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Моля, изчакайте, докато събираме системна информация. Това може да отнеме няколко минути..."
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Приблизителна дата на инсталиране на системата:"
+
+msgid "Big-Store já está em execução."
+msgstr "Big-Store вече работи."
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Родните програми имат по-стабилна интеграция с операционната система.<br>Те преминават обширни "
+"тестове, преди да бъдат предоставени, което гарантира по-голяма надеждност.<br>Поради тези причини "
+"изборът на родна програма е особено препоръчителен, когато желаният софтуер<br>се предлага в "
+"няколко опции за инсталиране.<br>"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Изтегляне на нови пакети от базата данни на сървъра"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Няма пакети, предадени като параметри"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Друг екземпляр на Big-Store вече се изпълнява."
+
+msgid "Procurar aplicativo"
+msgstr "Преглед на приложението"
+
+msgid "Editores de texto linha de comando"
+msgstr "Текстови редактори на командния ред"
+
+msgid "Multimidia"
+msgstr "Мултимедия"
+
+msgid "Carta"
+msgstr "Буква"
+
+msgid "Ver informações do dispositivo no Linux Hardware"
+msgstr "Преглед на информация за устройството в Linux Hardware"
+
+msgid "Processador"
+msgstr "Процесор"
+
+msgid "Placa mãe"
+msgstr "Дънна платка"
+
+msgid "Memória"
+msgstr "Памет"
+
+msgid "Swap Memória Virtual"
+msgstr "Размяна на виртуална памет"
+
+msgid "Placa de vídeo"
+msgstr "Видеокарта"
+
+msgid "Áudio"
+msgstr "Аудио"
+
+msgid "Rede"
+msgstr "Мрежа"
+
+msgid "Conexões de Rede"
+msgstr "Мрежови връзки"
+
+msgid "Dispositivos e conexões USB"
+msgstr "USB устройства и връзки"
+
+msgid "Portas PCI"
+msgstr "PCI портове"
+
+msgid "Bateria"
+msgstr "Батерия"
+
+msgid "Dispositivos de Armazenamento"
+msgstr "Устройства за съхранение"
+
+msgid "Partições montadas"
+msgstr "Монтирани прегради"
+
+msgid "Partições desmontadas"
+msgstr "Немонтирани прегради"
+
+msgid "Dispositivos lógicos"
+msgstr "Логически устройства"
+
+msgid "Raid"
+msgstr "РЕЙД"
+
+msgid "Informações de Sistema"
+msgstr "Системна информация"
+
+msgid "Repositórios"
+msgstr "Хранилища"
+
+msgid "Bluetooth"
+msgstr "Блутут"
+
+msgid "Temperatura"
+msgstr "Температура"
+
+msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+msgstr "За да се появят програмите на Flatpak в системното меню, излезте и влезте отново."
+
+msgid "Atualizado em"
+msgstr "Актуализиран на"
+
+msgid "Sobre"
+msgstr "При"
+
+msgid "Tradução da descrição dos pacotes online"
+msgstr "Превод на описанието на онлайн пакетите"

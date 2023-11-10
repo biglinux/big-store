@@ -1,4 +1,0 @@
-O programa passhole é uma ferramenta de gerenciamento de senhas que utiliza a interface de linha de
-comando e o dmenu para facilitar o acesso às suas senhas. Ele é baseado no software KeePass e permite que você armazene e gerencie suas senhas de forma segura, com criptografia forte e
-suporte para sincronização entre dispositivos.Com o passhole, você pode criar e editar entradas de senhas, gerar senhas seguras aleatoriamente e protegê-las com uma senha principal. Além
-disso, o programa também oferece recursos avançados como autenticação de dois fatores e suporte para plugins para ampliar suas funcionalidades.

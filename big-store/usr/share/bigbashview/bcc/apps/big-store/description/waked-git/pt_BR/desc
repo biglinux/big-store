@@ -1,3 +1,0 @@
-Este programa é chamado de 'waked-git' e ele tem a função de permitir que outros aplicativos possam acordar o sistema. Ele
-funciona como um daemon, ou seja, um programa que roda em segundo plano e realiza tarefas específicas. Com ele, você pode definir que outros programas possam acordar o seu computador sem
-precisar fazê-lo manualmente.

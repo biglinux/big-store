@@ -1,3 +1,0 @@
-Essa é a versão do PHP 8.0 para ser usada no prompt de comando. Ela permite que você execute scripts PHP diretamente no seu terminal ou
-cmd, sem precisar de um servidor web. Isso pode ser útil para automatizar tarefas ou criar ferramentas de linha de comando personalizadas.Lembre-se de que essa versão não inclui suporte
-para recursos que dependem de um ambiente web, como sessões ou cookies.

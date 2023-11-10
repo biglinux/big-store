@@ -1,3 +1,0 @@
-Este programa ajuda a adicionar destaque de sintaxe PKGBUILD a editores compatíveis com gtksourceview3. Isso torna
-mais fácil ler e escrever códigos usando o formato PKGBUILD, pois as palavras-chave e outros elementos importantes aparecem em cores diferentes.Isso pode ser útil para desenvolvedores de
-software que trabalham com o sistema de gerenciamento de pacotes Arch Linux, que usa o formato PKGBUILD para criar e gerenciar pacotes.

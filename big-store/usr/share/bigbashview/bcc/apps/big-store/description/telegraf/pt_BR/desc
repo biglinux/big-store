@@ -1,4 +1,0 @@
-Telegraf é um agente de servidor que usa plugins para coletar e enviar métricas para o InfluxDB.
-Ele é projetado para ser fácil de usar e configurar, e permite que você monitore seus sistemas, aplicativos e serviços de forma eficiente. Com vários plugins disponíveis, você pode coletar 
-métricas de fontes como sistemas operacionais, banco de dados, redes e muito mais. Além disso, a arquitetura modular do Telegraf significa que você pode adicionar ou remover plugins
-conforme suas necessidades mudarem.

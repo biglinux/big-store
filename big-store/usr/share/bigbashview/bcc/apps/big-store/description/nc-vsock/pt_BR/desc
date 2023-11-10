@@ -1,3 +1,0 @@
-Este programa é semelhante à ferramenta netcat, mas é específico para o protocolo AF_VSOCK. Ele permite a comunicação
-entre máquinas virtuais e o host. Com ele, é possível criar conexões de rede, enviar e receber dados, e realizar outras tarefas comuns de rede.Ele é útil para administradores de sistemas 
-e desenvolvedores que precisam automatizar tarefas de rede ou realizar testes de rede em ambientes virtuais.

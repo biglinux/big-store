@@ -1,3 +1,0 @@
- Este é um script escrito em Rust que permite acessar o Weechat através do protocolo Matrix. Ele foi reescrito a partir de
-uma versão anterior escrita em Python. Com ele, você pode conversar com seus amigos no Weechat usando o aplicativo Matrix em seu dispositivo. É fácil de usar e configurar, e pode ser uma
-boa opção para quem gosta de usar o Weechat e o Matrix juntos. 

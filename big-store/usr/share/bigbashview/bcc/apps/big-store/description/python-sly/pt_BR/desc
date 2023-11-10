@@ -1,1 +1,0 @@
- python-sly é uma implementação das ferramentas léxica e sintática para Python. Essas ferramentas são usadas para desenvolver compiladores e interpretadores, permitindo que você escreva regras para reconhecer expressões e construir árvores de análise sintática. Com python-sly, é possível criar programas complexos com facilidade e precisão. 

@@ -1,1 +1,0 @@
-Este programa adiciona suporte para GdkX11, uma biblioteca de interface gráfica para X11, ao Haskell. Isso permite que os desenvolvedores criem aplicativos gráficos usando a linguagem Haskell e rodem-os em sistemas que utilizam o X11 como gerenciador de janelas. Ele é construído usando haskell-gi-gdkx11, uma implementação do GObject Introspection para o Haskell. 
