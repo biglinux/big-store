@@ -56,39 +56,6 @@ msgstr "Kurulum"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Kaldırmak"
-
-msgid "Versão: "
-msgstr "Versiyon "
-
-msgid "Pacote: "
-msgstr "Paket "
-
-msgid "Não informada"
-msgstr "Bilgilendirilmedi"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak programları"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
@@ -103,10 +70,29 @@ msgstr "Güncelleme"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Koşmak"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Kaldırmak"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Yeni -den yüklemek"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -124,180 +110,13 @@ msgstr "Paket:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Versiyon mevcut:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Depo:"
-
-msgid "Cancelar"
-msgstr "İptal"
-
-msgid "Fechar"
-msgstr "Kapat"
-
-msgid "Categorias"
-msgstr "Kategoriler"
-
-msgid "Versão instalada"
-msgstr "Yüklü sürüm"
-
-msgid "Versão disponível"
-msgstr "Mevcut sürüm"
-
-msgid "Versão"
-msgstr "Versiyon"
-
-msgid "Pacote .deb"
-msgstr ".deb paketi"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Bu program, sistemle en iyi entegrasyona sahip olan .deb formatındadır."
-
-msgid "Mais informações"
-msgstr "Daha fazla bilgi"
-
-msgid "Voltar"
-msgstr "Geri"
-
-msgid "Download"
-msgstr "İndir"
-
-msgid "Dependências a instalar"
-msgstr "Yüklenecek bağımlılıklar"
-
-msgid "Ver mais"
-msgstr "Daha fazlasını görün"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Karşılanmamış bağımlılıkları olan paketler "
-
-msgid "Depende de "
-msgstr "Bu şunlara bağlıdır "
-
-msgid "mas não vai ser instalado."
-msgstr "ancak yüklenmeyecektir."
-
-msgid "mas não está disponível"
-msgstr "ancak mevcut değil"
-
-msgid "Sistema"
-msgstr "Sistem"
-
-msgid "Instalado na partição:"
-msgstr "Bölüme yüklendi:"
-
-msgid "Tamanho da partição:"
-msgstr "Bölüm boyutu:"
-
-msgid "Espaço utilizado:"
-msgstr "Kullanılan alan:"
-
-msgid "Espaço livre:"
-msgstr "Boş alan:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Sistemin kurulduğu tarih:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Yerel paketler ve AUR"
-
-msgid "Instalados:"
-msgstr "Yüklendi:"
-
-msgid "Disponíveis:"
-msgstr "Mevcut:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak paketleri"
-
-msgid "Repositórios configurados:"
-msgstr "Depolar yapılandırıldı:"
-
-msgid "Pacotes Snap"
-msgstr "Çıtçıtlı Paketler"
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Snap programlarının sistem menüsünde görünmesi için oturumu kapatın ve tekrar oturum açın."
-
-msgid "Configurações"
-msgstr "Ayarlar"
-
-msgid "Pacotes"
-msgstr "Paketler"
-
-msgid "Ativado"
-msgstr "Etkinleştirilmiş"
-
-msgid "Desativado"
-msgstr "Engelli"
-
-msgid "Atualizações"
-msgstr "Güncellemeler"
-
-msgid "Atualizar seu sistema"
-msgstr "Sisteminizi güncelleyin"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Yerel depoların önbelleğini güncelleyin"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Daha hızlı arama yerel depolar sunucusu"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Aşağıdaki seçenekleri dikkatli kullanın"
-
-msgid "Reinstalação"
-msgstr "Yeniden Yükleme"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Yüklü tüm paketleri yeniden yüklemeye zorla"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"BigLinux, Manjaro ve Archlinux depolarının anahtarlarını güncelleyin. Tamamlayıcı depoları "
-"etkinleştirdiyseniz, bu depoların anahtarlarını tekrar eklemeniz gerekeceğini unutmayın."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Güncellemeleri zorla, sistemi güncelleyemiyorsanız bu seçeneği kullanın, ancak zorunlu güncellemede "
-"bazı programlar kaldırılabilir."
-
-msgid "Repositórios nativos"
-msgstr "Yerel depolar"
-
-msgid "Programas AUR"
-msgstr "AUR programları"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store açık."
-
-msgid "Instalando"
-msgstr "Yükleme"
-
-msgid "Removendo"
-msgstr "Kaldırma"
-
-msgid "Programas Snap"
-msgstr "Snap programları"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Yüklü sürüm:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -309,6 +128,27 @@ msgstr "Snap programları"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 msgid "Versão disponivel:"
 msgstr "Versiyon mevcut:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Oy sayısı:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "AUR'deki sayfa:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Site:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -323,8 +163,18 @@ msgstr "Versiyon mevcut:"
 msgid "Licença:"
 msgstr "Ruhsat:"
 
-msgid "AUR"
-msgstr "AUR"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Depo:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -335,346 +185,6 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Packer:"
-
-msgid ""
-"\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"Yerel programlar sisteme daha iyi entegre edilmiştir<br>\n"
-"ve piyasaya sürülmeden önce daha fazla testten geçecek,<br>\n"
-"bu nedenle, programın sizin için en iyi seçenek<br>\n"
-"birden fazla kurulum türünde mevcuttur.<br>"
-
-msgid ""
-"\n"
-"Programas AUR são scripts criados por usuários<br>\n"
-"para instalar programas que não estão disponíveis<br>\n"
-"diretamente nos repositórios nativos do sistema.<br>\n"
-"Os programas instalados por esse método funcionam<br>\n"
-"bem, mas não passam pelos mesmos testes feitos<br>\n"
-"com os programas nativos."
-msgstr ""
-"\n"
-"AUR programları kullanıcılar tarafından oluşturulan komut dosyalarıdır<br>\n"
-"mevcut olmayan programları yüklemek için<br>\n"
-"doğrudan sistemin yerel depolarında.<br>\n"
-"Bu yöntemle yüklenen programlar çalışır<br>\n"
-"iyi, ama aynı testlerden geçmiyorlar<br>\n"
-"yerel programlar."
-
-msgid ""
-"\n"
-"Programas Flatpak, são disponibilizados para todas as<br>\n"
-"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
-"criadores dos programas, porém, não possuem algumas<br>\n"
-"otimizações e integrações com o sistema, como ocorre com<br>\n"
-"os programas nativos, essa pode ser uma boa alternativa<br>\n"
-"para quem tem computadores que possuem boa capacidade<br>\n"
-"de processamento e armazenamento."
-msgstr ""
-"\n"
-"Flatpak programları tüm Linux dağıtımları için mevcuttur<br>\n"
-"linux dağıtımları, genellikle program tarafından sürdürülür<br>\n"
-"programların yaratıcıları, ancak bazı<br>\n"
-"optimizasyonlar ve sistemle entegrasyonlarda olduğu gibi<br>\n"
-"yerel programlar, bu iyi bir alternatif olabilir<br>\n"
-"iyi kapasiteye sahip bilgisayarları olanlar için<br>\n"
-"işleme ve depolama kapasitesi."
-
-msgid ""
-"\n"
-"Programas Snap, assim como o Flatpak<br>\n"
-"disponibiliza programas para todas as distribuições Linux.<br>\n"
-"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
-"se o programa que você procura está disponível apenas neste<br>\n"
-"formato, utilize-o."
-msgstr ""
-"\n"
-"Flatpak gibi Snap programları<br>\n"
-"tüm Linux dağıtımları için yazılım sağlar.<br>\n"
-"Daha ağır ve sisteme daha az entegre olma eğilimindedir, ancak<br>\n"
-"aradığınız program sadece bu programda mevcutsa<br>\n"
-"formatını kullanın."
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Yalnızca seçili programları görüntüler<br>\n"
-"ve yararlı olan sonuçları gizler <br>\n"
-"sadece ileri düzey kullanıcılar içindir."
-
-msgid "Aplicando - Aguarde"
-msgstr "Başvuru - Lütfen bekleyin"
-
-msgid "Procurar programa"
-msgstr "Arama programı"
-
-msgid "Modo Simplificado"
-msgstr "Basitleştirilmiş Mod"
-
-msgid "Nativos"
-msgstr "Yerliler"
-
-msgid "Início"
-msgstr "Ev"
-
-msgid "X-Sistema"
-msgstr "X-Sistemi"
-
-msgid "Imagem"
-msgstr "Resim"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Audio"
-msgstr "Ses"
-
-msgid "Internet"
-msgstr "İnternet"
-
-msgid "Escritório"
-msgstr "Ofis"
-
-msgid "Gráficos"
-msgstr "Grafikler"
-
-msgid "Multimídia"
-msgstr "Multimedya"
-
-msgid "Jogos"
-msgstr "Oyunlar"
-
-msgid "Desenvolvimento"
-msgstr "Geliştirme"
-
-msgid "Navegadores"
-msgstr "Tarayıcılar"
-
-msgid "E-mail"
-msgstr "E-posta"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Bulut depolama"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Paylaşıcılar ve Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Haberciler ve Konferanslar"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Uzaktan Erişim, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Ağ araçları"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Haberler, Akışlar ve RSS"
-
-msgid "Suíte Office"
-msgstr "Ofis Paketi"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, e-kitap görüntüleyiciler ve daha fazlası"
-
-msgid "Editores de PDF"
-msgstr "PDF editörleri"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Görev ve kişi takvimi"
-
-msgid "Visualizadores de imagem"
-msgstr "Görüntü izleyiciler"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Görüntü düzenleyiciler ve çizim araçları"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Ekran görüntüsü"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Görüntüleri dönüştürme, yeniden boyutlandırma veya sıkıştırma"
-
-msgid "Edição 3D e CAD"
-msgstr "3D ve CAD Düzenleme"
-
-msgid "Reprodutores de áudio"
-msgstr "Ses oynatıcılar"
-
-msgid "Rádio online"
-msgstr "Çevrimiçi radyo"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ses kayıt cihazları ve dönüştürücüler"
-
-msgid "Editores de áudio"
-msgstr "Ses editörleri"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video oynatıcılar"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Çevrimiçi video, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video düzenleyiciler ve sıkıştırıcılar"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD ve DVD kaydediciler ve fotokopi makineleri"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Web kamerası, ekran kaydı ve video akışı"
-
-msgid "Gerenciadores de jogos"
-msgstr "Oyun Yöneticileri"
-
-msgid "Utilitários para jogos"
-msgstr "Oyun Yardımcı Programları"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch Emülatörü"
-
-msgid "Emuladores"
-msgstr "Emülatörler"
-
-msgid "Criadores de jogos"
-msgstr "Oyun geliştiricileri"
-
-msgid "Ação/Arcade"
-msgstr "Aksiyon/Arcade"
-
-msgid "Cartas"
-msgstr "Mektuplar"
-
-msgid "Educacional"
-msgstr "Eğitim"
-
-msgid "Estratégia"
-msgstr "Strateji"
-
-msgid "Puzzles"
-msgstr "Bulmacalar"
-
-msgid "Tabuleiro"
-msgstr "Yönetim Kurulu"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Armazenamento e partições"
-msgstr "Depolama ve bölmeler"
-
-msgid "Fontes (Tipografia)"
-msgstr "Yazı Tipleri (Tipografi)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Sanallaştırma"
-
-msgid "Editores de código e IDE"
-msgstr "Kod editörleri ve IDE'ler"
-
-msgid "Banco de dados"
-msgstr "Veritabanı"
-
-msgid "Servidores WEB"
-msgstr "WEB Sunucuları"
-
-msgid "Programas Nativos"
-msgstr "Yerel Programlar"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Yüklü Snap Paketleri kaldırmak için paketin üzerine tıklayın"
-
-msgid "Editores Vetorial"
-msgstr "Vektör Editörleri"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Resim, fotoğraf ve çizim editörleri"
-
-msgid "Plugins"
-msgstr "Eklentiler"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Sayfaların düzeni ve organizasyonu"
-
-msgid "Colorização e palheta de cores"
-msgstr "Renklendirme ve renk paleti"
-
-msgid "Editores de video"
-msgstr "Video düzenleyiciler"
-
-msgid "Animação e 2D"
-msgstr "Animasyon ve 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Ekran görüntüsü ve video indirme"
-
-msgid "Stream/transmissão online"
-msgstr "Çevrimiçi akış/akış"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Video dönüştürücüler ve CD/DVD yazıcılar"
-
-msgid "Outros"
-msgstr "Diğer"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Yeni -den yüklemek"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-msgid "Versão instalada:"
-msgstr "Yüklü sürüm:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Depolama alanı kullanımı:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "İndirme boyutu:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-msgid "Site:"
-msgstr "Site:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -728,6 +238,11 @@ msgid "Dependências:"
 msgstr "Bağımlılık:"
 
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Yükleme bağımlılıkları:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
@@ -757,175 +272,40 @@ msgstr "Paket dosyaları:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Koşmak"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Depolama alanı kullanımı:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "İndirme boyutu:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
 msgid "Clique aqui para ver os arquivos"
 msgstr "Dosyaları görmek için tıklayınız"
 
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Oy sayısı:"
-
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "AUR'deki sayfa:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Yükleme bağımlılıkları:"
-
-msgid "Editores de áudio (DAW)"
-msgstr "Ses Editörleri (DAW)"
-
-msgid "Audio Plugins"
-msgstr "Ses Eklentileri"
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br>\n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"Yalnızca seçili programları görüntüler<br>ve yararlı olan sonuçları gizler <br>yalnızca ileri düzey "
-"kullanıcılara."
-
-msgid "Vídeo"
-msgstr "Video"
-
-msgid "Erro ao acessar o diretório:"
-msgstr "Dizine erişirken hata oluştu:"
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Yerel programlar işletim sistemiyle daha sağlam bir tümleştirmeye sahiptir.<br>Kullanıma sunulmadan "
-"önce kapsamlı testlere tabi tutulurlar ve daha fazla güvenilirlik sağlarlar.<br>Bu nedenlerden "
-"dolayı, yerel bir programın seçilmesi, özellikle istenen yazılım birden fazla kurulum seçeneğinde "
-"mevcut olduğunda önerilir.<br>"
-
-msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
-msgstr "Sistem bilgilerini toplarken lütfen bekleyin. Bu birkaç dakika sürebilir..."
-
-msgid "Data aproximada que o sistema foi instalado:"
-msgstr "Sistemin kurulduğu yaklaşık tarih:"
-
-msgid "Big-Store já está em execução."
-msgstr "Big-Store zaten çalışıyor."
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado<br>\n"
-"está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Yerel programlar işletim sistemiyle daha sağlam bir tümleştirmeye sahiptir.<br>Kullanıma sunulmadan "
-"önce kapsamlı testlere tabi tutulurlar ve daha fazla güvenilirlik sağlarlar.<br>Bu nedenlerden "
-"dolayı, yerel bir program seçmek, özellikle istenen yazılım olduğunda önerilir<br>çeşitli kurulum "
-"seçeneklerinde mevcuttur.<br>"
-
-msgid "Baixando pacotes novos da base de dados do servidor"
-msgstr "Sunucu veritabanından yeni paketler indirme"
-
-msgid "Nenhum pacote passado como parâmetro"
-msgstr "Parametre olarak geçirilen paket yok"
-
-msgid "Outra instância do Big-Store já está em execução."
-msgstr "Big-Store'un başka bir örneği zaten çalışıyor."
-
-msgid "Procurar aplicativo"
-msgstr "Uygulamaya göz atın"
-
-msgid "Editores de texto linha de comando"
-msgstr "Komut satırı metin düzenleyicileri"
-
-msgid "Multimidia"
-msgstr "Multimedya"
-
-msgid "Carta"
-msgstr "Mektup"
-
-msgid "Ver informações do dispositivo no Linux Hardware"
-msgstr "Linux Donanımında cihaz bilgilerini görüntüleme"
-
-msgid "Processador"
-msgstr "Işlemci"
-
-msgid "Placa mãe"
-msgstr "Anakart"
-
-msgid "Memória"
-msgstr "Bellek"
-
-msgid "Swap Memória Virtual"
-msgstr "Sanal Bellek Takası"
-
-msgid "Placa de vídeo"
-msgstr "Ekran Kartı"
-
-msgid "Áudio"
-msgstr "Ses"
-
-msgid "Rede"
-msgstr "Ağ"
-
-msgid "Conexões de Rede"
-msgstr "Ağ Bağlantıları"
-
-msgid "Dispositivos e conexões USB"
-msgstr "USB aygıtları ve bağlantıları"
-
-msgid "Portas PCI"
-msgstr "PCI bağlantı noktaları"
-
-msgid "Bateria"
-msgstr "Pil"
-
-msgid "Dispositivos de Armazenamento"
-msgstr "Depolama Aygıtları"
-
-msgid "Partições montadas"
-msgstr "Takılı bölümler"
-
-msgid "Partições desmontadas"
-msgstr "Bağlanmamış bölümler"
-
-msgid "Dispositivos lógicos"
-msgstr "Mantıksal aygıtlar"
-
-msgid "Raid"
-msgstr "RAID"
-
-msgid "Informações de Sistema"
-msgstr "Sistem Bilgisi"
-
-msgid "Repositórios"
-msgstr "Depoları"
-
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-msgid "Temperatura"
-msgstr "Sıcaklık"
-
-msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Flatpak programlarının sistem menüsünde görünmesi için, oturumu kapatın ve tekrar oturum açın."
-
-msgid "Atualizado em"
-msgstr "Güncelleme tarihi"
-
-msgid "Sobre"
-msgstr "Üzerine"
-
-msgid "Tradução da descrição dos pacotes online"
-msgstr "Çevrimiçi paketlerin açıklamasının çevirisi"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Versiyon mevcut:"
