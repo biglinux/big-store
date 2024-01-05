@@ -56,39 +56,6 @@ msgstr "Εγκαταστήστε το"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Αφαιρέστε το"
-
-msgid "Versão: "
-msgstr "Έκδοση "
-
-msgid "Pacote: "
-msgstr "Συσκευασία "
-
-msgid "Não informada"
-msgstr "Δεν έχει ενημερωθεί"
-
-msgid "Programas Flatpak"
-msgstr "Προγράμματα Flatpak"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
@@ -103,10 +70,29 @@ msgstr "Ενημέρωση"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Εκτέλεση"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Αφαιρέστε το"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Επανεγκατάσταση"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -124,181 +110,13 @@ msgstr "Συσκευασία:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Διαθέσιμη έκδοση:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Αποθετήριο:"
-
-msgid "Cancelar"
-msgstr "Ακύρωση"
-
-msgid "Fechar"
-msgstr "Κλείστε το"
-
-msgid "Categorias"
-msgstr "Κατηγορίες"
-
-msgid "Versão instalada"
-msgstr "Εγκατεστημένη έκδοση"
-
-msgid "Versão disponível"
-msgstr "Διαθέσιμη έκδοση"
-
-msgid "Versão"
-msgstr "Έκδοση"
-
-msgid "Pacote .deb"
-msgstr ".deb πακέτο"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Αυτό το πρόγραμμα είναι σε μορφή .deb, η οποία έχει την καλύτερη ενσωμάτωση με το σύστημα."
-
-msgid "Mais informações"
-msgstr "Περισσότερες πληροφορίες"
-
-msgid "Voltar"
-msgstr "Πίσω"
-
-msgid "Download"
-msgstr "Λήψη"
-
-msgid "Dependências a instalar"
-msgstr "Εξαρτήσεις προς εγκατάσταση"
-
-msgid "Ver mais"
-msgstr "Δείτε περισσότερα"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Πακέτα με ανεκπλήρωτες εξαρτήσεις "
-
-msgid "Depende de "
-msgstr "Εξαρτάται από "
-
-msgid "mas não vai ser instalado."
-msgstr "αλλά δεν θα εγκατασταθεί."
-
-msgid "mas não está disponível"
-msgstr "αλλά δεν είναι διαθέσιμο"
-
-msgid "Sistema"
-msgstr "Σύστημα"
-
-msgid "Instalado na partição:"
-msgstr "Εγκατεστημένο στο διαμέρισμα:"
-
-msgid "Tamanho da partição:"
-msgstr "Μέγεθος διαμερίσματος:"
-
-msgid "Espaço utilizado:"
-msgstr "Χώρος που χρησιμοποιείται:"
-
-msgid "Espaço livre:"
-msgstr "Ελεύθερος χώρος:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Ημερομηνία εγκατάστασης του συστήματος:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Εγχώρια πακέτα και AUR"
-
-msgid "Instalados:"
-msgstr "Εγκαταστάθηκε:"
-
-msgid "Disponíveis:"
-msgstr "Διαθέσιμο:"
-
-msgid "Pacotes Flatpak"
-msgstr "Πακέτα Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Ρυθμισμένα αποθετήρια:"
-
-msgid "Pacotes Snap"
-msgstr "Πακέτα Snap"
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Για να εμφανιστούν τα προγράμματα Snap στο μενού του συστήματος, αποσυνδεθείτε και συνδεθείτε ξανά."
-
-msgid "Configurações"
-msgstr "Ρυθμίσεις"
-
-msgid "Pacotes"
-msgstr "Πακέτα"
-
-msgid "Ativado"
-msgstr "Ενεργοποιημένο"
-
-msgid "Desativado"
-msgstr "Άτομα με ειδικές ανάγκες"
-
-msgid "Atualizações"
-msgstr "Ενημερώσεις"
-
-msgid "Atualizar seu sistema"
-msgstr "Ενημερώστε το σύστημά σας"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Ενημέρωση κρυφής μνήμης εγγενών αποθετηρίων"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Γρηγορότερη αναζήτηση εγγενών αποθετηρίων διακομιστή"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Χρησιμοποιήστε τις ακόλουθες επιλογές με προσοχή"
-
-msgid "Reinstalação"
-msgstr "Επανεγκατάσταση"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Αναγκαστική επανεγκατάσταση όλων των εγκατεστημένων πακέτων"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Ενημερώστε τα κλειδιά των αποθετηρίων BigLinux, Manjaro και Archlinux. Θυμηθείτε ότι αν έχετε "
-"ενεργοποιήσει συμπληρωματικά αποθετήρια θα πρέπει να προσθέσετε ξανά τα κλειδιά αυτών των "
-"αποθετηρίων."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Αναγκαστική ενημέρωση, χρησιμοποιήστε αυτή την επιλογή εάν δεν μπορείτε να ενημερώσετε το σύστημα, "
-"ωστόσο, κατά την αναγκαστική ενημέρωση ενδέχεται να αφαιρεθούν ορισμένα προγράμματα."
-
-msgid "Repositórios nativos"
-msgstr "Εγχώρια αποθετήρια"
-
-msgid "Programas AUR"
-msgstr "Προγράμματα AUR"
-
-msgid "Big-Store está aberta."
-msgstr "Το Big-Store είναι ανοιχτό."
-
-msgid "Instalando"
-msgstr "Εγκατάσταση του"
-
-msgid "Removendo"
-msgstr "Αφαίρεση του"
-
-msgid "Programas Snap"
-msgstr "Προγράμματα Snap"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Εγκατεστημένη έκδοση:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -310,6 +128,27 @@ msgstr "Προγράμματα Snap"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 msgid "Versão disponivel:"
 msgstr "Διαθέσιμη έκδοση:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Αριθμός ψήφων:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Σελίδα σε AUR:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Τοποθεσία:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -324,8 +163,18 @@ msgstr "Διαθέσιμη έκδοση:"
 msgid "Licença:"
 msgstr "Άδεια:"
 
-msgid "AUR"
-msgstr "AUR"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Αποθετήριο:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -336,346 +185,6 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Packer:"
-
-msgid ""
-"\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"Τα γηγενή προγράμματα ενσωματώνονται καλύτερα στο σύστημα<br>\n"
-"και να περάσουν από περισσότερες δοκιμές πριν κυκλοφορήσουν,<br>\n"
-"έτσι είναι η καλύτερη επιλογή όταν το πρόγραμμα που<br>\n"
-"διατίθεται σε περισσότερους από έναν τύπους εγκατάστασης.<br>"
-
-msgid ""
-"\n"
-"Programas AUR são scripts criados por usuários<br>\n"
-"para instalar programas que não estão disponíveis<br>\n"
-"diretamente nos repositórios nativos do sistema.<br>\n"
-"Os programas instalados por esse método funcionam<br>\n"
-"bem, mas não passam pelos mesmos testes feitos<br>\n"
-"com os programas nativos."
-msgstr ""
-"\n"
-"Τα προγράμματα AUR είναι σενάρια που δημιουργούνται από χρήστες<br>\n"
-"να εγκαταστήσετε προγράμματα που δεν είναι διαθέσιμα<br>\n"
-"απευθείας στα εγγενή αποθετήρια του συστήματος.<br>\n"
-"Τα προγράμματα που εγκαθίστανται με αυτή τη μέθοδο λειτουργούν<br>\n"
-"καλά, αλλά δεν υποβάλλονται στις ίδιες δοκιμασίες με τα<br>\n"
-"εγγενή προγράμματα."
-
-msgid ""
-"\n"
-"Programas Flatpak, são disponibilizados para todas as<br>\n"
-"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
-"criadores dos programas, porém, não possuem algumas<br>\n"
-"otimizações e integrações com o sistema, como ocorre com<br>\n"
-"os programas nativos, essa pode ser uma boa alternativa<br>\n"
-"para quem tem computadores que possuem boa capacidade<br>\n"
-"de processamento e armazenamento."
-msgstr ""
-"\n"
-"Τα προγράμματα Flatpak είναι διαθέσιμα για όλες τις διανομές Linux<br>\n"
-"διανομές Linux, συνήθως συντηρούνται από το πρόγραμμα<br>\n"
-"δημιουργούς των προγραμμάτων, αλλά δεν έχουν κάποια<br>\n"
-"βελτιστοποιήσεις και ενσωματώσεις με το σύστημα, όπως συμβαίνει με τις<br>\n"
-"εγγενή προγράμματα, αυτό μπορεί να είναι μια καλή εναλλακτική λύση<br>\n"
-"για όσους έχουν υπολογιστές με καλή χωρητικότητα<br>\n"
-"ικανότητα επεξεργασίας και αποθήκευσης."
-
-msgid ""
-"\n"
-"Programas Snap, assim como o Flatpak<br>\n"
-"disponibiliza programas para todas as distribuições Linux.<br>\n"
-"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
-"se o programa que você procura está disponível apenas neste<br>\n"
-"formato, utilize-o."
-msgstr ""
-"\n"
-"Προγράμματα Snap, όπως το Flatpak<br>\n"
-"παρέχει λογισμικό για όλες τις διανομές Linux.<br>\n"
-"Τείνει να είναι βαρύτερο και λιγότερο ενσωματωμένο στο σύστημα, αλλά<br>\n"
-"αν το πρόγραμμα που αναζητάτε είναι διαθέσιμο μόνο σε αυτό το<br>\n"
-"μορφή, χρησιμοποιήστε την."
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Εμφανίζει μόνο επιλεγμένα προγράμματα<br>\n"
-"και αποκρύπτει τα αποτελέσματα που είναι χρήσιμα <br>\n"
-"μόνο για προχωρημένους χρήστες."
-
-msgid "Aplicando - Aguarde"
-msgstr "Εφαρμογή - Παρακαλώ περιμένετε"
-
-msgid "Procurar programa"
-msgstr "Πρόγραμμα αναζήτησης"
-
-msgid "Modo Simplificado"
-msgstr "Απλοποιημένη λειτουργία"
-
-msgid "Nativos"
-msgstr "Ντόπιοι"
-
-msgid "Início"
-msgstr "Αρχική σελίδα"
-
-msgid "X-Sistema"
-msgstr "Σύστημα X"
-
-msgid "Imagem"
-msgstr "Εικόνα"
-
-msgid "Video"
-msgstr "Βίντεο"
-
-msgid "Audio"
-msgstr "Ήχου"
-
-msgid "Internet"
-msgstr "Διαδίκτυο"
-
-msgid "Escritório"
-msgstr "Γραφείο"
-
-msgid "Gráficos"
-msgstr "Γραφικά"
-
-msgid "Multimídia"
-msgstr "Πολυμέσα"
-
-msgid "Jogos"
-msgstr "Παιχνίδια"
-
-msgid "Desenvolvimento"
-msgstr "Ανάπτυξη"
-
-msgid "Navegadores"
-msgstr "Φυλλομετρητές"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Αποθήκευση στο σύννεφο"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Μέτοχοι και Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Αγγελιοφόροι και συνέδρια"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Απομακρυσμένη πρόσβαση, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Εργαλεία δικτύου"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Ειδήσεις, τροφοδοσίες και RSS"
-
-msgid "Suíte Office"
-msgstr "Σουίτα γραφείου"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, προγράμματα προβολής ηλεκτρονικών βιβλίων και πολλά άλλα"
-
-msgid "Editores de PDF"
-msgstr "Εκδότες PDF"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Ημερολόγιο εργασιών και επαφών"
-
-msgid "Visualizadores de imagem"
-msgstr "Θεατές εικόνας"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Επεξεργαστές εικόνας και εργαλεία σχεδίασης"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Στιγμιότυπο"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Μετατροπή, αλλαγή μεγέθους ή συμπίεση εικόνων"
-
-msgid "Edição 3D e CAD"
-msgstr "Επεξεργασία 3D και CAD"
-
-msgid "Reprodutores de áudio"
-msgstr "Συσκευές αναπαραγωγής ήχου"
-
-msgid "Rádio online"
-msgstr "Διαδικτυακό ραδιόφωνο"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Συσκευές εγγραφής ήχου και μετατροπείς"
-
-msgid "Editores de áudio"
-msgstr "Συντάκτες ήχου"
-
-msgid "Reprodutores de vídeo"
-msgstr "Παίκτες βίντεο"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Διαδικτυακό βίντεο, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Επεξεργαστές και συμπιεστές βίντεο"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "Συσκευές εγγραφής CD και DVD και φωτοαντιγραφικά μηχανήματα"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webcam, καταγραφή οθόνης και ροή βίντεο"
-
-msgid "Gerenciadores de jogos"
-msgstr "Διαχειριστές παιχνιδιών"
-
-msgid "Utilitários para jogos"
-msgstr "Βοηθητικά προγράμματα παιχνιδιού"
-
-msgid "Emulador Retroarch"
-msgstr "Εξομοιωτής Retroarch"
-
-msgid "Emuladores"
-msgstr "Εξομοιωτές"
-
-msgid "Criadores de jogos"
-msgstr "Προγραμματιστές παιχνιδιών"
-
-msgid "Ação/Arcade"
-msgstr "Δράση / Arcade"
-
-msgid "Cartas"
-msgstr "Επιστολές"
-
-msgid "Educacional"
-msgstr "Εκπαιδευτικό"
-
-msgid "Estratégia"
-msgstr "Στρατηγική"
-
-msgid "Puzzles"
-msgstr "Παζλ"
-
-msgid "Tabuleiro"
-msgstr "Συμβούλιο"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Armazenamento e partições"
-msgstr "Αποθήκευση και χωρίσματα"
-
-msgid "Fontes (Tipografia)"
-msgstr "Γραμματοσειρές (Τυπογραφία)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Εικονικοποίηση"
-
-msgid "Editores de código e IDE"
-msgstr "Επεξεργαστές κώδικα και IDEs"
-
-msgid "Banco de dados"
-msgstr "Βάση δεδομένων"
-
-msgid "Servidores WEB"
-msgstr "WEB Servers"
-
-msgid "Programas Nativos"
-msgstr "Ντόπια προγράμματα"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Εγκατεστημένα πακέτα Snap κάντε κλικ στο πακέτο που θέλετε να αφαιρέσετε"
-
-msgid "Editores Vetorial"
-msgstr "Διανυσματικοί συντάκτες"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Επεξεργαστές εικόνας, φωτογραφίας και σχεδίασης"
-
-msgid "Plugins"
-msgstr "Πρόσθετα"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Διάταξη και οργάνωση σελίδων"
-
-msgid "Colorização e palheta de cores"
-msgstr "Χρωματισμός και παλέτα χρωμάτων"
-
-msgid "Editores de video"
-msgstr "Επεξεργαστές βίντεο"
-
-msgid "Animação e 2D"
-msgstr "Κινούμενα σχέδια και 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Λήψη στιγμιότυπου οθόνης και βίντεο"
-
-msgid "Stream/transmissão online"
-msgstr "Ροή /ροή στο διαδίκτυο"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Μετατροπείς βίντεο και συσκευές εγγραφής CD/DVD"
-
-msgid "Outros"
-msgstr "Άλλα"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Επανεγκατάσταση"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-msgid "Versão instalada:"
-msgstr "Εγκατεστημένη έκδοση:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Χρήση αποθήκευσης:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Μέγεθος λήψης:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-msgid "Site:"
-msgstr "Τοποθεσία:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -729,6 +238,11 @@ msgid "Dependências:"
 msgstr "Εξαρτήσεις:"
 
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Εξαρτήσεις εγκατάστασης:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
@@ -758,175 +272,40 @@ msgstr "Συσκευασία αρχείων:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Εκτέλεση"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Χρήση αποθήκευσης:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Μέγεθος λήψης:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
 msgid "Clique aqui para ver os arquivos"
 msgstr "Πατήστε εδώ για να δείτε τα αρχεία"
 
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Αριθμός ψήφων:"
-
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Σελίδα σε AUR:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Εξαρτήσεις εγκατάστασης:"
-
-msgid "Editores de áudio (DAW)"
-msgstr "Επεξεργαστές ήχου (DAW)"
-
-msgid "Audio Plugins"
-msgstr "Πρόσθετα ήχου"
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br>\n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"Εμφανίζει μόνο επιλεγμένα προγράμματα<br>και αποκρύπτει αποτελέσματα που είναι χρήσιμα <br>μόνο σε "
-"προχωρημένους χρήστες."
-
-msgid "Vídeo"
-msgstr "Βίντεο"
-
-msgid "Erro ao acessar o diretório:"
-msgstr "Σφάλμα κατά την πρόσβαση στον κατάλογο:"
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Τα εγγενή προγράμματα έχουν μια πιο ισχυρή ενοποίηση με το λειτουργικό σύστημα.<br>Υποβάλλονται σε "
-"εκτεταμένες δοκιμές πριν διατεθούν, εξασφαλίζοντας μεγαλύτερη αξιοπιστία.<br>Για αυτούς τους "
-"λόγους, η επιλογή ενός εγγενούς προγράμματος συνιστάται ιδιαίτερα όταν το επιθυμητό λογισμικό είναι "
-"διαθέσιμο σε πολλές επιλογές εγκατάστασης.<br>"
-
-msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
-msgstr "Περιμένετε όσο συλλέγουμε πληροφορίες συστήματος. Αυτό μπορεί να διαρκέσει λίγα λεπτά..."
-
-msgid "Data aproximada que o sistema foi instalado:"
-msgstr "Κατά προσέγγιση ημερομηνία εγκατάστασης του συστήματος:"
-
-msgid "Big-Store já está em execução."
-msgstr "Το Big-Store λειτουργεί ήδη."
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado<br>\n"
-"está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Τα εγγενή προγράμματα έχουν μια πιο ισχυρή ενοποίηση με το λειτουργικό σύστημα.<br>Υποβάλλονται σε "
-"εκτεταμένες δοκιμές πριν διατεθούν, εξασφαλίζοντας μεγαλύτερη αξιοπιστία.<br>Για αυτούς τους "
-"λόγους, η επιλογή ενός εγγενούς προγράμματος συνιστάται ιδιαίτερα όταν το επιθυμητό "
-"λογισμικό<br>είναι διαθέσιμο σε διάφορες επιλογές εγκατάστασης.<br>"
-
-msgid "Baixando pacotes novos da base de dados do servidor"
-msgstr "Λήψη νέων πακέτων από τη βάση δεδομένων διακομιστή"
-
-msgid "Nenhum pacote passado como parâmetro"
-msgstr "Δεν υπάρχουν πακέτα που πέρασαν ως παράμετροι"
-
-msgid "Outra instância do Big-Store já está em execução."
-msgstr "Μια άλλη παρουσία του Big-Store εκτελείται ήδη."
-
-msgid "Procurar aplicativo"
-msgstr "Περιήγηση στην εφαρμογή"
-
-msgid "Editores de texto linha de comando"
-msgstr "Προγράμματα επεξεργασίας κειμένου γραμμής εντολών"
-
-msgid "Multimidia"
-msgstr "Πολυμέσα"
-
-msgid "Carta"
-msgstr "Γράμμα"
-
-msgid "Ver informações do dispositivo no Linux Hardware"
-msgstr "Προβολή πληροφοριών συσκευής στο Linux Hardware"
-
-msgid "Processador"
-msgstr "Επεξεργαστής"
-
-msgid "Placa mãe"
-msgstr "Μητρική κάρτα"
-
-msgid "Memória"
-msgstr "Μνήμη"
-
-msgid "Swap Memória Virtual"
-msgstr "Εναλλαγή εικονικής μνήμης"
-
-msgid "Placa de vídeo"
-msgstr "Κάρτα γραφικών"
-
-msgid "Áudio"
-msgstr "Ήχου"
-
-msgid "Rede"
-msgstr "Δίκτυο"
-
-msgid "Conexões de Rede"
-msgstr "Συνδέσεις δικτύου"
-
-msgid "Dispositivos e conexões USB"
-msgstr "Συσκευές και συνδέσεις USB"
-
-msgid "Portas PCI"
-msgstr "Θύρες PCI"
-
-msgid "Bateria"
-msgstr "Μπαταρία"
-
-msgid "Dispositivos de Armazenamento"
-msgstr "Συσκευές αποθήκευσης"
-
-msgid "Partições montadas"
-msgstr "Προσαρτημένα διαμερίσματα"
-
-msgid "Partições desmontadas"
-msgstr "Μη προσαρτημένα διαμερίσματα"
-
-msgid "Dispositivos lógicos"
-msgstr "Λογικές συσκευές"
-
-msgid "Raid"
-msgstr "ΕΠΙΔΡΟΜΉ"
-
-msgid "Informações de Sistema"
-msgstr "Πληροφορίες συστήματος"
-
-msgid "Repositórios"
-msgstr "Αποθετήρια"
-
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-msgid "Temperatura"
-msgstr "Θερμοκρασία"
-
-msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Για να εμφανιστούν τα προγράμματα Flatpak στο μενού συστήματος, αποσυνδεθείτε και συνδεθείτε ξανά."
-
-msgid "Atualizado em"
-msgstr "Ενημερώθηκε στις"
-
-msgid "Sobre"
-msgstr "Επάνω"
-
-msgid "Tradução da descrição dos pacotes online"
-msgstr "Μετάφραση της περιγραφής των online πακέτων"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Διαθέσιμη έκδοση:"

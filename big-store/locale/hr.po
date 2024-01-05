@@ -56,39 +56,6 @@ msgstr "Instalirajte"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Ukloni"
-
-msgid "Versão: "
-msgstr "Verzija: "
-
-msgid "Pacote: "
-msgstr "Paket: "
-
-msgid "Não informada"
-msgstr "Nije informirano"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak programi"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
@@ -103,10 +70,29 @@ msgstr "ažuriraj"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Izvršite"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Ukloni"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Reinstalirati"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -124,180 +110,13 @@ msgstr "Paket:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Dostupna verzija:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Repozitorij:"
-
-msgid "Cancelar"
-msgstr "Odustani"
-
-msgid "Fechar"
-msgstr "Zatvoriti"
-
-msgid "Categorias"
-msgstr "Kategorije"
-
-msgid "Versão instalada"
-msgstr "Instalirana verzija"
-
-msgid "Versão disponível"
-msgstr "Dostupna verzija"
-
-msgid "Versão"
-msgstr "Verzija"
-
-msgid "Pacote .deb"
-msgstr ".deb paket"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Ovaj program je u .deb formatu, koji ima najbolju integraciju sa sustavom."
-
-msgid "Mais informações"
-msgstr "Više informacija"
-
-msgid "Voltar"
-msgstr "Vrati se"
-
-msgid "Download"
-msgstr "Preuzmi"
-
-msgid "Dependências a instalar"
-msgstr "Ovisnosti za instalaciju"
-
-msgid "Ver mais"
-msgstr "Pogledajte više"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Paketi s nezadovoljenim ovisnostima: "
-
-msgid "Depende de "
-msgstr "Ovisi o "
-
-msgid "mas não vai ser instalado."
-msgstr "ali neće biti instaliran."
-
-msgid "mas não está disponível"
-msgstr "ali nije dostupan"
-
-msgid "Sistema"
-msgstr "Sustav"
-
-msgid "Instalado na partição:"
-msgstr "Instalirano na particiji:"
-
-msgid "Tamanho da partição:"
-msgstr "Veličina particije:"
-
-msgid "Espaço utilizado:"
-msgstr "Prostor koji se koristi:"
-
-msgid "Espaço livre:"
-msgstr "Slobodni prostor:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Datum instaliranja sustava:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Izvorni i AUR paketi"
-
-msgid "Instalados:"
-msgstr "Instalirano:"
-
-msgid "Disponíveis:"
-msgstr "Dostupno:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak Paketi"
-
-msgid "Repositórios configurados:"
-msgstr "Konfigurirani spremišta:"
-
-msgid "Pacotes Snap"
-msgstr "Snap paketi"
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Da bi se Snap programi pojavili u izborniku sustava, odjavite se i prijavite se natrag."
-
-msgid "Configurações"
-msgstr "Postavke"
-
-msgid "Pacotes"
-msgstr "Paketi"
-
-msgid "Ativado"
-msgstr "Omogućeno"
-
-msgid "Desativado"
-msgstr "onemogućeno"
-
-msgid "Atualizações"
-msgstr "nadogradnje"
-
-msgid "Atualizar seu sistema"
-msgstr "Ažurirajte svoj sustav"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Osvježite predmemoriju izvornih spremišta"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Potražite brže izvorne poslužitelje spremišta"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Koristite sljedeće opcije s oprezom"
-
-msgid "Reinstalação"
-msgstr "Ponovno instaliranje"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Prisilna ponovna instalacija svih instaliranih paketa"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Ažurirajte ključeve spremišta BigLinux, Manjaro i Archlinux. Imajte na umu da ako ste aktivirali "
-"dodatne spremišta, morat ćete ponovno dodati ključeve tim spremištima."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Prisilno ažuriranja, upotrijebite ovu opciju ako ne možete ažurirati sustav, međutim, u prisilnom "
-"ažuriranju neki programi mogu biti uklonjeni."
-
-msgid "Repositórios nativos"
-msgstr "Izvorni spremišta"
-
-msgid "Programas AUR"
-msgstr "AUR programi"
-
-msgid "Big-Store está aberta."
-msgstr "Velika trgovina je otvorena."
-
-msgid "Instalando"
-msgstr "Instaliranje"
-
-msgid "Removendo"
-msgstr "Uklanjanje"
-
-msgid "Programas Snap"
-msgstr "Snap programi"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Instalirana verzija:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -309,6 +128,27 @@ msgstr "Snap programi"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 msgid "Versão disponivel:"
 msgstr "Dostupna verzija:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Broj glasova:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Stranica u AUR-u:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Mjesto:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -323,8 +163,18 @@ msgstr "Dostupna verzija:"
 msgid "Licença:"
 msgstr "Licenca:"
 
-msgid "AUR"
-msgstr "AUR"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Repozitorij:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -335,346 +185,6 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Paker:"
-
-msgid ""
-"\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"Izvorni programi bolje su integrirani u sustav <br>\n"
-"i podvrgavaju se daljnjim ispitivanjima prije nego što postanu dostupni, <br>\n"
-"tako da je najbolja opcija kada program <br>\n"
-"Želim je dostupan u više od jedne vrste instalacije. <br>"
-
-msgid ""
-"\n"
-"Programas AUR são scripts criados por usuários<br>\n"
-"para instalar programas que não estão disponíveis<br>\n"
-"diretamente nos repositórios nativos do sistema.<br>\n"
-"Os programas instalados por esse método funcionam<br>\n"
-"bem, mas não passam pelos mesmos testes feitos<br>\n"
-"com os programas nativos."
-msgstr ""
-"\n"
-"AUR programi su skripte koje je stvorio korisnik <br>\n"
-"za instaliranje programa koji nisu dostupni <br>\n"
-"izravno u izvornim spremištima sustava. <br>\n"
-"Programi instalirani ovom metodom rade <br>\n"
-"Pa, ali oni ne prolaze iste testove <br>\n"
-"s izvornim programima."
-
-msgid ""
-"\n"
-"Programas Flatpak, são disponibilizados para todas as<br>\n"
-"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
-"criadores dos programas, porém, não possuem algumas<br>\n"
-"otimizações e integrações com o sistema, como ocorre com<br>\n"
-"os programas nativos, essa pode ser uma boa alternativa<br>\n"
-"para quem tem computadores que possuem boa capacidade<br>\n"
-"de processamento e armazenamento."
-msgstr ""
-"\n"
-"Flatpak programi dostupni su za sve <br>\n"
-"Linux distribucije obično se održavaju same od sebe <br>\n"
-"kreatori programa, međutim, nemaju neke <br>\n"
-"optimizacije i integracije sa sustavom, kao što se događa s <br>\n"
-"izvorni programi, to može biti dobra alternativa <br>\n"
-"za one koji imaju računala koja imaju dobar kapacitet <br>\n"
-"obrada i skladištenje."
-
-msgid ""
-"\n"
-"Programas Snap, assim como o Flatpak<br>\n"
-"disponibiliza programas para todas as distribuições Linux.<br>\n"
-"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
-"se o programa que você procura está disponível apenas neste<br>\n"
-"formato, utilize-o."
-msgstr ""
-"\n"
-"Snap programi, kao i Flatpak <br>\n"
-"nudi programe za sve Linux distribucije. <br>\n"
-"Ima tendenciju da bude teži i manje integriran u sustav, ali <br>\n"
-"ako je program koji tražite dostupan samo na ovom <br>\n"
-"format, koristite ga."
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Prikazuje samo odabrane programe <br> \n"
-"i sakriti rezultate koji su korisni <br>\n"
-"samo napredni korisnici."
-
-msgid "Aplicando - Aguarde"
-msgstr "Primjena - Molimo pričekajte"
-
-msgid "Procurar programa"
-msgstr "Traži program"
-
-msgid "Modo Simplificado"
-msgstr "Pojednostavljeni način"
-
-msgid "Nativos"
-msgstr "Domoroci"
-
-msgid "Início"
-msgstr "Početak"
-
-msgid "X-Sistema"
-msgstr "X-sustav"
-
-msgid "Imagem"
-msgstr "Slika"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Escritório"
-msgstr "Ured"
-
-msgid "Gráficos"
-msgstr "Grafika"
-
-msgid "Multimídia"
-msgstr "Multimedija"
-
-msgid "Jogos"
-msgstr "Igre"
-
-msgid "Desenvolvimento"
-msgstr "Razvoj"
-
-msgid "Navegadores"
-msgstr "navigatori"
-
-msgid "E-mail"
-msgstr "E-mail"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Pohrana u oblaku"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Dioničari i bujica"
-
-msgid "Mensageiros e Conferências"
-msgstr "Glasnici i konferencije"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Daljinski pristup, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Mrežni alati"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Vijesti, feedovi, i RSS"
-
-msgid "Suíte Office"
-msgstr "Uredski apartman"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF gledatelji, epub, e-knjige i još mnogo toga"
-
-msgid "Editores de PDF"
-msgstr "PDF urednici"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Raspored zadataka i kontakata"
-
-msgid "Visualizadores de imagem"
-msgstr "Gledatelji slika"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Uređivači slika i alati za crtanje"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Snimak zaslona (Snimak zaslona)"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Pretvaranje, promjena veličine ili komprimiranje slika"
-
-msgid "Edição 3D e CAD"
-msgstr "3D i CAD uređivanje"
-
-msgid "Reprodutores de áudio"
-msgstr "Audio playeri"
-
-msgid "Rádio online"
-msgstr "Online radio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Audio snimači i pretvarači"
-
-msgid "Editores de áudio"
-msgstr "Audio urednici"
-
-msgid "Reprodutores de vídeo"
-msgstr "Video plejeri"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Online video, IPTV, YouTube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Video urednici i kompresori"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD i DVD snimači i kopirni uređaji"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Web kamera, snimanje zaslona i streaming videozapisa"
-
-msgid "Gerenciadores de jogos"
-msgstr "Menadžeri igara"
-
-msgid "Utilitários para jogos"
-msgstr "Uslužni programi za igre"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch emulator"
-
-msgid "Emuladores"
-msgstr "Emulatori"
-
-msgid "Criadores de jogos"
-msgstr "Stvoritelji igara"
-
-msgid "Ação/Arcade"
-msgstr "Radnja/Arkadne igre"
-
-msgid "Cartas"
-msgstr "Kartice"
-
-msgid "Educacional"
-msgstr "Obrazovni"
-
-msgid "Estratégia"
-msgstr "Strategija"
-
-msgid "Puzzles"
-msgstr "Zagonetke"
-
-msgid "Tabuleiro"
-msgstr "Ladica"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Armazenamento e partições"
-msgstr "Skladištenje i particije"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fontovi (tipografija)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualizacija"
-
-msgid "Editores de código e IDE"
-msgstr "Urednici koda i IDE"
-
-msgid "Banco de dados"
-msgstr "Baza podataka"
-
-msgid "Servidores WEB"
-msgstr "WEB poslužitelji"
-
-msgid "Programas Nativos"
-msgstr "Izvorni programi"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Snap Paketi Instalirani kliknite na paket za uklanjanje"
-
-msgid "Editores Vetorial"
-msgstr "Vektorski urednici"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Urednici slika, fotografija i crtanja"
-
-msgid "Plugins"
-msgstr "Dodaci"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Izgled i organizacija stranica"
-
-msgid "Colorização e palheta de cores"
-msgstr "Paleta boja i boja"
-
-msgid "Editores de video"
-msgstr "Video urednici"
-
-msgid "Animação e 2D"
-msgstr "Animacija i 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Snimka zaslona i preuzimanje videozapisa"
-
-msgid "Stream/transmissão online"
-msgstr "Strujanje/strujanje na mreži"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Video pretvarači i CD/DVD snimači"
-
-msgid "Outros"
-msgstr "Ostalo"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Reinstalirati"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-msgid "Versão instalada:"
-msgstr "Instalirana verzija:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Korištenje prostora za pohranu:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Veličina preuzimanja:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-msgid "Site:"
-msgstr "Mjesto:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -728,6 +238,11 @@ msgid "Dependências:"
 msgstr "Ovisnosti:"
 
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Ovisnosti o instalaciji:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
@@ -757,175 +272,40 @@ msgstr "Datoteke paketa:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Izvršite"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Korištenje prostora za pohranu:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Veličina preuzimanja:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
 msgid "Clique aqui para ver os arquivos"
 msgstr "Kliknite ovdje da biste vidjeli datoteke"
 
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Broj glasova:"
-
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Stranica u AUR-u:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Ovisnosti o instalaciji:"
-
-msgid "Editores de áudio (DAW)"
-msgstr "Uređivači zvuka (DAW)"
-
-msgid "Audio Plugins"
-msgstr "Audio dodaci"
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br>\n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"Prikazuje samo odabrane programe<br>i skriva rezultate koji su korisni <br>samo naprednim "
-"korisnicima."
-
-msgid "Vídeo"
-msgstr "Video"
-
-msgid "Erro ao acessar o diretório:"
-msgstr "Pogreška pri pristupu imeniku:"
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Izvorni programi imaju robusniju integraciju s operativnim sustavom.<br>Podvrgavaju se opsežnim "
-"ispitivanjima prije nego što postanu dostupni, osiguravajući veću pouzdanost.<br>Iz tih razloga, "
-"odabir izvornog programa posebno se preporučuje kada je željeni softver dostupan u više mogućnosti "
-"instalacije.<br>"
-
-msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
-msgstr "Pričekajte dok ne prikupimo podatke o sustavu. To bi moglo potrajati nekoliko trenutaka..."
-
-msgid "Data aproximada que o sistema foi instalado:"
-msgstr "Približan datum instalacije sustava:"
-
-msgid "Big-Store já está em execução."
-msgstr "Big-Store već radi."
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado<br>\n"
-"está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Izvorni programi imaju robusniju integraciju s operativnim sustavom.<br>Podvrgavaju se opsežnim "
-"ispitivanjima prije nego što postanu dostupni, osiguravajući veću pouzdanost.<br>Iz tih razloga, "
-"odabir izvornog programa posebno se preporučuje kada je željeni softver<br>dostupan je u nekoliko "
-"mogućnosti instalacije.<br>"
-
-msgid "Baixando pacotes novos da base de dados do servidor"
-msgstr "Preuzimanje novih paketa iz baze podataka poslužitelja"
-
-msgid "Nenhum pacote passado como parâmetro"
-msgstr "Kao parametri nisu proslijeđeni paketi"
-
-msgid "Outra instância do Big-Store já está em execução."
-msgstr "Još jedna instanca Big-Storea već je pokrenuta."
-
-msgid "Procurar aplicativo"
-msgstr "Pregledavanje aplikacije"
-
-msgid "Editores de texto linha de comando"
-msgstr "Uređivači teksta naredbenog retka"
-
-msgid "Multimidia"
-msgstr "Multimedija"
-
-msgid "Carta"
-msgstr "Slovo"
-
-msgid "Ver informações do dispositivo no Linux Hardware"
-msgstr "Prikaz informacija o uređaju na Linux hardveru"
-
-msgid "Processador"
-msgstr "Procesor"
-
-msgid "Placa mãe"
-msgstr "Matična ploča"
-
-msgid "Memória"
-msgstr "Memorija"
-
-msgid "Swap Memória Virtual"
-msgstr "Zamjena virtualne memorije"
-
-msgid "Placa de vídeo"
-msgstr "Grafička kartica"
-
-msgid "Áudio"
-msgstr "Audio"
-
-msgid "Rede"
-msgstr "Mreža"
-
-msgid "Conexões de Rede"
-msgstr "Mrežne veze"
-
-msgid "Dispositivos e conexões USB"
-msgstr "USB uređaji i veze"
-
-msgid "Portas PCI"
-msgstr "Od zajedničkog interesa: priključci"
-
-msgid "Bateria"
-msgstr "Baterija"
-
-msgid "Dispositivos de Armazenamento"
-msgstr "Uređaji za pohranu"
-
-msgid "Partições montadas"
-msgstr "Montirane particije"
-
-msgid "Partições desmontadas"
-msgstr "Nemontirane particije"
-
-msgid "Dispositivos lógicos"
-msgstr "Logički uređaji"
-
-msgid "Raid"
-msgstr "PREPAD"
-
-msgid "Informações de Sistema"
-msgstr "Informacije o sustavu"
-
-msgid "Repositórios"
-msgstr "Repozitorijima"
-
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-msgid "Temperatura"
-msgstr "Temperatura"
-
-msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Da bi se Flatpak programi pojavili u izborniku sustava, odjavite se i ponovno prijavite."
-
-msgid "Atualizado em"
-msgstr "Ažurirano"
-
-msgid "Sobre"
-msgstr "Na"
-
-msgid "Tradução da descrição dos pacotes online"
-msgstr "Prijevod opisa online paketa"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Dostupna verzija:"

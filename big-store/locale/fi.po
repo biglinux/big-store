@@ -56,39 +56,6 @@ msgstr "Asenna"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Poista"
-
-msgid "Versão: "
-msgstr "Versio "
-
-msgid "Pacote: "
-msgstr "Pakkaus "
-
-msgid "Não informada"
-msgstr "Ei tietoa"
-
-msgid "Programas Flatpak"
-msgstr "Flatpak-ohjelmat"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
@@ -103,10 +70,29 @@ msgstr "Päivitys"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Suorita"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Poista"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Asenna"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -124,180 +110,13 @@ msgstr "Pakkaus:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Saatavilla oleva versio:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Säilytyspaikka:"
-
-msgid "Cancelar"
-msgstr "Peruuta"
-
-msgid "Fechar"
-msgstr "Sulje"
-
-msgid "Categorias"
-msgstr "Kategoriat"
-
-msgid "Versão instalada"
-msgstr "Asennettu versio"
-
-msgid "Versão disponível"
-msgstr "Saatavilla oleva versio"
-
-msgid "Versão"
-msgstr "Versio"
-
-msgid "Pacote .deb"
-msgstr ".deb-paketti"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Tämä ohjelma on .deb-muodossa, joka integroituu parhaiten järjestelmään."
-
-msgid "Mais informações"
-msgstr "Lisätietoja"
-
-msgid "Voltar"
-msgstr "Takaisin"
-
-msgid "Download"
-msgstr "Lataa"
-
-msgid "Dependências a instalar"
-msgstr "Asennettavat riippuvuudet"
-
-msgid "Ver mais"
-msgstr "Katso lisää"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Paketit, joiden riippuvuudet ovat täyttämättä "
-
-msgid "Depende de "
-msgstr "Se riippuu "
-
-msgid "mas não vai ser instalado."
-msgstr "mutta sitä ei asenneta."
-
-msgid "mas não está disponível"
-msgstr "mutta se ei ole saatavilla"
-
-msgid "Sistema"
-msgstr "Järjestelmä"
-
-msgid "Instalado na partição:"
-msgstr "Asennettu osioon:"
-
-msgid "Tamanho da partição:"
-msgstr "Osion koko:"
-
-msgid "Espaço utilizado:"
-msgstr "Käytetty tila:"
-
-msgid "Espaço livre:"
-msgstr "Tyhjää tilaa:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Järjestelmän asennuspäivämäärä:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Kotimaiset paketit ja AUR"
-
-msgid "Instalados:"
-msgstr "Asennettu:"
-
-msgid "Disponíveis:"
-msgstr "Saatavilla:"
-
-msgid "Pacotes Flatpak"
-msgstr "Flatpak-paketit"
-
-msgid "Repositórios configurados:"
-msgstr "Arkistot määritetty:"
-
-msgid "Pacotes Snap"
-msgstr "Snap-paketit"
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Jotta Snap-ohjelmat näkyvät järjestelmävalikossa, kirjaudu ulos ja kirjaudu takaisin sisään."
-
-msgid "Configurações"
-msgstr "Asetukset"
-
-msgid "Pacotes"
-msgstr "Paketit"
-
-msgid "Ativado"
-msgstr "Aktivoitu"
-
-msgid "Desativado"
-msgstr "Vammaiset"
-
-msgid "Atualizações"
-msgstr "Päivitykset"
-
-msgid "Atualizar seu sistema"
-msgstr "Päivitä järjestelmäsi"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Päivitä natiivien arkistojen välimuisti"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Nopeampi haku natiivien arkistojen palvelimelta"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Käytä seuraavia vaihtoehtoja varoen"
-
-msgid "Reinstalação"
-msgstr "Uudelleenasennus"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Pakota kaikkien asennettujen pakettien uudelleenasennus"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Päivitä BigLinux-, Manjaro- ja Archlinux-tietovarastojen avaimet. Muista, että jos olet aktivoinut "
-"täydentäviä arkistoja, sinun on lisättävä näiden arkistojen avaimet uudelleen."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Pakota päivitykset, käytä tätä vaihtoehtoa, jos et pysty päivittämään järjestelmää, mutta "
-"pakotetussa päivityksessä joitakin ohjelmia saatetaan poistaa."
-
-msgid "Repositórios nativos"
-msgstr "Kotimaiset arkistot"
-
-msgid "Programas AUR"
-msgstr "AUR-ohjelmat"
-
-msgid "Big-Store está aberta."
-msgstr "Big-Store on avoinna."
-
-msgid "Instalando"
-msgstr "Asennus"
-
-msgid "Removendo"
-msgstr "Poistaminen"
-
-msgid "Programas Snap"
-msgstr "Snap-ohjelmat"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Asennettu versio:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -309,6 +128,27 @@ msgstr "Snap-ohjelmat"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 msgid "Versão disponivel:"
 msgstr "Saatavilla oleva versio:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Äänimäärä:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "AUR-sivu:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Paikka:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -323,8 +163,18 @@ msgstr "Saatavilla oleva versio:"
 msgid "Licença:"
 msgstr "Lisenssi:"
 
-msgid "AUR"
-msgstr "AUR"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Säilytyspaikka:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -335,346 +185,6 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Packer:"
-
-msgid ""
-"\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"Kotimaiset ohjelmat on integroitu paremmin järjestelmään<br>\n"
-"ja käyvät läpi lisää testejä ennen kuin ne julkaistaan,<br>\n"
-"joten se on paras vaihtoehto, kun ohjelma, jota käytät<br>\n"
-"on saatavilla useammassa kuin yhdessä asennustyypissä.<br>"
-
-msgid ""
-"\n"
-"Programas AUR são scripts criados por usuários<br>\n"
-"para instalar programas que não estão disponíveis<br>\n"
-"diretamente nos repositórios nativos do sistema.<br>\n"
-"Os programas instalados por esse método funcionam<br>\n"
-"bem, mas não passam pelos mesmos testes feitos<br>\n"
-"com os programas nativos."
-msgstr ""
-"\n"
-"AUR-ohjelmat ovat käyttäjien luomia skriptejä<br>\n"
-"asentaa ohjelmia, joita ei ole saatavilla<br>\n"
-"suoraan järjestelmän omiin arkistoihin.<br>\n"
-"Tällä menetelmällä asennetut ohjelmat toimivat<br>\n"
-"hyvin, mutta niille ei tehdä samoja testejä kuin<br>\n"
-"natiivit ohjelmat."
-
-msgid ""
-"\n"
-"Programas Flatpak, são disponibilizados para todas as<br>\n"
-"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
-"criadores dos programas, porém, não possuem algumas<br>\n"
-"otimizações e integrações com o sistema, como ocorre com<br>\n"
-"os programas nativos, essa pode ser uma boa alternativa<br>\n"
-"para quem tem computadores que possuem boa capacidade<br>\n"
-"de processamento e armazenamento."
-msgstr ""
-"\n"
-"Flatpak-ohjelmat ovat saatavilla kaikkiin Linux-jakeluihin<br>\n"
-"linux-jakeluja, ylläpidetään yleensä ohjelmalla<br>\n"
-"luojien ohjelmien, mutta ei ole joitakin<br>\n"
-"optimoinnit ja integroinnit järjestelmään, kuten tapahtuu, kun kyseessä on<br>\n"
-"natiivit ohjelmat, tämä voi olla hyvä vaihtoehto<br>\n"
-"niille, joilla on tietokoneet, joissa on hyvä kapasiteetti<br>\n"
-"käsittely- ja varastointikapasiteetti."
-
-msgid ""
-"\n"
-"Programas Snap, assim como o Flatpak<br>\n"
-"disponibiliza programas para todas as distribuições Linux.<br>\n"
-"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
-"se o programa que você procura está disponível apenas neste<br>\n"
-"formato, utilize-o."
-msgstr ""
-"\n"
-"Snap-ohjelmat, kuten Flatpak<br>\n"
-"tarjoaa ohjelmistoja kaikille Linux-jakeluille.<br>\n"
-"Se on yleensä painavampi ja vähemmän integroitu järjestelmään, mutta<br>\n"
-"jos etsimäsi ohjelma on saatavilla vain tässä osoitteessa<br>\n"
-"muodossa, käytä sitä."
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Näyttää vain valitut ohjelmat<br>\n"
-"ja piilottaa hyödylliset tulokset <br>\n"
-"vain edistyneille käyttäjille."
-
-msgid "Aplicando - Aguarde"
-msgstr "Hakemuksen tekeminen - Odota"
-
-msgid "Procurar programa"
-msgstr "Hakuohjelma"
-
-msgid "Modo Simplificado"
-msgstr "Yksinkertaistettu tila"
-
-msgid "Nativos"
-msgstr "Alkuperäiskansat"
-
-msgid "Início"
-msgstr "Etusivu"
-
-msgid "X-Sistema"
-msgstr "X-järjestelmä"
-
-msgid "Imagem"
-msgstr "Kuva"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "Audio"
-msgstr "Audio"
-
-msgid "Internet"
-msgstr "Internet"
-
-msgid "Escritório"
-msgstr "Toimisto"
-
-msgid "Gráficos"
-msgstr "Grafiikka"
-
-msgid "Multimídia"
-msgstr "Multimedia"
-
-msgid "Jogos"
-msgstr "Pelit"
-
-msgid "Desenvolvimento"
-msgstr "Kehitys"
-
-msgid "Navegadores"
-msgstr "Selaimet"
-
-msgid "E-mail"
-msgstr "Sähköposti"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Pilvitallennus"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Jakajat ja Torrent"
-
-msgid "Mensageiros e Conferências"
-msgstr "Sanansaattajat ja konferenssit"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Etäkäyttö, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Verkkotyökalut"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Uutiset, syötteet ja RSS"
-
-msgid "Suíte Office"
-msgstr "Office Suite"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, e-kirjojen katseluohjelmat ja paljon muuta"
-
-msgid "Editores de PDF"
-msgstr "PDF-editorit"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Tehtävien ja yhteystietojen kalenteri"
-
-msgid "Visualizadores de imagem"
-msgstr "Kuvan katselijat"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Kuvankäsittelyohjelmat ja piirtotyökalut"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Kuvakaappaus"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Kuvien muuntaminen, koon muuttaminen tai pakkaaminen"
-
-msgid "Edição 3D e CAD"
-msgstr "3D- ja CAD-editointi"
-
-msgid "Reprodutores de áudio"
-msgstr "Äänisoittimet"
-
-msgid "Rádio online"
-msgstr "Nettiradio"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Ääninauhurit ja muuntimet"
-
-msgid "Editores de áudio"
-msgstr "Äänileikkaajat"
-
-msgid "Reprodutores de vídeo"
-msgstr "Videosoittimet"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Verkkovideo, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Videoeditorit ja kompressorit"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD- ja DVD-tallentimet ja kopiokoneet"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Webkamera, näytön tallennus ja videon suoratoisto"
-
-msgid "Gerenciadores de jogos"
-msgstr "Pelinjohtajat"
-
-msgid "Utilitários para jogos"
-msgstr "Pelin apuohjelmat"
-
-msgid "Emulador Retroarch"
-msgstr "Retroarch emulaattori"
-
-msgid "Emuladores"
-msgstr "Emulaattorit"
-
-msgid "Criadores de jogos"
-msgstr "Pelinkehittäjät"
-
-msgid "Ação/Arcade"
-msgstr "Toiminta/Arcade"
-
-msgid "Cartas"
-msgstr "Kirjeet"
-
-msgid "Educacional"
-msgstr "Koulutus"
-
-msgid "Estratégia"
-msgstr "Strategia"
-
-msgid "Puzzles"
-msgstr "Palapelit"
-
-msgid "Tabuleiro"
-msgstr "Hallitus"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Armazenamento e partições"
-msgstr "Säilytys ja väliseinät"
-
-msgid "Fontes (Tipografia)"
-msgstr "Fontit (Typografia)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Virtualisointi"
-
-msgid "Editores de código e IDE"
-msgstr "Koodieditorit ja IDE:t"
-
-msgid "Banco de dados"
-msgstr "Tietokanta"
-
-msgid "Servidores WEB"
-msgstr "WEB-palvelimet"
-
-msgid "Programas Nativos"
-msgstr "Kotimaiset ohjelmat"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Asennetut Snap-paketit napsauta poistettavaa pakettia"
-
-msgid "Editores Vetorial"
-msgstr "Vektorieditorit"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Kuva-, valokuvaus- ja piirtoeditorit"
-
-msgid "Plugins"
-msgstr "Laajennukset"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Sivujen asettelu ja organisointi"
-
-msgid "Colorização e palheta de cores"
-msgstr "Väritys ja väripaletti"
-
-msgid "Editores de video"
-msgstr "Videon editorit"
-
-msgid "Animação e 2D"
-msgstr "Animaatio ja 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Näyttökuva ja videon lataus"
-
-msgid "Stream/transmissão online"
-msgstr "Suoratoista/suoratoista verkossa"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Videomuuntimet ja TALLENTAVAT CD/DVD-levyt"
-
-msgid "Outros"
-msgstr "Muut"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Asenna"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-msgid "Versão instalada:"
-msgstr "Asennettu versio:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Tallennustilan käyttö:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Latauksen koko:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-msgid "Site:"
-msgstr "Paikka:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -728,6 +238,11 @@ msgid "Dependências:"
 msgstr "Riippuvuudet:"
 
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Asennuksen riippuvuudet:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
@@ -757,173 +272,40 @@ msgstr "Pakettitiedostot:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Suorita"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Tallennustilan käyttö:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Latauksen koko:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
 msgid "Clique aqui para ver os arquivos"
 msgstr "Klikkaa tästä nähdäksesi tiedostot"
 
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Äänimäärä:"
-
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "AUR-sivu:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Asennuksen riippuvuudet:"
-
-msgid "Editores de áudio (DAW)"
-msgstr "Äänieditorit (DAW)"
-
-msgid "Audio Plugins"
-msgstr "Audio-laajennukset"
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br>\n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr "Näyttää vain valitut ohjelmat<br>ja piilottaa hyödylliset tulokset <br>Vain kokeneille käyttäjille."
-
-msgid "Vídeo"
-msgstr "Video"
-
-msgid "Erro ao acessar o diretório:"
-msgstr "Virhe hakemistoa käytettäessä:"
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Natiiviohjelmilla on vankempi integrointi käyttöjärjestelmään.<br>Ne testataan perusteellisesti "
-"ennen niiden saataville asettamista, mikä takaa paremman luotettavuuden.<br>Näistä syistä "
-"natiiviohjelman valitseminen on erityisen suositeltavaa, kun haluttu ohjelmisto on saatavana "
-"useissa asennusvaihtoehdoissa.<br>"
-
-msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
-msgstr "Odota, kunnes keräämme järjestelmätietoja. Se voi kestää hetken..."
-
-msgid "Data aproximada que o sistema foi instalado:"
-msgstr "Arvioitu päivämäärä, jolloin järjestelmä asennettiin:"
-
-msgid "Big-Store já está em execução."
-msgstr "Big-Store on jo käynnissä."
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado<br>\n"
-"está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Natiiviohjelmilla on vankempi integrointi käyttöjärjestelmään.<br>Ne testataan perusteellisesti "
-"ennen niiden saataville asettamista, mikä takaa paremman luotettavuuden.<br>Näistä syistä "
-"natiiviohjelman valitseminen on erityisen suositeltavaa, kun haluttu ohjelmisto<br>on saatavana "
-"useina asennusvaihtoehtoina.<br>"
-
-msgid "Baixando pacotes novos da base de dados do servidor"
-msgstr "Uusien pakettien lataaminen palvelintietokannasta"
-
-msgid "Nenhum pacote passado como parâmetro"
-msgstr "Parametreina ei läpäissyt paketteja"
-
-msgid "Outra instância do Big-Store já está em execução."
-msgstr "Toinen Big-Store-esiintymä on jo käynnissä."
-
-msgid "Procurar aplicativo"
-msgstr "Selaa sovellusta"
-
-msgid "Editores de texto linha de comando"
-msgstr "Komentorivin tekstieditorit"
-
-msgid "Multimidia"
-msgstr "Multimedia"
-
-msgid "Carta"
-msgstr "Kirje"
-
-msgid "Ver informações do dispositivo no Linux Hardware"
-msgstr "Tarkastele laitetietoja Linux-laitteistossa"
-
-msgid "Processador"
-msgstr "Prosessori"
-
-msgid "Placa mãe"
-msgstr "Emolevy"
-
-msgid "Memória"
-msgstr "Muisti"
-
-msgid "Swap Memória Virtual"
-msgstr "Virtuaalimuistin vaihto"
-
-msgid "Placa de vídeo"
-msgstr "Näytönohjain"
-
-msgid "Áudio"
-msgstr "Audio"
-
-msgid "Rede"
-msgstr "Verkko"
-
-msgid "Conexões de Rede"
-msgstr "Verkkoyhteydet"
-
-msgid "Dispositivos e conexões USB"
-msgstr "USB-laitteet ja liitännät"
-
-msgid "Portas PCI"
-msgstr "PCI-portit"
-
-msgid "Bateria"
-msgstr "Akku"
-
-msgid "Dispositivos de Armazenamento"
-msgstr "Tallennuslaitteet"
-
-msgid "Partições montadas"
-msgstr "Asennetut väliseinät"
-
-msgid "Partições desmontadas"
-msgstr "Asentamattomat väliseinät"
-
-msgid "Dispositivos lógicos"
-msgstr "Loogiset laitteet"
-
-msgid "Raid"
-msgstr "RAID"
-
-msgid "Informações de Sistema"
-msgstr "Järjestelmän tiedot"
-
-msgid "Repositórios"
-msgstr "Arkistot"
-
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-msgid "Temperatura"
-msgstr "Lämpötila"
-
-msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Jotta Flatpak-ohjelmat näkyvät järjestelmävalikossa, kirjaudu ulos ja kirjaudu uudelleen sisään."
-
-msgid "Atualizado em"
-msgstr "Päivitetty"
-
-msgid "Sobre"
-msgstr "Päälle"
-
-msgid "Tradução da descrição dos pacotes online"
-msgstr "Verkkopakettien kuvauksen kääntäminen"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Saatavilla oleva versio:"
