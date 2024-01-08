@@ -6,11 +6,11 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2023/10/11
+#  Altered: 2024/01/08
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
-#                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
-#                2022-2023, Rafael Ruscher <rruscher@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
+#                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
+#                2022-2024, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
 #
 #  Redistribution and use in source and binary forms, with or without
@@ -34,7 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20231011"
+_VERSION_="1.0.0-20240108"
+_UPDATED_="08/01/2024"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -44,6 +45,7 @@ LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
+    declare -g LOCAL_VERSION="1.0.0-20240108"
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
@@ -68,6 +70,7 @@ function sh_config {
 	declare -g cSistema=$"Sistema"
 	declare -g cXSistema=$"X-Sistema"
 	declare -g cDesenvolvimento=$"Desenvolvimento"
+	declare -g cSobre=$"Sobre"
 
 	#variáveis públicas
 	export appstream_search_category=0
@@ -312,6 +315,27 @@ function ICON_CATEGORY() {
 	EOF
 }
 export -f ICON_CATEGORY
+
+function ICON_ABOUT() {
+	local category="$1"
+	local classe="$2"
+	local cname="$3"
+
+	cat <<-EOF
+		<div class="icon_background">
+		<div class="vertical_align_center">
+		<div class="icon">
+		<span class="category_font_icon">
+		<i class="$classe"></i>
+		</span>
+		</div>
+		<div class="icon_text">
+		<div class="icon_text_vertical_align">
+		$cname
+		</div></div></div></div></a>
+	EOF
+}
+export -f ICON_ABOUT
 
 #Show category in first page
 ############################
@@ -585,6 +609,21 @@ function sh_main {
 		ICON_CATEGORY deveditor "fas fa-file-code" $"Editores de código e IDE"
 		ICON_CATEGORY devbd "fas fa-database" $"Banco de dados"
 		ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB"
+
+#sex 05 jan 2024 12:19:03 -04
+		cat <<-EOF
+			</div></div></div>
+			<div id="sobre" class="category_box">
+			<div class="category_title_index">
+			$cSobre
+			</div>
+			<div class="category_index_list_center">
+			<div class="category_index_list">
+		EOF
+
+		ICON_ABOUT deveditor "fas fa-file-code" "Aplicativo   : $TEXTDOMAIN"
+		ICON_ABOUT deveditor "fas fa-file-code" "Versão       : $LOCAL_VERSION - $_UPDATED_"
+#sex 05 jan 2024 12:19:03 -04
 
 		cat <<-EOF
 			</div>
