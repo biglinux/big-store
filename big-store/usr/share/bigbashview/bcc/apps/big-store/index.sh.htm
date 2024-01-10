@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/01/08
+#  Altered: 2024/01/09
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240108"
-_UPDATED_="08/01/2024"
+_VERSION_="1.0.0-20240109"
+_UPDATED_="09/01/2024"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -45,7 +45,7 @@ LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
-    declare -g LOCAL_VERSION="1.0.0-20240108"
+    declare -g LOCAL_VERSION="1.0.0-20240109"
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
@@ -316,22 +316,32 @@ function ICON_CATEGORY() {
 }
 export -f ICON_CATEGORY
 
+function list_about() {
+    local array=("$@")
+
+    echo '<ul>'
+    for item in "${array[@]}"; do
+		echo '<li>'
+		echo $item
+		echo '</li>'
+    done
+    echo '</ul>'
+}
+
 function ICON_ABOUT() {
-	local category="$1"
-	local classe="$2"
-	local cname="$3"
+    local array=("$@")
 
 	cat <<-EOF
-		<div class="icon_background">
+		<div class="icon_background_about">
 		<div class="vertical_align_center">
 		<div class="icon">
 		<span class="category_font_icon">
-		<i class="$classe"></i>
+		<i class="fas"></i>
 		</span>
 		</div>
 		<div class="icon_text">
 		<div class="icon_text_vertical_align">
-		$cname
+		$(list_about "${array[@]}")
 		</div></div></div></div></a>
 	EOF
 }
@@ -621,8 +631,16 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_ABOUT deveditor "fas fa-file-code" "Aplicativo   : $TEXTDOMAIN"
-		ICON_ABOUT deveditor "fas fa-file-code" "Versão       : $LOCAL_VERSION - $_UPDATED_"
+		my_array=("Aplicativo    : $TEXTDOMAIN"
+		          "Versão        : $LOCAL_VERSION"
+		          "Atualizado em : $_UPDATED_")
+		ICON_ABOUT "${my_array[@]}"
+		my_array=('Desenvolvedores:'
+                  ''
+                  'Bruno Gonçalves, [www.biglinux.com.br]'
+                  'Vilmar Catafesta, [vcatafesta@gmail.com]'
+                  'Rafael Ruscher, [rruscher@gmail.com]')
+		ICON_ABOUT "${my_array[@]}"
 #sex 05 jan 2024 12:19:03 -04
 
 		cat <<-EOF
