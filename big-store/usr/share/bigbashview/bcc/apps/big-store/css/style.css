@@ -378,6 +378,31 @@ body.light-mode .video-bg:before {
  }
 }
 
+/* media query do button modo simplificado */
+@media (max-width: 831px) {
+  .app .header {
+    padding: 8px 6px;
+
+  }
+  .header .header-profile .tooltipped .switch label .lever {
+    margin: 0;
+  }
+  .header .header-profile .tooltipped .switch label p {
+    display: none;
+  }
+}
+@media (min-width: 832px) {
+  .header .header-profile .tooltipped .switch label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .header .header-profile .tooltipped .switch label .lever {
+      margin: 0px 5px 0px 5px;
+  }
+}
+/* fim da media query do button mode simplificado */
 
 
 .notify {

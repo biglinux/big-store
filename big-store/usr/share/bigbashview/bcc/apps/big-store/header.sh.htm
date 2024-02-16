@@ -81,6 +81,7 @@ se o programa que você procura está disponível apenas neste<br>
 formato, utilize-o."
 
 	declare -g ABOUT_MODE_SIMPLE=$"
+Modo Simplificado.<br>
 Exibe apenas programas selecionados<br>
 e oculta resultados que são úteis <br>
 apenas a usuários avançados."
@@ -338,7 +339,7 @@ function sh_header_sh_htm_main {
 		<div class="switch">
 		<label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked" $resultFilter_checkbox>
 		<span class="lever"></span>
-		$MODE_SIMPLE
+		<p class="label-p">$MODE_SIMPLE</p>
 		</label>
 		</div></div>
 		</form>
