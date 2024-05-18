@@ -56,39 +56,6 @@ msgstr "Установите"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Удалить"
-
-msgid "Versão: "
-msgstr "Версия "
-
-msgid "Pacote: "
-msgstr "Упаковка "
-
-msgid "Não informada"
-msgstr "Не информирован"
-
-msgid "Programas Flatpak"
-msgstr "Программы Flatpak"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
@@ -103,10 +70,29 @@ msgstr "Обновление"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Запускайте"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
+msgid "Remover"
+msgstr "Удалить"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Переустановить"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -124,180 +110,13 @@ msgstr "Упаковка:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Доступна версия:"
-
-# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
-msgid "Repositório:"
-msgstr "Репозиторий:"
-
-msgid "Cancelar"
-msgstr "Отмена"
-
-msgid "Fechar"
-msgstr "Закрыть"
-
-msgid "Categorias"
-msgstr "Категории"
-
-msgid "Versão instalada"
-msgstr "Установленная версия"
-
-msgid "Versão disponível"
-msgstr "Доступная версия"
-
-msgid "Versão"
-msgstr "Версия"
-
-msgid "Pacote .deb"
-msgstr "Пакет .deb"
-
-msgid "Esse programa está em formato .deb, que possui a melhor integração com o sistema."
-msgstr "Эта программа в формате .deb, который имеет наилучшую интеграцию с системой."
-
-msgid "Mais informações"
-msgstr "Дополнительная информация"
-
-msgid "Voltar"
-msgstr "Назад"
-
-msgid "Download"
-msgstr "Скачать"
-
-msgid "Dependências a instalar"
-msgstr "Зависимости для установки"
-
-msgid "Ver mais"
-msgstr "См. подробнее"
-
-msgid "Pacotes com dependências não atendidas: "
-msgstr "Пакеты с неудовлетворенными зависимостями "
-
-msgid "Depende de "
-msgstr "Это зависит от "
-
-msgid "mas não vai ser instalado."
-msgstr "но он не будет установлен."
-
-msgid "mas não está disponível"
-msgstr "но она недоступна"
-
-msgid "Sistema"
-msgstr "Система"
-
-msgid "Instalado na partição:"
-msgstr "Установлен на раздел:"
-
-msgid "Tamanho da partição:"
-msgstr "Размер раздела:"
-
-msgid "Espaço utilizado:"
-msgstr "Используемое пространство:"
-
-msgid "Espaço livre:"
-msgstr "Чистое пространство:"
-
-msgid "Data que o sistema foi instalado:"
-msgstr "Дата установки системы:"
-
-msgid "Pacotes nativos e AUR"
-msgstr "Нативные пакеты и AUR"
-
-msgid "Instalados:"
-msgstr "Установлен:"
-
-msgid "Disponíveis:"
-msgstr "Доступно:"
-
-msgid "Pacotes Flatpak"
-msgstr "Пакеты Flatpak"
-
-msgid "Repositórios configurados:"
-msgstr "Репозитории настроены:"
-
-msgid "Pacotes Snap"
-msgstr "Пакеты с защелками"
-
-msgid "Big-Store"
-msgstr "Big-Store"
-
-msgid "Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Чтобы программы Snap появились в системном меню, выйдите из системы и снова войдите в нее."
-
-msgid "Configurações"
-msgstr "Настройки"
-
-msgid "Pacotes"
-msgstr "Пакеты"
-
-msgid "Ativado"
-msgstr "Активированный"
-
-msgid "Desativado"
-msgstr "Инвалид"
-
-msgid "Atualizações"
-msgstr "Обновления"
-
-msgid "Atualizar seu sistema"
-msgstr "Обновите свою систему"
-
-msgid "Atualizar cache dos repositórios nativos"
-msgstr "Обновление кэша собственных репозиториев"
-
-msgid "Procurar servidor de repositórios nativos mais rápidos"
-msgstr "Более быстрый поиск на родном сервере репозиториев"
-
-msgid "Utilize as opções a seguir com cautela"
-msgstr "Используйте следующие опции с осторожностью"
-
-msgid "Reinstalação"
-msgstr "Переустановка"
-
-msgid "Forçar reinstalação de todos os pacotes instalados"
-msgstr "Принудительная переустановка всех установленных пакетов"
-
-msgid ""
-"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
-"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
-msgstr ""
-"Обновите ключи репозиториев BigLinux, Manjaro и Archlinux. Помните, что если вы активировали "
-"дополнительные хранилища, вам нужно будет добавить ключи этих хранилищ снова."
-
-msgid ""
-"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
-"atualização forçada alguns programas podem ser removidos."
-msgstr ""
-"Принудительное обновление, используйте эту опцию, если вы не можете обновить систему, однако при "
-"принудительном обновлении некоторые программы могут быть удалены."
-
-msgid "Repositórios nativos"
-msgstr "Родные репозитории"
-
-msgid "Programas AUR"
-msgstr "Программы AUR"
-
-msgid "Big-Store está aberta."
-msgstr "Большой магазин открыт."
-
-msgid "Instalando"
-msgstr "Установка"
-
-msgid "Removendo"
-msgstr "Удаление"
-
-msgid "Programas Snap"
-msgstr "Программы Snap"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
+msgid "Versão instalada:"
+msgstr "Установленная версия:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -309,6 +128,27 @@ msgstr "Программы Snap"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
 msgid "Versão disponivel:"
 msgstr "Доступна версия:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Количество голосов:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Страница в AUR:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+msgid "Site:"
+msgstr "Место:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -323,8 +163,18 @@ msgstr "Доступна версия:"
 msgid "Licença:"
 msgstr "Лицензия:"
 
-msgid "AUR"
-msgstr "AUR"
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+msgid "Repositório:"
+msgstr "Репозиторий:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -335,346 +185,6 @@ msgstr "AUR"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
 msgstr "Пакер:"
-
-msgid ""
-"\n"
-"Programas Nativos são melhor integrados ao sistema<br>\n"
-"e passam por mais testes antes de serem disponibilizados,<br>\n"
-"portanto é a melhor opção quando o programa que você<br>\n"
-"deseja está disponível em mais de um tipo de instalação.<br>"
-msgstr ""
-"\n"
-"Родные программы лучше интегрированы в систему<br>\n"
-"и пройти дополнительное тестирование перед выпуском,<br>\n"
-"поэтому это лучший вариант, когда программа, которую вы<br>\n"
-"доступно более одного типа установки.<br>"
-
-msgid ""
-"\n"
-"Programas AUR são scripts criados por usuários<br>\n"
-"para instalar programas que não estão disponíveis<br>\n"
-"diretamente nos repositórios nativos do sistema.<br>\n"
-"Os programas instalados por esse método funcionam<br>\n"
-"bem, mas não passam pelos mesmos testes feitos<br>\n"
-"com os programas nativos."
-msgstr ""
-"\n"
-"Программы AUR - это сценарии, созданные пользователями<br>\n"
-"для установки программ, которые недоступны<br>\n"
-"непосредственно в собственных репозиториях системы.<br>\n"
-"Программы, установленные этим методом, работают<br>\n"
-"хорошо, но они не подвергаются тем же испытаниям, что и<br>\n"
-"родные программы."
-
-msgid ""
-"\n"
-"Programas Flatpak, são disponibilizados para todas as<br>\n"
-"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
-"criadores dos programas, porém, não possuem algumas<br>\n"
-"otimizações e integrações com o sistema, como ocorre com<br>\n"
-"os programas nativos, essa pode ser uma boa alternativa<br>\n"
-"para quem tem computadores que possuem boa capacidade<br>\n"
-"de processamento e armazenamento."
-msgstr ""
-"\n"
-"Программы Flatpak доступны для всех дистрибутивов Linux<br>\n"
-"дистрибутивы Linux, обычно поддерживаются программой<br>\n"
-"создатели программ, но не имеют некоторых<br>\n"
-"оптимизация и интеграция с системой, как это происходит с<br>\n"
-"родные программы, это может быть хорошей альтернативой<br>\n"
-"для тех, у кого есть компьютеры с хорошей производительностью<br>\n"
-"мощность обработки и хранения."
-
-msgid ""
-"\n"
-"Programas Snap, assim como o Flatpak<br>\n"
-"disponibiliza programas para todas as distribuições Linux.<br>\n"
-"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
-"se o programa que você procura está disponível apenas neste<br>\n"
-"formato, utilize-o."
-msgstr ""
-"\n"
-"Программы привязки, такие как Flatpak<br>\n"
-"предоставляет программное обеспечение для всех дистрибутивов Linux.<br>\n"
-"Он, как правило, тяжелее и менее интегрирован в систему, но<br>\n"
-"если программа, которую Вы ищете, доступна только в этом<br>\n"
-"формат, используйте его.</br></br></br></br>"
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br> \n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"\n"
-"Отображает только<br>выбранные</br> программы<br>\n"
-"и скрывает результаты, которые являются полезными <br>\n"
-"только для опытных пользователей.</br></br> "
-
-msgid "Aplicando - Aguarde"
-msgstr "Подача заявки - Пожалуйста, подождите"
-
-msgid "Procurar programa"
-msgstr "Программа поиска"
-
-msgid "Modo Simplificado"
-msgstr "Упрощенный режим"
-
-msgid "Nativos"
-msgstr "Коренные жители"
-
-msgid "Início"
-msgstr "Главная"
-
-msgid "X-Sistema"
-msgstr "X-Система"
-
-msgid "Imagem"
-msgstr "Образ"
-
-msgid "Video"
-msgstr "Видео"
-
-msgid "Audio"
-msgstr "Аудио"
-
-msgid "Internet"
-msgstr "Интернет"
-
-msgid "Escritório"
-msgstr "Офис"
-
-msgid "Gráficos"
-msgstr "Графика"
-
-msgid "Multimídia"
-msgstr "Мультимедиа"
-
-msgid "Jogos"
-msgstr "Игры"
-
-msgid "Desenvolvimento"
-msgstr "Разработка"
-
-msgid "Navegadores"
-msgstr "Браузеры"
-
-msgid "E-mail"
-msgstr "Электронная почта"
-
-msgid "Armazenamento nas nuvens"
-msgstr "Облачное хранилище"
-
-msgid "Compartilhadores e Torrent"
-msgstr "Делители и торрент"
-
-msgid "Mensageiros e Conferências"
-msgstr "Посланники и конференции"
-
-msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
-msgstr "Удаленный доступ, FTP, SSH, VNC, RDP..."
-
-msgid "Ferramentas de rede"
-msgstr "Сетевые инструменты"
-
-msgid "Notícias, Feeds e RSS"
-msgstr "Новости, каналы и RSS"
-
-msgid "Suíte Office"
-msgstr "Офисный пакет"
-
-msgid "Visualizadores de PDF, Epub, e-books e mais"
-msgstr "PDF, Epub, программы для просмотра электронных книг и многое другое"
-
-msgid "Editores de PDF"
-msgstr "Редакторы PDF"
-
-msgid "Agenda de tarefas e contatos"
-msgstr "Календарь задач и контактов"
-
-msgid "Visualizadores de imagem"
-msgstr "Зрители изображений"
-
-msgid "Editores de imagem e ferramentas de desenho"
-msgstr "Редакторы изображений и инструменты для рисования"
-
-msgid "Captura de tela (Screenshot)"
-msgstr "Скриншот"
-
-msgid "Converter, redimensionar ou compactar imagens"
-msgstr "Преобразование, изменение размера или сжатие изображений"
-
-msgid "Edição 3D e CAD"
-msgstr "Редактирование 3D и CAD"
-
-msgid "Reprodutores de áudio"
-msgstr "Аудиоплееры"
-
-msgid "Rádio online"
-msgstr "Онлайн-радио"
-
-msgid "Gravadores e conversores de áudio"
-msgstr "Аудиорекордеры и конвертеры"
-
-msgid "Editores de áudio"
-msgstr "Аудиоредакторы"
-
-msgid "Reprodutores de vídeo"
-msgstr "Видеоплееры"
-
-msgid "Vídeo online, IPTV, Youtube..."
-msgstr "Онлайн-видео, IPTV, Youtube..."
-
-msgid "Editores e compactadores de vídeo"
-msgstr "Видеоредакторы и компрессоры"
-
-msgid "Gravadores e copiadores de CD e DVD"
-msgstr "CD и DVD рекордеры и копировальные аппараты"
-
-msgid "Webcam, gravação de tela e transmissão de vídeo"
-msgstr "Веб-камера, запись экрана и потоковое видео"
-
-msgid "Gerenciadores de jogos"
-msgstr "Менеджеры игр"
-
-msgid "Utilitários para jogos"
-msgstr "Игровые утилиты"
-
-msgid "Emulador Retroarch"
-msgstr "Эмулятор Retroarch"
-
-msgid "Emuladores"
-msgstr "Эмуляторы"
-
-msgid "Criadores de jogos"
-msgstr "Разработчики игр"
-
-msgid "Ação/Arcade"
-msgstr "Экшн/Аркада"
-
-msgid "Cartas"
-msgstr "Письма"
-
-msgid "Educacional"
-msgstr "Образование"
-
-msgid "Estratégia"
-msgstr "Стратегия"
-
-msgid "Puzzles"
-msgstr "Головоломки"
-
-msgid "Tabuleiro"
-msgstr "Правление"
-
-msgid "RPG"
-msgstr "RPG"
-
-msgid "Armazenamento e partições"
-msgstr "Хранение и перегородки"
-
-msgid "Fontes (Tipografia)"
-msgstr "Шрифты (Типография)"
-
-msgid "Java JRE"
-msgstr "Java JRE"
-
-msgid "Virtualização"
-msgstr "Виртуализация"
-
-msgid "Editores de código e IDE"
-msgstr "Редакторы кода и IDE"
-
-msgid "Banco de dados"
-msgstr "База данных"
-
-msgid "Servidores WEB"
-msgstr "WEB-серверы"
-
-msgid "Programas Nativos"
-msgstr "Родные программы"
-
-msgid "Pacotes Snap Instalados clique no pacote para remover"
-msgstr "Установленные пакеты привязки нажмите на пакет для удаления"
-
-msgid "Editores Vetorial"
-msgstr "Векторные редакторы"
-
-msgid "Editores de imagem, fotografia e desenho"
-msgstr "Редакторы изображений, фотографий и рисунков"
-
-msgid "Plugins"
-msgstr "Плагины"
-
-msgid "Diagramação e organização de páginas"
-msgstr "Верстка и организация страниц"
-
-msgid "Colorização e palheta de cores"
-msgstr "Раскраска и цветовая палитра"
-
-msgid "Editores de video"
-msgstr "Видеоредакторы"
-
-msgid "Animação e 2D"
-msgstr "Анимация и 2D"
-
-msgid "Captura de tela e video download"
-msgstr "Скриншот и загрузка видео"
-
-msgid "Stream/transmissão online"
-msgstr "Трансляция/трансляция онлайн"
-
-msgid "Conversores de vídeo e gravadores CD/DVD"
-msgstr "Видео конвертеры и устройства записи CD/DVD"
-
-msgid "Outros"
-msgstr "Другое"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Переустановить"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-msgid "Versão instalada:"
-msgstr "Установленная версия:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Использование хранилища:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Размер файла:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
-msgid "Site:"
-msgstr "Место:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -728,6 +238,11 @@ msgid "Dependências:"
 msgstr "Зависимости:"
 
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+msgid "Dependências de instalação:"
+msgstr "Зависимости установки:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
@@ -757,175 +272,40 @@ msgstr "Файлы пакета:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Запускайте"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Использование хранилища:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Размер файла:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
 msgid "Clique aqui para ver os arquivos"
 msgstr "Нажмите здесь, чтобы увидеть файлы"
 
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Количество голосов:"
-
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Страница в AUR:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Зависимости установки:"
-
-msgid "Editores de áudio (DAW)"
-msgstr "Аудиоредакторы (DAW)"
-
-msgid "Audio Plugins"
-msgstr "Аудио плагины"
-
-msgid ""
-"\n"
-"Exibe apenas programas selecionados<br>\n"
-"e oculta resultados que são úteis <br>\n"
-"apenas a usuários avançados."
-msgstr ""
-"Отображает только выбранные программы<br>и скрывает полезные результаты <br>только для опытных "
-"пользователей."
-
-msgid "Vídeo"
-msgstr "Видео"
-
-msgid "Erro ao acessar o diretório:"
-msgstr "Ошибка доступа к каталогу:"
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Нативные программы имеют более надежную интеграцию с операционной системой.<br>Они проходят "
-"тщательное тестирование, прежде чем стать доступными, что обеспечивает большую надежность.<br>По "
-"этим причинам выбор собственной программы особенно рекомендуется, когда желаемое программное "
-"обеспечение доступно в нескольких вариантах установки.<br>"
-
-msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
-msgstr "Пожалуйста, подождите, пока мы соберем системную информацию. Это может занять несколько минут..."
-
-msgid "Data aproximada que o sistema foi instalado:"
-msgstr "Ориентировочная дата установки системы:"
-
-msgid "Big-Store já está em execução."
-msgstr "Big-Store уже запущен."
-
-msgid ""
-"\n"
-"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
-"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
-"confiabilidade.<br>\n"
-"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
-"desejado<br>\n"
-"está disponível em várias opções de instalação.<br>"
-msgstr ""
-"Нативные программы имеют более надежную интеграцию с операционной системой.<br>Они проходят "
-"тщательное тестирование, прежде чем стать доступными, что обеспечивает большую надежность.<br>По "
-"этим причинам выбор нативной программы особенно рекомендуется при желаемом программном "
-"обеспечении<br>доступен в нескольких вариантах установки.<br>"
-
-msgid "Baixando pacotes novos da base de dados do servidor"
-msgstr "Загрузка новых пакетов из базы данных сервера"
-
-msgid "Nenhum pacote passado como parâmetro"
-msgstr "Пакеты не передаются в качестве параметров"
-
-msgid "Outra instância do Big-Store já está em execução."
-msgstr "Еще один экземпляр Big-Store уже запущен."
-
-msgid "Procurar aplicativo"
-msgstr "Обзор приложения"
-
-msgid "Editores de texto linha de comando"
-msgstr "Текстовые редакторы командной строки"
-
-msgid "Multimidia"
-msgstr "Мультимедиа"
-
-msgid "Carta"
-msgstr "Письмо"
-
-msgid "Ver informações do dispositivo no Linux Hardware"
-msgstr "Просмотр информации об устройстве на оборудовании Linux"
-
-msgid "Processador"
-msgstr "Процессор"
-
-msgid "Placa mãe"
-msgstr "Материнская плата"
-
-msgid "Memória"
-msgstr "Память"
-
-msgid "Swap Memória Virtual"
-msgstr "Подкачка виртуальной памяти"
-
-msgid "Placa de vídeo"
-msgstr "Видеокарта"
-
-msgid "Áudio"
-msgstr "Аудио"
-
-msgid "Rede"
-msgstr "Сеть"
-
-msgid "Conexões de Rede"
-msgstr "Сетевые подключения"
-
-msgid "Dispositivos e conexões USB"
-msgstr "USB-устройства и соединения"
-
-msgid "Portas PCI"
-msgstr "Порты PCI"
-
-msgid "Bateria"
-msgstr "Батарея"
-
-msgid "Dispositivos de Armazenamento"
-msgstr "Устройства хранения данных"
-
-msgid "Partições montadas"
-msgstr "Навесные перегородки"
-
-msgid "Partições desmontadas"
-msgstr "Немонтируемые перегородки"
-
-msgid "Dispositivos lógicos"
-msgstr "Логические устройства"
-
-msgid "Raid"
-msgstr "РЕЙД"
-
-msgid "Informações de Sistema"
-msgstr "Информация о системе"
-
-msgid "Repositórios"
-msgstr "Репозитории"
-
-msgid "Bluetooth"
-msgstr "Блютуз"
-
-msgid "Temperatura"
-msgstr "Температура"
-
-msgid "Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
-msgstr "Чтобы программы Flatpak появились в системном меню, выйдите из системы и войдите снова."
-
-msgid "Atualizado em"
-msgstr "Обновлено"
-
-msgid "Sobre"
-msgstr "На"
-
-msgid "Tradução da descrição dos pacotes online"
-msgstr "Перевод описания онлайн-пакетов"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Доступна версия:"
