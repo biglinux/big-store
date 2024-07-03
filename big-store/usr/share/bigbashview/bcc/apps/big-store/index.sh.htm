@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/01/10
+#  Altered: 2024/06/29
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,9 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240110"
-_UPDATED_="10/01/2024"
+_VERSION_="1.0.0-20240629"
+_UPDATED_="29/06/2024 - 13:42"
+LOCAL_VERSION="$_VERSION_"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -45,7 +46,6 @@ LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
-    declare -g LOCAL_VERSION="1.0.0-20240110"
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
@@ -336,7 +336,7 @@ function ICON_ABOUT() {
 		<div class="vertical_align_center">
 		<div class="icon">
 		<span class="category_font_icon">
-		<i class="fas"></i>
+		<i class="fa fa-info" aria-hidden="true"></i>
 		</span>
 		</div>
 		<div class="icon_text">

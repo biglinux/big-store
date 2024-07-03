@@ -45,12 +45,13 @@ $(".search-bar input")
   });
 
 const toggleButton = document.querySelector(".dark-light");
-
 toggleButton.addEventListener("click", () => {
-  document.body.classList.toggle("light-mode");
-  _run(
-    'sh_setbgcolor "' + document.body.classList.contains("light-mode") + '"',
-  );
+    let state = document.body.classList.contains("light-mode");
+    _run('sh_setbgcolor ' + state);
+    console.log("light-mode =:", state);
+    document.body.classList.toggle("light-mode");
+    state = document.body.classList.contains("light-mode");
+    console.log("light-mode =:", state);
 });
 
 var modals = document.getElementsByClassName("modal");

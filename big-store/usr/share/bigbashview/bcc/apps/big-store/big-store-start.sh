@@ -54,7 +54,7 @@ function sh_config() {
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
 	declare -g snap_cache_file="$HOME_FOLDER/snap.cache"
 	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
-	declare -g bigstore_icon_file='icons/icon.svg'
+	declare -g bigstore_icon_file='icons/big-store.svg'
 	declare -g TITLE="Big-Store"
 	declare -gA Amsg=(
 			[error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
@@ -94,8 +94,8 @@ function sh_big_store_start_sh_main {
 	}
 
 	# reformat pretry .ini
-	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
-#	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.AlignIniFile "$INI_FILE_BIG_STORE"
+#	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
+	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.Sanitize "$INI_FILE_BIG_STORE"
 
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap "$processamento_em_paralelo" &
@@ -113,7 +113,17 @@ function sh_big_store_start_sh_main {
 	# Save dynamic screenshot resolution
 	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
+   _session="$(sh_get_desktop_session)"
+   case "${_session^^}" in
+   X11)
+		COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
+      ;;
+   WAYLAND)
+		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 QT_QPA_PLATFORM=wayland XDG_SESSION_TYPE=wayland bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
+      :
+      ;;
+   esac
+
 	if [[ -n "$1" ]]; then
 		case "$1" in
 		"category") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
