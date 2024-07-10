@@ -6,9 +6,9 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/01/10
+#  Altered: 2024/07/10
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240110"
+_VERSION_="1.0.0-20240710"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export HOME_FOLDER="$HOME/.bigstore"
@@ -119,7 +119,7 @@ function sh_big_store_start_sh_main {
 		COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
       ;;
    WAYLAND)
-		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 QT_QPA_PLATFORM=wayland XDG_SESSION_TYPE=wayland bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
+		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
       :
       ;;
    esac
