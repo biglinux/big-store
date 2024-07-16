@@ -46,8 +46,8 @@ LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
 
 function sh_config() {
-    #desabilitando variáveis proxy do dde, as mesmas não permitem atualizações do pamac
-    unset auto_proxy ftp_proxy http_proxy https_proxy no_proxy all_proxy
+	#desabilitando variáveis proxy do dde, as mesmas não permitem atualizações do pamac
+	unset auto_proxy ftp_proxy http_proxy https_proxy no_proxy all_proxy
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
@@ -57,8 +57,8 @@ function sh_config() {
 	declare -g bigstore_icon_file='icons/big-store.svg'
 	declare -g TITLE="Big-Store"
 	declare -gA Amsg=(
-			[error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
-			[error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
+		[error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
+		[error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
 }
 
@@ -80,6 +80,7 @@ function sh_check_big_store_is_running() {
 }
 
 function sh_big_store_start_sh_main {
+	local default_size='960x720'
 	local height
 	local widht
 	local half_height
@@ -94,7 +95,7 @@ function sh_big_store_start_sh_main {
 	}
 
 	# reformat pretry .ini
-#	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
+	#	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
 	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.Sanitize "$INI_FILE_BIG_STORE"
 
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
@@ -105,24 +106,31 @@ function sh_big_store_start_sh_main {
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
-	width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)')
-	height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
-	half_width=$((width / 2))
-	half_height=$((height / 2))
+	# Obtém a largura da tela primária usando xrandr
+	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
+		# Se a largura foi obtida, tenta obter a altura da tela primária
+		if height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+') && [[ -n "$height" ]]; then
+			# Calcula metade da largura e altura
+			half_width=$((width / 2))
+			half_height=$((height / 2 * 3 / 2))
+			# Atualiza o tamanho padrão com metade da largura e altura da tela
+			default_size="${half_width}x${half_height}"
+		fi
+	fi
 
 	# Save dynamic screenshot resolution
 	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
-   _session="$(sh_get_desktop_session)"
-   case "${_session^^}" in
-   X11)
-		COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
-      ;;
-   WAYLAND)
-		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
-      :
-      ;;
-   esac
+	_session="$(sh_get_desktop_session)"
+	case "${_session^^}" in
+	X11)
+		COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${default_size}"
+		;;
+	WAYLAND)
+		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 bigbashview -n \"$TITLE\" -s ${default_size}"
+		:
+		;;
+	esac
 
 	if [[ -n "$1" ]]; then
 		case "$1" in
