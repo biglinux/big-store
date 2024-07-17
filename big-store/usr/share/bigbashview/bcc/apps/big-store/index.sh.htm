@@ -34,9 +34,10 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240629"
-_UPDATED_="29/06/2024 - 13:42"
-LOCAL_VERSION="$_VERSION_"
+_DATE_ALTERED_='16-07-2024 - 11:05'
+_VERSION_="1.0.0-20240716"
+_HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
+_UPDATED_="${_DATE_ALTERED_}"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
 export LOGGER='/dev/tty8'
 export TMP_FOLDER="/tmp/bigstore-$USER"
@@ -301,51 +302,24 @@ function ICON_CATEGORY() {
 
 	cat <<-EOF
 		<a onclick="disableBody();" href=index.sh.htm?category=$category>
-		<div class="icon_background">
-		<div class="vertical_align_center">
-		<div class="icon">
-		<span class="category_font_icon">
-		<i class="$classe"></i>
-		</span>
-		</div>
-		<div class="icon_text">
-		<div class="icon_text_vertical_align">
-		$cname
-		</div></div></div></div></a>
+			<div class="icon_background">
+				<div class="vertical_align_center">
+					<div class="icon">
+						<span class="category_font_icon">
+							<i class="$classe"> </i>
+						</span>
+					</div>
+					<div class="icon_text">
+						<div class="icon_text_vertical_align">
+							$cname
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
 	EOF
 }
 export -f ICON_CATEGORY
-
-function list_about() {
-    local array=("$@")
-
-    echo '<ul>'
-    for item in "${array[@]}"; do
-		echo '<li>'
-		echo $item
-		echo '</li>'
-    done
-    echo '</ul>'
-}
-
-function ICON_ABOUT() {
-    local array=("$@")
-
-	cat <<-EOF
-		<div class="icon_background_about">
-		<div class="vertical_align_center">
-		<div class="icon">
-		<span class="category_font_icon">
-		<i class="fa fa-info" aria-hidden="true"></i>
-		</span>
-		</div>
-		<div class="icon_text">
-		<div class="icon_text_vertical_align">
-		$(list_about "${array[@]}")
-		</div></div></div></div></a>
-	EOF
-}
-export -f ICON_ABOUT
 
 #Show category in first page
 ############################
@@ -592,7 +566,9 @@ function sh_main {
 		ICON_CATEGORY gameother "fas fa-dice" $"Outros"
 
 		cat <<-EOF
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="system" class="category_box">
 			<div class="category_title_index">
 			$cSistema
@@ -607,7 +583,9 @@ function sh_main {
 		ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização"
 
 		cat <<-EOF
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="dev" class="category_box">
 			<div class="category_title_index">
 			$cDesenvolvimento
@@ -622,7 +600,9 @@ function sh_main {
 
 #sex 05 jan 2024 12:19:03 -04
 		cat <<-EOF
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="sobre" class="category_box">
 			<div class="category_title_index">
 			$cSobre
@@ -631,16 +611,103 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		my_array=("Aplicativo    : $TEXTDOMAIN"
-		          "Versão        : $LOCAL_VERSION"
-		          "Atualizado em : $_UPDATED_")
-		ICON_ABOUT "${my_array[@]}"
-		my_array=('Desenvolvedores:'
-                  ''
-                  'Bruno Gonçalves, [www.biglinux.com.br]'
-                  'Vilmar Catafesta, [vcatafesta@gmail.com]'
-                  'Rafael Ruscher, [rruscher@gmail.com]')
-		ICON_ABOUT "${my_array[@]}"
+	cat <<-EOF
+		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+			<div class="icon_background">
+				<div class="vertical_align_center">
+					<div class="icon">
+						<span class="category_font_icon">
+							<i class="fa fa-info" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="icon_text_about">
+						<div class="icon_text_vertical_align">
+						<ul style="margin-top:-10px;padding:10px;">
+            <li>$(gettext "Ambiente"):</li>
+            	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Desktop") : $XDG_CURRENT_DESKTOP
+            	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Sessão") : $XDG_SESSION_TYPE
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--/a-->
+	EOF
+
+	cat <<-EOF
+		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+			<div class="icon_background">
+				<div class="vertical_align_center">
+					<div class="icon">
+						<span class="category_font_icon">
+							<i class="fa fa-info" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="icon_text_about">
+						<div class="icon_text_vertical_align">
+						<ul style="margin-top:-10px;padding:10px;">
+							<li>$(gettext "Aplicativo"):</li>
+              	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Nome") : $TEXTDOMAIN</span>
+              	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Htm versão") : $_HTML_VERSION_
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Lib versão") : $_BSTRLIB_VERSION_
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--/a-->
+	EOF
+
+	cat <<-EOF
+		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+			<div class="icon_background">
+				<div class="vertical_align_center">
+					<div class="icon">
+						<span class="category_font_icon">
+							<i class="fa fa-info" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="icon_text_about">
+						<div class="icon_text_vertical_align">
+							<ul style="margin-top:-10px;padding:10px;">
+							<li>$(gettext "Desenvolvedores"):</li>
+              	&nbsp;&nbsp;&nbsp;&nbsp;Vilmar, vcatafesta@gmail.com
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Bruno, biglinux.com.br
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Rafael, rruscher@gmail.com
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;eltonff, biglinux.com.br
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--/a-->
+	EOF
+
+	cat <<-EOF
+		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+			<div class="icon_background">
+				<div class="vertical_align_center">
+					<div class="icon">
+						<span class="category_font_icon">
+							<i class="fa fa-info" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="icon_text_about">
+						<div class="icon_text_vertical_align">
+							<ul style="margin-top:-10px;padding:10px;">
+                <li>$(gettext "Colaboradores"):</li>
+                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--/a-->
+	EOF
 #sex 05 jan 2024 12:19:03 -04
 
 		cat <<-EOF
