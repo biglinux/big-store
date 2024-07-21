@@ -6,8 +6,9 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
-url="https://github.com/biglinux/big-store"
 pkgdesc="A friendly interface using bigbashview and that uses a large part of pamac resources to offer users a practical and simple interface"
+url="https://github.com/biglinux/$pkgname"
+source=("git+${url}.git")
 depends=('bc'
 	'bigbashview'
 	'bigcontrolcenter-base'
@@ -38,7 +39,6 @@ optdepends=('libpamac-snap-plugin'
 	'libpamac-flatpak-plugin'
 	'pamac-snap-plugin'
 	'pamac-flatpak-plugin')
-source=("git+${url}.git")
 md5sums=(SKIP)
 
 package() {
