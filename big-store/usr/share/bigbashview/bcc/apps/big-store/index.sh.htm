@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/06/29
+#  Altered: 2024/07/22
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='16-07-2024 - 11:05'
-_VERSION_="1.0.0-20240716"
+_DATE_ALTERED_='22-07-2024 - 07:25'
+_VERSION_="1.0.0-20240722"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
@@ -622,7 +622,7 @@ function sh_main {
 					</div>
 					<div class="icon_text_about">
 						<div class="icon_text_vertical_align">
-						<ul style="margin-top:-10px;padding:10px;">
+						<ul style="margin-top:-10px;">
             <li>$(gettext "Ambiente"):</li>
             	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Desktop") : $XDG_CURRENT_DESKTOP
             	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Sessão") : $XDG_SESSION_TYPE
@@ -645,7 +645,7 @@ function sh_main {
 					</div>
 					<div class="icon_text_about">
 						<div class="icon_text_vertical_align">
-						<ul style="margin-top:-10px;padding:10px;">
+						<ul style="margin-top:-10px;">
 							<li>$(gettext "Aplicativo"):</li>
               	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Nome") : $TEXTDOMAIN</span>
               	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Htm versão") : $_HTML_VERSION_
@@ -669,7 +669,7 @@ function sh_main {
 					</div>
 					<div class="icon_text_about">
 						<div class="icon_text_vertical_align">
-							<ul style="margin-top:-10px;padding:10px;">
+							<ul style="margin-top:-10px;">
 							<li>$(gettext "Desenvolvedores"):</li>
               	&nbsp;&nbsp;&nbsp;&nbsp;Vilmar, vcatafesta@gmail.com
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;Bruno, biglinux.com.br
