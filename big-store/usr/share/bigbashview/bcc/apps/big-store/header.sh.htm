@@ -6,9 +6,9 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2020/11/01
-#  Altered: 2023/09/25
+#  Altered: 2024/07/22
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -34,16 +34,11 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230925"
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export HOME_FOLDER="$HOME/.bigstore"
-export TMP_FOLDER="/tmp/bigstore-$USER"
-export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
+_VERSION_="1.0.0-20240722"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
-[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config {
 	#Translation
@@ -297,7 +292,7 @@ function sh_header_sh_htm_main {
 		</div></div>
 		<div id="box_progress_config_simple"></div>
 
-		$(sh_getbgcolor)
+		$(sh_bstr_getbgcolor)
 
 		<div id="box_progress"><div id="progress_loading">
 		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
@@ -552,9 +547,9 @@ function sh_header_sh_htm_main {
 		</a>
 
 		<a href="index.sh.htm?#sobre">
-		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="flask" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-flask fa-w-14 fa-3x">
-		<path fill="currentColor" d="M437.2 403.5L320 215V64h8c13.3 0 24-10.7 24-24V24c0-13.3-10.7-24-24-24H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h8v151L10.8 403.5C-18.5 450.6 15.3 512 70.9 512h306.2c55.7 0 89.4-61.5 60.1-108.5zM137.9 320l48.2-77.6c3.7-5.2 5.8-11.6 5.8-18.4V64h64v160c0 6.9 2.2 13.2 5.8 18.4l48.2 77.6h-172z" class="">
-		</path></svg>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+		<path fill="currentColor" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+		</svg>
 		<span>
 		$Sobre
 		</span>
