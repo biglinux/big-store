@@ -96,7 +96,9 @@ function APPSTREAM_CATEGORY() {
 			</div>
 			<div style="margin-right: 5px;">
 			$Programas_Nativos
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="content_appstream">
 			<script>document.getElementById("appstream_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
@@ -132,9 +134,6 @@ export -f APPSTREAM_CATEGORY
 function AUR_CATEGORY {
 	local param_search="$*"
 
-#	xdebug "$param_search"
-#	xdebug "$aur_checkbox"
-
 	if [[ "$aur_checkbox" = "checked" ]]; then
 		[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
 		[[ -e "${TMP_FOLDER}/aur.html" ]] && rm -f "${TMP_FOLDER}/aur.html"
@@ -152,15 +151,17 @@ function AUR_CATEGORY {
 			</div>
 			<div style="margin-right: 5px;">
 			$Programas_AUR
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="content_aur">
 			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
-#		xdebug "$aur_search_category"
 		if ((aur_search_category)); then
 #			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
- 			sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+ 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
 			aur_search_category=0
 		else
 #			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
