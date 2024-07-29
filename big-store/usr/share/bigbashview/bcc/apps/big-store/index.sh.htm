@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/07/22
+#  Altered: 2024/07/28
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,14 +34,10 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='22-07-2024 - 07:25'
-_VERSION_="1.0.0-20240722"
+_DATE_ALTERED_='28-07-2024 - 15:39'
+_VERSION_="1.0.0-20240728"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export TMP_FOLDER="/tmp/bigstore-$USER"
-export HOME_FOLDER="$HOME/.bigstore"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
@@ -105,7 +101,7 @@ function APPSTREAM_CATEGORY() {
 			<script>document.getElementById("appstream_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
-		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
+		pacman -Qu | awk '{print $1}' > $TMP_FOLDER/upgradeable.txt
 		if ((appstream_search_category)); then
 #			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
 			sh_search_category_appstream_pamac "${param_search,,}" & wait
@@ -118,9 +114,9 @@ function APPSTREAM_CATEGORY() {
 		if [[ -e "${TMP_FOLDER}/appstream.html" ]]; then
 			cat <<-EOF
 				<script>runAvatarAppstream();</script>
-				<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html');</script>
-				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html');</script>
-			</div>
+				<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html'); </script>
+				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html'); </script>
+				</div>
 				</div>
 			EOF
 		else
@@ -172,12 +168,12 @@ function AUR_CATEGORY {
 		fi
 
 		if [[ -e "${TMP_FOLDER}/aur.html" ]]; then
-	        cat <<-EOF
+			cat <<-EOF
 				<script>runAvatarAur();</script>
-	            <script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
-	            <script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>
-	            </div>
-	            </div>
+				<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
+				<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>
+				</div>
+				</div>
 			EOF
 		else
 			cat <<-EOF

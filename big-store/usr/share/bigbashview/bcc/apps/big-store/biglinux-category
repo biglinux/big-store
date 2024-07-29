@@ -8,9 +8,9 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/09/02
+#  Altered: 2024/07/28
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -36,12 +36,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230902"
+_VERSION_="1.0.0-20240728"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export HOME_FOLDER="$HOME/.bigstore"
-export TMP_FOLDER="/tmp/bigstore-$USER"
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
@@ -70,7 +66,7 @@ function sh_config {
 	CATEGORIES["pdf"]="pdfarranger diffpdf pdfmod pdftricks pdfmixtool pdfslicer gscan2pdf mupdf masterpdfeditor masterpdfeditor-free"
 	CATEGORIES["office"]="libreoffice-fresh libreoffice-fresh-$lcode libreoffice-still libreoffice-still-$lcode freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office wps-office-mui-$lcode"
 	CATEGORIES["calendar"]="osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews morgen-bin"
-	CATEGORIES["deveditor"]="atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition intellij-idea-community-edition codeblocks kdevelop kdevelop-python kdevelop-php android-studio eclipse-java-bin goland visual-studio-code-bin sublime-text-3 sublime-text-4-dev okteta phpstorm webstorm cudatext-gtk2-bin cudatext-qt5-bin vscodium-bin"
+	CATEGORIES["deveditor"]="atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition intellij-idea-community-edition codeblocks kdevelop kdevelop-python kdevelop-php android-studio eclipse-java-bin goland visual-studio-code-bin sublime-text-4 okteta phpstorm webstorm cudatext-gtk2-bin cudatext-qt5-bin vscodium-bin emacs gedit spyder kate xmlmind-xmleditor"
 	CATEGORIES["devbd"]="dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools mongodb-bin percona-server questdb"
 	CATEGORIES["devwebserver"]="apache nginx dnsmasq caddy cherokee tomcat10 lighttpd openlitespeed"
 	CATEGORIES["devgames"]="godot gb-studio-bin blender renpy unity-editor unreal-engine makehuman"
@@ -103,7 +99,7 @@ function sh_config {
 	CATEGORIES["javajar"]="jre-openjdk jre7-openjdk jre8-openjdk jre11-openjdk icedtea-web jre jre6 jre7 jre8 jre9 jre10 jre11 jre12 jre13 jre14 jre15 jre16 jre17"
 	CATEGORIES["storage"]="gparted partitionmanager bleachbit gnome-dist-utility kdiskmark gsmartcontrol mintstick baobab filelight balena-etcher-appimage ventoy gnome-multi-writer"
 	CATEGORIES["fonts"]="font-manager ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-anonymous-pro ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-montserrat ttf-opensans ttf-roboto ttf-roboto-mono ttf-ms-fonts ttf-mac-fonts ttf-ms-win10-auto ttf-wps-fonts"
-	CATEGORIES["virtualization"]="virtualbox virtualbox-guest-utils virt-manager qemu qemu-guest-agent gnome-boxes"
+	CATEGORIES["virtualization"]="virtualbox virtualbox-guest-utils virt-manager qemu qemu-full qemu-guest-agent gnome-boxes"
 }
 
 function sh_main {

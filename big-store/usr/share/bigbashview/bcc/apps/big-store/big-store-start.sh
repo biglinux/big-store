@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/07/10
+#  Altered: 2024/07/28
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240710"
+_VERSION_="1.0.0-20240728"
 #
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
@@ -100,6 +100,12 @@ function sh_big_store_start_sh_main {
 
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
+	fi
+
+	if [[ ! -e $FILE_SUMMARY_JSON_CUSTOM ]]; then
+		if [[ -e $FILE_SUMMARY_JSON ]]; then
+			cp -f $FILE_SUMMARY_JSON $FILE_SUMMARY_JSON_CUSTOM
+		fi
 	fi
 
 	# Obtém a largura da tela primária usando xrandr
