@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/08/01
+#  Altered: 2024/07/31
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='01-08-2024 - 01:44'
-_VERSION_="1.0.0-20240801"
+_DATE_ALTERED_='31-07-2024 - 09:30'
+_VERSION_="1.0.0-20240731"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
@@ -341,7 +341,8 @@ function sh_main {
 			<div id="box_index_category">
 		EOF
 
-		if sh_get_XIVAStudio; then
+#		if sh_get_XIVAStudio; then
+		if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 			cat <<-EOF
 				<div id="xystem" class="category_box">
 				<div class="category_title_index">
@@ -721,7 +722,8 @@ function sh_main {
 	fi
 
 	source biglinux-category
-	if sh_get_XIVAStudio; then
+#	if sh_get_XIVAStudio; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		source xiva-category
 		cat <<-EOF
 			<div class="logo">
