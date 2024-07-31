@@ -163,3 +163,4 @@ $('input[name="resultFilter_checkbox"]').change(function (e) {
     _run(`TIni.Set ${dataValue} bigstore resultFilter`);
   }
 });
+

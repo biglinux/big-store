@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2020/11/01
-#  Altered: 2024/07/30
+#  Altered: 2024/08/01
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240730"
+_VERSION_="1.0.0-20240801 - 00:43"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
@@ -329,70 +329,43 @@ function sh_header_sh_htm_main {
 		</div>
 	EOF
 
-	#APPSTREAM
-	if [[ -e "$HOME_FOLDER/hide_appstream" ]]; then
-		appstream_checkbox=""
-		if [[ "$appstream_change" = "y" ]]; then
-			rm -f "$HOME_FOLDER/hide_appstream"
-			appstream_checkbox="checked"
-		fi
-	else
-		appstream_checkbox="checked"
-		if [[ "$appstream_change" = "y" ]]; then
-			echo "" >"$HOME_FOLDER/hide_appstream"
-			appstream_checkbox=""
-		fi
-	fi
+	function sh_toogle_key() {
+		local stream="$1"
+		local session="$2"
+		local key="$3"
+		local checkbox
+		local checked
 
-	#AUR
-	if [[ -e "${HOME_FOLDER}/hide_aur" ]]; then
-		aur_checkbox=""
-		if [ "$aur_change" = "y" ]; then
-			rm -f "$HOME_FOLDER/hide_aur"
-			aur_checkbox="checked"
-		fi
-	else
-		aur_checkbox="checked"
-		if [ "$aur_change" = "y" ]; then
-			echo "" >"${HOME_FOLDER}/hide_aur"
-			aur_checkbox=""
-		fi
-	fi
-
-	#FLATPAK
-	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'; then
-			flatpak_checkbox=""
-			if [[ "$flatpak_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '0'
-				flatpak_checkbox="checked"
+		checked="$(TIni.Get "$INI_FILE_BIG_STORE" "$session" "$key")"
+		if [[ -z "$checked" || "$checked" -eq 1 ]]; then
+			checkbox="checked"
+			if [[ "$stream" = "y" ]]; then
+				TIni.Set "$INI_FILE_BIG_STORE" "$session" "$key" '0'
+				checkbox=""
 			fi
 		else
-			flatpak_checkbox="checked"
-			if [[ "$flatpak_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'
-				flatpak_checkbox=""
+			checkbox=""
+			if [[ "$stream" = "y" ]]; then
+				TIni.Set "$INI_FILE_BIG_STORE" "$session" "$key" '1'
+				checkbox="checked"
 			fi
 		fi
+		echo "$checkbox"
+	}
+
+	#APPSTREAM
+	appstream_checkbox="$(sh_toogle_key "$appstream_change" 'appstream' 'appstream_active')"
+	#AUR
+	aur_checkbox="$(sh_toogle_key "$aur_change" 'aur' 'aur_active')"
+	#FLATPAK
+	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+		flatpak_checkbox="$(sh_toogle_key "$flatpak_change" 'flatpak' 'flapak_hide')"							#FLATPAK
 	else
 		DISABLE_FLATPAK="y"
 	fi
-
 	#SNAP
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'; then
-			snap_checkbox=""
-			if [[ "$snap_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '0'
-				snap_checkbox="checked"
-			fi
-		else
-			snap_checkbox="checked"
-			if [[ "$snap_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'
-				snap_checkbox=""
-			fi
-		fi
+		snap_checkbox="$(sh_toogle_key "$snap_change" 'snap' 'snap_hide')"							#SNAP
 	else
 		DISABLE_SNAP="y"
 	fi

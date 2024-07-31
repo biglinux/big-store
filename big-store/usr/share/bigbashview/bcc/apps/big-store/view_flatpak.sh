@@ -39,24 +39,6 @@ LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
-	#Translation
-	export TEXTDOMAINDIR="/usr/share/locale"
-	export TEXTDOMAIN=big-store
-
-	declare -g Button_Atualizar=$"Atualizar"
-	declare -g Button_Executar=$"Executar"
-	declare -g Button_Remover=$"Remover"
-	declare -g Button_Instalar=$"Instalar"
-	declare -g Versao=$"Versão: "
-	declare -g Pacote=$"Pacote: "
-	declare -g Versao_disponivel=$"Versão disponível:"
-	declare -g Repositorio=$"Repositório:"
-	declare -g Nao_informada=$"Não informada"
-	declare -g Programas_Flatpak=$"Programas Flatpak"
-	declare -g cacheFile="$flatpak_cache_file"
-}
-
 function sh_view_flatpak_sh {
 	# Le o parametro passado via terminal e cria a variavel $search
 	search="$*"
@@ -183,5 +165,4 @@ function sh_view_flatpak_sh {
 }
 
 #sh_debug
-sh_config
 sh_view_flatpak_sh "$@"

@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/07/30
+#  Altered: 2024/08/01
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='30-07-2024 - 20:55'
-_VERSION_="1.0.0-20240730"
+_DATE_ALTERED_='01-08-2024 - 01:44'
+_VERSION_="1.0.0-20240801"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
@@ -225,6 +225,9 @@ function FLATPAK_CATEGORY {
 #			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}"
 		fi
+
+#   <!-- <script>document.addEventListener('DOMContentLoaded', (event) => { document.getElementById('flatpak_number').textContent = 100; }); </script> -->
+#   <!-- <script>$(document).ready(function(){ $('#flatpak_number').text(100);}); </script> -->
 
 		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
 			cat <<-EOF
