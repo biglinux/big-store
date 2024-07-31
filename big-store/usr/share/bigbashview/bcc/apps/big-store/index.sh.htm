@@ -503,10 +503,10 @@ function sh_main {
 
 		ICON_CATEGORY gamemanager "fas fa-gamepad" $"Gerenciadores de jogos" $cJogos
 		ICON_CATEGORY gameutility "fas fa-toolbox" $"Utilitários para jogos" $cJogos
+		#ICON_CATEGORY gameretroarch "fas fa-cog" $"Emulador Retroarch" $cJogos
 
-		#ICON_CATEGORY gameretroarch "fas fa-cog" $"Emulador Retroarch"
 		cat <<-EOF
-			<a onclick="disableBody();" href=index.sh.htm?category=gameretroarch>
+			<a onclick="disableBody();" href=index.sh.htm?category=gameretroarch&main_category=$cJogos>
 			<div class="icon_background">
 			<div class="vertical_align_center">
 			<div class="icon">
@@ -524,7 +524,7 @@ function sh_main {
 
 		#ICON_CATEGORY gameemulator "fas fa-cogs" $"Emuladores"
 		cat <<-EOF
-			<a onclick="disableBody();" href=index.sh.htm?category=gameemulator>
+			<a onclick="disableBody();" href=index.sh.htm?category=gameemulator&main_category=$cRetroarch>
 			<div class="icon_background">
 			<div class="vertical_align_center">
 			<div class="icon">
@@ -542,10 +542,10 @@ function sh_main {
 
 		ICON_CATEGORY devgames "fas fa-code" $"Criadores de jogos" $cEmuladores
 		ICON_CATEGORY gamearcade "fas fa-rocket" $"Ação/Arcade" $cEmuladores
+		#ICON_CATEGORY gamecard "fas fa-crown" $"Cartas" $cEmuladores
 
-		#ICON_CATEGORY gamecard "fas fa-crown" $"Cartas"
 		cat <<-EOF
-			<a onclick="disableBody();" href=index.sh.htm?category=gamecard>
+			<a onclick="disableBody();" href=index.sh.htm?category=gamecard&main_category=$cEmuladores>
 			<div class="icon_background">
 			<div class="vertical_align_center">
 			<div class="icon">
@@ -615,7 +615,7 @@ function sh_main {
 		EOF
 
 	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+		<!-- a onclick="disableBody();" href=index.sh.htm?category=about&main_category=$cSobre -->
 			<div class="icon_background">
 				<div class="vertical_align_center">
 					<div class="icon">
@@ -634,7 +634,7 @@ function sh_main {
 					</div>
 				</div>
 			</div>
-		<!--/a-->
+		<!-- /a -->
 	EOF
 
 	cat <<-EOF
