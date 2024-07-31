@@ -38,8 +38,8 @@ _VERSION_="1.0.0-20240728"
 #
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
-[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config() {
 	#desabilitando variáveis proxy do dde, as mesmas não permitem atualizações do pamac
@@ -48,8 +48,6 @@ function sh_config() {
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
-	declare -g snap_cache_file="$HOME_FOLDER/snap.cache"
-	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
 	declare -g bigstore_icon_file='icons/big-store.svg'
 	declare -g TITLE="Big-Store"
 	declare -gA Amsg=(
@@ -59,7 +57,7 @@ function sh_config() {
 }
 
 function sh_big_store_check_dirs {
-	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER" "$TMP_FOLDER"
+	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER"
 	[[ ! -d "$TMP_FOLDER" ]] && mkdir -p "$TMP_FOLDER"
 }
 export -f sh_big_store_check_dirs

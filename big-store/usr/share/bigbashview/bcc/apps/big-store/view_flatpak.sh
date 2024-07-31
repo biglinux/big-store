@@ -54,7 +54,7 @@ function sh_config {
 	declare -g Repositorio=$"Repositório:"
 	declare -g Nao_informada=$"Não informada"
 	declare -g Programas_Flatpak=$"Programas Flatpak"
-	declare -g cacheFile="$HOME_FOLDER/flatpak.cache"
+	declare -g cacheFile="$flatpak_cache_file"
 }
 
 function sh_view_flatpak_sh {
@@ -74,7 +74,7 @@ function sh_view_flatpak_sh {
 	sh_seek_flatpak_parallel_filter "$(grep -i "|$search|" "$cacheFile")"
 
 #	# Inicia uma função para possibilitar o uso em modo assíncrono
-#	readarray -t -d"|" myarray <<<"$(grep "|$search|" $HOME_FOLDER/flatpak.cache)"
+#	readarray -t -d"|" myarray <<<"$(grep "|$search|" $flatpak_cache_file)"
 #	PKG_NAME="${myarray[0]}"
 #	PKG_DESC="${myarray[1]}"
 #	PKG_ID="${myarray[2]}"

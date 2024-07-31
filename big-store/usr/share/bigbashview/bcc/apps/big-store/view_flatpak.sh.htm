@@ -71,9 +71,10 @@ function sh_view_flatpak_sh_htm {
 
 	cat <<-EOF
 		<div id="box_progress_flatpak_cancel">
-		<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="disableButtonFlatpakInstall();_run('killall flatpak')">
-		$Button_Cancelar
-		</button></div>
+			<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="disableButtonFlatpakInstall();_run('killall flatpak')">
+			$Button_Cancelar
+			</button>
+		</div>
 	EOF
 
 	source header.sh.htm "sh_header_sh_htm_main"
@@ -93,14 +94,15 @@ function sh_view_flatpak_sh_htm {
 		</div>
 		<div style="margin-right: 5px;">
 		$Programas_Flatpak
-		</div></div></div>
+		</div>
+		</div>
+		</div>
 	EOF
 
-#	./view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
 	python view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
 
 	if [[ ! -e "$HOME_FOLDER/flatpak-verification-fault" ]]; then
-        grep -ve "^bef flathub" -ve "^aft flathub" "$TMP_FOLDER/flatpak_pamac_temp.txt"
+		grep -ve "^bef flathub" -ve "^aft flathub" "$TMP_FOLDER/flatpak_pamac_temp.txt"
 	else
 		source view_flatpak.sh "$pkg_name"
 	fi
@@ -114,15 +116,28 @@ function sh_view_flatpak_sh_htm {
 		<div class="preloader-wrapper big active">
 		<div class="spinner-layer spinner-blue-only">
 		<div class="circle-clipper left">
-		<div class="circle"></div></div>
+		<div class="circle">
+		</div>
+		</div>
 		<div class="gap-patch">
-		<div class="circle"></div></div>
+		<div class="circle">
+		</div>
+		</div>
 		<div class="circle-clipper right">
-		<div class="circle"></div></div></div></div></div></div></div>
+		<div class="circle">
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
 		<div class="modal-footer">
 		<a href="#!" class="modal-close btn-flat">
 		$Button_Fechar
-		</a></div></div>
+		</a>
+		</div>
+		</div>
 		<script>\$(document).ready(function(){\$('.modal').modal(); });</script>
 		<div class="logo">
 		<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
