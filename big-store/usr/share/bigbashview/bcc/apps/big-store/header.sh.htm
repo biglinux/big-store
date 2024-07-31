@@ -281,18 +281,6 @@ function sh_header_sh_htm_main {
 		TIni.Set "$INI_FILE_BIG_STORE" 'bigstore' 'search' "$search"
 	fi
 
-#	if [[ -n "$search" ]]; then
-#		if [[ -n "$resultFilter_checkbox" ]]; then
-#			echo "" >"$HOME_FOLDER/resultFilter"
-#		else
-#			[[ -e "$HOME_FOLDER/resultFilter" ]] && rm -f "$HOME_FOLDER/resultFilter"
-#		fi
-#	else
-#		if [ -e "$HOME_FOLDER/resultFilter" ]; then
-#			resultFilter_checkbox="checked"
-#		fi
-#	fi
-
 	resultFilter_checkbox="$(TIni.Get "$INI_FILE_BIG_STORE" 'bigstore' 'resultFilter')"
 	searchFilter_checkbox="$(TIni.Get "$INI_FILE_BIG_STORE" 'bigstore' 'searchFilter')"
 
@@ -309,7 +297,7 @@ function sh_header_sh_htm_main {
 		<label>
 		<input type="checkbox" class="switch" name="searchFilter_checkbox" value="checked" $searchFilter_checkbox data-value="$INI_FILE_BIG_STORE" >
 		<span class="lever"></span>
-		Incluir busca na descrição
+		$(gettext "Incluir busca na descrição")
 		</label>
 		</div>
 		</div>
@@ -329,7 +317,7 @@ function sh_header_sh_htm_main {
 		</div>
 	EOF
 
-	function sh_toogle_key() {
+	function sh_toggle_switch_key() {
 		local stream="$1"
 		local session="$2"
 		local key="$3"
@@ -354,18 +342,18 @@ function sh_header_sh_htm_main {
 	}
 
 	#APPSTREAM
-	appstream_checkbox="$(sh_toogle_key "$appstream_change" 'appstream' 'appstream_active')"
+	appstream_checkbox="$(sh_toggle_switch_key "$appstream_change" 'appstream' 'appstream_active')"
 	#AUR
-	aur_checkbox="$(sh_toogle_key "$aur_change" 'aur' 'aur_active')"
+	aur_checkbox="$(sh_toggle_switch_key "$aur_change" 'aur' 'aur_active')"
 	#FLATPAK
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		flatpak_checkbox="$(sh_toogle_key "$flatpak_change" 'flatpak' 'flapak_hide')"							#FLATPAK
+		flatpak_checkbox="$(sh_toggle_switch_key "$flatpak_change" 'flatpak' 'flapak_hide')"							#FLATPAK
 	else
 		DISABLE_FLATPAK="y"
 	fi
 	#SNAP
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		snap_checkbox="$(sh_toogle_key "$snap_change" 'snap' 'snap_hide')"							#SNAP
+		snap_checkbox="$(sh_toggle_switch_key "$snap_change" 'snap' 'snap_hide')"							#SNAP
 	else
 		DISABLE_SNAP="y"
 	fi
@@ -407,7 +395,8 @@ function sh_header_sh_htm_main {
 
 	### Categorias ###
 
-	if sh_get_XIVAStudio; then
+#	if sh_get_XIVAStudio; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		cat <<-EOF
 			<div class="side-title">
 			XIVA Store
