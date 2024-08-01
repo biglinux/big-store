@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/07/10
+#  Altered: 2024/07/31
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,12 +34,12 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240710"
+_VERSION_="1.0.0-20240731"
 #
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
-[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config() {
 	#desabilitando variáveis proxy do dde, as mesmas não permitem atualizações do pamac
@@ -48,8 +48,6 @@ function sh_config() {
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
-	declare -g snap_cache_file="$HOME_FOLDER/snap.cache"
-	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
 	declare -g bigstore_icon_file='icons/big-store.svg'
 	declare -g TITLE="Big-Store"
 	declare -gA Amsg=(
@@ -59,7 +57,7 @@ function sh_config() {
 }
 
 function sh_big_store_check_dirs {
-	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER" "$TMP_FOLDER"
+	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER"
 	[[ ! -d "$TMP_FOLDER" ]] && mkdir -p "$TMP_FOLDER"
 }
 export -f sh_big_store_check_dirs
@@ -102,6 +100,12 @@ function sh_big_store_start_sh_main {
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
+	if [[ ! -e $FILE_SUMMARY_JSON_CUSTOM ]]; then
+		if [[ -e $FILE_SUMMARY_JSON ]]; then
+			cp -f $FILE_SUMMARY_JSON $FILE_SUMMARY_JSON_CUSTOM
+		fi
+	fi
+
 	# Obtém a largura da tela primária usando xrandr
 	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
 		# Se a largura foi obtida, tenta obter a altura da tela primária
@@ -129,12 +133,12 @@ function sh_big_store_start_sh_main {
 	esac
 
 	if [[ -n "$1" ]]; then
-		case "$1" in
-		"category") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
-		"appstream") eval "$COMMON_OPTIONS view_appstream.sh.htm?pkg_name=\"$2\" -i $bigstore_icon_file" ;;
-		"aur") eval "$COMMON_OPTIONS view_aur.sh.htm?pkg_name=\"$2\"       -i $bigstore_icon_file" ;;
-		"flatpak") eval "$COMMON_OPTIONS view_flatpak.sh.htm?pkg_name=\"$2\"   -i $bigstore_icon_file" ;;
-		"snap") eval "$COMMON_OPTIONS view_snap.sh.htm?pkg_id=\"$2\"        -i $bigstore_icon_file" ;;
+		case "${1^^}" in
+		"CATEGORY") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
+		"APPSTREAM") eval "$COMMON_OPTIONS view_appstream.sh.htm?pkg_name=\"$2\" -i $bigstore_icon_file" ;;
+		"AUR") eval "$COMMON_OPTIONS view_aur.sh.htm?pkg_name=\"$2\"       -i $bigstore_icon_file" ;;
+		"FLATPAK") eval "$COMMON_OPTIONS view_flatpak.sh.htm?pkg_name=\"$2\"   -i $bigstore_icon_file" ;;
+		"SNAP") eval "$COMMON_OPTIONS view_snap.sh.htm?pkg_id=\"$2\"        -i $bigstore_icon_file" ;;
 		*) eval "$COMMON_OPTIONS index.sh.htm?search=\"$1\"            -i $bigstore_icon_file" ;;
 		esac
 	else

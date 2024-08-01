@@ -141,3 +141,26 @@ $("#btn-big").click(function () {
   }
   ++bigcount;
 });
+
+$('input[name="searchFilter_checkbox"]').change(function (e) {
+  e.preventDefault();
+  const dataValue = $(this).data("value");
+  console.log("Data-value:", dataValue);
+  if ($(this).is(":checked")) {
+    _run(`TIni.Set ${dataValue} bigstore searchFilter checked`);
+  } else {
+    _run(`TIni.Set ${dataValue} bigstore searchFilter`);
+  }
+});
+
+$('input[name="resultFilter_checkbox"]').change(function (e) {
+  e.preventDefault();
+  const dataValue = $(this).data("value");
+  console.log("Data-value:", dataValue);
+  if ($(this).is(":checked")) {
+    _run(`TIni.Set ${dataValue} bigstore resultFilter checked`);
+  } else {
+    _run(`TIni.Set ${dataValue} bigstore resultFilter`);
+  }
+});
+

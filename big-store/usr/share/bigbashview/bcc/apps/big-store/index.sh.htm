@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/07/22
+#  Altered: 2024/08/01
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,14 +34,10 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='22-07-2024 - 07:25'
-_VERSION_="1.0.0-20240722"
+_DATE_ALTERED_='01-08-2024 - 01:03'
+_VERSION_="1.0.0-20240801"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export TMP_FOLDER="/tmp/bigstore-$USER"
-export HOME_FOLDER="$HOME/.bigstore"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
@@ -100,12 +96,14 @@ function APPSTREAM_CATEGORY() {
 			</div>
 			<div style="margin-right: 5px;">
 			$Programas_Nativos
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="content_appstream">
 			<script>document.getElementById("appstream_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
-		pacman -Qu | awk '{print $1}' >"$TMP_FOLDER/upgradeable.txt"
+		pacman -Qu | awk '{print $1}' > $TMP_FOLDER/upgradeable.txt
 		if ((appstream_search_category)); then
 #			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
 			sh_search_category_appstream_pamac "${param_search,,}" & wait
@@ -118,9 +116,9 @@ function APPSTREAM_CATEGORY() {
 		if [[ -e "${TMP_FOLDER}/appstream.html" ]]; then
 			cat <<-EOF
 				<script>runAvatarAppstream();</script>
-				<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html');</script>
-				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html');</script>
-			</div>
+				<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html'); </script>
+				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html'); </script>
+				</div>
 				</div>
 			EOF
 		else
@@ -135,9 +133,6 @@ export -f APPSTREAM_CATEGORY
 
 function AUR_CATEGORY {
 	local param_search="$*"
-
-#	xdebug "$param_search"
-#	xdebug "$aur_checkbox"
 
 	if [[ "$aur_checkbox" = "checked" ]]; then
 		[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
@@ -156,15 +151,17 @@ function AUR_CATEGORY {
 			</div>
 			<div style="margin-right: 5px;">
 			$Programas_AUR
-			</div></div></div>
+			</div>
+			</div>
+			</div>
 			<div id="content_aur">
 			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 		EOF
 
-#		xdebug "$aur_search_category"
 		if ((aur_search_category)); then
 #			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
- 			sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+ 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
 			aur_search_category=0
 		else
 #			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
@@ -172,12 +169,12 @@ function AUR_CATEGORY {
 		fi
 
 		if [[ -e "${TMP_FOLDER}/aur.html" ]]; then
-	        cat <<-EOF
+			cat <<-EOF
 				<script>runAvatarAur();</script>
-	            <script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
-	            <script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>
-	            </div>
-	            </div>
+				<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
+				<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>
+				</div>
+				</div>
 			EOF
 		else
 			cat <<-EOF
@@ -228,6 +225,9 @@ function FLATPAK_CATEGORY {
 #			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}"
 		fi
+
+#   <!-- <script>document.addEventListener('DOMContentLoaded', (event) => { document.getElementById('flatpak_number').textContent = 100; }); </script> -->
+#   <!-- <script>$(document).ready(function(){ $('#flatpak_number').text(100);}); </script> -->
 
 		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
 			cat <<-EOF
@@ -299,9 +299,10 @@ function ICON_CATEGORY() {
 	local category="$1"
 	local classe="$2"
 	local cname="$3"
+	local main_category="$4"
 
 	cat <<-EOF
-		<a onclick="disableBody();" href=index.sh.htm?category=$category>
+		<a onclick="disableBody();" href=index.sh.htm?category=$category&main_category=$main_category>
 			<div class="icon_background">
 				<div class="vertical_align_center">
 					<div class="icon">
@@ -340,7 +341,8 @@ function sh_main {
 			<div id="box_index_category">
 		EOF
 
-		if sh_get_XIVAStudio; then
+#		if sh_get_XIVAStudio; then
+		if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 			cat <<-EOF
 				<div id="xystem" class="category_box">
 				<div class="category_title_index">
@@ -350,9 +352,9 @@ function sh_main {
 				<div class="category_index_list">
 			EOF
 
-			ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições"
-			ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
-			ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização"
+			ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições" $cXSistema
+			ICON_CATEGORY javajar "fab fa-java" $"Java JRE" $cXSistema
+			ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização" $cXSistema
 
 			cat <<-EOF
 				</div></div></div>
@@ -364,19 +366,21 @@ function sh_main {
 				<div class="category_index_list">
 			EOF
 
-			ICON_CATEGORY vetorial "fas fa-bezier-curve" $"Editores Vetorial"
-			ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho"
-			ICON_CATEGORY editortexto "fas fa-paint-brush" $"Editores de texto linha de comando"
-			#     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
-			ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
-			#    ICON_CATEGORY image-plugins "fas fa-plug" $"Imagem Plugins"
-			ICON_CATEGORY 3dcad "fas fa-cube" $"Edição 3D e CAD"
-			ICON_CATEGORY fontes "fas fa-font" $"Fontes (Tipografia)"
-			ICON_CATEGORY diagramacao "fas fa-file-invoice" $"Diagramação e organização de páginas"
-			ICON_CATEGORY colorizacao "fas fa-palette" $"Colorização e palheta de cores"
+			ICON_CATEGORY vetorial "fas fa-bezier-curve" $"Editores Vetorial" $cImagem
+			ICON_CATEGORY imageditor "fas fa-paint-brush" $"Editores de imagem, fotografia e desenho" $cImagem
+			ICON_CATEGORY editortexto "fas fa-paint-brush" $"Editores de texto linha de comando" $cImagem
+			#     ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)" $cImagem
+			ICON_CATEGORY imagemconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens" $cImagem
+			#    ICON_CATEGORY image-plugins "fas fa-plug" $"Imagem Plugins" $cImagem
+			ICON_CATEGORY 3dcad "fas fa-cube" $"Edição 3D e CAD" $cImagem
+			ICON_CATEGORY fontes "fas fa-font" $"Fontes (Tipografia)" $cImagem
+			ICON_CATEGORY diagramacao "fas fa-file-invoice" $"Diagramação e organização de páginas" $cImagem
+			ICON_CATEGORY colorizacao "fas fa-palette" $"Colorização e palheta de cores" $cImagem
 
 			cat <<-EOF
-				</div></div></div>
+				</div>
+				</div>
+				</div>
 				<div id="video" class="category_box">
 				<div class="category_title_index">
 				$cVideo
@@ -385,12 +389,12 @@ function sh_main {
 				<div class="category_index_list">
 			EOF
 
-			ICON_CATEGORY videoeditors "fas fa-photo-video" $"Editores de video"
-			ICON_CATEGORY videoplay "fas fa-film" $"Reprodutores de vídeo"
-			ICON_CATEGORY 2deditor "fas fa-film" $"Animação e 2D"
-			ICON_CATEGORY captura "fas fa-video" $"Captura de tela e video download"
-			ICON_CATEGORY videotream "fas fa-tv" $"Stream/transmissão online"
-			ICON_CATEGORY dvdvideoconverter "fas fa-compact-disc" $"Conversores de vídeo e gravadores CD/DVD"
+			ICON_CATEGORY videoeditors "fas fa-photo-video" $"Editores de video" $cVideo
+			ICON_CATEGORY videoplay "fas fa-film" $"Reprodutores de vídeo" $cVideo
+			ICON_CATEGORY 2deditor "fas fa-film" $"Animação e 2D" $cVideo
+			ICON_CATEGORY captura "fas fa-video" $"Captura de tela e video download" $cVideo
+			ICON_CATEGORY videotream "fas fa-tv" $"Stream/transmissão online" $cVideo
+			ICON_CATEGORY dvdvideoconverter "fas fa-compact-disc" $"Conversores de vídeo e gravadores CD/DVD" $cVideo
 
 			cat <<-EOF
 				</div></div></div>
@@ -402,11 +406,11 @@ function sh_main {
 				<div class="category_index_list">
 			EOF
 
-			ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
-			ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
-			ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
-			ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio (DAW)"
-			ICON_CATEGORY audio-plugins "fas fa-plug" $"Audio Plugins"
+			ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio" $cAudio
+			ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online" $cAudio
+			ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio" $cAudio
+			ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio (DAW)" $cAudio
+			ICON_CATEGORY audio-plugins "fas fa-plug" $"Audio Plugins" $cAudio
 
 			cat <<-EOF
 				</div>
@@ -425,15 +429,15 @@ function sh_main {
 			<div class="category_index_list_center">
 			<div class="category_index_list">
 		EOF
-		ICON_CATEGORY browser "fas fa-globe" $"Navegadores"
-		ICON_CATEGORY mail "fas fa-envelope" $"E-mail"
-		ICON_CATEGORY cloud "fas fa-cloud-upload-alt" $"Armazenamento nas nuvens"
-		ICON_CATEGORY download "fas fa-file-download" $"Download"
-		ICON_CATEGORY torrent "fas fa-magnet" $"Compartilhadores e Torrent"
-		ICON_CATEGORY messages "fas fa-comments" $"Mensageiros e Conferências"
-		ICON_CATEGORY remote "fas fa-laptop-house" $"Acesso Remoto, FTP, SSH, VNC, RDP..."
-		ICON_CATEGORY network "fas fa-network-wired" $"Ferramentas de rede"
-		ICON_CATEGORY news "fas fa-newspaper" $"Notícias, Feeds e RSS"
+		ICON_CATEGORY browser "fas fa-globe" $"Navegadores" $cInternet
+		ICON_CATEGORY mail "fas fa-envelope" $"E-mail" $cInternet
+		ICON_CATEGORY cloud "fas fa-cloud-upload-alt" $"Armazenamento nas nuvens" $cInternet
+		ICON_CATEGORY download "fas fa-file-download" $"Download" $cInternet
+		ICON_CATEGORY torrent "fas fa-magnet" $"Compartilhadores e Torrent" $cInternet
+		ICON_CATEGORY messages "fas fa-comments" $"Mensageiros e Conferências" $cInternet
+		ICON_CATEGORY remote "fas fa-laptop-house" $"Acesso Remoto, FTP, SSH, VNC, RDP..." $cInternet
+		ICON_CATEGORY network "fas fa-network-wired" $"Ferramentas de rede" $cInternet
+		ICON_CATEGORY news "fas fa-newspaper" $"Notícias, Feeds e RSS" $cInternet
 
 		cat <<-EOF
 			</div></div></div>
@@ -445,12 +449,12 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_CATEGORY office "fas fa-briefcase" $"Suíte Office"
-		ICON_CATEGORY book "fas fa-book" $"Visualizadores de PDF, Epub, e-books e mais"
-		ICON_CATEGORY pdf "fas fa-file-pdf" $"Editores de PDF"
-		ICON_CATEGORY calendar "fas fa-calendar-alt" $"Agenda de tarefas e contatos"
-		#     ICON_CATEGORY calc "fas fa-calculator" $"Cálculos"
-		#     ICON_CATEGORY other "fas fa-random" $"Outros"
+		ICON_CATEGORY office "fas fa-briefcase" $"Suíte Office" $cEscritorio
+		ICON_CATEGORY book "fas fa-book" $"Visualizadores de PDF, Epub, e-books e mais" $cEscritorio
+		ICON_CATEGORY pdf "fas fa-file-pdf" $"Editores de PDF" $cEscritorio
+		ICON_CATEGORY calendar "fas fa-calendar-alt" $"Agenda de tarefas e contatos" $cEscritorio
+#		ICON_CATEGORY calc "fas fa-calculator" $"Cálculos" $cEscritorio
+#		ICON_CATEGORY other "fas fa-random" $"Outros" $cEscritorio
 
 		cat <<-EOF
 			</div></div></div>
@@ -462,11 +466,11 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_CATEGORY imageplayer "fas fa-image" $"Visualizadores de imagem"
-		ICON_CATEGORY imageeditor "fas fa-paint-brush" $"Editores de imagem e ferramentas de desenho"
-		ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)"
-		ICON_CATEGORY imageconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens"
-		ICON_CATEGORY 3d "fas fa-cube" $"Edição 3D e CAD"
+		ICON_CATEGORY imageplayer "fas fa-image" $"Visualizadores de imagem" $cGraficos
+		ICON_CATEGORY imageeditor "fas fa-paint-brush" $"Editores de imagem e ferramentas de desenho" $cGraficos
+		ICON_CATEGORY screenshot "fas fa-expand" $"Captura de tela (Screenshot)" $cGraficos
+		ICON_CATEGORY imageconvert "fas fa-file-image" $"Converter, redimensionar ou compactar imagens" $cGraficos
+		ICON_CATEGORY 3d "fas fa-cube" $"Edição 3D e CAD" $cGraficos
 
 		cat <<-EOF
 			</div></div></div>
@@ -478,15 +482,15 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio"
-		ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online"
-		ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio"
-		ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio"
-		ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo"
-		ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..."
-		ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo"
-		ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD"
-		ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo"
+		ICON_CATEGORY audioplayer "fas fa-headphones" $"Reprodutores de áudio" $cMultimidia
+		ICON_CATEGORY radio "fas fa-broadcast-tower" $"Rádio online" $cMultimidia
+		ICON_CATEGORY audioconvert "fas fa-microphone" $"Gravadores e conversores de áudio" $cMultimidia
+		ICON_CATEGORY audioeditor "fas fa-music" $"Editores de áudio" $cMultimidia
+		ICON_CATEGORY videoplayer "fas fa-film" $"Reprodutores de vídeo" $cMultimidia
+		ICON_CATEGORY videostream "fas fa-tv" $"Vídeo online, IPTV, Youtube..." $cMultimidia
+		ICON_CATEGORY videoeditor "fas fa-photo-video" $"Editores e compactadores de vídeo" $cMultimidia
+		ICON_CATEGORY dvd "fas fa-compact-disc" $"Gravadores e copiadores de CD e DVD" $cMultimidia
+		ICON_CATEGORY webcam "fas fa-video" $"Webcam, gravação de tela e transmissão de vídeo" $cMultimidia
 
 		cat <<-EOF
 			</div></div></div>
@@ -498,12 +502,12 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_CATEGORY gamemanager "fas fa-gamepad" $"Gerenciadores de jogos"
-		ICON_CATEGORY gameutility "fas fa-toolbox" $"Utilitários para jogos"
+		ICON_CATEGORY gamemanager "fas fa-gamepad" $"Gerenciadores de jogos" $cJogos
+		ICON_CATEGORY gameutility "fas fa-toolbox" $"Utilitários para jogos" $cJogos
+		#ICON_CATEGORY gameretroarch "fas fa-cog" $"Emulador Retroarch" $cJogos
 
-		#ICON_CATEGORY gameretroarch "fas fa-cog" $"Emulador Retroarch"
 		cat <<-EOF
-			<a onclick="disableBody();" href=index.sh.htm?category=gameretroarch>
+			<a onclick="disableBody();" href=index.sh.htm?category=gameretroarch&main_category=$cJogos>
 			<div class="icon_background">
 			<div class="vertical_align_center">
 			<div class="icon">
@@ -521,7 +525,7 @@ function sh_main {
 
 		#ICON_CATEGORY gameemulator "fas fa-cogs" $"Emuladores"
 		cat <<-EOF
-			<a onclick="disableBody();" href=index.sh.htm?category=gameemulator>
+			<a onclick="disableBody();" href=index.sh.htm?category=gameemulator&main_category=$cRetroarch>
 			<div class="icon_background">
 			<div class="vertical_align_center">
 			<div class="icon">
@@ -537,12 +541,12 @@ function sh_main {
 			</div></div></div></div></a>
 		EOF
 
-		ICON_CATEGORY devgames "fas fa-code" $"Criadores de jogos"
-		ICON_CATEGORY gamearcade "fas fa-rocket" $"Ação/Arcade"
+		ICON_CATEGORY devgames "fas fa-code" $"Criadores de jogos" $cEmuladores
+		ICON_CATEGORY gamearcade "fas fa-rocket" $"Ação/Arcade" $cEmuladores
+		#ICON_CATEGORY gamecard "fas fa-crown" $"Cartas" $cEmuladores
 
-		#ICON_CATEGORY gamecard "fas fa-crown" $"Cartas"
 		cat <<-EOF
-			<a onclick="disableBody();" href=index.sh.htm?category=gamecard>
+			<a onclick="disableBody();" href=index.sh.htm?category=gamecard&main_category=$cEmuladores>
 			<div class="icon_background">
 			<div class="vertical_align_center">
 			<div class="icon">
@@ -558,12 +562,12 @@ function sh_main {
 			</div></div></div></div></a>
 		EOF
 
-		ICON_CATEGORY gameeducational "fas fa-graduation-cap" $"Educacional"
-		ICON_CATEGORY gamestrategy "fas fa-user-secret" $"Estratégia"
-		ICON_CATEGORY gamepuzzle "fas fa-puzzle-piece" $"Puzzles"
-		ICON_CATEGORY gameboard "fas fa-chess-board" $"Tabuleiro"
-		ICON_CATEGORY gamerpg "fas fa-dice-d20" $"RPG"
-		ICON_CATEGORY gameother "fas fa-dice" $"Outros"
+		ICON_CATEGORY gameeducational "fas fa-graduation-cap" $"Educacional" $cCartas
+		ICON_CATEGORY gamestrategy "fas fa-user-secret" $"Estratégia" $cCartas
+		ICON_CATEGORY gamepuzzle "fas fa-puzzle-piece" $"Puzzles" $cCartas
+		ICON_CATEGORY gameboard "fas fa-chess-board" $"Tabuleiro" $cCartas
+		ICON_CATEGORY gamerpg "fas fa-dice-d20" $"RPG" $cCartas
+		ICON_CATEGORY gameother "fas fa-dice" $"Outros" $cCartas
 
 		cat <<-EOF
 			</div>
@@ -577,10 +581,10 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições"
-		ICON_CATEGORY fonts "fas fa-font" $"Fontes (Tipografia)"
-		ICON_CATEGORY javajar "fab fa-java" $"Java JRE"
-		ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização"
+		ICON_CATEGORY storage "fas fa-chart-pie" $"Armazenamento e partições" $cSistema
+		ICON_CATEGORY fonts "fas fa-font" $"Fontes (Tipografia)" $cSistema
+		ICON_CATEGORY javajar "fab fa-java" $"Java JRE" $cSistema
+		ICON_CATEGORY virtualization "fas fa-laptop-code" $"Virtualização" $cSistema
 
 		cat <<-EOF
 			</div>
@@ -594,9 +598,9 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-		ICON_CATEGORY deveditor "fas fa-file-code" $"Editores de código e IDE"
-		ICON_CATEGORY devbd "fas fa-database" $"Banco de dados"
-		ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB"
+		ICON_CATEGORY deveditor "fas fa-file-code" $"Editores de código e IDE" $cDesenvolvimento
+		ICON_CATEGORY devbd "fas fa-database" $"Banco de dados" $cDesenvolvimento
+		ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB" $cDesenvolvimento
 
 #sex 05 jan 2024 12:19:03 -04
 		cat <<-EOF
@@ -612,7 +616,7 @@ function sh_main {
 		EOF
 
 	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+		<!-- a onclick="disableBody();" href=index.sh.htm?category=about&main_category=$cSobre -->
 			<div class="icon_background">
 				<div class="vertical_align_center">
 					<div class="icon">
@@ -631,7 +635,7 @@ function sh_main {
 					</div>
 				</div>
 			</div>
-		<!--/a-->
+		<!-- /a -->
 	EOF
 
 	cat <<-EOF
@@ -718,7 +722,8 @@ function sh_main {
 	fi
 
 	source biglinux-category
-	if sh_get_XIVAStudio; then
+#	if sh_get_XIVAStudio; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		source xiva-category
 		cat <<-EOF
 			<div class="logo">

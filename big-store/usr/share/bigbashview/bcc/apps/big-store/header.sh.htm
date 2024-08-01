@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2020/11/01
-#  Altered: 2024/07/22
+#  Altered: 2024/08/01
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240722"
+_VERSION_="1.0.0-20240801 - 00:43"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
@@ -80,6 +80,10 @@ Exibe apenas programas selecionados<br>
 e oculta resultados que são úteis <br>
 apenas a usuários avançados."
 
+	declare -g ABOUT_SEARCH_RESULT=$"
+Ligado, inclui também na pesquisa a descrição dos pacotes<br>
+Desligado, pesquisa somente nomes de pacotes"
+
 	declare -g TYPE_SEARCH=$"Procurar aplicativo"
 	declare -g MODE_SIMPLE=$"Modo Simplificado"
 	declare -g Nativos_text=$"Nativos"
@@ -108,94 +112,8 @@ apenas a usuários avançados."
 	export aur_checkbox
 	export flatpak_checkbox
 	export snap_checkbox
-}
-
-function sh_refresh_installed_packages {
-	#refrash installed packages
-	#pacman -Qqe > ${TMP_FOLDER}/installed.txt
-	#refrash installed packages AUR
-	# pacman -Qm > ${TMP_FOLDER}/installedAur.txt
-	:
-}
-
-function sh_include_script_pageshow {
-	cat <<-EOF
-		<script type="text/javascript">
-			if (document.addEventListener) {
-				window.addEventListener('pageshow', function (event) {
-			        if (event.persisted || window.performance &&
-			            window.performance.navigation.type == 2)
-			        {
-			            var url = window.location.toString;
-			            var hostname = window.location.hostname;
-			            var pathname = window.location.pathname;
-			            var param = window.location.search;
-
-			            if (pathname == '/config.sh.htm') {
-			              disableBody();
-			              //alert('Entrou ' + pathname);
-			              window.location = pathname;
-			            } else {
-			              disableBody();
-			              //alert('Entrou outro');
-			              location.reload();
-			            }
-			        }
-			    },
-			   false);
-			}
-		</script>
-	EOF
-}
-
-function sh_include_style {
-	cat <<-EOF
-		<style>
-			div#box_progress_config {
-			    position: fixed;
-			    background-color: #000000aa;
-			    width: 100%;
-			    height: 100%;
-			    z-index: 10;
-			    display: none;
-			}
-			div#box_progress_config {
-			    position: fixed;
-			    background-color: #000000aa;
-			    width: 100%;
-			    height: 100%;
-			    z-index: 10;
-			    display: none;
-			}
-			div#box_progress_config_bar {
-			    position: absolute;
-			    font-family: "Lato", Ubuntu Condensed, sans-serif;
-			    font-size: 13px;
-			    color: #ccc;
-			    top: 0;
-			    left: 0;
-			    right: 0;
-			    bottom: 0;
-			    margin: auto;
-			    height: 300px;
-			    width: 75%;
-			    padding: 10px;
-			    text-align: left;
-			    background: #002240;
-			    border-radius: 15px;
-			}
-			.loadingtxt {
-				animation:extend 3s steps(3, end) infinite;
-				display: inline-block;
-				overflow: hidden;
-				vertical-align: bottom;
-				color: #fff;
-				&:before { content:"..."; }
-			}
-			@keyframes extend { 0% { width:.25em; }
-								   100% { width:1em; }}
-			</style>
-	EOF
+	declare -g resultFilter_checkbox
+	declare -g searchFilter_checkbox
 }
 
 function sh_category {
@@ -263,13 +181,11 @@ function sh_include_div_he {
 function sh_header_sh_htm_main {
 	cat <<-EOF
 		<meta charset="utf-8">
-		<script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/jquery.js"></script>
-		<script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/materialize.js"></script>
-		<script type="text/javascript" src="/usr/share/bigbashview/bcc/js/big.js"></script>
-		<script type="text/javascript" src="js/autocomplete.js"></script>
-		<script type="text/javascript" src="js/bigstore.js"></script>
-
-		$(sh_include_script_pageshow)
+		<script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/jquery.js"> </script>
+		<script type="text/javascript" src="/usr/share/bigbashview/bcc/apps/big-store/materialize/js/materialize.js"> </script>
+		<script type="text/javascript" src="/usr/share/bigbashview/bcc/js/big.js"> </script>
+		<script type="text/javascript" src="js/autocomplete.js"> </script>
+		<script type="text/javascript" src="js/bigstore.js"> </script>
 
 		<link href="fontawesome/css/all.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" type="text/css" href="/usr/share/bigbashview/bcc/apps/big-store/materialize/css/materialize.css">
@@ -278,7 +194,51 @@ function sh_header_sh_htm_main {
 		<title>Big-Store</title>
 		<html>
 
-		$(sh_include_style)
+		<style>
+			div#box_progress_config {
+			    position: fixed;
+			    background-color: #000000aa;
+			    width: 100%;
+			    height: 100%;
+			    z-index: 10;
+			    display: none;
+			}
+			div#box_progress_config {
+			    position: fixed;
+			    background-color: #000000aa;
+			    width: 100%;
+			    height: 100%;
+			    z-index: 10;
+			    display: none;
+			}
+			div#box_progress_config_bar {
+			    position: absolute;
+			    font-family: Ubuntu Condensed, Lato, sans-serif;
+			    font-size: 13px;
+			    color: #ccc;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    margin: auto;
+			    height: 300px;
+			    width: 75%;
+			    padding: 10px;
+			    text-align: left;
+			    background: #002240;
+			    border-radius: 15px;
+			}
+			.loadingtxt {
+				animation:extend 3s steps(3, end) infinite;
+				display: inline-block;
+				overflow: hidden;
+				vertical-align: bottom;
+				color: #fff;
+				&:before { content:"..."; }
+			}
+			@keyframes extend { 0% { width:.25em; }
+								   100% { width:1em; }}
+			</style>
 
 		<div id="box_progress_config">
 		<div id="box_progress_config_bar">
@@ -289,14 +249,22 @@ function sh_header_sh_htm_main {
 		$ProgressMessage
 
 		<span class="loadingtxt">...</span>
-		</div></div>
+		</div>
+		</div>
 		<div id="box_progress_config_simple"></div>
 
 		$(sh_bstr_getbgcolor)
 
-		<div id="box_progress"><div id="progress_loading">
-		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-		</div></div>
+		<div id="box_progress">
+		<div id="progress_loading">
+		<div class="lds-ring">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		</div>
+		</div>
+		</div>
 		<div class="dark-light">
 		<svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
 		<path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
@@ -308,19 +276,13 @@ function sh_header_sh_htm_main {
 
 	# Save search query
 	search="${search//+/ }"
-	echo "$search" >"${TMP_FOLDER}/query.txt"
-
 	if [[ -n "$search" ]]; then
-		if [[ -n "$resultFilter_checkbox" ]]; then
-			echo "" >"$HOME_FOLDER/resultFilter"
-		else
-			[[ -e "$HOME_FOLDER/resultFilter" ]] && rm -f "$HOME_FOLDER/resultFilter"
-		fi
-	else
-		if [ -e "$HOME_FOLDER/resultFilter" ]; then
-			resultFilter_checkbox="checked"
-		fi
+		echo "$search" >> "${TMP_FOLDER}/query.txt"
+		TIni.Set "$INI_FILE_BIG_STORE" 'bigstore' 'search' "$search"
 	fi
+
+	resultFilter_checkbox="$(TIni.Get "$INI_FILE_BIG_STORE" 'bigstore' 'resultFilter')"
+	searchFilter_checkbox="$(TIni.Get "$INI_FILE_BIG_STORE" 'bigstore' 'searchFilter')"
 
 	cat <<-EOF
 		<div class="search-bar">
@@ -329,81 +291,69 @@ function sh_header_sh_htm_main {
 		<button class="custom-search-botton" type="submit">← Enter </button>
 		</div>
 		<div class="header-profile">
+
+		<div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_SEARCH_RESULT">
+		<div class="switch">
+		<label>
+		<input type="checkbox" class="switch" name="searchFilter_checkbox" value="checked" $searchFilter_checkbox data-value="$INI_FILE_BIG_STORE" >
+		<span class="lever"></span>
+		$(gettext "Incluir busca na descrição")
+		</label>
+		</div>
+		</div>
+
 		<div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_MODE_SIMPLE">
 		<div class="switch">
-		<label><input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked" $resultFilter_checkbox>
+		<label>
+		<input type="checkbox" class="switch" name="resultFilter_checkbox" value="checked" $resultFilter_checkbox data-value="$INI_FILE_BIG_STORE" >
 		<span class="lever"></span>
 		$MODE_SIMPLE
 		</label>
-		</div></div>
+
+		</div>
+		</div>
 		</form>
-		</div></div>
+		</div>
+		</div>
 	EOF
 
-	#APPSTREAM
-	if [[ -e "$HOME_FOLDER/hide_appstream" ]]; then
-		appstream_checkbox=""
-		if [[ "$appstream_change" = "y" ]]; then
-			rm -f "$HOME_FOLDER/hide_appstream"
-			appstream_checkbox="checked"
-		fi
-	else
-		appstream_checkbox="checked"
-		if [[ "$appstream_change" = "y" ]]; then
-			echo "" >"$HOME_FOLDER/hide_appstream"
-			appstream_checkbox=""
-		fi
-	fi
+	function sh_toggle_switch_key() {
+		local stream="$1"
+		local session="$2"
+		local key="$3"
+		local checkbox
+		local checked
 
-	#AUR
-	if [[ -e "${HOME_FOLDER}/hide_aur" ]]; then
-		aur_checkbox=""
-		if [ "$aur_change" = "y" ]; then
-			rm -f "$HOME_FOLDER/hide_aur"
-			aur_checkbox="checked"
-		fi
-	else
-		aur_checkbox="checked"
-		if [ "$aur_change" = "y" ]; then
-			echo "" >"${HOME_FOLDER}/hide_aur"
-			aur_checkbox=""
-		fi
-	fi
-
-	#FLATPAK
-	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'; then
-			flatpak_checkbox=""
-			if [[ "$flatpak_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '0'
-				flatpak_checkbox="checked"
+		checked="$(TIni.Get "$INI_FILE_BIG_STORE" "$session" "$key")"
+		if [[ -z "$checked" || "$checked" -eq 1 ]]; then
+			checkbox="checked"
+			if [[ "$stream" = "y" ]]; then
+				TIni.Set "$INI_FILE_BIG_STORE" "$session" "$key" '0'
+				checkbox=""
 			fi
 		else
-			flatpak_checkbox="checked"
-			if [[ "$flatpak_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_hide" '1'
-				flatpak_checkbox=""
+			checkbox=""
+			if [[ "$stream" = "y" ]]; then
+				TIni.Set "$INI_FILE_BIG_STORE" "$session" "$key" '1'
+				checkbox="checked"
 			fi
 		fi
+		echo "$checkbox"
+	}
+
+	#APPSTREAM
+	appstream_checkbox="$(sh_toggle_switch_key "$appstream_change" 'appstream' 'appstream_active')"
+	#AUR
+	aur_checkbox="$(sh_toggle_switch_key "$aur_change" 'aur' 'aur_active')"
+	#FLATPAK
+	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
+		flatpak_checkbox="$(sh_toggle_switch_key "$flatpak_change" 'flatpak' 'flapak_hide')"							#FLATPAK
 	else
 		DISABLE_FLATPAK="y"
 	fi
-
 	#SNAP
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'; then
-			snap_checkbox=""
-			if [[ "$snap_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '0'
-				snap_checkbox="checked"
-			fi
-		else
-			snap_checkbox="checked"
-			if [[ "$snap_change" = "y" ]]; then
-				TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_hide" '1'
-				snap_checkbox=""
-			fi
-		fi
+		snap_checkbox="$(sh_toggle_switch_key "$snap_change" 'snap' 'snap_hide')"							#SNAP
 	else
 		DISABLE_SNAP="y"
 	fi
@@ -413,6 +363,7 @@ function sh_header_sh_htm_main {
 		<div class="left-side">
 		<div class="side-wrapper">
 		<div class="side-menu">
+
 		<a href="index.sh.htm">
 		<svg viewBox="0 0 512 512">
 		<g xmlns="http://www.w3.org/2000/svg" fill="currentColor">
@@ -425,6 +376,7 @@ function sh_header_sh_htm_main {
 		$Inicio
 		</span>
 		</a>
+
 		<a href="config.sh.htm">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-cog fa-w-16 fa-3x">
 		<path fill="currentColor" d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z" class="">
@@ -434,27 +386,33 @@ function sh_header_sh_htm_main {
 		$Configuracoes
 		</span>
 		</a>
-		</div></div>
+
+		</div>
+		</div>
 		<div class="side-wrapper">
 		<div class="side-menu">
 	EOF
 
 	### Categorias ###
 
-	if sh_get_XIVAStudio; then
+#	if sh_get_XIVAStudio; then
+	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		cat <<-EOF
 			<div class="side-title">
 			XIVA Store
 			</div>
 			</a>
+
 			<a href="index.sh.htm?#xystem">
 			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="box" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-box fa-w-16 fa-3x">
 			<path fill="currentColor" d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z" class="">
-			</path></svg>
+			</path>
+			</svg>
 			<span>
 			$X_Sistema
 			</span>
 			</a>
+
 			<a href="index.sh.htm?#image"><svg viewBox="0 0 512 512" fill="currentColor">
 			<path d="M499.377 46.402c-8.014-8.006-18.662-12.485-29.985-12.613a41.13 41.13 0 00-.496-.003c-11.142 0-21.698 4.229-29.771 11.945L198.872 275.458c25.716 6.555 47.683 23.057 62.044 47.196a113.544 113.544 0 0110.453 23.179L500.06 106.661C507.759 98.604 512 88.031 512 76.89c0-11.507-4.478-22.33-12.623-30.488zM176.588 302.344a86.035 86.035 0 00-3.626-.076c-20.273 0-40.381 7.05-56.784 18.851-19.772 14.225-27.656 34.656-42.174 53.27C55.8 397.728 27.795 409.14 0 416.923c16.187 42.781 76.32 60.297 115.752 61.24 1.416.034 2.839.051 4.273.051 44.646 0 97.233-16.594 118.755-60.522 23.628-48.224-5.496-112.975-62.192-115.348z" />
 			</svg>
@@ -462,6 +420,7 @@ function sh_header_sh_htm_main {
 			$Imagem
 			</span>
 			</a>
+
 			<a href="index.sh.htm?#video">
 			<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
 			<path d="M1.75 1a.748.748 0 0 0-.75.75v13.5c0 .415.335.75.75.75h12.5c.416 0 .75-.335.75-.75V1.75a.748.748 0 0 0-.75-.75zM2 2h1v1H2zm2.5 0h7c.277 0 .5.223.5.5v5c0 .277-.223.5-.5.5h-7a.499.499 0 0 1-.5-.5v-5c0-.277.223-.5.5-.5zM13 2h1v1h-1zM2 4h1v1H2zm11 0h1v1h-1zM2 6h1v1H2zm11 0h1v1h-1zM2 8h1v1H2zm11 0h1v1h-1zM4.5 9h7c.277 0 .5.223.5.5v5c0 .277-.223.5-.5.5h-7a.499.499 0 0 1-.5-.5v-5c0-.277.223-.5.5-.5zM2 10h1v1H2zm11 0h1v1h-1zM2 12h1v1H2zm11 0h1v1h-1zM2 14h1v1H2zm11 0h1v1h-1z"/>
@@ -470,6 +429,7 @@ function sh_header_sh_htm_main {
 			$Video
 			</span>
 			</a>
+
 			<a href="index.sh.htm?#audio">
 			<svg viewBox="0 0 512 512" fill="currentColor">
 			<path d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z" />
@@ -477,7 +437,10 @@ function sh_header_sh_htm_main {
 			<span>
 			$Audio
 			</span>
-			</a></div></div>
+			</a>
+
+			</div>
+			</div>
 			<div class="side-wrapper">
 			<div class="side-menu">
 			<div class="side-title">
@@ -490,18 +453,22 @@ function sh_header_sh_htm_main {
 		<a href="index.sh.htm?#internet">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe-americas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="svg-inline--fa fa-globe-americas fa-w-16 fa-3x">
 		<path fill="currentColor" d="M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm82.29 357.6c-3.9 3.88-7.99 7.95-11.31 11.28-2.99 3-5.1 6.7-6.17 10.71-1.51 5.66-2.73 11.38-4.77 16.87l-17.39 46.85c-13.76 3-28 4.69-42.65 4.69v-27.38c1.69-12.62-7.64-36.26-22.63-51.25-6-6-9.37-14.14-9.37-22.63v-32.01c0-11.64-6.27-22.34-16.46-27.97-14.37-7.95-34.81-19.06-48.81-26.11-11.48-5.78-22.1-13.14-31.65-21.75l-.8-.72a114.792 114.792 0 0 1-18.06-20.74c-9.38-13.77-24.66-36.42-34.59-51.14 20.47-45.5 57.36-82.04 103.2-101.89l24.01 12.01C203.48 89.74 216 82.01 216 70.11v-11.3c7.99-1.29 16.12-2.11 24.39-2.42l28.3 28.3c6.25 6.25 6.25 16.38 0 22.63L264 112l-10.34 10.34c-3.12 3.12-3.12 8.19 0 11.31l4.69 4.69c3.12 3.12 3.12 8.19 0 11.31l-8 8a8.008 8.008 0 0 1-5.66 2.34h-8.99c-2.08 0-4.08.81-5.58 2.27l-9.92 9.65a8.008 8.008 0 0 0-1.58 9.31l15.59 31.19c2.66 5.32-1.21 11.58-7.15 11.58h-5.64c-1.93 0-3.79-.7-5.24-1.96l-9.28-8.06a16.017 16.017 0 0 0-15.55-3.1l-31.17 10.39a11.95 11.95 0 0 0-8.17 11.34c0 4.53 2.56 8.66 6.61 10.69l11.08 5.54c9.41 4.71 19.79 7.16 30.31 7.16s22.59 27.29 32 32h66.75c8.49 0 16.62 3.37 22.63 9.37l13.69 13.69a30.503 30.503 0 0 1 8.93 21.57 46.536 46.536 0 0 1-13.72 32.98zM417 274.25c-5.79-1.45-10.84-5-14.15-9.97l-17.98-26.97a23.97 23.97 0 0 1 0-26.62l19.59-29.38c2.32-3.47 5.5-6.29 9.24-8.15l12.98-6.49C440.2 193.59 448 223.87 448 256c0 8.67-.74 17.16-1.82 25.54L417 274.25z" class="">
-		</path></svg>
+		</path>
+		</svg>
 		<span>
 		$Internet
 		</span>
 		</a>
+
 		<a href="index.sh.htm?#office">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-briefcase fa-w-16 fa-3x">
 		<path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z" class="">
-		</path></svg>
+		</path>
+		</svg>
 		<span>
 		$Escritorio
 		</span>
+
 		</a>
 		<a href="index.sh.htm?#graphics">
 		<svg viewBox="0 0 512 512" fill="currentColor">
@@ -510,6 +477,7 @@ function sh_header_sh_htm_main {
 		<span>
 		$Graficos
 		</span>
+
 		</a>
 		<a href="index.sh.htm?#multimedia">
 		<svg viewBox="0 0 512 512" fill="currentColor">
@@ -519,10 +487,12 @@ function sh_header_sh_htm_main {
 		$Multimidia
 		</span>
 		</a>
+
 		<a href="index.sh.htm?#games">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="gamepad" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-gamepad fa-w-20 fa-3x">
 		<path fill="currentColor" d="M480.07 96H160a160 160 0 1 0 114.24 272h91.52A160 160 0 1 0 480.07 96zM248 268a12 12 0 0 1-12 12h-52v52a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12v-52H84a12 12 0 0 1-12-12v-24a12 12 0 0 1 12-12h52v-52a12 12 0 0 1 12-12h24a12 12 0 0 1 12 12v52h52a12 12 0 0 1 12 12zm216 76a40 40 0 1 1 40-40 40 40 0 0 1-40 40zm64-96a40 40 0 1 1 40-40 40 40 0 0 1-40 40z" class="">
-		</path></svg>
+		</path>
+		</svg>
 		<span>
 		$Jogos
 		</span>
@@ -531,7 +501,8 @@ function sh_header_sh_htm_main {
 		<a href="index.sh.htm?#system">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="box" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-box fa-w-16 fa-3x">
 		<path fill="currentColor" d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z" class="">
-		</path></svg>
+		</path>
+		</svg>
 		<span>
 		$Sistema
 		</span>
@@ -540,7 +511,8 @@ function sh_header_sh_htm_main {
 		<a href="index.sh.htm?#dev">
 		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="flask" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-flask fa-w-14 fa-3x">
 		<path fill="currentColor" d="M437.2 403.5L320 215V64h8c13.3 0 24-10.7 24-24V24c0-13.3-10.7-24-24-24H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h8v151L10.8 403.5C-18.5 450.6 15.3 512 70.9 512h306.2c55.7 0 89.4-61.5 60.1-108.5zM137.9 320l48.2-77.6c3.7-5.2 5.8-11.6 5.8-18.4V64h64v160c0 6.9 2.2 13.2 5.8 18.4l48.2 77.6h-172z" class="">
-		</path></svg>
+		</path>
+		</svg>
 		<span>
 		$Desenvolvimento
 		</span>
@@ -555,16 +527,24 @@ function sh_header_sh_htm_main {
 		</span>
 		</a>
 
-		</div></div></div>
+		</div>
+		</div>
+		</div>
 		<div class="main-container">
 		<div class="main-header">
 
 		$(sh_include_div_he)
 
 		<a href="#" onclick="history.back()">
-		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x">
-		<path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class="">
-		</path></svg>
+			<svg aria-hidden="true"
+				focusable="false"
+				data-prefix="fas"
+				data-icon="info-circle"
+				role="img"
+				xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x">
+				<path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class="">
+				</path>
+			</svg>
 		</a>
 		</div>
 	EOF
@@ -589,7 +569,7 @@ function sh_header_sh_htm_main {
 		<span class="lever">
 		</span>
 		$Nativos_text
-        <!-- <div id="appstream_icon_loading"></div> -->
+		<!-- <div id="appstream_icon_loading"></div> -->
 		<div id="appstream_number"></div>
 		</label></div></div>
 	EOF
@@ -601,10 +581,12 @@ function sh_header_sh_htm_main {
 		<input class="switch" type="checkbox" $aur_checkbox>
 		<span class="lever">
 		</span>
-		Aur
-        <div id="aur_icon_loading"></div>
+		AUR
+		<div id="aur_icon_loading"></div>
 		<div id="aur_number"></div>
-		</label></div></div>
+		</label>
+		</div>
+		</div>
 	EOF
 
 	if [[ "$DISABLE_FLATPAK" != "y" ]]; then
@@ -616,9 +598,11 @@ function sh_header_sh_htm_main {
 			<span class="lever">
 			</span>
 			Flatpak
-	        <div id="flatpak_icon_loading"></div>
+			<div id="flatpak_icon_loading"></div>
 			<div id="flatpak_number"></div>
-			</label></div></div>
+			</label>
+			</div>
+			</div>
 		EOF
 	fi
 
@@ -631,9 +615,11 @@ function sh_header_sh_htm_main {
 			<span class="lever">
 			</span>
 			Snap
-	        <div id="snap_icon_loading"></div>
+			<div id="snap_icon_loading"></div>
 			<div id="snap_number"></div>
-			</label></div></div>
+			</label>
+			</div>
+			</div>
 		EOF
 	fi
 
@@ -648,7 +634,7 @@ function sh_header_sh_htm_main {
 	if [[ -n "$SUB_CATEGORY" ]]; then
 		cat <<-EOF
 			<div class="subcategory_title_index">
-			$SUB_CATEGORY
+			$main_category - $SUB_CATEGORY
 			</div>
 		EOF
 	fi
@@ -677,5 +663,4 @@ function sh_header_sh_htm_main {
 
 #sh_debug
 sh_config
-sh_refresh_installed_packages
 sh_header_sh_htm_main
