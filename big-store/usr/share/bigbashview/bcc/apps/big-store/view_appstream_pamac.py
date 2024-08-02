@@ -26,7 +26,7 @@ import datetime
 gi.require_version("Pamac", "11")
 from gi.repository import Pamac
 
-#biblioteca apresenta erro de segmentação ao ser destruido quando o app é finalizado: destroy gettext
+# biblioteca apresenta erro de segmentação ao ser destruido quando o app é finalizado: destroy gettext
 import gettext
 
 lang_translations = gettext.translation(
@@ -36,53 +36,25 @@ lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
 TMP_FOLDER = os.environ["TMP_FOLDER"]
-LIBRARY = '/usr/share/bigbashview/bcc/shell'
+LIBRARY = "/usr/share/bigbashview/bcc/shell"
 script_name = LIBRARY + "/bstrlib.sh"
 
 
-def print_pkg_details(details):
+def print_pkg_details(details, pkg_summary):
     loc = "%d/%m/%Y" if locale.getlocale()[0] == "pt_BR" else "%Y/%m/%d"
-    # print (" -Name:", details.get_name())
-    # print (" -Desc:", details.get_desc())
-    # print (" -Long Desc:", details.get_long_desc())
-    # print (" -Icon:", details.get_icon())
-    # print (" -Screenshots:", details.get_screenshots())
-    # print (" -Download Size:", details.get_download_size())
-    # print (" -Installed Size:", details.get_installed_size())
-    # print (" -License:", details.get_license())
-    # print (" -Id:", details.get_id())
-    # print (" -Installed Version:", details.get_installed_version())
-    # print (" -Version:", details.get_version())
-    # print (" -Repository:", details.get_repo())
-    # print (" -Launchable:", details.get_launchable())
-    # print (" -Url:", details.get_url())
-    # print (" -Instaled Date:", details.get_install_date())
-    # print (" -Dependences:", details.get_depends())
-    # print (" -packager:", details.get_packager())
-    # print (" -reason:", details.get_reason())
-    # print (" -groups:", details.get_groups())
-    # print (" -optdepends:", details.get_optdepends())
-    # print (" -checkdepends:", details.get_checkdepends())
-    # print (" -makedepends:", details.get_makedepends())
-    # print (" -conflicts:", details.get_conflicts())
-    # print (" -provides:", details.get_provides())
-    # print (" -replaces:", details.get_replaces())
-    # print (" -build_date:", details.get_build_date())
-    # print (" -has_signature:", details.get_has_signature())
-    # print (" -requiredby:", details.get_requiredby())
-    # print (" -optionalfor:", details.get_optionalfor())
-    # print (" -backups:", details.get_backups())
 
     print("<div id=content_appstream_install>")
-#    update_version = subprocess.run(
-#        ["pacman", "-Qu", sys.argv[1], "|", "awk", "'{print $NF}'"],
-#        stdout=subprocess.PIPE,
-#        text=True,
-#    )
+    #    update_version = subprocess.run(
+    #        ["pacman", "-Qu", sys.argv[1], "|", "awk", "'{print $NF}'"],
+    #        stdout=subprocess.PIPE,
+    #        text=True,
+    #    )
     function_name = "sh_this_package_update"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-    update_version = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
+    update_version = subprocess.run(
+        command, shell=True, stdout=subprocess.PIPE, text=True
+    )
 
     #    # Executa o primeiro comando
     #    p1 = subprocess.Popen(
@@ -132,12 +104,9 @@ def print_pkg_details(details):
         print('<img class="icon_view" src="', details.get_icon(), '">')
     print("<div id=titleName>", details.get_id(), "</div></div></div>")
 
-    #   if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary'):
     if os.path.exists(
         "description/" + details.get_name() + "/" + locale.getlocale()[0] + "/summary"
     ):
-        print("<div id=description>")
-        #       print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
         print(
             open(
                 "description/"
@@ -150,7 +119,8 @@ def print_pkg_details(details):
         )
         print("</div></div>")
     else:
-        print("<div id=description>", details.get_desc(), "</div></div>")
+        #        print("<div id=description>", details.get_desc(), "</div></div>")
+        print("<div id=description>", pkg_summary, "</div></div>")
     print('<div class="row center">')
     if details.get_installed_version():
         print(
@@ -245,12 +215,10 @@ def print_pkg_details(details):
                 )
                 print("</ul></div>")
 
-    #   if os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
     if os.path.exists(
         "description/" + details.get_name() + "/" + locale.getlocale()[0] + "/desc"
     ):
         print("<div id=pkgDescriptionBox><div id=pkgDescription>")
-        #       print(open('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
         print(
             open(
                 "description/"
@@ -478,6 +446,7 @@ if __name__ == "__main__":
     config.set_enable_snap(False)
     db = Pamac.Database(config=config)
     pkgname = "^" + sys.argv[1] + "$"
+    pkg_summary = sys.argv[2]
 
     # To multi packages
     # db.enable_appstream()
@@ -489,4 +458,4 @@ if __name__ == "__main__":
     # To single package
     #   db.enable_appstream()
     pkg = db.get_pkg(sys.argv[1])
-    print_pkg_details(pkg)
+    print_pkg_details(pkg, pkg_summary)
