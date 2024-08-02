@@ -119,7 +119,7 @@ def print_pkg_details(details, pkg_summary):
         )
         print("</div></div>")
     else:
-        #        print("<div id=description>", details.get_desc(), "</div></div>")
+#        print("<div id=description>", details.get_desc(), "</div></div>")
         print("<div id=description>", pkg_summary, "</div></div>")
     print('<div class="row center">')
     if details.get_installed_version():
@@ -177,7 +177,6 @@ def print_pkg_details(details, pkg_summary):
         )
 
     screenshot_store = "description/" + details.get_name() + "/screenshot"
-    #   if details.get_long_desc() or details.get_screenshots() or os.path.exists(screenshot_store) or os.path.exists('description/' + details.get_name() + '/' + locale.getdefaultlocale()[0] + '/desc'):
     if (
         details.get_long_desc()
         or details.get_screenshots()

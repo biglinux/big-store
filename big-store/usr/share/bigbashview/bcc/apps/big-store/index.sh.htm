@@ -232,8 +232,8 @@ function FLATPAK_CATEGORY {
 		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
 			cat <<-EOF
 				<script>runAvatarFlatpak();</script>
-				<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
-				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
+				<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html'); </script>
+				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html'); </script>
 				</div>
 				</div>
 			EOF

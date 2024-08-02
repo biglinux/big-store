@@ -44,8 +44,8 @@ function sh_config() {
 	export PACKAGE_ID="$(echo "${PKG_FLATPAK[PKG_ID]}" | cut -f2-90 -d"/")"
 }
 
-function sh_view_flatpak_sh_htm() {
-	[[ -z "$PACKAGE_ID" ]] && PACKAGE_ID="$pkg_name" || PACKAGE_ID="${FLATPAK[PACKAGE_ID]}"
+function sh_main_view_flatpak_sh_htm() {
+	[[ -z "$PACKAGE_ID" ]] && PACKAGE_ID="$pkg_name" || PACKAGE_ID="${FLATPAK[PKG_ID]}"
 
 	if [[ "$pkg_install" = "y" ]]; then
 		ACTION="install_flatpak"
@@ -126,4 +126,4 @@ function sh_view_flatpak_sh_htm() {
 
 #sh_debug
 sh_config
-sh_view_flatpak_sh_htm "$@"
+sh_main_view_flatpak_sh_htm "$@"
