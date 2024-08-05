@@ -6,7 +6,7 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2020/11/01
-#  Altered: 2024/08/01
+#  Altered: 2024/08/04
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,13 +34,13 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240801 - 00:43"
+_VERSION_="1.0.0-20240805 - 23:23"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
+function sh_header_sh_htm_config() {
 	#Translation
 	export TEXTDOMAINDIR='/usr/share/locale'
 	export TEXTDOMAIN=big-store
@@ -114,11 +114,10 @@ Desligado, pesquisa somente nomes de pacotes"
 	export snap_checkbox
 	declare -g resultFilter_checkbox
 	declare -g searchFilter_checkbox
+	declare -g SUB_CATEGORY
 }
 
-function sh_category {
-	declare -g SUB_CATEGORY
-
+function sh_header_sh_htm_process_category() {
 	case "$category" in
 	3d) SUB_CATEGORY=$"Edição 3D e CAD" ;;
 	audioplayer) SUB_CATEGORY=$"Reprodutores de áudio" ;;
@@ -169,7 +168,7 @@ function sh_category {
 	esac
 }
 
-function sh_include_div_he {
+function sh_header_sh_htm_include_div_he {
 	if sh_lang_he; then
 		echo '<div class="header-profile-back" style="margin-left: 15px;">'
 	else
@@ -347,7 +346,7 @@ function sh_header_sh_htm_main {
 	aur_checkbox="$(sh_toggle_switch_key "$aur_change" 'aur' 'aur_active')"
 	#FLATPAK
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		flatpak_checkbox="$(sh_toggle_switch_key "$flatpak_change" 'flatpak' 'flapak_hide')"							#FLATPAK
+		flatpak_checkbox="$(sh_toggle_switch_key "$flatpak_change" 'flatpak' 'flatpak_hide')"							#FLATPAK
 	else
 		DISABLE_FLATPAK="y"
 	fi
@@ -533,18 +532,13 @@ function sh_header_sh_htm_main {
 		<div class="main-container">
 		<div class="main-header">
 
-		$(sh_include_div_he)
+		$(sh_header_sh_htm_include_div_he)
 
 		<a href="#" onclick="history.back()">
-			<svg aria-hidden="true"
-				focusable="false"
-				data-prefix="fas"
-				data-icon="info-circle"
-				role="img"
-				xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x">
-				<path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class="">
-				</path>
-			</svg>
+		<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-info-circle fa-w-16 fa-3x">
+		<path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class="">
+		</path>
+		</svg>
 		</a>
 		</div>
 	EOF
@@ -571,7 +565,9 @@ function sh_header_sh_htm_main {
 		$Nativos_text
 		<!-- <div id="appstream_icon_loading"></div> -->
 		<div id="appstream_number"></div>
-		</label></div></div>
+		</label>
+		</div>
+		</div>
 	EOF
 
 	cat <<-EOF
@@ -629,7 +625,7 @@ function sh_header_sh_htm_main {
 		<div class="content-wrapper">
 	EOF
 
-	sh_category
+	sh_header_sh_htm_process_category
 
 	if [[ -n "$SUB_CATEGORY" ]]; then
 		cat <<-EOF
@@ -640,27 +636,22 @@ function sh_header_sh_htm_main {
 	fi
 
 	# Verifica que alguma palavra foi digitada na busca
-	if [ "${#search}" -ge "2" ]; then
-
+	if [[ "${#search}" -ge 2 ]]; then
 		if [[ "$appstream_checkbox" = "checked" ]]; then
 			APPSTREAM_CATEGORY "${search,,}"
 		fi
-
 		if [[ "$aur_checkbox" = "checked" ]]; then
 			AUR_CATEGORY "${search,,}"
 		fi
-
 		if [[ "$flatpak_checkbox" = "checked" ]]; then
 			FLATPAK_CATEGORY "${search,,}"
 		fi
-
 		if [[ "$snap_checkbox" = "checked" ]]; then
 			SNAP_CATEGORY "${search,,}"
 		fi
-
 	fi
 }
 
 #sh_debug
-sh_config
+sh_header_sh_htm_config
 sh_header_sh_htm_main

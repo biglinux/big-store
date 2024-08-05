@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/08/01
+#  Altered: 2024/08/05
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,25 +34,18 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='01-08-2024 - 01:03'
-_VERSION_="1.0.0-20240801"
+_DATE_ALTERED_='05-08-2024 - 12:10'
+_VERSION_="1.0.0-20240805"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
-	#Translation
-	export TEXTDOMAINDIR="/usr/share/locale"
-	export TEXTDOMAIN=big-store
+function sh_index_sh_htm_config {
 	export ACTION
 	export WINDOW_ID
 	export PACKAGE_NAME
-	declare -g Programas_AUR=$"Programas AUR"
-	declare -g Programas_Flatpak=$"Programas Flatpak"
-	declare -g Programas_Nativos=$"Programas Nativos"
-
 	declare -g cAudio=$"Audio"
 	declare -g cImagem=$"Imagem"
 	declare -g cVideo=$"Video"
@@ -78,43 +71,43 @@ function sh_config {
 
 function APPSTREAM_CATEGORY() {
 	local param_search="$*"
+	local count
 
 	if [[ "$appstream_checkbox" = "checked" ]]; then
 		[[ -e "${TMP_FOLDER}/appstream_number.html" ]] && rm -f "${TMP_FOLDER}/appstream_number.html"
 		[[ -e "${TMP_FOLDER}/appstream.html" ]] && rm -f "${TMP_FOLDER}/appstream.html"
 		[[ -e "${TMP_FOLDER}/appstream_build.html" ]] && rm -f "${TMP_FOLDER}/appstream_build.html"
 
-		cat <<-EOF
-			<div class="row center" id="flex">
-			<div id="box_appstream_category" style="border-radius: 0 0 15px 15px;">
-			<div id="title_appstream">
-			<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
-			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-			<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
-			<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
-			</svg>
-			</div>
-			<div style="margin-right: 5px;">
-			$Programas_Nativos
-			</div>
-			</div>
-			</div>
-			<div id="content_appstream">
-			<script>document.getElementById("appstream_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-		EOF
-
-		pacman -Qu | awk '{print $1}' > $TMP_FOLDER/upgradeable.txt
+		pacman -Qu | awk '{print $1}' >$TMP_FOLDER/upgradeable.txt
 		if ((appstream_search_category)); then
-#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" & wait
+			#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+			sh_search_category_appstream_pamac "${param_search,,}" &
+			wait
 			appstream_search_category=0
 		else
-#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" & wait
+			#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+			sh_search_category_appstream_pamac "${param_search,,}" &
+			wait
 		fi
 
-		if [[ -e "${TMP_FOLDER}/appstream.html" ]]; then
+		if count=$(sh_read_number_var "${TMP_FOLDER}/appstream_number.html") && [[ $count -ge 1 ]]; then
 			cat <<-EOF
+				<div class="row center" id="flex">
+				<div id="box_appstream_category" style="border-radius: 0 0 15px 15px;">
+				<div id="title_appstream">
+				<div id="button_appstream" class="tooltipped" data-position="right" data-tooltip="$ABOUT_APPSTREAM">
+				<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+				<svg role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="width:17px;margin-left:5px;">
+				<path fill="var(--text-a-color)" d="M50.73 58.53C58.86 42.27 75.48 32 93.67 32H208V160H0L50.73 58.53zM240 160V32H354.3C372.5 32 389.1 42.27 397.3 58.53L448 160H240zM448 416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V192H448V416z"/>
+				</svg>
+				</div>
+				<div style="margin-right: 5px;">
+				$Programas_Nativos
+				</div>
+				</div>
+				</div>
+				<div id="content_appstream">
+				<script>document.getElementById("appstream_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 				<script>runAvatarAppstream();</script>
 				<script>fileReplaceDiv(true, '#content_appstream', '${TMP_FOLDER}/appstream.html'); </script>
 				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html'); </script>
@@ -123,8 +116,8 @@ function APPSTREAM_CATEGORY() {
 			EOF
 		else
 			cat <<-EOF
-				</div>
-				</div>
+				<script>runAvatarAppstream();</script>
+				<script>fileReplaceDiv(true, '#appstream_number', '${TMP_FOLDER}/appstream_number.html'); </script>
 			EOF
 		fi
 	fi
@@ -133,53 +126,53 @@ export -f APPSTREAM_CATEGORY
 
 function AUR_CATEGORY {
 	local param_search="$*"
+	local count
 
 	if [[ "$aur_checkbox" = "checked" ]]; then
 		[[ -e "${TMP_FOLDER}/aur_number.html" ]] && rm -f "${TMP_FOLDER}/aur_number.html"
 		[[ -e "${TMP_FOLDER}/aur.html" ]] && rm -f "${TMP_FOLDER}/aur.html"
 		[[ -e "${TMP_FOLDER}/aur_build.html" ]] && rm -f "${TMP_FOLDER}/aur_build.html"
 
-		cat <<-EOF
-			<div class="row center" id="flex">
-			<div id="box_aur" style="border-radius: 0 0 15px 15px;">
-			<div id="title_aur">
-			<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
-			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-			<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
-			<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
-			</svg>
-			</div>
-			<div style="margin-right: 5px;">
-			$Programas_AUR
-			</div>
-			</div>
-			</div>
-			<div id="content_aur">
-			<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-		EOF
-
 		if ((aur_search_category)); then
-#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
-# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
- 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
+			#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
+			# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
+			wait
 			aur_search_category=0
 		else
-#			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
- 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
+			#			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
+			wait
 		fi
 
-		if [[ -e "${TMP_FOLDER}/aur.html" ]]; then
+		if count=$(sh_read_number_var "${TMP_FOLDER}/aur_number.html") && [[ $count -ge 1 ]]; then
 			cat <<-EOF
+				<div class="row center" id="flex">
+				<div id="box_aur" style="border-radius: 0 0 15px 15px;">
+				<div id="title_aur">
+				<div id="button_aur" class="tooltipped" data-position="right" data-tooltip="$ABOUT_AUR">
+				<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+				<svg role="img" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+				<path fill="var(--text-a-color)" d="M75.23 33.4L320 63.1L564.8 33.4C571.5 32.56 578 36.06 581.1 42.12L622.8 125.5C631.7 143.4 622.2 165.1 602.9 170.6L439.6 217.3C425.7 221.2 410.8 215.4 403.4 202.1L320 63.1L236.6 202.1C229.2 215.4 214.3 221.2 200.4 217.3L37.07 170.6C17.81 165.1 8.283 143.4 17.24 125.5L58.94 42.12C61.97 36.06 68.5 32.56 75.23 33.4H75.23zM321.1 128L375.9 219.4C390.8 244.2 420.5 255.1 448.4 248L576 211.6V378.5C576 400.5 561 419.7 539.6 425.1L335.5 476.1C325.3 478.7 314.7 478.7 304.5 476.1L100.4 425.1C78.99 419.7 64 400.5 64 378.5V211.6L191.6 248C219.5 255.1 249.2 244.2 264.1 219.4L318.9 128H321.1z"/>
+				</svg>
+				</div>
+				<div style="margin-right: 5px;">
+				$Programas_AUR
+				</div>
+				</div>
+				</div>
+				<div id="content_aur">
+				<script>document.getElementById("aur_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 				<script>runAvatarAur();</script>
-				<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html');</script>
-				<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html');</script>
+				<script>fileReplaceDiv(true, '#content_aur', '${TMP_FOLDER}/aur.html'); </script>
+				<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html'); </script>
 				</div>
 				</div>
 			EOF
 		else
 			cat <<-EOF
-				</div>
-				</div>
+				<script>runAvatarAur();</script>
+				<script>fileReplaceDiv(true, '#aur_number', '${TMP_FOLDER}/aur_number.html'); </script>
 			EOF
 		fi
 	fi
@@ -189,58 +182,50 @@ export -f AUR_CATEGORY
 function FLATPAK_CATEGORY {
 	local param_search="$*"
 	local i
-
-#	xdebug "FLATPAK_CATEGORY : $search : all:$@"
+	local count
 
 	if [[ "$flatpak_checkbox" = "checked" ]]; then
 		[[ -e "$TMP_FOLDER/flatpak_number.html" ]] && rm -f "$TMP_FOLDER/flatpak_number.html"
 		[[ -e "$TMP_FOLDER/flatpak.html" ]] && rm -f "$TMP_FOLDER/flatpak.html"
 		[[ -e "$TMP_FOLDER/flatpak_build.html" ]] && rm -f "$TMP_FOLDER/flatpak_build.html"
 
-		cat <<-EOF
-			<div class="row center" id="flex">
-			<div id="box_flatpak" style="border-radius: 0 0 15px 15px;">
-			<div id="title_flatpak">
-			<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
-			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-			<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
-			<path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/>
-			</svg>
-			</div>
-			<div style="margin-right: 5px;">
-			$Programas_Flatpak
-			</div></div></div>
-			<div id="content_flatpak">
-			<script>document.getElementById("flatpak_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-		EOF
-
-		#	xdebug "$param_search"
-		#	xdebug "$flatpak_search_category"
-
-		if (( flatpak_search_category )); then
-#			sh_search_flatpak "${param_search,,}" & wait
-			sh_search_flatpak "${param_search,,}"
+		if ((flatpak_search_category)); then
+			sh_search_flatpak "${param_search,,}" &
+			wait
 			flatpak_search_category=0
 		else
-#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}"
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" &
+			wait
 		fi
 
-#   <!-- <script>document.addEventListener('DOMContentLoaded', (event) => { document.getElementById('flatpak_number').textContent = 100; }); </script> -->
-#   <!-- <script>$(document).ready(function(){ $('#flatpak_number').text(100);}); </script> -->
-
-		if [[ -e "${TMP_FOLDER}/flatpak.html" ]]; then
+		if count="$(sh_read_number_var "${TMP_FOLDER}/flatpak_number.html")" && [[ "$count" -ge 1 ]]; then
 			cat <<-EOF
+				<div class="row center" id="flex">
+				<div id="box_flatpak" style="border-radius: 0 0 15px 15px;">
+				<div id="title_flatpak">
+				<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
+				<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+				<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+				<path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/>
+				</svg>
+				</div>
+				<div style="margin-right: 5px;">
+				$Programas_Flatpak
+				</div>
+				</div>
+				</div>
+				<div id="content_flatpak">
+				<script>document.getElementById("flatpak_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 				<script>runAvatarFlatpak();</script>
-				<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html');</script>
-				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html');</script>
+				<script>fileReplaceDiv(true, '#content_flatpak', '${TMP_FOLDER}/flatpak.html'); </script>
+				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html'); </script>
 				</div>
 				</div>
 			EOF
 		else
 			cat <<-EOF
-				</div>
-				</div>
+				<script>runAvatarFlatpak();</script>
+				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html'); </script>
 			EOF
 		fi
 	fi
@@ -250,45 +235,50 @@ export -f FLATPAK_CATEGORY
 function SNAP_CATEGORY {
 	local param_search="$*"
 	local i
+	local count
 
 	if [[ "$snap_checkbox" = "checked" ]]; then
 		[[ -e "$TMP_FOLDER/snap.html" ]] && rm -f "$TMP_FOLDER/snap.html"
 		[[ -e "$TMP_FOLDER/snap_number.html" ]] && rm -f "$TMP_FOLDER/snap_number.html"
 		[[ -e "$TMP_FOLDER/snap_build.html" ]] && rm -f "$TMP_FOLDER/snap_build.html"
-		cat <<-EOF
-			<div class="row center" id="flex">
-			<div id="box_snap" style="border-radius: 0 0 15px 15px;">
-			<div id="title_snap">
-			<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_SNAP">
-			<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-			<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
-			<path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/>
-			</svg>
-			</div><div style="margin-right: 5px;">
-			$Programas_Snap
-			</div></div></div>
-			<div id="content_snap">
-			<script>document.getElementById("snap_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
-		EOF
 
-		if (( snap_search_category )); then
-			sh_search_snap "${param_search,,}" & wait
+		if ((snap_search_category)); then
+			sh_search_snap "${param_search,,}" &
+			wait
 			snap_search_category=0
 		else
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" & wait
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" &
+			wait
 		fi
 
-		if [[ -e "${TMP_FOLDER}/snap.html" ]]; then
+		if count=$(sh_read_number_var "${TMP_FOLDER}/snap_number.html") && [[ $count -ge 1 ]]; then
 			cat <<-EOF
+				<div class="row center" id="flex">
+				<div id="box_snap" style="border-radius: 0 0 15px 15px;">
+				<div id="title_snap">
+				<div id="button_flatpak" class="tooltipped" data-position="right" data-tooltip="$ABOUT_SNAP">
+				<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
+				<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left: 5px;">
+				<path fill="var(--text-a-color)" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z"/>
+				</svg>
+				</div>
+				<div style="margin-right: 5px;">
+				$Programas_Snap
+				</div>
+				</div>
+				</div>
+				<div id="content_snap">
+				<script>document.getElementById("snap_icon_loading").innerHTML = "<div class=progress><div class=indeterminate></div></div>";</script>
 				<script>runAvatarSnap();</script>
-				<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html');</script>
-				<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html');</script>
-				</div></div>
+				<script>fileReplaceDiv(true, '#content_snap', '${TMP_FOLDER}/snap.html'); </script>
+				<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html'); </script>
+				</div>
+				</div>
 			EOF
 		else
 			cat <<-EOF
-				</div>
-				</div>
+				<script>runAvatarSnap();</script>
+				<script>fileReplaceDiv(true, '#snap_number',  '${TMP_FOLDER}/snap_number.html'); </script>
 			EOF
 		fi
 	fi
@@ -324,7 +314,7 @@ export -f ICON_CATEGORY
 
 #Show category in first page
 ############################
-function sh_main {
+function sh_index_sh_htm_main {
 	source header.sh.htm
 	if [[ -z "$category" ]] && [[ "${#search}" -le "2" ]]; then
 		cat <<-EOF
@@ -341,7 +331,7 @@ function sh_main {
 			<div id="box_index_category">
 		EOF
 
-#		if sh_get_XIVAStudio; then
+		#		if sh_get_XIVAStudio; then
 		if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 			cat <<-EOF
 				<div id="xystem" class="category_box">
@@ -453,8 +443,8 @@ function sh_main {
 		ICON_CATEGORY book "fas fa-book" $"Visualizadores de PDF, Epub, e-books e mais" $cEscritorio
 		ICON_CATEGORY pdf "fas fa-file-pdf" $"Editores de PDF" $cEscritorio
 		ICON_CATEGORY calendar "fas fa-calendar-alt" $"Agenda de tarefas e contatos" $cEscritorio
-#		ICON_CATEGORY calc "fas fa-calculator" $"Cálculos" $cEscritorio
-#		ICON_CATEGORY other "fas fa-random" $"Outros" $cEscritorio
+		#		ICON_CATEGORY calc "fas fa-calculator" $"Cálculos" $cEscritorio
+		#		ICON_CATEGORY other "fas fa-random" $"Outros" $cEscritorio
 
 		cat <<-EOF
 			</div></div></div>
@@ -602,7 +592,7 @@ function sh_main {
 		ICON_CATEGORY devbd "fas fa-database" $"Banco de dados" $cDesenvolvimento
 		ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB" $cDesenvolvimento
 
-#sex 05 jan 2024 12:19:03 -04
+		#sex 05 jan 2024 12:19:03 -04
 		cat <<-EOF
 			</div>
 			</div>
@@ -615,104 +605,104 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about&main_category=$cSobre -->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
-						<ul style="margin-top:-10px;">
-            <li>$(gettext "Ambiente"):</li>
-            	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Desktop") : $XDG_CURRENT_DESKTOP
-            	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Sessão") : $XDG_SESSION_TYPE
-						</ul>
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about&main_category=$cSobre -->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
 						</div>
-					</div>
-				</div>
-			</div>
-		<!-- /a -->
-	EOF
-
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
-						<ul style="margin-top:-10px;">
-							<li>$(gettext "Aplicativo"):</li>
-              	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Nome") : $TEXTDOMAIN</span>
-              	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Htm versão") : $_HTML_VERSION_
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Lib versão") : $_BSTRLIB_VERSION_
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		<!--/a-->
-	EOF
-
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
 							<ul style="margin-top:-10px;">
-							<li>$(gettext "Desenvolvedores"):</li>
-              	&nbsp;&nbsp;&nbsp;&nbsp;Vilmar, vcatafesta@gmail.com
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Bruno, biglinux.com.br
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Rafael, rruscher@gmail.com
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;eltonff, biglinux.com.br
-						</ul>
+			            <li>$(gettext "Ambiente"):</li>
+			             &nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Desktop") : $XDG_CURRENT_DESKTOP
+			             <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Sessão") : $XDG_SESSION_TYPE
+							</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		<!--/a-->
-	EOF
+			<!-- /a -->
+		EOF
 
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
-							<ul style="margin-top:-10px;padding:10px;">
-                <li>$(gettext "Colaboradores"):</li>
-                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
-						</ul>
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
+							<ul style="margin-top:-10px;">
+								<li>$(gettext "Aplicativo"):</li>
+			               &nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Nome") : $TEXTDOMAIN</span>
+			               <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Htm versão") : $_HTML_VERSION_
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Lib versão") : $_BSTRLIB_VERSION_
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		<!--/a-->
-	EOF
-#sex 05 jan 2024 12:19:03 -04
+			<!--/a-->
+		EOF
+
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
+								<ul style="margin-top:-10px;">
+								<li>$(gettext "Desenvolvedores"):</li>
+			               &nbsp;&nbsp;&nbsp;&nbsp;Vilmar, vcatafesta@gmail.com
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Bruno, biglinux.com.br
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Rafael, rruscher@gmail.com
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;eltonff, biglinux.com.br
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!--/a-->
+		EOF
+
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
+								<ul style="margin-top:-10px;padding:10px;">
+			                <li>$(gettext "Colaboradores"):</li>
+			                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!--/a-->
+		EOF
+		#sex 05 jan 2024 12:19:03 -04
 
 		cat <<-EOF
 			</div>
@@ -722,7 +712,7 @@ function sh_main {
 	fi
 
 	source biglinux-category
-#	if sh_get_XIVAStudio; then
+	#	if sh_get_XIVAStudio; then
 	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		source xiva-category
 		cat <<-EOF
@@ -748,5 +738,5 @@ function sh_main {
 }
 
 #sh_debug
-sh_config
-sh_main
+sh_index_sh_htm_config
+sh_index_sh_htm_main
