@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/08/01
+#  Altered: 2024/08/05
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,25 +34,18 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='01-08-2024 - 01:03'
-_VERSION_="1.0.0-20240801"
+_DATE_ALTERED_='05-08-2024 - 12:10'
+_VERSION_="1.0.0-20240805"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
-	#Translation
-	export TEXTDOMAINDIR="/usr/share/locale"
-	export TEXTDOMAIN=big-store
+function sh_index_sh_htm_config {
 	export ACTION
 	export WINDOW_ID
 	export PACKAGE_NAME
-	declare -g Programas_AUR=$"Programas AUR"
-	declare -g Programas_Flatpak=$"Programas Flatpak"
-	declare -g Programas_Nativos=$"Programas Nativos"
-
 	declare -g cAudio=$"Audio"
 	declare -g cImagem=$"Imagem"
 	declare -g cVideo=$"Video"
@@ -85,14 +78,16 @@ function APPSTREAM_CATEGORY() {
 		[[ -e "${TMP_FOLDER}/appstream.html" ]] && rm -f "${TMP_FOLDER}/appstream.html"
 		[[ -e "${TMP_FOLDER}/appstream_build.html" ]] && rm -f "${TMP_FOLDER}/appstream_build.html"
 
-		pacman -Qu | awk '{print $1}' > $TMP_FOLDER/upgradeable.txt
+		pacman -Qu | awk '{print $1}' >$TMP_FOLDER/upgradeable.txt
 		if ((appstream_search_category)); then
-#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" & wait
+			#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+			sh_search_category_appstream_pamac "${param_search,,}" &
+			wait
 			appstream_search_category=0
 		else
-#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" & wait
+			#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
+			sh_search_category_appstream_pamac "${param_search,,}" &
+			wait
 		fi
 
 		if count=$(sh_read_number_var "${TMP_FOLDER}/appstream_number.html") && [[ $count -ge 1 ]]; then
@@ -139,13 +134,15 @@ function AUR_CATEGORY {
 		[[ -e "${TMP_FOLDER}/aur_build.html" ]] && rm -f "${TMP_FOLDER}/aur_build.html"
 
 		if ((aur_search_category)); then
-#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
-# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
- 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
+			#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
+			# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
+			wait
 			aur_search_category=0
 		else
-#			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
- 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" & wait
+			#			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
+			wait
 		fi
 
 		if count=$(sh_read_number_var "${TMP_FOLDER}/aur_number.html") && [[ $count -ge 1 ]]; then
@@ -192,14 +189,16 @@ function FLATPAK_CATEGORY {
 		[[ -e "$TMP_FOLDER/flatpak.html" ]] && rm -f "$TMP_FOLDER/flatpak.html"
 		[[ -e "$TMP_FOLDER/flatpak_build.html" ]] && rm -f "$TMP_FOLDER/flatpak_build.html"
 
-		if (( flatpak_search_category )); then
-			sh_search_flatpak "${param_search,,}" & wait
+		if ((flatpak_search_category)); then
+			sh_search_flatpak "${param_search,,}" &
+			wait
 			flatpak_search_category=0
 		else
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" & wait
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_flatpak "${param_search,,}" &
+			wait
 		fi
 
-		if count=$(sh_read_number_var "${TMP_FOLDER}/flatpak_number.html") && [[ $count -ge 1 ]]; then
+		if count="$(sh_read_number_var "${TMP_FOLDER}/flatpak_number.html")" && [[ "$count" -ge 1 ]]; then
 			cat <<-EOF
 				<div class="row center" id="flex">
 				<div id="box_flatpak" style="border-radius: 0 0 15px 15px;">
@@ -222,7 +221,7 @@ function FLATPAK_CATEGORY {
 				<script>fileReplaceDiv(true, '#flatpak_number', '${TMP_FOLDER}/flatpak_number.html'); </script>
 				</div>
 				</div>
-			fi
+			EOF
 		else
 			cat <<-EOF
 				<script>runAvatarFlatpak();</script>
@@ -243,11 +242,13 @@ function SNAP_CATEGORY {
 		[[ -e "$TMP_FOLDER/snap_number.html" ]] && rm -f "$TMP_FOLDER/snap_number.html"
 		[[ -e "$TMP_FOLDER/snap_build.html" ]] && rm -f "$TMP_FOLDER/snap_build.html"
 
-		if (( snap_search_category )); then
-			sh_search_snap "${param_search,,}" & wait
+		if ((snap_search_category)); then
+			sh_search_snap "${param_search,,}" &
+			wait
 			snap_search_category=0
 		else
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" & wait
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_snap "${param_search,,}" &
+			wait
 		fi
 
 		if count=$(sh_read_number_var "${TMP_FOLDER}/snap_number.html") && [[ $count -ge 1 ]]; then
@@ -313,7 +314,7 @@ export -f ICON_CATEGORY
 
 #Show category in first page
 ############################
-function sh_main {
+function sh_index_sh_htm_main {
 	source header.sh.htm
 	if [[ -z "$category" ]] && [[ "${#search}" -le "2" ]]; then
 		cat <<-EOF
@@ -330,7 +331,7 @@ function sh_main {
 			<div id="box_index_category">
 		EOF
 
-#		if sh_get_XIVAStudio; then
+		#		if sh_get_XIVAStudio; then
 		if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 			cat <<-EOF
 				<div id="xystem" class="category_box">
@@ -442,8 +443,8 @@ function sh_main {
 		ICON_CATEGORY book "fas fa-book" $"Visualizadores de PDF, Epub, e-books e mais" $cEscritorio
 		ICON_CATEGORY pdf "fas fa-file-pdf" $"Editores de PDF" $cEscritorio
 		ICON_CATEGORY calendar "fas fa-calendar-alt" $"Agenda de tarefas e contatos" $cEscritorio
-#		ICON_CATEGORY calc "fas fa-calculator" $"Cálculos" $cEscritorio
-#		ICON_CATEGORY other "fas fa-random" $"Outros" $cEscritorio
+		#		ICON_CATEGORY calc "fas fa-calculator" $"Cálculos" $cEscritorio
+		#		ICON_CATEGORY other "fas fa-random" $"Outros" $cEscritorio
 
 		cat <<-EOF
 			</div></div></div>
@@ -591,7 +592,7 @@ function sh_main {
 		ICON_CATEGORY devbd "fas fa-database" $"Banco de dados" $cDesenvolvimento
 		ICON_CATEGORY devwebserver "fas fa-server" $"Servidores WEB" $cDesenvolvimento
 
-#sex 05 jan 2024 12:19:03 -04
+		#sex 05 jan 2024 12:19:03 -04
 		cat <<-EOF
 			</div>
 			</div>
@@ -604,104 +605,104 @@ function sh_main {
 			<div class="category_index_list">
 		EOF
 
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about&main_category=$cSobre -->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
-						<ul style="margin-top:-10px;">
-            <li>$(gettext "Ambiente"):</li>
-            	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Desktop") : $XDG_CURRENT_DESKTOP
-            	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Sessão") : $XDG_SESSION_TYPE
-						</ul>
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about&main_category=$cSobre -->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
 						</div>
-					</div>
-				</div>
-			</div>
-		<!-- /a -->
-	EOF
-
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
-						<ul style="margin-top:-10px;">
-							<li>$(gettext "Aplicativo"):</li>
-              	&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Nome") : $TEXTDOMAIN</span>
-              	<br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Htm versão") : $_HTML_VERSION_
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Lib versão") : $_BSTRLIB_VERSION_
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		<!--/a-->
-	EOF
-
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
 							<ul style="margin-top:-10px;">
-							<li>$(gettext "Desenvolvedores"):</li>
-              	&nbsp;&nbsp;&nbsp;&nbsp;Vilmar, vcatafesta@gmail.com
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Bruno, biglinux.com.br
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Rafael, rruscher@gmail.com
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;eltonff, biglinux.com.br
-						</ul>
+			            <li>$(gettext "Ambiente"):</li>
+			             &nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Desktop") : $XDG_CURRENT_DESKTOP
+			             <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Sessão") : $XDG_SESSION_TYPE
+							</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		<!--/a-->
-	EOF
+			<!-- /a -->
+		EOF
 
-	cat <<-EOF
-		<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
-			<div class="icon_background">
-				<div class="vertical_align_center">
-					<div class="icon">
-						<span class="category_font_icon">
-							<i class="fa fa-info" aria-hidden="true"></i>
-						</span>
-					</div>
-					<div class="icon_text_about">
-						<div class="icon_text_vertical_align">
-							<ul style="margin-top:-10px;padding:10px;">
-                <li>$(gettext "Colaboradores"):</li>
-                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
-						</ul>
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
+							<ul style="margin-top:-10px;">
+								<li>$(gettext "Aplicativo"):</li>
+			               &nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Nome") : $TEXTDOMAIN</span>
+			               <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Htm versão") : $_HTML_VERSION_
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;$(gettext "Lib versão") : $_BSTRLIB_VERSION_
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		<!--/a-->
-	EOF
-#sex 05 jan 2024 12:19:03 -04
+			<!--/a-->
+		EOF
+
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
+								<ul style="margin-top:-10px;">
+								<li>$(gettext "Desenvolvedores"):</li>
+			               &nbsp;&nbsp;&nbsp;&nbsp;Vilmar, vcatafesta@gmail.com
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Bruno, biglinux.com.br
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Rafael, rruscher@gmail.com
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;eltonff, biglinux.com.br
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!--/a-->
+		EOF
+
+		cat <<-EOF
+			<!-- a onclick="disableBody();" href=index.sh.htm?category=about-->
+				<div class="icon_background">
+					<div class="vertical_align_center">
+						<div class="icon">
+							<span class="category_font_icon">
+								<i class="fa fa-info" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="icon_text_about">
+							<div class="icon_text_vertical_align">
+								<ul style="margin-top:-10px;padding:10px;">
+			                <li>$(gettext "Colaboradores"):</li>
+			                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!--/a-->
+		EOF
+		#sex 05 jan 2024 12:19:03 -04
 
 		cat <<-EOF
 			</div>
@@ -711,7 +712,7 @@ function sh_main {
 	fi
 
 	source biglinux-category
-#	if sh_get_XIVAStudio; then
+	#	if sh_get_XIVAStudio; then
 	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		source xiva-category
 		cat <<-EOF
@@ -737,5 +738,5 @@ function sh_main {
 }
 
 #sh_debug
-sh_config
-sh_main
+sh_index_sh_htm_config
+sh_index_sh_htm_main
