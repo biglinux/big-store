@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2024/07/31
+#  Altered: 2024/08/05
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240731"
+_VERSION_="1.0.0-20240805"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
@@ -66,8 +66,8 @@ function sh_config_sh_htm_config {
 	declare -g Forcar_atualizacao_text=$"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na atualização forçada alguns programas podem ser removidos."
 	declare -g Repositorios_nativos_text=$"Repositórios nativos"
 	declare -g Configuracoes=$"Configurações"
-	declare -g MsgSnap=$"Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-	declare -g MsgFlatpak=$"Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+	declare -g MsgSnap=$"Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+	declare -g MsgFlatpak=$"Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
 	declare -g Ao_instalar_pacotes_verificar_se_ha_atualizacoes=$"Ao instalar pacotes, verificar se há atualizações:"
 	declare -g tmp_file_upgradeable="${TMP_FOLDER}/upgradeable.txt"
 }
@@ -88,49 +88,49 @@ function sh_config_sh_htm_main {
 	sh_config_sh_htm_style
 	source header.sh.htm
 
-	# param $1 pkg_name	libpamac-flatpak-plugin
-	# 					libpamac-snap-plugin
+########################################################################################################################################################################################################
 
-	if [[ -n "$pkg_install" ]] && [[ "$pkg_name" == "libpamac-snap-plugin" ]]; then
+	if [[ "$pkg_flatpak" = "y" ]]; then
+		pkg_name='libpamac-flatpak-plugin'
+		if ! sh_package_is_installed "$pkg_name"; then
+			sh_run_pamac_installer "$pkg_name" 'flatpak'
+		fi
+		TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1'
+		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" 'quiet' &
+		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)" &
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+		wait
+	elif [[ "$pkg_flatpak" = "n" ]]; then
+		TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+	fi
+
+########################################################################################################################################################################################################
+
+	if [[ "$pkg_snap" = "y" ]]; then
+		pkg_name='libpamac-snap-plugin'
 		if ! sh_package_is_installed "$pkg_name"; then
 			sh_run_pamac_installer "$pkg_name" 'apparmor' 'snapd'
 		fi
 		#		sh_run_action "enable_snapd"
 		sh_run_action_standalone "sh_enable_snapd_and_apparmor"
 		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd.apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
+		kdialog \
+			--title $"Big-Store" \
+			--msgbox "$MsgSnap
+\nAVISO: Caso observe o erro (code=exited, status=42) no snapd, isso é esperado
+quando nenhum snap é/está instalado. O snapd desliga em tais cenários.
+\n$(systemctl status snapd --lines=0)
+$(systemctl status apparmor --lines=0)
+$(systemctl status snapd.apparmor --lines=0)" &
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
-	fi
-
-	if [[ -n "$pkg_install" ]] && [[ "$pkg_name" == "libpamac-flatpak-plugin" ]]; then
-		if ! sh_package_is_installed "$pkg_name"; then
-			sh_run_pamac_installer "$pkg_name" 'flatpak'
-		fi
-		TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)"
-		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" 'quiet' &
-		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
-	fi
-
-	if [[ -n "$pkg_remove" ]]; then
-		if [[ "$pkg_name" = "libpamac-flatpak-plugin" ]]; then
-			TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
-		fi
-		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
-			TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
-		fi
-		#		sh_run_pamac_remove $pkg_name
-		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
-	fi
-
-	if [[ "$pkg_snap" = "y" ]]; then
-		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd.apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
-		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+		wait
 	elif [[ "$pkg_snap" = "n" ]]; then
 		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
+
+########################################################################################################################################################################################################
 
 	if [[ "$update_SimpleInstall" = "y" ]]; then
 		SimpleInstall=$(sh_check_simple_install)
@@ -146,6 +146,8 @@ function sh_config_sh_htm_main {
 		fi
 	fi
 
+########################################################################################################################################################################################################
+
 	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_pamac" = "y" ]] && sh_run_action "update_pamac" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
@@ -160,6 +162,8 @@ function sh_config_sh_htm_main {
 	[[ "$update_traducao" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "bigstore" "traducao_online" '0'
 	[[ "$update_xiva" = "y" ]] && TIni.Set "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'
 	[[ "$update_xiva" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '0'
+
+########################################################################################################################################################################################################
 
 	cat <<-EOF
 		<div id=box_index_category>
@@ -187,41 +191,34 @@ function sh_config_sh_htm_main {
 		</div>
 	EOF
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle true"></span>
-			$Ativado_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="f1">
-			<input id="f1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-flatpak-plugin';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
+		local _circle='true'
+    local _checked='checked'
+    local _handle='n'
+    local _text=$Ativado_text
+  else
+    local _circle='false'
+    local _checked=''
+    local _handle='y'
+    local _text=$Desativado_text
+  fi
+	cat <<-EOF
+		<span class="status">
+		<span class="status-circle $_circle"></span>
+		$Ativado_text
+		</span>
+		<div class="button-wrapper">
+		<div class="switch">
+		<label for="f1">
+		<input id="f1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_flatpak=$_handle';">
+		<span class="lever"></span>
+		</label>
+		</div>
+		</div>
+		</li>
 	EOF
-	else
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle false"></span>
-			$Desativado_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="f1">
-			<input id="f1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-flatpak-plugin';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
-		EOF
-	fi
-	#FLATPAK
+	#FLATPAK END
 
-	#SNAP
+	#SNAP BEGIN
 	cat <<-EOF
 		<li class="any-product">
 		<div class="products">
@@ -243,21 +240,21 @@ function sh_config_sh_htm_main {
     local _handle='y'
     local _text=$Desativado_text
   fi
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle _circle"></span>
-			$_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="s1">
-			<input id="s1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_snap=$_handle';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
-		EOF
+	cat <<-EOF
+		<span class="status">
+		<span class="status-circle _circle"></span>
+		$_text
+		</span>
+		<div class="button-wrapper">
+		<div class="switch">
+		<label for="s1">
+		<input id="s1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_snap=$_handle';">
+		<span class="lever"></span>
+		</label>
+		</div>
+		</div>
+		</li>
+	EOF
 	#SNAP
 
 	#TRADUCAO BEGIN
