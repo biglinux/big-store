@@ -84,6 +84,7 @@ function sh_config_sh_htm_style {
 }
 
 function sh_config_sh_htm_main {
+	local SimpleInstall
 	sh_config_sh_htm_style
 	source header.sh.htm
 
@@ -126,10 +127,23 @@ function sh_config_sh_htm_main {
 		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
 		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd.apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
-	fi
-	if [[ "$pkg_snap" = "n" ]]; then
+	elif [[ "$pkg_snap" = "n" ]]; then
 		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+	fi
+
+	if [[ "$update_SimpleInstall" = "y" ]]; then
+		SimpleInstall=$(sh_check_simple_install)
+		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
+		if ! ((SimpleInstall)); then
+	    pkexec sh_toggle_comment_pamac_conf 'comment' "SimpleInstall" "/etc/pamac.conf"
+	  fi
+	elif [[ "$update_SimpleInstall" = "n" ]]; then
+		SimpleInstall=$(sh_check_simple_install)
+		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '0'
+		if !((SimpleInstall)); then
+	    pkexec sh_toggle_comment_pamac_conf 'uncomment' "SimpleInstall" "/etc/pamac.conf"
+		fi
 	fi
 
 	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
@@ -146,8 +160,6 @@ function sh_config_sh_htm_main {
 	[[ "$update_traducao" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "bigstore" "traducao_online" '0'
 	[[ "$update_xiva" = "y" ]] && TIni.Set "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'
 	[[ "$update_xiva" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '0'
-	[[ "$update_SimpleInstall" = "y" ]] && TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
-	[[ "$update_SimpleInstall" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '0'
 
 	cat <<-EOF
 		<div id=box_index_category>
