@@ -71,6 +71,7 @@ function sh_config_sh_htm_config {
 	declare -g MsgFlatpak=$"Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
 	declare -g Ao_instalar_pacotes_verificar_se_ha_atualizacoes=$"Ao instalar pacotes, verificar se há atualizações:"
 	declare -g tmp_file_upgradeable="${TMP_FOLDER}/upgradeable.txt"
+	declare -g traducao_tooltipped=$"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A tradução online pode aumentar a latência na busca dos pacotes."
 }
 
 function sh_config_sh_htm_style {
@@ -208,11 +209,13 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$Ativado_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_FLATPAK" >
 		<div class="switch">
 		<label for="f1">
 		<input id="f1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_flatpak=$_handle';">
 		<span class="lever"></span>
 		</label>
+		</div>
 		</div>
 		</div>
 		</li>
@@ -247,11 +250,13 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_SNAP" >
 		<div class="switch">
 		<label for="s1">
 		<input id="s1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_snap=$_handle';">
 		<span class="lever"></span>
 		</label>
+		</div>
 		</div>
 		</div>
 		</li>
@@ -283,11 +288,13 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="$traducao_tooltipped" >
 		<div class="switch">
 		<label for="t1">
 		<input id="t1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?update_traducao=$_handle'; ">
 		<span class="lever"></span>
 		</label>
+		</div>
 		</div>
 		</div>
 		</li>
@@ -319,11 +326,13 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="AboutSimpleInstall" >
 		<div class="switch">
 		<label for="y1">
 		<input id="y1" type="checkbox" class="switch" $_checked onclick="handleCheckboxClickSimpleInstall('$_handle');">
 		<span class="lever"></span>
 		</label>
+		</div>
 		</div>
 		</div>
 		</li>
@@ -355,11 +364,13 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="AboutXiva" >
 		<div class="switch">
 		<label for="x1">
 		<input id="x1" type="checkbox" class="switch" $_checked onclick="handleCheckboxClick('$_handle');">
 		<span class="lever"></span>
 		</label>
+		</div>
 		</div>
 		</div>
 		</li>
