@@ -100,6 +100,10 @@ function sh_big_store_start_sh_main {
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
+	if [[ -z "$(TIni.Get "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall")" ]]; then
+		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
+	fi
+
 	if [[ ! -e $FILE_SUMMARY_JSON_CUSTOM ]]; then
 		if [[ -e $FILE_SUMMARY_JSON ]]; then
 			cp -f $FILE_SUMMARY_JSON $FILE_SUMMARY_JSON_CUSTOM

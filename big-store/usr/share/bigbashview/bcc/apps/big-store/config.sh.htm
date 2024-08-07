@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2024/07/31
+#  Altered: 2024/08/07
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,17 +34,18 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240731"
+_VERSION_="1.0.0-20240807"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
+function sh_config_sh_htm_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-	declare -g Pacotes_text=$"Pacotes"
+#	declare -g Pacotes_text=$"Pacotes"
+	declare -g Pacotes_text=$"Geral"
 	declare -g Pacotes_flatpak_text=$"Pacotes Flatpak"
 	declare -g Pacotes_Snap_text=$"Pacotes Snap"
 	declare -g Traducao_Online_text=$"Tradução online da descrição dos pacotes"
@@ -55,8 +56,9 @@ function sh_config {
 	declare -g Atualizar_sistema_text=$"Atualizar seu sistema"
 	declare -g Atualizar_text=$"Atualizar"
 	declare -g Atualizado_text=$"Atualizado em"
-	declare -g Atualizar_cache_text=$"Atualizar cache dos repositórios nativos"
-	declare -g Atualizar_cache_pamac_text=$"Atualizar cache do Pamac"
+	declare -g Repositorios_nativos=$"Repositórios nativos"
+	declare -g Atualizar_cache_dos_repositorios_nativos=$"Atualizar cache dos repositórios nativos"
+	declare -g Atualizar_cache_do_pamac=$"Atualizar cache do Pamac"
 	declare -g Procurar_servidor_mais_rapido_text=$"Procurar servidor de repositórios nativos mais rápidos"
 	declare -g Utilize_as_opcoes_a_seguir_com_Cautela_text=$"Utilize as opções a seguir com cautela"
 	declare -g Reinstalar_text=$"Reinstalação"
@@ -64,14 +66,15 @@ function sh_config {
 	declare -g Reinstalar_chaves=$"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
 	declare -g Executar_text=$"Executar"
 	declare -g Forcar_atualizacao_text=$"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na atualização forçada alguns programas podem ser removidos."
-	declare -g Repositorios_nativos_text=$"Repositórios nativos"
 	declare -g Configuracoes=$"Configurações"
-	declare -g MsgSnap=$"Para os programas Snap aparecerem no menu do sistema finalize a sessão e faça login novamente."
-	declare -g MsgFlatpak=$"Para os programas Flatpak aparecerem no menu do sistema finalize a sessão e faça login novamente."
+	declare -g MsgSnap=$"Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+	declare -g MsgFlatpak=$"Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+	declare -g Ao_instalar_pacotes_verificar_se_ha_atualizacoes=$"Ao instalar pacotes, verificar se há atualizações:"
 	declare -g tmp_file_upgradeable="${TMP_FOLDER}/upgradeable.txt"
+	declare -g traducao_tooltipped=$"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A tradução online pode aumentar a latência na busca dos pacotes."
 }
 
-function sh_style {
+function sh_config_sh_htm_style {
 	cat <<-EOF
 		<style>
 			a.waves-effect.waves-light.btn { color: white; margin-right: 16px; min-width: 171px; }
@@ -82,46 +85,79 @@ function sh_style {
 	EOF
 }
 
-function sh_main {
-	sh_style
+function sh_config_sh_htm_main {
+	local SimpleInstall
+	sh_config_sh_htm_style
 	source header.sh.htm
 
-	# param $1 pkg_name	libpamac-flatpak-plugin
-	# 					libpamac-snap-plugin
+#	xdebug "1-$update_flatpak\n2-$update_snap"
 
-	if [[ -n "$pkg_install" ]] && [[ "$pkg_name" == "libpamac-snap-plugin" ]]; then
-		if ! sh_package_is_installed "$pkg_name"; then
-			sh_run_pamac_installer "$pkg_name" 'apparmor' 'snapd'
-		fi
-		#		sh_run_action "enable_snapd"
-		sh_run_action_standalone "sh_enable_snapd_and_apparmor"
-		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgSnap\n\n$(systemctl status apparmor --lines=0)\n\n$(systemctl status snapd.apparmor --lines=0)\n\n$(systemctl status snapd --lines=0)"
-		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
-	fi
+########################################################################################################################################################################################################
 
-	if [[ -n "$pkg_install" ]] && [[ "$pkg_name" == "libpamac-flatpak-plugin" ]]; then
+	if [[ "$pkg_flatpak" = "y" ]]; then
+		pkg_name='libpamac-flatpak-plugin'
 		if ! sh_package_is_installed "$pkg_name"; then
 			sh_run_pamac_installer "$pkg_name" 'flatpak'
 		fi
 		TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1'
-		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)"
-		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" 'quiet' &
+		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_run_action_standalone "sh_update_cache_flatpak" &
+		kdialog --title $"Big-Store" --msgbox "$MsgFlatpak\n\n$(flatpak --version)\n$(flatpak remotes)" &
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+		wait
+	elif [[ "$pkg_flatpak" = "n" ]]; then
+		TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
-	if [[ -n "$pkg_remove" ]]; then
-		if [[ "$pkg_name" = "libpamac-flatpak-plugin" ]]; then
-			TIni.Set "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '0'
+########################################################################################################################################################################################################
+
+	if [[ "$pkg_snap" = "y" ]]; then
+		pkg_name='libpamac-snap-plugin'
+		if ! sh_package_is_installed "$pkg_name"; then
+			sh_run_pamac_installer "$pkg_name" 'apparmor' 'snapd'
 		fi
-		if [[ "$pkg_name" = "libpamac-snap-plugin" ]]; then
-			TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
-		fi
-		#		sh_run_pamac_remove $pkg_name
+		sh_run_action_standalone "sh_enable_snapd_and_apparmor"
+		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '1'
+		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_run_action_standalone "sh_update_cache_snap" &
+		kdialog \
+			--title $"Big-Store" \
+			--msgbox "$MsgSnap
+\nAVISO: Caso observe o erro (code=exited, status=42) no snapd, isso é esperado
+quando nenhum snap é/está instalado. O snapd desliga em tais cenários.
+\n$(systemctl status snapd --lines=0)
+$(systemctl status apparmor --lines=0)
+$(systemctl status snapd.apparmor --lines=0)" &
+		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
+		wait
+	elif [[ "$pkg_snap" = "n" ]]; then
+		TIni.Set "$INI_FILE_BIG_STORE" "snap" "snap_active" '0'
 		pacman -Qu | cut -f1 -d" " >>"$tmp_file_upgradeable"
 	fi
 
-	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+########################################################################################################################################################################################################
+
+	if [[ "$update_SimpleInstall" = "y" ]]; then
+		SimpleInstall=$(sh_check_simple_install)
+		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
+		if ! ((SimpleInstall)); then
+	     pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_toggle_comment_pamac_conf 'comment' "SimpleInstall" "/etc/pamac.conf"
+	  fi
+	elif [[ "$update_SimpleInstall" = "n" ]]; then
+		SimpleInstall=$(sh_check_simple_install)
+		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '0'
+		if !((SimpleInstall)); then
+	     pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_toggle_comment_pamac_conf 'uncomment' "SimpleInstall" "/etc/pamac.conf"
+		fi
+	fi
+
+########################################################################################################################################################################################################
+	[[ "$update_pacman" = "y" ]] &&  {
+#		sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+		sh_run_action_standalone "paru -Syy"
+		sh_run_action_standalone "paru -Fyy"
+		TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_atualizado" '1'
+		TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_data_atualizacao" "$(date "+%d/%m/%y %H:%M")"
+	}
 	[[ "$update_pamac" = "y" ]] && sh_run_action "update_pamac" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_keys" = "y" ]] && sh_run_action "update_keys" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
@@ -129,18 +165,19 @@ function sh_main {
 	[[ "$reinstall_allpkg" = "y" ]] && sh_run_action "reinstall_allpkg" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$system_upgrade" = "y" ]] && sh_run_action "system_upgrade" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$system_upgradetotal" = "y" ]] && sh_run_action "system_upgradetotal" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$update_flatpak" = "y" ]] && sh_run_action "update_flatpak" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-	[[ "$update_snap" = "y" ]] && sh_run_action "update_snap" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$update_flatpak" = "y" ]] && sh_run_action_standalone "sh_update_cache_flatpak"
+	[[ "$update_snap" = "y" ]] && sh_run_action_standalone "sh_update_cache_snap"
 	[[ "$update_traducao" = "y" ]] && TIni.Set "$INI_FILE_BIG_STORE" "bigstore" "traducao_online" '1'
 	[[ "$update_traducao" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "bigstore" "traducao_online" '0'
 	[[ "$update_xiva" = "y" ]] && TIni.Set "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'
 	[[ "$update_xiva" = "n" ]] && TIni.Set "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '0'
+###################################################################################################################################################################################################################################
 
 	cat <<-EOF
-		<div id=box_index_category>
-		<div id=box_info_index>
-		<div class=info_box>
-		<div class=category_title_index>
+		<div id="box_index_category">
+		<div id="box_info_index">
+		<div class="info_box">
+		<div class="category_title_index">
 		$Configuracoes
 		</div>
 		<div class="content-section">
@@ -162,43 +199,38 @@ function sh_main {
 		</div>
 	EOF
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle true"></span>
-			$Ativado_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="f1">
-			<input id="f1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-flatpak-plugin';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
-	EOF
-	else
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle false"></span>
-			$Desativado_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="f1">
-			<input id="f1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-flatpak-plugin';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
-		EOF
-	fi
-	#FLATPAK
-
-	#SNAP
+		local _circle='true'
+    local _checked='checked'
+    local _handle='n'
+    local _text=$Ativado_text
+  else
+    local _circle='false'
+    local _checked=''
+    local _handle='y'
+    local _text=$Desativado_text
+  fi
 	cat <<-EOF
-		<li class="any-product">
+		<span class="status">
+		<span class="status-circle $_circle"></span>
+		$Ativado_text
+		</span>
+		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_FLATPAK" >
+		<div class="switch">
+		<label for="f1">
+		<input id="f1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_flatpak=$_handle';">
+		<span class="lever"></span>
+		</label>
+		</div>
+		</div>
+		</div>
+		</li>
+	EOF
+	#FLATPAK END
+
+	#SNAP BEGIN
+	cat <<-EOF
+		<li class="hidemenu">
 		<div class="products">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="border-radius: 0px;">
 		<path fill="currentColor" d="M13.804 13.367V5.69l5.292 2.362-5.292 5.315zM3.701 23.514l6.49-12.22 2.847 2.843L3.7 23.514zM0 .486l13.355 4.848v8.484L0 .486zM21.803 5.334H14.11L24 9.748z">
@@ -208,43 +240,38 @@ function sh_main {
 		</div>
 	EOF
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle true"></span>
-			$Ativado_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="s1">
-			<input id="s1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?pkg_remove=y&pkg_name=libpamac-snap-plugin';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
-		EOF
-	else
-		cat <<-EOF
-			<span class="status">
-			<span class="status-circle false"></span>
-			$Desativado_text
-			</span>
-			<div class="button-wrapper">
-			<div class="switch">
-			<label for="s1">
-			<input id="s1" type="checkbox" class="switch" onclick="location.href='config.sh.htm?pkg_install=y&pkg_name=libpamac-snap-plugin';">
-			<span class="lever"></span>
-			</label>
-			</div>
-			</div>
-			</li>
-		EOF
-	fi
+		local _circle='true'
+    local _checked='checked'
+    local _handle='n'
+    local _text=$Ativado_text
+  else
+    local _circle='false'
+    local _checked=''
+    local _handle='y'
+    local _text=$Desativado_text
+  fi
+	cat <<-EOF
+		<span class="status">
+		<span class="status-circle $_circle"></span>
+		$_text
+		</span>
+		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="$ABOUT_SNAP" >
+		<div class="switch">
+		<label for="s1">
+		<input id="s1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?pkg_snap=$_handle';">
+		<span class="lever"></span>
+		</label>
+		</div>
+		</div>
+		</div>
+		</li>
+	EOF
 	#SNAP
 
 	#TRADUCAO BEGIN
 	cat <<-EOF
-		<li class="any-product">
+		<li class="hidemenu">
 		<div class="products">
 		<img src="icons/translate.svg" alt="$Traducao_online_text" width="28" height="28" viewBox="0 0 24 24" style="fill: currentColor; border-radius: 0; margin: 0 16px 0 0;">
 		$Traducao_Online_text
@@ -267,6 +294,7 @@ function sh_main {
 		$_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="$traducao_tooltipped" >
 		<div class="switch">
 		<label for="t1">
 		<input id="t1" type="checkbox" class="switch" $_checked onclick="location.href='config.sh.htm?update_traducao=$_handle'; ">
@@ -274,55 +302,84 @@ function sh_main {
 		</label>
 		</div>
 		</div>
+		</div>
 		</li>
 	EOF
 	#TRADUCAO END
 
+	#PAMAC UPDATE BEGIN
+	cat <<-EOF
+		<li class="hidemenu">
+		<div class="products">
+		<img src="icons/pamac.svg" fill="currentColor" alt="$Ao_instalar_pacotes_verificar_se_ha_atualizacoes" width="28" height="28" viewBox="0 0 24 24" style="border-radius: 0px; margin: 0 16px 0 0;">
+		$Ao_instalar_pacotes_verificar_se_ha_atualizacoes
+		</div>
+	EOF
+	if TIni.Exist "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'; then
+		local _circle='true'
+		local _checked='checked'
+		local _handle='n'
+		local _text=$Ativado_text
+	else
+		local _circle='false'
+		local _checked=''
+		local _handle='y'
+		local _text=$Desativado_text
+	fi
+	cat <<-EOF
+		<span class="status">
+		<span class="status-circle $_circle"> </span>
+		$_text
+		</span>
+		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="AboutSimpleInstall" >
+		<div class="switch">
+		<label for="y1">
+		<input id="y1" type="checkbox" class="switch" $_checked onclick="handleCheckboxClickSimpleInstall('$_handle');">
+		<span class="lever"></span>
+		</label>
+		</div>
+		</div>
+		</div>
+		</li>
+	EOF
+	#PAMAC UPDATE  END
+
 	#XIVA BEGIN
 	cat <<-EOF
-		<li class="any-product">
+		<li class="hidemenu">
 		<div class="products">
 		<img src="icons/xiva.png" fill="currentColor" alt="$Ativar_XIVA_Store" width="28" height="28" viewBox="0 0 24 24" style="border-radius: 0px; margin: 0 16px 0 0;">
 		$Ativar_XIVA_Store
 		</div>
 	EOF
 	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
-		local xiva_circle='true'
-		local xiva_checked='checked'
-		local xiva_handle='n'
-		local xiva_text=$Ativado_text
+		local _circle='true'
+		local _checked='checked'
+		local _handle='n'
+		local _text=$Ativado_text
 	else
-		local xiva_circle='false'
-		local xiva_checked=''
-		local xiva_handle='y'
-		local xiva_text=$Desativado_text
+		local _circle='false'
+		local _checked=''
+		local _handle='y'
+		local _text=$Desativado_text
 	fi
 	cat <<-EOF
 		<span class="status">
-		<span class="status-circle $xiva_circle"> </span>
-		$xiva_text
+		<span class="status-circle $_circle"> </span>
+		$_text
 		</span>
 		<div class="button-wrapper">
+		<div class="tooltipped" data-position="bottom" data-tooltip="AboutXiva" >
 		<div class="switch">
 		<label for="x1">
-		<!--input id="x1" type="checkbox" class="switch" checked onclick="location.href='config.sh.htm?update_xiva=n';"-->
-		<input id="x1" type="checkbox" class="switch" $xiva_checked onclick="handleCheckboxClick('$xiva_handle');">
+		<input id="x1" type="checkbox" class="switch" $_checked onclick="handleCheckboxClick('$_handle');">
 		<span class="lever"></span>
 		</label>
 		</div>
 		</div>
+		</div>
 		</li>
-		<script>
-			function handleCheckboxClick(value) {
-				// Redireciona para a URL com o valor fornecido
-				console.log('Ativando/Desativando XIVA Store:', value)
-				location.href = 'config.sh.htm?update_xiva=' + encodeURIComponent(value);
-    		// Define um pequeno atraso antes de recarregar a página
-	    	setTimeout(function() {
-					location.reload();
-	    	}, 100); // 100 milissegundos de atraso
-			}
-		</script>
 	EOF
 	#XIVA END
 
@@ -331,13 +388,13 @@ function sh_main {
 		</div>
 	EOF
 
-	#NATIVOS BEGIN
+###################################################################################################################################################################################################################################
+
 	cat <<-EOF
 		<div class="content-section">
 		<div class="content-section-title">
-		$Repositorios_nativos_text
+		$Repositorios_nativos
 		</div>
-
 		<ul>
 		<li class="hidemenu">
 		<div class="products">
@@ -345,54 +402,68 @@ function sh_main {
 		<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
 		</path>
 		</svg>
-		$Atualizar_cache_text
+		$Atualizar_cache_dos_repositorios_nativos
 		</div>
 		<span class="status">
 	EOF
-
 	if TIni.Exist "$INI_FILE_BIG_STORE" "nativo" "nativo_atualizado" '1'; then
 		local nativo_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "nativo" "nativo_data_atualizacao")
-		cat <<-EOF
-			<span class="status-circle true"></span>
-			<!-- <span class="status-circle green"></span> -->
-			$Atualizado_text $nativo_data_atualizacao
-		EOF
+		local _circle='true'
+		local _checked='checked'
+		local _handle='n'
+		local _text="$Atualizado_text $nativo_data_atualizacao"
 	else
-		cat <<-EOF
-			<span class="status-circle false"></span>
-			<!-- <span class="status-circle green"></span> -->
-			$Atualizar_text
-		EOF
+		local _circle='false'
+		local _checked=''
+		local _handle='y'
+		local _text=$Atualizar_text
 	fi
-
 	cat <<-EOF
+		<span class="status-circle $_circle"> </span>
+		$_text
 		</span>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pacman=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_pacman', 'y');">
 		$Executar_text
 		</button>
 		</div>
 		</li>
 	EOF
 
-# ter 09 jan 2024 00:25:25 -04
 	cat <<-EOF
-		<li class="any-product">
+		<li class="hidemenu">
 		<div class="products">
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="border-radius: 0px;" >
 		<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
 		</path>
 		</svg>
-		$Atualizar_cache_pamac_text
+		$Atualizar_cache_do_pamac
 		</div>
+		<span class="status">
+	EOF
+	if TIni.Exist "$INI_FILE_BIG_STORE" "PAMAC" "pamac_atualizado" '1'; then
+		local pamac_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "PAMAC" "pamac_data_atualizacao")
+		local _circle='true'
+		local _checked='checked'
+		local _handle='n'
+		local _text="$Atualizado_text $pamac_data_atualizacao"
+	else
+		local _circle='false'
+		local _checked=''
+		local _handle='y'
+		local _text=$Atualizar_text
+	fi
+	cat <<-EOF
+		<span class="status-circle $_circle"> </span>
+		$_text
+		</span>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pamac=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_pamac', 'y');">
 		$Executar_text
 		</button>
 		</div>
 		</li>
 	EOF
-# ter 09 jan 2024 00:25:25 -04
 
 	cat <<-EOF
 		<li class="any-product">
@@ -404,7 +475,7 @@ function sh_main {
 		$Procurar_servidor_mais_rapido_text
 		</div>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_mirror=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_mirror', 'y');">
 		$Executar_text
 		</button>
     </div>
@@ -412,15 +483,30 @@ function sh_main {
 		</ul>
 		</div>
 	EOF
-	#NATIVOS END
-
+###################################################################################################################################################################################################################################
 	if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_active" '1' && [[ -e "/usr/lib/libpamac-flatpak.so" ]]; then
 		cat <<-EOF
-			<!-- BEGIN flatpak repair -->
+			<!-- BEGIN flatpak session -->
 			<div class="content-section">
 			<div class="content-section-title">
 			$(gettext "Repositório Flatpak")
 			</div>
+		EOF
+		#BEGIN-Reconstruir base de dados Flatpak
+		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_atualizado" '1'; then
+			local flatpak_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "flatpak" "flatpak_data_atualizacao")
+			local _circle='true'
+			local _checked='checked'
+			local _handle='n'
+			local _text="$Atualizado_text $flatpak_data_atualizacao"
+		else
+			local _circle='false'
+			local _checked='unchecked'
+			local _handle='y'
+			local _text=$Atualizar_text
+		fi
+		cat <<-EOF
+			<!-- BEGIN flatpak repair -->
 			<ul>
 			<li class="hidemenu">
 			<div class="products">
@@ -431,23 +517,34 @@ function sh_main {
 			$(gettext "Reconstruir base de dados Flatpak")
 			</div>
 			<span class="status">
+			<span class="status-circle $_circle"> </span>
+			$_text
+			</span>
+			<div class="button-wrapper">
+			<button class="content-button status-button" onclick="handleClick(event, 'update_flatpak', 'y');">
+			$Executar_text
+			</button>
+			</div>
+			</li>
+			</ul>
+			<!-- END flatpak repair -->
 		EOF
+		#END-Reconstruir base de dados Flatpak
 
-		if TIni.Exist "$INI_FILE_BIG_STORE" "flatpak" "flatpak_atualizado" '1'; then
-			local flatpak_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "flatpak" "flatpak_data_atualizacao")
-			cat <<-EOF
-				<span class="status-circle true"></span>
-				<!-- <span class="status-circle green"></span> -->
-				$Atualizado_text $flatpak_data_atualizacao
-			EOF
-		else
-			cat <<-EOF
-				<span class="status-circle false"></span>
-				<!-- <span class="status-circle green"></span> -->
-				$Atualizar_text
-			EOF
-		fi
 		cat <<-EOF
+			<!-- BEGIN flatpak repair -->
+			<ul>
+			<li class="hidemenu">
+			<div class="products">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;">
+			<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
+			</path>
+			</svg>
+			$(gettext "Outro procedimento com Flatpak")
+			</div>
+			<span class="status">
+			<span class="status-circle $_circle"> </span>
+			$_text
 			</span>
 			<div class="button-wrapper">
 			<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_flatpak=y';">
@@ -456,11 +553,17 @@ function sh_main {
 			</div>
 			</li>
 			</ul>
-			</div>
 			<!-- END flatpak repair -->
 		EOF
+		#END-Reconstruir base de dados Flatpak
+
+		cat <<-EOF
+			</div>
+			<!-- END flatpak session -->
+		EOF
 	fi
 
+###################################################################################################################################################################################################################################
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		cat <<-EOF
 			<!-- BEGIN snap repair -->
@@ -481,22 +584,22 @@ function sh_main {
 		EOF
 		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_atualizado" '1'; then
 			local snap_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "snap" "snap_data_atualizacao")
-			cat <<-EOF
-				<span class="status-circle true"></span>
-				<!-- <span class="status-circle green"></span> -->
-				$Atualizado_text $snap_data_atualizacao
-			EOF
+			local _circle='true'
+			local _checked='checked'
+			local _handle='n'
+			local _text="$Atualizado_text $snap_data_atualizacao"
 		else
-			cat <<-EOF
-				<span class="status-circle false"></span>
-				<!-- <span class="status-circle green"></span> -->
-				$Atualizar_text
-			EOF
+			local _circle='false'
+			local _checked='unchecked'
+			local _handle='y'
+			local _text=$Atualizar_text
 		fi
 		cat <<-EOF
+			<span class="status-circle $_circle"> </span>
+			$_text
 			</span>
 			<div class="button-wrapper">
-			<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_snap=y';">
+			<button class="content-button status-button" onclick="handleClick(event, 'update_snap', 'y');">
 			$Executar_text
 			</button>
 			</div>
@@ -507,51 +610,7 @@ function sh_main {
 		EOF
 	fi
 
-	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
-		cat <<-EOF
-			<!-- BEGIN snap repair -->
-			<div class="content-section">
-			<div class="content-section-title">
-			$(gettext "Repositório Snap")
-			</div>
-			<ul>
-			<li class="hidemenu">
-			<div class="products">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="border-radius: 0px;">
-			<path fill="currentColor" d="M160 48C160 21.49 181.5 0 208 0H256V80C256 88.84 263.2 96 272 96H304C312.8 96 320 88.84 320 80V0H368C394.5 0 416 21.49 416 48V176C416 202.5 394.5 224 368 224H208C181.5 224 160 202.5 160 176V48zM96 288V368C96 376.8 103.2 384 112 384H144C152.8 384 160 376.8 160 368V288H208C234.5 288 256 309.5 256 336V464C256 490.5 234.5 512 208 512H48C21.49 512 0 490.5 0 464V336C0 309.5 21.49 288 48 288H96zM416 288V368C416 376.8 423.2 384 432 384H464C472.8 384 480 376.8 480 368V288H528C554.5 288 576 309.5 576 336V464C576 490.5 554.5 512 528 512H368C341.5 512 320 490.5 320 464V336C320 309.5 341.5 288 368 288H416z">
-			</path>
-			</svg>
-			$(gettext "Reconstruir base de dados Snap")
-			</div>
-			<span class="status">
-		EOF
-		if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_atualizado" '1'; then
-			local snap_data_atualizacao=$(TIni.Get "$INI_FILE_BIG_STORE" "snap" "snap_data_atualizacao")
-			cat <<-EOF
-				<span class="status-circle true"></span>
-				<!-- <span class="status-circle green"></span> -->
-				$Atualizado_text $snap_data_atualizacao
-			EOF
-		else
-			cat <<-EOF
-				<span class="status-circle false"></span>
-				<!-- <span class="status-circle green"></span> -->
-				$Atualizar_text
-			EOF
-		fi
-		cat <<-EOF
-			</span>
-			<div class="button-wrapper">
-			<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_snap=y';">
-			$Executar_text
-			</button>
-			</div>
-			</li>
-			</ul>
-			</div>
-			<!-- END snap repair -->
-		EOF
-	fi
+###################################################################################################################################################################################################################################
 
 	cat <<-EOF
 		<div class="content-section">
@@ -572,7 +631,7 @@ function sh_main {
 		$Reinstalar_text
 		</span>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?reinstall_allpkg=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'reinstall_allpkg', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -592,7 +651,7 @@ function sh_main {
 		<!-- <span class="status-circle"></span> -->
 		<!-- Atualização total</span>-->
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_keys=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_keys', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -611,7 +670,7 @@ function sh_main {
 		<!-- <span class="status-circle"></span> -->
 		<!-- Atualização total</span>-->
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?force_upgrade=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'force_upgrade', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -625,11 +684,67 @@ function sh_main {
 		</div>
 		</div>
 		<script src="js/script.js"></script>
+		<script>
+			function handleCheckboxClickSimpleInstall(value) {
+				// Redireciona para a URL com o valor fornecido
+				console.log('Ativando/Desativando SimpleInstall em /etc/pamac.conf:', value)
+				location.href = 'config.sh.htm?update_SimpleInstall=' + encodeURIComponent(value);
+			}
+		</script>
+		<script>
+			function handleCheckboxClick(value) {
+				// Redireciona para a URL com o valor fornecido
+				console.log('Ativando/Desativando XIVA Store:', value)
+				location.href = 'config.sh.htm?update_xiva=' + encodeURIComponent(value);
+    		// Define um pequeno atraso antes de recarregar a página
+	    	setTimeout(function() {
+					location.reload();
+	    	}, 100); // 100 milissegundos de atraso
+			}
+		</script>
+		<script>
+			function disableBodyConfig() {
+				console.log("disableBodyConfig executado");
+			}
+			function handleClick(event, parametro, value) {
+				event.preventDefault(); // Evita o comportamento padrão do botão
+				disableBodyConfig();
+				console.log("Parâmetro passado: " + parametro + '=' + value);
+			  localStorage.setItem('executed', JSON.stringify({ parametro, value })); // Marca a ação como executada
+				window.location.href = window.location.pathname + '?' + parametro + '=' + value;
+			}
+	    document.addEventListener('DOMContentLoaded', function() {
+	      const urlParams = new URLSearchParams(window.location.search);
+	      const executed = localStorage.getItem('executed');
+		    console.log("URL Parameters:", Object.fromEntries(urlParams.entries()));
+    	  console.log("Executed from localStorage:", executed);
+	      if (executed) {
+	        const { parametro, value } = JSON.parse(executed);
+	        console.log("Comparando parâmetro:", parametro, "com valor:", value);
+  	      console.log("Parâmetro na URL:", urlParams.get(parametro));
+	        // Verifica se o parâmetro na URL corresponde ao que foi marcado como executado
+	        if (urlParams.get(parametro) === value) {
+	          // Executa a ação correspondente
+	          disableBodyConfig();
+	          console.log("Executando ação baseada na URL.");
+	          // Remove o parâmetro da URL sem recarregar a página
+	          const newUrlParams = new URLSearchParams(window.location.search);
+	          newUrlParams.delete(parametro); // Remove o parâmetro
+	          const newUrl = window.location.pathname + '?' + newUrlParams.toString();
+				   	console.log("Nova URL:", newUrl);
+	          // Atualiza o histórico do navegador para evitar a repetição da ação
+	          window.history.replaceState({}, '', newUrl);
+	          // Remove o item do localStorage após a ação ser executada
+	          localStorage.removeItem('executed');
+	        }
+	      }
+	    });
+    </script>
 		</body>
 		</html>
 	EOF
 }
 
 #sh_debug
-sh_config
-sh_main
+sh_config_sh_htm_config
+sh_config_sh_htm_main
