@@ -151,12 +151,24 @@ $(systemctl status snapd.apparmor --lines=0)" &
 	fi
 
 ########################################################################################################################################################################################################
+
+function sh_update_pacman() {
+	local script_name1="${0##*/}[${FUNCNAME[0]}:${BASH_LINENO[0]}]"
+	echo "${cyan}$script_name1 - $(gettext "Sincronizando a base de dados de pacotes")"
+	paru -Syy
+	echo
+	echo "${cyan}$script_name1 - $(gettext "Sincronizando a base de dados de arquivos")"
+	paru -Fyy
+	return $?
+}
+export -f sh_update_pacman
+
 	[[ "$update_pacman" = "y" ]] &&  {
 #		sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
-		sh_run_action_standalone "paru -Syy"
-		sh_run_action_standalone "paru -Fyy"
-		TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_atualizado" '1'
-		TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_data_atualizacao" "$(date "+%d/%m/%y %H:%M")"
+		if sh_run_action_standalone "sh_update_pacman"; then
+			TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_atualizado" '1'
+			TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_data_atualizacao" "$(date "+%d/%m/%y %H:%M")"
+		fi
 	}
 	[[ "$update_pamac" = "y" ]] && sh_run_action "update_pamac" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
