@@ -151,7 +151,13 @@ $(systemctl status snapd.apparmor --lines=0)" &
 	fi
 
 ########################################################################################################################################################################################################
-	[[ "$update_pacman" = "y" ]] && sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+	[[ "$update_pacman" = "y" ]] &&  {
+#		sh_run_action "update_pacman" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
+		sh_run_action_standalone "paru -Syy"
+		sh_run_action_standalone "paru -Fyy"
+		TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_atualizado" '1'
+		TIni.Set "$INI_FILE_BIG_STORE" "nativo" "nativo_data_atualizacao" "$(date "+%d/%m/%y %H:%M")"
+	}
 	[[ "$update_pamac" = "y" ]] && sh_run_action "update_pamac" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_mirror" = "y" ]] && sh_run_action "update_mirror" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
 	[[ "$update_keys" = "y" ]] && sh_run_action "update_keys" "$WINDOW_ID" "$PACKAGE_NAME" "$PACKAGE_ID" "$REPOSITORY" "$DRIVER"
@@ -417,7 +423,7 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$_text
 		</span>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pacman=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_pacman', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -452,7 +458,7 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$_text
 		</span>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_pamac=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_pamac', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -469,7 +475,7 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$Procurar_servidor_mais_rapido_text
 		</div>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_mirror=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_mirror', 'y');">
 		$Executar_text
 		</button>
     </div>
@@ -625,7 +631,7 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		$Reinstalar_text
 		</span>
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?reinstall_allpkg=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'reinstall_allpkg', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -645,7 +651,7 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		<!-- <span class="status-circle"></span> -->
 		<!-- Atualização total</span>-->
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?update_keys=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'update_keys', 'y');">
 		$Executar_text
 		</button>
 		</div>
@@ -664,7 +670,7 @@ $(systemctl status snapd.apparmor --lines=0)" &
 		<!-- <span class="status-circle"></span> -->
 		<!-- Atualização total</span>-->
 		<div class="button-wrapper">
-		<button class="content-button status-button" onclick="disableBodyConfig(); location.href='config.sh.htm?force_upgrade=y';">
+		<button class="content-button status-button" onclick="handleClick(event, 'force_upgrade', 'y');">
 		$Executar_text
 		</button>
 		</div>
