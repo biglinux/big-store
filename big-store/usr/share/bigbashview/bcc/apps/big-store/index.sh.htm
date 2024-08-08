@@ -136,7 +136,7 @@ function AUR_CATEGORY {
 		if ((aur_search_category)); then
 			#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
 			# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
-			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur_category "${param_search,,}" &
+			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
 			wait
 			aur_search_category=0
 		else

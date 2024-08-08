@@ -138,15 +138,17 @@ $(systemctl status snapd.apparmor --lines=0)" &
 
 	if [[ "$update_SimpleInstall" = "y" ]]; then
 		SimpleInstall=$(sh_check_simple_install)
+xdebug $SimpleInstall
 		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
 		if ! ((SimpleInstall)); then
-	     pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_toggle_comment_pamac_conf 'comment' "SimpleInstall" "/etc/pamac.conf"
+	     sh_pkexec sh_toggle_comment_pamac_conf 'comment' "SimpleInstall" "/etc/pamac.conf"
 	  fi
 	elif [[ "$update_SimpleInstall" = "n" ]]; then
 		SimpleInstall=$(sh_check_simple_install)
+xdebug $SimpleInstall
 		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '0'
-		if !((SimpleInstall)); then
-	     pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY sh_toggle_comment_pamac_conf 'uncomment' "SimpleInstall" "/etc/pamac.conf"
+		if ! ((SimpleInstall)); then
+	     sh_pkexec sh_toggle_comment_pamac_conf 'uncomment' "SimpleInstall" "/etc/pamac.conf"
 		fi
 	fi
 
