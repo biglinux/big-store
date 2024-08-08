@@ -565,8 +565,10 @@ input::placeholder {
 }
 
 .left-side {
-  flex-basis: 240px;
-  padding: 26px;
+/*  flex-basis: 240px;*/
+/*  padding: 26px;*/
+  flex-basis: 160px;
+  padding: 10px;
   padding-bottom: 0px;
   overflow: auto;
   flex-shrink: 0;
