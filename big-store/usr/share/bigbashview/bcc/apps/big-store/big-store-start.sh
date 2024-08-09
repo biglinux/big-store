@@ -74,7 +74,8 @@ function sh_check_big_store_is_running() {
 }
 
 function sh_big_store_start_sh_main {
-	local default_size='960x720'
+	local default_size='1060x755'
+#
 	local height
 	local widht
 	local half_height
@@ -110,17 +111,17 @@ function sh_big_store_start_sh_main {
 		fi
 	fi
 
-	# Obtém a largura da tela primária usando xrandr
-	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
-		# Se a largura foi obtida, tenta obter a altura da tela primária
-		if height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+') && [[ -n "$height" ]]; then
-			# Calcula metade da largura e altura
-			half_width=$((width / 2))
-			half_height=$((height / 2 * 3 / 2))
-			# Atualiza o tamanho padrão com metade da largura e altura da tela
-			default_size="${half_width}x${half_height}"
-		fi
-	fi
+#	# Obtém a largura da tela primária usando xrandr
+#	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
+#		# Se a largura foi obtida, tenta obter a altura da tela primária
+#		if height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+') && [[ -n "$height" ]]; then
+#			# Calcula metade da largura e altura
+#			half_width=$((width / 2))
+#			half_height=$((height / 2 * 3 / 2))
+#			# Atualiza o tamanho padrão com metade da largura e altura da tela
+#			default_size="${half_width}x${half_height}"
+#		fi
+#	fi
 
 	# Save dynamic screenshot resolution
 	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
