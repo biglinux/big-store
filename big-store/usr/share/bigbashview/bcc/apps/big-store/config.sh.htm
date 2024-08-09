@@ -137,18 +137,12 @@ $(systemctl status snapd.apparmor --lines=0)" &
 ########################################################################################################################################################################################################
 
 	if [[ "$update_SimpleInstall" = "y" ]]; then
-		SimpleInstall=$(sh_check_simple_install)
-xdebug $SimpleInstall
-		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
-		if ! ((SimpleInstall)); then
-	     sh_pkexec sh_toggle_comment_pamac_conf 'comment' "SimpleInstall" "/etc/pamac.conf"
-	  fi
+		if sh_pkexec_which_result sh_toggle_comment_pamac_conf comment SimpleInstall /etc/pamac.conf; then
+			TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
+		fi
 	elif [[ "$update_SimpleInstall" = "n" ]]; then
-		SimpleInstall=$(sh_check_simple_install)
-xdebug $SimpleInstall
-		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '0'
-		if ! ((SimpleInstall)); then
-	     sh_pkexec sh_toggle_comment_pamac_conf 'uncomment' "SimpleInstall" "/etc/pamac.conf"
+		if sh_pkexec_which_result sh_toggle_comment_pamac_conf uncomment SimpleInstall /etc/pamac.conf; then
+			TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '0'
 		fi
 	fi
 
@@ -330,11 +324,13 @@ export -f sh_update_pacman
 		</div>
 	EOF
 	if TIni.Exist "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'; then
+		SimpleInstall=$(TIni.Get "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall")
 		local _circle='true'
 		local _checked='checked'
 		local _handle='n'
 		local _text=$Ativado_text
 	else
+		SimpleInstall=$(TIni.Get "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall")
 		local _circle='false'
 		local _checked=''
 		local _handle='y'
