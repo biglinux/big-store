@@ -81,12 +81,12 @@ function APPSTREAM_CATEGORY() {
 		pacman -Qu | awk '{print $1}' >$TMP_FOLDER/upgradeable.txt
 		if ((appstream_search_category)); then
 			#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" &
+			sh_search_appstream "${param_search,,}" &
 			wait
 			appstream_search_category=0
 		else
 			#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" &
+			sh_search_appstream "${param_search,,}" &
 			wait
 		fi
 
@@ -689,11 +689,8 @@ function sh_index_sh_htm_main {
 						<div class="icon_text_about">
 							<div class="icon_text_vertical_align">
 								<ul style="margin-top:-10px;padding:10px;">
-			                <li>$(gettext "Colaboradores"):</li>
-			                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
+			                <li>$(gettext "Colaboradores/testers"):</li>
+			                &nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
 			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
 							</ul>
 							</div>
