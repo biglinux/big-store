@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-#shellcheck disable=SC2155,SC2034,SC1135
+#shellcheck disable=SC2155,SC2034,SC1135,SC2154
 #shellcheck source=/dev/null
 
 #  /usr/share/bigbashview/bcc/apps/big-store/view_flatpak.sh
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/09/25
+#  Altered: 2024/07/31
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -34,77 +34,16 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230925"
-export BOOTLOG="/tmp/bigcontrolcenter-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export HOME_FOLDER="$HOME/.bigstore"
-export TMP_FOLDER="/tmp/bigstore-$USER"
+_VERSION_="1.0.0-20230731"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
-	#Translation
-	export TEXTDOMAINDIR="/usr/share/locale"
-	export TEXTDOMAIN=big-store
-
-	declare -g Button_Atualizar=$"Atualizar"
-	declare -g Button_Executar=$"Executar"
-	declare -g Button_Remover=$"Remover"
-	declare -g Button_Instalar=$"Instalar"
-	declare -g Versao=$"Versão: "
-	declare -g Pacote=$"Pacote: "
-	declare -g Versao_disponivel=$"Versão disponível:"
-	declare -g Repositorio=$"Repositório:"
-	declare -g Nao_informada=$"Não informada"
-	declare -g Programas_Flatpak=$"Programas Flatpak"
-	declare -g cacheFile="$HOME_FOLDER/flatpak.cache"
-}
-
 function sh_view_flatpak_sh {
-	# Le o parametro passado via terminal e cria a variavel $search
-	search="$*"
+	local search="$*"
+	local FLATPAK_INSTALLED_LIST=$(sh_flatpak_installed_list)
 
-	# Le os pacotes instalados em flatpak
-	FLATPAK_INSTALLED_LIST=$(sh_flatpak_installed_list)
-
-#	# Muda o delimitador para somente quebra de linha
-#	OIFS=$IFS
-#	IFS=$'\n'
-
-#	xdebug "$0[$LINENO]: $search"
-#	xdebug "$0[$LINENO]: $FLATPAK_INSTALLED_LIST"
-
-	sh_seek_flatpak_parallel_filter "$(grep -i "|$search|" "$cacheFile")"
-
-#	# Inicia uma função para possibilitar o uso em modo assíncrono
-#	readarray -t -d"|" myarray <<<"$(grep "|$search|" $HOME_FOLDER/flatpak.cache)"
-#	PKG_NAME="${myarray[0]}"
-#	PKG_DESC="${myarray[1]}"
-#	PKG_ID="${myarray[2]}"
-#	PKG_VERSION="${myarray[3]}"
-#	PKG_STABLE="${myarray[4]}"
-#	PKG_REMOTE="${myarray[5]}"
-#	PKG_UPDATE="${myarray[6]}"
-#
-#	# Seleciona o arquivo xml para filtrar os dados
-#	PKG_XML_APPSTREAM="/var/lib/flatpak/appstream/$PKG_REMOTE/x86_64/active/appstream.xml"
-#	PKG_VERSION_ORIG="$PKG_VERSION"
-#	[[ -z "$PKG_VERSION" ]] && PKG_VERSION="$Nao_informada"
-#
-#	# Search icon
-#	PKG_ICON="$(find /var/lib/flatpak/appstream/ -type f -iname "$PKG_ID.png" -print -quit)"
-#
-#	# If not found try another way
-#	if [[ -z "$PKG_ICON" ]]; then
-#		# If cached icon not found, try online
-#		PKG_ICON="$(awk /\<id\>$PKG_ID\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
-#
-#		# If online icon not found, try another way
-#		if [[ -z "$PKG_ICON" ]]; then
-#			PKG_ICON="$(awk /\<id\>$PKG_ID.desktop\<\\/id\>/,/\<\\/component\>/ $PKG_XML_APPSTREAM | LC_ALL=C grep -i -m1 -e icon -e remote | sed 's|</icon>||g;s|.*http|http|g')"
-#		fi
-#	fi
+	sh_seek_flatpak_parallel_filter "$search"
 
 	cat <<-EOF
 		<div id="box_flatpak_install">
@@ -116,17 +55,26 @@ function sh_view_flatpak_sh {
 		<div style="margin-right: 5px;">
 		</div>
 		$Programas_Flatpak
-		</div></div>
+		</div>
+		</div>
 		<div id="content_flatpak_install">
 		<div id="titleBar">
 		<div id="title">
-		<img class="icon_view" src="${PKG_FLATPAK[PKG_ICON]}">
-		<div id="titleName">
-		${PKG_FLATPAK[PKG_NAME]}
-		</div></div></div>
-		<div id="description">
-		${PKG_FLATPAK[PKG_DESC]}
-		</div></div>
+	EOF
+
+	if [[ -z "${PKG_FLATPAK[PKG_ICON]}" || -n "$(LC_ALL=C grep -i -m1 -e 'type=' -e '<description>' <<<"${PKG_FLATPAK[PKG_ICON]}")" ]]; then
+		cat <<-EOF
+			<div class="avatar_flatpak">${PKG_FLATPAK[PKG_NAME]:0:3}</div>
+		EOF
+	else
+		cat <<-EOF
+			<img class="icon_view" src="${PKG_FLATPAK[PKG_ICON]}">
+		EOF
+	fi
+
+	cat <<-EOF
+		<div id="titleName">${PKG_FLATPAK[PKG_NAME]}</div></div></div>
+		<div id="description">${PKG_FLATPAK[PKG_DESC]}</div></div>
 		<div class="row center">
 	EOF
 
@@ -137,7 +85,7 @@ function sh_view_flatpak_sh {
 				<button class="btn btnSpace waves-effect waves-light yellow darken-4" type="submit" name="action" onclick="disableBodyFlatpakInstall();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_install=y'">
 				$Button_Atualizar
 				</button>
-				<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('flatpak run $search')">
+				<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('flatpak run ${PKG_FLATPAK[PKG_ID]}')">
 				$Button_Executar
 				</button>
 			EOF
@@ -146,7 +94,7 @@ function sh_view_flatpak_sh {
 				<button class="btn btnSpace waves-effect waves-light red accent-4" type="submit" name="action" onclick="disableBodyFlatpakRemove();location.href='view_flatpak.sh.htm?pkg_name=$search&pkg_remove=y'">
 				$Button_Remover
 				</button>
-				<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('flatpak run $search')">
+				<button class="btn btnSpace waves-effect waves-light blue darken-3" type="submit" name="action" onclick="_run('flatpak run ${PKG_FLATPAK[PKG_ID]}')">
 				$Button_Executar
 				</button>
 			EOF
@@ -161,31 +109,31 @@ function sh_view_flatpak_sh {
 
 	cat <<-EOF
 		<div class="grid-container">
-		<div class="gridLeft">
-		$Pacote
+			<div class="gridLeft">$Pacote</div>
+			<div class="gridRight">$search</div>
 		</div>
-		<div class="gridRight">
-		$search
-		</div></div>
-		<div class="grid-container">
-		<div class="gridLeft">
-		$Versao_disponivel
-		</div>
-		<div class="gridRight">
-		${PKG_FLATPAK[PKG_VERSION]}
-		</div></div>
-		<div class="grid-container">
-		<div class="gridLeft">
-		$Repositorio
-		</div>
-		<div class="gridRight">
-		flathub
-		</div></div>
-	EOF
 
-	IFS=$OIFS
+		<div class="grid-container">
+			<div class="gridLeft">$Versao_disponivel</div>
+			<div class="gridRight">${PKG_FLATPAK[PKG_VERSION]}</div>
+		</div>
+
+		<div class="grid-container">
+			<div class="gridLeft">ID:</div>
+			<div class="gridRight">${PKG_FLATPAK[PKG_ID]}</div>
+		</div>
+
+		<div class="grid-container">
+			<div class="gridLeft">$Ramo:</div>
+			<div class="gridRight">${PKG_FLATPAK[PKG_BRANCH]}</div>
+		</div>
+
+		<div class="grid-container">
+			<div class="gridLeft">$Repositorio</div>
+			<div class="gridRight">${PKG_FLATPAK[PKG_REMOTE]}</div>
+		</div>
+	EOF
 }
 
 #sh_debug
-sh_config
 sh_view_flatpak_sh "$@"

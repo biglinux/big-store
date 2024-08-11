@@ -24,64 +24,37 @@ lang_translations.install()
 # define _ shortcut for translations
 _ = lang_translations.gettext
 TMP_FOLDER = os.environ["TMP_FOLDER"]
-LIBRARY = '/usr/share/bigbashview/bcc/shell'
+LIBRARY = "/usr/share/bigbashview/bcc/shell"
 script_name = LIBRARY + "/bstrlib.sh"
 
 
-def print_pkg_details(details):
+def print_pkg_details(details, pkg_summary):
     if details is None:
         function_name = "sh_pkg_flatpak_verify"
         package_name = sys.argv[1]
         command = f'source {script_name} && {function_name} "{package_name}"'
-        #subprocess.run(["./pkg_flatpak_verify"], stdout=subprocess.PIPE, text=True)
+        # subprocess.run(["./pkg_flatpak_verify"], stdout=subprocess.PIPE, text=True)
         subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
         sys.exit()
 
     loc = "%d/%m/%Y" if locale.getlocale()[0] == "pt_BR" else "%Y/%m/%d"
-    # print (" -Name:", details.get_app_name())
-    # print (" -Desc:", details.get_desc())
-    # print (" -Long Desc:", details.get_long_desc())
-    # print (" -Icon:", details.get_icon())
-    # print (" -Screenshots:", details.get_screenshots())
-    # print (" -Download Size:", details.get_download_size())
-    # print (" -Installed Size:", details.get_installed_size())
-    # print (" -License:", details.get_license())
-    # print (" -Id:", details.get_id())
-    # print (" -Installed Version:", details.get_installed_version())
-    # print (" -Version:", details.get_version())
-    # print (" -Repository:", details.get_repo())
-    # print (" -Launchable:", details.get_launchable())
-    # print (" -Url:", details.get_url())
-    # print (" -Instaled Date:", details.get_install_date())
-    # print (" -Dependences:", details.get_depends())
-    # print (" -packager:", details.get_packager())
-    # print (" -reason:", details.get_reason())
-    # print (" -groups:", details.get_groups())
-    # print (" -optdepends:", details.get_optdepends())
-    # print (" -checkdepends:", details.get_checkdepends())
-    # print (" -makedepends:", details.get_makedepends())
-    # print (" -conflicts:", details.get_conflicts())
-    # print (" -provides:", details.get_provides())
-    # print (" -replaces:", details.get_replaces())
-    # print (" -build_date:", details.get_build_date())
-    # print (" -has_signature:", details.get_has_signature())
-    # print (" -requiredby:", details.get_requiredby())
-    # print (" -optionalfor:", details.get_optionalfor())
-    # print (" -backups:", details.get_backups())
-
     print("<div id=content_flatpak_install>")
 
     function_name = "sh_pkg_flatpak_version"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-#   update_version = subprocess.run(["./pkg_flatpak_version", sys.argv[1]], stdout=subprocess.PIPE, text=True)
-    update_version = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
+    #   update_version = subprocess.run(["./pkg_flatpak_version", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    update_version = subprocess.run(
+        command, shell=True, stdout=subprocess.PIPE, text=True
+    )
 
     function_name = "sh_pkg_flatpak_update"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-#   update_available = subprocess.run(["./pkg_flatpak_update", sys.argv[1]], stdout=subprocess.PIPE, text=True)
-    update_available = subprocess.run(command, shell=True, stdout=subprocess.PIPE, text=True)
+    #   update_available = subprocess.run(["./pkg_flatpak_update", sys.argv[1]], stdout=subprocess.PIPE, text=True)
+    update_available = subprocess.run(
+        command, shell=True, stdout=subprocess.PIPE, text=True
+    )
 
     print("<div id=titleBar>")
     print("<div id=title>")
@@ -109,7 +82,8 @@ def print_pkg_details(details):
         details.get_app_name(),
         "</div></div></div>",
     )
-    print("<div id=description>", details.get_desc(), "</div></div>")
+#    print("<div id=description>", details.get_desc(), "</div></div>")
+    print("<div id=description>", pkg_summary, "</div></div>")
     print('<div class="row center">')
     if details.get_installed_version():
         print(
@@ -274,6 +248,7 @@ if __name__ == "__main__":
     config.set_enable_appstream(False)
     db = Pamac.Database(config=config)
     pkgname = "^" + sys.argv[1] + "$"
+    pkg_summary = sys.argv[2]
 
     # To multi packages
     # db.enable_appstream()
@@ -286,10 +261,10 @@ if __name__ == "__main__":
     # db.enable_appstream()
     pkg = db.get_app_by_id(sys.argv[1])
     if pkg is None:
-        print('===========================================================')
-        print('pkgname     : ', pkgname)
-        print('sys.argv[1] : ', sys.argv[1])
-        print('pkg         : ', pkg)
-        print('===========================================================')
+        print("===========================================================")
+        print("pkgname     : ", pkgname)
+        print("sys.argv[1] : ", sys.argv[1])
+        print("pkg         : ", pkg)
+        print("===========================================================")
 
-    print_pkg_details(pkg)
+    print_pkg_details(pkg, pkg_summary)

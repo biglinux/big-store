@@ -1,7 +1,4 @@
 [Desktop Entry]
-Categories=Settings;
-Exec=big-store
-Icon=big-store
 Name=Big Store
 Name[bg]=Магазин за приложения
 Name[cs]=Obchod s aplikacemi
@@ -15,3 +12,7 @@ Name[zh]=应用商店
 StartupNotify=true
 Terminal=false
 Type=Application
+MimeType=text/html;text/xml;application/xhtml_xml;
+Categories=Settings;Biglinux;
+Exec=big-store
+Icon=big-store

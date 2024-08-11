@@ -28,6 +28,7 @@ response = requests.get(
     params={"v": "5", "type": "info", "arg": sys.argv[1]},
 )
 data = json.loads(response.text)
+pkg_summary = sys.argv[2]
 for p in data["results"]:
     print("<div id=content_aur_bg>")
     print("<div id=titleBar>")
@@ -48,21 +49,21 @@ for p in data["results"]:
         )
     print("<div id=titleName>", p["Name"], "</div></div></div>")
 
-    #   if os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary'):
-    if os.path.exists(
-        "description/" + sys.argv[1] + "/" + locale.getlocale()[0] + "/summary"
-    ):
-        print("<div id=description>")
-        #       print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/summary', "r").read())
-        print(
-            open(
-                "description/" + sys.argv[1] + "/" + locale.getlocale()[0] + "/summary",
-                "r",
-            ).read()
-        )
-        print("</div></div>")
-    else:
-        print("<div id=description>", p["Description"], "</div></div>")
+    #    if os.path.exists(
+    #        "description/" + sys.argv[1] + "/" + locale.getlocale()[0] + "/summary"
+    #    ):
+    #        print("<div id=description>")
+    #        print(
+    #            open(
+    #                "description/" + sys.argv[1] + "/" + locale.getlocale()[0] + "/summary",
+    #                "r",
+    #            ).read()
+    #        )
+    #        print("</div></div>")
+    #    else:
+    #        print("<div id=description>", p["Description"], "</div></div>")
+
+    print("<div id=description>", pkg_summary)
     print('<div class="row center">')
     pkg_installed = subprocess.run(
         ["pacman", "-Q", sys.argv[1]], stdout=subprocess.PIPE, text=True
@@ -71,7 +72,6 @@ for p in data["results"]:
     function_name = "sh_pkg_pacman_version"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-    # 	pkg_installed_version = subprocess.run(["./pkg_pacman_version"], stdout=subprocess.PIPE, text=True)
     pkg_installed_version = subprocess.run(
         command, shell=True, stdout=subprocess.PIPE, text=True
     )
@@ -118,7 +118,6 @@ for p in data["results"]:
         )
 
     screenshot_store = "description/" + sys.argv[1] + "/screenshot"
-    #   description_file_store = os.path.exists('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc')
     description_file_store = os.path.exists(
         "description/" + sys.argv[1] + "/" + locale.getlocale()[0] + "/desc"
     )
@@ -154,7 +153,6 @@ for p in data["results"]:
 
     if description_file_store:
         print("<div id=pkgDescriptionBox><div id=pkgDescription>")
-        #       print(open('description/' + sys.argv[1] + '/' + locale.getdefaultlocale()[0] + '/desc', "r").read())
         print(
             open(
                 "description/" + sys.argv[1] + "/" + locale.getlocale()[0] + "/desc",
@@ -238,7 +236,6 @@ for p in data["results"]:
     function_name = "sh_pkg_pacman_build_date"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-    #   pkg_build_date = subprocess.run(["./pkg_pacman_build_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_build_date = subprocess.run(
         command, shell=True, stdout=subprocess.PIPE, text=True
     )
@@ -250,7 +247,6 @@ for p in data["results"]:
     function_name = "sh_pkg_pacman_install_date"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-    #   pkg_install_date = subprocess.run(["./pkg_pacman_install_date", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_install_date = subprocess.run(
         command, shell=True, stdout=subprocess.PIPE, text=True
     )
@@ -262,7 +258,6 @@ for p in data["results"]:
     function_name = "sh_pkg_pacman_install_reason"
     package_name = sys.argv[1]
     command = f'source {script_name} && {function_name} "{package_name}"'
-    #   pkg_install_reason = subprocess.run(["./pkg_pacman_install_reason", sys.argv[1]], stdout=subprocess.PIPE, text=True)
     pkg_install_reason = subprocess.run(
         command, shell=True, stdout=subprocess.PIPE, text=True
     )
@@ -364,52 +359,3 @@ for p in data["results"]:
         )
         print("</script>")
         print("</div></div>")
-
-    # if 'ID' in p:
-    # print(p['ID'])
-    # if 'Name' in p:
-    # print(p['Name'])
-    # if 'PackageBaseID' in p:
-    # print(p['PackageBaseID'])
-    # if 'PackageBase' in p:
-    # print(p['PackageBase'])
-    # if 'Version' in p:
-    # print(p['Version'])
-    # if 'Description' in p:
-    # print(p['Description'])
-    # if 'URL' in p:
-    # print(p['URL'])
-    # if 'NumVotes' in p:
-    # print(p['NumVotes'])
-    # if 'Popularity' in p:
-    # print(p['Popularity'])
-    # if 'OutOfDate' in p:
-    # print(p['OutOfDate'])
-    # if 'Maintainer' in p:
-    # print(p['Maintainer'])
-    # if 'FirstSubmitted' in p:
-    # print(p['FirstSubmitted'])
-    # if 'LastModified' in p:
-    # print(p['LastModified'])
-    # if 'URLPath' in p:
-    # print(p['URLPath'])
-    # if 'Depends' in p:
-    # print (p['Depends'])
-    # if 'MakeDepends' in p:
-    # print("Variable is not defined....!")
-    # if 'OptDepends' in p:
-    # print (p['OptDepends'])
-    # if 'CheckDepends' in p:
-    # print (p['CheckDepends'])
-    # if 'Conflicts' in p:
-    # print (p['Conflicts'])
-    # if 'Provides' in p:
-    # print (p['Provides'])
-    # if 'Replaces' in p:
-    # print (p['Replaces'])
-    # if 'Groups' in p:
-    # print (p['Groups'])
-    # if 'License' in p:
-    # print (p['License'])
-    # if 'Keywords' in p:
-    # print (p['Keywords'])

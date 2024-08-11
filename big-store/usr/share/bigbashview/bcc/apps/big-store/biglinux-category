@@ -8,9 +8,9 @@
 #  Description: Control Center to help usage of BigLinux
 #
 #  Created: 2022/02/28
-#  Altered: 2023/09/02
+#  Altered: 2024/07/28
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -36,12 +36,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230902"
+_VERSION_="1.0.0-20240728"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export HOME_FOLDER="$HOME/.bigstore"
-export TMP_FOLDER="/tmp/bigstore-$USER"
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
@@ -57,53 +53,51 @@ function sh_config {
 	declare -g Programas_Nativos=$"Programas Nativos"
 
 	[[ -z "$lcode" ]] && lcode=$(sh_get_code_lang)
-	CATEGORIES["browser"]="firefox firefox-i18n-$lcode brave-browser opera vivaldi chromium falkon palemoon-bin librewolf-bin epiphany google-chrome microsoft-edge-stable-bin lynx"
-	CATEGORIES["mail"]="thunderbird thunderbird-i18n-$lcode evolution geary kmail kube balsa claws-mail sylpheed trojita mailspring"
-	CATEGORIES["download"]="kget gwget uget steadyflow jdownloader2 clipgrab youtubedl-gui xdman flareget"
-	CATEGORIES["torrent"]="qbittorrent torrential deluge-gtk ktorrent fragments transmission-qt amule tixati frostwire"
-	CATEGORIES["messages"]="telegram-desktop discord teamspeak3 mumble signal-desktop element-desktop caprine gajim murmur mattermost jami-gnome pidgin polari hexchat wire-desktop quassel-client zoom skypeforlinux-stable-bin slack-desktop teams viber icq-bin"
-	CATEGORIES["remote"]="remmina vinagre tigervnc krdc krfb filezilla putty tmate rustdesk-bin anydesk-bin teamviewer chrome-remote-desktop"
-	CATEGORIES["cloud"]="nextcloud-client owncloud-client syncthing-gtk sparkleshare rclone cozy-desktop dropbox megasync overgrive cloudcross seafile-client"
-	CATEGORIES["network"]="wireshark-qt ipscan gnome-nettool mtr-gtk"
-	CATEGORIES["news"]="newsflash akregator gfeeds pan liferea rssguard quiterss"
-	CATEGORIES["book"]="okular foliate evince atril gnome-books bookworm fbreader coolreader calibre peruse"
-	CATEGORIES["pdf"]="pdfarranger diffpdf pdfmod pdftricks pdfmixtool pdfslicer gscan2pdf mupdf masterpdfeditor masterpdfeditor-free"
-	CATEGORIES["office"]="libreoffice-fresh libreoffice-fresh-$lcode libreoffice-still libreoffice-still-$lcode freeoffice onlyoffice-desktopeditors softmaker-office-2021 softmaker-office-2018 calligra wps-office wps-office-mui-$lcode"
-	CATEGORIES["calendar"]="osmo kalarm gnome-calendar pantheon-calendar gnome-contacts kontact korganizer kaddressbook evolution evolution-ews morgen-bin"
-	CATEGORIES["deveditor"]="atom code brackets-bin netbeans geany bluefish arduino rider gambas3-ide gnome-builder pycharm-community-edition intellij-idea-community-edition codeblocks kdevelop kdevelop-python kdevelop-php android-studio eclipse-java-bin goland visual-studio-code-bin sublime-text-3 sublime-text-4-dev okteta phpstorm webstorm cudatext-gtk2-bin cudatext-qt5-bin vscodium-bin"
-	CATEGORIES["devbd"]="dbeaver mysql-workbench mariadb phpmyadmin postgresql pgadmin4 phppgadmin mysql mongodb-tools mongodb-bin percona-server questdb"
-	CATEGORIES["devwebserver"]="apache nginx dnsmasq caddy cherokee tomcat10 lighttpd openlitespeed"
-	CATEGORIES["devgames"]="godot gb-studio-bin blender renpy unity-editor unreal-engine makehuman"
-	CATEGORIES["audioplayer"]="clementine audacious elisa rhythmbox qmmp deadbeef lollypop quodlibet strawberry spotify"
-	CATEGORIES["radio"]="vocal gnome-podcasts gogglesmm gpodder great-little-radio-player radiotray-ng shortwave odio-appimage goodvibes streamtuner2 tuner"
-	CATEGORIES["audioconvert"]="gnome-sound-recorder soundkonverter ciano gnac soundconverter audacity"
-	CATEGORIES["audioeditor"]="audacity kwave lmms ardour mixxx Rosegarden qtractor hydrogen cecilia ocenaudio-bin"
-	CATEGORIES["videoplayer"]="smplayer vlc-luajit vlc kodi-x11 mpv totem celluloid parole"
-	CATEGORIES["videostream"]="hypnotix minitube youtube-viewer clipgrab youtubedl-gui freetube-bin kodi-x11 plex-media-server plex-media-player"
-	CATEGORIES["videoeditor"]="handbrake ciano kdenlive shotcut pitivi openshot vidcutter flowblade lightworks avidemux-qt blender losslesscut-bin qencoder mystiq davinci-resolve davinci-resolve-studio lightworks lives"
-	CATEGORIES["imageplayer"]="gwenview eog shotwell gthumb digikam ristretto kphotoalbum phototonic viewnior"
-	CATEGORIES["imageeditor"]="gimp krita inkscape pinta kolourpaint mypaint drawing scribus digikam rawtherapee fotoxx gravit-designer-bin sK1"
-	CATEGORIES["dvd"]="k3b brasero dvdstyler devede xfburn acetoneiso2"
-	CATEGORIES["webcam"]="obs-studio cheese kamoso simplescreenrecorder vokoscreen peek v4l-utils"
-	CATEGORIES["screenshot"]="spectacle gnome-screenshot flameshot pantheon-screenshot ksnip kazam screencloud"
-	CATEGORIES["imageconvert"]="converseen ciano xnconvert"
-	CATEGORIES["3d"]="blender wings3d sweethome3d freecad openscad cura-bin librecad qcad godot gb-studio-bin meshroom unity-editor unreal-engine makehuman brlcad"
+	CATEGORIES["3d"]="blender brlcad freecad gb-studio-bin godot cura-bin librecad meshroom makehuman openscad qcad sweethome3d unity-editor wings3d"
+	CATEGORIES["audioconvert"]="audacity ciano gnac gnome-sound-recorder soundconverter soundkonverter"
+	CATEGORIES["audioplayer"]="audacious clementine deadbeef elisa lollypop qmmp quodlibet rhythmbox spotify strawberry"
+	CATEGORIES["audioeditor"]="ardour audacity cecilia hydrogen kwave lmms mixxx ocenaudio-bin qtractor rosegarden"
+	CATEGORIES["book"]="atril bookworm calibre coolreader evince fbreader foliate gnome-books okular peruse"
+	CATEGORIES["browser"]="brave-browser chromium epiphany falkon firefox firefox-i18n-$lcode google-chrome librewolf-bin lynx microsoft-edge-stable-bin opera palemoon-bin vivaldi"
+	CATEGORIES["calendar"]="evolution evolution-ews gnome-calendar gnome-contacts kalarm kaddressbook korganizer morgen-bin osmo pantheon-calendar"
+	CATEGORIES["cloud"]="cloudcross cozy-desktop dropbox megasync nextcloud-client owncloud-client overgrive rclone seafile-client sparkleshare syncthing-gtk"
+	CATEGORIES["deveditor"]="android-studio arduino atom bluefish brackets-bin code codeblocks cudatext-gtk2-bin cudatext-qt5-bin eclipse-java-bin emacs gambas3-ide gedit geany gnome-builder goland intellij-idea-community-edition kate kdevelop kdevelop-php kdevelop-python netbeans okteta phpstorm pycharm-community-edition rider spyder sublime-text-4 vscodium-bin visual-studio-code-bin webstorm xmlmind-xmleditor"
+	CATEGORIES["devbd"]="dbeaver mariadb mongodb-bin mongodb-tools mysql mysql-workbench percona-server pgadmin4 phppgadmin phpmyadmin postgresql questdb"
+	CATEGORIES["devgames"]="blender gb-studio-bin godot makehuman renpy unity-editor unreal-engine"
+	CATEGORIES["devwebserver"]="apache caddy cherokee dnsmasq lighttpd nginx openlitespeed tomcat10"
+	CATEGORIES["download"]="clipgrab flareget gwget jdownloader2 kget steadyflow uget xdman youtubedl-gui"
+	CATEGORIES["dvd"]="acetoneiso2 brasero dvdstyler k3b xfburn"
+	CATEGORIES["fonts"]="font-manager ttf-anonymous-pro ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-mac-fonts ttf-ms-fonts ttf-ms-win10-auto ttf-roboto ttf-roboto-mono ttf-wps-fonts"
+	CATEGORIES["gamearcade"]="abuse armagetronad astromenace barrage blobby blobwars bomber chromium-bsu cuyo endless-sky extremetuxracer fltk-examples frogatto gnome-nibbles gnome-robots gnujump granatier hedgewars kapman kblackbox kbounce kbreakout kgoldrunner killbots klickety kobodeluxe kolf kolision ksnakeduel lbreakout2 ltis minetest pingus quadrapassel sauerbraten supertux supertuxkart teeworlds uqm warzone2100 warsow xonotic"
+	CATEGORIES["gameboard"]="bovo five-or-more four-in-a-row gnome-chess gnome-mahjongg gnome-sudoku iagno kajongg kfourinline kigo kjumpingcube kmahjongg knights kshisen ksquares ksudoku pychess qgo kreversi swell-foop xboard"
+	CATEGORIES["gamecard"]="aisleriot kpat lskat pysolfc"
+	CATEGORIES["gamemanager"]="gamehub gnome-games heroic-games-launcher-bin itch lutris steam-manjaro steam-native"
+	CATEGORIES["gameemulator"]="citra-bin desmume dgen-sdl dolphin-emu dosbox dosemu epsxe fceux fs-uae fs-uae-launcher fightcade2 flycast-git higan hatari mame mame-tools mednafen mgba-qt m64p mupen64plus nestopia openmsx ppsspp pcsx2 qmc2 rpcs3-bin ryujinx-ldn-bind snes9x-gtk stella vbam-wx vice yabause-qt zsnes"
+	CATEGORIES["gameeducational"]="atomix blinken cantor gbrainy gcompris-qt kanagram katomic khangman kubrick ktuberling kturtle minuet parley solfege step"
+	CATEGORIES["gameother"]="cantor kiriki openbve openrct2 openttd peformous simutrans tali"
+	CATEGORIES["gamepuzzle"]="atomix fillets-ng gnome-2048 gnome-klotsky gnome-mines gnome-taquin gnome-tetravex hitori kblocks kdiamond kmines knetwalk lightsoff palapeli picmi zaz"
 	CATEGORIES["gameretroarch"]="retroarch-biglinux retroarch retroarch-assets-glui retroarch-assets-ozone retroarch-assets-xmb libretro-beetle-pce libretro-beetle-pce-fast libretro-beetle-psx libretro-beetle-psx-hw libretro-beetle-supergrafx libretro-blastem libretro-bsnes libretro-bsnes-hd libretro-bsnes2014 libretro-citra libretro-core-info libretro-desmume libretro-dolphin libretro-duckstation libretro-flycast libretro-gambatte libretro-genesis-plus-gx libretro-kronos libretro-melonds libretro-mesen libretro-mesen-s libretro-mgba libretro-mupen64plus-next libretro-nestopia libretro-overlays libretro-parallel-n64 libretro-picodrive libretro-play libretro-ppsspp libretro-retrodream libretro-sameboy libretro-scummvm libretro-shaders-slang libretro-snes9x libretro-yabause"
-	CATEGORIES["gameemulator"]="desmume dgen-sdl dolphin-emu dosbox dosemu fceux fs-uae fs-uae-launcher hatari higan mame mame-tools qmc2 mednafen mgba-qt mupen64plus pcsx2 ppsspp snes9x-gtk stella vbam-wx vice yabause-qt gens-gs zsnes cemu duckstation-qt-bin epsxe yuzu-mainline-bin rpcs3-bin ryujinx-ldn-bind citra-bin fightcade2 melonds nestopia flycast-git m64p openmsx"
-	CATEGORIES["gamemanager"]="steam-manjaro steam-native lutris gamehub itch gnome-games heroic-games-launcher-bin"
-	CATEGORIES["gamearcade"]="minetest xonotic supertux supertuxkart abuse warzone2100 warsow frozen-bubble pingus armagetronad astromenace barrage knavalbattle kspaceduel blobby blobwars fltk-examples bomber chromium-bsu cuyo endless-sky extremetuxracer gnome-nibbles gnome-robots gnujump granatier hedgewars kapman kblackbox kbounce kbreakout kgoldrunner killbots klickety kobodeluxe kolf kolision ksnakeduel lbreakout2 ltis quadrapassel sauerbraten teeworlds uqm frogatto"
-	CATEGORIES["gamecard"]="kpat lskat aisleriot pysolfc"
-	CATEGORIES["gamestrategy"]="0ad wesnoth konquest freeciv glob2 klines ksirk lincity-ng openra widelands"
-	CATEGORIES["gamepuzzle"]="atomix puzzles kmines gnome-mines fillets-ng gnome-2048 hitori gnome-klotsky gnome-taquin gnome-tetravex kblocks kdiamond knetwalk lightsoff palapeli picmi zaz"
-	CATEGORIES["gameboard"]="bovo five-or-more gnome-mahjongg iagno gnome-sudoku gnome-chess kajongg kfourinline four-in-a-row kigo kjumpingcube kmahjongg knights kshisen ksquares ksudoku pychess qgo kreversi swell-foop xboard"
 	CATEGORIES["gamerpg"]="freedroidrpg manaplus megaglest naev openmw scummvm springlobby"
-	CATEGORIES["gameother"]="kiriki openbve openrct2 openttd peformous simutrans tali"
-	CATEGORIES["gameeducational"]="atomix blinken gbrainy gcompris-qt ktuberling kanagram katomic khangman kubrick kturtle minuet cantor kalgebra kalzium kbruch kgeography kig kiten klettres ktouch kwordquiz parley solfege step"
-	CATEGORIES["gameutility"]="goverlay-bin mangohud-x11 sdl2-gamepad-mapper gamemode qt5-gamepad adriconf joyutils corectrl winetricks"
-	CATEGORIES["javajar"]="jre-openjdk jre7-openjdk jre8-openjdk jre11-openjdk icedtea-web jre jre6 jre7 jre8 jre9 jre10 jre11 jre12 jre13 jre14 jre15 jre16 jre17"
-	CATEGORIES["storage"]="gparted partitionmanager bleachbit gnome-dist-utility kdiskmark gsmartcontrol mintstick baobab filelight balena-etcher-appimage ventoy gnome-multi-writer"
-	CATEGORIES["fonts"]="font-manager ttf-bitstream-vera ttf-caladea ttf-carlito ttf-dejavu ttf-anonymous-pro ttf-fira-code ttf-fira-mono ttf-fira-sans ttf-font-icons ttf-ibm-plex ttf-lato ttf-linux-libertine ttf-montserrat ttf-opensans ttf-roboto ttf-roboto-mono ttf-ms-fonts ttf-mac-fonts ttf-ms-win10-auto ttf-wps-fonts"
-	CATEGORIES["virtualization"]="virtualbox virtualbox-guest-utils virt-manager qemu qemu-guest-agent gnome-boxes"
+	CATEGORIES["gameutility"]="adriconf gamemode goverlay-bin joyutils mangohud-x11 qt5-gamepad sdl2-gamepad-mapper winetricks"
+	CATEGORIES["gamestrategy"]="0ad freeciv glob2 konquest klines ksirk lincity-ng openra wesnoth widelands"
+	CATEGORIES["imageconvert"]="ciano converseen xnconvert"
+	CATEGORIES["imageeditor"]="drawing digikam fotoxx gimp gravit-designer-bin inkscape kolourpaint krita mypaint pinta rawtherapee scribus sK1"
+	CATEGORIES["imageplayer"]="eog gwenview phototonic ristretto shotwell viewnior gthumb digikam kphotoalbum"
+	CATEGORIES["javajar"]="icedtea-web jre jre10 jre11 jre11-openjdk jre12 jre13 jre14 jre15 jre16 jre17 jre6 jre7 jre7-openjdk jre8 jre8-openjdk jre9 jre-openjdk"
+	CATEGORIES["mail"]="balsa claws-mail evolution geary kmail kube mailspring sylpheed thunderbird thunderbird-i18n-$lcode trojita"
+	CATEGORIES["messages"]="caprine discord element-desktop gajim hexchat icq-bin jami-gnome mattermost mumble murmur pidgin polari quassel-client signal-desktop skypeforlinux-stable-bin slack-desktop teams teamspeak3 telegram-desktop viber wire-desktop zoom"
+	CATEGORIES["network"]="gnome-nettool ipscan mtr-gtk wireshark-qt"
+	CATEGORIES["news"]="akregator gfeeds liferea newsflash pan quiterss rssguard"
+	CATEGORIES["office"]="calligra freeoffice libreoffice-fresh libreoffice-fresh-$lcode libreoffice-still libreoffice-still-$lcode onlyoffice-desktopeditors softmaker-office-2018 softmaker-office-2021 wps-office wps-office-mui-$lcode"
+	CATEGORIES["pdf"]="diffpdf gscan2pdf masterpdfeditor masterpdfeditor-free mupdf pdfarranger pdfmixtool pdfmod pdfslicer pdftricks"
+	CATEGORIES["remote"]="anydesk-bin chrome-remote-desktop filezilla krdc krfb putty remmina rustdesk-bin teamviewer tigervnc tmate vinagre"
+	CATEGORIES["screenshot"]="flameshot gnome-screenshot kazam pantheon-screenshot screencloud spectacle ksnip"
+	CATEGORIES["storage"]="baobab balena-etcher-appimage bleachbit filelight gnome-dist-utility gnome-multi-writer gparted kdiskmark mintstick gsmartcontrol partitionmanager"
+	CATEGORIES["torrent"]="amule deluge-gtk fragments frostwire ktorrent qbittorrent tixati torrential transmission-qt"
+	CATEGORIES["virtualization"]="gnome-boxes qemu qemu-full qemu-guest-agent virt-manager virtualbox virtualbox-guest-utils"
+	CATEGORIES["videoeditor"]="avidemux-qt blender ciano davinci-resolve davinci-resolve-studio flowblade handbrake kdenlive lightworks losslesscut-bin mystiq openshot pitivi qencoder shotcut vidcutter"
+	CATEGORIES["videoplayer"]="celluloid kodi mpv parole smplayer totem vlc vlc-luajit"
+	CATEGORIES["videostream"]="clipgrab freetube-bin hypnotix kodi plex-media-player plex-media-server minitube youtube-viewer youtubedl-gui"
 }
 
 function sh_main {

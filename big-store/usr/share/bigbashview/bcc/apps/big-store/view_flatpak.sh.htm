@@ -6,9 +6,9 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2023/09/25
+#  Altered: 2024/08/01
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -34,30 +34,18 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20230925"
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export HOME_FOLDER="$HOME/.bigstore"
-export TMP_FOLDER="/tmp/bigstore-$USER"
+_VERSION_="1.0.0-20240801"
 export LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh"  ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
-function sh_config {
-	#Translation
-	export TEXTDOMAINDIR="/usr/share/locale"
-	export TEXTDOMAIN=big-store
-	declare -g Programas_Flatpak=$"Programas Flatpak"
-	declare -g Button_Fechar=$"Fechar"
-	declare -g Button_Cancelar=$"Cancelar"
-#	export REPOSITORY="$(echo "$pkg_id" | cut -f1 -d"/")"
-#	export PACKAGE_ID="$(echo "$pkg_id" | cut -f2-90 -d"/")"
+function sh_config() {
 	export REPOSITORY="$(echo "${PKG_FLATPAK[PKG_ID]}" | cut -f1 -d"/")"
 	export PACKAGE_ID="$(echo "${PKG_FLATPAK[PKG_ID]}" | cut -f2-90 -d"/")"
 }
 
-function sh_view_flatpak_sh_htm {
-	[[ -z "$PACKAGE_ID" ]] && PACKAGE_ID="$pkg_name" || PACKAGE_ID="${FLATPAK[PACKAGE_ID]}"
+function sh_main_view_flatpak_sh_htm() {
+	[[ -z "$PACKAGE_ID" ]] && PACKAGE_ID="$pkg_name" || PACKAGE_ID="${FLATPAK[PKG_ID]}"
 
 	if [[ "$pkg_install" = "y" ]]; then
 		ACTION="install_flatpak"
@@ -75,9 +63,10 @@ function sh_view_flatpak_sh_htm {
 
 	cat <<-EOF
 		<div id="box_progress_flatpak_cancel">
-		<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="disableButtonFlatpakInstall();_run('killall flatpak')">
-		$Button_Cancelar
-		</button></div>
+			<button class="btn btnSpace waves-effect waves-light grey darken-2" type="submit" name="action" onclick="disableButtonFlatpakInstall();_run('killall flatpak')">
+			$Button_Cancelar
+			</button>
+		</div>
 	EOF
 
 	source header.sh.htm "sh_header_sh_htm_main"
@@ -85,26 +74,10 @@ function sh_view_flatpak_sh_htm {
 	# Remove verification-fault file, if python don't create this file, is because python fault
 	[[ -e $HOME_FOLDER/flatpak-verification-fault ]] && rm -f $HOME_FOLDER/flatpak-verification-fault
 
-	# Run script with complementary content
-	cat <<-EOF
-		<div id=box_flatpak_install>
-		<div id=title_flatpak_install>
-		<div id=button_flatpak class="tooltipped" data-position="right" data-tooltip="$ABOUT_FLATPAK">
-		<div style="display: inline-flex; margin-top: -8px; margin-right: 10px;">
-		<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:20px;margin-left:5px;">
-		<path fill="var(--text-a-color)" d="m 200,5.9523902 c -8.98514,0 -17.97169,2.3280645 -26.03677,6.9844298 L 51.016633,83.920269 C 34.886486,93.233022 24.979868,110.38745 24.979868,129.01293 v 141.97046 c 0,18.62546 9.906618,35.77989 26.036765,45.09264 l 122.946597,70.98701 c 16.13013,9.31276 35.9434,9.31276 52.07354,0 l 122.94659,-70.98701 c 16.13016,-9.31275 26.03677,-26.46718 26.03677,-45.09264 V 129.01293 c 0,-18.62548 -9.90661,-35.779908 -26.03677,-45.092661 L 226.03677,12.93682 C 217.9717,8.2804547 208.98514,5.9523902 200,5.9523902 Z m 0,38.1331378 c 2.41371,0 4.82858,0.621233 6.97729,1.861803 l 122.94663,70.983449 c 2.14873,1.24057 3.89441,3.02162 5.10127,5.11195 L 200,199.99993 v 155.91086 c -2.41371,0 -4.82859,-0.62123 -6.97731,-1.86182 L 70.07608,283.06553 c -4.297468,-2.48115 -6.977319,-7.11987 -6.977319,-12.08214 V 129.01293 c 0,-2.48114 0.669184,-4.87986 1.876048,-6.9702 L 200,199.99993 Z"/>
-		</svg>
-		</div>
-		<div style="margin-right: 5px;">
-		$Programas_Flatpak
-		</div></div></div>
-	EOF
-
-#	./view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
-	python view_flatpak_pamac.py "$pkg_name" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
+	python view_flatpak_pamac.py "$pkg_name" "$pkg_summary" > "$TMP_FOLDER/flatpak_pamac_temp.txt"
 
 	if [[ ! -e "$HOME_FOLDER/flatpak-verification-fault" ]]; then
-        grep -ve "^bef flathub" -ve "^aft flathub" "$TMP_FOLDER/flatpak_pamac_temp.txt"
+		grep -ve "^bef flathub" -ve "^aft flathub" "$TMP_FOLDER/flatpak_pamac_temp.txt"
 	else
 		source view_flatpak.sh "$pkg_name"
 	fi
@@ -118,16 +91,29 @@ function sh_view_flatpak_sh_htm {
 		<div class="preloader-wrapper big active">
 		<div class="spinner-layer spinner-blue-only">
 		<div class="circle-clipper left">
-		<div class="circle"></div></div>
+		<div class="circle">
+		</div>
+		</div>
 		<div class="gap-patch">
-		<div class="circle"></div></div>
+		<div class="circle">
+		</div>
+		</div>
 		<div class="circle-clipper right">
-		<div class="circle"></div></div></div></div></div></div></div>
+		<div class="circle">
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
 		<div class="modal-footer">
 		<a href="#!" class="modal-close btn-flat">
 		$Button_Fechar
-		</a></div></div>
-		<script>\$(document).ready(function(){\$('.modal').modal(); });</script>
+		</a>
+		</div>
+		</div>
+		<script>\$(document).ready(function(){\$('.modal').modal();}); </script>
 		<div class="logo">
 		<img id="btn-big" src="icons/logo.png" class="logo-biglinux" onclick="biglinux();">
 		</div>
@@ -140,4 +126,4 @@ function sh_view_flatpak_sh_htm {
 
 #sh_debug
 sh_config
-sh_view_flatpak_sh_htm "$@"
+sh_main_view_flatpak_sh_htm "$@"

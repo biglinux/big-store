@@ -6,9 +6,9 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/01/10
+#  Altered: 2024/07/31
 #
-#  Copyright (c) 2023-2023, Vilmar Catafesta <vcatafesta@gmail.com>
+#  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
 #                2022-2023, Rafael Ruscher <rruscher@gmail.com>
 #  All rights reserved.
@@ -34,36 +34,30 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240110"
-export BOOTLOG="/tmp/bigstore-$USER-$(date +"%d%m%Y").log"
-export LOGGER='/dev/tty8'
-export HOME_FOLDER="$HOME/.bigstore"
-export TMP_FOLDER="/tmp/bigstore-$USER"
-export INI_FILE_BIG_STORE="$HOME_FOLDER/big-store.ini"
+_VERSION_="1.0.0-20240731"
+#
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
-[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
+[[ -f "${LIBRARY}/bstrlib.sh" ]] && source "${LIBRARY}/bstrlib.sh"
 
 function sh_config() {
-    #desabilitando variáveis proxy do dde, as mesmas não permitem atualizações do pamac
-    unset auto_proxy ftp_proxy http_proxy https_proxy no_proxy all_proxy
+	#desabilitando variáveis proxy do dde, as mesmas não permitem atualizações do pamac
+	unset auto_proxy ftp_proxy http_proxy https_proxy no_proxy all_proxy
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
 	declare -g bigstorepath='/usr/share/bigbashview/bcc/apps/big-store'
-	declare -g snap_cache_file="$HOME_FOLDER/snap.cache"
-	declare -g flatpak_cache_file="$HOME_FOLDER/flatpak.cache"
-	declare -g bigstore_icon_file='icons/icon.svg'
+	declare -g bigstore_icon_file='icons/big-store.svg'
 	declare -g TITLE="Big-Store"
 	declare -gA Amsg=(
-			[error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
-			[error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
+		[error_open]=$(gettext $"Outra instância do Big-Store já está em execução.")
+		[error_access_dir]=$(gettext $"Erro ao acessar o diretório:")
 	)
 }
 
 function sh_big_store_check_dirs {
-	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER" "$TMP_FOLDER"
+	[[ ! -d "$HOME_FOLDER" ]] && mkdir -p "$HOME_FOLDER"
 	[[ ! -d "$TMP_FOLDER" ]] && mkdir -p "$TMP_FOLDER"
 }
 export -f sh_big_store_check_dirs
@@ -80,6 +74,8 @@ function sh_check_big_store_is_running() {
 }
 
 function sh_big_store_start_sh_main {
+	local default_size='1060x755'
+#
 	local height
 	local widht
 	local half_height
@@ -94,8 +90,8 @@ function sh_big_store_start_sh_main {
 	}
 
 	# reformat pretry .ini
-	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
-#	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.AlignIniFile "$INI_FILE_BIG_STORE"
+	#	[[ -e "$INI_FILE_BIG_STORE" ]] && big-tini-pretty -q "$INI_FILE_BIG_STORE"
+	[[ -e "$INI_FILE_BIG_STORE" ]] && TIni.Sanitize "$INI_FILE_BIG_STORE"
 
 	if TIni.Exist "$INI_FILE_BIG_STORE" "snap" "snap_active" '1' && [[ -e "/usr/lib/libpamac-snap.so" ]]; then
 		[[ ! -e "$snap_cache_file" ]] || [[ "$(find "$snap_cache_file" -mtime +1 -print)" ]] && sh_update_cache_snap "$processamento_em_paralelo" &
@@ -105,22 +101,49 @@ function sh_big_store_start_sh_main {
 		[[ ! -e "$flatpak_cache_file" ]] || [[ "$(find "$flatpak_cache_file" -mtime +1 -print)" ]] && sh_update_cache_flatpak "$processamento_em_paralelo" &
 	fi
 
-	width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)')
-	height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+')
-	half_width=$((width / 2))
-	half_height=$((height / 2))
+	if [[ -z "$(TIni.Get "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall")" ]]; then
+		TIni.Set "$INI_FILE_BIG_STORE" "PAMAC" "SimpleInstall" '1'
+	fi
+
+	if [[ ! -e $FILE_SUMMARY_JSON_CUSTOM ]]; then
+		if [[ -e $FILE_SUMMARY_JSON ]]; then
+			cp -f $FILE_SUMMARY_JSON $FILE_SUMMARY_JSON_CUSTOM
+		fi
+	fi
+
+#	# Obtém a largura da tela primária usando xrandr
+#	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
+#		# Se a largura foi obtida, tenta obter a altura da tela primária
+#		if height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+') && [[ -n "$height" ]]; then
+#			# Calcula metade da largura e altura
+#			half_width=$((width / 2))
+#			half_height=$((height / 2 * 3 / 2))
+#			# Atualiza o tamanho padrão com metade da largura e altura da tela
+#			default_size="${half_width}x${half_height}"
+#		fi
+#	fi
 
 	# Save dynamic screenshot resolution
 	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
 
-	COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${half_width}x${half_height}"
+	_session="$(sh_get_desktop_session)"
+	case "${_session^^}" in
+	X11)
+		COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${default_size}"
+		;;
+	WAYLAND)
+		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 bigbashview -n \"$TITLE\" -s ${default_size}"
+		:
+		;;
+	esac
+
 	if [[ -n "$1" ]]; then
-		case "$1" in
-		"category") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
-		"appstream") eval "$COMMON_OPTIONS view_appstream.sh.htm?pkg_name=\"$2\" -i $bigstore_icon_file" ;;
-		"aur") eval "$COMMON_OPTIONS view_aur.sh.htm?pkg_name=\"$2\"       -i $bigstore_icon_file" ;;
-		"flatpak") eval "$COMMON_OPTIONS view_flatpak.sh.htm?pkg_name=\"$2\"   -i $bigstore_icon_file" ;;
-		"snap") eval "$COMMON_OPTIONS view_snap.sh.htm?pkg_id=\"$2\"        -i $bigstore_icon_file" ;;
+		case "${1^^}" in
+		"CATEGORY") eval "$COMMON_OPTIONS index.sh.htm?category=\"$2\"          -i $bigstore_icon_file" ;;
+		"APPSTREAM") eval "$COMMON_OPTIONS view_appstream.sh.htm?pkg_name=\"$2\" -i $bigstore_icon_file" ;;
+		"AUR") eval "$COMMON_OPTIONS view_aur.sh.htm?pkg_name=\"$2\"       -i $bigstore_icon_file" ;;
+		"FLATPAK") eval "$COMMON_OPTIONS view_flatpak.sh.htm?pkg_name=\"$2\"   -i $bigstore_icon_file" ;;
+		"SNAP") eval "$COMMON_OPTIONS view_snap.sh.htm?pkg_id=\"$2\"        -i $bigstore_icon_file" ;;
 		*) eval "$COMMON_OPTIONS index.sh.htm?search=\"$1\"            -i $bigstore_icon_file" ;;
 		esac
 	else
