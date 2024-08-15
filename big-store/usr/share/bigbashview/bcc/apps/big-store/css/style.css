@@ -83,8 +83,9 @@ body {
   height: 100vh;
   margin: 0;
   font-family:
+    sans-serif,
+    'Ubuntu Condensed',
 		Noto Sans Nerd Font Medium,
-    Ubuntu Condensed,
     Lato,
     sans-serif;
 }
