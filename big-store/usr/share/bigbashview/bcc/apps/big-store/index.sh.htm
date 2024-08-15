@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/08/09
+#  Altered: 2024/08/11
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='09-08-2024 - 01:00'
-_VERSION_="1.0.0-20240809"
+_DATE_ALTERED_='11-08-2024 - 15:48'
+VERSION_="1.0.0-20240811"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
@@ -81,12 +81,12 @@ function APPSTREAM_CATEGORY() {
 		pacman -Qu | awk '{print $1}' >$TMP_FOLDER/upgradeable.txt
 		if ((appstream_search_category)); then
 			#			python search_category_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" &
+			sh_search_appstream "${param_search,,}" &
 			wait
 			appstream_search_category=0
 		else
 			#			python search_appstream_pamac.py "${param_search,,}" > "${TMP_FOLDER}/appstream.html" & wait
-			sh_search_category_appstream_pamac "${param_search,,}" &
+			sh_search_appstream "${param_search,,}" &
 			wait
 		fi
 
@@ -689,12 +689,10 @@ function sh_index_sh_htm_main {
 						<div class="icon_text_about">
 							<div class="icon_text_vertical_align">
 								<ul style="margin-top:-10px;padding:10px;">
-			                <li>$(gettext "Colaboradores"):</li>
-			                &nbsp;&nbsp;&nbsp;&nbsp;Tales, @talesam
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Narayan, @narayansilva
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Thiago, @thiago_brgs
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
+			                <li>$(gettext "Colaboradores/testers"):</li>
+			                &nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
 			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
+			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Float, @FloatingSkies
 							</ul>
 							</div>
 						</div>

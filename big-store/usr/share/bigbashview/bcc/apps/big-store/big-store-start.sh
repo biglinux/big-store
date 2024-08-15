@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/07/31
+#  Altered: 2024/08/11
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240731"
+_VERSION_="1.0.0-20240811"
 #
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
@@ -75,7 +75,7 @@ function sh_check_big_store_is_running() {
 
 function sh_big_store_start_sh_main {
 	local default_size='1060x755'
-#
+	#
 	local height
 	local widht
 	local half_height
@@ -107,21 +107,37 @@ function sh_big_store_start_sh_main {
 
 	if [[ ! -e $FILE_SUMMARY_JSON_CUSTOM ]]; then
 		if [[ -e $FILE_SUMMARY_JSON ]]; then
-			cp -f $FILE_SUMMARY_JSON $FILE_SUMMARY_JSON_CUSTOM
+			echo "${cyan}config - $(gettext "Copiando arquivo") ${FILE_SUMMARY_JSON} para ${HOME_FOLDER}${reset}"
+			if cp -f ${FILE_SUMMARY_JSON} ${FILE_SUMMARY_JSON_CUSTOM}; then
+				echo "${cyan}config - $(gettext "Feito!")${reset}"
+			else
+				echo "${cyan}config - $(gettext "Erro na copia de ") ${FILE_SUMMARY_JSON}!${reset}"
+			fi
 		fi
 	fi
 
-#	# Obtém a largura da tela primária usando xrandr
-#	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
-#		# Se a largura foi obtida, tenta obter a altura da tela primária
-#		if height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+') && [[ -n "$height" ]]; then
-#			# Calcula metade da largura e altura
-#			half_width=$((width / 2))
-#			half_height=$((height / 2 * 3 / 2))
-#			# Atualiza o tamanho padrão com metade da largura e altura da tela
-#			default_size="${half_width}x${half_height}"
-#		fi
-#	fi
+	if [[ ! -e $FILE_PACKAGE_JSON_CUSTOM ]]; then
+		if [[ -e $FILE_PACKAGE_JSON ]]; then
+			echo "${cyan}config - $(gettext "Copiando arquivo") ${FILE_PACKAGE_JSON} para ${HOME_FOLDER}${reset}"
+			if cp -f ${FILE_PACKAGE_JSON} ${FILE_PACKAGE_JSON_CUSTOM}; then
+				echo "${cyan}config - $(gettext "Feito!")${reset}"
+			else
+				echo "${cyan}config - $(gettext "Erro na copia de ") ${FILE_PACKAGE_JSON}!${reset}"
+			fi
+		fi
+	fi
+
+	#	# Obtém a largura da tela primária usando xrandr
+	#	if width=$(xrandr | grep -oP 'primary \K[0-9]+(?=x)') && [[ -n "$width" ]]; then
+	#		# Se a largura foi obtida, tenta obter a altura da tela primária
+	#		if height=$(xrandr | grep -oP 'primary \K[0-9]+x\K[0-9]+') && [[ -n "$height" ]]; then
+	#			# Calcula metade da largura e altura
+	#			half_width=$((width / 2))
+	#			half_height=$((height / 2 * 3 / 2))
+	#			# Atualiza o tamanho padrão com metade da largura e altura da tela
+	#			default_size="${half_width}x${half_height}"
+	#		fi
+	#	fi
 
 	# Save dynamic screenshot resolution
 	echo "$half_height" >"${TMP_FOLDER}/screenshot-resolution.txt"
