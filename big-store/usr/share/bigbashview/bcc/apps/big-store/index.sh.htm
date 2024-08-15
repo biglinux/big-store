@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/08/13
+#  Altered: 2024/08/15
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2024, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,8 +34,8 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_DATE_ALTERED_='13-08-2024 - 15:48'
-VERSION_="1.0.0-20240813"
+_DATE_ALTERED_='15-08-2024 - 14:16'
+VERSION_="1.0.0-20240815"
 _HTML_VERSION_="${_VERSION_} - ${_DATE_ALTERED_}"
 _UPDATED_="${_DATE_ALTERED_}"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
@@ -136,11 +136,13 @@ function AUR_CATEGORY {
 		if ((aur_search_category)); then
 			#			./category_aur.sh $(<"$TMP_FOLDER/category_aur.txt") >/dev/null 2>&1 &
 			# 		sh_search_aur_category $(<"$TMP_FOLDER/category_aur.txt") & wait
+#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aurRegex "${param_search,,}" &
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
 			wait
 			aur_search_category=0
 		else
 			#			resultFilter_checkbox="$resultFilter_checkbox" source search_aur.sh ${param_search,,} >/dev/null 2>&1 &
+#			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aurRegex "${param_search,,}" &
 			resultFilter_checkbox="$resultFilter_checkbox" sh_search_aur "${param_search,,}" &
 			wait
 		fi
@@ -692,7 +694,6 @@ function sh_index_sh_htm_main {
 			                <li>$(gettext "Colaboradores/testers"):</li>
 			                &nbsp;&nbsp;&nbsp;&nbsp;Marcelo, @elppans
 			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Lucas, @luskaedivinsky
-			                <br>&nbsp;&nbsp;&nbsp;&nbsp;Float, @FloatingSkies
 							</ul>
 							</div>
 						</div>
