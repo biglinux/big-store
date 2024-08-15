@@ -89,10 +89,12 @@ msgstr "Odstránenie stránky"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Preinštalovať"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Spustiť"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -110,6 +112,13 @@ msgstr "Balenie:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Dostupná verzia:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
@@ -121,23 +130,18 @@ msgstr "Nainštalovaná verzia:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Využitie úložiska:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "Dostupná verzia:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Počet hlasov:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Stránka v AUR:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Veľkosť na stiahnutie:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -181,6 +185,65 @@ msgstr "Úložisko:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "Dátum inštalácie:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "Baliace súbory:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "Kliknutím sem zobrazíte súbory"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Preinštalovať"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "Dostupná verzia:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Počet hlasov:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Stránka v AUR:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
@@ -193,17 +256,6 @@ msgstr "Packer:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
 msgid "Data do empacotamento:"
 msgstr "Dátum balenia:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-msgid "Data de instalação:"
-msgstr "Dátum inštalácie:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -258,54 +310,471 @@ msgstr "Odstráni:"
 msgid "Substitui:"
 msgstr "Prepíše:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-msgid "Arquivos do pacote:"
-msgstr "Baliace súbory:"
+msgid "Sistema"
+msgstr "Systém"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Spustiť"
+msgid "Big-Store"
+msgstr "Veľký obchod"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Využitie úložiska:"
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Počkajte, kým zbierame informácie zo systému. Toto môže chvíľu trvať..."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Veľkosť na stiahnutie:"
+msgid "Instalado na partição:"
+msgstr "Inštalované v oddieli:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-msgid "Clique aqui para ver os arquivos"
-msgstr "Kliknutím sem zobrazíte súbory"
+msgid "Tamanho da partição:"
+msgstr "Veľkosť oddielu:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Dostupná verzia:"
+msgid "Espaço utilizado:"
+msgstr "Využité miesto:"
+
+msgid "Espaço livre:"
+msgstr "Voľné miesto:"
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Približný dátum inštalácie systému:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Nativné balíčky a AUR"
+
+msgid "Pacotes Flatpak"
+msgstr "Balíky Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Konfigurované repozitáre:"
+
+msgid "Pacotes Snap"
+msgstr "Balíky Snap"
+
+msgid "Instalados:"
+msgstr "Inštalované:"
+
+msgid "Disponíveis:"
+msgstr "Dostupné:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Nativné aplikácie majú silnejšiu integráciu so systémom.<br>\n"
+"Prechádzajú rozsiahle testy pred uvoľnením, čo zaručuje vyššiu spoľahlivosť.<br>\n"
+"Z týchto dôvodov je odporúčané zvoliť natívny program, najmä keď požadovaný softvér<br>\n"
+"je dostupný vo viacerých možnostiach inštalácie.<br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"Programy AUR sú skripty vytvorené používateľmi<br>\n"
+"na inštaláciu programov, ktoré nie sú k dispozícii<br>\n"
+"priamo v natívnych repozitároch systému.<br>\n"
+"Programy nainštalované týmto spôsobom fungujú<br>\n"
+"správne, ale neprešli rovnakými testami ako<br>\n"
+"programy v natívnych repozitároch."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"Programy Flatpak sú k dispozícii pre všetky distribúcie Linuxu, zvyčajne sú udržiavané samotnými "
+"tvorcami programov, ale nemajú niektoré optimalizácie a integrácie so systémom, ako majú natívne "
+"programy. Môže to byť dobrá alternatíva pre používateľov s počítačmi s dobrým spracovateľským "
+"výkonom a úložným priestorom."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"Programy Snap, rovnako ako Flatpak, poskytujú programy pre všetky distribúcie Linuxu. Majú "
+"tendenciu byť ťažšie a menej integrované do systému, ale ak je program, ktorý hľadáte, dostupný len "
+"v tomto formáte, použite ho."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Zobrazuje len vybrané programy<br>\n"
+"a skrýva výsledky, ktoré sú užitočné <br>\n"
+"len pre pokročilých používateľov."
+
+msgid ""
+"\n"
+"Ligado : inclui também a descrição dos pacotes na pesquisa<br>\n"
+"Desligado : pesquisa apenas os nomes dos pacotes<br>\n"
+"Funcional apenas para termos de pesquisa digitados, não é compatível com o modo categoria."
+msgstr ""
+"Zapnuté: zahŕňa aj popis balíkov vo vyhľadávaní\n"
+"Vypnuté: vyhľadáva len názvy balíkov\n"
+"Funkčné len pre zadané vyhľadávacie termíny, nie je kompatibilné s režimom kategórie."
+
+msgid "Procurar aplicativo"
+msgstr "Hľadať aplikáciu"
+
+msgid "Modo Simplificado"
+msgstr "Zjednodušený režim"
+
+msgid "Nativos"
+msgstr "Nepreložiteľné"
+
+msgid "Aplicando - Aguarde"
+msgstr "Aplikovanie - Čakajte"
+
+msgid "Início"
+msgstr "Štart"
+
+msgid "Configurações"
+msgstr "Nastavenia"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Escritório"
+msgstr "Kancelária"
+
+msgid "Gráficos"
+msgstr "Grafika"
+
+msgid "Multimídia"
+msgstr "Multimédiá"
+
+msgid "Jogos"
+msgstr "Ihry"
+
+msgid "Desenvolvimento"
+msgstr "Vývoj"
+
+msgid "Sobre"
+msgstr "O programe"
+
+msgid "Programas Nativos"
+msgstr "Nativné programy"
+
+msgid "Programas AUR"
+msgstr "Programy AUR"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak aplikácie"
+
+msgid "Programas Snap"
+msgstr "Programy Snap"
+
+msgid "X-Sistema"
+msgstr "X-Systém"
+
+msgid "Imagem"
+msgstr "Obraz"
+
+msgid "Vídeo"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Zvuk"
+
+msgid "Edição 3D e CAD"
+msgstr "3D úprava a CAD"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio prehrávače"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Audio recorders and converters"
+
+msgid "Editores de áudio"
+msgstr "Audio editory"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "Vizuálne prehliadače PDF, Epub, e-knihy a ďalšie"
+
+msgid "Navegadores"
+msgstr "Prehliadače"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Agenda úloh a kontaktov"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Cloud storage"
+
+msgid "Editores de código e IDE"
+msgstr "Vývojové prostredie (IDE)"
+
+msgid "Banco de dados"
+msgstr "Databáza"
+
+msgid "Criadores de jogos"
+msgstr "Vytváření her"
+
+msgid "Servidores WEB"
+msgstr "Webové servery"
+
+msgid "Download"
+msgstr "Stiahnuť"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Záznamníky a kopírovacie zariadenia CD a DVD"
+
+msgid "Fontes (Tipografia)"
+msgstr "Písma (Typografia)"
+
+msgid "Ação/Arcade"
+msgstr "Akcia/Arcade"
+
+msgid "Tabuleiro"
+msgstr "Nenašiel som žiadny text na preklad."
+
+msgid "Cartas"
+msgstr "Nenažranice"
+
+msgid "Educacional"
+msgstr "Vzdelávací"
+
+msgid "Emuladores"
+msgstr "Emulátory"
+
+msgid "Gerenciadores de jogos"
+msgstr "Herní manažéri"
+
+msgid "Puzzles"
+msgstr "Hádanky"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch emulátor"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Estratégia"
+msgstr "N/A"
+
+msgid "Utilitários para jogos"
+msgstr "Herné nástroje"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Konvertor, zmeniť veľkosť alebo komprimovať obrázky"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Editori obrázkov a kresliace nástroje"
+
+msgid "Visualizadores de imagem"
+msgstr "Obrazové prehliadače"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Mensageiros e Conferências"
+msgstr "Messenger a Konferencie"
+
+msgid "Ferramentas de rede"
+msgstr "Sietečné nástroje"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Správy, Kanály a RSS"
+
+msgid "Suíte Office"
+msgstr "Kancelárska sada"
+
+msgid "Editores de PDF"
+msgstr "PDF editori"
+
+msgid "Rádio online"
+msgstr "Online rádio"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Vzdialený prístup, FTP, SSH, VNC, RDP..."
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Snímka obrazovky"
+
+msgid "Armazenamento e partições"
+msgstr "Úložisko a oddiely"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Zdieľače a torrenty"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video prehrávače"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online video, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video editors and compressors"
+
+msgid "Virtualização"
+msgstr "Virtualizácia"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, nahrávanie obrazovky a prenos videa"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Multimidia"
+msgstr "Multimédia"
+
+msgid "Editores Vetorial"
+msgstr "Vektorový editor"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Editori obrázkov, fotografií a kresieb"
+
+msgid "Editores de texto linha de comando"
+msgstr "Textoví editory príkazového riadku"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Diagramovanie a organizácia stránok"
+
+msgid "Colorização e palheta de cores"
+msgstr "Colorizácia a farebná paleta"
+
+msgid "Editores de video"
+msgstr "Video editory"
+
+msgid "Animação e 2D"
+msgstr "Animácia a 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Stiahnutie snímky obrazovky a videa"
+
+msgid "Stream/transmissão online"
+msgstr "Stream/online prenos"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Video konvertory a zapisovače CD/DVD"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Audio editory (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Audio Pluginy"
+
+msgid "Outros"
+msgstr "Iné"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Inštancia Big-Store už beží."
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Chyba pri prístupe k adresáru:"
+
+msgid "Instalando"
+msgstr "Inštalovanie"
+
+msgid "Cancelar"
+msgstr "Zrušiť"
+
+msgid "Removendo"
+msgstr "Odstraňovanie"
+
+msgid "Fechar"
+msgstr "Zavrieť"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Nainštalované balíčky Snap kliknite na balíček na odstránenie"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Sťahovanie nových balíkov zo serverovej databázy"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Žiadny balík neprešiel ako parameter."
+
+msgid "Geral"
+msgstr "Geral"
+
+msgid "Tradução online da descrição dos pacotes"
+msgstr "Online preklad popisu balíkov"
+
+msgid "Ativado"
+msgstr "Aktivované"
+
+msgid "Desativado"
+msgstr "Vypnuté"
+
+msgid "Atualizações"
+msgstr "Aktualizácie"
+
+msgid "Atualizar seu sistema"
+msgstr "Aktualizovať váš systém"
+
+msgid "Atualizado em"
+msgstr "Aktualizované dňa"
+
+msgid "Repositórios nativos"
+msgstr "Nativné repozitáre"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Aktualizovať vyrovnávaciu pamäť natívnych repozitárov"
+
+msgid "Atualizar cache do Pamac"
+msgstr "Aktualizovať vyrovnávaciu pamäť Pamac"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Hľadanie rýchlejších národných repozitárov serverov"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Využite nasledujúce možnosti opatrne"
+
+msgid "Reinstalação"
+msgstr "Preinštalácia"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Vynútiť opätovnú inštaláciu všetkých nainštalovaných balíkov"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Aktualizujte kľúče repozitárov BigLinux, Manjaro a Archlinux. Nezabudnite, že ak ste aktivovali "
+"doplnkové repozitáre, budete musieť pridať kľúče týchto repozitárov znova."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Vynútené aktualizácie, použite túto možnosť, ak sa vám nepodarilo aktualizovať systém, avšak pri "
+"nútenom aktualizovaní môžu byť odstránené niektoré programy."
+
+msgid "Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr "Pre zobrazenie Snapu v systémovom menu ukončite túto inštanciu Big-Store a spustite ju znova."
+
+msgid "Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr ""
+"Pre zobrazenie aplikácie Flatpak v systémovom menu ukončite túto inštanciu Big-Store a spustite ju "
+"znova."
+
+msgid "Ao instalar pacotes, verificar se há atualizações:"
+msgstr "Pri inštalácii balíkov skontrolujte, či sú k dispozícii aktualizácie:"
+
+msgid ""
+"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A tradução online pode "
+"aumentar a latência na busca dos pacotes."
+msgstr ""
+"Aktivovať automatický online preklad popisov balíkov. <br>Pozn.: Online preklad môže spomaliť "
+"vyhľadávanie balíkov."

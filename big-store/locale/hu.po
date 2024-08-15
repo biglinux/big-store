@@ -89,10 +89,12 @@ msgstr "Távolítsa el a"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Visszahelyez"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Fuss"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -110,6 +112,13 @@ msgstr "Csomag:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Elérhető verzió:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
@@ -121,23 +130,18 @@ msgstr "Telepített verzió:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Tárhelyhasználat:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "Elérhető verzió:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Szavazatok száma:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Oldal az AUR-ban:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Letöltési méret:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -181,6 +185,65 @@ msgstr "Tárhely:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "Telepítés dátuma:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "Csomagfájlok:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "Kattintson ide a fájlok megtekintéséhez"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Visszahelyez"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "Elérhető verzió:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Szavazatok száma:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Oldal az AUR-ban:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
@@ -193,17 +256,6 @@ msgstr "Packer:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
 msgid "Data do empacotamento:"
 msgstr "Csomagolás dátuma:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-msgid "Data de instalação:"
-msgstr "Telepítés dátuma:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -258,54 +310,472 @@ msgstr "Eltávolítja:"
 msgid "Substitui:"
 msgstr "Felülbírálja:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-msgid "Arquivos do pacote:"
-msgstr "Csomagfájlok:"
+msgid "Sistema"
+msgstr "Rendszer"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Fuss"
+msgid "Big-Store"
+msgstr "Nagy Áruház"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Tárhelyhasználat:"
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Várjon, amíg rendszerinformációkat gyűjtünk. Ez néhány pillanatig tarthat..."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Letöltési méret:"
+msgid "Instalado na partição:"
+msgstr "Telepítve a következő partíción:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-msgid "Clique aqui para ver os arquivos"
-msgstr "Kattintson ide a fájlok megtekintéséhez"
+msgid "Tamanho da partição:"
+msgstr "Partíció mérete:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Elérhető verzió:"
+msgid "Espaço utilizado:"
+msgstr "Használt tárhely:"
+
+msgid "Espaço livre:"
+msgstr "Szabad hely:"
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Az alkalmazás telepítésének körülbelüli dátuma:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Nem található fordítandó szöveg."
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpak csomagok"
+
+msgid "Repositórios configurados:"
+msgstr "Konfigurált tárolók:"
+
+msgid "Pacotes Snap"
+msgstr "Snap csomagok"
+
+msgid "Instalados:"
+msgstr "Telepítve:"
+
+msgid "Disponíveis:"
+msgstr "Elérhető:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"A natív programok szorosabb integrációval rendelkeznek a operációs rendszerrel.<br>\n"
+"Azok széles körű teszteken mennek keresztül a közzététel előtt, így nagyobb megbízhatóságot "
+"biztosítanak.<br>\n"
+"Ezen okok miatt különösen ajánlott a natív program választása, ha a kívánt szoftver elérhető több "
+"telepítési lehetőséggel."
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"Az AUR programok olyan scriptek, amelyeket felhasználók készítenek<br>\n"
+"olyan programok telepítésére, amelyek nem elérhetőek<br>\n"
+"közvetlenül a rendszer natív tárolóiban.<br>\n"
+"Ezen a módon telepített programok jól működnek,<br>\n"
+"de nem mennek át ugyanazokon a teszteken, mint a natív programok."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"Programok Flatpak, elérhetők minden Linux disztribúcióhoz, általában a programok saját készítői "
+"tartják karban, azonban hiányozhatnak belőlük néhány optimalizálás és rendszerintegráció, mint a "
+"natív programok esetében, ez jó alternatíva lehet azoknak, akiknek számítógépe jó feldolgozó- és "
+"tárolókapacitással rendelkezik."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"Programok Snap, valamint a Flatpak<br>\n"
+"programokat kínál minden Linux disztribúcióhoz.<br>\n"
+"Általában nehezebb és kevésbé integrált a rendszerbe, de<br>\n"
+"ha az általad keresett program csak ebben a<br>\n"
+"formátumban érhető el, használd."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Csak a kiválasztott programokat jeleníti meg<br>\n"
+"és elrejti az eredményeket, amelyek csak a haladó felhasználók számára hasznosak."
+
+msgid ""
+"\n"
+"Ligado : inclui também a descrição dos pacotes na pesquisa<br>\n"
+"Desligado : pesquisa apenas os nomes dos pacotes<br>\n"
+"Funcional apenas para termos de pesquisa digitados, não é compatível com o modo categoria."
+msgstr ""
+"Létrehozva: a csomagok leírását is beleérti a keresésbe\n"
+"Kikapcsolva: csak a csomagok neveit keresi\n"
+"Csak a beírt keresési kifejezésekre működik, nem kompatibilis a kategória móddal."
+
+msgid "Procurar aplicativo"
+msgstr "Alkalmazás keresése"
+
+msgid "Modo Simplificado"
+msgstr "Egyszerűsített mód"
+
+msgid "Nativos"
+msgstr "Nincs fordítandó szöveg."
+
+msgid "Aplicando - Aguarde"
+msgstr "Alkalmazás - Kérem, várjon"
+
+msgid "Início"
+msgstr "Kezdőlap"
+
+msgid "Configurações"
+msgstr "Beállítások"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Escritório"
+msgstr "Iroda"
+
+msgid "Gráficos"
+msgstr "Diagramok"
+
+msgid "Multimídia"
+msgstr "Multimédia"
+
+msgid "Jogos"
+msgstr "Nincs fordítandó szöveg."
+
+msgid "Desenvolvimento"
+msgstr "Fejlesztés"
+
+msgid "Sobre"
+msgstr "Nem található fordítandó szöveg."
+
+msgid "Programas Nativos"
+msgstr "Nativ alkalmazások"
+
+msgid "Programas AUR"
+msgstr "AUR programok"
+
+msgid "Programas Flatpak"
+msgstr "Flatpak alkalmazások"
+
+msgid "Programas Snap"
+msgstr "Programok Snap"
+
+msgid "X-Sistema"
+msgstr "X-Rendszer"
+
+msgid "Imagem"
+msgstr "Kép"
+
+msgid "Vídeo"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Hangrendszer"
+
+msgid "Edição 3D e CAD"
+msgstr "3D szerkesztés és CAD"
+
+msgid "Reprodutores de áudio"
+msgstr "Hangszórók"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Hangfelvétel és hangátalakító eszközök"
+
+msgid "Editores de áudio"
+msgstr "Hangszeres szerkesztők"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF, Epub és e-könyvek megjelenítői"
+
+msgid "Navegadores"
+msgstr "Webböngészők"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Feladatok és kapcsolatok napirendje"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Felhőtárhely"
+
+msgid "Editores de código e IDE"
+msgstr "Kód szerkesztők és IDE"
+
+msgid "Banco de dados"
+msgstr "Adatbázis"
+
+msgid "Criadores de jogos"
+msgstr "Játékfejlesztők"
+
+msgid "Servidores WEB"
+msgstr "Web szerverek"
+
+msgid "Download"
+msgstr "Letöltés"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CD és DVD írók és másolók"
+
+msgid "Fontes (Tipografia)"
+msgstr "Betűtípusok (Tipográfia)"
+
+msgid "Ação/Arcade"
+msgstr "Akció/Arcade"
+
+msgid "Tabuleiro"
+msgstr "Nincs lefordítandó."
+
+msgid "Cartas"
+msgstr "Nincs fordítandó szöveg."
+
+msgid "Educacional"
+msgstr "Oktatási"
+
+msgid "Emuladores"
+msgstr "Emulátorok"
+
+msgid "Gerenciadores de jogos"
+msgstr "Játékmegőrzők"
+
+msgid "Puzzles"
+msgstr "Rejtvények"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarch emulátor"
+
+msgid "RPG"
+msgstr "Szerepjáték"
+
+msgid "Estratégia"
+msgstr "Nincs fordítandó szöveg."
+
+msgid "Utilitários para jogos"
+msgstr "Játék eszközök"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Képátalakító, átméretező vagy tömörítő."
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Képszerkesztők és rajzoló eszközök"
+
+msgid "Visualizadores de imagem"
+msgstr "Képnézegetők"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Mensageiros e Conferências"
+msgstr "Üzenetküldők és Konferenciák"
+
+msgid "Ferramentas de rede"
+msgstr "Hálózati eszközök"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Hírek, Hírcsatornák és RSS"
+
+msgid "Suíte Office"
+msgstr "Iroda csomag"
+
+msgid "Editores de PDF"
+msgstr "PDF szerkesztők"
+
+msgid "Rádio online"
+msgstr "Online rádió"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Távoli hozzáférés, FTP, SSH, VNC, RDP..."
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Képernyőkép (Screenshot)"
+
+msgid "Armazenamento e partições"
+msgstr "Tárolás és partíciók"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Megosztók és Torrent"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video lejátszók"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Online videó, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Videószerkesztők és tömörítők"
+
+msgid "Virtualização"
+msgstr "Virtualizáció"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webkamera, képernyőfelvétel és videóközvetítés"
+
+msgid "Video"
+msgstr "Videó"
+
+msgid "Multimidia"
+msgstr "Multimédia"
+
+msgid "Editores Vetorial"
+msgstr "Vektorgrafikai szerkesztő"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Képszerkesztő, fotó- és rajzoló szoftverek"
+
+msgid "Editores de texto linha de comando"
+msgstr "Parancssori szövegszerkesztők"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Diagram és oldalak szervezése"
+
+msgid "Colorização e palheta de cores"
+msgstr "Színezés és színpaletta"
+
+msgid "Editores de video"
+msgstr "Videószerkesztők"
+
+msgid "Animação e 2D"
+msgstr "Animáció és 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Képernyőkép és videó letöltése"
+
+msgid "Stream/transmissão online"
+msgstr "Áramlás/online közvetítés"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Videó konverterek és CD/DVD írók"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Hangszeres zenei szoftverek (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Hangszer bővítmények"
+
+msgid "Outros"
+msgstr "Egyéb"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Már fut egy Big-Store példány."
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Hiba a könyvtár elérésénél:"
+
+msgid "Instalando"
+msgstr "Telepítés"
+
+msgid "Cancelar"
+msgstr "Mégse"
+
+msgid "Removendo"
+msgstr "Eltávolítás"
+
+msgid "Fechar"
+msgstr "Bezárás"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Telepített Snap csomagok kattintson a csomagra a törléshez"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Új csomagok letöltése a szerver adatbázisából"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Nincs paraméterként átadott csomag"
+
+msgid "Geral"
+msgstr "Nem található fordítandó elem."
+
+msgid "Tradução online da descrição dos pacotes"
+msgstr "Online fordítás a csomagok leírásához"
+
+msgid "Ativado"
+msgstr "Aktiválva"
+
+msgid "Desativado"
+msgstr "Letiltva"
+
+msgid "Atualizações"
+msgstr "Frissítések"
+
+msgid "Atualizar seu sistema"
+msgstr "Rendszer frissítése"
+
+msgid "Atualizado em"
+msgstr "Frissítve:"
+
+msgid "Repositórios nativos"
+msgstr "Nem találtam fordítandó szöveget."
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Frissítse a natív tárolók gyorsítótárát"
+
+msgid "Atualizar cache do Pamac"
+msgstr "Pamac cache frissítése"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Keresse a gyorsabb natív tárolószervereket"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Használja az alábbi lehetőségeket óvatosan."
+
+msgid "Reinstalação"
+msgstr "Újratelepítés"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Az összes telepített csomag újratelepítésének kényszerítése"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Frissítse a BigLinux, Manjaro és Archlinux tárolók kulcsait. Ne felejtse el, hogy ha engedélyezte a "
+"kiegészítő tárolókat, akkor újra hozzá kell adnia ezeknek a tárolóknak a kulcsait."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Kényszerített frissítés, használja ezt az opciót, ha nem sikerül frissíteni a rendszert, azonban a "
+"kényszerített frissítés során néhány program eltávolítható."
+
+msgid "Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr "A Snap megjelenítéséhez a rendszer menüjében zárja be ezt az Big-Store példányt, majd indítsa újra."
+
+msgid "Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr ""
+"A Flatpak megjelenítéséhez a rendszer menüjében zárja be ezt az Big-Store példányt, majd indítsa "
+"újra."
+
+msgid "Ao instalar pacotes, verificar se há atualizações:"
+msgstr "Az új csomagok telepítésekor ellenőrizze, hogy vannak-e frissítések:"
+
+msgid ""
+"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A tradução online pode "
+"aumentar a latência na busca dos pacotes."
+msgstr ""
+"Online csomagleírások automatikus fordításának engedélyezése. <br>Megjegyzés: Az online fordítás "
+"növelheti a csomagok keresési késleltetését."

@@ -1,311 +1,1120 @@
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-store package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# #-#-#-#-#  python.pot (PACKAGE VERSION)  #-#-#-#-#
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR ORGANIZATION
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: big-store\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: pygettext.py 1.5\n"
-"X-Generator: attranslate\n"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 61
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 64
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 48
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 225
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 123
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_category_appstream_pamac.py, line: 124
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 158
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 116
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 297
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 205
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 397
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 116
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 292
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 364
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 132
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_category_appstream_pamac.py, line: 124
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 123
 msgid "Instalar"
-msgstr "Install"
+msgstr "Instalar"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 65
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 65
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 68
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 81
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 43
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 98
-msgid "Atualizar"
-msgstr "Update"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac_simple.py, line: 67
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/category_appstream_pamac.py, line: 70
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 75
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 159
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 91
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 228
-msgid "Remover"
-msgstr "Remove"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Reinstall"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 103
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 137
-msgid "Pacote:"
-msgstr "Package:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 83
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 113
-msgid "Versão instalada:"
-msgstr "Installed version:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "Version available:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Number of votes:"
-
-# 
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 131
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_category_appstream_pamac.py, line: 134
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 146
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Page in AUR:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 184
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 154
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 120
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_category_appstream_pamac.py, line: 134
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 131
+msgid "Atualizar"
+msgstr "Atualizar"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 160
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 103
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 137
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_category_appstream_pamac.py, line: 140
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 123
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 308
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 162
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 408
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 303
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 132
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 375
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 97
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_category_appstream_pamac.py, line: 140
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/search_appstream_pamac.py, line: 137
+msgid "Remover"
+msgstr "Remover"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 172
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 142
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 107
+msgid "Executar"
+msgstr "Executar"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 169
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 278
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 167
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 245
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 162
+msgid "Pacote:"
+msgstr "Pacote:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 193
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 167
+msgid "Versão disponível:"
+msgstr "Versão disponível:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 198
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 282
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 172
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 249
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 172
+msgid "Versão instalada:"
+msgstr "Versão instalada:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 203
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 296
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 263
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 177
+msgid "Uso de armazenamento:"
+msgstr "Uso de armazenamento:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 212
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 305
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 272
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 186
+msgid "Tamanho do download:"
+msgstr "Tamanho do download:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 220
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 214
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 313
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 212
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 280
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 194
 msgid "Site:"
 msgstr "Site:"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 128
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 108
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 232
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 226
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 325
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 224
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 292
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 206
 msgid "Licença:"
-msgstr "License:"
+msgstr "Licença:"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 133
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 113
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 170
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 237
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 230
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 330
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 228
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 297
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 211
 msgid "Repositório:"
-msgstr "Repository:"
+msgstr "Repositório:"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
-msgid "Empacotador:"
-msgstr "Packer:"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 180
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
-msgid "Data do empacotamento:"
-msgstr "Packaging date:"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 242
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 259
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 351
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 255
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 318
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 216
 msgid "Data de instalação:"
-msgstr "Installation date:"
+msgstr "Data de instalação:"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 197
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 136
-msgid "Motivo da instalação:"
-msgstr "Reason for installation:"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 202
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 141
-msgid "Grupos:"
-msgstr "Groups:"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 215
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 147
-msgid "Complementos:"
-msgstr "Add-ons:"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 234
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 165
-msgid "Dependências:"
-msgstr "Dependencies:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 174
-msgid "Dependências de instalação:"
-msgstr "Installation dependencies:"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 242
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 183
-msgid "Remove:"
-msgstr "Removes:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 250
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 192
-msgid "Substitui:"
-msgstr "Overrides:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 253
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 353
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 440
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 348
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 407
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 227
 msgid "Arquivos do pacote:"
-msgstr "Package files:"
+msgstr "Arquivos do pacote:"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Run"
-
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Storage usage:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Download size:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 445
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 412
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 231
 msgid "Clique aqui para ver os arquivos"
-msgstr "Click here to see the files"
+msgstr "Clique aqui para ver os arquivos"
 
-# 
+#
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Version available:"
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 106
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 195
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 106
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 165
+msgid "Reinstalar"
+msgstr "Reinstalar"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 182
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 287
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 291
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 180
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 254
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 258
+msgid "Versão disponivel:"
+msgstr "Versão disponivel:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 187
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 185
+msgid "Número de votos:"
+msgstr "Número de votos:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 190
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 188
+msgid "Página no AUR:"
+msgstr "Página no AUR:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 235
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 335
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 233
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 302
+msgid "Empacotador:"
+msgstr "Empacotador:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 247
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 340
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 244
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 307
+msgid "Data do empacotamento:"
+msgstr "Data do empacotamento:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 271
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 362
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 266
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 329
+msgid "Motivo da instalação:"
+msgstr "Motivo da instalação:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 276
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 367
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 271
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 334
+msgid "Grupos:"
+msgstr "Grupos:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 281
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 380
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 276
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 347
+msgid "Complementos:"
+msgstr "Complementos:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 317
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 417
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 312
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 384
+msgid "Dependências:"
+msgstr "Dependências:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 326
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 321
+msgid "Dependências de instalação:"
+msgstr "Dependências de instalação:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 335
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 425
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 330
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 392
+msgid "Remove:"
+msgstr "Remove:"
+
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+#
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 344
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 433
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 339
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 400
+msgid "Substitui:"
+msgstr "Substitui:"
+
+#
+msgid "Sistema"
+msgstr "Sistema"
+
+#
+msgid "Big-Store"
+msgstr "Big-Store"
+
+#
+msgid ""
+"Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns "
+"momentos..."
+msgstr ""
+"Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns "
+"momentos..."
+
+#
+msgid "Instalado na partição:"
+msgstr "Instalado na partição:"
+
+#
+msgid "Tamanho da partição:"
+msgstr "Tamanho da partição:"
+
+#
+msgid "Espaço utilizado:"
+msgstr "Espaço utilizado:"
+
+#
+msgid "Espaço livre:"
+msgstr "Espaço livre:"
+
+#
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Data aproximada que o sistema foi instalado:"
+
+#
+msgid "Pacotes nativos e AUR"
+msgstr "Pacotes nativos e AUR"
+
+#
+msgid "Pacotes Flatpak"
+msgstr "Pacotes Flatpak"
+
+#
+msgid "Repositórios configurados:"
+msgstr "Repositórios configurados:"
+
+#
+msgid "Pacotes Snap"
+msgstr "Pacotes Snap"
+
+#
+msgid "Instalados:"
+msgstr "Instalados:"
+
+#
+msgid "Disponíveis:"
+msgstr "Disponíveis:"
+
+#
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema "
+"operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo "
+"uma maior confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado "
+"quando o software desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema "
+"operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo "
+"uma maior confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado "
+"quando o software desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+
+#
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+
+#
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+
+#
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+
+#
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+
+#
+msgid ""
+"\n"
+"Ligado : inclui também a descrição dos pacotes na pesquisa<br>\n"
+"Desligado : pesquisa apenas os nomes dos pacotes<br>\n"
+"Funcional apenas para termos de pesquisa digitados, não é compatível com o "
+"modo categoria."
+msgstr ""
+"\n"
+"Ligado : inclui também a descrição dos pacotes na pesquisa<br>\n"
+"Desligado : pesquisa apenas os nomes dos pacotes<br>\n"
+"Funcional apenas para termos de pesquisa digitados, não é compatível com o "
+"modo categoria."
+
+#
+msgid "Procurar aplicativo"
+msgstr "Procurar aplicativo"
+
+#
+msgid "Modo Simplificado"
+msgstr "Modo Simplificado"
+
+#
+msgid "Nativos"
+msgstr "Nativos"
+
+#
+msgid "Aplicando - Aguarde"
+msgstr "Aplicando - Aguarde"
+
+#
+msgid "Início"
+msgstr "Início"
+
+#
+msgid "Configurações"
+msgstr "Configurações"
+
+#
+msgid "Internet"
+msgstr "Internet"
+
+#
+msgid "Escritório"
+msgstr "Escritório"
+
+#
+msgid "Gráficos"
+msgstr "Gráficos"
+
+#
+msgid "Multimídia"
+msgstr "Multimídia"
+
+#
+msgid "Jogos"
+msgstr "Jogos"
+
+#
+msgid "Desenvolvimento"
+msgstr "Desenvolvimento"
+
+#
+msgid "Sobre"
+msgstr "Sobre"
+
+#
+msgid "Programas Nativos"
+msgstr "Programas Nativos"
+
+#
+msgid "Programas AUR"
+msgstr "Programas AUR"
+
+#
+msgid "Programas Flatpak"
+msgstr "Programas Flatpak"
+
+#
+msgid "Programas Snap"
+msgstr "Programas Snap"
+
+#
+msgid "X-Sistema"
+msgstr "X-Sistema"
+
+#
+msgid "Imagem"
+msgstr "Imagem"
+
+#
+msgid "Vídeo"
+msgstr "Vídeo"
+
+#
+msgid "Audio"
+msgstr "Audio"
+
+#
+msgid "Edição 3D e CAD"
+msgstr "Edição 3D e CAD"
+
+#
+msgid "Reprodutores de áudio"
+msgstr "Reprodutores de áudio"
+
+#
+msgid "Gravadores e conversores de áudio"
+msgstr "Gravadores e conversores de áudio"
+
+#
+msgid "Editores de áudio"
+msgstr "Editores de áudio"
+
+#
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "Visualizadores de PDF, Epub, e-books e mais"
+
+#
+msgid "Navegadores"
+msgstr "Navegadores"
+
+#
+msgid "Agenda de tarefas e contatos"
+msgstr "Agenda de tarefas e contatos"
+
+#
+msgid "Armazenamento nas nuvens"
+msgstr "Armazenamento nas nuvens"
+
+#
+msgid "Editores de código e IDE"
+msgstr "Editores de código e IDE"
+
+#
+msgid "Banco de dados"
+msgstr "Banco de dados"
+
+#
+msgid "Criadores de jogos"
+msgstr "Criadores de jogos"
+
+#
+msgid "Servidores WEB"
+msgstr "Servidores WEB"
+
+#
+msgid "Download"
+msgstr "Download"
+
+#
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Gravadores e copiadores de CD e DVD"
+
+#
+msgid "Fontes (Tipografia)"
+msgstr "Fontes (Tipografia)"
+
+#
+msgid "Ação/Arcade"
+msgstr "Ação/Arcade"
+
+#
+msgid "Tabuleiro"
+msgstr "Tabuleiro"
+
+#
+msgid "Cartas"
+msgstr "Cartas"
+
+#
+msgid "Educacional"
+msgstr "Educacional"
+
+#
+msgid "Emuladores"
+msgstr "Emuladores"
+
+#
+msgid "Gerenciadores de jogos"
+msgstr "Gerenciadores de jogos"
+
+#
+msgid "Puzzles"
+msgstr "Puzzles"
+
+#
+msgid "Emulador Retroarch"
+msgstr "Emulador Retroarch"
+
+#
+msgid "RPG"
+msgstr "RPG"
+
+#
+msgid "Estratégia"
+msgstr "Estratégia"
+
+#
+msgid "Utilitários para jogos"
+msgstr "Utilitários para jogos"
+
+#
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Converter, redimensionar ou compactar imagens"
+
+#
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Editores de imagem e ferramentas de desenho"
+
+#
+msgid "Visualizadores de imagem"
+msgstr "Visualizadores de imagem"
+
+#
+msgid "Java JRE"
+msgstr "Java JRE"
+
+#
+msgid "E-mail"
+msgstr "E-mail"
+
+#
+msgid "Mensageiros e Conferências"
+msgstr "Mensageiros e Conferências"
+
+#
+msgid "Ferramentas de rede"
+msgstr "Ferramentas de rede"
+
+#
+msgid "Notícias, Feeds e RSS"
+msgstr "Notícias, Feeds e RSS"
+
+#
+msgid "Suíte Office"
+msgstr "Suíte Office"
+
+#
+msgid "Editores de PDF"
+msgstr "Editores de PDF"
+
+#
+msgid "Rádio online"
+msgstr "Rádio online"
+
+#
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Acesso Remoto, FTP, SSH, VNC, RDP..."
+
+#
+msgid "Captura de tela (Screenshot)"
+msgstr "Captura de tela (Screenshot)"
+
+#
+msgid "Armazenamento e partições"
+msgstr "Armazenamento e partições"
+
+#
+msgid "Compartilhadores e Torrent"
+msgstr "Compartilhadores e Torrent"
+
+#
+msgid "Reprodutores de vídeo"
+msgstr "Reprodutores de vídeo"
+
+#
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Vídeo online, IPTV, Youtube..."
+
+#
+msgid "Editores e compactadores de vídeo"
+msgstr "Editores e compactadores de vídeo"
+
+#
+msgid "Virtualização"
+msgstr "Virtualização"
+
+#
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Webcam, gravação de tela e transmissão de vídeo"
+
+#
+msgid "Video"
+msgstr "Video"
+
+#
+msgid "Multimidia"
+msgstr "Multimidia"
+
+#
+msgid "Editores Vetorial"
+msgstr "Editores Vetorial"
+
+#
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Editores de imagem, fotografia e desenho"
+
+#
+msgid "Editores de texto linha de comando"
+msgstr "Editores de texto linha de comando"
+
+#
+msgid "Diagramação e organização de páginas"
+msgstr "Diagramação e organização de páginas"
+
+#
+msgid "Colorização e palheta de cores"
+msgstr "Colorização e palheta de cores"
+
+#
+msgid "Editores de video"
+msgstr "Editores de video"
+
+#
+msgid "Animação e 2D"
+msgstr "Animação e 2D"
+
+#
+msgid "Captura de tela e video download"
+msgstr "Captura de tela e video download"
+
+#
+msgid "Stream/transmissão online"
+msgstr "Stream/transmissão online"
+
+#
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Conversores de vídeo e gravadores CD/DVD"
+
+#
+msgid "Editores de áudio (DAW)"
+msgstr "Editores de áudio (DAW)"
+
+#
+msgid "Audio Plugins"
+msgstr "Audio Plugins"
+
+#
+msgid "Outros"
+msgstr "Outros"
+
+#
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Outra instância do Big-Store já está em execução."
+
+#
+msgid "Erro ao acessar o diretório:"
+msgstr "Erro ao acessar o diretório:"
+
+#
+msgid "Instalando"
+msgstr "Instalando"
+
+#
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#
+msgid "Removendo"
+msgstr "Removendo"
+
+#
+msgid "Fechar"
+msgstr "Fechar"
+
+#
+msgid "AUR"
+msgstr "AUR"
+
+#
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Pacotes Snap Instalados clique no pacote para remover"
+
+#
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Baixando pacotes novos da base de dados do servidor"
+
+#
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Nenhum pacote passado como parâmetro"
+
+#
+msgid "Geral"
+msgstr "Geral"
+
+#
+msgid "Tradução online da descrição dos pacotes"
+msgstr "Tradução online da descrição dos pacotes"
+
+#
+msgid "Ativado"
+msgstr "Ativado"
+
+#
+msgid "Desativado"
+msgstr "Desativado"
+
+#
+msgid "Atualizações"
+msgstr "Atualizações"
+
+#
+msgid "Atualizar seu sistema"
+msgstr "Atualizar seu sistema"
+
+#
+msgid "Atualizado em"
+msgstr "Atualizado em"
+
+#
+msgid "Repositórios nativos"
+msgstr "Repositórios nativos"
+
+#
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Atualizar cache dos repositórios nativos"
+
+#
+msgid "Atualizar cache do Pamac"
+msgstr "Atualizar cache do Pamac"
+
+#
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Procurar servidor de repositórios nativos mais rápidos"
+
+#
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Utilize as opções a seguir com cautela"
+
+#
+msgid "Reinstalação"
+msgstr "Reinstalação"
+
+#
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Forçar reinstalação de todos os pacotes instalados"
+
+#
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+msgstr ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre "
+"que se você ativou repositórios complementares será necessário adicionar as "
+"chaves desses repositórios novamente."
+
+#
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+msgstr ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar "
+"o sistema, porém, na atualização forçada alguns programas podem ser "
+"removidos."
+
+#
+msgid ""
+"Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store "
+"e inicie novamente."
+msgstr ""
+"Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store "
+"e inicie novamente."
+
+#
+msgid ""
+"Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-"
+"Store e inicie novamente."
+msgstr ""
+"Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-"
+"Store e inicie novamente."
+
+#
+msgid "Ao instalar pacotes, verificar se há atualizações:"
+msgstr "Ao instalar pacotes, verificar se há atualizações:"
+
+#
+msgid ""
+"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A "
+"tradução online pode aumentar a latência na busca dos pacotes."
+msgstr ""
+"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A "
+"tradução online pode aumentar a latência na busca dos pacotes."

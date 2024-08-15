@@ -89,10 +89,12 @@ msgstr "Eliminar"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "Reinstalar"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "Ejecutar"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -110,6 +112,13 @@ msgstr "Paquete:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "Versión disponible:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
@@ -121,23 +130,18 @@ msgstr "Versión instalada:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "Uso de almacenamiento:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "Versión disponible:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "Número de votos:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "Página en AUR:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "Tamaño de descarga:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -181,6 +185,65 @@ msgstr "Repositorio:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "Fecha de instalación:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "Archivos del paquete:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "Haga clic aquí para ver los archivos"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "Reinstalar"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "Versión disponible:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "Número de votos:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "Página en AUR:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
@@ -193,17 +256,6 @@ msgstr "Empacador:"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
 msgid "Data do empacotamento:"
 msgstr "Fecha de embalaje:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-msgid "Data de instalação:"
-msgstr "Fecha de instalación:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -258,54 +310,471 @@ msgstr "Quita:"
 msgid "Substitui:"
 msgstr "Reemplaza:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-msgid "Arquivos do pacote:"
-msgstr "Archivos del paquete:"
+msgid "Sistema"
+msgstr "System"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "Ejecutar"
+msgid "Big-Store"
+msgstr "Gran Tienda"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "Uso de almacenamiento:"
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "Espere mientras recopilamos información del sistema. Esto puede tomar unos momentos..."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "Tamaño de descarga:"
+msgid "Instalado na partição:"
+msgstr "Instalado en la partición:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-msgid "Clique aqui para ver os arquivos"
-msgstr "Haga clic aquí para ver los archivos"
+msgid "Tamanho da partição:"
+msgstr "Tamaño de la partición:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "Versión disponible:"
+msgid "Espaço utilizado:"
+msgstr "Espacio utilizado:"
+
+msgid "Espaço livre:"
+msgstr "Espacio libre:"
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "Fecha de instalación aproximada del sistema:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "Paquetes nativos y AUR"
+
+msgid "Pacotes Flatpak"
+msgstr "Paquetes Flatpak"
+
+msgid "Repositórios configurados:"
+msgstr "Repositorios configurados:"
+
+msgid "Pacotes Snap"
+msgstr "Paquetes Snap"
+
+msgid "Instalados:"
+msgstr "Instalados:"
+
+msgid "Disponíveis:"
+msgstr "Available:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr ""
+"Los programas nativos tienen una integración más sólida con el sistema operativo.<br>\n"
+"Se someten a pruebas exhaustivas antes de ser lanzados, lo que garantiza una mayor fiabilidad.<br>\n"
+"Por estas razones, se recomienda especialmente optar por un programa nativo cuando el software "
+"deseado<br>\n"
+"está disponible en varias opciones de instalación.<br>"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"Los programas AUR son scripts creados por usuarios para instalar programas que no están disponibles "
+"directamente en los repositorios nativos del sistema. Los programas instalados mediante este método "
+"funcionan bien, pero no pasan por las mismas pruebas que los programas nativos."
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"Programas Flatpak, are available for all Linux distributions, usually maintained by the program "
+"creators themselves, but they do not have some optimizations and system integrations like native "
+"programs, this can be a good alternative for those with computers that have good processing and "
+"storage capacity."
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"Programas Snap, así como Flatpak, proporcionan programas para todas las distribuciones de Linux. "
+"Tienden a ser más pesados y menos integrados en el sistema, pero si el programa que buscas solo "
+"está disponible en este formato, úsalo."
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"Muestra solo programas seleccionados<br>\n"
+"y oculta resultados útiles<br>\n"
+"solo para usuarios avanzados."
+
+msgid ""
+"\n"
+"Ligado : inclui também a descrição dos pacotes na pesquisa<br>\n"
+"Desligado : pesquisa apenas os nomes dos pacotes<br>\n"
+"Funcional apenas para termos de pesquisa digitados, não é compatível com o modo categoria."
+msgstr ""
+"Activado: incluye también la descripción de los paquetes en la búsqueda\n"
+"Desactivado: busca solo los nombres de los paquetes\n"
+"Funciona solo para términos de búsqueda escritos, no es compatible con el modo de categoría."
+
+msgid "Procurar aplicativo"
+msgstr "Buscar aplicación"
+
+msgid "Modo Simplificado"
+msgstr "Modo Simplificado"
+
+msgid "Nativos"
+msgstr "Nativos"
+
+msgid "Aplicando - Aguarde"
+msgstr "Aplicando - Espere"
+
+msgid "Início"
+msgstr "Inicio"
+
+msgid "Configurações"
+msgstr "Configuraciones"
+
+msgid "Internet"
+msgstr "Internet"
+
+msgid "Escritório"
+msgstr "Oficina"
+
+msgid "Gráficos"
+msgstr "Graphics"
+
+msgid "Multimídia"
+msgstr "Multimedia"
+
+msgid "Jogos"
+msgstr "Games"
+
+msgid "Desenvolvimento"
+msgstr "Development"
+
+msgid "Sobre"
+msgstr "About"
+
+msgid "Programas Nativos"
+msgstr "Programas Nativos"
+
+msgid "Programas AUR"
+msgstr "Programas AUR"
+
+msgid "Programas Flatpak"
+msgstr "Programas Flatpak"
+
+msgid "Programas Snap"
+msgstr "Programas Snap"
+
+msgid "X-Sistema"
+msgstr "X-Sistema"
+
+msgid "Imagem"
+msgstr "Imagen"
+
+msgid "Vídeo"
+msgstr "Video"
+
+msgid "Audio"
+msgstr "Audio"
+
+msgid "Edição 3D e CAD"
+msgstr "Edición 3D y CAD"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio Players"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "Audio recorders and converters"
+
+msgid "Editores de áudio"
+msgstr "Audio editors"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "Visualizadores de PDF, Epub, libros electrónicos y más"
+
+msgid "Navegadores"
+msgstr "Browsers"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "Agenda de tareas y contactos"
+
+msgid "Armazenamento nas nuvens"
+msgstr "Almacenamiento en la nube"
+
+msgid "Editores de código e IDE"
+msgstr "Code editors and IDEs"
+
+msgid "Banco de dados"
+msgstr "Base de datos"
+
+msgid "Criadores de jogos"
+msgstr "Game developers"
+
+msgid "Servidores WEB"
+msgstr "Servidores web"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "Grabadoras y copiadoras de CD y DVD"
+
+msgid "Fontes (Tipografia)"
+msgstr "Fuentes (Tipografía)"
+
+msgid "Ação/Arcade"
+msgstr "Acción/Arcade"
+
+msgid "Tabuleiro"
+msgstr "Tablero"
+
+msgid "Cartas"
+msgstr "Cartas"
+
+msgid "Educacional"
+msgstr "Educacional"
+
+msgid "Emuladores"
+msgstr "Emulators"
+
+msgid "Gerenciadores de jogos"
+msgstr "Game managers"
+
+msgid "Puzzles"
+msgstr "Rompecabezas"
+
+msgid "Emulador Retroarch"
+msgstr "Emulador Retroarch"
+
+msgid "RPG"
+msgstr "Juego de rol"
+
+msgid "Estratégia"
+msgstr "Estrategia"
+
+msgid "Utilitários para jogos"
+msgstr "Utilities for games"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "Convertidor, redimensionar o comprimir imágenes"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "Image editors and drawing tools"
+
+msgid "Visualizadores de imagem"
+msgstr "Image viewers"
+
+msgid "Java JRE"
+msgstr "Java JRE"
+
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+msgid "Mensageiros e Conferências"
+msgstr "Messengers and Conferences"
+
+msgid "Ferramentas de rede"
+msgstr "Network tools"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "Noticias, Fuentes y RSS"
+
+msgid "Suíte Office"
+msgstr "Suite de oficina"
+
+msgid "Editores de PDF"
+msgstr "Editores de PDF"
+
+msgid "Rádio online"
+msgstr "Radio en línea"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "Acceso remoto, FTP, SSH, VNC, RDP..."
+
+msgid "Captura de tela (Screenshot)"
+msgstr "Captura de pantalla"
+
+msgid "Armazenamento e partições"
+msgstr "Almacenamiento y particiones"
+
+msgid "Compartilhadores e Torrent"
+msgstr "Compartidores y Torrent"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video players"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "Vídeo en línea, IPTV, Youtube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "Video editors and compressors"
+
+msgid "Virtualização"
+msgstr "Virtualization"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "Cámara web, grabación de pantalla y transmisión de video"
+
+msgid "Video"
+msgstr "Vídeo"
+
+msgid "Multimidia"
+msgstr "Multimedia"
+
+msgid "Editores Vetorial"
+msgstr "Editores Vectoriales"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "Editores de imágenes, fotografía y dibujo"
+
+msgid "Editores de texto linha de comando"
+msgstr "Editores de texto de línea de comandos"
+
+msgid "Diagramação e organização de páginas"
+msgstr "Diagramación y organización de páginas"
+
+msgid "Colorização e palheta de cores"
+msgstr "Colorización y paleta de colores"
+
+msgid "Editores de video"
+msgstr "Video editors"
+
+msgid "Animação e 2D"
+msgstr "Animación y 2D"
+
+msgid "Captura de tela e video download"
+msgstr "Captura de pantalla y descarga de video"
+
+msgid "Stream/transmissão online"
+msgstr "Transmisión en línea"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "Convertidores de video y grabadoras de CD/DVD"
+
+msgid "Editores de áudio (DAW)"
+msgstr "Editores de audio (DAW)"
+
+msgid "Audio Plugins"
+msgstr "Plugins de audio"
+
+msgid "Outros"
+msgstr "Otros"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Another instance of Big-Store is already running."
+
+msgid "Erro ao acessar o diretório:"
+msgstr "Error al acceder al directorio:"
+
+msgid "Instalando"
+msgstr "Installing"
+
+msgid "Cancelar"
+msgstr "Cancelación"
+
+msgid "Removendo"
+msgstr "Eliminar"
+
+msgid "Fechar"
+msgstr "Cerrar"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "Paquetes Snap instalados, haz clic en el paquete para eliminar."
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "Descargando nuevos paquetes de la base de datos del servidor"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "Ningún paquete pasado como parámetro"
+
+msgid "Geral"
+msgstr "General"
+
+msgid "Tradução online da descrição dos pacotes"
+msgstr "Traducción en línea de la descripción de los paquetes"
+
+msgid "Ativado"
+msgstr "Activado"
+
+msgid "Desativado"
+msgstr "Inactivo"
+
+msgid "Atualizações"
+msgstr "Actualizaciones"
+
+msgid "Atualizar seu sistema"
+msgstr "Actualizar su sistema"
+
+msgid "Atualizado em"
+msgstr "Actualizado en"
+
+msgid "Repositórios nativos"
+msgstr "Repositorios locales"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "Actualizar caché de los repositorios nativos"
+
+msgid "Atualizar cache do Pamac"
+msgstr "Actualizar caché de Pamac"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "Buscar servidor de repositorios nativos más rápidos"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "Utilice las siguientes opciones con precaución"
+
+msgid "Reinstalação"
+msgstr "Reinstallación"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "Force reinstall of all installed packages"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr ""
+"Actualizar las claves de los repositorios BigLinux, Manjaro y Archlinux. Recuerda que si has "
+"activado repositorios adicionales, será necesario añadir las claves de estos repositorios de nuevo."
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr ""
+"Force updates, use this option if you are unable to update the system, however, in a forced update "
+"some programs may be removed."
+
+msgid "Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr ""
+"Para que Snap aparezca en el menú del sistema, finaliza esta instancia de Big-Store y vuelve a "
+"iniciarla."
+
+msgid "Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr ""
+"Para que Flatpak aparezca en el menú del sistema, finaliza esta instancia de Big-Store y vuelve a "
+"iniciarla."
+
+msgid "Ao instalar pacotes, verificar se há atualizações:"
+msgstr "Al instalar paquetes, verificar si hay actualizaciones:"
+
+msgid ""
+"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A tradução online pode "
+"aumentar a latência na busca dos pacotes."
+msgstr ""
+"Activate automatic online translation of package descriptions. <br>Note: Online translation may "
+"increase latency in package search."

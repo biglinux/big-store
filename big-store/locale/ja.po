@@ -89,10 +89,12 @@ msgstr "削除"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
-msgid "Reinstalar"
-msgstr "再"
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
+msgid "Executar"
+msgstr "実行"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -110,6 +112,13 @@ msgstr "パッケージ"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
+msgid "Versão disponível:"
+msgstr "バージョンあり。"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 141
@@ -121,23 +130,18 @@ msgstr "インストールされているバージョン:"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
+msgid "Uso de armazenamento:"
+msgstr "ストレージ使用量:"
+
+# 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
-msgid "Versão disponivel:"
-msgstr "バージョンあり。"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
-msgid "Número de votos:"
-msgstr "投票数:"
-
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
-msgid "Página no AUR:"
-msgstr "AURのページ:"
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
+msgid "Tamanho do download:"
+msgstr "ダウンロードサイズ:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -181,6 +185,65 @@ msgstr "リポジトリです。"
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
 # 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
+msgid "Data de instalação:"
+msgstr "インストール日:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
+msgid "Arquivos do pacote:"
+msgstr "パッケージファイル:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
+msgid "Clique aqui para ver os arquivos"
+msgstr "ファイルを見るにはここをクリックしてください"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 101
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 46
+msgid "Reinstalar"
+msgstr "再"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 87
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 146
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 150
+msgid "Versão disponivel:"
+msgstr "バージョンあり。"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 92
+msgid "Número de votos:"
+msgstr "投票数:"
+
+# 
+# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 95
+msgid "Página no AUR:"
+msgstr "AURのページ:"
+
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
+# 
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 118
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 175
 msgid "Empacotador:"
@@ -193,17 +256,6 @@ msgstr "パッカー"
 # File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 124
 msgid "Data do empacotamento:"
 msgstr "包装日:"
-
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 188
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 130
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 138
-msgid "Data de instalação:"
-msgstr "インストール日:"
 
 # 
 # #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
@@ -258,54 +310,455 @@ msgstr "削除："
 msgid "Substitui:"
 msgstr "オーバーライド："
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 257
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_aur.py, line: 201
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 148
-msgid "Arquivos do pacote:"
-msgstr "パッケージファイル:"
+msgid "Sistema"
+msgstr "システム"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 78
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 94
-msgid "Executar"
-msgstr "実行"
+msgid "Big-Store"
+msgstr "ビッグストア"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 153
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 116
-msgid "Uso de armazenamento:"
-msgstr "ストレージ使用量:"
+msgid "Aguarde enquanto coletamos informações do sistema. Isso pode levar alguns momentos..."
+msgstr "システム情報を収集しています。しばらくお待ちください..."
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 156
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 119
-msgid "Tamanho do download:"
-msgstr "ダウンロードサイズ:"
+msgid "Instalado na partição:"
+msgstr "インストールされたパーティション："
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_appstream_pamac.py, line: 260
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 150
-msgid "Clique aqui para ver os arquivos"
-msgstr "ファイルを見るにはここをクリックしてください"
+msgid "Tamanho da partição:"
+msgstr "パーティションサイズ:"
 
-# 
-# #-#-#-#-#  big-store.pot (big-store)  #-#-#-#-#
-# 
-# File: big-store/big-store/usr/share/bigbashview/bcc/apps/big-store/view_flatpak_pamac.py, line: 108
-msgid "Versão disponível:"
-msgstr "バージョンあり。"
+msgid "Espaço utilizado:"
+msgstr "使用済みスペース:"
+
+msgid "Espaço livre:"
+msgstr "空き容量:"
+
+msgid "Data aproximada que o sistema foi instalado:"
+msgstr "システムがインストールされたおおよその日付:"
+
+msgid "Pacotes nativos e AUR"
+msgstr "ネイティブパッケージとAUR"
+
+msgid "Pacotes Flatpak"
+msgstr "Flatpakパッケージ"
+
+msgid "Repositórios configurados:"
+msgstr "Configured repositories:"
+
+msgid "Pacotes Snap"
+msgstr "スナップパッケージ"
+
+msgid "Instalados:"
+msgstr "インストール済み:"
+
+msgid "Disponíveis:"
+msgstr "利用可能:"
+
+msgid ""
+"\n"
+"Programas nativos possuem uma integração mais robusta com o sistema operacional.<br>\n"
+"Eles passam por extensos testes antes de serem disponibilizados, garantindo uma maior "
+"confiabilidade.<br>\n"
+"Por essas razões, optar por um programa nativo é especialmente recomendado quando o software "
+"desejado<br>\n"
+"está disponível em várias opções de instalação.<br>"
+msgstr "ネイティブアプリケーション"
+
+msgid ""
+"\n"
+"Programas AUR são scripts criados por usuários<br>\n"
+"para instalar programas que não estão disponíveis<br>\n"
+"diretamente nos repositórios nativos do sistema.<br>\n"
+"Os programas instalados por esse método funcionam<br>\n"
+"bem, mas não passam pelos mesmos testes feitos<br>\n"
+"com os programas nativos."
+msgstr ""
+"AURパッケージは、システムのネイティブリポジトリに直接はないプログラムをインストールするためにユーザーが作成したスクリプトです。この方法でインストールされたプログラムはうまく動作しますが、ネイティブ"
+"プログラムと同じテストを受けていない可能性があります。"
+
+msgid ""
+"\n"
+"Programas Flatpak, são disponibilizados para todas as<br>\n"
+"distribuições Linux, geralmente são mantidos pelos próprios<br>\n"
+"criadores dos programas, porém, não possuem algumas<br>\n"
+"otimizações e integrações com o sistema, como ocorre com<br>\n"
+"os programas nativos, essa pode ser uma boa alternativa<br>\n"
+"para quem tem computadores que possuem boa capacidade<br>\n"
+"de processamento e armazenamento."
+msgstr ""
+"フラットパックアプリはすべてのLinuxディストリビューションに提供され、通常はプログラムの作成者によって維持されますが、システムとの統合や最適化がいくつか欠けています。これは、処理能力とストレージ容"
+"量が十分なコンピュータを持っている人にとって良い選択肢となるかもしれません。"
+
+msgid ""
+"\n"
+"Programas Snap, assim como o Flatpak<br>\n"
+"disponibiliza programas para todas as distribuições Linux.<br>\n"
+"Tende a ser mais pesado e menos integrado ao sistema, mas<br>\n"
+"se o programa que você procura está disponível apenas neste<br>\n"
+"formato, utilize-o."
+msgstr ""
+"Snapパッケージ、Flatpakと同様に、<br>\n"
+"すべてのLinuxディストリビューション向けのプログラムを提供します。<br>\n"
+"システムに統合されにくく、重くなりがちですが、<br>\n"
+"お探しのプログラムがこの形式でのみ利用可能な場合は、使用してください。"
+
+msgid ""
+"\n"
+"Exibe apenas programas selecionados<br>\n"
+"e oculta resultados que são úteis <br>\n"
+"apenas a usuários avançados."
+msgstr ""
+"選択したソフトウェアのみを表示し、<br>\n"
+"上級ユーザーにのみ有用な結果を非表示にします。"
+
+msgid ""
+"\n"
+"Ligado : inclui também a descrição dos pacotes na pesquisa<br>\n"
+"Desligado : pesquisa apenas os nomes dos pacotes<br>\n"
+"Funcional apenas para termos de pesquisa digitados, não é compatível com o modo categoria."
+msgstr ""
+"オン：検索にパッケージの説明も含む<br>\n"
+"オフ：パッケージ名のみを検索<br>\n"
+"検索語のみに有効、カテゴリモードとは互換性なし。"
+
+msgid "Procurar aplicativo"
+msgstr "アプリを検索"
+
+msgid "Modo Simplificado"
+msgstr "簡易モード"
+
+msgid "Nativos"
+msgstr "ネイティブ"
+
+msgid "Aplicando - Aguarde"
+msgstr "Applying - Please wait"
+
+msgid "Início"
+msgstr "ホーム"
+
+msgid "Configurações"
+msgstr "設定"
+
+msgid "Internet"
+msgstr "インターネット"
+
+msgid "Escritório"
+msgstr "オフィス"
+
+msgid "Gráficos"
+msgstr "チャート"
+
+msgid "Multimídia"
+msgstr "マルチメディア"
+
+msgid "Jogos"
+msgstr "ソフトウェア"
+
+msgid "Desenvolvimento"
+msgstr "開発"
+
+msgid "Sobre"
+msgstr "N/A"
+
+msgid "Programas Nativos"
+msgstr "ネイティブアプリ"
+
+msgid "Programas AUR"
+msgstr "AUR パッケージ"
+
+msgid "Programas Flatpak"
+msgstr "Flatpakアプリ"
+
+msgid "Programas Snap"
+msgstr "Snapアプリ"
+
+msgid "X-Sistema"
+msgstr "X-システム"
+
+msgid "Imagem"
+msgstr "画像"
+
+msgid "Vídeo"
+msgstr "ビデオ"
+
+msgid "Audio"
+msgstr "オーディオ"
+
+msgid "Edição 3D e CAD"
+msgstr "3DおよびCAD編集"
+
+msgid "Reprodutores de áudio"
+msgstr "Audio players"
+
+msgid "Gravadores e conversores de áudio"
+msgstr "オーディオレコーダーおよびコンバータ"
+
+msgid "Editores de áudio"
+msgstr "オーディオエディタ"
+
+msgid "Visualizadores de PDF, Epub, e-books e mais"
+msgstr "PDF、Epub、電子書籍などのビューア"
+
+msgid "Navegadores"
+msgstr "Webブラウザ"
+
+msgid "Agenda de tarefas e contatos"
+msgstr "タスクと連絡先のアジェンダ"
+
+msgid "Armazenamento nas nuvens"
+msgstr "クラウドストレージ"
+
+msgid "Editores de código e IDE"
+msgstr "コードエディターと統合開発環境"
+
+msgid "Banco de dados"
+msgstr "データベース"
+
+msgid "Criadores de jogos"
+msgstr "ゲーム開発者"
+
+msgid "Servidores WEB"
+msgstr "ウェブサーバ"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Gravadores e copiadores de CD e DVD"
+msgstr "CDおよびDVDレコーダーおよびコピーラ"
+
+msgid "Fontes (Tipografia)"
+msgstr "フォント（タイポグラフィ）"
+
+msgid "Ação/Arcade"
+msgstr "アクション/アーケード"
+
+msgid "Tabuleiro"
+msgstr "N/A"
+
+msgid "Cartas"
+msgstr "カード"
+
+msgid "Educacional"
+msgstr "教育"
+
+msgid "Emuladores"
+msgstr "エミュレータ"
+
+msgid "Gerenciadores de jogos"
+msgstr "ゲームマネージャ"
+
+msgid "Puzzles"
+msgstr "パズル"
+
+msgid "Emulador Retroarch"
+msgstr "Retroarchエミュレータ"
+
+msgid "RPG"
+msgstr "RPG"
+
+msgid "Estratégia"
+msgstr "戦略"
+
+msgid "Utilitários para jogos"
+msgstr "ゲーム用ユーティリティ"
+
+msgid "Converter, redimensionar ou compactar imagens"
+msgstr "画像の変換、リサイズ、または圧縮"
+
+msgid "Editores de imagem e ferramentas de desenho"
+msgstr "画像エディターと描画ツール"
+
+msgid "Visualizadores de imagem"
+msgstr "画像ビューア"
+
+msgid "Java JRE"
+msgstr "Javaランタイム環境"
+
+msgid "E-mail"
+msgstr "電子メール"
+
+msgid "Mensageiros e Conferências"
+msgstr "メッセンジャーと会議"
+
+msgid "Ferramentas de rede"
+msgstr "ネットワークツール"
+
+msgid "Notícias, Feeds e RSS"
+msgstr "ニュース、フィード、およびRSS"
+
+msgid "Suíte Office"
+msgstr "オフィススイート"
+
+msgid "Editores de PDF"
+msgstr "PDFエディタ"
+
+msgid "Rádio online"
+msgstr "オンラインラジオ"
+
+msgid "Acesso Remoto, FTP, SSH, VNC, RDP..."
+msgstr "リモートアクセス、FTP、SSH、VNC、RDP..."
+
+msgid "Captura de tela (Screenshot)"
+msgstr "スクリーンショット"
+
+msgid "Armazenamento e partições"
+msgstr "ストレージとパーティション"
+
+msgid "Compartilhadores e Torrent"
+msgstr "共有者とトレント"
+
+msgid "Reprodutores de vídeo"
+msgstr "Video players"
+
+msgid "Vídeo online, IPTV, Youtube..."
+msgstr "ビデオオンライン、IPTV、YouTube..."
+
+msgid "Editores e compactadores de vídeo"
+msgstr "ビデオエディターとコンパクター"
+
+msgid "Virtualização"
+msgstr "仮想化"
+
+msgid "Webcam, gravação de tela e transmissão de vídeo"
+msgstr "ウェブカメラ、画面録画、ビデオストリーミング"
+
+msgid "Video"
+msgstr "ビデオ"
+
+msgid "Multimidia"
+msgstr "マルチメディア"
+
+msgid "Editores Vetorial"
+msgstr "ベクトルエディタ"
+
+msgid "Editores de imagem, fotografia e desenho"
+msgstr "画像、写真、および図面の編集ソフトウェア"
+
+msgid "Editores de texto linha de comando"
+msgstr "コマンドラインテキストエディタ"
+
+msgid "Diagramação e organização de páginas"
+msgstr "ページのレイアウトと整理"
+
+msgid "Colorização e palheta de cores"
+msgstr "カラーリゼーションとカラーパレット"
+
+msgid "Editores de video"
+msgstr "ビデオエディタ"
+
+msgid "Animação e 2D"
+msgstr "アニメーションと2D"
+
+msgid "Captura de tela e video download"
+msgstr "スクリーンショットとビデオのダウンロード"
+
+msgid "Stream/transmissão online"
+msgstr "ストリーム/オンライン配信"
+
+msgid "Conversores de vídeo e gravadores CD/DVD"
+msgstr "ビデオコンバーターおよびCD/DVDレコーダー"
+
+msgid "Editores de áudio (DAW)"
+msgstr "オーディオエディタ（DAW）"
+
+msgid "Audio Plugins"
+msgstr "オーディオプラグイン"
+
+msgid "Outros"
+msgstr "その他"
+
+msgid "Outra instância do Big-Store já está em execução."
+msgstr "Another instance of Big-Store is already running."
+
+msgid "Erro ao acessar o diretório:"
+msgstr "ディレクトリにアクセスできませんでした："
+
+msgid "Instalando"
+msgstr "インストール"
+
+msgid "Cancelar"
+msgstr "キャンセル"
+
+msgid "Removendo"
+msgstr "削除"
+
+msgid "Fechar"
+msgstr "閉じる"
+
+msgid "AUR"
+msgstr "AUR"
+
+msgid "Pacotes Snap Instalados clique no pacote para remover"
+msgstr "インストールされたSnapパッケージをクリックして削除します。"
+
+msgid "Baixando pacotes novos da base de dados do servidor"
+msgstr "サーバーから新しいデータベースパッケージをダウンロードしています"
+
+msgid "Nenhum pacote passado como parâmetro"
+msgstr "パラメータとして渡されたパッケージはありません。"
+
+msgid "Geral"
+msgstr "一般"
+
+msgid "Tradução online da descrição dos pacotes"
+msgstr "オンラインパッケージ説明の翻訳"
+
+msgid "Ativado"
+msgstr "有効"
+
+msgid "Desativado"
+msgstr "無効"
+
+msgid "Atualizações"
+msgstr "更新"
+
+msgid "Atualizar seu sistema"
+msgstr "システムを更新する"
+
+msgid "Atualizado em"
+msgstr "更新日"
+
+msgid "Repositórios nativos"
+msgstr "ネイティブリポジトリ"
+
+msgid "Atualizar cache dos repositórios nativos"
+msgstr "ネイティブリポジトリのキャッシュを更新"
+
+msgid "Atualizar cache do Pamac"
+msgstr "Pamacのキャッシュを更新"
+
+msgid "Procurar servidor de repositórios nativos mais rápidos"
+msgstr "高速なネイティブリポジトリサーバーを検索"
+
+msgid "Utilize as opções a seguir com cautela"
+msgstr "以下のオプションを慎重に使用してください。"
+
+msgid "Reinstalação"
+msgstr "再インストール"
+
+msgid "Forçar reinstalação de todos os pacotes instalados"
+msgstr "すべてのインストール済みパッケージを再インストールします"
+
+msgid ""
+"Atualizar as chaves dos repositórios BigLinux, Manjaro e Archlinux. Lembre que se você ativou "
+"repositórios complementares será necessário adicionar as chaves desses repositórios novamente."
+msgstr "BigLinux、Manjaro、およびArchlinuxリポジトリのキーを更新します。追加リポジトリを有効にしている場合は、これらのリポジトリのキーを再度追加する必要があります。"
+
+msgid ""
+"Forçar atualizações, utilize essa opção se não estiver conseguindo atualizar o sistema, porém, na "
+"atualização forçada alguns programas podem ser removidos."
+msgstr "強制更新、システムの更新ができない場合にこのオプションを使用しますが、強制更新では一部のプログラムが削除される可能性があります。"
+
+msgid "Para o Snap aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr "この Big-Store のインスタンスを終了してから再起動して、Snap がシステムメニューに表示されるようにしてください。"
+
+msgid "Para o Flatpak aparecer no menu do sistema finalize essa instância do Big-Store e inicie novamente."
+msgstr "システムメニューにFlatpakを表示するには、このBig-Storeのインスタンスを終了してから再起動してください。"
+
+msgid "Ao instalar pacotes, verificar se há atualizações:"
+msgstr "パッケージをインストールする際に更新があるか確認してください。"
+
+msgid ""
+"Ativar tradução online automática das descrições dos pacotes. <br>Obs: A tradução online pode "
+"aumentar a latência na busca dos pacotes."
+msgstr ""
+"Activate automatic online translation of package descriptions. <br>Note: Online translation may "
+"increase latency in package search."
