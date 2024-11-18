@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2022/11/01
-#  Altered: 2024/08/09
+#  Altered: sex 11 out 2024 23:30:54 -04
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240809"
+_VERSION_="1.0.0-20240911"
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
 [[ -f "${LIBRARY}/tinilib.sh" ]] && source "${LIBRARY}/tinilib.sh"
@@ -44,8 +44,7 @@ function sh_config_sh_htm_config {
 	#Translation
 	export TEXTDOMAINDIR="/usr/share/locale"
 	export TEXTDOMAIN=big-store
-#	declare -g Pacotes_text=$"Pacotes"
-	declare -g Pacotes_text=$"Geral"
+	declare -g Geral_text=$"Geral"
 	declare -g Pacotes_flatpak_text=$"Pacotes Flatpak"
 	declare -g Pacotes_Snap_text=$"Pacotes Snap"
 	declare -g Traducao_Online_text=$"Tradução online da descrição dos pacotes"
@@ -199,7 +198,7 @@ export -f sh_update_pacman
 		</div>
 		<div class="content-section">
 		<div class="content-section-title">
-		$Pacotes_text
+		$Geral_text
 		</div>
 		<ul>
 	EOF
@@ -362,43 +361,43 @@ export -f sh_update_pacman
 	EOF
 	#PAMAC UPDATE  END
 
-	#XIVA BEGIN
-	cat <<-EOF
-		<li class="hidemenu">
-		<div class="products">
-		<img src="icons/xiva.png" fill="currentColor" alt="$Ativar_XIVA_Store" width="28" height="28" viewBox="0 0 24 24" style="border-radius: 0px; margin: 0 16px 0 0;">
-		$Ativar_XIVA_Store
-		</div>
-	EOF
-	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
-		local _circle='true'
-		local _checked='checked'
-		local _handle='n'
-		local _text=$Ativado_text
-	else
-		local _circle='false'
-		local _checked=''
-		local _handle='y'
-		local _text=$Desativado_text
-	fi
-	cat <<-EOF
-		<span class="status">
-		<span class="status-circle $_circle"> </span>
-		$_text
-		</span>
-		<div class="button-wrapper">
-		<div class="tooltipped" data-position="bottom" data-tooltip="AboutXiva" >
-		<div class="switch">
-		<label for="x1">
-		<input id="x1" type="checkbox" class="switch" $_checked onclick="handleCheckboxClick('$_handle');">
-		<span class="lever"></span>
-		</label>
-		</div>
-		</div>
-		</div>
-		</li>
-	EOF
-	#XIVA END
+#	#XIVA BEGIN
+#	cat <<-EOF
+#		<li class="hidemenu">
+#		<div class="products">
+#		<img src="icons/xiva.png" fill="currentColor" alt="$Ativar_XIVA_Store" width="28" height="28" viewBox="0 0 24 24" style="border-radius: 0px; margin: 0 16px 0 0;">
+#		$Ativar_XIVA_Store
+#		</div>
+#	EOF
+#	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
+#		local _circle='true'
+#		local _checked='checked'
+#		local _handle='n'
+#		local _text=$Ativado_text
+#	else
+#		local _circle='false'
+#		local _checked=''
+#		local _handle='y'
+#		local _text=$Desativado_text
+#	fi
+#	cat <<-EOF
+#		<span class="status">
+#		<span class="status-circle $_circle"> </span>
+#		$_text
+#		</span>
+#		<div class="button-wrapper">
+#		<div class="tooltipped" data-position="bottom" data-tooltip="AboutXiva" >
+#		<div class="switch">
+#		<label for="x1">
+#		<input id="x1" type="checkbox" class="switch" $_checked onclick="handleCheckboxClick('$_handle');">
+#		<span class="lever"></span>
+#		</label>
+#		</div>
+#		</div>
+#		</div>
+#		</li>
+#	EOF
+#	#XIVA END
 
 	cat <<-EOF
 		</ul>

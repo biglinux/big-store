@@ -6,7 +6,7 @@
 #  Description: Big Store installing programs for BigLinux
 #
 #  Created: 2020/01/11
-#  Altered: 2024/08/11
+#  Altered: 2024/11/05 - 21:30
 #
 #  Copyright (c) 2023-2024, Vilmar Catafesta <vcatafesta@gmail.com>
 #                2022-2023, Bruno Gonçalves <www.biglinux.com.br>
@@ -34,7 +34,7 @@
 #  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP="${0##*/}"
-_VERSION_="1.0.0-20240811"
+_VERSION_="1.0.0-20241105"
 #
 LIBRARY=${LIBRARY:-'/usr/share/bigbashview/bcc/shell'}
 [[ -f "${LIBRARY}/bcclib.sh" ]] && source "${LIBRARY}/bcclib.sh"
@@ -150,6 +150,9 @@ function sh_big_store_start_sh_main {
 	WAYLAND)
 		COMMON_OPTIONS="MOZ_ENABLE_WAYLAND=1 bigbashview -n \"$TITLE\" -s ${default_size}"
 		:
+		;;
+	*) # $_session vazia?, vai de X11
+		COMMON_OPTIONS="QT_QPA_PLATFORM=xcb SDL_VIDEODRIVER=x11 WINIT_UNIX_BACKEND=x11 GDK_BACKEND=x11 bigbashview -n \"$TITLE\" -s ${default_size}"
 		;;
 	esac
 

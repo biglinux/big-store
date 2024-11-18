@@ -395,7 +395,6 @@ function sh_header_sh_htm_main {
 
 	### Categorias ###
 
-#	if sh_get_XIVAStudio; then
 	if TIni.Exist "$INI_FILE_BIG_STORE" "XIVA" "xiva_active" '1'; then
 		cat <<-EOF
 			<div class="side-title">

@@ -58,7 +58,7 @@ function sh_config {
 	CATEGORIES["audioplayer"]="audacious clementine deadbeef elisa lollypop qmmp quodlibet rhythmbox spotify strawberry"
 	CATEGORIES["audioeditor"]="ardour audacity cecilia hydrogen kwave lmms mixxx ocenaudio-bin qtractor rosegarden"
 	CATEGORIES["book"]="atril bookworm calibre coolreader evince fbreader foliate gnome-books okular peruse"
-	CATEGORIES["browser"]="brave-browser chromium epiphany falkon falkon-git firefox firefox-i18n-$lcode google-chrome librewolf-bin lynx microsoft-edge-stable-bin opera palemoon-bin vivaldi"
+	CATEGORIES["browser"]="brave-browser chromium epiphany falkon falkon-git firefox firefox-i18n-$lcode google-chrome librewolf-bin lynx microsoft-edge-stable-bin opera palemoon vivaldi"
 	CATEGORIES["calendar"]="evolution evolution-ews gnome-calendar gnome-contacts kalarm kaddressbook korganizer morgen-bin osmo pantheon-calendar"
 	CATEGORIES["cloud"]="cloudcross cozy-desktop dropbox megasync nextcloud-client owncloud-client overgrive rclone seafile-client sparkleshare syncthing-gtk"
 	CATEGORIES["deveditor"]="android-studio arduino atom bluefish brackets-bin code codeblocks cudatext-gtk2-bin cudatext-qt5-bin eclipse-java-bin emacs gambas3-ide gedit geany gnome-builder goland intellij-idea-community-edition kate kdevelop kdevelop-php kdevelop-python netbeans okteta phpstorm pycharm-community-edition rider spyder sublime-text-4 vscodium-bin visual-studio-code-bin webstorm xmlmind-xmleditor"
